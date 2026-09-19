@@ -12,7 +12,7 @@
     "astro": "astro",
     "typecheck": "tsc --noEmit",
     "lint": "eslint src --ext .ts,.tsx,.astro --max-warnings 0 && prettier --check src",
-    "validate:content": "astro sync && node scripts/validate-content-integrity.ts",
+    "validate:content": "astro sync && node --experimental-strip-types scripts/validate-content-integrity.ts",
     "test": "vitest --run --coverage",
     "test:integration": "vitest --run --config vitest.integration.config.ts",
     "test:e2e": "playwright test",
