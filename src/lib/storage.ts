@@ -35,3 +35,21 @@ export function saveState(
     JSON.stringify(state)
   );
 }
+
+function directionKey(sourceLang: string, targetLang: string): string {
+  return `srs-direction:${sourceLang}:${targetLang}`;
+}
+
+/** Learner's preferred review direction per pair (#10), defaulting to forward. */
+export function loadDirectionPreference(sourceLang: string, targetLang: string): ReviewDirection {
+  const raw = window.localStorage.getItem(directionKey(sourceLang, targetLang));
+  return raw === 'reverse' ? 'reverse' : 'forward';
+}
+
+export function saveDirectionPreference(
+  sourceLang: string,
+  targetLang: string,
+  direction: ReviewDirection
+): void {
+  window.localStorage.setItem(directionKey(sourceLang, targetLang), direction);
+}

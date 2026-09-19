@@ -1,19 +1,25 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
-import { loadPair } from '../../../lib/pairLoader';
+import { loadPair, getAvailablePairs } from '../../../lib/pairLoader';
 
 export async function getStaticPaths() {
-  // Walking skeleton (#21): only the one pair the reference content covers.
-  // Generalise once a second pair actually exists (YAGNI) — see #8.
-  return [{ params: { sourceLang: 'en-GB', targetLang: 'pt-PT' } }];
+  const pairs = await getAvailablePairs();
+  return pairs.map(({ sourceLang, targetLang }) => ({ params: { sourceLang, targetLang } }));
 }
 
 const { sourceLang, targetLang } = Astro.params;
 const items = await loadPair(sourceLang, targetLang);
 ---
 
-<BaseLayout title={`Review: ${sourceLang} → ${targetLang}`}>
+<BaseLayout
+  title={`Review: ${sourceLang} → ${targetLang}`}
+  sourceLang={sourceLang}
+  targetLang={targetLang}
+>
   <h1>Review</h1>
+  <button id="review-direction-toggle" type="button" class="btn btn--secondary">
+    {sourceLang} → {targetLang}
+  </button>
   <p id="review-empty" class="card" hidden>No cards due right now — come back later.</p>
   <div id="review-card" class="review-card card" hidden>
     <p id="review-progress" class="review-card__progress"></p>
@@ -74,7 +80,13 @@ const items = await loadPair(sourceLang, targetLang);
 </style>
 
 <script>
-  import { loadState, saveState } from '../../../lib/storage';
+  import {
+    loadState,
+    saveState,
+    loadDirectionPreference,
+    saveDirectionPreference,
+    type ReviewDirection,
+  } from '../../../lib/storage';
   import { calculateNextReview, isDue } from '../../../utils/srs';
   import { pronounce } from '../../../lib/pronounce';
 
@@ -91,14 +103,12 @@ const items = await loadPair(sourceLang, targetLang);
     targetLang: string;
     items: PairItem[];
   };
-  const direction = 'forward' as const;
 
   // Quality maps 1-4 (Again/Hard/Good/Easy) to SM-2's 0-5 scale (spec §6.3).
   const qualityToSm2: Record<number, number> = { 1: 1, 2: 3, 3: 4, 4: 5 };
 
-  const queue = items.filter((item) =>
-    isDue(loadState(sourceLang, targetLang, direction, item.target.id))
-  );
+  let direction: ReviewDirection = loadDirectionPreference(sourceLang, targetLang);
+  let queue: PairItem[] = [];
   let reviewed = 0;
 
   const cardEl = document.getElementById('review-card')!;
@@ -110,6 +120,29 @@ const items = await loadPair(sourceLang, targetLang);
   const revealBtn = document.getElementById('review-reveal')!;
   const pronounceBtn = document.getElementById('review-pronounce')!;
   const gradesEl = document.getElementById('review-grades')!;
+  const directionToggle = document.getElementById('review-direction-toggle')!;
+
+  function frontOf(item: PairItem) {
+    return direction === 'forward' ? item.source : item.target;
+  }
+  function backOf(item: PairItem) {
+    return direction === 'forward' ? item.target : item.source;
+  }
+  function backLang(): string {
+    return direction === 'forward' ? targetLang : sourceLang;
+  }
+
+  function updateDirectionToggle(): void {
+    directionToggle.textContent =
+      direction === 'forward' ? `${sourceLang} → ${targetLang}` : `${targetLang} → ${sourceLang}`;
+  }
+
+  function buildQueue(): void {
+    queue = items.filter((item) =>
+      isDue(loadState(sourceLang, targetLang, direction, item.target.id))
+    );
+    reviewed = 0;
+  }
 
   function showCard(): void {
     const item = queue[0];
@@ -120,11 +153,24 @@ const items = await loadPair(sourceLang, targetLang);
       return;
     }
     progressEl.textContent = `${reviewed + 1} of ${reviewed + queue.length}`;
-    frontEl.textContent = item.source.term;
-    backEl.textContent = item.target.term;
+    frontEl.textContent = frontOf(item).term;
+    backEl.textContent = backOf(item).term;
     backEl.hidden = true;
     pronounceBtn.hidden = true;
     gradesEl.hidden = true;
+  }
+
+  function renderQueueState(): void {
+    if (queue.length === 0) {
+      cardEl.hidden = true;
+      summaryEl.hidden = true;
+      emptyEl.hidden = false;
+    } else {
+      emptyEl.hidden = true;
+      summaryEl.hidden = true;
+      cardEl.hidden = false;
+      showCard();
+    }
   }
 
   revealBtn.addEventListener('click', () => {
@@ -135,7 +181,7 @@ const items = await loadPair(sourceLang, targetLang);
 
   pronounceBtn.addEventListener('click', () => {
     const item = queue[0];
-    if (item) pronounce(item.target.term, targetLang);
+    if (item) pronounce(backOf(item).term, backLang());
   });
 
   gradesEl.addEventListener('click', (event) => {
@@ -154,10 +200,15 @@ const items = await loadPair(sourceLang, targetLang);
     showCard();
   });
 
-  if (queue.length === 0) {
-    emptyEl.hidden = false;
-  } else {
-    cardEl.hidden = false;
-    showCard();
-  }
+  directionToggle.addEventListener('click', () => {
+    direction = direction === 'forward' ? 'reverse' : 'forward';
+    saveDirectionPreference(sourceLang, targetLang, direction);
+    updateDirectionToggle();
+    buildQueue();
+    renderQueueState();
+  });
+
+  updateDirectionToggle();
+  buildQueue();
+  renderQueueState();
 </script>
