@@ -1,0 +1,7 @@
+{
+  "lessonId": "greetings",
+  "type": "matching",
+  "prompt": "Match each greeting to its appropriate time",
+  "answer": "Bom dia -> Morning (before noon); Boa tarde -> Afternoon (noon to 6 PM); Boa noite -> Evening/night (after 6 PM)",
+  "hints": ["Dia = day, tarde = afternoon, noite = night"]
+}

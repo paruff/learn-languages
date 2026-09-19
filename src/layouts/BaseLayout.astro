@@ -1,0 +1,42 @@
+---
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Learn Portuguese with evidence-based lessons, spaced repetition, and interactive exercises."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>{title}</title>
+    <slot name="head" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Main navigation">
+        <a href="/" class="nav__brand" aria-label="learn-languages home">learn-languages</a>
+        <ul class="nav__links">
+          <li><a href="/lessons" class="nav__link">Lessons</a></li>
+          <li><a href="/practice" class="nav__link">Practice</a></li>
+          <li><a href="/progress" class="nav__link">Progress</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <p class="footer__text">Built with Astro · Deployed via GitOps · CC-BY-4.0</p>
+    </footer>
+    <slot name="scripts" />
+  </body>
+</html>

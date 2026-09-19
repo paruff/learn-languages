@@ -1,0 +1,88 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import '../styles/global.css';
+---
+
+<BaseLayout title="learn-languages — Learn Portuguese with Evidence-Based Methods">
+  <section class="hero" aria-labelledby="hero-title">
+    <h1 id="hero-title">Learn Portuguese with Science</h1>
+    <p class="hero__subtitle">
+      Evidence-based lessons built on SLA research, spaced repetition, and cognitive load theory. No
+      gamification — just effective acquisition.
+    </p>
+    <a href="/lessons" class="btn btn--primary">Start Learning</a>
+  </section>
+
+  <section class="features" aria-labelledby="features-title">
+    <h2 id="features-title" class="sr-only">Why this works</h2>
+    <div class="features__grid">
+      <article class="card feature">
+        <h3>Comprehensible Input</h3>
+        <p>
+          Lessons designed at i+1 level — challenging but understandable. Based on Krashen's Input
+          Hypothesis.
+        </p>
+      </article>
+      <article class="card feature">
+        <h3>Spaced Repetition</h3>
+        <p>
+          SM-2 algorithm schedules reviews for optimal retention. No backend — runs entirely in your
+          browser.
+        </p>
+      </article>
+      <article class="card feature">
+        <h3>Autonomy & Competence</h3>
+        <p>
+          Self-paced with clear progress tracking. Built on Self-Determination Theory for sustained
+          motivation.
+        </p>
+      </article>
+      <article class="card feature">
+        <h3>Cognitive Load Optimized</h3>
+        <p>
+          Multimedia principles applied: integrated audio/text, minimal extraneous load, coherence
+          signaling.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="cta" aria-labelledby="cta-title">
+    <h2 id="cta-title">Ready to begin?</h2>
+    <p>Start with A1 Module 1: Greetings & Introductions</p>
+    <a href="/lessons/greetings" class="btn btn--primary">First Lesson →</a>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    text-align: center;
+    padding: calc(var(--spacing-unit) * 8) 0;
+  }
+  .hero h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    margin-bottom: calc(var(--spacing-unit) * 2);
+  }
+  .hero__subtitle {
+    font-size: 1.25rem;
+    color: var(--color-text-muted);
+    max-width: 600px;
+    margin: 0 auto calc(var(--spacing-unit) * 4);
+  }
+  .features__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: calc(var(--spacing-unit) * 3);
+    margin-top: calc(var(--spacing-unit) * 4);
+  }
+  .feature h3 {
+    margin-bottom: var(--spacing-unit);
+    color: var(--color-primary);
+  }
+  .cta {
+    text-align: center;
+    padding: calc(var(--spacing-unit) * 8) 0;
+    border-top: 1px solid var(--color-border);
+    margin-top: calc(var(--spacing-unit) * 6);
+  }
+</style>

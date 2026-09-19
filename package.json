@@ -1,0 +1,56 @@
+{
+  "name": "learn-languages",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev --background",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src --ext .ts,.tsx,.astro --max-warnings 0 && prettier --check src",
+    "test": "vitest --run --coverage",
+    "test:integration": "vitest --run --config vitest.integration.config.ts",
+    "test:e2e": "playwright test",
+    "a11y": "axe-cli dist/",
+    "format": "prettier --write src",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "astro": "^5.2.0"
+  },
+  "devDependencies": {
+    "@astrojs/mdx": "^4.0.0",
+    "@axe-core/cli": "^4.9.0",
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^22.5.0",
+    "@typescript-eslint/eslint-plugin": "^8.70.0",
+    "@typescript-eslint/parser": "^8.70.0",
+    "@vitest/coverage-v8": "^2.1.0",
+    "astro-eslint-parser": "^3.1.0",
+    "eslint": "^9.10.0",
+    "eslint-plugin-astro": "^1.2.0",
+    "eslint-plugin-jsx-a11y": "^6.10.0",
+    "husky": "^9.1.7",
+    "jsdom": "^30.1.0",
+    "lint-staged": "^17.5.1",
+    "prettier": "^3.3.3",
+    "prettier-plugin-astro": "^0.14.1",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  },
+  "allowScripts": {
+    "esbuild": true
+  },
+  "lint-staged": {
+    "src/**/*.{ts,tsx,astro,js,jsx,json,css,md,mdx,yaml,yml}": [
+      "prettier --check"
+    ],
+    "src/**/*.{ts,tsx,astro}": [
+      "eslint --max-warnings 0"
+    ]
+  }
+}

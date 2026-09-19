@@ -1,0 +1,7 @@
+{
+  "lessonId": "greetings",
+  "type": "fill-blank",
+  "prompt": "Complete the greeting: \"_____ dia!\" (Good morning!)",
+  "answer": "Bom",
+  "hints": ["Think about the time of day", "It's two words in English but one in Portuguese"]
+}

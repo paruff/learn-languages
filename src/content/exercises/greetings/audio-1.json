@@ -1,0 +1,8 @@
+{
+  "lessonId": "greetings",
+  "type": "audio",
+  "prompt": "Listen and select the greeting you hear",
+  "answer": "Boa tarde",
+  "audio": "/audio/greetings_boatarte.mp3",
+  "hints": ["Listen for the open 'a' in tarde"]
+}

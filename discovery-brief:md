@@ -1,0 +1,204 @@
+# Discovery Brief: Portuguese Learning Platform (EN↔PT, CEFR A1–C2)
+
+**Version:** 1.0  
+**Date:** 19 September 2026  
+**Status:** Draft for validation
+
+---
+
+## 1. Overview
+
+This discovery brief investigates the feasibility and desirability of building a **static, GitHub Pages-hosted language learning platform** for European Portuguese, structured around **CEFR levels A1 through C2**, using an **abstract, language-pair-agnostic content model** that separates “what the learner can do” from “how it is expressed in a specific language.”
+
+The trigger for this discovery is a **personal learning need**: the founder is currently taking an online Portuguese course (A1 level) and has identified a gap in self-paced, CEFR-aligned tools that support spaced repetition, offline-capable review, and transparent progress tracking against internationally recognised proficiency benchmarks.
+
+Before committing to build, this brief aims to determine whether the abstract content model is technically viable, whether the JTBD are real and underserved, and whether the effort required is proportionate to the value delivered for an initial EN→PT A1 implementation.
+
+---
+
+## 2. Problem Statement
+
+Adult learners of European Portuguese face a fragmented landscape of learning tools that fail to bridge the gap between **casual, gamified apps** (Duolingo, Memrise) and **academically rigorous but rigid courses** (textbooks, formal classes). Specifically:
+
+- **No widely available self-paced tool** maps vocabulary and grammar to **CEFR Can-Do statements** in a way that is transparent to the learner.
+- **Spaced repetition tools** (Anki) are powerful but require significant setup and offer no CEFR-level guidance on what to study next.
+- **Progress tracking** in existing tools measures activity (streaks, XP) rather than **demonstrable proficiency** against a recognised standard.
+- **Learners with fragmented time** (commuters, professionals) need short, offline-capable review sessions without the overhead of course scheduling.
+
+The core problem: **There is no lightweight, self-paced, CEFR-aligned Portuguese learning tool that connects vocabulary acquisition to demonstrable proficiency and respects the learner’s fragmented time.**
+
+---
+
+## 3. Target Users & Jobs to Be Done
+
+### Persona 1: The Reluctant Commuter (Primary)
+
+**Profile:** Adult learner, 28–45, working professional. Has 10–15 minutes of fragmented time, often on a phone, with unreliable connectivity. Has started and abandoned Duolingo twice.
+
+| Dimension | Job Statement |
+|---|---|
+| **Functional** | When I have a 10-minute gap between meetings, I want to review exactly the vocabulary that’s due for reinforcement, so I can make measurable progress without needing a full study session. |
+| **Emotional** | When I miss a day of study, I want to return without feeling guilty or “behind,” so I can maintain momentum without streak-guilt mechanics. |
+| **Social** | When I mention I’m learning Portuguese, I want to be able to point to a credible framework (CEFR) that signals I’m doing this seriously, not just playing a game. |
+
+**Constraints:** Mobile-first, offline-capable, sessions under 10 minutes, no forced daily streaks.
+
+**Evidence source:** Founder’s own experience + qualitative interviews (to be conducted).
+
+---
+
+### Persona 2: The Credential-Seeker (Secondary)
+
+**Profile:** Adult learner, 25–40, studying Portuguese for a specific professional or academic milestone (e.g., job application requiring B1, university exchange at A2/B1). Needs demonstrable progress against a recognised standard.
+
+| Dimension | Job Statement |
+|---|---|
+| **Functional** | When I’m preparing for a milestone that requires a specific CEFR level, I want to see exactly which Can-Do statements I’ve mastered and which remain, so I can focus my study time on the gaps. |
+| **Emotional** | When I review my progress, I want to feel certain that my learning is real and measurable, not illusory activity. |
+| **Social** | When I present my language ability to an employer or institution, I want to reference a structured CEFR-aligned record of what I can do, even if it’s not formally certified. |
+
+**Constraints:** Needs CEFR-level dashboard, exportable Can-Do checklist, clear “next recommended node” guidance.
+
+**Evidence source:** CEFR B2 is the most common employer requirement for professional roles (desk research).
+
+---
+
+### Anti-Persona: The Certification-Mill Student
+
+**Profile:** Learner who wants only to pass a test with minimal learning, seeks answer keys, and would game any gamified system.
+
+**Why named:** Explicitly excludes features optimised for completion metrics (e.g., streak mechanics, XP bonuses for speed over retention). The platform optimises for **genuine acquisition**, not engagement theatre.
+
+---
+
+## 4. Evidence & Insights
+
+### Confirmed Facts
+
+- **CEFR descriptors are language-independent by design.** The Council of Europe states CEFR is “potentially applicable to all the languages taught in Europe and does not relate to any specific one.” This validates the abstract node model.
+- **Referencial Camões PLE exists** as the authoritative Portuguese RLD (Reference Level Description), providing A1–C1 vocabulary and grammar inventories already mapped to CEFR.
+- **Open-source multi-language CEFR content exists** (`astrapi69/adaptive-learner-content`), proving the source→target language-pair data model works in practice.
+- **Astro is the recommended framework** for content-heavy sites with targeted interactivity, offering zero JavaScript by default and islands for interactive components .
+
+### Assumptions (To Validate)
+
+| Assumption | Validation Plan |
+|---|---|
+| Learners will tolerate a self-paced platform without human feedback. | Interview 5–8 learners who have used self-paced tools; ask about abandonment reasons. |
+| The SRS dashboard will be sufficient motivation for the credential-seeker. | Prototype the dashboard and test with 3 target users. |
+| Extracting Referencial Camões data into YAML is feasible within 2–4 weeks. | Spike: extract 5 A1 nodes manually, estimate time per node, extrapolate. |
+| Learners will contribute content (lessons) if the schema is simple. | Draft `CONTRIBUTING.md` and test with 1–2 non-technical native speakers. |
+
+### Judgments
+
+- The **abstract content model is the highest-value architectural investment** and the highest-risk component. If the Zod schemas for CEFR nodes and realisations are correct, everything downstream follows. If wrong, every subsequent issue inherits the problem.
+- **A1 EN→PT is the correct MVP scope.** Multi-language support should not be built until the A1 content model is proven with real learners.
+
+---
+
+## 5. Current Workflows and Alternatives
+
+| Alternative | What it does well | Where it falls short |
+|---|---|---|
+| **Duolingo** | Gamified, low friction, mobile-first | CEFR mapping opaque; progress measures activity, not proficiency; streak-guilt |
+| **Anki + shared deck** | Powerful SRS, offline-capable | No CEFR guidance; setup overhead; no Can-Do mapping |
+| **Traditional class** | Structured, teacher feedback | Fixed schedule; not self-paced; expensive |
+| **Textbook + audio** | Authoritative content | No SRS; no progress tracking; not interactive |
+| **Doing nothing** | Zero effort | No progress; eventual abandonment |
+
+**Real competitor:** The most common alternative is **doing nothing** or **using a paper notebook**. The platform must offer a *lower-friction* path to structured progress than any of these.
+
+---
+
+## 6. Success Metrics
+
+| Metric | Baseline | Target (3 months post-launch) | Data Source |
+|---|---|---|---|
+| **Weekly active learners (A1 EN→PT)** | 0 | 50 | GitHub Pages analytics (privacy-respecting) |
+| **A1 vocabulary items with SRS interval >21 days** | 0 | 60% of A1 vocabulary | localStorage aggregation (anonymised) |
+| **Can-Do statements with >50% mastery** | 0 | 10 A1 statements | Dashboard analytics |
+| **Return rate (Week 2)** | — | 40% | localStorage session tracking |
+
+---
+
+## 7. Risks & Unknowns
+
+| Risk | Severity | Mitigation |
+|---|---|---|
+| **Referencial Camões extraction harder than estimated** | High | Spike first: extract 5 nodes, measure time, decide go/no-go |
+| **Abstract schema doesn’t accommodate grammar cross-linguistic differences** | High | Validate schema with 2–3 grammar points (ser/estar, tu/você) before full build |
+| **Learners don’t return after first session** | Medium | Prototype review session with 3 users; measure friction points |
+| **GitHub Pages limits (file size, build time)** | Low | Astro static output is well within limits; monitor as content grows |
+| **Content authoring doesn’t scale beyond founder** | Medium | `CONTRIBUTING.md` + schema simplicity is the mitigation; validate with 1 contributor |
+
+---
+
+## 8. Scope Boundaries
+
+### In Scope (MVP)
+
+- **EN→PT (European Portuguese)** language pair only
+- **A1 level only** for content authoring
+- **Abstract CEFR node model** with Zod schemas
+- **SRS (SM-2) review interface** with localStorage persistence
+- **CEFR Can-Do progress dashboard** for A1
+- **Text-to-speech pronunciation** (Web Speech API, `pt-PT`)
+- **GitHub Pages deployment** via Astro + GitHub Actions
+
+### Explicitly Out of Scope
+
+- User accounts / cloud sync (localStorage only for MVP)
+- Mobile native app
+- Content beyond A1
+- Languages beyond EN↔PT
+- Formal CEFR certification or assessment
+- Synchronous tutoring or live sessions
+- Social/community features beyond GitHub Discussions
+
+---
+
+## 9. Recommendation and Next Steps
+
+### Recommendation
+
+**Proceed with a constrained discovery spike before full build commitment.**
+
+The conceptual foundation is sound: CEFR descriptors are language-independent, the Referencial Camões exists, and Astro is the correct framework for content-first static sites with targeted interactivity . However, the **abstract content model carries significant schema risk**. If the Zod schemas cannot cleanly represent cross-linguistic grammar differences (e.g., Portuguese `ser` vs. `estar` having no direct English equivalent), the entire abstraction layer may require re-architecture.
+
+### Next Steps
+
+1. **Immediate (Week 1–2): Schema Spike**
+   - Extract 5 A1 CEFR nodes from Referencial Camões into YAML.
+   - Create paired pt-PT and en-GB realisations.
+   - Validate that the Zod schema accommodates at least 3 grammar points with cross-linguistic differences.
+   - **Decision gate:** If schema holds, proceed to full build. If not, re-architect before writing any UI code.
+
+2. **Short-term (Week 3–4): User Validation**
+   - Interview 5 learners matching Persona 1 (Reluctant Commuter).
+   - Test a paper prototype of the SRS review session and progress dashboard.
+   - Revise JTBD statements based on evidence.
+
+3. **Medium-term (Week 5–8): MVP Build**
+   - Implement Epics 1–4 from the GitHub Issues plan (Foundation, SRS Engine, Abstract Model, Language Pair Content).
+   - Deploy A1 EN→PT to GitHub Pages.
+   - Instrument analytics (privacy-respecting) for success metrics.
+
+4. **Post-Launch (Month 3): Review**
+   - Evaluate against success metrics.
+   - Decide whether to expand to A2, add languages, or iterate on A1 based on learner feedback.
+
+---
+
+## Appendix: Key Concepts Reference
+
+| Term | Definition |
+|---|---|
+| **CEFR Node** | An abstract, language-independent unit of learning (e.g., “Can greet people and respond to greetings”). |
+| **Realisation** | The language-specific expression of a CEFR node (vocabulary, grammar, examples) in a particular language. |
+| **JTBD** | Jobs to Be Done: the functional, emotional, and social progress a user is trying to make in a given situation. |
+| **SM-2** | A spaced repetition algorithm that schedules review intervals based on recall quality. |
+| **Island** | An Astro concept: an interactive component hydrated on the client, isolated within an otherwise static page. |
+
+---
+
+*This brief is a living document. Version it, date it, and revisit when evidence contradicts assumptions. The goal is not a perfect brief; it is a brief that makes the next decision obvious.*

@@ -1,0 +1,7 @@
+{
+  "lessonId": "greetings",
+  "type": "multiple-choice",
+  "prompt": "How do you say 'Good evening' in Portuguese?",
+  "answer": "Boa noite",
+  "hints": ["Noite means night", "Boa agrees with noite (feminine)"]
+}

@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Run all quality gates deterministically
+npm run typecheck
+npm run lint
+npm run test

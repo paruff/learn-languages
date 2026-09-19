@@ -1,0 +1,125 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import '../styles/global.css';
+
+interface LessonData {
+  id: string;
+  data: {
+    title: string;
+    cefr: string;
+    module: string;
+    order: number;
+    audio?: string;
+    tags: string[];
+  };
+  body: string;
+}
+
+interface Props {
+  lesson: LessonData;
+}
+
+const { lesson } = Astro.props;
+const { data, body } = lesson;
+---
+
+<BaseLayout title={`${data.title} — learn-languages`}>
+  <article class="lesson">
+    <header class="lesson__header">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol class="breadcrumb__list">
+          <li><a href="/">Home</a></li>
+          <li><a href="/lessons">Lessons</a></li>
+          <li><a href={`/lessons/${data.module.toLowerCase()}`}>{data.module}</a></li>
+          <li aria-current="page">{data.title}</li>
+        </ol>
+      </nav>
+      <div class="lesson__meta">
+        <span class="badge badge--{data.cefr.toLowerCase()}">{data.cefr}</span>
+        <span class="lesson__module">{data.module} · Lesson {data.order}</span>
+      </div>
+      <h1 class="lesson__title">{data.title}</h1>
+    </header>
+
+    {
+      data.audio && (
+        <div class="lesson__audio">
+          <audio-player src={data.audio} label={`Audio for ${data.title}`} />
+        </div>
+      )
+    }
+
+    <div class="lesson__content" set:html={body} />
+
+    <nav class="lesson__nav" aria-label="Lesson navigation">
+      <a href="#" class="btn btn--secondary">← Previous</a>
+      <a href="#" class="btn btn--primary">Practice →</a>
+    </nav>
+  </article>
+</BaseLayout>
+
+<style>
+  .lesson {
+    max-width: 800px;
+  }
+  .breadcrumb__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-unit);
+    list-style: none;
+    padding: 0;
+    margin: 0 0 calc(var(--spacing-unit) * 2);
+    font-size: 0.875rem;
+  }
+  .breadcrumb__list li:not(:last-child)::after {
+    content: '/';
+    margin-left: var(--spacing-unit);
+    color: var(--color-text-muted);
+  }
+  .breadcrumb__list a {
+    color: var(--color-text-muted);
+  }
+  .breadcrumb__list a:hover {
+    color: var(--color-primary);
+  }
+  .breadcrumb__list li[aria-current='page'] {
+    color: var(--color-text);
+    font-weight: 500;
+  }
+  .lesson__meta {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-unit);
+    margin-bottom: var(--spacing-unit);
+  }
+  .lesson__module {
+    color: var(--color-text-muted);
+    font-size: 0.875rem;
+  }
+  .lesson__title {
+    margin-bottom: calc(var(--spacing-unit) * 3);
+  }
+  .lesson__audio {
+    margin-bottom: calc(var(--spacing-unit) * 3);
+  }
+  .lesson__content {
+    line-height: 1.8;
+  }
+  .lesson__content h2 {
+    margin-top: calc(var(--spacing-unit) * 4);
+    padding-top: calc(var(--spacing-unit) * 2);
+    border-top: 1px solid var(--color-border);
+  }
+  .lesson__content h2:first-child {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: none;
+  }
+  .lesson__nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: calc(var(--spacing-unit) * 6);
+    padding-top: calc(var(--spacing-unit) * 3);
+    border-top: 1px solid var(--color-border);
+  }
+</style>

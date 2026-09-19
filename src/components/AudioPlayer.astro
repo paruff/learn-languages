@@ -1,0 +1,9 @@
+---
+// AudioPlayer.astro - Interactive island for audio playback
+import '../components/audio-player/AudioPlayer.ts';
+---
+
+<audio controls class="audio-player" data-src={src} aria-label={label}>
+  <source src={src} type="audio/mpeg" />
+  Your browser does not support the audio element.
+</audio>
