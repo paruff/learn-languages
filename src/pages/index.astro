@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import '../styles/global.css';
+import { withBase } from '../lib/urls';
 ---
 
 <BaseLayout title="learn-languages — Learn Portuguese with Evidence-Based Methods">
@@ -10,7 +11,7 @@ import '../styles/global.css';
       Evidence-based lessons built on SLA research, spaced repetition, and cognitive load theory. No
       gamification — just effective acquisition.
     </p>
-    <a href="/lessons" class="btn btn--primary">Start Learning</a>
+    <a href={withBase('/en-GB/pt-PT/lessons/')} class="btn btn--primary">Start Learning</a>
   </section>
 
   <section class="features" aria-labelledby="features-title">
@@ -50,7 +51,9 @@ import '../styles/global.css';
   <section class="cta" aria-labelledby="cta-title">
     <h2 id="cta-title">Ready to begin?</h2>
     <p>Start with A1 Module 1: Greetings & Introductions</p>
-    <a href="/lessons/greetings" class="btn btn--primary">First Lesson →</a>
+    <a href={withBase('/en-GB/pt-PT/lessons/A1-GREET-001/')} class="btn btn--primary"
+      >First Lesson →</a
+    >
   </section>
 </BaseLayout>
 

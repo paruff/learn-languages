@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import { withBase } from '../../../../lib/urls';
 
 export async function getStaticPaths() {
   // Walking skeleton scope (#7/#21): only the one pair the reference content
@@ -90,7 +91,7 @@ const { node, source, target } = Astro.props;
     }
 
     <p class="lesson__cta">
-      <a href={`/${sourceLang}/${targetLang}/review/`}>Practice these words →</a>
+      <a href={withBase(`/${sourceLang}/${targetLang}/review/`)}>Practice these words →</a>
     </p>
   </article>
 </BaseLayout>
