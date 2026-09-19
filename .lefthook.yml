@@ -19,5 +19,7 @@ pre-push:
       run: npm run validate:content
     test-unit:
       run: npm run test -- --reporter=verbose
-    test-e2e:
-      run: npm run test:e2e
+    # E2E tests run in CI pipeline (requires web server)
+    # Uncomment to run locally: test-e2e:
+    # test-e2e:
+    #   run: npm run test:e2e
