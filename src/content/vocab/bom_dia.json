@@ -1,7 +1,10 @@
 {
-  "word": "Bom dia",
+  "id": "pt-PT-greet-002",
+  "term": "Bom dia",
   "translation": "Good morning",
-  "cefr": "A1",
-  "tags": ["greetings", "time"],
-  "audio": "/audio/vocab/bom_dia.mp3"
+  "partOfSpeech": "phrase",
+  "gender": "n/a",
+  "example": "Bom dia, senhor Silva.",
+  "exampleTranslation": "Good morning, Mr. Silva.",
+  "audioUrl": "/audio/vocab/bom_dia.mp3"
 }

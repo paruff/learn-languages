@@ -1,0 +1,11 @@
+nodeId: A1-INTRO-002
+cefrLevel: A1
+skill: spoken_interaction
+canDo: Can ask and answer basic questions about personal details
+pragmaticFocus: Use appropriate question forms for personal information
+notionalFocus: Name, age, nationality, occupation
+relatedNodes:
+  - A1-INTRO-001
+  - A1-FAMILY-001
+prerequisiteNodes:
+  - A1-INTRO-001

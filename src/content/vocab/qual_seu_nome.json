@@ -1,7 +1,10 @@
 {
-  "word": "Qual é o seu nome?",
+  "id": "pt-PT-intro-002",
+  "term": "Qual é o seu nome?",
   "translation": "What is your name?",
-  "cefr": "A1",
-  "tags": ["introductions", "questions"],
-  "audio": "/audio/vocab/qual_seu_nome.mp3"
+  "partOfSpeech": "phrase",
+  "gender": "n/a",
+  "example": "Qual é o seu nome?",
+  "exampleTranslation": "What is your name?",
+  "audioUrl": "/audio/vocab/qual_seu_nome.mp3"
 }

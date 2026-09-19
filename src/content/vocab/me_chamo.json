@@ -1,7 +1,10 @@
 {
-  "word": "Me chamo",
+  "id": "pt-PT-intro-001",
+  "term": "Me chamo",
   "translation": "My name is (literally: I call myself)",
-  "cefr": "A1",
-  "tags": ["introductions", "reflexive"],
-  "audio": "/audio/vocab/me_chamo.mp3"
+  "partOfSpeech": "verb",
+  "gender": "n/a",
+  "example": "Me chamo João.",
+  "exampleTranslation": "My name is João.",
+  "audioUrl": "/audio/vocab/me_chamo.mp3"
 }

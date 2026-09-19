@@ -1,7 +1,10 @@
 {
-  "word": "Boa noite",
+  "id": "pt-PT-greet-004",
+  "term": "Boa noite",
   "translation": "Good evening/night",
-  "cefr": "A1",
-  "tags": ["greetings", "time"],
-  "audio": "/audio/vocab/boa_noite.mp3"
+  "partOfSpeech": "phrase",
+  "gender": "n/a",
+  "example": "Boa noite, até amanhã.",
+  "exampleTranslation": "Good night, see you tomorrow.",
+  "audioUrl": "/audio/vocab/boa_noite.mp3"
 }

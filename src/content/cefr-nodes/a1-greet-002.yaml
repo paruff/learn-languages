@@ -1,0 +1,11 @@
+nodeId: A1-GREET-002
+cefrLevel: A1
+skill: spoken_interaction
+canDo: Can use basic formulas for leave-taking
+pragmaticFocus: Use appropriate leave-taking formula for time of day and formality
+notionalFocus: Time of day, formality register
+relatedNodes:
+  - A1-GREET-001
+  - A1-INTRO-001
+prerequisiteNodes:
+  - A1-GREET-001

@@ -1,0 +1,11 @@
+nodeId: A1-INTRO-001
+cefrLevel: A1
+skill: spoken_interaction
+canDo: Can introduce themselves and others
+pragmaticFocus: Use appropriate introduction formula for formality
+notionalFocus: Identity, name, origin
+relatedNodes:
+  - A1-INTRO-002
+  - A1-GREET-001
+prerequisiteNodes:
+  - A1-GREET-001

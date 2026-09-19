@@ -1,0 +1,10 @@
+nodeId: A1-FOOD-001
+cefrLevel: A1
+skill: reading
+canDo: Can identify common food and drink items
+pragmaticFocus: Recognize food vocabulary in menus and shops
+notionalFocus: Food, drink, meals
+relatedNodes:
+  - A1-FOOD-002
+  - A1-SHOP-001
+prerequisiteNodes: []

@@ -1,7 +1,10 @@
 {
-  "word": "Prazer",
+  "id": "pt-PT-intro-003",
+  "term": "Prazer",
   "translation": "Nice to meet you (literally: pleasure)",
-  "cefr": "A1",
-  "tags": ["introductions", "politeness"],
-  "audio": "/audio/vocab/prazer.mp3"
+  "partOfSpeech": "noun",
+  "gender": "masculine",
+  "example": "Prazer, João.",
+  "exampleTranslation": "Nice to meet you, João.",
+  "audioUrl": "/audio/vocab/prazer.mp3"
 }

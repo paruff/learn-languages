@@ -1,0 +1,9 @@
+nodeId: A1-NUMB-001
+cefrLevel: A1
+skill: reading
+canDo: Can recognize and write numbers 1-100
+pragmaticFocus: Recognize cardinal numbers in written form
+notionalFocus: Numbers, counting
+relatedNodes:
+  - A1-NUMB-002
+prerequisiteNodes: []

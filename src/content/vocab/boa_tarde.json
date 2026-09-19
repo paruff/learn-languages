@@ -1,7 +1,10 @@
 {
-  "word": "Boa tarde",
+  "id": "pt-PT-greet-003",
+  "term": "Boa tarde",
   "translation": "Good afternoon",
-  "cefr": "A1",
-  "tags": ["greetings", "time"],
-  "audio": "/audio/vocab/boa_tarde.mp3"
+  "partOfSpeech": "phrase",
+  "gender": "n/a",
+  "example": "Boa tarde, como vai?",
+  "exampleTranslation": "Good afternoon, how are you?",
+  "audioUrl": "/audio/vocab/boa_tarde.mp3"
 }

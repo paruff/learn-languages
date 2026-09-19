@@ -1,0 +1,10 @@
+nodeId: A1-GREET-001
+cefrLevel: A1
+skill: spoken_interaction
+canDo: Can greet people and respond to greetings
+pragmaticFocus: Use appropriate greeting for time of day and formality
+notionalFocus: Time of day, formality register
+relatedNodes:
+  - A1-GREET-002
+  - A1-INTRO-001
+prerequisiteNodes: []

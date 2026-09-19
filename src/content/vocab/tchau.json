@@ -1,7 +1,10 @@
 {
-  "word": "Tchau",
+  "id": "pt-PT-farewell-001",
+  "term": "Tchau",
   "translation": "Bye (informal)",
-  "cefr": "A1",
-  "tags": ["farewells", "informal"],
-  "audio": "/audio/vocab/tchau.mp3"
+  "partOfSpeech": "interjection",
+  "gender": "n/a",
+  "example": "Tchau, até logo!",
+  "exampleTranslation": "Bye, see you later!",
+  "audioUrl": "/audio/vocab/tchau.mp3"
 }

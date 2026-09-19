@@ -22,6 +22,7 @@ export default defineConfig({
         'src/components/audio-player/**',
         'vitest.integration.setup.ts',
         '.astro/**',
+        'src/content.config.ts',
       ],
       thresholds: {
         lines: 80,

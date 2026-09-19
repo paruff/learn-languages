@@ -1,7 +1,10 @@
 {
-  "word": "Olá",
+  "id": "pt-PT-greet-001",
+  "term": "Olá",
   "translation": "Hello",
-  "cefr": "A1",
-  "tags": ["greetings", "basics"],
-  "audio": "/audio/vocab/ola.mp3"
+  "partOfSpeech": "interjection",
+  "gender": "n/a",
+  "example": "Olá, como estás?",
+  "exampleTranslation": "Hello, how are you?",
+  "audioUrl": "/audio/vocab/ola.mp3"
 }
