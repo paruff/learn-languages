@@ -1,0 +1,17 @@
+nodeId: A1-GREET-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-A1-GREET-001-001
+    term: 'Olá'
+    translation: 'Hello'
+    partOfSpeech: interjection
+    example: 'Olá, como estás?'
+    exampleTranslation: 'Hello, how are you?'
+  - id: pt-PT-A1-GREET-001-002
+    term: 'Bom dia'
+    translation: 'Good morning'
+    partOfSpeech: phrase
+    example: 'Bom dia, senhor Silva.'
+    exampleTranslation: 'Good morning, Mr. Silva.'
+grammar: []
+culturalNotes: 'Handshakes are standard in formal greetings; cheek kisses (one or two) are common among friends.'

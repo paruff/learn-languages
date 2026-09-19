@@ -1,0 +1,22 @@
+nodeId: A1-INTRO-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-A1-INTRO-001-001
+    term: 'Chamo-me'
+    translation: 'My name is'
+    partOfSpeech: phrase
+    example: 'Chamo-me João.'
+    exampleTranslation: 'My name is João.'
+  - id: pt-PT-A1-INTRO-001-002
+    term: 'Prazer'
+    translation: 'Nice to meet you'
+    partOfSpeech: interjection
+    example: 'Prazer em conhecê-lo.'
+    exampleTranslation: 'Nice to meet you (literally: pleasure to know you).'
+grammar:
+  - id: pt-PT-A1-INTRO-001-G1
+    point: 'Formal vs. informal address (tu/você)'
+    explanation: "European Portuguese distinguishes informal 'tu' from formal 'você'. Use 'você' with strangers, elders, and professional contexts."
+    examples:
+      - 'Como te chamas? (informal)'
+      - 'Como se chama? (formal)'

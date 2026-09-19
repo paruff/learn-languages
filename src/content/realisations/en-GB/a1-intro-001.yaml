@@ -1,0 +1,16 @@
+nodeId: A1-INTRO-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-A1-INTRO-001-001
+    term: 'My name is'
+    translation: 'Chamo-me'
+    partOfSpeech: phrase
+    example: 'My name is João.'
+    exampleTranslation: 'Chamo-me João.'
+  - id: en-GB-A1-INTRO-001-002
+    term: 'Nice to meet you'
+    translation: 'Prazer'
+    partOfSpeech: interjection
+    example: 'Nice to meet you.'
+    exampleTranslation: 'Prazer em conhecê-lo.'
+grammar: []

@@ -1,0 +1,16 @@
+nodeId: A1-GREET-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-A1-GREET-001-001
+    term: 'Hello'
+    translation: 'Olá'
+    partOfSpeech: interjection
+    example: 'Hello, how are you?'
+    exampleTranslation: 'Olá, como estás?'
+  - id: en-GB-A1-GREET-001-002
+    term: 'Good morning'
+    translation: 'Bom dia'
+    partOfSpeech: phrase
+    example: 'Good morning, Mr. Silva.'
+    exampleTranslation: 'Bom dia, senhor Silva.'
+grammar: []

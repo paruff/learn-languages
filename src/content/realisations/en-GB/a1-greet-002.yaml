@@ -1,0 +1,16 @@
+nodeId: A1-GREET-002
+lang: en-GB
+vocabulary:
+  - id: en-GB-A1-GREET-002-001
+    term: 'Bye'
+    translation: 'Tchau'
+    partOfSpeech: interjection
+    example: 'Bye, see you tomorrow!'
+    exampleTranslation: 'Tchau, até amanhã!'
+  - id: en-GB-A1-GREET-002-002
+    term: 'See you later'
+    translation: 'Até logo'
+    partOfSpeech: phrase
+    example: 'See you later, have a good afternoon!'
+    exampleTranslation: 'Até logo, boa tarde!'
+grammar: []

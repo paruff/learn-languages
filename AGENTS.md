@@ -14,11 +14,19 @@
 - **Deployment**: GitHub Actions → GitHub Pages (static export)
 - **Principles**: Evidence-based SLA, SDT motivation, cognitive load management, privacy by default
 
+### 1.1 Delivery Stage
+
+This project is **pre-validation**: zero real learners, biggest named risk is retention (discovery-brief.md R3 — "learners don't return after session 1"), not scale or supply-chain integrity. Process weight should match that:
+
+- **Priority order:** a working EN→PT review loop in front of real learners beats a complete CEFR schema or exhaustive content inventory. Don't let schema/content perfectionism (Epic: Abstract Content Model, Epic: Language Pair Content Authoring) block getting a thin, ugly, working vertical slice in front of users.
+- **CI gates** (`.github/workflows/pipe.yml`) are scoped to what a pre-launch static site needs: content validation, typecheck, lint, unit tests, build, deploy. SAST scanning, SBOM generation, and artifact signing were removed — reintroduce them when there's a real user base and a supply chain worth hardening, not before.
+- **Skill workflow below** still applies to real feature/content-model work. It does not mean every spike, throwaway prototype, or "get this in front of a user by Friday" task needs the full ceremony — use judgment; a walking skeleton is allowed to be rough.
+
 ---
 
-## 2. Superpowers Skill Workflow (MANDATORY)
+## 2. Superpowers Skill Workflow (MANDATORY for feature/content-model work)
 
-All agents MUST follow the Superpowers skill sequence for ANY task:
+All agents MUST follow the Superpowers skill sequence for feature and content-model work — see §1.1 for when lighter iteration is appropriate:
 
 ### 2.1 Skill Sequence
 
