@@ -36,6 +36,15 @@
   box-sizing: border-box;
 }
 
+/* A class-based `display` (e.g. .btn, .card) always wins over the UA
+   stylesheet's `[hidden] { display: none }` by specificity, silently
+   breaking any hidden-attribute-toggled element that also has a
+   display-setting class. Restore it globally instead of re-fixing this
+   per component. */
+[hidden] {
+  display: none !important;
+}
+
 html {
   font-size: 16px;
   scroll-behavior: smooth;

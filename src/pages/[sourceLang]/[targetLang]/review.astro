@@ -14,21 +14,27 @@ const items = await loadPair(sourceLang, targetLang);
 
 <BaseLayout title={`Review: ${sourceLang} → ${targetLang}`}>
   <h1>Review</h1>
-  <p id="review-empty" hidden>No cards due right now — come back later.</p>
-  <div id="review-card" hidden>
-    <p id="review-progress"></p>
-    <p id="review-front"></p>
-    <button id="review-reveal" type="button">Reveal</button>
-    <p id="review-back" hidden></p>
-    <button id="review-pronounce" type="button" hidden aria-label="Pronounce">🔊</button>
-    <div id="review-grades" hidden>
-      <button type="button" data-quality="1">Again</button>
-      <button type="button" data-quality="2">Hard</button>
-      <button type="button" data-quality="3">Good</button>
-      <button type="button" data-quality="4">Easy</button>
+  <p id="review-empty" class="card" hidden>No cards due right now — come back later.</p>
+  <div id="review-card" class="review-card card" hidden>
+    <p id="review-progress" class="review-card__progress"></p>
+    <p id="review-front" class="review-card__term"></p>
+    <button id="review-reveal" type="button" class="btn btn--primary">Reveal</button>
+    <p id="review-back" class="review-card__term review-card__term--answer" hidden></p>
+    <button
+      id="review-pronounce"
+      type="button"
+      class="btn btn--secondary"
+      hidden
+      aria-label="Pronounce">🔊</button
+    >
+    <div id="review-grades" class="review-card__grades" hidden>
+      <button type="button" class="btn btn--secondary" data-quality="1">Again</button>
+      <button type="button" class="btn btn--secondary" data-quality="2">Hard</button>
+      <button type="button" class="btn btn--secondary" data-quality="3">Good</button>
+      <button type="button" class="btn btn--primary" data-quality="4">Easy</button>
     </div>
   </div>
-  <p id="review-summary" hidden></p>
+  <p id="review-summary" class="card" hidden></p>
 
   <script
     type="application/json"
@@ -36,6 +42,36 @@ const items = await loadPair(sourceLang, targetLang);
     set:html={JSON.stringify({ sourceLang, targetLang, items })}
   />
 </BaseLayout>
+
+<style>
+  .review-card {
+    max-width: 420px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: calc(var(--spacing-unit) * 2);
+  }
+  .review-card__progress {
+    color: var(--color-text-muted);
+    font-size: 0.875rem;
+    margin: 0;
+  }
+  .review-card__term {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+  }
+  .review-card__term--answer {
+    color: var(--color-primary);
+  }
+  .review-card__grades {
+    display: flex;
+    gap: var(--spacing-unit);
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+</style>
 
 <script>
   import { loadState, saveState } from '../../../lib/storage';
