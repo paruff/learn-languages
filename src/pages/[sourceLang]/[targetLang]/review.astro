@@ -20,6 +20,7 @@ const items = await loadPair(sourceLang, targetLang);
     <p id="review-front"></p>
     <button id="review-reveal" type="button">Reveal</button>
     <p id="review-back" hidden></p>
+    <button id="review-pronounce" type="button" hidden aria-label="Pronounce">🔊</button>
     <div id="review-grades" hidden>
       <button type="button" data-quality="1">Again</button>
       <button type="button" data-quality="2">Hard</button>
@@ -39,6 +40,7 @@ const items = await loadPair(sourceLang, targetLang);
 <script>
   import { loadState, saveState } from '../../../lib/storage';
   import { calculateNextReview, isDue } from '../../../utils/srs';
+  import { pronounce } from '../../../lib/pronounce';
 
   interface PairItem {
     nodeId: string;
@@ -70,6 +72,7 @@ const items = await loadPair(sourceLang, targetLang);
   const frontEl = document.getElementById('review-front')!;
   const backEl = document.getElementById('review-back')!;
   const revealBtn = document.getElementById('review-reveal')!;
+  const pronounceBtn = document.getElementById('review-pronounce')!;
   const gradesEl = document.getElementById('review-grades')!;
 
   function showCard(): void {
@@ -84,12 +87,19 @@ const items = await loadPair(sourceLang, targetLang);
     frontEl.textContent = item.source.term;
     backEl.textContent = item.target.term;
     backEl.hidden = true;
+    pronounceBtn.hidden = true;
     gradesEl.hidden = true;
   }
 
   revealBtn.addEventListener('click', () => {
     backEl.hidden = false;
+    pronounceBtn.hidden = false;
     gradesEl.hidden = false;
+  });
+
+  pronounceBtn.addEventListener('click', () => {
+    const item = queue[0];
+    if (item) pronounce(item.target.term, targetLang);
   });
 
   gradesEl.addEventListener('click', (event) => {
