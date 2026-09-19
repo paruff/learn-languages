@@ -24,6 +24,7 @@ export default defineConfig({
         'vitest.integration.setup.ts',
         '.astro/**',
         'src/content.config.ts',
+        'scripts/**',
       ],
       thresholds: {
         lines: 80,
