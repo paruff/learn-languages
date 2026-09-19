@@ -41,6 +41,15 @@ Skills and topic areas Referencial Camões A1 is known to cover that have no nod
 
 Extracting these requires direct access to Referencial Camões PLE — flagging here rather than inventing content, per AGENTS.md §10 (`content` PRs need pedagogical review) and spec NG7 (no unreviewed AI-generated content).
 
+## Cross-reference: AIMA "Português Para Todos" module list
+
+For context when planning future nodes, here are the module *titles* from AIMA's (Agência para a Integração, Migrações e Asilo) Portuguese-for-migrants course — titles only, not the course's copyrighted content itself (audio/text/images), which isn't reusable here without a license. Useful as an independent cross-check that our topic priorities line up with what another real-world A1 Portuguese course covers:
+
+**Utilizador Elementar (A1/A2):**
+A1M1 Identificação e Caracterização Pessoal · A1M2 Vida Quotidiana · A1M3 Alimentação · A1M4 Festas e Tempos Livres · A1M5 Compras, Serviços e Direções · A1M6 O Corpo Humano e a Saúde · A2M7 Profissões e Trabalho · A2M8 Estudos e Experiência Profissional · A2M9 Passado e Presente · A2M10 Hábitos Recentes · A2M11 Notícias e Outros Textos · A2M12 Cidadania e Diversidade Cultural
+
+Cross-referenced against our 6 existing nodes and Referencial Camões's real category structure: A1M1 aligns with A1-INTRO-002 (Noções Específicas 1.1); A1M3 aligns with A1-FOOD-001 (2.4 Alimentação); A1M2/A1M5/A1M6 (daily life, shopping/directions, health) are exactly the gaps already flagged as untouched topic domains — independent confirmation, not new information, but useful validation that the priority list is realistic.
+
 ## Process for adding a node
 
 1. Identify the Can-Do statement in Referencial Camões.
