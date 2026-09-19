@@ -1,0 +1,22 @@
+nodeId: A1-NUMB-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-A1-NUMB-001-001
+    term: 'One'
+    translation: 'Um'
+    partOfSpeech: adjective
+    example: 'I have one brother.'
+    exampleTranslation: 'Tenho um irmão.'
+  - id: en-GB-A1-NUMB-001-002
+    term: 'Two'
+    translation: 'Dois'
+    partOfSpeech: adjective
+    example: 'I want two coffees.'
+    exampleTranslation: 'Quero dois cafés.'
+  - id: en-GB-A1-NUMB-001-003
+    term: 'Three'
+    translation: 'Três'
+    partOfSpeech: adjective
+    example: 'She has three children.'
+    exampleTranslation: 'Ela tem três filhos.'
+grammar: []

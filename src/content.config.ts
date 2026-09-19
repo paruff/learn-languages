@@ -38,6 +38,22 @@ const vocabularyItemSchema = z.object({
   audioUrl: z.string().optional(),
 });
 
+const grammarPointSchema = z.object({
+  id: z.string(),
+  point: z.string().min(5),
+  explanation: z.string().min(20),
+  examples: z.array(z.string()).min(1),
+  cefrNotes: z.string().optional(),
+});
+
+const realisationSchema = z.object({
+  nodeId: z.string(),
+  lang: z.string().regex(/^[a-z]{2}(-[A-Z]{2})?$/),
+  vocabulary: z.array(vocabularyItemSchema).min(1),
+  grammar: z.array(grammarPointSchema).default([]),
+  culturalNotes: z.string().optional(),
+});
+
 const exerciseSchema = z.object({
   id: z.string().regex(/^[a-z]{2}(-[A-Z]{2})?-.+-\d{3}$/),
   type: z.enum(['fill-blank', 'matching', 'multiple-choice', 'audio']),
@@ -58,5 +74,9 @@ export const collections = {
   vocab: defineCollection({
     type: 'data',
     schema: vocabularyItemSchema,
+  }),
+  realisations: defineCollection({
+    loader: glob({ pattern: '**/*.yaml', base: './src/content/realisations' }),
+    schema: realisationSchema,
   }),
 };

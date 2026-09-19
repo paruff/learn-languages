@@ -1,0 +1,10 @@
+nodeId: A1-INTRO-002
+lang: en-GB
+vocabulary:
+  - id: en-GB-A1-INTRO-002-001
+    term: 'What is your name?'
+    translation: 'Qual é o seu nome?'
+    partOfSpeech: phrase
+    example: 'Excuse me, what is your name?'
+    exampleTranslation: 'Desculpe, qual é o seu nome?'
+grammar: []

@@ -1,0 +1,117 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { loadPair } from '../../../lib/pairLoader';
+
+export async function getStaticPaths() {
+  // Walking skeleton (#21): only the one pair the reference content covers.
+  // Generalise once a second pair actually exists (YAGNI) — see #8.
+  return [{ params: { sourceLang: 'en-GB', targetLang: 'pt-PT' } }];
+}
+
+const { sourceLang, targetLang } = Astro.params;
+const items = await loadPair(sourceLang, targetLang);
+---
+
+<BaseLayout title={`Review: ${sourceLang} → ${targetLang}`}>
+  <h1>Review</h1>
+  <p id="review-empty" hidden>No cards due right now — come back later.</p>
+  <div id="review-card" hidden>
+    <p id="review-progress"></p>
+    <p id="review-front"></p>
+    <button id="review-reveal" type="button">Reveal</button>
+    <p id="review-back" hidden></p>
+    <div id="review-grades" hidden>
+      <button type="button" data-quality="1">Again</button>
+      <button type="button" data-quality="2">Hard</button>
+      <button type="button" data-quality="3">Good</button>
+      <button type="button" data-quality="4">Easy</button>
+    </div>
+  </div>
+  <p id="review-summary" hidden></p>
+
+  <script
+    type="application/json"
+    id="review-data"
+    set:html={JSON.stringify({ sourceLang, targetLang, items })}
+  />
+</BaseLayout>
+
+<script>
+  import { loadState, saveState } from '../../../lib/storage';
+  import { calculateNextReview, isDue } from '../../../utils/srs';
+
+  interface PairItem {
+    nodeId: string;
+    seq: string;
+    source: { id: string; term: string };
+    target: { id: string; term: string };
+  }
+
+  const dataEl = document.getElementById('review-data');
+  const { sourceLang, targetLang, items } = JSON.parse(dataEl?.textContent ?? '{}') as {
+    sourceLang: string;
+    targetLang: string;
+    items: PairItem[];
+  };
+  const direction = 'forward' as const;
+
+  // Quality maps 1-4 (Again/Hard/Good/Easy) to SM-2's 0-5 scale (spec §6.3).
+  const qualityToSm2: Record<number, number> = { 1: 1, 2: 3, 3: 4, 4: 5 };
+
+  const queue = items.filter((item) =>
+    isDue(loadState(sourceLang, targetLang, direction, item.target.id))
+  );
+  let reviewed = 0;
+
+  const cardEl = document.getElementById('review-card')!;
+  const emptyEl = document.getElementById('review-empty')!;
+  const summaryEl = document.getElementById('review-summary')!;
+  const progressEl = document.getElementById('review-progress')!;
+  const frontEl = document.getElementById('review-front')!;
+  const backEl = document.getElementById('review-back')!;
+  const revealBtn = document.getElementById('review-reveal')!;
+  const gradesEl = document.getElementById('review-grades')!;
+
+  function showCard(): void {
+    const item = queue[0];
+    if (!item) {
+      cardEl.hidden = true;
+      summaryEl.hidden = false;
+      summaryEl.textContent = `Session complete — ${reviewed} card${reviewed === 1 ? '' : 's'} reviewed.`;
+      return;
+    }
+    progressEl.textContent = `${reviewed + 1} of ${reviewed + queue.length}`;
+    frontEl.textContent = item.source.term;
+    backEl.textContent = item.target.term;
+    backEl.hidden = true;
+    gradesEl.hidden = true;
+  }
+
+  revealBtn.addEventListener('click', () => {
+    backEl.hidden = false;
+    gradesEl.hidden = false;
+  });
+
+  gradesEl.addEventListener('click', (event) => {
+    const button = (event.target as HTMLElement).closest('button[data-quality]');
+    if (!button) return;
+
+    const item = queue.shift();
+    if (!item) return;
+
+    const quality = qualityToSm2[Number(button.getAttribute('data-quality'))];
+    const state = loadState(sourceLang, targetLang, direction, item.target.id);
+    const nextState = calculateNextReview({ state, quality });
+    saveState(sourceLang, targetLang, direction, item.target.id, nextState);
+
+    reviewed += 1;
+    showCard();
+  });
+
+  if (queue.length === 0) {
+    emptyEl.hidden = false;
+  } else {
+    cardEl.hidden = false;
+    showCard();
+  }
+</script>
