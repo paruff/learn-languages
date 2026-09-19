@@ -12,12 +12,13 @@
     "astro": "astro",
     "typecheck": "tsc --noEmit",
     "lint": "eslint src --ext .ts,.tsx,.astro --max-warnings 0 && prettier --check src",
+    "validate:content": "astro sync && echo 'Content validation passed'",
     "test": "vitest --run --coverage",
     "test:integration": "vitest --run --config vitest.integration.config.ts",
     "test:e2e": "playwright test",
     "a11y": "axe-cli dist/",
     "format": "prettier --write src",
-    "prepare": "husky"
+    "prepare": "npx lefthook install"
   },
   "dependencies": {
     "astro": "^5.2.0"
@@ -34,8 +35,8 @@
     "eslint": "^9.10.0",
     "eslint-plugin-astro": "^1.2.0",
     "eslint-plugin-jsx-a11y": "^6.10.0",
-    "husky": "^9.1.7",
     "jsdom": "^30.1.0",
+    "lefthook": "^1.11.0",
     "lint-staged": "^17.5.1",
     "prettier": "^3.3.3",
     "prettier-plugin-astro": "^0.14.1",
