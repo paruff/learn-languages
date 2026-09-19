@@ -8,6 +8,7 @@
   --color-border: #e5e7eb;
   --color-focus: #2563eb;
   --color-success: #16a34a;
+  --color-warning: #d97706;
   --color-error: #dc2626;
   --spacing-unit: 8px;
   --font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -237,6 +238,40 @@ button {
 
 .btn--secondary:hover {
   background-color: var(--color-border);
+}
+
+/* SRS recall-quality grades (spec §6.3) — color signals difficulty at a
+   glance, the highest-frequency interaction in the review loop. */
+.btn--grade-again {
+  background-color: var(--color-error);
+  color: white;
+}
+.btn--grade-again:hover {
+  background-color: #b91c1c;
+}
+
+.btn--grade-hard {
+  background-color: var(--color-warning);
+  color: white;
+}
+.btn--grade-hard:hover {
+  background-color: #b45309;
+}
+
+.btn--grade-good {
+  background-color: var(--color-primary);
+  color: white;
+}
+.btn--grade-good:hover {
+  background-color: var(--color-primary-hover);
+}
+
+.btn--grade-easy {
+  background-color: var(--color-success);
+  color: white;
+}
+.btn--grade-easy:hover {
+  background-color: #15803d;
 }
 
 .card {
