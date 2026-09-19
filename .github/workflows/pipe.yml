@@ -145,7 +145,7 @@ jobs:
         with:
           name: dist
           path: dist/
-      - uses: sigstore/cosign-installer@v4
+      - uses: sigstore/cosign-installer@v3
       - run: |
           find dist -type f -name "*.js" -o -name "*.css" -o -name "*.html" -o -name "*.json" -o -name "*.map" | while read file; do
             cosign sign-blob --yes --bundle "$file.bundle" "$file"
