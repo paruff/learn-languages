@@ -1,13 +1,18 @@
 ---
 import { withBase } from '../lib/urls';
+import { getAvailablePairs } from '../lib/pairLoader';
+import LanguagePairSelector from '../components/LanguagePairSelector.astro';
 import '../styles/global.css';
 
 interface Props {
   title: string;
   lang?: string;
+  sourceLang?: string;
+  targetLang?: string;
 }
 
-const { title, lang = 'en-GB' } = Astro.props;
+const { title, lang = 'en-GB', sourceLang = 'en-GB', targetLang = 'pt-PT' } = Astro.props;
+const availablePairs = await getAvailablePairs();
 ---
 
 <!doctype html>
@@ -31,9 +36,29 @@ const { title, lang = 'en-GB' } = Astro.props;
           >learn-languages</a
         >
         <ul class="nav__links">
-          <li><a href={withBase('/en-GB/pt-PT/lessons/')} class="nav__link">Lessons</a></li>
-          <li><a href={withBase('/en-GB/pt-PT/review/')} class="nav__link">Practice</a></li>
+          <li>
+            <a href={withBase(`/${sourceLang}/${targetLang}/lessons/`)} class="nav__link">Lessons</a
+            >
+          </li>
+          <li>
+            <a href={withBase(`/${sourceLang}/${targetLang}/review/`)} class="nav__link">Practice</a
+            >
+          </li>
+          <li>
+            <a href={withBase(`/${sourceLang}/${targetLang}/progress/`)} class="nav__link"
+              >Progress</a
+            >
+          </li>
         </ul>
+        {
+          availablePairs.length > 0 && (
+            <LanguagePairSelector
+              availablePairs={availablePairs}
+              currentSourceLang={sourceLang}
+              currentTargetLang={targetLang}
+            />
+          )
+        }
       </nav>
     </header>
     <main class="container">

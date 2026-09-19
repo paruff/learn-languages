@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import { loadState, saveState } from './storage';
+import { loadState, saveState, loadDirectionPreference, saveDirectionPreference } from './storage';
 import { createInitialState } from '../utils/srs';
 
 describe('storage', () => {
@@ -30,5 +30,14 @@ describe('storage', () => {
 
     expect(loadState('en-GB', 'pt-PT', 'forward', 'item-1').interval).toBe(10);
     expect(loadState('en-GB', 'pt-PT', 'reverse', 'item-1').interval).toBe(1);
+  });
+
+  it('defaults direction preference to forward when nothing is stored', () => {
+    expect(loadDirectionPreference('en-GB', 'pt-PT')).toBe('forward');
+  });
+
+  it('persists and reloads the chosen review direction', () => {
+    saveDirectionPreference('en-GB', 'pt-PT', 'reverse');
+    expect(loadDirectionPreference('en-GB', 'pt-PT')).toBe('reverse');
   });
 });

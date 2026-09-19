@@ -1,0 +1,105 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { getAvailablePairs, loadPair } from '../../../lib/pairLoader';
+
+export async function getStaticPaths() {
+  const pairs = await getAvailablePairs();
+  return pairs.map(({ sourceLang, targetLang }) => ({ params: { sourceLang, targetLang } }));
+}
+
+const { sourceLang, targetLang } = Astro.params;
+const [items, nodes] = await Promise.all([
+  loadPair(sourceLang, targetLang),
+  getCollection('cefr-nodes'),
+]);
+
+const nodeMeta = new Map(nodes.map((n) => [n.data.nodeId, n.data]));
+
+const trackedItems = items
+  .filter((item) => nodeMeta.has(item.nodeId))
+  .map((item) => {
+    const node = nodeMeta.get(item.nodeId)!;
+    return {
+      itemId: item.target.id,
+      nodeId: item.nodeId,
+      cefrLevel: node.cefrLevel,
+      canDo: node.canDo,
+    };
+  });
+---
+
+<BaseLayout
+  title={`Progress — ${sourceLang} → ${targetLang}`}
+  sourceLang={sourceLang}
+  targetLang={targetLang}
+>
+  <h1>Progress</h1>
+  <div id="progress-levels"></div>
+  <p id="progress-next" class="card"></p>
+
+  <script
+    type="application/json"
+    id="progress-data"
+    set:html={JSON.stringify({ sourceLang, targetLang, trackedItems })}
+  />
+</BaseLayout>
+
+<style>
+  .progress-level {
+    margin-bottom: calc(var(--spacing-unit) * 2);
+  }
+  .progress-level__label {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-bottom: calc(var(--spacing-unit) * 0.5);
+  }
+</style>
+
+<script>
+  import { loadState } from '../../../lib/storage';
+  import { computeCefrProgress, type TrackedItem } from '../../../lib/progress';
+
+  interface DataItem {
+    itemId: string;
+    nodeId: string;
+    cefrLevel: string;
+    canDo: string;
+  }
+
+  const dataEl = document.getElementById('progress-data');
+  const { sourceLang, targetLang, trackedItems } = JSON.parse(dataEl?.textContent ?? '{}') as {
+    sourceLang: string;
+    targetLang: string;
+    trackedItems: DataItem[];
+  };
+
+  const items: TrackedItem[] = trackedItems.map((item) => ({
+    ...item,
+    repetitions: loadState(sourceLang, targetLang, 'forward', item.itemId).repetitions,
+  }));
+
+  const { levels, nextRecommended } = computeCefrProgress(items);
+
+  const levelsEl = document.getElementById('progress-levels')!;
+  levelsEl.innerHTML = levels.length
+    ? levels
+        .map(
+          (l) => `
+      <div class="progress-level">
+        <p class="progress-level__label">
+          <span>${l.cefrLevel}</span>
+          <span>${l.masteredItems}/${l.totalItems} mastered</span>
+        </p>
+        <div class="progress-bar"><div class="progress-bar__fill" style="width: ${l.percent}%"></div></div>
+      </div>`
+        )
+        .join('')
+    : '<p>No content available for this pair yet.</p>';
+
+  const nextEl = document.getElementById('progress-next')!;
+  nextEl.textContent = nextRecommended
+    ? `Next up: ${nextRecommended.canDo} (${nextRecommended.cefrLevel})`
+    : 'All available content mastered — nice work.';
+</script>

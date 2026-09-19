@@ -2,40 +2,43 @@
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { withBase } from '../../../../lib/urls';
+import { getAvailablePairs } from '../../../../lib/pairLoader';
 
 export async function getStaticPaths() {
-  // Walking skeleton scope (#7/#21): only the one pair the reference content
-  // covers. Generalise once a second pair actually exists (YAGNI) — see #8.
-  const sourceLang = 'en-GB';
-  const targetLang = 'pt-PT';
-
-  const [nodes, realisations] = await Promise.all([
+  const [pairs, nodes, realisations] = await Promise.all([
+    getAvailablePairs(),
     getCollection('cefr-nodes'),
     getCollection('realisations'),
   ]);
 
-  return nodes
-    .map((node) => {
-      const source = realisations.find(
-        (r) => r.data.nodeId === node.data.nodeId && r.data.lang === sourceLang
-      );
-      const target = realisations.find(
-        (r) => r.data.nodeId === node.data.nodeId && r.data.lang === targetLang
-      );
-      return { node, source, target };
-    })
-    .filter(({ source, target }) => source && target)
-    .map(({ node, source, target }) => ({
-      params: { sourceLang, targetLang, nodeId: node.data.nodeId },
-      props: { node: node.data, source: source!.data, target: target!.data },
-    }));
+  return pairs.flatMap(({ sourceLang, targetLang }) =>
+    nodes
+      .map((node) => {
+        const source = realisations.find(
+          (r) => r.data.nodeId === node.data.nodeId && r.data.lang === sourceLang
+        );
+        const target = realisations.find(
+          (r) => r.data.nodeId === node.data.nodeId && r.data.lang === targetLang
+        );
+        return { node, source, target };
+      })
+      .filter(({ source, target }) => source && target)
+      .map(({ node, source, target }) => ({
+        params: { sourceLang, targetLang, nodeId: node.data.nodeId },
+        props: { node: node.data, source: source!.data, target: target!.data },
+      }))
+  );
 }
 
 const { sourceLang, targetLang, nodeId } = Astro.params;
 const { node, source, target } = Astro.props;
 ---
 
-<BaseLayout title={`${node.canDo} — ${sourceLang} → ${targetLang}`}>
+<BaseLayout
+  title={`${node.canDo} — ${sourceLang} → ${targetLang}`}
+  sourceLang={sourceLang}
+  targetLang={targetLang}
+>
   <article class="lesson">
     <p class="lesson__meta">{node.cefrLevel} · {node.skill.replace('_', ' ')} · {nodeId}</p>
     <h1 class="lesson__title">{node.canDo}</h1>

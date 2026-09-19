@@ -2,10 +2,11 @@
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { withBase } from '../../../../lib/urls';
+import { getAvailablePairs } from '../../../../lib/pairLoader';
 
 export async function getStaticPaths() {
-  // Walking skeleton scope: only the one pair the reference content covers.
-  return [{ params: { sourceLang: 'en-GB', targetLang: 'pt-PT' } }];
+  const pairs = await getAvailablePairs();
+  return pairs.map(({ sourceLang, targetLang }) => ({ params: { sourceLang, targetLang } }));
 }
 
 const { sourceLang, targetLang } = Astro.params;
@@ -25,7 +26,11 @@ const lessons = nodes
   .map((node) => node.data);
 ---
 
-<BaseLayout title={`Lessons — ${sourceLang} → ${targetLang}`}>
+<BaseLayout
+  title={`Lessons — ${sourceLang} → ${targetLang}`}
+  sourceLang={sourceLang}
+  targetLang={targetLang}
+>
   <h1>A1 Lessons</h1>
   <ul class="lesson-index">
     {
