@@ -1,4 +1,6 @@
 ---
+import { withBase } from '../lib/urls';
+
 interface Props {
   title: string;
 }
@@ -23,11 +25,12 @@ const { title } = Astro.props;
   <body>
     <header class="site-header">
       <nav class="nav container" aria-label="Main navigation">
-        <a href="/" class="nav__brand" aria-label="learn-languages home">learn-languages</a>
+        <a href={withBase('/')} class="nav__brand" aria-label="learn-languages home"
+          >learn-languages</a
+        >
         <ul class="nav__links">
-          <li><a href="/lessons" class="nav__link">Lessons</a></li>
-          <li><a href="/practice" class="nav__link">Practice</a></li>
-          <li><a href="/progress" class="nav__link">Progress</a></li>
+          <li><a href={withBase('/en-GB/pt-PT/lessons/')} class="nav__link">Lessons</a></li>
+          <li><a href={withBase('/en-GB/pt-PT/review/')} class="nav__link">Practice</a></li>
         </ul>
       </nav>
     </header>

@@ -1,0 +1,44 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { withBase } from '../../../../lib/urls';
+
+export async function getStaticPaths() {
+  // Walking skeleton scope: only the one pair the reference content covers.
+  return [{ params: { sourceLang: 'en-GB', targetLang: 'pt-PT' } }];
+}
+
+const { sourceLang, targetLang } = Astro.params;
+
+const [nodes, realisations] = await Promise.all([
+  getCollection('cefr-nodes'),
+  getCollection('realisations'),
+]);
+
+const lessons = nodes
+  .filter((node) =>
+    realisations.some((r) => r.data.nodeId === node.data.nodeId && r.data.lang === sourceLang)
+  )
+  .filter((node) =>
+    realisations.some((r) => r.data.nodeId === node.data.nodeId && r.data.lang === targetLang)
+  )
+  .map((node) => node.data);
+---
+
+<BaseLayout title={`Lessons — ${sourceLang} → ${targetLang}`}>
+  <h1>A1 Lessons</h1>
+  <ul class="lesson-index">
+    {
+      lessons.map((node) => (
+        <li>
+          <a href={withBase(`/${sourceLang}/${targetLang}/lessons/${node.nodeId}/`)}>
+            {node.canDo}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+  <p>
+    <a href={withBase(`/${sourceLang}/${targetLang}/review/`)}>Go straight to review →</a>
+  </p>
+</BaseLayout>
