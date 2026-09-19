@@ -1,43 +1,221 @@
-# Astro Starter Kit: Minimal
+# learn-languages
 
-```sh
-npm create astro@latest -- --template minimal
+> A research-backed, CEFR-aligned Portuguese (European PT-PT) learning platform. Static-first, privacy-respecting, offline-capable.
+
+[![CI](https://github.com/paruff/learn-languages/actions/workflows/ci.yml/badge.svg)](https://github.com/paruff/learn-languages/actions/workflows/ci.yml)
+[![Deploy](https://github.com/paruff/learn-languages/actions/workflows/deploy.yml/badge.svg)](https://github.com/paruff/learn-languages/actions/workflows/deploy.yml)
+[![Lighthouse](https://img.shields.io/badge/lighthouse-perf%20%3E%3D95%20%7C%20a11y%20100-brightgreen)](https://github.com/paruff/learn-languages/actions)
+
+## Overview
+
+**learn-languages** delivers structured European Portuguese learning at CEFR A1 level through a static site deployed to GitHub Pages. No backend, no accounts, no tracking — just evidence-based SLA principles, SM-2 spaced repetition, and transparent CEFR progress tracking.
+
+### Key Features
+
+| Feature | Description |
+|---------|-------------|
+| **CEFR-Aligned Content** | Abstract Can-Do nodes mapped to PT-PT realisations (vocabulary, grammar, cultural notes) |
+| **Spaced Repetition** | SM-2 algorithm with 4-grade recall (Again/Hard/Good/Easy), offline in `localStorage` |
+| **Transparent Progress** | Per-skill Can-Do mastery dashboard; exportable, verifiable |
+| **Native Pronunciation** | Web Speech API with `pt-PT` voice (not pt-BR) |
+| **Privacy by Default** | Zero PII, no cookies, no third-party trackers, `localStorage` only |
+| **Static Deployment** | GitHub Pages via GitOps; instant loads, global CDN, zero cost |
+
+---
+
+## Quick Start
+
+```bash
+# Install dependencies
+npm ci
+
+# Start dev server (background mode)
+npm run dev
+
+# Run all quality gates
+npm run typecheck && npm run lint && npm run test:unit && npm run build
+
+# Deploy preview (automatic on PR)
+# Deploy production (automatic on merge to main)
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Architecture
 
-## 🚀 Project Structure
+```
+┌─────────────────┐     ┌──────────────────┐     ┌─────────────────┐
+│  Content (YAML) │────►│  Zod Validation  │────►│  Astro Build    │
+│  cefr-nodes/    │     │  (CI gate)       │     │  (static HTML)  │
+│  realisations/  │     └──────────────────┘     └────────┬────────┘
+└─────────────────┘                                      │
+                                                         ▼
+┌─────────────────┐     ┌──────────────────┐     ┌─────────────────┐
+│  GitHub Pages   │◄────│  GitHub Actions  │◄────│  dist/ artifact │
+│  (CDN, HTTPS)   │     │  (deploy.yml)    │     └─────────────────┘
+└─────────────────┘     └──────────────────┘
+```
 
-Inside of your Astro project, you'll see the following folders and files:
+### Tech Stack
 
-```text
-/
-├── public/
+| Layer | Technology |
+|-------|------------|
+| SSG | Astro 5.x |
+| Interactive Islands | Vue 3.5 |
+| Schema Validation | Zod 3.x |
+| SRS Algorithm | SM-2 (custom, pure TS) |
+| Testing | Vitest + Playwright |
+| Deployment | GitHub Actions → GitHub Pages |
+
+---
+
+## Content Model
+
+The platform uses a **two-tier content architecture** that separates pedagogical intent from language expression:
+
+```
+CEFR Node (language-agnostic)  ──►  Realisation (language-specific)
+```
+
+| Tier | Purpose | Example |
+|------|---------|---------|
+| **CEFR Node** | Abstract Can-Do statement | "Can greet people and respond to greetings" (A1-GREET-001) |
+| **Realisation** | PT-PT vocabulary + grammar | "Olá", "Bom dia", "Boa tarde" with examples |
+
+This enables future language pairs (EN→ES, FR→PT, etc.) without duplicating curriculum structure.
+
+---
+
+## Spaced Repetition (SM-2)
+
+- **Algorithm**: SuperMemo SM-2 (pure TypeScript, zero dependencies)
+- **Grades**: Again (1) / Hard (2) / Good (3) / Easy (4)
+- **Storage**: `localStorage` scoped by `languagePair:direction:itemId`
+- **Mastery**: Interval ≥ 21 days
+- **Test Coverage**: 100% (unit tests in `src/lib/srs.test.ts`)
+
+---
+
+## Project Structure
+
+```
+learn-languages/
+├── .github/workflows/     # CI/CD pipelines
+├── .lefthook.yml          # Git hooks (pre-commit, pre-push)
+├── discovery-brief.md     # JTBD, personas, acceptance criteria
+├── specification-design.md # Full technical specification
 ├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+│   ├── components/        # Vue islands + Astro components
+│   ├── content/           # Zod-validated content collections
+│   │   ├── cefr-nodes/    # Abstract Can-Do nodes (YAML)
+│   │   └── realisations/  # Language-specific content
+│   ├── lib/               # Pure functions (SRS, storage, progress)
+│   ├── pages/             # File-based routing (i18n)
+│   └── styles/            # CSS tokens + BEM components
+├── tests/                 # Unit + E2E tests
+└── AGENTS.md              # Agent governance (this repo's constitution)
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+---
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## Development
 
-Any static assets, like images, can be placed in the `public/` directory.
+### Prerequisites
+- Node.js ≥20.18.0
+- pnpm (recommended) or npm
 
-## 🧞 Commands
+### Commands
 
-All commands are run from the root of the project, from a terminal:
+```bash
+npm run dev              # Astro dev server (background)
+npm run build            # Static export to dist/
+npm run preview          # Preview production build locally
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+# Quality gates
+npm run typecheck        # TypeScript strict check
+npm run lint             # ESLint + Prettier
+npm run validate:content # Zod schema validation
+npm run test:unit        # Vitest with coverage
+npm run test:e2e         # Playwright E2E
+npm run lighthouse       # Lighthouse CI audit
 
-## 👀 Want to learn more?
+# Git hooks (auto-installed via prepare)
+npx lefthook install
+```
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+### Git Hooks (Lefthook)
+
+| Hook | Trigger | Runs |
+|------|---------|------|
+| `pre-commit` | Staged files | `lint-staged` (format + lint) + `tsc --noEmit` |
+| `pre-push` | All files | `validate:content` + `test:unit` + `test:e2e` |
+
+---
+
+## Deployment
+
+### GitOps Flow
+
+1. **Push to `main`** → CI runs all gates
+2. **All gates pass** → `deploy.yml` builds and deploys to GitHub Pages
+3. **Rollback** → `git revert <sha>` on `main` triggers redeploy
+
+### Environments
+
+| Environment | URL | Trigger |
+|-------------|-----|---------|
+| Production | `https://paruff.github.io/learn-languages/` | Push to `main` |
+| Preview | PR-specific (Cloudflare Pages optional) | Open PR |
+
+---
+
+## Contributing
+
+### Commit Convention (Conventional Commits 1.0.0)
+
+```
+<type>[scope]: <description>
+
+[body]
+
+[footer]
+```
+
+| Type | Version Bump |
+|------|--------------|
+| `feat` | MINOR |
+| `fix` | PATCH |
+| `content` | PATCH (no schema change) |
+| `refactor!` / `feat!` | MAJOR |
+
+### SemVer 2.0
+
+- **MAJOR**: Breaking schema/API changes
+- **MINOR**: New features, backward compatible
+- **PATCH**: Bug fixes, content additions
+
+---
+
+## Documentation
+
+| Document | Purpose |
+|----------|---------|
+| `discovery-brief.md` | Problem, JTBD, personas, acceptance criteria |
+| `specification-design.md` | Architecture, data model, SRS, UI, testing, deployment |
+| `AGENTS.md` | Agent governance, GitOps, conventions |
+| `CHANGELOG.md` | Keep a Changelog format |
+
+---
+
+## License
+
+MIT — see [LICENSE](LICENSE) for details.
+
+Content authored for this project is CC-BY-4.0.
+
+---
+
+## Acknowledgments
+
+- **Referencial Camões PLE** — Authoritative CEFR reference for Portuguese
+- **SuperMemo SM-2** — Proven spaced repetition algorithm
+- **Astro** — Islands architecture for optimal static sites
+- **GitHub Pages** — Free, reliable static hosting

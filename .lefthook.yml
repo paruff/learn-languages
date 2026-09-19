@@ -1,0 +1,23 @@
+# Lefthook configuration for learn-languages
+# Pre-commit: fast feedback on staged files
+# Pre-push: full validation before code reaches remote
+
+pre-commit:
+  parallel: true
+  commands:
+    lint-staged:
+      glob: "*.{ts,tsx,vue,astro,js,jsx,json,css,md,mdx,yaml,yml}"
+      run: npx lint-staged
+    typecheck:
+      glob: "*.{ts,tsx,vue}"
+      run: npx tsc --noEmit
+
+pre-push:
+  parallel: false
+  commands:
+    validate-content:
+      run: npm run validate:content
+    test-unit:
+      run: npm run test -- --reporter=verbose
+    test-e2e:
+      run: npm run test:e2e
