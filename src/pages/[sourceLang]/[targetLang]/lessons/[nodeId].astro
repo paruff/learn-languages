@@ -1,0 +1,96 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  // Walking skeleton scope (#7/#21): only the one pair the reference content
+  // covers. Generalise once a second pair actually exists (YAGNI) — see #8.
+  const sourceLang = 'en-GB';
+  const targetLang = 'pt-PT';
+
+  const [nodes, realisations] = await Promise.all([
+    getCollection('cefr-nodes'),
+    getCollection('realisations'),
+  ]);
+
+  return nodes
+    .map((node) => {
+      const source = realisations.find(
+        (r) => r.data.nodeId === node.data.nodeId && r.data.lang === sourceLang
+      );
+      const target = realisations.find(
+        (r) => r.data.nodeId === node.data.nodeId && r.data.lang === targetLang
+      );
+      return { node, source, target };
+    })
+    .filter(({ source, target }) => source && target)
+    .map(({ node, source, target }) => ({
+      params: { sourceLang, targetLang, nodeId: node.data.nodeId },
+      props: { node: node.data, source: source!.data, target: target!.data },
+    }));
+}
+
+const { sourceLang, targetLang, nodeId } = Astro.params;
+const { node, source, target } = Astro.props;
+---
+
+<BaseLayout title={`${node.canDo} — ${sourceLang} → ${targetLang}`}>
+  <article class="lesson">
+    <p class="lesson__meta">{node.cefrLevel} · {node.skill.replace('_', ' ')} · {nodeId}</p>
+    <h1 class="lesson__title">{node.canDo}</h1>
+    {node.pragmaticFocus && <p class="lesson__focus">{node.pragmaticFocus}</p>}
+
+    <h2>Vocabulary</h2>
+    <ul class="vocab-list">
+      {
+        target.vocabulary.map((targetItem, i) => {
+          const sourceItem = source.vocabulary[i];
+          return (
+            <li class="vocab-item">
+              <p class="vocab-item__term">
+                <strong>{targetItem.term}</strong> — {sourceItem?.term ?? targetItem.translation}
+              </p>
+              <p class="vocab-item__example">
+                {targetItem.example}
+                <br />
+                <em>{targetItem.exampleTranslation}</em>
+              </p>
+            </li>
+          );
+        })
+      }
+    </ul>
+
+    {
+      target.grammar.length > 0 && (
+        <>
+          <h2>Grammar</h2>
+          {target.grammar.map((point) => (
+            <div class="grammar-point">
+              <h3>{point.point}</h3>
+              <p>{point.explanation}</p>
+              <ul>
+                {point.examples.map((example: string) => (
+                  <li>{example}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </>
+      )
+    }
+
+    {
+      target.culturalNotes && (
+        <>
+          <h2>Cultural notes</h2>
+          <p>{target.culturalNotes}</p>
+        </>
+      )
+    }
+
+    <p class="lesson__cta">
+      <a href={`/${sourceLang}/${targetLang}/review/`}>Practice these words →</a>
+    </p>
+  </article>
+</BaseLayout>
