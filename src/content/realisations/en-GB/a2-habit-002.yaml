@@ -1,0 +1,47 @@
+nodeId: A2-HABIT-002
+lang: en-GB
+vocabulary:
+  - id: en-GB-A2-HABIT-002-001
+    term: 'this week'
+    translation: 'esta semana'
+    partOfSpeech: adverb
+    example: 'This week I did many things.'
+    exampleTranslation: 'Esta semana fiz muitas coisas.'
+  - id: en-GB-A2-HABIT-002-002
+    term: 'yesterday'
+    translation: 'ontem'
+    partOfSpeech: adverb
+    example: 'Yesterday I was with friends.'
+    exampleTranslation: 'Ontem estive com os amigos.'
+  - id: en-GB-A2-HABIT-002-003
+    term: 'today'
+    translation: 'hoje'
+    partOfSpeech: adverb
+    example: 'Today I have nothing planned.'
+    exampleTranslation: 'Hoje não tenho nada planeado.'
+  - id: en-GB-A2-HABIT-002-004
+    term: 'still'
+    translation: 'ainda'
+    partOfSpeech: adverb
+    example: "I haven't seen the film yet."
+    exampleTranslation: 'Ainda não vi o filme.'
+  - id: en-GB-A2-HABIT-002-005
+    term: 'activity'
+    translation: 'atividade'
+    partOfSpeech: noun
+    example: 'I did an outdoor activity.'
+    exampleTranslation: 'Fiz uma atividade ao ar livre.'
+  - id: en-GB-A2-HABIT-002-006
+    term: 'season'
+    translation: 'temporada'
+    partOfSpeech: noun
+    example: "It's the summer season."
+    exampleTranslation: 'É a temporada de verão.'
+grammar:
+  - id: en-GB-A2-HABIT-002-G01
+    point: 'recent past activities'
+    explanation: 'Describing what happened recently'
+    examples:
+      - 'Yesterday I went to the supermarket.'
+      - 'This week I read two books.'
+culturalNotes: 'Portuguese people enjoy outdoor activities, especially in summer. Common activities include walking, cycling, and going to the beach.'

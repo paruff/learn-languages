@@ -1,0 +1,11 @@
+nodeId: A2-HABIT-001
+cefrLevel: A2
+skill: spoken_production
+canDo: Can describe recent changes in habits
+pragmaticFocus: Discuss lifestyle changes
+notionalFocus: Habits, routines, recent modifications
+relatedNodes:
+  - A2-HABIT-002
+  - A2-HABIT-003
+prerequisiteNodes:
+  - A2-PAST-001

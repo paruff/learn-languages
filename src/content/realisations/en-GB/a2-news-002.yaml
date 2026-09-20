@@ -1,0 +1,47 @@
+nodeId: A2-NEWS-002
+lang: en-GB
+vocabulary:
+  - id: en-GB-A2-NEWS-002-001
+    term: 'to happen'
+    translation: 'acontecer'
+    partOfSpeech: verb
+    example: 'What happened in the city?'
+    exampleTranslation: 'O que aconteceu na cidade?'
+  - id: en-GB-A2-NEWS-002-002
+    term: 'report'
+    translation: 'reportagem'
+    partOfSpeech: noun
+    example: 'The report was very detailed.'
+    exampleTranslation: 'A reportagem foi muito detalhada.'
+  - id: en-GB-A2-NEWS-002-003
+    term: 'radio'
+    translation: 'rádio'
+    partOfSpeech: noun
+    example: 'I listen to the radio while working.'
+    exampleTranslation: 'Ouço a rádio enquanto trabajo.'
+  - id: en-GB-A2-NEWS-002-004
+    term: 'event'
+    translation: 'evento'
+    partOfSpeech: noun
+    example: 'The event happened yesterday.'
+    exampleTranslation: 'O evento aconteceu ontem.'
+  - id: en-GB-A2-NEWS-002-005
+    term: 'to describe'
+    translation: 'descrever'
+    partOfSpeech: verb
+    example: 'I can describe what I saw.'
+    exampleTranslation: 'Consigo descrever o que vi.'
+  - id: en-GB-A2-NEWS-002-006
+    term: 'to explain'
+    translation: 'explicar'
+    partOfSpeech: verb
+    example: 'The reporter explained the situation.'
+    exampleTranslation: 'O repórter explicou a situação.'
+grammar:
+  - id: en-GB-A2-NEWS-002-G01
+    point: 'describing media events'
+    explanation: 'Using past tense to describe reported events'
+    examples:
+      - 'The reporter described the accident.'
+      - 'The news explained the reasons.'
+culturalNotes: 'Portuguese news reporting often includes regional perspectives. Local news is important in smaller communities.'

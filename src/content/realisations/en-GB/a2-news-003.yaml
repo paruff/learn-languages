@@ -1,0 +1,47 @@
+nodeId: A2-NEWS-003
+lang: en-GB
+vocabulary:
+  - id: en-GB-A2-NEWS-003-001
+    term: 'I think that'
+    translation: 'acho que'
+    partOfSpeech: phrase
+    example: 'I think this news is important.'
+    exampleTranslation: 'Acho que esta notícia é importante.'
+  - id: en-GB-A2-NEWS-003-002
+    term: 'in my opinion'
+    translation: 'na minha opinião'
+    partOfSpeech: phrase
+    example: 'In my opinion, the government should act.'
+    exampleTranslation: 'Na minha opinião, o governo devia agir.'
+  - id: en-GB-A2-NEWS-003-003
+    term: 'it seems to me'
+    translation: 'parece-me'
+    partOfSpeech: phrase
+    example: 'It seems to me that the situation is improving.'
+    exampleTranslation: 'Parece-me que a situação está a melhorar.'
+  - id: en-GB-A2-NEWS-003-004
+    term: 'important'
+    translation: 'importante'
+    partOfSpeech: adjective
+    example: 'It is important to stay informed.'
+    exampleTranslation: 'É importante informar-se.'
+  - id: en-GB-A2-NEWS-003-005
+    term: 'to agree'
+    translation: 'concordar'
+    partOfSpeech: verb
+    example: 'I agree with the article.'
+    exampleTranslation: 'Concordo com o artigo.'
+  - id: en-GB-A2-NEWS-003-006
+    term: 'to disagree'
+    translation: 'discordar'
+    partOfSpeech: verb
+    example: "I disagree with the author's opinion."
+    exampleTranslation: 'Discordo da opinião do autor.'
+grammar:
+  - id: en-GB-A2-NEWS-003-G01
+    point: 'opinion expressions'
+    explanation: 'Expressing basic opinions about news items'
+    examples:
+      - 'I think this news is very important.'
+      - 'In my opinion, the government should do more.'
+culturalNotes: 'Portuguese people often discuss politics and current affairs. Expressing opinions is common in social settings.'

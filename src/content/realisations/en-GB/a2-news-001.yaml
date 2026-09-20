@@ -1,0 +1,47 @@
+nodeId: A2-NEWS-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-A2-NEWS-001-001
+    term: 'newspaper'
+    translation: 'jornal'
+    partOfSpeech: noun
+    example: 'I read the newspaper every morning.'
+    exampleTranslation: 'Leio o jornal todas as manhãs.'
+  - id: en-GB-A2-NEWS-001-002
+    term: 'magazine'
+    translation: 'revista'
+    partOfSpeech: noun
+    example: 'I bought a current affairs magazine.'
+    exampleTranslation: 'Comprei uma revista de atualidades.'
+  - id: en-GB-A2-NEWS-001-003
+    term: 'headline'
+    translation: 'título'
+    partOfSpeech: noun
+    example: 'The headline caught my attention.'
+    exampleTranslation: 'O título chamou a minha atenção.'
+  - id: en-GB-A2-NEWS-001-004
+    term: 'author'
+    translation: 'autor'
+    partOfSpeech: noun
+    example: 'The author writes well.'
+    exampleTranslation: 'O autor escreve bem.'
+  - id: en-GB-A2-NEWS-001-005
+    term: 'information'
+    translation: 'informação'
+    partOfSpeech: noun
+    example: 'The information is reliable.'
+    exampleTranslation: 'A informação é fiável.'
+  - id: en-GB-A2-NEWS-001-006
+    term: 'to read'
+    translation: 'ler'
+    partOfSpeech: verb
+    example: 'I like to read news online.'
+    exampleTranslation: 'Gosto de ler notícias online.'
+grammar:
+  - id: en-GB-A2-NEWS-001-G01
+    point: 'news comprehension strategies'
+    explanation: 'Understanding headlines and key information'
+    examples:
+      - 'The article talks about the economy.'
+      - 'The headline summarises the news.'
+culturalNotes: 'Many Portuguese people read news online. Publico.pt and Observador.pt are popular news websites.'

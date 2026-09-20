@@ -1,0 +1,53 @@
+nodeId: A2-HABIT-003
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-A2-HABIT-003-001
+    term: 'notícia'
+    translation: 'news'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Li uma notícia interessante hoje.'
+    exampleTranslation: 'I read an interesting news item today.'
+  - id: pt-PT-A2-HABIT-003-002
+    term: 'imprensa'
+    translation: 'press'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A imprensa escreveu muito sobre o assunto.'
+    exampleTranslation: 'The press wrote a lot about the subject.'
+  - id: pt-PT-A2-HABIT-003-003
+    term: 'televisão'
+    translation: 'television'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Vi a notícia na televisão.'
+    exampleTranslation: 'I saw the news on television.'
+  - id: pt-PT-A2-HABIT-003-004
+    term: 'jornal'
+    translation: 'newspaper'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Leio o jornal todas as manhãs.'
+    exampleTranslation: 'I read the newspaper every morning.'
+  - id: pt-PT-A2-HABIT-003-005
+    term: 'artigo'
+    translation: 'article'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O artigo é muito bem escrito.'
+    exampleTranslation: 'The article is very well written.'
+  - id: pt-PT-A2-HABIT-003-006
+    term: 'reportagem'
+    translation: 'report'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A reportagem mostrou a realidade.'
+    exampleTranslation: 'The report showed the reality.'
+grammar:
+  - id: pt-PT-A2-HABIT-003-G01
+    point: 'understanding news vocabulary'
+    explanation: 'Reading and understanding simple news items'
+    examples:
+      - 'O jornal publicou uma notícia sobre o clima.'
+      - 'A reportagem explicou os acontecimentos.'
+culturalNotes: 'Portuguese news media includes newspapers like Público, Diário de Notícias, and TV channels like RTP and TVI.'

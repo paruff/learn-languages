@@ -1,0 +1,11 @@
+nodeId: A2-HABIT-002
+cefrLevel: A2
+skill: listening
+canDo: Can talk about recent activities
+pragmaticFocus: Understand descriptions of recent events
+notionalFocus: Activities, recent past, time markers
+relatedNodes:
+  - A2-HABIT-001
+  - A2-HABIT-003
+prerequisiteNodes:
+  - A2-HABIT-001
