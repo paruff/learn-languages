@@ -1,0 +1,54 @@
+nodeId: B1-TEXT-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-B1-TEXT-001-001
+    term: 'artigo factual'
+    translation: 'factual article'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Li um artigo factual sobre a economia portuguesa.'
+    exampleTranslation: 'I read a factual article about the Portuguese economy.'
+  - id: pt-PT-B1-TEXT-001-002
+    term: 'assunto de interesse'
+    translation: 'topic of interest'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Encontrei um artigo sobre um assunto de interesse.'
+    exampleTranslation: 'I found an article about a topic of interest.'
+  - id: pt-PT-B1-TEXT-001-003
+    term: 'compreender o texto'
+    translation: 'to understand the text'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Consigo compreender o texto sem dicionário.'
+    exampleTranslation: 'I can understand the text without a dictionary.'
+  - id: pt-PT-B1-TEXT-001-004
+    term: 'identificar ideias principais'
+    translation: 'to identify main ideas'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É importante identificar as ideias principais.'
+    exampleTranslation: 'It is important to identify the main ideas.'
+  - id: pt-PT-B1-TEXT-001-005
+    term: 'extrair informações'
+    translation: 'to extract information'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Preciso de extrair informações relevantes.'
+    exampleTranslation: 'I need to extract relevant information.'
+  - id: pt-PT-B1-TEXT-001-006
+    term: 'ler com atenção'
+    translation: 'to read carefully'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É preciso ler com atenção para entender.'
+    exampleTranslation: 'You need to read carefully to understand.'
+grammar:
+  - id: B1-GRAMMAR-015
+    point: 'Reading strategies for comprehension'
+    explanation: 'Using context clues and word formation to understand texts'
+    examples:
+      - 'Posso deduzir o significado pelo contexto.'
+      - 'A raiz da palavra ajuda a entender.'
+    cefrNotes: 'B1 learners develop independent reading strategies'
+culturalNotes: 'Portuguese newspapers like Público and Diário de Notícias publish accessible articles. Reading these regularly improves comprehension.'

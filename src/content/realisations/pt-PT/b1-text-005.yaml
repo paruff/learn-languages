@@ -1,0 +1,54 @@
+nodeId: B1-TEXT-005
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-B1-TEXT-005-001
+    term: 'carta formal'
+    translation: 'formal letter'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Preciso de escrever uma carta formal para o empregador.'
+    exampleTranslation: 'I need to write a formal letter to the employer.'
+  - id: pt-PT-B1-TEXT-005-002
+    term: 'email profissional'
+    translation: 'professional email'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Enviei um email profissional para o colega.'
+    exampleTranslation: 'I sent a professional email to the colleague.'
+  - id: pt-PT-B1-TEXT-005-003
+    term: 'saudação'
+    translation: 'greeting'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A saudação deve ser adequada ao contexto.'
+    exampleTranslation: 'The greeting should be appropriate to the context.'
+  - id: pt-PT-B1-TEXT-005-004
+    term: 'despedida'
+    translation: 'farewell'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Usei uma despedida formal na carta.'
+    exampleTranslation: 'I used a formal farewell in the letter.'
+  - id: pt-PT-B1-TEXT-005-005
+    term: 'fórmula de cortesia'
+    translation: 'courtesy formula'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'As fórmulas de cortesia são importantes na escrita formal.'
+    exampleTranslation: 'Courtesy formulas are important in formal writing.'
+  - id: pt-PT-B1-TEXT-005-006
+    term: 'assinar o email'
+    translation: 'to sign the email'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Não me esqueci de assinar o email.'
+    exampleTranslation: 'I did not forget to sign the email.'
+grammar:
+  - id: B1-GRAMMAR-019
+    point: 'Formal letter and email conventions'
+    explanation: 'Using appropriate register and format for different types of correspondence'
+    examples:
+      - 'Exmo. Senhor, escrevo para solicitar...'
+      - 'Com os melhores cumprimentos,'
+    cefrNotes: 'B1 learners develop register awareness for different correspondence types'
+culturalNotes: "Portuguese formal correspondence uses elaborate courtesy formulas. 'Exmo. Senhor' (Most Excellent Sir) and 'Com os melhores cumprimentos' (With best regards) are standard."

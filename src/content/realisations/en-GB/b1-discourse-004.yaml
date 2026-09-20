@@ -1,0 +1,54 @@
+nodeId: B1-DISCOURSE-004
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-DISCOURSE-004-001
+    term: 'to a certain extent'
+    translation: 'numa certa medida'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'To a certain extent, I am right.'
+    exampleTranslation: 'Numa certa medida, tenho razão.'
+  - id: en-GB-B1-DISCOURSE-004-002
+    term: 'depending on'
+    translation: 'dependendo de'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Depending on the weather, we will go to the park.'
+    exampleTranslation: 'Dependendo do tempo, vamos ao parque.'
+  - id: en-GB-B1-DISCOURSE-004-003
+    term: 'up to a point'
+    translation: 'até certo ponto'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Up to a point, I agree with the analysis.'
+    exampleTranslation: 'Até certo ponto, concordo com a análise.'
+  - id: en-GB-B1-DISCOURSE-004-004
+    term: 'in practice'
+    translation: 'na prática'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'In practice, things are different.'
+    exampleTranslation: 'Na prática, as coisas são diferentes.'
+  - id: en-GB-B1-DISCOURSE-004-005
+    term: 'in my experience'
+    translation: 'na minha experiência'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'In my experience, this works well.'
+    exampleTranslation: 'Na minha experiência, isto funciona bem.'
+  - id: en-GB-B1-DISCOURSE-004-006
+    term: 'in general terms'
+    translation: 'em termos gerais'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'In general terms, the project was a success.'
+    exampleTranslation: 'Em termos gerais, o projeto foi um sucesso.'
+grammar:
+  - id: B1-GRAMMAR-013
+    point: 'Hedging and qualification'
+    explanation: 'Using phrases to moderate or qualify statements'
+    examples:
+      - 'To a certain extent, I agree.'
+      - 'In practice, it is more complicated.'
+    cefrNotes: 'Hedging allows B1 learners to express nuance and avoid absolutes'
+culturalNotes: "British communication often uses hedging to soften assertions. 'To some extent' or 'in principle' shows considered thinking without appearing dogmatic."

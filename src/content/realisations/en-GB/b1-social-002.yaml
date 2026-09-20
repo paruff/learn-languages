@@ -1,0 +1,54 @@
+nodeId: B1-SOCIAL-002
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-SOCIAL-002-001
+    term: 'familiar topics'
+    translation: 'tós familiares'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I like to talk about familiar topics like work and hobbies.'
+    exampleTranslation: 'Gosto de conversar sobre tópicos familiares como trabalho e hobbies.'
+  - id: en-GB-B1-SOCIAL-002-002
+    term: 'to deepen the conversation'
+    translation: 'aprofundar a conversa'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'We can deepen the conversation about this topic.'
+    exampleTranslation: 'Podemos aprofundar a conversa sobre este assunto.'
+  - id: en-GB-B1-SOCIAL-002-003
+    term: 'to give my opinion'
+    translation: 'dar a minha opinião'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Can I give my opinion on this topic?'
+    exampleTranslation: 'Posso dar a minha opinião sobre este tema?'
+  - id: en-GB-B1-SOCIAL-002-004
+    term: 'to listen actively'
+    translation: 'ouvir ativamente'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is important to listen actively when someone is speaking.'
+    exampleTranslation: 'É importante ouvir ativamente quando alguém está a falar.'
+  - id: en-GB-B1-SOCIAL-002-005
+    term: 'to rephrase what was heard'
+    translation: 'reformular o que se ouviu'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Can I rephrase what I heard to confirm I understood?'
+    exampleTranslation: 'Posso reformular o que ouvi para confirmar que entendi?'
+  - id: en-GB-B1-SOCIAL-002-006
+    term: 'to confirm understanding'
+    translation: 'confirmar a compreensão'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I want to confirm understanding before continuing.'
+    exampleTranslation: 'Quero confirmar a compreensão antes de continuar.'
+grammar:
+  - id: B1-GRAMMAR-003
+    point: 'Conditional tense for polite conversation'
+    explanation: 'Using conditional forms (gostaria, poderia, seria) to soften statements'
+    examples:
+      - 'I would like to know more about that.'
+      - 'Would it be possible to meet tomorrow?'
+    cefrNotes: 'Conditional tense enables more nuanced and polite extended conversation'
+culturalNotes: 'British conversation culture values active listening and taking turns. Showing interest through follow-up questions is appreciated. Avoid dominating the conversation.'

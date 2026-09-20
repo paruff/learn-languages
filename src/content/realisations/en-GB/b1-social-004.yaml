@@ -1,0 +1,54 @@
+nodeId: B1-SOCIAL-004
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-SOCIAL-004-001
+    term: 'to invite opinion'
+    translation: 'convidar a opinião'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I would like to invite your opinion on this topic.'
+    exampleTranslation: 'Gostava de convidar a sua opinião sobre este tema.'
+  - id: en-GB-B1-SOCIAL-004-002
+    term: 'to react to news'
+    translation: 'reagir à notícia'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'How did you react to the news about the weather?'
+    exampleTranslation: 'Como reagiu à notícia sobre o clima?'
+  - id: en-GB-B1-SOCIAL-004-003
+    term: 'to change the subject politely'
+    translation: 'mudar de assunto educadamente'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'We can change the subject politely if you prefer.'
+    exampleTranslation: 'Podemos mudar de assunto educadamente se preferir.'
+  - id: en-GB-B1-SOCIAL-004-004
+    term: 'to follow up'
+    translation: 'fazer follow-up'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I would like to follow up on what was said earlier.'
+    exampleTranslation: 'Gostava de fazer follow-up sobre o que disse anteriormente.'
+  - id: en-GB-B1-SOCIAL-004-005
+    term: 'to find common ground'
+    translation: 'encontrar ponto comum'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is important to find common ground in a discussion.'
+    exampleTranslation: 'É importante encontrar ponto comum numa discussão.'
+  - id: en-GB-B1-SOCIAL-004-006
+    term: 'to conclude the conversation'
+    translation: 'concluir a conversa'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Shall we conclude the conversation for now?'
+    exampleTranslation: 'Vamos concluir a conversa para já?'
+grammar:
+  - id: B1-GRAMMAR-005
+    point: 'Discourse management phrases'
+    explanation: 'Using set phrases to manage conversation flow and turn-taking'
+    examples:
+      - 'In my opinion, I think that...'
+      - 'I understand your point of view, however...'
+    cefrNotes: 'Discourse management phrases help B1 learners maintain extended conversations'
+culturalNotes: "British conversation values polite turn-taking and avoiding interruption. Using phrases like 'Sorry to interrupt' or 'If I may add' shows respect for other speakers."

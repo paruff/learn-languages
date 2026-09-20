@@ -1,0 +1,12 @@
+nodeId: B1-SOCIAL-004
+cefrLevel: B1
+skill: spoken_production
+canDo: 'Can keep a conversation going by inviting opinions and reacting'
+pragmaticFocus: 'Conversation maintenance strategies'
+notionalFocus: 'Social interaction, opinion elicitation'
+relatedNodes:
+  - B1-SOCIAL-001
+  - B1-SOCIAL-002
+prerequisiteNodes:
+  - B1-SOCIAL-001
+  - B1-SOCIAL-002

@@ -1,0 +1,54 @@
+nodeId: B1-TEXT-004
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-TEXT-004-001
+    term: 'connected text'
+    translation: 'texto conectado'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'I will write a connected text about my experience.'
+    exampleTranslation: 'Vou escrever um texto conectado sobre a minha experiência.'
+  - id: en-GB-B1-TEXT-004-002
+    term: 'familiar topic'
+    translation: 'tópico familiar'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'I prefer to write about familiar topics.'
+    exampleTranslation: 'Prefiro escrever sobre tópicos familiares.'
+  - id: en-GB-B1-TEXT-004-003
+    term: 'to describe experiences'
+    translation: 'descrever experiências'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I like to describe my travel experiences.'
+    exampleTranslation: 'Gosto de descrever as minhas experiências de viagem.'
+  - id: en-GB-B1-TEXT-004-004
+    term: 'to express impressions'
+    translation: 'expressar impressões'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is important to express my impressions clearly.'
+    exampleTranslation: 'É importante expressar as minhas impressões com clareza.'
+  - id: en-GB-B1-TEXT-004-005
+    term: 'to use connectors'
+    translation: 'usar conectores'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I need to use connectors to organise the text.'
+    exampleTranslation: 'Preciso de usar conectores para organizar o texto.'
+  - id: en-GB-B1-TEXT-004-006
+    term: 'to rewrite the text'
+    translation: 'reescrever o texto'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will rewrite the text to improve clarity.'
+    exampleTranslation: 'Vou reescrever o texto para melhorar a clareza.'
+grammar:
+  - id: B1-GRAMMAR-018
+    point: 'Cohesive writing with discourse markers'
+    explanation: 'Using connectors and linking words for text coherence'
+    examples:
+      - 'First, I will describe the context.'
+      - 'Then, I present my conclusions.'
+    cefrNotes: 'B1 learners develop cohesive writing skills'
+culturalNotes: "British writing values clear structure and logical flow. Using 'firstly', 'furthermore', 'in conclusion' helps organise written expression."

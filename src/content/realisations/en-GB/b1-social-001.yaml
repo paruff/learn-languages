@@ -1,0 +1,61 @@
+nodeId: B1-SOCIAL-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-SOCIAL-001-001
+    term: 'Excuse me, can you help me?'
+    translation: 'Desculpe, pode ajudar-me?'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Excuse me, can you help me find the metro?'
+    exampleTranslation: 'Desculpe, pode ajudar-me a encontrar o metro?'
+  - id: en-GB-B1-SOCIAL-001-002
+    term: 'Pardon me'
+    translation: 'Com licença'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Pardon me, where is the train station?'
+    exampleTranslation: 'Com licença, onde fica a estação de comboios?'
+  - id: en-GB-B1-SOCIAL-001-003
+    term: 'to talk about'
+    translation: 'falar sobre'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'I would like to talk about Portuguese culture.'
+    exampleTranslation: 'Gostava de falar sobre a cultura portuguesa.'
+  - id: en-GB-B1-SOCIAL-001-004
+    term: 'the conversation was interesting'
+    translation: 'a conversa foi interessante'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'The conversation was very interesting, thank you.'
+    exampleTranslation: 'A conversa foi muito interessante, obrigado.'
+  - id: en-GB-B1-SOCIAL-001-005
+    term: 'in my experience'
+    translation: 'na minha experiência'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'In my experience, Portuguese people are very friendly.'
+    exampleTranslation: 'Na minha experiência, os portugueses são muito simpáticos.'
+  - id: en-GB-B1-SOCIAL-001-006
+    term: 'it depends on the circumstances'
+    translation: 'depende das circunstâncias'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It depends on the circumstances, but I usually help.'
+    exampleTranslation: 'Depende das circunstâncias, mas normalmente ajudo.'
+grammar:
+  - id: B1-GRAMMAR-001
+    point: 'Polite request structures with modal verbs'
+    explanation: "Using 'poderia', 'gostaria de', 'pode' for polite requests beyond simple imperative"
+    examples:
+      - 'Could you help me?'
+      - 'I would like to know more.'
+    cefrNotes: 'B1 learners expand from simple imperative (ajuda-me) to polite modal constructions'
+  - id: B1-GRAMMAR-002
+    point: 'Complex connectors: furthermore, however'
+    explanation: 'Using connectors beyond and, but, because to structure extended speech'
+    examples:
+      - 'Furthermore, Portuguese culture is very rich.'
+      - 'However, sometimes it is difficult to find help.'
+    cefrNotes: 'B1 introduces discourse connectors for extended discourse organisation'
+culturalNotes: "In British English, politeness is expressed through indirect questions and hedging. 'Would you mind helping me?' is more common than direct requests. 'Sorry to bother you' serves a similar function to Portuguese 'Desculpe'."

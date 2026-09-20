@@ -1,0 +1,54 @@
+nodeId: B1-OPINION-004
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-OPINION-004-001
+    term: 'opinion article'
+    translation: 'artigo de opinião'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'I read an opinion article about the future of work.'
+    exampleTranslation: 'Li um artigo de opinião sobre o futuro do trabalho.'
+  - id: en-GB-B1-OPINION-004-002
+    term: 'to write about'
+    translation: 'escrever sobre'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I am going to write about the importance of education.'
+    exampleTranslation: 'Vou escrever sobre a importância da educação.'
+  - id: en-GB-B1-OPINION-004-003
+    term: 'to express my position'
+    translation: 'expressar a minha posição'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is important to express my position clearly.'
+    exampleTranslation: 'É importante expressar a minha posição com clareza.'
+  - id: en-GB-B1-OPINION-004-004
+    term: 'to support my opinion'
+    translation: 'fundamentar a minha opinião'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I need to support my opinion with facts.'
+    exampleTranslation: 'Preciso de fundamentar a minha opinião com factos.'
+  - id: en-GB-B1-OPINION-004-005
+    term: 'current events'
+    translation: 'actualidade'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'I follow current events daily.'
+    exampleTranslation: 'Sigo a actualidade diariamente.'
+  - id: en-GB-B1-OPINION-004-006
+    term: 'the media'
+    translation: 'meios de comunicação'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'The media are important for democracy.'
+    exampleTranslation: 'Os meios de comunicação são importantes para a democracia.'
+grammar:
+  - id: B1-GRAMMAR-009
+    point: 'Written opinion structure'
+    explanation: 'Organising written opinions with introduction, arguments, and conclusion'
+    examples:
+      - 'First of all, I want to present my point of view.'
+      - 'In conclusion, I defend that we need to act.'
+    cefrNotes: 'B1 learners develop written opinion skills with clear structure'
+culturalNotes: "British opinion writing values structured argumentation. Using connectors like 'firstly', 'furthermore', 'in conclusion' helps organise written expression."

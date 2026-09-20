@@ -1,0 +1,11 @@
+nodeId: B1-DISCOURSE-003
+cefrLevel: B1
+skill: spoken_production
+canDo: 'Can describe cause and effect relationships'
+pragmaticFocus: 'Causal reasoning and explanation'
+notionalFocus: 'Causes, consequences, results'
+relatedNodes:
+  - B1-DISCOURSE-001
+  - B1-DISCOURSE-005
+prerequisiteNodes:
+  - B1-SOCIAL-002

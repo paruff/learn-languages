@@ -1,0 +1,54 @@
+nodeId: B1-OPINION-002
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-B1-OPINION-002-001
+    term: 'concordo plenamente'
+    translation: 'I fully agree'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Concordo plenamente com o que disseste.'
+    exampleTranslation: 'I fully agree with what you said.'
+  - id: pt-PT-B1-OPINION-002-002
+    term: 'estou de acordo'
+    translation: 'I agree'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Estou de acordo com esta proposta.'
+    exampleTranslation: 'I agree with this proposal.'
+  - id: pt-PT-B1-OPINION-002-003
+    term: 'discordo do seu ponto de vista'
+    translation: 'I disagree with your point of view'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Respeitosamente, discordo do seu ponto de vista.'
+    exampleTranslation: 'Respectfully, I disagree with your point of view.'
+  - id: pt-PT-B1-OPINION-002-004
+    term: 'compreendo o que diz, mas'
+    translation: 'I understand what you say, but'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Compreendo o que diz, mas tenho uma perspetiva diferente.'
+    exampleTranslation: 'I understand what you say, but I have a different perspective.'
+  - id: pt-PT-B1-OPINION-002-005
+    term: 'não concordo totalmente'
+    translation: 'I do not fully agree'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Não concordo totalmente, mas faz sentido.'
+    exampleTranslation: 'I do not fully agree, but it makes sense.'
+  - id: pt-PT-B1-OPINION-002-006
+    term: 'isso depende'
+    translation: 'that depends'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Isso depende das circunstâncias.'
+    exampleTranslation: 'That depends on the circumstances.'
+grammar:
+  - id: B1-GRAMMAR-007
+    point: 'Polite disagreement with hedging'
+    explanation: "Using 'não concordo totalmente', 'compreendo mas' for diplomatic disagreement"
+    examples:
+      - 'Não concordo totalmente com essa abordagem.'
+      - 'Compreendo, no entanto penso que há outras opções.'
+    cefrNotes: 'B1 learners learn to soften disagreement for social harmony'
+culturalNotes: 'Portuguese culture values polite disagreement. Starting with agreement or understanding before expressing dissent shows respect and maintains relationships.'

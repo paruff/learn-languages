@@ -1,0 +1,54 @@
+nodeId: B1-DISCOURSE-003
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-DISCOURSE-003-001
+    term: 'due to'
+    translation: 'devido a'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Due to the rain, the event was postponed.'
+    exampleTranslation: 'Devido à chuva, o evento foi adiado.'
+  - id: en-GB-B1-DISCOURSE-003-002
+    term: 'as a result'
+    translation: 'como resultado'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'As a result, the economy grew.'
+    exampleTranslation: 'Como resultado, a economia cresceu.'
+  - id: en-GB-B1-DISCOURSE-003-003
+    term: 'because of'
+    translation: 'por causa de'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Because of the traffic, I arrived late.'
+    exampleTranslation: 'Por causa do tráfego, cheguei atrasado.'
+  - id: en-GB-B1-DISCOURSE-003-004
+    term: 'consequently'
+    translation: 'consequentemente'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Consequently, we needed to change plans.'
+    exampleTranslation: 'Consequentemente, precisámos de mudar os planos.'
+  - id: en-GB-B1-DISCOURSE-003-005
+    term: 'this led to'
+    translation: 'isto levou a que'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'This led to us making new discoveries.'
+    exampleTranslation: 'Isto levou a que fizéssemos novas descobertas.'
+  - id: en-GB-B1-DISCOURSE-003-006
+    term: 'the cause was'
+    translation: 'a causa foi'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'The cause was the lack of communication.'
+    exampleTranslation: 'A causa foi a falta de comunicação.'
+grammar:
+  - id: B1-GRAMMAR-012
+    point: 'Cause and effect connectors'
+    explanation: "Using 'due to', 'as a result', 'because of' for causal relationships"
+    examples:
+      - 'Due to the price increase, many customers changed.'
+      - 'As a result of the reform, the system improved.'
+    cefrNotes: 'Cause and effect connectors enable B1 learners to express reasoning'
+culturalNotes: "British communication values clear cause and effect relationships. Using 'due to' or 'as a result' demonstrates analytical thinking."

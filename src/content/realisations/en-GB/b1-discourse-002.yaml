@@ -1,0 +1,54 @@
+nodeId: B1-DISCOURSE-002
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-DISCOURSE-002-001
+    term: 'following'
+    translation: 'na sequência de'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Following the meeting, we made a decision.'
+    exampleTranslation: 'Na sequência da reunião, tomámos uma decisão.'
+  - id: en-GB-B1-DISCOURSE-002-002
+    term: 'after that'
+    translation: 'depois disso'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'After that, we went to dinner.'
+    exampleTranslation: 'Depois disso, fomos jantar.'
+  - id: en-GB-B1-DISCOURSE-002-003
+    term: 'first of all'
+    translation: 'antes de tudo'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'First of all, I want to thank everyone for being here.'
+    exampleTranslation: 'Antes de tudo, quero agradecer a presença de todos.'
+  - id: en-GB-B1-DISCOURSE-002-004
+    term: 'meanwhile'
+    translation: 'enquanto isso'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Meanwhile, the situation improved.'
+    exampleTranslation: 'Enquanto isso, a situação melhorou.'
+  - id: en-GB-B1-DISCOURSE-002-005
+    term: 'next'
+    translation: 'em seguida'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Next, we presented the results.'
+    exampleTranslation: 'Em seguida, apresentámos os resultados.'
+  - id: en-GB-B1-DISCOURSE-002-006
+    term: 'finally'
+    translation: 'por fim'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Finally, we reached a conclusion.'
+    exampleTranslation: 'Por fim, chegámos a uma conclusão.'
+grammar:
+  - id: B1-GRAMMAR-011
+    point: 'Temporal markers for narrative sequence'
+    explanation: 'Using time markers to order events in a narrative'
+    examples:
+      - 'First, we arrived at the hotel.'
+      - 'Next, we explored the city.'
+    cefrNotes: 'Temporal markers help B1 learners create coherent narratives'
+culturalNotes: "British narratives often value concise sequencing. Using 'firstly', 'then', 'finally' provides clear chronological structure."

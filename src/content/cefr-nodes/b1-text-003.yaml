@@ -1,0 +1,11 @@
+nodeId: B1-TEXT-003
+cefrLevel: B1
+skill: reading
+canDo: 'Can read simple technical information in their field'
+pragmaticFocus: 'Technical reading comprehension'
+notionalFocus: 'Professional/academic texts'
+relatedNodes:
+  - B1-TEXT-001
+  - B1-TEXT-005
+prerequisiteNodes:
+  - B1-TEXT-001

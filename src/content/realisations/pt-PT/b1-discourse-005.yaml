@@ -1,0 +1,54 @@
+nodeId: B1-DISCOURSE-005
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-B1-DISCOURSE-005-001
+    term: 'relato breve'
+    translation: 'brief report'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Vou fazer um relato breve da minha experiência.'
+    exampleTranslation: 'I will make a brief report of my experience.'
+  - id: pt-PT-B1-DISCOURSE-005-002
+    term: 'resumir os factos'
+    translation: 'to summarise the facts'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É importante resumir os factos principais.'
+    exampleTranslation: 'It is important to summarise the main facts.'
+  - id: pt-PT-B1-DISCOURSE-005-003
+    term: 'descrever a situação'
+    translation: 'to describe the situation'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vou descrever a situação em detalhe.'
+    exampleTranslation: 'I will describe the situation in detail.'
+  - id: pt-PT-B1-DISCOURSE-005-004
+    term: 'fazer uma análise'
+    translation: 'to do an analysis'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Precisamos de fazer uma análise cuidadosa.'
+    exampleTranslation: 'We need to do a careful analysis.'
+  - id: pt-PT-B1-DISCOURSE-005-005
+    term: 'tirar conclusões'
+    translation: 'to draw conclusions'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vamos tirar conclusões baseadas nos dados.'
+    exampleTranslation: 'Let us draw conclusions based on the data.'
+  - id: pt-PT-B1-DISCOURSE-005-006
+    term: 'apresentar recomendações'
+    translation: 'to present recommendations'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vou apresentar recomendações para melhorar.'
+    exampleTranslation: 'I will present recommendations for improvement.'
+grammar:
+  - id: B1-GRAMMAR-014
+    point: 'Report structure with logical flow'
+    explanation: 'Organising reports with introduction, body, and conclusion'
+    examples:
+      - 'Este relato descreve a situação actual.'
+      - 'Em conclusão, as recomendações são claras.'
+    cefrNotes: 'B1 learners develop report writing skills with clear structure'
+culturalNotes: 'Portuguese report writing values clarity and logical structure. Using formal connectors helps maintain professional tone.'

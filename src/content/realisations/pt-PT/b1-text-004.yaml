@@ -1,0 +1,54 @@
+nodeId: B1-TEXT-004
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-B1-TEXT-004-001
+    term: 'texto conectado'
+    translation: 'connected text'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Vou escrever um texto conectado sobre a minha experiência.'
+    exampleTranslation: 'I will write a connected text about my experience.'
+  - id: pt-PT-B1-TEXT-004-002
+    term: 'tópico familiar'
+    translation: 'familiar topic'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Prefiro escrever sobre tópicos familiares.'
+    exampleTranslation: 'I prefer to write about familiar topics.'
+  - id: pt-PT-B1-TEXT-004-003
+    term: 'descrever experiências'
+    translation: 'to describe experiences'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Gosto de descrever as minhas experiências de viagem.'
+    exampleTranslation: 'I like to describe my travel experiences.'
+  - id: pt-PT-B1-TEXT-004-004
+    term: 'expressar impressões'
+    translation: 'to express impressions'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É importante expressar as minhas impressões com clareza.'
+    exampleTranslation: 'It is important to express my impressions clearly.'
+  - id: pt-PT-B1-TEXT-004-005
+    term: 'usar conectores'
+    translation: 'to use connectors'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Preciso de usar conectores para organizar o texto.'
+    exampleTranslation: 'I need to use connectors to organise the text.'
+  - id: pt-PT-B1-TEXT-004-006
+    term: 'reescrever o texto'
+    translation: 'to rewrite the text'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vou reescrever o texto para melhorar a clareza.'
+    exampleTranslation: 'I will rewrite the text to improve clarity.'
+grammar:
+  - id: B1-GRAMMAR-018
+    point: 'Cohesive writing with discourse markers'
+    explanation: 'Using connectors and linking words for text coherence'
+    examples:
+      - 'Primeiro, vou descrever o contexto.'
+      - 'Depois, apresento as minhas conclusões.'
+    cefrNotes: 'B1 learners develop cohesive writing skills'
+culturalNotes: "Portuguese writing values logical structure. Using 'em primeiro lugar', 'além disso', 'em conclusão' helps organise written expression."

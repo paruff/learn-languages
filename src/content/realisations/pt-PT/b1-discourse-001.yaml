@@ -1,0 +1,54 @@
+nodeId: B1-DISCOURSE-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-B1-DISCOURSE-001-001
+    term: 'além disso'
+    translation: 'furthermore'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Além disso, a qualidade do produto é excelente.'
+    exampleTranslation: 'Furthermore, the product quality is excellent.'
+  - id: pt-PT-B1-DISCOURSE-001-002
+    term: 'no entanto'
+    translation: 'however'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'No entanto, há algumas exceções a considerar.'
+    exampleTranslation: 'However, there are some exceptions to consider.'
+  - id: pt-PT-B1-DISCOURSE-001-003
+    term: 'por outro lado'
+    translation: 'on the other hand'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Por outro lado, os benefícios são significativos.'
+    exampleTranslation: 'On the other hand, the benefits are significant.'
+  - id: pt-PT-B1-DISCOURSE-001-004
+    term: 'embora'
+    translation: 'although'
+    partOfSpeech: conjunction
+    gender: n/a
+    example: 'Embora seja difícil, vale a pena tentar.'
+    exampleTranslation: 'Although it is difficult, it is worth trying.'
+  - id: pt-PT-B1-DISCOURSE-001-005
+    term: 'portanto'
+    translation: 'therefore'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Portanto, devemos agir rapidamente.'
+    exampleTranslation: 'Therefore, we should act quickly.'
+  - id: pt-PT-B1-DISCOURSE-001-006
+    term: 'apesar de'
+    translation: 'despite'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Apesar de chover, saímos para passear.'
+    exampleTranslation: 'Despite the rain, we went out for a walk.'
+grammar:
+  - id: B1-GRAMMAR-010
+    point: 'Complex connectors for extended discourse'
+    explanation: 'Using connectors beyond e, mas, porque to organise longer speech'
+    examples:
+      - 'Além disso, precisamos de considerar o orçamento.'
+      - 'No entanto, a situação não é tão simples.'
+    cefrNotes: 'B1 introduces advanced connectors for organised discourse'
+culturalNotes: "Portuguese speakers value well-structured arguments. Using connectors like 'além disso' and 'no entanto' shows sophistication in speech."

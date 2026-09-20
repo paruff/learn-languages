@@ -1,0 +1,11 @@
+nodeId: B1-OPINION-002
+cefrLevel: B1
+skill: spoken_interaction
+canDo: 'Can agree and disagree politely'
+pragmaticFocus: 'Polite agreement and disagreement strategies'
+notionalFocus: 'Social harmony, respectful dialogue'
+relatedNodes:
+  - B1-OPINION-001
+  - B1-SOCIAL-003
+prerequisiteNodes:
+  - B1-SOCIAL-003

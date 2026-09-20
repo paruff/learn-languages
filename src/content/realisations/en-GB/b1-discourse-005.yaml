@@ -1,0 +1,54 @@
+nodeId: B1-DISCOURSE-005
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-DISCOURSE-005-001
+    term: 'brief report'
+    translation: 'relato breve'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'I will make a brief report of my experience.'
+    exampleTranslation: 'Vou fazer um relato breve da minha experiência.'
+  - id: en-GB-B1-DISCOURSE-005-002
+    term: 'to summarise the facts'
+    translation: 'resumir os factos'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is important to summarise the main facts.'
+    exampleTranslation: 'É importante resumir os factos principais.'
+  - id: en-GB-B1-DISCOURSE-005-003
+    term: 'to describe the situation'
+    translation: 'descrever a situação'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will describe the situation in detail.'
+    exampleTranslation: 'Vou descrever a situação em detalhe.'
+  - id: en-GB-B1-DISCOURSE-005-004
+    term: 'to do an analysis'
+    translation: 'fazer uma análise'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'We need to do a careful analysis.'
+    exampleTranslation: 'Precisamos de fazer uma análise cuidadosa.'
+  - id: en-GB-B1-DISCOURSE-005-005
+    term: 'to draw conclusions'
+    translation: 'tirar conclusões'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Let us draw conclusions based on the data.'
+    exampleTranslation: 'Vamos tirar conclusões baseadas nos dados.'
+  - id: en-GB-B1-DISCOURSE-005-006
+    term: 'to present recommendations'
+    translation: 'apresentar recomendações'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will present recommendations for improvement.'
+    exampleTranslation: 'Vou apresentar recomendações para melhorar.'
+grammar:
+  - id: B1-GRAMMAR-014
+    point: 'Report structure with logical flow'
+    explanation: 'Organising reports with introduction, body, and conclusion'
+    examples:
+      - 'This report describes the current situation.'
+      - 'In conclusion, the recommendations are clear.'
+    cefrNotes: 'B1 learners develop report writing skills with clear structure'
+culturalNotes: "British report writing values clarity and logical structure. Using 'in summary', 'furthermore', 'in conclusion' maintains professional tone."

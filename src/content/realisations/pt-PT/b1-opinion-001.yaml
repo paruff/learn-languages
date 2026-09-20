@@ -1,0 +1,54 @@
+nodeId: B1-OPINION-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-B1-OPINION-001-001
+    term: 'na minha opinião'
+    translation: 'in my opinion'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Na minha opinião, o cinema português é muito interessante.'
+    exampleTranslation: 'In my opinion, Portuguese cinema is very interesting.'
+  - id: pt-PT-B1-OPINION-001-002
+    term: 'acho que'
+    translation: 'I think that'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Acho que devíamos investir mais na educação.'
+    exampleTranslation: 'I think we should invest more in education.'
+  - id: pt-PT-B1-OPINION-001-003
+    term: 'parece-me que'
+    translation: 'it seems to me that'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Parece-me que esta solução é a melhor.'
+    exampleTranslation: 'It seems to me that this solution is the best.'
+  - id: pt-PT-B1-OPINION-001-004
+    term: 'defender a ideia de que'
+    translation: 'to defend the idea that'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Defendo a ideia de que todos devem ter acesso à saúde.'
+    exampleTranslation: 'I defend the idea that everyone should have access to healthcare.'
+  - id: pt-PT-B1-OPINION-001-005
+    term: 'tenho a certeza de que'
+    translation: 'I am sure that'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Tenho a certeza de que isto vai melhorar.'
+    exampleTranslation: 'I am sure that this will improve.'
+  - id: pt-PT-B1-OPINION-001-006
+    term: 'sou da opinião de que'
+    translation: 'I am of the opinion that'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Sou da opinião de que precisamos de mudanças.'
+    exampleTranslation: 'I am of the opinion that we need changes.'
+grammar:
+  - id: B1-GRAMMAR-006
+    point: 'Opinion expressions with subjunctive'
+    explanation: 'Using que + subjunctive in opinion phrases (acho que seja, defendo que tenham)'
+    examples:
+      - 'Acho que seja importante investir.'
+      - 'Defendo que todos tenham acesso.'
+    cefrNotes: 'B1 learners begin using subjunctive in opinion expressions'
+culturalNotes: "Portuguese people value reasoned opinions. Supporting your view with 'porque' (because) or 'já que' (since) adds credibility to your argument."

@@ -1,0 +1,54 @@
+nodeId: B1-TEXT-005
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-TEXT-005-001
+    term: 'formal letter'
+    translation: 'carta formal'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'I need to write a formal letter to the employer.'
+    exampleTranslation: 'Preciso de escrever uma carta formal para o empregador.'
+  - id: en-GB-B1-TEXT-005-002
+    term: 'professional email'
+    translation: 'email profissional'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'I sent a professional email to the colleague.'
+    exampleTranslation: 'Enviei um email profissional para o colega.'
+  - id: en-GB-B1-TEXT-005-003
+    term: 'greeting'
+    translation: 'saudação'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'The greeting should be appropriate to the context.'
+    exampleTranslation: 'A saudação deve ser adequada ao contexto.'
+  - id: en-GB-B1-TEXT-005-004
+    term: 'farewell'
+    translation: 'despedida'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'I used a formal farewell in the letter.'
+    exampleTranslation: 'Usei uma despedida formal na carta.'
+  - id: en-GB-B1-TEXT-005-005
+    term: 'courtesy formula'
+    translation: 'fórmula de cortesia'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Courtesy formulas are important in formal writing.'
+    exampleTranslation: 'As fórmulas de cortesia são importantes na escrita formal.'
+  - id: en-GB-B1-TEXT-005-006
+    term: 'to sign the email'
+    translation: 'assinar o email'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I did not forget to sign the email.'
+    exampleTranslation: 'Não me esqueci de assinar o email.'
+grammar:
+  - id: B1-GRAMMAR-019
+    point: 'Formal letter and email conventions'
+    explanation: 'Using appropriate register and format for different types of correspondence'
+    examples:
+      - 'Dear Sir/Madam, I am writing to request...'
+      - 'Kind regards,'
+    cefrNotes: 'B1 learners develop register awareness for different correspondence types'
+culturalNotes: "British formal correspondence uses concise courtesy. 'Dear Sir/Madam' and 'Kind regards' are standard formulas."

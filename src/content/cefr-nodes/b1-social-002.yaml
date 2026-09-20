@@ -1,0 +1,11 @@
+nodeId: B1-SOCIAL-002
+cefrLevel: B1
+skill: spoken_interaction
+canDo: 'Can engage in extended conversation on familiar topics'
+pragmaticFocus: 'Extended discourse management'
+notionalFocus: 'Familiar topics, personal experiences'
+relatedNodes:
+  - B1-SOCIAL-001
+  - B1-SOCIAL-003
+prerequisiteNodes:
+  - B1-SOCIAL-001

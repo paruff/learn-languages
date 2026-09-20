@@ -1,0 +1,54 @@
+nodeId: B1-SOCIAL-004
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-B1-SOCIAL-004-001
+    term: 'convidar a opinião'
+    translation: 'to invite opinion'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Gostava de convidar a sua opinião sobre este tema.'
+    exampleTranslation: 'I would like to invite your opinion on this topic.'
+  - id: pt-PT-B1-SOCIAL-004-002
+    term: 'reagir à notícia'
+    translation: 'to react to news'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Como reagiu à notícia sobre o clima?'
+    exampleTranslation: 'How did you react to the news about the weather?'
+  - id: pt-PT-B1-SOCIAL-004-003
+    term: 'mudar de assunto educadamente'
+    translation: 'to change the subject politely'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Podemos mudar de assunto educadamente se preferir.'
+    exampleTranslation: 'We can change the subject politely if you prefer.'
+  - id: pt-PT-B1-SOCIAL-004-004
+    term: 'fazer follow-up'
+    translation: 'to follow up'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Gostava de fazer follow-up sobre o que disse anteriormente.'
+    exampleTranslation: 'I would like to follow up on what was said earlier.'
+  - id: pt-PT-B1-SOCIAL-004-005
+    term: 'encontrar ponto comum'
+    translation: 'to find common ground'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É importante encontrar ponto comum numa discussão.'
+    exampleTranslation: 'It is important to find common ground in a discussion.'
+  - id: pt-PT-B1-SOCIAL-004-006
+    term: 'concluir a conversa'
+    translation: 'to conclude the conversation'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vamos concluir a conversa para já?'
+    exampleTranslation: 'Shall we conclude the conversation for now?'
+grammar:
+  - id: B1-GRAMMAR-005
+    point: 'Discourse management phrases'
+    explanation: 'Using set phrases to manage conversation flow and turn-taking'
+    examples:
+      - 'Na minha opinião, acho que...'
+      - 'Entendo o seu ponto de vista, no entanto...'
+    cefrNotes: 'Discourse management phrases help B1 learners maintain extended conversations'
+culturalNotes: 'Portuguese conversation style is interactive with frequent turn-taking. Interrupting is sometimes acceptable in animated discussions, but polite waiting is preferred in formal contexts.'

@@ -1,0 +1,11 @@
+nodeId: B1-SOCIAL-003
+cefrLevel: B1
+skill: spoken_interaction
+canDo: 'Can express and respond to feelings and opinions during conversations'
+pragmaticFocus: 'Emotional expression in conversation'
+notionalFocus: 'Feelings, opinions, personal perspective'
+relatedNodes:
+  - B1-SOCIAL-001
+  - B1-OPINION-001
+prerequisiteNodes:
+  - B1-SOCIAL-001

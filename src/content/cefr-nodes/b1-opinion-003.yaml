@@ -1,0 +1,11 @@
+nodeId: B1-OPINION-003
+cefrLevel: B1
+skill: spoken_production
+canDo: 'Can describe advantages and disadvantages'
+pragmaticFocus: 'Comparative analysis and evaluation'
+notionalFocus: 'Pros and cons, balanced assessment'
+relatedNodes:
+  - B1-OPINION-001
+  - B1-OPINION-004
+prerequisiteNodes:
+  - B1-OPINION-001

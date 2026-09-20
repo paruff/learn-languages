@@ -1,0 +1,54 @@
+nodeId: B1-TEXT-003
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-TEXT-003-001
+    term: 'technical information'
+    translation: 'informação técnica'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'I can understand simple technical information.'
+    exampleTranslation: 'Consigo entender informação técnica simples.'
+  - id: en-GB-B1-TEXT-003-002
+    term: 'professional field'
+    translation: 'área profissional'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'I work in a specific professional field.'
+    exampleTranslation: 'Trabalho numa área profissional específica.'
+  - id: en-GB-B1-TEXT-003-003
+    term: 'instruction manual'
+    translation: 'manual de instruções'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'I read the computer instruction manual.'
+    exampleTranslation: 'Li o manual de instruções do computador.'
+  - id: en-GB-B1-TEXT-003-004
+    term: 'technical report'
+    translation: 'relatório técnico'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'I need to write a technical report.'
+    exampleTranslation: 'Preciso de escrever um relatório técnico.'
+  - id: en-GB-B1-TEXT-003-005
+    term: 'specific terminology'
+    translation: 'terminologia específica'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'The specific terminology is difficult to understand.'
+    exampleTranslation: 'A terminologia específica é difícil de entender.'
+  - id: en-GB-B1-TEXT-003-006
+    term: 'to consult references'
+    translation: 'consultar referências'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is useful to consult references to understand the text.'
+    exampleTranslation: 'É útil consultar referências para entender o texto.'
+grammar:
+  - id: B1-GRAMMAR-017
+    point: 'Technical vocabulary recognition'
+    explanation: 'Recognising cognates and technical terms from other languages'
+    examples:
+      - 'Many technical terms come from Latin or Greek.'
+      - 'I can use cognates to understand technical texts.'
+    cefrNotes: 'B1 learners leverage cognates for technical reading'
+culturalNotes: 'Technical texts often include international terms. Recognising patterns helps comprehension.'

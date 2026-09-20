@@ -1,0 +1,11 @@
+nodeId: B1-OPINION-001
+cefrLevel: B1
+skill: spoken_production
+canDo: 'Can express opinions with supporting reasons'
+pragmaticFocus: 'Opinion expression with justification'
+notionalFocus: 'Personal views, reasoned arguments'
+relatedNodes:
+  - B1-OPINION-002
+  - B1-OPINION-003
+prerequisiteNodes:
+  - B1-SOCIAL-003

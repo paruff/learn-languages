@@ -1,0 +1,54 @@
+nodeId: B1-DISCOURSE-003
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-B1-DISCOURSE-003-001
+    term: 'devido a'
+    translation: 'due to'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Devido à chuva, o evento foi adiado.'
+    exampleTranslation: 'Due to the rain, the event was postponed.'
+  - id: pt-PT-B1-DISCOURSE-003-002
+    term: 'como resultado'
+    translation: 'as a result'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Como resultado, a economia cresceu.'
+    exampleTranslation: 'As a result, the economy grew.'
+  - id: pt-PT-B1-DISCOURSE-003-003
+    term: 'por causa de'
+    translation: 'because of'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Por causa do tráfego, cheguei atrasado.'
+    exampleTranslation: 'Because of the traffic, I arrived late.'
+  - id: pt-PT-B1-DISCOURSE-003-004
+    term: 'consequentemente'
+    translation: 'consequently'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Consequentemente, precisámos de mudar os planos.'
+    exampleTranslation: 'Consequently, we needed to change plans.'
+  - id: pt-PT-B1-DISCOURSE-003-005
+    term: 'isto levou a que'
+    translation: 'this led to'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Isto levou a que fizéssemos novas descobertas.'
+    exampleTranslation: 'This led to us making new discoveries.'
+  - id: pt-PT-B1-DISCOURSE-003-006
+    term: 'a causa foi'
+    translation: 'the cause was'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'A causa foi a falta de comunicação.'
+    exampleTranslation: 'The cause was the lack of communication.'
+grammar:
+  - id: B1-GRAMMAR-012
+    point: 'Cause and effect connectors'
+    explanation: "Using 'devido a', 'como resultado', 'por causa de' for causal relationships"
+    examples:
+      - 'Devido ao aumento de preços, muitos clientes mudaram.'
+      - 'Como resultado da reforma, o sistema melhorou.'
+    cefrNotes: 'Cause and effect connectors enable B1 learners to express reasoning'
+culturalNotes: 'In Portuguese, explaining reasons before conclusions is valued. Using causal connectors shows thoughtful analysis.'

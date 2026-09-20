@@ -1,0 +1,54 @@
+nodeId: B1-OPINION-002
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-OPINION-002-001
+    term: 'I fully agree'
+    translation: 'concordo plenamente'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I fully agree with what you said.'
+    exampleTranslation: 'Concordo plenamente com o que disseste.'
+  - id: en-GB-B1-OPINION-002-002
+    term: 'I agree'
+    translation: 'estou de acordo'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I agree with this proposal.'
+    exampleTranslation: 'Estou de acordo com esta proposta.'
+  - id: en-GB-B1-OPINION-002-003
+    term: 'I disagree with your point of view'
+    translation: 'discordo do seu ponto de vista'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Respectfully, I disagree with your point of view.'
+    exampleTranslation: 'Respeitosamente, discordo do seu ponto de vista.'
+  - id: en-GB-B1-OPINION-002-004
+    term: 'I understand what you say, but'
+    translation: 'compreendo o que diz, mas'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I understand what you say, but I have a different perspective.'
+    exampleTranslation: 'Compreendo o que diz, mas tenho uma perspetiva diferente.'
+  - id: en-GB-B1-OPINION-002-005
+    term: 'I do not fully agree'
+    translation: 'não concordo totalmente'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I do not fully agree, but it makes sense.'
+    exampleTranslation: 'Não concordo totalmente, mas faz sentido.'
+  - id: en-GB-B1-OPINION-002-006
+    term: 'that depends'
+    translation: 'isso depende'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'That depends on the circumstances.'
+    exampleTranslation: 'Isso depende das circunstâncias.'
+grammar:
+  - id: B1-GRAMMAR-007
+    point: 'Polite disagreement with hedging'
+    explanation: "Using 'I do not fully agree', 'I understand, but' for diplomatic disagreement"
+    examples:
+      - 'I do not fully agree with that approach.'
+      - 'I understand, however I think there are other options.'
+    cefrNotes: 'B1 learners learn to soften disagreement for social harmony'
+culturalNotes: "British culture values indirect disagreement. Phrases like 'I see your point, but' or 'That's an interesting perspective, though' soften dissent and maintain politeness."

@@ -1,0 +1,54 @@
+nodeId: B1-SOCIAL-003
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-SOCIAL-003-001
+    term: 'to feel'
+    translation: 'sentir-se'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'I feel very good when I am with my friends.'
+    exampleTranslation: 'Sinto-me muito bem quando estou com os meus amigos.'
+  - id: en-GB-B1-SOCIAL-003-002
+    term: 'to express feelings'
+    translation: 'expressar sentimentos'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is important to express our feelings.'
+    exampleTranslation: 'É importante expressar os nossos sentimentos.'
+  - id: en-GB-B1-SOCIAL-003-003
+    term: 'to agree with'
+    translation: 'concordar com'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I completely agree with your opinion.'
+    exampleTranslation: 'Concordo completamente com a sua opinião.'
+  - id: en-GB-B1-SOCIAL-003-004
+    term: 'to disagree politely'
+    translation: 'discordar educadamente'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I understand your point, but I disagree politely.'
+    exampleTranslation: 'Compreendo o seu ponto, mas discordo educadamente.'
+  - id: en-GB-B1-SOCIAL-003-005
+    term: 'to show interest'
+    translation: 'demonstrar interesse'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is good to show interest when someone tells us something.'
+    exampleTranslation: 'É bom demonstrar interesse quando alguém nos conta algo.'
+  - id: en-GB-B1-SOCIAL-003-006
+    term: 'to share my perspective'
+    translation: 'partilhar a minha perspetiva'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I would like to share my perspective on this topic.'
+    exampleTranslation: 'Gostava de partilhar a minha perspetiva sobre este assunto.'
+grammar:
+  - id: B1-GRAMMAR-004
+    point: 'Sentir-se + adjective for emotional states'
+    explanation: 'Using reflexive verb sentir-se with adjectives to describe feelings'
+    examples:
+      - 'I feel motivated to start the project.'
+      - 'She feels confident in her decision.'
+    cefrNotes: 'Sentir-se constructions allow B1 learners to express nuanced emotional states'
+culturalNotes: 'British culture tends to be more reserved about emotional expression. Sharing feelings is appropriate with close friends but may be uncomfortable in casual acquaintances.'

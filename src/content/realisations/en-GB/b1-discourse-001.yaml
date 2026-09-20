@@ -1,0 +1,54 @@
+nodeId: B1-DISCOURSE-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-DISCOURSE-001-001
+    term: 'furthermore'
+    translation: 'além disso'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Furthermore, the product quality is excellent.'
+    exampleTranslation: 'Além disso, a qualidade do produto é excelente.'
+  - id: en-GB-B1-DISCOURSE-001-002
+    term: 'however'
+    translation: 'no entanto'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'However, there are some exceptions to consider.'
+    exampleTranslation: 'No entanto, há algumas exceções a considerar.'
+  - id: en-GB-B1-DISCOURSE-001-003
+    term: 'on the other hand'
+    translation: 'por outro lado'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'On the other hand, the benefits are significant.'
+    exampleTranslation: 'Por outro lado, os benefícios são significativos.'
+  - id: en-GB-B1-DISCOURSE-001-004
+    term: 'although'
+    translation: 'embora'
+    partOfSpeech: conjunction
+    gender: n/a
+    example: 'Although it is difficult, it is worth trying.'
+    exampleTranslation: 'Embora seja difícil, vale a pena tentar.'
+  - id: en-GB-B1-DISCOURSE-001-005
+    term: 'therefore'
+    translation: 'portanto'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Therefore, we should act quickly.'
+    exampleTranslation: 'Portanto, devemos agir rapidamente.'
+  - id: en-GB-B1-DISCOURSE-001-006
+    term: 'despite'
+    translation: 'apesar de'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Despite the rain, we went out for a walk.'
+    exampleTranslation: 'Apesar de chover, saímos para passear.'
+grammar:
+  - id: B1-GRAMMAR-010
+    point: 'Complex connectors for extended discourse'
+    explanation: 'Using connectors beyond and, but, because to organise longer speech'
+    examples:
+      - 'Furthermore, we need to consider the budget.'
+      - 'However, the situation is not so simple.'
+    cefrNotes: 'B1 introduces advanced connectors for organised discourse'
+culturalNotes: "British discourse values logical connectors. Using 'furthermore', 'however', 'therefore' demonstrates organised thinking in formal contexts."

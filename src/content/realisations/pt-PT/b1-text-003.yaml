@@ -1,0 +1,54 @@
+nodeId: B1-TEXT-003
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-B1-TEXT-003-001
+    term: 'informação técnica'
+    translation: 'technical information'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Consigo entender informação técnica simples.'
+    exampleTranslation: 'I can understand simple technical information.'
+  - id: pt-PT-B1-TEXT-003-002
+    term: 'área profissional'
+    translation: 'professional field'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Trabalho numa área profissional específica.'
+    exampleTranslation: 'I work in a specific professional field.'
+  - id: pt-PT-B1-TEXT-003-003
+    term: 'manual de instruções'
+    translation: 'instruction manual'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Li o manual de instruções do computador.'
+    exampleTranslation: 'I read the computer instruction manual.'
+  - id: pt-PT-B1-TEXT-003-004
+    term: 'relatório técnico'
+    translation: 'technical report'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Preciso de escrever um relatório técnico.'
+    exampleTranslation: 'I need to write a technical report.'
+  - id: pt-PT-B1-TEXT-003-005
+    term: 'terminologia específica'
+    translation: 'specific terminology'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'A terminologia específica é difícil de entender.'
+    exampleTranslation: 'The specific terminology is difficult to understand.'
+  - id: pt-PT-B1-TEXT-003-006
+    term: 'consultar referências'
+    translation: 'to consult references'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É útil consultar referências para entender o texto.'
+    exampleTranslation: 'It is useful to consult references to understand the text.'
+grammar:
+  - id: B1-GRAMMAR-017
+    point: 'Technical vocabulary recognition'
+    explanation: 'Recognising cognates and technical terms from other languages'
+    examples:
+      - 'Muitos termos técnicos vêm do latim ou grego.'
+      - 'Posso usar cognatos para entender textos técnicos.'
+    cefrNotes: 'B1 learners leverage cognates for technical reading'
+culturalNotes: 'Portuguese technical texts often include English loanwords in technology and business fields.'
