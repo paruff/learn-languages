@@ -5,9 +5,13 @@ content (`imageUrl` in a realisation's vocabulary item). This site is
 published under CC-BY-4.0, so an image without a clear, checked license here
 is a licensing liability, not just a missing credit.
 
-| Filename | Source | License | Attribution required |
-|----------|--------|---------|----------------------|
-| _(none yet)_ | | | |
+| Filename     | Source                                                                                                                                                                                         | License       | Attribution required                                                                                 |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ---------------------------------------------------------------------------------------------------- |
+| `agua.webp`  | [Glass-of-water.jpg](https://commons.wikimedia.org/wiki/File:Glass-of-water.jpg), Derek Jensen (Tysto), Wikimedia Commons                                                                      | Public Domain | No                                                                                                   |
+| `pao.webp`   | [Bread on the Table](<https://commons.wikimedia.org/wiki/File:Bread_on_the_Table_(Unsplash).jpg>), Brooke Cagle, via Unsplash/Wikimedia Commons                                                | CC0 1.0       | No                                                                                                   |
+| `cafe.webp`  | [Cup Coffee.jpg](https://commons.wikimedia.org/wiki/File:Cup_Coffee.jpg), ProjectManhattan, Wikimedia Commons                                                                                  | CC0 1.0       | No                                                                                                   |
+| `leite.webp` | [Milk is displayed in glass pitchers at a cafe counter.jpg](https://commons.wikimedia.org/wiki/File:Milk_is_displayed_in_glass_pitchers_at_a_cafe_counter.jpg), Shixart1985, Wikimedia Commons | CC BY 2.0     | **Yes** — "Milk is displayed in glass pitchers at a cafe counter" by Shixart1985, licensed CC BY 2.0 |
+| `arroz.webp` | [A bowl of rice.jpg](https://commons.wikimedia.org/wiki/File:A_bowl_of_rice.jpg), Douglaspperkins, Wikimedia Commons                                                                           | CC0 1.0       | No                                                                                                   |
 
 ## Accepted sources
 
