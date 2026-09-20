@@ -1,0 +1,54 @@
+nodeId: B1-TEXT-002
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-B1-TEXT-002-001
+    term: 'notícia'
+    translation: 'news'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Li uma notícia interessante no jornal.'
+    exampleTranslation: 'I read an interesting news article in the newspaper.'
+  - id: pt-PT-B1-TEXT-002-002
+    term: 'resumo da notícia'
+    translation: 'news summary'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'O resumo da notícia é muito claro.'
+    exampleTranslation: 'The news summary is very clear.'
+  - id: pt-PT-B1-TEXT-002-003
+    term: 'título principal'
+    translation: 'main headline'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'O título principal吸引了我的注意.'
+    exampleTranslation: 'The main headline caught my attention.'
+  - id: pt-PT-B1-TEXT-002-004
+    term: 'ler rapidamente'
+    translation: 'to read quickly'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Posso ler rapidamente para encontrar a informação.'
+    exampleTranslation: 'I can read quickly to find the information.'
+  - id: pt-PT-B1-TEXT-002-005
+    term: 'sublinhar palavras-chave'
+    translation: 'to underline key words'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Gosto de sublinhar palavras-chave quando leio.'
+    exampleTranslation: 'I like to underline key words when I read.'
+  - id: pt-PT-B1-TEXT-002-006
+    term: 'fazer anotações'
+    translation: 'to make notes'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É útil fazer anotações enquanto leio.'
+    exampleTranslation: 'It is useful to make notes while I read.'
+grammar:
+  - id: B1-GRAMMAR-016
+    point: 'Skimming and scanning techniques'
+    explanation: 'Quick reading strategies to find specific information'
+    examples:
+      - 'Posso varrer o texto para encontrar datas.'
+      - 'Leio o primeiro parágrafo para entender o tema.'
+    cefrNotes: 'B1 learners develop efficient reading strategies'
+culturalNotes: 'Portuguese news sites like RTP and Lusa have accessible articles suitable for B1 learners.'

@@ -1,0 +1,12 @@
+nodeId: B1-TEXT-005
+cefrLevel: B1
+skill: writing
+canDo: 'Can write a letter or email describing experiences and impressions'
+pragmaticFocus: 'Personal correspondence'
+notionalFocus: 'Letters, emails, personal communication'
+relatedNodes:
+  - B1-TEXT-003
+  - B1-TEXT-004
+prerequisiteNodes:
+  - B1-TEXT-003
+  - B1-TEXT-004

@@ -1,0 +1,54 @@
+nodeId: B1-TEXT-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-TEXT-001-001
+    term: 'factual article'
+    translation: 'artigo factual'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'I read a factual article about the Portuguese economy.'
+    exampleTranslation: 'Li um artigo factual sobre a economia portuguesa.'
+  - id: en-GB-B1-TEXT-001-002
+    term: 'topic of interest'
+    translation: 'assunto de interesse'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'I found an article about a topic of interest.'
+    exampleTranslation: 'Encontrei um artigo sobre um assunto de interesse.'
+  - id: en-GB-B1-TEXT-001-003
+    term: 'to understand the text'
+    translation: 'compreender o texto'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I can understand the text without a dictionary.'
+    exampleTranslation: 'Consigo compreender o texto sem dicionário.'
+  - id: en-GB-B1-TEXT-001-004
+    term: 'to identify main ideas'
+    translation: 'identificar ideias principais'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is important to identify the main ideas.'
+    exampleTranslation: 'É importante identificar as ideias principais.'
+  - id: en-GB-B1-TEXT-001-005
+    term: 'to extract information'
+    translation: 'extrair informações'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I need to extract relevant information.'
+    exampleTranslation: 'Preciso de extrair informações relevantes.'
+  - id: en-GB-B1-TEXT-001-006
+    term: 'to read carefully'
+    translation: 'ler com atenção'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'You need to read carefully to understand.'
+    exampleTranslation: 'É preciso ler com atenção para entender.'
+grammar:
+  - id: B1-GRAMMAR-015
+    point: 'Reading strategies for comprehension'
+    explanation: 'Using context clues and word formation to understand texts'
+    examples:
+      - 'I can deduce the meaning from context.'
+      - 'The word root helps me understand.'
+    cefrNotes: 'B1 learners develop independent reading strategies'
+culturalNotes: 'British newspapers like The Guardian and BBC News publish accessible articles. Reading these regularly improves comprehension.'

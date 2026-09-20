@@ -1,0 +1,11 @@
+nodeId: B1-TEXT-004
+cefrLevel: B1
+skill: writing
+canDo: 'Can write straightforward connected text on familiar topics'
+pragmaticFocus: 'Connected writing on known subjects'
+notionalFocus: 'Personal interests, familiar topics'
+relatedNodes:
+  - B1-TEXT-002
+  - B1-TEXT-005
+prerequisiteNodes:
+  - B1-DISCOURSE-004

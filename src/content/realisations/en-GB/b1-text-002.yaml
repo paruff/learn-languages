@@ -1,0 +1,54 @@
+nodeId: B1-TEXT-002
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-TEXT-002-001
+    term: 'news'
+    translation: 'notícia'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'I read an interesting news article in the newspaper.'
+    exampleTranslation: 'Li uma notícia interessante no jornal.'
+  - id: en-GB-B1-TEXT-002-002
+    term: 'news summary'
+    translation: 'resumo da notícia'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'The news summary is very clear.'
+    exampleTranslation: 'O resumo da notícia é muito claro.'
+  - id: en-GB-B1-TEXT-002-003
+    term: 'main headline'
+    translation: 'título principal'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'The main headline caught my attention.'
+    exampleTranslation: 'O título principal chamou a minha atenção.'
+  - id: en-GB-B1-TEXT-002-004
+    term: 'to read quickly'
+    translation: 'ler rapidamente'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I can read quickly to find the information.'
+    exampleTranslation: 'Posso ler rapidamente para encontrar a informação.'
+  - id: en-GB-B1-TEXT-002-005
+    term: 'to underline key words'
+    translation: 'sublinhar palavras-chave'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I like to underline key words when I read.'
+    exampleTranslation: 'Gosto de sublinhar palavras-chave quando leio.'
+  - id: en-GB-B1-TEXT-002-006
+    term: 'to make notes'
+    translation: 'fazer anotações'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is useful to make notes while I read.'
+    exampleTranslation: 'É útil fazer anotações enquanto leio.'
+grammar:
+  - id: B1-GRAMMAR-016
+    point: 'Skimming and scanning techniques'
+    explanation: 'Quick reading strategies to find specific information'
+    examples:
+      - 'I can scan the text to find dates.'
+      - 'I read the first paragraph to understand the topic.'
+    cefrNotes: 'B1 learners develop efficient reading strategies'
+culturalNotes: 'British news sites like BBC and The Guardian have articles at various levels suitable for learners.'
