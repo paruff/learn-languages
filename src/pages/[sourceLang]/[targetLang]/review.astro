@@ -89,6 +89,7 @@ const items = await loadPair(sourceLang, targetLang);
   } from '../../../lib/storage';
   import { calculateNextReview, isDue } from '../../../utils/srs';
   import { pronounce } from '../../../lib/pronounce';
+  import { SESSION_SIZE } from '../../../lib/reviewSession';
 
   interface PairItem {
     nodeId: string;
@@ -110,6 +111,9 @@ const items = await loadPair(sourceLang, targetLang);
   let direction: ReviewDirection = loadDirectionPreference(sourceLang, targetLang);
   let queue: PairItem[] = [];
   let reviewed = 0;
+  // Items already re-queued once after an "Again" grade this session — capped
+  // to one retry per item so a repeatedly-failed card can't loop forever.
+  let requeuedIds = new Set<string>();
 
   const cardEl = document.getElementById('review-card')!;
   const emptyEl = document.getElementById('review-empty')!;
@@ -138,10 +142,11 @@ const items = await loadPair(sourceLang, targetLang);
   }
 
   function buildQueue(): void {
-    queue = items.filter((item) =>
-      isDue(loadState(sourceLang, targetLang, direction, item.target.id))
-    );
+    queue = items
+      .filter((item) => isDue(loadState(sourceLang, targetLang, direction, item.target.id)))
+      .slice(0, SESSION_SIZE);
     reviewed = 0;
+    requeuedIds = new Set<string>();
   }
 
   function showCard(): void {
@@ -196,7 +201,16 @@ const items = await loadPair(sourceLang, targetLang);
     const nextState = calculateNextReview({ state, quality });
     saveState(sourceLang, targetLang, direction, item.target.id, nextState);
 
-    reviewed += 1;
+    // A failed recall ("Again") reappears a few cards later in this same
+    // session for another retrieval attempt, rather than waiting for its
+    // SM-2 due date tomorrow. Only once per item, so a repeat "Again" can't
+    // loop the session forever.
+    if (quality < 3 && !requeuedIds.has(item.target.id)) {
+      requeuedIds.add(item.target.id);
+      queue.splice(Math.min(3, queue.length), 0, item);
+    } else {
+      reviewed += 1;
+    }
     showCard();
   });
 
