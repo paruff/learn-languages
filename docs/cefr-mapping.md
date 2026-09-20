@@ -1,6 +1,6 @@
-# CEFR Mapping — A1/A2 Inventory
+# CEFR Mapping — A1/A2/B1 Inventory
 
-Tracks the CEFR A1/A2 Can-Do statement inventory against `cefr-nodes` and `realisations` content, per `specification-design.md` §5.3 (CEFR Mapping Process) and issues #5, #50, #51.
+Tracks the CEFR A1/A2/B1 Can-Do statement inventory against `cefr-nodes` and `realisations` content, per `specification-design.md` §5.3 (CEFR Mapping Process) and issues #5, #50, #51, #52.
 
 **Source:** [Referencial Camões PLE](https://www.instituto-camoes.pt/images/REFERENCIAL_ebook.pdf) (Direção de Serviços de Língua e Cultura, Camões — Instituto da Cooperação e da Língua, I.P., 1st ed., September 2017, ISBN 978-989-8751-10-2). Freely downloadable — no access blocker, corrected from an earlier version of this doc that assumed otherwise. One real limitation remains: the printed/PDF edition explicitly states it presents only an *illustrative excerpt* of each inventory ("optou-se por apresentar apenas uma parte de cada um dos inventários, a título ilustrativo", p.10) — the complete inventories live behind a searchable web interface at the [Centro Virtual Camões](https://www.instituto-camoes.pt/activity/centro-virtual/referencial-camoes-ple) that isn't fetchable from here. So this doc now reflects the real category *structure* (authoritative) plus everything the PDF excerpt actually shows, not a claim of 100% vocabulary completeness.
 
@@ -63,16 +63,41 @@ A1 Coverage: 17/17 nodes fully realised (100%).
 
 A2 Coverage: 20/20 nodes fully realised (100%).
 
-## Skill distribution (A1 + A2 combined)
+## B1 nodes in the repo
 
-| Skill | A1 | A2 | Total |
+| nodeId | Skill | Can-Do | Status |
 |---|---|---|---|
-| listening | 1 | 4 | 5 |
-| reading | 4 | 4 | 8 |
-| spoken_interaction | 8 | 4 | 12 |
-| spoken_production | 4 | 6 | 10 |
-| writing | 0 | 2 | 2 |
-| **Total** | **17** | **20** | **37** |
+| B1-SOCIAL-001 | spoken_interaction | Can handle most situations while travelling in a Portuguese-speaking area | ✅ Realised |
+| B1-SOCIAL-002 | spoken_interaction | Can engage in extended conversation on familiar topics | ✅ Realised |
+| B1-SOCIAL-003 | spoken_interaction | Can express and respond to feelings and opinions during conversations | ✅ Realised |
+| B1-SOCIAL-004 | spoken_production | Can keep a conversation going by inviting opinions and reacting | ✅ Realised |
+| B1-OPINION-001 | spoken_production | Can express opinions with supporting reasons | ✅ Realised |
+| B1-OPINION-002 | spoken_interaction | Can agree and disagree politely | ✅ Realised |
+| B1-OPINION-003 | spoken_production | Can describe advantages and disadvantages | ✅ Realised |
+| B1-OPINION-004 | writing | Can write simple opinions about current events | ✅ Realised |
+| B1-DISCOURSE-001 | spoken_interaction | Can use connectors to link ideas in extended speech | ✅ Realised |
+| B1-DISCOURSE-002 | spoken_production | Can narrate events in correct temporal sequence | ✅ Realised |
+| B1-DISCOURSE-003 | spoken_production | Can describe cause and effect relationships | ✅ Realised |
+| B1-DISCOURSE-004 | writing | Can write a simple narrative with temporal markers | ✅ Realised |
+| B1-DISCOURSE-005 | writing | Can write short reports describing experiences | ✅ Realised |
+| B1-TEXT-001 | reading | Can understand factual articles on topics of interest | ✅ Realised |
+| B1-TEXT-002 | reading | Can identify the main points in news articles | ✅ Realised |
+| B1-TEXT-003 | reading | Can read simple technical information in their field | ✅ Realised |
+| B1-TEXT-004 | writing | Can write straightforward connected text on familiar topics | ✅ Realised |
+| B1-TEXT-005 | writing | Can write a letter or email describing experiences and impressions | ✅ Realised |
+
+B1 Coverage: 18/18 nodes fully realised (100%).
+
+## Skill distribution (A1 + A2 + B1 combined)
+
+| Skill | A1 | A2 | B1 | Total |
+|---|---|---|---|---|
+| listening | 1 | 4 | 0 | 5 |
+| reading | 4 | 4 | 3 | 11 |
+| spoken_interaction | 8 | 4 | 4 | 16 |
+| spoken_production | 4 | 6 | 4 | 14 |
+| writing | 0 | 2 | 5 | 7 |
+| **Total** | **17** | **20** | **18** | **55** |
 
 ## Referencial Camões's real function category structure (Componente Pragmática, Part II)
 
