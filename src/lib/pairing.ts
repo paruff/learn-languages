@@ -4,6 +4,8 @@ export interface VocabularyPairItem {
   translation: string;
   example: string;
   exampleTranslation: string;
+  imageUrl?: string;
+  imageAlt?: string;
 }
 
 export interface PairedVocabularyItem {
