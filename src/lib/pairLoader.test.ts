@@ -90,4 +90,21 @@ describe('pairRealisations', () => {
     const ids = paired.flatMap((p) => [p.source.id, p.target.id]);
     expect(new Set(ids).size).toBe(ids.length);
   });
+
+  it('carries imageUrl and imageAlt through pairing when present', () => {
+    const ptGreetWithImage: RealisationLike = {
+      ...ptGreet,
+      vocabulary: [
+        { ...ptGreet.vocabulary[0], imageUrl: 'ola.webp', imageAlt: 'Two people waving hello' },
+        ptGreet.vocabulary[1],
+      ],
+    };
+
+    const paired = pairRealisations([enGreet, ptGreetWithImage], 'en-GB', 'pt-PT');
+
+    expect(paired[0].target.imageUrl).toBe('ola.webp');
+    expect(paired[0].target.imageAlt).toBe('Two people waving hello');
+    // Items without an image stay undefined, not defaulted to something odd.
+    expect(paired[1].target.imageUrl).toBeUndefined();
+  });
 });

@@ -23,6 +23,7 @@ const items = await loadPair(sourceLang, targetLang);
   <p id="review-empty" class="card" hidden>No cards due right now — come back later.</p>
   <div id="review-card" class="review-card card" hidden>
     <p id="review-progress" class="review-card__progress"></p>
+    <img id="review-image" class="review-card__image" hidden />
     <p id="review-front" class="review-card__term"></p>
     <button id="review-reveal" type="button" class="btn btn--primary">Reveal</button>
     <p id="review-back" class="review-card__term review-card__term--answer" hidden></p>
@@ -63,6 +64,13 @@ const items = await loadPair(sourceLang, targetLang);
     font-size: 0.875rem;
     margin: 0;
   }
+  .review-card__image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: var(--radius);
+    background-color: var(--color-bg-secondary);
+  }
   .review-card__term {
     font-size: 2rem;
     font-weight: 700;
@@ -90,12 +98,20 @@ const items = await loadPair(sourceLang, targetLang);
   import { calculateNextReview, isDue } from '../../../utils/srs';
   import { pronounce } from '../../../lib/pronounce';
   import { SESSION_SIZE } from '../../../lib/reviewSession';
+  import { withBase } from '../../../lib/urls';
+
+  interface PairSide {
+    id: string;
+    term: string;
+    imageUrl?: string;
+    imageAlt?: string;
+  }
 
   interface PairItem {
     nodeId: string;
     seq: string;
-    source: { id: string; term: string };
-    target: { id: string; term: string };
+    source: PairSide;
+    target: PairSide;
   }
 
   const dataEl = document.getElementById('review-data');
@@ -119,6 +135,7 @@ const items = await loadPair(sourceLang, targetLang);
   const emptyEl = document.getElementById('review-empty')!;
   const summaryEl = document.getElementById('review-summary')!;
   const progressEl = document.getElementById('review-progress')!;
+  const imageEl = document.getElementById('review-image') as HTMLImageElement;
   const frontEl = document.getElementById('review-front')!;
   const backEl = document.getElementById('review-back')!;
   const revealBtn = document.getElementById('review-reveal')!;
@@ -134,6 +151,15 @@ const items = await loadPair(sourceLang, targetLang);
   }
   function backLang(): string {
     return direction === 'forward' ? targetLang : sourceLang;
+  }
+  // The image lives on whichever side of the pair happens to have one (in
+  // practice the Portuguese vocabulary item) — independent of which side is
+  // currently "front" vs "back", since it's a memory cue for the concept,
+  // not tied to review direction.
+  function imageOf(item: PairItem): PairSide | undefined {
+    if (item.source.imageUrl) return item.source;
+    if (item.target.imageUrl) return item.target;
+    return undefined;
   }
 
   function updateDirectionToggle(): void {
@@ -158,6 +184,14 @@ const items = await loadPair(sourceLang, targetLang);
       return;
     }
     progressEl.textContent = `${reviewed + 1} of ${reviewed + queue.length}`;
+    const image = imageOf(item);
+    if (image?.imageUrl) {
+      imageEl.src = withBase(`/vocab-images/${image.imageUrl}`);
+      imageEl.alt = image.imageAlt ?? '';
+      imageEl.hidden = false;
+    } else {
+      imageEl.hidden = true;
+    }
     frontEl.textContent = frontOf(item).term;
     backEl.textContent = backOf(item).term;
     backEl.hidden = true;
