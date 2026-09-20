@@ -1,6 +1,68 @@
 import { describe, it, expect } from 'vitest';
 import { z } from 'zod';
 
+// Re-create the vocabulary item schema from content.config.ts for testing
+const vocabularyItemSchema = z
+  .object({
+    id: z.string().regex(/^[a-z]{2}(-[A-Z]{2})?-.+-\d{3}$/),
+    term: z.string().min(1),
+    translation: z.string().min(1),
+    partOfSpeech: z.enum([
+      'noun',
+      'verb',
+      'adjective',
+      'adverb',
+      'pronoun',
+      'preposition',
+      'conjunction',
+      'interjection',
+      'phrase',
+    ]),
+    gender: z.enum(['masculine', 'feminine', 'neuter', 'n/a']).default('n/a'),
+    example: z.string().min(5),
+    exampleTranslation: z.string().min(5),
+    audioUrl: z.string().optional(),
+    imageUrl: z.string().optional(),
+    imageAlt: z.string().optional(),
+  })
+  .refine((data) => !data.imageUrl || !!data.imageAlt, {
+    message: 'imageAlt is required whenever imageUrl is set (WCAG 2.1 AA — no unlabeled images)',
+    path: ['imageAlt'],
+  });
+
+describe('Vocabulary Item Schema Validation', () => {
+  const baseItem = {
+    id: 'pt-PT-hello-001',
+    term: 'Olá',
+    translation: 'Hello',
+    partOfSpeech: 'interjection' as const,
+    example: 'Olá, como estás?',
+    exampleTranslation: 'Hello, how are you?',
+  };
+
+  it('accepts a vocabulary item with no image at all', () => {
+    const result = vocabularyItemSchema.safeParse(baseItem);
+    expect(result.success).toBe(true);
+  });
+
+  it('accepts a vocabulary item with both imageUrl and imageAlt', () => {
+    const result = vocabularyItemSchema.safeParse({
+      ...baseItem,
+      imageUrl: 'ola.webp',
+      imageAlt: 'Two people waving hello to each other',
+    });
+    expect(result.success).toBe(true);
+  });
+
+  it('rejects imageUrl without imageAlt (would ship an unlabeled image)', () => {
+    const result = vocabularyItemSchema.safeParse({
+      ...baseItem,
+      imageUrl: 'ola.webp',
+    });
+    expect(result.success).toBe(false);
+  });
+});
+
 // Re-create the CEFR node schema from content.config.ts for testing
 const cefrNodeSchema = z
   .object({

@@ -17,26 +17,36 @@ const cefrNodeSchema = z
     path: ['nodeId'],
   });
 
-const vocabularyItemSchema = z.object({
-  id: z.string().regex(/^[a-z]{2}(-[A-Z]{2})?-.+-\d{3}$/),
-  term: z.string().min(1),
-  translation: z.string().min(1),
-  partOfSpeech: z.enum([
-    'noun',
-    'verb',
-    'adjective',
-    'adverb',
-    'pronoun',
-    'preposition',
-    'conjunction',
-    'interjection',
-    'phrase',
-  ]),
-  gender: z.enum(['masculine', 'feminine', 'neuter', 'n/a']).default('n/a'),
-  example: z.string().min(5),
-  exampleTranslation: z.string().min(5),
-  audioUrl: z.string().optional(),
-});
+const vocabularyItemSchema = z
+  .object({
+    id: z.string().regex(/^[a-z]{2}(-[A-Z]{2})?-.+-\d{3}$/),
+    term: z.string().min(1),
+    translation: z.string().min(1),
+    partOfSpeech: z.enum([
+      'noun',
+      'verb',
+      'adjective',
+      'adverb',
+      'pronoun',
+      'preposition',
+      'conjunction',
+      'interjection',
+      'phrase',
+    ]),
+    gender: z.enum(['masculine', 'feminine', 'neuter', 'n/a']).default('n/a'),
+    example: z.string().min(5),
+    exampleTranslation: z.string().min(5),
+    audioUrl: z.string().optional(),
+    // Filename relative to public/vocab-images/ (see CREDITS.md there for
+    // sourcing/attribution) — not a full URL, so content authors don't need
+    // to know the site's deployed base path.
+    imageUrl: z.string().optional(),
+    imageAlt: z.string().optional(),
+  })
+  .refine((data) => !data.imageUrl || !!data.imageAlt, {
+    message: 'imageAlt is required whenever imageUrl is set (WCAG 2.1 AA — no unlabeled images)',
+    path: ['imageAlt'],
+  });
 
 const grammarPointSchema = z.object({
   id: z.string(),
