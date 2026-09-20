@@ -8,6 +8,8 @@ vocabulary:
     gender: feminine
     example: 'Um copo de água, por favor.'
     exampleTranslation: 'A glass of water, please.'
+    imageUrl: 'agua.webp'
+    imageAlt: 'A clear glass filled with water'
   - id: pt-PT-A1-FOOD-001-002
     term: 'pão'
     translation: 'bread'
@@ -15,6 +17,8 @@ vocabulary:
     gender: masculine
     example: 'Quero pão com manteiga.'
     exampleTranslation: 'I want bread with butter.'
+    imageUrl: 'pao.webp'
+    imageAlt: 'A loaf of bread wrapped in cloth in a wire basket'
   - id: pt-PT-A1-FOOD-001-003
     term: 'café'
     translation: 'coffee'
@@ -22,6 +26,8 @@ vocabulary:
     gender: masculine
     example: 'Um café, por favor.'
     exampleTranslation: 'A coffee, please.'
+    imageUrl: 'cafe.webp'
+    imageAlt: 'A white cup of coffee on a saucer'
   - id: pt-PT-A1-FOOD-001-004
     term: 'leite'
     translation: 'milk'
@@ -29,6 +35,8 @@ vocabulary:
     gender: masculine
     example: 'Chá com leite.'
     exampleTranslation: 'Tea with milk.'
+    imageUrl: 'leite.webp'
+    imageAlt: 'Glass pitchers filled with white milk'
   - id: pt-PT-A1-FOOD-001-005
     term: 'arroz'
     translation: 'rice'
@@ -36,5 +44,7 @@ vocabulary:
     gender: masculine
     example: 'Arroz com feijão.'
     exampleTranslation: 'Rice with beans.'
+    imageUrl: 'arroz.webp'
+    imageAlt: 'A bowl of cooked white rice'
 grammar: []
 culturalNotes: 'Meals in Portugal are typically lunch (12:30-14:00) and dinner (19:30-21:00). Bread is served with most meals.'
