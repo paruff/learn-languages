@@ -1,0 +1,11 @@
+nodeId: A2-STUDY-002
+cefrLevel: A2
+skill: spoken_interaction
+canDo: Can talk about my educational background
+pragmaticFocus: Discuss educational history
+notionalFocus: Schools, teachers, subjects
+relatedNodes:
+  - A2-STUDY-001
+  - A2-STUDY-003
+prerequisiteNodes:
+  - A2-STUDY-001

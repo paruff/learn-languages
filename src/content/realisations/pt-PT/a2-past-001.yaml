@@ -1,0 +1,47 @@
+nodeId: A2-PAST-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-A2-PAST-001-001
+    term: 'ontem'
+    translation: 'yesterday'
+    partOfSpeech: adverb
+    example: 'Ontem fui ao cinema.'
+    exampleTranslation: 'Yesterday I went to the cinema.'
+  - id: pt-PT-A2-PAST-001-002
+    term: 'semana passada'
+    translation: 'last week'
+    partOfSpeech: adverb
+    example: 'Semana passada viajei para o Porto.'
+    exampleTranslation: 'Last week I travelled to Porto.'
+  - id: pt-PT-A2-PAST-001-003
+    term: 'ano passado'
+    translation: 'last year'
+    partOfSpeech: adverb
+    example: 'Ano passado mudei de emprego.'
+    exampleTranslation: 'Last year I changed jobs.'
+  - id: pt-PT-A2-PAST-001-004
+    term: 'visitar'
+    translation: 'to visit'
+    partOfSpeech: verb
+    example: 'Visitei os meus avós no domingo.'
+    exampleTranslation: 'I visited my grandparents on Sunday.'
+  - id: pt-PT-A2-PAST-001-005
+    term: 'comer'
+    translation: 'to eat'
+    partOfSpeech: verb
+    example: 'Comi francesinhas no Porto.'
+    exampleTranslation: 'I ate francesinhas in Porto.'
+  - id: pt-PT-A2-PAST-001-006
+    term: 'viajar'
+    translation: 'to travel'
+    partOfSpeech: verb
+    example: 'Viajámos de comboio.'
+    exampleTranslation: 'We travelled by train.'
+grammar:
+  - id: pt-PT-A2-PAST-001-G01
+    point: 'pretérito perfeito (past tense)'
+    explanation: 'Regular and irregular verbs in past tense'
+    examples:
+      - 'Visitei os meus avós no domingo.'
+      - 'Comi francesinhas no Porto.'
+culturalNotes: 'Portuguese past tense (pretérito perfeito) is used for completed actions. Irregular verbs like ser, ter, ir are common in everyday speech.'
