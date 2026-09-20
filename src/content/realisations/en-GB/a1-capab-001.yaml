@@ -1,0 +1,22 @@
+nodeId: A1-CAPAB-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-A1-CAPAB-001-001
+    term: 'I can...'
+    translation: 'Consigo...'
+    partOfSpeech: phrase
+    example: 'I can speak a little Portuguese.'
+    exampleTranslation: 'Consigo falar um pouco de português.'
+  - id: en-GB-A1-CAPAB-001-002
+    term: "I can't..."
+    translation: 'Não consigo...'
+    partOfSpeech: phrase
+    example: "I can't find the phone."
+    exampleTranslation: 'Não consigo encontrar o telefone.'
+  - id: en-GB-A1-CAPAB-001-003
+    term: "I know (how to)... / I don't know (how to)..."
+    translation: 'Sei... / Não sei...'
+    partOfSpeech: phrase
+    example: 'I know how to swim.'
+    exampleTranslation: 'Sei nadar.'
+grammar: []

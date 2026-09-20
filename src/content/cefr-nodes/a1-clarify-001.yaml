@@ -1,0 +1,10 @@
+nodeId: A1-CLARIFY-001
+cefrLevel: A1
+skill: spoken_interaction
+canDo: Can ask someone to repeat or clarify
+pragmaticFocus: Use polite forms when asking for repetition
+notionalFocus: Clarification, repetition, comprehension checks
+relatedNodes:
+  - A1-GREET-001
+  - A1-INTRO-001
+prerequisiteNodes: []

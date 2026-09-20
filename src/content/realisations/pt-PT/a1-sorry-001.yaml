@@ -1,0 +1,23 @@
+nodeId: A1-SORRY-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-A1-SORRY-001-001
+    term: 'Desculpe'
+    translation: 'Sorry (formal) / Excuse me'
+    partOfSpeech: interjection
+    example: 'Desculpe, onde fica a estação?'
+    exampleTranslation: 'Excuse me, where is the station?'
+  - id: pt-PT-A1-SORRY-001-002
+    term: 'Com licença'
+    translation: 'Excuse me (to pass by)'
+    partOfSpeech: phrase
+    example: 'Com licença, posso passar?'
+    exampleTranslation: 'Excuse me, can I pass?'
+  - id: pt-PT-A1-SORRY-001-003
+    term: 'Não faz mal'
+    translation: "It's okay / No problem"
+    partOfSpeech: phrase
+    example: '— Desculpe! — Não faz mal.'
+    exampleTranslation: "— Sorry! — It's okay."
+grammar: []
+culturalNotes: 'Desculpe serves double duty as "sorry" and "excuse me". Não faz mal is the standard response to an apology.'

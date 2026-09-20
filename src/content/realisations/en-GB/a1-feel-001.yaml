@@ -1,0 +1,28 @@
+nodeId: A1-FEEL-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-A1-FEEL-001-001
+    term: 'I am happy'
+    translation: 'Estou feliz'
+    partOfSpeech: phrase
+    example: 'I am happy today.'
+    exampleTranslation: 'Estou feliz hoje.'
+  - id: en-GB-A1-FEEL-001-002
+    term: 'I am sad'
+    translation: 'Estou triste'
+    partOfSpeech: phrase
+    example: 'I am sad about the news.'
+    exampleTranslation: 'Estou triste com a notícia.'
+  - id: en-GB-A1-FEEL-001-003
+    term: 'I am tired'
+    translation: 'Estou cansado/cansada'
+    partOfSpeech: phrase
+    example: 'I am tired after work.'
+    exampleTranslation: 'Estou cansado depois do trabalho.'
+  - id: en-GB-A1-FEEL-001-004
+    term: "I'm hungry/thirsty"
+    translation: 'Tenho fome/sede'
+    partOfSpeech: phrase
+    example: "I'm very hungry."
+    exampleTranslation: 'Tenho muita fome.'
+grammar: []

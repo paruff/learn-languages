@@ -1,0 +1,23 @@
+nodeId: A1-THANK-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-A1-THANK-001-001
+    term: 'Obrigado'
+    translation: 'Thank you (male speaker)'
+    partOfSpeech: interjection
+    example: 'Obrigado pela ajuda.'
+    exampleTranslation: 'Thank you for the help.'
+  - id: pt-PT-A1-THANK-001-002
+    term: 'Obrigada'
+    translation: 'Thank you (female speaker)'
+    partOfSpeech: interjection
+    example: 'Obrigada pelo presente.'
+    exampleTranslation: 'Thank you for the gift.'
+  - id: pt-PT-A1-THANK-001-003
+    term: 'De nada'
+    translation: 'You are welcome'
+    partOfSpeech: phrase
+    example: '— Obrigado! — De nada.'
+    exampleTranslation: '— Thank you! — You are welcome.'
+grammar: []
+culturalNotes: 'In European Portuguese, obrigado/obrigada is gendered. De nada is the standard response.'

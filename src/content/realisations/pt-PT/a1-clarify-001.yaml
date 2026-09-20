@@ -1,0 +1,29 @@
+nodeId: A1-CLARIFY-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-A1-CLARIFY-001-001
+    term: 'Pode repetir?'
+    translation: 'Can you repeat?'
+    partOfSpeech: phrase
+    example: 'Desculpe, pode repetir?'
+    exampleTranslation: 'Sorry, can you repeat?'
+  - id: pt-PT-A1-CLARIFY-001-002
+    term: 'Como se diz...?'
+    translation: 'How do you say...?'
+    partOfSpeech: phrase
+    example: 'Como se diz "water" em português?'
+    exampleTranslation: 'How do you say "water" in Portuguese?'
+  - id: pt-PT-A1-CLARIFY-001-003
+    term: 'Não entendo'
+    translation: "I don't understand"
+    partOfSpeech: phrase
+    example: 'Não entendo, pode falar mais devagar?'
+    exampleTranslation: "I don't understand, can you speak more slowly?"
+  - id: pt-PT-A1-CLARIFY-001-004
+    term: 'Pode falar mais devagar?'
+    translation: 'Can you speak more slowly?'
+    partOfSpeech: phrase
+    example: 'Pode falar mais devagar, por favor?'
+    exampleTranslation: 'Can you speak more slowly, please?'
+grammar: []
+culturalNotes: 'Portuguese speakers appreciate when learners ask for clarification rather than pretend to understand. Pode repetir? is the most useful phrase for A1 learners.'

@@ -21,9 +21,20 @@ Tracks the CEFR A1 Can-Do statement inventory against `cefr-nodes` and `realisat
 | A1-INTRO-001 | spoken_interaction | Can introduce themselves and others | ✅ Realised |
 | A1-INTRO-002 | spoken_interaction | Can ask and answer basic questions about personal details | ✅ Realised |
 | A1-NUMB-001 | reading | Can recognize and write numbers 1-100 | ✅ Realised |
-| A1-FOOD-001 | reading | Can identify common food and drink items | 🟡 Node only |
+| A1-FOOD-001 | reading | Can identify common food and drink items | ✅ Realised |
+| A1-THANK-001 | spoken_interaction | Can express thanks and respond to thanks | ✅ Realised |
+| A1-SORRY-001 | spoken_interaction | Can apologise and respond to apologies | ✅ Realised |
+| A1-LOC-001 | spoken_interaction | Can ask for and understand simple directions | ✅ Realised |
+| A1-TIME-001 | reading | Can understand basic time and date expressions | ✅ Realised |
+| A1-REQUEST-001 | spoken_interaction | Can make simple requests using polite forms | ✅ Realised |
+| A1-OFFER-001 | spoken_production | Can offer things and make simple invitations | ✅ Realised |
+| A1-OPIN-001 | spoken_production | Can express simple opinions about everyday topics | ✅ Realised |
+| A1-CAPAB-001 | spoken_production | Can express ability and inability to do things | ✅ Realised |
+| A1-WANT-001 | spoken_production | Can express simple desires and intentions | ✅ Realised |
+| A1-FEEL-001 | listening | Can understand and express basic emotions | ✅ Realised |
+| A1-CLARIFY-001 | spoken_interaction | Can ask someone to repeat or clarify | ✅ Realised |
 
-Coverage: 5/6 nodes fully realised (83%), 1/6 node-only.
+Coverage: 17/17 nodes fully realised (100%), 0/17 node-only.
 
 ## Referencial Camões's real function category structure (Componente Pragmática, Part II)
 

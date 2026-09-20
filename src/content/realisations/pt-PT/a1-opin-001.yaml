@@ -1,0 +1,29 @@
+nodeId: A1-OPIN-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-A1-OPIN-001-001
+    term: 'Acho que...'
+    translation: 'I think that...'
+    partOfSpeech: phrase
+    example: 'Acho que o filme é bom.'
+    exampleTranslation: 'I think the film is good.'
+  - id: pt-PT-A1-OPIN-001-002
+    term: 'Gosto de...'
+    translation: 'I like...'
+    partOfSpeech: phrase
+    example: 'Gosto de música portuguesa.'
+    exampleTranslation: 'I like Portuguese music.'
+  - id: pt-PT-A1-OPIN-001-003
+    term: 'Não gosto de...'
+    translation: "I don't like..."
+    partOfSpeech: phrase
+    example: 'Não gosto de café.'
+    exampleTranslation: "I don't like coffee."
+  - id: pt-PT-A1-OPIN-001-004
+    term: 'Na minha opinião...'
+    translation: 'In my opinion...'
+    partOfSpeech: phrase
+    example: 'Na minha opinião, Lisboa é bonita.'
+    exampleTranslation: 'In my opinion, Lisbon is beautiful.'
+grammar: []
+culturalNotes: 'Portuguese people tend to express opinions indirectly. Acho que (I think) softens a statement compared to direct assertions.'

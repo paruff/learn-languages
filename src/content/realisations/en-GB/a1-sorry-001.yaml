@@ -1,0 +1,22 @@
+nodeId: A1-SORRY-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-A1-SORRY-001-001
+    term: 'Sorry'
+    translation: 'Desculpe'
+    partOfSpeech: interjection
+    example: 'Sorry, where is the station?'
+    exampleTranslation: 'Desculpe, onde fica a estação?'
+  - id: en-GB-A1-SORRY-001-002
+    term: 'Excuse me'
+    translation: 'Com licença / Desculpe'
+    partOfSpeech: phrase
+    example: 'Excuse me, can I pass?'
+    exampleTranslation: 'Com licença, posso passar?'
+  - id: en-GB-A1-SORRY-001-003
+    term: "It's okay"
+    translation: 'Não faz mal'
+    partOfSpeech: phrase
+    example: "— Sorry! — It's okay."
+    exampleTranslation: '— Desculpe! — Não faz mal.'
+grammar: []

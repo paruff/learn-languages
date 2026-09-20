@@ -1,0 +1,36 @@
+nodeId: A1-TIME-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-A1-TIME-001-001
+    term: 'Que horas são?'
+    translation: 'What time is it?'
+    partOfSpeech: phrase
+    example: 'Desculpe, que horas são?'
+    exampleTranslation: 'Excuse me, what time is it?'
+  - id: pt-PT-A1-TIME-001-002
+    term: 'hoje'
+    translation: 'today'
+    partOfSpeech: adverb
+    example: 'Hoje é segunda-feira.'
+    exampleTranslation: 'Today is Monday.'
+  - id: pt-PT-A1-TIME-001-003
+    term: 'amanhã'
+    translation: 'tomorrow'
+    partOfSpeech: adverb
+    example: 'Amanhã vou ao mercado.'
+    exampleTranslation: "Tomorrow I'm going to the market."
+  - id: pt-PT-A1-TIME-001-004
+    term: 'ontem'
+    translation: 'yesterday'
+    partOfSpeech: adverb
+    example: 'Ontem fui ao cinema.'
+    exampleTranslation: 'Yesterday I went to the cinema.'
+grammar:
+  - id: pt-PT-A1-TIME-001-G1
+    point: 'Telling the time with horas'
+    explanation: "In European Portuguese, time is expressed with 'São' for most hours: 'São duas horas' (it's 2 o'clock). For 1:00, use 'É uma hora'."
+    examples:
+      - "São três horas. (It is three o'clock.)"
+      - "É uma hora. (It is one o'clock.)"
+      - 'São duas e meia. (It is half past two.)'
+culturalNotes: 'Portuguese mealtimes are later than in English-speaking countries: lunch 12:30-14:00, dinner 19:30-21:00.'

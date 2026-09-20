@@ -1,0 +1,10 @@
+nodeId: A1-SORRY-001
+cefrLevel: A1
+skill: spoken_interaction
+canDo: Can apologise and respond to apologies
+pragmaticFocus: Use appropriate apology formulas for minor offenses
+notionalFocus: Apology, forgiveness, courtesy
+relatedNodes:
+  - A1-THANK-001
+  - A1-GREET-002
+prerequisiteNodes: []

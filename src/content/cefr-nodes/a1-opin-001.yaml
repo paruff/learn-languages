@@ -1,0 +1,10 @@
+nodeId: A1-OPIN-001
+cefrLevel: A1
+skill: spoken_production
+canDo: Can express simple opinions about everyday topics
+pragmaticFocus: Use 'acho que' and 'gosto de' for opinions
+notionalFocus: Opinions, preferences, likes/dislikes
+relatedNodes:
+  - A1-CAPAB-001
+  - A1-FEEL-001
+prerequisiteNodes: []
