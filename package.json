@@ -48,10 +48,10 @@
     "esbuild": true
   },
   "lint-staged": {
-    "src/**/*.{ts,tsx,astro,js,jsx,json,css,md,mdx,yaml,yml}": [
+    "{src,tests}/**/*.{ts,tsx,astro,js,jsx,json,css,md,mdx,yaml,yml}": [
       "prettier --check"
     ],
-    "src/**/*.{ts,tsx,astro}": [
+    "{src,tests}/**/*.{ts,tsx,astro}": [
       "eslint --max-warnings 0"
     ]
   }
