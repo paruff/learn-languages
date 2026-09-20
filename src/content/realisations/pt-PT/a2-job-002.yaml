@@ -1,0 +1,50 @@
+nodeId: A2-JOB-002
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-A2-JOB-002-001
+    term: 'rotina'
+    translation: 'routine'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A minha rotina de trabalho é muito ocupada.'
+    exampleTranslation: 'My work routine is very busy.'
+  - id: pt-PT-A2-JOB-002-002
+    term: 'tarefa'
+    translation: 'task'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Tenho muitas tarefas para fazer hoje.'
+    exampleTranslation: 'I have many tasks to do today.'
+  - id: pt-PT-A2-JOB-002-003
+    term: 'reunião'
+    translation: 'meeting'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Tenho uma reunião às dez da manhã.'
+    exampleTranslation: 'I have a meeting at ten in the morning.'
+  - id: pt-PT-A2-JOB-002-004
+    term: 'sempre'
+    translation: 'always'
+    partOfSpeech: adverb
+    example: 'Sempre chego a tempo ao trabalho.'
+    exampleTranslation: 'I always arrive at work on time.'
+  - id: pt-PT-A2-JOB-002-005
+    term: 'às vezes'
+    translation: 'sometimes'
+    partOfSpeech: adverb
+    example: 'Às vezes almoço no restaurante da esquina.'
+    exampleTranslation: 'Sometimes I have lunch at the corner restaurant.'
+  - id: pt-PT-A2-JOB-002-006
+    term: 'terminar'
+    translation: 'to finish'
+    partOfSpeech: verb
+    example: 'Normalmente termino o trabalho às seis.'
+    exampleTranslation: 'I usually finish work at six.'
+grammar:
+  - id: pt-PT-A2-JOB-002-G01
+    point: 'adverbs of frequency (sempre, às vezes, normalmente)'
+    explanation: 'Used to describe how often work activities happen'
+    examples:
+      - 'Sempre chego a tempo ao trabalho.'
+      - 'Às vezes almoço no restaurante da esquina.'
+culturalNotes: 'Portuguese lunch breaks are typically one hour. Many workers eat at local tascas or bring home-cooked food. The midday pause is important for socialising.'

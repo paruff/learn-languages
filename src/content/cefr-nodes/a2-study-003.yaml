@@ -1,0 +1,11 @@
+nodeId: A2-STUDY-003
+cefrLevel: A2
+skill: reading
+canDo: Can understand simple academic texts
+pragmaticFocus: Read basic academic materials
+notionalFocus: Textbooks, articles, assignments
+relatedNodes:
+  - A2-STUDY-001
+  - A2-STUDY-002
+prerequisiteNodes:
+  - A2-STUDY-001

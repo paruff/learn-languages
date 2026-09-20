@@ -1,0 +1,11 @@
+nodeId: A2-JOB-001
+cefrLevel: A2
+skill: spoken_production
+canDo: Can describe my job and working hours
+pragmaticFocus: Describe personal work situation
+notionalFocus: Employment, occupations, time
+relatedNodes:
+  - A2-JOB-002
+  - A2-JOB-003
+prerequisiteNodes:
+  - A1-FOOD-001

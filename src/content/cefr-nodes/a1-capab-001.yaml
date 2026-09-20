@@ -1,0 +1,10 @@
+nodeId: A1-CAPAB-001
+cefrLevel: A1
+skill: spoken_production
+canDo: Can express ability and inability to do things
+pragmaticFocus: Use 'consigo' and 'não consigo' for ability
+notionalFocus: Ability, inability, capacity
+relatedNodes:
+  - A1-OPIN-001
+  - A1-WANT-001
+prerequisiteNodes: []

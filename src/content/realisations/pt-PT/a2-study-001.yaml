@@ -1,0 +1,51 @@
+nodeId: A2-STUDY-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-A2-STUDY-001-001
+    term: 'universidade'
+    translation: 'university'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Estudo na Universidade de Lisboa.'
+    exampleTranslation: 'I study at the University of Lisbon.'
+  - id: pt-PT-A2-STUDY-001-002
+    term: 'curso'
+    translation: 'course'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O meu curso dura três anos.'
+    exampleTranslation: 'My course lasts three years.'
+  - id: pt-PT-A2-STUDY-001-003
+    term: 'diploma'
+    translation: 'degree'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Tenho um diploma em engenharia.'
+    exampleTranslation: 'I have a degree in engineering.'
+  - id: pt-PT-A2-STUDY-001-004
+    term: 'estudar'
+    translation: 'to study'
+    partOfSpeech: verb
+    example: 'Estudo português todos os dias.'
+    exampleTranslation: 'I study Portuguese every day.'
+  - id: pt-PT-A2-STUDY-001-005
+    term: 'exame'
+    translation: 'exam'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Tenho um exame na semana seguinte.'
+    exampleTranslation: 'I have an exam next week.'
+  - id: pt-PT-A2-STUDY-001-006
+    term: 'aprovar'
+    translation: 'to pass'
+    partOfSpeech: verb
+    example: 'Espero aprovar no exame de matemática.'
+    exampleTranslation: 'I hope to pass the maths exam.'
+grammar:
+  - id: pt-PT-A2-STUDY-001-G01
+    point: 'connectors for listing (e, mas, também)'
+    explanation: 'Used to connect educational experiences'
+    examples:
+      - 'Estudo na universidade e trabalho ao fim de semana.'
+      - 'Tenho um diploma, mas quero fazer um mestrado.'
+culturalNotes: 'Portuguese higher education follows the Bologna Process. Students typically complete a licenciatura (3 years) before a mestrado (2 years).'

@@ -1,0 +1,11 @@
+nodeId: A2-JOB-002
+cefrLevel: A2
+skill: spoken_production
+canDo: Can talk about daily work routines
+pragmaticFocus: Describe work routines
+notionalFocus: Daily activities, workplace
+relatedNodes:
+  - A2-JOB-001
+  - A2-JOB-003
+prerequisiteNodes:
+  - A2-JOB-001

@@ -1,0 +1,10 @@
+nodeId: A1-FEEL-001
+cefrLevel: A1
+skill: listening
+canDo: Can understand and express basic emotions
+pragmaticFocus: Use estar + adjective for emotional states
+notionalFocus: Emotions, feelings, states
+relatedNodes:
+  - A1-WANT-001
+  - A1-OPIN-001
+prerequisiteNodes: []

@@ -1,0 +1,11 @@
+nodeId: A1-TIME-001
+cefrLevel: A1
+skill: reading
+canDo: Can understand basic time and date expressions
+pragmaticFocus: Use time expressions in daily planning
+notionalFocus: Time, date, days of the week, daily routine
+relatedNodes:
+  - A1-LOC-001
+  - A1-NUMB-001
+prerequisiteNodes:
+  - A1-NUMB-001

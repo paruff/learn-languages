@@ -1,0 +1,10 @@
+nodeId: A1-OFFER-001
+cefrLevel: A1
+skill: spoken_production
+canDo: Can offer things and make simple invitations
+pragmaticFocus: Use 'quer' and 'gostaria' for offers and invitations
+notionalFocus: Offers, invitations, suggestions
+relatedNodes:
+  - A1-REQUEST-001
+  - A1-WANT-001
+prerequisiteNodes: []

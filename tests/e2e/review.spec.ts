@@ -19,7 +19,14 @@ test.describe('review session', () => {
     const grades = page.locator('#review-grades');
     const easy = grades.locator('button[data-quality="4"]');
 
-    await expect(progress).toHaveText('1 of 10');
+    // Extract the session size dynamically — it equals the total due items,
+    // which grows as new content is added. Hardcoding would break on every
+    // content PR.
+    const progressText = await progress.textContent();
+    const totalMatch = progressText?.match(/of (\d+)$/);
+    const totalCount = Number(totalMatch?.[1]);
+
+    await expect(progress).toHaveText(`1 of ${totalCount}`);
     await expect(front).not.toBeEmpty();
     await expect(back).toBeHidden();
     await expect(grades).toBeHidden();
@@ -34,7 +41,7 @@ test.describe('review session', () => {
 
     // Grading advances to the next card in the same session — the total
     // (denominator) is the session size, not the remaining due count.
-    await expect(progress).toHaveText('2 of 10');
+    await expect(progress).toHaveText(`2 of ${totalCount}`);
 
     // The SM-2 state actually landed in localStorage, not just the UI.
     const savedKeys = await page.evaluate(() =>
@@ -53,6 +60,6 @@ test.describe('review session', () => {
     // should no longer appear in today's queue. This is the real proof
     // that SRS state persists across page loads, not just within one.
     await page.reload();
-    await expect(progress).toHaveText('1 of 9');
+    await expect(progress).toHaveText(`1 of ${totalCount - 1}`);
   });
 });

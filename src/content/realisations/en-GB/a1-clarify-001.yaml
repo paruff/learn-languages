@@ -1,0 +1,28 @@
+nodeId: A1-CLARIFY-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-A1-CLARIFY-001-001
+    term: 'Can you repeat?'
+    translation: 'Pode repetir?'
+    partOfSpeech: phrase
+    example: 'Sorry, can you repeat?'
+    exampleTranslation: 'Desculpe, pode repetir?'
+  - id: en-GB-A1-CLARIFY-001-002
+    term: 'How do you say...?'
+    translation: 'Como se diz...?'
+    partOfSpeech: phrase
+    example: 'How do you say "water" in Portuguese?'
+    exampleTranslation: 'Como se diz "water" em português?'
+  - id: en-GB-A1-CLARIFY-001-003
+    term: "I don't understand"
+    translation: 'Não entendo'
+    partOfSpeech: phrase
+    example: "I don't understand, can you speak more slowly?"
+    exampleTranslation: 'Não entendo, pode falar mais devagar?'
+  - id: en-GB-A1-CLARIFY-001-004
+    term: 'Can you speak more slowly?'
+    translation: 'Pode falar mais devagar?'
+    partOfSpeech: phrase
+    example: 'Can you speak more slowly, please?'
+    exampleTranslation: 'Pode falar mais devagar, por favor?'
+grammar: []

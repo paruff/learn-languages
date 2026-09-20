@@ -1,0 +1,11 @@
+nodeId: A2-PAST-003
+cefrLevel: A2
+skill: listening
+canDo: Can understand simple narratives about the past
+pragmaticFocus: Comprehend past stories
+notionalFocus: Events, sequences, time markers
+relatedNodes:
+  - A2-PAST-001
+  - A2-PAST-002
+prerequisiteNodes:
+  - A2-PAST-001

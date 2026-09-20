@@ -1,0 +1,52 @@
+nodeId: A2-STUDY-002
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-A2-STUDY-002-001
+    term: 'escola'
+    translation: 'school'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A minha escola era grande.'
+    exampleTranslation: 'My school was large.'
+  - id: pt-PT-A2-STUDY-002-002
+    term: 'professor'
+    translation: 'teacher'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O meu professor de português era muito bom.'
+    exampleTranslation: 'My Portuguese teacher was very good.'
+  - id: pt-PT-A2-STUDY-002-003
+    term: 'matéria'
+    translation: 'subject'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A minha matéria favorita era história.'
+    exampleTranslation: 'My favourite subject was history.'
+  - id: pt-PT-A2-STUDY-002-004
+    term: 'turma'
+    translation: 'class'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A minha turma tinha vinte alunos.'
+    exampleTranslation: 'My class had twenty students.'
+  - id: pt-PT-A2-STUDY-002-005
+    term: 'notas'
+    translation: 'grades'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Tive boas notas no último exame.'
+    exampleTranslation: 'I got good grades in the last exam.'
+  - id: pt-PT-A2-STUDY-002-006
+    term: 'repetir'
+    translation: 'to repeat'
+    partOfSpeech: verb
+    example: 'Não tive de repetir o ano.'
+    exampleTranslation: "I didn't have to repeat the year."
+grammar:
+  - id: pt-PT-A2-STUDY-002-G01
+    point: 'past tense for educational history'
+    explanation: 'Using pretérito perfeito to describe school experiences'
+    examples:
+      - 'Estudei na Universidade do Porto.'
+      - 'O meu professor era muito paciente.'
+culturalNotes: 'Portuguese education system has three cycles: ensino básico (6 years), ensino secundário (3 years), and ensino superior (university).'

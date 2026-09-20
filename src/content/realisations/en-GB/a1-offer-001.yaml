@@ -1,0 +1,22 @@
+nodeId: A1-OFFER-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-A1-OFFER-001-001
+    term: 'Do you want...?'
+    translation: 'Quer...?'
+    partOfSpeech: phrase
+    example: 'Do you want a coffee?'
+    exampleTranslation: 'Quer um café?'
+  - id: en-GB-A1-OFFER-001-002
+    term: 'Would you like...?'
+    translation: 'Gostaria de...?'
+    partOfSpeech: phrase
+    example: 'Would you like more tea?'
+    exampleTranslation: 'Gostaria de mais chá?'
+  - id: en-GB-A1-OFFER-001-003
+    term: 'Shall we...?'
+    translation: 'Vamos...?'
+    partOfSpeech: phrase
+    example: 'Shall we go to the cinema today?'
+    exampleTranslation: 'Vamos ao cinema hoje?'
+grammar: []

@@ -1,0 +1,22 @@
+nodeId: A1-THANK-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-A1-THANK-001-001
+    term: 'Thank you'
+    translation: 'Obrigado/Obrigada'
+    partOfSpeech: interjection
+    example: 'Thank you for the help.'
+    exampleTranslation: 'Obrigado pela ajuda.'
+  - id: en-GB-A1-THANK-001-002
+    term: 'Thanks'
+    translation: 'Obrigado/Obrigada'
+    partOfSpeech: interjection
+    example: 'Thanks a lot!'
+    exampleTranslation: 'Muito obrigado!'
+  - id: en-GB-A1-THANK-001-003
+    term: 'You are welcome'
+    translation: 'De nada'
+    partOfSpeech: phrase
+    example: '— Thank you! — You are welcome.'
+    exampleTranslation: '— Obrigado! — De nada.'
+grammar: []

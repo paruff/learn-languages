@@ -1,0 +1,22 @@
+nodeId: A1-WANT-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-A1-WANT-001-001
+    term: 'I want...'
+    translation: 'Quero...'
+    partOfSpeech: phrase
+    example: 'I want to learn Portuguese.'
+    exampleTranslation: 'Quero aprender português.'
+  - id: en-GB-A1-WANT-001-002
+    term: "I'm going to..."
+    translation: 'Vou...'
+    partOfSpeech: phrase
+    example: "I'm going to the market tomorrow."
+    exampleTranslation: 'Vou ao mercado amanhã.'
+  - id: en-GB-A1-WANT-001-003
+    term: 'I would like...'
+    translation: 'Gostaria de...'
+    partOfSpeech: phrase
+    example: 'I would like a coffee.'
+    exampleTranslation: 'Gostaria de um café.'
+grammar: []

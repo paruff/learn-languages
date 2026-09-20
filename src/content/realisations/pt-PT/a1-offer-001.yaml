@@ -1,0 +1,29 @@
+nodeId: A1-OFFER-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-A1-OFFER-001-001
+    term: 'Quer...?'
+    translation: 'Do you want...?'
+    partOfSpeech: phrase
+    example: 'Quer um café?'
+    exampleTranslation: 'Do you want a coffee?'
+  - id: pt-PT-A1-OFFER-001-002
+    term: 'Gostaria de...?'
+    translation: 'Would you like...?'
+    partOfSpeech: phrase
+    example: 'Gostaria de mais chá?'
+    exampleTranslation: 'Would you like more tea?'
+  - id: pt-PT-A1-OFFER-001-003
+    term: 'Vamos...?'
+    translation: 'Shall we...?'
+    partOfSpeech: phrase
+    example: 'Vamos ao cinema hoje?'
+    exampleTranslation: 'Shall we go to the cinema today?'
+grammar:
+  - id: pt-PT-A1-OFFER-001-G1
+    point: 'Tu vs. Você in offers'
+    explanation: "Informal offers use tu: 'Queres um café?' Formal offers use você: 'Quer um café?' Match formality to context."
+    examples:
+      - 'Queres ir ao café? (informal)'
+      - 'Quer ir ao café? (formal)'
+culturalNotes: 'Offering food and drink is central to Portuguese hospitality. Refusing an offer is considered impolite in social settings.'

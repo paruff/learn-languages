@@ -1,0 +1,11 @@
+nodeId: A2-NEWS-002
+cefrLevel: A2
+skill: spoken_production
+canDo: Can describe events reported in the media
+pragmaticFocus: Discuss media reports
+notionalFocus: Events, reporting, descriptions
+relatedNodes:
+  - A2-NEWS-001
+  - A2-NEWS-003
+prerequisiteNodes:
+  - A2-NEWS-001

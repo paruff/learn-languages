@@ -1,0 +1,11 @@
+nodeId: A2-NEWS-003
+cefrLevel: A2
+skill: spoken_production
+canDo: Can express basic opinions about news items
+pragmaticFocus: Express opinions on current events
+notionalFocus: Opinions, news analysis, vocabulary
+relatedNodes:
+  - A2-NEWS-001
+  - A2-NEWS-002
+prerequisiteNodes:
+  - A2-NEWS-001

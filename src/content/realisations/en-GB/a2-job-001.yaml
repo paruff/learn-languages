@@ -1,0 +1,47 @@
+nodeId: A2-JOB-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-A2-JOB-001-001
+    term: 'job'
+    translation: 'emprego'
+    partOfSpeech: noun
+    example: 'I have a job in the city centre.'
+    exampleTranslation: 'Tenho um emprego no centro da cidade.'
+  - id: en-GB-A2-JOB-001-002
+    term: 'office'
+    translation: 'escritório'
+    partOfSpeech: noun
+    example: 'I work in a large office.'
+    exampleTranslation: 'Trabalho num escritório grande.'
+  - id: en-GB-A2-JOB-001-003
+    term: 'working hours'
+    translation: 'horário'
+    partOfSpeech: noun
+    example: 'My working hours are from nine to five.'
+    exampleTranslation: 'O meu horário é das nove às cinco.'
+  - id: en-GB-A2-JOB-001-004
+    term: 'to earn'
+    translation: 'ganhar'
+    partOfSpeech: verb
+    example: 'I earn well in my job.'
+    exampleTranslation: 'Ganho bem no meu emprego.'
+  - id: en-GB-A2-JOB-001-005
+    term: 'colleague'
+    translation: 'colega'
+    partOfSpeech: noun
+    example: 'My colleagues are very friendly.'
+    exampleTranslation: 'Os meus colegas são muito simpáticos.'
+  - id: en-GB-A2-JOB-001-006
+    term: 'satisfied'
+    translation: 'satisfeito'
+    partOfSpeech: adjective
+    example: 'I am satisfied with my job.'
+    exampleTranslation: 'Estou satisfeito com o meu emprego.'
+grammar:
+  - id: en-GB-A2-JOB-001-G01
+    point: 'connectors (and, but, because)'
+    explanation: 'Used to link ideas about work and reasons'
+    examples:
+      - 'I work in an office and I like my job.'
+      - "I don't work at the weekend because I need to rest."
+culturalNotes: 'Portuguese work culture values punctuality and personal relationships. Colleagues often address each other by first name after initial formal greetings.'

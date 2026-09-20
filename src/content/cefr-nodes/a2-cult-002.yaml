@@ -1,0 +1,11 @@
+nodeId: A2-CULT-002
+cefrLevel: A2
+skill: spoken_interaction
+canDo: Can describe simple aspects of different cultures
+pragmaticFocus: Compare cultural practices
+notionalFocus: Cultural differences, customs, habits
+relatedNodes:
+  - A2-CULT-001
+  - A2-CULT-003
+prerequisiteNodes:
+  - A2-CULT-001

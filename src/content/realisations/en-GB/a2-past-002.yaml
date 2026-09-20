@@ -1,0 +1,47 @@
+nodeId: A2-PAST-002
+lang: en-GB
+vocabulary:
+  - id: en-GB-A2-PAST-002-001
+    term: 'before'
+    translation: 'antes'
+    partOfSpeech: adverb
+    example: 'Before I lived in the countryside.'
+    exampleTranslation: 'Antes vivia no campo.'
+  - id: en-GB-A2-PAST-002-002
+    term: 'now'
+    translation: 'agora'
+    partOfSpeech: adverb
+    example: 'Now I live in the city.'
+    exampleTranslation: 'Agora vivo na cidade.'
+  - id: en-GB-A2-PAST-002-003
+    term: 'to change'
+    translation: 'mudar'
+    partOfSpeech: verb
+    example: 'I have changed a lot in recent years.'
+    exampleTranslation: 'Mudei muito nos últimos anos.'
+  - id: en-GB-A2-PAST-002-004
+    term: 'to grow'
+    translation: 'crescer'
+    partOfSpeech: verb
+    example: 'I grew up in a small town.'
+    exampleTranslation: 'Cresci numa cidade pequena.'
+  - id: en-GB-A2-PAST-002-005
+    term: 'experience'
+    translation: 'experiência'
+    partOfSpeech: noun
+    example: 'This experience changed my life.'
+    exampleTranslation: 'Esta experiência mudou a minha vida.'
+  - id: en-GB-A2-PAST-002-006
+    term: 'to transform'
+    translation: 'transformar'
+    partOfSpeech: verb
+    example: 'Time transformed everything.'
+    exampleTranslation: 'O tempo transformou tudo.'
+grammar:
+  - id: en-GB-A2-PAST-002-G01
+    point: 'past tense for describing life changes'
+    explanation: 'Using past simple and used to for personal development'
+    examples:
+      - 'Before I worked in a factory.'
+      - 'Now I am a teacher.'
+culturalNotes: 'Portugal has experienced significant social and economic changes in recent decades. Many Portuguese have moved from rural areas to cities or emigrated.'

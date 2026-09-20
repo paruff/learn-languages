@@ -1,0 +1,47 @@
+nodeId: A2-HABIT-003
+lang: en-GB
+vocabulary:
+  - id: en-GB-A2-HABIT-003-001
+    term: 'news'
+    translation: 'notícia'
+    partOfSpeech: noun
+    example: 'I read an interesting news item today.'
+    exampleTranslation: 'Li uma notícia interessante hoje.'
+  - id: en-GB-A2-HABIT-003-002
+    term: 'press'
+    translation: 'imprensa'
+    partOfSpeech: noun
+    example: 'The press wrote a lot about the subject.'
+    exampleTranslation: 'A imprensa escreveu muito sobre o assunto.'
+  - id: en-GB-A2-HABIT-003-003
+    term: 'television'
+    translation: 'televisão'
+    partOfSpeech: noun
+    example: 'I saw the news on television.'
+    exampleTranslation: 'Vi a notícia na televisão.'
+  - id: en-GB-A2-HABIT-003-004
+    term: 'newspaper'
+    translation: 'jornal'
+    partOfSpeech: noun
+    example: 'I read the newspaper every morning.'
+    exampleTranslation: 'Leio o jornal todas as manhãs.'
+  - id: en-GB-A2-HABIT-003-005
+    term: 'article'
+    translation: 'artigo'
+    partOfSpeech: noun
+    example: 'The article is very well written.'
+    exampleTranslation: 'O artigo é muito bem escrito.'
+  - id: en-GB-A2-HABIT-003-006
+    term: 'report'
+    translation: 'reportagem'
+    partOfSpeech: noun
+    example: 'The report showed the reality.'
+    exampleTranslation: 'A reportagem mostrou a realidade.'
+grammar:
+  - id: en-GB-A2-HABIT-003-G01
+    point: 'understanding news vocabulary'
+    explanation: 'Reading and understanding simple news items'
+    examples:
+      - 'The newspaper published a story about the climate.'
+      - 'The report explained the events.'
+culturalNotes: 'Portuguese news media includes newspapers like Público, Diário de Notícias, and TV channels like RTP and TVI.'

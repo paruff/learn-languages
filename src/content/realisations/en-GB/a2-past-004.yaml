@@ -1,0 +1,47 @@
+nodeId: A2-PAST-004
+lang: en-GB
+vocabulary:
+  - id: en-GB-A2-PAST-004-001
+    term: 'in the past'
+    translation: 'antigamente'
+    partOfSpeech: adverb
+    example: 'In the past things were different.'
+    exampleTranslation: 'Antigamente as coisas eram diferentes.'
+  - id: en-GB-A2-PAST-004-002
+    term: 'currently'
+    translation: 'atualmente'
+    partOfSpeech: adverb
+    example: 'Currently I have more free time.'
+    exampleTranslation: 'Atualmente tenho mais tempo livre.'
+  - id: en-GB-A2-PAST-004-003
+    term: 'to compare'
+    translation: 'comparar'
+    partOfSpeech: verb
+    example: 'I like to compare the past with the present.'
+    exampleTranslation: 'Gosto de comparar o passado com o presente.'
+  - id: en-GB-A2-PAST-004-004
+    term: 'easier'
+    translation: 'mais fácil'
+    partOfSpeech: adjective
+    example: 'Life was easier in the past.'
+    exampleTranslation: 'A vida era mais fácil antigamente.'
+  - id: en-GB-A2-PAST-004-005
+    term: 'harder'
+    translation: 'mais difícil'
+    partOfSpeech: adjective
+    example: 'Now it is harder to find a job.'
+    exampleTranslation: 'Agora é mais difícil encontrar emprego.'
+  - id: en-GB-A2-PAST-004-006
+    term: 'different'
+    translation: 'diferente'
+    partOfSpeech: adjective
+    example: 'The world is very different today.'
+    exampleTranslation: 'O mundo é muito diferente hoje.'
+grammar:
+  - id: en-GB-A2-PAST-004-G01
+    point: 'comparisons (more...than, less...than)'
+    explanation: 'Comparing past and present situations'
+    examples:
+      - 'It was cheaper in the past.'
+      - 'Now it is easier to travel.'
+culturalNotes: 'Portuguese society has changed rapidly since the 1974 revolution. Comparing past and present is a common topic in everyday conversation.'

@@ -1,0 +1,47 @@
+nodeId: A2-HEALTH-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-A2-HEALTH-001-001
+    term: 'doctor'
+    translation: 'médico'
+    partOfSpeech: noun
+    example: 'I need to go to the doctor.'
+    exampleTranslation: 'Preciso de ir ao médico.'
+  - id: en-GB-A2-HEALTH-001-002
+    term: 'illness'
+    translation: 'doença'
+    partOfSpeech: noun
+    example: 'The illness lasted a week.'
+    exampleTranslation: 'A doença durou uma semana.'
+  - id: en-GB-A2-HEALTH-001-003
+    term: 'pain'
+    translation: 'dor'
+    partOfSpeech: noun
+    example: 'I have a headache.'
+    exampleTranslation: 'Tenho dor de cabeça.'
+  - id: en-GB-A2-HEALTH-001-004
+    term: 'prescription'
+    translation: 'receita'
+    partOfSpeech: noun
+    example: 'The doctor gave me a prescription.'
+    exampleTranslation: 'O médico deu-me uma receita.'
+  - id: en-GB-A2-HEALTH-001-005
+    term: 'pharmacy'
+    translation: 'farmácia'
+    partOfSpeech: noun
+    example: "I'm going to the pharmacy to get the medicine."
+    exampleTranslation: 'Vou à farmácia buscar o medicamento.'
+  - id: en-GB-A2-HEALTH-001-006
+    term: 'appointment'
+    translation: 'consulta'
+    partOfSpeech: noun
+    example: 'I have an appointment at three.'
+    exampleTranslation: 'Tenho uma consulta às três.'
+grammar:
+  - id: en-GB-A2-HEALTH-001-G01
+    point: 'describing symptoms'
+    explanation: 'Using I have... to describe health issues'
+    examples:
+      - 'I have a headache.'
+      - 'I feel tired.'
+culturalNotes: 'Portugal has a public healthcare system (SNS). Portuguese people often visit the farmácia for minor health advice before seeing a doctor.'

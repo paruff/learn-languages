@@ -1,0 +1,49 @@
+nodeId: A2-CULT-003
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-A2-CULT-003-001
+    term: 'gosto de'
+    translation: 'I like'
+    partOfSpeech: phrase
+    example: 'Gosto de ouvir fado.'
+    exampleTranslation: 'I like listening to fado.'
+  - id: pt-PT-A2-CULT-003-002
+    term: 'parece-me interessante'
+    translation: 'it seems interesting to me'
+    partOfSpeech: phrase
+    example: 'Parece-me interessante a cultura portuguesa.'
+    exampleTranslation: 'Portuguese culture seems interesting to me.'
+  - id: pt-PT-A2-CULT-003-003
+    term: 'importante'
+    translation: 'important'
+    partOfSpeech: adjective
+    gender: masculine
+    example: 'É importante preservar as tradições.'
+    exampleTranslation: 'It is important to preserve traditions.'
+  - id: pt-PT-A2-CULT-003-004
+    term: 'valorizar'
+    translation: 'to value'
+    partOfSpeech: verb
+    example: 'Devemos valorizar a nossa cultura.'
+    exampleTranslation: 'We should value our culture.'
+  - id: pt-PT-A2-CULT-003-005
+    term: 'apreciar'
+    translation: 'to appreciate'
+    partOfSpeech: verb
+    example: 'Aprecio a arte portuguesa.'
+    exampleTranslation: 'I appreciate Portuguese art.'
+  - id: pt-PT-A2-CULT-003-006
+    term: 'interessante'
+    translation: 'interesting'
+    partOfSpeech: adjective
+    gender: masculine
+    example: 'O festival foi muito interessante.'
+    exampleTranslation: 'The festival was very interesting.'
+grammar:
+  - id: pt-PT-A2-CULT-003-G01
+    point: 'opinion expressions about culture'
+    explanation: 'Expressing cultural preferences and opinions'
+    examples:
+      - 'Gosto muito da música portuguesa.'
+      - 'Acho que as tradições são importantes.'
+culturalNotes: 'Fado is a traditional Portuguese music genre, recognised by UNESCO as Intangible Cultural Heritage. It expresses saudade (longing).'

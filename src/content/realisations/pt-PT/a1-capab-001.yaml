@@ -1,0 +1,29 @@
+nodeId: A1-CAPAB-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-A1-CAPAB-001-001
+    term: 'Consigo...'
+    translation: 'I can...'
+    partOfSpeech: phrase
+    example: 'Consigo falar um pouco de português.'
+    exampleTranslation: 'I can speak a little Portuguese.'
+  - id: pt-PT-A1-CAPAB-001-002
+    term: 'Não consigo...'
+    translation: "I can't..."
+    partOfSpeech: phrase
+    example: 'Não consigo encontrar o telefone.'
+    exampleTranslation: "I can't find the phone."
+  - id: pt-PT-A1-CAPAB-001-003
+    term: 'Sei... / Não sei...'
+    translation: "I know (how to)... / I don't know (how to)..."
+    partOfSpeech: phrase
+    example: 'Sei nadar.'
+    exampleTranslation: 'I know how to swim.'
+grammar:
+  - id: pt-PT-A1-CAPAB-001-G1
+    point: 'Consigo vs. Sei for ability'
+    explanation: "'Consigo' expresses physical/logistical ability: 'Consigo abrir a porta.' 'Sei' expresses learned knowledge/skill: 'Sei cozinhar.' Both are common at A1."
+    examples:
+      - 'Consigo chegar a tempo. (I can arrive on time.)'
+      - 'Sei usar o computador. (I know how to use the computer.)'
+culturalNotes: 'Portuguese speakers often soften ability statements. Consigo is more common in everyday speech than the modal verb posso in ability contexts.'

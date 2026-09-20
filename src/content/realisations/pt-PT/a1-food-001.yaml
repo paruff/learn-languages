@@ -1,0 +1,40 @@
+nodeId: A1-FOOD-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-A1-FOOD-001-001
+    term: 'água'
+    translation: 'water'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Um copo de água, por favor.'
+    exampleTranslation: 'A glass of water, please.'
+  - id: pt-PT-A1-FOOD-001-002
+    term: 'pão'
+    translation: 'bread'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Quero pão com manteiga.'
+    exampleTranslation: 'I want bread with butter.'
+  - id: pt-PT-A1-FOOD-001-003
+    term: 'café'
+    translation: 'coffee'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Um café, por favor.'
+    exampleTranslation: 'A coffee, please.'
+  - id: pt-PT-A1-FOOD-001-004
+    term: 'leite'
+    translation: 'milk'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Chá com leite.'
+    exampleTranslation: 'Tea with milk.'
+  - id: pt-PT-A1-FOOD-001-005
+    term: 'arroz'
+    translation: 'rice'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Arroz com feijão.'
+    exampleTranslation: 'Rice with beans.'
+grammar: []
+culturalNotes: 'Meals in Portugal are typically lunch (12:30-14:00) and dinner (19:30-21:00). Bread is served with most meals.'

@@ -1,0 +1,29 @@
+nodeId: A1-WANT-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-A1-WANT-001-001
+    term: 'Quero...'
+    translation: 'I want...'
+    partOfSpeech: phrase
+    example: 'Quero aprender português.'
+    exampleTranslation: 'I want to learn Portuguese.'
+  - id: pt-PT-A1-WANT-001-002
+    term: 'Vou...'
+    translation: "I'm going to..."
+    partOfSpeech: phrase
+    example: 'Vou ao mercado amanhã.'
+    exampleTranslation: "I'm going to the market tomorrow."
+  - id: pt-PT-A1-WANT-001-003
+    term: 'Gostaria de...'
+    translation: 'I would like...'
+    partOfSpeech: phrase
+    example: 'Gostaria de um café.'
+    exampleTranslation: 'I would like a coffee.'
+grammar:
+  - id: pt-PT-A1-WANT-001-G1
+    point: 'ir + infinitive for near future'
+    explanation: "In European Portuguese, 'ir + infinitive' expresses near-future intentions: 'Vou estudar' (I'm going to study). This is the most common way to talk about plans at A1."
+    examples:
+      - 'Vou comer. (I am going to eat.)'
+      - 'Vamos sair. (We are going to leave.)'
+culturalNotes: 'Portuguese speakers often use the conditional (gostaria) for polite requests in shops and restaurants.'

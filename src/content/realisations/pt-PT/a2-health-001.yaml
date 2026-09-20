@@ -1,0 +1,53 @@
+nodeId: A2-HEALTH-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-A2-HEALTH-001-001
+    term: 'médico'
+    translation: 'doctor'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Preciso de ir ao médico.'
+    exampleTranslation: 'I need to go to the doctor.'
+  - id: pt-PT-A2-HEALTH-001-002
+    term: 'doença'
+    translation: 'illness'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A doença durou uma semana.'
+    exampleTranslation: 'The illness lasted a week.'
+  - id: pt-PT-A2-HEALTH-001-003
+    term: 'dor'
+    translation: 'pain'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Tenho dor de cabeça.'
+    exampleTranslation: 'I have a headache.'
+  - id: pt-PT-A2-HEALTH-001-004
+    term: 'receita'
+    translation: 'prescription'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'O médico deu-me uma receita.'
+    exampleTranslation: 'The doctor gave me a prescription.'
+  - id: pt-PT-A2-HEALTH-001-005
+    term: 'farmácia'
+    translation: 'pharmacy'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Vou à farmácia buscar o medicamento.'
+    exampleTranslation: "I'm going to the pharmacy to get the medicine."
+  - id: pt-PT-A2-HEALTH-001-006
+    term: 'consulta'
+    translation: 'appointment'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Tenho uma consulta às três.'
+    exampleTranslation: 'I have an appointment at three.'
+grammar:
+  - id: pt-PT-A2-HEALTH-001-G01
+    point: 'describing symptoms'
+    explanation: 'Using tenho dor de... to describe health issues'
+    examples:
+      - 'Tenho dor de cabeça.'
+      - 'Sinto-me cansado.'
+culturalNotes: 'Portugal has a public healthcare system (SNS). Portuguese people often visit the farmácia for minor health advice before seeing a doctor.'

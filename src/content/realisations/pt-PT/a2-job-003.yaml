@@ -1,0 +1,52 @@
+nodeId: A2-JOB-003
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-A2-JOB-003-001
+    term: 'anúncio'
+    translation: 'advertisement'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Vi um anúncio de emprego no jornal.'
+    exampleTranslation: 'I saw a job advertisement in the newspaper.'
+  - id: pt-PT-A2-JOB-003-002
+    term: 'candidatura'
+    translation: 'application'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A minha candidatura foi aceite.'
+    exampleTranslation: 'My application was accepted.'
+  - id: pt-PT-A2-JOB-003-003
+    term: 'experiência'
+    translation: 'experience'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Precisam de experiência na área.'
+    exampleTranslation: 'They require experience in the field.'
+  - id: pt-PT-A2-JOB-003-004
+    term: 'salário'
+    translation: 'salary'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O salário é indicado no anúncio.'
+    exampleTranslation: 'The salary is listed in the advertisement.'
+  - id: pt-PT-A2-JOB-003-005
+    term: 'enviar'
+    translation: 'to send'
+    partOfSpeech: verb
+    example: 'Preciso de enviar o currículo.'
+    exampleTranslation: 'I need to send my CV.'
+  - id: pt-PT-A2-JOB-003-006
+    term: 'entrevista'
+    translation: 'interview'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Tenho uma entrevista amanhã.'
+    exampleTranslation: 'I have an interview tomorrow.'
+grammar:
+  - id: pt-PT-A2-JOB-003-G01
+    point: 'reading comprehension strategies'
+    explanation: 'Scanning for key information in job ads'
+    examples:
+      - 'O anúncio pede experiência de dois anos.'
+      - 'O salário é entre 1000 e 1500 euros.'
+culturalNotes: 'Portuguese job applications often require a CV (curriculum vitae) and a cover letter (carta de apresentação). Formal language is expected in written applications.'

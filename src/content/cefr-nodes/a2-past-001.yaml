@@ -1,0 +1,11 @@
+nodeId: A2-PAST-001
+cefrLevel: A2
+skill: spoken_production
+canDo: Can describe past events and experiences
+pragmaticFocus: Narrate past experiences
+notionalFocus: Time markers, past actions
+relatedNodes:
+  - A2-PAST-002
+  - A2-PAST-003
+prerequisiteNodes:
+  - A2-JOB-001

@@ -1,0 +1,10 @@
+nodeId: A1-REQUEST-001
+cefrLevel: A1
+skill: spoken_interaction
+canDo: Can make simple requests using polite forms
+pragmaticFocus: Use 'poderia' and 'por favor' for polite requests
+notionalFocus: Requests, commands, politeness formulas
+relatedNodes:
+  - A1-OFFER-001
+  - A1-SORRY-001
+prerequisiteNodes: []

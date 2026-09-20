@@ -1,0 +1,52 @@
+nodeId: A2-JOB-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-A2-JOB-001-001
+    term: 'emprego'
+    translation: 'job'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Tenho um emprego no centro da cidade.'
+    exampleTranslation: 'I have a job in the city centre.'
+  - id: pt-PT-A2-JOB-001-002
+    term: 'escritório'
+    translation: 'office'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Trabalho num escritório grande.'
+    exampleTranslation: 'I work in a large office.'
+  - id: pt-PT-A2-JOB-001-003
+    term: 'horário'
+    translation: 'working hours'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O meu horário é das nove às cinco.'
+    exampleTranslation: 'My working hours are from nine to five.'
+  - id: pt-PT-A2-JOB-001-004
+    term: 'ganhar'
+    translation: 'to earn'
+    partOfSpeech: verb
+    example: 'Ganho bem no meu emprego.'
+    exampleTranslation: 'I earn well in my job.'
+  - id: pt-PT-A2-JOB-001-005
+    term: 'colega'
+    translation: 'colleague'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Os meus colegas são muito simpáticos.'
+    exampleTranslation: 'My colleagues are very friendly.'
+  - id: pt-PT-A2-JOB-001-006
+    term: 'satisfeito'
+    translation: 'satisfied'
+    partOfSpeech: adjective
+    gender: masculine
+    example: 'Estou satisfeito com o meu emprego.'
+    exampleTranslation: 'I am satisfied with my job.'
+grammar:
+  - id: pt-PT-A2-JOB-001-G01
+    point: 'connectors (e, mas, porque)'
+    explanation: 'Used to link ideas about work and reasons'
+    examples:
+      - 'Trabalho num escritório e gosto do meu emprego.'
+      - 'Não trabalho aos fins de semana porque preciso de descansar.'
+culturalNotes: 'Portuguese work culture values punctuality and personal relationships. Colleagues often address each other by first name after initial formal greetings.'

@@ -1,0 +1,35 @@
+nodeId: A1-FEEL-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-A1-FEEL-001-001
+    term: 'Estou feliz'
+    translation: 'I am happy'
+    partOfSpeech: phrase
+    example: 'Estou feliz hoje.'
+    exampleTranslation: 'I am happy today.'
+  - id: pt-PT-A1-FEEL-001-002
+    term: 'Estou triste'
+    translation: 'I am sad'
+    partOfSpeech: phrase
+    example: 'Estou triste com a notícia.'
+    exampleTranslation: 'I am sad about the news.'
+  - id: pt-PT-A1-FEEL-001-003
+    term: 'Estou cansado/cansada'
+    translation: 'I am tired'
+    partOfSpeech: phrase
+    example: 'Estou cansado depois do trabalho.'
+    exampleTranslation: 'I am tired after work.'
+  - id: pt-PT-A1-FEEL-001-004
+    term: 'Tenho fome/sede'
+    translation: "I'm hungry/thirsty"
+    partOfSpeech: phrase
+    example: 'Tenho muita fome.'
+    exampleTranslation: "I'm very hungry."
+grammar:
+  - id: pt-PT-A1-FEEL-001-G1
+    point: 'Estar + adjective for temporary states'
+    explanation: "Use 'estar' (not 'ser') for temporary emotional and physical states: 'Estou feliz' (I am happy), 'Estou cansado' (I am tired). Ser would imply a permanent trait."
+    examples:
+      - 'Estou contente. (I am pleased.)'
+      - 'Ele está zangado. (He is angry.)'
+culturalNotes: 'Tenho fome/sede (literally: I have hunger/thirst) is the natural way to express hunger/thirst in Portuguese, not estou com fome.'

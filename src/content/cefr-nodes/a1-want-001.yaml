@@ -1,0 +1,11 @@
+nodeId: A1-WANT-001
+cefrLevel: A1
+skill: spoken_production
+canDo: Can express simple desires and intentions
+pragmaticFocus: Use 'quero' and 'vou' for desires and future plans
+notionalFocus: Desires, intentions, plans
+relatedNodes:
+  - A1-FEEL-001
+  - A1-OFFER-001
+  - A1-CAPAB-001
+prerequisiteNodes: []

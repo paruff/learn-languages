@@ -1,0 +1,47 @@
+nodeId: A2-STUDY-002
+lang: en-GB
+vocabulary:
+  - id: en-GB-A2-STUDY-002-001
+    term: 'school'
+    translation: 'escola'
+    partOfSpeech: noun
+    example: 'My school was large.'
+    exampleTranslation: 'A minha escola era grande.'
+  - id: en-GB-A2-STUDY-002-002
+    term: 'teacher'
+    translation: 'professor'
+    partOfSpeech: noun
+    example: 'My Portuguese teacher was very good.'
+    exampleTranslation: 'O meu professor de português era muito bom.'
+  - id: en-GB-A2-STUDY-002-003
+    term: 'subject'
+    translation: 'matéria'
+    partOfSpeech: noun
+    example: 'My favourite subject was history.'
+    exampleTranslation: 'A minha matéria favorita era história.'
+  - id: en-GB-A2-STUDY-002-004
+    term: 'class'
+    translation: 'turma'
+    partOfSpeech: noun
+    example: 'My class had twenty students.'
+    exampleTranslation: 'A minha turma tinha vinte alunos.'
+  - id: en-GB-A2-STUDY-002-005
+    term: 'grades'
+    translation: 'notas'
+    partOfSpeech: noun
+    example: 'I got good grades in the last exam.'
+    exampleTranslation: 'Tive boas notas no último exame.'
+  - id: en-GB-A2-STUDY-002-006
+    term: 'to repeat'
+    translation: 'repetir'
+    partOfSpeech: verb
+    example: "I didn't have to repeat the year."
+    exampleTranslation: 'Não tive de repetir o ano.'
+grammar:
+  - id: en-GB-A2-STUDY-002-G01
+    point: 'past tense for educational history'
+    explanation: 'Using past simple to describe school experiences'
+    examples:
+      - 'I studied at the University of Porto.'
+      - 'My teacher was very patient.'
+culturalNotes: 'Portuguese education system has three cycles: ensino básico (6 years), ensino secundário (3 years), and ensino superior (university).'

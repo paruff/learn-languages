@@ -1,0 +1,47 @@
+nodeId: A2-HABIT-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-A2-HABIT-001-001
+    term: 'recentemente'
+    translation: 'recently'
+    partOfSpeech: adverb
+    example: 'Recentemente comecei a fazer desporto.'
+    exampleTranslation: 'Recently I started doing sport.'
+  - id: pt-PT-A2-HABIT-001-002
+    term: 'ultimamente'
+    translation: 'lately'
+    partOfSpeech: adverb
+    example: 'Ultimamente tenho comido mais fruta.'
+    exampleTranslation: 'Lately I have been eating more fruit.'
+  - id: pt-PT-A2-HABIT-001-003
+    term: 'começar a'
+    translation: 'to start doing'
+    partOfSpeech: verb
+    example: 'Comecei a ler mais livros.'
+    exampleTranslation: 'I started reading more books.'
+  - id: pt-PT-A2-HABIT-001-004
+    term: 'parar de'
+    translation: 'to stop doing'
+    partOfSpeech: verb
+    example: 'Parei de comer fast food.'
+    exampleTranslation: 'I stopped eating fast food.'
+  - id: pt-PT-A2-HABIT-001-005
+    term: 'mudar de'
+    translation: 'to change'
+    partOfSpeech: verb
+    example: 'Mudei de hábitos alimentares.'
+    exampleTranslation: 'I changed my eating habits.'
+  - id: pt-PT-A2-HABIT-001-006
+    term: 'melhorar'
+    translation: 'to improve'
+    partOfSpeech: verb
+    example: 'Quero melhorar a minha saúde.'
+    exampleTranslation: 'I want to improve my health.'
+grammar:
+  - id: pt-PT-A2-HABIT-001-G01
+    point: 'present tense for recent changes'
+    explanation: 'Using present tense with recent change markers'
+    examples:
+      - 'Agora como mais vegetais.'
+      - 'Recentemente mudei os meus hábitos.'
+culturalNotes: 'Health and wellness trends are growing in Portugal. Many people are adopting healthier eating habits and exercising more.'

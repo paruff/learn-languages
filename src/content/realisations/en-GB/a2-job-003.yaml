@@ -1,0 +1,47 @@
+nodeId: A2-JOB-003
+lang: en-GB
+vocabulary:
+  - id: en-GB-A2-JOB-003-001
+    term: 'advertisement'
+    translation: 'anúncio'
+    partOfSpeech: noun
+    example: 'I saw a job advertisement in the newspaper.'
+    exampleTranslation: 'Vi um anúncio de emprego no jornal.'
+  - id: en-GB-A2-JOB-003-002
+    term: 'application'
+    translation: 'candidatura'
+    partOfSpeech: noun
+    example: 'My application was accepted.'
+    exampleTranslation: 'A minha candidatura foi aceite.'
+  - id: en-GB-A2-JOB-003-003
+    term: 'experience'
+    translation: 'experiência'
+    partOfSpeech: noun
+    example: 'They require experience in the field.'
+    exampleTranslation: 'Precisam de experiência na área.'
+  - id: en-GB-A2-JOB-003-004
+    term: 'salary'
+    translation: 'salário'
+    partOfSpeech: noun
+    example: 'The salary is listed in the advertisement.'
+    exampleTranslation: 'O salário é indicado no anúncio.'
+  - id: en-GB-A2-JOB-003-005
+    term: 'to send'
+    translation: 'enviar'
+    partOfSpeech: verb
+    example: 'I need to send my CV.'
+    exampleTranslation: 'Preciso de enviar o currículo.'
+  - id: en-GB-A2-JOB-003-006
+    term: 'interview'
+    translation: 'entrevista'
+    partOfSpeech: noun
+    example: 'I have an interview tomorrow.'
+    exampleTranslation: 'Tenho uma entrevista amanhã.'
+grammar:
+  - id: en-GB-A2-JOB-003-G01
+    point: 'reading comprehension strategies'
+    explanation: 'Scanning for key information in job ads'
+    examples:
+      - 'The advertisement asks for two years of experience.'
+      - 'The salary is between 1000 and 1500 euros.'
+culturalNotes: 'Portuguese job applications often require a CV (curriculum vitae) and a cover letter (carta de apresentação). Formal language is expected in written applications.'

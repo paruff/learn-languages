@@ -1,0 +1,11 @@
+nodeId: A2-NEWS-001
+cefrLevel: A2
+skill: reading
+canDo: Can understand simple news articles
+pragmaticFocus: Read and comprehend news
+notionalFocus: Media, current events, vocabulary
+relatedNodes:
+  - A2-NEWS-002
+  - A2-NEWS-003
+prerequisiteNodes:
+  - A2-HABIT-003

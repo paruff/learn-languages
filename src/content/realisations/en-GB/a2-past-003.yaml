@@ -1,0 +1,47 @@
+nodeId: A2-PAST-003
+lang: en-GB
+vocabulary:
+  - id: en-GB-A2-PAST-003-001
+    term: 'story'
+    translation: 'história'
+    partOfSpeech: noun
+    example: "My grandfather's story is very interesting."
+    exampleTranslation: 'A história do meu avô é muito interessante.'
+  - id: en-GB-A2-PAST-003-002
+    term: 'to happen'
+    translation: 'acontecer'
+    partOfSpeech: verb
+    example: 'What happened yesterday?'
+    exampleTranslation: 'O que é que aconteceu ontem?'
+  - id: en-GB-A2-PAST-003-003
+    term: 'when'
+    translation: 'quando'
+    partOfSpeech: conjunction
+    example: 'When I was a child, I played in the street.'
+    exampleTranslation: 'Quando era criança, brincava na rua.'
+  - id: en-GB-A2-PAST-003-004
+    term: 'to remember'
+    translation: 'lembrar-se'
+    partOfSpeech: verb
+    example: 'I remember that day perfectly.'
+    exampleTranslation: 'Lembro-me daquele dia perfeitamente.'
+  - id: en-GB-A2-PAST-003-005
+    term: 'at that time'
+    translation: 'naquela época'
+    partOfSpeech: adverb
+    example: 'At that time there was no internet.'
+    exampleTranslation: 'Naquela época não havia internet.'
+  - id: en-GB-A2-PAST-003-006
+    term: 'to recall'
+    translation: 'recordar'
+    partOfSpeech: verb
+    example: 'I recall that trip well.'
+    exampleTranslation: 'Recordo-me bem daquela viagem.'
+grammar:
+  - id: en-GB-A2-PAST-003-G01
+    point: 'understanding past narratives'
+    explanation: 'Following sequences of past events'
+    examples:
+      - 'When I was a child, I lived in the Algarve.'
+      - 'One day, something strange happened.'
+culturalNotes: 'Portuguese oral tradition values storytelling. Grandparents often share stories about the past, especially about rural life and traditions.'

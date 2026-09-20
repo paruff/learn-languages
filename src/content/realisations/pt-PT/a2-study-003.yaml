@@ -1,0 +1,51 @@
+nodeId: A2-STUDY-003
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-A2-STUDY-003-001
+    term: 'artigo'
+    translation: 'article'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Li um artigo interessante sobre educação.'
+    exampleTranslation: 'I read an interesting article about education.'
+  - id: pt-PT-A2-STUDY-003-002
+    term: 'livro'
+    translation: 'book'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O livro de texto é muito útil.'
+    exampleTranslation: 'The textbook is very useful.'
+  - id: pt-PT-A2-STUDY-003-003
+    term: 'resumo'
+    translation: 'summary'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Preciso de fazer um resumo do capítulo.'
+    exampleTranslation: 'I need to make a summary of the chapter.'
+  - id: pt-PT-A2-STUDY-003-004
+    term: 'pesquisa'
+    translation: 'research'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Estou a fazer uma pesquisa para o projeto.'
+    exampleTranslation: 'I am doing research for the project.'
+  - id: pt-PT-A2-STUDY-003-005
+    term: 'aprender'
+    translation: 'to learn'
+    partOfSpeech: verb
+    example: 'Consigo aprender bem com este livro.'
+    exampleTranslation: 'I can learn well with this book.'
+  - id: pt-PT-A2-STUDY-003-006
+    term: 'compreender'
+    translation: 'to understand'
+    partOfSpeech: verb
+    example: 'É fácil compreender este texto.'
+    exampleTranslation: 'It is easy to understand this text.'
+grammar:
+  - id: pt-PT-A2-STUDY-003-G01
+    point: 'reading comprehension in academic context'
+    explanation: 'Strategies for understanding simple academic texts'
+    examples:
+      - 'O artigo fala sobre os resultados do estudo.'
+      - 'O resumo explica as principais conclusões.'
+culturalNotes: 'Portuguese academic texts often use formal register. Students are expected to read primary sources and reference them correctly.'

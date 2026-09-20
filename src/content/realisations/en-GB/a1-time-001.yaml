@@ -1,0 +1,28 @@
+nodeId: A1-TIME-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-A1-TIME-001-001
+    term: 'What time is it?'
+    translation: 'Que horas são?'
+    partOfSpeech: phrase
+    example: 'Excuse me, what time is it?'
+    exampleTranslation: 'Desculpe, que horas são?'
+  - id: en-GB-A1-TIME-001-002
+    term: 'today'
+    translation: 'hoje'
+    partOfSpeech: adverb
+    example: 'Today is Monday.'
+    exampleTranslation: 'Hoje é segunda-feira.'
+  - id: en-GB-A1-TIME-001-003
+    term: 'tomorrow'
+    translation: 'amanhã'
+    partOfSpeech: adverb
+    example: "Tomorrow I'm going to the market."
+    exampleTranslation: 'Amanhã vou ao mercado.'
+  - id: en-GB-A1-TIME-001-004
+    term: 'yesterday'
+    translation: 'ontem'
+    partOfSpeech: adverb
+    example: 'Yesterday I went to the cinema.'
+    exampleTranslation: 'Ontem fui ao cinema.'
+grammar: []

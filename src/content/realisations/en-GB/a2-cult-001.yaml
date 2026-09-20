@@ -1,0 +1,47 @@
+nodeId: A2-CULT-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-A2-CULT-001-001
+    term: 'festival'
+    translation: 'festival'
+    partOfSpeech: noun
+    example: 'The music festival is very popular.'
+    exampleTranslation: 'O festival de música é muito popular.'
+  - id: en-GB-A2-CULT-001-002
+    term: 'tradition'
+    translation: 'tradição'
+    partOfSpeech: noun
+    example: 'It is an old tradition.'
+    exampleTranslation: 'É uma tradição antiga.'
+  - id: en-GB-A2-CULT-001-003
+    term: 'celebration'
+    translation: 'celebração'
+    partOfSpeech: noun
+    example: 'The celebration lasted two days.'
+    exampleTranslation: 'A celebração durou dois dias.'
+  - id: en-GB-A2-CULT-001-004
+    term: 'music'
+    translation: 'música'
+    partOfSpeech: noun
+    example: 'Portuguese music is very beautiful.'
+    exampleTranslation: 'A música portuguesa é muito bonita.'
+  - id: en-GB-A2-CULT-001-005
+    term: 'dance'
+    translation: 'dança'
+    partOfSpeech: noun
+    example: 'The traditional dance is beautiful to watch.'
+    exampleTranslation: 'A dança tradicional é bonita de ver.'
+  - id: en-GB-A2-CULT-001-006
+    term: 'party'
+    translation: 'festa'
+    partOfSpeech: noun
+    example: 'The popular festival is very lively.'
+    exampleTranslation: 'A festa popular é muito animada.'
+grammar:
+  - id: en-GB-A2-CULT-001-G01
+    point: 'describing cultural events'
+    explanation: 'Using adjectives and adverbs to describe festivals'
+    examples:
+      - 'The festival is very popular.'
+      - 'The celebration was incredible.'
+culturalNotes: 'Portugal has many traditional festivals (festas populares) throughout the year, including Santos Populares in June and Festa de São João in Porto.'

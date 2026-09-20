@@ -1,0 +1,11 @@
+nodeId: A2-CULT-003
+cefrLevel: A2
+skill: spoken_production
+canDo: Can express opinions about cultural topics
+pragmaticFocus: Discuss cultural preferences
+notionalFocus: Opinions, cultural values, appreciation
+relatedNodes:
+  - A2-CULT-001
+  - A2-CULT-002
+prerequisiteNodes:
+  - A2-CULT-001

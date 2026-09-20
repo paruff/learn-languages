@@ -1,0 +1,28 @@
+nodeId: A1-LOC-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-A1-LOC-001-001
+    term: 'Where is...?'
+    translation: 'Onde fica...?'
+    partOfSpeech: phrase
+    example: 'Where is the train station?'
+    exampleTranslation: 'Onde fica a estação de comboios?'
+  - id: en-GB-A1-LOC-001-002
+    term: 'On the left'
+    translation: 'À esquerda'
+    partOfSpeech: phrase
+    example: 'The shop is on the left.'
+    exampleTranslation: 'A loja fica à esquerda.'
+  - id: en-GB-A1-LOC-001-003
+    term: 'On the right'
+    translation: 'À direita'
+    partOfSpeech: phrase
+    example: 'Turn right.'
+    exampleTranslation: 'Vire à direita.'
+  - id: en-GB-A1-LOC-001-004
+    term: 'Straight ahead'
+    translation: 'Em frente'
+    partOfSpeech: phrase
+    example: 'Go straight ahead.'
+    exampleTranslation: 'Siga em frente.'
+grammar: []

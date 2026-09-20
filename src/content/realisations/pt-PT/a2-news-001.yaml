@@ -1,0 +1,52 @@
+nodeId: A2-NEWS-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-A2-NEWS-001-001
+    term: 'jornal'
+    translation: 'newspaper'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Leio o jornal todas as manhãs.'
+    exampleTranslation: 'I read the newspaper every morning.'
+  - id: pt-PT-A2-NEWS-001-002
+    term: 'revista'
+    translation: 'magazine'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Comprei uma revista de atualidades.'
+    exampleTranslation: 'I bought a current affairs magazine.'
+  - id: pt-PT-A2-NEWS-001-003
+    term: 'título'
+    translation: 'headline'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O título chamou a minha atenção.'
+    exampleTranslation: 'The headline caught my attention.'
+  - id: pt-PT-A2-NEWS-001-004
+    term: 'autor'
+    translation: 'author'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O autor escreve bem.'
+    exampleTranslation: 'The author writes well.'
+  - id: pt-PT-A2-NEWS-001-005
+    term: 'informação'
+    translation: 'information'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A informação é fiável.'
+    exampleTranslation: 'The information is reliable.'
+  - id: pt-PT-A2-NEWS-001-006
+    term: 'ler'
+    translation: 'to read'
+    partOfSpeech: verb
+    example: 'Gosto de ler notícias online.'
+    exampleTranslation: 'I like to read news online.'
+grammar:
+  - id: pt-PT-A2-NEWS-001-G01
+    point: 'news comprehension strategies'
+    explanation: 'Understanding headlines and key information'
+    examples:
+      - 'O artigo fala sobre a economia.'
+      - 'O título resume a notícia.'
+culturalNotes: 'Many Portuguese people read news online. Publico.pt and Observador.pt are popular news websites.'

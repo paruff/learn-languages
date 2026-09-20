@@ -1,0 +1,39 @@
+nodeId: A1-FOOD-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-A1-FOOD-001-001
+    term: 'water'
+    translation: 'água'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A glass of water, please.'
+    exampleTranslation: 'Um copo de água, por favor.'
+  - id: en-GB-A1-FOOD-001-002
+    term: 'bread'
+    translation: 'pão'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'I want bread with butter.'
+    exampleTranslation: 'Quero pão com manteiga.'
+  - id: en-GB-A1-FOOD-001-003
+    term: 'coffee'
+    translation: 'café'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'A coffee, please.'
+    exampleTranslation: 'Um café, por favor.'
+  - id: en-GB-A1-FOOD-001-004
+    term: 'milk'
+    translation: 'leite'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Tea with milk.'
+    exampleTranslation: 'Chá com leite.'
+  - id: en-GB-A1-FOOD-001-005
+    term: 'rice'
+    translation: 'arroz'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Rice with beans.'
+    exampleTranslation: 'Arroz com feijão.'
+grammar: []

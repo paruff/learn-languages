@@ -1,0 +1,29 @@
+nodeId: A1-REQUEST-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-A1-REQUEST-001-001
+    term: 'Pode ajudar-me?'
+    translation: 'Can you help me?'
+    partOfSpeech: phrase
+    example: 'Pode ajudar-me, por favor?'
+    exampleTranslation: 'Can you help me, please?'
+  - id: pt-PT-A1-REQUEST-001-002
+    term: 'Quero... / Eu quero...'
+    translation: 'I want...'
+    partOfSpeech: phrase
+    example: 'Quero um café, por favor.'
+    exampleTranslation: 'I want a coffee, please.'
+  - id: pt-PT-A1-REQUEST-001-003
+    term: 'Poderia...?'
+    translation: 'Could you...?'
+    partOfSpeech: phrase
+    example: 'Poderia abrir a janela?'
+    exampleTranslation: 'Could you open the window?'
+grammar:
+  - id: pt-PT-A1-REQUEST-001-G1
+    point: 'Tu vs. Você in requests'
+    explanation: "Informal requests use tu: 'Podes ajudar-me?' Formal requests use você: 'Pode ajudar-me?' Use você with strangers and in service contexts."
+    examples:
+      - 'Podes passar-me o sal? (informal)'
+      - 'Pode passar-me o sal? (formal)'
+culturalNotes: 'Portuguese service interactions are formal. Using por favor and pode/poderia is expected even in casual settings.'
