@@ -1,0 +1,11 @@
+nodeId: A2-CULT-001
+cefrLevel: A2
+skill: listening
+canDo: Can talk about cultural events and traditions
+pragmaticFocus: Discuss cultural celebrations
+notionalFocus: Festivals, traditions, customs
+relatedNodes:
+  - A2-CULT-002
+  - A2-CULT-003
+prerequisiteNodes:
+  - A2-NEWS-001

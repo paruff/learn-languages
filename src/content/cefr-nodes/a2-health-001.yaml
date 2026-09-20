@@ -1,0 +1,10 @@
+nodeId: A2-HEALTH-001
+cefrLevel: A2
+skill: spoken_interaction
+canDo: Can describe symptoms and understand medical advice
+pragmaticFocus: Discuss health issues
+notionalFocus: Body, illness, medicine, appointments
+relatedNodes:
+  - A2-JOB-001
+prerequisiteNodes:
+  - A1-FOOD-001

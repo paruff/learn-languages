@@ -1,0 +1,47 @@
+nodeId: A2-CULT-002
+lang: en-GB
+vocabulary:
+  - id: en-GB-A2-CULT-002-001
+    term: 'culture'
+    translation: 'cultura'
+    partOfSpeech: noun
+    example: 'Portuguese culture is rich.'
+    exampleTranslation: 'A cultura portuguesa é rica.'
+  - id: en-GB-A2-CULT-002-002
+    term: 'custom'
+    translation: 'costume'
+    partOfSpeech: noun
+    example: 'It is customary to give gifts at Christmas.'
+    exampleTranslation: 'É costume dar presentes no Natal.'
+  - id: en-GB-A2-CULT-002-003
+    term: 'different'
+    translation: 'diferentes'
+    partOfSpeech: adjective
+    example: 'Countries have different customs.'
+    exampleTranslation: 'Os países têm costumes diferentes.'
+  - id: en-GB-A2-CULT-002-004
+    term: 'country'
+    translation: 'país'
+    partOfSpeech: noun
+    example: 'Portugal is a beautiful country.'
+    exampleTranslation: 'Portugal é um país bonito.'
+  - id: en-GB-A2-CULT-002-005
+    term: 'people'
+    translation: 'povo'
+    partOfSpeech: noun
+    example: 'The Portuguese people are welcoming.'
+    exampleTranslation: 'O povo português é acolhedor.'
+  - id: en-GB-A2-CULT-002-006
+    term: 'region'
+    translation: 'região'
+    partOfSpeech: noun
+    example: 'Each region has different traditions.'
+    exampleTranslation: 'Cada região tem tradições diferentes.'
+grammar:
+  - id: en-GB-A2-CULT-002-G01
+    point: 'comparing cultures'
+    explanation: 'Using comparatives to discuss cultural differences'
+    examples:
+      - 'Portuguese culture is different from British culture.'
+      - 'Customs vary from region to region.'
+culturalNotes: 'Portugal has diverse regional cultures. The north is more traditional, while the south (Algarve) has strong Moorish influences.'
