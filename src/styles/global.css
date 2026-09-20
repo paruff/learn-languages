@@ -1,17 +1,34 @@
 :root {
-  --color-primary: #2563eb;
-  --color-primary-hover: #1d4ed8;
+  /* Brand green (azulejo tile blue-green) — stays constant across themes so
+     buttons/progress/badges keep one recognizable brand color regardless of
+     page background. */
+  --color-primary: #00695c;
+  --color-primary-hover: #004d40;
+  /* Text-on-background roles (links, nav) need theme-aware contrast, unlike
+     the brand color above, so they're separate tokens. */
+  --color-link: #00695c;
+  --color-link-hover: #004d40;
+  /* Terracotta — a second, sparingly-used accent for decorative motifs
+     (hero/feature SVGs, the C2 badge), not spread across every control. */
+  --color-accent-warm: #c1440e;
+  --color-accent-warm-hover: #9c360b;
+  /* "Good" grade button is deliberately its own hue, distinct from both the
+     brand green and the "Easy" grade's success green, so the four SRS grade
+     buttons stay visually distinguishable at a glance (spec §6.3). */
+  --color-grade-good: #2563eb;
+  --color-grade-good-hover: #1d4ed8;
   --color-bg: #ffffff;
   --color-bg-secondary: #f9fafb;
   --color-text: #1f2937;
   --color-text-muted: #6b7280;
   --color-border: #e5e7eb;
-  --color-focus: #2563eb;
+  --color-focus: #00695c;
   --color-success: #16a34a;
   --color-warning: #d97706;
   --color-error: #dc2626;
   --spacing-unit: 8px;
   --font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
   --font-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, monospace;
   --radius: 4px;
   --radius-lg: 8px;
@@ -28,6 +45,11 @@
     --color-text: #f9fafb;
     --color-text-muted: #9ca3af;
     --color-border: #374151;
+    --color-link: #5eead4;
+    --color-link-hover: #99f6e4;
+    --color-accent-warm: #f2875e;
+    --color-accent-warm-hover: #f9ab86;
+    --color-focus: #5eead4;
   }
 }
 
@@ -92,16 +114,22 @@ body {
 
 .nav {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  height: 64px;
+  gap: var(--spacing-unit) calc(var(--spacing-unit) * 2);
+  min-height: 64px;
+  padding-top: var(--spacing-unit);
+  padding-bottom: var(--spacing-unit);
 }
 
 .nav__brand {
+  font-family: var(--font-display);
   font-weight: 700;
   font-size: 1.25rem;
-  color: var(--color-primary);
+  color: var(--color-link);
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .nav__brand:hover {
@@ -129,8 +157,8 @@ body {
 
 .nav__link:hover,
 .nav__link:focus {
-  color: var(--color-primary);
-  border-bottom-color: var(--color-primary);
+  color: var(--color-link);
+  border-bottom-color: var(--color-link);
   outline: none;
 }
 
@@ -161,6 +189,7 @@ h5,
 h6 {
   margin-top: 0;
   margin-bottom: var(--spacing-unit);
+  font-family: var(--font-display);
   font-weight: 600;
   line-height: 1.3;
   color: var(--color-text);
@@ -182,13 +211,13 @@ p {
 }
 
 a {
-  color: var(--color-primary);
+  color: var(--color-link);
   text-decoration: underline;
   text-underline-offset: 2px;
 }
 
 a:hover {
-  color: var(--color-primary-hover);
+  color: var(--color-link-hover);
 }
 
 button {
@@ -259,11 +288,11 @@ button {
 }
 
 .btn--grade-good {
-  background-color: var(--color-primary);
+  background-color: var(--color-grade-good);
   color: white;
 }
 .btn--grade-good:hover {
-  background-color: var(--color-primary-hover);
+  background-color: var(--color-grade-good-hover);
 }
 
 .btn--grade-easy {
@@ -309,6 +338,14 @@ button {
   background-color: #fce7f3;
   color: #9d174d;
 }
+.badge--c1 {
+  background-color: #ede9fe;
+  color: #5b21b6;
+}
+.badge--c2 {
+  background-color: #ffe4d5;
+  color: #9c360b;
+}
 
 @media (prefers-color-scheme: dark) {
   .badge--a1 {
@@ -326,6 +363,14 @@ button {
   .badge--b2 {
     background-color: #831843;
     color: #f9a8d4;
+  }
+  .badge--c1 {
+    background-color: #4c1d95;
+    color: #ddd6fe;
+  }
+  .badge--c2 {
+    background-color: #7c2d12;
+    color: #fdba8c;
   }
 }
 

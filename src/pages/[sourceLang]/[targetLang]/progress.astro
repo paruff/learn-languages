@@ -89,7 +89,7 @@ const trackedItems = items
           (l) => `
       <div class="progress-level">
         <p class="progress-level__label">
-          <span>${l.cefrLevel}</span>
+          <span class="badge badge--${l.cefrLevel.toLowerCase()}">${l.cefrLevel}</span>
           <span>${l.masteredItems}/${l.totalItems} mastered</span>
         </p>
         <div class="progress-bar"><div class="progress-bar__fill" style="width: ${l.percent}%"></div></div>
