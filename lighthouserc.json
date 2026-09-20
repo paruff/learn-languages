@@ -1,0 +1,21 @@
+{
+  "ci": {
+    "collect": {
+      "startServerCommand": "npx astro preview --ignore-lock --port 4321",
+      "startServerReadyPattern": "ready in",
+      "url": [
+        "http://localhost:4321/learn-languages/",
+        "http://localhost:4321/learn-languages/en-GB/pt-PT/lessons/",
+        "http://localhost:4321/learn-languages/en-GB/pt-PT/review/",
+        "http://localhost:4321/learn-languages/en-GB/pt-PT/progress/"
+      ],
+      "numberOfRuns": 1
+    },
+    "assert": {
+      "assertions": {
+        "categories:performance": ["error", { "minScore": 0.95 }],
+        "categories:accessibility": ["error", { "minScore": 1 }]
+      }
+    }
+  }
+}

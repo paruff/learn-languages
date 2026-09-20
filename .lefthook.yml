@@ -6,10 +6,10 @@ pre-commit:
   parallel: true
   commands:
     lint-staged:
-      glob: "*.{ts,tsx,vue,astro,js,jsx,json,css,md,mdx,yaml,yml}"
+      glob: '*.{ts,tsx,vue,astro,js,jsx,json,css,md,mdx,yaml,yml}'
       run: npx lint-staged
     typecheck:
-      glob: "*.{ts,tsx,vue}"
+      glob: '*.{ts,tsx,vue}'
       run: npx tsc --noEmit
 
 pre-push:
@@ -19,7 +19,10 @@ pre-push:
       run: npm run validate:content
     test-unit:
       run: npm run test -- --reporter=verbose
-    # E2E tests run in CI pipeline (requires web server)
-    # Uncomment to run locally: test-e2e:
+    # E2E and a11y gates run in the CI pipeline (.github/workflows/pipe.yml),
+    # not here — they need a built dist/ and browser installs, too slow for
+    # every push. Uncomment locally if you want them pre-push too:
     # test-e2e:
-    #   run: npm run test:e2e
+    #   run: npm run build && npm run test:e2e
+    # test-a11y:
+    #   run: npm run build && npm run test:a11y

@@ -28,3 +28,6 @@ coverage/
 # test artifacts
 *.bundle
 *.sig
+.lighthouseci/
+test-results/
+playwright-report/
