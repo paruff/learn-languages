@@ -31,13 +31,17 @@ const lessons = nodes
   sourceLang={sourceLang}
   targetLang={targetLang}
 >
-  <h1>A1 Lessons</h1>
+  <h1>Lessons</h1>
   <ul class="lesson-index">
     {
       lessons.map((node) => (
         <li>
-          <a href={withBase(`/${sourceLang}/${targetLang}/lessons/${node.nodeId}/`)}>
-            {node.canDo}
+          <a
+            class="card lesson-index__item"
+            href={withBase(`/${sourceLang}/${targetLang}/lessons/${node.nodeId}/`)}
+          >
+            <span class={`badge badge--${node.cefrLevel.toLowerCase()}`}>{node.cefrLevel}</span>
+            <span class="lesson-index__can-do">{node.canDo}</span>
           </a>
         </li>
       ))
@@ -47,3 +51,30 @@ const lessons = nodes
     <a href={withBase(`/${sourceLang}/${targetLang}/review/`)}>Go straight to review →</a>
   </p>
 </BaseLayout>
+
+<style>
+  .lesson-index {
+    display: grid;
+    gap: var(--spacing-unit);
+    list-style: none;
+    padding: 0;
+    margin: calc(var(--spacing-unit) * 3) 0;
+  }
+  .lesson-index__item {
+    display: flex;
+    align-items: center;
+    gap: calc(var(--spacing-unit) * 2);
+    text-decoration: none;
+    color: var(--color-text);
+    transition:
+      transform var(--transition-fast),
+      box-shadow var(--transition-fast);
+  }
+  .lesson-index__item:hover {
+    transform: translateX(4px);
+    box-shadow: var(--shadow-md);
+  }
+  .lesson-index__can-do {
+    font-weight: 500;
+  }
+</style>

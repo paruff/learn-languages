@@ -40,7 +40,10 @@ const { node, source, target } = Astro.props;
   targetLang={targetLang}
 >
   <article class="lesson">
-    <p class="lesson__meta">{node.cefrLevel} · {node.skill.replace('_', ' ')} · {nodeId}</p>
+    <p class="lesson__meta">
+      <span class={`badge badge--${node.cefrLevel.toLowerCase()}`}>{node.cefrLevel}</span>
+      <span>{node.skill.replace('_', ' ')} · {nodeId}</span>
+    </p>
     <h1 class="lesson__title">{node.canDo}</h1>
     {node.pragmaticFocus && <p class="lesson__focus">{node.pragmaticFocus}</p>}
 
@@ -98,3 +101,48 @@ const { node, source, target } = Astro.props;
     </p>
   </article>
 </BaseLayout>
+
+<style>
+  .lesson {
+    max-width: 640px;
+  }
+  .lesson__meta {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-unit);
+    margin-bottom: calc(var(--spacing-unit) * 2);
+    color: var(--color-text-muted);
+    font-size: 0.875rem;
+  }
+  .lesson__focus {
+    color: var(--color-text-muted);
+    margin-bottom: calc(var(--spacing-unit) * 3);
+  }
+  .vocab-list {
+    display: grid;
+    gap: var(--spacing-unit);
+    list-style: none;
+    padding: 0;
+  }
+  .vocab-item {
+    padding: calc(var(--spacing-unit) * 2);
+    background-color: var(--color-bg-secondary);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    border-left: 3px solid var(--color-primary);
+  }
+  .vocab-item__term {
+    margin-bottom: calc(var(--spacing-unit) * 0.5);
+  }
+  .vocab-item__example {
+    color: var(--color-text-muted);
+    font-size: 0.9375rem;
+    margin-bottom: 0;
+  }
+  .grammar-point {
+    margin-bottom: calc(var(--spacing-unit) * 2);
+  }
+  .lesson__cta {
+    margin-top: calc(var(--spacing-unit) * 3);
+  }
+</style>
