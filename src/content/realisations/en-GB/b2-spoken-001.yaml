@@ -1,0 +1,54 @@
+nodeId: B2-SPOKEN-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-B2-SPOKEN-001-001
+    term: 'to understand extended speech'
+    translation: 'compreender discurso extenso'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I can understand extended speech in lectures.'
+    exampleTranslation: 'Consigo compreender discurso extenso em palestras.'
+  - id: en-GB-B2-SPOKEN-001-002
+    term: 'to follow lines of argumentation'
+    translation: 'seguir linhas de argumentação'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is important to follow complex lines of argumentation.'
+    exampleTranslation: 'É importante seguir linhas de argumentação complexas.'
+  - id: en-GB-B2-SPOKEN-001-003
+    term: 'to identify discussion topics'
+    translation: 'identificar temas de discussão'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will identify the discussion topics in the lecture.'
+    exampleTranslation: 'Vou identificar os temas de discussão na palestra.'
+  - id: en-GB-B2-SPOKEN-001-004
+    term: 'to understand the speech structure'
+    translation: 'perceber a estrutura do discurso'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I need to understand the speech structure.'
+    exampleTranslation: 'Preciso de perceber a estrutura do discurso.'
+  - id: en-GB-B2-SPOKEN-001-005
+    term: 'to note the intonation'
+    translation: 'notar a entoação'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is useful to note the intonation to understand the attitude.'
+    exampleTranslation: 'É útil notar a entoação para perceber a atitude.'
+  - id: en-GB-B2-SPOKEN-001-006
+    term: 'to extract relevant information'
+    translation: 'extrair informações relevantes'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will extract relevant information from the speech.'
+    exampleTranslation: 'Vou extrair informações relevantes do discurso.'
+grammar:
+  - id: B2-GRAMMAR-013
+    point: 'Reported speech in listening comprehension'
+    explanation: 'Using indirect speech to summarise spoken content'
+    examples:
+      - 'The speaker explained that the project would start soon.'
+      - 'According to him, the measures were already being implemented.'
+    cefrNotes: 'B2 learners use reported speech to summarise what they hear'
+culturalNotes: "British lectures value signposting. Using 'firstly', 'to sum up' helps follow the speaker's structure."

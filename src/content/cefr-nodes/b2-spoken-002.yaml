@@ -1,0 +1,11 @@
+nodeId: B2-SPOKEN-002
+cefrLevel: B2
+skill: listening
+canDo: 'Can understand most TV news, current affairs programmes and films'
+pragmaticFocus: 'Media comprehension'
+notionalFocus: 'TV news, current affairs, films'
+relatedNodes:
+  - B2-SPOKEN-003
+  - B2-TEXT-002
+prerequisiteNodes:
+  - B2-SPOKEN-001

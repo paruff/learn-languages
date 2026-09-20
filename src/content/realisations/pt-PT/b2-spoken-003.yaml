@@ -1,0 +1,54 @@
+nodeId: B2-SPOKEN-003
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-B2-SPOKEN-003-001
+    term: 'compreender fala complexa'
+    translation: 'to understand complex speech'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Consigo compreender fala complexa sobre temas abstratos.'
+    exampleTranslation: 'I can understand complex speech on abstract topics.'
+  - id: pt-PT-B2-SPOKEN-003-002
+    term: 'identificar ideias principais em discursos'
+    translation: 'to identify main ideas in speeches'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vou identificar ideias principais em discursos longos.'
+    exampleTranslation: 'I will identify main ideas in long speeches.'
+  - id: pt-PT-B2-SPOKEN-003-003
+    term: 'perceber argumentação abstrata'
+    translation: 'to understand abstract argumentation'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É importante perceber argumentação abstrata em palestras.'
+    exampleTranslation: 'It is important to understand abstract argumentation in lectures.'
+  - id: pt-PT-B2-SPOKEN-003-004
+    term: 'reconhecer a intenção do orador'
+    translation: "to recognise the speaker's intention"
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Preciso de reconhecer a intenção do orador.'
+    exampleTranslation: "I need to recognise the speaker's intention."
+  - id: pt-PT-B2-SPOKEN-003-005
+    term: 'interpretar a entoação'
+    translation: 'to interpret the intonation'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É útil interpretar a entoação para perceber a atitude.'
+    exampleTranslation: 'It is useful to interpret the intonation to understand the attitude.'
+  - id: pt-PT-B2-SPOKEN-003-006
+    term: 'fazer inferências a partir da fala'
+    'translation': 'to make inferences from speech'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Posso fazer inferências a partir da fala do orador.'
+    exampleTranslation: "I can make inferences from the speaker's speech."
+grammar:
+  - id: B2-GRAMMAR-015
+    point: 'Advanced reported speech with complex tenses'
+    explanation: 'Using sophisticated indirect speech for summarising complex spoken content'
+    examples:
+      - 'O orador argumentou que a situação se agravaria caso não fossem tomadas medidas.'
+      - 'Ele explicou que, tendo em conta os dados, a conclusão era inevitável.'
+    cefrNotes: 'B2 learners handle advanced reported speech for complex summarisation'
+culturalNotes: "Portuguese spoken discourse values understanding implicit meanings. Using 'isto é, quer dizer' signals clarification or paraphrase."

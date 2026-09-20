@@ -1,0 +1,11 @@
+nodeId: B2-SPOKEN-003
+cefrLevel: B2
+skill: listening
+canDo: 'Can understand the main ideas of complex speech on both concrete and abstract topics'
+pragmaticFocus: 'Complex speech comprehension'
+notionalFocus: 'Abstract topics, main ideas'
+relatedNodes:
+  - B2-SPOKEN-002
+  - B2-SOCIAL-001
+prerequisiteNodes:
+  - B2-SPOKEN-002
