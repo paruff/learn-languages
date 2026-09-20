@@ -54,14 +54,27 @@ const { node, source, target } = Astro.props;
           const sourceItem = source.vocabulary[i];
           return (
             <li class="vocab-item">
-              <p class="vocab-item__term">
-                <strong>{targetItem.term}</strong> — {sourceItem?.term ?? targetItem.translation}
-              </p>
-              <p class="vocab-item__example">
-                {targetItem.example}
-                <br />
-                <em>{targetItem.exampleTranslation}</em>
-              </p>
+              {targetItem.imageUrl && (
+                <img
+                  class="vocab-item__image"
+                  src={withBase(`/vocab-images/${targetItem.imageUrl}`)}
+                  alt={targetItem.imageAlt}
+                  width="96"
+                  height="96"
+                  loading="lazy"
+                  decoding="async"
+                />
+              )}
+              <div class="vocab-item__body">
+                <p class="vocab-item__term">
+                  <strong>{targetItem.term}</strong> — {sourceItem?.term ?? targetItem.translation}
+                </p>
+                <p class="vocab-item__example">
+                  {targetItem.example}
+                  <br />
+                  <em>{targetItem.exampleTranslation}</em>
+                </p>
+              </div>
             </li>
           );
         })
@@ -125,11 +138,25 @@ const { node, source, target } = Astro.props;
     padding: 0;
   }
   .vocab-item {
+    display: flex;
+    gap: calc(var(--spacing-unit) * 2);
+    align-items: flex-start;
     padding: calc(var(--spacing-unit) * 2);
     background-color: var(--color-bg-secondary);
     border: 1px solid var(--color-border);
     border-radius: var(--radius);
     border-left: 3px solid var(--color-primary);
+  }
+  .vocab-item__image {
+    flex-shrink: 0;
+    width: 96px;
+    height: 96px;
+    object-fit: cover;
+    border-radius: var(--radius);
+    background-color: var(--color-border);
+  }
+  .vocab-item__body {
+    min-width: 0;
   }
   .vocab-item__term {
     margin-bottom: calc(var(--spacing-unit) * 0.5);
