@@ -1,0 +1,54 @@
+nodeId: B1-OPINION-004
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-B1-OPINION-004-001
+    term: 'artigo de opinião'
+    translation: 'opinion article'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Li um artigo de opinião sobre o futuro do trabalho.'
+    exampleTranslation: 'I read an opinion article about the future of work.'
+  - id: pt-PT-B1-OPINION-004-002
+    term: 'escrever sobre'
+    translation: 'to write about'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vou escrever sobre a importância da educação.'
+    exampleTranslation: 'I am going to write about the importance of education.'
+  - id: pt-PT-B1-OPINION-004-003
+    term: 'expressar a minha posição'
+    translation: 'to express my position'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É importante expressar a minha posição com clareza.'
+    exampleTranslation: 'It is important to express my position clearly.'
+  - id: pt-PT-B1-OPINION-004-004
+    term: 'fundamentar a minha opinião'
+    translation: 'to support my opinion'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Preciso de fundamentar a minha opinião com factos.'
+    exampleTranslation: 'I need to support my opinion with facts.'
+  - id: pt-PT-B1-OPINION-004-005
+    term: 'actualidade'
+    translation: 'current events'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Sigo a actualidade diariamente.'
+    exampleTranslation: 'I follow current events daily.'
+  - id: pt-PT-B1-OPINION-004-006
+    term: 'meios de comunicação'
+    translation: 'media'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Os meios de comunicação são importantes para a democracia.'
+    exampleTranslation: 'The media are important for democracy.'
+grammar:
+  - id: B1-GRAMMAR-009
+    point: 'Written opinion structure'
+    explanation: 'Organising written opinions with introduction, arguments, and conclusion'
+    examples:
+      - 'Em primeiro lugar, quero apresentar o meu ponto de vista.'
+      - 'Em conclusão, defendo que precisamos de agir.'
+    cefrNotes: 'B1 learners develop written opinion skills with clear structure'
+culturalNotes: "Portuguese opinion writing values structured argumentation. Using connectors like 'em primeiro lugar', 'além disso', 'em conclusão' helps organise written expression."

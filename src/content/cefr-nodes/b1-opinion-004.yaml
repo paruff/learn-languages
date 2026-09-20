@@ -1,0 +1,11 @@
+nodeId: B1-OPINION-004
+cefrLevel: B1
+skill: writing
+canDo: 'Can write simple opinions about current events'
+pragmaticFocus: 'Written opinion expression'
+notionalFocus: 'Current events, media topics'
+relatedNodes:
+  - B1-OPINION-001
+  - B1-OPINION-003
+prerequisiteNodes:
+  - B1-OPINION-001

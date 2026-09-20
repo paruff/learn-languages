@@ -1,0 +1,54 @@
+nodeId: B1-OPINION-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-OPINION-001-001
+    term: 'in my opinion'
+    translation: 'na minha opinião'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'In my opinion, Portuguese cinema is very interesting.'
+    exampleTranslation: 'Na minha opinião, o cinema português é muito interessante.'
+  - id: en-GB-B1-OPINION-001-002
+    term: 'I think that'
+    translation: 'acho que'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I think we should invest more in education.'
+    exampleTranslation: 'Acho que devíamos investir mais na educação.'
+  - id: en-GB-B1-OPINION-001-003
+    term: 'it seems to me that'
+    translation: 'parece-me que'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It seems to me that this solution is the best.'
+    exampleTranslation: 'Parece-me que esta solução é a melhor.'
+  - id: en-GB-B1-OPINION-001-004
+    term: 'I defend the idea that'
+    translation: 'defendo a ideia de que'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I defend the idea that everyone should have access to healthcare.'
+    exampleTranslation: 'Defendo a ideia de que todos devem ter acesso à saúde.'
+  - id: en-GB-B1-OPINION-001-005
+    term: 'I am sure that'
+    translation: 'tenho a certeza de que'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I am sure that this will improve.'
+    exampleTranslation: 'Tenho a certeza de que isto vai melhorar.'
+  - id: en-GB-B1-OPINION-001-006
+    term: 'I am of the opinion that'
+    translation: 'sou da opinião de que'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I am of the opinion that we need changes.'
+    exampleTranslation: 'Sou da opinião de que precisamos de mudanças.'
+grammar:
+  - id: B1-GRAMMAR-006
+    point: 'Opinion expressions with subjunctive'
+    explanation: 'Using que + subjunctive in opinion phrases'
+    examples:
+      - 'I think it is important to invest.'
+      - 'I defend that everyone has access.'
+    cefrNotes: 'B1 learners begin using subjunctive in opinion expressions'
+culturalNotes: "British opinion expression tends to be more reserved. Using 'I think' or 'in my view' is more common than strong assertions. Supporting with evidence is valued."

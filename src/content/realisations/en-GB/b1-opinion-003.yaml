@@ -1,0 +1,54 @@
+nodeId: B1-OPINION-003
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-OPINION-003-001
+    term: 'the advantages are'
+    translation: 'as vantagens são'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'The advantages are economic and environmental.'
+    exampleTranslation: 'As vantagens são económicas e ambientais.'
+  - id: en-GB-B1-OPINION-003-002
+    term: 'the disadvantages are'
+    translation: 'os inconvenientes são'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'The disadvantages are the cost and the time.'
+    exampleTranslation: 'Os inconvenientes são o custo e o tempo.'
+  - id: en-GB-B1-OPINION-003-003
+    term: 'on the one hand... on the other hand'
+    translation: 'por um lado... por outro lado'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'On the one hand it is good, on the other hand there are risks.'
+    exampleTranslation: 'Por um lado é bom, por outro lado há riscos.'
+  - id: en-GB-B1-OPINION-003-004
+    term: 'a positive aspect'
+    translation: 'um aspeto positivo'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'A positive aspect is sustainability.'
+    exampleTranslation: 'Um aspeto positivo é a sustentabilidade.'
+  - id: en-GB-B1-OPINION-003-005
+    term: 'a negative aspect'
+    translation: 'um aspeto negativo'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'A negative aspect is the high cost.'
+    exampleTranslation: 'Um aspeto negativo é o custo elevado.'
+  - id: en-GB-B1-OPINION-003-006
+    term: 'overall'
+    translation: 'no geral'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Overall, I think it is a good idea.'
+    exampleTranslation: 'No geral, acho que é uma boa ideia.'
+grammar:
+  - id: B1-GRAMMAR-008
+    point: 'Comparative structures for advantages and disadvantages'
+    explanation: "Using 'more... than', 'as... as' for comparison"
+    examples:
+      - 'This project is more advantageous than the previous one.'
+      - 'The cost is as high as the benefit.'
+    cefrNotes: 'B1 learners expand comparative structures for balanced assessment'
+culturalNotes: "British discussion of pros and cons values balanced perspective. Using 'on the one hand... on the other hand' shows considered thinking."
