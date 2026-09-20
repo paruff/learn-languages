@@ -1,0 +1,47 @@
+nodeId: A2-JOB-002
+lang: en-GB
+vocabulary:
+  - id: en-GB-A2-JOB-002-001
+    term: 'routine'
+    translation: 'rotina'
+    partOfSpeech: noun
+    example: 'My work routine is very busy.'
+    exampleTranslation: 'A minha rotina de trabalho é muito ocupada.'
+  - id: en-GB-A2-JOB-002-002
+    term: 'task'
+    translation: 'tarefa'
+    partOfSpeech: noun
+    example: 'I have many tasks to do today.'
+    exampleTranslation: 'Tenho muitas tarefas para fazer hoje.'
+  - id: en-GB-A2-JOB-002-003
+    term: 'meeting'
+    translation: 'reunião'
+    partOfSpeech: noun
+    example: 'I have a meeting at ten in the morning.'
+    exampleTranslation: 'Tenho uma reunião às dez da manhã.'
+  - id: en-GB-A2-JOB-002-004
+    term: 'always'
+    translation: 'sempre'
+    partOfSpeech: adverb
+    example: 'I always arrive at work on time.'
+    exampleTranslation: 'Sempre chego a tempo ao trabalho.'
+  - id: en-GB-A2-JOB-002-005
+    term: 'sometimes'
+    translation: 'às vezes'
+    partOfSpeech: adverb
+    example: 'Sometimes I have lunch at the corner restaurant.'
+    exampleTranslation: 'Às vezes almoço no restaurante da esquina.'
+  - id: en-GB-A2-JOB-002-006
+    term: 'to finish'
+    translation: 'terminar'
+    partOfSpeech: verb
+    example: 'I usually finish work at six.'
+    exampleTranslation: 'Normalmente termino o trabalho às seis.'
+grammar:
+  - id: en-GB-A2-JOB-002-G01
+    point: 'adverbs of frequency (always, sometimes, usually)'
+    explanation: 'Used to describe how often work activities happen'
+    examples:
+      - 'I always arrive at work on time.'
+      - 'Sometimes I have lunch at the corner restaurant.'
+culturalNotes: 'Portuguese lunch breaks are typically one hour. Many workers eat at local tascas or bring home-cooked food. The midday pause is important for socialising.'

@@ -1,0 +1,47 @@
+nodeId: A2-STUDY-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-A2-STUDY-001-001
+    term: 'university'
+    translation: 'universidade'
+    partOfSpeech: noun
+    example: 'I study at the University of Lisbon.'
+    exampleTranslation: 'Estudo na Universidade de Lisboa.'
+  - id: en-GB-A2-STUDY-001-002
+    term: 'course'
+    translation: 'curso'
+    partOfSpeech: noun
+    example: 'My course lasts three years.'
+    exampleTranslation: 'O meu curso dura três anos.'
+  - id: en-GB-A2-STUDY-001-003
+    term: 'degree'
+    translation: 'diploma'
+    partOfSpeech: noun
+    example: 'I have a degree in engineering.'
+    exampleTranslation: 'Tenho um diploma em engenharia.'
+  - id: en-GB-A2-STUDY-001-004
+    term: 'to study'
+    translation: 'estudar'
+    partOfSpeech: verb
+    example: 'I study Portuguese every day.'
+    exampleTranslation: 'Estudo português todos os dias.'
+  - id: en-GB-A2-STUDY-001-005
+    term: 'exam'
+    translation: 'exame'
+    partOfSpeech: noun
+    example: 'I have an exam next week.'
+    exampleTranslation: 'Tenho um exame na semana seguinte.'
+  - id: en-GB-A2-STUDY-001-006
+    term: 'to pass'
+    translation: 'aprovar'
+    partOfSpeech: verb
+    example: 'I hope to pass the maths exam.'
+    exampleTranslation: 'Espero aprovar no exame de matemática.'
+grammar:
+  - id: en-GB-A2-STUDY-001-G01
+    point: 'connectors for listing (and, but, also)'
+    explanation: 'Used to connect educational experiences'
+    examples:
+      - 'I study at university and work at the weekend.'
+      - "I have a degree, but I want to do a master's."
+culturalNotes: 'Portuguese higher education follows the Bologna Process. Students typically complete a licenciatura (3 years) before a mestrado (2 years).'
