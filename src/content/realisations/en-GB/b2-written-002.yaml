@@ -1,0 +1,54 @@
+nodeId: B2-WRITTEN-002
+lang: en-GB
+vocabulary:
+  - id: en-GB-B2-WRITTEN-002-001
+    term: 'to write an essay'
+    translation: 'escrever um ensaio'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will write an essay that develops an argument.'
+    exampleTranslation: 'Vou escrever um ensaio que desenvolva um argumento.'
+  - id: en-GB-B2-WRITTEN-002-002
+    term: 'to elaborate a report'
+    translation: 'elaborar um relatório'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I need to elaborate a detailed report.'
+    exampleTranslation: 'Preciso de elaborar um relatório detalhado.'
+  - id: en-GB-B2-WRITTEN-002-003
+    term: 'to develop the thesis'
+    translation: 'desenvolver a tese'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is important to develop the thesis with arguments.'
+    exampleTranslation: 'É importante desenvolver a tese com argumentos.'
+  - id: en-GB-B2-WRITTEN-002-004
+    term: 'to present supporting data'
+    translation: 'apresentar dados de suporte'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will present supporting data in the essay.'
+    exampleTranslation: 'Vou apresentar dados de suporte no ensaio.'
+  - id: en-GB-B2-WRITTEN-002-005
+    term: 'to use academic vocabulary'
+    translation: 'usar vocabulário académico'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is useful to use academic vocabulary in the report.'
+    exampleTranslation: 'É útil usar vocabulário académico no relatório.'
+  - id: en-GB-B2-WRITTEN-002-006
+    term: 'to structure the written argumentation'
+    translation: 'estruturar a argumentação escrita'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I need to structure the written argumentation clearly.'
+    exampleTranslation: 'Preciso de estruturar a argumentação escrita de forma clara.'
+grammar:
+  - id: B2-GRAMMAR-017
+    point: 'Advanced connectors for written argumentation'
+    explanation: 'Using sophisticated connectors for structured written expression'
+    examples:
+      - 'Despite the difficulties, the project progressed.'
+      - 'In contrast, the results were positive.'
+    cefrNotes: 'B2 learners use advanced connectors for formal written argumentation'
+culturalNotes: "British essay writing values clear thesis and systematic development. Using 'my thesis is that' or 'I argue that' introduces your argument."

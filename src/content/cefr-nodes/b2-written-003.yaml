@@ -1,0 +1,11 @@
+nodeId: B2-WRITTEN-003
+cefrLevel: B2
+skill: writing
+canDo: 'Can write with correct spelling and punctuation'
+pragmaticFocus: 'Writing accuracy'
+notionalFocus: 'Spelling, punctuation, correctness'
+relatedNodes:
+  - B2-WRITTEN-002
+  - B1-WRITING-002
+prerequisiteNodes:
+  - B2-WRITTEN-002

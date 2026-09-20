@@ -1,0 +1,54 @@
+nodeId: B2-WRITTEN-003
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-B2-WRITTEN-003-001
+    term: 'escrever com ortografia correta'
+    translation: 'to write with correct spelling'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Preciso de escrever com ortografia correta.'
+    exampleTranslation: 'I need to write with correct spelling.'
+  - id: pt-PT-B2-WRITTEN-003-002
+    term: 'usar pontuação adequada'
+    translation: 'to use appropriate punctuation'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É importante usar pontuação adequada no texto.'
+    exampleTranslation: 'It is important to use appropriate punctuation in the text.'
+  - id: pt-PT-B2-WRITTEN-003-003
+    term: 'revisar o texto'
+    translation: 'to review the text'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vou revisar o texto para garantir a correção.'
+    exampleTranslation: 'I will review the text to ensure correctness.'
+  - id: pt-PT-B2-WRITTEN-003-004
+    term: 'corrigir erros'
+    translation: 'to correct errors'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Preciso de corrigir erros ortográficos e gramaticais.'
+    exampleTranslation: 'I need to correct spelling and grammatical errors.'
+  - id: pt-PT-B2-WRITTEN-003-005
+    term: 'usar modelos de escrita'
+    translation: 'to use writing models'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É útil usar modelos de escrita para melhorar.'
+    exampleTranslation: 'It is useful to use writing models to improve.'
+  - id: pt-PT-B2-WRITTEN-003-006
+    term: 'escrever com precisão'
+    translation: 'to write with precision'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vou escrever com precisão para comunicar melhor.'
+    exampleTranslation: 'I will write with precision to communicate better.'
+grammar:
+  - id: B2-GRAMMAR-018
+    point: 'Writing accuracy and self-correction'
+    explanation: 'Using grammatical knowledge for self-correction in writing'
+    examples:
+      - 'Embora tenha escrito corretamente, vou rever a pontuação.'
+      - 'O texto está correto, mas posso melhorar a estrutura.'
+    cefrNotes: 'B2 learners use grammatical awareness for self-correction'
+culturalNotes: "Portuguese writing values accuracy. Using 'revi o texto' or 'corrigi os erros' signals attention to quality."

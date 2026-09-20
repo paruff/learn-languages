@@ -1,0 +1,54 @@
+nodeId: B2-WRITTEN-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-B2-WRITTEN-001-001
+    term: 'to write clear and detailed texts'
+    translation: 'escrever textos claros e detalhados'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I can write clear and detailed texts on various topics.'
+    exampleTranslation: 'Consigo escrever textos claros e detalhados sobre vários temas.'
+  - id: en-GB-B2-WRITTEN-001-002
+    term: 'to develop the writing'
+    translation: 'desenvolver a escrita'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will develop the writing with more details.'
+    exampleTranslation: 'Vou desenvolver a escrita com mais detalhes.'
+  - id: en-GB-B2-WRITTEN-001-003
+    term: 'to use varied vocabulary'
+    translation: 'usar vocabulário variado'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is important to use varied vocabulary in writing.'
+    exampleTranslation: 'É importante usar vocabulário variado na escrita.'
+  - id: en-GB-B2-WRITTEN-001-004
+    term: 'to structure paragraphs'
+    translation: 'estruturar parágrafos'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I need to structure paragraphs logically.'
+    exampleTranslation: 'Preciso de estruturar parágrafos de forma lógica.'
+  - id: en-GB-B2-WRITTEN-001-005
+    term: 'to use appropriate connectors'
+    translation: 'usar conectores adequados'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will use appropriate connectors to connect ideas.'
+    exampleTranslation: 'Vou usar conectores adequados para ligar ideias.'
+  - id: en-GB-B2-WRITTEN-001-006
+    term: 'to rewrite to improve'
+    translation: 'reescrever para melhorar'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is useful to rewrite to improve the text.'
+    exampleTranslation: 'É útil reescrever para melhorar o texto.'
+grammar:
+  - id: B2-GRAMMAR-016
+    point: 'Complex sentence structures in writing'
+    explanation: 'Using subordination and coordination for sophisticated written expression'
+    examples:
+      - 'Although the topic is complex, it can be explained simply.'
+      - 'Not only did he present data, but he also drew relevant conclusions.'
+    cefrNotes: 'B2 learners use complex sentence structures for detailed written expression'
+culturalNotes: "British academic writing values clarity and detail. Using 'furthermore', 'on the other hand' signals structured thinking."
