@@ -1,0 +1,54 @@
+nodeId: B2-TEXT-002
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-B2-TEXT-002-001
+    term: 'compreender artigos de jornal'
+    translation: 'to understand newspaper articles'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Consigo compreender artigos de jornal sobre temas atuais.'
+    exampleTranslation: 'I can understand newspaper articles on current topics.'
+  - id: pt-PT-B2-TEXT-002-002
+    term: 'ler relatórios técnicos'
+    translation: 'to read technical reports'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vou ler relatórios técnicos sobre o tema.'
+    exampleTranslation: 'I will read technical reports on the topic.'
+  - id: pt-PT-B2-TEXT-002-003
+    term: 'analisar textos argumentativos'
+    translation: 'to analyse argumentative texts'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É importante analisar textos argumentativos com atenção.'
+    exampleTranslation: 'It is important to analyse argumentative texts carefully.'
+  - id: pt-PT-B2-TEXT-002-004
+    term: 'distinguir factos de opiniões'
+    translation: 'to distinguish facts from opinions'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Preciso de distinguir factos de opiniões no artigo.'
+    exampleTranslation: 'I need to distinguish facts from opinions in the article.'
+  - id: pt-PT-B2-TEXT-002-005
+    term: 'identificar o propósito do texto'
+    translation: 'to identify the purpose of the text'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vou identificar o propósito do texto desde o início.'
+    exampleTranslation: 'I will identify the purpose of the text from the beginning.'
+  - id: pt-PT-B2-TEXT-002-006
+    term: 'ler entrelinhas'
+    translation: 'to read between the lines'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É útil ler entrelinhas para perceber o implícito.'
+    exampleTranslation: 'It is useful to read between the lines to understand the implicit.'
+grammar:
+  - id: B2-GRAMMAR-010
+    point: 'Passive voice in newspaper style'
+    explanation: 'Using passive constructions common in journalistic Portuguese'
+    examples:
+      - 'Oプロジェクト foi aprovado pelo conselho.'
+      - 'Foram registados vários incidentes.'
+    cefrNotes: 'B2 learners recognise passive voice in journalistic texts'
+culturalNotes: "Portuguese journalism uses formal register. Terms like 'segundo fontes oficiais' or 'de acordo com o relatório' signal sourcing."

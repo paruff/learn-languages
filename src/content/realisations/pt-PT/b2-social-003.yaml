@@ -1,0 +1,54 @@
+nodeId: B2-SOCIAL-003
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-B2-SOCIAL-003-001
+    term: 'defender a minha posição'
+    translation: 'to defend my position'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Consigo defender a minha posição com argumentos sólidos.'
+    exampleTranslation: 'I can defend my position with solid arguments.'
+  - id: pt-PT-B2-SOCIAL-003-002
+    term: 'justificar a decisão'
+    translation: 'to justify the decision'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Preciso de justificar a minha decisão com factos.'
+    exampleTranslation: 'I need to justify my decision with facts.'
+  - id: pt-PT-B2-SOCIAL-003-003
+    term: 'sustentar a opinião'
+    translation: 'to sustain the opinion'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É importante sustentar a opinião com exemplos.'
+    exampleTranslation: 'It is important to sustain the opinion with examples.'
+  - id: pt-PT-B2-SOCIAL-003-004
+    term: 'apresentar razões'
+    translation: 'to present reasons'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vou apresentar razões para apoiar o meu argumento.'
+    exampleTranslation: 'I will present reasons to support my argument.'
+  - id: pt-PT-B2-SOCIAL-003-005
+    term: 'explicar o raciocínio'
+    translation: 'to explain the reasoning'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É útil explicar o raciocínio para que todos compreendam.'
+    exampleTranslation: 'It is useful to explain the reasoning so that everyone understands.'
+  - id: pt-PT-B2-SOCIAL-003-006
+    term: 'concordar parcialmente'
+    translation: 'to partially agree'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Concordo parcialmente, mas tenho reservas.'
+    exampleTranslation: 'I partially agree, but I have reservations.'
+grammar:
+  - id: B2-GRAMMAR-003
+    point: 'Reported speech with tense sequence'
+    explanation: 'Using indirect speech with proper tense backshift'
+    examples:
+      - 'Ele disse que vinha amanhã.'
+      - 'Ela explicou que não pudera comparecer.'
+    cefrNotes: 'B2 learners master reported speech with correct tense sequences'
+culturalNotes: "In Portuguese, sustaining a view with 'na minha opinião' or 'sou da opinião de que' adds weight. Direct contradiction is softened with 'compreendo, mas...'."

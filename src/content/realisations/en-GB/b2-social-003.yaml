@@ -1,0 +1,54 @@
+nodeId: B2-SOCIAL-003
+lang: en-GB
+vocabulary:
+  - id: en-GB-B2-SOCIAL-003-001
+    term: 'to defend my position'
+    translation: 'defender a minha posição'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I can defend my position with solid arguments.'
+    exampleTranslation: 'Consigo defender a minha posição com argumentos sólidos.'
+  - id: en-GB-B2-SOCIAL-003-002
+    term: 'to justify the decision'
+    translation: 'justificar a decisão'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I need to justify my decision with facts.'
+    exampleTranslation: 'Preciso de justificar a minha decisão com factos.'
+  - id: en-GB-B2-SOCIAL-003-003
+    term: 'to sustain the opinion'
+    translation: 'sustentar a opinião'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is important to sustain the opinion with examples.'
+    exampleTranslation: 'É importante sustentar a opinião com exemplos.'
+  - id: en-GB-B2-SOCIAL-003-004
+    term: 'to present reasons'
+    translation: 'apresentar razões'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will present reasons to support my argument.'
+    exampleTranslation: 'Vou apresentar razões para apoiar o meu argumento.'
+  - id: en-GB-B2-SOCIAL-003-005
+    term: 'to explain the reasoning'
+    translation: 'explicar o raciocínio'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is useful to explain the reasoning so that everyone understands.'
+    exampleTranslation: 'É útil explicar o raciocínio para que todos compreendam.'
+  - id: en-GB-B2-SOCIAL-003-006
+    term: 'to partially agree'
+    translation: 'concordar parcialmente'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I partially agree, but I have reservations.'
+    exampleTranslation: 'Concordo parcialmente, mas tenho reservas.'
+grammar:
+  - id: B2-GRAMMAR-003
+    point: 'Reported speech with tense sequence'
+    explanation: 'Using indirect speech with proper tense backshift'
+    examples:
+      - 'He said he was coming tomorrow.'
+      - 'She explained that she had been unable to attend.'
+    cefrNotes: 'B2 learners master reported speech with correct tense sequences'
+culturalNotes: "British speakers often use 'I take your point' before disagreeing. Hedging with 'I'm not entirely sure' or 'I might be wrong, but' softens assertions."

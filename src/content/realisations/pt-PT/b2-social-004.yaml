@@ -1,0 +1,54 @@
+nodeId: B2-SOCIAL-004
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-B2-SOCIAL-004-001
+    term: 'esclarecer dúvidas'
+    translation: 'to clarify doubts'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Posso esclarecer as suas dúvidas sobre o assunto.'
+    exampleTranslation: 'I can clarify your doubts about the subject.'
+  - id: pt-PT-B2-SOCIAL-004-002
+    term: 'detalhar a explicação'
+    translation: 'to detail the explanation'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vou detalhar a explicação para maior clareza.'
+    exampleTranslation: 'I will detail the explanation for greater clarity.'
+  - id: pt-PT-B2-SOCIAL-004-003
+    term: 'precisar o conceito'
+    translation: 'to specify the concept'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É importante precisar o conceito antes de discutir.'
+    exampleTranslation: 'It is important to specify the concept before discussing.'
+  - id: pt-PT-B2-SOCIAL-004-004
+    term: 'exemplificar com situações'
+    translation: 'to exemplify with situations'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Posso exemplificar com situações reais.'
+    exampleTranslation: 'I can exemplify with real situations.'
+  - id: pt-PT-B2-SOCIAL-004-005
+    term: 'reinterpretar a ideia'
+    translation: 'to reinterpret the idea'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vou reinterpretar a ideia de forma mais simples.'
+    exampleTranslation: 'I will reinterpret the idea in a simpler way.'
+  - id: pt-PT-B2-SOCIAL-004-006
+    term: 'garantir a compreensão'
+    translation: 'to ensure understanding'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Quero garantir a compreensão antes de continuar.'
+    exampleTranslation: 'I want to ensure understanding before continuing.'
+grammar:
+  - id: B2-GRAMMAR-004
+    point: 'Complex conditionals with mixed time references'
+    explanation: 'Using mixed conditionals to connect past and present hypotheticals'
+    examples:
+      - 'Se tivesse estudado, teria passado o exame.'
+      - 'Se eu fosse rico, teria comprado aquela casa.'
+    cefrNotes: 'B2 learners handle mixed conditionals for nuanced hypothetical reasoning'
+culturalNotes: "Portuguese speakers often use 'quer dizer' (that is to say) to clarify. Asking 'está claro?' (is it clear?) shows consideration for the listener."

@@ -1,0 +1,11 @@
+nodeId: B2-WRITTEN-001
+cefrLevel: B2
+skill: writing
+canDo: 'Can write clear, detailed text on a wide range of subjects'
+pragmaticFocus: 'Clear detailed writing'
+notionalFocus: 'Range of subjects, detailed expression'
+relatedNodes:
+  - B2-WRITTEN-002
+  - B1-WRITING-001
+prerequisiteNodes:
+  - B1-WRITING-001

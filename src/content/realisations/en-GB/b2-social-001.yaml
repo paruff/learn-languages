@@ -1,0 +1,54 @@
+nodeId: B2-SOCIAL-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-B2-SOCIAL-001-001
+    term: 'to deepen the discussion'
+    translation: 'aprofundar a discussão'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Can we deepen the discussion about this topic?'
+    exampleTranslation: 'Podemos aprofundar a discussão sobre este tema?'
+  - id: en-GB-B2-SOCIAL-001-002
+    term: 'to keep the conversation going'
+    translation: 'manter a conversa'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is important to keep the conversation flowing.'
+    exampleTranslation: 'É importante manter a conversa fluente.'
+  - id: en-GB-B2-SOCIAL-001-003
+    term: 'to react spontaneously'
+    translation: 'reagir espontaneamente'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I can react spontaneously in discussions.'
+    exampleTranslation: 'Consigo reagir espontaneamente em discussões.'
+  - id: en-GB-B2-SOCIAL-001-004
+    term: 'to participate actively'
+    translation: 'participar ativamente'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I like to participate actively in classes.'
+    exampleTranslation: 'Gosto de participar ativamente nas aulas.'
+  - id: en-GB-B2-SOCIAL-001-005
+    term: 'to express ideas clearly'
+    translation: 'expressar ideias com clareza'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is fundamental to express ideas clearly.'
+    exampleTranslation: 'É fundamental expressar ideias com clareza.'
+  - id: en-GB-B2-SOCIAL-001-006
+    term: 'to interact with fluency'
+    translation: 'interagir com fluidez'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I want to interact with fluency in Portuguese.'
+    exampleTranslation: 'Quero interagir com fluidez em português.'
+grammar:
+  - id: B2-GRAMMAR-001
+    point: 'Subjunctive mood in dependent clauses'
+    explanation: 'Using present subjunctive after verbs of desire, doubt, emotion'
+    examples:
+      - 'I hope you can come tomorrow.'
+      - 'I doubt he knows the truth.'
+    cefrNotes: 'B2 learners use subjunctive fluently in context'
+culturalNotes: "British conversation values measured participation. Active listening through backchannels ('I see', 'right') shows engagement without interrupting."

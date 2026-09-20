@@ -1,0 +1,11 @@
+nodeId: B2-TEXT-004
+cefrLevel: B2
+skill: reading
+canDo: 'Can understand the main conclusions of clearly signposted argumentative texts'
+pragmaticFocus: 'Conclusion extraction from argumentative texts'
+notionalFocus: 'Signposted argumentation, main conclusions'
+relatedNodes:
+  - B2-TEXT-003
+  - B2-ARGUE-002
+prerequisiteNodes:
+  - B2-TEXT-003

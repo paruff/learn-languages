@@ -1,0 +1,54 @@
+nodeId: B2-ARGUE-004
+lang: en-GB
+vocabulary:
+  - id: en-GB-B2-ARGUE-004-001
+    term: 'to sustain the thesis'
+    translation: 'sustentar a tese'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I need to sustain the thesis with solid arguments.'
+    exampleTranslation: 'Preciso de sustentar a tese com argumentos sólidos.'
+  - id: en-GB-B2-ARGUE-004-002
+    term: 'to present supporting data'
+    translation: 'apresentar dados de suporte'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will present supporting data for my position.'
+    exampleTranslation: 'Vou apresentar dados de suporte para a minha posição.'
+  - id: en-GB-B2-ARGUE-004-003
+    term: 'to expose the argumentation'
+    translation: 'expor a argumentação'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is important to expose the argumentation clearly.'
+    exampleTranslation: 'É importante expor a argumentação de forma clara.'
+  - id: en-GB-B2-ARGUE-004-004
+    term: 'to use concrete examples'
+    translation: 'usar exemplos concretos'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will use concrete examples to illustrate.'
+    exampleTranslation: 'Vou usar exemplos concretos para ilustrar.'
+  - id: en-GB-B2-ARGUE-004-005
+    term: 'to reinforce the position'
+    translation: 'reforçar a posição'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is useful to reinforce the position with more evidence.'
+    exampleTranslation: 'É útil reforçar a posição com mais evidências.'
+  - id: en-GB-B2-ARGUE-004-006
+    term: 'to write an essay'
+    translation: 'escrever um ensaio'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will write an essay on the topic.'
+    exampleTranslation: 'Vou escrever um ensaio sobre o tema.'
+grammar:
+  - id: B2-GRAMMAR-008
+    point: 'Future subjunctive in formal writing'
+    explanation: 'Using future subjunctive in written argumentation'
+    examples:
+      - 'If this happens, we will have to react.'
+      - 'When necessary, we will change position.'
+    cefrNotes: 'B2 learners use future subjunctive in formal written contexts'
+culturalNotes: "British essay writing values clear thesis statement and systematic development. Using 'my thesis is that' or 'I argue that' introduces your argument."

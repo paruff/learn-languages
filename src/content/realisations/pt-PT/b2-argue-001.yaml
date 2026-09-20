@@ -1,0 +1,54 @@
+nodeId: B2-ARGUE-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-B2-ARGUE-001-001
+    term: 'construir uma cadeia de raciocínio'
+    translation: 'to construct a chain of reasoning'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vou construir uma cadeia de raciocínio para explicar.'
+    exampleTranslation: 'I will construct a chain of reasoning to explain.'
+  - id: pt-PT-B2-ARGUE-001-002
+    term: 'desenvolver o argumento'
+    translation: 'to develop the argument'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É importante desenvolver o argumento passo a passo.'
+    exampleTranslation: 'It is important to develop the argument step by step.'
+  - id: pt-PT-B2-ARGUE-001-003
+    term: 'apresentar deduções'
+    translation: 'to present deductions'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Posso apresentar deduções baseadas em factos.'
+    exampleTranslation: 'I can present deductions based on facts.'
+  - id: pt-PT-B2-ARGUE-001-004
+    term: 'ligar ideias logicamente'
+    translation: 'to connect ideas logically'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Preciso de ligar as ideias de forma lógica.'
+    exampleTranslation: 'I need to connect the ideas logically.'
+  - id: pt-PT-B2-ARGUE-001-005
+    term: 'usar conectores de consequência'
+    translation: 'to use consequence connectors'
+    partOfSpeech: phrase
+    gender: n/a
+    example: "É útil usar conectores como 'portanto', 'logo', 'por conseguinte'."
+    exampleTranslation: "It is useful to use connectors like 'therefore', 'thus', 'consequently'."
+  - id: pt-PT-B2-ARGUE-001-006
+    term: 'estruturar o discurso'
+    translation: 'to structure the discourse'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vou estruturar o discurso em três partes.'
+    exampleTranslation: 'I will structure the discourse in three parts.'
+grammar:
+  - id: B2-GRAMMAR-005
+    point: 'Passive voice for objectivity'
+    explanation: 'Using passive constructions to add formality and objectivity'
+    examples:
+      - 'O projeto foi desenvolvido pela equipa.'
+      - 'Foram apresentados vários argumentos.'
+    cefrNotes: 'B2 learners use passive voice to shift focus from agent to action'
+culturalNotes: "Portuguese academic and professional discourse values logical structure. Using 'em primeiro lugar', 'além disso', 'em conclusão' signals organised thinking."

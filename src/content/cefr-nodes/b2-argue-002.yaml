@@ -1,0 +1,11 @@
+nodeId: B2-ARGUE-002
+cefrLevel: B2
+skill: spoken_production
+canDo: 'Can justify viewpoint on topical issues'
+pragmaticFocus: 'Topical issue justification'
+notionalFocus: 'Current issues, personal stance'
+relatedNodes:
+  - B2-ARGUE-001
+  - B2-ARGUE-003
+prerequisiteNodes:
+  - B2-ARGUE-001

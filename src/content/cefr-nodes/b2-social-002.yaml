@@ -1,0 +1,11 @@
+nodeId: B2-SOCIAL-002
+cefrLevel: B2
+skill: spoken_interaction
+canDo: 'Can take an active part in discussion in familiar contexts'
+pragmaticFocus: 'Active discussion participation'
+notionalFocus: 'Familiar topics, group discussion'
+relatedNodes:
+  - B2-SOCIAL-001
+  - B1-SOCIAL-002
+prerequisiteNodes:
+  - B2-SOCIAL-001

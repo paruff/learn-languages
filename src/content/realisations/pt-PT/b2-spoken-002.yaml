@@ -1,0 +1,54 @@
+nodeId: B2-SPOKEN-002
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-B2-SPOKEN-002-001
+    term: 'compreender notícias de TV'
+    translation: 'to understand TV news'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Consigo compreender notícias de TV sobre temas atuais.'
+    exampleTranslation: 'I can understand TV news on current topics.'
+  - id: pt-PT-B2-SPOKEN-002-002
+    term: 'acompanhar programas de atualidades'
+    translation: 'to follow current affairs programmes'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vou acompanhar programas de atualidades esta semana.'
+    exampleTranslation: 'I will follow current affairs programmes this week.'
+  - id: pt-PT-B2-SPOKEN-002-003
+    term: 'compreender filmes sem legendas'
+    translation: 'to understand films without subtitles'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Preciso de compreender filmes sem legendas.'
+    exampleTranslation: 'I need to understand films without subtitles.'
+  - id: pt-PT-B2-SPOKEN-002-004
+    term: 'identificar o tema principal'
+    translation: 'to identify the main theme'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É importante identificar o tema principal da reportagem.'
+    exampleTranslation: 'It is important to identify the main theme of the report.'
+  - id: pt-PT-B2-SPOKEN-002-005
+    term: 'perceber referências culturais'
+    translation: 'to understand cultural references'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É útil perceber referências culturais no noticiário.'
+    exampleTranslation: 'It is useful to understand cultural references in the news.'
+  - id: pt-PT-B2-SPOKEN-002-006
+    term: 'sintetizar informação oral'
+    translation: 'to synthesise oral information'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vou sintetizar a informação oral que ouvi.'
+    exampleTranslation: 'I will synthesise the oral information I heard.'
+grammar:
+  - id: B2-GRAMMAR-014
+    point: 'Complex tense usage in media contexts'
+    explanation: 'Using compound tenses common in news reporting'
+    examples:
+      - 'O governo terá decidido implementar novas medidas.'
+      - 'As autoridades tinham alertado para o risco.'
+    cefrNotes: 'B2 learners handle complex tenses in media Portuguese'
+culturalNotes: "Portuguese TV news uses formal register. Terms like 'segundo fontes oficiais' or 'de acordo com' signal sourcing."

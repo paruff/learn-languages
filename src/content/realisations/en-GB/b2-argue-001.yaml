@@ -1,0 +1,54 @@
+nodeId: B2-ARGUE-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-B2-ARGUE-001-001
+    term: 'to construct a chain of reasoning'
+    translation: 'construir uma cadeia de raciocínio'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will construct a chain of reasoning to explain.'
+    exampleTranslation: 'Vou construir uma cadeia de raciocínio para explicar.'
+  - id: en-GB-B2-ARGUE-001-002
+    term: 'to develop the argument'
+    translation: 'desenvolver o argumento'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is important to develop the argument step by step.'
+    exampleTranslation: 'É importante desenvolver o argumento passo a passo.'
+  - id: en-GB-B2-ARGUE-001-003
+    term: 'to present deductions'
+    translation: 'apresentar deduções'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I can present deductions based on facts.'
+    exampleTranslation: 'Posso apresentar deduções baseadas em factos.'
+  - id: en-GB-B2-ARGUE-001-004
+    term: 'to connect ideas logically'
+    translation: 'ligar ideias logicamente'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I need to connect the ideas logically.'
+    exampleTranslation: 'Preciso de ligar as ideias de forma lógica.'
+  - id: en-GB-B2-ARGUE-001-005
+    term: 'to use consequence connectors'
+    translation: 'usar conectores de consequência'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is useful to use connectors like therefore, thus, consequently.'
+    exampleTranslation: 'É útil usar conectores como portanto, logo, por conseguinte.'
+  - id: en-GB-B2-ARGUE-001-006
+    term: 'to structure the discourse'
+    translation: 'estruturar o discurso'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will structure the discourse in three parts.'
+    exampleTranslation: 'Vou estruturar o discurso em três partes.'
+grammar:
+  - id: B2-GRAMMAR-005
+    point: 'Passive voice for objectivity'
+    explanation: 'Using passive constructions to add formality and objectivity'
+    examples:
+      - 'The project was developed by the team.'
+      - 'Several arguments were presented.'
+    cefrNotes: 'B2 learners use passive voice to shift focus from agent to action'
+culturalNotes: "British academic discourse values logical structure. Using 'firstly', 'furthermore', 'in conclusion' signals organised thinking."

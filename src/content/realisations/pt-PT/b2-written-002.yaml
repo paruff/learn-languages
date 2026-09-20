@@ -1,0 +1,54 @@
+nodeId: B2-WRITTEN-002
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-B2-WRITTEN-002-001
+    term: 'escrever um ensaio'
+    translation: 'to write an essay'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vou escrever um ensaio que desenvolva um argumento.'
+    exampleTranslation: 'I will write an essay that develops an argument.'
+  - id: pt-PT-B2-WRITTEN-002-002
+    term: 'elaborar um relatório'
+    translation: 'to elaborate a report'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Preciso de elaborar um relatório detalhado.'
+    exampleTranslation: 'I need to elaborate a detailed report.'
+  - id: pt-PT-B2-WRITTEN-002-003
+    term: 'desenvolver a tese'
+    translation: 'to develop the thesis'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É importante desenvolver a tese com argumentos.'
+    exampleTranslation: 'It is important to develop the thesis with arguments.'
+  - id: pt-PT-B2-WRITTEN-002-004
+    term: 'apresentar dados de suporte'
+    translation: 'to present supporting data'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vou apresentar dados de suporte no ensaio.'
+    exampleTranslation: 'I will present supporting data in the essay.'
+  - id: pt-PT-B2-WRITTEN-002-005
+    term: 'usar vocabulário académico'
+    translation: 'to use academic vocabulary'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É útil usar vocabulário académico no relatório.'
+    exampleTranslation: 'It is useful to use academic vocabulary in the report.'
+  - id: pt-PT-B2-WRITTEN-002-006
+    term: 'estruturar a argumentação escrita'
+    translation: 'to structure the written argumentation'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Preciso de estruturar a argumentação escrita de forma clara.'
+    exampleTranslation: 'I need to structure the written argumentation clearly.'
+grammar:
+  - id: B2-GRAMMAR-017
+    point: 'Advanced connectors for written argumentation'
+    explanation: 'Using sophisticated connectors for structured written expression'
+    examples:
+      - 'Não obstante as dificuldades, o projeto avançou.'
+      - 'Em contrapartida, os resultados foram positivos.'
+    cefrNotes: 'B2 learners use advanced connectors for formal written argumentation'
+culturalNotes: "Portuguese essay writing values clear thesis and systematic development. Using 'a minha tese é que' or 'defendo que' introduces your argument."

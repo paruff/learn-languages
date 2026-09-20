@@ -1,0 +1,11 @@
+nodeId: B2-TEXT-003
+cefrLevel: B2
+skill: reading
+canDo: 'Can recognise the line of argument in the treatment of the issue presented'
+pragmaticFocus: 'Argument recognition in texts'
+notionalFocus: 'Text structure, argumentation analysis'
+relatedNodes:
+  - B2-TEXT-002
+  - B2-ARGUE-001
+prerequisiteNodes:
+  - B2-TEXT-002

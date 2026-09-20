@@ -1,0 +1,54 @@
+nodeId: B2-TEXT-004
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-B2-TEXT-004-001
+    term: 'compreender conclusões de textos argumentativos'
+    translation: 'to understand conclusions of argumentative texts'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Consigo compreender conclusões de textos argumentativos.'
+    exampleTranslation: 'I can understand conclusions of argumentative texts.'
+  - id: pt-PT-B2-TEXT-004-002
+    term: 'identificar sinais de conclusão'
+    translation: 'to identify conclusion markers'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É importante identificar sinais de conclusão no texto.'
+    exampleTranslation: 'It is important to identify conclusion markers in the text.'
+  - id: pt-PT-B2-TEXT-004-003
+    term: 'sintetizar as ideias principais'
+    translation: 'to synthesise the main ideas'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vou sintetizar as ideias principais do artigo.'
+    exampleTranslation: 'I will synthesise the main ideas of the article.'
+  - id: pt-PT-B2-TEXT-004-004
+    term: 'avaliar a conclusão'
+    translation: 'to evaluate the conclusion'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Preciso de avaliar se a conclusão é sustentada.'
+    exampleTranslation: 'I need to evaluate whether the conclusion is sustained.'
+  - id: pt-PT-B2-TEXT-004-005
+    term: 'relacionar conclusão com premissas'
+    translation: 'to relate conclusion with premises'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vou relacionar a conclusão com as premissas apresentadas.'
+    exampleTranslation: 'I will relate the conclusion with the presented premises.'
+  - id: pt-PT-B2-TEXT-004-006
+    term: 'extrair implicações'
+    translation: 'to extract implications'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Posso extrair implicações relevantes do texto.'
+    exampleTranslation: 'I can extract relevant implications from the text.'
+grammar:
+  - id: B2-GRAMMAR-012
+    point: 'Reported speech in textual analysis'
+    explanation: "Using indirect speech to summarise authors' conclusions"
+    examples:
+      - 'O autor conclui que a situação irá melhorar.'
+      - 'Segundo o relatório, as medidas foram eficazes.'
+    cefrNotes: 'B2 learners use reported speech to summarise textual conclusions'
+culturalNotes: "Portuguese academic writing values clear synthesis. Using 'em suma' or 'em conclusão' signals the final synthesis."

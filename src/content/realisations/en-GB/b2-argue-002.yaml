@@ -1,0 +1,54 @@
+nodeId: B2-ARGUE-002
+lang: en-GB
+vocabulary:
+  - id: en-GB-B2-ARGUE-002-001
+    term: 'to justify the position'
+    translation: 'justificar a posição'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will justify my position with concrete examples.'
+    exampleTranslation: 'Vou justificar a minha posição com exemplos concretos.'
+  - id: en-GB-B2-ARGUE-002-002
+    term: 'to argue about current topics'
+    translation: 'argumentar sobre temas atuais'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I like to argue about current topics with friends.'
+    exampleTranslation: 'Gosto de argumentar sobre temas atuais com amigos.'
+  - id: en-GB-B2-ARGUE-002-003
+    term: 'to present evidence'
+    translation: 'apresentar evidências'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is important to present evidence that supports the opinion.'
+    exampleTranslation: 'É importante apresentar evidências que sustentem a opinião.'
+  - id: en-GB-B2-ARGUE-002-004
+    term: 'to present the pros and cons'
+    translation: 'expor os prós e contras'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will present the pros and cons of the situation.'
+    exampleTranslation: 'Vou expor os prós e contras da situação.'
+  - id: en-GB-B2-ARGUE-002-005
+    term: 'to refute arguments'
+    translation: 'refutar argumentos'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I can refute weak arguments with facts.'
+    exampleTranslation: 'Consigo refutar argumentos fracos com factos.'
+  - id: en-GB-B2-ARGUE-002-006
+    term: 'to reach conclusions'
+    translation: 'chegar a conclusões'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'We can reach conclusions based on the discussion.'
+    exampleTranslation: 'Podemos chegar a conclusões baseadas na discussão.'
+grammar:
+  - id: B2-GRAMMAR-006
+    point: 'Relative clauses for precision'
+    explanation: 'Using non-restrictive and prepositional relative clauses'
+    examples:
+      - 'The book, which I bought yesterday, is excellent.'
+      - 'The person I spoke with was very friendly.'
+    cefrNotes: 'B2 learners use complex relative clauses for detailed expression'
+culturalNotes: "British argumentation values evidence and examples. Using 'for example' or 'as demonstrated by' strengthens your position."

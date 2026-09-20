@@ -1,0 +1,54 @@
+nodeId: B2-SPOKEN-003
+lang: en-GB
+vocabulary:
+  - id: en-GB-B2-SPOKEN-003-001
+    term: 'to understand complex speech'
+    translation: 'compreender fala complexa'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I can understand complex speech on abstract topics.'
+    exampleTranslation: 'Consigo compreender fala complexa sobre temas abstratos.'
+  - id: en-GB-B2-SPOKEN-003-002
+    term: 'to identify main ideas in speeches'
+    translation: 'identificar ideias principais em discursos'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will identify main ideas in long speeches.'
+    exampleTranslation: 'Vou identificar ideias principais em discursos longos.'
+  - id: en-GB-B2-SPOKEN-003-003
+    term: 'to understand abstract argumentation'
+    translation: 'perceber argumentação abstrata'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is important to understand abstract argumentation in lectures.'
+    exampleTranslation: 'É importante perceber argumentação abstrata em palestras.'
+  - id: en-GB-B2-SPOKEN-003-004
+    term: "to recognise the speaker's intention"
+    translation: 'reconhecer a intenção do orador'
+    partOfSpeech: phrase
+    gender: n/a
+    example: "I need to recognise the speaker's intention."
+    exampleTranslation: 'Preciso de reconhecer a intenção do orador.'
+  - id: en-GB-B2-SPOKEN-003-005
+    term: 'to interpret the intonation'
+    translation: 'interpretar a entoação'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is useful to interpret the intonation to understand the attitude.'
+    exampleTranslation: 'É útil interpretar a entoação para perceber a atitude.'
+  - id: en-GB-B2-SPOKEN-003-006
+    term: 'to make inferences from speech'
+    translation: 'fazer inferências a partir da fala'
+    partOfSpeech: phrase
+    gender: n/a
+    example: "I can make inferences from the speaker's speech."
+    exampleTranslation: 'Posso fazer inferências a partir da fala do orador.'
+grammar:
+  - id: B2-GRAMMAR-015
+    point: 'Advanced reported speech with complex tenses'
+    explanation: 'Using sophisticated indirect speech for summarising complex spoken content'
+    examples:
+      - 'The speaker argued that the situation would worsen if measures were not taken.'
+      - 'He explained that, given the data, the conclusion was inevitable.'
+    cefrNotes: 'B2 learners handle advanced reported speech for complex summarisation'
+culturalNotes: "British spoken discourse values understanding implicit meanings. Using 'that is to say' or 'in other words' signals clarification or paraphrase."

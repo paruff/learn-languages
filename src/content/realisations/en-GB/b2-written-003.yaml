@@ -1,0 +1,54 @@
+nodeId: B2-WRITTEN-003
+lang: en-GB
+vocabulary:
+  - id: en-GB-B2-WRITTEN-003-001
+    term: 'to write with correct spelling'
+    translation: 'escrever com ortografia correta'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I need to write with correct spelling.'
+    exampleTranslation: 'Preciso de escrever com ortografia correta.'
+  - id: en-GB-B2-WRITTEN-003-002
+    term: 'to use appropriate punctuation'
+    translation: 'usar pontuação adequada'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is important to use appropriate punctuation in the text.'
+    exampleTranslation: 'É importante usar pontuação adequada no texto.'
+  - id: en-GB-B2-WRITTEN-003-003
+    term: 'to review the text'
+    translation: 'revisar o texto'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will review the text to ensure correctness.'
+    exampleTranslation: 'Vou revisar o texto para garantir a correção.'
+  - id: en-GB-B2-WRITTEN-003-004
+    term: 'to correct errors'
+    translation: 'corrigir erros'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I need to correct spelling and grammatical errors.'
+    exampleTranslation: 'Preciso de corrigir erros ortográficos e gramaticais.'
+  - id: en-GB-B2-WRITTEN-003-005
+    term: 'to use writing models'
+    translation: 'usar modelos de escrita'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is useful to use writing models to improve.'
+    exampleTranslation: 'É útil usar modelos de escrita para melhorar.'
+  - id: en-GB-B2-WRITTEN-003-006
+    term: 'to write with precision'
+    translation: 'escrever com precisão'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will write with precision to communicate better.'
+    exampleTranslation: 'Vou escrever com precisão para comunicar melhor.'
+grammar:
+  - id: B2-GRAMMAR-018
+    point: 'Writing accuracy and self-correction'
+    explanation: 'Using grammatical knowledge for self-correction in writing'
+    examples:
+      - 'Although I wrote correctly, I will review the punctuation.'
+      - 'The text is correct, but I can improve the structure.'
+    cefrNotes: 'B2 learners use grammatical awareness for self-correction'
+culturalNotes: "British writing values accuracy. Using 'I reviewed the text' or 'I corrected the errors' signals attention to quality."
