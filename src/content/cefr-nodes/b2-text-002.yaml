@@ -1,0 +1,11 @@
+nodeId: B2-TEXT-002
+cefrLevel: B2
+skill: reading
+canDo: 'Can understand articles and reports concerned with contemporary problems'
+pragmaticFocus: 'Contemporary issue comprehension'
+notionalFocus: 'News, reports, current affairs'
+relatedNodes:
+  - B2-TEXT-003
+  - B1-TEXT-002
+prerequisiteNodes:
+  - B1-TEXT-002

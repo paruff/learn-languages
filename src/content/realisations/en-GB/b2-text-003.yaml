@@ -1,0 +1,54 @@
+nodeId: B2-TEXT-003
+lang: en-GB
+vocabulary:
+  - id: en-GB-B2-TEXT-003-001
+    term: 'to recognise the line of argument'
+    translation: 'reconhecer a linha de argumentação'
+    partOfSpeech: phrase
+    gender: n/a
+    example: "I can recognise the author's line of argument."
+    exampleTranslation: 'Consigo reconhecer a linha de argumentação do autor.'
+  - id: en-GB-B2-TEXT-003-002
+    term: 'to analyse the text structure'
+    translation: 'analisar a estrutura do texto'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will analyse the text structure to understand better.'
+    exampleTranslation: 'Vou analisar a estrutura do texto para compreender melhor.'
+  - id: en-GB-B2-TEXT-003-003
+    term: 'to identify premises and conclusions'
+    translation: 'identificar premissas e conclusões'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is important to identify premises and conclusions in the argument.'
+    exampleTranslation: 'É importante identificar premissas e conclusões no argumento.'
+  - id: en-GB-B2-TEXT-003-004
+    term: 'to evaluate the strength of the argument'
+    translation: 'avaliar a força do argumento'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I need to evaluate the strength of the presented argument.'
+    exampleTranslation: 'Preciso de avaliar a força do argumento apresentado.'
+  - id: en-GB-B2-TEXT-003-005
+    term: 'to recognise assumptions'
+    translation: 'reconhecer pressupostos'
+    partOfSpeech: phrase
+    gender: n/a
+    example: "I will recognise the author's assumptions."
+    exampleTranslation: 'Vou reconhecer os pressupostos do autor.'
+  - id: en-GB-B2-TEXT-003-006
+    term: 'to draw conclusions'
+    translation: 'extrair ilações'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I can draw conclusions from the text.'
+    exampleTranslation: 'Posso extrair ilações a partir do texto.'
+grammar:
+  - id: B2-GRAMMAR-011
+    point: 'Complex conditional sentences in analysis'
+    explanation: 'Using advanced conditional structures for textual analysis'
+    examples:
+      - 'If the author had presented data, the argument would be stronger.'
+      - 'If the premise is true, the conclusion is valid.'
+    cefrNotes: 'B2 learners use complex conditionals for textual analysis'
+culturalNotes: "British academic analysis values identifying logical structure. Using 'the premise is that' or 'the logical conclusion is' signals analytical thinking."

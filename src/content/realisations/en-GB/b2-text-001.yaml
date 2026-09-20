@@ -1,0 +1,54 @@
+nodeId: B2-TEXT-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-B2-TEXT-001-001
+    term: 'to read with independence'
+    translation: 'ler com autonomia'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I can read with independence on familiar topics.'
+    exampleTranslation: 'Consigo ler com autonomia sobre temas familiares.'
+  - id: en-GB-B2-TEXT-001-002
+    term: 'to understand texts of medium difficulty'
+    translation: 'compreender textos de dificuldade média'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will understand texts of medium difficulty.'
+    exampleTranslation: 'Vou compreender textos de dificuldade média.'
+  - id: en-GB-B2-TEXT-001-003
+    term: 'to identify main ideas'
+    translation: 'identificar ideias principais'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is important to identify the main ideas of the text.'
+    exampleTranslation: 'É importante identificar as ideias principais do texto.'
+  - id: en-GB-B2-TEXT-001-004
+    term: 'to use reading strategies'
+    translation: 'usar estratégias de leitura'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will use reading strategies to understand better.'
+    exampleTranslation: 'Vou usar estratégias de leitura para compreender melhor.'
+  - id: en-GB-B2-TEXT-001-005
+    term: 'to read critically'
+    translation: 'ler de forma crítica'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I need to read critically to evaluate.'
+    exampleTranslation: 'Preciso de ler de forma crítica para avaliar.'
+  - id: en-GB-B2-TEXT-001-006
+    term: 'to adapt the reading pace'
+    translation: 'adaptar o ritmo de leitura'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will adapt the reading pace to the type of text.'
+    exampleTranslation: 'Vou adaptar o ritmo de leitura ao tipo de texto.'
+grammar:
+  - id: B2-GRAMMAR-009
+    point: 'Complex noun phrases for academic reading'
+    explanation: 'Using extended noun phrases for precise academic comprehension'
+    examples:
+      - 'The sustainable development policy was implemented.'
+      - 'The reference document presents the guiding principles.'
+    cefrNotes: 'B2 learners handle complex noun phrases for academic reading'
+culturalNotes: "British academic reading requires identifying key arguments. Using 'the author argues that' or 'the presented thesis is' helps summarise positions."

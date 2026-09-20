@@ -1,0 +1,54 @@
+nodeId: B2-TEXT-002
+lang: en-GB
+vocabulary:
+  - id: en-GB-B2-TEXT-002-001
+    term: 'to understand newspaper articles'
+    translation: 'compreender artigos de jornal'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I can understand newspaper articles on current topics.'
+    exampleTranslation: 'Consigo compreender artigos de jornal sobre temas atuais.'
+  - id: en-GB-B2-TEXT-002-002
+    term: 'to read technical reports'
+    translation: 'ler relatórios técnicos'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will read technical reports on the topic.'
+    exampleTranslation: 'Vou ler relatórios técnicos sobre o tema.'
+  - id: en-GB-B2-TEXT-002-003
+    term: 'to analyse argumentative texts'
+    translation: 'analisar textos argumentativos'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is important to analyse argumentative texts carefully.'
+    exampleTranslation: 'É importante analisar textos argumentativos com atenção.'
+  - id: en-GB-B2-TEXT-002-004
+    term: 'to distinguish facts from opinions'
+    translation: 'distinguir factos de opiniões'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I need to distinguish facts from opinions in the article.'
+    exampleTranslation: 'Preciso de distinguir factos de opiniões no artigo.'
+  - id: en-GB-B2-TEXT-002-005
+    term: 'to identify the purpose of the text'
+    translation: 'identificar o propósito do texto'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will identify the purpose of the text from the beginning.'
+    exampleTranslation: 'Vou identificar o propósito do texto desde o início.'
+  - id: en-GB-B2-TEXT-002-006
+    term: 'to read between the lines'
+    translation: 'ler entrelinhas'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is useful to read between the lines to understand the implicit.'
+    exampleTranslation: 'É útil ler entrelinhas para perceber o implícito.'
+grammar:
+  - id: B2-GRAMMAR-010
+    point: 'Passive voice in newspaper style'
+    explanation: 'Using passive constructions common in journalistic English'
+    examples:
+      - 'The project was approved by the council.'
+      - 'Several incidents were recorded.'
+    cefrNotes: 'B2 learners recognise passive voice in journalistic texts'
+culturalNotes: "British journalism uses formal register. Terms like 'according to official sources' or 'the report states' signal sourcing."

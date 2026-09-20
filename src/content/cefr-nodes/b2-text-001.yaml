@@ -1,0 +1,11 @@
+nodeId: B2-TEXT-001
+cefrLevel: B2
+skill: reading
+canDo: 'Can read with a large degree of independence on familiar topics'
+pragmaticFocus: 'Independent reading strategies'
+notionalFocus: 'Self-directed text comprehension'
+relatedNodes:
+  - B2-TEXT-002
+  - B1-TEXT-001
+prerequisiteNodes:
+  - B1-TEXT-001
