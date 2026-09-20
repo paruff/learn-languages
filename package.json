@@ -16,8 +16,7 @@
     "test": "vitest --run --coverage",
     "test:integration": "vitest --run --config vitest.integration.config.ts",
     "test:e2e": "playwright test",
-    "test:a11y": "start-server-and-test 'astro preview --ignore-lock --port 4321' http://localhost:4321/learn-languages/ \"npx axe-cli -q http://localhost:4321/learn-languages/ http://localhost:4321/learn-languages/en-GB/pt-PT/lessons/ http://localhost:4321/learn-languages/en-GB/pt-PT/review/ http://localhost:4321/learn-languages/en-GB/pt-PT/progress/\"",
-    "format": "prettier --write src",
+    "format": "prettier --write src tests",
     "prepare": "npx lefthook install"
   },
   "dependencies": {
@@ -25,7 +24,7 @@
   },
   "devDependencies": {
     "@astrojs/mdx": "^8.0.1",
-    "@axe-core/cli": "^4.9.0",
+    "@axe-core/playwright": "^4.13.0",
     "@playwright/test": "^1.47.0",
     "@types/node": "^22.5.0",
     "@typescript-eslint/eslint-plugin": "^8.70.0",
@@ -40,7 +39,6 @@
     "lint-staged": "^17.5.1",
     "prettier": "^3.3.3",
     "prettier-plugin-astro": "^0.14.1",
-    "start-server-and-test": "^3.0.12",
     "typescript": "^5.6.0",
     "vitest": "^5.0.1"
   },
