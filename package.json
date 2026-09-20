@@ -11,12 +11,12 @@
     "preview": "astro preview",
     "astro": "astro",
     "typecheck": "tsc --noEmit",
-    "lint": "eslint src --ext .ts,.tsx,.astro --max-warnings 0 && prettier --check src",
+    "lint": "eslint src tests --ext .ts,.tsx,.astro --max-warnings 0 && prettier --check src tests",
     "validate:content": "astro sync && node --experimental-strip-types scripts/validate-content-integrity.ts",
     "test": "vitest --run --coverage",
     "test:integration": "vitest --run --config vitest.integration.config.ts",
     "test:e2e": "playwright test",
-    "a11y": "axe-cli dist/",
+    "test:a11y": "start-server-and-test 'astro preview --ignore-lock --port 4321' http://localhost:4321/learn-languages/ \"npx axe-cli -q http://localhost:4321/learn-languages/ http://localhost:4321/learn-languages/en-GB/pt-PT/lessons/ http://localhost:4321/learn-languages/en-GB/pt-PT/review/ http://localhost:4321/learn-languages/en-GB/pt-PT/progress/\"",
     "format": "prettier --write src",
     "prepare": "npx lefthook install"
   },
@@ -40,6 +40,7 @@
     "lint-staged": "^17.5.1",
     "prettier": "^3.3.3",
     "prettier-plugin-astro": "^0.14.1",
+    "start-server-and-test": "^3.0.12",
     "typescript": "^5.6.0",
     "vitest": "^5.0.1"
   },

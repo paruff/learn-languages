@@ -26,8 +26,13 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: 'npm run preview',
-    url: 'http://localhost:4321',
+    // `astro preview` daemonizes and exits immediately by default in this
+    // Astro version (same background-server model as `astro dev`), which
+    // Playwright's process monitor reads as a crash. --ignore-lock is the
+    // documented way to skip that lock-file/daemon handoff and run in the
+    // foreground instead, which is what webServer's lifecycle needs.
+    command: 'npx astro preview --ignore-lock --port 4321',
+    url: 'http://localhost:4321/learn-languages/',
     reuseExistingServer: !process.env.CI,
     timeout: 120000,
   },
