@@ -1,0 +1,54 @@
+nodeId: B1-DISCOURSE-002
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-B1-DISCOURSE-002-001
+    term: 'na sequência de'
+    translation: 'following'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Na sequência da reunião, tomámos uma decisão.'
+    exampleTranslation: 'Following the meeting, we made a decision.'
+  - id: pt-PT-B1-DISCOURSE-002-002
+    term: 'depois disso'
+    translation: 'after that'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Depois disso, fomos jantar.'
+    exampleTranslation: 'After that, we went to dinner.'
+  - id: pt-PT-B1-DISCOURSE-002-003
+    term: 'antes de tudo'
+    translation: 'first of all'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Antes de tudo, quero agradecer a presença de todos.'
+    exampleTranslation: 'First of all, I want to thank everyone for being here.'
+  - id: pt-PT-B1-DISCOURSE-002-004
+    term: 'enquanto isso'
+    translation: 'meanwhile'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Enquanto isso, a situação melhorou.'
+    exampleTranslation: 'Meanwhile, the situation improved.'
+  - id: pt-PT-B1-DISCOURSE-002-005
+    term: 'em seguida'
+    translation: 'next'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Em seguida, apresentámos os resultados.'
+    exampleTranslation: 'Next, we presented the results.'
+  - id: pt-PT-B1-DISCOURSE-002-006
+    term: 'por fim'
+    translation: 'finally'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Por fim, chegámos a uma conclusão.'
+    exampleTranslation: 'Finally, we reached a conclusion.'
+grammar:
+  - id: B1-GRAMMAR-011
+    point: 'Temporal markers for narrative sequence'
+    explanation: 'Using time markers to order events in a narrative'
+    examples:
+      - 'Primeiro, chegámos ao hotel.'
+      - 'Em seguida, explorámos a cidade.'
+    cefrNotes: 'Temporal markers help B1 learners create coherent narratives'
+culturalNotes: 'Portuguese narratives often use descriptive detail. Adding context like weather, mood, or setting enriches storytelling.'

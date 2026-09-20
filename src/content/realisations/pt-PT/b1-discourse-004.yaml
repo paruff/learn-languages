@@ -1,0 +1,54 @@
+nodeId: B1-DISCOURSE-004
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-B1-DISCOURSE-004-001
+    term: 'numa certa medida'
+    translation: 'to a certain extent'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Numa certa medida, tenho razão.'
+    exampleTranslation: 'To a certain extent, I am right.'
+  - id: pt-PT-B1-DISCOURSE-004-002
+    term: 'dependendo de'
+    translation: 'depending on'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Dependendo do tempo, vamos ao parque.'
+    exampleTranslation: 'Depending on the weather, we will go to the park.'
+  - id: pt-PT-B1-DISCOURSE-004-003
+    term: 'até certo ponto'
+    translation: 'up to a point'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Até certo ponto, concordo com a análise.'
+    exampleTranslation: 'Up to a point, I agree with the analysis.'
+  - id: pt-PT-B1-DISCOURSE-004-004
+    term: 'na prática'
+    translation: 'in practice'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Na prática, as coisas são diferentes.'
+    exampleTranslation: 'In practice, things are different.'
+  - id: pt-PT-B1-DISCOURSE-004-005
+    term: 'na minha experiência'
+    translation: 'in my experience'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Na minha experiência, isto funciona bem.'
+    exampleTranslation: 'In my experience, this works well.'
+  - id: pt-PT-B1-DISCOURSE-004-006
+    term: 'em termos gerais'
+    translation: 'in general terms'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Em termos gerais, o projeto foi um sucesso.'
+    exampleTranslation: 'In general terms, the project was a success.'
+grammar:
+  - id: B1-GRAMMAR-013
+    point: 'Hedging and qualification'
+    explanation: 'Using phrases to moderate or qualify statements'
+    examples:
+      - 'Numa certa medida, concordo.'
+      - 'Na prática, é mais complicado.'
+    cefrNotes: 'Hedging allows B1 learners to express nuance and avoid absolutes'
+culturalNotes: 'Portuguese speakers appreciate nuanced expression. Using hedging phrases shows consideration and avoids appearing too dogmatic.'

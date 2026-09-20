@@ -1,0 +1,11 @@
+nodeId: B1-DISCOURSE-005
+cefrLevel: B1
+skill: writing
+canDo: 'Can write short reports describing experiences'
+pragmaticFocus: 'Report writing with logical structure'
+notionalFocus: 'Experiences, summaries, reports'
+relatedNodes:
+  - B1-DISCOURSE-003
+  - B1-DISCOURSE-004
+prerequisiteNodes:
+  - B1-DISCOURSE-003
