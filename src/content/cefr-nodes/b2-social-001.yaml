@@ -1,0 +1,11 @@
+nodeId: B2-SOCIAL-001
+cefrLevel: B2
+skill: spoken_interaction
+canDo: 'Can interact with a degree of fluency and spontaneity on familiar topics'
+pragmaticFocus: 'Fluent interaction management'
+notionalFocus: 'Spontaneous discussion, topic development'
+relatedNodes:
+  - B2-SOCIAL-002
+  - B1-SOCIAL-002
+prerequisiteNodes:
+  - B1-SOCIAL-002

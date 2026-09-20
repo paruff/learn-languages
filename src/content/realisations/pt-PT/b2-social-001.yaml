@@ -1,0 +1,54 @@
+nodeId: B2-SOCIAL-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-B2-SOCIAL-001-001
+    term: 'aprofundar a discussão'
+    translation: 'to deepen the discussion'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Podemos aprofundar a discussão sobre este tema?'
+    exampleTranslation: 'Can we deepen the discussion about this topic?'
+  - id: pt-PT-B2-SOCIAL-001-002
+    term: 'manter a conversa'
+    translation: 'to keep the conversation going'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É importante manter a conversa fluente.'
+    exampleTranslation: 'It is important to keep the conversation flowing.'
+  - id: pt-PT-B2-SOCIAL-001-003
+    term: 'reagir espontaneamente'
+    translation: 'to react spontaneously'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Consigo reagir espontaneamente em discussões.'
+    exampleTranslation: 'I can react spontaneously in discussions.'
+  - id: pt-PT-B2-SOCIAL-001-004
+    term: 'participar ativamente'
+    translation: 'to participate actively'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Gosto de participar ativamente nas aulas.'
+    exampleTranslation: 'I like to participate actively in classes.'
+  - id: pt-PT-B2-SOCIAL-001-005
+    term: 'expressar ideias com clareza'
+    translation: 'to express ideas clearly'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É fundamental expressar ideias com clareza.'
+    exampleTranslation: 'It is fundamental to express ideas clearly.'
+  - id: pt-PT-B2-SOCIAL-001-006
+    term: 'interagir com fluidez'
+    translation: 'to interact with fluency'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Quero interagir com fluidez em português.'
+    exampleTranslation: 'I want to interact with fluency in Portuguese.'
+grammar:
+  - id: B2-GRAMMAR-001
+    point: 'Subjunctive mood in dependent clauses'
+    explanation: 'Using presente do conjuntivo after verbs of desire, doubt, emotion'
+    examples:
+      - 'Espero que possas vir amanhã.'
+      - 'Duvido que ele saiba a verdade.'
+    cefrNotes: 'B2 learners use subjunctive fluently in context, not just recognising it'
+culturalNotes: 'Portuguese conversation values fluency and spontaneity. Speakers often interrupt politely to show engagement. Raising voice slightly signals passion, not anger.'
