@@ -1,0 +1,11 @@
+nodeId: A2-PAST-002
+cefrLevel: A2
+skill: spoken_production
+canDo: Can talk about changes over time
+pragmaticFocus: Describe personal changes
+notionalFocus: Life stages, personal development
+relatedNodes:
+  - A2-PAST-001
+  - A2-PAST-003
+prerequisiteNodes:
+  - A2-PAST-001

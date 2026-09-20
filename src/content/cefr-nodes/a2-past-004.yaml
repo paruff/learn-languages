@@ -1,0 +1,11 @@
+nodeId: A2-PAST-004
+cefrLevel: A2
+skill: writing
+canDo: Can compare past and present situations
+pragmaticFocus: Write comparisons between times
+notionalFocus: Changes, comparisons, time expressions
+relatedNodes:
+  - A2-PAST-001
+  - A2-PAST-002
+prerequisiteNodes:
+  - A2-PAST-001
