@@ -1,0 +1,11 @@
+nodeId: B2-SOCIAL-003
+cefrLevel: B2
+skill: spoken_interaction
+canDo: 'Can account for and sustain views by giving relevant explanations and arguments'
+pragmaticFocus: 'View sustaining with explanations'
+notionalFocus: 'Justification, argumentation in conversation'
+relatedNodes:
+  - B2-SOCIAL-001
+  - B2-ARGUE-001
+prerequisiteNodes:
+  - B2-SOCIAL-001

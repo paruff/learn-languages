@@ -1,0 +1,54 @@
+nodeId: B2-SOCIAL-004
+lang: en-GB
+vocabulary:
+  - id: en-GB-B2-SOCIAL-004-001
+    term: 'to clarify doubts'
+    translation: 'esclarecer dúvidas'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I can clarify your doubts about the subject.'
+    exampleTranslation: 'Posso esclarecer as suas dúvidas sobre o assunto.'
+  - id: en-GB-B2-SOCIAL-004-002
+    term: 'to detail the explanation'
+    translation: 'detalhar a explicação'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will detail the explanation for greater clarity.'
+    exampleTranslation: 'Vou detalhar a explicação para maior clareza.'
+  - id: en-GB-B2-SOCIAL-004-003
+    term: 'to specify the concept'
+    translation: 'precisar o conceito'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is important to specify the concept before discussing.'
+    exampleTranslation: 'É importante precisar o conceito antes de discutir.'
+  - id: en-GB-B2-SOCIAL-004-004
+    term: 'to exemplify with situations'
+    translation: 'exemplificar com situações'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I can exemplify with real situations.'
+    exampleTranslation: 'Posso exemplificar com situações reais.'
+  - id: en-GB-B2-SOCIAL-004-005
+    term: 'to reinterpret the idea'
+    translation: 'reinterpretar a ideia'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will reinterpret the idea in a simpler way.'
+    exampleTranslation: 'Vou reinterpretar a ideia de forma mais simples.'
+  - id: en-GB-B2-SOCIAL-004-006
+    term: 'to ensure understanding'
+    translation: 'garantir a compreensão'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I want to ensure understanding before continuing.'
+    exampleTranslation: 'Quero garantir a compreensão antes de continuar.'
+grammar:
+  - id: B2-GRAMMAR-004
+    point: 'Complex conditionals with mixed time references'
+    explanation: 'Using mixed conditionals to connect past and present hypotheticals'
+    examples:
+      - 'If I had studied, I would have passed the exam.'
+      - 'If I were rich, I would have bought that house.'
+    cefrNotes: 'B2 learners handle mixed conditionals for nuanced hypothetical reasoning'
+culturalNotes: "British clarification often uses 'What I mean is...' or 'To put it another way...'. Asking 'Does that make sense?' checks understanding without being patronising."

@@ -1,0 +1,11 @@
+nodeId: B2-SOCIAL-004
+cefrLevel: B2
+skill: spoken_interaction
+canDo: 'Can clarify a detailed point of view clearly'
+pragmaticFocus: 'Clear clarification of complex ideas'
+notionalFocus: 'Detail, precision in explanation'
+relatedNodes:
+  - B2-SOCIAL-003
+  - B1-CLARIFY-001
+prerequisiteNodes:
+  - B2-SOCIAL-003

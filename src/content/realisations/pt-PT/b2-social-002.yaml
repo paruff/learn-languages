@@ -1,0 +1,54 @@
+nodeId: B2-SOCIAL-002
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-B2-SOCIAL-002-001
+    term: 'debater temas'
+    translation: 'to debate topics'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Gosto de debater temas de actualidade com os meus amigos.'
+    exampleTranslation: 'I like to debate current topics with my friends.'
+  - id: pt-PT-B2-SOCIAL-002-002
+    term: 'participar em discussões'
+    translation: 'to participate in discussions'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É importante participar ativamente em discussões.'
+    exampleTranslation: 'It is important to participate actively in discussions.'
+  - id: pt-PT-B2-SOCIAL-002-003
+    term: 'expressar pontos de vista'
+    translation: 'to express points of view'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Consigo expressar os meus pontos de vista com clareza.'
+    exampleTranslation: 'I can express my points of view clearly.'
+  - id: pt-PT-B2-SOCIAL-002-004
+    term: 'argumentar a favor'
+    translation: 'to argue in favour'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vou argumentar a favor da minha posição.'
+    exampleTranslation: 'I will argue in favour of my position.'
+  - id: pt-PT-B2-SOCIAL-002-005
+    term: 'contrapor argumentos'
+    translation: 'to counter arguments'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É útil contrapor argumentos para enriquecer a discussão.'
+    exampleTranslation: 'It is useful to counter arguments to enrich the discussion.'
+  - id: pt-PT-B2-SOCIAL-002-006
+    term: 'chegar a consensos'
+    translation: 'to reach consensus'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'O objetivo é chegar a consensos, não a conflitos.'
+    exampleTranslation: 'The goal is to reach consensus, not conflict.'
+grammar:
+  - id: B2-GRAMMAR-002
+    point: 'Future subjunctive in conditional clauses'
+    explanation: 'Using future subjunctive with quando, se, para que in less common contexts'
+    examples:
+      - 'Quando for mais velho, vou viajar mais.'
+      - 'Se ele vier, avise-me.'
+    cefrNotes: 'B2 learners encounter future subjunctive in formal and literary contexts'
+culturalNotes: "Portuguese group discussions can be animated. Interrupting to agree ('Exactamente!', 'É verdade!') is considered participative, not rude."
