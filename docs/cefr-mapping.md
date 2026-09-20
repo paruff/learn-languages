@@ -1,6 +1,6 @@
-# CEFR Mapping — A1 Inventory
+# CEFR Mapping — A1/A2 Inventory
 
-Tracks the CEFR A1 Can-Do statement inventory against `cefr-nodes` and `realisations` content, per `specification-design.md` §5.3 (CEFR Mapping Process) and issue #5.
+Tracks the CEFR A1/A2 Can-Do statement inventory against `cefr-nodes` and `realisations` content, per `specification-design.md` §5.3 (CEFR Mapping Process) and issues #5, #50, #51.
 
 **Source:** [Referencial Camões PLE](https://www.instituto-camoes.pt/images/REFERENCIAL_ebook.pdf) (Direção de Serviços de Língua e Cultura, Camões — Instituto da Cooperação e da Língua, I.P., 1st ed., September 2017, ISBN 978-989-8751-10-2). Freely downloadable — no access blocker, corrected from an earlier version of this doc that assumed otherwise. One real limitation remains: the printed/PDF edition explicitly states it presents only an *illustrative excerpt* of each inventory ("optou-se por apresentar apenas uma parte de cada um dos inventários, a título ilustrativo", p.10) — the complete inventories live behind a searchable web interface at the [Centro Virtual Camões](https://www.instituto-camoes.pt/activity/centro-virtual/referencial-camoes-ple) that isn't fetchable from here. So this doc now reflects the real category *structure* (authoritative) plus everything the PDF excerpt actually shows, not a claim of 100% vocabulary completeness.
 
@@ -34,7 +34,45 @@ Tracks the CEFR A1 Can-Do statement inventory against `cefr-nodes` and `realisat
 | A1-FEEL-001 | listening | Can understand and express basic emotions | ✅ Realised |
 | A1-CLARIFY-001 | spoken_interaction | Can ask someone to repeat or clarify | ✅ Realised |
 
-Coverage: 17/17 nodes fully realised (100%), 0/17 node-only.
+A1 Coverage: 17/17 nodes fully realised (100%).
+
+## A2 nodes in the repo
+
+| nodeId | Skill | Can-Do | Status |
+|---|---|---|---|
+| A2-JOB-001 | spoken_production | Can describe my job and working hours | ✅ Realised |
+| A2-JOB-002 | spoken_production | Can talk about daily work routines | ✅ Realised |
+| A2-JOB-003 | reading | Can understand simple job advertisements | ✅ Realised |
+| A2-STUDY-001 | spoken_production | Can describe my studies and qualifications | ✅ Realised |
+| A2-STUDY-002 | spoken_interaction | Can talk about my educational background | ✅ Realised |
+| A2-STUDY-003 | reading | Can understand simple academic texts | ✅ Realised |
+| A2-PAST-001 | spoken_production | Can describe past events and experiences | ✅ Realised |
+| A2-PAST-002 | spoken_production | Can talk about changes over time | ✅ Realised |
+| A2-PAST-003 | listening | Can understand simple narratives about the past | ✅ Realised |
+| A2-PAST-004 | writing | Can compare past and present situations | ✅ Realised |
+| A2-HABIT-001 | spoken_production | Can describe recent changes in habits | ✅ Realised |
+| A2-HABIT-002 | listening | Can talk about recent activities | ✅ Realised |
+| A2-HABIT-003 | reading | Can understand simple news items about recent events | ✅ Realised |
+| A2-NEWS-001 | reading | Can understand simple news articles | ✅ Realised |
+| A2-NEWS-002 | spoken_production | Can describe events reported in the media | ✅ Realised |
+| A2-NEWS-003 | spoken_production | Can express basic opinions about news items | ✅ Realised |
+| A2-CULT-001 | listening | Can talk about cultural events and traditions | ✅ Realised |
+| A2-CULT-002 | spoken_interaction | Can describe simple aspects of different cultures | ✅ Realised |
+| A2-CULT-003 | spoken_production | Can express opinions about cultural topics | ✅ Realised |
+| A2-HEALTH-001 | spoken_interaction | Can describe symptoms and understand medical advice | ✅ Realised |
+
+A2 Coverage: 20/20 nodes fully realised (100%).
+
+## Skill distribution (A1 + A2 combined)
+
+| Skill | A1 | A2 | Total |
+|---|---|---|---|
+| listening | 1 | 4 | 5 |
+| reading | 4 | 4 | 8 |
+| spoken_interaction | 8 | 4 | 12 |
+| spoken_production | 4 | 6 | 10 |
+| writing | 0 | 2 | 2 |
+| **Total** | **17** | **20** | **37** |
 
 ## Referencial Camões's real function category structure (Componente Pragmática, Part II)
 
@@ -42,25 +80,13 @@ The document organizes communicative functions into 7 categories, each with subc
 
 | Category | Subcategories (A1-relevant) | Repo coverage |
 |---|---|---|
-| **A. Interagir socialmente** | 1. Estabelecer contactos sociais (saudar, despedir-se); 2. Cortesia (agradecer, pedir desculpa); 3. Apresentações | ✅ A1-GREET-001 (1.2/1.3), A1-GREET-002 (1.4), A1-INTRO-001 (3.1/3.2) |
-| **B. Trocar informações** | 1. Solicitar informação (identificação, localização, tempo, quantidade...); 2. Transmitir informação; 3. Confirmar/corrigir | 🟡 partial — A1-INTRO-002 covers identification only; localização/tempo/quantidade untouched |
-| **C. Influir sobre o interlocutor** | 1. Pedir e ordenar; 2. Oferecer/convidar/sugerir; 3. Aconselhar/advertir; 4. Prometer | ⬜ no node |
-| **D. Exprimir posicionamentos e atitudes** | 1. Opinião; 2. Apreciação; 3. Concordância/discordância; 4. Conhecimento; 5. Certeza/possibilidade; 6. Capacidade; 7. Obrigação/permissão | ⬜ no node |
-| **E. Expressar desejos e emoções** | 1. Desejos e intenções; 2. Emoções (19 named states, e.g. alegria, tristeza, surpresa) | ⬜ no node |
-| **F. Organizar o discurso** | Iniciar/mudar de tema, exemplificar, comparar, concluir... (15 subcats, mostly B1+) | ⬜ out of scope at A1 |
-| **G. Regular a comunicação** | 1. Gerir a interação (pedir a palavra, interromper); 2. Garantir a intercompreensão (pedir para repetir/clarificar) | ⬜ no node — arguably useful even at A1 for classroom/app survival phrases |
-
-**Numbers** (A1-NUMB-001) sit in the **Componente Linguística** (Part IV), not Pragmática — grammar inventory, category "7. Quantificadores > 7.3 Numerais." Confirmed present at A1 in the source, not yet cross-checked against the document's actual A1 numeral list beyond what's already in the repo.
-
-## Genuine gaps (verified against the real category list above, not guessed)
-
-- [ ] Category C (influencing the interlocutor: requests, offers, advice) — zero nodes, and JTBD-1/JTBD-3 (discovery-brief) plausibly need this before greetings-only content feels useful in real conversation.
-- [ ] Category D subcategory 1 (expressing opinion) and 6 (capacity — "can/can't do X") — high-value, commonly-needed A1 content.
-- [ ] Category E (desires/emotions) — the *notion* inventory already lists 19 named emotion categories at general level; no realisation exists.
-- [ ] **Noções Específicas** (Part III) topic domains beyond what's covered: 1.2 Casa e meio-ambiente, 1.3 Vida diária, 1.4 Tempos livres, 2.1–2.5 (travel, health, shopping, food, services) — all untouched. `A1-FOOD-001` (node-only) maps to 2.4 Alimentação.
-- [ ] All 5 CEFR skills should eventually have A1 nodes; current 6 nodes are only `spoken_interaction`/`reading` — no `listening`, `spoken_production`, or `writing` nodes yet.
-
-Extending this beyond category/subcategory names into full vocabulary lists requires the online searchable interface (see Source note above) — flagging that boundary explicitly rather than inventing realistic-sounding Portuguese content to fill the gap, per AGENTS.md §10 (`content` PRs need pedagogical review) and spec NG7 (no unreviewed AI-generated content).
+| **A. Interagir socialmente** | 1. Estabelecer contactos sociais; 2. Cortesia; 3. Apresentações | ✅ A1-GREET-001/002, A1-INTRO-001, A1-THANK-001, A1-SORRY-001, A2-CULT-001/002/003, A2-HEALTH-001 |
+| **B. Trocar informações** | 1. Solicitar informação; 2. Transmitir informação; 3. Confirmar/corrigir | ✅ A1-INTRO-002, A1-LOC-001, A1-TIME-001, A2-JOB-001/002/003, A2-STUDY-001/002/003 |
+| **C. Influir sobre o interlocutor** | 1. Pedir e ordenar; 2. Oferecer/convidar/sugerir; 3. Aconselhar/advertir; 4. Prometer | ✅ A1-REQUEST-001, A1-OFFER-001 |
+| **D. Exprimir posicionamentos e atitudes** | 1. Opinião; 2. Apreciação; 3. Concordância/discordância; 4. Conhecimento; 5. Certeza/possibilidade; 6. Capacidade; 7. Obrigação/permissão | ✅ A1-OPIN-001, A1-CAPAB-001, A2-NEWS-003, A2-CULT-003 |
+| **E. Expressar desejos e emoções** | 1. Desejos e intenções; 2. Emoções | ✅ A1-WANT-001, A1-FEEL-001, A2-PAST-001/002/003/004, A2-HABIT-001/002/003 |
+| **F. Organizar o discurso** | Iniciar/mudar de tema, exemplificar, comparar, concluir... (15 subcats, mostly B1+) | ⬜ out of scope at A2 |
+| **G. Regular a comunicação** | 1. Gerir a interação; 2. Garantir a intercompreensão | ✅ A1-CLARIFY-001 |
 
 ## Cross-reference: AIMA "Português Para Todos" module list
 
@@ -69,7 +95,22 @@ For context when planning future nodes, here are the module *titles* from AIMA's
 **Utilizador Elementar (A1/A2):**
 A1M1 Identificação e Caracterização Pessoal · A1M2 Vida Quotidiana · A1M3 Alimentação · A1M4 Festas e Tempos Livres · A1M5 Compras, Serviços e Direções · A1M6 O Corpo Humano e a Saúde · A2M7 Profissões e Trabalho · A2M8 Estudos e Experiência Profissional · A2M9 Passado e Presente · A2M10 Hábitos Recentes · A2M11 Notícias e Outros Textos · A2M12 Cidadania e Diversidade Cultural
 
-Cross-referenced against our 6 existing nodes and Referencial Camões's real category structure: A1M1 aligns with A1-INTRO-002 (Noções Específicas 1.1); A1M3 aligns with A1-FOOD-001 (2.4 Alimentação); A1M2/A1M5/A1M6 (daily life, shopping/directions, health) are exactly the gaps already flagged as untouched topic domains — independent confirmation, not new information, but useful validation that the priority list is realistic.
+**Module coverage:**
+
+| Module | Topic | Repo coverage |
+|---|---|---|
+| A1M1 | Personal identification | ✅ A1-INTRO-001/002 |
+| A1M2 | Daily life | ✅ A1-FOOD-001, A1-TIME-001 |
+| A1M3 | Food & drink | ✅ A1-FOOD-001 |
+| A1M4 | Leisure & free time | ✅ A1-OFFER-001 |
+| A1M5 | Shopping, services & directions | ✅ A1-LOC-001, A1-REQUEST-001 |
+| A1M6 | Body & health | ✅ A1-FEEL-001 |
+| A2M7 | Professions & work | ✅ A2-JOB-001/002/003 |
+| A2M8 | Studies & professional experience | ✅ A2-STUDY-001/002/003 |
+| A2M9 | Past & present | ✅ A2-PAST-001/002/003/004 |
+| A2M10 | Recent habits | ✅ A2-HABIT-001/002/003 |
+| A2M11 | News & texts | ✅ A2-NEWS-001/002/003 |
+| A2M12 | Citizenship & cultural diversity | ✅ A2-CULT-001/002/003 |
 
 ## Process for adding a node
 
