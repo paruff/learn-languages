@@ -1,0 +1,54 @@
+nodeId: B1-SOCIAL-002
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-B1-SOCIAL-002-001
+    term: 'fam topicos'
+    translation: 'familiar topics'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Gosto de conversar sobre tópicos familiares como trabalho e hobbies.'
+    exampleTranslation: 'I like to talk about familiar topics like work and hobbies.'
+  - id: pt-PT-B1-SOCIAL-002-002
+    term: 'aprofundar a conversa'
+    translation: 'to deepen the conversation'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Podemos aprofundar a conversa sobre este assunto.'
+    exampleTranslation: 'We can deepen the conversation about this topic.'
+  - id: pt-PT-B1-SOCIAL-002-003
+    term: 'dar a minha opinião'
+    translation: 'to give my opinion'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Posso dar a minha opinião sobre este tema?'
+    exampleTranslation: 'Can I give my opinion on this topic?'
+  - id: pt-PT-B1-SOCIAL-002-004
+    term: 'ouvir ativamente'
+    translation: 'to listen actively'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É importante ouvir ativamente quando alguém está a falar.'
+    exampleTranslation: 'It is important to listen actively when someone is speaking.'
+  - id: pt-PT-B1-SOCIAL-002-005
+    term: 'reformular o que se ouviu'
+    translation: 'to rephrase what was heard'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Posso reformular o que ouvi para confirmar que entendi.'
+    exampleTranslation: 'Can I rephrase what I heard to confirm I understood?'
+  - id: pt-PT-B1-SOCIAL-002-006
+    term: 'confirmar a compreensão'
+    translation: 'to confirm understanding'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Quero confirmar a compreensão antes de continuar.'
+    exampleTranslation: 'I want to confirm understanding before continuing.'
+grammar:
+  - id: B1-GRAMMAR-003
+    point: 'Conditional tense for polite conversation'
+    explanation: 'Using conditional forms (gostaria, poderia, seria) to soften statements'
+    examples:
+      - 'Gostaria de saber mais sobre isso.'
+      - 'Seria possível encontrarmo-nos amanhã?'
+    cefrNotes: 'Conditional tense enables more nuanced and polite extended conversation'
+culturalNotes: 'In Portuguese culture, extended conversation is valued. Taking time to discuss topics in depth shows respect and interest. Avoid rushing conversations.'
