@@ -1,0 +1,11 @@
+nodeId: B1-SOCIAL-001
+cefrLevel: B1
+skill: spoken_interaction
+canDo: 'Can handle most social situations while travelling in Portugal'
+pragmaticFocus: 'Social register management'
+notionalFocus: 'Travel, social encounters'
+relatedNodes:
+  - B1-SOCIAL-002
+  - A1-GREET-001
+prerequisiteNodes:
+  - A2-JOB-001

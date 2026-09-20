@@ -1,0 +1,61 @@
+nodeId: B1-SOCIAL-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-B1-SOCIAL-001-001
+    term: 'Desculpe, pode ajudar-me?'
+    translation: 'Excuse me, can you help me?'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Desculpe, pode ajudar-me a encontrar o metro?'
+    exampleTranslation: 'Excuse me, can you help me find the metro?'
+  - id: pt-PT-B1-SOCIAL-001-002
+    term: 'Com licença'
+    translation: 'Pardon me'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Com licença, onde fica a estação de comboios?'
+    exampleTranslation: 'Pardon me, where is the train station?'
+  - id: pt-PT-B1-SOCIAL-001-003
+    term: 'falar sobre'
+    translation: 'to talk about'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Gostava de falar sobre a cultura portuguesa.'
+    exampleTranslation: 'I would like to talk about Portuguese culture.'
+  - id: pt-PT-B1-SOCIAL-001-004
+    term: 'a conversa foi interessante'
+    translation: 'the conversation was interesting'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'A conversa foi muito interessante, obrigado.'
+    exampleTranslation: 'The conversation was very interesting, thank you.'
+  - id: pt-PT-B1-SOCIAL-001-005
+    term: 'na minha experiência'
+    translation: 'in my experience'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Na minha experiência, os portugueses são muito simpáticos.'
+    exampleTranslation: 'In my experience, Portuguese people are very friendly.'
+  - id: pt-PT-B1-SOCIAL-001-006
+    term: 'depende das circunstâncias'
+    translation: 'it depends on the circumstances'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Depende das circunstâncias, mas normalmente ajudo.'
+    exampleTranslation: 'It depends on the circumstances, but I usually help.'
+grammar:
+  - id: B1-GRAMMAR-001
+    point: 'Polite request structures with modal verbs'
+    explanation: "Using 'poderia', 'gostaria de', 'pode' for polite requests beyond simple imperative"
+    examples:
+      - 'Poderia ajudar-me?'
+      - 'Gostaria de saber mais.'
+    cefrNotes: 'B1 learners expand from simple imperative (ajuda-me) to polite modal constructions'
+  - id: B1-GRAMMAR-002
+    point: 'Complex connectors: além disso, no entanto'
+    explanation: 'Using connectors beyond e, mas, porque to structure extended speech'
+    examples:
+      - 'Além disso, a cultura portuguesa é muito rica.'
+      - 'No entanto, às vezes é difícil encontrar ajuda.'
+    cefrNotes: 'B1 introduces discourse connectors for extended discourse organisation'
+culturalNotes: "Portuguese people are generally helpful to tourists. Starting with 'Desculpe' (excuse me) or 'Com licença' (pardon me) is essential for polite interaction. Direct eye contact and a smile are appreciated."
