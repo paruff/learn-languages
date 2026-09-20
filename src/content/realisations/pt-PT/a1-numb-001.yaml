@@ -7,16 +7,22 @@ vocabulary:
     partOfSpeech: adjective
     example: 'Tenho um irmão.'
     exampleTranslation: 'I have one brother.'
+    imageUrl: 'um.webp'
+    imageAlt: 'A large red number 1 shaped as a birthday candle'
   - id: pt-PT-A1-NUMB-001-002
     term: 'Dois'
     translation: 'Two'
     partOfSpeech: adjective
     example: 'Quero dois cafés.'
     exampleTranslation: 'I want two coffees.'
+    imageUrl: 'dois.webp'
+    imageAlt: 'A large red number 2 shaped as a birthday candle'
   - id: pt-PT-A1-NUMB-001-003
     term: 'Três'
     translation: 'Three'
     partOfSpeech: adjective
     example: 'Ela tem três filhos.'
     exampleTranslation: 'She has three children.'
+    imageUrl: 'tres.webp'
+    imageAlt: 'A large red number 3 shaped as a birthday candle'
 grammar: []
