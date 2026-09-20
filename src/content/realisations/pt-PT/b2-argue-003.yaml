@@ -1,0 +1,54 @@
+nodeId: B2-ARGUE-003
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-B2-ARGUE-003-001
+    term: 'desenvolver sistematicamente'
+    translation: 'to develop systematically'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vou desenvolver o argumento sistematicamente.'
+    exampleTranslation: 'I will develop the argument systematically.'
+  - id: pt-PT-B2-ARGUE-003-002
+    term: 'destacar pontos importantes'
+    translation: 'to highlight important points'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É importante destacar os pontos mais importantes.'
+    exampleTranslation: 'It is important to highlight the most important points.'
+  - id: pt-PT-B2-ARGUE-003-003
+    term: 'apresentar detalhes relevantes'
+    translation: 'to present relevant details'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vou apresentar detalhes relevantes para apoiar a minha tese.'
+    exampleTranslation: 'I will present relevant details to support my thesis.'
+  - id: pt-PT-B2-ARGUE-003-004
+    term: 'estruturar a argumentação'
+    translation: 'to structure the argumentation'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Preciso de estruturar a argumentação de forma clara.'
+    exampleTranslation: 'I need to structure the argumentation clearly.'
+  - id: pt-PT-B2-ARGUE-003-005
+    term: 'usar marcadores discursivos'
+    translation: 'to use discourse markers'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É útil usar marcadores discursivos para organizar.'
+    exampleTranslation: 'It is useful to use discourse markers to organise.'
+  - id: pt-PT-B2-ARGUE-003-006
+    term: 'concluir o raciocínio'
+    translation: 'to conclude the reasoning'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vou concluir o raciocínio com uma síntese.'
+    exampleTranslation: 'I will conclude the reasoning with a summary.'
+grammar:
+  - id: B2-GRAMMAR-007
+    point: 'Advanced discourse markers'
+    explanation: 'Using sophisticated connectors for structured argumentation'
+    examples:
+      - 'Aliás, isso confirma a minha posição.'
+      - 'Não obstante as dificuldades, avançámos.'
+    cefrNotes: 'B2 learners use advanced discourse markers for formal argumentation'
+culturalNotes: "Portuguese academic discourse values systematic development. Using 'além disso', 'não obstante', 'em contrapartida' signals sophisticated thinking."

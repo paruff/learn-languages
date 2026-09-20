@@ -1,0 +1,11 @@
+nodeId: B2-ARGUE-004
+cefrLevel: B2
+skill: writing
+canDo: 'Can sustain viewpoint by providing relevant supporting detail'
+pragmaticFocus: 'Written viewpoint sustainability'
+notionalFocus: 'Supporting evidence, written argument'
+relatedNodes:
+  - B2-ARGUE-003
+  - B2-WRITTEN-001
+prerequisiteNodes:
+  - B2-ARGUE-003

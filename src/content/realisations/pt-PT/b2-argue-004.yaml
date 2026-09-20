@@ -1,0 +1,54 @@
+nodeId: B2-ARGUE-004
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-B2-ARGUE-004-001
+    term: 'sustentar a tese'
+    translation: 'to sustain the thesis'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Preciso de sustentar a tese com argumentos sólidos.'
+    exampleTranslation: 'I need to sustain the thesis with solid arguments.'
+  - id: pt-PT-B2-ARGUE-004-002
+    term: 'apresentar dados de suporte'
+    translation: 'to present supporting data'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vou apresentar dados de suporte para a minha posição.'
+    exampleTranslation: 'I will present supporting data for my position.'
+  - id: pt-PT-B2-ARGUE-004-003
+    term: 'expor a argumentação'
+    translation: 'to expose the argumentation'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É importante expor a argumentação de forma clara.'
+    exampleTranslation: 'It is important to expose the argumentation clearly.'
+  - id: pt-PT-B2-ARGUE-004-004
+    term: 'usar exemplos concretos'
+    translation: 'to use concrete examples'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vou usar exemplos concretos para ilustrar.'
+    exampleTranslation: 'I will use concrete examples to illustrate.'
+  - id: pt-PT-B2-ARGUE-004-005
+    term: 'reforçar a posição'
+    translation: 'to reinforce the position'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É útil reforçar a posição com mais evidências.'
+    exampleTranslation: 'It is useful to reinforce the position with more evidence.'
+  - id: pt-PT-B2-ARGUE-004-006
+    term: 'escrever um ensaio'
+    translation: 'to write an essay'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vou escrever um ensaio sobre o tema.'
+    exampleTranslation: 'I will write an essay on the topic.'
+grammar:
+  - id: B2-GRAMMAR-008
+    point: 'Future subjunctive in formal writing'
+    explanation: 'Using future subjunctive in written argumentation'
+    examples:
+      - 'Se isto acontecer, teremos de reagir.'
+      - 'Quando for necessário, mudaremos de posição.'
+    cefrNotes: 'B2 learners use future subjunctive in formal written contexts'
+culturalNotes: "Portuguese essay writing values clear thesis statement and systematic development. Using 'a minha tese é que' or 'defendo que' introduces your argument."

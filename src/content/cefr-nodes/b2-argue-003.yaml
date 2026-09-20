@@ -1,0 +1,11 @@
+nodeId: B2-ARGUE-003
+cefrLevel: B2
+skill: spoken_production
+canDo: 'Can develop an argument systematically with appropriate highlighting of significant points'
+pragmaticFocus: 'Systematic argument development'
+notionalFocus: 'Structured argumentation, emphasis'
+relatedNodes:
+  - B2-ARGUE-002
+  - B2-ARGUE-004
+prerequisiteNodes:
+  - B2-ARGUE-002

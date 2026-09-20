@@ -1,0 +1,54 @@
+nodeId: B2-ARGUE-003
+lang: en-GB
+vocabulary:
+  - id: en-GB-B2-ARGUE-003-001
+    term: 'to develop systematically'
+    translation: 'desenvolver sistematicamente'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will develop the argument systematically.'
+    exampleTranslation: 'Vou desenvolver o argumento sistematicamente.'
+  - id: en-GB-B2-ARGUE-003-002
+    term: 'to highlight important points'
+    translation: 'destacar pontos importantes'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is important to highlight the most important points.'
+    exampleTranslation: 'É importante destacar os pontos mais importantes.'
+  - id: en-GB-B2-ARGUE-003-003
+    term: 'to present relevant details'
+    translation: 'apresentar detalhes relevantes'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will present relevant details to support my thesis.'
+    exampleTranslation: 'Vou apresentar detalhes relevantes para apoiar a minha tese.'
+  - id: en-GB-B2-ARGUE-003-004
+    term: 'to structure the argumentation'
+    translation: 'estruturar a argumentação'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I need to structure the argumentation clearly.'
+    exampleTranslation: 'Preciso de estruturar a argumentação de forma clara.'
+  - id: en-GB-B2-ARGUE-003-005
+    term: 'to use discourse markers'
+    translation: 'usar marcadores discursivos'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is useful to use discourse markers to organise.'
+    exampleTranslation: 'É útil usar marcadores discursivos para organizar.'
+  - id: en-GB-B2-ARGUE-003-006
+    term: 'to conclude the reasoning'
+    translation: 'concluir o raciocínio'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I will conclude the reasoning with a summary.'
+    exampleTranslation: 'Vou concluir o raciocínio com uma síntese.'
+grammar:
+  - id: B2-GRAMMAR-007
+    point: 'Advanced discourse markers'
+    explanation: 'Using sophisticated connectors for structured argumentation'
+    examples:
+      - 'Moreover, that confirms my position.'
+      - 'Despite the difficulties, we proceeded.'
+    cefrNotes: 'B2 learners use advanced discourse markers for formal argumentation'
+culturalNotes: "British academic discourse values systematic development. Using 'furthermore', 'nevertheless', 'in contrast' signals sophisticated thinking."

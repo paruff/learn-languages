@@ -1,0 +1,11 @@
+nodeId: B2-ARGUE-001
+cefrLevel: B2
+skill: spoken_production
+canDo: 'Can construct a chain of reasoning'
+pragmaticFocus: 'Logical argumentation'
+notionalFocus: 'Reasoning, logical structure'
+relatedNodes:
+  - B2-ARGUE-002
+  - B1-OPINION-001
+prerequisiteNodes:
+  - B1-OPINION-001

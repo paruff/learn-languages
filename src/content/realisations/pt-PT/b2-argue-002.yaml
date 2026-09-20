@@ -1,0 +1,54 @@
+nodeId: B2-ARGUE-002
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-B2-ARGUE-002-001
+    term: 'justificar a posição'
+    translation: 'to justify the position'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vou justificar a minha posição com exemplos concretos.'
+    exampleTranslation: 'I will justify my position with concrete examples.'
+  - id: pt-PT-B2-ARGUE-002-002
+    term: 'argumentar sobre temas atuais'
+    translation: 'to argue about current topics'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Gosto de argumentar sobre temas atuais com friends.'
+    exampleTranslation: 'I like to argue about current topics with friends.'
+  - id: pt-PT-B2-ARGUE-002-003
+    term: 'apresentar evidências'
+    translation: 'to present evidence'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É importante apresentar evidências que sustentem a opinião.'
+    exampleTranslation: 'It is important to present evidence that supports the opinion.'
+  - id: pt-PT-B2-ARGUE-002-004
+    term: 'expor os prós e contras'
+    translation: 'to present the pros and cons'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vou expor os prós e contras da situação.'
+    exampleTranslation: 'I will present the pros and cons of the situation.'
+  - id: pt-PT-B2-ARGUE-002-005
+    term: 'refutar argumentos'
+    translation: 'to refute arguments'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Consigo refutar argumentos fracos com factos.'
+    exampleTranslation: 'I can refute weak arguments with facts.'
+  - id: pt-PT-B2-ARGUE-002-006
+    term: 'chegar a conclusões'
+    translation: 'to reach conclusions'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Podemos chegar a conclusões baseadas na discussão.'
+    exampleTranslation: 'We can reach conclusions based on the discussion.'
+grammar:
+  - id: B2-GRAMMAR-006
+    point: 'Relative clauses for precision'
+    explanation: 'Using non-restrictive and prepositional relative clauses'
+    examples:
+      - 'O livro, que comprei ontem, é excelente.'
+      - 'A pessoa com quem falei era muito simpática.'
+    cefrNotes: 'B2 learners use complex relative clauses for detailed expression'
+culturalNotes: "Portuguese argumentation values evidence and examples. Using 'por exemplo' or 'como se verifica' strengthens your position."
