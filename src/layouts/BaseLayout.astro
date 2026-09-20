@@ -26,10 +26,21 @@ const availablePairs = await getAvailablePairs();
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Fetched without blocking render (media="print" until loaded), then
+         swapped to apply — a plain `rel="stylesheet"` here is a render-blocking
+         request that cost ~1.8s of Lighthouse performance score. -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap"
+      media="print"
+      onload="this.media='all'"
     />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap"
+      />
+    </noscript>
     <title>{title}</title>
     <slot name="head" />
   </head>
