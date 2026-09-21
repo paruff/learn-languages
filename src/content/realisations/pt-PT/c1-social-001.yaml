@@ -1,0 +1,54 @@
+nodeId: C1-SOCIAL-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C1-SOCIAL-001-001
+    term: 'expressar-se com fluidez'
+    translation: 'to express oneself fluently'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Consegue expressar-se com fluidez em qualquer situação.'
+    exampleTranslation: 'He/She can express himself/herself fluently in any situation.'
+  - id: pt-PT-C1-SOCIAL-001-002
+    term: 'sem hesitação'
+    translation: 'without hesitation'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Respondeu sem hesitação às perguntas difíceis.'
+    exampleTranslation: 'He answered the difficult questions without hesitation.'
+  - id: pt-PT-C1-SOCIAL-001-003
+    term: 'adaptar o discurso'
+    translation: "to adapt one's discourse"
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Sabe adaptar o discurso ao público que tem à frente.'
+    exampleTranslation: 'He knows how to adapt his discourse to the audience in front of him.'
+  - id: pt-PT-C1-SOCIAL-001-004
+    term: 'antecipar a reação'
+    translation: 'to anticipate the reaction'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Consegue antecipar a reação dos interlocutores.'
+    exampleTranslation: 'He can anticipate the reaction of his interlocutors.'
+  - id: pt-PT-C1-SOCIAL-001-005
+    term: 'manter a naturalidade'
+    translation: 'to maintain naturalness'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Mesmo em situações formais, mantém a naturalidade.'
+    exampleTranslation: 'Even in formal situations, he maintains his naturalness.'
+  - id: pt-PT-C1-SOCIAL-001-006
+    term: 'recorrer a estratégias'
+    translation: 'to resort to strategies'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Recorre a estratégias de reformulação para se fazer entender.'
+    exampleTranslation: 'He resorts to reformulation strategies to make himself understood.'
+grammar:
+  - id: C1-GRAMMAR-001
+    point: 'Compound subjunctive tenses'
+    explanation: 'Using mais-que-perfeito do conjuntivo and futuro composto do conjuntivo for complex hypothetical and future-completed situations'
+    examples:
+      - 'Se tivesse estudado mais, teria passado no exame.'
+      - 'Quando tiver terminado o trabalho, irei descansar.'
+    cefrNotes: 'C1 learners use compound subjunctive tenses for sophisticated hypothetical reasoning'
+culturalNotes: "European Portuguese fluency values spontaneity within politeness norms. Speakers use discourse markers like 'pois é' and 'então' to maintain conversational rhythm, while formal contexts demand slower, more deliberate speech."
