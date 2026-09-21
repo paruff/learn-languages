@@ -1,0 +1,11 @@
+nodeId: C1-TEXT-002
+cefrLevel: C1
+skill: reading
+canDo: 'Can understand specialised articles and longer technical instructions, even when not related to their own field'
+pragmaticFocus: 'Specialised technical comprehension'
+notionalFocus: 'Technical vocabulary, instruction following'
+relatedNodes:
+  - C1-TEXT-001
+  - C1-ACADEMIC-001
+prerequisiteNodes:
+  - C1-TEXT-001
