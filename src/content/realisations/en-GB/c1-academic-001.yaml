@@ -1,0 +1,54 @@
+nodeId: C1-ACADEMIC-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-C1-ACADEMIC-001-001
+    term: 'academic dissertation'
+    translation: 'dissertação académica'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'The academic dissertation articulates theory and empirical data.'
+    exampleTranslation: 'A dissertação académica articula teoria e dados empíricos.'
+  - id: en-GB-C1-ACADEMIC-001-002
+    term: 'body of sources'
+    translation: 'bateria de fontes'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'The body of sources consulted is broad and credible.'
+    exampleTranslation: 'A bateria de fontes consultadas é vasta e credível.'
+  - id: en-GB-C1-ACADEMIC-001-003
+    term: 'theoretical framework'
+    translation: 'quadro teórico'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'The theoretical framework underpins all subsequent analysis.'
+    exampleTranslation: 'O quadro teórico sustenta toda a análise subsequente.'
+  - id: en-GB-C1-ACADEMIC-001-004
+    term: 'to gather evidence'
+    translation: 'reunir evidências'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Chapter two gathers decisive evidence for the hypothesis.'
+    exampleTranslation: 'O capítulo dois reúne evidências decisivas para a hipótese.'
+  - id: en-GB-C1-ACADEMIC-001-005
+    term: 'to synthesise the findings'
+    translation: 'sintetizar os pareceres'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'The conclusion synthesises the findings of the authors studied.'
+    exampleTranslation: 'Conclui-se por sintetizar os pareceres dos autores estudados.'
+  - id: en-GB-C1-ACADEMIC-001-006
+    term: 'original contribution'
+    translation: 'contributo original'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'The original contribution of the work lies in the unprecedented comparison.'
+    exampleTranslation: 'O contributo original do trabalho reside na comparação inédita.'
+grammar:
+  - id: C1-GRAMMAR-017
+    point: 'Impersonal constructions and fronting in academic prose'
+    explanation: "Foregrounding the argument with impersonal and passive constructions such as 'it should be stressed' and 'it is found that' and fronting for emphasis"
+    examples:
+      - 'It should be stressed that the results confirm the initial hypothesis.'
+      - 'Not only is the hypothesis confirmed, but a new line of study opens up.'
+    cefrNotes: "C1 academic writers use impersonal constructions to distance the argument from the author's person"
+culturalNotes: 'British academic writing strictly separates authorial voice from evidence, using impersonal constructions and careful self-reference; overuse of the first person is discouraged in traditional disciplines. Hedging is institutionalised in epistemics.'

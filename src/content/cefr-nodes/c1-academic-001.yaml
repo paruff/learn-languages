@@ -1,0 +1,11 @@
+nodeId: C1-ACADEMIC-001
+cefrLevel: C1
+skill: writing
+canDo: 'Can write a dissertation or report of substance, presenting a reasoned conclusion and engaging with the sources consulted'
+pragmaticFocus: 'Academic reporting'
+notionalFocus: 'Sources, synthesis, conclusion'
+relatedNodes:
+  - C1-ACADEMIC-002
+  - C1-WRITTEN-001
+prerequisiteNodes:
+  - C1-WRITTEN-001
