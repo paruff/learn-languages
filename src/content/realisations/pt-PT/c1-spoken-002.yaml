@@ -1,0 +1,54 @@
+nodeId: C1-SPOKEN-002
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C1-SPOKEN-002-001
+    term: 'deitar mãos ao assunto'
+    translation: 'to get down to business'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Basta de rodear o assunto; vamos deitar mãos ao trabalho.'
+    exampleTranslation: "Enough beating about the bush; let's get down to business."
+  - id: pt-PT-C1-SPOKEN-002-002
+    term: 'cair que nem ginjas'
+    translation: 'to be a superfluous addition'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Aquele comentário caiu que nem ginjas na discussão.'
+    exampleTranslation: 'That comment was a superfluous addition to the discussion.'
+  - id: pt-PT-C1-SPOKEN-002-003
+    term: 'ter paciências de santo'
+    translation: 'to have the patience of a saint'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'A professora tem paciências de santo com os alunos mais lentos.'
+    exampleTranslation: 'The teacher has the patience of a saint with the slower students.'
+  - id: pt-PT-C1-SPOKEN-002-004
+    term: 'saber do que fala'
+    translation: 'to know what one is talking about'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Quando fala de pesca, sabe do que fala.'
+    exampleTranslation: 'When he talks about fishing, he knows what he is talking about.'
+  - id: pt-PT-C1-SPOKEN-002-005
+    term: 'puxar da memória'
+    translation: "to dig into one's memory"
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Puxou da memória os nomes de todas as canções antigas.'
+    exampleTranslation: 'He dug into his memory for the names of all the old songs.'
+  - id: pt-PT-C1-SPOKEN-002-006
+    term: 'em dois tempos'
+    translation: 'in no time at all'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Resolveu o problema em dois tempos.'
+    exampleTranslation: 'He solved the problem in no time at all.'
+grammar:
+  - id: C1-GRAMMAR-012
+    point: 'Idiomatic colloquial patterns for fluent speech'
+    explanation: "Deploying fixed colloquial phrases that carry attitude while maintaining naturalness, such as 'isto é que era' and 'não há cá discussão que valha'"
+    examples:
+      - 'Isto é que era uma festa a sério.'
+      - 'Não há cá volta a dar à situação.'
+    cefrNotes: 'C1 speakers own a repertoire of fixed expressions enabling fluent, idiomatic output'
+culturalNotes: 'European Portuguese conversation relishes proverbial and idiomatic turns, especially in informal speech; speakers knit attitude and humour into grammar itself. Using idioms correctly signals belonging and conversational intimacy.'
