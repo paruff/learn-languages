@@ -1,0 +1,54 @@
+nodeId: C1-LITERARY-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C1-LITERARY-001-001
+    term: 'camadas de sentido'
+    translation: 'layers of meaning'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'O poema revela camadas de sentido a cada releitura.'
+    exampleTranslation: 'The poem reveals layers of meaning with every re-reading.'
+  - id: pt-PT-C1-LITERARY-001-002
+    term: 'metáfora de fôlego'
+    translation: 'extended metaphor'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A metáfora de fôlego atravessa todo o romance.'
+    exampleTranslation: 'The extended metaphor runs through the whole novel.'
+  - id: pt-PT-C1-LITERARY-001-003
+    term: 'ressonância cultural'
+    translation: 'cultural resonance'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A ressonância cultural do conto escapa a leitores estrangeiros.'
+    exampleTranslation: 'The cultural resonance of the tale escapes foreign readers.'
+  - id: pt-PT-C1-LITERARY-001-004
+    term: 'voz narrativa'
+    translation: 'narrative voice'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A voz narrativa distancia-se do narrador omnisciente clássico.'
+    exampleTranslation: 'The narrative voice distances itself from the classic omniscient narrator.'
+  - id: pt-PT-C1-LITERARY-001-005
+    term: 'entrelaçar as referências'
+    translation: 'to weave the references together'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'O autor entrelaça as referências bíblicas e marítimas com talento.'
+    exampleTranslation: 'The author weaves the biblical and maritime references together with talent.'
+  - id: pt-PT-C1-LITERARY-001-006
+    term: 'sabor da época'
+    translation: 'flavour of the era'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O romance recria o sabor da época com rigor e imaginação.'
+    exampleTranslation: 'The novel recreates the flavour of the era with rigour and imagination.'
+grammar:
+  - id: C1-GRAMMAR-019
+    point: 'Ellipsis and idiomatic compression in literary style'
+    explanation: 'Reading the compressed style of literary prose, where ellipsis and fixed expressions compress layers of meaning that the reader must unpack'
+    examples:
+      - 'Chegou. Viu. Ficou. Era o bastante.'
+      - 'Palavras gastas, mas de efeito garantido.'
+    cefrNotes: 'C1 literary readers reconstruct elided meaning and figurative shortcuts in dense prose'
+culturalNotes: 'Portuguese creative prose, from Pessoa to contemporary fiction, often advances by compression: the missing verb or object is what carries the emotion. Idiom and ellipsis work together to create a rhythm of implication.'

@@ -1,0 +1,11 @@
+nodeId: C1-LITERARY-001
+cefrLevel: C1
+skill: reading
+canDo: 'Can appreciate the wider, implicit layers of meaning in literary texts, including allusion, irony and cultural reference'
+pragmaticFocus: 'Literary depth'
+notionalFocus: 'Allusion, irony, cultural reference'
+relatedNodes:
+  - C1-TEXT-003
+  - C1-TEXT-001
+prerequisiteNodes:
+  - C1-TEXT-003
