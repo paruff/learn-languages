@@ -6,6 +6,6 @@ pragmaticFocus: 'Clear clarification of complex ideas'
 notionalFocus: 'Detail, precision in explanation'
 relatedNodes:
   - B2-SOCIAL-003
-  - B1-CLARIFY-001
+  - B1-OPINION-001
 prerequisiteNodes:
   - B2-SOCIAL-003

@@ -6,6 +6,6 @@ pragmaticFocus: 'Writing accuracy'
 notionalFocus: 'Spelling, punctuation, correctness'
 relatedNodes:
   - B2-WRITTEN-002
-  - B1-WRITING-002
+  - B1-TEXT-004
 prerequisiteNodes:
   - B2-WRITTEN-002

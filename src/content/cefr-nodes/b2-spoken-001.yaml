@@ -6,6 +6,4 @@ pragmaticFocus: 'Extended speech comprehension'
 notionalFocus: 'Lectures, complex argumentation'
 relatedNodes:
   - B2-SPOKEN-002
-  - B1-LISTEN-001
-prerequisiteNodes:
-  - B1-LISTEN-001
+prerequisiteNodes: []
