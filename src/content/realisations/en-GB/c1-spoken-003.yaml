@@ -1,0 +1,54 @@
+nodeId: C1-SPOKEN-003
+lang: en-GB
+vocabulary:
+  - id: en-GB-C1-SPOKEN-003-001
+    term: 'to hit the nail on the head'
+    translation: 'pôr o dedo na ferida'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'With that question, he hit the nail on the head of the debate.'
+    exampleTranslation: 'Com aquela pergunta, pôs o dedo na ferida do debate.'
+  - id: en-GB-C1-SPOKEN-003-002
+    term: 'to steer the discussion to a good conclusion'
+    translation: 'levar a discussão a bom porto'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'The moderator steered the discussion to a good conclusion without hurting anyone.'
+    exampleTranslation: 'A mediadora levou a discussão a bom porto sem ferir ninguém.'
+  - id: en-GB-C1-SPOKEN-003-003
+    term: 'to follow the thread of the conversation'
+    translation: 'acompanhar o fio da conversa'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is hard to follow the thread of the conversation when everyone speaks at once.'
+    exampleTranslation: 'Custa acompanhar o fio da conversa quando todos falam ao mesmo tempo.'
+  - id: en-GB-C1-SPOKEN-003-004
+    term: 'beside the point'
+    translation: 'tangente ao assunto'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'The remark was beside the point, but useful.'
+    exampleTranslation: 'A observação era tangente ao assunto, mas útil.'
+  - id: en-GB-C1-SPOKEN-003-005
+    term: 'to switch register'
+    translation: 'mudar de registo'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'He knew how to switch register when the boss came into the room.'
+    exampleTranslation: 'Soube mudar de registo quando o chefe entrou na sala.'
+  - id: en-GB-C1-SPOKEN-003-006
+    term: 'to keep the ball rolling'
+    translation: 'dar o daí venham'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'With good questions, he kept the ball rolling in the conversation.'
+    exampleTranslation: 'Com boas perguntas, deu o daí venham à conversa.'
+grammar:
+  - id: C1-GRAMMAR-013
+    point: 'Cleft and inversion for rhetorical conversation'
+    explanation: "Combining cleft sentences with fronting so that the turning point of a spoken contribution stands out, e.g. 'what happened was' core with emphasised continuation"
+    examples:
+      - 'What we saw at the meeting was rare courage.'
+      - 'And it was not the crisis, mind you, that was the bigger obstacle.'
+    cefrNotes: 'C1 speakers pair clefting with fronting to give a conversational peak rhetorical force'
+culturalNotes: "British conversation marks emphasis through clefting and topicalisation rather than strong assertion; the peak is often signalled with a minimal marker such as 'mind you' while the content stays understated."

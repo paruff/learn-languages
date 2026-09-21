@@ -1,0 +1,54 @@
+nodeId: C1-SPOKEN-003
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C1-SPOKEN-003-001
+    term: 'pôr o dedo na ferida'
+    translation: 'to hit the nail on the head'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Com aquela pergunta, pôs o dedo na ferida do debate.'
+    exampleTranslation: 'With that question, he hit the nail on the head of the debate.'
+  - id: pt-PT-C1-SPOKEN-003-002
+    term: 'levar a discussão a bom porto'
+    translation: 'to steer the discussion to a good conclusion'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'A mediadora levou a discussão a bom porto sem ferir ninguém.'
+    exampleTranslation: 'The moderator steered the discussion to a good conclusion without hurting anyone.'
+  - id: pt-PT-C1-SPOKEN-003-003
+    term: 'acompanhar o fio da conversa'
+    translation: 'to follow the thread of the conversation'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Custa acompanhar o fio da conversa quando todos falam ao mesmo tempo.'
+    exampleTranslation: 'It is hard to follow the thread of the conversation when everyone speaks at once.'
+  - id: pt-PT-C1-SPOKEN-003-004
+    term: 'tangente ao assunto'
+    translation: 'beside the point'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'A observação era tangente ao assunto, mas útil.'
+    exampleTranslation: 'The remark was beside the point, but useful.'
+  - id: pt-PT-C1-SPOKEN-003-005
+    term: 'mudar de registo'
+    translation: 'to switch register'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Soube mudar de registo quando o chefe entrou na sala.'
+    exampleTranslation: 'He knew how to switch register when the boss came into the room.'
+  - id: pt-PT-C1-SPOKEN-003-006
+    term: 'dar o daí venham'
+    translation: 'to keep the ball rolling'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Com boas perguntas, deu o daí venham à conversa.'
+    exampleTranslation: 'With good questions, he kept the ball rolling in the conversation.'
+grammar:
+  - id: C1-GRAMMAR-013
+    point: 'Cleft and inversion for rhetorical conversation'
+    explanation: "Combining cleft sentences with inversion so that the turning point of a spoken contribution stands out, e.g. 'o que se viu foi' core with inverted continuation"
+    examples:
+      - 'O que se viu na reunião foi uma coragem rara.'
+      - 'E não era a crise, recorde-se, o obstáculo maior.'
+    cefrNotes: 'C1 speakers pair clefting with inversion to give a conversational peak rhetorical force'
+culturalNotes: 'In talk-show style European Portuguese, rhetoric is valued: speakers use the full grammatical toolbox to shape the floor. A well-placed cleft or inversion can turn a reply into a memorable moment.'
