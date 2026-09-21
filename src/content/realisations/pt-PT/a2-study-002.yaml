@@ -8,6 +8,8 @@ vocabulary:
     gender: feminine
     example: 'A minha escola era grande.'
     exampleTranslation: 'My school was large.'
+    imageUrl: 'escola.webp'
+    imageAlt: 'Students sitting at desks in a classroom'
   - id: pt-PT-A2-STUDY-002-002
     term: 'professor'
     translation: 'teacher'
@@ -15,6 +17,8 @@ vocabulary:
     gender: masculine
     example: 'O meu professor de português era muito bom.'
     exampleTranslation: 'My Portuguese teacher was very good.'
+    imageUrl: 'professor.webp'
+    imageAlt: 'A teacher gesturing while presenting at a whiteboard'
   - id: pt-PT-A2-STUDY-002-003
     term: 'matéria'
     translation: 'subject'

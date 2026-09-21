@@ -37,6 +37,21 @@ is a licensing liability, not just a missing credit.
 | `euro.webp` | [Euro coins and banknotes.jpg](https://commons.wikimedia.org/wiki/File:Euro_coins_and_banknotes.jpg), Avij, Wikimedia Commons | Public Domain | No |
 | `pagar.webp` | [Cashier handing receipt.jpg](https://commons.wikimedia.org/wiki/File:Cashier_handing_receipt.jpg), Chive Cream Cheese, Wikimedia Commons | CC BY 4.0 | **Yes** — "Cashier handing receipt" by Chive Cream Cheese, licensed CC BY 4.0 |
 | `caixa.webp` | [Publix checkout aisle.jpg](https://commons.wikimedia.org/wiki/File:Publix_checkout_aisle.jpg), Nielsoncaetanosalmeron, Wikimedia Commons | CC BY 4.0 | **Yes** — "Publix checkout aisle" by Nielsoncaetanosalmeron, licensed CC BY 4.0 |
+| `jornal.webp` | [Person reading a newspaper (Unsplash).jpg](<https://commons.wikimedia.org/wiki/File:Person_reading_a_newspaper_(Unsplash).jpg>), Roman Kraft, via Unsplash/Wikimedia Commons | CC0 1.0 | No |
+| `pais.webp` | [American Flag on Home Flagpole at Sunrise.jpg](https://commons.wikimedia.org/wiki/File:American_Flag_on_Home_Flagpole_at_Sunrise.jpg), Noah Wulf, Wikimedia Commons | CC BY-SA 4.0 | **Yes** — "American Flag on Home Flagpole at Sunrise" by Noah Wulf, licensed CC BY-SA 4.0 |
+| `festa.webp` | [K Dimaculangan first birthday party.jpg](https://commons.wikimedia.org/wiki/File:K_Dimaculangan_first_birthday_party.jpg), Signalvillagebackofforbespark, Wikimedia Commons | CC BY-SA 3.0 | **Yes** — "K Dimaculangan first birthday party" by Signalvillagebackofforbespark, licensed CC BY-SA 3.0 |
+| `medico.webp` | [Female doctor listens to the patient using a stethoscope closeup.jpg](https://commons.wikimedia.org/wiki/File:Female_doctor_listens_to_the_patient_using_a_stethoscope_closeup.jpg), Shixart1985, Wikimedia Commons | CC BY 2.0 | **Yes** — "Female doctor listens to the patient using a stethoscope closeup" by Shixart1985, licensed CC BY 2.0 |
+| `farmacia.webp` | [The interior of a modern pharmacy shop in the United States.jpg](https://commons.wikimedia.org/wiki/File:The_interior_of_a_modern_pharmacy_shop_in_the_United_States.jpg), Harrison Keely, Wikimedia Commons | CC BY 4.0 | **Yes** — "The interior of a modern pharmacy shop in the United States" by Harrison Keely, licensed CC BY 4.0 |
+| `radio.webp` | [Old vintage radio - Offenburg.jpg](<https://commons.wikimedia.org/wiki/File:Old_vintage_radio_-_Offenburg.jpg>), th_norge, Wikimedia Commons | CC BY 4.0 | **Yes** — "Old vintage radio - Offenburg" by th_norge, licensed CC BY 4.0 |
+| `televisao.webp` | [A flat-screen television.jpg](https://commons.wikimedia.org/wiki/File:A_flat-screen_television.jpg), EvanProdromou, Wikimedia Commons | CC BY-SA 4.0 | **Yes** — "A flat-screen television" by EvanProdromou, licensed CC BY-SA 4.0 |
+| `diploma.webp` | [Graduation diploma, graduation cap and senior ring of Robert Paul Rowan (10009396).jpg](<https://commons.wikimedia.org/wiki/File:Graduation_diploma,_graduation_cap_and_senior_ring_of_Robert_Paul_Rowan_(10009396).jpg>), University of Texas at Arlington Libraries, Wikimedia Commons | CC BY 4.0 | **Yes** — "Graduation diploma, graduation cap and senior ring of Robert Paul Rowan" by UT Arlington Libraries, licensed CC BY 4.0 |
+| `professor.webp` | [Instructor Presenting Ideas on Whiteboard.jpg](https://commons.wikimedia.org/wiki/File:Instructor_Presenting_Ideas_on_Whiteboard.jpg), Heidy Garcia, Wikimedia Commons | CC BY 4.0 | **Yes** — "Instructor Presenting Ideas on Whiteboard" by Heidy Garcia, licensed CC BY 4.0 |
+| `escritorio.webp` | [Hands-desk-office-working (24326654535).jpg](https://commons.wikimedia.org/wiki/File:Hands-desk-office-working_(24326654535).jpg), www.Pixel.la, via Flickr/Wikimedia Commons | CC0 1.0 | No |
+| `escola.webp` | [Students in a classroom.jpg](https://commons.wikimedia.org/wiki/File:Students_in_a_classroom.jpg), Ente75, Wikimedia Commons | Public Domain | No |
+
+Note: `musica.webp`, `livro.webp`, and `dancar.webp` (credited above) are reused
+as-is for the A2 vocabulary items `música`, `livro`, and `dança` — same word/
+concept, no new file or credit needed.
 
 ## Accepted sources
 

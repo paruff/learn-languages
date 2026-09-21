@@ -15,6 +15,8 @@ vocabulary:
     gender: masculine
     example: 'Trabalho num escritório grande.'
     exampleTranslation: 'I work in a large office.'
+    imageUrl: 'escritorio.webp'
+    imageAlt: 'Hands typing at a keyboard and mouse on an office desk'
   - id: pt-PT-A2-JOB-001-003
     term: 'horário'
     translation: 'working hours'

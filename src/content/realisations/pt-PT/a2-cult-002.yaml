@@ -28,6 +28,8 @@ vocabulary:
     gender: masculine
     example: 'Portugal é um país bonito.'
     exampleTranslation: 'Portugal is a beautiful country.'
+    imageUrl: 'pais.webp'
+    imageAlt: 'A national flag flying on a flagpole'
   - id: pt-PT-A2-CULT-002-005
     term: 'povo'
     translation: 'people'

@@ -29,6 +29,8 @@ vocabulary:
     gender: feminine
     example: 'A música portuguesa é muito bonita.'
     exampleTranslation: 'Portuguese music is very beautiful.'
+    imageUrl: 'musica.webp'
+    imageAlt: 'A handwritten sheet of musical notation'
   - id: pt-PT-A2-CULT-001-005
     term: 'dança'
     translation: 'dance'
@@ -36,6 +38,8 @@ vocabulary:
     gender: feminine
     example: 'A dança tradicional é bonita de ver.'
     exampleTranslation: 'The traditional dance is beautiful to watch.'
+    imageUrl: 'dancar.webp'
+    imageAlt: 'People dancing together in a dance studio'
   - id: pt-PT-A2-CULT-001-006
     term: 'festa'
     translation: 'party / festival'
@@ -43,6 +47,8 @@ vocabulary:
     gender: feminine
     example: 'A festa popular é muito animada.'
     exampleTranslation: 'The popular festival is very lively.'
+    imageUrl: 'festa.webp'
+    imageAlt: 'A birthday party table with balloons and a cake'
 grammar:
   - id: pt-PT-A2-CULT-001-G01
     point: 'describing cultural events'

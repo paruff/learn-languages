@@ -22,6 +22,8 @@ vocabulary:
     gender: feminine
     example: 'Vi a notícia na televisão.'
     exampleTranslation: 'I saw the news on television.'
+    imageUrl: 'televisao.webp'
+    imageAlt: 'A flat-screen television in a wooden cabinet'
   - id: pt-PT-A2-HABIT-003-004
     term: 'jornal'
     translation: 'newspaper'
@@ -29,6 +31,8 @@ vocabulary:
     gender: masculine
     example: 'Leio o jornal todas as manhãs.'
     exampleTranslation: 'I read the newspaper every morning.'
+    imageUrl: 'jornal.webp'
+    imageAlt: 'A person reading a large open newspaper'
   - id: pt-PT-A2-HABIT-003-005
     term: 'artigo'
     translation: 'article'
