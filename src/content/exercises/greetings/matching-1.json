@@ -1,6 +1,6 @@
 {
   "id": "pt-PT-greetings-matching-001",
-  "lessonId": "greetings",
+  "lessonId": "A1-GREET-001",
   "type": "matching",
   "prompt": "Match each greeting to its appropriate time",
   "answer": "Bom dia -> Morning (before noon); Boa tarde -> Afternoon (noon to 6 PM); Boa noite -> Evening/night (after 6 PM)",

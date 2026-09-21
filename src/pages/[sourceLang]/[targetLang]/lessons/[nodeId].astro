@@ -5,11 +5,13 @@ import { withBase } from '../../../../lib/urls';
 import { getAvailablePairs } from '../../../../lib/pairLoader';
 
 export async function getStaticPaths() {
-  const [pairs, nodes, realisations] = await Promise.all([
+  const [pairs, nodes, realisations, exercises] = await Promise.all([
     getAvailablePairs(),
     getCollection('cefr-nodes'),
     getCollection('realisations'),
+    getCollection('exercises'),
   ]);
+  const nodeIdsWithExercises = new Set(exercises.map((exercise) => exercise.data.lessonId));
 
   return pairs.flatMap(({ sourceLang, targetLang }) =>
     nodes
@@ -25,13 +27,18 @@ export async function getStaticPaths() {
       .filter(({ source, target }) => source && target)
       .map(({ node, source, target }) => ({
         params: { sourceLang, targetLang, nodeId: node.data.nodeId },
-        props: { node: node.data, source: source!.data, target: target!.data },
+        props: {
+          node: node.data,
+          source: source!.data,
+          target: target!.data,
+          hasExercises: nodeIdsWithExercises.has(node.data.nodeId),
+        },
       }))
   );
 }
 
 const { sourceLang, targetLang, nodeId } = Astro.params;
-const { node, source, target } = Astro.props;
+const { node, source, target, hasExercises } = Astro.props;
 ---
 
 <BaseLayout
@@ -111,6 +118,13 @@ const { node, source, target } = Astro.props;
 
     <p class="lesson__cta">
       <a href={withBase(`/${sourceLang}/${targetLang}/review/`)}>Practice these words →</a>
+      {
+        hasExercises && (
+          <a href={withBase(`/${sourceLang}/${targetLang}/exercises/${nodeId}/`)}>
+            Practice exercises →
+          </a>
+        )
+      }
     </p>
   </article>
 </BaseLayout>
