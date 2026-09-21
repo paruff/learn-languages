@@ -1,0 +1,11 @@
+nodeId: C1-SPOKEN-001
+cefrLevel: C1
+skill: spoken_production
+canDo: 'Can give elaborate descriptions and narratives, embedding sub-themes, developing particular aspects and rounding off with an appropriate conclusion'
+pragmaticFocus: 'Elaborate narration'
+notionalFocus: 'Sub-themes, description, conclusion'
+relatedNodes:
+  - C1-SPOKEN-002
+  - C1-ARGUE-004
+prerequisiteNodes:
+  - B2-SPOKEN-002

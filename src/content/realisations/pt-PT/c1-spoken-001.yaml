@@ -1,0 +1,54 @@
+nodeId: C1-SPOKEN-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C1-SPOKEN-001-001
+    term: 'narrativa pormenorizada'
+    translation: 'detailed narrative'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A narrativa pormenorizada da viagem encantou os convidados.'
+    exampleTranslation: 'The detailed narrative of the journey delighted the guests.'
+  - id: pt-PT-C1-SPOKEN-001-002
+    term: 'pano de fundo'
+    translation: 'background'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O pano de fundo do relato é a crise económica dos anos noventa.'
+    exampleTranslation: 'The background of the account is the economic crisis of the nineties.'
+  - id: pt-PT-C1-SPOKEN-001-003
+    term: 'desenvolver um subtema'
+    translation: 'to develop a sub-theme'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Desenvolveu um subtema que ninguém esperava e captou a atenção geral.'
+    exampleTranslation: "He developed a sub-theme nobody expected and captured everyone's attention."
+  - id: pt-PT-C1-SPOKEN-001-004
+    term: 'rematar a história'
+    translation: 'to round off the story'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Rematou a história com uma reflexão surpreendente.'
+    exampleTranslation: 'He rounded off the story with a surprising reflection.'
+  - id: pt-PT-C1-SPOKEN-001-005
+    term: 'tecer considerações'
+    translation: 'to offer reflections'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ao longo da conversa, teceu considerações pertinentes sobre o assunto.'
+    exampleTranslation: 'Throughout the conversation, he offered pertinent reflections on the matter.'
+  - id: pt-PT-C1-SPOKEN-001-006
+    term: 'descrição vívida'
+    translation: 'vivid description'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A sua descrição vívida do mercado local fez-nos sentir lá.'
+    exampleTranslation: 'His vivid description of the local market made us feel we were there.'
+grammar:
+  - id: C1-GRAMMAR-011
+    point: 'Inversion for spoken emphasis'
+    explanation: "Fronting and inverting the predicate to give emotional or rhetorical weight in spontaneous speech, e.g. 'chegaram os tempos', 'nunca se viu tal coisa'"
+    examples:
+      - 'Nunca se viu tamanho entusiasmo numa conferência.'
+      - 'Chegaram, enfim, os dias esperados.'
+    cefrNotes: 'C1 speakers use inversion to control narrative climax in spoken production'
+culturalNotes: 'In spoken European Portuguese, inversion marks an emotional or rhetorical peak: it signals that the utterance is not ordinary but evaluated. Inversion is frequent in storytelling and public speaking, especially in the north of the country.'
