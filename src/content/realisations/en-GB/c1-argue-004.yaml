@@ -1,0 +1,54 @@
+nodeId: C1-ARGUE-004
+lang: en-GB
+vocabulary:
+  - id: en-GB-C1-ARGUE-004-001
+    term: 'to defend with arguments'
+    translation: 'defender com argumentos'
+    partOfSpeech: phrase
+    gender: n/a
+    example: "The text defends the author's position with solid arguments."
+    exampleTranslation: 'O texto defende com argumentos sólidos a posição do autor.'
+  - id: en-GB-C1-ARGUE-004-002
+    term: 'to guide the reader'
+    translation: 'conduzir o leitor'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Good argumentation guides the reader naturally towards the conclusion.'
+    exampleTranslation: 'Uma boa argumentação conduz o leitor de forma natural à conclusão.'
+  - id: en-GB-C1-ARGUE-004-003
+    term: 'to articulate the ideas'
+    translation: 'articular as ideias'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is essential to articulate the ideas before writing the first paragraph.'
+    exampleTranslation: 'É imprescindível articular as ideias antes de escrever o primeiro parágrafo.'
+  - id: en-GB-C1-ARGUE-004-004
+    term: 'to rebut the objection'
+    translation: 'rebater a objeção'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'In the fourth paragraph, the author rebuts the main objection.'
+    exampleTranslation: 'No quarto parágrafo, o autor rebate a principal objeção.'
+  - id: en-GB-C1-ARGUE-004-005
+    term: 'to follow a guiding thread'
+    translation: 'seguir um fio condutor'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'All the examples follow a clear and rigorous guiding thread.'
+    exampleTranslation: 'Todos os exemplos seguem um fio condutor claro e rigoroso.'
+  - id: en-GB-C1-ARGUE-004-006
+    term: 'to rest on premises'
+    translation: 'assentar em premissas'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'The conclusion rests on premises that should be made explicit.'
+    exampleTranslation: 'A conclusão assenta em premissas que convém explicitar.'
+grammar:
+  - id: C1-GRAMMAR-006
+    point: 'Inversion for written emphasis'
+    explanation: "Using subject-auxiliary inversion after negative or restrictive adverbials such as 'only then' and 'rarely' to give emphatic weight in formal writing"
+    examples:
+      - 'Only in this way can the decision be understood.'
+      - 'Rarely have we witnessed such argumentative coherence.'
+    cefrNotes: 'C1 writers use inversion to mark the pivotal point of an argument in formal register'
+culturalNotes: "Inversion in British academic prose marks rhetorical formality; it is found more often in literary and persuasive writing than in everyday prose or journalism. It signals the text's argumentative peak and invites emphasis."
