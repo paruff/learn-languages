@@ -1,0 +1,47 @@
+nodeId: A1-FAMILY-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-A1-FAMILY-001-001
+    term: 'mãe'
+    translation: 'mother'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A minha mãe chama-se Ana.'
+    exampleTranslation: 'My mother is called Ana.'
+  - id: pt-PT-A1-FAMILY-001-002
+    term: 'pai'
+    translation: 'father'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O meu pai trabalha em Lisboa.'
+    exampleTranslation: 'My father works in Lisbon.'
+  - id: pt-PT-A1-FAMILY-001-003
+    term: 'irmão'
+    translation: 'brother'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Tenho um irmão mais novo.'
+    exampleTranslation: 'I have a younger brother.'
+  - id: pt-PT-A1-FAMILY-001-004
+    term: 'irmã'
+    translation: 'sister'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A minha irmã é professora.'
+    exampleTranslation: 'My sister is a teacher.'
+  - id: pt-PT-A1-FAMILY-001-005
+    term: 'alto'
+    translation: 'tall'
+    partOfSpeech: adjective
+    gender: masculine
+    example: 'O meu pai é alto.'
+    exampleTranslation: 'My father is tall.'
+  - id: pt-PT-A1-FAMILY-001-006
+    term: 'baixo'
+    translation: 'short'
+    partOfSpeech: adjective
+    gender: masculine
+    example: 'A minha irmã é baixa.'
+    exampleTranslation: 'My sister is short.'
+grammar: []
+culturalNotes: 'Portuguese families often live close together across generations; greeting relatives with a kiss on each cheek is standard.'

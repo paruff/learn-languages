@@ -1,0 +1,10 @@
+nodeId: A1-SHOP-001
+cefrLevel: A1
+skill: reading
+canDo: Can identify basic shopping and money vocabulary
+pragmaticFocus: Recognize shop and money vocabulary when buying things
+notionalFocus: Shopping, money, prices, services
+relatedNodes:
+  - A1-FOOD-001
+  - A1-REQUEST-001
+prerequisiteNodes: []

@@ -1,0 +1,47 @@
+nodeId: A1-BODY-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-A1-BODY-001-001
+    term: 'cabeça'
+    translation: 'head'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Tenho dor de cabeça.'
+    exampleTranslation: 'I have a headache.'
+  - id: pt-PT-A1-BODY-001-002
+    term: 'mão'
+    translation: 'hand'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ela tem a mão fria.'
+    exampleTranslation: 'Her hand is cold.'
+  - id: pt-PT-A1-BODY-001-003
+    term: 'pé'
+    translation: 'foot'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O meu pé dói depois de correr.'
+    exampleTranslation: 'My foot hurts after running.'
+  - id: pt-PT-A1-BODY-001-004
+    term: 'olho'
+    translation: 'eye'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ele tem os olhos verdes.'
+    exampleTranslation: 'He has green eyes.'
+  - id: pt-PT-A1-BODY-001-005
+    term: 'braço'
+    translation: 'arm'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Parti o braço no ano passado.'
+    exampleTranslation: 'I broke my arm last year.'
+  - id: pt-PT-A1-BODY-001-006
+    term: 'perna'
+    translation: 'leg'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A perna dele está inchada.'
+    exampleTranslation: 'His leg is swollen.'
+grammar: []
+culturalNotes: 'When describing pain, Portuguese uses "dor de/em" plus body part (e.g. dor de cabeça, dor nas pernas) rather than a possessive construction.'

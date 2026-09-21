@@ -149,7 +149,7 @@ C1 Coverage: 25/25 nodes fully realised (100%).
 
 **C1 Design:** Grouping extends B2's topic-based set (SOCIAL, ARGUE, TEXT, SPOKEN, WRITTEN) with five new groups (ACADEMIC, PROFESSIONAL, NUANCED, LITERARY, MEDIATION). Grammar progression: compound subjunctive tenses, cleft sentences, inversion, ellipsis, nuanced modality, register switching, idiomatic expressions, advanced connectors. Two listening nodes (C1-SPOKEN-004/005) were added in a follow-up to restore listening coverage, which authoring had rebalanced away.
 
-**C1 category coverage:** The same Category A–G function structure remains the substrate at C1; the 23 C1 nodes map onto it across all seven categories (e.g. **C. Influir sobre o interlocutor** → C1-ARGUE-002/003, C1-PROFESSIONAL-001; **D. Exprimir posicionamentos** → C1-ARGUE-001/004, C1-NUANCED-001; **F. Organizar o discurso** → C1-ARGUE-002, C1-ACADEMIC-002, C1-WRITTEN-002; **G. Regular a comunicação** → C1-SOCIAL-002, C1-MEDIATION-001).
+**C1 category coverage:** The same Category A–G function structure remains the substrate at C1; the 25 C1 nodes map onto it across all seven categories (e.g. **C. Influir sobre o interlocutor** → C1-ARGUE-002/003, C1-PROFESSIONAL-001; **D. Exprimir posicionamentos** → C1-ARGUE-001/004, C1-NUANCED-001; **F. Organizar o discurso** → C1-ARGUE-002, C1-ACADEMIC-002, C1-WRITTEN-002; **G. Regular a comunicação** → C1-SOCIAL-002, C1-MEDIATION-001).
 
 > **Note on C1 skill distribution:** Authoring rebalanced the original spec's planned distribution (2 listening, 6 reading, 3 spoken_interaction, 5 spoken_production, 7 writing — see `docs/superpowers/specs/2026-09-21-c1-content-design.md` §Node Inventory, which slated much of the SPOKEN group as listening). Two listening nodes (C1-SPOKEN-004/005) were added in a follow-up to restore listening coverage at C1.
 
@@ -187,20 +187,20 @@ A1M1 Identificação e Caracterização Pessoal · A1M2 Vida Quotidiana · A1M3 
 
 **Module coverage:**
 
-| Module | Topic                             | Repo coverage                 |
-| ------ | --------------------------------- | ----------------------------- |
-| A1M1   | Personal identification           | ✅ A1-INTRO-001/002           |
-| A1M2   | Daily life                        | ✅ A1-FOOD-001, A1-TIME-001   |
-| A1M3   | Food & drink                      | ✅ A1-FOOD-001                |
-| A1M4   | Leisure & free time               | ✅ A1-OFFER-001               |
-| A1M5   | Shopping, services & directions   | ✅ A1-LOC-001, A1-REQUEST-001 |
-| A1M6   | Body & health                     | ✅ A1-FEEL-001                |
-| A2M7   | Professions & work                | ✅ A2-JOB-001/002/003         |
-| A2M8   | Studies & professional experience | ✅ A2-STUDY-001/002/003       |
-| A2M9   | Past & present                    | ✅ A2-PAST-001/002/003/004    |
-| A2M10  | Recent habits                     | ✅ A2-HABIT-001/002/003       |
-| A2M11  | News & texts                      | ✅ A2-NEWS-001/002/003        |
-| A2M12  | Citizenship & cultural diversity  | ✅ A2-CULT-001/002/003        |
+| Module | Topic                             | Repo coverage                               |
+| ------ | ---------------------------------- | -------------------------------------------- |
+| A1M1   | Personal identification           | ✅ A1-INTRO-001/002, A1-FAMILY-001          |
+| A1M2   | Daily life                        | ✅ A1-FOOD-001, A1-TIME-001, A1-ROUTINE-001 |
+| A1M3   | Food & drink                      | ✅ A1-FOOD-001                              |
+| A1M4   | Leisure & free time               | ✅ A1-OFFER-001, A1-HOBBY-001               |
+| A1M5   | Shopping, services & directions   | ✅ A1-LOC-001, A1-REQUEST-001, A1-SHOP-001  |
+| A1M6   | Body & health                     | ✅ A1-FEEL-001, A1-BODY-001                 |
+| A2M7   | Professions & work                | ✅ A2-JOB-001/002/003                       |
+| A2M8   | Studies & professional experience | ✅ A2-STUDY-001/002/003                     |
+| A2M9   | Past & present                    | ✅ A2-PAST-001/002/003/004                  |
+| A2M10  | Recent habits                     | ✅ A2-HABIT-001/002/003                     |
+| A2M11  | News & texts                      | ✅ A2-NEWS-001/002/003                      |
+| A2M12  | Citizenship & cultural diversity  | ✅ A2-CULT-001/002/003                      |
 
 ## Process for adding a node
 

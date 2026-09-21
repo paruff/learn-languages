@@ -1,0 +1,47 @@
+nodeId: A1-ROUTINE-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-A1-ROUTINE-001-001
+    term: 'casa'
+    translation: 'house'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A minha casa é pequena.'
+    exampleTranslation: 'My house is small.'
+  - id: pt-PT-A1-ROUTINE-001-002
+    term: 'quarto'
+    translation: 'bedroom'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O quarto tem uma janela grande.'
+    exampleTranslation: 'The bedroom has a big window.'
+  - id: pt-PT-A1-ROUTINE-001-003
+    term: 'cozinha'
+    translation: 'kitchen'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Cozinho todos os dias na cozinha.'
+    exampleTranslation: 'I cook every day in the kitchen.'
+  - id: pt-PT-A1-ROUTINE-001-004
+    term: 'roupa'
+    translation: 'clothes'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Lavo a roupa aos sábados.'
+    exampleTranslation: 'I wash the clothes on Saturdays.'
+  - id: pt-PT-A1-ROUTINE-001-005
+    term: 'chave'
+    translation: 'key'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Onde está a chave da porta?'
+    exampleTranslation: 'Where is the door key?'
+  - id: pt-PT-A1-ROUTINE-001-006
+    term: 'telefone'
+    translation: 'phone'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O meu telefone está na mesa.'
+    exampleTranslation: 'My phone is on the table.'
+grammar: []
+culturalNotes: 'Many Portuguese homes have a varanda (balcony) used daily for hanging washing and drying clothes in the sun.'

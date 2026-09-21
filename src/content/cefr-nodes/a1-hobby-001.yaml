@@ -1,0 +1,10 @@
+nodeId: A1-HOBBY-001
+cefrLevel: A1
+skill: reading
+canDo: Can identify common hobbies and free-time activities
+pragmaticFocus: Recognize leisure vocabulary when talking about free time
+notionalFocus: Hobbies, leisure, free time, entertainment
+relatedNodes:
+  - A1-OFFER-001
+  - A1-WANT-001
+prerequisiteNodes: []
