@@ -1,0 +1,54 @@
+nodeId: C1-WRITTEN-003
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C1-WRITTEN-003-001
+    term: 'narrativa pessoal'
+    translation: 'personal narrative'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A narrativa pessoal do autor cruzou-se com a história coletiva.'
+    exampleTranslation: "The author's personal narrative crossed paths with the collective history."
+  - id: pt-PT-C1-WRITTEN-003-002
+    term: 'fio das lembranças'
+    translation: 'thread of memories'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O texto segue o fio das lembranças sem perder o rumo.'
+    exampleTranslation: 'The text follows the thread of memories without losing its way.'
+  - id: pt-PT-C1-WRITTEN-003-003
+    term: 'memórias de infância'
+    translation: 'childhood memories'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'As memórias de infância surgem com nitidez surpreendente.'
+    exampleTranslation: 'The childhood memories emerge with surprising clarity.'
+  - id: pt-PT-C1-WRITTEN-003-004
+    term: 'ponto de vista pessoal'
+    translation: 'personal point of view'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O ponto de vista pessoal dá coerência a toda a crónica.'
+    exampleTranslation: 'The personal point of view lends coherence to the whole chronicle.'
+  - id: pt-PT-C1-WRITTEN-003-005
+    term: 'ressalvas honestas'
+    translation: 'honest caveats'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'As ressalvas honestas conferem credibilidade ao relato.'
+    exampleTranslation: 'The honest caveats lend credibility to the account.'
+  - id: pt-PT-C1-WRITTEN-003-006
+    term: 'efeito de um só fôlego'
+    translation: 'a one-breath effect'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O capítulo final tem o efeito de um só fôlego.'
+    exampleTranslation: 'The final chapter has a one-breath effect.'
+grammar:
+  - id: C1-GRAMMAR-016
+    point: 'Hedging devices for personal narrative'
+    explanation: "Managing the distance between memory and certainty with epistemic verbs and adverbs such as 'a meu ver', 'segundo me lembro' and 'tudo indica que'"
+    examples:
+      - 'Segundo me lembro, a festa durou até de madrugada.'
+      - 'Tudo indica que a decisão foi tomada na véspera.'
+    cefrNotes: 'C1 writers grade reliability of memory and interpretation in first-person narrative'
+culturalNotes: 'European Portuguese memoir writing oscillates between vivid certainty and honest doubt; the writer flags unreliable memory explicitly. This measured tone distinguishes the genre from dramatic storytelling.'

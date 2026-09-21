@@ -1,0 +1,54 @@
+nodeId: C1-ARGUE-003
+lang: en-GB
+vocabulary:
+  - id: en-GB-C1-ARGUE-003-001
+    term: 'to soften a statement'
+    translation: 'atenuar a afirmação'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'In order not to seem arrogant, he softened the statement with a cautious comment.'
+    exampleTranslation: 'Para não parecer arrogante, atenuou a afirmação com um comentário prudente.'
+  - id: en-GB-C1-ARGUE-003-002
+    term: "to qualify one's opinion"
+    translation: 'matizar a opinião'
+    partOfSpeech: phrase
+    gender: n/a
+    example: "Qualifying one's opinion with concrete examples is a sign of maturity."
+    exampleTranslation: 'É sinal de maturidade matizar a opinião com exemplos concretos.'
+  - id: en-GB-C1-ARGUE-003-003
+    term: 'rhetorical modesty'
+    translation: 'recurso à modéstia'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Rhetorical modesty allows presenting strong ideas without hostility.'
+    exampleTranslation: 'O recurso à modéstia permite apresentar ideias fortes sem hostilidade.'
+  - id: en-GB-C1-ARGUE-003-004
+    term: 'to show reserve'
+    translation: 'mostrar reserva'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'He showed reserve regarding the most optimistic forecasts.'
+    exampleTranslation: 'Mostrou reserva quanto às previsões mais otimistas.'
+  - id: en-GB-C1-ARGUE-003-005
+    term: "to guard one's opinion"
+    translation: 'salvaguardar a opinião'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'He guarded his opinion with a final caveat.'
+    exampleTranslation: 'Salvaguardou a sua opinião com uma ressalva final.'
+  - id: en-GB-C1-ARGUE-003-006
+    term: 'to express prudent doubt'
+    translation: 'exprimir dúvida prudente'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Expressing prudent doubt before agreeing is common in informal conversations.'
+    exampleTranslation: 'Exprimir dúvida prudente antes de concordar é comum em conversas informais.'
+grammar:
+  - id: C1-GRAMMAR-005
+    point: 'Nuanced modality with hedging devices'
+    explanation: "Using hedges such as 'it seems to me that', 'arguably' and modal verbs to grade certainty and soften claims with precision"
+    examples:
+      - 'He may well fail to convince the whole audience.'
+      - 'You will surely concede that the data do not favour that reading.'
+    cefrNotes: 'C1 learners grade epistemic certainty finely instead of only asserting or denying'
+culturalNotes: "British hedging embeds softeners in the sentence frame ('I wonder if', 'would it be fair to say'). It protects both speakers' faces, and is heavier in direct disagreement. Understatement is valued; exaggerated claims can sound naive."

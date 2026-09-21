@@ -1,0 +1,54 @@
+nodeId: C1-TEXT-002
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C1-TEXT-002-001
+    term: 'especificações técnicas'
+    translation: 'technical specifications'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'As especificações técnicas do equipamento ocupam vinte páginas.'
+    exampleTranslation: 'The technical specifications of the equipment run to twenty pages.'
+  - id: pt-PT-C1-TEXT-002-002
+    term: 'instruções de montagem'
+    translation: 'assembly instructions'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'As instruções de montagem partem do pressuposto de que o leitor conhece o básico.'
+    exampleTranslation: 'The assembly instructions assume the reader knows the basics.'
+  - id: pt-PT-C1-TEXT-002-003
+    term: 'artigo especializado'
+    translation: 'specialised article'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O artigo especializado pressupõe conhecimentos de bioquímica.'
+    exampleTranslation: 'The specialised article presupposes knowledge of biochemistry.'
+  - id: pt-PT-C1-TEXT-002-004
+    term: 'jargão técnico'
+    translation: 'technical jargon'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O texto recorre a um jargão técnico que intimida os leigos.'
+    exampleTranslation: 'The text uses technical jargon that intimidates non-specialists.'
+  - id: pt-PT-C1-TEXT-002-005
+    term: 'decifrar as siglas'
+    translation: 'to decipher the acronyms'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Para compreender o relatório, é preciso decifrar as siglas da primeira página.'
+    exampleTranslation: 'To understand the report, one must decipher the acronyms on the first page.'
+  - id: pt-PT-C1-TEXT-002-006
+    term: 'anexo técnico'
+    translation: 'technical annex'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Os detalhes completos encontram-se no anexo técnico.'
+    exampleTranslation: 'The full details are to be found in the technical annex.'
+grammar:
+  - id: C1-GRAMMAR-008
+    point: 'Ellipsis in dense technical prose'
+    explanation: 'Omitting repeated subjects, auxiliaries and relative elements so that technical writing stays concise, and recognising the recovered meaning'
+    examples:
+      - 'Primeiro, ligue o aparelho; depois, aguarde dois minutos.'
+      - 'O módulo A alimenta o B; o B, o C.'
+    cefrNotes: 'C1 readers recover elided material automatically in high-density technical texts'
+culturalNotes: 'European Portuguese technical writing values concision, eliding elements that context makes recoverable. Formal instruction texts often use the infinitive and impersonal constructions, leaving the reader to supply the implied agent.'

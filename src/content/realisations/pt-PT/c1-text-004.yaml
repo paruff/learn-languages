@@ -1,0 +1,54 @@
+nodeId: C1-TEXT-004
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C1-TEXT-004-001
+    term: 'linha de argumentação'
+    translation: 'line of argumentation'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A linha de argumentação do texto apoia-se em dados recentes.'
+    exampleTranslation: 'The line of argumentation of the text rests on recent data.'
+  - id: pt-PT-C1-TEXT-004-002
+    term: 'teses e antíteses'
+    translation: 'theses and antitheses'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'O autor confronta teses e antíteses antes de concluir.'
+    exampleTranslation: 'The author confronts theses and antitheses before concluding.'
+  - id: pt-PT-C1-TEXT-004-003
+    term: 'evidência circunstancial'
+    translation: 'circumstantial evidence'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A evidência circunstancial sugere, mas não prova, a tese.'
+    exampleTranslation: 'The circumstantial evidence suggests, but does not prove, the thesis.'
+  - id: pt-PT-C1-TEXT-004-004
+    term: 'momento de viragem'
+    translation: 'turning point'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O momento de viragem do texto é a refutação da objeção central.'
+    exampleTranslation: 'The turning point of the text is the refutation of the central objection.'
+  - id: pt-PT-C1-TEXT-004-005
+    term: 'convergência de fatores'
+    translation: 'convergence of factors'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'O autor mostra a convergência de fatores que explica o fenómeno.'
+    exampleTranslation: 'The author shows the convergence of factors that explains the phenomenon.'
+  - id: pt-PT-C1-TEXT-004-006
+    term: 'travar o raciocínio'
+    translation: 'to follow the reasoning'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'O leitor atento trava o raciocínio do autor parágrafo a parágrafo.'
+    exampleTranslation: "The attentive reader follows the author's reasoning paragraph by paragraph."
+grammar:
+  - id: C1-GRAMMAR-010
+    point: 'Advanced connectors for text architecture'
+    explanation: "Using connectors such as 'em contrapartida', 'posto que' and 'fazendo fé em' to signal concession, contrast, hypothesis and evidential weight across paragraphs"
+    examples:
+      - 'Em contrapartida, os custos de produção continuam a subir.'
+      - 'Posto que a evidência seja limitada, a hipótese mantém-se plausível.'
+    cefrNotes: 'C1 readers use connective systems to reconstruct the logical skeleton of demanding texts'
+culturalNotes: 'Portuguese argumentative culture favours explicit logical connectors over implicit linkage; the transition words carry the weight of the reasoning. A dense network of connectives is a sign of careful, formal prose.'

@@ -1,0 +1,54 @@
+nodeId: C1-WRITTEN-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-C1-WRITTEN-001-001
+    term: 'to adapt the register to the reader'
+    translation: 'adaptar o registo ao leitor'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'The columnist knows how to adapt the register to the newspaper reader.'
+    exampleTranslation: 'O cronista sabe adaptar o registo ao leitor do jornal.'
+  - id: en-GB-C1-WRITTEN-001-002
+    term: 'opinion piece'
+    translation: 'texto de opinião'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'The opinion piece prompted an immediate response from readers.'
+    exampleTranslation: 'O texto de opinião provocou uma resposta imediata dos leitores.'
+  - id: en-GB-C1-WRITTEN-001-003
+    term: 'argumentative coherence'
+    translation: 'coerência argumentativa'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'The argumentative coherence of the essay is remarkable.'
+    exampleTranslation: 'A coerência argumentativa do ensaio é notável.'
+  - id: en-GB-C1-WRITTEN-001-004
+    term: 'to dismantle an argument'
+    translation: 'desmontar um argumento'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'In the third paragraph, he dismantles the argument of economic efficiency.'
+    exampleTranslation: 'No terceiro parágrafo, desmonta o argumento da eficiência económica.'
+  - id: en-GB-C1-WRITTEN-001-005
+    term: 'critical eye'
+    translation: 'olhar crítico'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'The text offers a critical eye on urban policy.'
+    exampleTranslation: 'O texto apresenta um olhar crítico sobre a política urbana.'
+  - id: en-GB-C1-WRITTEN-001-006
+    term: 'personal signature'
+    translation: 'assinatura pessoal'
+    partOfSpeech: noun
+    gender: feminine
+    example: "The prose bears the author's personal signature."
+    exampleTranslation: 'A prosa tem a assinatura pessoal do autor.'
+grammar:
+  - id: C1-GRAMMAR-014
+    point: 'Register switching and connectors in formal writing'
+    explanation: "Switching between impersonal and personal constructions and layering connectors such as 'notwithstanding' and 'in the light of' to control distance and tone"
+    examples:
+      - 'Notwithstanding the progress made, structural inequalities persist.'
+      - 'In the light of the available data, the conclusion calls for caution.'
+    cefrNotes: 'C1 writers fine-tune register to the intended audience in opinion prose'
+culturalNotes: 'British broadsheet prose favours short paragraphs and a direct personal voice; the reader is addressed with civil but plain argumentation. Connectors are lighter than in Romance prose, with tone carried by word choice and rhythm.'

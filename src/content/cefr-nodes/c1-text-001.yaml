@@ -1,0 +1,11 @@
+nodeId: C1-TEXT-001
+cefrLevel: C1
+skill: reading
+canDo: 'Can understand a wide range of demanding, longer texts and recognise implicit meaning'
+pragmaticFocus: 'Implicit meaning recognition'
+notionalFocus: 'Inference, demanding texts'
+relatedNodes:
+  - C1-TEXT-002
+  - B2-TEXT-003
+prerequisiteNodes:
+  - B2-TEXT-003

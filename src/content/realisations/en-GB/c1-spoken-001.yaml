@@ -1,0 +1,54 @@
+nodeId: C1-SPOKEN-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-C1-SPOKEN-001-001
+    term: 'detailed narrative'
+    translation: 'narrativa pormenorizada'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'The detailed narrative of the journey delighted the guests.'
+    exampleTranslation: 'A narrativa pormenorizada da viagem encantou os convidados.'
+  - id: en-GB-C1-SPOKEN-001-002
+    term: 'background'
+    translation: 'pano de fundo'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'The background of the account is the economic crisis of the nineties.'
+    exampleTranslation: 'O pano de fundo do relato é a crise económica dos anos noventa.'
+  - id: en-GB-C1-SPOKEN-001-003
+    term: 'to develop a sub-theme'
+    translation: 'desenvolver um subtema'
+    partOfSpeech: phrase
+    gender: n/a
+    example: "He developed a sub-theme nobody expected and captured everyone's attention."
+    exampleTranslation: 'Desenvolveu um subtema que ninguém esperava e captou a atenção geral.'
+  - id: en-GB-C1-SPOKEN-001-004
+    term: 'to round off the story'
+    translation: 'rematar a história'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'He rounded off the story with a surprising reflection.'
+    exampleTranslation: 'Rematou a história com uma reflexão surpreendente.'
+  - id: en-GB-C1-SPOKEN-001-005
+    term: 'to offer reflections'
+    translation: 'tecer considerações'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Throughout the conversation, he offered pertinent reflections on the matter.'
+    exampleTranslation: 'Ao longo da conversa, teceu considerações pertinentes sobre o assunto.'
+  - id: en-GB-C1-SPOKEN-001-006
+    term: 'vivid description'
+    translation: 'descrição vívida'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'His vivid description of the local market made us feel we were there.'
+    exampleTranslation: 'A sua descrição vívida do mercado local fez-nos sentir lá.'
+grammar:
+  - id: C1-GRAMMAR-011
+    point: 'Fronting for spoken emphasis'
+    explanation: "Fronting the object or complement and using emphatic structures such as 'nor did they' and 'so began the story' to guide narrative climax in speech"
+    examples:
+      - 'Never has there been such enthusiasm at a conference.'
+      - 'At last, the long-awaited days arrived.'
+    cefrNotes: 'C1 speakers use fronting to control narrative climax in spoken production'
+culturalNotes: 'British speakers mark narrative peaks with fronting and intonational emphasis, often understatement. Elaborate storytelling tends to be compressed; the evaluation of events is carried more by tone and phrase than by expressive verbs.'

@@ -1,0 +1,54 @@
+nodeId: C1-PROFESSIONAL-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-C1-PROFESSIONAL-001-001
+    term: 'proposal for discussion'
+    translation: 'proposta para discussão'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'The proposal for discussion earned careful analysis.'
+    exampleTranslation: 'A proposta para discussão mereceu uma análise demorada.'
+  - id: en-GB-C1-PROFESSIONAL-001-002
+    term: 'objection of the partners'
+    translation: 'objeção dos parceiros'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'The objection of the partners forced a step back on the timetable.'
+    exampleTranslation: 'A objeção dos parceiros obrigou a recuar na calendarização.'
+  - id: en-GB-C1-PROFESSIONAL-001-003
+    term: 'to set the record straight'
+    translation: 'pôr os pontos nos is'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'At the meeting, he set the record straight about the deadlines.'
+    exampleTranslation: 'Na reunião, pôs os pontos nos is quanto aos prazos.'
+  - id: en-GB-C1-PROFESSIONAL-001-004
+    term: 'room for manoeuvre'
+    translation: 'espaço de manobra'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'The budget leaves little room for manoeuvre for surprises.'
+    exampleTranslation: 'O orçamento deixa pouco espaço de manobra para surpresas.'
+  - id: en-GB-C1-PROFESSIONAL-001-005
+    term: 'workable consensus'
+    translation: 'consenso possível'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'The mediators sought the workable consensus between the parties.'
+    exampleTranslation: 'O mediador procurou o consenso possível entre as partes.'
+  - id: en-GB-C1-PROFESSIONAL-001-006
+    term: 'tone of mutual understanding'
+    translation: 'tom de entendimento'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'The tone of mutual understanding at the meeting averted anticipated conflicts.'
+    exampleTranslation: 'O tom de entendimento da reunião evitou conflitos anunciados.'
+grammar:
+  - id: C1-GRAMMAR-020
+    point: 'Register switching and modality for professional persuasion'
+    explanation: "Shifting register between directness and politeness and grading modality with verbs such as 'one might expect' and 'it would be worth' to manage professional face"
+    examples:
+      - 'One might expect the team to meet the agreed deadlines.'
+      - 'It would be worth revising the proposal before the next meeting.'
+    cefrNotes: 'C1 professionals negotiate tone and modality to persuade without confrontation'
+culturalNotes: 'British professional discourse favours polite directness: proposals are hedged at the margins but the core ask is explicit. Meetings follow tacit turn-taking rules, and dissent is framed as a suggestion rather than a rejection.'

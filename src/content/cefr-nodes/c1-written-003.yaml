@@ -1,0 +1,11 @@
+nodeId: C1-WRITTEN-003
+cefrLevel: C1
+skill: writing
+canDo: 'Can write a well-structured personal narrative of a complex experience with a coherent, convincing and personal point of view'
+pragmaticFocus: 'Personal narrative writing'
+notionalFocus: 'Anecdote, evaluation, hedging'
+relatedNodes:
+  - C1-WRITTEN-002
+  - C1-SPOKEN-001
+prerequisiteNodes:
+  - C1-WRITTEN-002

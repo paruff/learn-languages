@@ -1,0 +1,11 @@
+nodeId: C1-SPOKEN-002
+cefrLevel: C1
+skill: spoken_production
+canDo: 'Can express ideas and opinions without much searching for expressions, using idiomatic expressions appropriately'
+pragmaticFocus: 'Idiomatic fluency'
+notionalFocus: 'Fixed expressions, fluency'
+relatedNodes:
+  - C1-SPOKEN-001
+  - C1-NUANCED-001
+prerequisiteNodes:
+  - C1-SPOKEN-001

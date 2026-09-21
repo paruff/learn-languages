@@ -1,0 +1,54 @@
+nodeId: C1-SOCIAL-002
+lang: en-GB
+vocabulary:
+  - id: en-GB-C1-SOCIAL-002-001
+    term: 'to switch register'
+    translation: 'mudar de registo'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'In a formal environment, he switches register with surprising naturalness.'
+    exampleTranslation: 'Num ambiente formal, muda de registo com uma naturalidade surpreendente.'
+  - id: en-GB-C1-SOCIAL-002-002
+    term: 'to address someone formally'
+    translation: 'tratar por você'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'With older people, it is customary to address them formally.'
+    exampleTranslation: 'Com as pessoas mais velhas, é costume tratar por você.'
+  - id: en-GB-C1-SOCIAL-002-003
+    term: 'to address someone informally'
+    translation: 'tratar por tu'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Co-workers have addressed each other informally since day one.'
+    exampleTranslation: 'Os colegas de trabalho tratam-se por tu desde o primeiro dia.'
+  - id: en-GB-C1-SOCIAL-002-004
+    term: 'to adjust the tone'
+    translation: 'adequar o tom'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'She knows how to adjust her tone to the social context she is in.'
+    exampleTranslation: 'Sabe adequar o tom ao contexto social em que se encontra.'
+  - id: en-GB-C1-SOCIAL-002-005
+    term: 'to keep respectful distance'
+    translation: 'manter distância respeitosa'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'In first conversations, it is prudent to keep a respectful distance.'
+    exampleTranslation: 'Nas primeiras conversas, é prudente manter distância respeitosa.'
+  - id: en-GB-C1-SOCIAL-002-006
+    term: 'to break the ice'
+    translation: 'quebrar o gelo'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'To break the ice, she resorted to a comment about the weather.'
+    exampleTranslation: 'Para quebrar o gelo, recorreu a um comentário sobre o tempo.'
+grammar:
+  - id: C1-GRAMMAR-002
+    point: 'Register switching in British English'
+    explanation: 'Managing social distance through first names vs titles, informal phrasal verbs vs formal equivalents, and hedged requests'
+    examples:
+      - 'Please call me John — everyone does.'
+      - 'We would ask that you kindly refrain from addressing the client by first name.'
+    cefrNotes: 'C1 learners consciously manage register alternation for social effect, not from uncertainty'
+culturalNotes: "British English lacks a tu/você distinction, so social distance is managed through names, titles, and politeness strategies. 'Mr/Mrs/Ms + surname' marks formality; slipping into first names signals acceptance. Over-hedging can sound insincere."

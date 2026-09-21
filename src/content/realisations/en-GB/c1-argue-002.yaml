@@ -1,0 +1,54 @@
+nodeId: C1-ARGUE-002
+lang: en-GB
+vocabulary:
+  - id: en-GB-C1-ARGUE-002-001
+    term: 'to refute an argument'
+    translation: 'refutar um argumento'
+    partOfSpeech: phrase
+    gender: n/a
+    example: "She refuted her opponent's argument with objective data."
+    exampleTranslation: 'Refutou o argumento do adversário com dados objetivos.'
+  - id: en-GB-C1-ARGUE-002-002
+    term: 'to weigh the pros and cons'
+    translation: 'ponderar os prós e contras'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Before deciding, she weighed the pros and cons of each option.'
+    exampleTranslation: 'Antes de decidir, ponderou os prós e contras de cada opção.'
+  - id: en-GB-C1-ARGUE-002-003
+    term: 'to present counter-arguments'
+    translation: 'apresentar contra-argumentos'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'She did not just defend her position; she also presented counter-arguments.'
+    exampleTranslation: 'Não se limitou a defender a sua posição; também apresentou contra-argumentos.'
+  - id: en-GB-C1-ARGUE-002-004
+    term: 'to give emphasis to'
+    translation: 'dar ênfase a'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'The speaker gave emphasis to the need for open dialogue.'
+    exampleTranslation: 'O orador deu ênfase à necessidade de um diálogo aberto.'
+  - id: en-GB-C1-ARGUE-002-005
+    term: 'to draw conclusions'
+    translation: 'tirar conclusões'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'In the end, she drew conclusions that surprised part of the audience.'
+    exampleTranslation: 'No final, tirou conclusões que surpreenderam parte da audiência.'
+  - id: en-GB-C1-ARGUE-002-006
+    term: "to substantiate one's position"
+    translation: 'fundamentar a posição'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'She substantiated her position with recent studies.'
+    exampleTranslation: 'Fundamentou a sua posição em estudos recentes.'
+grammar:
+  - id: C1-GRAMMAR-004
+    point: 'Advanced discourse connectors'
+    explanation: "Using multi-word connectors such as 'given that' and 'insofar as' to structure reasoned argumentation and evaluate counter-arguments"
+    examples:
+      - 'Given that costs have risen, it is reasonable to revise the plan.'
+      - 'Insofar as the data support this reading, the proposal is defensible.'
+    cefrNotes: 'C1 learners use complex connectors to signal logical relationships explicitly in extended argument'
+culturalNotes: "British argumentative culture values the concession-rebuttal pattern: acknowledging the opponent's strongest point before overturning it is seen as a mark of intellectual maturity, not weakness. Conclusions are often understated."

@@ -1,0 +1,12 @@
+nodeId: C1-ARGUE-002
+cefrLevel: C1
+skill: spoken_production
+canDo: 'Can develop an argument systematically with appropriate highlighting of significant points and relevant supporting detail while evaluating counter-arguments'
+pragmaticFocus: 'Systematic argumentation with counter-argument evaluation'
+notionalFocus: 'Reasoning, counter-argumentation, emphasis'
+relatedNodes:
+  - C1-ARGUE-001
+  - C1-ARGUE-003
+  - B2-ARGUE-002
+prerequisiteNodes:
+  - C1-ARGUE-001

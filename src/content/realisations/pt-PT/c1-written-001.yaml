@@ -1,0 +1,54 @@
+nodeId: C1-WRITTEN-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C1-WRITTEN-001-001
+    term: 'adaptar o registo ao leitor'
+    translation: 'to adapt the register to the reader'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'O cronista sabe adaptar o registo ao leitor do jornal.'
+    exampleTranslation: 'The columnist knows how to adapt the register to the newspaper reader.'
+  - id: pt-PT-C1-WRITTEN-001-002
+    term: 'texto de opinião'
+    translation: 'opinion piece'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O texto de opinião provocou uma resposta imediata dos leitores.'
+    exampleTranslation: 'The opinion piece prompted an immediate response from readers.'
+  - id: pt-PT-C1-WRITTEN-001-003
+    term: 'coerência argumentativa'
+    translation: 'argumentative coherence'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A coerência argumentativa do ensaio é notável.'
+    exampleTranslation: 'The argumentative coherence of the essay is remarkable.'
+  - id: pt-PT-C1-WRITTEN-001-004
+    term: 'desmontar um argumento'
+    translation: 'to dismantle an argument'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'No terceiro parágrafo, desmonta o argumento da eficiência económica.'
+    exampleTranslation: 'In the third paragraph, he dismantles the argument of economic efficiency.'
+  - id: pt-PT-C1-WRITTEN-001-005
+    term: 'olhar crítico'
+    translation: 'critical eye'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O texto apresenta um olhar crítico sobre a política urbana.'
+    exampleTranslation: 'The text offers a critical eye on urban policy.'
+  - id: pt-PT-C1-WRITTEN-001-006
+    term: 'assinatura pessoal'
+    translation: 'personal signature'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A prosa tem a assinatura pessoal do autor.'
+    exampleTranslation: "The prose bears the author's personal signature."
+grammar:
+  - id: C1-GRAMMAR-014
+    point: 'Register switching and connectors in formal writing'
+    explanation: "Switching between impersonal and personal constructions and layering connectors such as 'não obstante' and 'à luz de' to control distance and tone"
+    examples:
+      - 'Não obstante os avanços, persistem desigualdades estruturais.'
+      - 'À luz dos dados disponíveis, a conclusão exige cautela.'
+    cefrNotes: 'C1 writers fine-tune register to the intended audience in opinion prose'
+culturalNotes: 'Portuguese opinion journalism prizes a polished, essayistic register: long sentences, embedded subordination and measured judgement. The personal voice arrives at the end, after the evidence has been marshalled.'

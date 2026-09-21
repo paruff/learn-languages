@@ -1,0 +1,54 @@
+nodeId: C1-TEXT-003
+lang: en-GB
+vocabulary:
+  - id: en-GB-C1-TEXT-003-001
+    term: 'to grasp the beauty of the text'
+    translation: 'apreender a beleza do texto'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'The patient reader grasps the beauty of the text in the cadence of the sentences.'
+    exampleTranslation: 'O leitor demorado apreende a beleza do texto na cadência das frases.'
+  - id: en-GB-C1-TEXT-003-002
+    term: 'cultural allusions'
+    translation: 'ciladas culturais'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'The lively prose is peppered with cultural allusions that escape the tourist.'
+    exampleTranslation: 'A prosa viva é pontuada por ciladas culturais que escapam ao turista.'
+  - id: en-GB-C1-TEXT-003-003
+    term: 'to go beyond the literal meaning'
+    translation: 'ir além do sentido literal'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'One should go beyond the literal meaning to savour the metaphor.'
+    exampleTranslation: 'Convém ir além do sentido literal para saborear a metáfora.'
+  - id: en-GB-C1-TEXT-003-004
+    term: 'figurative language'
+    translation: 'linguagem figurada'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Figurative language enriches the poem without making it hermetic.'
+    exampleTranslation: 'A linguagem figurada enriquece o poema sem o tornar hermetizante.'
+  - id: en-GB-C1-TEXT-003-005
+    term: 'aesthetic stance'
+    translation: 'tomada de posição estética'
+    partOfSpeech: noun
+    gender: feminine
+    example: "The author's aesthetic stance divides the critics."
+    exampleTranslation: 'A tomada de posição estética do autor divide os críticos.'
+  - id: en-GB-C1-TEXT-003-006
+    term: 'Lusophone flavour'
+    translation: 'sabor lusófono'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'The novel has an unmistakable Lusophone flavour.'
+    exampleTranslation: 'O romance tem um sabor lusófono inconfundível.'
+grammar:
+  - id: C1-GRAMMAR-009
+    point: 'Idiomatic expression patterns for literary reading'
+    explanation: 'Recognising fixed expressions, proverbs and metaphorical constructions whose meaning cannot be assembled word by word'
+    examples:
+      - 'Every cloud has a silver lining.'
+      - 'Too many cooks spoil the broth.'
+    cefrNotes: 'C1 readers decode fixed expressions and depend on cultural reference for full literary meaning'
+culturalNotes: 'British literary prose draws on the Bible, Shakespeare and folk sayings; allusions to these shared sources compress an attitude into a phrase. Native readers catch the echo without any overt marker.'

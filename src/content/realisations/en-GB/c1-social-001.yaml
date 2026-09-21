@@ -1,0 +1,54 @@
+nodeId: C1-SOCIAL-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-C1-SOCIAL-001-001
+    term: 'to express oneself fluently'
+    translation: 'expressar-se com fluidez'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'He can express himself fluently in any situation.'
+    exampleTranslation: 'Consegue expressar-se com fluidez em qualquer situação.'
+  - id: en-GB-C1-SOCIAL-001-002
+    term: 'without hesitation'
+    translation: 'sem hesitação'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'He answered the difficult questions without hesitation.'
+    exampleTranslation: 'Respondeu sem hesitação às perguntas difíceis.'
+  - id: en-GB-C1-SOCIAL-001-003
+    term: "to adapt one's discourse"
+    translation: 'adaptar o discurso'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'He knows how to adapt his discourse to the audience in front of him.'
+    exampleTranslation: 'Sabe adaptar o discurso ao público que tem à frente.'
+  - id: en-GB-C1-SOCIAL-001-004
+    term: 'to anticipate the reaction'
+    translation: 'antecipar a reação'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'He can anticipate the reaction of his interlocutors.'
+    exampleTranslation: 'Consegue antecipar a reação dos interlocutores.'
+  - id: en-GB-C1-SOCIAL-001-005
+    term: 'to maintain naturalness'
+    translation: 'manter a naturalidade'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Even in formal situations, he maintains his naturalness.'
+    exampleTranslation: 'Mesmo em situações formais, mantém a naturalidade.'
+  - id: en-GB-C1-SOCIAL-001-006
+    term: 'to resort to strategies'
+    translation: 'recorrer a estratégias'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'He resorts to reformulation strategies to make himself understood.'
+    exampleTranslation: 'Recorre a estratégias de reformulação para se fazer entender.'
+grammar:
+  - id: C1-GRAMMAR-001
+    point: 'Compound subjunctive tenses'
+    explanation: 'Using compound subjunctive structures for complex hypothetical and future-completed situations'
+    examples:
+      - 'If I had studied more, I would have passed the exam.'
+      - 'Once I have finished the work, I will rest.'
+    cefrNotes: 'C1 learners use compound subjunctive tenses for sophisticated hypothetical reasoning'
+culturalNotes: "British English fluency balances spontaneity with turn-taking fairness. Overlapping is rare; pausing signals thoughtfulness. The pronoun 'one' or passive forms are preferred in formal register."

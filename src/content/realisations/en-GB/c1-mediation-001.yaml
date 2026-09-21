@@ -1,0 +1,54 @@
+nodeId: C1-MEDIATION-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-C1-MEDIATION-001-001
+    term: 'to translate for laymen'
+    translation: 'traduzir para leigos'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'The teacher knew how to translate the technical debate for laymen.'
+    exampleTranslation: 'O professor soube traduzir para leigos o debate técnico.'
+  - id: en-GB-C1-MEDIATION-001-002
+    term: 'to simplify without losing rigour'
+    translation: 'simplificar sem perder rigor'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'The journalist simplifies the complex data without losing rigour.'
+    exampleTranslation: 'O jornalista simplifica sem perder rigor os dados complexos.'
+  - id: en-GB-C1-MEDIATION-001-003
+    term: 'to bridge between audiences'
+    translation: 'fazer a ponte entre os públicos'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'The mediator bridges between the technical and general audiences.'
+    exampleTranslation: 'O mediador faz a ponte entre os públicos técnico e geral.'
+  - id: en-GB-C1-MEDIATION-001-004
+    term: 'to rewrite the explanation'
+    translation: 'reescrever a explicação'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'He rewrote the explanation three times until it was clear.'
+    exampleTranslation: 'Reescreveu a explicação três vezes até ficar clara.'
+  - id: en-GB-C1-MEDIATION-001-005
+    term: 'the heart of the matter'
+    translation: 'núcleo da questão'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'The heart of the matter is the definition of priorities.'
+    exampleTranslation: 'O núcleo da questão é a definição de prioridades.'
+  - id: en-GB-C1-MEDIATION-001-006
+    term: 'presentation in simple terms'
+    translation: 'apresentação em termos simples'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'The presentation in simple terms convinced the assembly.'
+    exampleTranslation: 'A apresentação em termos simples convenceu a assembleia.'
+grammar:
+  - id: C1-GRAMMAR-023
+    point: 'Reformulation connectors for mediation'
+    explanation: "Using reformulation and simplification connectors such as 'in other words', 'put another way' and 'in plain terms' to make technical content accessible"
+    examples:
+      - 'In other words, the system works like a network of channels.'
+      - 'Put another way, less investment calls for more efficiency.'
+    cefrNotes: 'C1 speakers control the whole reformulation toolbox to mediate across registers'
+culturalNotes: 'Plain English is a cultural and legislative ideal in the UK: public documents are legally required to be intelligible. Skilled speakers mark the shift with explicit connectives, letting the audience place the simplified statement.'

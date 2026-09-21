@@ -1,0 +1,54 @@
+nodeId: C1-ACADEMIC-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C1-ACADEMIC-001-001
+    term: 'dissertação académica'
+    translation: 'academic dissertation'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A dissertação académica articula teoria e dados empíricos.'
+    exampleTranslation: 'The academic dissertation articulates theory and empirical data.'
+  - id: pt-PT-C1-ACADEMIC-001-002
+    term: 'bateria de fontes'
+    translation: 'body of sources'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A bateria de fontes consultadas é vasta e credível.'
+    exampleTranslation: 'The body of sources consulted is broad and credible.'
+  - id: pt-PT-C1-ACADEMIC-001-003
+    term: 'quadro teórico'
+    translation: 'theoretical framework'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O quadro teórico sustenta toda a análise subsequente.'
+    exampleTranslation: 'The theoretical framework underpins all subsequent analysis.'
+  - id: pt-PT-C1-ACADEMIC-001-004
+    term: 'reunir evidências'
+    translation: 'to gather evidence'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'O capítulo dois reúne evidências decisivas para a hipótese.'
+    exampleTranslation: 'Chapter two gathers decisive evidence for the hypothesis.'
+  - id: pt-PT-C1-ACADEMIC-001-005
+    term: 'sintetizar os pareceres'
+    translation: 'to synthesise the findings'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Conclui-se por sintetizar os pareceres dos autores estudados.'
+    exampleTranslation: 'The conclusion synthesises the findings of the authors studied.'
+  - id: pt-PT-C1-ACADEMIC-001-006
+    term: 'contributo original'
+    translation: 'original contribution'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O contributo original do trabalho reside na comparação inédita.'
+    exampleTranslation: 'The original contribution of the work lies in the unprecedented comparison.'
+grammar:
+  - id: C1-GRAMMAR-017
+    point: 'Impersonal constructions and inversion in academic prose'
+    explanation: "Foregrounding the argument with impersonal and passive-like constructions such as 'importa sublinhar', 'verifica-se que' and inversion after 'não só'"
+    examples:
+      - 'Importa sublinhar que os resultados confirmam a hipótese inicial.'
+      - 'Não só se confirma a hipótese como se abre uma nova linha de estudo.'
+    cefrNotes: "C1 academic writers use impersonal constructions to distance the argument from the author's person"
+culturalNotes: "Portuguese academic writing in humanities keeps the author present through constructions like 'o nosso contributo'; impersonal forms share the load with the passive 'se'. The register is formal but retains personal modulation."

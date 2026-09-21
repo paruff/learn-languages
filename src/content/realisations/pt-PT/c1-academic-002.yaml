@@ -1,0 +1,54 @@
+nodeId: C1-ACADEMIC-002
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C1-ACADEMIC-002-001
+    term: 'comunicação em congresso'
+    translation: 'conference paper'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A comunicação em congresso esgotou o tempo previsto.'
+    exampleTranslation: 'The conference paper used up the allotted time.'
+  - id: pt-PT-C1-ACADEMIC-002-002
+    term: 'público especializado'
+    translation: 'specialist audience'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O público especializado fez perguntas incisivas.'
+    exampleTranslation: 'The specialist audience asked incisive questions.'
+  - id: pt-PT-C1-ACADEMIC-002-003
+    term: 'serve de fundo à apresentação'
+    translation: 'to serve as a foundation for the presentation'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Os dados preliminares servem de fundo à apresentação final.'
+    exampleTranslation: 'The preliminary data serve as a foundation for the final presentation.'
+  - id: pt-PT-C1-ACADEMIC-002-004
+    term: 'percurso da argumentação'
+    translation: 'path of the argumentation'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O orador anunciou de antemão o percurso da argumentação.'
+    exampleTranslation: 'The speaker announced the path of the argumentation in advance.'
+  - id: pt-PT-C1-ACADEMIC-002-005
+    term: 'gerir o tempo de fala'
+    translation: 'to manage speaking time'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É essencial gerir o tempo de fala para não atropelar a conclusão.'
+    exampleTranslation: 'It is essential to manage speaking time so as not to rush the conclusion.'
+  - id: pt-PT-C1-ACADEMIC-002-006
+    term: 'refutar sem agressividade'
+    translation: 'to refute without aggression'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Respondeu por saber refutar sem agressividade.'
+    exampleTranslation: 'He responded by knowing how to refute without aggression.'
+grammar:
+  - id: C1-GRAMMAR-018
+    point: 'Connectors and compound subjunctive for spoken academic argument'
+    explanation: "Backing up assertive sequences with concessive connectors and compound subjunctive hedges, e.g. 'se bem que' and 'mesmo que se tivesse'"
+    examples:
+      - 'Se bem que os dados sejam parciais, a tendência é clara.'
+      - 'Mesmo que se tivesse alargado a amostra, a conclusão manter-se-ia.'
+    cefrNotes: 'C1 speakers of academic discourse combine concession with subjunctive hedging for impartial tone'
+culturalNotes: "Portuguese academic speakers value the balanced conceding move: acknowledging the limits of one's own evidence before pressing the claim. In Q&A, compound subjunctives soften objection and protect face."

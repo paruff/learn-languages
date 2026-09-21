@@ -1,0 +1,54 @@
+nodeId: C1-ARGUE-004
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C1-ARGUE-004-001
+    term: 'defender com argumentos'
+    translation: 'to defend with arguments'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'O texto defende com argumentos sólidos a posição do autor.'
+    exampleTranslation: "The text defends the author's position with solid arguments."
+  - id: pt-PT-C1-ARGUE-004-002
+    term: 'conduzir o leitor'
+    translation: 'to guide the reader'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Uma boa argumentação conduz o leitor de forma natural à conclusão.'
+    exampleTranslation: 'Good argumentation guides the reader naturally towards the conclusion.'
+  - id: pt-PT-C1-ARGUE-004-003
+    term: 'articular as ideias'
+    translation: 'to articulate the ideas'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É imprescindível articular as ideias antes de escrever o primeiro parágrafo.'
+    exampleTranslation: 'It is essential to articulate the ideas before writing the first paragraph.'
+  - id: pt-PT-C1-ARGUE-004-004
+    term: 'rebater a objeção'
+    translation: 'to rebut the objection'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'No quarto parágrafo, o autor rebate a principal objeção.'
+    exampleTranslation: 'In the fourth paragraph, the author rebuts the main objection.'
+  - id: pt-PT-C1-ARGUE-004-005
+    term: 'seguir um fio condutor'
+    translation: 'to follow a guiding thread'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Todos os exemplos seguem um fio condutor claro e rigoroso.'
+    exampleTranslation: 'All the examples follow a clear and rigorous guiding thread.'
+  - id: pt-PT-C1-ARGUE-004-006
+    term: 'assentar em premissas'
+    translation: 'to rest on premises'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'A conclusão assenta em premissas que convém explicitar.'
+    exampleTranslation: 'The conclusion rests on premises that should be made explicit.'
+grammar:
+  - id: C1-GRAMMAR-006
+    point: 'Inversion for written emphasis'
+    explanation: "Placing the verb before the subject after negative or restrictive adverbs such as 'só assim' and 'raramente' to give emphatic weight in formal writing"
+    examples:
+      - 'Só assim se compreende a decisão tomada.'
+      - 'Raramente assistimos a tamanha coerência argumentativa.'
+    cefrNotes: 'C1 writers use inversion to mark the pivotal point of an argument in formal register'
+culturalNotes: 'In European Portuguese written argument, inversion after restrictive adverbs is a hallowed stylistic device that lends authority. It belongs mainly to formal prose, and its degree of use separates academic discourse from journalistic writing.'

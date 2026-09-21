@@ -1,0 +1,11 @@
+nodeId: C1-SOCIAL-001
+cefrLevel: C1
+skill: spoken_interaction
+canDo: 'Can express him/herself fluently and spontaneously without much obvious searching for expressions'
+pragmaticFocus: 'Fluent spontaneous interaction'
+notionalFocus: 'Automaticity, flexibility in social contexts'
+relatedNodes:
+  - C1-SOCIAL-002
+  - B2-SOCIAL-001
+prerequisiteNodes:
+  - B2-SOCIAL-001

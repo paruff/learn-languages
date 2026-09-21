@@ -1,0 +1,54 @@
+nodeId: C1-TEXT-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-C1-TEXT-001-001
+    term: 'to read between the lines'
+    translation: 'ler nas entrelinhas'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'An attentive reader knows how to read between the lines of editorials.'
+    exampleTranslation: 'Um leitor atento sabe ler nas entrelinhas dos editoriais.'
+  - id: en-GB-C1-TEXT-001-002
+    term: 'to grasp the implicit meaning'
+    translation: 'apreender o sentido implícito'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'The critic grasped the implicit meaning of the novel.'
+    exampleTranslation: 'O crítico apreendeu o sentido implícito do romance.'
+  - id: en-GB-C1-TEXT-001-003
+    term: 'to discern the irony'
+    translation: 'descortinar a ironia'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Only an experienced reader can discern the irony of the text.'
+    exampleTranslation: 'Só um leitor experiente consegue descortinar a ironia do texto.'
+  - id: en-GB-C1-TEXT-001-004
+    term: 'long-form text'
+    translation: 'texto de fôlego'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'The essay is a long-form text on European identity.'
+    exampleTranslation: 'O ensaio é um texto de fôlego sobre a identidade europeia.'
+  - id: en-GB-C1-TEXT-001-005
+    term: 'to contextualise the work'
+    translation: 'contextualizar a obra'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is advisable to contextualise the work within the era in which it was written.'
+    exampleTranslation: 'Convém contextualizar a obra na época em que foi escrita.'
+  - id: en-GB-C1-TEXT-001-006
+    term: 'to infer the point of view'
+    translation: 'deduzir o ponto de vista'
+    partOfSpeech: phrase
+    gender: n/a
+    example: "The author's point of view can be inferred from the choice of examples."
+    exampleTranslation: 'Deduz-se o ponto de vista do autor pela escolha dos exemplos.'
+grammar:
+  - id: C1-GRAMMAR-007
+    point: 'Subjunctive alternatives for implied meaning'
+    explanation: 'Recognising that English conveys implied, unstated meaning through modal auxiliaries, conditional forms, and hedging where Portuguese uses the compound subjunctive'
+    examples:
+      - 'Even had he not said it, his intention was clear.'
+      - 'Had it been explicit, the text would have lost its subtlety.'
+    cefrNotes: 'C1 readers of English recognise inverted conditionals and modals as carriers of implied meaning'
+culturalNotes: 'English implies meaning largely through intonation, modal auxiliaries, and ironic understatement, carrying the same functions that Portuguese marks with the subjunctive. Formal texts prefer explicit logical markers; implication is reserved for literary and ironic registers.'

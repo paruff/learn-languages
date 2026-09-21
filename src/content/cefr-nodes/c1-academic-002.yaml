@@ -1,0 +1,11 @@
+nodeId: C1-ACADEMIC-002
+cefrLevel: C1
+skill: spoken_production
+canDo: 'Can present complex content to a specialist or general audience, structuring the talk coherently and adapting it to the listeners'
+pragmaticFocus: 'Academic presentation'
+notionalFocus: 'Structuring, audience adaptation'
+relatedNodes:
+  - C1-ACADEMIC-001
+  - C1-SPOKEN-003
+prerequisiteNodes:
+  - C1-ACADEMIC-001

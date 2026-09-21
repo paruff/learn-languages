@@ -1,0 +1,11 @@
+nodeId: C1-MEDIATION-001
+cefrLevel: C1
+skill: spoken_production
+canDo: 'Can explain a complicated issue in a way that makes it accessible to a non-expert, reformulating and simplifying without losing accuracy'
+pragmaticFocus: 'Mediation for non-experts'
+notionalFocus: 'Reformulation, simplification'
+relatedNodes:
+  - C1-ACADEMIC-001
+  - C1-TEXT-002
+prerequisiteNodes:
+  - C1-ACADEMIC-001

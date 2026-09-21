@@ -1,0 +1,54 @@
+nodeId: C1-LITERARY-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-C1-LITERARY-001-001
+    term: 'layers of meaning'
+    translation: 'camadas de sentido'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'The poem reveals layers of meaning with every re-reading.'
+    exampleTranslation: 'O poema revela camadas de sentido a cada releitura.'
+  - id: en-GB-C1-LITERARY-001-002
+    term: 'extended metaphor'
+    translation: 'metáfora de fôlego'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'The extended metaphor runs through the whole novel.'
+    exampleTranslation: 'A metáfora de fôlego atravessa todo o romance.'
+  - id: en-GB-C1-LITERARY-001-003
+    term: 'cultural resonance'
+    translation: 'ressonância cultural'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'The cultural resonance of the tale escapes foreign readers.'
+    exampleTranslation: 'A ressonância cultural do conto escapa a leitores estrangeiros.'
+  - id: en-GB-C1-LITERARY-001-004
+    term: 'narrative voice'
+    translation: 'voz narrativa'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'The narrative voice distances itself from the classic omniscient narrator.'
+    exampleTranslation: 'A voz narrativa distancia-se do narrador omnisciente clássico.'
+  - id: en-GB-C1-LITERARY-001-005
+    term: 'to weave the references together'
+    translation: 'entrelaçar as referências'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'The author weaves the biblical and maritime references together with talent.'
+    exampleTranslation: 'O autor entrelaça as referências bíblicas e marítimas com talento.'
+  - id: en-GB-C1-LITERARY-001-006
+    term: 'flavour of the era'
+    translation: 'sabor da época'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'The novel recreates the flavour of the era with rigour and imagination.'
+    exampleTranslation: 'O romance recria o sabor da época com rigor e imaginação.'
+grammar:
+  - id: C1-GRAMMAR-019
+    point: 'Ellipsis and idiomatic compression in literary style'
+    explanation: 'Reading the compressed style of literary prose, where ellipsis and fixed expressions compress layers of meaning that the reader must unpack'
+    examples:
+      - 'He came. He saw. He stayed. That was enough.'
+      - 'Worn words, yet guaranteed effect.'
+    cefrNotes: 'C1 literary readers reconstruct elided meaning and figurative shortcuts in dense prose'
+culturalNotes: 'English literary prose from Woolf to contemporary short fiction relies heavily on implication and understatement; the meaning is often what is left unstated. Allusion draws on a shared canon of Bible, Shakespeare and popular culture.'

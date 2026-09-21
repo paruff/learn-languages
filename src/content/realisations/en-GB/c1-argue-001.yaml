@@ -1,0 +1,54 @@
+nodeId: C1-ARGUE-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-C1-ARGUE-001-001
+    term: 'to develop sub-topics'
+    translation: 'desenvolver sub-temas'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'The speaker developed the sub-topics with enviable coherence.'
+    exampleTranslation: 'O orador desenvolveu os sub-temas com uma coerência invejável.'
+  - id: en-GB-C1-ARGUE-001-002
+    term: 'to structure the presentation'
+    translation: 'estruturar a exposição'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Knowing how to structure the presentation is essential for keeping attention.'
+    exampleTranslation: 'Saber estruturar a exposição é essencial para manter a atenção.'
+  - id: en-GB-C1-ARGUE-001-003
+    term: 'to elaborate the points'
+    translation: 'aprofundar os pontos'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'After the introduction, he elaborated on the most controversial points of the issue.'
+    exampleTranslation: 'Após a introdução, aprofundou os pontos mais polémicos da questão.'
+  - id: en-GB-C1-ARGUE-001-004
+    term: 'to establish connections'
+    translation: 'estabelecer ligações'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'The way he established connections between the various topics was remarkable.'
+    exampleTranslation: 'Foi notável a forma como estabeleceu ligações entre os vários temas.'
+  - id: en-GB-C1-ARGUE-001-005
+    term: 'to present an overview'
+    translation: 'apresentar uma visão global'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'At the start, he presented an overview of the problem.'
+    exampleTranslation: 'No início, apresentou uma visão global do problema.'
+  - id: en-GB-C1-ARGUE-001-006
+    term: 'to give depth'
+    translation: 'conferir profundidade'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'The historical examples gave depth to the presentation.'
+    exampleTranslation: 'Os exemplos históricos conferiram profundidade à exposição.'
+grammar:
+  - id: C1-GRAMMAR-003
+    point: 'Cleft sentences in English'
+    explanation: "Using structures like 'It was X that...' to highlight and focus the element the speaker considers most significant"
+    examples:
+      - 'It was the lack of investment that held the project back.'
+      - 'It is precisely this point that I want to develop further.'
+    cefrNotes: 'C1 learners use cleft sentences to manage emphasis deliberately in extended discourse'
+culturalNotes: 'British English cleft constructions carry strong contrastive focus, so they are reserved for genuine disagreement or emphasis. Over-use can sound argumentative; neutral information is normally carried by intonation instead.'

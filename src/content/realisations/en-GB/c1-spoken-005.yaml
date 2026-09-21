@@ -1,0 +1,54 @@
+nodeId: C1-SPOKEN-005
+lang: en-GB
+vocabulary:
+  - id: en-GB-C1-SPOKEN-005-001
+    term: 'to follow a film without subtitles'
+    translation: 'acompanhar um filme sem legendas'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'She can already follow a film without subtitles from start to finish.'
+    exampleTranslation: 'Já consegue acompanhar um filme sem legendas do princípio ao fim.'
+  - id: en-GB-C1-SPOKEN-005-002
+    term: 'fast-paced dialogue'
+    translation: 'diálogo cerrado'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'The fast-paced dialogue of modern series requires great agility.'
+    exampleTranslation: 'O diálogo cerrado das séries modernas requer grande agilidade.'
+  - id: en-GB-C1-SPOKEN-005-003
+    term: 'register shifts'
+    translation: 'mudanças de registo'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'The register shifts between scenes even reveal irony.'
+    exampleTranslation: 'As mudanças de registo entre cenas revelam até ironia.'
+  - id: en-GB-C1-SPOKEN-005-004
+    term: 'coherence of the plot'
+    translation: 'coerência da trama'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Following the coherence of the plot is a task for the attentive listener.'
+    exampleTranslation: 'Seguir a coerência da trama é tarefa de ouvinte atento.'
+  - id: en-GB-C1-SPOKEN-005-005
+    term: 'slang and everyday expressions'
+    translation: 'gíria e expressões do quotidiano'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Slang and everyday expressions appear without warning.'
+    exampleTranslation: 'A gíria e as expressões do quotidiano aparecem sem aviso.'
+  - id: en-GB-C1-SPOKEN-005-006
+    term: 'to interpret the tone'
+    translation: 'interpretar o tom'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Only the tone allows one to interpret what sounds like a threat.'
+    exampleTranslation: 'Só o tom permite interpretar o que parece uma ameaça.'
+grammar:
+  - id: C1-GRAMMAR-025
+    point: 'Implicit reference in media comprehension'
+    explanation: 'Recovering who or what is being referred to in dense media dialogue, where pronouns and ellipsis are frequent and reference is negotiated implicitly across fast scene changes'
+    examples:
+      - 'He has not confirmed it yet; the character knows who they are talking about.'
+      - 'In the next episode, you understand why they had done it.'
+    cefrNotes: 'C1 listeners decode implicit reference and register shifts in unscripted-like, dense media speech without effort'
+    culturalNotes: 'Portuguese television and film often favour understated dialogue where much is carried by tone and shared knowledge. Effortless understanding marks out near-native comprehension.'

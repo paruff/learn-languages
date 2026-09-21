@@ -1,0 +1,54 @@
+nodeId: C1-SPOKEN-004
+lang: en-GB
+vocabulary:
+  - id: en-GB-C1-SPOKEN-004-001
+    term: 'to read between the lines'
+    translation: 'perceber as entrelinhas'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'When the speaker digresses, you have to read between the lines.'
+    exampleTranslation: 'Quando o orador se desvia, é preciso perceber as entrelinhas.'
+  - id: en-GB-C1-SPOKEN-004-002
+    term: 'rambling speech'
+    translation: 'discurso arrastado'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Despite the rambling speech, the central idea was clear.'
+    exampleTranslation: 'Apesar do discurso arrastado, a ideia central estava clara.'
+  - id: en-GB-C1-SPOKEN-004-003
+    term: 'implied connections'
+    translation: 'ligações implícitas'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'The implied connections between the themes are only understood with attention.'
+    exampleTranslation: 'As ligações implícitas entre os temas só se entendem com atenção.'
+  - id: en-GB-C1-SPOKEN-004-004
+    term: 'to follow the thread of the reasoning'
+    translation: 'seguir o fio ao raciocínio'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'In a confusing debate, it is hard to follow the thread of the reasoning.'
+    exampleTranslation: 'Num debate confuso, é difícil seguir o fio ao raciocínio.'
+  - id: en-GB-C1-SPOKEN-004-005
+    term: 'to grasp the intention'
+    translation: 'captar a intenção'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'We only grasped the intention of the question at the end of the speech.'
+    exampleTranslation: 'Só captámos a intenção da pergunta no fim do discurso.'
+  - id: en-GB-C1-SPOKEN-004-006
+    term: 'unmarked communication'
+    translation: 'comunicação sem marcações'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Unmarked communication demands a much greater effort from the listener.'
+    exampleTranslation: 'A comunicação sem marcações exige do ouvinte um esforço redobrado.'
+grammar:
+  - id: C1-GRAMMAR-024
+    point: 'Inference with implied implication in listening'
+    explanation: "Tracking meaning that is implied rather than signalled, recovering elided links between clauses and elliptical references in complex or rambling speech, such as 'what we heard next spoke volumes'"
+    examples:
+      - 'The speaker criticised the measure; we gathered he would vote against it.'
+      - 'Should that happen...; you understand the rest.'
+    cefrNotes: 'C1 listeners process unmarked and elliptical speech, recovering cohesive links without explicit connectors'
+    culturalNotes: 'European Portuguese speakers often leave conversational links implicit, trusting shared knowledge. Recovering those links without explicit markers is a hallmark of full proficiency.'

@@ -1,0 +1,11 @@
+nodeId: C1-ARGUE-001
+cefrLevel: C1
+skill: spoken_production
+canDo: 'Can present clear, detailed descriptions of complex subjects integrating sub-themes and developing particular points'
+pragmaticFocus: 'Complex subject presentation'
+notionalFocus: 'Structure, integration of sub-themes'
+relatedNodes:
+  - C1-ARGUE-002
+  - B2-ARGUE-003
+prerequisiteNodes:
+  - B2-ARGUE-003

@@ -1,0 +1,11 @@
+nodeId: C1-TEXT-003
+cefrLevel: C1
+skill: reading
+canDo: 'Can appreciate contemporary literary texts including idiomatic, cultural and historic allusions'
+pragmaticFocus: 'Literary appreciation'
+notionalFocus: 'Literary language, allusion'
+relatedNodes:
+  - C1-LITERARY-001
+  - C1-TEXT-001
+prerequisiteNodes:
+  - C1-TEXT-001

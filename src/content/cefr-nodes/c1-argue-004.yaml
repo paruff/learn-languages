@@ -1,0 +1,11 @@
+nodeId: C1-ARGUE-004
+cefrLevel: C1
+skill: writing
+canDo: 'Can sustain a viewpoint in writing by providing relevant supporting detail and evaluating counter-arguments'
+pragmaticFocus: 'Written viewpoint sustainability'
+notionalFocus: 'Evidence, counter-argument, written argument'
+relatedNodes:
+  - C1-ARGUE-002
+  - C1-WRITTEN-002
+prerequisiteNodes:
+  - C1-ARGUE-002

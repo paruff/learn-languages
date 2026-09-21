@@ -1,0 +1,54 @@
+nodeId: C1-NUANCED-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-C1-NUANCED-001-001
+    term: 'delicate disagreement'
+    translation: 'discordância delicada'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'The delicate disagreement did not harm the friendship.'
+    exampleTranslation: 'A discordância delicada não prejudicou a amizade.'
+  - id: en-GB-C1-NUANCED-001-002
+    term: "to fine-tune one's language"
+    translation: 'afinar a linguagem'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'As the conversation heated up, he fine-tunes his language so as not to hurt.'
+    exampleTranslation: 'Conforme a conversa esquentava, afina a linguagem para não ferir.'
+  - id: en-GB-C1-NUANCED-001-003
+    term: 'to tread carefully'
+    translation: 'ir com cautela'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'In family debates, it is wise to tread carefully when touching the matter.'
+    exampleTranslation: 'No debate familiar, convém ir com cautela ao tocar o assunto.'
+  - id: en-GB-C1-NUANCED-001-004
+    term: 'sensitive matter'
+    translation: 'matéria sensível'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'The sensitive matter calls for measured words.'
+    exampleTranslation: 'A matéria sensível exige palavras medidas.'
+  - id: en-GB-C1-NUANCED-001-005
+    term: 'pausing for thought'
+    translation: 'tempo de espera'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Pausing for thought before answering avoids misunderstandings.'
+    exampleTranslation: 'Um tempo de espera antes de responder evita mal-entendidos.'
+  - id: en-GB-C1-NUANCED-001-006
+    term: 'to be ill-favoured'
+    translation: 'ficar mal visto'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'At a formal dinner, a rude reply is ill-favoured.'
+    exampleTranslation: 'Num jantar formal, uma resposta rude fica mal vista.'
+grammar:
+  - id: C1-GRAMMAR-022
+    point: 'Register switching and hedging for nuanced disagreement'
+    explanation: "Switching between direct and softened formulations and hedging disagreement with concession and epistemic downgrading, e.g. 'I take your point, but'"
+    examples:
+      - 'I take your point, but I must beg to differ.'
+      - 'That may not, to my mind, be the best solution.'
+    cefrNotes: 'C1 speakers grade disagreement by adding concessions and reprocessing signals'
+culturalNotes: "British conversational culture schedules disagreement with prefaces ('with respect', 'I take your point'), and the weight of the disagreement is carried by tone. Direct contradiction is reserved for informal or heated contexts."

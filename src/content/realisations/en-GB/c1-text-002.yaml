@@ -1,0 +1,54 @@
+nodeId: C1-TEXT-002
+lang: en-GB
+vocabulary:
+  - id: en-GB-C1-TEXT-002-001
+    term: 'technical specifications'
+    translation: 'especificações técnicas'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'The technical specifications of the equipment run to twenty pages.'
+    exampleTranslation: 'As especificações técnicas do equipamento ocupam vinte páginas.'
+  - id: en-GB-C1-TEXT-002-002
+    term: 'assembly instructions'
+    translation: 'instruções de montagem'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'The assembly instructions assume the reader knows the basics.'
+    exampleTranslation: 'As instruções de montagem partem do pressuposto de que o leitor conhece o básico.'
+  - id: en-GB-C1-TEXT-002-003
+    term: 'specialised article'
+    translation: 'artigo especializado'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'The specialised article presupposes knowledge of biochemistry.'
+    exampleTranslation: 'O artigo especializado pressupõe conhecimentos de bioquímica.'
+  - id: en-GB-C1-TEXT-002-004
+    term: 'technical jargon'
+    translation: 'jargão técnico'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'The text uses technical jargon that intimidates non-specialists.'
+    exampleTranslation: 'O texto recorre a um jargão técnico que intimida os leigos.'
+  - id: en-GB-C1-TEXT-002-005
+    term: 'to decipher the acronyms'
+    translation: 'decifrar as siglas'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'To understand the report, one must decipher the acronyms on the first page.'
+    exampleTranslation: 'Para compreender o relatório, é preciso decifrar as siglas da primeira página.'
+  - id: en-GB-C1-TEXT-002-006
+    term: 'technical annex'
+    translation: 'anexo técnico'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'The full details are to be found in the technical annex.'
+    exampleTranslation: 'Os detalhes completos encontram-se no anexo técnico.'
+grammar:
+  - id: C1-GRAMMAR-008
+    point: 'Ellipsis in dense technical prose'
+    explanation: 'Omitting repeated subjects, auxiliaries and relative elements so that technical writing stays concise, and recognising the recovered meaning'
+    examples:
+      - 'First switch the device on; then wait two minutes.'
+      - 'Module A feeds module B; module B drives the output stage.'
+    cefrNotes: 'C1 readers recover elided material automatically in high-density technical texts'
+culturalNotes: 'English technical writing favours the imperative and nominalisation, with ellipsis of the agent. Clarity is a legal requirement in British standards documents, so elided elements must be directly recoverable from adjacent text.'

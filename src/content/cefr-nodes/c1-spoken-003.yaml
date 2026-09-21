@@ -1,0 +1,11 @@
+nodeId: C1-SPOKEN-003
+cefrLevel: C1
+skill: spoken_interaction
+canDo: 'Can keep up a fluent conversation on abstract and complex topics, using a variety of devices to structure and emphasise discourse'
+pragmaticFocus: 'Discourse structuring in conversation'
+notionalFocus: 'Abstract topics, emphasis'
+relatedNodes:
+  - C1-SPOKEN-002
+  - C1-SOCIAL-002
+prerequisiteNodes:
+  - C1-SPOKEN-002

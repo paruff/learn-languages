@@ -1,0 +1,54 @@
+nodeId: C1-SPOKEN-002
+lang: en-GB
+vocabulary:
+  - id: en-GB-C1-SPOKEN-002-001
+    term: 'to get down to business'
+    translation: 'deitar mãos ao assunto'
+    partOfSpeech: phrase
+    gender: n/a
+    example: "Enough beating about the bush; let's get down to business."
+    exampleTranslation: 'Basta de rodear o assunto; vamos deitar mãos ao trabalho.'
+  - id: en-GB-C1-SPOKEN-002-002
+    term: 'a wild and uncalled-for addition'
+    translation: 'cair que nem ginjas'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'That comment was a wild and uncalled-for addition to the discussion.'
+    exampleTranslation: 'Aquele comentário caiu que nem ginjas na discussão.'
+  - id: en-GB-C1-SPOKEN-002-003
+    term: 'to have the patience of a saint'
+    translation: 'ter paciências de santo'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'The teacher has the patience of a saint with the slower students.'
+    exampleTranslation: 'A professora tem paciências de santo com os alunos mais lentos.'
+  - id: en-GB-C1-SPOKEN-002-004
+    term: 'to know what one is talking about'
+    translation: 'saber do que fala'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'When he talks about fishing, he knows what he is talking about.'
+    exampleTranslation: 'Quando fala de pesca, sabe do que fala.'
+  - id: en-GB-C1-SPOKEN-002-005
+    term: "to dig into one's memory"
+    translation: 'puxar da memória'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'He dug into his memory for the names of all the old songs.'
+    exampleTranslation: 'Puxou da memória os nomes de todas as canções antigas.'
+  - id: en-GB-C1-SPOKEN-002-006
+    term: 'in no time at all'
+    translation: 'em dois tempos'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'He solved the problem in no time at all.'
+    exampleTranslation: 'Resolveu o problema em dois tempos.'
+grammar:
+  - id: C1-GRAMMAR-012
+    point: 'Idiomatic colloquial patterns for fluent speech'
+    explanation: "Deploying fixed colloquial phrases that carry attitude while maintaining naturalness, such as 'now you're talking' and 'that's done the trick'"
+    examples:
+      - "Now you're talking: that sounds like a real party."
+      - "That's done the trick nicely."
+    cefrNotes: 'C1 speakers own a repertoire of fixed expressions enabling fluent, idiomatic output'
+culturalNotes: 'British conversation uses understatement and formulaic idioms to soften or intensify attitude; idiomatic fluency signals in-group membership, and masters choose the fixed form the situation evokes.'
