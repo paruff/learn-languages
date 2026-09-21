@@ -1,0 +1,51 @@
+nodeId: A2-NEWS-002
+lang: es-ES
+vocabulary:
+  - id: es-ES-A2-NEWS-002-001
+    term: 'acontecimiento'
+    translation: 'event / happening'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'El acontecimiento más importante fue la elección.'
+    exampleTranslation: 'The most important event was the election.'
+  - id: es-ES-A2-NEWS-002-002
+    term: 'reportar'
+    translation: 'to report'
+    partOfSpeech: verb
+    example: 'Los medios reportaron el accidente.'
+    exampleTranslation: 'The media reported the accident.'
+  - id: es-ES-A2-NEWS-002-003
+    term: 'describir'
+    translation: 'to describe'
+    partOfSpeech: verb
+    example: 'Puedo describir lo que pasó.'
+    exampleTranslation: 'I can describe what happened.'
+  - id: es-ES-A2-NEWS-002-004
+    term: 'evento'
+    translation: 'event'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'El evento tuvo lugar en el centro de la ciudad.'
+    exampleTranslation: 'The event took place in the city centre.'
+  - id: es-ES-A2-NEWS-002-005
+    term: 'ocurrir'
+    translation: 'to happen'
+    partOfSpeech: verb
+    example: '¿Qué fue lo que ocurrió?'
+    exampleTranslation: 'What was it that happened?'
+  - id: es-ES-A2-NEWS-002-006
+    term: 'lugar'
+    translation: 'place / location'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'El lugar del evento era el ayuntamiento.'
+    exampleTranslation: 'The venue of the event was the town hall.'
+grammar:
+  - id: es-ES-A2-NEWS-002-G1
+    point: 'Passive voice with "ser" for reporting'
+    explanation: "Use the passive voice with 'ser' + past participle to report events objectively: 'El accidente fue reportado por la policía' (The accident was reported by the police)."
+    examples:
+      - 'La noticia fue publicada en todos los periódicos.'
+      - 'El evento fue organizado por el ayuntamiento.'
+    cefrNotes: 'A2 learners use the passive voice to describe media events objectively'
+culturalNotes: 'Spanish news reporting often uses the passive voice with "ser" for formal reporting. The passive with "se" (e.g. "se reportó el accidente") is also common in journalism.'

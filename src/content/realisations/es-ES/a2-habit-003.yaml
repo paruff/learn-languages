@@ -1,0 +1,43 @@
+nodeId: A2-HABIT-003
+lang: es-ES
+vocabulary:
+  - id: es-ES-A2-HABIT-003-001
+    term: 'noticia'
+    translation: 'news item'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Leí una noticia interesante en el periódico.'
+    exampleTranslation: 'I read an interesting news item in the newspaper.'
+  - id: es-ES-A2-HABIT-003-002
+    term: 'reciente'
+    translation: 'recent'
+    partOfSpeech: adjective
+    example: 'Los eventos recientes han sido importantes.'
+    exampleTranslation: 'The recent events have been important.'
+  - id: es-ES-A2-HABIT-003-003
+    term: 'suceso'
+    translation: 'event / occurrence'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'El suceso tuvo lugar ayer por la tarde.'
+    exampleTranslation: 'The event took place yesterday afternoon.'
+  - id: es-ES-A2-HABIT-003-004
+    term: 'ocurrir'
+    translation: 'to happen / to occur'
+    partOfSpeech: verb
+    example: '¿Qué ocurrió en la reunión?'
+    exampleTranslation: 'What happened at the meeting?'
+  - id: es-ES-A2-HABIT-003-005
+    term: 'enterarse'
+    translation: 'to find out'
+    partOfSpeech: verb
+    example: 'Me enteré de la noticia por la televisión.'
+    exampleTranslation: 'I found out about the news on television.'
+  - id: es-ES-A2-HABIT-003-006
+    term: 'comentar'
+    translation: 'to comment'
+    partOfSpeech: verb
+    example: 'Comentamos la noticia en el trabajo.'
+    exampleTranslation: 'We commented on the news at work.'
+grammar: []
+culturalNotes: 'Spain has a strong newspaper tradition (El País, El Mundo, La Vanguardia). Many Spaniards still read physical newspapers, especially the older generation.'

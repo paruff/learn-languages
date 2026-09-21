@@ -1,0 +1,49 @@
+nodeId: A2-HABIT-002
+lang: es-ES
+vocabulary:
+  - id: es-ES-A2-HABIT-002-001
+    term: 'actividad reciente'
+    translation: 'recent activity'
+    partOfSpeech: phrase
+    gender: feminine
+    example: '¿Cuál fue tu actividad reciente?'
+    exampleTranslation: 'What was your recent activity?'
+  - id: es-ES-A2-HABIT-002-002
+    term: 'hacer planes'
+    translation: 'to make plans'
+    partOfSpeech: phrase
+    example: 'Hice planes con mis amigos para el fin de semana.'
+    exampleTranslation: 'I made plans with my friends for the weekend.'
+  - id: es-ES-A2-HABIT-002-003
+    term: 'quedarse en casa'
+    translation: 'to stay at home'
+    partOfSpeech: phrase
+    example: 'A veces prefiero quedarme en casa.'
+    exampleTranslation: 'Sometimes I prefer staying at home.'
+  - id: es-ES-A2-HABIT-002-004
+    term: 'salir'
+    translation: 'to go out'
+    partOfSpeech: verb
+    example: 'Salí con mis compañeros ayer por la noche.'
+    exampleTranslation: 'I went out with my colleagues last night.'
+  - id: es-ES-A2-HABIT-002-005
+    term: 'visitar'
+    translation: 'to visit'
+    partOfSpeech: verb
+    example: 'Visité a mis abuelos el domingo pasado.'
+    exampleTranslation: 'I visited my grandparents last Sunday.'
+  - id: es-ES-A2-HABIT-002-006
+    term: 'participar'
+    translation: 'to participate'
+    partOfSpeech: verb
+    example: 'Participé en un taller de cocina.'
+    exampleTranslation: 'I participated in a cooking workshop.'
+grammar:
+  - id: es-ES-A2-HABIT-002-G1
+    point: 'Preterite for recent completed activities'
+    explanation: "Use the preterite with recent-time markers ('ayer', 'la semana pasada', 'el domingo pasado') to describe completed recent activities."
+    examples:
+      - 'Ayer visité a mis padres.'
+      - 'La semana pasada asistí a una conferencia.'
+    cefrNotes: 'Preterite with recent-time markers is a core A2 skill'
+culturalNotes: 'Spanish social life often involves "quedadas" (casual meetups) with friends, especially in the evening. "Salir" can mean going out for drinks, dinner, or simply socialising.'

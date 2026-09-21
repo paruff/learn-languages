@@ -1,0 +1,53 @@
+nodeId: A2-CULT-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-A2-CULT-001-001
+    term: 'fiesta'
+    translation: 'party / festival'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La fiesta de San Fermín es muy famosa.'
+    exampleTranslation: 'The San Fermín festival is very famous.'
+  - id: es-ES-A2-CULT-001-002
+    term: 'tradición'
+    translation: 'tradition'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Es una tradición muy antigua.'
+    exampleTranslation: 'It is a very old tradition.'
+  - id: es-ES-A2-CULT-001-003
+    term: 'celebración'
+    translation: 'celebration'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La celebración dura toda la semana.'
+    exampleTranslation: 'The celebration lasts the whole week.'
+  - id: es-ES-A2-CULT-001-004
+    term: 'costumbre'
+    translation: 'custom'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Es una costumbre muy arraigada.'
+    exampleTranslation: 'It is a deeply-rooted custom.'
+  - id: es-ES-A2-CULT-001-005
+    term: 'evento cultural'
+    translation: 'cultural event'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Los eventos culturales son muy variados.'
+    exampleTranslation: 'Cultural events are very varied.'
+  - id: es-ES-A2-CULT-001-006
+    term: 'asistir'
+    translation: 'to attend'
+    partOfSpeech: verb
+    example: 'Asistí a una fiesta tradicional.'
+    exampleTranslation: 'I attended a traditional party.'
+grammar:
+  - id: es-ES-A2-CULT-001-G1
+    point: 'Present tense for describing cultural events'
+    explanation: "Use the present tense to describe what happens at cultural events: 'durante la fiesta se lanzan tomates' (during the festival tomatoes are thrown)."
+    examples:
+      - 'Durante la Feria de Abril se instalan casetas.'
+      - 'En Semana Santa hay procesiones por toda la ciudad.'
+    cefrNotes: 'A2 learners describe cultural events using present tense and passive constructions'
+culturalNotes: 'Spain has a rich festival tradition: San Fermín (Pamplona, July), La Tomatina (Buñol, August), Las Fallas (Valencia, March), Semana Santa (nationwide, Easter). Each region has unique celebrations.'

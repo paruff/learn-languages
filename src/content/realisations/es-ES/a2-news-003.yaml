@@ -1,0 +1,50 @@
+nodeId: A2-NEWS-003
+lang: es-ES
+vocabulary:
+  - id: es-ES-A2-NEWS-003-001
+    term: 'opinar'
+    translation: 'to give an opinion'
+    partOfSpeech: verb
+    example: 'Opino que la situación es preocupante.'
+    exampleTranslation: 'I think the situation is worrying.'
+  - id: es-ES-A2-NEWS-003-002
+    term: 'parecer'
+    translation: 'to seem / to have an opinion'
+    partOfSpeech: verb
+    example: 'Me parece que es una buena idea.'
+    exampleTranslation: 'It seems to me that it is a good idea.'
+  - id: es-ES-A2-NEWS-003-003
+    term: 'acuerdo'
+    translation: 'agreement'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Estoy de acuerdo con la mayoría.'
+    exampleTranslation: 'I agree with the majority.'
+  - id: es-ES-A2-NEWS-003-004
+    term: 'desacuerdo'
+    translation: 'disagreement'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Hay un desacuerdo sobre el tema.'
+    exampleTranslation: 'There is a disagreement about the topic.'
+  - id: es-ES-A2-NEWS-003-005
+    term: 'interesante'
+    translation: 'interesting'
+    partOfSpeech: adjective
+    example: 'La noticia es muy interesante.'
+    exampleTranslation: 'The news is very interesting.'
+  - id: es-ES-A2-NEWS-003-006
+    term: 'preocupante'
+    translation: 'worrying'
+    partOfSpeech: adjective
+    example: 'Es preocupante el aumento del desempleo.'
+    exampleTranslation: 'The rise in unemployment is worrying.'
+grammar:
+  - id: es-ES-A2-NEWS-003-G1
+    point: 'Expressing opinions with "creo que" and "me parece que"'
+    explanation: "Use 'creo que' (I believe that) and 'me parece que' (it seems to me that) followed by the indicative to express opinions about current events."
+    examples:
+      - 'Creo que debemos hacer algo.'
+      - 'Me parece que la solución es clara.'
+    cefrNotes: 'A2 learners express basic opinions using epistemic verbs'
+culturalNotes: "Spaniards are typically direct when expressing opinions. 'Opinar libremente' (freely expressing one's opinion) is a valued social practice in Spanish culture."

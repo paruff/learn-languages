@@ -1,0 +1,46 @@
+nodeId: A2-STUDY-003
+lang: es-ES
+vocabulary:
+  - id: es-ES-A2-STUDY-003-001
+    term: 'texto académico'
+    translation: 'academic text'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El texto académico es difícil de entender.'
+    exampleTranslation: 'The academic text is difficult to understand.'
+  - id: es-ES-A2-STUDY-003-002
+    term: 'manual'
+    translation: 'textbook'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Necesito comprar el manual de matemáticas.'
+    exampleTranslation: 'I need to buy the maths textbook.'
+  - id: es-ES-A2-STUDY-003-003
+    term: 'resumen'
+    translation: 'summary'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Escribí un resumen del artículo.'
+    exampleTranslation: 'I wrote a summary of the article.'
+  - id: es-ES-A2-STUDY-003-004
+    term: 'apuntes'
+    translation: 'notes'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Mis apuntes de clase son muy completos.'
+    exampleTranslation: 'My class notes are very thorough.'
+  - id: es-ES-A2-STUDY-003-005
+    term: 'leer'
+    translation: 'to read'
+    partOfSpeech: verb
+    example: 'Tengo que leer tres capítulos para mañana.'
+    exampleTranslation: 'I have to read three chapters by tomorrow.'
+  - id: es-ES-A2-STUDY-003-006
+    term: 'biblioteca'
+    translation: 'library'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Estudio en la biblioteca de la universidad.'
+    exampleTranslation: 'I study at the university library.'
+grammar: []
+culturalNotes: 'Spanish academic texts often use formal register with subjunctive mood. "Apuntes" (lecture notes) are commonly shared among students as a study aid.'

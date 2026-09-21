@@ -1,0 +1,53 @@
+nodeId: A2-STUDY-002
+lang: es-ES
+vocabulary:
+  - id: es-ES-A2-STUDY-002-001
+    term: 'instituto'
+    translation: 'school'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Estudié en un instituto público.'
+    exampleTranslation: 'I studied at a public school.'
+  - id: es-ES-A2-STUDY-002-002
+    term: 'profesor'
+    translation: 'teacher'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Mi profesor de matemáticas era muy paciente.'
+    exampleTranslation: 'My maths teacher was very patient.'
+  - id: es-ES-A2-STUDY-002-003
+    term: 'asignatura'
+    translation: 'subject'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Mi asignatura favorita era historia.'
+    exampleTranslation: 'My favourite subject was history.'
+  - id: es-ES-A2-STUDY-002-004
+    term: 'examen'
+    translation: 'exam'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Mañana tengo un examen de español.'
+    exampleTranslation: 'Tomorrow I have a Spanish exam.'
+  - id: es-ES-A2-STUDY-002-005
+    term: 'aprender'
+    translation: 'to learn'
+    partOfSpeech: verb
+    example: 'Me gusta aprender cosas nuevas.'
+    exampleTranslation: 'I like learning new things.'
+  - id: es-ES-A2-STUDY-002-006
+    term: 'beca'
+    translation: 'scholarship'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Conseguí una beca para estudiar en el extranjero.'
+    exampleTranslation: 'I got a scholarship to study abroad.'
+grammar:
+  - id: es-ES-A2-STUDY-002-G1
+    point: 'Imperfect tense for past educational experiences'
+    explanation: "Use the imperfect tense ('estudiaba', 'tenía') to describe ongoing past situations in educational settings."
+    examples:
+      - 'Estudiaba en una universidad pequeña.'
+      - 'Tenía muchos exámenes en junio.'
+    cefrNotes: 'The imperfect tense describes habitual past actions and states'
+culturalNotes: 'The Spanish school system has three stages: Educación Primaria (6-12), Educación Secundaria (12-16), and Bachillerato (16-18). "Instituto" refers to the secondary school, not a research institute.'

@@ -1,0 +1,48 @@
+nodeId: A2-CULT-003
+lang: es-ES
+vocabulary:
+  - id: es-ES-A2-CULT-003-001
+    term: 'opinar'
+    translation: 'to give an opinion'
+    partOfSpeech: verb
+    example: 'Opino que la cultura es importante.'
+    exampleTranslation: 'I think culture is important.'
+  - id: es-ES-A2-CULT-003-002
+    term: 'disfrutar'
+    translation: 'to enjoy'
+    partOfSpeech: verb
+    example: 'Disfruto de la música y el arte.'
+    exampleTranslation: 'I enjoy music and art.'
+  - id: es-ES-A2-CULT-003-003
+    term: 'apreciar'
+    translation: 'to appreciate'
+    partOfSpeech: verb
+    example: 'Aprecio mucho la literatura.'
+    exampleTranslation: 'I really appreciate literature.'
+  - id: es-ES-A2-CULT-003-004
+    term: 'interesarse por'
+    translation: 'to be interested in'
+    partOfSpeech: phrase
+    example: 'Me intereso por la historia del arte.'
+    exampleTranslation: 'I am interested in art history.'
+  - id: es-ES-A2-CULT-003-005
+    term: 'favorito'
+    translation: 'favourite'
+    partOfSpeech: adjective
+    example: 'Mi pintor favorito es Picasso.'
+    exampleTranslation: 'My favourite painter is Picasso.'
+  - id: es-ES-A2-CULT-003-006
+    term: 'considerar'
+    translation: 'to consider'
+    partOfSpeech: verb
+    example: 'Considero que el arte es esencial.'
+    exampleTranslation: 'I consider that art is essential.'
+grammar:
+  - id: es-ES-A2-CULT-003-G1
+    point: 'Expressing opinions about cultural topics'
+    explanation: "Use 'opino que', 'me gusta', 'me interesa', and 'considero que' to express opinions about art, music, literature, and other cultural topics."
+    examples:
+      - 'Opino que la música es universal.'
+      - 'Me interesa mucho la historia.'
+    cefrNotes: 'A2 learners express cultural opinions using evaluative verbs'
+culturalNotes: 'Spain has produced world-renowned artists (Picasso, Dalí, Velázquez), musicians (Rodrigo, Albéniz), and writers (Cervantes, García Lorca). Art appreciation is part of everyday Spanish conversation.'

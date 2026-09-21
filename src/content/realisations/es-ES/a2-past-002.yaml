@@ -1,0 +1,48 @@
+nodeId: A2-PAST-002
+lang: es-ES
+vocabulary:
+  - id: es-ES-A2-PAST-002-001
+    term: 'antes'
+    translation: 'before'
+    partOfSpeech: adverb
+    example: 'Antes vivía en el centro, ahora vivo en las afueras.'
+    exampleTranslation: 'Before I lived in the centre, now I live in the suburbs.'
+  - id: es-ES-A2-PAST-002-002
+    term: 'ahora'
+    translation: 'now'
+    partOfSpeech: adverb
+    example: 'Ahora entiendo mucho mejor.'
+    exampleTranslation: 'Now I understand much better.'
+  - id: es-ES-A2-PAST-002-003
+    term: 'cambiar'
+    translation: 'to change'
+    partOfSpeech: verb
+    example: 'He cambiado mucho en los últimos años.'
+    exampleTranslation: 'I have changed a lot in recent years.'
+  - id: es-ES-A2-PAST-002-004
+    term: 'antes solía'
+    translation: 'used to'
+    partOfSpeech: phrase
+    example: 'Antes solía correr todos los días.'
+    exampleTranslation: 'I used to run every day.'
+  - id: es-ES-A2-PAST-002-005
+    term: 'ya no'
+    translation: 'no longer'
+    partOfSpeech: phrase
+    example: 'Ya no como carne.'
+    exampleTranslation: 'I no longer eat meat.'
+  - id: es-ES-A2-PAST-002-006
+    term: 'desde entonces'
+    translation: 'since then'
+    partOfSpeech: phrase
+    example: 'Desde entonces todo ha cambiado.'
+    exampleTranslation: 'Since then everything has changed.'
+grammar:
+  - id: es-ES-A2-PAST-002-G1
+    point: 'Imperfect vs. preterite for changes over time'
+    explanation: "Use the imperfect for past habitual states and the preterite for the moment of change: 'vivía en Madrid' (I lived in Madrid — ongoing state) vs. 'me mudé a Sevilla' (I moved to Seville — completed event)."
+    examples:
+      - 'Vivía en Madrid pero me mudé a Sevilla.'
+      - 'Estudiaba medicina pero dejé la carrera.'
+    cefrNotes: 'Contrasting imperfect and preterite shows the change narrative'
+culturalNotes: 'The contrast between "antes" and "ahora" is a key narrative structure in Spanish personal storytelling, often used to describe life transitions.'

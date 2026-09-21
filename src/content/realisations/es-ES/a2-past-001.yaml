@@ -1,0 +1,50 @@
+nodeId: A2-PAST-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-A2-PAST-001-001
+    term: 'ayer'
+    translation: 'yesterday'
+    partOfSpeech: adverb
+    example: 'Ayer fui al cine con mis amigos.'
+    exampleTranslation: 'Yesterday I went to the cinema with my friends.'
+  - id: es-ES-A2-PAST-001-002
+    term: 'la semana pasada'
+    translation: 'last week'
+    partOfSpeech: phrase
+    example: 'La semana pasada visité a mi familia.'
+    exampleTranslation: 'Last week I visited my family.'
+  - id: es-ES-A2-PAST-001-003
+    term: 'hace dos años'
+    translation: 'two years ago'
+    partOfSpeech: phrase
+    example: 'Hace dos años me mudé a Madrid.'
+    exampleTranslation: 'Two years ago I moved to Madrid.'
+  - id: es-ES-A2-PAST-001-004
+    term: 'entonces'
+    translation: 'then'
+    partOfSpeech: adverb
+    example: 'Entonces vivía en Barcelona.'
+    exampleTranslation: 'Then I lived in Barcelona.'
+  - id: es-ES-A2-PAST-001-005
+    term: 'pasado'
+    translation: 'past'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Mi pasado es interesante.'
+    exampleTranslation: 'My past is interesting.'
+  - id: es-ES-A2-PAST-001-006
+    term: 'acontecimiento'
+    translation: 'event'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'El acontecimiento más importante fue la boda.'
+    exampleTranslation: 'The most important event was the wedding.'
+grammar:
+  - id: es-ES-A2-PAST-001-G1
+    point: 'Preterite tense for completed past events'
+    explanation: "Use the preterite tense ('fui', 'visité', 'mudé') to describe completed actions in the past with a definite time."
+    examples:
+      - 'Ayer fui al supermercado.'
+      - 'El mes pasado visité a mis padres.'
+    cefrNotes: 'The preterite is used for definite, completed past actions'
+culturalNotes: 'Spanish speakers use time expressions like "hace + period" (hace dos años) to indicate how long ago something happened. The preterite is the default tense for narrating past events.'
