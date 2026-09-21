@@ -24,6 +24,7 @@ const vocabularyItemSchema = z
     audioUrl: z.string().optional(),
     imageUrl: z.string().optional(),
     imageAlt: z.string().optional(),
+    mnemonic: z.string().optional(),
   })
   .refine((data) => !data.imageUrl || !!data.imageAlt, {
     message: 'imageAlt is required whenever imageUrl is set (WCAG 2.1 AA — no unlabeled images)',
@@ -60,6 +61,25 @@ describe('Vocabulary Item Schema Validation', () => {
       imageUrl: 'ola.webp',
     });
     expect(result.success).toBe(false);
+  });
+
+  it('accepts an optional mnemonic hint', () => {
+    const result = vocabularyItemSchema.safeParse({
+      ...baseItem,
+      mnemonic: 'Sounds like "oh-LA!" — a cheerful greeting.',
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      expect(result.data.mnemonic).toBe('Sounds like "oh-LA!" — a cheerful greeting.');
+    }
+  });
+
+  it('accepts a vocabulary item with no mnemonic (backward compatible)', () => {
+    const result = vocabularyItemSchema.safeParse(baseItem);
+    expect(result.success).toBe(true);
+    if (result.success) {
+      expect(result.data.mnemonic).toBeUndefined();
+    }
   });
 });
 

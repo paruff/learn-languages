@@ -81,6 +81,12 @@ const { node, source, target, hasExercises } = Astro.props;
                   <br />
                   <em>{targetItem.exampleTranslation}</em>
                 </p>
+                {targetItem.mnemonic && (
+                  <details class="vocab-item__mnemonic">
+                    <summary>Memory aid</summary>
+                    <p>{targetItem.mnemonic}</p>
+                  </details>
+                )}
               </div>
             </li>
           );
@@ -179,6 +185,18 @@ const { node, source, target, hasExercises } = Astro.props;
     color: var(--color-text-muted);
     font-size: 0.9375rem;
     margin-bottom: 0;
+  }
+  .vocab-item__mnemonic {
+    margin-top: calc(var(--spacing-unit) * 0.5);
+    font-size: 0.875rem;
+  }
+  .vocab-item__mnemonic summary {
+    cursor: pointer;
+    color: var(--color-primary);
+  }
+  .vocab-item__mnemonic p {
+    color: var(--color-text-muted);
+    margin: calc(var(--spacing-unit) * 0.5) 0 0;
   }
   .grammar-point {
     margin-bottom: calc(var(--spacing-unit) * 2);
