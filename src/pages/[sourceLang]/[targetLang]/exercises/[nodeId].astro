@@ -1,0 +1,284 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { withBase } from '../../../../lib/urls';
+import { getAvailablePairs } from '../../../../lib/pairLoader';
+
+export async function getStaticPaths() {
+  const [pairs, nodes, exercises] = await Promise.all([
+    getAvailablePairs(),
+    getCollection('cefr-nodes'),
+    getCollection('exercises'),
+  ]);
+
+  const exercisesByNode = new Map<string, (typeof exercises)[number]['data'][]>();
+  for (const exercise of exercises) {
+    const list = exercisesByNode.get(exercise.data.lessonId) ?? [];
+    list.push(exercise.data);
+    exercisesByNode.set(exercise.data.lessonId, list);
+  }
+
+  return pairs.flatMap(({ sourceLang, targetLang }) =>
+    nodes
+      .filter((node) => exercisesByNode.has(node.data.nodeId))
+      .map((node) => ({
+        params: { sourceLang, targetLang, nodeId: node.data.nodeId },
+        props: { node: node.data, exercises: exercisesByNode.get(node.data.nodeId)! },
+      }))
+  );
+}
+
+const { sourceLang, targetLang, nodeId } = Astro.params;
+const { node, exercises } = Astro.props;
+---
+
+<BaseLayout
+  title={`Exercises: ${node.canDo} — ${sourceLang} → ${targetLang}`}
+  sourceLang={sourceLang}
+  targetLang={targetLang}
+>
+  <article class="exercises">
+    <p class="exercises__meta">
+      <span class={`badge badge--${node.cefrLevel.toLowerCase()}`}>{node.cefrLevel}</span>
+      <span>{nodeId}</span>
+    </p>
+    <h1 class="exercises__title">{node.canDo}</h1>
+    <p id="exercises-progress" class="exercises__progress"></p>
+
+    <div id="exercise-list">
+      {
+        exercises.map((exercise, index) => (
+          <div
+            class="exercise card"
+            data-index={index}
+            data-type={exercise.type}
+            data-answer={JSON.stringify(exercise.answer)}
+            hidden
+          >
+            <p class="exercise__prompt">{exercise.prompt}</p>
+
+            {exercise.type === 'fill-blank' && (
+              <form class="exercise__form">
+                <input
+                  type="text"
+                  class="exercise__input"
+                  autocomplete="off"
+                  aria-label="Your answer"
+                />
+                <button type="submit" class="btn btn--primary">
+                  Check
+                </button>
+              </form>
+            )}
+
+            {exercise.type === 'multiple-choice' && exercise.options && (
+              <div class="exercise__options">
+                {exercise.options.map((option) => (
+                  <button
+                    type="button"
+                    class="btn btn--secondary exercise__option"
+                    data-value={option}
+                  >
+                    {option}
+                  </button>
+                ))}
+              </div>
+            )}
+
+            {(exercise.type === 'matching' || exercise.type === 'audio') && (
+              <div class="exercise__reveal-only">
+                {exercise.audio && <audio controls src={withBase(exercise.audio)} />}
+                <button type="button" class="btn btn--secondary exercise__reveal">
+                  Reveal answer
+                </button>
+                <p class="exercise__answer" hidden>
+                  {Array.isArray(exercise.answer) ? exercise.answer.join('; ') : exercise.answer}
+                </p>
+              </div>
+            )}
+
+            <p class="exercise__feedback" hidden />
+
+            {exercise.hints && exercise.hints.length > 0 && (
+              <details class="exercise__hints">
+                <summary>Hint</summary>
+                <ul>
+                  {exercise.hints.map((hint) => (
+                    <li>{hint}</li>
+                  ))}
+                </ul>
+              </details>
+            )}
+
+            <button type="button" class="btn btn--primary exercise__next" hidden>
+              Next →
+            </button>
+          </div>
+        ))
+      }
+    </div>
+
+    <p id="exercises-complete" class="card" hidden></p>
+
+    <p class="exercises__cta">
+      <a href={withBase(`/${sourceLang}/${targetLang}/lessons/${nodeId}/`)}>← Back to lesson</a>
+    </p>
+  </article>
+
+  <script
+    type="application/json"
+    id="exercises-data"
+    set:html={JSON.stringify({ total: exercises.length })}
+  />
+</BaseLayout>
+
+<style>
+  .exercises {
+    max-width: 640px;
+  }
+  .exercises__meta {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-unit);
+    margin-bottom: calc(var(--spacing-unit) * 2);
+    color: var(--color-text-muted);
+    font-size: 0.875rem;
+  }
+  .exercises__progress {
+    color: var(--color-text-muted);
+    font-size: 0.875rem;
+  }
+  .exercise {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--spacing-unit) * 1.5);
+    padding: calc(var(--spacing-unit) * 2);
+  }
+  .exercise__prompt {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+  }
+  .exercise__form {
+    display: flex;
+    gap: var(--spacing-unit);
+    flex-wrap: wrap;
+  }
+  .exercise__input {
+    flex: 1;
+    min-width: 12ch;
+    padding: calc(var(--spacing-unit) * 0.75);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    font-size: 1rem;
+  }
+  .exercise__options {
+    display: flex;
+    gap: var(--spacing-unit);
+    flex-wrap: wrap;
+  }
+  .exercise__feedback {
+    font-weight: 600;
+    margin: 0;
+  }
+  .exercise__feedback--correct {
+    color: var(--color-success, #1a7f37);
+  }
+  .exercise__feedback--incorrect {
+    color: var(--color-error, #cf222e);
+  }
+  .exercises__cta {
+    margin-top: calc(var(--spacing-unit) * 3);
+  }
+</style>
+
+<script>
+  import { checkAnswer } from '../../../../lib/exerciseCheck';
+
+  const listEl = document.getElementById('exercise-list')!;
+  const progressEl = document.getElementById('exercises-progress')!;
+  const completeEl = document.getElementById('exercises-complete')!;
+  const exerciseEls = Array.from(listEl.querySelectorAll<HTMLElement>('.exercise'));
+
+  let currentIndex = 0;
+  let correctCount = 0;
+
+  function updateProgress(): void {
+    progressEl.textContent = `Exercise ${currentIndex + 1} of ${exerciseEls.length}`;
+  }
+
+  function showExercise(index: number): void {
+    exerciseEls.forEach((el, i) => {
+      el.hidden = i !== index;
+    });
+    if (index >= exerciseEls.length) {
+      listEl.hidden = true;
+      progressEl.hidden = true;
+      completeEl.hidden = false;
+      completeEl.textContent = `Done — ${correctCount}/${exerciseEls.length} correct.`;
+      return;
+    }
+    updateProgress();
+  }
+
+  function markFeedback(el: HTMLElement, correct: boolean, correctAnswer: string): void {
+    const feedbackEl = el.querySelector<HTMLElement>('.exercise__feedback')!;
+    feedbackEl.hidden = false;
+    feedbackEl.className = `exercise__feedback exercise__feedback--${correct ? 'correct' : 'incorrect'}`;
+    feedbackEl.textContent = correct ? 'Correct!' : `Not quite — the answer is "${correctAnswer}".`;
+    if (correct) correctCount += 1;
+
+    const nextBtn = el.querySelector<HTMLButtonElement>('.exercise__next')!;
+    nextBtn.hidden = false;
+  }
+
+  exerciseEls.forEach((el) => {
+    const type = el.dataset.type;
+    const answer = JSON.parse(el.dataset.answer ?? '""') as string | string[];
+    const answerText = Array.isArray(answer) ? answer.join('; ') : answer;
+
+    if (type === 'fill-blank') {
+      const form = el.querySelector('form')!;
+      const input = el.querySelector<HTMLInputElement>('.exercise__input')!;
+      form.addEventListener('submit', (event) => {
+        event.preventDefault();
+        if (form.classList.contains('exercise__form--answered')) return;
+        form.classList.add('exercise__form--answered');
+        input.disabled = true;
+        markFeedback(el, checkAnswer(input.value, answer), answerText);
+      });
+    }
+
+    if (type === 'multiple-choice') {
+      const optionButtons = Array.from(el.querySelectorAll<HTMLButtonElement>('.exercise__option'));
+      optionButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+          if (optionButtons.some((b) => b.disabled)) return;
+          optionButtons.forEach((b) => (b.disabled = true));
+          markFeedback(el, checkAnswer(button.dataset.value ?? '', answer), answerText);
+        });
+      });
+    }
+
+    if (type === 'matching' || type === 'audio') {
+      const revealBtn = el.querySelector<HTMLButtonElement>('.exercise__reveal')!;
+      const answerEl = el.querySelector<HTMLElement>('.exercise__answer')!;
+      revealBtn.addEventListener('click', () => {
+        answerEl.hidden = false;
+        revealBtn.hidden = true;
+        // Reveal-only types aren't scored — no generation/recall step yet,
+        // just showing the answer for reference (see PR description).
+        const nextBtn = el.querySelector<HTMLButtonElement>('.exercise__next')!;
+        nextBtn.hidden = false;
+      });
+    }
+
+    const nextBtn = el.querySelector<HTMLButtonElement>('.exercise__next')!;
+    nextBtn.addEventListener('click', () => {
+      currentIndex += 1;
+      showExercise(currentIndex);
+    });
+  });
+
+  showExercise(0);
+</script>

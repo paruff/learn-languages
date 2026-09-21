@@ -66,9 +66,12 @@ const realisationSchema = z.object({
 
 const exerciseSchema = z.object({
   id: z.string().regex(/^[a-z]{2}(-[A-Z]{2})?-.+-\d{3}$/),
+  lessonId: z.string(),
   type: z.enum(['fill-blank', 'matching', 'multiple-choice', 'audio']),
   prompt: z.string().min(1),
   answer: z.union([z.string(), z.array(z.string())]),
+  options: z.array(z.string()).optional(),
+  audio: z.string().optional(),
   hints: z.array(z.string()).optional(),
 });
 
@@ -78,7 +81,7 @@ export const collections = {
     schema: cefrNodeSchema,
   }),
   exercises: defineCollection({
-    type: 'data',
+    loader: glob({ pattern: '**/*.json', base: './src/content/exercises' }),
     schema: exerciseSchema,
   }),
   vocab: defineCollection({

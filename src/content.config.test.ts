@@ -249,3 +249,68 @@ describe('CEFR Node Schema Validation', () => {
     });
   });
 });
+
+// Re-created from content.config.ts for testing (astro:content isn't
+// importable outside Astro's Vite context — see the note on
+// vocabularyItemSchema above).
+const exerciseSchema = z.object({
+  id: z.string().regex(/^[a-z]{2}(-[A-Z]{2})?-.+-\d{3}$/),
+  lessonId: z.string(),
+  type: z.enum(['fill-blank', 'matching', 'multiple-choice', 'audio']),
+  prompt: z.string().min(1),
+  answer: z.union([z.string(), z.array(z.string())]),
+  options: z.array(z.string()).optional(),
+  audio: z.string().optional(),
+  hints: z.array(z.string()).optional(),
+});
+
+describe('Exercise Schema Validation', () => {
+  const baseExercise = {
+    id: 'pt-PT-greetings-fill-blank-001',
+    lessonId: 'A1-GREET-001',
+    type: 'fill-blank' as const,
+    prompt: 'Complete the greeting: "_____ dia!"',
+    answer: 'Bom',
+  };
+
+  it('accepts a minimal valid fill-blank exercise', () => {
+    const result = exerciseSchema.safeParse(baseExercise);
+    expect(result.success).toBe(true);
+  });
+
+  it('accepts multiple-choice options', () => {
+    const result = exerciseSchema.safeParse({
+      ...baseExercise,
+      type: 'multiple-choice',
+      options: ['Boa tarde', 'Boa noite', 'Bom noite', 'Boa dia'],
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      expect(result.data.options).toEqual(['Boa tarde', 'Boa noite', 'Bom noite', 'Boa dia']);
+    }
+  });
+
+  it('accepts an audio URL for audio exercises', () => {
+    const result = exerciseSchema.safeParse({
+      ...baseExercise,
+      type: 'audio',
+      audio: '/audio/greetings_boatarte.mp3',
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      expect(result.data.audio).toBe('/audio/greetings_boatarte.mp3');
+    }
+  });
+
+  it('requires lessonId to link the exercise to a CEFR node', () => {
+    const withoutLessonId: Record<string, unknown> = { ...baseExercise };
+    delete withoutLessonId.lessonId;
+    const result = exerciseSchema.safeParse(withoutLessonId);
+    expect(result.success).toBe(false);
+  });
+
+  it('rejects an invalid exercise type', () => {
+    const result = exerciseSchema.safeParse({ ...baseExercise, type: 'essay' });
+    expect(result.success).toBe(false);
+  });
+});

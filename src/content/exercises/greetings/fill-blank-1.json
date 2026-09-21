@@ -1,6 +1,6 @@
 {
   "id": "pt-PT-greetings-fill-blank-001",
-  "lessonId": "greetings",
+  "lessonId": "A1-GREET-001",
   "type": "fill-blank",
   "prompt": "Complete the greeting: \"_____ dia!\" (Good morning!)",
   "answer": "Bom",
