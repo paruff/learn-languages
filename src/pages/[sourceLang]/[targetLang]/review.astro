@@ -169,6 +169,7 @@ const items = await loadPair(sourceLang, targetLang);
   import { computeOverallMastery } from '../../../lib/progress';
   import { saveReflection, loadReflection, type ReflectionResponse } from '../../../lib/reflection';
   import { checkAnswer } from '../../../lib/exerciseCheck';
+  import { recordGradeForCalibration } from '../../../lib/calibration';
 
   interface PairSide {
     id: string;
@@ -414,7 +415,16 @@ const items = await loadPair(sourceLang, targetLang);
     const item = queue.shift();
     if (!item) return;
 
-    const quality = qualityToSm2[Number(button.getAttribute('data-quality'))];
+    const uiQuality = Number(button.getAttribute('data-quality'));
+    recordGradeForCalibration(
+      sourceLang,
+      targetLang,
+      direction,
+      item.target.id,
+      uiQuality,
+      todayKey()
+    );
+    const quality = qualityToSm2[uiQuality];
     const isFirstAttempt = !requeuedIds.has(item.target.id);
     if (isFirstAttempt) {
       firstTryTotal += 1;
