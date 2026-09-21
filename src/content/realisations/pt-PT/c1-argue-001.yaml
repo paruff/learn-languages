@@ -1,0 +1,54 @@
+nodeId: C1-ARGUE-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C1-ARGUE-001-001
+    term: 'desenvolver sub-temas'
+    translation: 'to develop sub-topics'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'O orador desenvolveu os sub-temas com uma coerência invejável.'
+    exampleTranslation: 'The speaker developed the sub-topics with enviable coherence.'
+  - id: pt-PT-C1-ARGUE-001-002
+    term: 'estruturar a exposição'
+    translation: 'to structure the presentation'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Saber estruturar a exposição é essencial para manter a atenção.'
+    exampleTranslation: 'Knowing how to structure the presentation is essential for keeping attention.'
+  - id: pt-PT-C1-ARGUE-001-003
+    term: 'aprofundar os pontos'
+    translation: 'to elaborate the points'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Após a introdução, aprofundou os pontos mais polémicos da questão.'
+    exampleTranslation: 'After the introduction, he elaborated on the most controversial points of the issue.'
+  - id: pt-PT-C1-ARGUE-001-004
+    term: 'estabelecer ligações'
+    translation: 'to establish connections'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Foi notável a forma como estabeleceu ligações entre os vários temas.'
+    exampleTranslation: 'The way he established connections between the various topics was remarkable.'
+  - id: pt-PT-C1-ARGUE-001-005
+    term: 'apresentar uma visão global'
+    translation: 'to present an overview'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'No início, apresentou uma visão global do problema.'
+    exampleTranslation: 'At the start, he presented an overview of the problem.'
+  - id: pt-PT-C1-ARGUE-001-006
+    term: 'conferir profundidade'
+    translation: 'to give depth'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Os exemplos históricos conferiram profundidade à exposição.'
+    exampleTranslation: 'The historical examples gave depth to the presentation.'
+grammar:
+  - id: C1-GRAMMAR-003
+    point: 'Cleft sentences with ser + relative clause'
+    explanation: "Using constructions like 'E foi... que' to highlight and focus the element the speaker considers most significant"
+    examples:
+      - 'Foi a falta de investimento que travou o projeto.'
+      - 'É precisamente este ponto que quero aprofundar.'
+    cefrNotes: 'C1 learners use cleft sentences to manage emphasis deliberately in extended discourse'
+culturalNotes: "In European Portuguese, cleft structures with 'é que' are a natural spoken resource for emphasis. Speakers foreground new or contested information while keeping the rest of the sentence grammatically intact, which allows emphasis without rising intonation."
