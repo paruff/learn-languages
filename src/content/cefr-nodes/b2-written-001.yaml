@@ -6,6 +6,6 @@ pragmaticFocus: 'Clear detailed writing'
 notionalFocus: 'Range of subjects, detailed expression'
 relatedNodes:
   - B2-WRITTEN-002
-  - B1-WRITING-001
+  - B1-TEXT-004
 prerequisiteNodes:
-  - B1-WRITING-001
+  - B1-TEXT-004
