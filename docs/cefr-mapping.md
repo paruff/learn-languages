@@ -1,6 +1,6 @@
-# CEFR Mapping — A1/A2/B1/B2 Inventory
+# CEFR Mapping — A1/A2/B1/B2/C1 Inventory
 
-Tracks the CEFR A1/A2/B1/B2 Can-Do statement inventory against `cefr-nodes` and `realisations` content, per `specification-design.md` §5.3 (CEFR Mapping Process) and issues #5, #50, #51, #52, #53.
+Tracks the CEFR A1/A2/B1/B2/C1 Can-Do statement inventory against `cefr-nodes` and `realisations` content, per `specification-design.md` §5.3 (CEFR Mapping Process) and issues #5, #50, #51, #52, #53, #54.
 
 **Source:** [Referencial Camões PLE](https://www.instituto-camoes.pt/images/REFERENCIAL_ebook.pdf) (Direção de Serviços de Língua e Cultura, Camões — Instituto da Cooperação e da Língua, I.P., 1st ed., September 2017, ISBN 978-989-8751-10-2). Freely downloadable — no access blocker, corrected from an earlier version of this doc that assumed otherwise. One real limitation remains: the printed/PDF edition explicitly states it presents only an _illustrative excerpt_ of each inventory ("optou-se por apresentar apenas uma parte de cada um dos inventários, a título ilustrativo", p.10) — the complete inventories live behind a searchable web interface at the [Centro Virtual Camões](https://www.instituto-camoes.pt/activity/centro-virtual/referencial-camoes-ple) that isn't fetchable from here. So this doc now reflects the real category _structure_ (authoritative) plus everything the PDF excerpt actually shows, not a claim of 100% vocabulary completeness.
 
@@ -115,16 +115,52 @@ B2 Coverage: 18/18 nodes fully realised (100%).
 
 **B2 Design:** Topic-based grouping (SOCIAL, ARGUE, TEXT, SPOKEN, WRITTEN) with CEFR category mapping. Grammar progression: future subjunctive, reported speech (complex), mixed conditionals, passive voice, extended relative clauses, advanced discourse markers.
 
-## Skill distribution (A1 + A2 + B1 + B2 combined)
+## C1 nodes in the repo
 
-| Skill              | A1     | A2     | B1     | B2     | Total  |
-| ------------------ | ------ | ------ | ------ | ------ | ------ |
-| listening          | 1      | 4      | 0      | 3      | 8      |
-| reading            | 4      | 4      | 3      | 4      | 15     |
-| spoken_interaction | 8      | 4      | 4      | 4      | 20     |
-| spoken_production  | 4      | 6      | 4      | 3      | 17     |
-| writing            | 0      | 2      | 5      | 4      | 11     |
-| **Total**          | **17** | **20** | **18** | **18** | **73** |
+| nodeId              | Skill              | Can-Do                                                                                                                                                       | Status      |
+| ------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| C1-SOCIAL-001       | spoken_interaction | Can express him/herself fluently and spontaneously without much obvious searching for expressions                                                            | ✅ Realised |
+| C1-SOCIAL-002       | spoken_interaction | Can use language flexibly and effectively for social purposes in a wide range of contexts                                                                    | ✅ Realised |
+| C1-ARGUE-001        | spoken_production  | Can present clear, detailed descriptions of complex subjects integrating sub-themes and developing particular points                                         | ✅ Realised |
+| C1-ARGUE-002        | spoken_production  | Can develop an argument systematically with appropriate highlighting of significant points and relevant supporting detail while evaluating counter-arguments | ✅ Realised |
+| C1-ARGUE-003        | spoken_production  | Can express subtle shades of meaning using a wide range of qualifying devices                                                                                | ✅ Realised |
+| C1-ARGUE-004        | writing            | Can sustain a viewpoint in writing by providing relevant supporting detail and evaluating counter-arguments                                                  | ✅ Realised |
+| C1-TEXT-001         | reading            | Can understand a wide range of demanding, longer texts and recognise implicit meaning                                                                        | ✅ Realised |
+| C1-TEXT-002         | reading            | Can understand specialised articles and longer technical instructions, even when not related to their own field                                              | ✅ Realised |
+| C1-TEXT-003         | reading            | Can appreciate contemporary literary texts including idiomatic, cultural and historic allusions                                                              | ✅ Realised |
+| C1-TEXT-004         | reading            | Can understand complex argumentative texts and identify the author's line of argumentation, claims, evidence and conclusion                                  | ✅ Realised |
+| C1-SPOKEN-001       | spoken_production  | Can give elaborate descriptions and narratives, embedding sub-themes, developing particular aspects and rounding off with an appropriate conclusion          | ✅ Realised |
+| C1-SPOKEN-002       | spoken_production  | Can express ideas and opinions without much searching for expressions, using idiomatic expressions appropriately                                             | ✅ Realised |
+| C1-SPOKEN-003       | spoken_interaction | Can keep up a fluent conversation on abstract and complex topics, using a variety of devices to structure and emphasise discourse                            | ✅ Realised |
+| C1-WRITTEN-001      | writing            | Can write a convincing, coherent text on abstract and topical subjects, adapting the register to the intended reader                                         | ✅ Realised |
+| C1-WRITTEN-002      | writing            | Can write a critical review of a film, exhibition or work, choosing the style appropriate to the intended publication                                        | ✅ Realised |
+| C1-WRITTEN-003      | writing            | Can write a well-structured personal narrative of a complex experience with a coherent, convincing and personal point of view                                | ✅ Realised |
+| C1-ACADEMIC-001     | writing            | Can write a dissertation or report of substance, presenting a reasoned conclusion and engaging with the sources consulted                                    | ✅ Realised |
+| C1-ACADEMIC-002     | spoken_production  | Can present complex content to a specialist or general audience, structuring the talk coherently and adapting it to the listeners                            | ✅ Realised |
+| C1-PROFESSIONAL-001 | spoken_interaction | Can make a well-structured proposal or presentation in a professional context and deal confidently with questions and objections                             | ✅ Realised |
+| C1-PROFESSIONAL-002 | writing            | Can write clear, well-structured documents on complex subjects in a formal professional register, highlighting decisive points                               | ✅ Realised |
+| C1-NUANCED-001      | spoken_interaction | Can handle a disagreement in a conversation with nuance, adjusting the choice of expression to the interlocutor and the stakes                               | ✅ Realised |
+| C1-LITERARY-001     | reading            | Can appreciate the wider, implicit layers of meaning in literary texts, including allusion, irony and cultural reference                                     | ✅ Realised |
+| C1-MEDIATION-001    | spoken_production  | Can explain a complicated issue in a way that makes it accessible to a non-expert, reformulating and simplifying without losing accuracy                     | ✅ Realised |
+
+C1 Coverage: 23/23 nodes fully realised (100%).
+
+**C1 Design:** Grouping extends B2's topic-based set (SOCIAL, ARGUE, TEXT, SPOKEN, WRITTEN) with five new groups (ACADEMIC, PROFESSIONAL, NUANCED, LITERARY, MEDIATION). Grammar progression: compound subjunctive tenses, cleft sentences, inversion, ellipsis, nuanced modality, register switching, idiomatic expressions, advanced connectors.
+
+**C1 category coverage:** The same Category A–G function structure remains the substrate at C1; the 23 C1 nodes map onto it across all seven categories (e.g. **C. Influir sobre o interlocutor** → C1-ARGUE-002/003, C1-PROFESSIONAL-001; **D. Exprimir posicionamentos** → C1-ARGUE-001/004, C1-NUANCED-001; **F. Organizar o discurso** → C1-ARGUE-002, C1-ACADEMIC-002, C1-WRITTEN-002; **G. Regular a comunicação** → C1-SOCIAL-002, C1-MEDIATION-001).
+
+> **Note on C1 skill distribution:** The committed nodes skew toward production/reading with **no `listening` nodes** (readiness was rebalanced during authoring — see `docs/superpowers/specs/2026-09-21-c1-content-design.md` §Node Inventory for the original planned distribution, which included 2 listening, 6 reading, 3 spoken_interaction, 5 spoken_production, 7 writing). Consider adding 1–2 C1 listening nodes in a follow-up to restore listening coverage at C1.
+
+## Skill distribution (A1 + A2 + B1 + B2 + C1 combined)
+
+| Skill              | A1     | A2     | B1     | B2     | C1     | Total  |
+| ------------------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| listening          | 1      | 4      | 0      | 3      | 0      | 8      |
+| reading            | 4      | 4      | 3      | 4      | 5      | 20     |
+| spoken_interaction | 8      | 4      | 4      | 4      | 5      | 25     |
+| spoken_production  | 4      | 6      | 4      | 3      | 7      | 24     |
+| writing            | 0      | 2      | 5      | 4      | 6      | 17     |
+| **Total**          | **17** | **20** | **18** | **18** | **23** | **96** |
 
 ## Referencial Camões's real function category structure (Componente Pragmática, Part II)
 
