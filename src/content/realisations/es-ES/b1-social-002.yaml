@@ -1,0 +1,44 @@
+nodeId: B1-SOCIAL-002
+lang: es-ES
+vocabulary:
+  - id: es-ES-B1-SOCIAL-002-001
+    term: 'conversación extensa'
+    translation: 'extended conversation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Mantengo conversaciones extensas sobre temas familiares.'
+    exampleTranslation: 'I sustain extended conversations on familiar topics.'
+  - id: es-ES-B1-SOCIAL-002-002
+    term: 'profundizar'
+    translation: 'to go deeper'
+    partOfSpeech: verb
+    example: 'Me gusta profundizar en los temas que me interesan.'
+    exampleTranslation: 'I like to go deeper into topics that interest me.'
+  - id: es-ES-B1-SOCIAL-002-003
+    term: 'desarrollar un tema'
+    translation: 'to develop a topic'
+    partOfSpeech: phrase
+    example: 'Es fácil desarrollar un tema cuando te apasiona.'
+    exampleTranslation: 'It is easy to develop a topic when you are passionate about it.'
+  - id: es-ES-B1-SOCIAL-002-004
+    term: 'opinión personal'
+    translation: 'personal opinion'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Es importante dar tu opinión personal en la conversación.'
+    exampleTranslation: 'It is important to give your personal opinion in the conversation.'
+  - id: es-ES-B1-SOCIAL-002-005
+    term: 'tema familiar'
+    translation: 'familiar topic'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Puedo hablar de cualquier tema familiar con confianza.'
+    exampleTranslation: 'I can talk about any familiar topic with confidence.'
+  - id: es-ES-B1-SOCIAL-002-006
+    term: 'sostener'
+    translation: 'to sustain'
+    partOfSpeech: verb
+    example: 'Es importante sostener una conversación sin que se detenga.'
+    exampleTranslation: 'It is important to sustain a conversation without it stopping.'
+grammar: []
+culturalNotes: 'Spanish conversation often involves animated discussion with overlapping speech. This is not considered rude but rather a sign of engagement and interest in the topic.'

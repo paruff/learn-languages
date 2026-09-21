@@ -1,0 +1,53 @@
+nodeId: B1-TEXT-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-B1-TEXT-001-001
+    term: 'artículo'
+    translation: 'article'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Leí un artículo sobre el cambio climático.'
+    exampleTranslation: 'I read an article about climate change.'
+  - id: es-ES-B1-TEXT-001-002
+    term: 'comprensión'
+    translation: 'comprehension'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Mi comprensión de textos ha mejorado mucho.'
+    exampleTranslation: 'My reading comprehension has improved a lot.'
+  - id: es-ES-B1-TEXT-001-003
+    term: 'extraer información'
+    translation: 'to extract information'
+    partOfSpeech: phrase
+    example: 'Puedo extraer información relevante de un texto.'
+    exampleTranslation: 'I can extract relevant information from a text.'
+  - id: es-ES-B1-TEXT-001-004
+    term: 'idea principal'
+    translation: 'main idea'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La idea principal del artículo es clara.'
+    exampleTranslation: 'The main idea of the article is clear.'
+  - id: es-ES-B1-TEXT-001-005
+    term: 'detalles específicos'
+    translation: 'specific details'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Puedo identificar detalles específicos en el texto.'
+    exampleTranslation: 'I can identify specific details in the text.'
+  - id: es-ES-B1-TEXT-001-006
+    term: 'tema de interés'
+    translation: 'topic of interest'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Los artículos sobre temas de interés son más fáciles de leer.'
+    exampleTranslation: 'Articles on topics of interest are easier to read.'
+grammar:
+  - id: es-ES-B1-TEXT-001-G1
+    point: 'Reading strategies with "suele" + infinitive'
+    explanation: "Use 'suele' + infinitive for habitual reading strategies: 'Suele leer el titular primero' (He usually reads the headline first)."
+    examples:
+      - 'Suelo leer el resumen antes del artículo completo.'
+      - 'Suele buscar las ideas principales en el primer párrafo.'
+    cefrNotes: 'B1 learners describe habitual reading strategies using semi-modal "soler"'
+culturalNotes: 'Spanish articles in newspapers follow a clear structure: headline, lead paragraph, development, and conclusion. Understanding this structure aids comprehension.'

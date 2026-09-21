@@ -1,0 +1,51 @@
+nodeId: B1-OPINION-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-B1-OPINION-001-001
+    term: 'opinión'
+    translation: 'opinion'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Mi opinión es que debemos seguir adelante.'
+    exampleTranslation: 'My opinion is that we should move forward.'
+  - id: es-ES-B1-OPINION-001-002
+    term: 'razón'
+    translation: 'reason'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Tengo mis razones para pensar así.'
+    exampleTranslation: 'I have my reasons for thinking that way.'
+  - id: es-ES-B1-OPINION-001-003
+    term: 'defender'
+    translation: 'to defend'
+    partOfSpeech: verb
+    example: 'Es importante defender tus ideas con respeto.'
+    exampleTranslation: 'It is important to defend your ideas with respect.'
+  - id: es-ES-B1-OPINION-001-004
+    term: 'justificar'
+    translation: 'to justify'
+    partOfSpeech: verb
+    example: 'Debes justificar tu respuesta con ejemplos.'
+    exampleTranslation: 'You must justify your answer with examples.'
+  - id: es-ES-B1-OPINION-001-005
+    term: 'argumento'
+    translation: 'argument'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Presentó un argumento muy convincente.'
+    exampleTranslation: 'He presented a very convincing argument.'
+  - id: es-ES-B1-OPINION-001-006
+    term: 'persuadir'
+    translation: 'to persuade'
+    partOfSpeech: verb
+    example: 'Intenté persuadir a los demás con datos.'
+    exampleTranslation: 'I tried to persuade the others with data.'
+grammar:
+  - id: es-ES-B1-OPINION-001-G1
+    point: 'Expressing opinions with "creo que" + indicative vs. subjunctive'
+    explanation: "Use 'creo que' + indicative for beliefs: 'Creo que es importante.' Use 'no creo que' + subjunctive for doubt: 'No creo que sea correcto.'"
+    examples:
+      - 'Creo que la educación es fundamental.'
+      - 'No creo que sea la mejor opción.'
+    cefrNotes: 'B1 learners distinguish indicative after positive opinion verbs, subjunctive after negatives'
+culturalNotes: 'In Spanish culture, expressing opinions directly is common and expected. The subjunctive after opinion verbs is a key B1 grammar point that distinguishes intermediate from beginner learners.'

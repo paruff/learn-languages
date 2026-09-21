@@ -1,0 +1,50 @@
+nodeId: B1-DISCOURSE-003
+lang: es-ES
+vocabulary:
+  - id: es-ES-B1-DISCOURSE-003-001
+    term: 'causa y efecto'
+    translation: 'cause and effect'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Es importante entender la relación de causa y efecto.'
+    exampleTranslation: 'It is important to understand the cause and effect relationship.'
+  - id: es-ES-B1-DISCOURSE-003-002
+    term: 'consecuencia'
+    translation: 'consequence'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Las consecuencias del cambio climático son graves.'
+    exampleTranslation: 'The consequences of climate change are serious.'
+  - id: es-ES-B1-DISCOURSE-003-003
+    term: 'a causa de'
+    translation: 'because of'
+    partOfSpeech: conjunction
+    example: 'A causa de la lluvia, cancelaron el evento.'
+    exampleTranslation: 'Because of the rain, they cancelled the event.'
+  - id: es-ES-B1-DISCOURSE-003-004
+    term: 'como resultado'
+    translation: 'as a result'
+    partOfSpeech: conjunction
+    example: 'Trabajó mucho; como resultado, fue promovido.'
+    exampleTranslation: 'He worked hard; as a result, he was promoted.'
+  - id: es-ES-B1-DISCOURSE-003-005
+    term: 'provocar'
+    translation: 'to cause / to provoke'
+    partOfSpeech: verb
+    example: 'La subida de precios provocó protestas.'
+    exampleTranslation: 'The price increase caused protests.'
+  - id: es-ES-B1-DISCOURSE-003-006
+    term: 'devenir'
+    translation: 'to become / to turn out'
+    partOfSpeech: verb
+    example: 'El problema devino en una crisis.'
+    exampleTranslation: 'The problem turned into a crisis.'
+grammar:
+  - id: es-ES-B1-DISCOURSE-003-G1
+    point: 'Cause-effect connectors'
+    explanation: "Use 'porque' (because), 'a causa de' (because of), 'como resultado' (as a result), 'por lo tanto' (therefore) to express cause-effect relationships."
+    examples:
+      - 'Estudiamos porque queremos aprobar.'
+      - 'Debido a la crisis, muchas empresas cerraron.'
+    cefrNotes: 'B1 learners express cause-effect relationships using subordinating conjunctions'
+culturalNotes: 'Cause-effect reasoning is essential for academic and professional Spanish. The subjunctive mood often appears in cause-effect constructions at higher levels.'

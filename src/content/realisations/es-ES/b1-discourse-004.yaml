@@ -1,0 +1,51 @@
+nodeId: B1-DISCOURSE-004
+lang: es-ES
+vocabulary:
+  - id: es-ES-B1-DISCOURSE-004-001
+    term: 'narración'
+    translation: 'narrative'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Escribí una narración sobre mi viaje.'
+    exampleTranslation: 'I wrote a narrative about my trip.'
+  - id: es-ES-B1-DISCOURSE-004-002
+    term: 'marcador temporal'
+    translation: 'temporal marker'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Los marcadores temporales ayudan a ordenar el relato.'
+    exampleTranslation: 'Temporal markers help to order the narrative.'
+  - id: es-ES-B1-DISCOURSE-004-003
+    term: 'relato'
+    translation: 'story / account'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Mi relato tiene una estructura clara.'
+    exampleTranslation: 'My story has a clear structure.'
+  - id: es-ES-B1-DISCOURSE-004-004
+    term: 'ordenar'
+    translation: 'to order / to sort'
+    partOfSpeech: verb
+    example: 'Necesito ordenar las ideas antes de escribir.'
+    exampleTranslation: 'I need to order my ideas before writing.'
+  - id: es-ES-B1-DISCOURSE-004-005
+    term: 'conectar'
+    translation: 'to connect'
+    partOfSpeech: verb
+    example: 'Conecto las oraciones con palabras de enlace.'
+    exampleTranslation: 'I connect sentences with linking words.'
+  - id: es-ES-B1-DISCOURSE-004-006
+    term: 'estructurar'
+    translation: 'to structure'
+    partOfSpeech: verb
+    example: 'Es importante estructurar un texto de forma coherente.'
+    exampleTranslation: 'It is important to structure a text coherently.'
+grammar:
+  - id: es-ES-B1-DISCOURSE-004-G1
+    point: 'Temporal markers in written narratives'
+    explanation: "Use temporal markers like 'ayer' (yesterday), 'la semana pasada' (last week), 'hace tres años' (three years ago) to anchor past events in written narratives."
+    examples:
+      - 'Ayer fui al cine. Después, cené con amigos.'
+      - 'Hace dos años viajé a Barcelona.'
+    cefrNotes: 'B1 learners use temporal markers to structure written narratives'
+culturalNotes: 'Written Spanish narratives at B1 level should demonstrate coherent use of past tenses (preterite vs. imperfect) and temporal connectors.'

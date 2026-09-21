@@ -1,0 +1,51 @@
+nodeId: B1-DISCOURSE-005
+lang: es-ES
+vocabulary:
+  - id: es-ES-B1-DISCOURSE-005-001
+    term: 'informe'
+    translation: 'report'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Escribí un informe sobre mi experiencia laboral.'
+    exampleTranslation: 'I wrote a report about my work experience.'
+  - id: es-ES-B1-DISCOURSE-005-002
+    term: 'experiencia'
+    translation: 'experience'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Compartí mi experiencia en el proyecto.'
+    exampleTranslation: 'I shared my experience in the project.'
+  - id: es-ES-B1-DISCOURSE-005-003
+    term: 'describir'
+    translation: 'to describe'
+    partOfSpeech: verb
+    example: 'Puedo describir experiencias de forma detallada.'
+    exampleTranslation: 'I can describe experiences in detail.'
+  - id: es-ES-B1-DISCOURSE-005-004
+    term: 'resultado'
+    translation: 'result'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Los resultados del informe fueron positivos.'
+    exampleTranslation: 'The results of the report were positive.'
+  - id: es-ES-B1-DISCOURSE-005-005
+    term: 'redactar'
+    translation: 'to draft / to write'
+    partOfSpeech: verb
+    example: 'Necesito redactar el informe para el lunes.'
+    exampleTranslation: 'I need to draft the report for Monday.'
+  - id: es-ES-B1-DISCOURSE-005-006
+    term: 'concluir'
+    translation: 'to conclude'
+    partOfSpeech: verb
+    example: 'Concluyo que la experiencia fue muy positiva.'
+    exampleTranslation: 'I conclude that the experience was very positive.'
+grammar:
+  - id: es-ES-B1-DISCOURSE-005-G1
+    point: 'Report structures with "poner en" + noun'
+    explanation: "Use formal report structures: 'poner en práctica' (to put into practice), 'poner de manifiesto' (to highlight), 'poner en evidencia' (to demonstrate)."
+    examples:
+      - 'El informe pone de manifiesto la necesidad de cambios.'
+      - 'Los datos ponen en evidencia una tendencia positiva.'
+    cefrNotes: 'B1 learners use formal report structures for written expression'
+culturalNotes: 'Spanish professional reports follow a structured format: introduction, development, conclusions, and recommendations. The register should be formal and objective.'
