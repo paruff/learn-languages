@@ -42,6 +42,9 @@ const vocabularyItemSchema = z
     // to know the site's deployed base path.
     imageUrl: z.string().optional(),
     imageAlt: z.string().optional(),
+    // Optional memory aid (issue #90) — an organizational tool, secondary to
+    // retrieval/spacing/generation, not required for every item.
+    mnemonic: z.string().optional(),
   })
   .refine((data) => !data.imageUrl || !!data.imageAlt, {
     message: 'imageAlt is required whenever imageUrl is set (WCAG 2.1 AA — no unlabeled images)',
