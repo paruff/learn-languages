@@ -3,6 +3,7 @@ import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { withBase } from '../../../../lib/urls';
 import { getAvailablePairs } from '../../../../lib/pairLoader';
+import { languageName } from '../../../../lib/languageNames';
 
 export async function getStaticPaths() {
   const pairs = await getAvailablePairs();
@@ -23,42 +24,103 @@ const lessons = nodes
   .filter((node) =>
     realisations.some((r) => r.data.nodeId === node.data.nodeId && r.data.lang === targetLang)
   )
-  .map((node) => node.data);
+  .map((node) => node.data)
+  .sort((a, b) => a.nodeId.localeCompare(b.nodeId));
+
+// Grouped by CEFR level (audit #1) — a flat 100+ item list gave a first-time
+// visitor no entry point and no sense of level progression.
+const LEVEL_ORDER = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+const levels = LEVEL_ORDER.map((level) => ({
+  level,
+  lessons: lessons.filter((node) => node.cefrLevel === level),
+})).filter((group) => group.lessons.length > 0);
+
+const firstLesson = levels[0]?.lessons[0];
+const targetName = languageName(targetLang);
 ---
 
 <BaseLayout
-  title={`Lessons — ${sourceLang} → ${targetLang}`}
+  title={`${targetName} Lessons — Acquira`}
+  description={`Every ${targetName} lesson available, grouped by CEFR level from A1 to C1.`}
   sourceLang={sourceLang}
   targetLang={targetLang}
 >
   <h1>Lessons</h1>
-  <ul class="lesson-index">
-    {
-      lessons.map((node) => (
-        <li>
-          <a
-            class="card lesson-index__item"
-            href={withBase(`/${sourceLang}/${targetLang}/lessons/${node.nodeId}/`)}
-          >
-            <span class={`badge badge--${node.cefrLevel.toLowerCase()}`}>{node.cefrLevel}</span>
-            <span class="lesson-index__can-do">{node.canDo}</span>
-          </a>
-        </li>
-      ))
-    }
-  </ul>
+
+  {
+    firstLesson && (
+      <a
+        class="card lesson-index__start"
+        href={withBase(`/${sourceLang}/${targetLang}/lessons/${firstLesson.nodeId}/`)}
+      >
+        <p class="lesson-index__start-label">New here? Start with your first lesson</p>
+        <p class="lesson-index__start-title">{firstLesson.canDo}</p>
+      </a>
+    )
+  }
+
+  {
+    levels.map(({ level, lessons: levelLessons }) => (
+      <section class="lesson-index__level">
+        <h2>
+          <span class={`badge badge--${level.toLowerCase()}`}>{level}</span>
+          {levelLessons.length} lesson{levelLessons.length === 1 ? '' : 's'}
+        </h2>
+        <ul class="lesson-index">
+          {levelLessons.map((node) => (
+            <li>
+              <a
+                class="card lesson-index__item"
+                href={withBase(`/${sourceLang}/${targetLang}/lessons/${node.nodeId}/`)}
+              >
+                <span class="lesson-index__can-do">{node.canDo}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))
+  }
+
   <p>
     <a href={withBase(`/${sourceLang}/${targetLang}/review/`)}>Go straight to review →</a>
   </p>
 </BaseLayout>
 
 <style>
+  .lesson-index__start {
+    display: block;
+    margin: calc(var(--spacing-unit) * 2) 0 calc(var(--spacing-unit) * 3);
+    padding: calc(var(--spacing-unit) * 2);
+    text-decoration: none;
+    color: var(--color-text);
+    border-left: 3px solid var(--color-primary);
+  }
+  .lesson-index__start-label {
+    margin: 0 0 calc(var(--spacing-unit) * 0.5);
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+  }
+  .lesson-index__start-title {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+  .lesson-index__level {
+    margin-bottom: calc(var(--spacing-unit) * 3);
+  }
+  .lesson-index__level h2 {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-unit);
+    font-size: 1.125rem;
+  }
   .lesson-index {
     display: grid;
     gap: var(--spacing-unit);
     list-style: none;
     padding: 0;
-    margin: calc(var(--spacing-unit) * 3) 0;
+    margin: calc(var(--spacing-unit) * 1.5) 0 0;
   }
   .lesson-index__item {
     display: flex;

@@ -6,12 +6,19 @@ import '../styles/global.css';
 
 interface Props {
   title: string;
+  description?: string;
   lang?: string;
   sourceLang?: string;
   targetLang?: string;
 }
 
-const { title, lang = 'en-GB', sourceLang = 'en-GB', targetLang = 'pt-PT' } = Astro.props;
+const {
+  title,
+  description = 'Acquire a new language through evidence-based lessons, spaced repetition, and interactive exercises — no gamification, just effective acquisition.',
+  lang = 'en-GB',
+  sourceLang = 'en-GB',
+  targetLang = 'pt-PT',
+} = Astro.props;
 const availablePairs = await getAvailablePairs();
 ---
 
@@ -20,10 +27,7 @@ const availablePairs = await getAvailablePairs();
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Learn Portuguese with evidence-based lessons, spaced repetition, and interactive exercises."
-    />
+    <meta name="description" content={description} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <!-- Fetched without blocking render (media="print" until loaded), then
@@ -47,9 +51,7 @@ const availablePairs = await getAvailablePairs();
   <body>
     <header class="site-header">
       <nav class="nav container" aria-label="Main navigation">
-        <a href={withBase('/')} class="nav__brand" aria-label="learn-languages home"
-          >learn-languages</a
-        >
+        <a href={withBase('/')} class="nav__brand" aria-label="Acquira home">Acquira</a>
         <ul class="nav__links">
           <li>
             <a href={withBase(`/${sourceLang}/${targetLang}/lessons/`)} class="nav__link">Lessons</a

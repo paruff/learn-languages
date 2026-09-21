@@ -43,6 +43,7 @@ const { node, source, target, hasExercises } = Astro.props;
 
 <BaseLayout
   title={`${node.canDo} — ${sourceLang} → ${targetLang}`}
+  description={`${node.canDo} — vocabulary, grammar, and cultural notes for this ${node.cefrLevel} lesson.`}
   sourceLang={sourceLang}
   targetLang={targetLang}
 >

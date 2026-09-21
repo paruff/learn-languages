@@ -1,9 +1,35 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
 import { withBase } from '../lib/urls';
+import { getAvailablePairs } from '../lib/pairLoader';
+import { languageName } from '../lib/languageNames';
+
+// The homepage isn't routed per language pair, so it picks the first
+// available pair to link into — no hardcoded "/en-GB/pt-PT/" (prep for
+// a second target language: adding one just needs content, this page
+// adapts automatically).
+const pairs = await getAvailablePairs();
+const { sourceLang, targetLang } = pairs[0] ?? { sourceLang: 'en-GB', targetLang: 'pt-PT' };
+const targetName = languageName(targetLang);
+
+const [nodes, realisations] = await Promise.all([
+  getCollection('cefr-nodes'),
+  getCollection('realisations'),
+]);
+const firstLesson = nodes
+  .filter((node) => node.data.cefrLevel === 'A1')
+  .filter((node) =>
+    realisations.some((r) => r.data.nodeId === node.data.nodeId && r.data.lang === targetLang)
+  )
+  .map((node) => node.data)
+  .sort((a, b) => a.nodeId.localeCompare(b.nodeId))[0];
 ---
 
-<BaseLayout title="learn-languages — Learn Portuguese with Evidence-Based Methods">
+<BaseLayout
+  title={`Acquira — Acquire ${targetName} with Science`}
+  description={`Acquire ${targetName} through evidence-based lessons, spaced repetition, and interactive exercises. No gamification — just effective acquisition.`}
+>
   <section class="hero" aria-labelledby="hero-title">
     <svg
       class="hero__motif"
@@ -23,12 +49,14 @@ import { withBase } from '../lib/urls';
       <rect width="160" height="160" fill="url(#azulejo)"></rect>
     </svg>
     <div class="hero__content">
-      <h1 id="hero-title">Learn Portuguese with Science</h1>
+      <h1 id="hero-title">Acquire {targetName} with Science</h1>
       <p class="hero__subtitle">
-        Evidence-based lessons built on SLA research, spaced repetition, and cognitive load theory.
-        No gamification — just effective acquisition.
+        Evidence-based lessons built on second-language acquisition research, spaced repetition, and
+        cognitive load theory. No gamification — just effective acquisition.
       </p>
-      <a href={withBase('/en-GB/pt-PT/lessons/')} class="btn btn--primary">Start Learning</a>
+      <a href={withBase(`/${sourceLang}/${targetLang}/lessons/`)} class="btn btn--primary"
+        >Start your first lesson (2 min)</a
+      >
     </div>
   </section>
 
@@ -94,7 +122,8 @@ import { withBase } from '../lib/urls';
         </svg>
         <h3>Autonomy & Competence</h3>
         <p>
-          Self-paced with <a href={withBase('/en-GB/pt-PT/progress/')}>clear progress tracking</a>.
+          Self-paced with{' '}
+          <a href={withBase(`/${sourceLang}/${targetLang}/progress/`)}>clear progress tracking</a>.
           Built on Self-Determination Theory for sustained motivation.
         </p>
       </article>
@@ -122,13 +151,20 @@ import { withBase } from '../lib/urls';
     </div>
   </section>
 
-  <section class="cta" aria-labelledby="cta-title">
-    <h2 id="cta-title">Ready to begin?</h2>
-    <p>Start with A1 Module 1: Greetings & Introductions</p>
-    <a href={withBase('/en-GB/pt-PT/lessons/A1-GREET-001/')} class="btn btn--primary"
-      >First Lesson →</a
-    >
-  </section>
+  {
+    firstLesson && (
+      <section class="cta" aria-labelledby="cta-title">
+        <h2 id="cta-title">Ready to begin?</h2>
+        <p>Start with: {firstLesson.canDo}</p>
+        <a
+          href={withBase(`/${sourceLang}/${targetLang}/lessons/${firstLesson.nodeId}/`)}
+          class="btn btn--primary"
+        >
+          First Lesson →
+        </a>
+      </section>
+    )
+  }
 </BaseLayout>
 
 <style>

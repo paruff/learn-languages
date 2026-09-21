@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { loadPair, getAvailablePairs } from '../../../lib/pairLoader';
+import { languageName } from '../../../lib/languageNames';
 
 export async function getStaticPaths() {
   const pairs = await getAvailablePairs();
@@ -9,20 +10,31 @@ export async function getStaticPaths() {
 
 const { sourceLang, targetLang } = Astro.params;
 const items = await loadPair(sourceLang, targetLang);
+const targetName = languageName(targetLang);
 ---
 
 <BaseLayout
-  title={`Review: ${sourceLang} → ${targetLang}`}
+  title={`Review ${targetName} — Acquira`}
+  description={`Review your due ${targetName} cards with spaced repetition — a few minutes a day for long-term retention.`}
   sourceLang={sourceLang}
   targetLang={targetLang}
 >
   <h1>Review</h1>
+  <p id="review-intro" class="review-intro">
+    Cards are due on a schedule based on how well you know them (spaced repetition) — reveal or type
+    the answer, then grade yourself honestly so the schedule stays accurate.
+  </p>
   <button id="review-direction-toggle" type="button" class="btn btn--secondary">
     {sourceLang} → {targetLang}
   </button>
   <button id="review-recall-mode-toggle" type="button" class="btn btn--secondary">
     Mode: Reveal
   </button>
+  <p class="review-mode-hint">
+    <strong>Reveal</strong> shows the answer with a tap — faster, good for early practice.{' '}
+    <strong>Type answer</strong> makes you produce it from memory first — slower, but strengthens recall
+    better (the "generation effect").
+  </p>
   <p id="review-empty" class="card" hidden>No cards due right now — come back later.</p>
   <div id="review-card" class="review-card card" hidden>
     <p id="review-progress" class="review-card__progress"></p>
@@ -79,6 +91,17 @@ const items = await loadPair(sourceLang, targetLang);
 </BaseLayout>
 
 <style>
+  .review-intro {
+    color: var(--color-text-muted);
+    max-width: 60ch;
+    margin-bottom: calc(var(--spacing-unit) * 2);
+  }
+  .review-mode-hint {
+    color: var(--color-text-muted);
+    font-size: 0.875rem;
+    max-width: 60ch;
+    margin: calc(var(--spacing-unit) * 1.5) 0 calc(var(--spacing-unit) * 2);
+  }
   .review-card {
     max-width: 420px;
     text-align: center;
@@ -288,9 +311,9 @@ const items = await loadPair(sourceLang, targetLang);
     return direction === 'forward' ? targetLang : sourceLang;
   }
   // The image lives on whichever side of the pair happens to have one (in
-  // practice the Portuguese vocabulary item) — independent of which side is
-  // currently "front" vs "back", since it's a memory cue for the concept,
-  // not tied to review direction.
+  // practice the target-language vocabulary item) — independent of which
+  // side is currently "front" vs "back", since it's a memory cue for the
+  // concept, not tied to review direction.
   function imageOf(item: PairItem): PairSide | undefined {
     if (item.source.imageUrl) return item.source;
     if (item.target.imageUrl) return item.target;
