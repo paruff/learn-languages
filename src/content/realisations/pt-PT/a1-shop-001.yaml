@@ -8,6 +8,8 @@ vocabulary:
     gender: feminine
     example: 'A loja fecha às sete da tarde.'
     exampleTranslation: 'The shop closes at seven in the evening.'
+    imageUrl: 'loja.webp'
+    imageAlt: 'A small shop storefront with display windows'
   - id: pt-PT-A1-SHOP-001-002
     term: 'dinheiro'
     translation: 'money'
@@ -15,6 +17,8 @@ vocabulary:
     gender: masculine
     example: 'Não tenho dinheiro comigo.'
     exampleTranslation: 'I do not have money with me.'
+    imageUrl: 'dinheiro.webp'
+    imageAlt: 'Euro banknotes and coins spread out'
   - id: pt-PT-A1-SHOP-001-003
     term: 'preço'
     translation: 'price'
@@ -22,6 +26,8 @@ vocabulary:
     gender: masculine
     example: 'Qual é o preço deste casaco?'
     exampleTranslation: 'What is the price of this coat?'
+    imageUrl: 'preco.webp'
+    imageAlt: 'Price tag labels on a shelf'
   - id: pt-PT-A1-SHOP-001-004
     term: 'euro'
     translation: 'euro'
@@ -29,12 +35,16 @@ vocabulary:
     gender: masculine
     example: 'Custa dez euros.'
     exampleTranslation: 'It costs ten euros.'
+    imageUrl: 'euro.webp'
+    imageAlt: 'Euro banknotes and coins of different denominations'
   - id: pt-PT-A1-SHOP-001-005
     term: 'pagar'
     translation: 'to pay'
     partOfSpeech: verb
     example: 'Posso pagar com cartão?'
     exampleTranslation: 'Can I pay by card?'
+    imageUrl: 'pagar.webp'
+    imageAlt: 'A customer paying a cashier at a shop counter'
   - id: pt-PT-A1-SHOP-001-006
     term: 'caixa'
     translation: 'till'
@@ -42,5 +52,7 @@ vocabulary:
     gender: feminine
     example: 'A fila na caixa é longa.'
     exampleTranslation: 'The queue at the till is long.'
+    imageUrl: 'caixa.webp'
+    imageAlt: 'A supermarket checkout aisle with tills'
 grammar: []
 culturalNotes: 'Small independent shops (lojas) are common in Portuguese town centres alongside supermarkets; asking the price before buying is normal, even in small shops.'
