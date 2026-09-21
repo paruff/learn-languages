@@ -99,6 +99,7 @@ const items = await loadPair(sourceLang, targetLang);
   import { pronounce } from '../../../lib/pronounce';
   import { SESSION_SIZE } from '../../../lib/reviewSession';
   import { withBase } from '../../../lib/urls';
+  import { computeOverallMastery } from '../../../lib/progress';
 
   interface PairSide {
     id: string;
@@ -130,6 +131,19 @@ const items = await loadPair(sourceLang, targetLang);
   // Items already re-queued once after an "Again" grade this session — capped
   // to one retry per item so a repeatedly-failed card can't loop forever.
   let requeuedIds = new Set<string>();
+  // Calibration signal (spec §1.1, desirable difficulties): first-attempt
+  // accuracy and the mastery delta over the whole vocabulary, shown at
+  // session end instead of only on the separate /progress page.
+  let firstTryTotal = 0;
+  let firstTryCorrect = 0;
+  let masteryBefore = 0;
+
+  function snapshotMasteryPercent(): number {
+    const repetitionsList = items.map((item) => ({
+      repetitions: loadState(sourceLang, targetLang, direction, item.target.id).repetitions,
+    }));
+    return computeOverallMastery(repetitionsList).percent;
+  }
 
   const cardEl = document.getElementById('review-card')!;
   const emptyEl = document.getElementById('review-empty')!;
@@ -173,6 +187,9 @@ const items = await loadPair(sourceLang, targetLang);
       .slice(0, SESSION_SIZE);
     reviewed = 0;
     requeuedIds = new Set<string>();
+    firstTryTotal = 0;
+    firstTryCorrect = 0;
+    masteryBefore = snapshotMasteryPercent();
   }
 
   function showCard(): void {
@@ -180,7 +197,17 @@ const items = await loadPair(sourceLang, targetLang);
     if (!item) {
       cardEl.hidden = true;
       summaryEl.hidden = false;
-      summaryEl.textContent = `Session complete — ${reviewed} card${reviewed === 1 ? '' : 's'} reviewed.`;
+      const masteryAfter = snapshotMasteryPercent();
+      const masteryDelta = masteryAfter - masteryBefore;
+      const deltaText =
+        masteryDelta > 0
+          ? `up ${masteryDelta}%`
+          : masteryDelta < 0
+            ? `down ${-masteryDelta}%`
+            : 'unchanged';
+      summaryEl.textContent =
+        `Session complete — ${reviewed} card${reviewed === 1 ? '' : 's'} reviewed. ` +
+        `${firstTryCorrect}/${firstTryTotal} correct first try. Mastery ${deltaText} (${masteryAfter}% overall).`;
       return;
     }
     progressEl.textContent = `${reviewed + 1} of ${reviewed + queue.length}`;
@@ -231,6 +258,11 @@ const items = await loadPair(sourceLang, targetLang);
     if (!item) return;
 
     const quality = qualityToSm2[Number(button.getAttribute('data-quality'))];
+    const isFirstAttempt = !requeuedIds.has(item.target.id);
+    if (isFirstAttempt) {
+      firstTryTotal += 1;
+      if (quality >= 3) firstTryCorrect += 1;
+    }
     const state = loadState(sourceLang, targetLang, direction, item.target.id);
     const nextState = calculateNextReview({ state, quality });
     saveState(sourceLang, targetLang, direction, item.target.id, nextState);

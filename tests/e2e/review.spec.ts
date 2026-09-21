@@ -73,6 +73,27 @@ test.describe('review session', () => {
     await expect(progress).toHaveText(`1 of ${newTotal}`);
   });
 
+  test('session-complete summary shows first-try accuracy and mastery delta', async ({ page }) => {
+    const progress = page.locator('#review-progress');
+    const reveal = page.locator('#review-reveal');
+    const grades = page.locator('#review-grades');
+    const summary = page.locator('#review-summary');
+    const easy = grades.locator('button[data-quality="4"]');
+
+    const progressText = await progress.textContent();
+    const totalCount = Number(progressText?.match(/of (\d+)$/)?.[1]);
+
+    // Grade every card "Easy" (first try, correct) until the session ends.
+    for (let i = 0; i < totalCount; i++) {
+      await reveal.click();
+      await easy.click();
+    }
+
+    await expect(summary).toBeVisible();
+    await expect(summary).toContainText(`${totalCount}/${totalCount} correct first try`);
+    await expect(summary).toContainText('Mastery');
+  });
+
   test('a failed card reappears later in the same session', async ({ page }) => {
     const progress = page.locator('#review-progress');
     const reveal = page.locator('#review-reveal');
