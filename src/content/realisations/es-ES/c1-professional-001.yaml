@@ -1,0 +1,52 @@
+nodeId: C1-PROFESSIONAL-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-C1-PROFESSIONAL-001-001
+    term: 'propuesta profesional'
+    translation: 'professional proposal'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Presenté una propuesta profesional bien estructurada.'
+    exampleTranslation: 'I presented a well-structured professional proposal.'
+  - id: es-ES-C1-PROFESSIONAL-001-002
+    term: 'presentación oral'
+    translation: 'oral presentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La presentación oral fue clara y convincente.'
+    exampleTranslation: 'The oral presentation was clear and convincing.'
+  - id: es-ES-C1-PROFESSIONAL-001-003
+    term: 'objeciones'
+    translation: 'objections'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Respondí a las objeciones con calma y argumentos.'
+    exampleTranslation: 'I responded to the objections calmly and with arguments.'
+  - id: es-ES-C1-PROFESSIONAL-001-004
+    term: 'contexto profesional'
+    translation: 'professional context'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'En el contexto profesional, la claridad es esencial.'
+    exampleTranslation: 'In the professional context, clarity is essential.'
+  - id: es-ES-C1-PROFESSIONAL-001-005
+    term: 'gestionar preguntas'
+    translation: 'to handle questions'
+    partOfSpeech: phrase
+    example: 'Sé gestionar preguntas difíciles durante una presentación.'
+    exampleTranslation: 'I know how to handle difficult questions during a presentation.'
+  - id: es-ES-C1-PROFESSIONAL-001-006
+    term: 'exponer con seguridad'
+    translation: 'to present with confidence'
+    partOfSpeech: phrase
+    example: 'Expongo con seguridad ante cualquier audiencia.'
+    exampleTranslation: 'I present with confidence before any audience.'
+grammar:
+  - id: es-ES-C1-PROFESSIONAL-001-G1
+    point: 'Reported speech with subjunctive for professional contexts'
+    explanation: "Use reported speech with subjunctive for professional contexts: 'El cliente sugirió que reconsideráramos la propuesta' (The client suggested that we reconsider the proposal)."
+    examples:
+      - 'El director propuso que ajustáramos el presupuesto.'
+      - 'La comisión pidió que revisáramos los informes.'
+    cefrNotes: 'C1 learners use reported speech with subjunctive in professional discourse'
+culturalNotes: 'Making professional proposals at C1 level requires the ability to structure presentations coherently, deal confidently with questions and objections, and adapt language to the professional context.'

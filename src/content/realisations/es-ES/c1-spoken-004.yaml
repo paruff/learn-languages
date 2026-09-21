@@ -1,0 +1,53 @@
+nodeId: C1-SPOKEN-004
+lang: es-ES
+vocabulary:
+  - id: es-ES-C1-SPOKEN-004-001
+    term: 'discurso extenso'
+    translation: 'extended speech'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Puedo seguir discursos extensos incluso sin estructura clara.'
+    exampleTranslation: 'I can follow extended speeches even without clear structure.'
+  - id: es-ES-C1-SPOKEN-004-002
+    term: 'relaciones implícitas'
+    translation: 'implicit relationships'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Capto las relaciones implícitas en un discurso complejo.'
+    exampleTranslation: 'I grasp the implicit relationships in complex speech.'
+  - id: es-ES-C1-SPOKEN-004-003
+    term: 'señales'
+    translation: 'signals'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Aunque no haya señales explícitas, entiendo el contexto.'
+    exampleTranslation: 'Even without explicit signals, I understand the context.'
+  - id: es-ES-C1-SPOKEN-004-004
+    term: 'signales implícitas'
+    translation: 'implicit signals'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Las señales implícitas son clave para la comprensión.'
+    exampleTranslation: 'Implicit signals are key for comprehension.'
+  - id: es-ES-C1-SPOKEN-004-005
+    term: 'comprensión profunda'
+    translation: 'deep comprehension'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Mi comprensión profunda me permite entender discursos complejos.'
+    exampleTranslation: 'My deep comprehension allows me to understand complex speeches.'
+  - id: es-ES-C1-SPOKEN-004-006
+    term: 'inferir'
+    translation: 'to infer'
+    partOfSpeech: verb
+    example: 'Sé inferir el sentido de un discurso no estructurado.'
+    exampleTranslation: 'I know how to infer the meaning of unstructured speech.'
+grammar:
+  - id: es-ES-C1-SPOKEN-004-G1
+    point: 'Concessive structures for understanding unstructured speech'
+    explanation: "Use concessive structures to express understanding despite difficulty: 'Aunque el discurso sea desordenado, puedo seguir la idea principal' (Even if the speech is disordered, I can follow the main idea)."
+    examples:
+      - 'Aunque no esté claramente estructurado, entiendo el mensaje.'
+      - 'Puedo seguir la argumentación aunque las relaciones sean implícitas.'
+    cefrNotes: 'C1 learners use concessive structures to express comprehension of complex, unstructured speech'
+culturalNotes: 'Understanding extended speech that is not clearly structured at C1 level requires the ability to infer implicit relationships and follow lines of argument that are suggested rather than stated explicitly.'

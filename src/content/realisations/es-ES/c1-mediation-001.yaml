@@ -1,0 +1,51 @@
+nodeId: C1-MEDIATION-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-C1-MEDIATION-001-001
+    term: 'reformular'
+    translation: 'to reformulate'
+    partOfSpeech: verb
+    example: 'Puedo reformular ideas complejas de forma accesible.'
+    exampleTranslation: 'I can reformulate complex ideas in an accessible way.'
+  - id: es-ES-C1-MEDIATION-001-002
+    term: 'simplificar'
+    translation: 'to simplify'
+    partOfSpeech: verb
+    example: 'Sé simplificar sin perder precisión técnica.'
+    exampleTranslation: 'I know how to simplify without losing technical precision.'
+  - id: es-ES-C1-MEDIATION-001-003
+    term: 'cuestión compleja'
+    translation: 'complicated issue'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Puedo explicar una cuestión compleja a un público general.'
+    exampleTranslation: 'I can explain a complicated issue to a general audience.'
+  - id: es-ES-C1-MEDIATION-001-004
+    term: 'accesible'
+    translation: 'accessible'
+    partOfSpeech: adjective
+    gender: masculine
+    example: 'El lenguaje accesible es clave para la mediación.'
+    exampleTranslation: 'Accessible language is key for mediation.'
+  - id: es-ES-C1-MEDIATION-001-005
+    term: 'precisión'
+    translation: 'precision'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Mantengo la precisión aunque simplifique.'
+    exampleTranslation: 'I maintain precision even when simplifying.'
+  - id: es-ES-C1-MEDIATION-001-006
+    term: 'traducir al lenguaje cotidiano'
+    translation: 'to translate into everyday language'
+    partOfSpeech: phrase
+    example: 'Sé traducir conceptos técnicos al lenguaje cotidiano.'
+    exampleTranslation: 'I know how to translate technical concepts into everyday language.'
+grammar:
+  - id: es-ES-C1-MEDIATION-001-G1
+    point: 'Purpose clauses with "para que" + subjunctive in mediation'
+    explanation: "Use 'para que' + subjunctive to express purpose in mediation: 'Lo reformulo para que sea más claro' (I reformulate it so that it is clearer)."
+    examples:
+      - 'Simplifico la explicación para que el público la entienda.'
+      - 'Reformulo el concepto para que no se pierda la esencia.'
+    cefrNotes: 'C1 learners use purpose clauses to demonstrate mediation competence'
+culturalNotes: 'Mediation at C1 level requires the ability to explain complex issues to non-experts while maintaining accuracy. This is a key skill in professional and academic contexts where specialist knowledge must be communicated broadly.'

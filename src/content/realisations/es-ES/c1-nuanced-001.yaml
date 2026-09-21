@@ -1,0 +1,52 @@
+nodeId: C1-NUANCED-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-C1-NUANCED-001-001
+    term: 'desacuerdo'
+    translation: 'disagreement'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Puedo manejar un desacuerdo con sutileza.'
+    exampleTranslation: 'I can handle a disagreement with nuance.'
+  - id: es-ES-C1-NUANCED-001-002
+    term: 'ajustar la expresión'
+    translation: 'to adjust the expression'
+    partOfSpeech: phrase
+    example: 'Sé ajustar la expresión según el interlocutor.'
+    exampleTranslation: 'I know how to adjust the expression according to the interlocutor.'
+  - id: es-ES-C1-NUANCED-001-003
+    term: 'consecuencias'
+    translation: 'stakes / consequences'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Adapto mi lenguaje según las consecuencias del tema.'
+    exampleTranslation: 'I adapt my language according to the stakes of the topic.'
+  - id: es-ES-C1-NUANCED-001-004
+    term: 'delicadeza'
+    translation: 'delicacy'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La delicadeza es necesaria en conversaciones difíciles.'
+    exampleTranslation: 'Delicacy is necessary in difficult conversations.'
+  - id: es-ES-C1-NUANCED-001-005
+    term: 'prudencia verbal'
+    translation: 'verbal prudence'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La prudencia verbal evita malentendidos.'
+    exampleTranslation: 'Verbal prudence prevents misunderstandings.'
+  - id: es-ES-C1-NUANCED-001-006
+    term: 'sopesar'
+    translation: 'to weigh up'
+    partOfSpeech: verb
+    example: 'Sopeso cada palabra antes de expresar un desacuerdo.'
+    exampleTranslation: 'I weigh up every word before expressing a disagreement.'
+grammar:
+  - id: es-ES-C1-NUANCED-001-G1
+    point: 'Conditional mood for hedged disagreement'
+    explanation: "Use conditional mood for hedged, nuanced disagreement: 'No estaría totalmente de acuerdo' (I wouldn't be entirely in agreement), 'Podría ser, pero...' (It could be, but...)."
+    examples:
+      - 'No estaría completamente de acuerdo, sin embargo...'
+      - 'Podría ser cierto en algunos contextos, pero no en todos.'
+    cefrNotes: 'C1 learners use conditional mood for pragmatic hedging in disagreement'
+culturalNotes: 'Handling disagreement with nuance at C1 level requires the ability to adjust expression to the interlocutor and the stakes. This pragmatic competence distinguishes advanced speakers from intermediate ones.'

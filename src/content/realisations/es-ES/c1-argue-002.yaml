@@ -1,0 +1,51 @@
+nodeId: C1-ARGUE-002
+lang: es-ES
+vocabulary:
+  - id: es-ES-C1-ARGUE-002-001
+    term: 'argumentación sistemática'
+    translation: 'systematic argumentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Mi argumentación sistemática cubre todos los aspectos.'
+    exampleTranslation: 'My systematic argumentation covers all aspects.'
+  - id: es-ES-C1-ARGUE-002-002
+    term: 'contrargumento'
+    translation: 'counter-argument'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Es importante considerar los contrargumentos.'
+    exampleTranslation: 'It is important to consider counter-arguments.'
+  - id: es-ES-C1-ARGUE-002-003
+    term: 'ponderar'
+    translation: 'to evaluate / to weigh'
+    partOfSpeech: verb
+    example: 'Debo ponderar los argumentos a favor y en contra.'
+    exampleTranslation: 'I must evaluate the arguments for and against.'
+  - id: es-ES-C1-ARGUE-002-004
+    term: 'matises'
+    translation: 'nuances'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Expreso matises sutiles en mi argumentación.'
+    exampleTranslation: 'I express subtle nuances in my argumentation.'
+  - id: es-ES-C1-ARGUE-002-005
+    term: 'destacar puntos clave'
+    translation: 'to highlight key points'
+    partOfSpeech: phrase
+    example: 'Sé destacar los puntos clave de forma efectiva.'
+    exampleTranslation: 'I know how to highlight key points effectively.'
+  - id: es-ES-C1-ARGUE-002-006
+    term: 'evaluar'
+    translation: 'to evaluate'
+    partOfSpeech: verb
+    example: 'Evalúo cada argumento antes de presentarlo.'
+    exampleTranslation: 'I evaluate each argument before presenting it.'
+grammar:
+  - id: es-ES-C1-ARGUE-002-G1
+    point: 'Concessive structures with "sin que" for nuanced evaluation'
+    explanation: "Use 'sin que' + subjunctive for nuanced evaluation: 'Puedo defender mi postura sin que parezca agresivo' (I can defend my position without it appearing aggressive)."
+    examples:
+      - 'Desarrollo mi argumento sin que parezca dogmático.'
+      - 'Puedo evaluar los contrargumentos sin que eso debilite mi posición.'
+    cefrNotes: 'C1 learners use concessive clauses for balanced, nuanced argumentation'
+culturalNotes: 'Evaluating counter-arguments at C1 level demonstrates intellectual maturity and the ability to engage in sophisticated discourse while maintaining a balanced perspective.'

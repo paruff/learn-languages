@@ -1,0 +1,52 @@
+nodeId: C1-ARGUE-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-C1-ARGUE-001-001
+    term: 'tema complejo'
+    translation: 'complex subject'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Puedo describir temas complejos con claridad.'
+    exampleTranslation: 'I can describe complex subjects clearly.'
+  - id: es-ES-C1-ARGUE-001-002
+    term: 'subtemas'
+    translation: 'sub-themes'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Integro subtemas de forma natural en mis exposiciones.'
+    exampleTranslation: 'I integrate sub-themes naturally in my presentations.'
+  - id: es-ES-C1-ARGUE-001-003
+    term: 'desarrollar aspectos concretos'
+    translation: 'to develop particular aspects'
+    partOfSpeech: phrase
+    example: 'Es importante desarrollar aspectos concretos del tema.'
+    exampleTranslation: 'It is important to develop particular aspects of the topic.'
+  - id: es-ES-C1-ARGUE-001-004
+    term: 'descripción detallada'
+    translation: 'detailed description'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Ofrezco descripciones detalladas y bien estructuradas.'
+    exampleTranslation: 'I offer detailed and well-structured descriptions.'
+  - id: es-ES-C1-ARGUE-001-005
+    term: 'integrar'
+    translation: 'to integrate'
+    partOfSpeech: verb
+    example: 'Integro diferentes perspectivas en mi análisis.'
+    exampleTranslation: 'I integrate different perspectives in my analysis.'
+  - id: es-ES-C1-ARGUE-001-006
+    term: 'conclusión apropiada'
+    translation: 'appropriate conclusion'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Cierro con una conclusión apropiada y bien fundamentada.'
+    exampleTranslation: 'I close with an appropriate and well-founded conclusion.'
+grammar:
+  - id: es-ES-C1-ARGUE-001-G1
+    point: 'Relative clauses with "donde" for abstract reference'
+    explanation: "Use 'donde' for abstract reference: 'Es justo donde radica el problema' (That is precisely where the problem lies)."
+    examples:
+      - 'El argumento central reside en donde más se contradicen.'
+      - 'La clave está donde menos se espera.'
+    cefrNotes: 'C1 learners use abstract relative clauses for nuanced argumentation'
+culturalNotes: 'Describing complex subjects at C1 level requires the ability to structure detailed descriptions with sub-themes, develop particular aspects, and conclude appropriately while maintaining coherence.'

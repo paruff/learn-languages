@@ -1,0 +1,53 @@
+nodeId: C1-SPOKEN-003
+lang: es-ES
+vocabulary:
+  - id: es-ES-C1-SPOKEN-003-001
+    term: 'tema abstracto'
+    translation: 'abstract topic'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Puedo mantener una conversación sobre temas abstractos.'
+    exampleTranslation: 'I can sustain a conversation on abstract topics.'
+  - id: es-ES-C1-SPOKEN-003-002
+    term: 'tema complejo'
+    translation: 'complex topic'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Los temas complejos no me resultan difíciles.'
+    exampleTranslation: 'Complex topics are not difficult for me.'
+  - id: es-ES-C1-SPOKEN-003-003
+    term: 'estructurar el discurso'
+    translation: 'to structure discourse'
+    partOfSpeech: phrase
+    example: 'Sé estructurar el discurso de forma coherente.'
+    exampleTranslation: 'I know how to structure discourse coherently.'
+  - id: es-ES-C1-SPOKEN-003-004
+    term: 'énfasis'
+    translation: 'emphasis'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Uso diferentes dispositivos para dar énfasis al discurso.'
+    exampleTranslation: 'I use different devices to give emphasis to discourse.'
+  - id: es-ES-C1-SPOKEN-003-005
+    term: 'fluidez constante'
+    translation: 'constant fluency'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Mantengo una fluidez constante incluso en temas difíciles.'
+    exampleTranslation: 'I maintain constant fluency even on difficult topics.'
+  - id: es-ES-C1-SPOKEN-003-006
+    term: 'dispositivos de estructuración'
+    translation: 'structuring devices'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Domino diversos dispositivos de estructuración del discurso.'
+    exampleTranslation: 'I master various discourse structuring devices.'
+grammar:
+  - id: es-ES-C1-SPOKEN-003-G1
+    point: 'Cleft sentences for discourse emphasis'
+    explanation: "Use cleft sentences for discourse emphasis: 'Lo que me interesa es...' (What interests me is...), 'Lo importante es que...' (The important thing is that...)."
+    examples:
+      - 'Lo que más destaca de este tema es su complejidad.'
+      - 'Lo fundamental es que la conversación fluya.'
+    cefrNotes: 'C1 learners use cleft sentences for sophisticated discourse emphasis'
+culturalNotes: 'Keeping up a fluent conversation on abstract and complex topics at C1 level requires mastery of discourse structuring devices, emphasis techniques, and the ability to maintain fluency while discussing challenging subjects.'

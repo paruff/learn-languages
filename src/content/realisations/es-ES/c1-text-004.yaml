@@ -1,0 +1,53 @@
+nodeId: C1-TEXT-004
+lang: es-ES
+vocabulary:
+  - id: es-ES-C1-TEXT-004-001
+    term: 'texto argumentativo complejo'
+    translation: 'complex argumentative text'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Puedo analizar textos argumentativos complejos con profundidad.'
+    exampleTranslation: 'I can analyse complex argumentative texts in depth.'
+  - id: es-ES-C1-TEXT-004-002
+    term: 'línea argumentativa'
+    translation: 'line of argument'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Reconozco la línea argumentativa del autor.'
+    exampleTranslation: "I recognise the author's line of argument."
+  - id: es-ES-C1-TEXT-004-003
+    term: 'afirmaciones'
+    translation: 'claims'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Puedo identificar las afirmaciones principales del autor.'
+    exampleTranslation: "I can identify the author's main claims."
+  - id: es-ES-C1-TEXT-004-004
+    term: 'evidencia'
+    translation: 'evidence'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Evalúo la evidencia presentada en el texto.'
+    exampleTranslation: 'I evaluate the evidence presented in the text.'
+  - id: es-ES-C1-TEXT-004-005
+    term: 'conclusión'
+    translation: 'conclusion'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La conclusión del autor es convincente.'
+    exampleTranslation: "The author's conclusion is convincing."
+  - id: es-ES-C1-TEXT-004-006
+    term: 'identificar'
+    translation: 'to identify'
+    partOfSpeech: verb
+    example: 'Sé identificar la línea argumentativa del autor.'
+    exampleTranslation: "I know how to identify the author's line of argument."
+grammar:
+  - id: es-ES-C1-TEXT-004-G1
+    point: 'Non-finite clauses for concise argumentative analysis'
+    explanation: "Use non-finite clauses for concise argumentative analysis: 'Presentando evidencia sólida, el autor demuestra...' (Presenting solid evidence, the author demonstrates...), 'Basándose en datos...' (Based on data...)."
+    examples:
+      - 'El autor, apoyándose en datos estadísticos, demuestra su tesis.'
+      - 'Presentando contraejemplos, refuta la posición contraria.'
+    cefrNotes: 'C1 learners use non-finite clauses for concise, sophisticated text analysis'
+culturalNotes: "Understanding complex argumentative texts at C1 level means being able to identify the author's line of argumentation, claims, evidence, and conclusion — a key academic and professional reading skill."

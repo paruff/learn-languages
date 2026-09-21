@@ -1,0 +1,53 @@
+nodeId: C1-SOCIAL-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-C1-SOCIAL-001-001
+    term: 'fluidez natural'
+    translation: 'natural fluency'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Hablo con fluidez natural en casi cualquier situación.'
+    exampleTranslation: 'I speak with natural fluency in almost any situation.'
+  - id: es-ES-C1-SOCIAL-001-002
+    term: 'espontaneidad'
+    translation: 'spontaneity'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Mi espontaneidad en español ha mejorado mucho.'
+    exampleTranslation: 'My spontaneity in Spanish has improved a lot.'
+  - id: es-ES-C1-SOCIAL-001-003
+    term: 'buscar expresiones'
+    translation: 'to search for expressions'
+    partOfSpeech: phrase
+    example: 'Hablo sin buscar expresiones, de forma natural.'
+    exampleTranslation: 'I speak without searching for expressions, naturally.'
+  - id: es-ES-C1-SOCIAL-001-004
+    term: 'expresiones idiomáticas'
+    translation: 'idiomatic expressions'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Uso expresiones idiomáticas de forma natural.'
+    exampleTranslation: 'I use idiomatic expressions naturally.'
+  - id: es-ES-C1-SOCIAL-001-005
+    term: 'naturalidad'
+    translation: 'naturalness'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La naturalidad en la conversación es un signo de dominio.'
+    exampleTranslation: 'Naturalness in conversation is a sign of mastery.'
+  - id: es-ES-C1-SOCIAL-001-006
+    term: 'dominio del idioma'
+    translation: 'language mastery'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El dominio del idioma se refleja en la fluidez.'
+    exampleTranslation: 'Language mastery is reflected in fluency.'
+grammar:
+  - id: es-ES-C1-SOCIAL-001-G1
+    point: 'Past subjunctive in hypothetical social situations'
+    explanation: "Use past subjunctive for hypothetical social situations: 'Si pudiera expresarlo mejor, lo haría' (If I could express it better, I would)."
+    examples:
+      - 'Si tuviera más tiempo, explicaría el tema con más detalle.'
+      - 'Si pudiera, expresaría mis ideas con más precisión.'
+    cefrNotes: 'C1 learners use past subjunctive for fluent hypothetical expression'
+culturalNotes: 'Expressing oneself fluently and spontaneously at C1 level means speaking without obvious hesitation, using idiomatic expressions appropriately, and maintaining naturalness in conversation.'

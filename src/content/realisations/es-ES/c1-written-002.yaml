@@ -1,0 +1,53 @@
+nodeId: C1-WRITTEN-002
+lang: es-ES
+vocabulary:
+  - id: es-ES-C1-WRITTEN-002-001
+    term: 'crítica de cine'
+    translation: 'film review'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Escribí una crítica de cine para una revista.'
+    exampleTranslation: 'I wrote a film review for a magazine.'
+  - id: es-ES-C1-WRITTEN-002-002
+    term: 'reseña de exposición'
+    translation: 'exhibition review'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La reseña de exposición fue publicada en un periódico.'
+    exampleTranslation: 'The exhibition review was published in a newspaper.'
+  - id: es-ES-C1-WRITTEN-002-003
+    term: 'estilo adecuado'
+    translation: 'appropriate style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Selecciono el estilo adecuado según la publicación.'
+    exampleTranslation: 'I select the appropriate style according to the publication.'
+  - id: es-ES-C1-WRITTEN-002-004
+    term: 'publicación objetivo'
+    translation: 'target publication'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Adapto mi escritura según la publicación objetivo.'
+    exampleTranslation: 'I adapt my writing according to the target publication.'
+  - id: es-ES-C1-WRITTEN-002-005
+    term: 'opinión crítica'
+    translation: 'critical opinion'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Expreso mi opinión crítica de forma argumentada.'
+    exampleTranslation: 'I express my critical opinion in an argued way.'
+  - id: es-ES-C1-WRITTEN-002-006
+    term: 'seleccionar el estilo'
+    translation: 'to select the style'
+    partOfSpeech: phrase
+    example: 'Sé seleccionar el estilo según el contexto.'
+    exampleTranslation: 'I know how to select the style according to the context.'
+grammar:
+  - id: es-ES-C1-WRITTEN-002-G1
+    point: 'Subjunctive in evaluative relative clauses'
+    explanation: "Use subjunctive in evaluative relative clauses for reviews: 'Es una película que merezca la pena ver' (It is a film worth seeing — evaluative)."
+    examples:
+      - 'Es una exposición que valga la pena visitar.'
+      - 'Es una obra que merezca un análisis detallado.'
+    cefrNotes: 'C1 learners use subjunctive in evaluative relative clauses for critical review'
+culturalNotes: 'Writing critical reviews at C1 level requires the ability to select an appropriate style for the intended publication, present well-argued opinions, and use register that matches the target audience.'

@@ -1,0 +1,54 @@
+nodeId: C1-WRITTEN-003
+lang: es-ES
+vocabulary:
+  - id: es-ES-C1-WRITTEN-003-001
+    term: 'relato personal'
+    translation: 'personal narrative'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Escribí un relato personal sobre mi experiencia.'
+    exampleTranslation: 'I wrote a personal narrative about my experience.'
+  - id: es-ES-C1-WRITTEN-003-002
+    term: 'experiencia compleja'
+    translation: 'complex experience'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Puedo narrar experiencias complejas con coherencia.'
+    exampleTranslation: 'I can narrate complex experiences coherently.'
+  - id: es-ES-C1-WRITTEN-003-003
+    term: 'perspectiva personal'
+    translation: 'personal perspective'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Incluyo mi perspectiva personal en la narración.'
+    exampleTranslation: 'I include my personal perspective in the narrative.'
+  - id: es-ES-C1-WRITTEN-003-004
+    term: 'punto de vista convincente'
+    translation: 'convincing point of view'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Presento un punto de vista convincente y fundamentado.'
+    exampleTranslation: 'I present a convincing and well-founded point of view.'
+  - id: es-ES-C1-WRITTEN-003-005
+    term: 'estructura narrativa'
+    translation: 'narrative structure'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La estructura narrativa del relato es coherente.'
+    exampleTranslation: 'The narrative structure of the story is coherent.'
+  - id: es-ES-C1-WRITTEN-003-006
+    term: 'coherencia narrativa'
+    translation: 'narrative coherence'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La coherencia narrativa es esencial en un buen relato.'
+    exampleTranslation: 'Narrative coherence is essential in a good story.'
+grammar:
+  - id: es-ES-C1-WRITTEN-003-G1
+    point: 'Mixed conditional for personal reflection in narrative'
+    explanation: "Use mixed conditional for personal reflection: 'Si hubiera sabido lo que sé ahora, habría actuado de otra manera' (If I had known what I know now, I would have acted differently)."
+    examples:
+      - 'Si hubiera previsto las consecuencias, no habría tomado esa decisión.'
+      - 'De haber sido más paciente, el resultado habría sido diferente.'
+    cefrNotes: 'C1 learners use mixed conditionals for sophisticated personal reflection'
+culturalNotes: 'Writing a personal narrative at C1 level requires the ability to present a complex experience with coherent structure, personal perspective, and a convincing point of view that engages the reader.'

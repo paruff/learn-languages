@@ -1,0 +1,52 @@
+nodeId: C1-ARGUE-004
+lang: es-ES
+vocabulary:
+  - id: es-ES-C1-ARGUE-004-001
+    term: 'sostener una postura'
+    translation: 'to sustain a position'
+    partOfSpeech: phrase
+    example: 'Puedo sostener mi postura por escrito con argumentos sólidos.'
+    exampleTranslation: 'I can sustain my position in writing with solid arguments.'
+  - id: es-ES-C1-ARGUE-004-002
+    term: 'refutar'
+    translation: 'to refute'
+    partOfSpeech: verb
+    example: 'Refuto los contraejemplos con datos concretos.'
+    exampleTranslation: 'I refute the counter-examples with concrete data.'
+  - id: es-ES-C1-ARGUE-004-003
+    term: 'crítica fundamentada'
+    translation: 'well-founded criticism'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Presento una crítica fundamentada del proyecto.'
+    exampleTranslation: 'I present a well-founded criticism of the project.'
+  - id: es-ES-C1-ARGUE-004-004
+    term: 'texto argumentativo'
+    translation: 'argumentative text'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El texto argumentativo debe ser coherente y convincente.'
+    exampleTranslation: 'The argumentative text must be coherent and convincing.'
+  - id: es-ES-C1-ARGUE-004-005
+    term: 'examen crítico'
+    translation: 'critical examination'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Realizo un examen crítico de la literatura existente.'
+    exampleTranslation: 'I conduct a critical examination of the existing literature.'
+  - id: es-ES-C1-ARGUE-004-006
+    term: 'rétor'
+    translation: 'rhetoric'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La rétora es una herramienta poderosa en la argumentación.'
+    exampleTranslation: 'Rhetoric is a powerful tool in argumentation.'
+grammar:
+  - id: es-ES-C1-ARGUE-004-G1
+    point: 'Cleft sentences with "lo que" for emphasis in writing'
+    explanation: "Use 'lo que' cleft sentences for emphasis: 'Lo que más me preocupa es la falta de datos' (What concerns me most is the lack of data)."
+    examples:
+      - 'Lo que demuestra el estudio es una tendencia clara.'
+      - 'Lo que diferencia este argumento es su solidez.'
+    cefrNotes: 'C1 learners use cleft sentences for written emphasis and focus'
+culturalNotes: "Sustaining a viewpoint in writing at C1 level requires the ability to present arguments systematically, evaluate counter-arguments, and use sophisticated rhetorical devices to support one's position."

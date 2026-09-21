@@ -1,0 +1,52 @@
+nodeId: C1-ACADEMIC-002
+lang: es-ES
+vocabulary:
+  - id: es-ES-C1-ACADEMIC-002-001
+    term: 'exposición compleja'
+    translation: 'complex presentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Preparé una exposición compleja para el congreso.'
+    exampleTranslation: 'I prepared a complex presentation for the conference.'
+  - id: es-ES-C1-ACADEMIC-002-002
+    term: 'público general'
+    translation: 'general audience'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Adapté mi charla para un público general.'
+    exampleTranslation: 'I adapted my talk for a general audience.'
+  - id: es-ES-C1-ACADEMIC-002-003
+    term: 'público especializado'
+    translation: 'specialist audience'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'La conferencia fue dirigida a un público especializado.'
+    exampleTranslation: 'The conference was aimed at a specialist audience.'
+  - id: es-ES-C1-ACADEMIC-002-004
+    term: 'estructurar coherentemente'
+    translation: 'to structure coherently'
+    partOfSpeech: phrase
+    example: 'Es fundamental estructurar coherentemente la exposición.'
+    exampleTranslation: 'It is fundamental to structure the presentation coherently.'
+  - id: es-ES-C1-ACADEMIC-002-005
+    term: 'adaptar'
+    translation: 'to adapt'
+    partOfSpeech: verb
+    example: 'Sé adaptar el lenguaje según el interlocutor.'
+    exampleTranslation: 'I know how to adapt language according to the interlocutor.'
+  - id: es-ES-C1-ACADEMIC-002-006
+    term: 'contenido complejo'
+    translation: 'complex content'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Presento contenido complejo de forma accesible.'
+    exampleTranslation: 'I present complex content in an accessible way.'
+grammar:
+  - id: es-ES-C1-ACADEMIC-002-G1
+    point: 'Concessive-subjunctive structures for audience adaptation'
+    explanation: "Use concessive structures to show audience awareness: 'Aunque el tema sea complejo, lo presento de forma clara' (Although the topic is complex, I present it clearly)."
+    examples:
+      - 'Aunque el contenido sea técnico, lo adapto al nivel del público.'
+      - 'Puedo simplificar el concepto sin que pierda precisión.'
+    cefrNotes: 'C1 learners use concessive-subjunctive to demonstrate audience awareness'
+culturalNotes: 'Presenting complex content to specialist or general audiences at C1 level requires the ability to adapt register, simplify technical concepts, and maintain coherence throughout the presentation.'
