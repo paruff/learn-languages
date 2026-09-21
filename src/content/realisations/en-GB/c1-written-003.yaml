@@ -1,0 +1,54 @@
+nodeId: C1-WRITTEN-003
+lang: en-GB
+vocabulary:
+  - id: en-GB-C1-WRITTEN-003-001
+    term: 'personal narrative'
+    translation: 'narrativa pessoal'
+    partOfSpeech: noun
+    gender: feminine
+    example: "The author's personal narrative crossed paths with the collective history."
+    exampleTranslation: 'A narrativa pessoal do autor cruzou-se com a história coletiva.'
+  - id: en-GB-C1-WRITTEN-003-002
+    term: 'thread of memories'
+    translation: 'fio das lembranças'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'The text follows the thread of memories without losing its way.'
+    exampleTranslation: 'O texto segue o fio das lembranças sem perder o rumo.'
+  - id: en-GB-C1-WRITTEN-003-003
+    term: 'childhood memories'
+    translation: 'memórias de infância'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'The childhood memories emerge with surprising clarity.'
+    exampleTranslation: 'As memórias de infância surgem com nitidez surpreendente.'
+  - id: en-GB-C1-WRITTEN-003-004
+    term: 'personal point of view'
+    translation: 'ponto de vista pessoal'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'The personal point of view lends coherence to the whole chronicle.'
+    exampleTranslation: 'O ponto de vista pessoal dá coerência a toda a crónica.'
+  - id: en-GB-C1-WRITTEN-003-005
+    term: 'honest caveats'
+    translation: 'ressalvas honestas'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'The honest caveats lend credibility to the account.'
+    exampleTranslation: 'As ressalvas honestas conferem credibilidade ao relato.'
+  - id: en-GB-C1-WRITTEN-003-006
+    term: 'a one-breath effect'
+    translation: 'efeito de um só fôlego'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'The final chapter has a one-breath effect.'
+    exampleTranslation: 'O capítulo final tem o efeito de um só fôlego.'
+grammar:
+  - id: C1-GRAMMAR-016
+    point: 'Hedging devices for personal narrative'
+    explanation: "Managing the distance between memory and certainty with epistemic verbs and modals such as 'as I recall', 'it seems to me' and 'on the evidence'"
+    examples:
+      - 'As I recall, the party went on until the small hours.'
+      - 'Everything points to the decision having been taken the day before.'
+    cefrNotes: 'C1 writers grade reliability of memory and interpretation in first-person narrative'
+culturalNotes: 'British memoir writing treats memory as settled fact laced with wry tolerance for its gaps; hedges are used sparingly precisely so that the rare honest caveat carries weight.'
