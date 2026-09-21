@@ -97,7 +97,7 @@ const items = await loadPair(sourceLang, targetLang);
   } from '../../../lib/storage';
   import { calculateNextReview, isDue } from '../../../utils/srs';
   import { pronounce } from '../../../lib/pronounce';
-  import { SESSION_SIZE } from '../../../lib/reviewSession';
+  import { SESSION_SIZE, interleaveByNode } from '../../../lib/reviewSession';
   import { withBase } from '../../../lib/urls';
   import { computeOverallMastery } from '../../../lib/progress';
 
@@ -182,9 +182,10 @@ const items = await loadPair(sourceLang, targetLang);
   }
 
   function buildQueue(): void {
-    queue = items
-      .filter((item) => isDue(loadState(sourceLang, targetLang, direction, item.target.id)))
-      .slice(0, SESSION_SIZE);
+    const due = items.filter((item) =>
+      isDue(loadState(sourceLang, targetLang, direction, item.target.id))
+    );
+    queue = interleaveByNode(due).slice(0, SESSION_SIZE);
     reviewed = 0;
     requeuedIds = new Set<string>();
     firstTryTotal = 0;
