@@ -1,0 +1,53 @@
+nodeId: B2-SPOKEN-003
+lang: es-ES
+vocabulary:
+  - id: es-ES-B2-SPOKEN-003-001
+    term: 'tema concreto'
+    translation: 'concrete topic'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Puedo seguir discusiones sobre temas concretos.'
+    exampleTranslation: 'I can follow discussions on concrete topics.'
+  - id: es-ES-B2-SPOKEN-003-002
+    term: 'tema abstracto'
+    translation: 'abstract topic'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Los temas abstractos son más difíciles de entender.'
+    exampleTranslation: 'Abstract topics are more difficult to understand.'
+  - id: es-ES-B2-SPOKEN-003-003
+    term: 'idea principal'
+    translation: 'main idea'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Puedo identificar la idea principal de un discurso.'
+    exampleTranslation: 'I can identify the main idea of a speech.'
+  - id: es-ES-B2-SPOKEN-003-004
+    term: 'discurso complejo'
+    translation: 'complex speech'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El discurso complejo requiere atención constante.'
+    exampleTranslation: 'Complex speech requires constant attention.'
+  - id: es-ES-B2-SPOKEN-003-005
+    term: 'mensaje implícito'
+    translation: 'implicit message'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'A veces el mensaje implícito es más importante.'
+    exampleTranslation: 'Sometimes the implicit message is more important.'
+  - id: es-ES-B2-SPOKEN-003-006
+    term: 'interpretar'
+    translation: 'to interpret'
+    partOfSpeech: verb
+    example: 'Sé interpretar las intenciones del hablante.'
+    exampleTranslation: "I know how to interpret the speaker's intentions."
+grammar:
+  - id: es-ES-B2-SPOKEN-003-G1
+    point: 'Inferential clauses with "como si" + imperfect subjunctive'
+    explanation: "Use 'como si' + imperfect subjunctive for comparisons and interpretations: 'Habla como si fuera experto' (He speaks as if he were an expert)."
+    examples:
+      - 'Interpreta el discurso como si fuera fácil.'
+      - 'Analizan el tema como si tuvieran toda la información.'
+    cefrNotes: 'B2 learners use inferential clauses to interpret complex speech'
+culturalNotes: "Understanding both concrete and abstract topics at B2 level requires the ability to infer meaning from context, recognize implicit messages, and interpret the speaker's attitude and intentions."

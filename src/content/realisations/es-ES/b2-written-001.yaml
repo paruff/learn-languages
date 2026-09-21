@@ -1,0 +1,54 @@
+nodeId: B2-WRITTEN-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-B2-WRITTEN-001-001
+    term: 'texto detallado'
+    translation: 'detailed text'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Puedo escribir textos detallados sobre diversos temas.'
+    exampleTranslation: 'I can write detailed texts on various topics.'
+  - id: es-ES-B2-WRITTEN-001-002
+    term: 'amplia gama'
+    translation: 'wide range'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Trabajo con una amplia gama de temas.'
+    exampleTranslation: 'I work with a wide range of topics.'
+  - id: es-ES-B2-WRITTEN-001-003
+    term: 'redacción clara'
+    translation: 'clear writing'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La redacción clara es esencial para comunicar ideas.'
+    exampleTranslation: 'Clear writing is essential for communicating ideas.'
+  - id: es-ES-B2-WRITTEN-001-004
+    term: 'registro formal'
+    translation: 'formal register'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'En el registro formal, uso vocabulario académico.'
+    exampleTranslation: 'In formal register, I use academic vocabulary.'
+  - id: es-ES-B2-WRITTEN-001-005
+    term: 'estilo académico'
+    translation: 'academic style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Mi estilo académico ha mejorado con la práctica.'
+    exampleTranslation: 'My academic style has improved with practice.'
+  - id: es-ES-B2-WRITTEN-001-006
+    term: 'expresión escrita'
+    translation: 'written expression'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La expresión escrita es clave para el éxito profesional.'
+    exampleTranslation: 'Written expression is key for professional success.'
+grammar:
+  - id: es-ES-B2-WRITTEN-001-G1
+    point: 'Passive voice with "se" for formal written register'
+    explanation: "Use 'se' passive for formal written register: 'Se han realizado muchos estudios' (Many studies have been carried out), 'Se puede concluir que' (It can be concluded that)."
+    examples:
+      - 'Se han identificado varios factores relevantes.'
+      - 'Se puede afirmar que la tendencia es positiva.'
+    cefrNotes: 'B2 learners use passive constructions for formal written register'
+culturalNotes: 'Writing clear, detailed texts at B2 level requires mastery of formal register, academic vocabulary, and complex sentence structures. The ability to adapt style to different audiences is developing.'

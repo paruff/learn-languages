@@ -1,0 +1,53 @@
+nodeId: B2-WRITTEN-003
+lang: es-ES
+vocabulary:
+  - id: es-ES-B2-WRITTEN-003-001
+    term: 'ortografía'
+    translation: 'spelling'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Mi ortografía ha mejorado significativamente.'
+    exampleTranslation: 'My spelling has improved significantly.'
+  - id: es-ES-B2-WRITTEN-003-002
+    term: 'puntuación'
+    translation: 'punctuation'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La puntuación correcta es esencial para la claridad.'
+    exampleTranslation: 'Correct punctuation is essential for clarity.'
+  - id: es-ES-B2-WRITTEN-003-003
+    term: 'escritura correcta'
+    translation: 'correct writing'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La escritura correcta genera credibilidad.'
+    exampleTranslation: 'Correct writing generates credibility.'
+  - id: es-ES-B2-WRITTEN-003-004
+    term: 'revisar'
+    translation: 'to review / to proofread'
+    partOfSpeech: verb
+    example: 'Siempre reviso mis textos antes de enviarlos.'
+    exampleTranslation: 'I always review my texts before sending them.'
+  - id: es-ES-B2-WRITTEN-003-005
+    term: 'errores ortográficos'
+    translation: 'spelling errors'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Los errores ortográficos deben corregirse.'
+    exampleTranslation: 'Spelling errors must be corrected.'
+  - id: es-ES-B2-WRITTEN-003-006
+    term: 'precisión escrita'
+    translation: 'written precision'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La precisión escrita es un signo de competencia.'
+    exampleTranslation: 'Written precision is a sign of competence.'
+grammar:
+  - id: es-ES-B2-WRITTEN-003-G1
+    point: 'Adverbial clauses with "antes de que" + subjunctive'
+    explanation: "Use 'antes de que' + subjunctive for temporal adverbial clauses: 'Reviso el texto antes de que lo envíe' (I review the text before I send it)."
+    examples:
+      - 'Corrijo los errores antes de que el texto sea publicado.'
+      - 'Reviso la ortografía antes de que termine el plazo.'
+    cefrNotes: 'B2 learners use temporal adverbial clauses with subjunctive in written expression'
+culturalNotes: 'B2-level writing should demonstrate correct spelling and punctuation. While some errors are acceptable, the ability to self-correct through proofreading is a key development indicator.'

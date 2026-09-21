@@ -1,0 +1,53 @@
+nodeId: B2-ARGUE-002
+lang: es-ES
+vocabulary:
+  - id: es-ES-B2-ARGUE-002-001
+    term: 'cuestión de actualidad'
+    translation: 'current issue'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La educación es una cuestión de actualidad.'
+    exampleTranslation: 'Education is a current issue.'
+  - id: es-ES-B2-ARGUE-002-002
+    term: 'justificar'
+    translation: 'to justify'
+    partOfSpeech: verb
+    example: 'Debo justificar mi postura con datos.'
+    exampleTranslation: 'I must justify my position with data.'
+  - id: es-ES-B2-ARGUE-002-003
+    term: 'punto de vista'
+    translation: 'point of view'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Desde mi punto de vista, la situación es preocupante.'
+    exampleTranslation: 'From my point of view, the situation is worrying.'
+  - id: es-ES-B2-ARGUE-002-004
+    term: 'perspectiva'
+    translation: 'perspective'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Hay que considerar la perspectiva de todos.'
+    exampleTranslation: "One must consider everyone's perspective."
+  - id: es-ES-B2-ARGUE-002-005
+    term: 'opinión fundamentada'
+    translation: 'informed opinion'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Es importante dar una opinión fundamentada.'
+    exampleTranslation: 'It is important to give an informed opinion.'
+  - id: es-ES-B2-ARGUE-002-006
+    term: 'tema polémico'
+    translation: 'controversial topic'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'La inteligencia artificial es un tema polémico.'
+    exampleTranslation: 'Artificial intelligence is a controversial topic.'
+grammar:
+  - id: es-ES-B2-ARGUE-002-G1
+    point: 'Conditional mood for hypothetical justification'
+    explanation: "Use conditional mood for hypothetical or softened claims: 'Sería más efectivo' (It would be more effective), 'Estaría de acuerdo si' (I would agree if)."
+    examples:
+      - 'Sería más efectivo implementar cambios graduales.'
+      - 'Estaría de acuerdo si se presentaran más datos.'
+    cefrNotes: 'B2 learners use conditional mood for nuanced hypothetical reasoning'
+culturalNotes: 'Justifying viewpoints with evidence and reasoning is a key B2 skill. Spanish academic and professional contexts value well-structured arguments supported by data.'

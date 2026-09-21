@@ -1,0 +1,53 @@
+nodeId: B2-SPOKEN-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-B2-SPOKEN-001-001
+    term: 'discurso extenso'
+    translation: 'extended speech'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Puedo seguir discurso extensos sobre temas académicos.'
+    exampleTranslation: 'I can follow extended speech on academic topics.'
+  - id: es-ES-B2-SPOKEN-001-002
+    term: 'conferencia'
+    translation: 'lecture / conference'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Asistí a una conferencia sobre inteligencia artificial.'
+    exampleTranslation: 'I attended a lecture on artificial intelligence.'
+  - id: es-ES-B2-SPOKEN-001-003
+    term: 'línea de argumentación'
+    translation: 'line of argument'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Puedo seguir una línea de argumentación compleja.'
+    exampleTranslation: 'I can follow a complex line of argument.'
+  - id: es-ES-B2-SPOKEN-001-004
+    term: 'disertación'
+    translation: 'dissertation / lecture'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La disertación del profesor fue muy ilustrativa.'
+    exampleTranslation: "The professor's lecture was very informative."
+  - id: es-ES-B2-SPOKEN-001-005
+    term: 'seguir el hilo'
+    translation: 'to follow the thread'
+    partOfSpeech: phrase
+    example: 'Es fácil seguir el hilo de su discurso.'
+    exampleTranslation: 'It is easy to follow the thread of his speech.'
+  - id: es-ES-B2-SPOKEN-001-006
+    term: 'exposición oral'
+    translation: 'oral presentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La exposición oral del candidato fue clara.'
+    exampleTranslation: "The candidate's oral presentation was clear."
+grammar:
+  - id: es-ES-B2-SPOKEN-001-G1
+    point: 'Past subjunctive for reported speech in lectures'
+    explanation: "Use past subjunctive when reporting what was said in lectures: 'El profesor explicó que fuera importante estudiar' (The professor explained that it was important to study — formal literary register)."
+    examples:
+      - 'El conferenciante sugirió que consideráramos otras opciones.'
+      - 'Dijo que el tema fuera de su interés.'
+    cefrNotes: 'B2 learners understand past subjunctive in formal reported speech contexts'
+culturalNotes: 'Spanish lectures at B2 level use formal academic register with complex sentence structures. Understanding extended speech requires familiarity with academic vocabulary and discourse markers.'

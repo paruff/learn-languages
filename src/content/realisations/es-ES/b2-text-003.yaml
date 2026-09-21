@@ -1,0 +1,53 @@
+nodeId: B2-TEXT-003
+lang: es-ES
+vocabulary:
+  - id: es-ES-B2-TEXT-003-001
+    term: 'línea argumentativa'
+    translation: 'line of argument'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Puedo seguir la línea argumentativa de un texto.'
+    exampleTranslation: 'I can follow the line of argument of a text.'
+  - id: es-ES-B2-TEXT-003-002
+    term: 'tesis'
+    translation: 'thesis'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La tesis del autor es clara y bien defendida.'
+    exampleTranslation: "The author's thesis is clear and well defended."
+  - id: es-ES-B2-TEXT-003-003
+    term: 'tratamiento'
+    translation: 'treatment / handling'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'El tratamiento del tema es exhaustivo.'
+    exampleTranslation: 'The treatment of the topic is exhaustive.'
+  - id: es-ES-B2-TEXT-003-004
+    term: 'reconocer'
+    translation: 'to recognise'
+    partOfSpeech: verb
+    example: 'Puedo reconocer la postura del autor.'
+    exampleTranslation: "I can recognise the author's position."
+  - id: es-ES-B2-TEXT-003-005
+    term: 'coherencia textual'
+    translation: 'textual coherence'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La coherencia textual facilita la comprensión.'
+    exampleTranslation: 'Textual coherence facilitates comprehension.'
+  - id: es-ES-B2-TEXT-003-006
+    term: 'conector argumentativo'
+    translation: 'argumentative connector'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Los conectores argumentativos guían al lector.'
+    exampleTranslation: 'Argumentative connectors guide the reader.'
+grammar:
+  - id: es-ES-B2-TEXT-003-G1
+    point: 'Result clauses with "de modo que" + indicative/subjunctive'
+    explanation: "Use 'de modo que' + indicative for real results: 'El autor escribe de modo que se entiende todo.' Use subjunctive for hypothetical results: 'Escribe de modo que todos lo entiendan.'"
+    examples:
+      - 'El texto está organizado de modo que la lectura es fluida.'
+      - 'El autor explica de modo que todos comprendan.'
+    cefrNotes: 'B2 learners use result clauses to analyze text structure'
+culturalNotes: 'Recognizing the line of argument in treatment of issues is a key B2 reading skill. This requires understanding how the author structures their argument and uses evidence.'

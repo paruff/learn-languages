@@ -1,0 +1,52 @@
+nodeId: B2-ARGUE-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-B2-ARGUE-001-001
+    term: 'cadena de razonamiento'
+    translation: 'chain of reasoning'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Presenté una cadena de razonamiento lógica.'
+    exampleTranslation: 'I presented a logical chain of reasoning.'
+  - id: es-ES-B2-ARGUE-001-002
+    term: 'premisa'
+    translation: 'premise'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La premisa de mi argumento es que la educación es clave.'
+    exampleTranslation: 'The premise of my argument is that education is key.'
+  - id: es-ES-B2-ARGUE-001-003
+    term: 'deducir'
+    translation: 'to deduce'
+    partOfSpeech: verb
+    example: 'De los datos se deduce una tendencia clara.'
+    exampleTranslation: 'From the data, a clear trend is deduced.'
+  - id: es-ES-B2-ARGUE-001-004
+    term: 'conclusión lógica'
+    translation: 'logical conclusion'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La conclusión lógica es que debemos cambiar de estrategia.'
+    exampleTranslation: 'The logical conclusion is that we must change strategy.'
+  - id: es-ES-B2-ARGUE-001-005
+    term: 'desarrollar un argumento'
+    translation: 'to develop an argument'
+    partOfSpeech: phrase
+    example: 'Es importante desarrollar un argumento paso a paso.'
+    exampleTranslation: 'It is important to develop an argument step by step.'
+  - id: es-ES-B2-ARGUE-001-006
+    term: 'razonamiento'
+    translation: 'reasoning'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Su razonamiento es difícil de rebatir.'
+    exampleTranslation: 'His reasoning is difficult to refute.'
+grammar:
+  - id: es-ES-B2-ARGUE-001-G1
+    point: 'Concessive clauses with "aunque" + subjunctive vs. indicative'
+    explanation: "Use 'aunque' + indicative for established facts: 'Aunque llueve, salgo.' Use 'aunque' + subjunctive for hypothetical concessions: 'Aunque llueva, saldré.'"
+    examples:
+      - 'Aunque no estoy de acuerdo, entiendo tu punto.'
+      - 'Aunque no lo creas, tengo razón.'
+    cefrNotes: 'B2 learners use concessive clauses with nuanced subjunctive/indicative distinction'
+culturalNotes: 'Spanish argumentation at B2 level should demonstrate the ability to construct logical chains of reasoning using connectors like "por lo tanto", "sin embargo", and "en consecuencia".'

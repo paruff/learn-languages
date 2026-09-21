@@ -1,0 +1,51 @@
+nodeId: B2-SOCIAL-002
+lang: es-ES
+vocabulary:
+  - id: es-ES-B2-SOCIAL-002-001
+    term: 'participar en un debate'
+    translation: 'to participate in a debate'
+    partOfSpeech: phrase
+    example: 'Me gusta participar en debates sobre temas actuales.'
+    exampleTranslation: 'I like to participate in debates on current topics.'
+  - id: es-ES-B2-SOCIAL-002-002
+    term: 'exponer ideas'
+    translation: 'to present ideas'
+    partOfSpeech: phrase
+    example: 'Puedo exponer ideas de forma clara y concisa.'
+    exampleTranslation: 'I can present ideas clearly and concisely.'
+  - id: es-ES-B2-SOCIAL-002-003
+    term: 'contexto familiar'
+    translation: 'familiar context'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'En contextos familiares, me siento más seguro.'
+    exampleTranslation: 'In familiar contexts, I feel more confident.'
+  - id: es-ES-B2-SOCIAL-002-004
+    term: 'intervención'
+    translation: 'intervention / turn to speak'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Mi intervención en el debate fue breve pero efectiva.'
+    exampleTranslation: 'My intervention in the debate was brief but effective.'
+  - id: es-ES-B2-SOCIAL-002-005
+    term: 'colaborar'
+    translation: 'to collaborate'
+    partOfSpeech: verb
+    example: 'Es importante colaborar en la discusión.'
+    exampleTranslation: 'It is important to collaborate in the discussion.'
+  - id: es-ES-B2-SOCIAL-002-006
+    term: 'debate constructivo'
+    translation: 'constructive debate'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Promovemos un debate constructivo y respetuoso.'
+    exampleTranslation: 'We promote a constructive and respectful debate.'
+grammar:
+  - id: es-ES-B2-SOCIAL-002-G1
+    point: 'Relative clauses with "quien" for discussion'
+    explanation: "Use 'quien' (who/whom) in relative clauses: 'Yo, quien ha vivido allí, puedo confirmar' (I, who have lived there, can confirm)."
+    examples:
+      - 'El profesor, quien es experto en el tema, explicó bien.'
+      - 'Mis amigos, quienes comparten mi opinión, estarán de acuerdo.'
+    cefrNotes: 'B2 learners use non-restrictive relative clauses with "quien" in discussion'
+culturalNotes: 'Active participation in discussion is valued in Spanish academic and professional settings. B2 learners should be able to take turns, respond to others, and contribute meaningfully.'

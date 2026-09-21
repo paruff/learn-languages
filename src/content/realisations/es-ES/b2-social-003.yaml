@@ -1,0 +1,50 @@
+nodeId: B2-SOCIAL-003
+lang: es-ES
+vocabulary:
+  - id: es-ES-B2-SOCIAL-003-001
+    term: 'argumentar'
+    translation: 'to argue'
+    partOfSpeech: verb
+    example: 'Puedo argumentar mi punto de vista con claridad.'
+    exampleTranslation: 'I can argue my point of view clearly.'
+  - id: es-ES-B2-SOCIAL-003-002
+    term: 'explicación detallada'
+    translation: 'detailed explanation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Doy explicaciones detalladas para sostener mis opiniones.'
+    exampleTranslation: 'I give detailed explanations to sustain my opinions.'
+  - id: es-ES-B2-SOCIAL-003-003
+    term: 'persuadir'
+    translation: 'to persuade'
+    partOfSpeech: verb
+    example: 'Intento persuadir con argumentos, no con emociones.'
+    exampleTranslation: 'I try to persuade with arguments, not emotions.'
+  - id: es-ES-B2-SOCIAL-003-004
+    term: 'convencer'
+    translation: 'to convince'
+    partOfSpeech: verb
+    example: 'Es difícil convencer a alguien que no quiere escuchar.'
+    exampleTranslation: "It is difficult to convince someone who doesn't want to listen."
+  - id: es-ES-B2-SOCIAL-003-005
+    term: 'postura'
+    translation: 'position / stance'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Mi postura sobre el tema está bien definida.'
+    exampleTranslation: 'My position on the topic is well defined.'
+  - id: es-ES-B2-SOCIAL-003-006
+    term: 'reafirmar'
+    translation: 'to reaffirm'
+    partOfSpeech: verb
+    example: 'Reafirmo mi opinión con nuevos datos.'
+    exampleTranslation: 'I reaffirm my opinion with new data.'
+grammar:
+  - id: es-ES-B2-SOCIAL-003-G1
+    point: 'Purpose clauses with "para que" + subjunctive'
+    explanation: "Use 'para que' + subjunctive to express purpose: 'Argumento para que se entienda mi posición' (I argue so that my position is understood)."
+    examples:
+      - 'Explico detalladamente para que quede claro.'
+      - 'Doy ejemplos para que el argumento sea convincente.'
+    cefrNotes: 'B2 learners use purpose clauses with subjunctive to explain reasoning'
+culturalNotes: 'Sustaining views with explanations and arguments is a key B2 skill. Spanish speakers at this level can participate in extended discussions with well-reasoned positions.'

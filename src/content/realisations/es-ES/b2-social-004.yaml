@@ -1,0 +1,51 @@
+nodeId: B2-SOCIAL-004
+lang: es-ES
+vocabulary:
+  - id: es-ES-B2-SOCIAL-004-001
+    term: 'clarificar'
+    translation: 'to clarify'
+    partOfSpeech: verb
+    example: 'Puedo clarificar mi postura sin problemas.'
+    exampleTranslation: 'I can clarify my position without problems.'
+  - id: es-ES-B2-SOCIAL-004-002
+    term: 'visión detallada'
+    translation: 'detailed view'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Ofrezco una visión detallada del tema.'
+    exampleTranslation: 'I offer a detailed view of the topic.'
+  - id: es-ES-B2-SOCIAL-004-003
+    term: 'exponer con claridad'
+    translation: 'to explain clearly'
+    partOfSpeech: phrase
+    example: 'Es importante exponer con claridad nuestras ideas.'
+    exampleTranslation: 'It is important to explain our ideas clearly.'
+  - id: es-ES-B2-SOCIAL-004-004
+    term: 'precisión'
+    translation: 'precision'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Hablo con precisidad sobre temas complejos.'
+    exampleTranslation: 'I speak with precision about complex topics.'
+  - id: es-ES-B2-SOCIAL-004-005
+    term: 'sentido'
+    translation: 'meaning / sense'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Quiero que quede claro el sentido de mi argumento.'
+    exampleTranslation: 'I want the meaning of my argument to be clear.'
+  - id: es-ES-B2-SOCIAL-004-006
+    term: 'matisar'
+    translation: 'to nuance'
+    partOfSpeech: verb
+    example: 'Es importante matizar las opiniones para ser justo.'
+    exampleTranslation: 'It is important to nuance opinions to be fair.'
+grammar:
+  - id: es-ES-B2-SOCIAL-004-G1
+    point: 'Concessive contrast with "sin que" + subjunctive'
+    explanation: "Use 'sin que' + subjunctive to express contrast without conflict: 'Puedo explicar mi punto sin que se ofenda nadie' (I can explain my point without anyone being offended)."
+    examples:
+      - 'Puedo clarificar mi postura sin que eso implique que estoy de acuerdo.'
+      - 'Hablo con precisión sin que pierda naturalidad.'
+    cefrNotes: 'B2 learners use concessive clauses with subjunctive for nuanced expression'
+culturalNotes: 'Clarifying a detailed point of view at B2 level requires the ability to explain complex ideas precisely, using register-appropriate language and nuanced expressions.'
