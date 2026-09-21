@@ -29,4 +29,10 @@ describe('checkAnswer', () => {
   it('rejects an empty input', () => {
     expect(checkAnswer('', 'Bom')).toBe(false);
   });
+
+  it('is accent-insensitive (pt-PT diacritics should not hard-fail a typed answer)', () => {
+    expect(checkAnswer('Ola', 'Olá')).toBe(true);
+    expect(checkAnswer('nao', 'Não')).toBe(true);
+    expect(checkAnswer('Voce', 'Você')).toBe(true);
+  });
 });

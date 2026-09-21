@@ -94,6 +94,38 @@ test.describe('review session', () => {
     await expect(summary).toContainText('Mastery');
   });
 
+  test('type mode: switching mode shows a text input, and checks the typed answer', async ({
+    page,
+  }) => {
+    const modeToggle = page.locator('#review-recall-mode-toggle');
+    const typeForm = page.locator('#review-type-form');
+    const typeInput = page.locator('#review-type-input');
+    const typeFeedback = page.locator('#review-type-feedback');
+    const back = page.locator('#review-back');
+    const grades = page.locator('#review-grades');
+
+    await expect(modeToggle).toHaveText('Mode: Reveal');
+    await modeToggle.click();
+    await expect(modeToggle).toHaveText('Mode: Type answer');
+    await expect(typeForm).toBeVisible();
+
+    await typeInput.fill('definitely-wrong-answer');
+    await typeForm.locator('button[type="submit"]').click();
+
+    await expect(typeFeedback).toContainText('Not quite');
+    await expect(back).toBeVisible();
+    await expect(grades).toBeVisible();
+
+    // The typed-vs-correct check is a hint, not an auto-grade — self-grading
+    // still works normally after a wrong typed answer (issue #45).
+    await grades.locator('button[data-quality="4"]').click();
+    await expect(page.locator('#review-progress')).toHaveText(/^2 of /);
+
+    // Mode persists across reload.
+    await page.reload();
+    await expect(modeToggle).toHaveText('Mode: Type answer');
+  });
+
   test('reflection prompt appears at session end, persists across reload, skip saves nothing', async ({
     page,
   }) => {
