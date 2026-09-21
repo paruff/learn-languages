@@ -53,3 +53,27 @@ export function saveDirectionPreference(
 ): void {
   window.localStorage.setItem(directionKey(sourceLang, targetLang), direction);
 }
+
+export type RecallMode = 'reveal' | 'type';
+
+function recallModeKey(sourceLang: string, targetLang: string): string {
+  return `recall-mode:${sourceLang}:${targetLang}`;
+}
+
+/**
+ * Reveal (current default) vs. type-the-answer-first (issue #45, the
+ * generation effect) — opt-in per language pair, defaulting to reveal so
+ * existing behavior is unchanged for anyone who doesn't switch.
+ */
+export function loadRecallModePreference(sourceLang: string, targetLang: string): RecallMode {
+  const raw = window.localStorage.getItem(recallModeKey(sourceLang, targetLang));
+  return raw === 'type' ? 'type' : 'reveal';
+}
+
+export function saveRecallModePreference(
+  sourceLang: string,
+  targetLang: string,
+  mode: RecallMode
+): void {
+  window.localStorage.setItem(recallModeKey(sourceLang, targetLang), mode);
+}

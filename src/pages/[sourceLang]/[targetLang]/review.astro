@@ -20,12 +20,26 @@ const items = await loadPair(sourceLang, targetLang);
   <button id="review-direction-toggle" type="button" class="btn btn--secondary">
     {sourceLang} → {targetLang}
   </button>
+  <button id="review-recall-mode-toggle" type="button" class="btn btn--secondary">
+    Mode: Reveal
+  </button>
   <p id="review-empty" class="card" hidden>No cards due right now — come back later.</p>
   <div id="review-card" class="review-card card" hidden>
     <p id="review-progress" class="review-card__progress"></p>
     <img id="review-image" class="review-card__image" hidden />
     <p id="review-front" class="review-card__term"></p>
     <button id="review-reveal" type="button" class="btn btn--primary">Reveal</button>
+    <form id="review-type-form" class="review-card__type-form" hidden>
+      <input
+        type="text"
+        id="review-type-input"
+        class="review-card__type-input"
+        autocomplete="off"
+        aria-label="Type the answer"
+      />
+      <button type="submit" class="btn btn--primary">Check</button>
+    </form>
+    <p id="review-type-feedback" class="review-card__type-feedback" hidden></p>
     <p id="review-back" class="review-card__term review-card__term--answer" hidden></p>
     <button
       id="review-pronounce"
@@ -113,6 +127,28 @@ const items = await loadPair(sourceLang, targetLang);
     color: var(--color-text-muted);
     font-size: 0.875rem;
   }
+  .review-card__type-form {
+    display: flex;
+    gap: var(--spacing-unit);
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .review-card__type-input {
+    padding: calc(var(--spacing-unit) * 0.75);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    font-size: 1.25rem;
+  }
+  .review-card__type-feedback {
+    font-weight: 600;
+    margin: 0;
+  }
+  .review-card__type-feedback--correct {
+    color: var(--color-success, #1a7f37);
+  }
+  .review-card__type-feedback--incorrect {
+    color: var(--color-error, #cf222e);
+  }
 </style>
 
 <script>
@@ -121,7 +157,10 @@ const items = await loadPair(sourceLang, targetLang);
     saveState,
     loadDirectionPreference,
     saveDirectionPreference,
+    loadRecallModePreference,
+    saveRecallModePreference,
     type ReviewDirection,
+    type RecallMode,
   } from '../../../lib/storage';
   import { calculateNextReview, isDue } from '../../../utils/srs';
   import { pronounce } from '../../../lib/pronounce';
@@ -129,6 +168,7 @@ const items = await loadPair(sourceLang, targetLang);
   import { withBase } from '../../../lib/urls';
   import { computeOverallMastery } from '../../../lib/progress';
   import { saveReflection, loadReflection, type ReflectionResponse } from '../../../lib/reflection';
+  import { checkAnswer } from '../../../lib/exerciseCheck';
 
   interface PairSide {
     id: string;
@@ -155,6 +195,9 @@ const items = await loadPair(sourceLang, targetLang);
   const qualityToSm2: Record<number, number> = { 1: 1, 2: 3, 3: 4, 4: 5 };
 
   let direction: ReviewDirection = loadDirectionPreference(sourceLang, targetLang);
+  // Reveal (recognition) vs type-the-answer-first (issue #45, the generation
+  // effect) — opt-in per language pair, defaulting to today's reveal flow.
+  let recallMode: RecallMode = loadRecallModePreference(sourceLang, targetLang);
   let queue: PairItem[] = [];
   let reviewed = 0;
   // Items already re-queued once after an "Again" grade this session — capped
@@ -185,6 +228,10 @@ const items = await loadPair(sourceLang, targetLang);
   const pronounceBtn = document.getElementById('review-pronounce')!;
   const gradesEl = document.getElementById('review-grades')!;
   const directionToggle = document.getElementById('review-direction-toggle')!;
+  const recallModeToggle = document.getElementById('review-recall-mode-toggle')!;
+  const typeFormEl = document.getElementById('review-type-form') as HTMLFormElement;
+  const typeInputEl = document.getElementById('review-type-input') as HTMLInputElement;
+  const typeFeedbackEl = document.getElementById('review-type-feedback')!;
   const reflectionEl = document.getElementById('review-reflection')!;
   const reflectionThanksEl = document.getElementById('review-reflection-thanks')!;
   const reflectionSkipBtn = document.getElementById('review-reflection-skip')!;
@@ -254,6 +301,10 @@ const items = await loadPair(sourceLang, targetLang);
       direction === 'forward' ? `${sourceLang} → ${targetLang}` : `${targetLang} → ${sourceLang}`;
   }
 
+  function updateRecallModeToggle(): void {
+    recallModeToggle.textContent = recallMode === 'type' ? 'Mode: Type answer' : 'Mode: Reveal';
+  }
+
   function buildQueue(): void {
     const due = items.filter((item) =>
       isDue(loadState(sourceLang, targetLang, direction, item.target.id))
@@ -300,6 +351,16 @@ const items = await loadPair(sourceLang, targetLang);
     backEl.hidden = true;
     pronounceBtn.hidden = true;
     gradesEl.hidden = true;
+    typeInputEl.value = '';
+    typeInputEl.disabled = false;
+    typeFeedbackEl.hidden = true;
+    if (recallMode === 'type') {
+      revealBtn.hidden = true;
+      typeFormEl.hidden = false;
+    } else {
+      revealBtn.hidden = false;
+      typeFormEl.hidden = true;
+    }
   }
 
   function renderQueueState(): void {
@@ -317,6 +378,25 @@ const items = await loadPair(sourceLang, targetLang);
   }
 
   revealBtn.addEventListener('click', () => {
+    backEl.hidden = false;
+    pronounceBtn.hidden = false;
+    gradesEl.hidden = false;
+  });
+
+  typeFormEl.addEventListener('submit', (event) => {
+    event.preventDefault();
+    if (typeInputEl.disabled) return;
+    const item = queue[0];
+    if (!item) return;
+
+    // Typed-vs-correct is a hint for the learner's own self-grade below, not
+    // an automatic grade override — SM-2 grading stays learner-driven either
+    // way (issue #45's explicit requirement).
+    const correct = checkAnswer(typeInputEl.value, backOf(item).term);
+    typeInputEl.disabled = true;
+    typeFeedbackEl.hidden = false;
+    typeFeedbackEl.className = `review-card__type-feedback review-card__type-feedback--${correct ? 'correct' : 'incorrect'}`;
+    typeFeedbackEl.textContent = correct ? 'Correct!' : 'Not quite — see the answer below.';
     backEl.hidden = false;
     pronounceBtn.hidden = false;
     gradesEl.hidden = false;
@@ -365,7 +445,18 @@ const items = await loadPair(sourceLang, targetLang);
     renderQueueState();
   });
 
+  recallModeToggle.addEventListener('click', () => {
+    recallMode = recallMode === 'type' ? 'reveal' : 'type';
+    saveRecallModePreference(sourceLang, targetLang, recallMode);
+    updateRecallModeToggle();
+    // Reset the current card's controls for the new mode without losing
+    // session progress (unlike direction, mode doesn't change which cards
+    // are due, so no need to rebuild the queue).
+    if (queue.length > 0) showCard();
+  });
+
   updateDirectionToggle();
+  updateRecallModeToggle();
   buildQueue();
   renderQueueState();
 </script>

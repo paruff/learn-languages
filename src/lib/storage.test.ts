@@ -1,5 +1,12 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import { loadState, saveState, loadDirectionPreference, saveDirectionPreference } from './storage';
+import {
+  loadState,
+  saveState,
+  loadDirectionPreference,
+  saveDirectionPreference,
+  loadRecallModePreference,
+  saveRecallModePreference,
+} from './storage';
 import { createInitialState } from '../utils/srs';
 
 describe('storage', () => {
@@ -39,5 +46,14 @@ describe('storage', () => {
   it('persists and reloads the chosen review direction', () => {
     saveDirectionPreference('en-GB', 'pt-PT', 'reverse');
     expect(loadDirectionPreference('en-GB', 'pt-PT')).toBe('reverse');
+  });
+
+  it('defaults recall mode to reveal when nothing is stored', () => {
+    expect(loadRecallModePreference('en-GB', 'pt-PT')).toBe('reveal');
+  });
+
+  it('persists and reloads the chosen recall mode', () => {
+    saveRecallModePreference('en-GB', 'pt-PT', 'type');
+    expect(loadRecallModePreference('en-GB', 'pt-PT')).toBe('type');
   });
 });
