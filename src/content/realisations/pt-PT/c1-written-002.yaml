@@ -1,0 +1,54 @@
+nodeId: C1-WRITTEN-002
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C1-WRITTEN-002-001
+    term: 'resenha crítica'
+    translation: 'critical review'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A resenha crítica do filme saiu na edição de domingo.'
+    exampleTranslation: 'The critical review of the film came out in the Sunday edition.'
+  - id: pt-PT-C1-WRITTEN-002-002
+    term: 'obras de referência'
+    translation: 'reference works'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'O artigo recorre a obras de referência incontornáveis.'
+    exampleTranslation: 'The article draws on indispensable reference works.'
+  - id: pt-PT-C1-WRITTEN-002-003
+    term: 'juízo estético'
+    translation: 'aesthetic judgement'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O crítico sustenta o seu juízo estético com exemplos precisos.'
+    exampleTranslation: 'The critic backs his aesthetic judgement with precise examples.'
+  - id: pt-PT-C1-WRITTEN-002-004
+    term: 'colocar em perspetiva'
+    translation: 'to put into perspective'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Convém colocar em perspetiva as críticas do primeiro ensaio.'
+    exampleTranslation: 'One should put the criticisms of the first essay into perspective.'
+  - id: pt-PT-C1-WRITTEN-002-005
+    term: 'leitura atenta'
+    translation: 'close reading'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A sua leitura atenta da cena final é admirável.'
+    exampleTranslation: 'His close reading of the final scene is admirable.'
+  - id: pt-PT-C1-WRITTEN-002-006
+    term: 'balanço final'
+    translation: 'final assessment'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O balanço final é positivo, com reservas pontuais.'
+    exampleTranslation: 'The final assessment is positive, with occasional reservations.'
+grammar:
+  - id: C1-GRAMMAR-015
+    point: 'Compound subjunctive for counterfactual review'
+    explanation: "Using the conditional and compound subjunctive when reviewing what might have been, e.g. 'se a obra tivesse ousado', 'teria conquistado'"
+    examples:
+      - 'Se a segunda parte tivesse mantido o ritmo, o filme teria sido memorável.'
+      - 'Caso o elenco tivesse envelhecido melhor, o resultado seria outro.'
+    cefrNotes: 'C1 reviewers use counterfactual subjunctive constructions to weigh hypothetical alternatives'
+culturalNotes: 'The review genre in European Portuguese values measured judgement and speculative counterfactuals; critics say what the work did not do as much as what it did. This demands a rich command of the conditional and the subjunctive.'

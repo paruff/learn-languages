@@ -1,0 +1,11 @@
+nodeId: C1-WRITTEN-002
+cefrLevel: C1
+skill: writing
+canDo: 'Can write a critical review of a film, exhibition or work, choosing the style appropriate to the intended publication'
+pragmaticFocus: 'Critical review writing'
+notionalFocus: 'Aesthetic judgement, counterfactual analysis'
+relatedNodes:
+  - C1-WRITTEN-001
+  - C1-TEXT-003
+prerequisiteNodes:
+  - C1-WRITTEN-001

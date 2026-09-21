@@ -1,0 +1,54 @@
+nodeId: C1-WRITTEN-002
+lang: en-GB
+vocabulary:
+  - id: en-GB-C1-WRITTEN-002-001
+    term: 'critical review'
+    translation: 'resenha crítica'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'The critical review of the film came out in the Sunday edition.'
+    exampleTranslation: 'A resenha crítica do filme saiu na edição de domingo.'
+  - id: en-GB-C1-WRITTEN-002-002
+    term: 'reference works'
+    translation: 'obras de referência'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'The article draws on indispensable reference works.'
+    exampleTranslation: 'O artigo recorre a obras de referência incontornáveis.'
+  - id: en-GB-C1-WRITTEN-002-003
+    term: 'aesthetic judgement'
+    translation: 'juízo estético'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'The critic backs his aesthetic judgement with precise examples.'
+    exampleTranslation: 'O crítico sustenta o seu juízo estético com exemplos precisos.'
+  - id: en-GB-C1-WRITTEN-002-004
+    term: 'to put into perspective'
+    translation: 'colocar em perspetiva'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'One should put the criticisms of the first essay into perspective.'
+    exampleTranslation: 'Convém colocar em perspetiva as críticas do primeiro ensaio.'
+  - id: en-GB-C1-WRITTEN-002-005
+    term: 'close reading'
+    translation: 'leitura atenta'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'His close reading of the final scene is admirable.'
+    exampleTranslation: 'A sua leitura atenta da cena final é admirável.'
+  - id: en-GB-C1-WRITTEN-002-006
+    term: 'final assessment'
+    translation: 'balanço final'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'The final assessment is positive, with occasional reservations.'
+    exampleTranslation: 'O balanço final é positivo, com reservas pontuais.'
+grammar:
+  - id: C1-GRAMMAR-015
+    point: 'Counterfactual structures for review'
+    explanation: "Using past conditionals and inverted conditionals when reviewing what might have been, e.g. 'had the work dared', 'it would have conquered'"
+    examples:
+      - 'Had the second half kept the pace, the film would have been memorable.'
+      - 'Had the cast aged better, the outcome would have been different.'
+    cefrNotes: 'C1 reviewers use counterfactual conditionals to weigh hypothetical alternatives'
+culturalNotes: 'The British review genre prizes wit and a clear verdict; counterfactual musings are kept brief and pointed. Reviews mix high register with colloquial asides, and the final star rating codifies the judgement.'
