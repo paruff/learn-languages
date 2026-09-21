@@ -1,0 +1,54 @@
+nodeId: C1-PROFESSIONAL-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C1-PROFESSIONAL-001-001
+    term: 'proposta para discussão'
+    translation: 'proposal for discussion'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A proposta para discussão mereceu uma análise demorada.'
+    exampleTranslation: 'The proposal for discussion earned careful analysis.'
+  - id: pt-PT-C1-PROFESSIONAL-001-002
+    term: 'objeção dos parceiros'
+    translation: 'objection of the partners'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A objeção dos parceiros obrigou a recuar na calendarização.'
+    exampleTranslation: 'The objection of the partners forced a step back on the timetable.'
+  - id: pt-PT-C1-PROFESSIONAL-001-003
+    term: 'pôr os pontos nos is'
+    translation: 'to set the record straight'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Na reunião, pôs os pontos nos is quanto aos prazos.'
+    exampleTranslation: 'At the meeting, he set the record straight about the deadlines.'
+  - id: pt-PT-C1-PROFESSIONAL-001-004
+    term: 'espaço de manobra'
+    translation: 'room for manoeuvre'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O orçamento deixa pouco espaço de manobra para surpresas.'
+    exampleTranslation: 'The budget leaves little room for manoeuvre for surprises.'
+  - id: pt-PT-C1-PROFESSIONAL-001-005
+    term: 'consenso possível'
+    translation: 'workable consensus'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O mediador procurou o consenso possível entre as partes.'
+    exampleTranslation: 'The mediators sought the workable consensus between the parties.'
+  - id: pt-PT-C1-PROFESSIONAL-001-006
+    term: 'tom de entendimento'
+    translation: 'tone of mutual understanding'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O tom de entendimento da reunião evitou conflitos anunciados.'
+    exampleTranslation: 'The tone of mutual understanding at the meeting averted anticipated conflicts.'
+grammar:
+  - id: C1-GRAMMAR-020
+    point: 'Register switching and modality for professional persuasion'
+    explanation: "Shifting register between directness and politeness and grading modality with verbs such as 'seria de esperar' and 'conviria' to manage professional face"
+    examples:
+      - 'Seria de esperar que a equipa cumprisse os prazos combinados.'
+      - 'Conviria rever a proposta antes da próxima reunião.'
+    cefrNotes: 'C1 professionals negotiate tone and modality to persuade without confrontation'
+culturalNotes: "Portuguese workplace rhetoric balances directness with formality; criticism is often wrapped in the conditional and in verbal courtesy. Meetings prize listening as much as arguing, and the chair's role is decisive."

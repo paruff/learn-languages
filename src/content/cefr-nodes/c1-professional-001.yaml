@@ -1,0 +1,11 @@
+nodeId: C1-PROFESSIONAL-001
+cefrLevel: C1
+skill: spoken_interaction
+canDo: 'Can make a well-structured proposal or presentation in a professional context and deal confidently with questions and objections'
+pragmaticFocus: 'Professional persuasion'
+notionalFocus: 'Proposal, question handling'
+relatedNodes:
+  - C1-PROFESSIONAL-002
+  - C1-SOCIAL-002
+prerequisiteNodes:
+  - C1-SPOKEN-003
