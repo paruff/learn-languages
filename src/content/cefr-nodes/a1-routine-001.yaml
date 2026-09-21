@@ -1,0 +1,10 @@
+nodeId: A1-ROUTINE-001
+cefrLevel: A1
+skill: reading
+canDo: Can identify common daily-life objects and rooms in a home
+pragmaticFocus: Recognize household vocabulary in daily routine descriptions
+notionalFocus: Home, daily routine, household objects
+relatedNodes:
+  - A1-TIME-001
+  - A1-FOOD-001
+prerequisiteNodes: []

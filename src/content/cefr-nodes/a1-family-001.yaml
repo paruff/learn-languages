@@ -1,0 +1,10 @@
+nodeId: A1-FAMILY-001
+cefrLevel: A1
+skill: reading
+canDo: Can identify immediate family members and basic physical appearance terms
+pragmaticFocus: Recognize family and appearance vocabulary in personal descriptions
+notionalFocus: Family, relationships, physical appearance
+relatedNodes:
+  - A1-INTRO-002
+  - A1-FOOD-001
+prerequisiteNodes: []

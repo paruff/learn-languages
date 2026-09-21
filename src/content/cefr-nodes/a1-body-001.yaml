@@ -1,0 +1,9 @@
+nodeId: A1-BODY-001
+cefrLevel: A1
+skill: reading
+canDo: Can identify basic body parts and simple health vocabulary
+pragmaticFocus: Recognize body-part vocabulary when describing aches or symptoms
+notionalFocus: Body, health, illness
+relatedNodes:
+  - A1-FEEL-001
+prerequisiteNodes: []

@@ -1,0 +1,46 @@
+nodeId: A1-SHOP-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-A1-SHOP-001-001
+    term: 'shop'
+    translation: 'loja'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'The shop closes at seven in the evening.'
+    exampleTranslation: 'A loja fecha às sete da tarde.'
+  - id: en-GB-A1-SHOP-001-002
+    term: 'money'
+    translation: 'dinheiro'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'I do not have money with me.'
+    exampleTranslation: 'Não tenho dinheiro comigo.'
+  - id: en-GB-A1-SHOP-001-003
+    term: 'price'
+    translation: 'preço'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'What is the price of this coat?'
+    exampleTranslation: 'Qual é o preço deste casaco?'
+  - id: en-GB-A1-SHOP-001-004
+    term: 'euro'
+    translation: 'euro'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'It costs ten euros.'
+    exampleTranslation: 'Custa dez euros.'
+  - id: en-GB-A1-SHOP-001-005
+    term: 'to pay'
+    translation: 'pagar'
+    partOfSpeech: verb
+    example: 'Can I pay by card?'
+    exampleTranslation: 'Posso pagar com cartão?'
+  - id: en-GB-A1-SHOP-001-006
+    term: 'till'
+    translation: 'caixa'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'The queue at the till is long.'
+    exampleTranslation: 'A fila na caixa é longa.'
+grammar: []
+culturalNotes: 'Small independent shops (lojas) are common in Portuguese town centres alongside supermarkets; asking the price before buying is normal, even in small shops.'

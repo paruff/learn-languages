@@ -1,0 +1,46 @@
+nodeId: A1-HOBBY-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-A1-HOBBY-001-001
+    term: 'futebol'
+    translation: 'football'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Gosto de jogar futebol aos domingos.'
+    exampleTranslation: 'I like to play football on Sundays.'
+  - id: pt-PT-A1-HOBBY-001-002
+    term: 'música'
+    translation: 'music'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ela ouve música todas as noites.'
+    exampleTranslation: 'She listens to music every night.'
+  - id: pt-PT-A1-HOBBY-001-003
+    term: 'livro'
+    translation: 'book'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Estou a ler um livro interessante.'
+    exampleTranslation: 'I am reading an interesting book.'
+  - id: pt-PT-A1-HOBBY-001-004
+    term: 'cinema'
+    translation: 'cinema'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Vamos ao cinema no sábado?'
+    exampleTranslation: 'Shall we go to the cinema on Saturday?'
+  - id: pt-PT-A1-HOBBY-001-005
+    term: 'praia'
+    translation: 'beach'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'No verão vou à praia todos os dias.'
+    exampleTranslation: 'In summer I go to the beach every day.'
+  - id: pt-PT-A1-HOBBY-001-006
+    term: 'dançar'
+    translation: 'to dance'
+    partOfSpeech: verb
+    example: 'Gosto de dançar com os meus amigos.'
+    exampleTranslation: 'I like to dance with my friends.'
+grammar: []
+culturalNotes: 'Football is a dominant pastime across Portugal; beach visits are a central summer social activity along the coast.'
