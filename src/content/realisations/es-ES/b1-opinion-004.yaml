@@ -1,0 +1,51 @@
+nodeId: B1-OPINION-004
+lang: es-ES
+vocabulary:
+  - id: es-ES-B1-OPINION-004-001
+    term: 'acontecimiento'
+    translation: 'event / happening'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Los acontecimientos recientes han sido importantes.'
+    exampleTranslation: 'Recent events have been important.'
+  - id: es-ES-B1-OPINION-004-002
+    term: 'opinar'
+    translation: 'to give an opinion'
+    partOfSpeech: verb
+    example: 'Es importante opinar con conocimiento.'
+    exampleTranslation: 'It is important to give an opinion based on knowledge.'
+  - id: es-ES-B1-OPINION-004-003
+    term: 'reflexionar'
+    translation: 'to reflect'
+    partOfSpeech: verb
+    example: 'Hay que reflexionar sobre las causas del problema.'
+    exampleTranslation: 'We must reflect on the causes of the problem.'
+  - id: es-ES-B1-OPINION-004-004
+    term: 'análisis'
+    translation: 'analysis'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'El análisis de la situación revela varios factores.'
+    exampleTranslation: 'The analysis of the situation reveals several factors.'
+  - id: es-ES-B1-OPINION-004-005
+    term: 'expresar'
+    translation: 'to express'
+    partOfSpeech: verb
+    example: 'Puedo expresar mi opinión por escrito.'
+    exampleTranslation: 'I can express my opinion in writing.'
+  - id: es-ES-B1-OPINION-004-006
+    term: 'punto de vista'
+    translation: 'point of view'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Desde mi punto de vista, la situación es preocupante.'
+    exampleTranslation: 'From my point of view, the situation is worrying.'
+grammar:
+  - id: es-ES-B1-OPINION-004-G1
+    point: 'Written opinion structures with "desde mi punto de vista"'
+    explanation: "Use written opinion structures: 'desde mi punto de vista' (from my point of view), 'en mi opinión' (in my opinion), 'considero que' (I consider that)."
+    examples:
+      - 'Desde mi punto de vista, la educación es la clave.'
+      - 'Considero que debemos actuar de forma urgente.'
+    cefrNotes: 'B1 learners use formal written opinion structures'
+culturalNotes: 'Spanish written opinions at B1 level should demonstrate the ability to present a viewpoint with supporting arguments, using appropriate connectors and register.'

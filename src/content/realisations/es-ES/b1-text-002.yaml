@@ -1,0 +1,53 @@
+nodeId: B1-TEXT-002
+lang: es-ES
+vocabulary:
+  - id: es-ES-B1-TEXT-002-001
+    term: 'titular'
+    translation: 'headline'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'El titular del periódico me llamó la atención.'
+    exampleTranslation: 'The newspaper headline caught my attention.'
+  - id: es-ES-B1-TEXT-002-002
+    term: 'noticia'
+    translation: 'news item'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Leí varias noticias sobre la economía.'
+    exampleTranslation: 'I read several news items about the economy.'
+  - id: es-ES-B1-TEXT-002-003
+    term: 'resumen'
+    translation: 'summary'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'El resumen del artículo es muy claro.'
+    exampleTranslation: 'The summary of the article is very clear.'
+  - id: es-ES-B1-TEXT-002-004
+    term: 'identificar'
+    translation: 'to identify'
+    partOfSpeech: verb
+    example: 'Puedo identificar los puntos clave de una noticia.'
+    exampleTranslation: 'I can identify the key points of a news item.'
+  - id: es-ES-B1-TEXT-002-005
+    term: 'contenido'
+    translation: 'content'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'El contenido del periódico es variado.'
+    exampleTranslation: 'The content of the newspaper is varied.'
+  - id: es-ES-B1-TEXT-002-006
+    term: 'sección'
+    translation: 'section'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La sección de internacional es mi favorita.'
+    exampleTranslation: 'The international section is my favourite.'
+grammar:
+  - id: es-ES-B1-TEXT-002-G1
+    point: 'Reading comprehension with present perfect for recent news'
+    explanation: "Use present perfect for recent news: 'Han arrestado al sospechoso' (They have arrested the suspect). This tense is standard in Spanish news headlines."
+    examples:
+      - 'Han aprobado una nueva ley educativa.'
+      - 'Ha aumentado el número de parados.'
+    cefrNotes: 'B1 learners understand present perfect in news contexts'
+culturalNotes: 'Spanish news articles use present perfect for recent events and preterite for older events. This distinction is important for comprehension of news texts.'

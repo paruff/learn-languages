@@ -1,0 +1,44 @@
+nodeId: B1-SOCIAL-004
+lang: es-ES
+vocabulary:
+  - id: es-ES-B1-SOCIAL-004-001
+    term: 'invitar a opinar'
+    translation: 'to invite to give an opinion'
+    partOfSpeech: phrase
+    example: 'Suele invitar a opinar a todos los participantes.'
+    exampleTranslation: 'He usually invites all participants to give their opinion.'
+  - id: es-ES-B1-SOCIAL-004-002
+    term: 'reacción'
+    translation: 'reaction'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Tuvo una reacción muy positiva.'
+    exampleTranslation: 'She had a very positive reaction.'
+  - id: es-ES-B1-SOCIAL-004-003
+    term: 'mantener viva la conversación'
+    translation: 'to keep the conversation going'
+    partOfSpeech: phrase
+    example: 'Es una habilidad importante mantener viva la conversación.'
+    exampleTranslation: 'It is an important skill to keep the conversation going.'
+  - id: es-ES-B1-SOCIAL-004-004
+    term: 'participar activamente'
+    translation: 'to participate actively'
+    partOfSpeech: phrase
+    example: 'Todos deberían participar activamente en el debate.'
+    exampleTranslation: 'Everyone should participate actively in the debate.'
+  - id: es-ES-B1-SOCIAL-004-005
+    term: 'comentario'
+    translation: 'comment'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Hizo un comentario muy interesante.'
+    exampleTranslation: 'He made a very interesting comment.'
+  - id: es-ES-B1-SOCIAL-004-006
+    term: 'turno de palabra'
+    translation: 'turn to speak'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Esperé mi turno de palabra con paciencia.'
+    exampleTranslation: 'I waited for my turn to speak with patience.'
+grammar: []
+culturalNotes: 'In Spanish conversation, interrupting is more acceptable than in many other cultures. It is often a sign of enthusiasm rather than rudeness, though it varies by region and context.'

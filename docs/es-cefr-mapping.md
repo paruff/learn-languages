@@ -1,6 +1,6 @@
-# Spanish (es-ES) CEFR Mapping — A1 Inventory
+# Spanish (es-ES) CEFR Mapping — A1/B1 Inventory
 
-Tracks the CEFR A1 Can-Do statement inventory for **en-GB↔es-ES** against `cefr-nodes` and `realisations` content, per issues #40, #41, #42, #56. Mirrors `docs/cefr-mapping.md` (the pt-PT equivalent) in format.
+Tracks the CEFR A1–B1 Can-Do statement inventory for **en-GB↔es-ES** against `cefr-nodes` and `realisations` content, per issues #40, #41, #42, #56, #57, #58. Mirrors `docs/cefr-mapping.md` (the pt-PT equivalent) in format.
 
 **Source:** [Plan Curricular del Instituto Cervantes (PCIC)](https://cvc.cervantes.es/Ensenanza/biblioteca_ele/plan_curricular/) — "Niveles de referencia para el español", published by the Instituto Cervantes and freely browsable via its Centro Virtual Cervantes (CVC), no paywall or access blocker. This is the Spanish-language equivalent of Referencial Camões PLE used for Portuguese — confirmed as a real, currently-published curriculum document, not assumed. PCIC organizes content into 9 inventories across grammatical, pragmatic-discursive, notional, cultural, and learning-strategy components; the closest equivalent to Referencial Camões's "Componente Pragmática" category structure is inventory #5, **Funciones** (communicative functions), verified directly at `niveles/05_funciones_inventario_a1-a2.htm`.
 
@@ -100,3 +100,49 @@ All 20 A2 `cefr-nodes/` are language-agnostic Can-Do statements already modeled 
 | A2-HEALTH-001 | spoken_interaction | Can describe symptoms and understand medical advice  | ✅ Realised |
 
 A2 Coverage: 20/20 nodes fully realised (100%).
+
+## B1 nodes in the repo
+
+All 18 B1 `cefr-nodes/` are language-agnostic Can-Do statements already modeled for the en-GB/pt-PT pair (see `docs/cefr-mapping.md`). CEFR Can-Do statements describe communicative ability, not any one language, so this epic reused every existing B1 node rather than creating duplicates — exactly as the A1 and A2 epics did.
+
+| nodeId          | Skill              | Can-Do                                                   | Status      |
+| --------------- | ------------------ | -------------------------------------------------------- | ----------- |
+| B1-SOCIAL-001   | spoken_interaction | Can handle most social situations while travelling       | ✅ Realised |
+| B1-SOCIAL-002   | spoken_interaction | Can engage in extended conversation on familiar topics   | ✅ Realised |
+| B1-SOCIAL-003   | spoken_interaction | Can express and respond to feelings and opinions         | ✅ Realised |
+| B1-SOCIAL-004   | spoken_production  | Can keep a conversation going by inviting opinions       | ✅ Realised |
+| B1-DISCOURSE-001| spoken_interaction | Can use connectors to link ideas in extended speech      | ✅ Realised |
+| B1-DISCOURSE-002| spoken_production  | Can narrate events in correct temporal sequence          | ✅ Realised |
+| B1-DISCOURSE-003| spoken_production  | Can describe cause and effect relationships              | ✅ Realised |
+| B1-DISCOURSE-004| writing            | Can write a simple narrative with temporal markers       | ✅ Realised |
+| B1-DISCOURSE-005| writing            | Can write short reports describing experiences           | ✅ Realised |
+| B1-OPINION-001  | spoken_production  | Can express opinions with supporting reasons             | ✅ Realised |
+| B1-OPINION-002  | spoken_interaction | Can agree and disagree politely                          | ✅ Realised |
+| B1-OPINION-003  | spoken_production  | Can describe advantages and disadvantages                | ✅ Realised |
+| B1-OPINION-004  | writing            | Can write simple opinions about current events           | ✅ Realised |
+| B1-TEXT-001     | reading            | Can understand factual articles on topics of interest    | ✅ Realised |
+| B1-TEXT-002     | reading            | Can identify the main points in news articles            | ✅ Realised |
+| B1-TEXT-003     | reading            | Can read simple technical information in their field     | ✅ Realised |
+| B1-TEXT-004     | writing            | Can write straightforward connected text on familiar topics | ✅ Realised |
+| B1-TEXT-005     | writing            | Can write a letter or email describing experiences       | ✅ Realised |
+
+B1 Coverage: 18/18 nodes fully realised (100%).
+
+### B1 skill distribution
+
+| Skill              | Count | Nodes                              |
+| ------------------ | ----- | ---------------------------------- |
+| spoken_interaction | 4     | SOCIAL-001/002/003, DISCOURSE-001  |
+| spoken_production  | 5     | SOCIAL-004, DISCOURSE-002/003, OPINION-001/003 |
+| writing            | 5     | DISCOURSE-004/005, OPINION-004, TEXT-004/005 |
+| reading            | 4     | TEXT-001/002/003                    |
+| listening          | 0     | —                                  |
+
+### es-ES realisation totals
+
+| Level | Vocabulary items | Grammar points | Files |
+| ----- | ---------------- | -------------- | ----- |
+| A1    | 132              | 0              | 22    |
+| A2    | 120              | 8              | 20    |
+| B1    | 108              | 9              | 18    |
+| **Total** | **360**      | **17**         | **60** |

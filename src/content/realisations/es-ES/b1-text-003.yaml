@@ -1,0 +1,54 @@
+nodeId: B1-TEXT-003
+lang: es-ES
+vocabulary:
+  - id: es-ES-B1-TEXT-003-001
+    term: 'técnico'
+    translation: 'technical'
+    partOfSpeech: adjective
+    gender: masculine
+    example: 'El texto técnico contiene vocabulario específico.'
+    exampleTranslation: 'The technical text contains specific vocabulary.'
+  - id: es-ES-B1-TEXT-003-002
+    term: 'ámbito profesional'
+    translation: 'professional field'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'En mi ámbito profesional, utilizo textos técnicos.'
+    exampleTranslation: 'In my professional field, I use technical texts.'
+  - id: es-ES-B1-TEXT-003-003
+    term: 'vocabulario específico'
+    translation: 'specific vocabulary'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El vocabulario específico es clave para entender el texto.'
+    exampleTranslation: 'Specific vocabulary is key to understanding the text.'
+  - id: es-ES-B1-TEXT-003-004
+    term: 'información práctica'
+    translation: 'practical information'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'El documento contiene información práctica.'
+    exampleTranslation: 'The document contains practical information.'
+  - id: es-ES-B1-TEXT-003-005
+    term: 'manual'
+    translation: 'manual / handbook'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'El manual de instrucciones es fácil de seguir.'
+    exampleTranslation: 'The instruction manual is easy to follow.'
+  - id: es-ES-B1-TEXT-003-006
+    term: 'procedimiento'
+    translation: 'procedure'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'El procedimiento se describe paso a paso.'
+    exampleTranslation: 'The procedure is described step by step.'
+grammar:
+  - id: es-ES-B1-TEXT-003-G1
+    point: 'Imperative in technical instructions'
+    explanation: "Use imperative (usted form) in technical instructions: 'Conecte el cable' (Connect the cable), 'Pulse el botón' (Press the button)."
+    examples:
+      - 'Gire la llave en sentido horario.'
+      - 'Inserte la moneda en la ranura.'
+    cefrNotes: 'B1 learners understand imperative mood in technical texts'
+culturalNotes: "Technical Spanish uses formal register (usted) in instructions. The passive voice is also common: 'Se recomienda leer las instrucciones' (It is recommended to read the instructions)."

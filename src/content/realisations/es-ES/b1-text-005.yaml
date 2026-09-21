@@ -1,0 +1,53 @@
+nodeId: B1-TEXT-005
+lang: es-ES
+vocabulary:
+  - id: es-ES-B1-TEXT-005-001
+    term: 'carta formal'
+    translation: 'formal letter'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Redacté una carta formal para solicitar información.'
+    exampleTranslation: 'I wrote a formal letter to request information.'
+  - id: es-ES-B1-TEXT-005-002
+    term: 'correo electrónico'
+    translation: 'email'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Envié un correo electrónico con mi opinión.'
+    exampleTranslation: 'I sent an email with my opinion.'
+  - id: es-ES-B1-TEXT-005-003
+    term: 'impresión'
+    translation: 'impression'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Quiero compartir mis impresiones sobre el curso.'
+    exampleTranslation: 'I want to share my impressions about the course.'
+  - id: es-ES-B1-TEXT-005-004
+    term: 'solicitar'
+    translation: 'to request'
+    partOfSpeech: verb
+    example: 'Necesito solicitar una cita con el médico.'
+    exampleTranslation: 'I need to request an appointment with the doctor.'
+  - id: es-ES-B1-TEXT-005-005
+    term: 'remitente'
+    translation: 'sender'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'El remitente del correo es desconocido.'
+    exampleTranslation: 'The sender of the email is unknown.'
+  - id: es-ES-B1-TEXT-005-006
+    term: 'destinatario'
+    translation: 'recipient'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'El destinatario debe recibir la carta antes del viernes.'
+    exampleTranslation: 'The recipient must receive the letter before Friday.'
+grammar:
+  - id: es-ES-B1-TEXT-005-G1
+    point: 'Formal letter structure with "le recuerdo que" + subjunctive'
+    explanation: "Use formal letter structures: 'le recuerdo que' (I remind you that), 'le agradecería que' (I would appreciate it if) + subjunctive."
+    examples:
+      - 'Le agradecería que me enviara la información.'
+      - 'Le recuerdo que el plazo límite es el viernes.'
+    cefrNotes: 'B1 learners use formal written conventions and polite requests with subjunctive'
+culturalNotes: 'Spanish formal letters follow a strict structure: greeting, introduction, body, closing. The formal register (usted) and subjunctive mood are essential for professional correspondence.'

@@ -1,0 +1,52 @@
+nodeId: B1-TEXT-004
+lang: es-ES
+vocabulary:
+  - id: es-ES-B1-TEXT-004-001
+    term: 'texto conectado'
+    translation: 'connected text'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Puedo escribir un texto conectado sobre temas familiares.'
+    exampleTranslation: 'I can write a connected text on familiar topics.'
+  - id: es-ES-B1-TEXT-004-002
+    term: 'desarrollar'
+    translation: 'to develop'
+    partOfSpeech: verb
+    example: 'Necesito desarrollar mis ideas con más detalle.'
+    exampleTranslation: 'I need to develop my ideas in more detail.'
+  - id: es-ES-B1-TEXT-004-003
+    term: 'organizar'
+    translation: 'to organize'
+    partOfSpeech: verb
+    example: 'Es importante organizar las ideas antes de escribir.'
+    exampleTranslation: 'It is important to organize ideas before writing.'
+  - id: es-ES-B1-TEXT-004-004
+    term: 'párrafo'
+    translation: 'paragraph'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Cada párrafo debe tener una idea central.'
+    exampleTranslation: 'Each paragraph should have a central idea.'
+  - id: es-ES-B1-TEXT-004-005
+    term: 'coherencia'
+    translation: 'coherence'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La coherencia del texto es fundamental.'
+    exampleTranslation: 'The coherence of the text is fundamental.'
+  - id: es-ES-B1-TEXT-004-006
+    term: 'temática'
+    translation: 'theme / subject matter'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Elegí una temática que conocía bien.'
+    exampleTranslation: 'I chose a subject matter I knew well.'
+grammar:
+  - id: es-ES-B1-TEXT-004-G1
+    point: 'Connectors for text coherence'
+    explanation: "Use connectors for text coherence: 'por lo tanto' (therefore), 'en primer lugar' (firstly), 'en conclusión' (in conclusion)."
+    examples:
+      - 'En primer lugar, describiré el problema. Luego, propondré soluciones.'
+      - 'En conclusión, la experiencia fue muy positiva.'
+    cefrNotes: 'B1 learners use connectors to create coherent written text'
+culturalNotes: 'Spanish written texts at B1 level should demonstrate clear paragraph structure, logical connectors, and appropriate use of past tenses for narration.'

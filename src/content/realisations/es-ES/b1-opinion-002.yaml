@@ -1,0 +1,49 @@
+nodeId: B1-OPINION-002
+lang: es-ES
+vocabulary:
+  - id: es-ES-B1-OPINION-002-001
+    term: 'estar de acuerdo'
+    translation: 'to agree'
+    partOfSpeech: phrase
+    example: 'Estoy completamente de acuerdo contigo.'
+    exampleTranslation: 'I completely agree with you.'
+  - id: es-ES-B1-OPINION-002-002
+    term: 'discrepar'
+    translation: 'to disagree'
+    partOfSpeech: verb
+    example: 'Respeto tu opinión, pero discrepo.'
+    exampleTranslation: 'I respect your opinion, but I disagree.'
+  - id: es-ES-B1-OPINION-002-003
+    term: 'en cierto modo'
+    translation: 'to some extent'
+    partOfSpeech: phrase
+    example: 'En cierto modo tienes razón.'
+    exampleTranslation: 'To some extent you are right.'
+  - id: es-ES-B1-OPINION-002-004
+    term: 'sin ofender'
+    translation: 'without offence'
+    partOfSpeech: phrase
+    example: 'Sin ofender, no estoy de acuerdo.'
+    exampleTranslation: 'Without offence, I do not agree.'
+  - id: es-ES-B1-OPINION-002-005
+    term: 'respetuosamente'
+    translation: 'respectfully'
+    partOfSpeech: adverb
+    example: 'Discrepo respetuosamente de tu punto de vista.'
+    exampleTranslation: 'I respectfully disagree with your point of view.'
+  - id: es-ES-B1-OPINION-002-006
+    term: 'punkt de vista'
+    translation: 'point of view'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Entiendo tu punto de vista, pero tengo otra opinión.'
+    exampleTranslation: 'I understand your point of view, but I have a different opinion.'
+grammar:
+  - id: es-ES-B1-OPINION-002-G1
+    point: 'Polite agreement and disagreement formulas'
+    explanation: "Use polite formulas: 'Estoy de acuerdo' (I agree), 'No estoy del todo de acuerdo' (I don't fully agree), 'Tienes razón en parte' (You're partly right)."
+    examples:
+      - 'Entiendo lo que dices, pero no estoy del todo de acuerdo.'
+      - 'Tienes razón en parte, sin embargo...'
+    cefrNotes: 'B1 learners use hedging and politeness strategies in discussion'
+culturalNotes: 'Spanish discussion culture values directness tempered with respect. Phrases like "entiendo tu punto" (I understand your point) before disagreeing show B1-level pragmatic competence.'

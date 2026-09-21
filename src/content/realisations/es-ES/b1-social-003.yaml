@@ -1,0 +1,50 @@
+nodeId: B1-SOCIAL-003
+lang: es-ES
+vocabulary:
+  - id: es-ES-B1-SOCIAL-003-001
+    term: 'expresar sentimientos'
+    translation: 'to express feelings'
+    partOfSpeech: phrase
+    example: 'Es importante expresar sentimientos en una conversación.'
+    exampleTranslation: 'It is important to express feelings in a conversation.'
+  - id: es-ES-B1-SOCIAL-003-002
+    term: 'responder a'
+    translation: 'to respond to'
+    partOfSpeech: phrase
+    example: 'Sé responder adecuadamente a diferentes emociones.'
+    exampleTranslation: 'I know how to respond appropriately to different emotions.'
+  - id: es-ES-B1-SOCIAL-003-003
+    term: 'mostrar interés'
+    translation: 'to show interest'
+    partOfSpeech: phrase
+    example: 'Muestro interés por lo que dice mi interlocutor.'
+    exampleTranslation: 'I show interest in what my interlocutor says.'
+  - id: es-ES-B1-SOCIAL-003-004
+    term: 'empatía'
+    translation: 'empathy'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La empatía es fundamental en las relaciones personales.'
+    exampleTranslation: 'Empathy is fundamental in personal relationships.'
+  - id: es-ES-B1-SOCIAL-003-005
+    term: 'reacciones adecuadas'
+    translation: 'appropriate reactions'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Tengo reacciones adecuadas en diferentes situaciones.'
+    exampleTranslation: 'I have appropriate reactions in different situations.'
+  - id: es-ES-B1-SOCIAL-003-006
+    term: 'intercambiar'
+    translation: 'to exchange'
+    partOfSpeech: verb
+    example: 'Intercambiamos opiniones sobre varios temas.'
+    exampleTranslation: 'We exchange opinions on various topics.'
+grammar:
+  - id: es-ES-B1-SOCIAL-003-G1
+    point: 'Expressing feelings with "me siento" + adjective'
+    explanation: "Use 'me siento' + adjective to express emotional states: 'me siento contento' (I feel happy), 'me siento preocupado' (I feel worried)."
+    examples:
+      - 'Me siento muy a gusto en esta ciudad.'
+      - 'Me siento nervioso antes de hablar en público.'
+    cefrNotes: 'B1 learners express a range of emotional states using periphrastic constructions'
+culturalNotes: 'Spanish speakers tend to express emotions more openly than many other cultures. Physical gestures (hand movements, facial expressions) accompany verbal expression of feelings.'
