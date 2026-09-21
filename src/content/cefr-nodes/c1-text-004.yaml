@@ -1,0 +1,11 @@
+nodeId: C1-TEXT-004
+cefrLevel: C1
+skill: reading
+canDo: "Can understand complex argumentative texts and identify the author's line of argumentation, claims, evidence and conclusion"
+pragmaticFocus: 'Argumentation mapping'
+notionalFocus: 'Premises, evidence, conclusion'
+relatedNodes:
+  - C1-TEXT-001
+  - C1-ARGUE-002
+prerequisiteNodes:
+  - C1-TEXT-001
