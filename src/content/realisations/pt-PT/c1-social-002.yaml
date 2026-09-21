@@ -1,0 +1,54 @@
+nodeId: C1-SOCIAL-002
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C1-SOCIAL-002-001
+    term: 'mudar de registo'
+    translation: 'to switch register'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Num ambiente formal, muda de registo com uma naturalidade surpreendente.'
+    exampleTranslation: 'In a formal environment, he switches register with surprising naturalness.'
+  - id: pt-PT-C1-SOCIAL-002-002
+    term: 'tratar por você'
+    translation: 'to address someone formally'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Com as pessoas mais velhas, é costume tratar por você.'
+    exampleTranslation: 'With older people, it is customary to address them formally.'
+  - id: pt-PT-C1-SOCIAL-002-003
+    term: 'tratar por tu'
+    translation: 'to address someone informally'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Os colegas de trabalho tratam-se por tu desde o primeiro dia.'
+    exampleTranslation: 'Co-workers have addressed each other informally since day one.'
+  - id: pt-PT-C1-SOCIAL-002-004
+    term: 'adequar o tom'
+    translation: 'to adjust the tone'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Sabe adequar o tom ao contexto social em que se encontra.'
+    exampleTranslation: 'She knows how to adjust her tone to the social context she is in.'
+  - id: pt-PT-C1-SOCIAL-002-005
+    term: 'manter distância respeitosa'
+    translation: 'to keep respectful distance'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Nas primeiras conversas, é prudente manter distância respeitosa.'
+    exampleTranslation: 'In first conversations, it is prudent to keep a respectful distance.'
+  - id: pt-PT-C1-SOCIAL-002-006
+    term: 'quebrar o gelo'
+    translation: 'to break the ice'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Para quebrar o gelo, recorreu a um comentário sobre o tempo.'
+    exampleTranslation: 'To break the ice, she resorted to a comment about the weather.'
+grammar:
+  - id: C1-GRAMMAR-002
+    point: 'Register switching between tu and você'
+    explanation: 'Alternating between informal segunda pessoa (tu) and formal terceira pessoa (você) forms to manage social distance'
+    examples:
+      - 'Podes tratar-me por tu, se preferires.'
+      - 'Nas reuniões, deve tratar-se o cliente por você.'
+    cefrNotes: 'C1 learners consciously manage tu/você alternation for social effect, not from uncertainty'
+culturalNotes: "In European Portuguese, 'você' is formal but can sound distant or even rude between close acquaintances; 'tu' is standard among peers. Senhor/a Senhora marks the highest formality. Getting the balance wrong signals disrespect or excessive familiarity."

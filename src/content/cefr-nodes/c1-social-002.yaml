@@ -1,0 +1,11 @@
+nodeId: C1-SOCIAL-002
+cefrLevel: C1
+skill: spoken_interaction
+canDo: 'Can use language flexibly and effectively for social purposes in a wide range of contexts'
+pragmaticFocus: 'Flexible social register management'
+notionalFocus: 'Register switching, social nuance'
+relatedNodes:
+  - C1-SOCIAL-001
+  - C1-NUANCED-001
+prerequisiteNodes:
+  - C1-SOCIAL-001
