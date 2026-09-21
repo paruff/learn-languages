@@ -1,0 +1,51 @@
+nodeId: B2-ARGUE-003
+lang: es-ES
+vocabulary:
+  - id: es-ES-B2-ARGUE-003-001
+    term: 'argumento sistemático'
+    translation: 'systematic argument'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Presentó un argumento sistemático y bien estructurado.'
+    exampleTranslation: 'He presented a systematic and well-structured argument.'
+  - id: es-ES-B2-ARGUE-003-002
+    term: 'puntos significativos'
+    translation: 'significant points'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Es importante destacar los puntos significativos.'
+    exampleTranslation: 'It is important to highlight the significant points.'
+  - id: es-ES-B2-ARGUE-003-003
+    term: 'estructurar'
+    translation: 'to structure'
+    partOfSpeech: verb
+    example: 'Necesito estructurar mejor mi discurso.'
+    exampleTranslation: 'I need to better structure my speech.'
+  - id: es-ES-B2-ARGUE-003-004
+    term: 'rebatir'
+    translation: 'to refute'
+    partOfSpeech: verb
+    example: 'Es difícil rebatir un argumento tan bien fundamentado.'
+    exampleTranslation: 'It is difficult to refute such a well-founded argument.'
+  - id: es-ES-B2-ARGUE-003-005
+    term: 'exponer'
+    translation: 'to present / to explain'
+    partOfSpeech: verb
+    example: 'Voy a exponer mi punto de vista de forma clara.'
+    exampleTranslation: 'I am going to present my point of view clearly.'
+  - id: es-ES-B2-ARGUE-003-006
+    term: 'énfasis'
+    translation: 'emphasis'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Puso énfasis en los aspectos positivos.'
+    exampleTranslation: 'He placed emphasis on the positive aspects.'
+grammar:
+  - id: es-ES-B2-ARGUE-003-G1
+    point: 'Subjunctive in argumentative clauses with "es importante que"'
+    explanation: "Use subjunctive after expressions of importance: 'Es importante que se consideren' (It is important that they be considered), 'Es necesario que actúemos' (It is necessary that we act)."
+    examples:
+      - 'Es fundamental que se presenten datos concretos.'
+      - 'Es crucial que la argumentación sea coherente.'
+    cefrNotes: 'B2 learners use subjunctive in formal argumentative structures'
+culturalNotes: 'Systematic argumentation at B2 level requires clear topic sentences, supporting evidence, and logical connectors. Spanish academic writing follows this structure closely.'

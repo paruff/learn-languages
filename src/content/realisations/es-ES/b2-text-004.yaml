@@ -1,0 +1,53 @@
+nodeId: B2-TEXT-004
+lang: es-ES
+vocabulary:
+  - id: es-ES-B2-TEXT-004-001
+    term: 'texto argumentativo'
+    translation: 'argumentative text'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El texto argumentativo presenta una tesis clara.'
+    exampleTranslation: 'The argumentative text presents a clear thesis.'
+  - id: es-ES-B2-TEXT-004-002
+    term: 'conclusión'
+    translation: 'conclusion'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Las conclusiones del texto están bien fundamentadas.'
+    exampleTranslation: 'The conclusions of the text are well founded.'
+  - id: es-ES-B2-TEXT-004-003
+    term: 'señalización'
+    translation: 'signposting'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La buena señalización del texto facilita la lectura.'
+    exampleTranslation: 'Good signposting in the text facilitates reading.'
+  - id: es-ES-B2-TEXT-004-004
+    term: 'desarrollo argumentativo'
+    translation: 'argumentative development'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El desarrollo argumentativo es claro y lógico.'
+    exampleTranslation: 'The argumentative development is clear and logical.'
+  - id: es-ES-B2-TEXT-004-005
+    term: 'identificar conclusiones'
+    translation: 'to identify conclusions'
+    partOfSpeech: phrase
+    example: 'Puedo identificar conclusiones en textos argumentativos.'
+    exampleTranslation: 'I can identify conclusions in argumentative texts.'
+  - id: es-ES-B2-TEXT-004-006
+    term: 'texto bien estructurado'
+    translation: 'well-structured text'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Un texto bien estructurado es más fácil de comprender.'
+    exampleTranslation: 'A well-structured text is easier to comprehend.'
+grammar:
+  - id: es-ES-B2-TEXT-004-G1
+    point: 'Conclusive connectors in argumentative texts'
+    explanation: "Use conclusive connectors: 'en conclusión' (in conclusion), 'en definitiva' (ultimately), 'por consiguiente' (therefore) to identify conclusions in argumentative texts."
+    examples:
+      - 'En conclusión, el autor demuestra su tesis con datos.'
+      - 'Por consiguiente, debemos reconsiderar nuestra postura.'
+    cefrNotes: 'B2 learners use conclusive connectors to identify main conclusions'
+culturalNotes: "Understanding clearly signposted argumentative texts at B2 level means being able to follow the logical structure from thesis through evidence to conclusion, recognizing the author's rhetorical strategy."

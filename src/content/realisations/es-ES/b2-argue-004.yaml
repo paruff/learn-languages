@@ -1,0 +1,52 @@
+nodeId: B2-ARGUE-004
+lang: es-ES
+vocabulary:
+  - id: es-ES-B2-ARGUE-004-001
+    term: 'sostener una postura'
+    translation: 'to sustain a position'
+    partOfSpeech: phrase
+    example: 'Puedo sostener mi postura con argumentos sólidos.'
+    exampleTranslation: 'I can sustain my position with solid arguments.'
+  - id: es-ES-B2-ARGUE-004-002
+    term: 'detalle relevante'
+    translation: 'relevant detail'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Incluí detalles relevantes para apoyar mi argumento.'
+    exampleTranslation: 'I included relevant details to support my argument.'
+  - id: es-ES-B2-ARGUE-004-003
+    term: 'ensayo'
+    translation: 'essay'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Escribí un ensayo sobre los derechos humanos.'
+    exampleTranslation: 'I wrote an essay about human rights.'
+  - id: es-ES-B2-ARGUE-004-004
+    term: 'apoyar'
+    translation: 'to support'
+    partOfSpeech: verb
+    example: 'Es importante apoyar las opiniones con hechos.'
+    exampleTranslation: 'It is important to support opinions with facts.'
+  - id: es-ES-B2-ARGUE-004-005
+    term: 'desarrollo'
+    translation: 'development'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'El desarrollo del argumento fue claro y convincente.'
+    exampleTranslation: 'The development of the argument was clear and convincing.'
+  - id: es-ES-B2-ARGUE-004-006
+    term: 'exposición'
+    translation: 'presentation / exposition'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La exposición de ideas fue muy organizada.'
+    exampleTranslation: 'The exposition of ideas was very organized.'
+grammar:
+  - id: es-ES-B2-ARGUE-004-G1
+    point: 'Written argument structures with "no solo... sino también"'
+    explanation: "Use 'no solo... sino también' (not only... but also) for written argument structures: 'No solo es importante, sino también urgente.'"
+    examples:
+      - 'No solo debemos analizar el problema, sino también proponer soluciones.'
+      - 'El ensayo no solo presenta datos, sino también interpreta tendencias.'
+    cefrNotes: 'B2 learners use complex written argument structures for emphasis'
+culturalNotes: 'Written argumentation at B2 level should demonstrate the ability to sustain a viewpoint with relevant supporting detail, using formal register and complex sentence structures.'

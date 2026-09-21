@@ -1,0 +1,53 @@
+nodeId: B2-SPOKEN-002
+lang: es-ES
+vocabulary:
+  - id: es-ES-B2-SPOKEN-002-001
+    term: 'programa de actualidad'
+    translation: 'current affairs programme'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Veo programas de actualidad para informarme.'
+    exampleTranslation: 'I watch current affairs programmes to stay informed.'
+  - id: es-ES-B2-SPOKEN-002-002
+    term: 'noticiero'
+    translation: 'news broadcast'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'El noticiero cubre temas internacionales.'
+    exampleTranslation: 'The news broadcast covers international topics.'
+  - id: es-ES-B2-SPOKEN-002-003
+    term: 'película'
+    translation: 'film / movie'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Puedo entender películas sin subtítulos.'
+    exampleTranslation: 'I can understand films without subtitles.'
+  - id: es-ES-B2-SPOKEN-002-004
+    term: 'televisión'
+    translation: 'television'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La televisión española tiene programas variados.'
+    exampleTranslation: 'Spanish television has varied programmes.'
+  - id: es-ES-B2-SPOKEN-002-005
+    term: 'comprender'
+    translation: 'to comprehend'
+    partOfSpeech: verb
+    example: 'Puedo comprender la mayoría de programas en televisión.'
+    exampleTranslation: 'I can comprehend most programmes on television.'
+  - id: es-ES-B2-SPOKEN-002-006
+    term: 'diálogo rápido'
+    translation: 'fast dialogue'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Los diálogos rápidos de las películas son un buen ejercicio.'
+    exampleTranslation: 'Fast film dialogues are good practice.'
+grammar:
+  - id: es-ES-B2-SPOKEN-002-G1
+    point: 'Temporal expressions with "desde que" + indicative for media comprehension'
+    explanation: "Use 'desde que' + indicative for temporal reference in media comprehension: 'Desde que estudio español, entiendo más películas' (Since I study Spanish, I understand more films)."
+    examples:
+      - 'Desde que vivo en Madrid, entiendo el noticiero sin problemas.'
+      - 'Desde que cambiaron el formato, los programas son más claros.'
+    cefrNotes: 'B2 learners use temporal clauses to contextualize media comprehension'
+culturalNotes: 'Understanding Spanish TV news and films at B2 level requires familiarity with regional accents, colloquial expressions, and cultural references. Spanish films often use regional dialects that add complexity.'

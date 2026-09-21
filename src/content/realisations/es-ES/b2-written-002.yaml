@@ -1,0 +1,53 @@
+nodeId: B2-WRITTEN-002
+lang: es-ES
+vocabulary:
+  - id: es-ES-B2-WRITTEN-002-001
+    term: 'ensayo argumentativo'
+    translation: 'argumentative essay'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Escribí un ensayo argumentativo sobre educación.'
+    exampleTranslation: 'I wrote an argumentative essay about education.'
+  - id: es-ES-B2-WRITTEN-002-002
+    term: 'desarrollar una tesis'
+    translation: 'to develop a thesis'
+    partOfSpeech: phrase
+    example: 'Es importante desarrollar una tesis coherente.'
+    exampleTranslation: 'It is important to develop a coherent thesis.'
+  - id: es-ES-B2-WRITTEN-002-003
+    term: 'informe analítico'
+    translation: 'analytical report'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El informe analítico presenta datos y conclusiones.'
+    exampleTranslation: 'The analytical report presents data and conclusions.'
+  - id: es-ES-B2-WRITTEN-002-004
+    term: 'exposición de argumentos'
+    translation: 'exposition of arguments'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La exposición de argumentos fue muy clara.'
+    exampleTranslation: 'The exposition of arguments was very clear.'
+  - id: es-ES-B2-WRITTEN-002-005
+    term: 'desarrollo de ideas'
+    translation: 'development of ideas'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El desarrollo de ideas del ensayo es sólido.'
+    exampleTranslation: "The essay's development of ideas is solid."
+  - id: es-ES-B2-WRITTEN-002-006
+    term: 'conclusiones fundamentadas'
+    translation: 'well-founded conclusions'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Las conclusiones del ensayo están bien fundamentadas.'
+    exampleTranslation: "The essay's conclusions are well founded."
+grammar:
+  - id: es-ES-B2-WRITTEN-002-G1
+    point: 'Hypothetical structures with "si" + imperfect subjunctive + conditional'
+    explanation: "Use 'si' + imperfect subjunctive + conditional for hypothetical arguments: 'Si se implementara esta medida, los resultados serían positivos' (If this measure were implemented, the results would be positive)."
+    examples:
+      - 'Si analizáramos los datos, veríamos una tendencia clara.'
+      - 'Si se采取iera esta política, los problemas se reducirían.'
+    cefrNotes: 'B2 learners use hypothetical structures for argumentative writing'
+culturalNotes: 'Writing essays and reports that develop an argument at B2 level requires the ability to present a clear thesis, support it with evidence, and draw well-founded conclusions.'

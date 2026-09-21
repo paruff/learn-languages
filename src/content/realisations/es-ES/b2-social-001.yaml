@@ -1,0 +1,54 @@
+nodeId: B2-SOCIAL-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-B2-SOCIAL-001-001
+    term: 'fluidez'
+    translation: 'fluency'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Hablo con fluidez sobre temas familiares.'
+    exampleTranslation: 'I speak with fluency on familiar topics.'
+  - id: es-ES-B2-SOCIAL-001-002
+    term: 'espontaneidad'
+    translation: 'spontaneity'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La espontaneidad en la conversación es importante.'
+    exampleTranslation: 'Spontaneity in conversation is important.'
+  - id: es-ES-B2-SOCIAL-001-003
+    term: 'conversación fluida'
+    translation: 'fluid conversation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Mantuvimos una conversación fluida durante toda la tarde.'
+    exampleTranslation: 'We maintained a fluid conversation throughout the afternoon.'
+  - id: es-ES-B2-SOCIAL-001-004
+    term: 'temas cotidianos'
+    translation: 'everyday topics'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Puedo hablar de temas cotidianos sin dificultad.'
+    exampleTranslation: 'I can talk about everyday topics without difficulty.'
+  - id: es-ES-B2-SOCIAL-001-005
+    term: 'interacción social'
+    translation: 'social interaction'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La interacción social es clave para aprender idiomas.'
+    exampleTranslation: 'Social interaction is key for learning languages.'
+  - id: es-ES-B2-SOCIAL-001-006
+    term: 'naturalidad'
+    translation: 'naturalness'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Hablo con naturalidad en la mayoría de situaciones.'
+    exampleTranslation: 'I speak naturally in most situations.'
+grammar:
+  - id: es-ES-B2-SOCIAL-001-G1
+    point: 'Present subjunctive for spontaneous suggestions'
+    explanation: "Use present subjunctive for spontaneous suggestions in conversation: '¿Qué tal si vamos al cine?' (What about going to the cinema?), '¿No crees que deberíamos salir?' (Don't you think we should go out?)."
+    examples:
+      - '¿Qué tal si hablamos del tema mañana?'
+      - '¿No te parece que deberíamos cambiar de tema?'
+    cefrNotes: 'B2 learners use subjunctive for natural conversational suggestions'
+culturalNotes: 'B2-level Spanish conversation demonstrates natural fluency with idiomatic expressions and conversational fillers that signal engagement and spontaneity.'

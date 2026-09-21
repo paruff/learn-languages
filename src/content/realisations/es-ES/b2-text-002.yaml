@@ -1,0 +1,54 @@
+nodeId: B2-TEXT-002
+lang: es-ES
+vocabulary:
+  - id: es-ES-B2-TEXT-002-001
+    term: 'artículo de opinión'
+    translation: 'opinion article'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Leí un artículo de opinión sobre el cambio climático.'
+    exampleTranslation: 'I read an opinion article about climate change.'
+  - id: es-ES-B2-TEXT-002-002
+    term: 'problema contemporáneo'
+    translation: 'contemporary problem'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Los problemas contemporáneos requieren análisis profundo.'
+    exampleTranslation: 'Contemporary problems require deep analysis.'
+  - id: es-ES-B2-TEXT-002-003
+    term: 'información veraz'
+    translation: 'truthful information'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Es importante buscar información veraz en internet.'
+    exampleTranslation: 'It is important to seek truthful information on the internet.'
+  - id: es-ES-B2-TEXT-002-004
+    term: 'comprensión profunda'
+    translation: 'deep comprehension'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La comprensión profunda requiere tiempo y práctica.'
+    exampleTranslation: 'Deep comprehension requires time and practice.'
+  - id: es-ES-B2-TEXT-002-005
+    term: 'análisis crítico'
+    translation: 'critical analysis'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El análisis crítico de textos es una habilidad clave.'
+    exampleTranslation: 'Critical analysis of texts is a key skill.'
+  - id: es-ES-B2-TEXT-002-006
+    term: 'argumentación'
+    translation: 'argumentation'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La argumentación del autor es convincente.'
+    exampleTranslation: "The author's argumentation is convincing."
+grammar:
+  - id: es-ES-B2-TEXT-002-G1
+    point: 'Subjunctive in concessive clauses for reading comprehension'
+    explanation: "Use 'aunque' + subjunctive for hypothetical concessions in text analysis: 'Aunque no esté de acuerdo, reconozco que el artículo es bien argumentado' (Even though I disagree, I acknowledge the article is well argued)."
+    examples:
+      - 'Aunque el tema sea complejo, el autor lo explica bien.'
+      - 'Aunque la tesis sea controvertida, los datos la respaldan.'
+    cefrNotes: 'B2 learners use concessive subjunctive for nuanced text evaluation'
+culturalNotes: "Understanding articles about contemporary problems at B2 level requires the ability to identify the author's position, evaluate the evidence presented, and form an independent opinion."
