@@ -37,6 +37,7 @@ const trackedItems = items
   <h1>Progress</h1>
   <div id="progress-levels"></div>
   <p id="progress-next" class="card"></p>
+  <p id="progress-calibration" class="card" hidden></p>
 
   <script
     type="application/json"
@@ -60,6 +61,7 @@ const trackedItems = items
 <script>
   import { loadState } from '../../../lib/storage';
   import { computeCefrProgress, type TrackedItem } from '../../../lib/progress';
+  import { loadBreakDates, countRecentBreaks } from '../../../lib/calibration';
 
   interface DataItem {
     itemId: string;
@@ -102,4 +104,17 @@ const trackedItems = items
   nextEl.textContent = nextRecommended
     ? `Next up: ${nextRecommended.canDo} (${nextRecommended.cefrLevel})`
     : 'All available content mastered — nice work.';
+
+  // Calibration signal (issue #46) — the book's "fluency illusion" warning:
+  // learners are poor judges of their own mastery. Surfaces how often a
+  // confident Good/Easy grade was followed by a struggling Again/Hard grade
+  // within the last week, computed from real grading history, not a guess.
+  const recentBreaks = countRecentBreaks(loadBreakDates(sourceLang, targetLang), new Date());
+  const calibrationEl = document.getElementById('progress-calibration')!;
+  if (recentBreaks > 0) {
+    calibrationEl.hidden = false;
+    calibrationEl.textContent =
+      `Calibration check: ${recentBreaks} item${recentBreaks === 1 ? '' : 's'} you rated ` +
+      `confidently needed a re-grade of Again/Hard within the last week.`;
+  }
 </script>
