@@ -1,0 +1,58 @@
+nodeId: A1-SHOP-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-A1-SHOP-001-001
+    term: 'tienda'
+    translation: 'shop'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La tienda cierra a las siete de la tarde.'
+    exampleTranslation: 'The shop closes at seven in the evening.'
+    imageUrl: 'loja.webp'
+    imageAlt: 'A small shop storefront with display windows'
+  - id: es-ES-A1-SHOP-001-002
+    term: 'dinero'
+    translation: 'money'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'No tengo dinero conmigo.'
+    exampleTranslation: 'I do not have money with me.'
+    imageUrl: 'dinheiro.webp'
+    imageAlt: 'Euro banknotes and coins spread out'
+  - id: es-ES-A1-SHOP-001-003
+    term: 'precio'
+    translation: 'price'
+    partOfSpeech: noun
+    gender: masculine
+    example: '¿Cuál es el precio de este abrigo?'
+    exampleTranslation: 'What is the price of this coat?'
+    imageUrl: 'preco.webp'
+    imageAlt: 'Price tag labels on a shelf'
+  - id: es-ES-A1-SHOP-001-004
+    term: 'euro'
+    translation: 'euro'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Cuesta diez euros.'
+    exampleTranslation: 'It costs ten euros.'
+    imageUrl: 'euro.webp'
+    imageAlt: 'Euro banknotes and coins of different denominations'
+  - id: es-ES-A1-SHOP-001-005
+    term: 'pagar'
+    translation: 'to pay'
+    partOfSpeech: verb
+    example: '¿Puedo pagar con tarjeta?'
+    exampleTranslation: 'Can I pay by card?'
+    imageUrl: 'pagar.webp'
+    imageAlt: 'A customer paying a cashier at a shop counter'
+  - id: es-ES-A1-SHOP-001-006
+    term: 'caja'
+    translation: 'till'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La cola en la caja es larga.'
+    exampleTranslation: 'The queue at the till is long.'
+    imageUrl: 'caixa.webp'
+    imageAlt: 'A supermarket checkout aisle with tills'
+grammar: []
+culturalNotes: 'Small independent shops (tiendas) are common in Spanish town centres alongside supermarkets; asking the price before buying is normal, even in small shops.'

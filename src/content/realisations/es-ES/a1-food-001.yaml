@@ -1,0 +1,55 @@
+nodeId: A1-FOOD-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-A1-FOOD-001-001
+    term: 'agua'
+    translation: 'water'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Un vaso de agua, por favor.'
+    exampleTranslation: 'A glass of water, please.'
+    imageUrl: 'agua.webp'
+    imageAlt: 'A clear glass filled with water'
+    mnemonic: 'Sounds like "aqua" — think aquarium, full of water.'
+  - id: es-ES-A1-FOOD-001-002
+    term: 'pan'
+    translation: 'bread'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Quiero pan con mantequilla.'
+    exampleTranslation: 'I want bread with butter.'
+    imageUrl: 'pao.webp'
+    imageAlt: 'A loaf of bread wrapped in cloth in a wire basket'
+    mnemonic: 'Sounds like "pan" — imagine baking bread in a pan.'
+  - id: es-ES-A1-FOOD-001-003
+    term: 'café'
+    translation: 'coffee'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Un café, por favor.'
+    exampleTranslation: 'A coffee, please.'
+    imageUrl: 'cafe.webp'
+    imageAlt: 'A white cup of coffee on a saucer'
+    mnemonic: 'Identical to English "café" — a café is where you go for coffee.'
+  - id: es-ES-A1-FOOD-001-004
+    term: 'leche'
+    translation: 'milk'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Té con leche.'
+    exampleTranslation: 'Tea with milk.'
+    imageUrl: 'leite.webp'
+    imageAlt: 'Glass pitchers filled with white milk'
+    mnemonic: 'Sounds like "letch" — picture someone reaching greedily for a glass of milk.'
+  - id: es-ES-A1-FOOD-001-005
+    term: 'arroz'
+    translation: 'rice'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Arroz con frijoles.'
+    exampleTranslation: 'Rice with beans.'
+    imageUrl: 'arroz.webp'
+    imageAlt: 'A bowl of cooked white rice'
+    mnemonic: 'Sounds like "a rose" — picture a rose growing out of a bowl of rice.'
+grammar: []
+culturalNotes: 'Meals in Spain are typically later than in English-speaking countries: lunch (almuerzo/comida) 14:00-15:30, dinner (cena) 21:00-22:00. Bread is served with most meals.'

@@ -1,0 +1,47 @@
+nodeId: A1-FAMILY-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-A1-FAMILY-001-001
+    term: 'madre'
+    translation: 'mother'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Mi madre se llama Ana.'
+    exampleTranslation: 'My mother is called Ana.'
+  - id: es-ES-A1-FAMILY-001-002
+    term: 'padre'
+    translation: 'father'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Mi padre trabaja en Madrid.'
+    exampleTranslation: 'My father works in Madrid.'
+  - id: es-ES-A1-FAMILY-001-003
+    term: 'hermano'
+    translation: 'brother'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Tengo un hermano menor.'
+    exampleTranslation: 'I have a younger brother.'
+  - id: es-ES-A1-FAMILY-001-004
+    term: 'hermana'
+    translation: 'sister'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Mi hermana es profesora.'
+    exampleTranslation: 'My sister is a teacher.'
+  - id: es-ES-A1-FAMILY-001-005
+    term: 'alto'
+    translation: 'tall'
+    partOfSpeech: adjective
+    gender: masculine
+    example: 'Mi padre es alto.'
+    exampleTranslation: 'My father is tall.'
+  - id: es-ES-A1-FAMILY-001-006
+    term: 'bajo'
+    translation: 'short'
+    partOfSpeech: adjective
+    gender: masculine
+    example: 'Mi hermana es baja.'
+    exampleTranslation: 'My sister is short.'
+grammar: []
+culturalNotes: 'Spanish families often gather for a large Sunday lunch across generations; greeting relatives with a kiss on each cheek is standard in most of Spain.'

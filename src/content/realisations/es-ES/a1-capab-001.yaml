@@ -1,0 +1,29 @@
+nodeId: A1-CAPAB-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-A1-CAPAB-001-001
+    term: 'Puedo...'
+    translation: 'I can...'
+    partOfSpeech: phrase
+    example: 'Puedo hablar un poco de español.'
+    exampleTranslation: 'I can speak a little Spanish.'
+  - id: es-ES-A1-CAPAB-001-002
+    term: 'No puedo...'
+    translation: "I can't..."
+    partOfSpeech: phrase
+    example: 'No puedo encontrar el teléfono.'
+    exampleTranslation: "I can't find the phone."
+  - id: es-ES-A1-CAPAB-001-003
+    term: 'Sé... / No sé...'
+    translation: "I know (how to)... / I don't know (how to)..."
+    partOfSpeech: phrase
+    example: 'Sé nadar.'
+    exampleTranslation: 'I know how to swim.'
+grammar:
+  - id: es-ES-A1-CAPAB-001-G1
+    point: 'Poder vs. Saber for ability'
+    explanation: "'Poder' expresses general or circumstantial ability: 'Puedo abrir la puerta.' 'Saber' expresses a learned skill: 'Sé cocinar.' Both are common at A1."
+    examples:
+      - 'Puedo llegar a tiempo. (I can arrive on time.)'
+      - 'Sé usar el ordenador. (I know how to use the computer.)'
+culturalNotes: 'Spanish speakers use poder for permission and general capability, and saber strictly for learned skills — mixing them up is a common learner error worth flagging early.'

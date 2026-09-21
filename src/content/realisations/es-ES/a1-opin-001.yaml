@@ -1,0 +1,29 @@
+nodeId: A1-OPIN-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-A1-OPIN-001-001
+    term: 'Creo que...'
+    translation: 'I think that...'
+    partOfSpeech: phrase
+    example: 'Creo que la película es buena.'
+    exampleTranslation: 'I think the film is good.'
+  - id: es-ES-A1-OPIN-001-002
+    term: 'Me gusta...'
+    translation: 'I like...'
+    partOfSpeech: phrase
+    example: 'Me gusta la música española.'
+    exampleTranslation: 'I like Spanish music.'
+  - id: es-ES-A1-OPIN-001-003
+    term: 'No me gusta...'
+    translation: "I don't like..."
+    partOfSpeech: phrase
+    example: 'No me gusta el café.'
+    exampleTranslation: "I don't like coffee."
+  - id: es-ES-A1-OPIN-001-004
+    term: 'En mi opinión...'
+    translation: 'In my opinion...'
+    partOfSpeech: phrase
+    example: 'En mi opinión, Madrid es bonita.'
+    exampleTranslation: 'In my opinion, Madrid is beautiful.'
+grammar: []
+culturalNotes: 'Spanish speakers often state opinions directly and enjoy lively debate. Creo que softens a statement slightly compared to a flat assertion.'
