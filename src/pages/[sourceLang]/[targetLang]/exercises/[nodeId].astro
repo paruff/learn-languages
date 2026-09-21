@@ -34,6 +34,7 @@ const { node, exercises } = Astro.props;
 
 <BaseLayout
   title={`Exercises: ${node.canDo} — ${sourceLang} → ${targetLang}`}
+  description={`Practice exercises for "${node.canDo}" — fill-blank, multiple-choice, and matching questions to check retention.`}
   sourceLang={sourceLang}
   targetLang={targetLang}
 >
