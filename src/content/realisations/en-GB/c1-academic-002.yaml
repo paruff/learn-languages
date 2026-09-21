@@ -1,0 +1,54 @@
+nodeId: C1-ACADEMIC-002
+lang: en-GB
+vocabulary:
+  - id: en-GB-C1-ACADEMIC-002-001
+    term: 'conference paper'
+    translation: 'comunicação em congresso'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'The conference paper used up the allotted time.'
+    exampleTranslation: 'A comunicação em congresso esgotou o tempo previsto.'
+  - id: en-GB-C1-ACADEMIC-002-002
+    term: 'specialist audience'
+    translation: 'público especializado'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'The specialist audience asked incisive questions.'
+    exampleTranslation: 'O público especializado fez perguntas incisivas.'
+  - id: en-GB-C1-ACADEMIC-002-003
+    term: 'to serve as a foundation for the presentation'
+    translation: 'servir de fundo à apresentação'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'The preliminary data serve as a foundation for the final presentation.'
+    exampleTranslation: 'Os dados preliminares servem de fundo à apresentação final.'
+  - id: en-GB-C1-ACADEMIC-002-004
+    term: 'path of the argumentation'
+    translation: 'percurso da argumentação'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'The speaker announced the path of the argumentation in advance.'
+    exampleTranslation: 'O orador anunciou de antemão o percurso da argumentação.'
+  - id: en-GB-C1-ACADEMIC-002-005
+    term: 'to manage speaking time'
+    translation: 'gerir o tempo de fala'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'It is essential to manage speaking time so as not to rush the conclusion.'
+    exampleTranslation: 'É essencial gerir o tempo de fala para não atropelar a conclusão.'
+  - id: en-GB-C1-ACADEMIC-002-006
+    term: 'to refute without aggression'
+    translation: 'refutar sem agressividade'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'He responded by knowing how to refute without aggression.'
+    exampleTranslation: 'Respondeu por saber refutar sem agressividade.'
+grammar:
+  - id: C1-GRAMMAR-018
+    point: 'Connectors and hedging for spoken academic argument'
+    explanation: "Backing up assertive sequences with concessive connectors and hedged modals, e.g. 'although' and 'even had the sample been larger'"
+    examples:
+      - 'Although the data are partial, the trend is clear.'
+      - 'Even had the sample been enlarged, the conclusion would stand.'
+    cefrNotes: 'C1 speakers of academic discourse combine concession with hedging for impartial tone'
+culturalNotes: "British academic talks place the concession after the claim, using discourse markers such as 'that said' to signal a nuanced turn; questions are answered with hedged confidence, and self-deprecation is the standard opener."
