@@ -1,0 +1,11 @@
+nodeId: C1-WRITTEN-001
+cefrLevel: C1
+skill: writing
+canDo: 'Can write a convincing, coherent text on abstract and topical subjects, adapting the register to the intended reader'
+pragmaticFocus: 'Register-adapted written argument'
+notionalFocus: 'Abstract subjects, audience adaptation'
+relatedNodes:
+  - C1-WRITTEN-002
+  - C1-ARGUE-004
+prerequisiteNodes:
+  - C1-ARGUE-004
