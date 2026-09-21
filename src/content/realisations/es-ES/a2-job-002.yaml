@@ -1,0 +1,52 @@
+nodeId: A2-JOB-002
+lang: es-ES
+vocabulary:
+  - id: es-ES-A2-JOB-002-001
+    term: 'rutina laboral'
+    translation: 'work routine'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Mi rutina laboral empieza a las ocho.'
+    exampleTranslation: 'My work routine starts at eight.'
+  - id: es-ES-A2-JOB-002-002
+    term: 'tarea'
+    translation: 'task'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Tengo muchas tareas pendientes.'
+    exampleTranslation: 'I have many pending tasks.'
+  - id: es-ES-A2-JOB-002-003
+    term: 'compañero'
+    translation: 'colleague'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Mi compañero de trabajo es muy simpático.'
+    exampleTranslation: 'My colleague is very nice.'
+  - id: es-ES-A2-JOB-002-004
+    term: 'reunión'
+    translation: 'meeting'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Tenemos una reunión a las diez.'
+    exampleTranslation: 'We have a meeting at ten.'
+  - id: es-ES-A2-JOB-002-005
+    term: 'llegar tarde'
+    translation: 'to be late'
+    partOfSpeech: phrase
+    example: 'No me gusta llegar tarde al trabajo.'
+    exampleTranslation: "I don't like being late for work."
+  - id: es-ES-A2-JOB-002-006
+    term: 'terminar'
+    translation: 'to finish'
+    partOfSpeech: verb
+    example: 'Termino de trabajar a las seis.'
+    exampleTranslation: 'I finish work at six.'
+grammar:
+  - id: es-ES-A2-JOB-002-G1
+    point: 'Frequency adverbs with present tense'
+    explanation: "Use adverbs like 'siempre' (always), 'a veces' (sometimes), 'nunca' (never) with the present tense to describe work routines."
+    examples:
+      - 'Siempre llego puntual al trabajo.'
+      - 'A veces termino tarde.'
+    cefrNotes: 'Frequency adverbs modify routine descriptions at A2'
+culturalNotes: 'In Spain, "compañero de trabajo" or "compañero" is more common than "colega" in professional settings. Direct managers are often addressed by first name after an initial formal period.'

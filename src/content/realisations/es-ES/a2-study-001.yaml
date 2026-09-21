@@ -1,0 +1,54 @@
+nodeId: A2-STUDY-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-A2-STUDY-001-001
+    term: 'formación'
+    translation: 'education / training'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Mi formación es en ingeniería.'
+    exampleTranslation: 'My education is in engineering.'
+  - id: es-ES-A2-STUDY-001-002
+    term: 'carrera'
+    translation: 'degree'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Estudié una carrera de derecho.'
+    exampleTranslation: 'I studied a law degree.'
+  - id: es-ES-A2-STUDY-001-003
+    term: 'universidad'
+    translation: 'university'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Estudié en la universidad de Madrid.'
+    exampleTranslation: 'I studied at the University of Madrid.'
+  - id: es-ES-A2-STUDY-001-004
+    term: 'título'
+    translation: 'qualification / degree'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Tengo un título en administración.'
+    exampleTranslation: 'I have a qualification in management.'
+  - id: es-ES-A2-STUDY-001-005
+    term: 'idioma'
+    translation: 'language'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Hablo dos idiomas: español e inglés.'
+    exampleTranslation: 'I speak two languages: Spanish and English.'
+  - id: es-ES-A2-STUDY-001-006
+    term: 'especialización'
+    translation: 'specialisation'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Mi especialización es marketing digital.'
+    exampleTranslation: 'My specialisation is digital marketing.'
+grammar:
+  - id: es-ES-A2-STUDY-001-G1
+    point: 'Present perfect for past studies'
+    explanation: "Use 'he estudiado' (I have studied) and 'he terminado' (I have finished) to talk about completed educational experiences with present relevance."
+    examples:
+      - 'He estudiado tres años de medicina.'
+      - 'He terminado mi carrera el año pasado.'
+    cefrNotes: 'A2 learners begin using the present perfect for life experiences'
+culturalNotes: 'Spanish higher education follows the Bolona process: Grado (4 years), Máster (1-2 years), Doctorado. "Carrera" colloquially refers to the full undergraduate degree.'

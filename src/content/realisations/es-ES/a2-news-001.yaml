@@ -1,0 +1,53 @@
+nodeId: A2-NEWS-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-A2-NEWS-001-001
+    term: 'periódico'
+    translation: 'newspaper'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Leo el periódico todas las mañanas.'
+    exampleTranslation: 'I read the newspaper every morning.'
+  - id: es-ES-A2-NEWS-001-002
+    term: 'artículo'
+    translation: 'article'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'El artículo habla sobre el cambio climático.'
+    exampleTranslation: 'The article talks about climate change.'
+  - id: es-ES-A2-NEWS-001-003
+    term: 'titular'
+    translation: 'headline'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'El titular del periódico es impactante.'
+    exampleTranslation: 'The newspaper headline is striking.'
+  - id: es-ES-A2-NEWS-001-004
+    term: 'información'
+    translation: 'information'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La información del periódico es fiable.'
+    exampleTranslation: 'The information in the newspaper is reliable.'
+  - id: es-ES-A2-NEWS-001-005
+    term: 'entender'
+    translation: 'to understand'
+    partOfSpeech: verb
+    example: 'Puedo entender los artículos simples.'
+    exampleTranslation: 'I can understand simple articles.'
+  - id: es-ES-A2-NEWS-001-006
+    term: 'fuente'
+    translation: 'source'
+    partOfSpeech: noun
+    gender: feminine
+    example: '¿Cuál es la fuente de esta información?'
+    exampleTranslation: 'What is the source of this information?'
+grammar:
+  - id: es-ES-A2-NEWS-001-G1
+    point: 'Present tense for reading comprehension'
+    explanation: "Use the present tense to discuss what texts say: 'el artículo dice que...' (the article says that...), 'el autor opina que...' (the author thinks that...)."
+    examples:
+      - 'El artículo dice que el clima está cambiando.'
+      - 'El autor opina que debemos actuar.'
+    cefrNotes: 'A2 learners use reporting verbs in the present tense to summarise texts'
+culturalNotes: 'Spanish newspapers range from national (El País, El Mundo) to regional (La Vanguardia, ABC). Online news (eldiario.es, infoLibre) is increasingly popular.'

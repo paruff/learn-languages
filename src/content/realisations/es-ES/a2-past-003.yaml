@@ -1,0 +1,48 @@
+nodeId: A2-PAST-003
+lang: es-ES
+vocabulary:
+  - id: es-ES-A2-PAST-003-001
+    term: 'contar'
+    translation: 'to tell / to count'
+    partOfSpeech: verb
+    example: 'Me contó lo que pasó ayer.'
+    exampleTranslation: 'She told me what happened yesterday.'
+  - id: es-ES-A2-PAST-003-002
+    term: 'suceder'
+    translation: 'to happen'
+    partOfSpeech: verb
+    example: '¿Qué sucedió anoche?'
+    exampleTranslation: 'What happened last night?'
+  - id: es-ES-A2-PAST-003-003
+    term: 'primero'
+    translation: 'first'
+    partOfSpeech: adverb
+    example: 'Primero fuimos al restaurante, luego al cine.'
+    exampleTranslation: 'First we went to the restaurant, then to the cinema.'
+  - id: es-ES-A2-PAST-003-004
+    term: 'después'
+    translation: 'afterwards'
+    partOfSpeech: adverb
+    example: 'Después volvimos a casa.'
+    exampleTranslation: 'Afterwards we went back home.'
+  - id: es-ES-A2-PAST-003-005
+    term: 'mientras'
+    translation: 'while'
+    partOfSpeech: conjunction
+    example: 'Mientras cenábamos, llovió mucho.'
+    exampleTranslation: 'While we were having dinner, it rained a lot.'
+  - id: es-ES-A2-PAST-003-006
+    term: 'eventualmente'
+    translation: 'eventually'
+    partOfSpeech: adverb
+    example: 'Eventualmente llegamos a casa.'
+    exampleTranslation: 'Eventually we got home.'
+grammar:
+  - id: es-ES-A2-PAST-003-G1
+    point: 'Sequence connectors for past narratives'
+    explanation: "Use connectors like 'primero' (first), 'luego/después' (then), 'finalmente' (finally) to order events in a past narrative."
+    examples:
+      - 'Primero desayuné, luego salí de casa.'
+      - 'Finalmente llegué al trabajo.'
+    cefrNotes: 'Temporal connectors give coherence to A2 narratives'
+culturalNotes: 'Spanish narratives often follow a chronological structure. "Mientras" (while) introduces simultaneous actions, a useful connector for A2 storytelling.'

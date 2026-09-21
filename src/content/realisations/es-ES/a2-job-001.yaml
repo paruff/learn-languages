@@ -1,0 +1,53 @@
+nodeId: A2-JOB-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-A2-JOB-001-001
+    term: 'empleo'
+    translation: 'job'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Tengo un empleo en el centro de la ciudad.'
+    exampleTranslation: 'I have a job in the city centre.'
+  - id: es-ES-A2-JOB-001-002
+    term: 'oficina'
+    translation: 'office'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Trabajo en una oficina grande.'
+    exampleTranslation: 'I work in a large office.'
+  - id: es-ES-A2-JOB-001-003
+    term: 'horario'
+    translation: 'working hours'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Mi horario es de nueve a cinco.'
+    exampleTranslation: 'My working hours are from nine to five.'
+  - id: es-ES-A2-JOB-001-004
+    term: 'ganar'
+    translation: 'to earn'
+    partOfSpeech: verb
+    example: 'Gano dos mil euros al mes.'
+    exampleTranslation: 'I earn two thousand euros a month.'
+  - id: es-ES-A2-JOB-001-005
+    term: 'jornada'
+    translation: 'working day'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Mi jornada laboral es de ocho horas.'
+    exampleTranslation: 'My working day is eight hours.'
+  - id: es-ES-A2-JOB-001-006
+    term: 'sueldo'
+    translation: 'salary'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'El sueldo no es muy alto.'
+    exampleTranslation: 'The salary is not very high.'
+grammar:
+  - id: es-ES-A2-JOB-001-G1
+    point: 'Present tense for describing habits and routines'
+    explanation: "Use the present indicative to describe regular work activities and schedules, e.g. 'trabajo' (I work), 'salgo' (I leave)."
+    examples:
+      - 'Trabajo en una empresa de tecnología.'
+      - 'Salgo de la oficina a las seis.'
+    cefrNotes: 'A2 learners use the present tense to describe personal routines and professional situations'
+culturalNotes: 'Standard working hours in Spain are 9:00-14:00 and 16:30-19:30 (split schedule). Many businesses close for a long lunch break. The concept of "horario español" reflects this later schedule.'

@@ -1,0 +1,47 @@
+nodeId: A2-JOB-003
+lang: es-ES
+vocabulary:
+  - id: es-ES-A2-JOB-003-001
+    term: 'anuncio de empleo'
+    translation: 'job advertisement'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Vi un anuncio de empleo en el periódico.'
+    exampleTranslation: 'I saw a job advertisement in the newspaper.'
+  - id: es-ES-A2-JOB-003-002
+    term: 'requisitos'
+    translation: 'requirements'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Los requisitos del puesto son experiencia y inglés.'
+    exampleTranslation: 'The job requirements are experience and English.'
+  - id: es-ES-A2-JOB-003-003
+    term: 'experiencia'
+    translation: 'experience'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Necesitan al menos dos años de experiencia.'
+    exampleTranslation: 'They need at least two years of experience.'
+  - id: es-ES-A2-JOB-003-004
+    term: 'contrato'
+    translation: 'contract'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Me ofrecieron un contrato temporal.'
+    exampleTranslation: 'They offered me a temporary contract.'
+  - id: es-ES-A2-JOB-003-005
+    term: 'candidato'
+    translation: 'candidate'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Hay muchos candidatos para el puesto.'
+    exampleTranslation: 'There are many candidates for the position.'
+  - id: es-ES-A2-JOB-003-006
+    term: 'profesión'
+    translation: 'profession'
+    partOfSpeech: noun
+    gender: feminine
+    example: '¿Cuál es tu profesión?'
+    exampleTranslation: 'What is your profession?'
+grammar: []
+culturalNotes: 'Spanish job advertisements often specify "contrato indefinido" (permanent contract) vs "contrato temporal" (fixed-term). Temporary contracts were historically very common in Spain.'

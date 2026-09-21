@@ -1,0 +1,54 @@
+nodeId: A2-HEALTH-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-A2-HEALTH-001-001
+    term: 'médico'
+    translation: 'doctor'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Necesito ir al médico.'
+    exampleTranslation: 'I need to go to the doctor.'
+  - id: es-ES-A2-HEALTH-001-002
+    term: 'dolor'
+    translation: 'pain'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Tengo dolor de cabeza.'
+    exampleTranslation: 'I have a headache.'
+  - id: es-ES-A2-HEALTH-001-003
+    term: 'medicamento'
+    translation: 'medication'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'El médico me recetó un medicamento.'
+    exampleTranslation: 'The doctor prescribed me medication.'
+  - id: es-ES-A2-HEALTH-001-004
+    term: 'síntoma'
+    translation: 'symptom'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Los síntomas son fiebre y tos.'
+    exampleTranslation: 'The symptoms are fever and cough.'
+  - id: es-ES-A2-HEALTH-001-005
+    term: 'cita médica'
+    translation: 'medical appointment'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Tengo una cita médica a las tres.'
+    exampleTranslation: 'I have a medical appointment at three.'
+  - id: es-ES-A2-HEALTH-001-006
+    term: 'farmacia'
+    translation: 'pharmacy'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Voy a la farmacia a comprar aspirinas.'
+    exampleTranslation: 'I am going to the pharmacy to buy aspirin.'
+grammar:
+  - id: es-ES-A2-HEALTH-001-G1
+    point: 'Tener + body part for physical conditions'
+    explanation: "Use 'tener' (to have) + body part to describe physical symptoms: 'tengo dolor de cabeza' (I have a headache), 'tengo fiebre' (I have a fever)."
+    examples:
+      - 'Tengo dolor de estómago.'
+      - 'Tengo mucho frío.'
+    cefrNotes: 'Tener + body part is the standard way to describe health conditions in Spanish'
+culturalNotes: 'The Spanish healthcare system (Sistema Nacional de Salud) provides universal coverage. "Farmacia" (pharmacy) is marked with a green cross and pharmacists can advise on minor ailments without a prescription.'

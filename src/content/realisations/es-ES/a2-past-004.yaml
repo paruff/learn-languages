@@ -1,0 +1,49 @@
+nodeId: A2-PAST-004
+lang: es-ES
+vocabulary:
+  - id: es-ES-A2-PAST-004-001
+    term: 'comparar'
+    translation: 'to compare'
+    partOfSpeech: verb
+    example: 'Me gusta comparar el pasado con el presente.'
+    exampleTranslation: 'I like comparing the past with the present.'
+  - id: es-ES-A2-PAST-004-002
+    term: 'mejorar'
+    translation: 'to improve'
+    partOfSpeech: verb
+    example: 'Las condiciones han mejorado mucho.'
+    exampleTranslation: 'The conditions have improved a lot.'
+  - id: es-ES-A2-PAST-004-003
+    term: 'empeorar'
+    translation: 'to worsen'
+    partOfSpeech: verb
+    example: 'El tiempo ha empeorado este invierno.'
+    exampleTranslation: 'The weather has worsened this winter.'
+  - id: es-ES-A2-PAST-004-004
+    term: 'antes... ahora'
+    translation: 'before... now'
+    partOfSpeech: phrase
+    example: 'Antes hacía mucho frío, ahora hace calor.'
+    exampleTranslation: 'Before it was very cold, now it is hot.'
+  - id: es-ES-A2-PAST-004-005
+    term: 'todo ha cambiado'
+    translation: 'everything has changed'
+    partOfSpeech: phrase
+    example: 'Todo ha cambiado desde que me casé.'
+    exampleTranslation: 'Everything has changed since I got married.'
+  - id: es-ES-A2-PAST-004-006
+    term: 'situación'
+    translation: 'situation'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La situación actual es mejor que antes.'
+    exampleTranslation: 'The current situation is better than before.'
+grammar:
+  - id: es-ES-A2-PAST-004-G1
+    point: 'Present perfect for recent changes'
+    explanation: "Use the present perfect ('ha mejorado', 'ha cambiado') to describe changes that are still relevant now."
+    examples:
+      - 'La vida ha mejorado mucho en los últimos años.'
+      - 'Todo ha cambiado desde entonces.'
+    cefrNotes: 'The present perfect connects past actions to the present moment'
+culturalNotes: "Comparing past and present is a common topic in Spanish conversation, especially when discussing Spain's rapid modernisation since the 1970s."

@@ -1,0 +1,50 @@
+nodeId: A2-HABIT-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-A2-HABIT-001-001
+    term: 'costumbre'
+    translation: 'habit'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Tengo la costumbre de leer antes de dormir.'
+    exampleTranslation: 'I have the habit of reading before sleeping.'
+  - id: es-ES-A2-HABIT-001-002
+    term: 'cambio'
+    translation: 'change'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'El cambio de hábitos es difícil.'
+    exampleTranslation: 'Changing habits is difficult.'
+  - id: es-ES-A2-HABIT-001-003
+    term: 'últimamente'
+    translation: 'lately'
+    partOfSpeech: adverb
+    example: 'Últimamente como más verduras.'
+    exampleTranslation: 'Lately I eat more vegetables.'
+  - id: es-ES-A2-HABIT-001-004
+    term: 'empezar'
+    translation: 'to start / to begin'
+    partOfSpeech: verb
+    example: 'Empecé a hacer ejercicio todas las mañanas.'
+    exampleTranslation: 'I started exercising every morning.'
+  - id: es-ES-A2-HABIT-001-005
+    term: 'dejar de'
+    translation: 'to stop (doing something)'
+    partOfSpeech: phrase
+    example: 'Dejé de fumar hace un año.'
+    exampleTranslation: 'I stopped smoking a year ago.'
+  - id: es-ES-A2-HABIT-001-006
+    term: 'mejorar'
+    translation: 'to improve'
+    partOfSpeech: verb
+    example: 'Quiero mejorar mis hábitos alimentarios.'
+    exampleTranslation: 'I want to improve my eating habits.'
+grammar:
+  - id: es-ES-A2-HABIT-001-G1
+    point: 'Empezar a + infinitive for new habits'
+    explanation: "Use 'empezar a + infinitive' to describe starting a new activity or habit, e.g. 'empecé a correr' (I started running)."
+    examples:
+      - 'Empecé a meditar todas las mañanas.'
+      - 'Empecé a cocinar más en casa.'
+    cefrNotes: 'A2 learners use "empezar a" to describe initiating new routines'
+culturalNotes: 'Spain has seen a growing "cultura del bienestar" (wellness culture) in recent years, with more people adopting exercise routines and healthier eating habits.'
