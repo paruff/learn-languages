@@ -1,0 +1,54 @@
+nodeId: C1-PROFESSIONAL-002
+lang: en-GB
+vocabulary:
+  - id: en-GB-C1-PROFESSIONAL-002-001
+    term: 'detailed report'
+    translation: 'relatório circunstanciado'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'The detailed report covers all the figures of the quarter.'
+    exampleTranslation: 'O relatório circunstanciado acompanha todos os números do trimestre.'
+  - id: en-GB-C1-PROFESSIONAL-002-002
+    term: 'contingency plan'
+    translation: 'plano de contingência'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'The contingency plan provides responses for adverse scenarios.'
+    exampleTranslation: 'O plano de contingência prevê respostas para cenários adversos.'
+  - id: en-GB-C1-PROFESSIONAL-002-003
+    term: 'culminating point of the analysis'
+    translation: 'ponto culminante da análise'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'The culminating point of the analysis is the comparison between the two markets.'
+    exampleTranslation: 'O ponto culminante da análise é a comparação entre os dois mercados.'
+  - id: en-GB-C1-PROFESSIONAL-002-004
+    term: 'concrete measures'
+    translation: 'medidas concretas'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'The document proposes concrete measures to reduce costs.'
+    exampleTranslation: 'O documento propõe medidas concretas para reduzir custos.'
+  - id: en-GB-C1-PROFESSIONAL-002-005
+    term: 'notice to partners'
+    translation: 'comunicado aos parceiros'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'The notice to partners clarifies the new policy.'
+    exampleTranslation: 'O comunicado aos parceiros clarifica a nova política.'
+  - id: en-GB-C1-PROFESSIONAL-002-006
+    term: 'ranking of the risks'
+    translation: 'numeração dos riscos'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'The ranking of the risks guides the investment priority.'
+    exampleTranslation: 'A numeração dos riscos orienta a prioridade de investimento.'
+grammar:
+  - id: C1-GRAMMAR-021
+    point: 'Connectors and impersonal structures for professional documents'
+    explanation: "Organising formal prose with layered connectors and impersonal structures such as 'it is noted that' and 'it should be reported that' in recommendation sections"
+    examples:
+      - 'It is noted that the results exceeded expectations.'
+      - 'It should be reported that the deadlines were met without exception.'
+    cefrNotes: 'C1 writers build dense, impersonal professional prose whose reasoning is transparent'
+culturalNotes: "British professional writing is structured by the executive summary: conclusions first, then evidence. The passive voice carries the distance, and the 'bottom line' is stated early rather than buried in the conclusion."

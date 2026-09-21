@@ -1,0 +1,11 @@
+nodeId: C1-PROFESSIONAL-002
+cefrLevel: C1
+skill: writing
+canDo: 'Can write clear, well-structured documents on complex subjects in a formal professional register, highlighting decisive points'
+pragmaticFocus: 'Formal professional writing'
+notionalFocus: 'Reports, recommendations, clarity'
+relatedNodes:
+  - C1-PROFESSIONAL-001
+  - C1-WRITTEN-001
+prerequisiteNodes:
+  - C1-PROFESSIONAL-001

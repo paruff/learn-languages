@@ -1,0 +1,54 @@
+nodeId: C1-PROFESSIONAL-002
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C1-PROFESSIONAL-002-001
+    term: 'relatório circunstanciado'
+    translation: 'detailed report'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O relatório circunstanciado acompanha todos os números do trimestre.'
+    exampleTranslation: 'The detailed report covers all the figures of the quarter.'
+  - id: pt-PT-C1-PROFESSIONAL-002-002
+    term: 'plano de contingência'
+    translation: 'contingency plan'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O plano de contingência prevê respostas para cenários adversos.'
+    exampleTranslation: 'The contingency plan provides responses for adverse scenarios.'
+  - id: pt-PT-C1-PROFESSIONAL-002-003
+    term: 'ponto culminante da análise'
+    translation: 'culminating point of the analysis'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O ponto culminante da análise é a comparação entre os dois mercados.'
+    exampleTranslation: 'The culminating point of the analysis is the comparison between the two markets.'
+  - id: pt-PT-C1-PROFESSIONAL-002-004
+    term: 'medidas concretas'
+    translation: 'concrete measures'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'O documento propõe medidas concretas para reduzir custos.'
+    exampleTranslation: 'The document proposes concrete measures to reduce costs.'
+  - id: pt-PT-C1-PROFESSIONAL-002-005
+    term: 'comunicado aos parceiros'
+    translation: 'notice to partners'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O comunicado aos parceiros clarifica a nova política.'
+    exampleTranslation: 'The notice to partners clarifies the new policy.'
+  - id: pt-PT-C1-PROFESSIONAL-002-006
+    term: 'numeração dos riscos'
+    translation: 'ranking of the risks'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A numeração dos riscos orienta a prioridade de investimento.'
+    exampleTranslation: 'The ranking of the risks guides the investment priority.'
+grammar:
+  - id: C1-GRAMMAR-021
+    point: 'Connectors and impersonal structures for professional documents'
+    explanation: "Organising formal prose with layered connectors and impersonal structures such as 'regista-se que', 'importa referir que' in recommendation sections"
+    examples:
+      - 'Regista-se que os resultados superaram as expectativas.'
+      - 'Importa referir que os prazos foram cumpridos sem exceção.'
+    cefrNotes: 'C1 writers build dense, impersonal professional prose whose reasoning is transparent'
+culturalNotes: "Portuguese professional writing follows a fixed architecture: introduction, situation, objectives, measures, conclusion. The impersonal 'se' carries responsibility away from the author, and recommendations are stated as facts rather than opinions."
