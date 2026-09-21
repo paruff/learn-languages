@@ -1,0 +1,11 @@
+nodeId: C1-SPOKEN-005
+cefrLevel: C1
+skill: listening
+canDo: 'Can understand television programmes and films without too much effort'
+pragmaticFocus: 'Media comprehension without effort'
+notionalFocus: 'Register shifts, implicit reference, dense dialogue'
+relatedNodes:
+  - C1-SPOKEN-004
+  - C1-TEXT-004
+prerequisiteNodes:
+  - B2-SPOKEN-002

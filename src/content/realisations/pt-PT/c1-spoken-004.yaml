@@ -1,0 +1,54 @@
+nodeId: C1-SPOKEN-004
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C1-SPOKEN-004-001
+    term: 'perceber as entrelinhas'
+    translation: 'to read between the lines'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Quando o orador se desvia, é preciso perceber as entrelinhas.'
+    exampleTranslation: 'When the speaker digresses, you have to read between the lines.'
+  - id: pt-PT-C1-SPOKEN-004-002
+    term: 'discurso arrastado'
+    translation: 'rambling speech'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Apesar do discurso arrastado, a ideia central estava clara.'
+    exampleTranslation: 'Despite the rambling speech, the central idea was clear.'
+  - id: pt-PT-C1-SPOKEN-004-003
+    term: 'ligações implícitas'
+    translation: 'implied connections'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'As ligações implícitas entre os temas só se entendem com atenção.'
+    exampleTranslation: 'The implied connections between the themes are only understood with attention.'
+  - id: pt-PT-C1-SPOKEN-004-004
+    term: 'seguir o fio ao raciocínio'
+    translation: 'to follow the thread of the reasoning'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Num debate confuso, é difícil seguir o fio ao raciocínio.'
+    exampleTranslation: 'In a confusing debate, it is hard to follow the thread of the reasoning.'
+  - id: pt-PT-C1-SPOKEN-004-005
+    term: 'captar a intenção'
+    translation: 'to grasp the intention'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Só captámos a intenção da pergunta no fim do discurso.'
+    exampleTranslation: 'We only grasped the intention of the question at the end of the speech.'
+  - id: pt-PT-C1-SPOKEN-004-006
+    term: 'comunicação sem marcações'
+    translation: 'unmarked communication'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A comunicação sem marcações exige do ouvinte um esforço redobrado.'
+    exampleTranslation: 'Unmarked communication demands a much greater effort from the listener.'
+grammar:
+  - id: C1-GRAMMAR-024
+    point: 'Inference with implied implication in listening'
+    explanation: 'Tracking meaning that is implied rather than signalled, recovering elided links between clauses and elliptical references in complex or rambling speech'
+    examples:
+      - 'O orador criticou a medida; compreendeu-se que votava contra.'
+      - 'Se tal acontecer...; entende-se o resto.'
+    cefrNotes: 'C1 listeners process unmarked and elliptical speech, recovering cohesive links without explicit connectors'
+    culturalNotes: 'European Portuguese speakers often leave conversational links implicit, trusting shared knowledge. Recovering those links without explicit markers is a hallmark of full proficiency.'

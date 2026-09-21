@@ -132,6 +132,8 @@ B2 Coverage: 18/18 nodes fully realised (100%).
 | C1-SPOKEN-001       | spoken_production  | Can give elaborate descriptions and narratives, embedding sub-themes, developing particular aspects and rounding off with an appropriate conclusion          | ✅ Realised |
 | C1-SPOKEN-002       | spoken_production  | Can express ideas and opinions without much searching for expressions, using idiomatic expressions appropriately                                             | ✅ Realised |
 | C1-SPOKEN-003       | spoken_interaction | Can keep up a fluent conversation on abstract and complex topics, using a variety of devices to structure and emphasise discourse                            | ✅ Realised |
+| C1-SPOKEN-004       | listening          | Can understand extended speech even when it is not clearly structured and when relationships are only implied and not signalled explicitly                   | ✅ Realised |
+| C1-SPOKEN-005       | listening          | Can understand television programmes and films without too much effort                                                                                       | ✅ Realised |
 | C1-WRITTEN-001      | writing            | Can write a convincing, coherent text on abstract and topical subjects, adapting the register to the intended reader                                         | ✅ Realised |
 | C1-WRITTEN-002      | writing            | Can write a critical review of a film, exhibition or work, choosing the style appropriate to the intended publication                                        | ✅ Realised |
 | C1-WRITTEN-003      | writing            | Can write a well-structured personal narrative of a complex experience with a coherent, convincing and personal point of view                                | ✅ Realised |
@@ -143,24 +145,24 @@ B2 Coverage: 18/18 nodes fully realised (100%).
 | C1-LITERARY-001     | reading            | Can appreciate the wider, implicit layers of meaning in literary texts, including allusion, irony and cultural reference                                     | ✅ Realised |
 | C1-MEDIATION-001    | spoken_production  | Can explain a complicated issue in a way that makes it accessible to a non-expert, reformulating and simplifying without losing accuracy                     | ✅ Realised |
 
-C1 Coverage: 23/23 nodes fully realised (100%).
+C1 Coverage: 25/25 nodes fully realised (100%).
 
-**C1 Design:** Grouping extends B2's topic-based set (SOCIAL, ARGUE, TEXT, SPOKEN, WRITTEN) with five new groups (ACADEMIC, PROFESSIONAL, NUANCED, LITERARY, MEDIATION). Grammar progression: compound subjunctive tenses, cleft sentences, inversion, ellipsis, nuanced modality, register switching, idiomatic expressions, advanced connectors.
+**C1 Design:** Grouping extends B2's topic-based set (SOCIAL, ARGUE, TEXT, SPOKEN, WRITTEN) with five new groups (ACADEMIC, PROFESSIONAL, NUANCED, LITERARY, MEDIATION). Grammar progression: compound subjunctive tenses, cleft sentences, inversion, ellipsis, nuanced modality, register switching, idiomatic expressions, advanced connectors. Two listening nodes (C1-SPOKEN-004/005) were added in a follow-up to restore listening coverage, which authoring had rebalanced away.
 
 **C1 category coverage:** The same Category A–G function structure remains the substrate at C1; the 23 C1 nodes map onto it across all seven categories (e.g. **C. Influir sobre o interlocutor** → C1-ARGUE-002/003, C1-PROFESSIONAL-001; **D. Exprimir posicionamentos** → C1-ARGUE-001/004, C1-NUANCED-001; **F. Organizar o discurso** → C1-ARGUE-002, C1-ACADEMIC-002, C1-WRITTEN-002; **G. Regular a comunicação** → C1-SOCIAL-002, C1-MEDIATION-001).
 
-> **Note on C1 skill distribution:** The committed nodes skew toward production/reading with **no `listening` nodes** (readiness was rebalanced during authoring — see `docs/superpowers/specs/2026-09-21-c1-content-design.md` §Node Inventory for the original planned distribution, which included 2 listening, 6 reading, 3 spoken_interaction, 5 spoken_production, 7 writing). Consider adding 1–2 C1 listening nodes in a follow-up to restore listening coverage at C1.
+> **Note on C1 skill distribution:** Authoring rebalanced the original spec's planned distribution (2 listening, 6 reading, 3 spoken_interaction, 5 spoken_production, 7 writing — see `docs/superpowers/specs/2026-09-21-c1-content-design.md` §Node Inventory, which slated much of the SPOKEN group as listening). Two listening nodes (C1-SPOKEN-004/005) were added in a follow-up to restore listening coverage at C1.
 
 ## Skill distribution (A1 + A2 + B1 + B2 + C1 combined)
 
 | Skill              | A1     | A2     | B1     | B2     | C1     | Total  |
 | ------------------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| listening          | 1      | 4      | 0      | 3      | 0      | 8      |
+| listening          | 1      | 4      | 0      | 3      | 2      | 10     |
 | reading            | 4      | 4      | 3      | 4      | 5      | 20     |
 | spoken_interaction | 8      | 4      | 4      | 4      | 5      | 25     |
 | spoken_production  | 4      | 6      | 4      | 3      | 7      | 24     |
 | writing            | 0      | 2      | 5      | 4      | 6      | 17     |
-| **Total**          | **17** | **20** | **18** | **18** | **23** | **96** |
+| **Total**          | **17** | **20** | **18** | **18** | **25** | **98** |
 
 ## Referencial Camões's real function category structure (Componente Pragmática, Part II)
 

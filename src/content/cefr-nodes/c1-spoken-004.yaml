@@ -1,0 +1,11 @@
+nodeId: C1-SPOKEN-004
+cefrLevel: C1
+skill: listening
+canDo: 'Can understand extended speech even when it is not clearly structured and when relationships are only implied and not signalled explicitly'
+pragmaticFocus: 'Inference across unstructured speech'
+notionalFocus: 'Embedded implications, ellipsis, interlocking clauses'
+relatedNodes:
+  - C1-SPOKEN-005
+  - C1-ACADEMIC-001
+prerequisiteNodes:
+  - B2-SPOKEN-001
