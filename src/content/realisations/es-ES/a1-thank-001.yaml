@@ -1,0 +1,23 @@
+nodeId: A1-THANK-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-A1-THANK-001-001
+    term: 'Gracias'
+    translation: 'Thank you'
+    partOfSpeech: interjection
+    example: 'Gracias por la ayuda.'
+    exampleTranslation: 'Thank you for the help.'
+  - id: es-ES-A1-THANK-001-002
+    term: 'Muchas gracias'
+    translation: 'Thank you very much'
+    partOfSpeech: interjection
+    example: 'Muchas gracias por el regalo.'
+    exampleTranslation: 'Thank you very much for the gift.'
+  - id: es-ES-A1-THANK-001-003
+    term: 'De nada'
+    translation: 'You are welcome'
+    partOfSpeech: phrase
+    example: '— ¡Gracias! — De nada.'
+    exampleTranslation: '— Thank you! — You are welcome.'
+grammar: []
+culturalNotes: "Unlike Portuguese obrigado/obrigada, Spanish gracias does not change with the speaker's gender. De nada is the standard response."

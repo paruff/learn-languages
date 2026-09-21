@@ -1,0 +1,29 @@
+nodeId: A1-WANT-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-A1-WANT-001-001
+    term: 'Quiero...'
+    translation: 'I want...'
+    partOfSpeech: phrase
+    example: 'Quiero aprender español.'
+    exampleTranslation: 'I want to learn Spanish.'
+  - id: es-ES-A1-WANT-001-002
+    term: 'Voy a...'
+    translation: "I'm going to..."
+    partOfSpeech: phrase
+    example: 'Voy a ir al mercado mañana.'
+    exampleTranslation: "I'm going to the market tomorrow."
+  - id: es-ES-A1-WANT-001-003
+    term: 'Me gustaría...'
+    translation: 'I would like...'
+    partOfSpeech: phrase
+    example: 'Me gustaría un café.'
+    exampleTranslation: 'I would like a coffee.'
+grammar:
+  - id: es-ES-A1-WANT-001-G1
+    point: 'ir a + infinitive for near future'
+    explanation: "In Spanish, 'ir a + infinitive' expresses near-future intentions: 'Voy a estudiar' (I'm going to study). This is the most common way to talk about plans at A1."
+    examples:
+      - 'Voy a comer. (I am going to eat.)'
+      - 'Vamos a salir. (We are going to leave.)'
+culturalNotes: 'Spanish speakers often use the conditional (me gustaría) for polite requests in shops and restaurants, much as in English.'

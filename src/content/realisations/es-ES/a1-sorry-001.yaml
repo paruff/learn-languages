@@ -1,0 +1,23 @@
+nodeId: A1-SORRY-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-A1-SORRY-001-001
+    term: 'Perdón'
+    translation: 'Sorry / Excuse me'
+    partOfSpeech: interjection
+    example: 'Perdón, ¿dónde está la estación?'
+    exampleTranslation: 'Excuse me, where is the station?'
+  - id: es-ES-A1-SORRY-001-002
+    term: 'Con permiso'
+    translation: 'Excuse me (to pass by)'
+    partOfSpeech: phrase
+    example: 'Con permiso, ¿puedo pasar?'
+    exampleTranslation: 'Excuse me, can I pass?'
+  - id: es-ES-A1-SORRY-001-003
+    term: 'No pasa nada'
+    translation: "It's okay / No problem"
+    partOfSpeech: phrase
+    example: '— ¡Perdón! — No pasa nada.'
+    exampleTranslation: "— Sorry! — It's okay."
+grammar: []
+culturalNotes: 'Perdón covers both "sorry" and "excuse me" in most contexts. No pasa nada is the standard, friendly response to an apology.'

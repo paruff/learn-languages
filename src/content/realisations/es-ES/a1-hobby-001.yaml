@@ -1,0 +1,58 @@
+nodeId: A1-HOBBY-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-A1-HOBBY-001-001
+    term: 'fútbol'
+    translation: 'football'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Me gusta jugar al fútbol los domingos.'
+    exampleTranslation: 'I like to play football on Sundays.'
+    imageUrl: 'futebol.webp'
+    imageAlt: 'A soccer ball resting on a grass pitch'
+  - id: es-ES-A1-HOBBY-001-002
+    term: 'música'
+    translation: 'music'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ella escucha música todas las noches.'
+    exampleTranslation: 'She listens to music every night.'
+    imageUrl: 'musica.webp'
+    imageAlt: 'A handwritten sheet of musical notation'
+  - id: es-ES-A1-HOBBY-001-003
+    term: 'libro'
+    translation: 'book'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Estoy leyendo un libro interesante.'
+    exampleTranslation: 'I am reading an interesting book.'
+    imageUrl: 'livro.webp'
+    imageAlt: 'An open illustrated book showing two pages'
+  - id: es-ES-A1-HOBBY-001-004
+    term: 'cine'
+    translation: 'cinema'
+    partOfSpeech: noun
+    gender: masculine
+    example: '¿Vamos al cine el sábado?'
+    exampleTranslation: 'Shall we go to the cinema on Saturday?'
+    imageUrl: 'cinema.webp'
+    imageAlt: 'Rows of red cinema theatre seats'
+  - id: es-ES-A1-HOBBY-001-005
+    term: 'playa'
+    translation: 'beach'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'En verano voy a la playa todos los días.'
+    exampleTranslation: 'In summer I go to the beach every day.'
+    imageUrl: 'praia.webp'
+    imageAlt: 'A sandy beach with waves rolling in'
+  - id: es-ES-A1-HOBBY-001-006
+    term: 'bailar'
+    translation: 'to dance'
+    partOfSpeech: verb
+    example: 'Me gusta bailar con mis amigos.'
+    exampleTranslation: 'I like to dance with my friends.'
+    imageUrl: 'dancar.webp'
+    imageAlt: 'People dancing together in a dance studio'
+grammar: []
+culturalNotes: 'Football is a dominant pastime across Spain; beach visits are a central summer social activity along the coast.'

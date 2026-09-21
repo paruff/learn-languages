@@ -1,0 +1,36 @@
+nodeId: A1-TIME-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-A1-TIME-001-001
+    term: '¿Qué hora es?'
+    translation: 'What time is it?'
+    partOfSpeech: phrase
+    example: 'Perdone, ¿qué hora es?'
+    exampleTranslation: 'Excuse me, what time is it?'
+  - id: es-ES-A1-TIME-001-002
+    term: 'hoy'
+    translation: 'today'
+    partOfSpeech: adverb
+    example: 'Hoy es lunes.'
+    exampleTranslation: 'Today is Monday.'
+  - id: es-ES-A1-TIME-001-003
+    term: 'mañana'
+    translation: 'tomorrow'
+    partOfSpeech: adverb
+    example: 'Mañana voy al mercado.'
+    exampleTranslation: "Tomorrow I'm going to the market."
+  - id: es-ES-A1-TIME-001-004
+    term: 'ayer'
+    translation: 'yesterday'
+    partOfSpeech: adverb
+    example: 'Ayer fui al cine.'
+    exampleTranslation: 'Yesterday I went to the cinema.'
+grammar:
+  - id: es-ES-A1-TIME-001-G1
+    point: 'Telling the time with son las / es la'
+    explanation: "Spanish uses 'Son las' for most hours: 'Son las dos' (it's 2 o'clock). For 1:00, use 'Es la una'."
+    examples:
+      - "Son las tres. (It is three o'clock.)"
+      - "Es la una. (It is one o'clock.)"
+      - 'Son las dos y media. (It is half past two.)'
+culturalNotes: 'Spanish mealtimes are later than in English-speaking countries: lunch 14:00-15:30, dinner 21:00-22:00.'

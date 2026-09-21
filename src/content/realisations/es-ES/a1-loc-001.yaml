@@ -1,0 +1,29 @@
+nodeId: A1-LOC-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-A1-LOC-001-001
+    term: '¿Dónde está...?'
+    translation: 'Where is...?'
+    partOfSpeech: phrase
+    example: '¿Dónde está la estación de trenes?'
+    exampleTranslation: 'Where is the train station?'
+  - id: es-ES-A1-LOC-001-002
+    term: 'A la izquierda'
+    translation: 'On the left'
+    partOfSpeech: phrase
+    example: 'La tienda está a la izquierda.'
+    exampleTranslation: 'The shop is on the left.'
+  - id: es-ES-A1-LOC-001-003
+    term: 'A la derecha'
+    translation: 'On the right'
+    partOfSpeech: phrase
+    example: 'Gire a la derecha.'
+    exampleTranslation: 'Turn right.'
+  - id: es-ES-A1-LOC-001-004
+    term: 'Todo recto'
+    translation: 'Straight ahead'
+    partOfSpeech: phrase
+    example: 'Siga todo recto.'
+    exampleTranslation: 'Go straight ahead.'
+grammar: []
+culturalNotes: 'Spanish directions often reference landmarks (cerca de la iglesia, al lado del bar) rather than street numbers, especially in smaller towns.'

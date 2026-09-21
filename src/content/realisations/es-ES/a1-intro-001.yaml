@@ -1,0 +1,22 @@
+nodeId: A1-INTRO-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-A1-INTRO-001-001
+    term: 'Me llamo'
+    translation: 'My name is'
+    partOfSpeech: phrase
+    example: 'Me llamo Juan.'
+    exampleTranslation: 'My name is Juan.'
+  - id: es-ES-A1-INTRO-001-002
+    term: 'Mucho gusto'
+    translation: 'Nice to meet you'
+    partOfSpeech: interjection
+    example: 'Mucho gusto en conocerle.'
+    exampleTranslation: 'Nice to meet you (literally: much pleasure in knowing you).'
+grammar:
+  - id: es-ES-A1-INTRO-001-G1
+    point: 'Formal vs. informal address (tú/usted)'
+    explanation: "Spanish distinguishes informal 'tú' from formal 'usted'. Use 'usted' with strangers, elders, and professional contexts."
+    examples:
+      - '¿Cómo te llamas? (informal)'
+      - '¿Cómo se llama usted? (formal)'

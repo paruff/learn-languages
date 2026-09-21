@@ -1,0 +1,17 @@
+nodeId: A1-GREET-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-A1-GREET-001-001
+    term: 'Hola'
+    translation: 'Hello'
+    partOfSpeech: interjection
+    example: 'Hola, ¿cómo estás?'
+    exampleTranslation: 'Hello, how are you?'
+  - id: es-ES-A1-GREET-001-002
+    term: 'Buenos días'
+    translation: 'Good morning'
+    partOfSpeech: phrase
+    example: 'Buenos días, señor García.'
+    exampleTranslation: 'Good morning, Mr. García.'
+grammar: []
+culturalNotes: 'In Spain, greetings between friends often include one or two kisses on the cheek; a handshake is standard in formal or business settings.'

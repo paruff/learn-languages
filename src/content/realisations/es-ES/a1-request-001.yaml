@@ -1,0 +1,29 @@
+nodeId: A1-REQUEST-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-A1-REQUEST-001-001
+    term: '¿Puede ayudarme?'
+    translation: 'Can you help me?'
+    partOfSpeech: phrase
+    example: '¿Puede ayudarme, por favor?'
+    exampleTranslation: 'Can you help me, please?'
+  - id: es-ES-A1-REQUEST-001-002
+    term: 'Quiero... / Yo quiero...'
+    translation: 'I want...'
+    partOfSpeech: phrase
+    example: 'Quiero un café, por favor.'
+    exampleTranslation: 'I want a coffee, please.'
+  - id: es-ES-A1-REQUEST-001-003
+    term: '¿Podría...?'
+    translation: 'Could you...?'
+    partOfSpeech: phrase
+    example: '¿Podría abrir la ventana?'
+    exampleTranslation: 'Could you open the window?'
+grammar:
+  - id: es-ES-A1-REQUEST-001-G1
+    point: 'Tú vs. usted in requests'
+    explanation: "Informal requests use tú: '¿Puedes ayudarme?' Formal requests use usted: '¿Puede ayudarme?' Use usted with strangers and in service contexts."
+    examples:
+      - '¿Puedes pasarme la sal? (informal)'
+      - '¿Puede pasarme la sal? (formal)'
+culturalNotes: 'Spanish service interactions are generally polite but more relaxed than in some other European countries. Por favor and ¿puede/podría? are still expected in shops and restaurants.'

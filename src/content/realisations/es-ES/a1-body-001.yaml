@@ -1,0 +1,55 @@
+nodeId: A1-BODY-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-A1-BODY-001-001
+    term: 'cabeza'
+    translation: 'head'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Tengo dolor de cabeza.'
+    exampleTranslation: 'I have a headache.'
+    imageUrl: 'cabeca.webp'
+    imageAlt: "A close-up portrait of a young boy's face"
+  - id: es-ES-A1-BODY-001-002
+    term: 'mano'
+    translation: 'hand'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ella tiene la mano fría.'
+    exampleTranslation: 'Her hand is cold.'
+  - id: es-ES-A1-BODY-001-003
+    term: 'pie'
+    translation: 'foot'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Me duele el pie después de correr.'
+    exampleTranslation: 'My foot hurts after running.'
+    imageUrl: 'pe.webp'
+    imageAlt: 'A pair of bare feet standing on a rock outdoors'
+  - id: es-ES-A1-BODY-001-004
+    term: 'ojo'
+    translation: 'eye'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Él tiene los ojos verdes.'
+    exampleTranslation: 'He has green eyes.'
+    imageUrl: 'olho.webp'
+    imageAlt: 'An extreme close-up of a human eye with a brown iris'
+  - id: es-ES-A1-BODY-001-005
+    term: 'brazo'
+    translation: 'arm'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Me rompí el brazo el año pasado.'
+    exampleTranslation: 'I broke my arm last year.'
+    imageUrl: 'braco.webp'
+    imageAlt: 'An extended human arm and open hand against a plain background'
+  - id: es-ES-A1-BODY-001-006
+    term: 'pierna'
+    translation: 'leg'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Tiene la pierna hinchada.'
+    exampleTranslation: 'His leg is swollen.'
+grammar: []
+culturalNotes: 'When describing pain, Spanish uses "me duele" plus body part (e.g. me duele la cabeza, me duelen las piernas) rather than a possessive construction.'

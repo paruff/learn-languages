@@ -1,0 +1,29 @@
+nodeId: A1-OFFER-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-A1-OFFER-001-001
+    term: '¿Quiere...?'
+    translation: 'Do you want...?'
+    partOfSpeech: phrase
+    example: '¿Quiere un café?'
+    exampleTranslation: 'Do you want a coffee?'
+  - id: es-ES-A1-OFFER-001-002
+    term: '¿Le gustaría...?'
+    translation: 'Would you like...?'
+    partOfSpeech: phrase
+    example: '¿Le gustaría más té?'
+    exampleTranslation: 'Would you like more tea?'
+  - id: es-ES-A1-OFFER-001-003
+    term: '¿Vamos...?'
+    translation: 'Shall we...?'
+    partOfSpeech: phrase
+    example: '¿Vamos al cine hoy?'
+    exampleTranslation: 'Shall we go to the cinema today?'
+grammar:
+  - id: es-ES-A1-OFFER-001-G1
+    point: 'Tú vs. usted in offers'
+    explanation: "Informal offers use tú: '¿Quieres un café?' Formal offers use usted: '¿Quiere un café?' Match formality to context."
+    examples:
+      - '¿Quieres ir al bar? (informal)'
+      - '¿Quiere ir al bar? (formal)'
+culturalNotes: 'Offering food and drink is central to Spanish hospitality. Sharing tapas and rounds of drinks is a common social custom.'

@@ -1,0 +1,59 @@
+nodeId: A1-ROUTINE-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-A1-ROUTINE-001-001
+    term: 'casa'
+    translation: 'house'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Mi casa es pequeña.'
+    exampleTranslation: 'My house is small.'
+    imageUrl: 'casa.webp'
+    imageAlt: 'A single-family house with a front garden and pathway'
+  - id: es-ES-A1-ROUTINE-001-002
+    term: 'habitación'
+    translation: 'bedroom'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La habitación tiene una ventana grande.'
+    exampleTranslation: 'The bedroom has a big window.'
+    imageUrl: 'quarto.webp'
+    imageAlt: 'A cozy modern bedroom with a large bed'
+  - id: es-ES-A1-ROUTINE-001-003
+    term: 'cocina'
+    translation: 'kitchen'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Cocino todos los días en la cocina.'
+    exampleTranslation: 'I cook every day in the kitchen.'
+    imageUrl: 'cozinha.webp'
+    imageAlt: 'A modern kitchen with red cabinets and a wooden table'
+  - id: es-ES-A1-ROUTINE-001-004
+    term: 'ropa'
+    translation: 'clothes'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Lavo la ropa los sábados.'
+    exampleTranslation: 'I wash the clothes on Saturdays.'
+    imageUrl: 'roupa.webp'
+    imageAlt: 'Rows of clothes hanging inside a closet'
+  - id: es-ES-A1-ROUTINE-001-005
+    term: 'llave'
+    translation: 'key'
+    partOfSpeech: noun
+    gender: feminine
+    example: '¿Dónde está la llave de la puerta?'
+    exampleTranslation: 'Where is the door key?'
+    imageUrl: 'chave.webp'
+    imageAlt: 'A hand inserting a key into a door lock'
+  - id: es-ES-A1-ROUTINE-001-006
+    term: 'teléfono'
+    translation: 'phone'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Mi teléfono está en la mesa.'
+    exampleTranslation: 'My phone is on the table.'
+    imageUrl: 'telefone.webp'
+    imageAlt: 'A smartphone screen showing the time'
+grammar: []
+culturalNotes: 'Many Spanish homes have a balcón (balcony) used daily for hanging washing and drying clothes in the sun, especially in warmer regions.'

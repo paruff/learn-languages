@@ -1,0 +1,35 @@
+nodeId: A1-FEEL-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-A1-FEEL-001-001
+    term: 'Estoy feliz'
+    translation: 'I am happy'
+    partOfSpeech: phrase
+    example: 'Estoy feliz hoy.'
+    exampleTranslation: 'I am happy today.'
+  - id: es-ES-A1-FEEL-001-002
+    term: 'Estoy triste'
+    translation: 'I am sad'
+    partOfSpeech: phrase
+    example: 'Estoy triste con la noticia.'
+    exampleTranslation: 'I am sad about the news.'
+  - id: es-ES-A1-FEEL-001-003
+    term: 'Estoy cansado/cansada'
+    translation: 'I am tired'
+    partOfSpeech: phrase
+    example: 'Estoy cansado después del trabajo.'
+    exampleTranslation: 'I am tired after work.'
+  - id: es-ES-A1-FEEL-001-004
+    term: 'Tengo hambre/sed'
+    translation: "I'm hungry/thirsty"
+    partOfSpeech: phrase
+    example: 'Tengo mucha hambre.'
+    exampleTranslation: "I'm very hungry."
+grammar:
+  - id: es-ES-A1-FEEL-001-G1
+    point: 'Estar + adjective for temporary states'
+    explanation: "Use 'estar' (not 'ser') for temporary emotional and physical states: 'Estoy feliz' (I am happy), 'Estoy cansado' (I am tired). Ser would imply a permanent trait."
+    examples:
+      - 'Estoy contento. (I am pleased.)'
+      - 'Él está enfadado. (He is angry.)'
+culturalNotes: 'Tengo hambre/sed (literally: I have hunger/thirst) is the natural way to express hunger/thirst in Spanish, not estoy con hambre.'

@@ -1,0 +1,29 @@
+nodeId: A1-CLARIFY-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-A1-CLARIFY-001-001
+    term: '¿Puede repetir?'
+    translation: 'Can you repeat?'
+    partOfSpeech: phrase
+    example: 'Perdón, ¿puede repetir?'
+    exampleTranslation: 'Sorry, can you repeat?'
+  - id: es-ES-A1-CLARIFY-001-002
+    term: '¿Cómo se dice...?'
+    translation: 'How do you say...?'
+    partOfSpeech: phrase
+    example: '¿Cómo se dice "water" en español?'
+    exampleTranslation: 'How do you say "water" in Spanish?'
+  - id: es-ES-A1-CLARIFY-001-003
+    term: 'No entiendo'
+    translation: "I don't understand"
+    partOfSpeech: phrase
+    example: 'No entiendo, ¿puede hablar más despacio?'
+    exampleTranslation: "I don't understand, can you speak more slowly?"
+  - id: es-ES-A1-CLARIFY-001-004
+    term: '¿Puede hablar más despacio?'
+    translation: 'Can you speak more slowly?'
+    partOfSpeech: phrase
+    example: '¿Puede hablar más despacio, por favor?'
+    exampleTranslation: 'Can you speak more slowly, please?'
+grammar: []
+culturalNotes: 'Spanish speakers appreciate when learners ask for clarification rather than pretend to understand. ¿Puede repetir? is the most useful phrase for A1 learners.'
