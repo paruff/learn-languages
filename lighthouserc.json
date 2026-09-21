@@ -7,7 +7,8 @@
         "http://localhost:4321/learn-languages/",
         "http://localhost:4321/learn-languages/en-GB/pt-PT/lessons/",
         "http://localhost:4321/learn-languages/en-GB/pt-PT/review/",
-        "http://localhost:4321/learn-languages/en-GB/pt-PT/progress/"
+        "http://localhost:4321/learn-languages/en-GB/pt-PT/progress/",
+        "http://localhost:4321/learn-languages/en-GB/pt-PT/exercises/A1-GREET-001/"
       ],
       "numberOfRuns": 1
     },
