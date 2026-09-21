@@ -1,0 +1,8 @@
+{
+  "id": "pt-PT-a1-shop-001-fill-blank-001",
+  "lessonId": "A1-SHOP-001",
+  "type": "fill-blank",
+  "prompt": "Complete: \"Posso _____ com cartão?\" (Can I pay by card?)",
+  "answer": "pagar",
+  "hints": ["What you do at the till"]
+}

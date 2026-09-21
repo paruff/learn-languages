@@ -1,0 +1,9 @@
+{
+  "id": "pt-PT-a1-time-001-mc-001",
+  "lessonId": "A1-TIME-001",
+  "type": "multiple-choice",
+  "prompt": "How do you say 'yesterday' in Portuguese?",
+  "answer": "ontem",
+  "options": ["hoje", "amanhã", "ontem", "Que horas são?"],
+  "hints": ["The day before today"]
+}

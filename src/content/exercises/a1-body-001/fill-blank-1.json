@@ -1,0 +1,8 @@
+{
+  "id": "pt-PT-a1-body-001-fill-blank-001",
+  "lessonId": "A1-BODY-001",
+  "type": "fill-blank",
+  "prompt": "Complete: \"Tenho dor de _____.\" (I have a headache.)",
+  "answer": "cabeça",
+  "hints": ["The body part above your neck"]
+}

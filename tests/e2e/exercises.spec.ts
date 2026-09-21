@@ -44,7 +44,8 @@ test.describe('exercises session', () => {
   });
 
   test('a lesson without exercises does not show the practice-exercises link', async ({ page }) => {
-    await page.goto('/learn-languages/en-GB/pt-PT/lessons/A1-FOOD-001/');
+    // Every A1 node has exercises as of #88 — use an A2 node, which doesn't yet.
+    await page.goto('/learn-languages/en-GB/pt-PT/lessons/A2-CULT-001/');
     await expect(page.getByRole('link', { name: 'Practice exercises →' })).toHaveCount(0);
   });
 

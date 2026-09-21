@@ -1,0 +1,9 @@
+{
+  "id": "pt-PT-a1-food-001-mc-001",
+  "lessonId": "A1-FOOD-001",
+  "type": "multiple-choice",
+  "prompt": "How do you say 'bread' in Portuguese?",
+  "answer": "pão",
+  "options": ["água", "pão", "café", "leite"],
+  "hints": ["You eat it, often with butter"]
+}

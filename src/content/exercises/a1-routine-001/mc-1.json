@@ -1,0 +1,9 @@
+{
+  "id": "pt-PT-a1-routine-001-mc-001",
+  "lessonId": "A1-ROUTINE-001",
+  "type": "multiple-choice",
+  "prompt": "How do you say 'key' in Portuguese?",
+  "answer": "chave",
+  "options": ["casa", "quarto", "chave", "telefone"],
+  "hints": ["You use it to open a door"]
+}

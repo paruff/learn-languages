@@ -1,0 +1,9 @@
+{
+  "id": "pt-PT-a1-numb-001-mc-001",
+  "lessonId": "A1-NUMB-001",
+  "type": "multiple-choice",
+  "prompt": "How do you say 'three' in Portuguese?",
+  "answer": "Três",
+  "options": ["Um", "Dois", "Três", "Quatro"],
+  "hints": ["Comes right after \"dois\""]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "pt-PT-a1-family-001-fill-blank-001",
+  "lessonId": "A1-FAMILY-001",
+  "type": "fill-blank",
+  "prompt": "Complete: \"A minha _____ chama-se Ana.\" (My mother is called Ana.)",
+  "answer": "mãe",
+  "hints": ["The word for a female parent"]
+}

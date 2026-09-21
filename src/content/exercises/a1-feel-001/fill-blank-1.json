@@ -1,0 +1,8 @@
+{
+  "id": "pt-PT-a1-feel-001-fill-blank-001",
+  "lessonId": "A1-FEEL-001",
+  "type": "fill-blank",
+  "prompt": "Complete: \"Estou _____.\" (I am sad.)",
+  "answer": "triste",
+  "hints": ["The opposite of \"feliz\""]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "pt-PT-a1-capab-001-fill-blank-001",
+  "lessonId": "A1-CAPAB-001",
+  "type": "fill-blank",
+  "prompt": "Complete: \"_____ falar português.\" (I can speak Portuguese.)",
+  "answer": "Consigo",
+  "hints": ["The positive form of \"I can\""]
+}

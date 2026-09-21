@@ -1,0 +1,9 @@
+{
+  "id": "pt-PT-a1-clarify-001-mc-001",
+  "lessonId": "A1-CLARIFY-001",
+  "type": "multiple-choice",
+  "prompt": "How do you say \"I don't understand\" in Portuguese?",
+  "answer": "Não entendo",
+  "options": ["Pode repetir?", "Como se diz...?", "Não entendo", "Pode falar mais devagar?"],
+  "hints": ["\"Entender\" means \"to understand\""]
+}

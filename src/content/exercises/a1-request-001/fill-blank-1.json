@@ -1,0 +1,8 @@
+{
+  "id": "pt-PT-a1-request-001-fill-blank-001",
+  "lessonId": "A1-REQUEST-001",
+  "type": "fill-blank",
+  "prompt": "Complete: \"_____ ajudar-me?\" (Can you help me?)",
+  "answer": "Pode",
+  "hints": ["A polite way to ask someone to do something"]
+}

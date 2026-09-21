@@ -1,0 +1,9 @@
+{
+  "id": "pt-PT-a1-loc-001-mc-001",
+  "lessonId": "A1-LOC-001",
+  "type": "multiple-choice",
+  "prompt": "How do you say 'On the right' in Portuguese?",
+  "answer": "À direita",
+  "options": ["À esquerda", "À direita", "Em frente", "Onde fica"],
+  "hints": ["\"Direita\" is the opposite of \"esquerda\""]
+}

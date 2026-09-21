@@ -1,0 +1,9 @@
+{
+  "id": "pt-PT-a1-body-001-mc-001",
+  "lessonId": "A1-BODY-001",
+  "type": "multiple-choice",
+  "prompt": "How do you say 'hand' in Portuguese?",
+  "answer": "mão",
+  "options": ["mão", "pé", "braço", "perna"],
+  "hints": ["It has five fingers"]
+}

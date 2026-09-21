@@ -1,0 +1,8 @@
+{
+  "id": "pt-PT-a1-numb-001-fill-blank-001",
+  "lessonId": "A1-NUMB-001",
+  "type": "fill-blank",
+  "prompt": "Complete: \"Tenho _____ irmãos.\" (I have two brothers.)",
+  "answer": "dois",
+  "hints": ["The number after \"um\""]
+}

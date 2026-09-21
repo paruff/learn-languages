@@ -1,0 +1,9 @@
+{
+  "id": "pt-PT-a1-intro-001-mc-001",
+  "lessonId": "A1-INTRO-001",
+  "type": "multiple-choice",
+  "prompt": "How do you say 'Nice to meet you' in Portuguese?",
+  "answer": "Prazer",
+  "options": ["Chamo-me", "Prazer", "Olá", "Bom dia"],
+  "hints": ["A one-word exclamation"]
+}
