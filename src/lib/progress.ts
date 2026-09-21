@@ -62,3 +62,22 @@ export function computeCefrProgress(items: TrackedItem[]): {
       : null,
   };
 }
+
+/**
+ * Aggregate mastery across all levels combined, independent of cefrLevel/canDo
+ * (spec §1.1 desirable-difficulties calibration) — lets the review session
+ * surface an overall mastery signal without loading the cefr-nodes collection.
+ */
+export function computeOverallMastery(items: { repetitions: number }[]): {
+  masteredItems: number;
+  totalItems: number;
+  percent: number;
+} {
+  const masteredItems = items.filter((item) => item.repetitions >= MASTERED_REPETITIONS).length;
+  const totalItems = items.length;
+  return {
+    masteredItems,
+    totalItems,
+    percent: totalItems === 0 ? 0 : Math.round((masteredItems / totalItems) * 100),
+  };
+}

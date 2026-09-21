@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { computeCefrProgress, type TrackedItem } from './progress';
+import { computeCefrProgress, computeOverallMastery, type TrackedItem } from './progress';
 
 const items: TrackedItem[] = [
   { itemId: 'a1', nodeId: 'A1-GREET-001', cefrLevel: 'A1', canDo: 'Can greet', repetitions: 2 },
@@ -34,5 +34,29 @@ describe('computeCefrProgress', () => {
 
   it('returns an empty level list for no items', () => {
     expect(computeCefrProgress([])).toEqual({ levels: [], nextRecommended: null });
+  });
+});
+
+describe('computeOverallMastery', () => {
+  it('counts items at or above the mastery threshold across all levels', () => {
+    expect(
+      computeOverallMastery([{ repetitions: 2 }, { repetitions: 0 }, { repetitions: 3 }])
+    ).toEqual({
+      masteredItems: 2,
+      totalItems: 3,
+      percent: 67,
+    });
+  });
+
+  it('returns 0 percent for an empty item list, not NaN', () => {
+    expect(computeOverallMastery([])).toEqual({ masteredItems: 0, totalItems: 0, percent: 0 });
+  });
+
+  it('returns 100 percent when every item is mastered', () => {
+    expect(computeOverallMastery([{ repetitions: 2 }, { repetitions: 5 }])).toEqual({
+      masteredItems: 2,
+      totalItems: 2,
+      percent: 100,
+    });
   });
 });
