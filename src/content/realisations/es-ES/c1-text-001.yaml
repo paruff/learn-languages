@@ -1,0 +1,54 @@
+nodeId: C1-TEXT-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-C1-TEXT-001-001
+    term: 'texto exigente'
+    translation: 'demanding text'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Puedo leer textos exigentes con comprensión profunda.'
+    exampleTranslation: 'I can read demanding texts with deep comprehension.'
+  - id: es-ES-C1-TEXT-001-002
+    term: 'significado implícito'
+    translation: 'implicit meaning'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Reconozco el significado implícito en textos complejos.'
+    exampleTranslation: 'I recognise implicit meaning in complex texts.'
+  - id: es-ES-C1-TEXT-001-003
+    term: 'textos extensos'
+    translation: 'extended texts'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Leo textos extensos sin perder el hilo.'
+    exampleTranslation: 'I read extended texts without losing the thread.'
+  - id: es-ES-C1-TEXT-001-004
+    term: 'capas de significado'
+    translation: 'layers of meaning'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Los textos literarios tienen múltiples capas de significado.'
+    exampleTranslation: 'Literary texts have multiple layers of meaning.'
+  - id: es-ES-C1-TEXT-001-005
+    term: 'comprensión global'
+    translation: 'global comprehension'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Mi comprensión global de textos exigentes ha mejorado.'
+    exampleTranslation: 'My global comprehension of demanding texts has improved.'
+  - id: es-ES-C1-TEXT-001-006
+    term: 'lectura profunda'
+    translation: 'deep reading'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La lectura profunda es esencial para entender textos complejos.'
+    exampleTranslation: 'Deep reading is essential for understanding complex texts.'
+grammar:
+  - id: es-ES-C1-TEXT-001-G1
+    point: 'Subjunctive in relative clauses for literary evaluation'
+    explanation: "Use subjunctive in relative clauses to express literary evaluation: 'Busco textos que trasciendan lo superficial' (I seek texts that transcend the superficial)."
+    examples:
+      - 'Puedo leer textos que requieran análisis profundo.'
+      - 'Entiendo obras que contemplen múltiples interpretaciones.'
+    cefrNotes: 'C1 learners use subjunctive in literary-evaluative relative clauses'
+culturalNotes: "Understanding demanding, longer texts at C1 level requires the ability to recognise implicit meaning, appreciate layers of interpretation, and engage critically with the text's content and style."

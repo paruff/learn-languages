@@ -1,0 +1,53 @@
+nodeId: C1-PROFESSIONAL-002
+lang: es-ES
+vocabulary:
+  - id: es-ES-C1-PROFESSIONAL-002-001
+    term: 'documento formal'
+    translation: 'formal document'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Redacto documentos formales con registro profesional.'
+    exampleTranslation: 'I draft formal documents with professional register.'
+  - id: es-ES-C1-PROFESSIONAL-002-002
+    term: 'registro formal'
+    translation: 'formal register'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El registro formal es adecuado para documentos oficiales.'
+    exampleTranslation: 'The formal register is appropriate for official documents.'
+  - id: es-ES-C1-PROFESSIONAL-002-003
+    term: 'puntos decisivos'
+    translation: 'decisive points'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Es importante destacar los puntos decisivos.'
+    exampleTranslation: 'It is important to highlight the decisive points.'
+  - id: es-ES-C1-PROFESSIONAL-002-004
+    term: 'asunto complejo'
+    translation: 'complex subject'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Puedo redactar sobre asuntos complejos con claridad.'
+    exampleTranslation: 'I can write about complex subjects clearly.'
+  - id: es-ES-C1-PROFESSIONAL-002-005
+    term: 'bien estructurado'
+    translation: 'well-structured'
+    partOfSpeech: adjective
+    gender: masculine
+    example: 'El informe está bien estructurado y es fácil de seguir.'
+    exampleTranslation: 'The report is well-structured and easy to follow.'
+  - id: es-ES-C1-PROFESSIONAL-002-006
+    term: 'destacar'
+    translation: 'to highlight'
+    partOfSpeech: verb
+    example: 'Destaco los aspectos más relevantes del proyecto.'
+    exampleTranslation: 'I highlight the most relevant aspects of the project.'
+grammar:
+  - id: es-ES-C1-PROFESSIONAL-002-G1
+    point: 'Passive with "se" in formal professional documents'
+    explanation: "Use 'se' passive in formal professional documents: 'Se recomienda revisar el documento' (It is recommended to review the document), 'Se sugiere implementar cambios' (It is suggested to implement changes)."
+    examples:
+      - 'Se recomienda una revisión exhaustiva del informe.'
+      - 'Se sugiere que los participantes preparen sus intervenciones.'
+    cefrNotes: 'C1 learners use passive constructions in formal professional writing'
+culturalNotes: 'Writing formal professional documents at C1 level requires mastery of formal register, clear structure, and the ability to highlight decisive points while maintaining a professional tone.'

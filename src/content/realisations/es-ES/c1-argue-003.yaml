@@ -1,0 +1,52 @@
+nodeId: C1-ARGUE-003
+lang: es-ES
+vocabulary:
+  - id: es-ES-C1-ARGUE-003-001
+    term: 'matices sutiles'
+    translation: 'subtle nuances'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Expreso matices sutiles con precisión.'
+    exampleTranslation: 'I express subtle nuances with precision.'
+  - id: es-ES-C1-ARGUE-003-002
+    term: 'matices semánticos'
+    translation: 'semantic nuances'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Los matices semánticos son fundamentales en la traducción.'
+    exampleTranslation: 'Semantic nuances are fundamental in translation.'
+  - id: es-ES-C1-ARGUE-003-003
+    term: 'matizar'
+    translation: 'to nuance'
+    partOfSpeech: verb
+    example: 'Sé matizar mis opiniones para ser más preciso.'
+    exampleTranslation: 'I know how to nuance my opinions to be more precise.'
+  - id: es-ES-C1-ARGUE-003-004
+    term: 'matices culturales'
+    translation: 'cultural nuances'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Los matices culturales son importantes al comunicar.'
+    exampleTranslation: 'Cultural nuances are important when communicating.'
+  - id: es-ES-C1-ARGUE-003-005
+    term: 'precisión lingüística'
+    translation: 'linguistic precision'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La precisión lingüística es clave en el nivel C1.'
+    exampleTranslation: 'Linguistic precision is key at C1 level.'
+  - id: es-ES-C1-ARGUE-003-006
+    term: 'sugerir'
+    translation: 'to suggest / to imply'
+    partOfSpeech: verb
+    example: 'El autor sugiere ideas sin declararlas explícitamente.'
+    exampleTranslation: 'The author suggests ideas without declaring them explicitly.'
+grammar:
+  - id: es-ES-C1-ARGUE-003-G1
+    point: 'Subjunctive in relative clauses for qualification'
+    explanation: "Use subjunctive in relative clauses to qualify or limit: 'Busco argumentos que sustenten mi tesis' (I seek arguments that support my thesis — specific requirement)."
+    examples:
+      - 'Utilizo expresiones que transmitan precisión.'
+      - 'Necesito adjetivos que matizen correctamente.'
+    cefrNotes: 'C1 learners use subjunctive in qualifying relative clauses for precise expression'
+culturalNotes: 'Expressing subtle shades of meaning at C1 level requires mastery of register, vocabulary precision, and the ability to use qualifying devices such as hedging, intensifying, and modulating language.'

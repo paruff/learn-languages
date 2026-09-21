@@ -1,0 +1,53 @@
+nodeId: C1-SPOKEN-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-C1-SPOKEN-001-001
+    term: 'descripción completa'
+    translation: 'complete description'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Ofrezco descripciones completas de temas complejos.'
+    exampleTranslation: 'I offer complete descriptions of complex topics.'
+  - id: es-ES-C1-SPOKEN-001-002
+    term: 'narración'
+    translation: 'narrative'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Mi narración incluye todos los detalles relevantes.'
+    exampleTranslation: 'My narrative includes all relevant details.'
+  - id: es-ES-C1-SPOKEN-001-003
+    term: 'subtemas'
+    translation: 'sub-themes'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Integro subtemas de forma natural en mis descripciones.'
+    exampleTranslation: 'I integrate sub-themes naturally in my descriptions.'
+  - id: es-ES-C1-SPOKEN-001-004
+    term: 'desarrollo de aspectos'
+    translation: 'development of aspects'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El desarrollo de aspectos específicos es exhaustivo.'
+    exampleTranslation: 'The development of specific aspects is exhaustive.'
+  - id: es-ES-C1-SPOKEN-001-005
+    term: 'conclusión apropiada'
+    translation: 'appropriate conclusion'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Cierro con una conclusión apropiada y bien fundamentada.'
+    exampleTranslation: 'I close with an appropriate and well-founded conclusion.'
+  - id: es-ES-C1-SPOKEN-001-006
+    term: 'redondear'
+    translation: 'to round off'
+    partOfSpeech: verb
+    example: 'Sé redondear mis exposiciones de forma elegante.'
+    exampleTranslation: 'I know how to round off my presentations elegantly.'
+grammar:
+  - id: es-ES-C1-SPOKEN-001-G1
+    point: 'Temporal connectors for elaborate narration'
+    explanation: "Use varied temporal connectors for elaborate narration: 'En primer lugar', 'Posteriormente', 'Finalmente', 'A modo de cierre' (To conclude)."
+    examples:
+      - 'En primer lugar, describiré el contexto. Posteriormente, desarrollaré los argumentos.'
+      - 'Finalmente, cerraré con una reflexión personal.'
+    cefrNotes: 'C1 learners use diverse temporal connectors for elaborate spoken descriptions'
+culturalNotes: 'Giving elaborate descriptions and narratives at C1 level requires the ability to embed sub-themes, develop particular aspects, and conclude appropriately, demonstrating mastery of spoken discourse structure.'

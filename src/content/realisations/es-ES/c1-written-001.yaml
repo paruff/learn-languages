@@ -1,0 +1,52 @@
+nodeId: C1-WRITTEN-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-C1-WRITTEN-001-001
+    term: 'texto persuasivo'
+    translation: 'persuasive text'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Puedo escribir textos persuasivos sobre temas abstractos.'
+    exampleTranslation: 'I can write persuasive texts on abstract topics.'
+  - id: es-ES-C1-WRITTEN-001-002
+    term: 'adaptar el registro'
+    translation: 'to adapt the register'
+    partOfSpeech: phrase
+    example: 'Sé adaptar el registro al lector objetivo.'
+    exampleTranslation: 'I know how to adapt the register to the target reader.'
+  - id: es-ES-C1-WRITTEN-001-003
+    term: 'tema de actualidad'
+    translation: 'current topic'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Escribo sobre temas de actualidad con profundidad.'
+    exampleTranslation: 'I write about current topics with depth.'
+  - id: es-ES-C1-WRITTEN-001-004
+    term: 'registro adecuado'
+    translation: 'appropriate register'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El registro adecuado es clave para un buen texto.'
+    exampleTranslation: 'The appropriate register is key for a good text.'
+  - id: es-ES-C1-WRITTEN-001-005
+    term: 'lector objetivo'
+    translation: 'target reader'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Adapto el texto según el lector objetivo.'
+    exampleTranslation: 'I adapt the text according to the target reader.'
+  - id: es-ES-C1-WRITTEN-001-006
+    term: 'convencer'
+    translation: 'to persuade'
+    partOfSpeech: verb
+    example: 'Puedo convencer al lector con argumentos sólidos.'
+    exampleTranslation: 'I can persuade the reader with solid arguments.'
+grammar:
+  - id: es-ES-C1-WRITTEN-001-G1
+    point: 'Passive voice for formal register in persuasive writing'
+    explanation: "Use passive voice for formal register: 'Se puede concluir que...' (It can be concluded that...), 'Se ha demostrado que...' (It has been demonstrated that...)."
+    examples:
+      - 'Se puede afirmar que la tendencia es clara.'
+      - 'Se ha demostrado que el método es eficaz.'
+    cefrNotes: 'C1 learners use passive voice for formal register in persuasive writing'
+culturalNotes: 'Writing persuasive texts on abstract and current topics at C1 level requires the ability to adapt register to the intended reader, use formal language appropriately, and present arguments that convince.'

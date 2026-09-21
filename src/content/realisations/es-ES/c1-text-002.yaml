@@ -1,0 +1,54 @@
+nodeId: C1-TEXT-002
+lang: es-ES
+vocabulary:
+  - id: es-ES-C1-TEXT-002-001
+    term: 'artículo especializado'
+    translation: 'specialised article'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Puedo leer artículos especializados fuera de mi campo.'
+    exampleTranslation: 'I can read specialised articles outside my field.'
+  - id: es-ES-C1-TEXT-002-002
+    term: 'instrucciones técnicas'
+    translation: 'technical instructions'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Entiendo instrucciones técnicas complejas.'
+    exampleTranslation: 'I understand complex technical instructions.'
+  - id: es-ES-C1-TEXT-002-003
+    term: 'texto técnico extenso'
+    translation: 'extended technical text'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Leo textos técnicos extensos sin dificultad.'
+    exampleTranslation: 'I read extended technical texts without difficulty.'
+  - id: es-ES-C1-TEXT-002-004
+    term: 'campo ajeno'
+    translation: "outside one's field"
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Entiendo textos de campos ajenos al mío.'
+    exampleTranslation: 'I understand texts from fields outside my own.'
+  - id: es-ES-C1-TEXT-002-005
+    term: 'lectura especializada'
+    translation: 'specialised reading'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La lectura especializada es parte de mi rutina.'
+    exampleTranslation: 'Specialised reading is part of my routine.'
+  - id: es-ES-C1-TEXT-002-006
+    term: 'vocabulario técnico'
+    translation: 'technical vocabulary'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Mi vocabulario técnico cubre varios campos.'
+    exampleTranslation: 'My technical vocabulary covers several fields.'
+grammar:
+  - id: es-ES-C1-TEXT-002-G1
+    point: 'Complex conditional with "si" + pluperfect subjunctive'
+    explanation: "Use pluperfect subjunctive for complex conditional reading comprehension: 'Si hubiera leído antes el artículo, habría entendido mejor la conferencia' (Had I read the article before, I would have understood the lecture better)."
+    examples:
+      - 'Si hubiera prestado más atención, habría captado el matiz técnico.'
+      - 'De haber leído el manual completo, habría resuelto el problema.'
+    cefrNotes: 'C1 learners use pluperfect subjunctive for complex conditional reasoning in reading'
+culturalNotes: "Understanding specialised articles and technical instructions at C1 level, even outside one's field, demonstrates advanced reading competence and the ability to transfer reading strategies across disciplines."

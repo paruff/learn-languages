@@ -1,0 +1,54 @@
+nodeId: C1-SOCIAL-002
+lang: es-ES
+vocabulary:
+  - id: es-ES-C1-SOCIAL-002-001
+    term: 'uso flexible'
+    translation: 'flexible use'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Tengo un uso flexible del idioma en diversos contextos.'
+    exampleTranslation: 'I have a flexible use of language in diverse contexts.'
+  - id: es-ES-C1-SOCIAL-002-002
+    term: 'propósitos sociales'
+    translation: 'social purposes'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El idioma sirve para múltiples propósitos sociales.'
+    exampleTranslation: 'Language serves multiple social purposes.'
+  - id: es-ES-C1-SOCIAL-002-003
+    term: 'eficacia'
+    translation: 'effectiveness'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Comunico con eficacia en situaciones diversas.'
+    exampleTranslation: 'I communicate effectively in diverse situations.'
+  - id: es-ES-C1-SOCIAL-002-004
+    term: 'amplia gama de contextos'
+    translation: 'wide range of contexts'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Puedo comunicarme en una amplia gama de contextos.'
+    exampleTranslation: 'I can communicate in a wide range of contexts.'
+  - id: es-ES-C1-SOCIAL-002-005
+    term: 'adaptabilidad lingüística'
+    translation: 'linguistic adaptability'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La adaptabilidad lingüística es clave para la comunicación efectiva.'
+    exampleTranslation: 'Linguistic adaptability is key for effective communication.'
+  - id: es-ES-C1-SOCIAL-002-006
+    term: 'registros'
+    translation: 'registers'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Domino diferentes registros según la situación.'
+    exampleTranslation: 'I master different registers depending on the situation.'
+grammar:
+  - id: es-ES-C1-SOCIAL-002-G1
+    point: 'Subjunctive in purpose clauses for social flexibility'
+    explanation: "Use subjunctive in purpose clauses to show social flexibility: 'Uso el registro formal para que la comunicación sea efectiva' (I use the formal register so that communication is effective)."
+    examples:
+      - 'Adapto mi registro para que el interlocutor se sienta cómodo.'
+      - 'Cambio de estilo para que la conversación fluya.'
+    cefrNotes: 'C1 learners use purpose clauses to demonstrate social-linguistic flexibility'
+culturalNotes: 'Using language flexibly and effectively for social purposes at C1 level means being able to adapt to diverse contexts, from casual conversations to formal professional settings, with appropriate register and tone.'

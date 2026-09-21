@@ -1,0 +1,53 @@
+nodeId: C1-SPOKEN-002
+lang: es-ES
+vocabulary:
+  - id: es-ES-C1-SPOKEN-002-001
+    term: 'expresiones idiomáticas'
+    translation: 'idiomatic expressions'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Uso expresiones idiomáticas de forma natural y apropiada.'
+    exampleTranslation: 'I use idiomatic expressions naturally and appropriately.'
+  - id: es-ES-C1-SPOKEN-002-002
+    term: 'modismos'
+    translation: 'idioms'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Los modismos españoles enriquecen mi expresión oral.'
+    exampleTranslation: 'Spanish idioms enrich my oral expression.'
+  - id: es-ES-C1-SPOKEN-002-003
+    term: 'buscar expresiones'
+    translation: 'to search for expressions'
+    partOfSpeech: phrase
+    example: 'Hablo sin necesidad de buscar expresiones.'
+    exampleTranslation: 'I speak without needing to search for expressions.'
+  - id: es-ES-C1-SPOKEN-002-004
+    term: 'fluidez'
+    translation: 'fluency'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Mi fluidez me permite expresar ideas complejas.'
+    exampleTranslation: 'My fluency allows me to express complex ideas.'
+  - id: es-ES-C1-SPOKEN-002-005
+    term: 'expresión oral'
+    translation: 'oral expression'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Mi expresión oral ha alcanzado un alto nivel.'
+    exampleTranslation: 'My oral expression has reached a high level.'
+  - id: es-ES-C1-SPOKEN-002-006
+    term: 'naturalidad'
+    translation: 'naturalness'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Hablo con naturalidad y seguridad.'
+    exampleTranslation: 'I speak with naturalness and confidence.'
+grammar:
+  - id: es-ES-C1-SPOKEN-002-G1
+    point: 'Idiomatic expressions with "estar como" for vivid description'
+    explanation: "Use idiomatic expressions for vivid spoken description: 'Estar como una cabra' (to be crazy), 'No tener pelos en la lengua' (to be outspoken), 'Meter la pata' (to put one's foot in it)."
+    examples:
+      - 'Está como una cabra, ¡pero es genial!'
+      - 'No tiene pelos en la lengua, siempre dice lo que piensa.'
+    cefrNotes: 'C1 learners use idiomatic expressions appropriately in spoken discourse'
+culturalNotes: 'Using idiomatic expressions appropriately at C1 level is a hallmark of advanced proficiency. Spanish has a rich tradition of idiomatic language that reflects cultural values and historical context.'

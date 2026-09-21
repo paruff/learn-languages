@@ -1,6 +1,6 @@
-# Spanish (es-ES) CEFR Mapping — A1–B2 Inventory
+# Spanish (es-ES) CEFR Mapping — A1–C1 Inventory
 
-Tracks the CEFR A1–B2 Can-Do statement inventory for **en-GB↔es-ES** against `cefr-nodes` and `realisations` content, per issues #40, #41, #42, #56, #57, #58, #59. Mirrors `docs/cefr-mapping.md` (the pt-PT equivalent) in format.
+Tracks the CEFR A1–C1 Can-Do statement inventory for **en-GB↔es-ES** against `cefr-nodes` and `realisations` content, per issues #40, #41, #42, #56, #57, #58, #59, #60. Mirrors `docs/cefr-mapping.md` (the pt-PT equivalent) in format.
 
 **Source:** [Plan Curricular del Instituto Cervantes (PCIC)](https://cvc.cervantes.es/Ensenanza/biblioteca_ele/plan_curricular/) — "Niveles de referencia para el español", published by the Instituto Cervantes and freely browsable via its Centro Virtual Cervantes (CVC), no paywall or access blocker. This is the Spanish-language equivalent of Referencial Camões PLE used for Portuguese — confirmed as a real, currently-published curriculum document, not assumed. PCIC organizes content into 9 inventories across grammatical, pragmatic-discursive, notional, cultural, and learning-strategy components; the closest equivalent to Referencial Camões's "Componente Pragmática" category structure is inventory #5, **Funciones** (communicative functions), verified directly at `niveles/05_funciones_inventario_a1-a2.htm`.
 
@@ -175,6 +175,50 @@ B2 Coverage: 18/18 nodes fully realised (100%).
 | reading            | 4     | TEXT-001/002/003/004                         |
 | listening          | 3     | SPOKEN-001/002/003                            |
 
+## C1 nodes in the repo
+
+All 25 C1 `cefr-nodes/` are language-agnostic Can-Do statements already modeled for the en-GB/pt-PT pair (see `docs/cefr-mapping.md`). CEFR Can-Do statements describe communicative ability, not any one language, so this epic reused every existing C1 node rather than creating duplicates.
+
+| nodeId            | Skill              | Can-Do                                                                               | Status      |
+| ----------------- | ------------------ | ------------------------------------------------------------------------------------ | ----------- |
+| C1-ACADEMIC-001   | writing            | Can write a dissertation or report of substance with reasoned conclusion             | ✅ Realised |
+| C1-ACADEMIC-002   | spoken_production  | Can present complex content to specialist or general audience                         | ✅ Realised |
+| C1-ARGUE-001      | spoken_production  | Can present clear, detailed descriptions of complex subjects                         | ✅ Realised |
+| C1-ARGUE-002      | spoken_production  | Can develop an argument systematically while evaluating counter-arguments             | ✅ Realised |
+| C1-ARGUE-003      | spoken_production  | Can express subtle shades of meaning using qualifying devices                         | ✅ Realised |
+| C1-ARGUE-004      | writing            | Can sustain a viewpoint in writing by evaluating counter-arguments                    | ✅ Realised |
+| C1-LITERARY-001   | reading            | Can appreciate implicit layers of meaning in literary texts                           | ✅ Realised |
+| C1-MEDIATION-001  | spoken_production  | Can explain complicated issues to non-experts without losing accuracy                 | ✅ Realised |
+| C1-NUANCED-001    | spoken_interaction | Can handle disagreement with nuance, adjusting expression to context                  | ✅ Realised |
+| C1-PROFESSIONAL-001| spoken_interaction | Can make well-structured proposals in professional contexts                            | ✅ Realised |
+| C1-PROFESSIONAL-002| writing            | Can write clear, well-structured documents on complex subjects                        | ✅ Realised |
+| C1-SOCIAL-001     | spoken_interaction | Can express self fluently and spontaneously without searching for expressions          | ✅ Realised |
+| C1-SOCIAL-002     | spoken_interaction | Can use language flexibly and effectively for social purposes                          | ✅ Realised |
+| C1-SPOKEN-001     | spoken_production  | Can give elaborate descriptions embedding sub-themes with appropriate conclusion       | ✅ Realised |
+| C1-SPOKEN-002     | spoken_production  | Can express ideas without searching for expressions, using idiomatic expressions       | ✅ Realised |
+| C1-SPOKEN-003     | spoken_interaction | Can keep up fluent conversation on abstract and complex topics                         | ✅ Realised |
+| C1-SPOKEN-004     | listening          | Can understand extended speech even when not clearly structured                        | ✅ Realised |
+| C1-SPOKEN-005     | listening          | Can understand television programmes and films without too much effort                 | ✅ Realised |
+| C1-TEXT-001       | reading            | Can understand a wide range of demanding, longer texts and recognise implicit meaning  | ✅ Realised |
+| C1-TEXT-002       | reading            | Can understand specialised articles and longer technical instructions                  | ✅ Realised |
+| C1-TEXT-003       | reading            | Can appreciate contemporary literary texts including idiomatic and cultural allusions   | ✅ Realised |
+| C1-TEXT-004       | reading            | Can understand complex argumentative texts and identify line of argumentation          | ✅ Realised |
+| C1-WRITTEN-001    | writing            | Can write a convincing text on abstract and topical subjects                           | ✅ Realised |
+| C1-WRITTEN-002    | writing            | Can write a critical review of a film, exhibition or work                             | ✅ Realised |
+| C1-WRITTEN-003    | writing            | Can write a well-structured personal narrative of a complex experience                 | ✅ Realised |
+
+C1 Coverage: 25/25 nodes fully realised (100%).
+
+### C1 skill distribution
+
+| Skill              | Count | Nodes                                                        |
+| ------------------ | ----- | ------------------------------------------------------------ |
+| spoken_interaction | 5     | SOCIAL-001/002, NUANCED-001, PROFESSIONAL-001, SPOKEN-003    |
+| spoken_production  | 6     | ACADEMIC-002, ARGUE-001/002/003, MEDIATION-001, SPOKEN-001/002 |
+| writing            | 7     | ACADEMIC-001, ARGUE-004, PROFESSIONAL-002, WRITTEN-001/002/003 |
+| reading            | 5     | LITERARY-001, TEXT-001/002/003/004                             |
+| listening          | 2     | SPOKEN-004/005                                                 |
+
 ### es-ES realisation totals
 
 | Level | Vocabulary items | Grammar points | Files |
@@ -183,4 +227,5 @@ B2 Coverage: 18/18 nodes fully realised (100%).
 | A2    | 120              | 8              | 20    |
 | B1    | 108              | 9              | 18    |
 | B2    | 108              | 9              | 18    |
-| **Total** | **468**      | **26**         | **78** |
+| C1    | 150              | 12             | 25    |
+| **Total** | **618**      | **38**         | **103** |
