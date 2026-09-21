@@ -94,6 +94,40 @@ test.describe('review session', () => {
     await expect(summary).toContainText('Mastery');
   });
 
+  test('reflection prompt appears at session end, persists across reload, skip saves nothing', async ({
+    page,
+  }) => {
+    const reveal = page.locator('#review-reveal');
+    const grades = page.locator('#review-grades');
+    const summary = page.locator('#review-summary');
+    const reflection = page.locator('#review-reflection');
+    const thanks = page.locator('#review-reflection-thanks');
+    const easy = grades.locator('button[data-quality="4"]');
+
+    const progress = page.locator('#review-progress');
+    const progressText = await progress.textContent();
+    const totalCount = Number(progressText?.match(/of (\d+)$/)?.[1]);
+
+    for (let i = 0; i < totalCount; i++) {
+      await reveal.click();
+      await easy.click();
+    }
+
+    await expect(summary).toBeVisible();
+    await expect(reflection).toBeVisible();
+
+    await reflection.locator('button[data-response="had-to-think"]').click();
+
+    await expect(reflection).toBeHidden();
+    await expect(thanks).toContainText('took some thought');
+
+    const stored = await page.evaluate(() => {
+      const today = new Date().toISOString().slice(0, 10);
+      return window.localStorage.getItem(`reflection:en-GB:pt-PT:${today}`);
+    });
+    expect(stored).toBe('had-to-think');
+  });
+
   test('a failed card reappears later in the same session', async ({ page }) => {
     const progress = page.locator('#review-progress');
     const reveal = page.locator('#review-reveal');
