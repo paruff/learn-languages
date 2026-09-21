@@ -42,6 +42,20 @@ const items = await loadPair(sourceLang, targetLang);
     </div>
   </div>
   <p id="review-summary" class="card" hidden></p>
+  <div id="review-reflection" class="card review-reflection" hidden>
+    <p>How did that session feel?</p>
+    <div class="review-reflection__options">
+      <button type="button" class="btn btn--secondary" data-response="easy">It was easy</button>
+      <button type="button" class="btn btn--secondary" data-response="had-to-think"
+        >I had to think</button
+      >
+      <button type="button" class="btn btn--secondary" data-response="guessed"
+        >I mostly guessed</button
+      >
+    </div>
+    <button type="button" id="review-reflection-skip" class="btn btn--secondary">Skip</button>
+  </div>
+  <p id="review-reflection-thanks" class="review-reflection__thanks" hidden></p>
 
   <script
     type="application/json"
@@ -85,6 +99,20 @@ const items = await loadPair(sourceLang, targetLang);
     flex-wrap: wrap;
     justify-content: center;
   }
+  .review-reflection {
+    text-align: center;
+  }
+  .review-reflection__options {
+    display: flex;
+    gap: var(--spacing-unit);
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-block: calc(var(--spacing-unit) * 1.5);
+  }
+  .review-reflection__thanks {
+    color: var(--color-text-muted);
+    font-size: 0.875rem;
+  }
 </style>
 
 <script>
@@ -100,6 +128,7 @@ const items = await loadPair(sourceLang, targetLang);
   import { SESSION_SIZE, interleaveByNode } from '../../../lib/reviewSession';
   import { withBase } from '../../../lib/urls';
   import { computeOverallMastery } from '../../../lib/progress';
+  import { saveReflection, loadReflection, type ReflectionResponse } from '../../../lib/reflection';
 
   interface PairSide {
     id: string;
@@ -156,6 +185,50 @@ const items = await loadPair(sourceLang, targetLang);
   const pronounceBtn = document.getElementById('review-pronounce')!;
   const gradesEl = document.getElementById('review-grades')!;
   const directionToggle = document.getElementById('review-direction-toggle')!;
+  const reflectionEl = document.getElementById('review-reflection')!;
+  const reflectionThanksEl = document.getElementById('review-reflection-thanks')!;
+  const reflectionSkipBtn = document.getElementById('review-reflection-skip')!;
+
+  function todayKey(): string {
+    return new Date().toISOString().slice(0, 10);
+  }
+
+  function reflectionLabel(response: ReflectionResponse): string {
+    if (response === 'easy') return 'was easy';
+    if (response === 'had-to-think') return 'took some thought';
+    return 'was mostly guessing';
+  }
+
+  function hideReflection(): void {
+    reflectionEl.hidden = true;
+    reflectionThanksEl.hidden = true;
+  }
+
+  function showReflectionPrompt(): void {
+    const existing = loadReflection(sourceLang, targetLang, todayKey());
+    if (existing) {
+      reflectionEl.hidden = true;
+      reflectionThanksEl.hidden = false;
+      reflectionThanksEl.textContent = `Noted — you said today's session ${reflectionLabel(existing)}.`;
+    } else {
+      reflectionEl.hidden = false;
+      reflectionThanksEl.hidden = true;
+    }
+  }
+
+  reflectionEl.querySelectorAll<HTMLButtonElement>('[data-response]').forEach((button) => {
+    button.addEventListener('click', () => {
+      const response = button.dataset.response as ReflectionResponse;
+      saveReflection(sourceLang, targetLang, response, todayKey());
+      reflectionEl.hidden = true;
+      reflectionThanksEl.hidden = false;
+      reflectionThanksEl.textContent = `Noted — you said today's session ${reflectionLabel(response)}.`;
+    });
+  });
+
+  reflectionSkipBtn.addEventListener('click', () => {
+    reflectionEl.hidden = true;
+  });
 
   function frontOf(item: PairItem) {
     return direction === 'forward' ? item.source : item.target;
@@ -209,8 +282,10 @@ const items = await loadPair(sourceLang, targetLang);
       summaryEl.textContent =
         `Session complete — ${reviewed} card${reviewed === 1 ? '' : 's'} reviewed. ` +
         `${firstTryCorrect}/${firstTryTotal} correct first try. Mastery ${deltaText} (${masteryAfter}% overall).`;
+      showReflectionPrompt();
       return;
     }
+    hideReflection();
     progressEl.textContent = `${reviewed + 1} of ${reviewed + queue.length}`;
     const image = imageOf(item);
     if (image?.imageUrl) {
@@ -231,6 +306,7 @@ const items = await loadPair(sourceLang, targetLang);
     if (queue.length === 0) {
       cardEl.hidden = true;
       summaryEl.hidden = true;
+      hideReflection();
       emptyEl.hidden = false;
     } else {
       emptyEl.hidden = true;
