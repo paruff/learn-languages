@@ -1,0 +1,54 @@
+nodeId: C1-MEDIATION-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C1-MEDIATION-001-001
+    term: 'traduzir para leigos'
+    translation: 'to translate for laymen'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'O professor soube traduzir para leigos o debate técnico.'
+    exampleTranslation: 'The teacher knew how to translate the technical debate for laymen.'
+  - id: pt-PT-C1-MEDIATION-001-002
+    term: 'simplificar sem perder rigor'
+    translation: 'to simplify without losing rigour'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'O jornalista simplifica sem perder rigor os dados complexos.'
+    exampleTranslation: 'The journalist simplifies the complex data without losing rigour.'
+  - id: pt-PT-C1-MEDIATION-001-003
+    term: 'fazer a ponte entre os públicos'
+    translation: 'to bridge between audiences'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'O mediador faz a ponte entre os públicos técnico e geral.'
+    exampleTranslation: 'The mediator bridges between the technical and general audiences.'
+  - id: pt-PT-C1-MEDIATION-001-004
+    term: 'reescrever a explicação'
+    translation: 'to rewrite the explanation'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Reescreveu a explicação três vezes até ficar clara.'
+    exampleTranslation: 'He rewrote the explanation three times until it was clear.'
+  - id: pt-PT-C1-MEDIATION-001-005
+    term: 'núcleo da questão'
+    translation: 'the heart of the matter'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O núcleo da questão é a definição de prioridades.'
+    exampleTranslation: 'The heart of the matter is the definition of priorities.'
+  - id: pt-PT-C1-MEDIATION-001-006
+    term: 'apresentação em termos simples'
+    translation: 'presentation in simple terms'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A apresentação em termos simples convenceu a assembleia.'
+    exampleTranslation: 'The presentation in simple terms convinced the assembly.'
+grammar:
+  - id: C1-GRAMMAR-023
+    point: 'Reformulation connectors for mediation'
+    explanation: "Using reformulation and simplification connectors such as 'por outras palavras', 'dito de outro modo' and 'em termos simples' to make technical content accessible"
+    examples:
+      - 'Por outras palavras, o sistema funciona como uma rede de canais.'
+      - 'Dito de outro modo, menos investimento exige mais eficiência.'
+    cefrNotes: 'C1 speakers control the whole reformulation toolbox to mediate across registers'
+culturalNotes: 'Mediation skills are prized in multilingual Portugal: explaining legal or bureaucratic jargon in plain speech is a daily necessity. The speaker signals the register shift explicitly, so the audience always knows when simplification begins.'
