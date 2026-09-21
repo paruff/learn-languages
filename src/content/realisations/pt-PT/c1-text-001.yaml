@@ -1,0 +1,54 @@
+nodeId: C1-TEXT-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C1-TEXT-001-001
+    term: 'ler nas entrelinhas'
+    translation: 'to read between the lines'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Um leitor atento sabe ler nas entrelinhas dos editoriais.'
+    exampleTranslation: 'An attentive reader knows how to read between the lines of editorials.'
+  - id: pt-PT-C1-TEXT-001-002
+    term: 'apreender o sentido implícito'
+    translation: 'to grasp the implicit meaning'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'O crítico apreendeu o sentido implícito do romance.'
+    exampleTranslation: 'The critic grasped the implicit meaning of the novel.'
+  - id: pt-PT-C1-TEXT-001-003
+    term: 'descortinar a ironia'
+    translation: 'to discern the irony'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Só um leitor experiente consegue descortinar a ironia do texto.'
+    exampleTranslation: 'Only an experienced reader can discern the irony of the text.'
+  - id: pt-PT-C1-TEXT-001-004
+    term: 'texto de fôlego'
+    translation: 'long-form text'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O ensaio é um texto de fôlego sobre a identidade europeia.'
+    exampleTranslation: 'The essay is a long-form text on European identity.'
+  - id: pt-PT-C1-TEXT-001-005
+    term: 'contextualizar a obra'
+    translation: 'to contextualise the work'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Convém contextualizar a obra na época em que foi escrita.'
+    exampleTranslation: 'It is advisable to contextualise the work within the era in which it was written.'
+  - id: pt-PT-C1-TEXT-001-006
+    term: 'deduzir o ponto de vista'
+    translation: 'to infer the point of view'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Deduz-se o ponto de vista do autor pela escolha dos exemplos.'
+    exampleTranslation: "The author's point of view can be inferred from the choice of examples."
+grammar:
+  - id: C1-GRAMMAR-007
+    point: 'Compound subjunctive for implied meaning'
+    explanation: 'Using mais-que-perfeito do conjuntivo in concessive and hypothetical clauses to signal unstated conditions and implied meaning'
+    examples:
+      - 'Mesmo que não o tivesse dito, percebia-se a sua intenção.'
+      - 'Caso tivesse sido explícito, o texto perderia subtileza.'
+    cefrNotes: 'C1 readers recognise that compound subjunctive clauses carry assumptions the writer leaves implicit'
+culturalNotes: 'Portuguese literary and journalistic prose often builds meaning through implication rather than direct statement. The subjunctive is the grammatical marker of that implied world, and its use signals a sophisticated prose tradition.'
