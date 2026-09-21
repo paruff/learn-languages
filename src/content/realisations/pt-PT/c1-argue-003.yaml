@@ -1,0 +1,54 @@
+nodeId: C1-ARGUE-003
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C1-ARGUE-003-001
+    term: 'atenuar a afirmação'
+    translation: 'to soften a statement'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Para não parecer arrogante, atenuou a afirmação com um comentário prudente.'
+    exampleTranslation: 'In order not to seem arrogant, he softened the statement with a cautious comment.'
+  - id: pt-PT-C1-ARGUE-003-002
+    term: 'matizar a opinião'
+    translation: "to qualify one's opinion"
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'É sinal de maturidade matizar a opinião com exemplos concretos.'
+    exampleTranslation: "Qualifying one's opinion with concrete examples is a sign of maturity."
+  - id: pt-PT-C1-ARGUE-003-003
+    term: 'recurso à modéstia'
+    translation: 'rhetorical modesty'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O recurso à modéstia permite apresentar ideias fortes sem hostilidade.'
+    exampleTranslation: 'Rhetorical modesty allows presenting strong ideas without hostility.'
+  - id: pt-PT-C1-ARGUE-003-004
+    term: 'mostrar reserva'
+    translation: 'to show reserve'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Mostrou reserva quanto às previsões mais otimistas.'
+    exampleTranslation: 'He showed reserve regarding the most optimistic forecasts.'
+  - id: pt-PT-C1-ARGUE-003-005
+    term: 'salvaguardar a opinião'
+    translation: "to guard one's opinion"
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Salvaguardou a sua opinião com uma ressalva final.'
+    exampleTranslation: 'He guarded his opinion with a final caveat.'
+  - id: pt-PT-C1-ARGUE-003-006
+    term: 'exprimir dúvida prudente'
+    translation: 'to express prudent doubt'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Exprimir dúvida prudente antes de concordar é comum em conversas informais.'
+    exampleTranslation: 'Expressing prudent doubt before agreeing is common in informal conversations.'
+grammar:
+  - id: C1-GRAMMAR-005
+    point: 'Nuanced modality with epistemic adverbs'
+    explanation: "Using adverbs and expressions such as 'decerto', 'possivelmente' and 'tenho para mim que' to grade certainty and hedge claims with precision"
+    examples:
+      - 'Possivelmente não conseguirá convencer toda a audiência.'
+      - 'Decerto reconhecerá que os dados não favorecem essa leitura.'
+    cefrNotes: 'C1 learners grade epistemic certainty finely instead of only asserting or denying'
+culturalNotes: 'European Portuguese politeness relies heavily on hedging: direct disagreement is softened with epistemic markers and modal verbs. The subjunctive reinforces the tentative reading, and speakers often postpone the core claim to the end of the turn.'
