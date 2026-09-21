@@ -1,0 +1,54 @@
+nodeId: C1-TEXT-003
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C1-TEXT-003-001
+    term: 'apreender a beleza do texto'
+    translation: 'to grasp the beauty of the text'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'O leitor demorado apreende a beleza do texto na cadência das frases.'
+    exampleTranslation: 'The patient reader grasps the beauty of the text in the cadence of the sentences.'
+  - id: pt-PT-C1-TEXT-003-002
+    term: 'ciladas culturais'
+    translation: 'cultural allusions'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A prosa viva é pontuada por ciladas culturais que escapam ao turista.'
+    exampleTranslation: 'The lively prose is peppered with cultural allusions that escape the tourist.'
+  - id: pt-PT-C1-TEXT-003-003
+    term: 'ir além do sentido literal'
+    translation: 'to go beyond the literal meaning'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Convém ir além do sentido literal para saborear a metáfora.'
+    exampleTranslation: 'One should go beyond the literal meaning to savour the metaphor.'
+  - id: pt-PT-C1-TEXT-003-004
+    term: 'linguagem figurada'
+    translation: 'figurative language'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A linguagem figurada enriquece o poema sem o tornar hermetizante.'
+    exampleTranslation: 'Figurative language enriches the poem without making it hermetic.'
+  - id: pt-PT-C1-TEXT-003-005
+    term: 'tomada de posição estética'
+    translation: 'aesthetic stance'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A tomada de posição estética do autor divide os críticos.'
+    exampleTranslation: "The author's aesthetic stance divides the critics."
+  - id: pt-PT-C1-TEXT-003-006
+    term: 'sabor lusófono'
+    translation: 'Lusophone flavour'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'O romance tem um sabor lusófono inconfundível.'
+    exampleTranslation: 'The novel has an unmistakable Lusophone flavour.'
+grammar:
+  - id: C1-GRAMMAR-009
+    point: 'Idiomatic expression patterns for literary reading'
+    explanation: 'Recognising formulaic turns of phrase, proverbs, and metaphorical constructions whose meaning cannot be assembled word by word'
+    examples:
+      - 'Quem conta um conto acrescenta um ponto.'
+      - 'Não é por muito madrugar que amanhece mais cedo.'
+    cefrNotes: 'C1 readers decode fixed expressions and depend on cultural reference for full literary meaning'
+culturalNotes: 'Portuguese literary prose leans on a shared oral tradition of proverbs and popular wisdom. Knowing the folk idiom is part of reading fluency: allusion to a proverb carries an entire attitude without further explanation.'
