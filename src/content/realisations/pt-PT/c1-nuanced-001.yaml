@@ -1,0 +1,54 @@
+nodeId: C1-NUANCED-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C1-NUANCED-001-001
+    term: 'discordância delicada'
+    translation: 'delicate disagreement'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A discordância delicada não prejudicou a amizade.'
+    exampleTranslation: 'The delicate disagreement did not harm the friendship.'
+  - id: pt-PT-C1-NUANCED-001-002
+    term: 'afinar a linguagem'
+    translation: "to fine-tune one's language"
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Conforme a conversa esquentava, afina a linguagem para não ferir.'
+    exampleTranslation: 'As the conversation heated up, he fine-tunes his language so as not to hurt.'
+  - id: pt-PT-C1-NUANCED-001-003
+    term: 'ir com cautela'
+    translation: 'to tread carefully'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'No debate familiar, convém ir com cautela ao tocar o assunto.'
+    exampleTranslation: 'In family debates, it is wise to tread carefully when touching the matter.'
+  - id: pt-PT-C1-NUANCED-001-004
+    term: 'matéria sensível'
+    translation: 'sensitive matter'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A matéria sensível exige palavras medidas.'
+    exampleTranslation: 'The sensitive matter calls for measured words.'
+  - id: pt-PT-C1-NUANCED-001-005
+    term: 'tempo de espera'
+    translation: 'pausing for thought'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Um tempo de espera antes de responder evita mal-entendidos.'
+    exampleTranslation: 'Pausing for thought before answering avoids misunderstandings.'
+  - id: pt-PT-C1-NUANCED-001-006
+    term: 'ficar mal visto'
+    translation: 'to be ill-favoured'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Num jantar formal, uma resposta rude fica mal vista.'
+    exampleTranslation: 'At a formal dinner, a rude reply is ill-favoured.'
+grammar:
+  - id: C1-GRAMMAR-022
+    point: 'Register switching and hedging for nuanced disagreement'
+    explanation: "Switching between direct and softened formulations and hedging disagreement with concession and epistemic downgrading, e.g. 'percebo o ponto, mas'"
+    examples:
+      - 'Percebo o seu ponto de vista, mas permita-me discordar.'
+      - 'Não será talvez a melhor solução, a meu ver.'
+    cefrNotes: 'C1 speakers grade disagreement by adding concessions and reprocessing signals'
+culturalNotes: "In European Portugal, harmony is prized in conversation; open confrontation is rare and metaphorical. Disagreement is first legitimised with concessions and hedged with 'talvez' and the conditional, preserving the other's face."

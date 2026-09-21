@@ -1,0 +1,11 @@
+nodeId: C1-NUANCED-001
+cefrLevel: C1
+skill: spoken_interaction
+canDo: 'Can handle a disagreement in a conversation with nuance, adjusting the choice of expression to the interlocutor and the stakes'
+pragmaticFocus: 'Nuanced disagreement'
+notionalFocus: 'Disagreement, face work'
+relatedNodes:
+  - C1-SOCIAL-002
+  - C1-ARGUE-003
+prerequisiteNodes:
+  - C1-ARGUE-003
