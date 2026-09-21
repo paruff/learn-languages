@@ -8,6 +8,8 @@ vocabulary:
     gender: feminine
     example: 'A minha casa é pequena.'
     exampleTranslation: 'My house is small.'
+    imageUrl: 'casa.webp'
+    imageAlt: 'A single-family house with a front garden and pathway'
   - id: pt-PT-A1-ROUTINE-001-002
     term: 'quarto'
     translation: 'bedroom'
@@ -15,6 +17,8 @@ vocabulary:
     gender: masculine
     example: 'O quarto tem uma janela grande.'
     exampleTranslation: 'The bedroom has a big window.'
+    imageUrl: 'quarto.webp'
+    imageAlt: 'A cozy modern bedroom with a large bed'
   - id: pt-PT-A1-ROUTINE-001-003
     term: 'cozinha'
     translation: 'kitchen'
@@ -22,6 +26,8 @@ vocabulary:
     gender: feminine
     example: 'Cozinho todos os dias na cozinha.'
     exampleTranslation: 'I cook every day in the kitchen.'
+    imageUrl: 'cozinha.webp'
+    imageAlt: 'A modern kitchen with red cabinets and a wooden table'
   - id: pt-PT-A1-ROUTINE-001-004
     term: 'roupa'
     translation: 'clothes'
@@ -29,6 +35,8 @@ vocabulary:
     gender: feminine
     example: 'Lavo a roupa aos sábados.'
     exampleTranslation: 'I wash the clothes on Saturdays.'
+    imageUrl: 'roupa.webp'
+    imageAlt: 'Rows of clothes hanging inside a closet'
   - id: pt-PT-A1-ROUTINE-001-005
     term: 'chave'
     translation: 'key'
@@ -36,6 +44,8 @@ vocabulary:
     gender: feminine
     example: 'Onde está a chave da porta?'
     exampleTranslation: 'Where is the door key?'
+    imageUrl: 'chave.webp'
+    imageAlt: 'A hand inserting a key into a door lock'
   - id: pt-PT-A1-ROUTINE-001-006
     term: 'telefone'
     translation: 'phone'
@@ -43,5 +53,7 @@ vocabulary:
     gender: masculine
     example: 'O meu telefone está na mesa.'
     exampleTranslation: 'My phone is on the table.'
+    imageUrl: 'telefone.webp'
+    imageAlt: 'A smartphone screen showing the time'
 grammar: []
 culturalNotes: 'Many Portuguese homes have a varanda (balcony) used daily for hanging washing and drying clothes in the sun.'
