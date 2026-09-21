@@ -10,6 +10,7 @@ vocabulary:
     exampleTranslation: 'A glass of water, please.'
     imageUrl: 'agua.webp'
     imageAlt: 'A clear glass filled with water'
+    mnemonic: 'Sounds like "aqua" — think aquarium, full of water.'
   - id: pt-PT-A1-FOOD-001-002
     term: 'pão'
     translation: 'bread'
@@ -19,6 +20,7 @@ vocabulary:
     exampleTranslation: 'I want bread with butter.'
     imageUrl: 'pao.webp'
     imageAlt: 'A loaf of bread wrapped in cloth in a wire basket'
+    mnemonic: 'Rhymes with "pow" — imagine bread popping out of the oven with a pow!'
   - id: pt-PT-A1-FOOD-001-003
     term: 'café'
     translation: 'coffee'
@@ -28,6 +30,7 @@ vocabulary:
     exampleTranslation: 'A coffee, please.'
     imageUrl: 'cafe.webp'
     imageAlt: 'A white cup of coffee on a saucer'
+    mnemonic: 'Identical to English "café" — a café is where you go for coffee.'
   - id: pt-PT-A1-FOOD-001-004
     term: 'leite'
     translation: 'milk'
@@ -37,6 +40,7 @@ vocabulary:
     exampleTranslation: 'Tea with milk.'
     imageUrl: 'leite.webp'
     imageAlt: 'Glass pitchers filled with white milk'
+    mnemonic: 'Sounds like "late" — you drink milk before bed, even when it is late.'
   - id: pt-PT-A1-FOOD-001-005
     term: 'arroz'
     translation: 'rice'
@@ -46,5 +50,6 @@ vocabulary:
     exampleTranslation: 'Rice with beans.'
     imageUrl: 'arroz.webp'
     imageAlt: 'A bowl of cooked white rice'
+    mnemonic: 'Sounds like "a rose" — picture a rose growing out of a bowl of rice.'
 grammar: []
 culturalNotes: 'Meals in Portugal are typically lunch (12:30-14:00) and dinner (19:30-21:00). Bread is served with most meals.'
