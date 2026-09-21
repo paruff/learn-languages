@@ -36,6 +36,8 @@ vocabulary:
     gender: feminine
     example: 'Vou à farmácia buscar o medicamento.'
     exampleTranslation: "I'm going to the pharmacy to get the medicine."
+    imageUrl: 'farmacia.webp'
+    imageAlt: 'The interior of a pharmacy shop with shelves of products'
   - id: pt-PT-A2-HEALTH-001-006
     term: 'consulta'
     translation: 'appointment'

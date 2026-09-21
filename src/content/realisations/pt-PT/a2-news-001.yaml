@@ -8,6 +8,8 @@ vocabulary:
     gender: masculine
     example: 'Leio o jornal todas as manhãs.'
     exampleTranslation: 'I read the newspaper every morning.'
+    imageUrl: 'jornal.webp'
+    imageAlt: 'A person reading a large open newspaper'
   - id: pt-PT-A2-NEWS-001-002
     term: 'revista'
     translation: 'magazine'

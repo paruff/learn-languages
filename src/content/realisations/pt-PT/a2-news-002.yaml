@@ -21,6 +21,8 @@ vocabulary:
     gender: feminine
     example: 'Ouço a rádio enquanto trabajo.'
     exampleTranslation: 'I listen to the radio while working.'
+    imageUrl: 'radio.webp'
+    imageAlt: 'A close-up of a vintage radio dial and knobs'
   - id: pt-PT-A2-NEWS-002-004
     term: 'evento'
     translation: 'event'

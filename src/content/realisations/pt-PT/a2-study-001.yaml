@@ -22,6 +22,8 @@ vocabulary:
     gender: masculine
     example: 'Tenho um diploma em engenharia.'
     exampleTranslation: 'I have a degree in engineering.'
+    imageUrl: 'diploma.webp'
+    imageAlt: 'A graduation diploma certificate with a cap and ring'
   - id: pt-PT-A2-STUDY-001-004
     term: 'estudar'
     translation: 'to study'
