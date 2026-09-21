@@ -1,0 +1,8 @@
+{
+  "id": "pt-PT-a1-offer-001-fill-blank-001",
+  "lessonId": "A1-OFFER-001",
+  "type": "fill-blank",
+  "prompt": "Complete: \"_____ um café?\" (Do you want a coffee?)",
+  "answer": "Quer",
+  "hints": ["A polite way to offer something"]
+}

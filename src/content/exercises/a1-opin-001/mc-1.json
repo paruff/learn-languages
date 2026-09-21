@@ -1,0 +1,9 @@
+{
+  "id": "pt-PT-a1-opin-001-mc-001",
+  "lessonId": "A1-OPIN-001",
+  "type": "multiple-choice",
+  "prompt": "How do you say 'In my opinion...' in Portuguese?",
+  "answer": "Na minha opinião...",
+  "options": ["Acho que...", "Gosto de...", "Não gosto de...", "Na minha opinião..."],
+  "hints": ["Contains the word \"opinião\""]
+}

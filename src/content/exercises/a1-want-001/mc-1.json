@@ -1,0 +1,9 @@
+{
+  "id": "pt-PT-a1-want-001-mc-001",
+  "lessonId": "A1-WANT-001",
+  "type": "multiple-choice",
+  "prompt": "How do you say \"I'm going to...\" in Portuguese?",
+  "answer": "Vou...",
+  "options": ["Quero...", "Vou...", "Gostaria de...", "Consigo..."],
+  "hints": ["The near-future form of \"ir\" (to go)"]
+}

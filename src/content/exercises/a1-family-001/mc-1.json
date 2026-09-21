@@ -1,0 +1,9 @@
+{
+  "id": "pt-PT-a1-family-001-mc-001",
+  "lessonId": "A1-FAMILY-001",
+  "type": "multiple-choice",
+  "prompt": "How do you say 'brother' in Portuguese?",
+  "answer": "irmão",
+  "options": ["mãe", "pai", "irmão", "irmã"],
+  "hints": ["Male sibling"]
+}

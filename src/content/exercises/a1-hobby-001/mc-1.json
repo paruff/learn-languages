@@ -1,0 +1,9 @@
+{
+  "id": "pt-PT-a1-hobby-001-mc-001",
+  "lessonId": "A1-HOBBY-001",
+  "type": "multiple-choice",
+  "prompt": "How do you say 'beach' in Portuguese?",
+  "answer": "praia",
+  "options": ["futebol", "música", "praia", "cinema"],
+  "hints": ["Where you swim in summer"]
+}

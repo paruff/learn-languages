@@ -1,0 +1,8 @@
+{
+  "id": "pt-PT-a1-hobby-001-fill-blank-001",
+  "lessonId": "A1-HOBBY-001",
+  "type": "fill-blank",
+  "prompt": "Complete: \"Gosto de jogar _____ aos domingos.\" (I like to play football on Sundays.)",
+  "answer": "futebol",
+  "hints": ["The most popular sport in Portugal"]
+}

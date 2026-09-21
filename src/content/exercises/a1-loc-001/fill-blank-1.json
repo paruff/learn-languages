@@ -1,0 +1,8 @@
+{
+  "id": "pt-PT-a1-loc-001-fill-blank-001",
+  "lessonId": "A1-LOC-001",
+  "type": "fill-blank",
+  "prompt": "Complete: \"_____ fica a estação?\" (Where is the station?)",
+  "answer": "Onde",
+  "hints": ["A question word meaning \"where\""]
+}

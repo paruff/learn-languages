@@ -1,0 +1,9 @@
+{
+  "id": "pt-PT-a1-sorry-001-mc-001",
+  "lessonId": "A1-SORRY-001",
+  "type": "multiple-choice",
+  "prompt": "How do you say 'No problem' in Portuguese?",
+  "answer": "Não faz mal",
+  "options": ["Desculpe", "Com licença", "Não faz mal", "Obrigado"],
+  "hints": ["A reply to an apology"]
+}

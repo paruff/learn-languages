@@ -1,0 +1,8 @@
+{
+  "id": "pt-PT-a1-routine-001-fill-blank-001",
+  "lessonId": "A1-ROUTINE-001",
+  "type": "fill-blank",
+  "prompt": "Complete: \"A minha _____ é pequena.\" (My house is small.)",
+  "answer": "casa",
+  "hints": ["The building you live in"]
+}

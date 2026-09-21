@@ -1,0 +1,9 @@
+{
+  "id": "pt-PT-a1-intro-002-mc-001",
+  "lessonId": "A1-INTRO-002",
+  "type": "multiple-choice",
+  "prompt": "How do you ask \"What is your name?\" in Portuguese?",
+  "answer": "Qual é o seu nome?",
+  "options": ["Qual é o seu nome?", "Como está?", "Onde fica?", "Que horas são?"],
+  "hints": ["Starts with \"Qual\""]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "pt-PT-a1-greet-002-fill-blank-001",
+  "lessonId": "A1-GREET-002",
+  "type": "fill-blank",
+  "prompt": "Complete the farewell: \"_____!\" (Bye!)",
+  "answer": "Tchau",
+  "hints": ["A short, informal goodbye"]
+}

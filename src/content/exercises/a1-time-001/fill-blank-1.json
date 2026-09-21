@@ -1,0 +1,8 @@
+{
+  "id": "pt-PT-a1-time-001-fill-blank-001",
+  "lessonId": "A1-TIME-001",
+  "type": "fill-blank",
+  "prompt": "Complete: \"_____ vou trabalhar.\" (Tomorrow I am going to work.)",
+  "answer": "Amanhã",
+  "hints": ["The day after today"]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "pt-PT-a1-greet-002-mc-001",
+  "lessonId": "A1-GREET-002",
+  "type": "multiple-choice",
+  "prompt": "How do you say 'See you later' in Portuguese?",
+  "answer": "Até logo",
+  "options": ["Tchau", "Até logo", "Bom dia", "Olá"],
+  "hints": ["Literally \"until soon\""]
+}

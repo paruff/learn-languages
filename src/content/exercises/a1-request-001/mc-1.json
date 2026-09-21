@@ -1,0 +1,9 @@
+{
+  "id": "pt-PT-a1-request-001-mc-001",
+  "lessonId": "A1-REQUEST-001",
+  "type": "multiple-choice",
+  "prompt": "How do you say 'Could you...?' in Portuguese?",
+  "answer": "Poderia...?",
+  "options": ["Pode ajudar-me?", "Quero...", "Poderia...?", "Vamos...?"],
+  "hints": ["The conditional form of \"pode\""]
+}

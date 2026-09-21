@@ -1,0 +1,9 @@
+{
+  "id": "pt-PT-a1-thank-001-mc-001",
+  "lessonId": "A1-THANK-001",
+  "type": "multiple-choice",
+  "prompt": "How does a female speaker say 'thank you' in Portuguese?",
+  "answer": "Obrigada",
+  "options": ["Obrigado", "Obrigada", "De nada", "Desculpe"],
+  "hints": ["Ends in \"-a\" for a female speaker"]
+}

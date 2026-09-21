@@ -1,0 +1,8 @@
+{
+  "id": "pt-PT-a1-clarify-001-fill-blank-001",
+  "lessonId": "A1-CLARIFY-001",
+  "type": "fill-blank",
+  "prompt": "Complete: \"Pode falar mais _____?\" (Can you speak more slowly?)",
+  "answer": "devagar",
+  "hints": ["The opposite of \"rápido\" (fast)"]
+}

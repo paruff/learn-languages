@@ -1,0 +1,8 @@
+{
+  "id": "pt-PT-a1-thank-001-fill-blank-001",
+  "lessonId": "A1-THANK-001",
+  "type": "fill-blank",
+  "prompt": "Complete the reply to \"thank you\": \"_____.\" (You are welcome.)",
+  "answer": "De nada",
+  "hints": ["Literally \"of nothing\""]
+}

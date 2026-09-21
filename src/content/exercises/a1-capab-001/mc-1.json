@@ -1,0 +1,9 @@
+{
+  "id": "pt-PT-a1-capab-001-mc-001",
+  "lessonId": "A1-CAPAB-001",
+  "type": "multiple-choice",
+  "prompt": "How do you say \"I can't...\" in Portuguese?",
+  "answer": "Não consigo...",
+  "options": ["Consigo...", "Não consigo...", "Sei...", "Não sei..."],
+  "hints": ["\"Não\" negates the verb"]
+}

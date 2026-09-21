@@ -1,0 +1,8 @@
+{
+  "id": "pt-PT-a1-intro-002-fill-blank-001",
+  "lessonId": "A1-INTRO-002",
+  "type": "fill-blank",
+  "prompt": "Complete: \"Qual é o seu _____?\" (What is your name?)",
+  "answer": "nome",
+  "hints": ["The word for \"name\""]
+}

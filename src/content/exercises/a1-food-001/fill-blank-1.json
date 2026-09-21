@@ -1,0 +1,8 @@
+{
+  "id": "pt-PT-a1-food-001-fill-blank-001",
+  "lessonId": "A1-FOOD-001",
+  "type": "fill-blank",
+  "prompt": "Complete: \"Um copo de _____, por favor.\" (A glass of water, please.)",
+  "answer": "água",
+  "hints": ["What you drink when thirsty"]
+}

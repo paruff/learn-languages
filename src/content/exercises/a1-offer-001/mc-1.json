@@ -1,0 +1,9 @@
+{
+  "id": "pt-PT-a1-offer-001-mc-001",
+  "lessonId": "A1-OFFER-001",
+  "type": "multiple-choice",
+  "prompt": "How do you say 'Shall we...?' in Portuguese?",
+  "answer": "Vamos...?",
+  "options": ["Quer...?", "Gostaria de...?", "Vamos...?", "Pode...?"],
+  "hints": ["Suggests doing something together"]
+}

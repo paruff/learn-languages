@@ -1,0 +1,9 @@
+{
+  "id": "pt-PT-a1-feel-001-mc-001",
+  "lessonId": "A1-FEEL-001",
+  "type": "multiple-choice",
+  "prompt": "How do you say \"I'm hungry\" in Portuguese?",
+  "answer": "Tenho fome",
+  "options": ["Estou feliz", "Estou triste", "Estou cansado", "Tenho fome"],
+  "hints": ["Uses \"ter\" (to have), not \"estar\""]
+}

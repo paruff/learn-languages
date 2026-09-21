@@ -1,0 +1,9 @@
+{
+  "id": "pt-PT-a1-shop-001-mc-001",
+  "lessonId": "A1-SHOP-001",
+  "type": "multiple-choice",
+  "prompt": "How do you say 'price' in Portuguese?",
+  "answer": "preço",
+  "options": ["loja", "dinheiro", "preço", "caixa"],
+  "hints": ["What a price tag shows"]
+}
