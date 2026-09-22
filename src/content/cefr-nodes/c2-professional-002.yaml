@@ -1,0 +1,13 @@
+nodeId: C2-PROFESSIONAL-002
+cefrLevel: C2
+skill: spoken_interaction
+canDo: 'Can express him/herself fluently, spontaneously and precisely, with near-native command of vocabulary and syntax, using language flexibly for social, academic and professional purposes'
+pragmaticFocus: 'Advanced professional spoken interaction with near-native command'
+notionalFocus: 'Native-like vocabulary, flexible language use, multi-purpose communication'
+relatedNodes:
+  - C1-SOCIAL-001
+  - C1-SOCIAL-002
+  - C1-PROFESSIONAL-001
+prerequisiteNodes:
+  - C1-SOCIAL-001
+  - C1-PROFESSIONAL-001

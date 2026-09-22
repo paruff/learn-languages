@@ -1,0 +1,13 @@
+nodeId: C2-MODALITY-001
+cefrLevel: C2
+skill: spoken_interaction
+canDo: 'Can express him/herself spontaneously, very fluently and precisely, differentiating finer shades of meaning even in the most complex situations'
+pragmaticFocus: 'Advanced spoken interaction with near-native precision'
+notionalFocus: 'Complex abstract topics, nuanced expression, register flexibility'
+relatedNodes:
+  - C1-SOCIAL-001
+  - C1-SOCIAL-002
+  - C1-NUANCED-001
+prerequisiteNodes:
+  - C1-SOCIAL-001
+  - C1-NUANCED-001

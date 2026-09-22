@@ -1,0 +1,13 @@
+nodeId: C2-MODALITY-005
+cefrLevel: C2
+skill: writing
+canDo: 'Can write clear, smoothly-flowing text in an appropriate style on a complex subject, writing an introduction, developing and supporting a central point, and producing a fitting conclusion'
+pragmaticFocus: 'Advanced written production with structured composition'
+notionalFocus: 'Complex written texts, introductions, conclusions, register'
+relatedNodes:
+  - C1-WRITTEN-001
+  - C1-WRITTEN-003
+  - C1-ACADEMIC-001
+prerequisiteNodes:
+  - C1-WRITTEN-001
+  - C1-WRITTEN-003

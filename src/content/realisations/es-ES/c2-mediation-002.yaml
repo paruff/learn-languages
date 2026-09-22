@@ -1,0 +1,54 @@
+nodeId: C2-MEDIATION-002
+lang: es-ES
+vocabulary:
+  - id: es-ES-C2-MEDIATION-002-001
+    term: 'textos abstractos'
+    translation: 'abstract texts'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Puedo leer textos abstractos con total comprensión.'
+    exampleTranslation: 'I can read abstract texts with full comprehension.'
+  - id: es-ES-C2-MEDIATION-002-002
+    term: 'textos técnicamente complejos'
+    translation: 'technically complex texts'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Entiendo textos técnicamente complejos sin dificultad.'
+    exampleTranslation: 'I understand technically complex texts without difficulty.'
+  - id: es-ES-C2-MEDIATION-002-003
+    term: 'textos lingüísticamente complejos'
+    translation: 'linguistically complex texts'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Puedo comprender textos lingüísticamente exigentes.'
+    exampleTranslation: 'I can comprehend linguistically demanding texts.'
+  - id: es-ES-C2-MEDIATION-002-004
+    term: 'textos literarios'
+    translation: 'literary texts'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Entiendo textos literarios en toda su complejidad.'
+    exampleTranslation: 'I understand literary texts in all their complexity.'
+  - id: es-ES-C2-MEDIATION-002-005
+    term: 'estilo y significado implícito'
+    translation: 'style and implicit meaning'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Puedo apreciar el estilo y el significado implícito.'
+    exampleTranslation: 'I can appreciate style and implicit meaning.'
+  - id: es-ES-C2-MEDIATION-002-006
+    term: 'matiz lingüístico'
+    translation: 'linguistic nuance'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Reconozco matices lingüísticos en textos complejos.'
+    exampleTranslation: 'I recognise linguistic nuances in complex texts.'
+grammar:
+  - id: es-ES-C2-MEDIATION-002-G1
+    point: 'Participial clauses for advanced reading comprehension'
+    explanation: "Use participial clauses for advanced reading comprehension: 'Habiendo leído el texto completo, puedo apreciar sus capas de significado' (Having read the text in full, I can appreciate its layers of meaning)."
+    examples:
+      - 'Habiendo analizado la obra, reconozco las alusiones culturales.'
+      - 'Habiendo examinado el texto, puedo interpretar su significado implícito.'
+    cefrNotes: 'C2 learners use participial clauses for sophisticated reading comprehension'
+culturalNotes: 'Understanding all forms of written language at C2 level, including abstract, technically and linguistically complex texts, demonstrates the highest level of reading comprehension with appreciation of style and implicit meaning.'

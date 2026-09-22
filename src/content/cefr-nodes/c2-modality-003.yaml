@@ -1,0 +1,12 @@
+nodeId: C2-MODALITY-003
+cefrLevel: C2
+skill: listening
+canDo: 'Can understand any kind of spoken language, whether live or broadcast, even when delivered at fast native speed, provided they have some time to get familiar with the accent'
+pragmaticFocus: 'Advanced listening comprehension at native speed'
+notionalFocus: 'Native-speed speech, varied accents, live and broadcast media'
+relatedNodes:
+  - C1-SPOKEN-004
+  - C1-SPOKEN-005
+prerequisiteNodes:
+  - C1-SPOKEN-004
+  - C1-SPOKEN-005

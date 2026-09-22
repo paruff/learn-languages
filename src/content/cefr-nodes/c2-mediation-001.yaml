@@ -1,0 +1,13 @@
+nodeId: C2-MEDIATION-001
+cefrLevel: C2
+skill: spoken_interaction
+canDo: 'Can act as an effective intermediary between native speakers, simplifying the message appropriately and intervening skilfully to resolve misunderstandings or disagreements'
+pragmaticFocus: 'Advanced mediation with conflict resolution'
+notionalFocus: 'Message simplification, misunderstanding resolution, intervention skills'
+relatedNodes:
+  - C1-MEDIATION-001
+  - C1-NUANCED-001
+  - C1-SOCIAL-001
+prerequisiteNodes:
+  - C1-MEDIATION-001
+  - C1-NUANCED-001

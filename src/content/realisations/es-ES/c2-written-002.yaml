@@ -1,0 +1,53 @@
+nodeId: C2-WRITTEN-002
+lang: es-ES
+vocabulary:
+  - id: es-ES-C2-WRITTEN-002-001
+    term: 'estilo elegante'
+    translation: 'elegant style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Escribo con un estilo elegante y preciso.'
+    exampleTranslation: 'I write with an elegant and precise style.'
+  - id: es-ES-C2-WRITTEN-002-002
+    term: 'efecto en el lector'
+    translation: 'effect on the reader'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Busco producir un efecto específico en el lector.'
+    exampleTranslation: 'I seek to produce a specific effect on the reader.'
+  - id: es-ES-C2-WRITTEN-002-003
+    term: 'registro apropiado'
+    translation: 'appropriate register'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Selecciono el registro apropiado según el contexto.'
+    exampleTranslation: 'I select the appropriate register according to the context.'
+  - id: es-ES-C2-WRITTEN-002-004
+    term: 'adaptar el estilo'
+    translation: 'to adapt the style'
+    partOfSpeech: phrase
+    example: 'Sé adaptar el estilo al texto y a la audiencia.'
+    exampleTranslation: 'I know how to adapt the style to the text and audience.'
+  - id: es-ES-C2-WRITTEN-002-005
+    term: 'precisión sutil'
+    translation: 'subtle precision'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Mi escritura tiene una precisión sutil que enriquece el texto.'
+    exampleTranslation: 'My writing has a subtle precision that enriches the text.'
+  - id: es-ES-C2-WRITTEN-002-006
+    term: 'estilo adaptado'
+    translation: 'adapted style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Utilizo un estilo adaptado a las necesidades del lector.'
+    exampleTranslation: "I use an adapted style according to the reader's needs."
+grammar:
+  - id: es-ES-C2-WRITTEN-002-G1
+    point: 'Subjunctive in evaluative relative clauses for style precision'
+    explanation: "Use subjunctive in evaluative relative clauses for style precision: 'Busco un estilo que refleje la sutileza del pensamiento' (I seek a style that reflects the subtlety of thought)."
+    examples:
+      - 'Elijo un estilo que evoque la atmósfera deseada.'
+      - 'Busco una expresión que transmita exactamente la emoción.'
+    cefrNotes: 'C2 learners use subjunctive in evaluative relative clauses for near-native style precision'
+culturalNotes: 'Writing with precision and subtlety at C2 level demonstrates the ability to convey intended effects on the reader, using appropriate register and adapting style to text and audience with near-native command.'

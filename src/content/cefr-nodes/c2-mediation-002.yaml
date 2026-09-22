@@ -1,0 +1,13 @@
+nodeId: C2-MEDIATION-002
+cefrLevel: C2
+skill: reading
+canDo: 'Can understand all forms of written language including abstract, technically or linguistically complex factual and literary texts, grasping finer points of style and implicit meaning'
+pragmaticFocus: 'Advanced comprehension of complex written texts'
+notionalFocus: 'Abstract texts, technical language, style appreciation, implicit meaning'
+relatedNodes:
+  - C1-TEXT-001
+  - C1-TEXT-002
+  - C1-LITERARY-001
+prerequisiteNodes:
+  - C1-TEXT-001
+  - C1-TEXT-002

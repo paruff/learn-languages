@@ -1,0 +1,52 @@
+nodeId: C2-MODALITY-002
+lang: es-ES
+vocabulary:
+  - id: es-ES-C2-MODALITY-002-001
+    term: 'exposición clara'
+    translation: 'clear exposition'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Presento una exposición clara y bien estructurada.'
+    exampleTranslation: 'I present a clear and well-structured exposition.'
+  - id: es-ES-C2-MODALITY-002-002
+    term: 'argumento bien fundamentado'
+    translation: 'well-founded argument'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Mi argumento está bien fundamentado en evidencia.'
+    exampleTranslation: 'My argument is well-founded in evidence.'
+  - id: es-ES-C2-MODALITY-002-003
+    term: 'estilo apropiado'
+    translation: 'appropriate style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Adapto mi estilo según el contexto y la audiencia.'
+    exampleTranslation: 'I adapt my style according to the context and audience.'
+  - id: es-ES-C2-MODALITY-002-004
+    term: 'aspectos significativos'
+    translation: 'significant aspects'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Destaco los aspectos significativos de forma efectiva.'
+    exampleTranslation: 'I highlight significant aspects effectively.'
+  - id: es-ES-C2-MODALITY-002-005
+    term: 'matizar'
+    translation: 'to nuance'
+    partOfSpeech: verb
+    example: 'Sé matizar mis ideas con precisión nativa.'
+    exampleTranslation: 'I know how to nuance my ideas with native precision.'
+  - id: es-ES-C2-MODALITY-002-006
+    term: 'exponer con soltura'
+    translation: 'to present with ease'
+    partOfSpeech: phrase
+    example: 'Expongo con soltura ante cualquier audiencia.'
+    exampleTranslation: 'I present with ease before any audience.'
+grammar:
+  - id: es-ES-C2-MODALITY-002-G1
+    point: 'Advanced discourse connectors for structured argumentation'
+    explanation: "Use advanced discourse connectors: 'no obstante' (nevertheless), 'en todo caso' (in any case), 'en lo que respecta a' (regarding), 'a tenor de' (in light of)."
+    examples:
+      - 'No obstante, cabe señalar que la evidencia es inconsistente.'
+      - 'En todo caso, el análisis revela una tendencia clara.'
+    cefrNotes: 'C2 learners use advanced discourse connectors for structured spoken argumentation'
+culturalNotes: 'Presenting clear, smoothly-flowing descriptions and arguments at C2 level demonstrates near-native command of spoken production, with appropriate use of register and emphasis.'

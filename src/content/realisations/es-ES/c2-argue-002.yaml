@@ -1,0 +1,54 @@
+nodeId: C2-ARGUE-002
+lang: es-ES
+vocabulary:
+  - id: es-ES-C2-ARGUE-002-001
+    term: 'registro formal'
+    translation: 'formal register'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Participo activamente en discusiones en todos los registros.'
+    exampleTranslation: 'I actively participate in discussions in all registers.'
+  - id: es-ES-C2-ARGUE-002-002
+    term: 'cadena de razonamiento'
+    translation: 'chain of reasoning'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Construyo cadenas de razonamiento de forma efectiva.'
+    exampleTranslation: 'I construct chains of reasoning effectively.'
+  - id: es-ES-C2-ARGUE-002-003
+    term: 'opiniones propias y ajenas'
+    translation: "one's own and others' views"
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Puedo desarrollar y dirigir tanto mis opiniones como las ajenas.'
+    exampleTranslation: "I can develop and steer both my own and others' views."
+  - id: es-ES-C2-ARGUE-002-004
+    term: 'discusión avanzada'
+    translation: 'advanced discussion'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Puedo mantener discusiones avanzadas sobre temas complejos.'
+    exampleTranslation: 'I can maintain advanced discussions on complex topics.'
+  - id: es-ES-C2-ARGUE-002-005
+    term: 'intervención efectiva'
+    translation: 'effective intervention'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Mi intervención en la discusión es siempre efectiva.'
+    exampleTranslation: 'My intervention in the discussion is always effective.'
+  - id: es-ES-C2-ARGUE-002-006
+    term: 'construcción argumentativa'
+    translation: 'argumentative construction'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La construcción argumentativa es rigurosa y convincente.'
+    exampleTranslation: 'The argumentative construction is rigorous and convincing.'
+grammar:
+  - id: es-ES-C2-ARGUE-002-G1
+    point: 'Advanced reported speech with subjunctive in multi-register discussion'
+    explanation: "Use advanced reported speech: 'El moderador señaló que fuéramos más precisos' (The moderator pointed out that we be more precise)."
+    examples:
+      - 'El panelista sugirió que reconsideráramos la postura.'
+      - 'La audiencia pidió que profundizáramos en el tema.'
+    cefrNotes: 'C2 learners use advanced reported speech with subjunctive in multi-register discussion'
+culturalNotes: 'Taking an active part in discussion in all registers at C2 level demonstrates the ability to construct chains of reasoning, steer viewpoints, and adapt language flexibly for social, academic and professional purposes.'

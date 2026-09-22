@@ -1,0 +1,13 @@
+nodeId: C2-ACADEMIC-001
+cefrLevel: C2
+skill: writing
+canDo: 'Can express him/herself clearly and fluently on complex subjects, presenting a well-structured, coherent and convincing text with effective use of a wide range of language'
+pragmaticFocus: 'Advanced academic writing with fluent, structured argumentation'
+notionalFocus: 'Complex subjects, coherent structure, effective language repertoire'
+relatedNodes:
+  - C1-ACADEMIC-001
+  - C1-ACADEMIC-002
+  - C1-ARGUE-004
+prerequisiteNodes:
+  - C1-ACADEMIC-001
+  - C1-ACADEMIC-002

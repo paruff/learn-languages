@@ -1,0 +1,54 @@
+nodeId: C2-PROFESSIONAL-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-C2-PROFESSIONAL-001-001
+    term: 'resumen ejecutivo'
+    translation: 'executive summary'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Escribí un resumen ejecutivo claro y bien estructurado.'
+    exampleTranslation: 'I wrote a clear and well-structured executive summary.'
+  - id: es-ES-C2-PROFESSIONAL-001-002
+    term: 'material factual'
+    translation: 'factual material'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Puedo seleccionar los puntos clave de material factual complejo.'
+    exampleTranslation: 'I can select key points from complex factual material.'
+  - id: es-ES-C2-PROFESSIONAL-001-003
+    term: 'puntos esenciales'
+    translation: 'essential points'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Presento los puntos esenciales de forma clara y concisa.'
+    exampleTranslation: 'I present the essential points clearly and concisely.'
+  - id: es-ES-C2-PROFESSIONAL-001-004
+    term: 'formato adecuado'
+    translation: 'appropriate format'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Selecciono el formato adecuado según el destinatario.'
+    exampleTranslation: 'I select the appropriate format according to the recipient.'
+  - id: es-ES-C2-PROFESSIONAL-001-005
+    term: 'estilo profesional'
+    translation: 'professional style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Mi estilo profesional es claro y efectivo.'
+    exampleTranslation: 'My professional style is clear and effective.'
+  - id: es-ES-C2-PROFESSIONAL-001-006
+    term: 'selección de información'
+    translation: 'information selection'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La selección de información es rigurosa y pertinente.'
+    exampleTranslation: 'The information selection is rigorous and pertinent.'
+grammar:
+  - id: es-ES-C2-PROFESSIONAL-001-G1
+    point: 'Participial clauses for concise professional writing'
+    explanation: "Use participial clauses for concise professional writing: 'Habiendo revisado todos los informes, presento el siguiente resumen' (Having reviewed all reports, I present the following summary)."
+    examples:
+      - 'Habiendo analizado los datos, selecciono los puntos esenciales.'
+      - 'Habiendo considerado todas las perspectivas, redacto el resumen.'
+    cefrNotes: 'C2 learners use participial clauses for concise, effective professional writing'
+culturalNotes: 'Writing excellent summaries of complex factual material at C2 level requires the ability to select key points, present them clearly, and use appropriate format and style for the intended audience.'

@@ -1,0 +1,54 @@
+nodeId: C2-SOCIAL-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-C2-SOCIAL-001-001
+    term: 'fluidez nativa'
+    translation: 'native fluency'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Hablo con fluidez nativa en la mayoría de situaciones.'
+    exampleTranslation: 'I speak with native fluency in most situations.'
+  - id: es-ES-C2-SOCIAL-001-002
+    term: 'espontaneidad'
+    translation: 'spontaneity'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Mi espontaneidad en la conversación es total.'
+    exampleTranslation: 'My spontaneity in conversation is complete.'
+  - id: es-ES-C2-SOCIAL-001-003
+    term: 'precisión nativa'
+    translation: 'native precision'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Expreso mis ideas con precisión nativa.'
+    exampleTranslation: 'I express my ideas with native precision.'
+  - id: es-ES-C2-SOCIAL-001-004
+    term: 'comunicación efectiva'
+    translation: 'effective communication'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Mi comunicación con nativos es siempre efectiva.'
+    exampleTranslation: 'My communication with native speakers is always effective.'
+  - id: es-ES-C2-SOCIAL-001-005
+    term: 'dominio del idioma'
+    translation: 'language mastery'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Mi dominio del idioma me permite comunicarme con confianza.'
+    exampleTranslation: 'My language mastery allows me to communicate with confidence.'
+  - id: es-ES-C2-SOCIAL-001-006
+    term: 'confianza comunicativa'
+    translation: 'communicative confidence'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Tengo confianza comunicativa en cualquier contexto.'
+    exampleTranslation: 'I have communicative confidence in any context.'
+grammar:
+  - id: es-ES-C2-SOCIAL-001-G1
+    point: 'Subjunctive in hypothetical clauses for native-level interaction'
+    explanation: "Use subjunctive in hypothetical clauses: 'Si pudiera encontrar una expresión mejor, la utilizaría' (If I could find a better expression, I would use it)."
+    examples:
+      - 'Puedo expresarme con fluidez nativa incluso en temas muy específicos.'
+      - 'Mi dominio del idioma me permite comunicarme con precisión nativa.'
+    cefrNotes: 'C2 learners use hypothetical clauses to demonstrate native-level interaction'
+culturalNotes: 'Interacting with native speakers with near-native fluency, spontaneity and precision at C2 level demonstrates the highest level of communicative competence, enabling effective communication in all contexts.'

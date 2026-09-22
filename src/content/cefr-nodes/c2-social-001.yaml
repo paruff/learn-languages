@@ -1,0 +1,13 @@
+nodeId: C2-SOCIAL-001
+cefrLevel: C2
+skill: spoken_interaction
+canDo: 'Can interact with native speakers with a degree of fluency, spontaneity, confidence and precision that enables effective communication, making clear his/her position in complex discussions'
+pragmaticFocus: 'Advanced social interaction with native speakers'
+notionalFocus: 'Native-speaker interaction, complex discussions, positional clarity'
+relatedNodes:
+  - C1-SOCIAL-001
+  - C1-SOCIAL-002
+  - C2-MODALITY-001
+prerequisiteNodes:
+  - C1-SOCIAL-001
+  - C1-SOCIAL-002

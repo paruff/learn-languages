@@ -1,0 +1,13 @@
+nodeId: C2-MODALITY-004
+cefrLevel: C2
+skill: reading
+canDo: 'Can understand with ease virtually everything heard or read, summarising information from different spoken and written sources, reconstructing arguments and accounts in a coherent presentation'
+pragmaticFocus: 'Advanced reading comprehension and synthesis'
+notionalFocus: 'Complex texts, information synthesis, argument reconstruction'
+relatedNodes:
+  - C1-TEXT-001
+  - C1-TEXT-004
+  - C1-ACADEMIC-001
+prerequisiteNodes:
+  - C1-TEXT-001
+  - C1-TEXT-004

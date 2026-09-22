@@ -1,0 +1,13 @@
+nodeId: C2-ARGUE-001
+cefrLevel: C2
+skill: writing
+canDo: 'Can select an appropriate formulation from a broad range of language to express him/herself clearly and with precision, differentiating finer shades of meaning'
+pragmaticFocus: 'Advanced written expression with precision and nuance'
+notionalFocus: 'Language selection, register precision, nuanced written expression'
+relatedNodes:
+  - C1-ARGUE-003
+  - C1-ARGUE-004
+  - C1-WRITTEN-001
+prerequisiteNodes:
+  - C1-ARGUE-003
+  - C1-ARGUE-004

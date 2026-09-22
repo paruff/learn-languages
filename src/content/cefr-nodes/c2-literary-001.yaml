@@ -1,0 +1,13 @@
+nodeId: C2-LITERARY-001
+cefrLevel: C2
+skill: reading
+canDo: 'Can read and appreciate a wide variety of complex literary texts and non-fiction, including contemporary prose, poetry, song lyrics, and opinion pieces'
+pragmaticFocus: 'Advanced literary appreciation across genres'
+notionalFocus: 'Contemporary literature, poetry, song lyrics, opinion pieces'
+relatedNodes:
+  - C1-LITERARY-001
+  - C1-TEXT-003
+  - C1-TEXT-001
+prerequisiteNodes:
+  - C1-LITERARY-001
+  - C1-TEXT-003

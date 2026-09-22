@@ -1,0 +1,13 @@
+nodeId: C2-WRITTEN-002
+cefrLevel: C2
+skill: writing
+canDo: 'Can write with precision and subtlety, conveying an intended effect on the reader, using appropriate register and style, and adapting his/her style to the text and audience'
+pragmaticFocus: 'Advanced written precision with reader-oriented style control'
+notionalFocus: 'Precision writing, reader effect, register adaptation, style control'
+relatedNodes:
+  - C1-WRITTEN-002
+  - C1-WRITTEN-001
+  - C2-LITERARY-002
+prerequisiteNodes:
+  - C1-WRITTEN-002
+  - C1-WRITTEN-001

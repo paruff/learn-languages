@@ -1,0 +1,54 @@
+nodeId: C2-MODALITY-005
+lang: es-ES
+vocabulary:
+  - id: es-ES-C2-MODALITY-005-001
+    term: 'estilo fluido'
+    translation: 'flowing style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Escribo con un estilo fluido y natural.'
+    exampleTranslation: 'I write with a flowing and natural style.'
+  - id: es-ES-C2-MODALITY-005-002
+    term: 'estilo apropiado'
+    translation: 'appropriate style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Adapto mi estilo según el tipo de texto.'
+    exampleTranslation: 'I adapt my style according to the type of text.'
+  - id: es-ES-C2-MODALITY-005-003
+    term: 'asunto complejo'
+    translation: 'complex subject'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Puedo escribir sobre asuntos complejos con claridad.'
+    exampleTranslation: 'I can write about complex subjects clearly.'
+  - id: es-ES-C2-MODALITY-005-004
+    term: 'introducción'
+    translation: 'introduction'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Escribo introducciones que captan la atención del lector.'
+    exampleTranslation: "I write introductions that capture the reader's attention."
+  - id: es-ES-C2-MODALITY-005-005
+    term: 'conclusión adecuada'
+    translation: 'fitting conclusion'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Cierro con una conclusión adecuada y bien fundamentada.'
+    exampleTranslation: 'I close with a fitting and well-founded conclusion.'
+  - id: es-ES-C2-MODALITY-005-006
+    term: 'desarrollo de ideas'
+    translation: 'development of ideas'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El desarrollo de ideas es claro y convincente.'
+    exampleTranslation: 'The development of ideas is clear and convincing.'
+grammar:
+  - id: es-ES-C2-MODALITY-005-G1
+    point: 'Advanced passive constructions for formal writing'
+    explanation: "Use advanced passive constructions: 'Se ha señalado que' (It has been pointed out that), 'No se puede ignorar que' (It cannot be ignored that)."
+    examples:
+      - 'Se ha demostrado que el método es eficaz.'
+      - 'No se puede pasar por alto la importancia del contexto.'
+    cefrNotes: 'C2 learners use advanced passive constructions for formal written expression'
+culturalNotes: 'Writing clear, smoothly-flowing text at C2 level demonstrates the highest level of written production, with mastery of style, register, and audience-appropriate communication.'
