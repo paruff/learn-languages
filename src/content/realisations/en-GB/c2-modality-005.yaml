@@ -1,0 +1,54 @@
+nodeId: C2-MODALITY-005
+lang: en-GB
+vocabulary:
+  - id: en-GB-C2-MODALITY-005-001
+    term: 'smooth-flowing text'
+    translation: 'texto fluente'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'I write smooth-flowing, well-structured texts on complex subjects.'
+    exampleTranslation: 'Escrevo textos fluentes e bem estruturados sobre temas complexos.'
+  - id: en-GB-C2-MODALITY-005-002
+    term: 'engaging introduction'
+    translation: 'introdução cativante'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'I always start with an engaging and relevant introduction.'
+    exampleTranslation: 'Começo sempre com uma introdução cativante e pertinente.'
+  - id: en-GB-C2-MODALITY-005-003
+    term: 'development of the subject'
+    translation: 'desenvolvimento do tema'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'The development of the subject is logical and well-founded.'
+    exampleTranslation: 'O desenvolvimento do tema é lógico e bem fundamentado.'
+  - id: en-GB-C2-MODALITY-005-004
+    term: 'central point'
+    translation: 'ponto central'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'I defend the central point with solid arguments.'
+    exampleTranslation: 'Defendo o ponto central com argumentos sólidos.'
+  - id: en-GB-C2-MODALITY-005-005
+    term: 'fitting conclusion'
+    translation: 'conclusão adequada'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'I finish with a fitting and convincing conclusion.'
+    exampleTranslation: 'Termino com uma conclusão adequada e convincente.'
+  - id: en-GB-C2-MODALITY-005-006
+    term: 'appropriate style'
+    translation: 'estilo apropriado'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'I always use a style appropriate to the subject and reader.'
+    exampleTranslation: 'Utilizo sempre um estilo apropriado ao tema e ao leitor.'
+grammar:
+  - id: C2-GRAMMAR-005
+    point: 'Advanced sentence structures for formal written argumentation'
+    explanation: "Use complex sentence structures with subordination for formal argumentation: 'Although the subject is vast, I always seek to synthesise the argumentation into a smooth-flowing, coherent text' (Apesar de o tema ser vasto, procuro sempre sintetizar a argumentação num texto fluente e coerente)."
+    examples:
+      - 'Although the subject is complex, I can write with clarity and fluency.'
+      - 'Despite the difficulty of the topic, the text is always well-structured.'
+    cefrNotes: 'C2 writers use advanced subordination to produce clear, well-structured texts on complex subjects'
+culturalNotes: 'Writing clear, smoothly-flowing texts in English at C2 level requires mastery of introduction-development-conclusion structure, with appropriate style and effective use of a wide range of language.'

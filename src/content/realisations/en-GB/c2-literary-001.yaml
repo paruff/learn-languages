@@ -1,0 +1,54 @@
+nodeId: C2-LITERARY-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-C2-LITERARY-001-001
+    term: 'complex literary texts'
+    translation: 'textos literários complexos'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'I read complex literary texts with full comprehension.'
+    exampleTranslation: 'Leio textos literários complexos com total compreensão.'
+  - id: en-GB-C2-LITERARY-001-002
+    term: 'contemporary literature'
+    translation: 'literatura contemporânea'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'I master contemporary literature in all its forms.'
+    exampleTranslation: 'Domino a literatura contemporânea em todas as suas formas.'
+  - id: en-GB-C2-LITERARY-001-003
+    term: 'poetry and song lyrics'
+    translation: 'poesia e música'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'I appreciate poetry and song lyrics with aesthetic discernment.'
+    exampleTranslation: 'Aprecio poesia e música com discernimento estético.'
+  - id: en-GB-C2-LITERARY-001-004
+    term: 'opinion pieces'
+    translation: 'textos de opinião'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'I understand opinion pieces with full lucidity.'
+    exampleTranslation: 'Entendo textos de opinião com total lucidez.'
+  - id: en-GB-C2-LITERARY-001-005
+    term: 'aesthetic discernment'
+    translation: 'discernimento estético'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'I have aesthetic discernment in multiple literary genres.'
+    exampleTranslation: 'Tenho discernimento estético em vários géneros literários.'
+  - id: en-GB-C2-LITERARY-001-006
+    term: 'literary appreciation'
+    translation: 'apreciação literária'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'My literary appreciation spans various styles and periods.'
+    exampleTranslation: 'A minha apreciação literária abrange vários estilos e épocas.'
+grammar:
+  - id: C2-GRAMMAR-012
+    point: 'Advanced evaluative relative clauses for literary appreciation'
+    explanation: "Use evaluative relative clauses: 'I appreciate works that challenge literary conventions' (Aprecio obras que desafiam as convenções literárias)."
+    examples:
+      - 'I read texts that capture subtle nuances of the human condition.'
+      - 'I appreciate poetry that reveals a unique sensibility.'
+    cefrNotes: 'C2 readers use evaluative relative clauses to express sophisticated literary appreciation'
+culturalNotes: 'At C2 level, English readers can appreciate a wide variety of complex literary texts, including contemporary prose, poetry, song lyrics, and opinion pieces, with full aesthetic discernment.'

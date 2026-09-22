@@ -1,0 +1,54 @@
+nodeId: C2-PROFESSIONAL-002
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C2-PROFESSIONAL-002-001
+    term: 'fluidez espontânea'
+    translation: 'spontaneous fluency'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Falo com fluidez espontânea em qualquer contexto.'
+    exampleTranslation: 'I speak with spontaneous fluency in any context.'
+  - id: pt-PT-C2-PROFESSIONAL-002-002
+    term: 'vocabulário nativo'
+    translation: 'native vocabulary'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'O meu vocabulário é vasto e natural como o de um nativo.'
+    exampleTranslation: 'My vocabulary is vast and natural like that of a native speaker.'
+  - id: pt-PT-C2-PROFESSIONAL-002-003
+    term: 'precisão total'
+    translation: 'total precision'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Atinjo sempre a precisão total nas minhas表达ões.'
+    exampleTranslation: 'I always achieve total precision in my expressions.'
+  - id: pt-PT-C2-PROFESSIONAL-002-004
+    term: 'flexibilidade comunicativa'
+    translation: 'communicative flexibility'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Tenho flexibilidade comunicativa em registos diversos.'
+    exampleTranslation: 'I have communicative flexibility in diverse registers.'
+  - id: pt-PT-C2-PROFESSIONAL-002-005
+    term: 'uso natural da língua'
+    translation: 'natural use of language'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'O meu uso da língua é sempre natural e adequado.'
+    exampleTranslation: 'My use of language is always natural and appropriate.'
+  - id: pt-PT-C2-PROFESSIONAL-002-006
+    term: 'confiança comunicativa'
+    translation: 'communicative confidence'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Tenho confiança comunicativa em qualquer situação.'
+    exampleTranslation: 'I have communicative confidence in any situation.'
+grammar:
+  - id: C2-GRAMMAR-011
+    point: 'Advanced subjunctive in purpose clauses for flexible communication'
+    explanation: "Use subjunctive in purpose clauses for flexible communication: 'Falo com fluidez para que a comunicação seja sempre efectiva' (I speak with fluency so that communication is always effective)."
+    examples:
+      - 'Utilizo o vocabulário adequado para que a mensagem seja clara.'
+      - 'Adapto o registo para que a comunicação seja sempre eficaz.'
+    cefrNotes: 'C2 speakers use purpose clauses with subjunctive to demonstrate flexible, native-like communication'
+culturalNotes: 'At C2 level, Portuguese speakers can express themselves fluently, spontaneously and precisely, with near-native command of vocabulary and syntax, using language flexibly for social, academic and professional purposes.'

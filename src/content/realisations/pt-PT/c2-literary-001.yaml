@@ -1,0 +1,54 @@
+nodeId: C2-LITERARY-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C2-LITERARY-001-001
+    term: 'textos literários complexos'
+    translation: 'complex literary texts'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Leio textos literários complexos com.total compreensão.'
+    exampleTranslation: 'I read complex literary texts with full comprehension.'
+  - id: pt-PT-C2-LITERARY-001-002
+    term: 'literatura contemporânea'
+    translation: 'contemporary literature'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Domino a literatura contemporânea portuguesa e brasileira.'
+    exampleTranslation: 'I master contemporary Portuguese and Brazilian literature.'
+  - id: pt-PT-C2-LITERARY-001-003
+    term: 'poesia e música'
+    translation: 'poetry and song lyrics'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Aprecio poesia e música com discernimento estético.'
+    exampleTranslation: 'I appreciate poetry and song lyrics with aesthetic discernment.'
+  - id: pt-PT-C2-LITERARY-001-004
+    term: 'textos de opinião'
+    translation: 'opinion pieces'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Entendo textos de opinião com total lucidez.'
+    exampleTranslation: 'I understand opinion pieces with full lucidity.'
+  - id: pt-PT-C2-LITERARY-001-005
+    term: 'discernimento estético'
+    translation: 'aesthetic discernment'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Tenho discernimento estético em多种 géneros literários.'
+    exampleTranslation: 'I have aesthetic discernment in multiple literary genres.'
+  - id: pt-PT-C2-LITERARY-001-006
+    term: 'apreciação literária'
+    translation: 'literary appreciation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'A minha apreciação literária abrange various estilos e épocas.'
+    exampleTranslation: 'My literary appreciation spans various styles and periods.'
+grammar:
+  - id: C2-GRAMMAR-012
+    point: 'Advanced subjunctive in evaluative relative clauses for literary appreciation'
+    explanation: "Use subjunctive in evaluative relative clauses: 'Aprecio obras que desafiam as convenções literárias' (I appreciate works that challenge literary conventions)."
+    examples:
+      - 'Leio textos que captam nuances subtis da condition humana.'
+      - 'Aprecio poesia que revela uma sensibilidade única.'
+    cefrNotes: 'C2 readers use evaluative subjunctive to express sophisticated literary appreciation'
+culturalNotes: 'At C2 level, Portuguese readers can appreciate a wide variety of complex literary texts, including contemporary prose, poetry, song lyrics, and opinion pieces, with full aesthetic discernment.'

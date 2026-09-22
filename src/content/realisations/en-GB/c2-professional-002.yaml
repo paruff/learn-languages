@@ -1,0 +1,54 @@
+nodeId: C2-PROFESSIONAL-002
+lang: en-GB
+vocabulary:
+  - id: en-GB-C2-PROFESSIONAL-002-001
+    term: 'spontaneous fluency'
+    translation: 'fluidez espontânea'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'I speak with spontaneous fluency in any context.'
+    exampleTranslation: 'Falo com fluidez espontânea em qualquer contexto.'
+  - id: en-GB-C2-PROFESSIONAL-002-002
+    term: 'native vocabulary'
+    translation: 'vocabulário nativo'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'My vocabulary is vast and natural like that of a native speaker.'
+    exampleTranslation: 'O meu vocabulário é vasto e natural como o de um nativo.'
+  - id: en-GB-C2-PROFESSIONAL-002-003
+    term: 'total precision'
+    translation: 'precisão total'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'I always achieve total precision in my expressions.'
+    exampleTranslation: 'Atinjo sempre a precisão total nas minhas expressões.'
+  - id: en-GB-C2-PROFESSIONAL-002-004
+    term: 'communicative flexibility'
+    translation: 'flexibilidade comunicativa'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'I have communicative flexibility in diverse registers.'
+    exampleTranslation: 'Tenho flexibilidade comunicativa em registos diversos.'
+  - id: en-GB-C2-PROFESSIONAL-002-005
+    term: 'natural use of language'
+    translation: 'uso natural da língua'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'My use of language is always natural and appropriate.'
+    exampleTranslation: 'O meu uso da língua é sempre natural e adequado.'
+  - id: en-GB-C2-PROFESSIONAL-002-006
+    term: 'communicative confidence'
+    translation: 'confiança comunicativa'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'I have communicative confidence in any situation.'
+    exampleTranslation: 'Tenho confiança comunicativa em qualquer situação.'
+grammar:
+  - id: C2-GRAMMAR-011
+    point: 'Advanced purpose clauses for flexible communication'
+    explanation: "Use purpose clauses for flexible communication: 'I speak with fluency so that communication is always effective' (Falo com fluidez para que a comunicação seja sempre efectiva)."
+    examples:
+      - 'I use the appropriate vocabulary so that the message is clear.'
+      - 'I adapt the register so that communication is always effective.'
+    cefrNotes: 'C2 speakers use purpose clauses to demonstrate flexible, native-like communication'
+culturalNotes: 'At C2 level, English speakers can express themselves fluently, spontaneously and precisely, with near-native command of vocabulary and syntax, using language flexibly for social, academic and professional purposes.'

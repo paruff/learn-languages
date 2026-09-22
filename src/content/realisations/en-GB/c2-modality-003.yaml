@@ -1,0 +1,54 @@
+nodeId: C2-MODALITY-003
+lang: en-GB
+vocabulary:
+  - id: en-GB-C2-MODALITY-003-001
+    term: 'rapid auditory comprehension'
+    translation: 'rápida compreensão auditiva'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'I have rapid auditory comprehension in any register.'
+    exampleTranslation: 'Tenho uma rápida compreensão auditiva em qualquer registo.'
+  - id: en-GB-C2-MODALITY-003-002
+    term: 'fast native speech'
+    translation: 'fala nativa rápida'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'I can follow fast native speech without difficulty.'
+    exampleTranslation: 'Consigo acompanhar a fala nativa rápida sem dificuldade.'
+  - id: en-GB-C2-MODALITY-003-003
+    term: 'varied accents'
+    translation: 'sotaques variados'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'I understand varied accents without issue.'
+    exampleTranslation: 'Entendo sotaques variados sem problema.'
+  - id: en-GB-C2-MODALITY-003-004
+    term: 'any kind of spoken language'
+    translation: 'qualquer tipo de discurso'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'I understand any kind of spoken language, live or recorded.'
+    exampleTranslation: 'Compreendo qualquer tipo de discurso, ao vivo ou gravado.'
+  - id: en-GB-C2-MODALITY-003-005
+    term: 'quick adaptation'
+    translation: 'rápida adaptação'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'I quickly adapt to any accent or style.'
+    exampleTranslation: 'Adapto-me rapidamente a qualquer sotaque ou estilo.'
+  - id: en-GB-C2-MODALITY-003-006
+    term: 'complete understanding'
+    translation: 'compreensão total'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'I have complete understanding of spoken discourse, even fast.'
+    exampleTranslation: 'Tenho compreensão total do discurso oral, mesmo veloz.'
+grammar:
+  - id: C2-GRAMMAR-003
+    point: 'Advanced conditional for hypothetical listening scenarios'
+    explanation: "Use conditional for hypothetical scenarios in listening: 'Even if they spoke quickly, I would understand everything' (Mesmo que falassem rapidamente, eu compreenderia tudo)."
+    examples:
+      - 'Even if the speaker is fast, I can follow the reasoning.'
+      - 'With different accents, I understand perfectly.'
+    cefrNotes: 'C2 listeners use hypothetical constructions to express their capacity with any spoken language'
+culturalNotes: 'Understanding any kind of spoken English at fast native speed, including varied accents and registers, demonstrates the highest level of listening comprehension.'

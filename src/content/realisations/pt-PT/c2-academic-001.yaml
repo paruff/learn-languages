@@ -1,0 +1,54 @@
+nodeId: C2-ACADEMIC-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C2-ACADEMIC-001-001
+    term: 'escrita académica avançada'
+    translation: 'advanced academic writing'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Domino a escrita académica avançada em português.'
+    exampleTranslation: 'I master advanced academic writing in Portuguese.'
+  - id: pt-PT-C2-ACADEMIC-001-002
+    term: 'texto coerente e convincente'
+    translation: 'coherent and convincing text'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Produzo textos coerentes e convincentes sobre temas complexos.'
+    exampleTranslation: 'I produce coherent and convincing texts on complex subjects.'
+  - id: pt-PT-C2-ACADEMIC-001-003
+    term: 'estrutura clara'
+    translation: 'clear structure'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Os meus textos têm sempre uma estrutura clara e lógica.'
+    exampleTranslation: 'My texts always have a clear and logical structure.'
+  - id: pt-PT-C2-ACADEMIC-001-004
+    term: 'repertório linguístico amplo'
+    translation: 'wide range of language'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Utilizo um repertório linguístico amplo e variado.'
+    exampleTranslation: 'I use a wide and varied range of language.'
+  - id: pt-PT-C2-ACADEMIC-001-005
+    term: 'argumentação sólida'
+    translation: 'solid argumentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'A minha argumentação é sempre sólida e bem fundamentada.'
+    exampleTranslation: 'My argumentation is always solid and well-founded.'
+  - id: pt-PT-C2-ACADEMIC-001-006
+    term: 'estilo académico'
+    translation: 'academic style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Mantenho sempre um estilo académico rigoroso e claro.'
+    exampleTranslation: 'I always maintain a rigorous and clear academic style.'
+grammar:
+  - id: C2-GRAMMAR-014
+    point: 'Advanced passive impersonal constructions for academic prose'
+    explanation: "Use advanced impersonal constructions for academic prose: 'Demonstra-se que os resultados são consistentes com a hipótese' (It is demonstrated that the results are consistent with the hypothesis)."
+    examples:
+      - 'Sublinha-se que a análise revela padrões significativos.'
+      - 'Não se pode ignorar que a evidência é robusta.'
+    cefrNotes: 'C2 academic writers use advanced impersonal constructions for sophisticated argumentation'
+culturalNotes: 'At C2 level, Portuguese academic writers can express themselves clearly and fluently on complex subjects, presenting well-structured, coherent and convincing texts with effective use of a wide range of language.'

@@ -1,0 +1,54 @@
+nodeId: C2-PROFESSIONAL-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C2-PROFESSIONAL-001-001
+    term: 'resumo estruturado'
+    translation: 'structured summary'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Elaboro um resumo estruturado de materiais complexos.'
+    exampleTranslation: 'I produce a structured summary of complex material.'
+  - id: pt-PT-C2-PROFESSIONAL-001-002
+    term: 'pontos-chave'
+    translation: 'key points'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Seleciono os pontos-chave com eficácia e clareza.'
+    exampleTranslation: 'I select key points with effectiveness and clarity.'
+  - id: pt-PT-C2-PROFESSIONAL-001-003
+    term: 'formato adequado'
+    translation: 'appropriate format'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Utilizo sempre o formato adequado para cada tipo de documento.'
+    exampleTranslation: 'I always use the appropriate format for each type of document.'
+  - id: pt-PT-C2-PROFESSIONAL-001-004
+    term: 'estilo profissional'
+    translation: 'professional style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Mantenho sempre um estilo profissional e credível.'
+    exampleTranslation: 'I always maintain a professional and credible style.'
+  - id: pt-PT-C2-PROFESSIONAL-001-005
+    term: 'materiais factual complexos'
+    translation: 'complex factual material'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Consigo resumir materiais factual complexos com precisão.'
+    exampleTranslation: 'I can summarise complex factual material with precision.'
+  - id: pt-PT-C2-PROFESSIONAL-001-006
+    term: 'apresentação clara'
+    translation: 'clear presentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Apresento sempre os resultados de forma clara e organizada.'
+    exampleTranslation: 'I always present results in a clear and organised way.'
+grammar:
+  - id: C2-GRAMMAR-010
+    point: 'Advanced participial and gerundive constructions for professional writing'
+    explanation: "Use participial and gerundive constructions for concise professional writing: 'Tendo analisado os dados, selecionei os pontos essenciais' (Having analysed the data, I selected the essential points)."
+    examples:
+      - 'Elaborando o resumo, focalizo apenas nos aspectos determinantes.'
+      - 'Depois de examinar os relatórios, sintetizo as conclusões principais.'
+    cefrNotes: 'C2 writers use participial and gerundive constructions for concise, professional summaries'
+culturalNotes: 'At C2 level, Portuguese speakers can write excellent, well-structured summaries of complex factual material, selecting the most important points and presenting them clearly in appropriate format and style.'

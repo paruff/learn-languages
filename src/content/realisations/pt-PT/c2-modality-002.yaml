@@ -1,0 +1,54 @@
+nodeId: C2-MODALITY-002
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C2-MODALITY-002-001
+    term: 'descrição fluida'
+    translation: 'smooth-flowing description'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Apresento uma descrição fluida e estruturada de qualquer assunto.'
+    exampleTranslation: 'I present a smooth-flowing and structured description of any subject.'
+  - id: pt-PT-C2-MODALITY-002-002
+    term: 'estilo adequado'
+    translation: 'appropriate style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Adapto o estilo adequado ao contexto e à audiência.'
+    exampleTranslation: 'I adapt the appropriate style to the context and audience.'
+  - id: pt-PT-C2-MODALITY-002-003
+    term: 'tema complexo'
+    translation: 'complex subject'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Desenvolvo temas complexos com clareza e coerência.'
+    exampleTranslation: 'I develop complex subjects with clarity and coherence.'
+  - id: pt-PT-C2-MODALITY-002-004
+    term: 'pontos-chave'
+    translation: 'key points'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Dou a devida importância a todos os pontos-chave.'
+    exampleTranslation: 'I give due importance to all key points.'
+  - id: pt-PT-C2-MODALITY-002-005
+    term: 'argumento estruturado'
+    translation: 'structured argument'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'O meu argumento é claro, fluido e bem estruturado.'
+    exampleTranslation: 'My argument is clear, smooth-flowing and well-structured.'
+  - id: pt-PT-C2-MODALITY-002-006
+    term: 'conclusão adequada'
+    translation: 'appropriate conclusion'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Termino sempre com uma conclusão adequada e satisfatória.'
+    exampleTranslation: 'I always finish with an appropriate and satisfying conclusion.'
+grammar:
+  - id: C2-GRAMMAR-002
+    point: 'Advanced passive constructions for formal descriptions'
+    explanation: "Use formal passive-like constructions with 'se' for polished descriptions: 'Apresenta-se uma análise detalhada dos factos' (A detailed analysis of the facts is presented)."
+    examples:
+      - 'Elabora-se uma argumentação fluida e bem fundamentada.'
+      - 'Desenvolve-se o tema com clareza e precisão.'
+    cefrNotes: 'C2 speakers use impersonal passive-like constructions for formal, polished presentations'
+culturalNotes: 'Presenting clear, smoothly-flowing descriptions on complex subjects at C2 level demonstrates near-native command of Portuguese, with due prominence given to each significant point.'

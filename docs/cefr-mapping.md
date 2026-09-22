@@ -202,6 +202,57 @@ A1M1 Identificação e Caracterização Pessoal · A1M2 Vida Quotidiana · A1M3 
 | A2M11  | News & texts                      | ✅ A2-NEWS-001/002/003                      |
 | A2M12  | Citizenship & cultural diversity  | ✅ A2-CULT-001/002/003                      |
 
+## pt-PT realisation totals
+
+| Level | Vocabulary items | Grammar points | Files |
+| ----- | ---------------- | -------------- | ----- |
+| A1    | 102              | 17             | 17    |
+| A2    | 102              | 12             | 17    |
+| B1    | 102              | 12             | 17    |
+| B2    | 102              | 12             | 17    |
+| C1    | 150              | 25             | 25    |
+| C2    | 120              | 20             | 20    |
+| **Total** | **678**      | **98**         | **113** |
+
+## C2 nodes in the repo (EN→PT)
+
+All 20 C2 `cefr-nodes/` are language-agnostic Can-Do statements sourced from the CEFR C2 descriptors (Council of Europe). CEFR Can-Do statements describe communicative ability, not any one language, so this epic created paired en-GB/pt-PT realisations.
+
+| nodeId            | Skill              | Can-Do                                                                               | Status      |
+| ----------------- | ------------------ | ------------------------------------------------------------------------------------ | ----------- |
+| C2-MODALITY-001   | spoken_interaction | Can express spontaneously, fluently and precisely, differentiating finer shades       | ✅ Realised |
+| C2-MODALITY-002   | spoken_production  | Can present a clear, smoothly-flowing accurate description or argument               | ✅ Realised |
+| C2-MODALITY-003   | listening          | Can understand any kind of spoken language at fast native speed                       | ✅ Realised |
+| C2-MODALITY-004   | reading            | Can understand virtually everything heard or read, summarising from different sources  | ✅ Realised |
+| C2-MODALITY-005   | writing            | Can write clear, smoothly-flowing text on a complex subject with appropriate style    | ✅ Realised |
+| C2-SUMMARY-001    | writing            | Can summarise concisely information from extended spoken and written sources          | ✅ Realised |
+| C2-ARGUE-001      | writing            | Can select appropriate formulation from a broad range of language                     | ✅ Realised |
+| C2-ARGUE-002      | spoken_interaction | Can take active part in discussion in all registers, constructing chains of reasoning | ✅ Realised |
+| C2-NUANCE-001     | spoken_interaction | Can express clearly and precisely, differentiating finer shades of meaning            | ✅ Realised |
+| C2-PROFESSIONAL-001| writing           | Can write excellent, well-structured summaries of complex factual material            | ✅ Realised |
+| C2-PROFESSIONAL-002| spoken_interaction| Can express fluently with near-native command of vocabulary and syntax                 | ✅ Realised |
+| C2-LITERARY-001   | reading            | Can read and appreciate complex literary texts, poetry, song lyrics, opinion pieces   | ✅ Realised |
+| C2-LITERARY-002   | writing            | Can write with precision and subtlety, adapting style to text and audience            | ✅ Realised |
+| C2-ACADEMIC-001   | writing            | Can write clearly and fluently on complex subjects with coherent, convincing text     | ✅ Realised |
+| C2-ACADEMIC-002   | spoken_production  | Can present clear, detailed and accurate descriptions of complex subjects             | ✅ Realised |
+| C2-MEDIATION-001  | spoken_interaction | Can act as effective intermediary, simplifying messages and resolving disagreements   | ✅ Realised |
+| C2-MEDIATION-002  | reading            | Can understand all forms of written language including abstract and complex texts     | ✅ Realised |
+| C2-SOCIAL-001     | spoken_interaction | Can interact with native speakers with fluency, spontaneity and precision             | ✅ Realised |
+| C2-WRITTEN-001    | writing            | Can write clear, detailed texts developing arguments and hypotheses                   | ✅ Realised |
+| C2-WRITTEN-002    | writing            | Can write with precision and subtlety, conveying intended effect on the reader        | ✅ Realised |
+
+C2 Coverage: 20/20 nodes fully realised (100%).
+
+### C2 skill distribution
+
+| Skill              | Count | Nodes                                                        |
+| ------------------ | ----- | ------------------------------------------------------------ |
+| spoken_interaction | 6     | MODALITY-001/003, ARGUE-002, NUANCE-001, PROFESSIONAL-002, MEDIATION-001, SOCIAL-001 |
+| spoken_production  | 2     | MODALITY-002, ACADEMIC-002                                    |
+| writing            | 8     | MODALITY-005, SUMMARY-001, ARGUE-001, PROFESSIONAL-001, LITERARY-002, ACADEMIC-001, WRITTEN-001/002 |
+| reading            | 3     | MODALITY-004, LITERARY-001, MEDIATION-002                     |
+| listening          | 1     | MODALITY-003                                                  |
+
 ## Process for adding a node
 
 1. Identify the Can-Do statement in Referencial Camões.

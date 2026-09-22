@@ -1,0 +1,54 @@
+nodeId: C2-LITERARY-002
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C2-LITERARY-002-001
+    term: 'estilo elegante'
+    translation: 'elegant style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Escrevo com um estilo elegante e preciso.'
+    exampleTranslation: 'I write with an elegant and precise style.'
+  - id: pt-PT-C2-LITERARY-002-002
+    term: 'efeito pretendido'
+    translation: 'intended effect'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Consigno sempre o efeito pretendido no leitor.'
+    exampleTranslation: 'I always achieve the intended effect on the reader.'
+  - id: pt-PT-C2-LITERARY-002-003
+    term: 'registo adequado'
+    translation: 'appropriate register'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Selecione sempre o registo adequado ao texto.'
+    exampleTranslation: 'I always select the appropriate register for the text.'
+  - id: pt-PT-C2-LITERARY-002-004
+    term: 'estilo adaptado'
+    translation: 'adapted style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Adapto o estilo ao género literário e ao público.'
+    exampleTranslation: 'I adapt the style to the literary genre and audience.'
+  - id: pt-PT-C2-LITERARY-002-005
+    term: 'precisão e subtileza'
+    translation: 'precision and subtlety'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'A minha escrita tem precisão e subtileza incomparáveis.'
+    exampleTranslation: 'My writing has incomparable precision and subtlety.'
+  - id: pt-PT-C2-LITERARY-002-006
+    term: 'expressão culta'
+    translation: 'cultured expression'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Utilizo uma expressão culta e bem fundamentada.'
+    exampleTranslation: 'I use a cultured and well-founded expression.'
+grammar:
+  - id: C2-GRAMMAR-013
+    point: 'Advanced subjunctive in purpose clauses for stylistic precision'
+    explanation: "Use subjunctive in purpose clauses for stylistic precision: 'Escrevo de forma a que o leitor sinta a emoção pretendida' (I write in such a way that the reader feels the intended emotion)."
+    examples:
+      - 'Elaboro o texto para que atinja o efeito estilístico desejado.'
+      - 'Escolho as palavras de modo a que a mensagem seja penetrante.'
+    cefrNotes: 'C2 writers use purpose clauses with subjunctive to achieve stylistic precision'
+culturalNotes: 'At C2 level, Portuguese writers can write with precision and subtlety, conveying intended effects on the reader using appropriate register and adapting style to text and audience.'

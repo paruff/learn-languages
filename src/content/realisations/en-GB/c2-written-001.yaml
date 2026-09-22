@@ -1,0 +1,54 @@
+nodeId: C2-WRITTEN-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-C2-WRITTEN-001-001
+    term: 'detailed and well-structured text'
+    translation: 'texto detalhado e bem estruturado'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'I write detailed and well-structured texts.'
+    exampleTranslation: 'Escrevo textos detalhados e bem estruturados.'
+  - id: en-GB-C2-WRITTEN-001-002
+    term: 'development of arguments'
+    translation: 'desenvolvimento de argumentos'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'I develop arguments in a solid and convincing way.'
+    exampleTranslation: 'Desenvolvo argumentos de forma sólida e convincente.'
+  - id: en-GB-C2-WRITTEN-001-003
+    term: 'well-founded hypotheses'
+    translation: 'hipóteses fundamentadas'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'I present well-founded hypotheses based on evidence.'
+    exampleTranslation: 'Apresento hipóteses fundamentadas em evidências.'
+  - id: en-GB-C2-WRITTEN-001-004
+    term: 'appropriate format'
+    translation: 'formato adequado'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'I always use the appropriate format for the text type.'
+    exampleTranslation: 'Utilizo sempre o formato adequado ao género textual.'
+  - id: en-GB-C2-WRITTEN-001-005
+    term: 'chain of reasoning'
+    translation: 'encadeamento argumentativo'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'I construct a solid and coherent chain of reasoning.'
+    exampleTranslation: 'Construo um encadeamento argumentativo sólido e coerente.'
+  - id: en-GB-C2-WRITTEN-001-006
+    term: 'appropriate style'
+    translation: 'estilo adequado'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'I always select the appropriate style for the context.'
+    exampleTranslation: 'Seleciono sempre o estilo adequado ao contexto.'
+grammar:
+  - id: C2-GRAMMAR-019
+    point: 'Advanced impersonal constructions for formal written argumentation'
+    explanation: "Use advanced impersonal constructions for formal written argumentation: 'It is empirically demonstrated that the method is effective' (Demonstra-se empiricamente que o método é eficaz)."
+    examples:
+      - 'It cannot be denied that the evidence is robust.'
+      - 'A solid and convincing argumentation is presented.'
+    cefrNotes: 'C2 writers use advanced impersonal constructions for sophisticated written argumentation'
+culturalNotes: 'At C2 level, English writers can write clear, detailed and well-structured texts, developing and supporting arguments and hypotheses with appropriate format and style.'

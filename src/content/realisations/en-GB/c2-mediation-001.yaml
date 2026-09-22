@@ -1,0 +1,54 @@
+nodeId: C2-MEDIATION-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-C2-MEDIATION-001-001
+    term: 'effective mediation'
+    translation: 'intermediação eficaz'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'I act as an effective intermediary between native speakers.'
+    exampleTranslation: 'Actuo como intermediário eficaz entre interlocutores nativos.'
+  - id: en-GB-C2-MEDIATION-001-002
+    term: 'simplify the message'
+    translation: 'simplificar a mensagem'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'I know how to simplify the message without losing meaning.'
+    exampleTranslation: 'Sei simplificar a mensagem sem perder o sentido.'
+  - id: en-GB-C2-MEDIATION-001-003
+    term: 'resolve misunderstandings'
+    translation: 'resolver mal-entendidos'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'I can resolve misunderstandings skilfully.'
+    exampleTranslation: 'Consigo resolver mal-entendidos de forma hábil.'
+  - id: en-GB-C2-MEDIATION-001-004
+    term: 'skilful intervention'
+    translation: 'intervenção hábil'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'My skilful intervention facilitates communication.'
+    exampleTranslation: 'A minha intervenção hábil facilita a comunicação.'
+  - id: en-GB-C2-MEDIATION-001-005
+    term: 'complex disagreements'
+    translation: 'desacordos complexos'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'I mediate complex disagreements between speakers.'
+    exampleTranslation: 'Mediaço desacordos complexos entre interlocutores.'
+  - id: en-GB-C2-MEDIATION-001-006
+    term: 'effective communication'
+    translation: 'comunicação efectiva'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'I always promote effective communication between parties.'
+    exampleTranslation: 'Promovo sempre uma comunicação efectiva entre as partes.'
+grammar:
+  - id: C2-GRAMMAR-016
+    point: 'Advanced purpose and result clauses for mediation language'
+    explanation: "Use purpose + result clauses for mediation: 'I simplify the message so that everyone understands, resulting in effective communication' (Simplifico a mensagem de forma a que todos compreendam, resultando numa comunicação eficaz)."
+    examples:
+      - 'I intervene so that the parties reach an agreement.'
+      - 'I reformulate the question so that there are no misunderstandings.'
+    cefrNotes: 'C2 mediators use purpose-result clause chains to facilitate effective communication'
+culturalNotes: 'At C2 level, English speakers can act as effective intermediaries between native speakers, simplifying messages appropriately and intervening skilfully to resolve misunderstandings or disagreements.'

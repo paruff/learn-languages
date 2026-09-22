@@ -1,0 +1,54 @@
+nodeId: C2-ARGUE-002
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C2-ARGUE-002-001
+    term: 'participação activa'
+    translation: 'active participation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Participo activamente em qualquer tipo de discussão.'
+    exampleTranslation: 'I actively participate in any type of discussion.'
+  - id: pt-PT-C2-ARGUE-002-002
+    term: 'todos os registos'
+    translation: 'all registers'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Domino a discussão em todos os registos, do informal ao académico.'
+    exampleTranslation: 'I master discussion in all registers, from informal to academic.'
+  - id: pt-PT-C2-ARGUE-002-003
+    term: 'desenvolver pontos de vista'
+    translation: 'develop points of view'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Sei desenvolver pontos de vista próprios e alheios.'
+    exampleTranslation: "I know how to develop my own and others' points of view."
+  - id: pt-PT-C2-ARGUE-002-004
+    term: 'encadeamento argumentativo'
+    translation: 'chain of reasoning'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Construo um encadeamento argumentativo sólido e convincente.'
+    exampleTranslation: 'I construct a solid and convincing chain of reasoning.'
+  - id: pt-PT-C2-ARGUE-002-005
+    term: 'discussão avançada'
+    translation: 'advanced discussion'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Nas discussões avançadas, mantenho a clareza e a precisão.'
+    exampleTranslation: 'In advanced discussions, I maintain clarity and precision.'
+  - id: pt-PT-C2-ARGUE-002-006
+    term: 'raciocínio bem fundamentado'
+    translation: 'well-founded reasoning'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'O meu raciocínio é sempre bem fundamentado e coerente.'
+    exampleTranslation: 'My reasoning is always well-founded and coherent.'
+grammar:
+  - id: C2-GRAMMAR-008
+    point: 'Advanced conditional constructions for hypothetical argumentation'
+    explanation: "Use advanced conditional constructions for hypothetical argumentation: 'Caso alguém apresente um contra-argumento, sei rebatê-lo com eficácia' (Should someone present a counter-argument, I know how to refute it effectively)."
+    examples:
+      - 'Se me fosse pedido, desenvolveria a tese de forma exaustiva.'
+      - 'Caso surgissem dúvidas, esclarecê-lia-ias com precisão.'
+    cefrNotes: 'C2 speakers use advanced conditional constructions to navigate hypothetical argumentation'
+culturalNotes: "At C2 level, Portuguese speakers can participate actively in discussions in all registers, constructing chains of reasoned argument and developing both their own and others' points of view."
