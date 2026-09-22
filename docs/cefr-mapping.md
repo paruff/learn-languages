@@ -1,6 +1,6 @@
-# CEFR Mapping — A1/A2/B1/B2/C1 Inventory
+# CEFR Mapping — A1–C2 Inventory
 
-Tracks the CEFR A1/A2/B1/B2/C1 Can-Do statement inventory against `cefr-nodes` and `realisations` content, per `specification-design.md` §5.3 (CEFR Mapping Process) and issues #5, #50, #51, #52, #53, #54.
+Tracks the CEFR A1–C2 Can-Do statement inventory against `cefr-nodes` and `realisations` content, per `specification-design.md` §5.3 (CEFR Mapping Process) and issues #5, #50, #51, #52, #53, #54, #55.
 
 **Source:** [Referencial Camões PLE](https://www.instituto-camoes.pt/images/REFERENCIAL_ebook.pdf) (Direção de Serviços de Língua e Cultura, Camões — Instituto da Cooperação e da Língua, I.P., 1st ed., September 2017, ISBN 978-989-8751-10-2). Freely downloadable — no access blocker, corrected from an earlier version of this doc that assumed otherwise. One real limitation remains: the printed/PDF edition explicitly states it presents only an _illustrative excerpt_ of each inventory ("optou-se por apresentar apenas uma parte de cada um dos inventários, a título ilustrativo", p.10) — the complete inventories live behind a searchable web interface at the [Centro Virtual Camões](https://www.instituto-camoes.pt/activity/centro-virtual/referencial-camoes-ple) that isn't fetchable from here. So this doc now reflects the real category _structure_ (authoritative) plus everything the PDF excerpt actually shows, not a claim of 100% vocabulary completeness.
 
@@ -34,8 +34,8 @@ Tracks the CEFR A1/A2/B1/B2/C1 Can-Do statement inventory against `cefr-nodes` a
 | A1-FEEL-001    | listening          | Can understand and express basic emotions                                 | ✅ Realised |
 | A1-CLARIFY-001 | spoken_interaction | Can ask someone to repeat or clarify                                      | ✅ Realised |
 | A1-BODY-001    | reading            | Can identify basic body parts and simple health vocabulary                | ✅ Realised |
-| A1-FAMILY-001  | spoken_production  | Can identify immediate family members and basic physical appearance terms | ✅ Realised |
-| A1-HOBBY-001   | spoken_production  | Can identify common hobbies and free-time activities                      | ✅ Realised |
+| A1-FAMILY-001  | reading            | Can identify immediate family members and basic physical appearance terms | ✅ Realised |
+| A1-HOBBY-001   | reading            | Can identify common hobbies and free-time activities                      | ✅ Realised |
 | A1-ROUTINE-001 | reading            | Can identify common daily-life objects and rooms in a home                | ✅ Realised |
 | A1-SHOP-001    | reading            | Can identify basic shopping and money vocabulary                          | ✅ Realised |
 | A1-FORM-001    | writing            | Can fill in a simple form with basic personal details                     | ✅ Realised |
@@ -159,16 +159,18 @@ C1 Coverage: 25/25 nodes fully realised (100%).
 
 > **Note on C1 skill distribution:** Authoring rebalanced the original spec's planned distribution (2 listening, 6 reading, 3 spoken_interaction, 5 spoken_production, 7 writing — see `docs/superpowers/specs/2026-09-21-c1-content-design.md` §Node Inventory, which slated much of the SPOKEN group as listening). Two listening nodes (C1-SPOKEN-004/005) were added in a follow-up to restore listening coverage at C1.
 
-## Skill distribution (A1 + A2 + B1 + B2 + C1 combined)
+## Skill distribution (A1–C2 combined)
 
-| Skill              | A1     | A2     | B1     | B2     | C1     | Total   |
-| ------------------ | ------ | ------ | ------ | ------ | ------ | ------- |
-| listening          | 1      | 4      | 0      | 3      | 2      | 10      |
-| reading            | 6      | 4      | 3      | 4      | 5      | 22      |
-| spoken_interaction | 9      | 4      | 4      | 4      | 5      | 26      |
-| spoken_production  | 6      | 6      | 4      | 3      | 7      | 26      |
-| writing            | 1      | 2      | 5      | 4      | 6      | 18      |
-| **Total**          | **23** | **20** | **18** | **18** | **25** | **104** |
+Recomputed directly from `grep skill: src/content/cefr-nodes/*.yaml` rather than hand-copied, after finding two per-level errors this way (A1-FAMILY-001/A1-HOBBY-001 mislabeled `spoken_production` instead of `reading`; B1's row undercounted `spoken_interaction`/`spoken_production` by one each). This table previously stopped at C1 even though C2 content has existed (and been 100% realised) since #61 — the C1-only combined view was simply never updated when C2 landed; C2 always had its own disconnected subsection below instead.
+
+| Skill              | A1     | A2     | B1     | B2     | C1     | C2     | Total   |
+| ------------------ | ------ | ------ | ------ | ------ | ------ | ------ | ------- |
+| listening          | 1      | 3      | 0      | 3      | 2      | 1      | 10      |
+| reading            | 8      | 4      | 3      | 4      | 5      | 3      | 27      |
+| spoken_interaction | 9      | 3      | 5      | 4      | 5      | 6      | 32      |
+| spoken_production  | 4      | 9      | 5      | 3      | 7      | 2      | 30      |
+| writing            | 1      | 1      | 5      | 4      | 6      | 8      | 25      |
+| **Total**          | **23** | **20** | **18** | **18** | **25** | **20** | **124** |
 
 ## Referencial Camões's real function category structure (Componente Pragmática, Part II)
 
