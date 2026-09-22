@@ -1,0 +1,53 @@
+nodeId: C2-ARGUE-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-C2-ARGUE-001-001
+    term: 'Argumentation'
+    translation: 'argumentation'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Argumentation war systematisch und überzeugend.'
+    exampleTranslation: 'The argumentation was systematic and convincing.'
+  - id: de-DE-C2-ARGUE-001-002
+    term: 'strategisch'
+    translation: 'strategic'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Er setzt strategische Argumente ein.'
+    exampleTranslation: 'He uses strategic arguments.'
+  - id: de-DE-C2-ARGUE-001-003
+    term: 'Sophistikation'
+    translation: 'sophistication'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Sophistikation seiner Argumente ist beeindruckend.'
+    exampleTranslation: 'The sophistication of his arguments is impressive.'
+  - id: de-DE-C2-ARGUE-001-004
+    term: 'Konstruktion'
+    translation: 'construction'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Konstruktion von Argumenten erfordert Übung.'
+    exampleTranslation: 'The construction of arguments requires practice.'
+  - id: de-DE-C2-ARGUE-001-005
+    term: 'einschätzen'
+    translation: 'to assess / to evaluate'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Sie kann die Situation sehr gut einschätzen.'
+    exampleTranslation: 'She can assess the situation very well.'
+  - id: de-DE-C2-ARGUE-001-006
+    term: 'überzeugend'
+    translation: 'convincing'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Das war ein sehr überzeugendes Argument.'
+    exampleTranslation: 'That was a very convincing argument.'
+grammar:
+  - id: C2-ARGUE-001-GR01
+    point: 'Constructing sophisticated arguments with rhetorical mastery'
+    explanation: 'At C2, construct arguments by: layering evidence with sophistication (Nicht nur..., sondern auch...), using concessive structures (Zwar gibt es..., dennoch...), deploying rhetorical questions (Ist es nicht vielmehr so, dass...?), and using ironic or satirical elements to enhance persuasion.'
+    examples:
+      - 'Zwar gibt es Gegenargumente, dennoch überwiegen die Fakten bei weitem.'
+      - 'Ist es nicht vielmehr so, dass die antagonistische Position ignoriert, was die Forschung eindeutig zeigt?'
+culturalNotes: 'German academic argumentation at C2 level expects "Rhetorik" (rhetoric) combined with "Sachlichkeit" (objectivity); emotional appeals are less valued than logical evidence, but sophisticated rhetorical devices are appreciated.'

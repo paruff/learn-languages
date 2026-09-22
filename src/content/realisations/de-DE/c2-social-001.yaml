@@ -1,0 +1,47 @@
+nodeId: C2-SOCIAL-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-C2-SOCIAL-001-001
+    term: 'Flüssigkeit'
+    translation: 'fluency'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Seine Flüssigkeit in Deutsch ist beeindruckend.'
+    exampleTranslation: 'His fluency in German is impressive.'
+  - id: de-DE-C2-SOCIAL-001-002
+    term: 'Spontanität'
+    translation: 'spontaneity'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Spontanität ist in Gesprächen wichtig.'
+    exampleTranslation: 'Spontaneity is important in conversations.'
+  - id: de-DE-C2-SOCIAL-001-003
+    term: 'themenbezogen'
+    translation: 'topic-related'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Wir sprechen über themenbezogene Themen.'
+    exampleTranslation: 'We speak about topic-related topics.'
+  - id: de-DE-C2-SOCIAL-001-004
+    term: 'fließend'
+    translation: 'fluent'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Er spricht fließend Deutsch.'
+    exampleTranslation: 'He speaks fluent German.'
+  - id: de-DE-C2-SOCIAL-001-005
+    term: 'sich unterhalten'
+    translation: 'to converse'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Wir haben uns gut unterhalten.'
+    exampleTranslation: 'We had a good conversation.'
+  - id: de-DE-C2-SOCIAL-001-006
+    term: 'Themenwechsel'
+    translation: 'change of topic'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ein Themenwechsel wäre jetzt gut.'
+    exampleTranslation: 'A change of topic would be good now.'
+grammar: []
+culturalNotes: 'Germans appreciate "flüssiges Gespräch" (fluid conversation) at C2 level; the ability to switch between formal and informal registers with precision is expected.'

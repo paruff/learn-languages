@@ -1,0 +1,53 @@
+nodeId: C2-PROFESSIONAL-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-C2-PROFESSIONAL-001-001
+    term: 'Betrieb'
+    translation: 'company / operation'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Betrieb ist sehr groß.'
+    exampleTranslation: 'The company is very large.'
+  - id: de-DE-C2-PROFESSIONAL-001-002
+    term: 'Unternehmen'
+    translation: 'company / enterprise'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Das Unternehmen investiert in Innovation.'
+    exampleTranslation: 'The company invests in innovation.'
+  - id: de-DE-C2-PROFESSIONAL-001-003
+    term: 'Präsentation'
+    translation: 'presentation'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Präsentation war professionell.'
+    exampleTranslation: 'The presentation was professional.'
+  - id: de-DE-C2-PROFESSIONAL-001-004
+    term: 'Fachpublikum'
+    translation: 'specialist audience'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Die Präsentation war für ein Fachpublikum.'
+    exampleTranslation: 'The presentation was for a specialist audience.'
+  - id: de-DE-C2-PROFESSIONAL-001-005
+    term: 'beruflich'
+    translation: 'professional'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Die berufliche Entwicklung ist wichtig.'
+    exampleTranslation: 'Professional development is important.'
+  - id: de-DE-C2-PROFESSIONAL-001-006
+    term: 'Zusammenfassung'
+    translation: 'summary'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Zusammenfassung war klar und prägnant.'
+    exampleTranslation: 'The summary was clear and concise.'
+grammar:
+  - id: C2-PROFESSIONAL-001-GR01
+    point: 'Making formal presentations with rhetorical mastery'
+    explanation: 'At C2, make formal presentations by: structuring content with sophisticated logic, using specialist terminology with precision, engaging the audience with rhetorical devices, and handling questions with diplomacy and expertise.'
+    examples:
+      - 'Im Folgenden werde ich die Ergebnisse der Studie vorstellen, wobei ich besonderen Wert auf die methodischen Aspekte legen werde.'
+      - 'Wie Sie in Abbildung 1 sehen können, zeigt der Trend eine deutliche Zunahme, wobei die kausalen Zusammenhänge noch weiterer Forschung bedürfen.'
+culturalNotes: 'German professional presentations at C2 level expect "Fachkompetenz" (specialist competence), "Struktur" (clear structure), and "Rhetorik" (rhetorical skill); rambling or digressions are considered unprofessional.'

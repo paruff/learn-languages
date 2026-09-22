@@ -1,0 +1,53 @@
+nodeId: C2-MODALITY-001
+lang: en-DE
+vocabulary:
+  - id: en-DE-C2-MODALITY-001-001
+    term: 'subjunctive II'
+    translation: 'Konjunktiv II'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Konjunktiv II wird für hypothetische Aussagen verwendet.'
+    exampleTranslation: 'The subjunctive II is used for hypothetical statements.'
+  - id: en-DE-C2-MODALITY-001-002
+    term: 'hypothetical'
+    translation: 'hypothisch'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Das ist eine hypothetische Aussage.'
+    exampleTranslation: 'That is a hypothetical statement.'
+  - id: en-DE-C2-MODALITY-001-003
+    term: 'wish form'
+    translation: 'Wunschform'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Wunschform wird oft verwendet.'
+    exampleTranslation: 'The wish form is often used.'
+  - id: en-DE-C2-MODALITY-001-004
+    term: 'unreal / counterfactual'
+    translation: 'irreal'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Das ist eine irrealistische Vorstellung.'
+    exampleTranslation: 'That is an unrealistic idea.'
+  - id: en-DE-C2-MODALITY-001-005
+    term: 'past'
+    translation: 'Vergangenheit'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Vergangenheit ist unveränderlich.'
+    exampleTranslation: 'The past is unchangeable.'
+  - id: en-DE-C2-MODALITY-001-006
+    term: 'to condition / to require'
+    translation: 'bedingen'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Die Situation bedingt eine Änderung.'
+    exampleTranslation: 'The situation requires a change.'
+grammar:
+  - id: C2-MODALITY-001-GR01
+    point: 'Using advanced subjunctive and hypothetical structures'
+    explanation: 'At C2, use advanced modal structures by: employing Konjunktiv II for counterfactuals (Wenn ich reich wäre, würde ich...), expressing wishes (Hätte ich doch...), and using past hypotheticals (Wenn ich das gewusst hätte, hätte ich...).'
+    examples:
+      - 'Wenn ich reich wäre, würde ich um die Welt reisen.'
+      - 'Hätte ich doch früher angefangen!'
+culturalNotes: 'German Konjunktiv II at C2 level is used for politeness, hypotheticals, and counterfactuals; mastering this mood is essential for sophisticated expression.'

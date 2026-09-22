@@ -1,0 +1,53 @@
+nodeId: C2-LITERARY-001
+lang: en-DE
+vocabulary:
+  - id: en-DE-C2-LITERARY-001-001
+    term: 'period / time span'
+    translation: 'Zeitspanne'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Zeitspanne war lang genug für die Recherche.'
+    exampleTranslation: 'The time span was long enough for the research.'
+  - id: en-DE-C2-LITERARY-001-002
+    term: 'completed / concluded'
+    translation: 'abgeschlossen'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Die Arbeit war pünktlich abgeschlossen.'
+    exampleTranslation: 'The work was completed on time.'
+  - id: en-DE-C2-LITERARY-001-003
+    term: 'research'
+    translation: 'Recherche'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Recherche war gründlich.'
+    exampleTranslation: 'The research was thorough.'
+  - id: en-DE-C2-LITERARY-001-004
+    term: 'to compose / to write'
+    translation: 'verfassen'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Sie verfasst einen Bericht über die Ergebnisse.'
+    exampleTranslation: 'She is composing a report on the results.'
+  - id: en-DE-C2-LITERARY-001-005
+    term: 'poem'
+    translation: 'Gedicht'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Das Gedicht war sehr schön.'
+    exampleTranslation: 'The poem was very beautiful.'
+  - id: en-DE-C2-LITERARY-001-006
+    term: 'thematic area'
+    translation: 'Themenbereich'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Themenbereich ist breit gefächert.'
+    exampleTranslation: 'The thematic area is wide-ranging.'
+grammar:
+  - id: C2-LITERARY-001-GR01
+    point: 'Writing literary texts with stylistic mastery'
+    explanation: 'At C2, write literary texts by: using advanced "Stilmittel" (stylistic devices) like allegory, irony, and metaphor, varying sentence rhythm for effect, and maintaining consistent literary register with sophisticated vocabulary.'
+    examples:
+      - 'Die Metapher des "ewigen Kreises" durchzieht den gesamten Text und verleiht ihm eine existenzielle Tiefe.'
+      - 'Der Satzbau variiert bewusst zwischen kurzen, prägnanten Sätzen und fließenden, komplexen Perioden.'
+culturalNotes: 'German literary writing at C2 level values "Stilmittel" (stylistic devices), "Metaphern" (metaphors), and "Rhythmus" (rhythm); creative expression within formal structures is expected.'

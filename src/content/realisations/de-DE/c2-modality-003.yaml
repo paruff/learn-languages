@@ -1,0 +1,53 @@
+nodeId: C2-MODALITY-003
+lang: de-DE
+vocabulary:
+  - id: de-DE-C2-MODALITY-003-001
+    term: 'Modus'
+    translation: 'mood / mode'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Modus des Verbs ist wichtig.'
+    exampleTranslation: 'The mood of the verb is important.'
+  - id: de-DE-C2-MODALITY-003-002
+    term: 'Tempus'
+    translation: 'tense'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Das Tempus bestimmt die Zeitform.'
+    exampleTranslation: 'The tense determines the time form.'
+  - id: de-DE-C2-MODALITY-003-003
+    term: 'Aspekt'
+    translation: 'aspect'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Aspekt des Verbs ist komplex.'
+    exampleTranslation: 'The aspect of the verb is complex.'
+  - id: de-DE-C2-MODALITY-003-004
+    term: 'Flexion'
+    translation: 'inflection'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Flexion der Verben ist wichtig.'
+    exampleTranslation: 'The inflection of verbs is important.'
+  - id: de-DE-C2-MODALITY-003-005
+    term: 'konjugieren'
+    translation: 'to conjugate'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Sie kann die Verben perfekt konjugieren.'
+    exampleTranslation: 'She can conjugate the verbs perfectly.'
+  - id: de-DE-C2-MODALITY-003-006
+    term: 'deklarieren'
+    translation: 'to decline'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Er kann die Nomen perfekt deklarieren.'
+    exampleTranslation: 'He can decline the nouns perfectly.'
+grammar:
+  - id: C2-MODALITY-003-GR01
+    point: 'Mastering complex verb conjugation and declension'
+    explanation: 'At C2, master complex verb forms by: handling irregular verbs fluently, using rare subjunctive forms, and employing archaic or literary verb forms for stylistic effect.'
+    examples:
+      - 'Er spräche, wenn er könnte. (Konjunktiv II of "sprechen")'
+      - 'Sie hätte kommen sollen. (Konjunktiv II Perfect of "sollen")'
+culturalNotes: 'German verb conjugation at C2 level includes archaic and literary forms; familiarity with "Fachsprache" (specialized language) and historical verb forms is expected.'

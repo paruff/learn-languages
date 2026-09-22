@@ -1,0 +1,47 @@
+nodeId: C2-NUANCE-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-C2-NUANCE-001-001
+    term: 'Feinheit'
+    translation: 'nuance / subtlety'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Feinheiten der Sprache sind wichtig.'
+    exampleTranslation: 'The nuances of language are important.'
+  - id: de-DE-C2-NUANCE-001-002
+    term: 'Konnotation'
+    translation: 'connotation'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Konnotation des Wortes ist positiv.'
+    exampleTranslation: 'The connotation of the word is positive.'
+  - id: de-DE-C2-NUANCE-001-003
+    term: 'unterscheiden'
+    translation: 'to distinguish'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Sie kann feine Unterschiede erkennen.'
+    exampleTranslation: 'She can recognize subtle differences.'
+  - id: de-DE-C2-NUANCE-001-004
+    term: 'abgestuft'
+    translation: 'graduated / differentiated'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Die Bewertung war abgestuft.'
+    exampleTranslation: 'The evaluation was graduated.'
+  - id: de-DE-C2-NUANCE-001-005
+    term: 'Nuancierung'
+    translation: 'nuancing'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Nuancierung war präzise.'
+    exampleTranslation: 'The nuancing was precise.'
+  - id: de-DE-C2-NUANCE-001-006
+    term: 'Sensibilität'
+    translation: 'sensitivity'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Sprachliche Sensibilität ist wichtig.'
+    exampleTranslation: 'Linguistic sensitivity is important.'
+grammar: []
+culturalNotes: 'German culture at C2 level values "Sprachliche Feinfühligkeit" (linguistic sensitivity); understanding connotations and register differences is essential for sophisticated communication.'

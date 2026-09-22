@@ -183,7 +183,39 @@ C1 Coverage: 25/25 nodes fully realised (100%).
 | B1    | 108              | 8              | 18    |
 | B2    | 108              | 8              | 18    |
 | C1    | 150              | 8              | 25    |
-| **Total** | **618**      | **24**         | **103** |
+| C2    | 120              | 4              | 20    |
+| **Total** | **738**      | **28**         | **123** |
+
+## C2 nodes in the repo (EN→DE)
+
+20 C2 `cefr-nodes/` — all language-agnostic Can-Do statements. Paired en-DE/de-DE realisations authored for all 20 nodes.
+
+| nodeId         | Skill              | Can-Do                                                    | Status      |
+| -------------- | ------------------ | --------------------------------------------------------- | ----------- |
+| C2-ACADEMIC-001 | writing           | Can write a dissertation or report of substance           | ✅ Realised |
+| C2-ACADEMIC-002 | writing           | Can write about complex subjects in an extended essay     | ✅ Realised |
+| C2-ARGUE-001   | spoken_production  | Can construct a chain of reasoning with sophistication    | ✅ Realised |
+| C2-ARGUE-002   | spoken_interaction | Can articulate nuanced positions on complex issues        | ✅ Realised |
+| C2-LITERARY-001 | writing           | Can write literary texts with stylistic mastery           | ✅ Realised |
+| C2-LITERARY-002 | reading           | Can interpret literary texts with sophisticated analysis  | ✅ Realised |
+| C2-MEDIATION-001 | reading          | Can understand complex texts with appropriate expressions | ✅ Realised |
+| C2-MEDIATION-002 | spoken_interaction | Can mediate across cultures with precision              | ✅ Realised |
+| C2-MODALITY-001 | grammar           | Can use advanced subjunctive and hypothetical structures  | ✅ Realised |
+| C2-MODALITY-002 | grammar           | Can master indirect speech with Konjunktiv I              | ✅ Realised |
+| C2-MODALITY-003 | grammar           | Can master complex verb conjugation and declension        | ✅ Realised |
+| C2-MODALITY-004 | grammar           | Can use all conjugation and declension patterns           | ✅ Realised |
+| C2-MODALITY-005 | grammar           | Can use archaic and literary verb forms                   | ✅ Realised |
+| C2-NUANCE-001  | spoken_interaction | Can understand and use nuanced language appropriately     | ✅ Realised |
+| C2-PROFESSIONAL-001 | spoken_production | Can make formal presentations with rhetorical mastery  | ✅ Realised |
+| C2-PROFESSIONAL-002 | written          | Can present detailed professional career information    | ✅ Realised |
+| C2-SOCIAL-001  | spoken_interaction | Can interact with fluency and spontaneity on complex topics | ✅ Realised |
+| C2-SUMMARY-001 | writing            | Can write concise summaries with precision              | ✅ Realised |
+| C2-WRITTEN-001 | writing            | Can write with stylistic sophistication and precision    | ✅ Realised |
+| C2-WRITTEN-002 | writing            | Can write essays with original thought and sophistication| ✅ Realised |
+
+C2 Coverage: 20/20 nodes fully realised (100%).
+
+German (de-DE) content is now **fully complete** across all CEFR levels: A1, A2, B1, B2, C1, C2 — 123 nodes, 123 files per language pair, 615 total realisations.
 
 ## Sourcing note
 

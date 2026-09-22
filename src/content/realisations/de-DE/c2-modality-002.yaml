@@ -1,0 +1,53 @@
+nodeId: C2-MODALITY-002
+lang: de-DE
+vocabulary:
+  - id: de-DE-C2-MODALITY-002-001
+    term: 'Konjunktiv I'
+    translation: 'subjunctive I'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Konjunktiv I wird für indirekte Rede verwendet.'
+    exampleTranslation: 'The subjunctive I is used for indirect speech.'
+  - id: de-DE-C2-MODALITY-002-002
+    term: 'indirekte Rede'
+    translation: 'indirect speech'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Er sagte, er sei krank. (indirekte Rede)'
+    exampleTranslation: 'He said he was sick. (indirect speech)'
+  - id: de-DE-C2-MODALITY-002-003
+    term: 'berichten'
+    translation: 'to report'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Sie berichtet über die Ereignisse.'
+    exampleTranslation: 'She reports on the events.'
+  - id: de-DE-C2-MODALITY-002-004
+    term: 'zitieren'
+    translation: 'to quote'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Er zitiert aus dem Buch.'
+    exampleTranslation: 'He quotes from the book.'
+  - id: de-DE-C2-MODALITY-002-005
+    term: 'Paraphrase'
+    translation: 'paraphrase'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Paraphrase war präzise.'
+    exampleTranslation: 'The paraphrase was precise.'
+  - id: de-DE-C2-MODALITY-002-006
+    term: 'Wiedergabe'
+    translation: 'reproduction / report'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Wiedergabe war korrekt.'
+    exampleTranslation: 'The reproduction was correct.'
+grammar:
+  - id: C2-MODALITY-002-GR01
+    point: 'Mastering indirect speech with Konjunktiv I'
+    explanation: 'At C2, master indirect speech by: using Konjunktiv I for reported statements (Er sagte, er sei krank), handling complex reported speech with multiple clauses, and distinguishing between Konjunktiv I and II in reported speech.'
+    examples:
+      - 'Er sagte, er sei krank und könne nicht kommen.'
+      - 'Sie berichtete, dass das Projekt abgeschlossen sei.'
+culturalNotes: 'German Konjunktiv I at C2 level is essential for academic and journalistic writing; mastering indirect speech ("indirekte Rede") is a mark of linguistic sophistication.'

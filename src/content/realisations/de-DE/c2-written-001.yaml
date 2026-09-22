@@ -1,0 +1,53 @@
+nodeId: C2-WRITTEN-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-C2-WRITTEN-001-001
+    term: 'Text'
+    translation: 'text'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ich schreibe einen klaren Text.'
+    exampleTranslation: 'I am writing a clear text.'
+  - id: de-DE-C2-WRITTEN-001-002
+    term: 'Thema'
+    translation: 'topic'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Ich schreibe über ein breites Thema.'
+    exampleTranslation: 'I am writing about a wide range of topics.'
+  - id: de-DE-C2-WRITTEN-001-003
+    term: 'detailliert'
+    translation: 'detailed'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Der Text war sehr detailliert.'
+    exampleTranslation: 'The text was very detailed.'
+  - id: de-DE-C2-WRITTEN-001-004
+    term: 'strukturiert'
+    translation: 'structured'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Der Text war klar strukturiert.'
+    exampleTranslation: 'The text was clearly structured.'
+  - id: de-DE-C2-WRITTEN-001-005
+    term: 'verfassen'
+    translation: 'to write / to compose'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich verfasse einen Essay über das Thema.'
+    exampleTranslation: 'I am writing an essay on the topic.'
+  - id: de-DE-C2-WRITTEN-001-006
+    term: 'Hauptgedanke'
+    translation: 'main idea'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Was ist der Hauptgedanke?'
+    exampleTranslation: 'What is the main idea?'
+grammar:
+  - id: C2-WRITTEN-001-GR01
+    point: 'Writing with stylistic sophistication and precision'
+    explanation: 'At C2, write with: varied sentence structures for effect, sophisticated vocabulary choices, precise register control, and rhetorical devices like parallelism, antithesis, and chiasmus for emphasis.'
+    examples:
+      - 'Nicht die Menge, sondern die Qualität der Worte bestimmt den Wert eines Textes.'
+      - 'Die Struktur des Textes folgt einer Logik, die den Leser Schritt für Schritt überzeugt.'
+culturalNotes: 'German written texts at C2 level should demonstrate "Stilistik" (stylistic mastery): varied sentence structures, sophisticated vocabulary, and rhetorical elegance.'

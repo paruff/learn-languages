@@ -1,0 +1,47 @@
+nodeId: C2-MODALITY-004
+lang: de-DE
+vocabulary:
+  - id: de-DE-C2-MODALITY-004-001
+    term: 'Modus'
+    translation: 'mood / mode'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Modus des Verbs ist wichtig.'
+    exampleTranslation: 'The mood of the verb is important.'
+  - id: de-DE-C2-MODALITY-004-002
+    term: 'Tempus'
+    translation: 'tense'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Das Tempus bestimmt die Zeitform.'
+    exampleTranslation: 'The tense determines the time form.'
+  - id: de-DE-C2-MODALITY-004-003
+    term: 'Aspekt'
+    translation: 'aspect'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Aspekt des Verbs ist komplex.'
+    exampleTranslation: 'The aspect of the verb is complex.'
+  - id: de-DE-C2-MODALITY-004-004
+    term: 'Flexion'
+    translation: 'inflection'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Flexion der Verben ist wichtig.'
+    exampleTranslation: 'The inflection of verbs is important.'
+  - id: de-DE-C2-MODALITY-004-005
+    term: 'konjugieren'
+    translation: 'to conjugate'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Sie kann die Verben perfekt konjugieren.'
+    exampleTranslation: 'She can conjugate the verbs perfectly.'
+  - id: de-DE-C2-MODALITY-004-006
+    term: 'deklarieren'
+    translation: 'to decline'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Er kann die Nomen perfekt deklarieren.'
+    exampleTranslation: 'He can decline the nouns perfectly.'
+grammar: []
+culturalNotes: 'German grammar at C2 level requires mastery of all conjugation and declension patterns, including irregular and archaic forms.'

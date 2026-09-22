@@ -1,0 +1,47 @@
+nodeId: C2-SUMMARY-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-C2-SUMMARY-001-001
+    term: 'Zusammenfassung'
+    translation: 'summary'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Zusammenfassung war klar und prägnant.'
+    exampleTranslation: 'The summary was clear and concise.'
+  - id: de-DE-C2-SUMMARY-001-002
+    term: 'Kernpunkte'
+    translation: 'key points'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Die Kernpunkte wurden hervorgehoben.'
+    exampleTranslation: 'The key points were highlighted.'
+  - id: de-DE-C2-SUMMARY-001-003
+    term: 'zusammenfassen'
+    translation: 'to summarize'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Können Sie das zusammenfassen?'
+    exampleTranslation: 'Can you summarize that?'
+  - id: de-DE-C2-SUMMARY-001-004
+    term: 'Essenz'
+    translation: 'essence'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Essenz der Diskussion war klar.'
+    exampleTranslation: 'The essence of the discussion was clear.'
+  - id: de-DE-C2-SUMMARY-001-005
+    term: 'komprimieren'
+    translation: 'to compress'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Er hat die Information komprimiert.'
+    exampleTranslation: 'He has compressed the information.'
+  - id: de-DE-C2-SUMMARY-001-006
+    term: 'Prägnanz'
+    translation: 'conciseness'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Prägnanz der Zusammenfassung war beeindruckend.'
+    exampleTranslation: 'The conciseness of the summary was impressive.'
+grammar: []
+culturalNotes: 'German summary writing at C2 level values "Prägnanz" (conciseness) and "Klarheit" (clarity); ability to distill complex information into clear, concise form is expected.'

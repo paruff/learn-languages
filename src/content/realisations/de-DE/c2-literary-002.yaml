@@ -1,0 +1,47 @@
+nodeId: C2-LITERARY-002
+lang: de-DE
+vocabulary:
+  - id: de-DE-C2-LITERARY-002-001
+    term: 'Literatur'
+    translation: 'literature'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Literatur des 19. Jahrhunderts ist faszinierend.'
+    exampleTranslation: 'The literature of the 19th century is fascinating.'
+  - id: de-DE-C2-LITERARY-002-002
+    term: 'Stilmittel'
+    translation: 'stylistic device'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Das Stilmittel der Metapher wurde perfekt eingesetzt.'
+    exampleTranslation: 'The stylistic device of metaphor was perfectly employed.'
+  - id: de-DE-C2-LITERARY-002-003
+    term: 'interpretieren'
+    translation: 'to interpret'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Sie kann die Gedichte sehr gut interpretieren.'
+    exampleTranslation: 'She can interpret the poems very well.'
+  - id: de-DE-C2-LITERARY-002-004
+    term: 'Analyse'
+    translation: 'analysis'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Analyse des Textes war tiefgründig.'
+    exampleTranslation: 'The analysis of the text was profound.'
+  - id: de-DE-C2-LITERARY-002-005
+    term: 'Textanalyse'
+    translation: 'text analysis'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Textanalyse war sehr detailliert.'
+    exampleTranslation: 'The text analysis was very detailed.'
+  - id: de-DE-C2-LITERARY-002-006
+    term: 'zusammenfassen'
+    translation: 'to summarize'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Können Sie die Analyse zusammenfassen?'
+    exampleTranslation: 'Can you summarize the analysis?'
+grammar: []
+culturalNotes: 'German literary analysis at C2 level expects "Textanalyse" (text analysis) with sophisticated interpretation of "Stilmittel" (stylistic devices) and "Motivik" (motifs).'

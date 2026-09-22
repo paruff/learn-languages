@@ -1,0 +1,47 @@
+nodeId: C2-MEDIATION-002
+lang: de-DE
+vocabulary:
+  - id: de-DE-C2-MEDIATION-002-001
+    term: 'kulturell'
+    translation: 'cultural'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Die kulturellen Unterschiede sind wichtig.'
+    exampleTranslation: 'The cultural differences are important.'
+  - id: de-DE-C2-MEDIATION-002-002
+    term: 'Schlüsselbegriffe'
+    translation: 'key terms'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Die Schlüsselbegriffe wurden identifiziert.'
+    exampleTranslation: 'The key terms were identified.'
+  - id: de-DE-C2-MEDIATION-002-003
+    term: 'Interpretation'
+    translation: 'interpretation'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Interpretation war subtil und präzise.'
+    exampleTranslation: 'The interpretation was subtle and precise.'
+  - id: de-DE-C2-MEDIATION-002-004
+    term: 'bedeuten'
+    translation: 'to mean'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Was bedeutet dieser Begriff im Kontext?'
+    exampleTranslation: 'What does this term mean in context?'
+  - id: de-DE-C2-MEDIATION-002-005
+    term: 'zusammenfassen'
+    translation: 'to summarize'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Können Sie die Bedeutung zusammenfassen?'
+    exampleTranslation: 'Can you summarize the meaning?'
+  - id: de-DE-C2-MEDIATION-002-006
+    term: 'Mehrfachdeutigkeit'
+    translation: 'ambiguity / multiple meanings'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Mehrfachdeutigkeit des Wortes ist faszinierend.'
+    exampleTranslation: 'The ambiguity of the word is fascinating.'
+grammar: []
+culturalNotes: 'German mediation at C2 level requires understanding "Mehrfachdeutigkeit" (ambiguity) and cultural connotations; precise translation across cultures is expected.'

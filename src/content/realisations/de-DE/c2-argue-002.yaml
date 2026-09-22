@@ -1,0 +1,53 @@
+nodeId: C2-ARGUE-002
+lang: de-DE
+vocabulary:
+  - id: de-DE-C2-ARGUE-002-001
+    term: 'Standpunkt'
+    translation: 'point of view'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ich vertrete den Standpunkt, dass die Wirtschaft wächst.'
+    exampleTranslation: 'I hold the point of view that the economy is growing.'
+  - id: de-DE-C2-ARGUE-002-002
+    term: 'Position'
+    translation: 'position'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Seine Position war klar und differenziert.'
+    exampleTranslation: 'His position was clear and nuanced.'
+  - id: de-DE-C2-ARGUE-002-003
+    term: 'differenziert'
+    translation: 'nuanced / differentiated'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Die Analyse war sehr differenziert.'
+    exampleTranslation: 'The analysis was very nuanced.'
+  - id: de-DE-C2-ARGUE-002-004
+    term: 'vermitteln'
+    translation: 'to convey / to mediate'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Sie kann komplexe Ideen gut vermitteln.'
+    exampleTranslation: 'She can convey complex ideas well.'
+  - id: de-DE-C2-ARGUE-002-005
+    term: 'Haltung'
+    translation: 'attitude / stance'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Seine Haltung zum Thema war respektvoll.'
+    exampleTranslation: 'His attitude towards the topic was respectful.'
+  - id: de-DE-C2-ARGUE-002-006
+    term: 'abwägen'
+    translation: 'to weigh / to consider'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Man muss verschiedene Faktoren abwägen.'
+    exampleTranslation: 'One must weigh various factors.'
+grammar:
+  - id: C2-ARGUE-002-GR01
+    point: 'Articulating highly nuanced positions with precision'
+    explanation: 'At C2, articulate positions with: expressing partial agreement with complex structures (Ich teile zwar..., wobei jedoch...), using sophisticated hedging (Es könnte als plausibel erachtet werden, dass...), and acknowledging complexity with deliberate ambiguity.'
+    examples:
+      - 'Ich teile zwar Ihre Meinung, wobei jedoch die Situation als weitaus komplexer einzuschätzen ist.'
+      - 'Es könnte als plausibel erachtet werden, dass die Daten eine andere Interpretation zulassen.'
+culturalNotes: 'Germans at C2 level expect "Nuancen" (nuances) in arguments; black-and-white statements are considered unsophisticated in academic and professional contexts.'

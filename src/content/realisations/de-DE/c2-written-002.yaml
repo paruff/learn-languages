@@ -1,0 +1,53 @@
+nodeId: C2-WRITTEN-002
+lang: de-DE
+vocabulary:
+  - id: de-DE-C2-WRITTEN-002-001
+    term: 'Essay'
+    translation: 'essay'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ich schreibe einen Essay über das Thema.'
+    exampleTranslation: 'I am writing an essay on the topic.'
+  - id: de-DE-C2-WRITTEN-002-002
+    term: 'Bericht'
+    translation: 'report'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Bericht war detailliert geschrieben.'
+    exampleTranslation: 'The report was written in detail.'
+  - id: de-DE-C2-WRITTEN-002-003
+    term: 'entwickeln'
+    translation: 'to develop'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich entwickle mein Argument weiter.'
+    exampleTranslation: 'I develop my argument further.'
+  - id: de-DE-C2-WRITTEN-002-004
+    term: 'Argument'
+    translation: 'argument'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Das Argument war überzeugend.'
+    exampleTranslation: 'The argument was convincing.'
+  - id: de-DE-C2-WRITTEN-002-005
+    term: 'These'
+    translation: 'thesis'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Meine These ist klar formuliert.'
+    exampleTranslation: 'My thesis is clearly formulated.'
+  - id: de-DE-C2-WRITTEN-002-006
+    term: 'Schlussfolgerung'
+    translation: 'conclusion'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Schlussfolgerung war logisch.'
+    exampleTranslation: 'The conclusion was logical.'
+grammar:
+  - id: C2-WRITTEN-002-GR01
+    point: 'Writing essays with original thought and sophisticated argumentation'
+    explanation: 'At C2, write essays by: presenting original arguments with sophistication, using complex rhetorical structures, synthesizing diverse sources with critical evaluation, and drawing nuanced conclusions that demonstrate intellectual depth.'
+    examples:
+      - 'Meine These ist, dass die Bildung zwar wichtig ist, wobei jedoch die Methode der Vermittlung weitaus entscheidender ist als bislang angenommen.'
+      - 'Abschließend lässt sich sagen, dass die Argumentation nicht nur überzeugend, sondern auch innovativ ist.'
+culturalNotes: 'German essay writing at C2 level ("Essayistik") values original thought, sophisticated argumentation, and stylistic elegance; the "These-Antithese-Synthese" pattern is used with creative variation.'

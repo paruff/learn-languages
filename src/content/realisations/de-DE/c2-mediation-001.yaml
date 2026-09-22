@@ -1,0 +1,47 @@
+nodeId: C2-MEDIATION-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-C2-MEDIATION-001-001
+    term: 'fremdsprachlich'
+    translation: 'foreign-language'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Sie liest fremdsprachige Texte mit Verständnis.'
+    exampleTranslation: 'She reads foreign-language texts with understanding.'
+  - id: de-DE-C2-MEDIATION-001-002
+    term: 'Textverständnis'
+    translation: 'text comprehension'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Ihr Textverständnis ist ausgezeichnet.'
+    exampleTranslation: 'Her text comprehension is excellent.'
+  - id: de-DE-C2-MEDIATION-001-003
+    term: 'passend'
+    translation: 'suitable / fitting'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Er hat ein passendes Wort gefunden.'
+    exampleTranslation: 'He has found a suitable word.'
+  - id: de-DE-C2-MEDIATION-001-004
+    term: 'adäquat'
+    translation: 'adequate / appropriate'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Die Übersetzung war adäquat.'
+    exampleTranslation: 'The translation was adequate.'
+  - id: de-DE-C2-MEDIATION-001-005
+    term: 'Wortschatz'
+    translation: 'vocabulary'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ihr Wortschatz ist beeindruckend.'
+    exampleTranslation: 'Her vocabulary is impressive.'
+  - id: de-DE-C2-MEDIATION-001-006
+    term: 'Paraphrase'
+    translation: 'paraphrase'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Eine gute Paraphrase ist wichtig.'
+    exampleTranslation: 'A good paraphrase is important.'
+grammar: []
+culturalNotes: 'German mediation ("Mediation") at C2 level involves bridging between languages and cultures with high precision; "kulturelle Mediationskompetenz" (cultural mediation competence) is expected in professional contexts.'
