@@ -1,0 +1,41 @@
+nodeId: A1-CAPAB-001
+lang: en-DE
+vocabulary:
+  - id: en-DE-A1-CAPAB-001-001
+    term: 'I can...'
+    translation: 'Ich kann...'
+    partOfSpeech: phrase
+    example: 'I can swim well.'
+    exampleTranslation: 'Ich kann gut schwimmen.'
+  - id: en-DE-A1-CAPAB-001-002
+    term: "I can't..."
+    translation: 'Ich kann nicht...'
+    partOfSpeech: phrase
+    example: "I can't sing."
+    exampleTranslation: 'Ich kann nicht singen.'
+  - id: en-DE-A1-CAPAB-001-003
+    term: 'I understand'
+    translation: 'Ich verstehe'
+    partOfSpeech: phrase
+    example: "I understand German, but I don't speak well."
+    exampleTranslation: 'Ich verstehe Deutsch, aber ich spreche nicht gut.'
+  - id: en-DE-A1-CAPAB-001-004
+    term: 'I know'
+    translation: 'Ich weiß'
+    partOfSpeech: phrase
+    example: "I don't know."
+    exampleTranslation: 'Ich weiß es nicht.'
+  - id: en-DE-A1-CAPAB-001-005
+    term: 'to be able to'
+    translation: 'können'
+    partOfSpeech: verb
+    example: 'Can you help me?'
+    exampleTranslation: 'Kannst du mir helfen?'
+  - id: en-DE-A1-CAPAB-001-006
+    term: 'to not be able to'
+    translation: 'nicht können'
+    partOfSpeech: phrase
+    example: "I can't come today."
+    exampleTranslation: 'Ich kann heute nicht kommen.'
+grammar: []
+culturalNotes: 'The modal verb "können" is one of the most used in German; it expresses both ability ("I can swim") and possibility ("Can you help me?").'

@@ -1,0 +1,41 @@
+nodeId: A1-OPIN-001
+lang: en-DE
+vocabulary:
+  - id: en-DE-A1-OPIN-001-001
+    term: 'I think that...'
+    translation: 'Ich finde, dass...'
+    partOfSpeech: phrase
+    example: 'I think that is good.'
+    exampleTranslation: 'Ich finde, dass das gut ist.'
+  - id: en-DE-A1-OPIN-001-002
+    term: 'I like...'
+    translation: 'Ich mag...'
+    partOfSpeech: phrase
+    example: 'I like chocolate.'
+    exampleTranslation: 'Ich mag Schokolade.'
+  - id: en-DE-A1-OPIN-001-003
+    term: "I don't like..."
+    translation: 'Ich mag nicht...'
+    partOfSpeech: phrase
+    example: "I don't like soup."
+    exampleTranslation: 'Ich mag nicht Suppe.'
+  - id: en-DE-A1-OPIN-001-004
+    term: 'good'
+    translation: 'gut'
+    partOfSpeech: adjective
+    example: 'That is very good.'
+    exampleTranslation: 'Das ist sehr gut.'
+  - id: en-DE-A1-OPIN-001-005
+    term: 'bad'
+    translation: 'schlecht'
+    partOfSpeech: adjective
+    example: 'The weather is bad.'
+    exampleTranslation: 'Das Wetter ist schlecht.'
+  - id: en-DE-A1-OPIN-001-006
+    term: 'fond of'
+    translation: 'gern'
+    partOfSpeech: adverb
+    example: 'I like reading.'
+    exampleTranslation: 'Ich lese gern.'
+grammar: []
+culturalNotes: 'Germans value direct opinions; "Ich finde" (I think/find) is the standard way to express personal views, more common than "Ich glaube" (I believe) at A1.'

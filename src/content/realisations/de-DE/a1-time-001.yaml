@@ -1,0 +1,43 @@
+nodeId: A1-TIME-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-A1-TIME-001-001
+    term: 'Wie spät ist es?'
+    translation: 'What time is it?'
+    partOfSpeech: phrase
+    example: 'Entschuldigung, wie spät ist es?'
+    exampleTranslation: 'Excuse me, what time is it?'
+  - id: de-DE-A1-TIME-001-002
+    term: 'heute'
+    translation: 'today'
+    partOfSpeech: adverb
+    example: 'Heute ist Montag.'
+    exampleTranslation: 'Today is Monday.'
+  - id: de-DE-A1-TIME-001-003
+    term: 'morgen'
+    translation: 'tomorrow'
+    partOfSpeech: adverb
+    example: 'Morgen komme ich wieder.'
+    exampleTranslation: 'Tomorrow I will come again.'
+  - id: de-DE-A1-TIME-001-004
+    term: 'gestern'
+    translation: 'yesterday'
+    partOfSpeech: adverb
+    example: 'Gestern war ich im Kino.'
+    exampleTranslation: 'Yesterday I was at the cinema.'
+  - id: de-DE-A1-TIME-001-005
+    term: 'Uhr'
+    translation: "o'clock / clock"
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Es ist drei Uhr.'
+    exampleTranslation: "It's three o'clock."
+  - id: de-DE-A1-TIME-001-006
+    term: 'Wochentag'
+    translation: 'day of the week'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Welcher Wochentag ist heute?'
+    exampleTranslation: 'What day of the week is it today?'
+grammar: []
+culturalNotes: 'Germans are known for punctuality; being late is considered disrespectful. "Pünktlichkeit ist die Höflichkeit der Könige" (Punctuality is the politeness of kings).'

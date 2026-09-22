@@ -1,0 +1,41 @@
+nodeId: A1-SORRY-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-A1-SORRY-001-001
+    term: 'Entschuldigung'
+    translation: 'Sorry / Excuse me'
+    partOfSpeech: interjection
+    example: 'Entschuldigung, wo ist der Bahnhof?'
+    exampleTranslation: 'Excuse me, where is the train station?'
+  - id: de-DE-A1-SORRY-001-002
+    term: 'Es tut mir leid'
+    translation: "I'm sorry"
+    partOfSpeech: phrase
+    example: 'Es tut mir leid, ich kann nicht kommen.'
+    exampleTranslation: "I'm sorry, I can't come."
+  - id: de-DE-A1-SORRY-001-003
+    term: 'Kein Problem'
+    translation: 'No problem'
+    partOfSpeech: phrase
+    example: 'Kein Problem, das passiert.'
+    exampleTranslation: 'No problem, that happens.'
+  - id: de-DE-A1-SORRY-001-004
+    term: 'Macht nichts'
+    translation: "It's okay / Never mind"
+    partOfSpeech: phrase
+    example: 'Macht nichts, versuchen Sie es nochmal.'
+    exampleTranslation: "It's okay, try again."
+  - id: de-DE-A1-SORRY-001-005
+    term: 'Verzeihung'
+    translation: 'Pardon'
+    partOfSpeech: interjection
+    example: 'Verzeihung, ich habe Sie nicht gehört.'
+    exampleTranslation: "Pardon, I didn't hear you."
+  - id: de-DE-A1-SORRY-001-006
+    term: 'Entschuldigen Sie'
+    translation: 'Excuse me (formal)'
+    partOfSpeech: phrase
+    example: 'Entschuldigen Sie die Störung.'
+    exampleTranslation: 'Excuse the disturbance.'
+grammar: []
+culturalNotes: '"Entschuldigung" literally means "removal of guilt" — it''s used both as "sorry" and "excuse me" in German, making it very versatile.'

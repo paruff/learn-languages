@@ -1,0 +1,42 @@
+nodeId: A1-LOC-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-A1-LOC-001-001
+    term: 'Wo ist...?'
+    translation: 'Where is...?'
+    partOfSpeech: phrase
+    example: 'Wo ist der Bahnhof?'
+    exampleTranslation: 'Where is the train station?'
+  - id: de-DE-A1-LOC-001-002
+    term: 'links'
+    translation: 'left'
+    partOfSpeech: adverb
+    example: 'Gehen Sie links.'
+    exampleTranslation: 'Go left.'
+  - id: de-DE-A1-LOC-001-003
+    term: 'rechts'
+    translation: 'right'
+    partOfSpeech: adverb
+    example: 'Das Restaurant ist rechts.'
+    exampleTranslation: 'The restaurant is on the right.'
+  - id: de-DE-A1-LOC-001-004
+    term: 'geradeaus'
+    translation: 'straight ahead'
+    partOfSpeech: adverb
+    example: 'Gehen Sie geradeaus.'
+    exampleTranslation: 'Go straight ahead.'
+  - id: de-DE-A1-LOC-001-005
+    term: 'Straße'
+    translation: 'street'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Straße ist lang.'
+    exampleTranslation: 'The street is long.'
+  - id: de-DE-A1-LOC-001-006
+    term: 'entfernt'
+    translation: 'away / distant'
+    partOfSpeech: adjective
+    example: 'Wie weit ist es entfernt?'
+    exampleTranslation: 'How far away is it?'
+grammar: []
+culturalNotes: 'Germans are generally precise with directions; saying "zweite Straße links" (second street on the left) is more common than vague references.'

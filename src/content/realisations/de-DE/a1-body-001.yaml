@@ -1,0 +1,47 @@
+nodeId: A1-BODY-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-A1-BODY-001-001
+    term: 'Kopf'
+    translation: 'head'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Mein Kopf tut weh.'
+    exampleTranslation: 'My head hurts.'
+  - id: de-DE-A1-BODY-001-002
+    term: 'Hand'
+    translation: 'hand'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Wasch dir die Hände!'
+    exampleTranslation: 'Wash your hands!'
+  - id: de-DE-A1-BODY-001-003
+    term: 'Fuß'
+    translation: 'foot'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Mein Fuß schmerzt.'
+    exampleTranslation: 'My foot hurts.'
+  - id: de-DE-A1-BODY-001-004
+    term: 'Bauch'
+    translation: 'stomach'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ich habe Bauchschmerzen.'
+    exampleTranslation: 'I have a stomachache.'
+  - id: de-DE-A1-BODY-001-005
+    term: 'Knie'
+    translation: 'knee'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Ich habe mein Knie verletzt.'
+    exampleTranslation: 'I hurt my knee.'
+  - id: de-DE-A1-BODY-001-006
+    term: 'Arzt'
+    translation: 'doctor'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ich muss zum Arzt.'
+    exampleTranslation: 'I have to go to the doctor.'
+grammar: []
+culturalNotes: 'Germans tend to be direct about health complaints; saying "Mir ist übel" (I feel sick) is perfectly acceptable in everyday conversation.'

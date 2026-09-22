@@ -1,0 +1,41 @@
+nodeId: A1-THANK-001
+lang: en-DE
+vocabulary:
+  - id: en-DE-A1-THANK-001-001
+    term: 'Thank you'
+    translation: 'Danke'
+    partOfSpeech: interjection
+    example: 'Thank you for your help.'
+    exampleTranslation: 'Danke für Ihre Hilfe.'
+  - id: en-DE-A1-THANK-001-002
+    term: 'Thank you very much'
+    translation: 'Vielen Dank'
+    partOfSpeech: phrase
+    example: 'Thank you very much for the gift!'
+    exampleTranslation: 'Vielen Dank für das Geschenk!'
+  - id: en-DE-A1-THANK-001-003
+    term: "You're welcome"
+    translation: 'Bitte'
+    partOfSpeech: adverb
+    example: "- Thank you! - You're welcome!"
+    exampleTranslation: '- Danke! - Bitte!'
+  - id: en-DE-A1-THANK-001-004
+    term: "You're welcome (polite)"
+    translation: 'Bitte schön'
+    partOfSpeech: phrase
+    example: "- Thank you very much! - You're welcome!"
+    exampleTranslation: '- Vielen Dank! - Bitte schön!'
+  - id: en-DE-A1-THANK-001-005
+    term: 'Thanks (informal)'
+    translation: 'Danke dir'
+    partOfSpeech: phrase
+    example: 'Thanks for everything.'
+    exampleTranslation: 'Danke dir für alles.'
+  - id: en-DE-A1-THANK-001-006
+    term: 'Thanks (formal)'
+    translation: 'Danke Ihnen'
+    partOfSpeech: phrase
+    example: 'Thank you for your time.'
+    exampleTranslation: 'Danke Ihnen für Ihre Zeit.'
+grammar: []
+culturalNotes: '"Bitte" serves double duty in German — it means both "please" and "you''re welcome". Context makes the meaning clear.'

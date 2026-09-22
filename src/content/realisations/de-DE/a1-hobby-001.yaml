@@ -1,0 +1,47 @@
+nodeId: A1-HOBBY-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-A1-HOBBY-001-001
+    term: 'Fußball'
+    translation: 'football'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ich spiele gerne Fußball.'
+    exampleTranslation: 'I like playing football.'
+  - id: de-DE-A1-HOBBY-001-002
+    term: 'Musik'
+    translation: 'music'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ich höre gern Musik.'
+    exampleTranslation: 'I like listening to music.'
+  - id: de-DE-A1-HOBBY-001-003
+    term: 'Buch'
+    translation: 'book'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Ich lese ein Buch.'
+    exampleTranslation: 'I am reading a book.'
+  - id: de-DE-A1-HOBBY-001-004
+    term: 'Schwimmen'
+    translation: 'swimming'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Schwimmen macht Spaß.'
+    exampleTranslation: 'Swimming is fun.'
+  - id: de-DE-A1-HOBBY-001-005
+    term: 'Kino'
+    translation: 'cinema'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Wir gehen ins Kino.'
+    exampleTranslation: 'We are going to the cinema.'
+  - id: de-DE-A1-HOBBY-001-006
+    term: 'Hobby'
+    translation: 'hobby'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Was ist dein Hobby?'
+    exampleTranslation: 'What is your hobby?'
+grammar: []
+culturalNotes: "Football (Fußball) is Germany's most popular sport. The Bundesliga is one of the top football leagues in the world."

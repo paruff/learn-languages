@@ -1,0 +1,47 @@
+nodeId: A1-FOOD-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-A1-FOOD-001-001
+    term: 'Wasser'
+    translation: 'water'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Ein Glas Wasser, bitte.'
+    exampleTranslation: 'A glass of water, please.'
+  - id: de-DE-A1-FOOD-001-002
+    term: 'Brot'
+    translation: 'bread'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Ich esse Brot zum Frühstück.'
+    exampleTranslation: 'I eat bread for breakfast.'
+  - id: de-DE-A1-FOOD-001-003
+    term: 'Kaffee'
+    translation: 'coffee'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Möchten Sie Kaffee?'
+    exampleTranslation: 'Would you like coffee?'
+  - id: de-DE-A1-FOOD-001-004
+    term: 'Milch'
+    translation: 'milk'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Milch ist im Kühlschrank.'
+    exampleTranslation: 'The milk is in the fridge.'
+  - id: de-DE-A1-FOOD-001-005
+    term: 'Apfel'
+    translation: 'apple'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ich esse einen Apfel.'
+    exampleTranslation: 'I eat an apple.'
+  - id: de-DE-A1-FOOD-001-006
+    term: 'Essen'
+    translation: 'food / to eat'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Das Essen ist sehr gut.'
+    exampleTranslation: 'The food is very good.'
+grammar: []
+culturalNotes: 'Bread is a staple in Germany — Germans consume more varieties of bread than almost any other country. "Brot" is central to the German diet.'

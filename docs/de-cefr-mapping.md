@@ -26,6 +26,44 @@ Mirrors the same 5 nodes used for the original en-GB/pt-PT skeleton (#21) and th
 | A1-INTRO-002 | spoken_interaction | Can ask and answer basic questions about personal details | ✅ Realised |
 | A1-NUMB-001  | reading            | Can recognize and write numbers 1-100                     | ✅ Realised |
 
+## A1 nodes in the repo (EN→DE)
+
+All 22 A1 `cefr-nodes/` are language-agnostic Can-Do statements sourced from the Referencial Camões PLE (shared A1 inventory). Paired en-GB/de-DE realisations were authored for all 22 nodes.
+
+| nodeId         | Skill              | Can-Do                                                    | Status      |
+| -------------- | ------------------ | --------------------------------------------------------- | ----------- |
+| A1-GREET-001   | spoken_interaction | Can greet people and respond to greetings                 | ✅ Realised |
+| A1-GREET-002   | spoken_interaction | Can use basic formulas for leave-taking                   | ✅ Realised |
+| A1-INTRO-001   | spoken_interaction | Can introduce themselves and others                       | ✅ Realised |
+| A1-INTRO-002   | spoken_interaction | Can ask and answer basic questions about personal details | ✅ Realised |
+| A1-NUMB-001    | reading            | Can recognize and write numbers 1-100                     | ✅ Realised |
+| A1-FOOD-001    | reading            | Can identify common food and drink items                  | ✅ Realised |
+| A1-THANK-001   | spoken_interaction | Can express thanks and respond to thanks                  | ✅ Realised |
+| A1-SORRY-001   | spoken_interaction | Can apologise and respond to apologies                    | ✅ Realised |
+| A1-LOC-001     | spoken_interaction | Can ask for and understand simple directions              | ✅ Realised |
+| A1-TIME-001    | reading            | Can understand basic time and date expressions            | ✅ Realised |
+| A1-REQUEST-001 | spoken_interaction | Can make simple requests using polite forms               | ✅ Realised |
+| A1-OFFER-001   | spoken_production  | Can offer things and make simple invitations              | ✅ Realised |
+| A1-OPIN-001    | spoken_production  | Can express simple opinions about everyday topics         | ✅ Realised |
+| A1-CAPAB-001   | spoken_production  | Can express ability and inability to do things            | ✅ Realised |
+| A1-WANT-001    | spoken_production  | Can express simple desires and intentions                 | ✅ Realised |
+| A1-FEEL-001    | listening          | Can understand and express basic emotions                 | ✅ Realised |
+| A1-CLARIFY-001 | spoken_interaction | Can ask someone to repeat or clarify                      | ✅ Realised |
+| A1-FAMILY-001  | reading            | Can identify immediate family members                     | ✅ Realised |
+| A1-BODY-001    | reading            | Can identify basic body parts and health vocabulary       | ✅ Realised |
+| A1-HOBBY-001   | reading            | Can identify common hobbies and free-time activities      | ✅ Realised |
+| A1-ROUTINE-001 | reading            | Can identify common daily-life objects and rooms           | ✅ Realised |
+| A1-SHOP-001    | reading            | Can identify basic shopping and money vocabulary           | ✅ Realised |
+
+A1 Coverage: 22/22 nodes fully realised (100%).
+
+### de-DE realisation totals
+
+| Level | Vocabulary items | Grammar points | Files |
+| ----- | ---------------- | -------------- | ----- |
+| A1    | 132              | 0              | 22    |
+| **Total** | **132**      | **0**          | **22** |
+
 ## Sourcing note
 
 No new vocabulary images were sourced — `A1-NUMB-001`'s `imageUrl`s reuse the existing `um.webp`/`dois.webp`/`tres.webp` files (already credited in `public/vocab-images/CREDITS.md`), since the underlying photographs (numeral shapes) are language-independent. See `docs/content-attribution.md` (#41) for the sourcing policy this follows.

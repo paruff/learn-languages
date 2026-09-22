@@ -1,0 +1,44 @@
+nodeId: A1-SHOP-001
+lang: en-DE
+vocabulary:
+  - id: en-DE-A1-SHOP-001-001
+    term: 'shop'
+    translation: 'Geschäft'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'The shop is open.'
+    exampleTranslation: 'Das Geschäft ist geöffnet.'
+  - id: en-DE-A1-SHOP-001-002
+    term: 'money'
+    translation: 'Geld'
+    partOfSpeech: noun
+    gender: neuter
+    example: "I don't have any money with me."
+    exampleTranslation: 'Ich habe kein Geld dabei.'
+  - id: en-DE-A1-SHOP-001-003
+    term: 'price'
+    translation: 'Preis'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'What is the price?'
+    exampleTranslation: 'Was ist der Preis?'
+  - id: en-DE-A1-SHOP-001-004
+    term: 'to buy'
+    translation: 'kaufen'
+    partOfSpeech: verb
+    example: 'I would like to buy that.'
+    exampleTranslation: 'Ich möchte das kaufen.'
+  - id: en-DE-A1-SHOP-001-005
+    term: 'expensive'
+    translation: 'teuer'
+    partOfSpeech: adjective
+    example: 'That is too expensive.'
+    exampleTranslation: 'Das ist zu teuer.'
+  - id: en-DE-A1-SHOP-001-006
+    term: 'cheap'
+    translation: 'billig'
+    partOfSpeech: adjective
+    example: 'Is there something cheaper?'
+    exampleTranslation: 'Gibt es etwas Billigeres?'
+grammar: []
+culturalNotes: 'Many small shops in Germany close on Sundays (Sonntagsruhe); only shops at train stations and airports are typically open.'
