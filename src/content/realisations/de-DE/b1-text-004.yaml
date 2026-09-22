@@ -1,0 +1,53 @@
+nodeId: B1-TEXT-004
+lang: de-DE
+vocabulary:
+  - id: de-DE-B1-TEXT-004-001
+    term: 'Text'
+    translation: 'text'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ich schreibe einen Text über mein Hobby.'
+    exampleTranslation: 'I am writing a text about my hobby.'
+  - id: de-DE-B1-TEXT-004-002
+    term: 'Thema'
+    translation: 'topic'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Das Thema ist mir bekannt.'
+    exampleTranslation: 'The topic is familiar to me.'
+  - id: de-DE-B1-TEXT-004-003
+    term: 'Struktur'
+    translation: 'structure'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Struktur des Textes ist klar.'
+    exampleTranslation: 'The structure of the text is clear.'
+  - id: de-DE-B1-TEXT-004-004
+    term: 'zusammenhängend'
+    translation: 'coherent'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Der Text ist zusammenhängend geschrieben.'
+    exampleTranslation: 'The text is written coherently.'
+  - id: de-DE-B1-TEXT-004-005
+    term: 'Zusammenhang'
+    translation: 'context / coherence'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Zusammenhang ist klar.'
+    exampleTranslation: 'The context is clear.'
+  - id: de-DE-B1-TEXT-004-006
+    term: 'verfassen'
+    translation: 'to write / to compose'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich verfasse einen Brief an meinen Chef.'
+    exampleTranslation: 'I am writing a letter to my boss.'
+grammar:
+  - id: B1-TEXT-004-GR01
+    point: 'Writing connected text on familiar topics'
+    explanation: 'At B1, write coherent texts by: using topic sentences, logical connectors (deshalb, außerdem, aber), Präteritum for narration, and clear paragraph structure. Maintain focus on the topic throughout.'
+    examples:
+      - 'Ich interessiere mich für Sport. Deshalb mache ich jeden Tag Sport.'
+      - 'Außerdem lese ich gerne Bücher über das Thema.'
+culturalNotes: 'German written communication values "Klarheit" (clarity) and "Struktur" (structure); even informal emails follow a clear beginning-middle-end pattern.'

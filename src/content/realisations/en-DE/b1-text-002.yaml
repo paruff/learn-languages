@@ -1,0 +1,47 @@
+nodeId: B1-TEXT-002
+lang: en-DE
+vocabulary:
+  - id: en-DE-B1-TEXT-002-001
+    term: 'news'
+    translation: 'Nachricht'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Die Nachricht war aufregend.'
+    exampleTranslation: 'The news was exciting.'
+  - id: en-DE-B1-TEXT-002-002
+    term: 'main point'
+    translation: 'Hauptpunkt'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Was sind die Hauptpunkte?'
+    exampleTranslation: 'What are the main points?'
+  - id: en-DE-B1-TEXT-002-003
+    term: 'content'
+    translation: 'Inhalt'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Der Inhalt war klar strukturiert.'
+    exampleTranslation: 'The content was clearly structured.'
+  - id: en-DE-B1-TEXT-002-004
+    term: 'detailed'
+    translation: 'detailiert'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Der Artikel war sehr detailiert.'
+    exampleTranslation: 'The article was very detailed.'
+  - id: en-DE-B1-TEXT-002-005
+    term: 'to summarize'
+    translation: 'zusammenfassen'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich fasse die Hauptpunkte zusammen.'
+    exampleTranslation: 'I summarize the main points.'
+  - id: en-DE-B1-TEXT-002-006
+    term: 'to mean'
+    translation: 'bedeuten'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Was bedeutet das für uns?'
+    exampleTranslation: 'What does that mean for us?'
+grammar: []
+culturalNotes: 'German news articles prioritize "Aktualität" (currentness) and "Öffentlichkeitsrechts" (public interest); sensationalism is less common than in some other media cultures.'

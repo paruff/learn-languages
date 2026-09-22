@@ -1,0 +1,53 @@
+nodeId: B1-DISCOURSE-004
+lang: en-DE
+vocabulary:
+  - id: en-DE-B1-DISCOURSE-004-001
+    term: 'narrative / story'
+    translation: 'Erzählung'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Ich schreibe eine Erzählung.'
+    exampleTranslation: 'I am writing a narrative.'
+  - id: en-DE-B1-DISCOURSE-004-002
+    term: 'temporal sequence'
+    translation: 'Zeitfolge'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Die Zeitfolge ist wichtig.'
+    exampleTranslation: 'The temporal sequence is important.'
+  - id: en-DE-B1-DISCOURSE-004-003
+    term: 'events / occurrences'
+    translation: 'Geschehen'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Was ist geschehen?'
+    exampleTranslation: 'What happened?'
+  - id: en-DE-B1-DISCOURSE-004-004
+    term: 'to describe / to depict'
+    translation: 'schildern'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich schildere den Verlauf des Tages.'
+    exampleTranslation: 'I describe the course of the day.'
+  - id: en-DE-B1-DISCOURSE-004-005
+    term: 'report'
+    translation: 'Bericht'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Ich schreibe einen Bericht über meinen Urlaub.'
+    exampleTranslation: 'I am writing a report about my vacation.'
+  - id: en-DE-B1-DISCOURSE-004-006
+    term: 'to summarize'
+    translation: 'zusammenfassen'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Können Sie das kurz zusammenfassen?'
+    exampleTranslation: 'Can you briefly summarize that?'
+grammar:
+  - id: B1-DISCOURSE-004-GR01
+    point: 'Writing narratives with temporal markers'
+    explanation: 'Written narratives use Präteritum (hatte, war, ging) with connectors like danach, anschließend, schließlich. Perfekt is acceptable in informal writing but Präteritum is standard for formal reports.'
+    examples:
+      - 'Es war ein sonniger Tag. Ich fuhr zum Strand.'
+      - 'Danach ging ich ins Restaurant.'
+culturalNotes: 'German writing at B1 level uses clear paragraph structure; each paragraph typically covers one time period or aspect of the narrative.'

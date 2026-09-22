@@ -1,0 +1,53 @@
+nodeId: B1-DISCOURSE-004
+lang: de-DE
+vocabulary:
+  - id: de-DE-B1-DISCOURSE-004-001
+    term: 'Erzählung'
+    translation: 'narrative / story'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ich schreibe eine Erzählung.'
+    exampleTranslation: 'I am writing a narrative.'
+  - id: de-DE-B1-DISCOURSE-004-002
+    term: 'Zeitfolge'
+    translation: 'temporal sequence'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Zeitfolge ist wichtig.'
+    exampleTranslation: 'The temporal sequence is important.'
+  - id: de-DE-B1-DISCOURSE-004-003
+    term: 'Geschehen'
+    translation: 'events / occurrences'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Was ist geschehen?'
+    exampleTranslation: 'What happened?'
+  - id: de-DE-B1-DISCOURSE-004-004
+    term: 'schildern'
+    translation: 'to describe / to depict'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich schildere den Verlauf des Tages.'
+    exampleTranslation: 'I describe the course of the day.'
+  - id: de-DE-B1-DISCOURSE-004-005
+    term: 'Bericht'
+    translation: 'report'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ich schreibe einen Bericht über meinen Urlaub.'
+    exampleTranslation: 'I am writing a report about my vacation.'
+  - id: de-DE-B1-DISCOURSE-004-006
+    term: 'zusammenfassen'
+    translation: 'to summarize'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Können Sie das kurz zusammenfassen?'
+    exampleTranslation: 'Can you briefly summarize that?'
+grammar:
+  - id: B1-DISCOURSE-004-GR01
+    point: 'Writing narratives with temporal markers'
+    explanation: 'Written narratives use Präteritum (hatte, war, ging) with connectors like danach, anschließend, schließlich. Perfekt is acceptable in informal writing but Präteritum is standard for formal reports.'
+    examples:
+      - 'Es war ein sonniger Tag. Ich fuhr zum Strand.'
+      - 'Danach ging ich ins Restaurant.'
+culturalNotes: 'German writing at B1 level uses clear paragraph structure; each paragraph typically covers one time period or aspect of the narrative.'

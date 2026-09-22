@@ -1,0 +1,53 @@
+nodeId: B1-OPINION-002
+lang: de-DE
+vocabulary:
+  - id: de-DE-B1-OPINION-002-001
+    term: 'Das stimme ich zu'
+    translation: 'I agree'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Das stimme ich完全 zu.'
+    exampleTranslation: 'I completely agree.'
+  - id: de-DE-B1-OPINION-002-002
+    term: 'Ich bin derselben Meinung'
+    translation: 'I share the same opinion'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich bin derselben Meinung wie Sie.'
+    exampleTranslation: 'I share your opinion.'
+  - id: de-DE-B1-OPINION-002-003
+    term: 'Das sehe ich anders'
+    translation: 'I see it differently'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Das sehe ich anders, denn...'
+    exampleTranslation: 'I see it differently, because...'
+  - id: de-DE-B1-OPINION-002-004
+    term: 'Das bezweifle ich'
+    translation: 'I doubt that'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Das bezweifle ich sehr.'
+    exampleTranslation: 'I strongly doubt that.'
+  - id: de-DE-B1-OPINION-002-005
+    term: 'Ich bin nicht sicher'
+    translation: 'I am not sure'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich bin nicht sicher, ob das stimmt.'
+    exampleTranslation: 'I am not sure if that is true.'
+  - id: de-DE-B1-OPINION-002-006
+    term: 'Allerdings'
+    translation: 'however'
+    partOfSpeech: conjunction
+    gender: n/a
+    example: 'Allerdings gibt es auch andere Möglichkeiten.'
+    exampleTranslation: 'However, there are also other possibilities.'
+grammar:
+  - id: B1-OPINION-002-GR01
+    point: 'Polite agreement and disagreement'
+    explanation: 'German uses softening phrases for disagreement: "Das sehe ich anders" (I see it differently), "Da bin ich nicht ganz sicher" (I am not quite sure), "Das bezweifle ich" (I doubt that). Direct "Nein" is avoided in polite discourse.'
+    examples:
+      - 'Ich stimme zu, allerdings...'
+      - 'Das sehe ich etwas anders, weil...'
+culturalNotes: 'Germans value "Sachlichkeit" (objectivity) in discussion; polite disagreement is the norm, and "Ich bin anderer Meinung" is considered respectful rather than confrontational.'

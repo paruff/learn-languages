@@ -1,0 +1,47 @@
+nodeId: B1-TEXT-003
+lang: de-DE
+vocabulary:
+  - id: de-DE-B1-TEXT-003-001
+    term: 'Fachtext'
+    translation: 'technical text'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Fachtext war komplex.'
+    exampleTranslation: 'The technical text was complex.'
+  - id: de-DE-B1-TEXT-003-002
+    term: 'Fachbegriff'
+    translation: 'technical term'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Die Fachbegriffe waren schwer zu verstehen.'
+    exampleTranslation: 'The technical terms were difficult to understand.'
+  - id: de-DE-B1-TEXT-003-003
+    term: 'Anleitung'
+    translation: 'instruction / guide'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Anleitung war klar geschrieben.'
+    exampleTranslation: 'The instruction was written clearly.'
+  - id: de-DE-B1-TEXT-003-004
+    term: 'Arbeitstitel'
+    translation: 'job title'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Was ist Ihr Arbeitstitel?'
+    exampleTranslation: 'What is your job title?'
+  - id: de-DE-B1-TEXT-003-005
+    term: 'Arbeitsbereich'
+    translation: 'field of work'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'In welchem Arbeitsbereich tätig?'
+    exampleTranslation: 'In which field are you active?'
+  - id: de-DE-B1-TEXT-003-006
+    term: 'Prüfen'
+    translation: 'to check / to examine'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich muss die Details prüfen.'
+    exampleTranslation: 'I need to check the details.'
+grammar: []
+culturalNotes: 'German technical writing ("Fachtext") is known for its precision and use of compound words; understanding "Fachbegriffe" (technical terms) is essential for professional reading.'

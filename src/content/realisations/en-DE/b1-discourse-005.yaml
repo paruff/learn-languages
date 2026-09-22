@@ -1,0 +1,53 @@
+nodeId: B1-DISCOURSE-005
+lang: en-DE
+vocabulary:
+  - id: en-DE-B1-DISCOURSE-005-001
+    term: 'experience'
+    translation: 'Erfahrung'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Das war eine interessante Erfahrung.'
+    exampleTranslation: 'That was an interesting experience.'
+  - id: en-DE-B1-DISCOURSE-005-002
+    term: 'to describe'
+    translation: 'schildern'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich schildere meine Erfahrungen.'
+    exampleTranslation: 'I describe my experiences.'
+  - id: en-DE-B1-DISCOURSE-005-003
+    term: 'report'
+    translation: 'Bericht'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Ich schreibe einen kurzen Bericht.'
+    exampleTranslation: 'I am writing a short report.'
+  - id: en-DE-B1-DISCOURSE-005-004
+    term: 'content'
+    translation: 'Inhalt'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Der Inhalt war sehr klar.'
+    exampleTranslation: 'The content was very clear.'
+  - id: en-DE-B1-DISCOURSE-005-005
+    term: 'structure'
+    translation: 'Struktur'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Die Struktur des Berichts war gut.'
+    exampleTranslation: 'The structure of the report was good.'
+  - id: en-DE-B1-DISCOURSE-005-006
+    term: 'to summarize'
+    translation: 'zusammenfassen'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich fasse die Hauptpunkte zusammen.'
+    exampleTranslation: 'I summarize the main points.'
+grammar:
+  - id: B1-DISCOURSE-005-GR01
+    point: 'Writing short reports'
+    explanation: 'Short reports at B1 use Präteritum for narration, clear topic sentences, and logical connectors (deshalb, außerdem). Structure: introduction → events → conclusion/reflection.'
+    examples:
+      - 'Während meines Praktikums lernte ich viel.'
+      - 'Deshalb kann ich das Unternehmen empfehlen.'
+culturalNotes: 'German report writing ("Berichterstattung") emphasizes objectivity and factual language; personal opinions are typically separated from the factual account.'

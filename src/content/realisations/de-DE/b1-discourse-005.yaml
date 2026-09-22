@@ -1,0 +1,53 @@
+nodeId: B1-DISCOURSE-005
+lang: de-DE
+vocabulary:
+  - id: de-DE-B1-DISCOURSE-005-001
+    term: 'Erfahrung'
+    translation: 'experience'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Das war eine interessante Erfahrung.'
+    exampleTranslation: 'That was an interesting experience.'
+  - id: de-DE-B1-DISCOURSE-005-002
+    term: 'schildern'
+    translation: 'to describe'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich schildere meine Erfahrungen.'
+    exampleTranslation: 'I describe my experiences.'
+  - id: de-DE-B1-DISCOURSE-005-003
+    term: 'Bericht'
+    translation: 'report'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ich schreibe einen kurzen Bericht.'
+    exampleTranslation: 'I am writing a short report.'
+  - id: de-DE-B1-DISCOURSE-005-004
+    term: 'Inhalt'
+    translation: 'content'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Inhalt war sehr klar.'
+    exampleTranslation: 'The content was very clear.'
+  - id: de-DE-B1-DISCOURSE-005-005
+    term: 'Struktur'
+    translation: 'structure'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Struktur des Berichts war gut.'
+    exampleTranslation: 'The structure of the report was good.'
+  - id: de-DE-B1-DISCOURSE-005-006
+    term: 'zusammenfassen'
+    translation: 'to summarize'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich fasse die Hauptpunkte zusammen.'
+    exampleTranslation: 'I summarize the main points.'
+grammar:
+  - id: B1-DISCOURSE-005-GR01
+    point: 'Writing short reports'
+    explanation: 'Short reports at B1 use Präteritum for narration, clear topic sentences, and logical connectors (deshalb, außerdem). Structure: introduction → events → conclusion/reflection.'
+    examples:
+      - 'Während meines Praktikums lernte ich viel.'
+      - 'Deshalb kann ich das Unternehmen empfehlen.'
+culturalNotes: 'German report writing ("Berichterstattung") emphasizes objectivity and factual language; personal opinions are typically separated from the factual account.'

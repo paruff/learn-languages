@@ -1,0 +1,53 @@
+nodeId: B1-OPINION-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-B1-OPINION-001-001
+    term: 'meiner Meinung nach'
+    translation: 'in my opinion'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Meiner Meinung nach ist das richtig.'
+    exampleTranslation: 'In my opinion, that is correct.'
+  - id: de-DE-B1-OPINION-001-002
+    term: 'ich glaube'
+    translation: 'I believe'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich glaube, dass das besser ist.'
+    exampleTranslation: 'I believe that is better.'
+  - id: de-DE-B1-OPINION-001-003
+    term: 'Ich finde'
+    translation: 'I find'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich finde das sehr gut.'
+    exampleTranslation: 'I find that very good.'
+  - id: de-DE-B1-OPINION-001-004
+    term: 'denn'
+    translation: 'because'
+    partOfSpeech: conjunction
+    gender: n/a
+    example: 'Das ist gut, denn es hilft mir.'
+    exampleTranslation: 'That is good, because it helps me.'
+  - id: de-DE-B1-OPINION-001-005
+    term: 'Ich denke'
+    translation: 'I think'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich denke, das ist eine gute Idee.'
+    exampleTranslation: 'I think that is a good idea.'
+  - id: de-DE-B1-OPINION-001-006
+    term: 'Begründung'
+    translation: 'reasoning / justification'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Können Sie Ihre Begründung erklären?'
+    exampleTranslation: 'Can you explain your reasoning?'
+grammar:
+  - id: B1-OPINION-001-GR01
+    point: 'Expressing opinions with reasons'
+    explanation: 'At B1, opinions are expressed with: "Meiner Meinung nach..." (formal), "Ich finde, dass..." (informal), "Ich glaube, dass..." followed by reasons using denn, weil, oder, und. The subjunctive "würde" softens opinions.'
+    examples:
+      - 'Meiner Meinung nach ist das die beste Lösung, weil...'
+      - 'Ich finde, dass wir mehr Zeit brauchen.'
+culturalNotes: 'Germans value well-reasoned opinions ("begründete Meinung"); stating an opinion without supporting reasons is considered incomplete at B1 level.'
