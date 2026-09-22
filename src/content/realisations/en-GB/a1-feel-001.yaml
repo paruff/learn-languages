@@ -1,28 +1,42 @@
-nodeId: A1-FEEL-001
-lang: en-GB
+nodeId: 'A1-FEEL-001'
+lang: 'en-GB'
 vocabulary:
-  - id: en-GB-A1-FEEL-001-001
-    term: 'I am happy'
-    translation: 'Estou feliz'
-    partOfSpeech: phrase
-    example: 'I am happy today.'
-    exampleTranslation: 'Estou feliz hoje.'
-  - id: en-GB-A1-FEEL-001-002
-    term: 'I am sad'
-    translation: 'Estou triste'
-    partOfSpeech: phrase
-    example: 'I am sad about the news.'
-    exampleTranslation: 'Estou triste com a notícia.'
-  - id: en-GB-A1-FEEL-001-003
-    term: 'I am tired'
-    translation: 'Estou cansado/cansada'
-    partOfSpeech: phrase
-    example: 'I am tired after work.'
-    exampleTranslation: 'Estou cansado depois do trabalho.'
-  - id: en-GB-A1-FEEL-001-004
-    term: "I'm hungry/thirsty"
-    translation: 'Tenho fome/sede'
-    partOfSpeech: phrase
-    example: "I'm very hungry."
-    exampleTranslation: 'Tenho muita fome.'
+  - id: 'en-GB-A1-FEEL-001-001'
+    term: 'happy'
+    translation: 'glücklich'
+    partOfSpeech: 'adjective'
+    example: 'I am very happy today.'
+    exampleTranslation: 'Ich bin heute sehr glücklich.'
+  - id: 'en-GB-A1-FEEL-001-002'
+    term: 'sad'
+    translation: 'traurig'
+    partOfSpeech: 'adjective'
+    example: 'He is sad.'
+    exampleTranslation: 'Er ist traurig.'
+  - id: 'en-GB-A1-FEEL-001-003'
+    term: 'tired'
+    translation: 'müde'
+    partOfSpeech: 'adjective'
+    example: 'I am very tired.'
+    exampleTranslation: 'Ich bin sehr müde.'
+  - id: 'en-GB-A1-FEEL-001-004'
+    term: 'hungry'
+    translation: 'hungrig'
+    partOfSpeech: 'adjective'
+    example: 'I am hungry.'
+    exampleTranslation: 'Ich bin hungrig.'
+  - id: 'en-GB-A1-FEEL-001-005'
+    term: 'sick'
+    translation: 'krank'
+    partOfSpeech: 'adjective'
+    example: 'She is sick.'
+    exampleTranslation: 'Sie ist krank.'
+  - id: 'en-GB-A1-FEEL-001-006'
+    term: 'well'
+    translation: 'gut'
+    partOfSpeech: 'adjective'
+    example: 'I am doing well.'
+    exampleTranslation: 'Mir geht es gut.'
 grammar: []
+culturalNotes: 'In German, you say "Ich bin hungrig" (I am hungry) rather than "I
+  have hunger" — the adjective form is used directly with "sein" (to be).'

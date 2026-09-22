@@ -1,22 +1,42 @@
-nodeId: A1-REQUEST-001
-lang: en-GB
+nodeId: 'A1-REQUEST-001'
+lang: 'en-GB'
 vocabulary:
-  - id: en-GB-A1-REQUEST-001-001
+  - id: 'en-GB-A1-REQUEST-001-001'
     term: 'Can you help me?'
-    translation: 'Pode ajudar-me?'
-    partOfSpeech: phrase
-    example: 'Can you help me, please?'
-    exampleTranslation: 'Pode ajudar-me, por favor?'
-  - id: en-GB-A1-REQUEST-001-002
-    term: 'I want...'
-    translation: 'Quero...'
-    partOfSpeech: phrase
-    example: 'I want a coffee, please.'
-    exampleTranslation: 'Quero um café, por favor.'
-  - id: en-GB-A1-REQUEST-001-003
-    term: 'Could you...?'
-    translation: 'Poderia...?'
-    partOfSpeech: phrase
-    example: 'Could you open the window?'
-    exampleTranslation: 'Poderia abrir a janela?'
+    translation: 'Können Sie mir helfen?'
+    partOfSpeech: 'phrase'
+    example: 'Excuse me, can you help me?'
+    exampleTranslation: 'Entschuldigung, können Sie mir helfen?'
+  - id: 'en-GB-A1-REQUEST-001-002'
+    term: 'I would like...'
+    translation: 'Ich möchte...'
+    partOfSpeech: 'phrase'
+    example: 'I would like to order a coffee.'
+    exampleTranslation: 'Ich möchte einen Kaffee bestellen.'
+  - id: 'en-GB-A1-REQUEST-001-003'
+    term: 'Please'
+    translation: 'Bitte'
+    partOfSpeech: 'adverb'
+    example: 'A water, please.'
+    exampleTranslation: 'Ein Wasser, bitte.'
+  - id: 'en-GB-A1-REQUEST-001-004'
+    term: 'Thank you'
+    translation: 'Danke'
+    partOfSpeech: 'interjection'
+    example: 'Thank you for your help.'
+    exampleTranslation: 'Danke für Ihre Hilfe.'
+  - id: 'en-GB-A1-REQUEST-001-005'
+    term: 'May I...?'
+    translation: 'Darf ich...?'
+    partOfSpeech: 'phrase'
+    example: 'May I pass?'
+    exampleTranslation: 'Darf ich vorbei?'
+  - id: 'en-GB-A1-REQUEST-001-006'
+    term: 'Can you repeat that, please?'
+    translation: 'Können Sie das bitte wiederholen?'
+    partOfSpeech: 'phrase'
+    example: 'Can you say that more slowly, please?'
+    exampleTranslation: 'Können Sie das bitte langsamer sagen?'
 grammar: []
+culturalNotes: 'Politeness is important in German; always use "Bitte" (please) and
+  "Danke" (thank you). "Können Sie" is the polite form for requests.'

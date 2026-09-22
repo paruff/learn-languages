@@ -1,22 +1,47 @@
-nodeId: A1-INTRO-001
-lang: de-DE
+nodeId: 'A1-INTRO-001'
+lang: 'de-DE'
 vocabulary:
-  - id: de-DE-A1-INTRO-001-001
+  - id: 'de-DE-A1-INTRO-001-001'
     term: 'Ich heiße'
     translation: 'My name is'
-    partOfSpeech: phrase
-    example: 'Ich heiße Anna.'
-    exampleTranslation: 'My name is Anna.'
-  - id: de-DE-A1-INTRO-001-002
+    partOfSpeech: 'phrase'
+    example: 'Ich heiße Thomas.'
+    exampleTranslation: 'My name is Thomas.'
+  - id: 'de-DE-A1-INTRO-001-002'
     term: 'Freut mich'
     translation: 'Nice to meet you'
-    partOfSpeech: interjection
-    example: 'Freut mich, Sie kennenzulernen.'
-    exampleTranslation: 'Nice to meet you (literally: pleases me to get to know you).'
+    partOfSpeech: 'phrase'
+    example: 'Ich bin Anna. Freut mich.'
+    exampleTranslation: "I'm Anna. Nice to meet you."
+  - id: 'de-DE-A1-INTRO-001-003'
+    term: 'Ich komme aus'
+    translation: 'I am from'
+    partOfSpeech: 'phrase'
+    example: 'Ich komme aus England.'
+    exampleTranslation: 'I am from England.'
+  - id: 'de-DE-A1-INTRO-001-004'
+    term: 'Ich wohne in'
+    translation: 'I live in'
+    partOfSpeech: 'phrase'
+    example: 'Ich wohne in Berlin.'
+    exampleTranslation: 'I live in Berlin.'
+  - id: 'de-DE-A1-INTRO-001-005'
+    term: 'Ich bin ... Jahre alt'
+    translation: 'I am ... years old'
+    partOfSpeech: 'phrase'
+    example: 'Ich bin fünfundzwanzig Jahre alt.'
+    exampleTranslation: 'I am 25 years old.'
+  - id: 'de-DE-A1-INTRO-001-006'
+    term: 'Ich spreche'
+    translation: 'I speak'
+    partOfSpeech: 'phrase'
+    example: 'Ich spreche Englisch und ein bisschen Deutsch.'
+    exampleTranslation: 'I speak English and a little German.'
 grammar:
-  - id: de-DE-A1-INTRO-001-G1
+  - id: 'de-DE-A1-INTRO-001-G1'
     point: 'Formal vs. informal address (du/Sie)'
-    explanation: "German distinguishes informal 'du' from formal 'Sie'. Use 'Sie' with strangers, elders, and professional contexts."
+    explanation: "German distinguishes informal 'du' from formal 'Sie'. Use 'Sie'
+      with strangers, elders, and professional contexts."
     examples:
       - 'Wie heißt du? (informal)'
       - 'Wie heißen Sie? (formal)'

@@ -1,7 +1,12 @@
 import { readFileSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import { parse } from 'yaml';
-import { checkRealisationReferences, type RealisationRef } from '../src/lib/contentIntegrity.ts';
+import {
+  checkRealisationReferences,
+  checkVocabularyParity,
+  type RealisationRef,
+  type VocabularyRef,
+} from '../src/lib/contentIntegrity.ts';
 
 function findYamlFiles(dir: string): string[] {
   const entries = readdirSync(dir);
@@ -25,6 +30,22 @@ function loadRealisationRefs(dir: string): RealisationRef[] {
   return findYamlFiles(dir).map((file) => {
     const data = parse(readFileSync(file, 'utf-8')) as { nodeId?: string };
     return { file, nodeId: data?.nodeId ?? '' };
+  });
+}
+
+function loadVocabularyRefs(dir: string): VocabularyRef[] {
+  return findYamlFiles(dir).map((file) => {
+    const data = parse(readFileSync(file, 'utf-8')) as {
+      nodeId?: string;
+      lang?: string;
+      vocabulary?: unknown[];
+    };
+    return {
+      file,
+      nodeId: data?.nodeId ?? '',
+      lang: data?.lang ?? '',
+      vocabularyCount: data?.vocabulary?.length ?? 0,
+    };
   });
 }
 
@@ -57,3 +78,17 @@ if (!result.valid) {
 console.log(
   `Content integrity check passed: ${realisations.length} realisation(s) all reference valid cefr-nodes (${cefrNodeIds.size} node(s)).`
 );
+
+// Informational only (does not fail the build) -- see checkVocabularyParity's
+// doc comment for why this is a warning, not a gate.
+const vocabularyRefs = existsOrEmpty(realisationsDir) ? loadVocabularyRefs(realisationsDir) : [];
+const parityWarnings = checkVocabularyParity(vocabularyRefs);
+if (parityWarnings.length > 0) {
+  console.warn(
+    `\nVocabulary-count parity warning: ${parityWarnings.length} node(s) have realisations with mismatched vocabulary counts (informational, not a build failure):`
+  );
+  for (const warning of parityWarnings) {
+    const summary = warning.counts.map((c) => `${c.lang}=${c.count}`).join(', ');
+    console.warn(`  ${warning.nodeId}: ${summary}`);
+  }
+}

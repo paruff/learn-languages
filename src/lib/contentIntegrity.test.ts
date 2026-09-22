@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { checkRealisationReferences } from './contentIntegrity';
+import { checkRealisationReferences, checkVocabularyParity } from './contentIntegrity';
 
 describe('checkRealisationReferences', () => {
   it('passes when every realisation references an existing cefr-node', () => {
@@ -46,5 +46,57 @@ describe('checkRealisationReferences', () => {
     const result = checkRealisationReferences(cefrNodeIds, realisations);
 
     expect(result.missingReferences).toHaveLength(2);
+  });
+});
+
+describe('checkVocabularyParity', () => {
+  it('flags a nodeId whose realisations have different vocabulary counts', () => {
+    const refs = [
+      {
+        file: 'en-GB/a1-greet-001.yaml',
+        nodeId: 'A1-GREET-001',
+        lang: 'en-GB',
+        vocabularyCount: 2,
+      },
+      {
+        file: 'de-DE/a1-greet-001.yaml',
+        nodeId: 'A1-GREET-001',
+        lang: 'de-DE',
+        vocabularyCount: 6,
+      },
+    ];
+
+    const warnings = checkVocabularyParity(refs);
+
+    expect(warnings).toEqual([
+      {
+        nodeId: 'A1-GREET-001',
+        counts: [
+          { lang: 'en-GB', file: 'en-GB/a1-greet-001.yaml', count: 2 },
+          { lang: 'de-DE', file: 'de-DE/a1-greet-001.yaml', count: 6 },
+        ],
+      },
+    ]);
+  });
+
+  it('does not flag a nodeId whose realisations all agree on vocabulary count', () => {
+    const refs = [
+      { file: 'en-GB/a1-numb-001.yaml', nodeId: 'A1-NUMB-001', lang: 'en-GB', vocabularyCount: 3 },
+      { file: 'es-ES/a1-numb-001.yaml', nodeId: 'A1-NUMB-001', lang: 'es-ES', vocabularyCount: 3 },
+    ];
+
+    expect(checkVocabularyParity(refs)).toEqual([]);
+  });
+
+  it('does not flag a nodeId with only one realisation (nothing to compare against yet)', () => {
+    const refs = [
+      { file: 'en-GB/a1-food-001.yaml', nodeId: 'A1-FOOD-001', lang: 'en-GB', vocabularyCount: 5 },
+    ];
+
+    expect(checkVocabularyParity(refs)).toEqual([]);
+  });
+
+  it('returns an empty list for no realisations at all', () => {
+    expect(checkVocabularyParity([])).toEqual([]);
   });
 });

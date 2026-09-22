@@ -1,22 +1,43 @@
-nodeId: A1-OFFER-001
-lang: en-GB
+nodeId: 'A1-OFFER-001'
+lang: 'en-GB'
 vocabulary:
-  - id: en-GB-A1-OFFER-001-001
-    term: 'Do you want...?'
-    translation: 'Quer...?'
-    partOfSpeech: phrase
-    example: 'Do you want a coffee?'
-    exampleTranslation: 'Quer um café?'
-  - id: en-GB-A1-OFFER-001-002
+  - id: 'en-GB-A1-OFFER-001-001'
     term: 'Would you like...?'
-    translation: 'Gostaria de...?'
-    partOfSpeech: phrase
-    example: 'Would you like more tea?'
-    exampleTranslation: 'Gostaria de mais chá?'
-  - id: en-GB-A1-OFFER-001-003
+    translation: 'Möchten Sie...?'
+    partOfSpeech: 'phrase'
+    example: 'Would you like a coffee?'
+    exampleTranslation: 'Möchten Sie einen Kaffee?'
+  - id: 'en-GB-A1-OFFER-001-002'
     term: 'Shall we...?'
-    translation: 'Vamos...?'
-    partOfSpeech: phrase
-    example: 'Shall we go to the cinema today?'
-    exampleTranslation: 'Vamos ao cinema hoje?'
+    translation: 'Sollen wir...?'
+    partOfSpeech: 'phrase'
+    example: 'Shall we go to the cinema?'
+    exampleTranslation: 'Sollen wir ins Kino gehen?'
+  - id: 'en-GB-A1-OFFER-001-003'
+    term: 'Do you want...?'
+    translation: 'Willst du...?'
+    partOfSpeech: 'phrase'
+    example: 'Do you want to come along?'
+    exampleTranslation: 'Willst du mitkommen?'
+  - id: 'en-GB-A1-OFFER-001-004'
+    term: 'invitation'
+    translation: 'Einladung'
+    partOfSpeech: 'noun'
+    gender: 'feminine'
+    example: 'Thank you very much for the invitation.'
+    exampleTranslation: 'Vielen Dank für die Einladung.'
+  - id: 'en-GB-A1-OFFER-001-005'
+    term: 'to offer'
+    translation: 'anbieten'
+    partOfSpeech: 'verb'
+    example: 'Can I offer you something?'
+    exampleTranslation: 'Kann ich Ihnen etwas anbieten?'
+  - id: 'en-GB-A1-OFFER-001-006'
+    term: 'gladly'
+    translation: 'gerne'
+    partOfSpeech: 'adverb'
+    example: 'Yes, with pleasure!'
+    exampleTranslation: 'Ja, gerne!'
 grammar: []
+culturalNotes: '"Möchten Sie" is the polite form; "Willst du" is informal. Germans
+  distinguish clearly between "Sie" (formal you) and "du" (informal you).'

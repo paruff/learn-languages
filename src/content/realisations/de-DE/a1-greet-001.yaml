@@ -1,17 +1,42 @@
-nodeId: A1-GREET-001
-lang: de-DE
+nodeId: 'A1-GREET-001'
+lang: 'de-DE'
 vocabulary:
-  - id: de-DE-A1-GREET-001-001
+  - id: 'de-DE-A1-GREET-001-001'
     term: 'Hallo'
     translation: 'Hello'
-    partOfSpeech: interjection
+    partOfSpeech: 'interjection'
     example: 'Hallo, wie geht es dir?'
     exampleTranslation: 'Hello, how are you?'
-  - id: de-DE-A1-GREET-001-002
+  - id: 'de-DE-A1-GREET-001-002'
     term: 'Guten Morgen'
     translation: 'Good morning'
-    partOfSpeech: phrase
+    partOfSpeech: 'phrase'
     example: 'Guten Morgen, Herr Schmidt.'
     exampleTranslation: 'Good morning, Mr. Schmidt.'
+  - id: 'de-DE-A1-GREET-001-003'
+    term: 'Guten Abend'
+    translation: 'Good evening'
+    partOfSpeech: 'phrase'
+    example: 'Guten Abend, meine Damen und Herren.'
+    exampleTranslation: 'Good evening, ladies and gentlemen.'
+  - id: 'de-DE-A1-GREET-001-004'
+    term: 'Wie geht es Ihnen?'
+    translation: 'How are you?'
+    partOfSpeech: 'phrase'
+    example: 'Guten Morgen! Wie geht es Ihnen?'
+    exampleTranslation: 'Good morning! How are you?'
+  - id: 'de-DE-A1-GREET-001-005'
+    term: 'Gut, danke'
+    translation: 'Fine, thank you'
+    partOfSpeech: 'phrase'
+    example: 'Mir geht es gut, danke.'
+    exampleTranslation: 'I am fine, thank you.'
+  - id: 'de-DE-A1-GREET-001-006'
+    term: 'Freut mich'
+    translation: 'Nice to meet you'
+    partOfSpeech: 'phrase'
+    example: 'Ich bin Anna. Freut mich.'
+    exampleTranslation: "I'm Anna. Nice to meet you."
 grammar: []
-culturalNotes: 'In Germany, a firm handshake is the standard greeting in both formal and everyday settings; cheek kisses are far less common than in Spain or Portugal.'
+culturalNotes: 'In Germany, a firm handshake is the standard greeting in both formal
+  and everyday settings; cheek kisses are far less common than in Spain or Portugal.'

@@ -1,28 +1,43 @@
-nodeId: A1-LOC-001
-lang: en-GB
+nodeId: 'A1-LOC-001'
+lang: 'en-GB'
 vocabulary:
-  - id: en-GB-A1-LOC-001-001
+  - id: 'en-GB-A1-LOC-001-001'
     term: 'Where is...?'
-    translation: 'Onde fica...?'
-    partOfSpeech: phrase
+    translation: 'Wo ist...?'
+    partOfSpeech: 'phrase'
     example: 'Where is the train station?'
-    exampleTranslation: 'Onde fica a estação de comboios?'
-  - id: en-GB-A1-LOC-001-002
-    term: 'On the left'
-    translation: 'À esquerda'
-    partOfSpeech: phrase
-    example: 'The shop is on the left.'
-    exampleTranslation: 'A loja fica à esquerda.'
-  - id: en-GB-A1-LOC-001-003
-    term: 'On the right'
-    translation: 'À direita'
-    partOfSpeech: phrase
-    example: 'Turn right.'
-    exampleTranslation: 'Vire à direita.'
-  - id: en-GB-A1-LOC-001-004
-    term: 'Straight ahead'
-    translation: 'Em frente'
-    partOfSpeech: phrase
+    exampleTranslation: 'Wo ist der Bahnhof?'
+  - id: 'en-GB-A1-LOC-001-002'
+    term: 'left'
+    translation: 'links'
+    partOfSpeech: 'adverb'
+    example: 'Go left.'
+    exampleTranslation: 'Gehen Sie links.'
+  - id: 'en-GB-A1-LOC-001-003'
+    term: 'right'
+    translation: 'rechts'
+    partOfSpeech: 'adverb'
+    example: 'The restaurant is on the right.'
+    exampleTranslation: 'Das Restaurant ist rechts.'
+  - id: 'en-GB-A1-LOC-001-004'
+    term: 'straight ahead'
+    translation: 'geradeaus'
+    partOfSpeech: 'adverb'
     example: 'Go straight ahead.'
-    exampleTranslation: 'Siga em frente.'
+    exampleTranslation: 'Gehen Sie geradeaus.'
+  - id: 'en-GB-A1-LOC-001-005'
+    term: 'street'
+    translation: 'Straße'
+    partOfSpeech: 'noun'
+    gender: 'feminine'
+    example: 'The street is long.'
+    exampleTranslation: 'Die Straße ist lang.'
+  - id: 'en-GB-A1-LOC-001-006'
+    term: 'away'
+    translation: 'entfernt'
+    partOfSpeech: 'adjective'
+    example: 'How far away is it?'
+    exampleTranslation: 'Wie weit ist es entfernt?'
 grammar: []
+culturalNotes: 'Germans are generally precise with directions; saying "zweite Straße
+  links" (second street on the left) is more common than vague references.'
