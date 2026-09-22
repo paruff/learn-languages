@@ -4,7 +4,7 @@ Establishes where it's safe to source reference material (audio, images, text/vo
 
 ## Why this exists
 
-An earlier session's research into AIMA's "Português Para Todos" course surfaced a real constraint: a course's module *titles* are useful for cross-checking topic priorities against real-world curricula, but its *content* (audio, images, text) isn't reusable without a license — see `docs/cefr-mapping.md`'s AIMA cross-reference table, which cites titles only. This document turns that one-off judgment call into a repeatable policy.
+An earlier session's research into AIMA's "Português Para Todos" course surfaced a real constraint: a course's module _titles_ are useful for cross-checking topic priorities against real-world curricula, but its _content_ (audio, images, text) isn't reusable without a license — see `docs/cefr-mapping.md`'s AIMA cross-reference table, which cites titles only. This document turns that one-off judgment call into a repeatable policy.
 
 ## Acceptable sources per media type
 
@@ -31,12 +31,13 @@ Before referencing a new image from `imageUrl`, verify it's **pedagogically clea
 
 **National-language-institute CEFR inventories only** — freely published curriculum documents from the relevant country's official language-promotion body:
 
-| Language | Source                                                    | Status                                      |
-| -------- | ----------------------------------------------------------- | ---------------------------------------------- |
-| pt-PT    | Referencial Camões PLE (Instituto Camões)                   | Verified, documented in `docs/cefr-mapping.md`    |
-| es-ES    | Plan Curricular del Instituto Cervantes (PCIC)               | Verified, documented in `docs/es-cefr-mapping.md` |
+| Language | Source                                                                                                                           | Status                                            |
+| -------- | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
+| pt-PT    | Referencial Camões PLE (Instituto Camões)                                                                                        | Verified, documented in `docs/cefr-mapping.md`    |
+| es-ES    | Plan Curricular del Instituto Cervantes (PCIC)                                                                                   | Verified, documented in `docs/es-cefr-mapping.md` |
+| de-DE    | Goethe-Institut Prüfungsziele · Testbeschreibung documents (NOT "Profile Deutsch" — that's a paywalled Langenscheidt/Klett book) | Verified, documented in `docs/de-cefr-mapping.md` |
 
-**Not** acceptable: textbook content, scraped course-platform text, or any copyrighted teaching material. A commercial course's module *titles* may be cited for cross-checking topic coverage (as already done for AIMA), but never its written content.
+**Not** acceptable: textbook content, scraped course-platform text, or any copyrighted teaching material. A commercial course's module _titles_ may be cited for cross-checking topic coverage (as already done for AIMA), but never its written content.
 
 ## Attribution ledger
 
@@ -44,7 +45,7 @@ Before referencing a new image from `imageUrl`, verify it's **pedagogically clea
 
 ## Cross-references
 
-- **Spec NG7** ("AI-generated content without human review" — explicitly out of scope per `specification -design.md`): content authored with AI assistance in this repo still goes through the repo's normal PR review before merge — this policy doesn't change that gate, it only governs *where source material comes from*, not who reviews the result.
+- **Spec NG7** ("AI-generated content without human review" — explicitly out of scope per `specification -design.md`): content authored with AI assistance in this repo still goes through the repo's normal PR review before merge — this policy doesn't change that gate, it only governs _where source material comes from_, not who reviews the result.
 - **CLAUDE.md §7 (Security & Compliance / Privacy by Default)**: this policy only concerns openly-licensed third-party reference material, not user data — no overlap or conflict with the no-PII/no-tracking constraints there.
 
 ## Process for a new language or new image
