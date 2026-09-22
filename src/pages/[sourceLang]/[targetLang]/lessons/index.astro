@@ -2,7 +2,7 @@
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { withBase } from '../../../../lib/urls';
-import { getAvailablePairs } from '../../../../lib/pairLoader';
+import { getAvailablePairs, loadPair } from '../../../../lib/pairLoader';
 import { languageName } from '../../../../lib/languageNames';
 import { getSkillIcon } from '../../../../lib/skillIcon';
 
@@ -13,10 +13,18 @@ export async function getStaticPaths() {
 
 const { sourceLang, targetLang } = Astro.params;
 
-const [nodes, realisations] = await Promise.all([
+const [nodes, realisations, pairedItems] = await Promise.all([
   getCollection('cefr-nodes'),
   getCollection('realisations'),
+  loadPair(sourceLang, targetLang),
 ]);
+
+// Per-lesson item ids (issue #37) — grouped client-side against localStorage
+// via computeNodeProgress, the same mastery threshold progress.astro uses.
+const nodeItemIds: Record<string, string[]> = {};
+for (const item of pairedItems) {
+  (nodeItemIds[item.nodeId] ??= []).push(item.target.id);
+}
 
 const lessons = nodes
   .filter((node) =>
@@ -86,6 +94,7 @@ const targetName = languageName(targetLang);
                 </svg>
                 <span class="lesson-index__can-do">{node.canDo}</span>
                 <span class="lesson-index__skill-label">{node.skill.replace('_', ' ')}</span>
+                <span class="lesson-index__progress" data-node-id={node.nodeId} hidden />
               </a>
             </li>
           ))}
@@ -97,6 +106,12 @@ const targetName = languageName(targetLang);
   <p>
     <a href={withBase(`/${sourceLang}/${targetLang}/review/`)}>Go straight to review →</a>
   </p>
+
+  <script
+    type="application/json"
+    id="lesson-progress-data"
+    set:html={JSON.stringify({ sourceLang, targetLang, nodeItemIds })}
+  />
 </BaseLayout>
 
 <style>
@@ -162,4 +177,54 @@ const targetName = languageName(targetLang);
     color: var(--color-text-muted);
     text-transform: capitalize;
   }
+  .lesson-index__progress {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: calc(var(--spacing-unit) * 0.75);
+  }
+  .lesson-index__progress-bar {
+    width: 48px;
+  }
+  .lesson-index__progress-label {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    white-space: nowrap;
+  }
 </style>
+
+<script>
+  import { loadState } from '../../../../lib/storage';
+  import { computeNodeProgress, type TrackedItem } from '../../../../lib/progress';
+
+  const dataEl = document.getElementById('lesson-progress-data');
+  const { sourceLang, targetLang, nodeItemIds } = JSON.parse(dataEl?.textContent ?? '{}') as {
+    sourceLang: string;
+    targetLang: string;
+    nodeItemIds: Record<string, string[]>;
+  };
+
+  const items: TrackedItem[] = Object.entries(nodeItemIds).flatMap(([nodeId, itemIds]) =>
+    itemIds.map((itemId) => ({
+      itemId,
+      nodeId,
+      cefrLevel: '',
+      canDo: '',
+      repetitions: loadState(sourceLang, targetLang, 'forward', itemId).repetitions,
+    }))
+  );
+
+  const progress = computeNodeProgress(items);
+
+  for (const el of document.querySelectorAll<HTMLElement>('.lesson-index__progress')) {
+    const nodeId = el.dataset.nodeId;
+    const p = nodeId ? progress.get(nodeId) : undefined;
+    if (!p) continue;
+
+    el.hidden = false;
+    el.innerHTML = `
+      <span class="progress-bar lesson-index__progress-bar"><span class="progress-bar__fill" style="width: ${p.percent}%"></span></span>
+      <span class="lesson-index__progress-label">${p.masteredItems}/${p.totalItems}</span>
+    `;
+  }
+</script>

@@ -1,5 +1,10 @@
 import { describe, it, expect } from 'vitest';
-import { computeCefrProgress, computeOverallMastery, type TrackedItem } from './progress';
+import {
+  computeCefrProgress,
+  computeOverallMastery,
+  computeNodeProgress,
+  type TrackedItem,
+} from './progress';
 
 const items: TrackedItem[] = [
   { itemId: 'a1', nodeId: 'A1-GREET-001', cefrLevel: 'A1', canDo: 'Can greet', repetitions: 2 },
@@ -34,6 +39,37 @@ describe('computeCefrProgress', () => {
 
   it('returns an empty level list for no items', () => {
     expect(computeCefrProgress([])).toEqual({ levels: [], nextRecommended: null });
+  });
+});
+
+describe('computeNodeProgress', () => {
+  it('aggregates mastery per lesson (nodeId), independent of cefrLevel grouping', () => {
+    const progress = computeNodeProgress(items);
+    expect(progress.get('A1-GREET-001')).toEqual({
+      nodeId: 'A1-GREET-001',
+      totalItems: 2,
+      masteredItems: 1,
+      percent: 50,
+    });
+    expect(progress.get('A2-FOOD-001')).toEqual({
+      nodeId: 'A2-FOOD-001',
+      totalItems: 1,
+      masteredItems: 1,
+      percent: 100,
+    });
+  });
+
+  it('returns an empty map for no items', () => {
+    expect(computeNodeProgress([]).size).toBe(0);
+  });
+
+  it('agrees with computeCefrProgress on what counts as mastered (same threshold)', () => {
+    const { levels } = computeCefrProgress(items);
+    const nodeProgress = computeNodeProgress(items);
+    const a1Total = [...nodeProgress.values()]
+      .filter((p) => items.find((i) => i.nodeId === p.nodeId)?.cefrLevel === 'A1')
+      .reduce((sum, p) => sum + p.masteredItems, 0);
+    expect(a1Total).toBe(levels.find((l) => l.cefrLevel === 'A1')?.masteredItems);
   });
 });
 
