@@ -1,0 +1,17 @@
+nodeId: A1-GREET-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-A1-GREET-001-001
+    term: 'Hallo'
+    translation: 'Hello'
+    partOfSpeech: interjection
+    example: 'Hallo, wie geht es dir?'
+    exampleTranslation: 'Hello, how are you?'
+  - id: de-DE-A1-GREET-001-002
+    term: 'Guten Morgen'
+    translation: 'Good morning'
+    partOfSpeech: phrase
+    example: 'Guten Morgen, Herr Schmidt.'
+    exampleTranslation: 'Good morning, Mr. Schmidt.'
+grammar: []
+culturalNotes: 'In Germany, a firm handshake is the standard greeting in both formal and everyday settings; cheek kisses are far less common than in Spain or Portugal.'

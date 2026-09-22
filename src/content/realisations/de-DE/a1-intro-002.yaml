@@ -1,0 +1,10 @@
+nodeId: A1-INTRO-002
+lang: de-DE
+vocabulary:
+  - id: de-DE-A1-INTRO-002-001
+    term: 'Wie heißen Sie?'
+    translation: 'What is your name?'
+    partOfSpeech: phrase
+    example: 'Entschuldigung, wie heißen Sie?'
+    exampleTranslation: 'Excuse me, what is your name?'
+grammar: []

@@ -1,0 +1,28 @@
+nodeId: A1-NUMB-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-A1-NUMB-001-001
+    term: 'Eins'
+    translation: 'One'
+    partOfSpeech: adjective
+    example: 'Ich habe einen Bruder.'
+    exampleTranslation: 'I have one brother.'
+    imageUrl: 'um.webp'
+    imageAlt: 'A large red number 1 shaped as a birthday candle'
+  - id: de-DE-A1-NUMB-001-002
+    term: 'Zwei'
+    translation: 'Two'
+    partOfSpeech: adjective
+    example: 'Ich möchte zwei Kaffees.'
+    exampleTranslation: 'I want two coffees.'
+    imageUrl: 'dois.webp'
+    imageAlt: 'A large red number 2 shaped as a birthday candle'
+  - id: de-DE-A1-NUMB-001-003
+    term: 'Drei'
+    translation: 'Three'
+    partOfSpeech: adjective
+    example: 'Sie hat drei Kinder.'
+    exampleTranslation: 'She has three children.'
+    imageUrl: 'tres.webp'
+    imageAlt: 'A large red number 3 shaped as a birthday candle'
+grammar: []

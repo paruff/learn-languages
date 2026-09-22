@@ -1,0 +1,16 @@
+nodeId: A1-GREET-002
+lang: de-DE
+vocabulary:
+  - id: de-DE-A1-GREET-002-001
+    term: 'Tschüss'
+    translation: 'Bye'
+    partOfSpeech: interjection
+    example: 'Tschüss, bis morgen!'
+    exampleTranslation: 'Bye, see you tomorrow!'
+  - id: de-DE-A1-GREET-002-002
+    term: 'Bis später'
+    translation: 'See you later'
+    partOfSpeech: phrase
+    example: 'Bis später, einen schönen Nachmittag!'
+    exampleTranslation: 'See you later, have a good afternoon!'
+grammar: []
