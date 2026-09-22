@@ -1,0 +1,47 @@
+nodeId: C1-SPOKEN-003
+lang: en-DE
+vocabulary:
+  - id: en-DE-C1-SPOKEN-003-001
+    term: 'complex'
+    translation: 'komplex'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Das war eine komplexe Frage.'
+    exampleTranslation: 'That was a complex question.'
+  - id: en-DE-C1-SPOKEN-003-002
+    term: 'abstract'
+    translation: 'abstrakt'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Das Thema war sehr abstrakt.'
+    exampleTranslation: 'The topic was very abstract.'
+  - id: en-DE-C1-SPOKEN-003-003
+    term: 'concrete'
+    translation: 'konkret'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Können Sie ein konkretes Beispiel nennen?'
+    exampleTranslation: 'Can you name a concrete example?'
+  - id: en-DE-C1-SPOKEN-003-004
+    term: 'main idea'
+    translation: 'Hauptgedanke'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Was ist der Hauptgedanke?'
+    exampleTranslation: 'What is the main idea?'
+  - id: en-DE-C1-SPOKEN-003-005
+    term: 'to understand'
+    translation: 'verstehen'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich verstehe die Hauptideen.'
+    exampleTranslation: 'I understand the main ideas.'
+  - id: en-DE-C1-SPOKEN-003-006
+    term: 'to summarize'
+    translation: 'zusammenfassen'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Können Sie das zusammenfassen?'
+    exampleTranslation: 'Can you summarize that?'
+grammar: []
+culturalNotes: 'Germans distinguish between "konkret" (concrete, practical) and "abstrakt" (abstract, theoretical); C1 listening should handle both registers fluently.'

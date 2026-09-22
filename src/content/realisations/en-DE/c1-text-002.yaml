@@ -1,0 +1,47 @@
+nodeId: C1-TEXT-002
+lang: en-DE
+vocabulary:
+  - id: en-DE-C1-TEXT-002-001
+    term: 'article'
+    translation: 'Artikel'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Artikel behandelt aktuelle Probleme.'
+    exampleTranslation: 'The article deals with contemporary problems.'
+  - id: en-DE-C1-TEXT-002-002
+    term: 'report'
+    translation: 'Bericht'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Bericht war sehr detailliert.'
+    exampleTranslation: 'The report was very detailed.'
+  - id: en-DE-C1-TEXT-002-003
+    term: 'contemporary'
+    translation: 'zeitgenössisch'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Das sind zeitgenössische Probleme.'
+    exampleTranslation: 'These are contemporary problems.'
+  - id: en-DE-C1-TEXT-002-004
+    term: 'to understand'
+    translation: 'verstehen'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich verstehe die Artikel gut.'
+    exampleTranslation: 'I understand the articles well.'
+  - id: en-DE-C1-TEXT-002-005
+    term: 'to summarize'
+    translation: 'zusammenfassen'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich fasse den Bericht zusammen.'
+    exampleTranslation: 'I summarize the report.'
+  - id: en-DE-C1-TEXT-002-006
+    term: 'discussion'
+    translation: 'Diskussion'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Diskussion war interessant.'
+    exampleTranslation: 'The discussion was interesting.'
+grammar: []
+culturalNotes: 'German quality newspapers ("Qualitätszeitungen") like "Süddeutsche Zeitung" publish in-depth articles; C1 readers should handle these fluently.'

@@ -1,0 +1,47 @@
+nodeId: C1-SPOKEN-004
+lang: de-DE
+vocabulary:
+  - id: de-DE-C1-SPOKEN-004-001
+    term: 'Mehrfachauswahl'
+    translation: 'multiple choice'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Prüfung enthielt eine Mehrfachauswahl.'
+    exampleTranslation: 'The exam contained a multiple choice section.'
+  - id: de-DE-C1-SPOKEN-004-002
+    term: 'Prüfung'
+    translation: 'exam'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Prüfung war anspruchsvoll.'
+    exampleTranslation: 'The exam was demanding.'
+  - id: de-DE-C1-SPOKEN-004-003
+    term: 'Detailfragen'
+    translation: 'detail questions'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Es gab viele Detailfragen.'
+    exampleTranslation: 'There were many detail questions.'
+  - id: de-DE-C1-SPOKEN-004-004
+    term: 'Hauptgedanke'
+    translation: 'main idea'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Was ist der Hauptgedanke des Textes?'
+    exampleTranslation: 'What is the main idea of the text?'
+  - id: de-DE-C1-SPOKEN-004-005
+    term: 'erkennen'
+    translation: 'to recognize'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich kann die Hauptgedanken erkennen.'
+    exampleTranslation: 'I can recognize the main ideas.'
+  - id: de-DE-C1-SPOKEN-004-006
+    term: 'Detailfrage'
+    translation: 'detail question'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Detailfrage war schwierig.'
+    exampleTranslation: 'The detail question was difficult.'
+grammar: []
+culturalNotes: 'German exams at C1 level often include "Detailfragen" (detail questions) and "Mehrfachauswahl" (multiple choice); understanding subtle differences is essential.'

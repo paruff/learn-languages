@@ -1,0 +1,53 @@
+nodeId: C1-ARGUE-003
+lang: en-DE
+vocabulary:
+  - id: en-DE-C1-ARGUE-003-001
+    term: 'facts / circumstances'
+    translation: 'Sachverhalte'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Die Sachverhalte wurden klar dargestellt.'
+    exampleTranslation: 'The facts were clearly presented.'
+  - id: en-DE-C1-ARGUE-003-002
+    term: 'facts'
+    translation: 'Tatsachen'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Die Tatsachen sprechen für sich.'
+    exampleTranslation: 'The facts speak for themselves.'
+  - id: en-DE-C1-ARGUE-003-003
+    term: 'logic'
+    translation: 'Logik'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Logik der Argumentation war einwandfrei.'
+    exampleTranslation: 'The logic of the argumentation was flawless.'
+  - id: en-DE-C1-ARGUE-003-004
+    term: 'structure'
+    translation: 'Struktur'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Struktur war klar und nachvollziehbar.'
+    exampleTranslation: 'The structure was clear and comprehensible.'
+  - id: en-DE-C1-ARGUE-003-005
+    term: 'comprehensible / traceable'
+    translation: 'nachvollziehbar'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Die Argumentation war nachvollziehbar.'
+    exampleTranslation: 'The argumentation was comprehensible.'
+  - id: en-DE-C1-ARGUE-003-006
+    term: 'context / coherence'
+    translation: 'Zusammenhang'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Zusammenhang war klar erkennbar.'
+    exampleTranslation: 'The context was clearly recognizable.'
+grammar:
+  - id: C1-ARGUE-003-GR01
+    point: 'Constructing logical arguments using facts and structure'
+    explanation: 'At C1, construct logical arguments by: stating facts (Die Tatsachen zeigen...), building logical chains (Daraus folgt, dass...), and using clear structure markers (Zunächst..., Anschließend..., Abschließend...).'
+    examples:
+      - 'Die Tatsachen zeigen einen klaren Trend. Daraus folgt, dass wir handeln müssen.'
+      - 'Zunächst werden die Fakten dargestellt, anschließend erfolgt die Analyse.'
+culturalNotes: 'German logical argumentation values "Logik" and "Struktur"; jumping between points without clear connections is considered weak at C1 level.'

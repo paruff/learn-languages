@@ -1,0 +1,47 @@
+nodeId: C1-SPOKEN-002
+lang: de-DE
+vocabulary:
+  - id: de-DE-C1-SPOKEN-002-001
+    term: 'Nachrichtensendung'
+    translation: 'news broadcast'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Nachrichtensendung war um acht Uhr.'
+    exampleTranslation: "The news broadcast was at eight o'clock."
+  - id: de-DE-C1-SPOKEN-002-002
+    term: 'Aktuelle'
+    translation: 'current affairs'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Die Sendung beschäftigt sich mit Aktuellen.'
+    exampleTranslation: 'The program deals with current affairs.'
+  - id: de-DE-C1-SPOKEN-002-003
+    term: 'Film'
+    translation: 'film / movie'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Film war sehr spannend.'
+    exampleTranslation: 'The film was very exciting.'
+  - id: de-DE-C1-SPOKEN-002-004
+    term: 'verstehen'
+    translation: 'to understand'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich verstehe die meisten Filme.'
+    exampleTranslation: 'I understand most films.'
+  - id: de-DE-C1-SPOKEN-002-005
+    term: 'Inhalt'
+    translation: 'content'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Inhalt war interessant.'
+    exampleTranslation: 'The content was interesting.'
+  - id: de-DE-C1-SPOKEN-002-006
+    term: 'Nachrichtensprecher'
+    translation: 'news anchor'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Nachrichtensprecher war klar und deutlich.'
+    exampleTranslation: 'The news anchor was clear and articulate.'
+grammar: []
+culturalNotes: 'German TV news ("Tagesschau", "heute-show") uses formal Hochdeutsch; regional dialects are rare, making them excellent listening practice at C1 level.'

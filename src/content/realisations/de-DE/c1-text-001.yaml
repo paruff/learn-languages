@@ -1,0 +1,47 @@
+nodeId: C1-TEXT-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-C1-TEXT-001-001
+    term: 'Unabhängigkeit'
+    translation: 'independence'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Er liest mit großer Unabhängigkeit.'
+    exampleTranslation: 'He reads with a great degree of independence.'
+  - id: de-DE-C1-TEXT-001-002
+    term: 'themenbezogen'
+    translation: 'topic-related'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Die Texte sind themenbezogen.'
+    exampleTranslation: 'The texts are topic-related.'
+  - id: de-DE-C1-TEXT-001-003
+    term: 'Textverständnis'
+    translation: 'text comprehension'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Mein Textverständnis ist gut.'
+    exampleTranslation: 'My text comprehension is good.'
+  - id: de-DE-C1-TEXT-001-004
+    term: 'unabhängig'
+    translation: 'independent'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Ich lese unabhängig von Hilfsmitteln.'
+    exampleTranslation: 'I read independently of aids.'
+  - id: de-DE-C1-TEXT-001-005
+    term: 'Hauptinhalt'
+    translation: 'main content'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Was ist der Hauptinhalt?'
+    exampleTranslation: 'What is the main content?'
+  - id: de-DE-C1-TEXT-001-006
+    term: 'verstehen'
+    translation: 'to understand'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich verstehe den Text gut.'
+    exampleTranslation: 'I understand the text well.'
+grammar: []
+culturalNotes: 'German academic reading at C1 requires understanding "Fachliteratur" (specialized literature) and complex sentence structures typical of German prose.'

@@ -1,0 +1,47 @@
+nodeId: C1-SPOKEN-001
+lang: en-DE
+vocabulary:
+  - id: en-DE-C1-SPOKEN-001-001
+    term: 'lecture / presentation'
+    translation: 'Vortrag'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Vortrag war sehr informativ.'
+    exampleTranslation: 'The lecture was very informative.'
+  - id: en-DE-C1-SPOKEN-001-002
+    term: 'line of argument'
+    translation: 'Argumentationslinie'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Argumentationslinie war klar.'
+    exampleTranslation: 'The line of argument was clear.'
+  - id: en-DE-C1-SPOKEN-001-003
+    term: 'complex'
+    translation: 'komplex'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Das war ein komplexes Thema.'
+    exampleTranslation: 'That was a complex topic.'
+  - id: en-DE-C1-SPOKEN-001-004
+    term: 'to follow'
+    translation: 'verfolgen'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich konnte die Argumentation gut verfolgen.'
+    exampleTranslation: 'I was able to follow the argumentation well.'
+  - id: en-DE-C1-SPOKEN-001-005
+    term: 'main argument'
+    translation: 'Hauptargument'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Was ist Ihr Hauptargument?'
+    exampleTranslation: 'What is your main argument?'
+  - id: en-DE-C1-SPOKEN-001-006
+    term: 'context / coherence'
+    translation: 'Zusammenhang'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Zusammenhang war klar.'
+    exampleTranslation: 'The context was clear.'
+grammar: []
+culturalNotes: 'German lectures ("Vorlesungen") at C1 level follow strict structures; students are expected to follow complex chains of reasoning and engage critically with the material.'

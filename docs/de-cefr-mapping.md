@@ -140,6 +140,40 @@ B1 Coverage: 18/18 nodes fully realised (100%).
 
 B2 Coverage: 18/18 nodes fully realised (100%).
 
+## C1 nodes in the repo (EN→DE)
+
+25 C1 `cefr-nodes/` — all language-agnostic Can-Do statements. Paired en-DE/de-DE realisations authored for all 25 nodes.
+
+| nodeId         | Skill              | Can-Do                                                    | Status      |
+| -------------- | ------------------ | --------------------------------------------------------- | ----------- |
+| C1-ACADEMIC-001 | writing           | Can write a dissertation or report of substance           | ✅ Realised |
+| C1-ACADEMIC-002 | writing           | Can write about complex subjects in an extended essay     | ✅ Realised |
+| C1-ARGUE-001   | spoken_production  | Can construct a chain of reasoning with sophistication    | ✅ Realised |
+| C1-ARGUE-002   | spoken_interaction | Can articulate nuanced positions on complex issues        | ✅ Realised |
+| C1-ARGUE-003   | spoken_production  | Can construct a logical argument using facts              | ✅ Realised |
+| C1-ARGUE-004   | spoken_interaction | Can make nuanced statements about discourse topics        | ✅ Realised |
+| C1-LITERARY-001 | writing           | Can write about literary texts in a comprehensible essay   | ✅ Realised |
+| C1-MEDIATION-001 | reading          | Can understand complex texts with appropriate expressions | ✅ Realised |
+| C1-NUANCED-001 | spoken_interaction | Can understand and use nuanced language appropriately     | ✅ Realised |
+| C1-PROFESSIONAL-001 | spoken_production | Can make formal presentations to specialist audiences  | ✅ Realised |
+| C1-PROFESSIONAL-002 | written          | Can present detailed professional career information    | ✅ Realised |
+| C1-SOCIAL-001  | spoken_interaction | Can interact with fluency and spontaneity on complex topics | ✅ Realised |
+| C1-SOCIAL-002  | spoken_interaction | Can take active part in discussions with nuanced expression | ✅ Realised |
+| C1-SPOKEN-001  | listening          | Can understand extended speech and lectures               | ✅ Realised |
+| C1-SPOKEN-002  | listening          | Can understand most TV news and current affairs           | ✅ Realised |
+| C1-SPOKEN-003  | listening          | Can understand main ideas of complex speech               | ✅ Realised |
+| C1-SPOKEN-004  | listening          | Can identify key information in multiple choice questions | ✅ Realised |
+| C1-SPOKEN-005  | listening          | Can understand detail questions in academic contexts      | ✅ Realised |
+| C1-TEXT-001    | reading            | Can read with a large degree of independence              | ✅ Realised |
+| C1-TEXT-002    | reading            | Can understand articles on contemporary problems          | ✅ Realised |
+| C1-TEXT-003    | reading            | Can recognise the line of argument in treatment of issues | ✅ Realised |
+| C1-TEXT-004    | reading            | Can understand main conclusions of argumentative texts    | ✅ Realised |
+| C1-WRITTEN-001 | writing            | Can write clear, detailed text on a wide range of subjects | ✅ Realised |
+| C1-WRITTEN-002 | writing            | Can write an essay or report that develops an argument    | ✅ Realised |
+| C1-WRITTEN-003 | writing            | Can write with correct spelling and punctuation           | ✅ Realised |
+
+C1 Coverage: 25/25 nodes fully realised (100%).
+
 ### de-DE realisation totals
 
 | Level | Vocabulary items | Grammar points | Files |
@@ -148,7 +182,8 @@ B2 Coverage: 18/18 nodes fully realised (100%).
 | A2    | 120              | 0              | 20    |
 | B1    | 108              | 8              | 18    |
 | B2    | 108              | 8              | 18    |
-| **Total** | **468**      | **16**         | **78** |
+| C1    | 150              | 8              | 25    |
+| **Total** | **618**      | **24**         | **103** |
 
 ## Sourcing note
 

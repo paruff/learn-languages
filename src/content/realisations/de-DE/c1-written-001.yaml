@@ -1,0 +1,53 @@
+nodeId: C1-WRITTEN-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-C1-WRITTEN-001-001
+    term: 'Text'
+    translation: 'text'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ich schreibe einen klaren Text.'
+    exampleTranslation: 'I am writing a clear text.'
+  - id: de-DE-C1-WRITTEN-001-002
+    term: 'Thema'
+    translation: 'topic'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Ich schreibe über ein breites Thema.'
+    exampleTranslation: 'I am writing about a wide range of topics.'
+  - id: de-DE-C1-WRITTEN-001-003
+    term: 'detailliert'
+    translation: 'detailed'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Der Text war sehr detailliert.'
+    exampleTranslation: 'The text was very detailed.'
+  - id: de-DE-C1-WRITTEN-001-004
+    term: 'strukturiert'
+    translation: 'structured'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Der Text war klar strukturiert.'
+    exampleTranslation: 'The text was clearly structured.'
+  - id: de-DE-C1-WRITTEN-001-005
+    term: 'verfassen'
+    translation: 'to write / to compose'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich verfasse einen Essay über das Thema.'
+    exampleTranslation: 'I am writing an essay on the topic.'
+  - id: de-DE-C1-WRITTEN-001-006
+    term: 'Hauptgedanke'
+    translation: 'main idea'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Was ist der Hauptgedanke?'
+    exampleTranslation: 'What is the main idea?'
+grammar:
+  - id: C1-WRITTEN-001-GR01
+    point: 'Writing clear, detailed text on a wide range of subjects'
+    explanation: 'At C1, write clear texts by: using topic sentences, logical connectors (deshalb, außerdem, jedoch), varied vocabulary, complex sentence structures, and clear paragraph organization. Maintain consistent register throughout.'
+    examples:
+      - 'Ich interessiere mich für Politik. Deshalb schreibe ich über aktuelle Themen.'
+      - 'Außerdem möchte ich meine Meinung klar ausdrücken.'
+culturalNotes: 'German written texts at C1 level should demonstrate "Textkompetenz" (text competence): clear structure, appropriate register, and well-developed arguments.'

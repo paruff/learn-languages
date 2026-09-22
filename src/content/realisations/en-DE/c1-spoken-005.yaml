@@ -1,0 +1,47 @@
+nodeId: C1-SPOKEN-005
+lang: en-DE
+vocabulary:
+  - id: en-DE-C1-SPOKEN-005-001
+    term: 'multiple choice'
+    translation: 'Mehrfachauswahl'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Aufgabe war eine Mehrfachauswahl.'
+    exampleTranslation: 'The task was a multiple choice.'
+  - id: en-DE-C1-SPOKEN-005-002
+    term: 'main idea'
+    translation: 'Hauptgedanke'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Hauptgedanke war klar.'
+    exampleTranslation: 'The main idea was clear.'
+  - id: en-DE-C1-SPOKEN-005-003
+    term: 'detail question'
+    translation: 'Detailfrage'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Detailfrage war anspruchsvoll.'
+    exampleTranslation: 'The detail question was demanding.'
+  - id: en-DE-C1-SPOKEN-005-004
+    term: 'structure'
+    translation: 'Struktur'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Struktur des Textes war klar.'
+    exampleTranslation: 'The structure of the text was clear.'
+  - id: en-DE-C1-SPOKEN-005-005
+    term: 'context / coherence'
+    translation: 'Zusammenhang'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Zusammenhang war erkennbar.'
+    exampleTranslation: 'The context was recognizable.'
+  - id: en-DE-C1-SPOKEN-005-006
+    term: 'to recognize'
+    translation: 'erkennen'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich kann den Hauptgedanken erkennen.'
+    exampleTranslation: 'I can recognize the main idea.'
+grammar: []
+culturalNotes: 'German C1 listening comprehension tests emphasize "Hauptgedanken" (main ideas) and "Detailfragen" (detail questions); both global and specific understanding are assessed.'

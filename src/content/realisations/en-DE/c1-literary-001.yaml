@@ -1,0 +1,47 @@
+nodeId: C1-LITERARY-001
+lang: en-DE
+vocabulary:
+  - id: en-DE-C1-LITERARY-001-001
+    term: 'period / time span'
+    translation: 'Zeitspanne'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Zeitspanne war lang genug für die Recherche.'
+    exampleTranslation: 'The time span was long enough for the research.'
+  - id: en-DE-C1-LITERARY-001-002
+    term: 'completed / concluded'
+    translation: 'abgeschlossen'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Die Arbeit war pünktlich abgeschlossen.'
+    exampleTranslation: 'The work was completed on time.'
+  - id: en-DE-C1-LITERARY-001-003
+    term: 'research'
+    translation: 'Recherche'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Recherche war gründlich.'
+    exampleTranslation: 'The research was thorough.'
+  - id: en-DE-C1-LITERARY-001-004
+    term: 'to compose / to write'
+    translation: 'verfassen'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Sie verfasst einen Bericht über die Ergebnisse.'
+    exampleTranslation: 'She is composing a report on the results.'
+  - id: en-DE-C1-LITERARY-001-005
+    term: 'poem'
+    translation: 'Gedicht'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Das Gedicht war sehr schön.'
+    exampleTranslation: 'The poem was very beautiful.'
+  - id: en-DE-C1-LITERARY-001-006
+    term: 'thematic area'
+    translation: 'Themenbereich'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Themenbereich ist breit gefächert.'
+    exampleTranslation: 'The thematic area is wide-ranging.'
+grammar: []
+culturalNotes: 'German literary writing ("Literarisches Schreiben") at C1 level values "Stilmittel" (stylistic devices) and "Metaphern" (metaphors); creative expression is encouraged within formal structures.'

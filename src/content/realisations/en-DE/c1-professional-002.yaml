@@ -1,0 +1,47 @@
+nodeId: C1-PROFESSIONAL-002
+lang: en-DE
+vocabulary:
+  - id: en-DE-C1-PROFESSIONAL-002-001
+    term: 'career'
+    translation: 'Karriere'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ihre Karriere war erfolgreich.'
+    exampleTranslation: 'Her career was successful.'
+  - id: en-DE-C1-PROFESSIONAL-002-002
+    term: 'position'
+    translation: 'Position'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Position war sehr verantwortungsvoll.'
+    exampleTranslation: 'The position was very responsible.'
+  - id: en-DE-C1-PROFESSIONAL-002-003
+    term: 'promotion'
+    translation: 'Beförderung'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Beförderung kam überraschend.'
+    exampleTranslation: 'The promotion came unexpectedly.'
+  - id: en-DE-C1-PROFESSIONAL-002-004
+    term: 'qualification'
+    translation: 'Qualifikation'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ihre Qualifikation war ausgezeichnet.'
+    exampleTranslation: 'Her qualification was excellent.'
+  - id: en-DE-C1-PROFESSIONAL-002-005
+    term: 'performance / achievement'
+    translation: 'Leistung'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Leistung war überdurchschnittlich.'
+    exampleTranslation: 'The performance was above average.'
+  - id: en-DE-C1-PROFESSIONAL-002-006
+    term: 'requirements'
+    translation: 'Anforderungen'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Die Anforderungen waren hoch.'
+    exampleTranslation: 'The requirements were high.'
+grammar: []
+culturalNotes: 'German professional career discussions at C1 level expect precise language about qualifications ("Qualifikationen") and achievements ("Leistungen"); self-promotion should be factual and evidence-based.'

@@ -1,0 +1,47 @@
+nodeId: C1-ACADEMIC-002
+lang: de-DE
+vocabulary:
+  - id: de-DE-C1-ACADEMIC-002-001
+    term: 'Diskurs'
+    translation: 'discourse'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der wissenschaftliche Diskurs ist komplex.'
+    exampleTranslation: 'The academic discourse is complex.'
+  - id: de-DE-C1-ACADEMIC-002-002
+    term: 'These'
+    translation: 'thesis'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die These ist gut begründet.'
+    exampleTranslation: 'The thesis is well-founded.'
+  - id: de-DE-C1-ACADEMIC-002-003
+    term: 'Argumentation'
+    translation: 'argumentation'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Argumentation war systematisch und überzeugend.'
+    exampleTranslation: 'The argumentation was systematic and convincing.'
+  - id: de-DE-C1-ACADEMIC-002-004
+    term: 'Zusammenhang'
+    translation: 'context / coherence'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Zusammenhang zwischen den Fakten war klar.'
+    exampleTranslation: 'The context between the facts was clear.'
+  - id: de-DE-C1-ACADEMIC-002-005
+    term: 'Primärquelle'
+    translation: 'primary source'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Primärquelle war eine alte Handschrift.'
+    exampleTranslation: 'The primary source was an old manuscript.'
+  - id: de-DE-C1-ACADEMIC-002-006
+    term: 'Forschungslücke'
+    translation: 'research gap'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Forschungslücke wurde identifiziert.'
+    exampleTranslation: 'The research gap was identified.'
+grammar: []
+culturalNotes: 'German academic discourse distinguishes between "These" (thesis), "Antithese" (antithesis), and "Synthese" (synthesis) — a triadic structure deeply rooted in Hegelian philosophy.'

@@ -1,0 +1,53 @@
+nodeId: C1-ARGUE-004
+lang: en-DE
+vocabulary:
+  - id: en-DE-C1-ARGUE-004-001
+    term: 'statement / position paper'
+    translation: 'Stellungnahme'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Er hat eine klare Stellungnahme abgegeben.'
+    exampleTranslation: 'He has made a clear statement.'
+  - id: en-DE-C1-ARGUE-004-002
+    term: 'discourse'
+    translation: 'Diskurs'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Diskurs war konstruktiv.'
+    exampleTranslation: 'The discourse was constructive.'
+  - id: en-DE-C1-ARGUE-004-003
+    term: 'position'
+    translation: 'Position'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Seine Position war klar.'
+    exampleTranslation: 'His position was clear.'
+  - id: en-DE-C1-ARGUE-004-004
+    term: 'innovation'
+    translation: 'Innovation'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Innovation war ein Durchbruch.'
+    exampleTranslation: 'The innovation was a breakthrough.'
+  - id: en-DE-C1-ARGUE-004-005
+    term: 'proactive / initiative-taking'
+    translation: 'initiativ'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Sie ist sehr initiativ.'
+    exampleTranslation: 'She is very proactive.'
+  - id: en-DE-C1-ARGUE-004-006
+    term: 'progressive'
+    translation: 'progressiv'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Die Idee war sehr progressiv.'
+    exampleTranslation: 'The idea was very progressive.'
+grammar:
+  - id: C1-ARGUE-004-GR01
+    point: 'Making nuanced statements about discourse topics'
+    explanation: 'At C1, make nuanced statements by: expressing progressive views (Ich bin der Überzeugung, dass...), acknowledging multiple perspectives (Es gibt verschiedene Perspektiven...), and using complex concession structures.'
+    examples:
+      - 'Ich bin der Überzeugung, dass die Innovation notwendig ist, obwohl sie Risiken birgt.'
+      - 'Es gibt verschiedene Perspektiven auf dieses Thema, aber die überwiegende Evidenz spricht dafür.'
+culturalNotes: 'German discourse at C1 level values "Initiativgeist" (initiative) combined with "Reflexion" (reflection); purely reactive positions are considered less sophisticated.'
