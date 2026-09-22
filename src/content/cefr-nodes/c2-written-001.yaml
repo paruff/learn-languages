@@ -1,0 +1,13 @@
+nodeId: C2-WRITTEN-001
+cefrLevel: C2
+skill: writing
+canDo: 'Can write clear, detailed and well-structured texts, developing and supporting arguments and hypotheses, constructing a chain of reasoned argument in appropriate format and style'
+pragmaticFocus: 'Advanced written argumentation with structured hypothesis development'
+notionalFocus: 'Detailed texts, hypothesis support, format selection, style control'
+relatedNodes:
+  - C1-WRITTEN-001
+  - C1-WRITTEN-003
+  - C1-ARGUE-004
+prerequisiteNodes:
+  - C1-WRITTEN-001
+  - C1-ARGUE-004

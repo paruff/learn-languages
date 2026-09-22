@@ -1,0 +1,53 @@
+nodeId: C2-SUMMARY-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-C2-SUMMARY-001-001
+    term: 'resumen conciso'
+    translation: 'concise summary'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Puedo hacer un resumen conciso de información extensa.'
+    exampleTranslation: 'I can make a concise summary of extensive information.'
+  - id: es-ES-C2-SUMMARY-001-002
+    term: 'fuentes orales'
+    translation: 'oral sources'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Puedo sintetizar fuentes orales y escritas.'
+    exampleTranslation: 'I can synthesise oral and written sources.'
+  - id: es-ES-C2-SUMMARY-001-003
+    term: 'presentación coherente'
+    translation: 'coherent presentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Organizo la información en una presentación coherente.'
+    exampleTranslation: 'I organise the information in a coherent presentation.'
+  - id: es-ES-C2-SUMMARY-001-004
+    term: 'sintetizar'
+    translation: 'to synthesise'
+    partOfSpeech: verb
+    example: 'Sé sintetizar argumentos complejos de forma efectiva.'
+    exampleTranslation: 'I know how to synthesise complex arguments effectively.'
+  - id: es-ES-C2-SUMMARY-001-005
+    term: 'reconstrucción de argumentos'
+    translation: 'argument reconstruction'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La reconstrucción de argumentos es una habilidad clave.'
+    exampleTranslation: 'Argument reconstruction is a key skill.'
+  - id: es-ES-C2-SUMMARY-001-006
+    term: 'información de múltiples fuentes'
+    translation: 'information from multiple sources'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Integro información de múltiples fuentes en un resumen.'
+    exampleTranslation: 'I integrate information from multiple sources into a summary.'
+grammar:
+  - id: es-ES-C2-SUMMARY-001-G1
+    point: 'Participial clauses for concision in summaries'
+    explanation: "Use participial clauses for concise summary writing: 'Habiendo examinado todas las fuentes, presento la siguiente síntesis' (Having examined all the sources, I present the following synthesis)."
+    examples:
+      - 'Habiendo analizado los datos, resumo los hallazgos principales.'
+      - 'Habiendo considerado ambos lados, reconstruyo el argumento.'
+    cefrNotes: 'C2 learners use participial clauses for concise, elegant summary writing'
+culturalNotes: 'Summarising complex information at C2 level requires the ability to extract key points, reconstruct arguments coherently, and present them in a clear, well-structured format appropriate to the audience.'

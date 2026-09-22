@@ -1,0 +1,52 @@
+nodeId: C2-MODALITY-004
+lang: es-ES
+vocabulary:
+  - id: es-ES-C2-MODALITY-004-001
+    term: 'fuentes diversas'
+    translation: 'diverse sources'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Puedo sintetizar información de fuentes diversas.'
+    exampleTranslation: 'I can synthesise information from diverse sources.'
+  - id: es-ES-C2-MODALITY-004-002
+    term: 'reconstruir argumentos'
+    translation: 'to reconstruct arguments'
+    partOfSpeech: phrase
+    example: 'Sé reconstruir argumentos complejos de forma coherente.'
+    exampleTranslation: 'I know how to reconstruct complex arguments coherently.'
+  - id: es-ES-C2-MODALITY-004-003
+    term: 'presentación coherente'
+    translation: 'coherent presentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Organizo la información en una presentación coherente.'
+    exampleTranslation: 'I organise the information in a coherent presentation.'
+  - id: es-ES-C2-MODALITY-004-004
+    term: 'resumir'
+    translation: 'to summarise'
+    partOfSpeech: verb
+    example: 'Puedo resumir información compleja de forma precisa.'
+    exampleTranslation: 'I can summarise complex information precisely.'
+  - id: es-ES-C2-MODALITY-004-005
+    term: 'síntesis'
+    translation: 'synthesis'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Mi síntesis integra diferentes perspectivas.'
+    exampleTranslation: 'My synthesis integrates different perspectives.'
+  - id: es-ES-C2-MODALITY-004-006
+    term: 'reconstrucción'
+    translation: 'reconstruction'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La reconstrucción de los argumentos es rigurosa.'
+    exampleTranslation: 'The reconstruction of the arguments is rigorous.'
+grammar:
+  - id: es-ES-C2-MODALITY-004-G1
+    point: 'Participial clauses for synthesis in reading'
+    explanation: "Use participial clauses for synthesis: 'Habiendo analizado todas las fuentes, puedo presentar una síntesis completa' (Having analysed all the sources, I can present a complete synthesis)."
+    examples:
+      - 'Habiendo leído el texto completo, reconstruyo la línea argumentativa.'
+      - 'Habiendo analizado los datos, presento una síntesis coherente.'
+    cefrNotes: 'C2 learners use participial clauses for advanced synthesis in reading'
+culturalNotes: 'Summarising and synthesising information from different sources at C2 level demonstrates the highest level of reading comprehension and the ability to reconstruct arguments in a coherent presentation.'

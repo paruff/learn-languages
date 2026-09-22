@@ -1,0 +1,13 @@
+nodeId: C2-SUMMARY-001
+cefrLevel: C2
+skill: writing
+canDo: 'Can summarise, concisely, information and different arguments from extended spoken and written sources, reconstructing the arguments and accounts in a coherent presentation'
+pragmaticFocus: 'Advanced summarisation and synthesis from multiple sources'
+notionalFocus: 'Information summarisation, argument reconstruction, coherent presentation'
+relatedNodes:
+  - C1-TEXT-001
+  - C1-TEXT-004
+  - C1-WRITTEN-001
+prerequisiteNodes:
+  - C1-TEXT-001
+  - C1-WRITTEN-001

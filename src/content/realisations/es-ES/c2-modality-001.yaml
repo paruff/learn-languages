@@ -1,0 +1,54 @@
+nodeId: C2-MODALITY-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-C2-MODALITY-001-001
+    term: 'precisión lingüística'
+    translation: 'linguistic precision'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Mi precisión lingüística me permite expresar matices sutiles.'
+    exampleTranslation: 'My linguistic precision allows me to express subtle nuances.'
+  - id: es-ES-C2-MODALITY-001-002
+    term: 'fluidez espontánea'
+    translation: 'spontaneous fluency'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Hablo con fluidez espontánea en cualquier situación.'
+    exampleTranslation: 'I speak with spontaneous fluency in any situation.'
+  - id: es-ES-C2-MODALITY-001-003
+    term: 'matices'
+    translation: 'nuances'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Distingo matices que otros hablantes no perciben.'
+    exampleTranslation: 'I distinguish nuances that other speakers do not perceive.'
+  - id: es-ES-C2-MODALITY-001-004
+    term: 'situaciones complejas'
+    translation: 'complex situations'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Me expreso con claridad incluso en situaciones complejas.'
+    exampleTranslation: 'I express myself clearly even in complex situations.'
+  - id: es-ES-C2-MODALITY-001-005
+    term: 'nativo'
+    translation: 'native'
+    partOfSpeech: adjective
+    gender: masculine
+    example: 'Mi nivel se acerca al de un hablante nativo.'
+    exampleTranslation: 'My level is close to that of a native speaker.'
+  - id: es-ES-C2-MODALITY-001-006
+    term: 'dominio del idioma'
+    translation: 'language mastery'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El dominio del idioma se manifiesta en la fluidez.'
+    exampleTranslation: 'Language mastery is manifested in fluency.'
+grammar:
+  - id: es-ES-C2-MODALITY-001-G1
+    point: 'Complex conditional with mixed tenses for hypothetical precision'
+    explanation: "Use mixed conditional tenses for nuanced hypothetical expression: 'Si hubiera estudiado filosofía, habría afinado aún más mi capacidad de análisis' (If I had studied philosophy, I would have further refined my analytical ability)."
+    examples:
+      - 'Si pudiera expresarlo con más precisión, lo haría sin dudarlo.'
+      - 'De haber tenido más tiempo, habría matizado aún más el argumento.'
+    cefrNotes: 'C2 learners use mixed conditionals with near-native precision'
+culturalNotes: 'C2-level Spanish demonstrates near-native command of the language, with the ability to express subtle distinctions of meaning even in the most complex and demanding situations.'

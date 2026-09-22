@@ -1,0 +1,54 @@
+nodeId: C2-WRITTEN-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-C2-WRITTEN-001-001
+    term: 'texto detallado'
+    translation: 'detailed text'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Puedo escribir textos detallados y bien estructurados.'
+    exampleTranslation: 'I can write detailed and well-structured texts.'
+  - id: es-ES-C2-WRITTEN-001-002
+    term: 'hipótesis'
+    translation: 'hypothesis'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Puedo desarrollar y apoyar hipótesis complejas.'
+    exampleTranslation: 'I can develop and support complex hypotheses.'
+  - id: es-ES-C2-WRITTEN-001-003
+    term: 'formato adecuado'
+    translation: 'appropriate format'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Selecciono el formato adecuado según el contexto.'
+    exampleTranslation: 'I select the appropriate format according to the context.'
+  - id: es-ES-C2-WRITTEN-001-004
+    term: 'estilo apropiado'
+    translation: 'appropriate style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Adapto mi estilo según el lector y el propósito.'
+    exampleTranslation: 'I adapt my style according to the reader and purpose.'
+  - id: es-ES-C2-WRITTEN-001-005
+    term: 'razonamiento estructurado'
+    translation: 'structured reasoning'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Mi razonamiento estructurado es claro y convincente.'
+    exampleTranslation: 'My structured reasoning is clear and convincing.'
+  - id: es-ES-C2-WRITTEN-001-006
+    term: 'argumentación convincente'
+    translation: 'convincing argumentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Mi argumentación convincente respalda mis conclusiones.'
+    exampleTranslation: 'My convincing argumentation supports my conclusions.'
+grammar:
+  - id: es-ES-C2-WRITTEN-001-G1
+    point: 'Advanced passive constructions for formal argumentation'
+    explanation: "Use advanced passive constructions for formal argumentation: 'Se ha demostrado empíricamente que' (It has been empirically demonstrated that), 'No se puede negar que' (It cannot be denied that)."
+    examples:
+      - 'Se ha demostrado empíricamente que el método es efectivo.'
+      - 'No se puede negar que la evidencia respalda la hipótesis.'
+    cefrNotes: 'C2 learners use advanced passive constructions for formal written argumentation'
+culturalNotes: 'Writing clear, detailed and well-structured texts at C2 level demonstrates the highest level of written production, with effective development and support of arguments and hypotheses in appropriate format and style.'

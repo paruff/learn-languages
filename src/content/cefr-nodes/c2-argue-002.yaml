@@ -1,0 +1,13 @@
+nodeId: C2-ARGUE-002
+cefrLevel: C2
+skill: spoken_interaction
+canDo: "Can take an active part in discussion in all its registers, contributing, developing and steering his/her own and others' points of view, and construct a chain of reasoned argument effectively"
+pragmaticFocus: 'Advanced discussion participation and argument steering'
+notionalFocus: 'Multi-register discussion, argument construction, viewpoint management'
+relatedNodes:
+  - C1-ARGUE-001
+  - C1-ARGUE-002
+  - C1-SOCIAL-002
+prerequisiteNodes:
+  - C1-ARGUE-001
+  - C1-SOCIAL-002

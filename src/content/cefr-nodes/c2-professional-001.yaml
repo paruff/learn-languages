@@ -1,0 +1,13 @@
+nodeId: C2-PROFESSIONAL-001
+cefrLevel: C2
+skill: writing
+canDo: 'Can write an excellent, well-structured summary of complex factual material and reports, selecting the most important points and presenting them clearly, using appropriate format and style'
+pragmaticFocus: 'Advanced professional writing with structured summaries'
+notionalFocus: 'Complex summaries, factual material, reports, format selection'
+relatedNodes:
+  - C1-PROFESSIONAL-002
+  - C1-WRITTEN-001
+  - C1-ACADEMIC-001
+prerequisiteNodes:
+  - C1-PROFESSIONAL-002
+  - C1-WRITTEN-001

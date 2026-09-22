@@ -1,0 +1,54 @@
+nodeId: C2-PROFESSIONAL-002
+lang: es-ES
+vocabulary:
+  - id: es-ES-C2-PROFESSIONAL-002-001
+    term: 'comando del idioma'
+    translation: 'command of the language'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Mi comando del idioma se acerca al nivel nativo.'
+    exampleTranslation: 'My command of the language is close to native level.'
+  - id: es-ES-C2-PROFESSIONAL-002-002
+    term: 'repertorio de vocabulario'
+    translation: 'vocabulary repertoire'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Utilizo un repertorio de vocabulario amplio y preciso.'
+    exampleTranslation: 'I use a wide and precise vocabulary repertoire.'
+  - id: es-ES-C2-PROFESSIONAL-002-003
+    term: 'dominio de la sintaxis'
+    translation: 'command of syntax'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Mi dominio de la sintaxis me permite construir oraciones complejas.'
+    exampleTranslation: 'My command of syntax allows me to construct complex sentences.'
+  - id: es-ES-C2-PROFESSIONAL-002-004
+    term: 'uso flexible'
+    translation: 'flexible use'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Mi uso flexible del idioma es adecuado para cualquier contexto.'
+    exampleTranslation: 'My flexible use of language is appropriate for any context.'
+  - id: es-ES-C2-PROFESSIONAL-002-005
+    term: 'comunicación nativa'
+    translation: 'native communication'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Mi comunicación se aproxima al nivel nativo.'
+    exampleTranslation: 'My communication approaches native level.'
+  - id: es-ES-C2-PROFESSIONAL-002-006
+    term: 'precisión nativa'
+    translation: 'native precision'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Puedo expresar ideas con precisión nativa.'
+    exampleTranslation: 'I can express ideas with native precision.'
+grammar:
+  - id: es-ES-C2-PROFESSIONAL-002-G1
+    point: 'Subjunctive in purpose clauses for flexible language use'
+    explanation: "Use subjunctive in purpose clauses to demonstrate flexible language use: 'Adapto mi registro para que la comunicación sea efectiva en cualquier contexto' (I adapt my register so that communication is effective in any context)."
+    examples:
+      - 'Utilizo el idioma de forma que la comunicación sea siempre precisa.'
+      - 'Expreso mis ideas con fluidez para que el interlocutor las comprenda.'
+    cefrNotes: 'C2 learners use purpose clauses to demonstrate near-native flexible language use'
+culturalNotes: 'Expressing oneself with near-native command at C2 level across social, academic and professional purposes demonstrates the highest level of language proficiency, with flexible and effective use of vocabulary and syntax.'

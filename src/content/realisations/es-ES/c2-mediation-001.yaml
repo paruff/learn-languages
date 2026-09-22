@@ -1,0 +1,52 @@
+nodeId: C2-MEDIATION-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-C2-MEDIATION-001-001
+    term: 'intermediación'
+    translation: 'mediation'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Puedo actuar como intermediario entre hablantes nativos.'
+    exampleTranslation: 'I can act as an intermediary between native speakers.'
+  - id: es-ES-C2-MEDIATION-001-002
+    term: 'simplificar el mensaje'
+    translation: 'to simplify the message'
+    partOfSpeech: phrase
+    example: 'Sé simplificar el mensaje sin perder precisión.'
+    exampleTranslation: 'I know how to simplify the message without losing precision.'
+  - id: es-ES-C2-MEDIATION-001-003
+    term: 'intervenir hábilmente'
+    translation: 'to intervene skilfully'
+    partOfSpeech: phrase
+    example: 'Puedo intervenir hábilmente para resolver malentendidos.'
+    exampleTranslation: 'I can intervene skilfully to resolve misunderstandings.'
+  - id: es-ES-C2-MEDIATION-001-004
+    term: 'desacuerdos'
+    translation: 'disagreements'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Puedo resolver desacuerdos de forma diplomática.'
+    exampleTranslation: 'I can resolve disagreements diplomatically.'
+  - id: es-ES-C2-MEDIATION-001-005
+    term: 'malentendidos'
+    translation: 'misunderstandings'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Puedo identificar y resolver malentendidos rápidamente.'
+    exampleTranslation: 'I can identify and resolve misunderstandings quickly.'
+  - id: es-ES-C2-MEDIATION-001-006
+    term: 'habilidad de mediación'
+    translation: 'mediation skill'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La habilidad de mediación es clave en la comunicación avanzada.'
+    exampleTranslation: 'Mediation skill is key in advanced communication.'
+grammar:
+  - id: es-ES-C2-MEDIATION-001-G1
+    point: 'Subjunctive in purpose clauses for effective mediation'
+    explanation: "Use subjunctive in purpose clauses for effective mediation: 'Simplifico el mensaje para que ambos interlocutores lo entiendan' (I simplify the message so that both interlocutors understand it)."
+    examples:
+      - 'Intervengo para que la conversación fluya sin problemas.'
+      - 'Reformulo la idea para que no haya malentendidos.'
+    cefrNotes: 'C2 learners use purpose clauses with subjunctive for effective mediation'
+culturalNotes: 'Acting as an effective intermediary at C2 level requires the ability to simplify messages appropriately, intervene skilfully to resolve misunderstandings, and maintain effective communication between parties.'

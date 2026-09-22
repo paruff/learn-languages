@@ -1,0 +1,13 @@
+nodeId: C2-NUANCE-001
+cefrLevel: C2
+skill: spoken_interaction
+canDo: 'Can express him/herself clearly and precisely, differentiating finer shades of meaning on a wide range of subjects, employing an appropriate lexical repertoire'
+pragmaticFocus: 'Advanced nuanced expression across subject domains'
+notionalFocus: 'Lexical precision, nuanced expression, domain-specific vocabulary'
+relatedNodes:
+  - C1-ARGUE-003
+  - C1-NUANCED-001
+  - C1-TEXT-001
+prerequisiteNodes:
+  - C1-ARGUE-003
+  - C1-NUANCED-001

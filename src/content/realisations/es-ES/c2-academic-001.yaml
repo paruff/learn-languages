@@ -1,0 +1,54 @@
+nodeId: C2-ACADEMIC-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-C2-ACADEMIC-001-001
+    term: 'estilo fluido'
+    translation: 'flowing style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Escribo con un estilo fluido y convincente.'
+    exampleTranslation: 'I write with a flowing and convincing style.'
+  - id: es-ES-C2-ACADEMIC-001-002
+    term: 'tema complejo'
+    translation: 'complex subject'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Puedo tratar temas complejos con claridad y profundidad.'
+    exampleTranslation: 'I can deal with complex subjects with clarity and depth.'
+  - id: es-ES-C2-ACADEMIC-001-003
+    term: 'estructura coherente'
+    translation: 'coherent structure'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Mi escritura tiene una estructura coherente y convincente.'
+    exampleTranslation: 'My writing has a coherent and convincing structure.'
+  - id: es-ES-C2-ACADEMIC-001-004
+    term: 'repertorio de lenguaje'
+    translation: 'language repertoire'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Utilizo un repertorio amplio de lenguaje.'
+    exampleTranslation: 'I use a wide language repertoire.'
+  - id: es-ES-C2-ACADEMIC-001-005
+    term: 'expresión académica'
+    translation: 'academic expression'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Mi expresión académica es precisa y elegante.'
+    exampleTranslation: 'My academic expression is precise and elegant.'
+  - id: es-ES-C2-ACADEMIC-001-006
+    term: 'escritura persuasiva'
+    translation: 'persuasive writing'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Mi escritura persuasiva es efectiva y bien fundamentada.'
+    exampleTranslation: 'My persuasive writing is effective and well-founded.'
+grammar:
+  - id: es-ES-C2-ACADEMIC-001-G1
+    point: 'Advanced conditional structures for academic hedging'
+    explanation: "Use advanced conditional structures for academic hedging: 'Se podría argumentar que...' (It could be argued that...), 'No sería descabellado afirmar que...' (It would not be unreasonable to claim that...)."
+    examples:
+      - 'Se podría argumentar que la evidencia respalda esta hipótesis.'
+      - 'No sería descabellado afirmar que el método es efectivo.'
+    cefrNotes: 'C2 learners use advanced conditional structures for academic hedging'
+culturalNotes: 'Writing clearly and fluently on complex subjects at C2 level demonstrates the highest level of academic writing, with effective use of language repertoire and coherent, convincing argumentation.'

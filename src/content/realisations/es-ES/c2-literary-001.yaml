@@ -1,0 +1,53 @@
+nodeId: C2-LITERARY-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-C2-LITERARY-001-001
+    term: 'obras literarias'
+    translation: 'literary works'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Leo obras literarias contemporáneas con facilidad.'
+    exampleTranslation: 'I read contemporary literary works with ease.'
+  - id: es-ES-C2-LITERARY-001-002
+    term: 'prosa dramática'
+    translation: 'dramatic prose'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Disfruto de la prosa dramática contemporánea.'
+    exampleTranslation: 'I enjoy contemporary dramatic prose.'
+  - id: es-ES-C2-LITERARY-001-003
+    term: 'poesía'
+    translation: 'poetry'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La poesía española tiene una rica tradición.'
+    exampleTranslation: 'Spanish poetry has a rich tradition.'
+  - id: es-ES-C2-LITERARY-001-004
+    term: 'letras de canciones'
+    translation: 'song lyrics'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Puedo apreciar las letras de canciones en su complejidad.'
+    exampleTranslation: 'I can appreciate song lyrics in their complexity.'
+  - id: es-ES-C2-LITERARY-001-005
+    term: 'opiniones en periódicos'
+    translation: 'opinion pieces in newspapers'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Leo artículos de opinión en periódicos sin dificultad.'
+    exampleTranslation: 'I read opinion pieces in newspapers without difficulty.'
+  - id: es-ES-C2-LITERARY-001-006
+    term: 'apreciar la literatura'
+    translation: 'to appreciate literature'
+    partOfSpeech: phrase
+    example: 'Puedo apreciar la literatura en toda su complejidad.'
+    exampleTranslation: 'I can appreciate literature in all its complexity.'
+grammar:
+  - id: es-ES-C2-LITERARY-001-G1
+    point: 'Subjunctive in aesthetic-evaluative clauses for literary appreciation'
+    explanation: "Use subjunctive in aesthetic-evaluative clauses: 'Es una obra que trascienda los límites del género' (It is a work that transcends the limits of the genre)."
+    examples:
+      - 'Es una novela que capture la esencia de la época.'
+      - 'Es un poema que evoque emociones profundas.'
+    cefrNotes: 'C2 learners use subjunctive in aesthetic-evaluative clauses for literary appreciation'
+culturalNotes: 'Reading and appreciating a wide variety of complex literary texts at C2 level demonstrates the highest level of reading competence, including the ability to understand contemporary literature, poetry, song lyrics, and opinion pieces with ease.'

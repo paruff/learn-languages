@@ -1,0 +1,13 @@
+nodeId: C2-MODALITY-002
+cefrLevel: C2
+skill: spoken_production
+canDo: 'Can present a clear, smoothly-flowing accurate description or argument in an appropriate style on a complex subject, givingDue prominence to each significant point'
+pragmaticFocus: 'Advanced spoken production with structured argumentation'
+notionalFocus: 'Complex descriptions, structured arguments, emphasis techniques'
+relatedNodes:
+  - C1-ARGUE-001
+  - C1-ARGUE-002
+  - C1-WRITTEN-001
+prerequisiteNodes:
+  - C1-ARGUE-001
+  - C1-ARGUE-002
