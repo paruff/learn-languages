@@ -1,0 +1,47 @@
+nodeId: A2-NEWS-003
+lang: de-DE
+vocabulary:
+  - id: de-DE-A2-NEWS-003-001
+    term: 'Meinung'
+    translation: 'opinion'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Was ist Ihre Meinung dazu?'
+    exampleTranslation: 'What is your opinion on that?'
+  - id: de-DE-A2-NEWS-003-002
+    term: 'gut'
+    translation: 'good'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Ich finde das gut.'
+    exampleTranslation: 'I think that is good.'
+  - id: de-DE-A2-NEWS-003-003
+    term: 'schlecht'
+    translation: 'bad'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Das ist schlecht für die Umwelt.'
+    exampleTranslation: 'That is bad for the environment.'
+  - id: de-DE-A2-NEWS-003-004
+    term: 'wichtig'
+    translation: 'important'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Das Thema ist sehr wichtig.'
+    exampleTranslation: 'The topic is very important.'
+  - id: de-DE-A2-NEWS-003-005
+    term: ' finde'
+    translation: 'I find'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich finde, dass das gut ist.'
+    exampleTranslation: 'I think that is good.'
+  - id: de-DE-A2-NEWS-003-006
+    term: 'derselben Meinung sein'
+    translation: 'to agree'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich bin derselben Meinung.'
+    exampleTranslation: 'I agree.'
+grammar: []
+culturalNotes: 'Germans often begin opinion-sharing with "Ich finde, dass..." (I think that...); direct disagreement is socially acceptable but typically softened with "Ich bin anderer Meinung" (I have a different opinion).'

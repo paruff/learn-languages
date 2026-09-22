@@ -1,0 +1,47 @@
+nodeId: A2-PAST-004
+lang: de-DE
+vocabulary:
+  - id: de-DE-A2-PAST-004-001
+    term: 'vergleichen'
+    translation: 'to compare'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich vergleiche die Vergangenheit mit der Gegenwart.'
+    exampleTranslation: 'I compare the past with the present.'
+  - id: de-DE-A2-PAST-004-002
+    term: 'Vergangenheit'
+    translation: 'past'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'In der Vergangenheit war alles anders.'
+    exampleTranslation: 'In the past everything was different.'
+  - id: de-DE-A2-PAST-004-003
+    term: 'Gegenwart'
+    translation: 'present'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Heute ist die Gegenwart.'
+    exampleTranslation: 'Today is the present.'
+  - id: de-DE-A2-PAST-004-004
+    term: 'damals'
+    translation: 'back then'
+    partOfSpeech: adverb
+    gender: n/a
+    example: 'Damals hatte ich mehr Zeit.'
+    exampleTranslation: 'I had more time back then.'
+  - id: de-DE-A2-PAST-004-005
+    term: 'heute'
+    translation: 'today'
+    partOfSpeech: adverb
+    gender: n/a
+    example: 'Heute ist alles schneller.'
+    exampleTranslation: 'Everything is faster today.'
+  - id: de-DE-A2-PAST-004-006
+    term: 'unterschiedlich'
+    translation: 'different'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Es gibt viele unterschiedliche Meinungen.'
+    exampleTranslation: 'There are many different opinions.'
+grammar: []
+culturalNotes: 'Comparing past and present ("Damals und heute") is a common exercise in German language classes and a frequent topic in everyday conversation.'

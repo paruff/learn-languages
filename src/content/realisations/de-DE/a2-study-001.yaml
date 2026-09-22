@@ -1,0 +1,47 @@
+nodeId: A2-STUDY-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-A2-STUDY-001-001
+    term: 'Studium'
+    translation: 'studies'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Ich bin im dritten Semester meines Studiums.'
+    exampleTranslation: 'I am in the third semester of my studies.'
+  - id: de-DE-A2-STUDY-001-002
+    term: 'Universität'
+    translation: 'university'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ich studiere an der Universität.'
+    exampleTranslation: 'I study at the university.'
+  - id: de-DE-A2-STUDY-001-003
+    term: 'Fach'
+    translation: 'subject'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Mein Fach ist Informatik.'
+    exampleTranslation: 'My subject is computer science.'
+  - id: de-DE-A2-STUDY-001-004
+    term: 'Abschluss'
+    translation: 'degree'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Welchen Abschluss haben Sie?'
+    exampleTranslation: 'What degree do you have?'
+  - id: de-DE-A2-STUDY-001-005
+    term: 'Klausur'
+    translation: 'exam'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Klausur ist nächste Woche.'
+    exampleTranslation: 'The exam is next week.'
+  - id: de-DE-A2-STUDY-001-006
+    term: 'Note'
+    translation: 'grade'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ich habe eine gute Note bekommen.'
+    exampleTranslation: 'I got a good grade.'
+grammar: []
+culturalNotes: 'The German university system is tuition-free at public universities; students pay only a small semester contribution ("Semesterbeitrag").'

@@ -1,0 +1,47 @@
+nodeId: A2-HABIT-003
+lang: en-DE
+vocabulary:
+  - id: en-DE-A2-HABIT-003-001
+    term: 'news'
+    translation: 'Nachricht'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Die Nachrichten sind um acht Uhr.'
+    exampleTranslation: "The news is at eight o'clock."
+  - id: en-DE-A2-HABIT-003-002
+    term: 'event'
+    translation: 'Ereignis'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Das war ein wichtiges Ereignis.'
+    exampleTranslation: 'That was an important event.'
+  - id: en-DE-A2-HABIT-003-003
+    term: 'happened'
+    translation: 'passiert'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Was ist passiert?'
+    exampleTranslation: 'What happened?'
+  - id: en-DE-A2-HABIT-003-004
+    term: 'to report'
+    translation: 'berichten'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Die Zeitung berichtet darüber.'
+    exampleTranslation: 'The newspaper reports on it.'
+  - id: en-DE-A2-HABIT-003-005
+    term: 'newspaper'
+    translation: 'Zeitung'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Ich lese jeden Morgen die Zeitung.'
+    exampleTranslation: 'I read the newspaper every morning.'
+  - id: en-DE-A2-HABIT-003-006
+    term: 'news portal'
+    translation: 'Nachrichtenportal'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Ich schaue online auf ein Nachrichtenportal.'
+    exampleTranslation: 'I check an online news portal.'
+grammar: []
+culturalNotes: 'Public broadcasters ARD and ZDF are the main sources of TV news in Germany; their "Tagesschau" at 8 PM is a daily ritual for many Germans.'

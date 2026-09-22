@@ -1,0 +1,47 @@
+nodeId: A2-PAST-002
+lang: de-DE
+vocabulary:
+  - id: de-DE-A2-PAST-002-001
+    term: 'Veränderung'
+    translation: 'change'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Veränderung war groß.'
+    exampleTranslation: 'The change was big.'
+  - id: de-DE-A2-PAST-002-002
+    term: 'früher'
+    translation: 'formerly'
+    partOfSpeech: adverb
+    gender: n/a
+    example: 'Früher war alles anders.'
+    exampleTranslation: 'Everything was different before.'
+  - id: de-DE-A2-PAST-002-003
+    term: 'heutzutage'
+    translation: 'nowadays'
+    partOfSpeech: adverb
+    gender: n/a
+    example: 'Heutzutage gibt es viele Computer.'
+    exampleTranslation: 'Nowadays there are many computers.'
+  - id: de-DE-A2-PAST-002-004
+    term: 'sich entwickeln'
+    translation: 'to develop'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Die Stadt hat sich gut entwickelt.'
+    exampleTranslation: 'The city has developed well.'
+  - id: de-DE-A2-PAST-002-005
+    term: 'besser'
+    translation: 'better'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Alles ist jetzt besser.'
+    exampleTranslation: 'Everything is better now.'
+  - id: de-DE-A2-PAST-002-006
+    term: 'schlechter'
+    translation: 'worse'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Das Wetter ist schlechter geworden.'
+    exampleTranslation: 'The weather has gotten worse.'
+grammar: []
+culturalNotes: 'Germans often discuss historical changes ("die Wende" — the reunification) as a reference point for personal and societal transformation.'

@@ -1,0 +1,47 @@
+nodeId: A2-NEWS-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-A2-NEWS-001-001
+    term: 'Artikel'
+    translation: 'article'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Dieser Artikel ist sehr interessant.'
+    exampleTranslation: 'This article is very interesting.'
+  - id: de-DE-A2-NEWS-001-002
+    term: 'Überschrift'
+    translation: 'headline'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Überschrift war aufregend.'
+    exampleTranslation: 'The headline was exciting.'
+  - id: de-DE-A2-NEWS-001-003
+    term: 'Inhalt'
+    translation: 'content'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Inhalt war klar geschrieben.'
+    exampleTranslation: 'The content was written clearly.'
+  - id: de-DE-A2-NEWS-001-004
+    term: 'Thema'
+    translation: 'topic'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Das Thema ist aktuell.'
+    exampleTranslation: 'The topic is current.'
+  - id: de-DE-A2-NEWS-001-005
+    term: 'schreiben'
+    translation: 'to write'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Der Journalist hat gut geschrieben.'
+    exampleTranslation: 'The journalist wrote well.'
+  - id: de-DE-A2-NEWS-001-006
+    term: 'lesen'
+    translation: 'to read'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich lese den Artikel aufmerksam.'
+    exampleTranslation: 'I read the article carefully.'
+grammar: []
+culturalNotes: 'Major German newspapers include "Süddeutsche Zeitung", "Frankfurter Allgemeine", and "Die Welt"; public TV news "Tagesschau" is watched by millions daily.'

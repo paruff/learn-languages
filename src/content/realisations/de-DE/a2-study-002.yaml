@@ -1,0 +1,47 @@
+nodeId: A2-STUDY-002
+lang: de-DE
+vocabulary:
+  - id: de-DE-A2-STUDY-002-001
+    term: 'Bildung'
+    translation: 'education'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Bildung ist sehr wichtig in Deutschland.'
+    exampleTranslation: 'Education is very important in Germany.'
+  - id: de-DE-A2-STUDY-002-002
+    term: 'Schule'
+    translation: 'school'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ich gehe zur Schule.'
+    exampleTranslation: 'I go to school.'
+  - id: de-DE-A2-STUDY-002-003
+    term: 'Lehrer'
+    translation: 'teacher'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Mein Lehrer ist sehr nett.'
+    exampleTranslation: 'My teacher is very nice.'
+  - id: de-DE-A2-STUDY-002-004
+    term: 'Zeugnis'
+    translation: 'report card'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Ich habe ein gutes Zeugnis bekommen.'
+    exampleTranslation: 'I got a good report card.'
+  - id: de-DE-A2-STUDY-002-005
+    term: 'Hausaufgabe'
+    translation: 'homework'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ich muss meine Hausaufgaben machen.'
+    exampleTranslation: 'I have to do my homework.'
+  - id: de-DE-A2-STUDY-002-006
+    term: 'Klasse'
+    translation: 'class'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Meine Klasse hat zwanzig Schüler.'
+    exampleTranslation: 'My class has twenty students.'
+grammar: []
+culturalNotes: 'The German school system has different tracks (Gymnasium, Realschule, Hauptschule) leading to different career paths; the "Abitur" from Gymnasium is the university-entrance exam.'

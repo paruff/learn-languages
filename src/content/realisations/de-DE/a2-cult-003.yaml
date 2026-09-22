@@ -1,0 +1,47 @@
+nodeId: A2-CULT-003
+lang: de-DE
+vocabulary:
+  - id: de-DE-A2-CULT-003-001
+    term: 'Meinung'
+    translation: 'opinion'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Was ist deine Meinung?'
+    exampleTranslation: 'What is your opinion?'
+  - id: de-DE-A2-CULT-003-002
+    term: 'finden'
+    translation: 'to find'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich finde das sehr interessant.'
+    exampleTranslation: 'I find that very interesting.'
+  - id: de-DE-A2-CULT-003-003
+    term: 'interessant'
+    translation: 'interesting'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Die Kultur ist interessant.'
+    exampleTranslation: 'The culture is interesting.'
+  - id: de-DE-A2-CULT-003-004
+    term: 'langweilig'
+    translation: 'boring'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Der Film war langweilig.'
+    exampleTranslation: 'The film was boring.'
+  - id: de-DE-A2-CULT-003-005
+    term: 'mögen'
+    translation: 'to like'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich mag deutsche Filme.'
+    exampleTranslation: 'I like German films.'
+  - id: de-DE-A2-CULT-003-006
+    term: 'Kunst'
+    translation: 'art'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Kunst ist sehr vielfältig.'
+    exampleTranslation: 'The art is very diverse.'
+grammar: []
+culturalNotes: 'Germans tend to express opinions directly and value "Sachlichkeit" (objectivity) in discussion; phrases like "Ich finde, dass..." are standard for sharing personal views.'

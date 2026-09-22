@@ -1,0 +1,47 @@
+nodeId: A2-JOB-003
+lang: en-DE
+vocabulary:
+  - id: en-DE-A2-JOB-003-001
+    term: 'job advertisement'
+    translation: 'Stellenanzeige'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Ich habe eine Stellenanzeige gelesen.'
+    exampleTranslation: 'I read a job advertisement.'
+  - id: en-DE-A2-JOB-003-002
+    term: 'application'
+    translation: 'Bewerbung'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Ich schreibe eine Bewerbung.'
+    exampleTranslation: 'I am writing an application.'
+  - id: en-DE-A2-JOB-003-003
+    term: 'CV / resume'
+    translation: 'Lebenslauf'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Schicken Sie bitte Ihren Lebenslauf.'
+    exampleTranslation: 'Please send your CV.'
+  - id: en-DE-A2-JOB-003-004
+    term: 'qualification'
+    translation: 'Qualifikation'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Welche Qualifikation haben Sie?'
+    exampleTranslation: 'What qualification do you have?'
+  - id: en-DE-A2-JOB-003-005
+    term: 'full-time'
+    translation: 'Vollzeit'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Ich suche eine Vollzeitstelle.'
+    exampleTranslation: 'I am looking for a full-time position.'
+  - id: en-DE-A2-JOB-003-006
+    term: 'internship'
+    translation: 'Praktikum'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Ich mache ein Praktikum.'
+    exampleTranslation: 'I am doing an internship.'
+grammar: []
+culturalNotes: 'German job applications require a formal cover letter ("Anschreiben"), a CV ("Lebenslauf"), and certificates — the "Bewerbungsmappe" (application folder) is standard.'

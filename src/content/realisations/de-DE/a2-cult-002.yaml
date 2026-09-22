@@ -1,0 +1,47 @@
+nodeId: A2-CULT-002
+lang: de-DE
+vocabulary:
+  - id: de-DE-A2-CULT-002-001
+    term: 'Essen'
+    translation: 'food'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Das Essen war sehr lecker.'
+    exampleTranslation: 'The food was very delicious.'
+  - id: de-DE-A2-CULT-002-002
+    term: 'Küche'
+    translation: 'kitchen / cuisine'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Deutsche Küche ist sehr vielfältig.'
+    exampleTranslation: 'German cuisine is very diverse.'
+  - id: de-DE-A2-CULT-002-003
+    term: 'Wurst'
+    translation: 'sausage'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Wurst schmeckt sehr gut.'
+    exampleTranslation: 'The sausage tastes very good.'
+  - id: de-DE-A2-CULT-002-004
+    term: 'Brot'
+    translation: 'bread'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'In Deutschland gibt es viele Brotsorten.'
+    exampleTranslation: 'In Germany there are many types of bread.'
+  - id: de-DE-A2-CULT-002-005
+    term: 'Mundart'
+    translation: 'dialect'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'In Bayern spricht man Mundart.'
+    exampleTranslation: 'In Bavaria people speak a dialect.'
+  - id: de-DE-A2-CULT-002-006
+    term: 'Kleidung'
+    translation: 'clothing'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Kleidung ist traditionsreich.'
+    exampleTranslation: 'The clothing is traditional.'
+grammar: []
+culturalNotes: 'Germany has over 3,000 different types of bread ("Brotvielfalt"), recognized by UNESCO as intangible cultural heritage; regional cuisine varies significantly from north to south.'

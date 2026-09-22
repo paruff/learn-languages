@@ -1,0 +1,47 @@
+nodeId: A2-PAST-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-A2-PAST-001-001
+    term: 'Erfahrung'
+    translation: 'experience'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Das war eine tolle Erfahrung.'
+    exampleTranslation: 'That was a great experience.'
+  - id: de-DE-A2-PAST-001-002
+    term: 'damals'
+    translation: 'at that time / back then'
+    partOfSpeech: adverb
+    gender: n/a
+    example: 'Damals war ich noch jung.'
+    exampleTranslation: 'I was still young back then.'
+  - id: de-DE-A2-PAST-001-003
+    term: 'erleben'
+    translation: 'to experience'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Wir haben viel erlebt.'
+    exampleTranslation: 'We experienced a lot.'
+  - id: de-DE-A2-PAST-001-004
+    term: 'Reise'
+    translation: 'trip'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Wir haben eine tolle Reise gemacht.'
+    exampleTranslation: 'We had a great trip.'
+  - id: de-DE-A2-PAST-001-005
+    term: 'besuchen'
+    translation: 'to visit'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich habe meine Großeltern besucht.'
+    exampleTranslation: 'I visited my grandparents.'
+  - id: de-DE-A2-PAST-001-006
+    term: 'sehen'
+    translation: 'to see'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Wir haben den Dom gesehen.'
+    exampleTranslation: 'We saw the cathedral.'
+grammar: []
+culturalNotes: 'Germans value personal experience sharing ("Erzähl mal!") and often recount travel stories in detail — the "Erlebnisbericht" is a common narrative form.'
