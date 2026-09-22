@@ -1,0 +1,53 @@
+nodeId: B2-SOCIAL-004
+lang: en-DE
+vocabulary:
+  - id: en-DE-B2-SOCIAL-004-001
+    term: 'point of view'
+    translation: 'Standpunkt'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Ich möchte meinen Standpunkt klarstellen.'
+    exampleTranslation: 'I would like to clarify my point of view.'
+  - id: en-DE-B2-SOCIAL-004-002
+    term: 'to explain / to present'
+    translation: 'darlegen'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich lege meinen Standpunkt dar.'
+    exampleTranslation: 'I explain my point of view.'
+  - id: en-DE-B2-SOCIAL-004-003
+    term: 'comprehensible / understandable'
+    translation: 'nachvollziehbar'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Ihre Erklärung war nachvollziehbar.'
+    exampleTranslation: 'Your explanation was comprehensible.'
+  - id: en-DE-B2-SOCIAL-004-004
+    term: 'to clarify'
+    translation: 'klarstellen'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich möchte das klarstellen.'
+    exampleTranslation: 'I would like to clarify that.'
+  - id: en-DE-B2-SOCIAL-004-005
+    term: 'understandable'
+    translation: 'verständlich'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Das war sehr verständlich.'
+    exampleTranslation: 'That was very understandable.'
+  - id: en-DE-B2-SOCIAL-004-006
+    term: 'detail'
+    translation: 'Detail'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Können Sie das Detail erklären?'
+    exampleTranslation: 'Can you explain the detail?'
+grammar:
+  - id: B2-SOCIAL-004-GR01
+    point: 'Clarifying detailed points of view'
+    explanation: 'At B2, clarify positions by: restating in simpler terms (Ich möchte das anders ausdrücken), providing examples (Ein konkretes Beispiel ist...), addressing misunderstandings (Das habe ich nicht so gemeint), and confirming understanding (Haben Sie das verstanden?).'
+    examples:
+      - 'Ich möchte das klarstellen. Gemeint ist, dass...'
+      - 'Ein konkretes Beispiel ist die steigende Arbeitslosigkeit.'
+culturalNotes: 'Germans value "Klarheit" (clarity) in communication; ambiguous statements are often challenged, and precise expression is expected.'

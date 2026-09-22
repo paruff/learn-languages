@@ -1,0 +1,53 @@
+nodeId: B2-ARGUE-004
+lang: en-DE
+vocabulary:
+  - id: en-DE-B2-ARGUE-004-001
+    term: 'presentation / explanation'
+    translation: 'Darlegung'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Die Darlegung war klar.'
+    exampleTranslation: 'The presentation was clear.'
+  - id: en-DE-B2-ARGUE-004-002
+    term: 'to prove / to substantiate'
+    translation: 'belegen'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Können Sie das belegen?'
+    exampleTranslation: 'Can you substantiate that?'
+  - id: en-DE-B2-ARGUE-004-003
+    term: 'detail'
+    translation: 'Einzelheit'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Die Einzelheiten sind wichtig.'
+    exampleTranslation: 'The details are important.'
+  - id: en-DE-B2-ARGUE-004-004
+    term: 'to demonstrate / to prove'
+    translation: 'nachweisen'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich kann das nachweisen.'
+    exampleTranslation: 'I can prove that.'
+  - id: en-DE-B2-ARGUE-004-005
+    term: 'perspective / viewpoint'
+    translation: 'Sichtweise'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Ich teile Ihre Sichtweise.'
+    exampleTranslation: 'I share your perspective.'
+  - id: en-DE-B2-ARGUE-004-006
+    term: 'to support / to back up'
+    translation: 'untermauern'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich untermauere meine Meinung mit Fakten.'
+    exampleTranslation: 'I support my opinion with facts.'
+grammar:
+  - id: B2-ARGUE-004-GR01
+    point: 'Sustaining viewpoints with supporting detail'
+    explanation: 'At B2, sustain viewpoints by: stating the position (Meine Sichtweise ist...), providing evidence (Ich kann das belegen durch...), giving details (Einzelheiten dazu sind...), and reinforcing (Das untermauert meine Position).'
+    examples:
+      - 'Meine Sichtweise ist, dass die Wirtschaft wächst. Das kann ich belegen durch...'
+      - 'Einzelheiten dazu finden Sie in meinem Bericht.'
+culturalNotes: 'German academic writing values detailed evidence ("belegte Aussagen"); unsupported claims are immediately challenged in professional and academic discourse.'

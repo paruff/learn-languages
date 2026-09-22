@@ -1,0 +1,53 @@
+nodeId: B2-ARGUE-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-B2-ARGUE-001-001
+    term: 'Kette'
+    translation: 'chain'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Er baute eine Kette von Argumenten auf.'
+    exampleTranslation: 'He built a chain of arguments.'
+  - id: de-DE-B2-ARGUE-001-002
+    term: 'Schlussfolgerung'
+    translation: 'conclusion'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Schlussfolgerung war logisch.'
+    exampleTranslation: 'The conclusion was logical.'
+  - id: de-DE-B2-ARGUE-001-003
+    term: 'Prämisse'
+    translation: 'premise'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Prämisse war falsch.'
+    exampleTranslation: 'The premise was wrong.'
+  - id: de-DE-B2-ARGUE-001-004
+    term: 'Argument'
+    translation: 'argument'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Das ist ein starkes Argument.'
+    exampleTranslation: 'That is a strong argument.'
+  - id: de-DE-B2-ARGUE-001-005
+    term: 'folgern'
+    translation: 'to conclude'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Daraus kann man folgern, dass...'
+    exampleTranslation: 'From this one can conclude that...'
+  - id: de-DE-B2-ARGUE-001-006
+    term: 'widersprechen'
+    translation: 'to contradict'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Das widerspricht meiner Meinung.'
+    exampleTranslation: 'That contradicts my opinion.'
+grammar:
+  - id: B2-ARGUE-001-GR01
+    point: 'Constructing chains of reasoning'
+    explanation: 'At B2, construct arguments by: stating a premise (Ausgehend von der Annahme, dass...), providing evidence (Zum einen... zum anderen...), and drawing a conclusion (Daraus folgt, dass...). Use Konjunktiv II for hypothetical reasoning.'
+    examples:
+      - 'Ausgehend von der Annahme, dass die Wirtschaft wächst, kann man folgern, dass...'
+      - 'Daraus folgt, dass wir mehr investieren müssen.'
+culturalNotes: 'German academic and professional argumentation follows the "These-Antithese-Synthese" pattern; constructing logical chains ("Argumentationskette") is valued in debates and written discourse.'

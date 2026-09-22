@@ -1,0 +1,53 @@
+nodeId: B2-ARGUE-003
+lang: de-DE
+vocabulary:
+  - id: de-DE-B2-ARGUE-003-001
+    term: 'Argumentation'
+    translation: 'argumentation'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Argumentation war überzeugend.'
+    exampleTranslation: 'The argumentation was convincing.'
+  - id: de-DE-B2-ARGUE-003-002
+    term: 'systematisch'
+    translation: 'systematic'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Er argumentiert sehr systematisch.'
+    exampleTranslation: 'He argues very systematically.'
+  - id: de-DE-B2-ARGUE-003-003
+    term: 'Hervorhebung'
+    translation: 'emphasis / highlighting'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Hervorhebung war wichtig.'
+    exampleTranslation: 'The emphasis was important.'
+  - id: de-DE-B2-ARGUE-003-004
+    term: 'Schwerpunkt'
+    translation: 'focus / emphasis'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Schwerpunkt liegt auf der Wirtschaft.'
+    exampleTranslation: 'The focus is on the economy.'
+  - id: de-DE-B2-ARGUE-003-005
+    term: 'entwickeln'
+    translation: 'to develop'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich entwickle mein Argument weiter.'
+    exampleTranslation: 'I develop my argument further.'
+  - id: de-DE-B2-ARGUE-003-006
+    term: 'überzeugend'
+    translation: 'convincing'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Das war ein überzeugendes Argument.'
+    exampleTranslation: 'That was a convincing argument.'
+grammar:
+  - id: B2-ARGUE-003-GR01
+    point: 'Developing arguments systematically'
+    explanation: 'At B2, develop arguments by: introducing the main point (Der Schwerpunkt liegt auf...), supporting with evidence (Zum einen... zum anderen...), highlighting key points (Besonders wichtig ist...), and concluding (Zusammenfassend lässt sich sagen...).'
+    examples:
+      - 'Der Schwerpunkt liegt auf der Wirtschaft. Besonders wichtig ist...'
+      - 'Zusammenfassend lässt sich sagen, dass die Argumentation überzeugend war.'
+culturalNotes: 'German argumentation values systematic structure ("systematische Argumentation"); jumping between points without clear connections is considered weak.'

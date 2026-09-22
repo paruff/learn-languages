@@ -113,6 +113,33 @@ A2 Coverage: 20/20 nodes fully realised (100%).
 
 B1 Coverage: 18/18 nodes fully realised (100%).
 
+## B2 nodes in the repo (EN→DE)
+
+18 B2 `cefr-nodes/` — all language-agnostic Can-Do statements. Paired en-DE/de-DE realisations authored for all 18 nodes.
+
+| nodeId         | Skill              | Can-Do                                                    | Status      |
+| -------------- | ------------------ | --------------------------------------------------------- | ----------- |
+| B2-ARGUE-001   | spoken_production  | Can construct a chain of reasoning                        | ✅ Realised |
+| B2-ARGUE-002   | spoken_production  | Can justify viewpoint on topical issues                   | ✅ Realised |
+| B2-ARGUE-003   | spoken_production  | Can develop an argument systematically                    | ✅ Realised |
+| B2-ARGUE-004   | writing            | Can sustain viewpoint by providing relevant supporting detail | ✅ Realised |
+| B2-SOCIAL-001  | spoken_interaction | Can interact with a degree of fluency and spontaneity     | ✅ Realised |
+| B2-SOCIAL-002  | spoken_interaction | Can take an active part in discussion in familiar contexts| ✅ Realised |
+| B2-SOCIAL-003  | spoken_interaction | Can account for and sustain views by giving explanations  | ✅ Realised |
+| B2-SOCIAL-004  | spoken_interaction | Can clarify a detailed point of view clearly              | ✅ Realised |
+| B2-SPOKEN-001  | listening          | Can understand extended speech and lectures               | ✅ Realised |
+| B2-SPOKEN-002  | listening          | Can understand most TV news and current affairs           | ✅ Realised |
+| B2-SPOKEN-003  | listening          | Can understand main ideas of complex speech               | ✅ Realised |
+| B2-TEXT-001    | reading            | Can read with a large degree of independence              | ✅ Realised |
+| B2-TEXT-002    | reading            | Can understand articles on contemporary problems          | ✅ Realised |
+| B2-TEXT-003    | reading            | Can recognise the line of argument in treatment of issues | ✅ Realised |
+| B2-TEXT-004    | reading            | Can understand main conclusions of argumentative texts    | ✅ Realised |
+| B2-WRITTEN-001 | writing            | Can write clear, detailed text on a wide range of subjects| ✅ Realised |
+| B2-WRITTEN-002 | writing            | Can write an essay or report that develops an argument    | ✅ Realised |
+| B2-WRITTEN-003 | writing            | Can write with correct spelling and punctuation           | ✅ Realised |
+
+B2 Coverage: 18/18 nodes fully realised (100%).
+
 ### de-DE realisation totals
 
 | Level | Vocabulary items | Grammar points | Files |
@@ -120,7 +147,8 @@ B1 Coverage: 18/18 nodes fully realised (100%).
 | A1    | 132              | 0              | 22    |
 | A2    | 120              | 0              | 20    |
 | B1    | 108              | 8              | 18    |
-| **Total** | **360**      | **8**          | **60** |
+| B2    | 108              | 8              | 18    |
+| **Total** | **468**      | **16**         | **78** |
 
 ## Sourcing note
 

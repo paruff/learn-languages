@@ -1,0 +1,53 @@
+nodeId: B2-SOCIAL-002
+lang: en-DE
+vocabulary:
+  - id: en-DE-B2-SOCIAL-002-001
+    term: 'discussion'
+    translation: 'Diskussion'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Die Diskussion war sehr konstruktiv.'
+    exampleTranslation: 'The discussion was very constructive.'
+  - id: en-DE-B2-SOCIAL-002-002
+    term: 'context-related'
+    translation: 'kontextbezogen'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Die Diskussion war kontextbezogen.'
+    exampleTranslation: 'The discussion was context-related.'
+  - id: en-DE-B2-SOCIAL-002-003
+    term: 'to participate actively'
+    translation: 'aktiv teilnehmen'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich nehme aktiv an der Diskussion teil.'
+    exampleTranslation: 'I actively participate in the discussion.'
+  - id: en-DE-B2-SOCIAL-002-004
+    term: 'to express an opinion'
+    translation: 'Meinung äußern'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich möchte meine Meinung äußern.'
+    exampleTranslation: 'I would like to express my opinion.'
+  - id: en-DE-B2-SOCIAL-002-005
+    term: 'to agree'
+    translation: 'zustimmen'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich stimme Ihnen zu.'
+    exampleTranslation: 'I agree with you.'
+  - id: en-DE-B2-SOCIAL-002-006
+    term: 'to reject / to decline'
+    translation: 'ablehnen'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich lehne Ihren Vorschlag ab.'
+    exampleTranslation: 'I reject your proposal.'
+grammar:
+  - id: B2-SOCIAL-002-GR01
+    point: 'Taking active part in discussions'
+    explanation: 'At B2, participate actively by: contributing opinions (Ich möchte einen Kommentar abgeben), asking for clarification (Können Sie das genauer erklären?), responding to others (Das finde ich interessant, weil...), and managing turn-taking.'
+    examples:
+      - 'Ich möchte einen Kommentar abgeben. Meiner Meinung nach...'
+      - 'Das finde ich interessant. Können Sie das genauer erklären?'
+culturalNotes: 'German discussions value "Sachlichkeit" (objectivity) and "Fairness"; interrupting others is considered rude, and well-structured contributions are appreciated.'

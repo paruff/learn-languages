@@ -1,0 +1,47 @@
+nodeId: B2-TEXT-004
+lang: de-DE
+vocabulary:
+  - id: de-DE-B2-TEXT-004-001
+    term: 'Schlussfolgerung'
+    translation: 'conclusion'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Schlussfolgerung war logisch.'
+    exampleTranslation: 'The conclusion was logical.'
+  - id: de-DE-B2-TEXT-004-002
+    term: 'erkennen'
+    translation: 'to recognize'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich kann die Schlussfolgerung erkennen.'
+    exampleTranslation: 'I can recognize the conclusion.'
+  - id: de-DE-B2-TEXT-004-003
+    term: 'Argumentationstext'
+    translation: 'argumentative text'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Argumentationstext war klar strukturiert.'
+    exampleTranslation: 'The argumentative text was clearly structured.'
+  - id: de-DE-B2-TEXT-004-004
+    term: 'Hervorhebung'
+    translation: 'emphasis'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Hervorhebung war wichtig.'
+    exampleTranslation: 'The emphasis was important.'
+  - id: de-DE-B2-TEXT-004-005
+    term: 'Struktur'
+    translation: 'structure'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Struktur war klar.'
+    exampleTranslation: 'The structure was clear.'
+  - id: de-DE-B2-TEXT-004-006
+    term: 'verstehen'
+    translation: 'to understand'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich verstehe die Schlussfolgerung.'
+    exampleTranslation: 'I understand the conclusion.'
+grammar: []
+culturalNotes: 'German argumentative texts often use explicit signposting ("Zusammenfassend", "Daraus folgt", "Abschließend"); recognizing these markers is key to B2 reading comprehension.'

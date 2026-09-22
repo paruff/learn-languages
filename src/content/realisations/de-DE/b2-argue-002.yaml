@@ -1,0 +1,53 @@
+nodeId: B2-ARGUE-002
+lang: de-DE
+vocabulary:
+  - id: de-DE-B2-ARGUE-002-001
+    term: 'Standpunkt'
+    translation: 'point of view'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ich vertrete den Standpunkt, dass...'
+    exampleTranslation: 'I hold the point of view that...'
+  - id: de-DE-B2-ARGUE-002-002
+    term: 'begründen'
+    translation: 'to justify / to give reasons'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Können Sie Ihren Standpunkt begründen?'
+    exampleTranslation: 'Can you justify your point of view?'
+  - id: de-DE-B2-ARGUE-002-003
+    term: ' aktuelle'
+    translation: 'current / topical'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Das ist eine aktuelle Frage.'
+    exampleTranslation: 'That is a current question.'
+  - id: de-DE-B2-ARGUE-002-004
+    term: 'Debatte'
+    translation: 'debate'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Debatte war sehr lebhaft.'
+    exampleTranslation: 'The debate was very lively.'
+  - id: de-DE-B2-ARGUE-002-005
+    term: 'vertreten'
+    translation: 'to represent / to hold (a view)'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich vertrete die Meinung, dass...'
+    exampleTranslation: 'I hold the opinion that...'
+  - id: de-DE-B2-ARGUE-002-006
+    term: 'Hinweis'
+    translation: 'hint / indication'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Es gibt viele Hinweise dafür.'
+    exampleTranslation: 'There are many indications for it.'
+grammar:
+  - id: B2-ARGUE-002-GR01
+    point: 'Justifying viewpoints on topical issues'
+    explanation: 'At B2, justify positions with: "Ich vertrete den Standpunkt, dass..." (formal), "Meiner Ansicht nach..." (opinion), followed by evidence (Ein Beispiel dafür ist...). Use "Das spricht dafür, dass..." to introduce supporting points.'
+    examples:
+      - 'Ich vertrete den Standpunkt, dass die Bildung wichtig ist, denn...'
+      - 'Ein Beispiel dafür ist die steigende Arbeitslosigkeit.'
+culturalNotes: 'Germans expect well-justified opinions ("begründete Standpunkte"); stating a position without evidence is considered weak at B2 level.'

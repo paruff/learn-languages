@@ -1,0 +1,53 @@
+nodeId: B2-WRITTEN-003
+lang: de-DE
+vocabulary:
+  - id: de-DE-B2-WRITTEN-003-001
+    term: 'Rechtschreibung'
+    translation: 'spelling'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Meine Rechtschreibung ist gut.'
+    exampleTranslation: 'My spelling is good.'
+  - id: de-DE-B2-WRITTEN-003-002
+    term: 'Zeichensetzung'
+    translation: 'punctuation'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Zeichensetzung war korrekt.'
+    exampleTranslation: 'The punctuation was correct.'
+  - id: de-DE-B2-WRITTEN-003-003
+    term: 'korrekt'
+    translation: 'correct'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Das war ein korrekter Satz.'
+    exampleTranslation: 'That was a correct sentence.'
+  - id: de-DE-B2-WRITTEN-003-004
+    term: 'Fehler'
+    translation: 'error / mistake'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Es gibt wenige Fehler.'
+    exampleTranslation: 'There are few errors.'
+  - id: de-DE-B2-WRITTEN-003-005
+    term: 'überprüfen'
+    translation: 'to check / to verify'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich überprüfe meinen Text auf Fehler.'
+    exampleTranslation: 'I check my text for errors.'
+  - id: de-DE-B2-WRITTEN-003-006
+    term: 'Satzstruktur'
+    translation: 'sentence structure'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Satzstruktur war komplex.'
+    exampleTranslation: 'The sentence structure was complex.'
+grammar:
+  - id: B2-WRITTEN-003-GR01
+    point: 'Writing with correct spelling and punctuation'
+    explanation: 'At B2, demonstrate accurate spelling and punctuation: use of commas in complex sentences (Nebensätze), correct use of umlauts (ä, ö, ü, ß), proper capitalization of nouns, and accurate verb placement in subordinate clauses.'
+    examples:
+      - 'Obwohl es regnete, ging ich spazieren. (comma before obwohl-clause)'
+      - 'Ich weiß, dass er kommt. (comma before dass-clause)'
+culturalNotes: 'German spelling rules ("Rechtschreibreform") were reformed in 1996; B2 writers should be familiar with current conventions, especially comma rules in complex sentences.'

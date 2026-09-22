@@ -1,0 +1,53 @@
+nodeId: B2-ARGUE-004
+lang: de-DE
+vocabulary:
+  - id: de-DE-B2-ARGUE-004-001
+    term: 'Darlegung'
+    translation: 'presentation / explanation'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Darlegung war klar.'
+    exampleTranslation: 'The presentation was clear.'
+  - id: de-DE-B2-ARGUE-004-002
+    term: 'belegen'
+    translation: 'to prove / to substantiate'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Können Sie das belegen?'
+    exampleTranslation: 'Can you substantiate that?'
+  - id: de-DE-B2-ARGUE-004-003
+    term: 'Einzelheit'
+    translation: 'detail'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Einzelheiten sind wichtig.'
+    exampleTranslation: 'The details are important.'
+  - id: de-DE-B2-ARGUE-004-004
+    term: 'nachweisen'
+    translation: 'to demonstrate / to prove'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich kann das nachweisen.'
+    exampleTranslation: 'I can prove that.'
+  - id: de-DE-B2-ARGUE-004-005
+    term: 'Sichtweise'
+    translation: 'perspective / viewpoint'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ich teile Ihre Sichtweise.'
+    exampleTranslation: 'I share your perspective.'
+  - id: de-DE-B2-ARGUE-004-006
+    term: 'untermauern'
+    translation: 'to support / to back up'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich untermauere meine Meinung mit Fakten.'
+    exampleTranslation: 'I support my opinion with facts.'
+grammar:
+  - id: B2-ARGUE-004-GR01
+    point: 'Sustaining viewpoints with supporting detail'
+    explanation: 'At B2, sustain viewpoints by: stating the position (Meine Sichtweise ist...), providing evidence (Ich kann das belegen durch...), giving details (Einzelheiten dazu sind...), and reinforcing (Das untermauert meine Position).'
+    examples:
+      - 'Meine Sichtweise ist, dass die Wirtschaft wächst. Das kann ich belegen durch...'
+      - 'Einzelheiten dazu finden Sie in meinem Bericht.'
+culturalNotes: 'German academic writing values detailed evidence ("belegte Aussagen"); unsupported claims are immediately challenged in professional and academic discourse.'
