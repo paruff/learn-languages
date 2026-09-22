@@ -1,28 +1,40 @@
-nodeId: A1-NUMB-001
-lang: de-DE
+nodeId: 'A1-NUMB-001'
+lang: 'de-DE'
 vocabulary:
-  - id: de-DE-A1-NUMB-001-001
+  - id: 'de-DE-A1-NUMB-001-001'
     term: 'Eins'
     translation: 'One'
-    partOfSpeech: adjective
+    partOfSpeech: 'noun'
     example: 'Ich habe einen Bruder.'
     exampleTranslation: 'I have one brother.'
-    imageUrl: 'um.webp'
-    imageAlt: 'A large red number 1 shaped as a birthday candle'
-  - id: de-DE-A1-NUMB-001-002
+  - id: 'de-DE-A1-NUMB-001-002'
     term: 'Zwei'
     translation: 'Two'
-    partOfSpeech: adjective
-    example: 'Ich möchte zwei Kaffees.'
-    exampleTranslation: 'I want two coffees.'
-    imageUrl: 'dois.webp'
-    imageAlt: 'A large red number 2 shaped as a birthday candle'
-  - id: de-DE-A1-NUMB-001-003
+    partOfSpeech: 'noun'
+    example: 'Da sind zwei Katzen.'
+    exampleTranslation: 'There are two cats.'
+  - id: 'de-DE-A1-NUMB-001-003'
     term: 'Drei'
     translation: 'Three'
-    partOfSpeech: adjective
-    example: 'Sie hat drei Kinder.'
-    exampleTranslation: 'She has three children.'
-    imageUrl: 'tres.webp'
-    imageAlt: 'A large red number 3 shaped as a birthday candle'
+    partOfSpeech: 'noun'
+    example: 'Ich möchte drei Kaffee.'
+    exampleTranslation: 'I would like three coffees.'
+  - id: 'de-DE-A1-NUMB-001-004'
+    term: 'Zehn'
+    translation: 'Ten'
+    partOfSpeech: 'noun'
+    example: 'Das Meeting ist um zehn.'
+    exampleTranslation: 'The meeting is at ten.'
+  - id: 'de-DE-A1-NUMB-001-005'
+    term: 'Zwanzig'
+    translation: 'Twenty'
+    partOfSpeech: 'noun'
+    example: 'Ich bin zwanzig Jahre alt.'
+    exampleTranslation: 'I am twenty years old.'
+  - id: 'de-DE-A1-NUMB-001-006'
+    term: 'Hundert'
+    translation: 'Hundred'
+    partOfSpeech: 'noun'
+    example: 'Das Buch kostet hundert Euro.'
+    exampleTranslation: 'The book costs one hundred euros.'
 grammar: []

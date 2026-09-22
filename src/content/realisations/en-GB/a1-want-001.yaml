@@ -1,22 +1,43 @@
-nodeId: A1-WANT-001
-lang: en-GB
+nodeId: 'A1-WANT-001'
+lang: 'en-GB'
 vocabulary:
-  - id: en-GB-A1-WANT-001-001
+  - id: 'en-GB-A1-WANT-001-001'
     term: 'I want...'
-    translation: 'Quero...'
-    partOfSpeech: phrase
-    example: 'I want to learn Portuguese.'
-    exampleTranslation: 'Quero aprender português.'
-  - id: en-GB-A1-WANT-001-002
-    term: "I'm going to..."
-    translation: 'Vou...'
-    partOfSpeech: phrase
-    example: "I'm going to the market tomorrow."
-    exampleTranslation: 'Vou ao mercado amanhã.'
-  - id: en-GB-A1-WANT-001-003
+    translation: 'Ich will...'
+    partOfSpeech: 'phrase'
+    example: 'I want to go home.'
+    exampleTranslation: 'Ich will nach Hause gehen.'
+  - id: 'en-GB-A1-WANT-001-002'
     term: 'I would like...'
-    translation: 'Gostaria de...'
-    partOfSpeech: phrase
-    example: 'I would like a coffee.'
-    exampleTranslation: 'Gostaria de um café.'
+    translation: 'Ich möchte...'
+    partOfSpeech: 'phrase'
+    example: 'I would like to drink a tea.'
+    exampleTranslation: 'Ich möchte einen Tee trinken.'
+  - id: 'en-GB-A1-WANT-001-003'
+    term: "I'm going to..."
+    translation: 'Ich habe vor...'
+    partOfSpeech: 'phrase'
+    example: "I'm going to travel tomorrow."
+    exampleTranslation: 'Ich habe vor, morgen zu reisen.'
+  - id: 'en-GB-A1-WANT-001-004'
+    term: 'to hope'
+    translation: 'hoffen'
+    partOfSpeech: 'verb'
+    example: 'I hope you are doing well.'
+    exampleTranslation: 'Ich hoffe, es geht Ihnen gut.'
+  - id: 'en-GB-A1-WANT-001-005'
+    term: 'to wish'
+    translation: 'wünschen'
+    partOfSpeech: 'verb'
+    example: 'I wish you a nice day.'
+    exampleTranslation: 'Ich wünsche Ihnen einen schönen Tag.'
+  - id: 'en-GB-A1-WANT-001-006'
+    term: 'wish'
+    translation: 'Wunsch'
+    partOfSpeech: 'noun'
+    gender: 'masculine'
+    example: 'That is my greatest wish.'
+    exampleTranslation: 'Das ist mein größter Wunsch.'
 grammar: []
+culturalNotes: '"Möchte" (would like) is more polite than "will" (want) in German;
+  using "möchte" shows good manners in everyday interactions.'

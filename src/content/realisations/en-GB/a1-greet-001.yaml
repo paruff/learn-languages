@@ -1,16 +1,42 @@
-nodeId: A1-GREET-001
-lang: en-GB
+nodeId: 'A1-GREET-001'
+lang: 'en-GB'
 vocabulary:
-  - id: en-GB-A1-GREET-001-001
+  - id: 'en-GB-A1-GREET-001-001'
     term: 'Hello'
-    translation: 'Olá'
-    partOfSpeech: interjection
+    translation: 'Hallo'
+    partOfSpeech: 'interjection'
     example: 'Hello, how are you?'
-    exampleTranslation: 'Olá, como estás?'
-  - id: en-GB-A1-GREET-001-002
+    exampleTranslation: 'Hallo, wie geht es dir?'
+  - id: 'en-GB-A1-GREET-001-002'
     term: 'Good morning'
-    translation: 'Bom dia'
-    partOfSpeech: phrase
-    example: 'Good morning, Mr. Silva.'
-    exampleTranslation: 'Bom dia, senhor Silva.'
+    translation: 'Guten Morgen'
+    partOfSpeech: 'phrase'
+    example: 'Good morning, Mr. Schmidt.'
+    exampleTranslation: 'Guten Morgen, Herr Schmidt.'
+  - id: 'en-GB-A1-GREET-001-003'
+    term: 'Good evening'
+    translation: 'Guten Abend'
+    partOfSpeech: 'phrase'
+    example: 'Good evening, ladies and gentlemen.'
+    exampleTranslation: 'Guten Abend, meine Damen und Herren.'
+  - id: 'en-GB-A1-GREET-001-004'
+    term: 'How are you?'
+    translation: 'Wie geht es Ihnen?'
+    partOfSpeech: 'phrase'
+    example: 'Good morning! How are you?'
+    exampleTranslation: 'Guten Morgen! Wie geht es Ihnen?'
+  - id: 'en-GB-A1-GREET-001-005'
+    term: 'Fine, thank you'
+    translation: 'Gut, danke'
+    partOfSpeech: 'phrase'
+    example: 'I am fine, thank you.'
+    exampleTranslation: 'Mir geht es gut, danke.'
+  - id: 'en-GB-A1-GREET-001-006'
+    term: 'Nice to meet you'
+    translation: 'Freut mich'
+    partOfSpeech: 'phrase'
+    example: "I'm Anna. Nice to meet you."
+    exampleTranslation: 'Ich bin Anna. Freut mich.'
 grammar: []
+culturalNotes: 'In Germany, a firm handshake is the standard greeting in both formal
+  and everyday settings; cheek kisses are far less common than in Spain or Portugal.'

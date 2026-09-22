@@ -1,16 +1,42 @@
-nodeId: A1-INTRO-001
-lang: en-GB
+nodeId: 'A1-INTRO-001'
+lang: 'en-GB'
 vocabulary:
-  - id: en-GB-A1-INTRO-001-001
+  - id: 'en-GB-A1-INTRO-001-001'
     term: 'My name is'
-    translation: 'Chamo-me'
-    partOfSpeech: phrase
-    example: 'My name is João.'
-    exampleTranslation: 'Chamo-me João.'
-  - id: en-GB-A1-INTRO-001-002
+    translation: 'Ich heiße'
+    partOfSpeech: 'phrase'
+    example: 'My name is Thomas.'
+    exampleTranslation: 'Ich heiße Thomas.'
+  - id: 'en-GB-A1-INTRO-001-002'
     term: 'Nice to meet you'
-    translation: 'Prazer'
-    partOfSpeech: interjection
-    example: 'Nice to meet you.'
-    exampleTranslation: 'Prazer em conhecê-lo.'
+    translation: 'Freut mich'
+    partOfSpeech: 'phrase'
+    example: "I'm Anna. Nice to meet you."
+    exampleTranslation: 'Ich bin Anna. Freut mich.'
+  - id: 'en-GB-A1-INTRO-001-003'
+    term: 'I am from'
+    translation: 'Ich komme aus'
+    partOfSpeech: 'phrase'
+    example: 'I am from England.'
+    exampleTranslation: 'Ich komme aus England.'
+  - id: 'en-GB-A1-INTRO-001-004'
+    term: 'I live in'
+    translation: 'Ich wohne in'
+    partOfSpeech: 'phrase'
+    example: 'I live in Berlin.'
+    exampleTranslation: 'Ich wohne in Berlin.'
+  - id: 'en-GB-A1-INTRO-001-005'
+    term: 'I am ... years old'
+    translation: 'Ich bin ... Jahre alt'
+    partOfSpeech: 'phrase'
+    example: 'I am 25 years old.'
+    exampleTranslation: 'Ich bin fünfundzwanzig Jahre alt.'
+  - id: 'en-GB-A1-INTRO-001-006'
+    term: 'I speak'
+    translation: 'Ich spreche'
+    partOfSpeech: 'phrase'
+    example: 'I speak English and a little German.'
+    exampleTranslation: 'Ich spreche Englisch und ein bisschen Deutsch.'
 grammar: []
+culturalNotes: 'Germans typically introduce themselves with "Ich heiße" (My name
+  is) or "Ich bin" (I am); first names are used once the "du" form is agreed upon.'

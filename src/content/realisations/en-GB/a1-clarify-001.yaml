@@ -1,28 +1,42 @@
-nodeId: A1-CLARIFY-001
-lang: en-GB
+nodeId: 'A1-CLARIFY-001'
+lang: 'en-GB'
 vocabulary:
-  - id: en-GB-A1-CLARIFY-001-001
-    term: 'Can you repeat?'
-    translation: 'Pode repetir?'
-    partOfSpeech: phrase
-    example: 'Sorry, can you repeat?'
-    exampleTranslation: 'Desculpe, pode repetir?'
-  - id: en-GB-A1-CLARIFY-001-002
+  - id: 'en-GB-A1-CLARIFY-001-001'
+    term: 'Can you repeat that, please?'
+    translation: 'Können Sie das bitte wiederholen?'
+    partOfSpeech: 'phrase'
+    example: 'Sorry, can you repeat that, please?'
+    exampleTranslation: 'Entschuldigung, können Sie das bitte wiederholen?'
+  - id: 'en-GB-A1-CLARIFY-001-002'
     term: 'How do you say...?'
-    translation: 'Como se diz...?'
-    partOfSpeech: phrase
-    example: 'How do you say "water" in Portuguese?'
-    exampleTranslation: 'Como se diz "water" em português?'
-  - id: en-GB-A1-CLARIFY-001-003
+    translation: 'Wie sagt man...?'
+    partOfSpeech: 'phrase'
+    example: 'How do you say "library" in German?'
+    exampleTranslation: 'Wie sagt man "Bibliothek" auf Deutsch?'
+  - id: 'en-GB-A1-CLARIFY-001-003'
     term: "I don't understand"
-    translation: 'Não entendo'
-    partOfSpeech: phrase
-    example: "I don't understand, can you speak more slowly?"
-    exampleTranslation: 'Não entendo, pode falar mais devagar?'
-  - id: en-GB-A1-CLARIFY-001-004
-    term: 'Can you speak more slowly?'
-    translation: 'Pode falar mais devagar?'
-    partOfSpeech: phrase
+    translation: 'Ich verstehe nicht'
+    partOfSpeech: 'phrase'
+    example: "Sorry, I don't understand."
+    exampleTranslation: 'Entschuldigung, ich verstehe nicht.'
+  - id: 'en-GB-A1-CLARIFY-001-004'
+    term: 'Please speak more slowly'
+    translation: 'Sprechen Sie bitte langsamer'
+    partOfSpeech: 'phrase'
     example: 'Can you speak more slowly, please?'
-    exampleTranslation: 'Pode falar mais devagar, por favor?'
+    exampleTranslation: 'Können Sie bitte langsamer sprechen?'
+  - id: 'en-GB-A1-CLARIFY-001-005'
+    term: 'What does... mean?'
+    translation: 'Was bedeutet...?'
+    partOfSpeech: 'phrase'
+    example: 'What does "Fahrrad" mean?'
+    exampleTranslation: 'Was bedeutet "Fahrrad"?'
+  - id: 'en-GB-A1-CLARIFY-001-006'
+    term: 'Can you spell that?'
+    translation: 'Können Sie das buchstabieren?'
+    partOfSpeech: 'phrase'
+    example: 'Can you spell your name, please?'
+    exampleTranslation: 'Können Sie Ihren Namen bitte buchstabieren?'
 grammar: []
+culturalNotes: 'Germans generally appreciate it when learners ask for clarification
+  rather than pretending to understand; it shows respect for the language.'

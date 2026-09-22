@@ -1,22 +1,42 @@
-nodeId: A1-SORRY-001
-lang: en-GB
+nodeId: 'A1-SORRY-001'
+lang: 'en-GB'
 vocabulary:
-  - id: en-GB-A1-SORRY-001-001
+  - id: 'en-GB-A1-SORRY-001-001'
     term: 'Sorry'
-    translation: 'Desculpe'
-    partOfSpeech: interjection
-    example: 'Sorry, where is the station?'
-    exampleTranslation: 'Desculpe, onde fica a estação?'
-  - id: en-GB-A1-SORRY-001-002
-    term: 'Excuse me'
-    translation: 'Com licença / Desculpe'
-    partOfSpeech: phrase
-    example: 'Excuse me, can I pass?'
-    exampleTranslation: 'Com licença, posso passar?'
-  - id: en-GB-A1-SORRY-001-003
+    translation: 'Entschuldigung'
+    partOfSpeech: 'interjection'
+    example: 'Excuse me, where is the train station?'
+    exampleTranslation: 'Entschuldigung, wo ist der Bahnhof?'
+  - id: 'en-GB-A1-SORRY-001-002'
+    term: "I'm sorry"
+    translation: 'Es tut mir leid'
+    partOfSpeech: 'phrase'
+    example: "I'm sorry, I can't come."
+    exampleTranslation: 'Es tut mir leid, ich kann nicht kommen.'
+  - id: 'en-GB-A1-SORRY-001-003'
+    term: 'No problem'
+    translation: 'Kein Problem'
+    partOfSpeech: 'phrase'
+    example: 'No problem, that happens.'
+    exampleTranslation: 'Kein Problem, das passiert.'
+  - id: 'en-GB-A1-SORRY-001-004'
     term: "It's okay"
-    translation: 'Não faz mal'
-    partOfSpeech: phrase
-    example: "— Sorry! — It's okay."
-    exampleTranslation: '— Desculpe! — Não faz mal.'
+    translation: 'Macht nichts'
+    partOfSpeech: 'phrase'
+    example: "It's okay, try again."
+    exampleTranslation: 'Macht nichts, versuchen Sie es nochmal.'
+  - id: 'en-GB-A1-SORRY-001-005'
+    term: 'Pardon'
+    translation: 'Verzeihung'
+    partOfSpeech: 'interjection'
+    example: "Pardon, I didn't hear you."
+    exampleTranslation: 'Verzeihung, ich habe Sie nicht gehört.'
+  - id: 'en-GB-A1-SORRY-001-006'
+    term: 'Excuse me (formal)'
+    translation: 'Entschuldigen Sie'
+    partOfSpeech: 'phrase'
+    example: 'Excuse the disturbance.'
+    exampleTranslation: 'Entschuldigen Sie die Störung.'
 grammar: []
+culturalNotes: '"Entschuldigung" literally means "removal of guilt" — it''s used
+  both as "sorry" and "excuse me" in German, making it very versatile.'

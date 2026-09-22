@@ -1,28 +1,43 @@
-nodeId: A1-OPIN-001
-lang: en-GB
+nodeId: 'A1-OPIN-001'
+lang: 'en-GB'
 vocabulary:
-  - id: en-GB-A1-OPIN-001-001
+  - id: 'en-GB-A1-OPIN-001-001'
     term: 'I think that...'
-    translation: 'Acho que...'
-    partOfSpeech: phrase
-    example: 'I think the film is good.'
-    exampleTranslation: 'Acho que o filme é bom.'
-  - id: en-GB-A1-OPIN-001-002
+    translation: 'Ich finde, dass...'
+    partOfSpeech: 'phrase'
+    example: 'I think that is good.'
+    exampleTranslation: 'Ich finde, dass das gut ist.'
+  - id: 'en-GB-A1-OPIN-001-002'
     term: 'I like...'
-    translation: 'Gosto de...'
-    partOfSpeech: phrase
-    example: 'I like Portuguese music.'
-    exampleTranslation: 'Gosto de música portuguesa.'
-  - id: en-GB-A1-OPIN-001-003
+    translation: 'Ich mag...'
+    partOfSpeech: 'phrase'
+    example: 'I like chocolate.'
+    exampleTranslation: 'Ich mag Schokolade.'
+  - id: 'en-GB-A1-OPIN-001-003'
     term: "I don't like..."
-    translation: 'Não gosto de...'
-    partOfSpeech: phrase
-    example: "I don't like coffee."
-    exampleTranslation: 'Não gosto de café.'
-  - id: en-GB-A1-OPIN-001-004
-    term: 'In my opinion...'
-    translation: 'Na minha opinião...'
-    partOfSpeech: phrase
-    example: 'In my opinion, Lisbon is beautiful.'
-    exampleTranslation: 'Na minha opinião, Lisboa é bonita.'
+    translation: 'Ich mag nicht...'
+    partOfSpeech: 'phrase'
+    example: "I don't like soup."
+    exampleTranslation: 'Ich mag nicht Suppe.'
+  - id: 'en-GB-A1-OPIN-001-004'
+    term: 'good'
+    translation: 'gut'
+    partOfSpeech: 'adjective'
+    example: 'That is very good.'
+    exampleTranslation: 'Das ist sehr gut.'
+  - id: 'en-GB-A1-OPIN-001-005'
+    term: 'bad'
+    translation: 'schlecht'
+    partOfSpeech: 'adjective'
+    example: 'The weather is bad.'
+    exampleTranslation: 'Das Wetter ist schlecht.'
+  - id: 'en-GB-A1-OPIN-001-006'
+    term: 'fond of'
+    translation: 'gern'
+    partOfSpeech: 'adverb'
+    example: 'I like reading.'
+    exampleTranslation: 'Ich lese gern.'
 grammar: []
+culturalNotes: 'Germans value direct opinions; "Ich finde" (I think/find) is the
+  standard way to express personal views, more common than "Ich glaube" (I believe)
+  at A1.'

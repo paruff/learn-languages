@@ -1,39 +1,48 @@
-nodeId: A1-FOOD-001
-lang: en-GB
+nodeId: 'A1-FOOD-001'
+lang: 'en-GB'
 vocabulary:
-  - id: en-GB-A1-FOOD-001-001
+  - id: 'en-GB-A1-FOOD-001-001'
     term: 'water'
-    translation: 'água'
-    partOfSpeech: noun
-    gender: feminine
+    translation: 'Wasser'
+    partOfSpeech: 'noun'
+    gender: 'neuter'
     example: 'A glass of water, please.'
-    exampleTranslation: 'Um copo de água, por favor.'
-  - id: en-GB-A1-FOOD-001-002
+    exampleTranslation: 'Ein Glas Wasser, bitte.'
+  - id: 'en-GB-A1-FOOD-001-002'
     term: 'bread'
-    translation: 'pão'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'I want bread with butter.'
-    exampleTranslation: 'Quero pão com manteiga.'
-  - id: en-GB-A1-FOOD-001-003
+    translation: 'Brot'
+    partOfSpeech: 'noun'
+    gender: 'neuter'
+    example: 'I eat bread for breakfast.'
+    exampleTranslation: 'Ich esse Brot zum Frühstück.'
+  - id: 'en-GB-A1-FOOD-001-003'
     term: 'coffee'
-    translation: 'café'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'A coffee, please.'
-    exampleTranslation: 'Um café, por favor.'
-  - id: en-GB-A1-FOOD-001-004
+    translation: 'Kaffee'
+    partOfSpeech: 'noun'
+    gender: 'masculine'
+    example: 'Would you like coffee?'
+    exampleTranslation: 'Möchten Sie Kaffee?'
+  - id: 'en-GB-A1-FOOD-001-004'
     term: 'milk'
-    translation: 'leite'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Tea with milk.'
-    exampleTranslation: 'Chá com leite.'
-  - id: en-GB-A1-FOOD-001-005
-    term: 'rice'
-    translation: 'arroz'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Rice with beans.'
-    exampleTranslation: 'Arroz com feijão.'
+    translation: 'Milch'
+    partOfSpeech: 'noun'
+    gender: 'feminine'
+    example: 'The milk is in the fridge.'
+    exampleTranslation: 'Die Milch ist im Kühlschrank.'
+  - id: 'en-GB-A1-FOOD-001-005'
+    term: 'apple'
+    translation: 'Apfel'
+    partOfSpeech: 'noun'
+    gender: 'masculine'
+    example: 'I eat an apple.'
+    exampleTranslation: 'Ich esse einen Apfel.'
+  - id: 'en-GB-A1-FOOD-001-006'
+    term: 'food'
+    translation: 'Essen'
+    partOfSpeech: 'noun'
+    gender: 'neuter'
+    example: 'The food is very good.'
+    exampleTranslation: 'Das Essen ist sehr gut.'
 grammar: []
+culturalNotes: 'Bread is a staple in Germany — Germans consume more varieties of
+  bread than almost any other country. "Brot" is central to the German diet.'
