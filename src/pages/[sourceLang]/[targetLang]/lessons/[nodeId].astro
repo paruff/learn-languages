@@ -3,6 +3,7 @@ import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { withBase } from '../../../../lib/urls';
 import { getAvailablePairs } from '../../../../lib/pairLoader';
+import { getSkillIcon } from '../../../../lib/skillIcon';
 
 export async function getStaticPaths() {
   const [pairs, nodes, realisations, exercises] = await Promise.all([
@@ -50,7 +51,18 @@ const { node, source, target, hasExercises } = Astro.props;
   <article class="lesson">
     <p class="lesson__meta">
       <span class={`badge badge--${node.cefrLevel.toLowerCase()}`}>{node.cefrLevel}</span>
-      <span>{node.skill.replace('_', ' ')} · {nodeId}</span>
+      <span class="lesson__skill">
+        <svg
+          viewBox={getSkillIcon(node.skill).viewBox}
+          width="18"
+          height="18"
+          fill="currentColor"
+          aria-hidden="true"
+        >
+          <path d={getSkillIcon(node.skill).path}></path>
+        </svg>
+        {node.skill.replace('_', ' ')} · {nodeId}
+      </span>
     </p>
     <h1 class="lesson__title">{node.canDo}</h1>
     {node.pragmaticFocus && <p class="lesson__focus">{node.pragmaticFocus}</p>}
@@ -147,6 +159,11 @@ const { node, source, target, hasExercises } = Astro.props;
     margin-bottom: calc(var(--spacing-unit) * 2);
     color: var(--color-text-muted);
     font-size: 0.875rem;
+  }
+  .lesson__skill {
+    display: inline-flex;
+    align-items: center;
+    gap: calc(var(--spacing-unit) * 0.5);
   }
   .lesson__focus {
     color: var(--color-text-muted);
