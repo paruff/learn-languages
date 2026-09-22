@@ -48,6 +48,11 @@ is a licensing liability, not just a missing credit.
 | `professor.webp` | [Instructor Presenting Ideas on Whiteboard.jpg](https://commons.wikimedia.org/wiki/File:Instructor_Presenting_Ideas_on_Whiteboard.jpg), Heidy Garcia, Wikimedia Commons | CC BY 4.0 | **Yes** — "Instructor Presenting Ideas on Whiteboard" by Heidy Garcia, licensed CC BY 4.0 |
 | `escritorio.webp` | [Hands-desk-office-working (24326654535).jpg](https://commons.wikimedia.org/wiki/File:Hands-desk-office-working_(24326654535).jpg), www.Pixel.la, via Flickr/Wikimedia Commons | CC0 1.0 | No |
 | `escola.webp` | [Students in a classroom.jpg](https://commons.wikimedia.org/wiki/File:Students_in_a_classroom.jpg), Ente75, Wikimedia Commons | Public Domain | No |
+| `universidade.webp` | [Academic City University campus building illuminated at dusk.jpg](<https://commons.wikimedia.org/wiki/File:Academic_City_University_campus_building_illuminated_at_dusk.jpg>), Afrank4436, Wikimedia Commons | CC BY-SA 4.0 | **Yes** — "Academic City University campus building illuminated at dusk" by Afrank4436, licensed CC BY-SA 4.0 |
+| `revista.webp` | [The Elks Magazine 1928-10 cover.png](https://commons.wikimedia.org/wiki/File:The_Elks_Magazine_1928-10_cover.png), The Elks Magazine, Wikimedia Commons | Public Domain | No |
+| `autor.webp` | [Alistair Mackay signing book at the Book Lounge (February 2023).jpg](<https://commons.wikimedia.org/wiki/File:Alistair_Mackay_signing_book_at_the_Book_Lounge_(February_2023).jpg>), BookishCub, Wikimedia Commons | CC BY-SA 4.0 | **Yes** — "Alistair Mackay signing book at the Book Lounge" by BookishCub, licensed CC BY-SA 4.0 |
+| `reuniao.webp` | [Work Meeting.jpg](https://commons.wikimedia.org/wiki/File:Work_Meeting.jpg), Amtec Photos, Wikimedia Commons | CC BY 2.0 | **Yes** — "Work Meeting" by Amtec Photos, licensed CC BY 2.0 |
+| `exame.webp` | [Hand-writing-exam-classroom.jpg](https://commons.wikimedia.org/wiki/File:Hand-writing-exam-classroom.jpg), Alison_wood, Wikimedia Commons | CC BY 3.0 | **Yes** — "Hand-writing-exam-classroom" by Alison_wood, licensed CC BY 3.0 |
 
 Note: `musica.webp`, `livro.webp`, and `dancar.webp` (credited above) are reused
 as-is for the A2 vocabulary items `música`, `livro`, and `dança` — same word/
