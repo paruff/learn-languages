@@ -1,0 +1,47 @@
+nodeId: A2-JOB-002
+lang: de-DE
+vocabulary:
+  - id: de-DE-A2-JOB-002-001
+    term: 'Besprechung'
+    translation: 'meeting'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Wir haben eine Besprechung um zehn Uhr.'
+    exampleTranslation: "We have a meeting at ten o'clock."
+  - id: de-DE-A2-JOB-002-002
+    term: 'Aufgabe'
+    translation: 'task'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ich muss diese Aufgabe erledigen.'
+    exampleTranslation: 'I have to complete this task.'
+  - id: de-DE-A2-JOB-002-003
+    term: 'Projekt'
+    translation: 'project'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Wir arbeiten an einem neuen Projekt.'
+    exampleTranslation: 'We are working on a new project.'
+  - id: de-DE-A2-JOB-002-004
+    term: 'termin'
+    translation: 'deadline'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Termin ist am Freitag.'
+    exampleTranslation: 'The deadline is on Friday.'
+  - id: de-DE-A2-JOB-002-005
+    term: 'Chef'
+    translation: 'boss'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Mein Chef ist sehr streng.'
+    exampleTranslation: 'My boss is very strict.'
+  - id: de-DE-A2-JOB-002-006
+    term: 'Kunden'
+    translation: 'customers'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Die Kunden sind zufrieden.'
+    exampleTranslation: 'The customers are satisfied.'
+grammar: []
+culturalNotes: 'German workplaces value punctuality and thoroughness; "Pünktlichkeit" is especially important in professional settings.'

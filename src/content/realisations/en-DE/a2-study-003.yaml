@@ -1,0 +1,47 @@
+nodeId: A2-STUDY-003
+lang: en-DE
+vocabulary:
+  - id: en-DE-A2-STUDY-003-001
+    term: 'text'
+    translation: 'Text'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Ich lese einen langen Text.'
+    exampleTranslation: 'I am reading a long text.'
+  - id: en-DE-A2-STUDY-003-002
+    term: 'dictionary'
+    translation: 'Wörterbuch'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Ich brauche ein Wörterbuch.'
+    exampleTranslation: 'I need a dictionary.'
+  - id: en-DE-A2-STUDY-003-003
+    term: 'article'
+    translation: 'Artikel'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Der Artikel ist interessant.'
+    exampleTranslation: 'The article is interesting.'
+  - id: en-DE-A2-STUDY-003-004
+    term: 'meaning'
+    translation: 'Bedeutung'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Was ist die Bedeutung dieses Wortes?'
+    exampleTranslation: 'What is the meaning of this word?'
+  - id: en-DE-A2-STUDY-003-005
+    term: 'to understand'
+    translation: 'verstehen'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich verstehe den Text nicht.'
+    exampleTranslation: 'I do not understand the text.'
+  - id: en-DE-A2-STUDY-003-006
+    term: 'summary'
+    translation: 'Zusammenfassung'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Schreiben Sie eine Zusammenfassung.'
+    exampleTranslation: 'Write a summary.'
+grammar: []
+culturalNotes: 'German academic texts often use long compound words; learning to break them into their parts ("Wortbausteine") is a key reading strategy.'

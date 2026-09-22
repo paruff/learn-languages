@@ -1,0 +1,47 @@
+nodeId: A2-HABIT-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-A2-HABIT-001-001
+    term: 'Gewohnheit'
+    translation: 'habit'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ich habe eine neue Gewohnheit.'
+    exampleTranslation: 'I have a new habit.'
+  - id: de-DE-A2-HABIT-001-002
+    term: 'verändert'
+    translation: 'changed'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Mein Leben hat sich verändert.'
+    exampleTranslation: 'My life has changed.'
+  - id: de-DE-A2-HABIT-001-003
+    term: 'früher'
+    translation: 'formerly / in the past'
+    partOfSpeech: adverb
+    gender: n/a
+    example: 'Früher ging ich oft joggen.'
+    exampleTranslation: 'I used to go jogging often.'
+  - id: de-DE-A2-HABIT-001-004
+    term: 'jetzt'
+    translation: 'now'
+    partOfSpeech: adverb
+    gender: n/a
+    example: 'Jetzt koche ich jeden Abend.'
+    exampleTranslation: 'Now I cook every evening.'
+  - id: de-DE-A2-HABIT-001-005
+    term: 'morgens'
+    translation: 'in the morning'
+    partOfSpeech: adverb
+    gender: n/a
+    example: 'Morgens trinke ich Kaffee.'
+    exampleTranslation: 'In the morning I drink coffee.'
+  - id: de-DE-A2-HABIT-001-006
+    term: 'abends'
+    translation: 'in the evening'
+    partOfSpeech: adverb
+    gender: n/a
+    example: 'Abends lese ich ein Buch.'
+    exampleTranslation: 'In the evening I read a book.'
+grammar: []
+culturalNotes: 'Germans value "Ruhezeit" (quiet hours), typically 1-3 PM and after 10 PM — respecting these is an important part of daily life.'

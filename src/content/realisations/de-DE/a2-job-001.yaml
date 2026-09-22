@@ -1,0 +1,47 @@
+nodeId: A2-JOB-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-A2-JOB-001-001
+    term: 'Beruf'
+    translation: 'profession'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Was ist Ihr Beruf?'
+    exampleTranslation: 'What is your profession?'
+  - id: de-DE-A2-JOB-001-002
+    term: 'Arbeitszeit'
+    translation: 'working hours'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Meine Arbeitszeit ist von neun bis fünf.'
+    exampleTranslation: 'My working hours are from nine to five.'
+  - id: de-DE-A2-JOB-001-003
+    term: 'Kollege'
+    translation: 'colleague'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Meine Kollegen sind sehr nett.'
+    exampleTranslation: 'My colleagues are very nice.'
+  - id: de-DE-A2-JOB-001-004
+    term: 'Büro'
+    translation: 'office'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Ich arbeite in einem Büro.'
+    exampleTranslation: 'I work in an office.'
+  - id: de-DE-A2-JOB-001-005
+    term: 'Gehalt'
+    translation: 'salary'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Das Gehalt ist gut.'
+    exampleTranslation: 'The salary is good.'
+  - id: de-DE-A2-JOB-001-006
+    term: 'Teilzeit'
+    translation: 'part-time'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ich arbeite in Teilzeit.'
+    exampleTranslation: 'I work part-time.'
+grammar: []
+culturalNotes: 'The standard German work week is 35-40 hours; "Feierabend" (end of the workday) is a cherished concept, especially on Fridays.'

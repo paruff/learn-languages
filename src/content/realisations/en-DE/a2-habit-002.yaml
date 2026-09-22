@@ -1,0 +1,47 @@
+nodeId: A2-HABIT-002
+lang: en-DE
+vocabulary:
+  - id: en-DE-A2-HABIT-002-001
+    term: 'last weekend'
+    translation: 'letztes Wochenende'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Letztes Wochenende war ich im Kino.'
+    exampleTranslation: 'Last weekend I was at the cinema.'
+  - id: en-DE-A2-HABIT-002-002
+    term: 'yesterday'
+    translation: 'gestern'
+    partOfSpeech: adverb
+    gender: n/a
+    example: 'Gestern habe ich geputzt.'
+    exampleTranslation: 'Yesterday I cleaned.'
+  - id: en-DE-A2-HABIT-002-003
+    term: 'to go shopping'
+    translation: 'Einkaufen gehen'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Am Samstag gehe ich einkaufen.'
+    exampleTranslation: 'On Saturday I go shopping.'
+  - id: en-DE-A2-HABIT-002-004
+    term: 'to go for a walk'
+    translation: 'Spazierengehen'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Wir sind im Park spazieren gegangen.'
+    exampleTranslation: 'We went for a walk in the park.'
+  - id: en-DE-A2-HABIT-002-005
+    term: 'to cook'
+    translation: 'kochen'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich koche heute Abend Pasta.'
+    exampleTranslation: 'I am cooking pasta tonight.'
+  - id: en-DE-A2-HABIT-002-006
+    term: 'to meet'
+    translation: 'treffen'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich habe mich mit Freunden getroffen.'
+    exampleTranslation: 'I met up with friends.'
+grammar: []
+culturalNotes: 'Weekend activities often include "Sonntagsbrunch" (Sunday brunch) and visits to local markets ("Wochenmarkt").'

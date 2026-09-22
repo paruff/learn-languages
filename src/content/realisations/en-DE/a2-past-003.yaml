@@ -1,0 +1,47 @@
+nodeId: A2-PAST-003
+lang: en-DE
+vocabulary:
+  - id: en-DE-A2-PAST-003-001
+    term: 'story'
+    translation: 'Geschichte'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Die Geschichte war sehr spannend.'
+    exampleTranslation: 'The story was very exciting.'
+  - id: en-DE-A2-PAST-003-002
+    term: 'to tell'
+    translation: 'erzählen'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Erzähl mir eine Geschichte!'
+    exampleTranslation: 'Tell me a story!'
+  - id: en-DE-A2-PAST-003-003
+    term: 'childhood'
+    translation: 'Kindheit'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Meine Kindheit war glücklich.'
+    exampleTranslation: 'My childhood was happy.'
+  - id: en-DE-A2-PAST-003-004
+    term: 'school'
+    translation: 'Schule'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'In der Schule war ich fleißig.'
+    exampleTranslation: 'I was diligent in school.'
+  - id: en-DE-A2-PAST-003-005
+    term: 'to remember'
+    translation: 'erinnern'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich erinnere mich daran.'
+    exampleTranslation: 'I remember that.'
+  - id: en-DE-A2-PAST-003-006
+    term: 'to forget'
+    translation: 'vergessen'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich habe seinen Namen vergessen.'
+    exampleTranslation: 'I forgot his name.'
+grammar: []
+culturalNotes: 'Germans value the "Erinnerungskultur" (memory culture) — reflecting on the past is considered important for personal and societal growth.'

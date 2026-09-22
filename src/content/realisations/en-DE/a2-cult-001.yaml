@@ -1,0 +1,47 @@
+nodeId: A2-CULT-001
+lang: en-DE
+vocabulary:
+  - id: en-DE-A2-CULT-001-001
+    term: 'festival'
+    translation: 'Fest'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Das Fest war sehr lustig.'
+    exampleTranslation: 'The festival was very fun.'
+  - id: en-DE-A2-CULT-001-002
+    term: 'tradition'
+    translation: 'Tradition'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Das ist eine alte Tradition.'
+    exampleTranslation: 'That is an old tradition.'
+  - id: en-DE-A2-CULT-001-003
+    term: 'holiday'
+    translation: 'Feiertag'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Am Feiertag bleibt man zu Hause.'
+    exampleTranslation: 'On a holiday one stays at home.'
+  - id: en-DE-A2-CULT-001-004
+    term: 'music'
+    translation: 'Musik'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Die Musik war sehr gut.'
+    exampleTranslation: 'The music was very good.'
+  - id: en-DE-A2-CULT-001-005
+    term: 'to dance'
+    translation: 'tanzen'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Wir tanzen auf dem Fest.'
+    exampleTranslation: 'We dance at the festival.'
+  - id: en-DE-A2-CULT-001-006
+    term: 'culture'
+    translation: 'Kultur'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Deutsche Kultur ist sehr vielfältig.'
+    exampleTranslation: 'German culture is very diverse.'
+grammar: []
+culturalNotes: 'Oktoberfest in Munich is the world''s largest folk festival; other major festivals include Karneval (Carnival) in the Rhineland and the Christmas markets ("Weihnachtsmärkte").'

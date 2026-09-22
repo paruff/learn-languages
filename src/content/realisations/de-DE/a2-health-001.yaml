@@ -1,0 +1,47 @@
+nodeId: A2-HEALTH-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-A2-HEALTH-001-001
+    term: 'Arzt'
+    translation: 'doctor'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ich muss zum Arzt gehen.'
+    exampleTranslation: 'I have to go to the doctor.'
+  - id: de-DE-A2-HEALTH-001-002
+    term: 'Krankheit'
+    translation: 'illness'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Krankheit war nicht schlimm.'
+    exampleTranslation: 'The illness was not bad.'
+  - id: de-DE-A2-HEALTH-001-003
+    term: 'Medikament'
+    translation: 'medication'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Ich nehme ein Medikament.'
+    exampleTranslation: 'I am taking a medication.'
+  - id: de-DE-A2-HEALTH-001-004
+    term: 'Kopfschmerzen'
+    translation: 'headache'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Ich habe Kopfschmerzen.'
+    exampleTranslation: 'I have a headache.'
+  - id: de-DE-A2-HEALTH-001-005
+    term: 'Arzttermin'
+    translation: "doctor's appointment"
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ich habe einen Arzttermin um zehn Uhr.'
+    exampleTranslation: "I have a doctor's appointment at ten o'clock."
+  - id: de-DE-A2-HEALTH-001-006
+    term: 'Apotheke'
+    translation: 'pharmacy'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ich gehe zur Apotheke.'
+    exampleTranslation: 'I am going to the pharmacy.'
+grammar: []
+culturalNotes: 'The German healthcare system requires health insurance ("Krankenversicherung"); the "Arztpraxis" is the typical setting for medical visits, and "Dr.med." is commonly used for physicians.'
