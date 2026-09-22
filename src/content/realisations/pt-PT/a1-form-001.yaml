@@ -1,0 +1,35 @@
+nodeId: A1-FORM-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-A1-FORM-001-001
+    term: 'Nome completo'
+    translation: 'Full name'
+    partOfSpeech: phrase
+    example: 'Escreva o seu nome completo aqui, por favor.'
+    exampleTranslation: 'Please write your full name here.'
+  - id: pt-PT-A1-FORM-001-002
+    term: 'Apelido'
+    translation: 'Surname'
+    partOfSpeech: noun
+    example: 'O meu apelido é Silva.'
+    exampleTranslation: 'My surname is Silva.'
+  - id: pt-PT-A1-FORM-001-003
+    term: 'Nacionalidade'
+    translation: 'Nationality'
+    partOfSpeech: noun
+    example: 'Nacionalidade: britânica.'
+    exampleTranslation: 'Nationality: British.'
+  - id: pt-PT-A1-FORM-001-004
+    term: 'Morada'
+    translation: 'Address'
+    partOfSpeech: noun
+    example: 'Escreva a sua morada na caixa abaixo, por favor.'
+    exampleTranslation: 'Please write your address in the box below.'
+  - id: pt-PT-A1-FORM-001-005
+    term: 'Data de nascimento'
+    translation: 'Date of birth'
+    partOfSpeech: phrase
+    example: 'Data de nascimento: 12/05/1990.'
+    exampleTranslation: 'Date of birth: 12/05/1990.'
+grammar: []
+culturalNotes: 'In Portugal, official forms typically ask for both "nome próprio" (first name) and "apelido" (surname) separately, and many Portuguese people have two or more surnames (e.g. combining both parents'' family names).'

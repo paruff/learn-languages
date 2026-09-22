@@ -1,0 +1,10 @@
+nodeId: A1-FORM-001
+cefrLevel: A1
+skill: writing
+canDo: Can fill in a simple form with basic personal details
+pragmaticFocus: Complete personal-information forms using simple written phrases
+notionalFocus: Personal identification, nationality, address
+relatedNodes:
+  - A1-INTRO-002
+prerequisiteNodes:
+  - A1-INTRO-002

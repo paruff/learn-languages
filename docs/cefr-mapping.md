@@ -14,27 +14,33 @@ Tracks the CEFR A1/A2/B1/B2/C1 Can-Do statement inventory against `cefr-nodes` a
 
 ## A1 nodes in the repo
 
-| nodeId         | Skill              | Can-Do                                                    | Status      |
-| -------------- | ------------------ | --------------------------------------------------------- | ----------- |
-| A1-GREET-001   | spoken_interaction | Can greet people and respond to greetings                 | ✅ Realised |
-| A1-GREET-002   | spoken_interaction | Can use basic formulas for leave-taking                   | ✅ Realised |
-| A1-INTRO-001   | spoken_interaction | Can introduce themselves and others                       | ✅ Realised |
-| A1-INTRO-002   | spoken_interaction | Can ask and answer basic questions about personal details | ✅ Realised |
-| A1-NUMB-001    | reading            | Can recognize and write numbers 1-100                     | ✅ Realised |
-| A1-FOOD-001    | reading            | Can identify common food and drink items                  | ✅ Realised |
-| A1-THANK-001   | spoken_interaction | Can express thanks and respond to thanks                  | ✅ Realised |
-| A1-SORRY-001   | spoken_interaction | Can apologise and respond to apologies                    | ✅ Realised |
-| A1-LOC-001     | spoken_interaction | Can ask for and understand simple directions              | ✅ Realised |
-| A1-TIME-001    | reading            | Can understand basic time and date expressions            | ✅ Realised |
-| A1-REQUEST-001 | spoken_interaction | Can make simple requests using polite forms               | ✅ Realised |
-| A1-OFFER-001   | spoken_production  | Can offer things and make simple invitations              | ✅ Realised |
-| A1-OPIN-001    | spoken_production  | Can express simple opinions about everyday topics         | ✅ Realised |
-| A1-CAPAB-001   | spoken_production  | Can express ability and inability to do things            | ✅ Realised |
-| A1-WANT-001    | spoken_production  | Can express simple desires and intentions                 | ✅ Realised |
-| A1-FEEL-001    | listening          | Can understand and express basic emotions                 | ✅ Realised |
-| A1-CLARIFY-001 | spoken_interaction | Can ask someone to repeat or clarify                      | ✅ Realised |
+| nodeId         | Skill              | Can-Do                                                                    | Status      |
+| -------------- | ------------------ | ------------------------------------------------------------------------- | ----------- |
+| A1-GREET-001   | spoken_interaction | Can greet people and respond to greetings                                 | ✅ Realised |
+| A1-GREET-002   | spoken_interaction | Can use basic formulas for leave-taking                                   | ✅ Realised |
+| A1-INTRO-001   | spoken_interaction | Can introduce themselves and others                                       | ✅ Realised |
+| A1-INTRO-002   | spoken_interaction | Can ask and answer basic questions about personal details                 | ✅ Realised |
+| A1-NUMB-001    | reading            | Can recognize and write numbers 1-100                                     | ✅ Realised |
+| A1-FOOD-001    | reading            | Can identify common food and drink items                                  | ✅ Realised |
+| A1-THANK-001   | spoken_interaction | Can express thanks and respond to thanks                                  | ✅ Realised |
+| A1-SORRY-001   | spoken_interaction | Can apologise and respond to apologies                                    | ✅ Realised |
+| A1-LOC-001     | spoken_interaction | Can ask for and understand simple directions                              | ✅ Realised |
+| A1-TIME-001    | reading            | Can understand basic time and date expressions                            | ✅ Realised |
+| A1-REQUEST-001 | spoken_interaction | Can make simple requests using polite forms                               | ✅ Realised |
+| A1-OFFER-001   | spoken_production  | Can offer things and make simple invitations                              | ✅ Realised |
+| A1-OPIN-001    | spoken_production  | Can express simple opinions about everyday topics                         | ✅ Realised |
+| A1-CAPAB-001   | spoken_production  | Can express ability and inability to do things                            | ✅ Realised |
+| A1-WANT-001    | spoken_production  | Can express simple desires and intentions                                 | ✅ Realised |
+| A1-FEEL-001    | listening          | Can understand and express basic emotions                                 | ✅ Realised |
+| A1-CLARIFY-001 | spoken_interaction | Can ask someone to repeat or clarify                                      | ✅ Realised |
+| A1-BODY-001    | reading            | Can identify basic body parts and simple health vocabulary                | ✅ Realised |
+| A1-FAMILY-001  | spoken_production  | Can identify immediate family members and basic physical appearance terms | ✅ Realised |
+| A1-HOBBY-001   | spoken_production  | Can identify common hobbies and free-time activities                      | ✅ Realised |
+| A1-ROUTINE-001 | reading            | Can identify common daily-life objects and rooms in a home                | ✅ Realised |
+| A1-SHOP-001    | reading            | Can identify basic shopping and money vocabulary                          | ✅ Realised |
+| A1-FORM-001    | writing            | Can fill in a simple form with basic personal details                     | ✅ Realised |
 
-A1 Coverage: 17/17 nodes fully realised (100%).
+A1 Coverage: 23/23 nodes fully realised (100%). All 5 CEFR skills now have at least one A1 node (#50's last remaining gap — `writing` — closed by A1-FORM-001, mapped to Referencial Camões Category B "Trocar informações" and AIMA's A1M1 module, both already covered by spoken nodes but never in writing modality until now).
 
 ## A2 nodes in the repo
 
@@ -155,14 +161,14 @@ C1 Coverage: 25/25 nodes fully realised (100%).
 
 ## Skill distribution (A1 + A2 + B1 + B2 + C1 combined)
 
-| Skill              | A1     | A2     | B1     | B2     | C1     | Total  |
-| ------------------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| listening          | 1      | 4      | 0      | 3      | 2      | 10     |
-| reading            | 4      | 4      | 3      | 4      | 5      | 20     |
-| spoken_interaction | 8      | 4      | 4      | 4      | 5      | 25     |
-| spoken_production  | 4      | 6      | 4      | 3      | 7      | 24     |
-| writing            | 0      | 2      | 5      | 4      | 6      | 17     |
-| **Total**          | **17** | **20** | **18** | **18** | **25** | **98** |
+| Skill              | A1     | A2     | B1     | B2     | C1     | Total   |
+| ------------------ | ------ | ------ | ------ | ------ | ------ | ------- |
+| listening          | 1      | 4      | 0      | 3      | 2      | 10      |
+| reading            | 6      | 4      | 3      | 4      | 5      | 22      |
+| spoken_interaction | 9      | 4      | 4      | 4      | 5      | 26      |
+| spoken_production  | 6      | 6      | 4      | 3      | 7      | 26      |
+| writing            | 1      | 2      | 5      | 4      | 6      | 18      |
+| **Total**          | **23** | **20** | **18** | **18** | **25** | **104** |
 
 ## Referencial Camões's real function category structure (Componente Pragmática, Part II)
 
@@ -188,7 +194,7 @@ A1M1 Identificação e Caracterização Pessoal · A1M2 Vida Quotidiana · A1M3 
 **Module coverage:**
 
 | Module | Topic                             | Repo coverage                               |
-| ------ | ---------------------------------- | -------------------------------------------- |
+| ------ | --------------------------------- | ------------------------------------------- |
 | A1M1   | Personal identification           | ✅ A1-INTRO-001/002, A1-FAMILY-001          |
 | A1M2   | Daily life                        | ✅ A1-FOOD-001, A1-TIME-001, A1-ROUTINE-001 |
 | A1M3   | Food & drink                      | ✅ A1-FOOD-001                              |
@@ -204,54 +210,54 @@ A1M1 Identificação e Caracterização Pessoal · A1M2 Vida Quotidiana · A1M3 
 
 ## pt-PT realisation totals
 
-| Level | Vocabulary items | Grammar points | Files |
-| ----- | ---------------- | -------------- | ----- |
-| A1    | 102              | 17             | 17    |
-| A2    | 102              | 12             | 17    |
-| B1    | 102              | 12             | 17    |
-| B2    | 102              | 12             | 17    |
-| C1    | 150              | 25             | 25    |
-| C2    | 120              | 20             | 20    |
-| **Total** | **678**      | **98**         | **113** |
+| Level     | Vocabulary items | Grammar points | Files   |
+| --------- | ---------------- | -------------- | ------- |
+| A1        | 102              | 17             | 17      |
+| A2        | 102              | 12             | 17      |
+| B1        | 102              | 12             | 17      |
+| B2        | 102              | 12             | 17      |
+| C1        | 150              | 25             | 25      |
+| C2        | 120              | 20             | 20      |
+| **Total** | **678**          | **98**         | **113** |
 
 ## C2 nodes in the repo (EN→PT)
 
 All 20 C2 `cefr-nodes/` are language-agnostic Can-Do statements sourced from the CEFR C2 descriptors (Council of Europe). CEFR Can-Do statements describe communicative ability, not any one language, so this epic created paired en-GB/pt-PT realisations.
 
-| nodeId            | Skill              | Can-Do                                                                               | Status      |
-| ----------------- | ------------------ | ------------------------------------------------------------------------------------ | ----------- |
-| C2-MODALITY-001   | spoken_interaction | Can express spontaneously, fluently and precisely, differentiating finer shades       | ✅ Realised |
-| C2-MODALITY-002   | spoken_production  | Can present a clear, smoothly-flowing accurate description or argument               | ✅ Realised |
-| C2-MODALITY-003   | listening          | Can understand any kind of spoken language at fast native speed                       | ✅ Realised |
-| C2-MODALITY-004   | reading            | Can understand virtually everything heard or read, summarising from different sources  | ✅ Realised |
-| C2-MODALITY-005   | writing            | Can write clear, smoothly-flowing text on a complex subject with appropriate style    | ✅ Realised |
-| C2-SUMMARY-001    | writing            | Can summarise concisely information from extended spoken and written sources          | ✅ Realised |
-| C2-ARGUE-001      | writing            | Can select appropriate formulation from a broad range of language                     | ✅ Realised |
-| C2-ARGUE-002      | spoken_interaction | Can take active part in discussion in all registers, constructing chains of reasoning | ✅ Realised |
-| C2-NUANCE-001     | spoken_interaction | Can express clearly and precisely, differentiating finer shades of meaning            | ✅ Realised |
-| C2-PROFESSIONAL-001| writing           | Can write excellent, well-structured summaries of complex factual material            | ✅ Realised |
-| C2-PROFESSIONAL-002| spoken_interaction| Can express fluently with near-native command of vocabulary and syntax                 | ✅ Realised |
-| C2-LITERARY-001   | reading            | Can read and appreciate complex literary texts, poetry, song lyrics, opinion pieces   | ✅ Realised |
-| C2-LITERARY-002   | writing            | Can write with precision and subtlety, adapting style to text and audience            | ✅ Realised |
-| C2-ACADEMIC-001   | writing            | Can write clearly and fluently on complex subjects with coherent, convincing text     | ✅ Realised |
-| C2-ACADEMIC-002   | spoken_production  | Can present clear, detailed and accurate descriptions of complex subjects             | ✅ Realised |
-| C2-MEDIATION-001  | spoken_interaction | Can act as effective intermediary, simplifying messages and resolving disagreements   | ✅ Realised |
-| C2-MEDIATION-002  | reading            | Can understand all forms of written language including abstract and complex texts     | ✅ Realised |
-| C2-SOCIAL-001     | spoken_interaction | Can interact with native speakers with fluency, spontaneity and precision             | ✅ Realised |
-| C2-WRITTEN-001    | writing            | Can write clear, detailed texts developing arguments and hypotheses                   | ✅ Realised |
-| C2-WRITTEN-002    | writing            | Can write with precision and subtlety, conveying intended effect on the reader        | ✅ Realised |
+| nodeId              | Skill              | Can-Do                                                                                | Status      |
+| ------------------- | ------------------ | ------------------------------------------------------------------------------------- | ----------- |
+| C2-MODALITY-001     | spoken_interaction | Can express spontaneously, fluently and precisely, differentiating finer shades       | ✅ Realised |
+| C2-MODALITY-002     | spoken_production  | Can present a clear, smoothly-flowing accurate description or argument                | ✅ Realised |
+| C2-MODALITY-003     | listening          | Can understand any kind of spoken language at fast native speed                       | ✅ Realised |
+| C2-MODALITY-004     | reading            | Can understand virtually everything heard or read, summarising from different sources | ✅ Realised |
+| C2-MODALITY-005     | writing            | Can write clear, smoothly-flowing text on a complex subject with appropriate style    | ✅ Realised |
+| C2-SUMMARY-001      | writing            | Can summarise concisely information from extended spoken and written sources          | ✅ Realised |
+| C2-ARGUE-001        | writing            | Can select appropriate formulation from a broad range of language                     | ✅ Realised |
+| C2-ARGUE-002        | spoken_interaction | Can take active part in discussion in all registers, constructing chains of reasoning | ✅ Realised |
+| C2-NUANCE-001       | spoken_interaction | Can express clearly and precisely, differentiating finer shades of meaning            | ✅ Realised |
+| C2-PROFESSIONAL-001 | writing            | Can write excellent, well-structured summaries of complex factual material            | ✅ Realised |
+| C2-PROFESSIONAL-002 | spoken_interaction | Can express fluently with near-native command of vocabulary and syntax                | ✅ Realised |
+| C2-LITERARY-001     | reading            | Can read and appreciate complex literary texts, poetry, song lyrics, opinion pieces   | ✅ Realised |
+| C2-LITERARY-002     | writing            | Can write with precision and subtlety, adapting style to text and audience            | ✅ Realised |
+| C2-ACADEMIC-001     | writing            | Can write clearly and fluently on complex subjects with coherent, convincing text     | ✅ Realised |
+| C2-ACADEMIC-002     | spoken_production  | Can present clear, detailed and accurate descriptions of complex subjects             | ✅ Realised |
+| C2-MEDIATION-001    | spoken_interaction | Can act as effective intermediary, simplifying messages and resolving disagreements   | ✅ Realised |
+| C2-MEDIATION-002    | reading            | Can understand all forms of written language including abstract and complex texts     | ✅ Realised |
+| C2-SOCIAL-001       | spoken_interaction | Can interact with native speakers with fluency, spontaneity and precision             | ✅ Realised |
+| C2-WRITTEN-001      | writing            | Can write clear, detailed texts developing arguments and hypotheses                   | ✅ Realised |
+| C2-WRITTEN-002      | writing            | Can write with precision and subtlety, conveying intended effect on the reader        | ✅ Realised |
 
 C2 Coverage: 20/20 nodes fully realised (100%).
 
 ### C2 skill distribution
 
-| Skill              | Count | Nodes                                                        |
-| ------------------ | ----- | ------------------------------------------------------------ |
-| spoken_interaction | 6     | MODALITY-001/003, ARGUE-002, NUANCE-001, PROFESSIONAL-002, MEDIATION-001, SOCIAL-001 |
-| spoken_production  | 2     | MODALITY-002, ACADEMIC-002                                    |
+| Skill              | Count | Nodes                                                                                               |
+| ------------------ | ----- | --------------------------------------------------------------------------------------------------- |
+| spoken_interaction | 6     | MODALITY-001/003, ARGUE-002, NUANCE-001, PROFESSIONAL-002, MEDIATION-001, SOCIAL-001                |
+| spoken_production  | 2     | MODALITY-002, ACADEMIC-002                                                                          |
 | writing            | 8     | MODALITY-005, SUMMARY-001, ARGUE-001, PROFESSIONAL-001, LITERARY-002, ACADEMIC-001, WRITTEN-001/002 |
-| reading            | 3     | MODALITY-004, LITERARY-001, MEDIATION-002                     |
-| listening          | 1     | MODALITY-003                                                  |
+| reading            | 3     | MODALITY-004, LITERARY-001, MEDIATION-002                                                           |
+| listening          | 1     | MODALITY-003                                                                                        |
 
 ## Process for adding a node
 
