@@ -86,13 +86,41 @@ A1 Coverage: 22/22 nodes fully realised (100%).
 
 A2 Coverage: 20/20 nodes fully realised (100%).
 
+## B1 nodes in the repo (EN→DE)
+
+18 B1 `cefr-nodes/` — all language-agnostic Can-Do statements. Paired en-DE/de-DE realisations authored for all 18 nodes.
+
+| nodeId         | Skill              | Can-Do                                                    | Status      |
+| -------------- | ------------------ | --------------------------------------------------------- | ----------- |
+| B1-DISCOURSE-001 | spoken_interaction | Can use connectors to link ideas in extended speech       | ✅ Realised |
+| B1-DISCOURSE-002 | spoken_production  | Can narrate events in correct temporal sequence            | ✅ Realised |
+| B1-DISCOURSE-003 | spoken_production  | Can describe cause and effect relationships                | ✅ Realised |
+| B1-DISCOURSE-004 | writing            | Can write a simple narrative with temporal markers         | ✅ Realised |
+| B1-DISCOURSE-005 | writing            | Can write short reports describing experiences            | ✅ Realised |
+| B1-OPINION-001   | spoken_production  | Can express opinions with supporting reasons              | ✅ Realised |
+| B1-OPINION-002   | spoken_interaction | Can agree and disagree politely                           | ✅ Realised |
+| B1-OPINION-003   | spoken_production  | Can describe advantages and disadvantages                  | ✅ Realised |
+| B1-OPINION-004   | writing            | Can write simple opinions about current events            | ✅ Realised |
+| B1-SOCIAL-001    | spoken_interaction | Can handle most social situations while travelling        | ✅ Realised |
+| B1-SOCIAL-002    | spoken_interaction | Can engage in extended conversation on familiar topics    | ✅ Realised |
+| B1-SOCIAL-003    | spoken_interaction | Can express and respond to feelings during conversations  | ✅ Realised |
+| B1-SOCIAL-004    | spoken_production  | Can keep a conversation going by inviting opinions        | ✅ Realised |
+| B1-TEXT-001      | reading            | Can understand factual articles on topics of interest     | ✅ Realised |
+| B1-TEXT-002      | reading            | Can identify the main points in news articles             | ✅ Realised |
+| B1-TEXT-003      | reading            | Can read simple technical information in their field      | ✅ Realised |
+| B1-TEXT-004      | writing            | Can write straightforward connected text on familiar topics | ✅ Realised |
+| B1-TEXT-005      | writing            | Can write a letter or email describing experiences        | ✅ Realised |
+
+B1 Coverage: 18/18 nodes fully realised (100%).
+
 ### de-DE realisation totals
 
 | Level | Vocabulary items | Grammar points | Files |
 | ----- | ---------------- | -------------- | ----- |
 | A1    | 132              | 0              | 22    |
 | A2    | 120              | 0              | 20    |
-| **Total** | **252**      | **0**          | **42** |
+| B1    | 108              | 8              | 18    |
+| **Total** | **360**      | **8**          | **60** |
 
 ## Sourcing note
 

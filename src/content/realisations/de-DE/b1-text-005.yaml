@@ -1,0 +1,53 @@
+nodeId: B1-TEXT-005
+lang: de-DE
+vocabulary:
+  - id: de-DE-B1-TEXT-005-001
+    term: 'Brief'
+    translation: 'letter'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ich schreibe einen Brief an meine Freundin.'
+    exampleTranslation: 'I am writing a letter to my friend.'
+  - id: de-DE-B1-TEXT-005-002
+    term: 'E-Mail'
+    translation: 'email'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ich habe eine E-Mail geschrieben.'
+    exampleTranslation: 'I wrote an email.'
+  - id: de-DE-B1-TEXT-005-003
+    term: 'Eindruck'
+    translation: 'impression'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Mein erster Eindruck war gut.'
+    exampleTranslation: 'My first impression was good.'
+  - id: de-DE-B1-TEXT-005-004
+    term: 'Beschreiben'
+    translation: 'to describe'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich beschreibe meine Eindrücke.'
+    exampleTranslation: 'I describe my impressions.'
+  - id: de-DE-B1-TEXT-005-005
+    term: 'persönlich'
+    translation: 'personal'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Das ist eine persönliche Erfahrung.'
+    exampleTranslation: 'That is a personal experience.'
+  - id: de-DE-B1-TEXT-005-006
+    term: 'Antwort'
+    translation: 'answer / reply'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ich warte auf Ihre Antwort.'
+    exampleTranslation: 'I am waiting for your reply.'
+grammar:
+  - id: B1-TEXT-005-GR01
+    point: 'Writing letters and emails describing experiences'
+    explanation: 'At B1, write personal emails/letters with: greeting (Liebe/r...), body with experiences/impressions, and closing (Liebe Grüße). Use Perfekt for experiences, Präteritum for descriptions. Maintain informal/formal register as appropriate.'
+    examples:
+      - 'Liebe Maria, ich möchte dir von meiner Reise erzählen...'
+      - 'Liebe Grüße, [Name]'
+culturalNotes: 'German letter-writing follows formal conventions: "Sehr geehrte Damen und Herren" (formal), "Liebe/r..." (informal); the closing "Mit freundlichen Grüßen" is standard for business correspondence.'

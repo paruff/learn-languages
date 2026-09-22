@@ -1,0 +1,53 @@
+nodeId: B1-SOCIAL-002
+lang: en-DE
+vocabulary:
+  - id: en-DE-B1-SOCIAL-002-001
+    term: 'conversation'
+    translation: 'Gespräch'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Wir hatten ein langes Gespräch.'
+    exampleTranslation: 'We had a long conversation.'
+  - id: en-DE-B1-SOCIAL-002-002
+    term: 'topic'
+    translation: 'Thema'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Das Thema war interessant.'
+    exampleTranslation: 'The topic was interesting.'
+  - id: en-DE-B1-SOCIAL-002-003
+    term: 'to tell / to narrate'
+    translation: 'erzählen'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Erzähl mir mehr darüber!'
+    exampleTranslation: 'Tell me more about it!'
+  - id: en-DE-B1-SOCIAL-002-004
+    term: 'to ask (for clarification)'
+    translation: 'nachfragen'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Können Sie das bitte erklären?'
+    exampleTranslation: 'Can you please explain that?'
+  - id: en-DE-B1-SOCIAL-002-005
+    term: 'to understand'
+    translation: 'verstehen'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich verstehe das nicht ganz.'
+    exampleTranslation: "I don't quite understand that."
+  - id: en-DE-B1-SOCIAL-002-006
+    term: 'interest'
+    translation: 'Interesse'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Ich habe großes Interesse daran.'
+    exampleTranslation: 'I have a great interest in it.'
+grammar:
+  - id: B1-SOCIAL-002-GR01
+    point: 'Extended conversation on familiar topics'
+    explanation: 'At B1, sustain conversation by: asking follow-up questions (Können Sie das genauer erklären?), expressing interest (Das klingt spannend!), sharing personal experiences, and using connectors (Außerdem, Deshalb).'
+    examples:
+      - 'Das klingt sehr interessant! Können Sie mir mehr erzählen?'
+      - 'Ich habe auch eine ähnliche Erfahrung gemacht.'
+culturalNotes: 'Germans appreciate conversational depth ("Tiefe des Gesprächs"); surface-level small talk is less common than in Anglo-Saxon cultures.'

@@ -1,0 +1,53 @@
+nodeId: B1-SOCIAL-004
+lang: en-DE
+vocabulary:
+  - id: en-DE-B1-SOCIAL-004-001
+    term: 'opinion'
+    translation: 'Meinung'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Was meinst du dazu?'
+    exampleTranslation: 'What do you think about that?'
+  - id: en-DE-B1-SOCIAL-004-002
+    term: 'to react'
+    translation: 'reagieren'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Wie hast du darauf reagiert?'
+    exampleTranslation: 'How did you react to that?'
+  - id: en-DE-B1-SOCIAL-004-003
+    term: 'to invite'
+    translation: 'einladen'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich lade dich zum Kaffee ein.'
+    exampleTranslation: 'I invite you for coffee.'
+  - id: en-DE-B1-SOCIAL-004-004
+    term: 'to converse'
+    translation: 'unterhalten'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Wir haben uns gut unterhalten.'
+    exampleTranslation: 'We had a good conversation.'
+  - id: en-DE-B1-SOCIAL-004-005
+    term: 'conversation'
+    translation: 'Gespräch'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Das Gespräch war sehr angenehm.'
+    exampleTranslation: 'The conversation was very pleasant.'
+  - id: en-DE-B1-SOCIAL-004-006
+    term: 'reaction'
+    translation: 'Reaktion'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Deine Reaktion war gut.'
+    exampleTranslation: 'Your reaction was good.'
+grammar:
+  - id: B1-SOCIAL-004-GR01
+    point: 'Keeping conversations going'
+    explanation: 'Sustain conversation by: inviting opinions (Was meinst du?), reacting to statements (Das finde ich gut/interessant), asking follow-up questions, and sharing your own experience. Use "Und du?" to redirect.'
+    examples:
+      - 'Was meinst du dazu? Ich finde das sehr gut.'
+      - 'Und wie sieht es bei dir aus?'
+culturalNotes: 'Germans value "aktives Zuhören" (active listening); showing genuine interest through follow-up questions is essential for maintaining conversation.'

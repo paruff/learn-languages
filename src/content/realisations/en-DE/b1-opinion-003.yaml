@@ -1,0 +1,53 @@
+nodeId: B1-OPINION-003
+lang: en-DE
+vocabulary:
+  - id: en-DE-B1-OPINION-003-001
+    term: 'advantage'
+    translation: 'Vorteil'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Der größte Vorteil ist die Geschwindigkeit.'
+    exampleTranslation: 'The biggest advantage is the speed.'
+  - id: en-DE-B1-OPINION-003-002
+    term: 'disadvantage'
+    translation: 'Nachteil'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Ein Nachteil ist der hohe Preis.'
+    exampleTranslation: 'A disadvantage is the high price.'
+  - id: en-DE-B1-OPINION-003-003
+    term: 'on the one hand'
+    translation: 'einerseits'
+    partOfSpeech: conjunction
+    gender: n/a
+    example: 'Einerseits ist es gut, andererseits...'
+    exampleTranslation: 'On the one hand it is good...'
+  - id: en-DE-B1-OPINION-003-004
+    term: 'on the other hand'
+    translation: 'andererseits'
+    partOfSpeech: conjunction
+    gender: n/a
+    example: 'Einerseits ist es teuer. Andererseits ist es gut.'
+    exampleTranslation: 'On the one hand it is expensive. On the other hand it is good.'
+  - id: en-DE-B1-OPINION-003-005
+    term: 'comparison'
+    translation: 'Vergleich'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Ein Vergleich ist wichtig.'
+    exampleTranslation: 'A comparison is important.'
+  - id: en-DE-B1-OPINION-003-006
+    term: 'different / diverse'
+    translation: 'unterschiedlich'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Die Meinungen sind unterschiedlich.'
+    exampleTranslation: 'The opinions are different.'
+grammar:
+  - id: B1-OPINION-003-GR01
+    point: 'Expressing advantages and disadvantages'
+    explanation: 'The structure "einerseits... andererseits..." is the standard B1 pattern. Use "ein Vorteil ist..., ein Nachteil ist..." for lists. "Dagegen" introduces counterpoints. "Im Vergleich mit..." sets up comparisons.'
+    examples:
+      - 'Einerseits ist es praktisch, andererseits ist es teuer.'
+      - 'Ein Vorteil ist die Geschwindigkeit.'
+culturalNotes: 'Germans value balanced analysis ("abgewogene Betrachtung"); presenting both sides of an argument is expected in academic and professional discussions.'

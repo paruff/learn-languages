@@ -1,0 +1,53 @@
+nodeId: B1-SOCIAL-002
+lang: de-DE
+vocabulary:
+  - id: de-DE-B1-SOCIAL-002-001
+    term: 'Gespräch'
+    translation: 'conversation'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Wir hatten ein langes Gespräch.'
+    exampleTranslation: 'We had a long conversation.'
+  - id: de-DE-B1-SOCIAL-002-002
+    term: 'Thema'
+    translation: 'topic'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Das Thema war interessant.'
+    exampleTranslation: 'The topic was interesting.'
+  - id: de-DE-B1-SOCIAL-002-003
+    term: 'erzählen'
+    translation: 'to tell / to narrate'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Erzähl mir mehr darüber!'
+    exampleTranslation: 'Tell me more about it!'
+  - id: de-DE-B1-SOCIAL-002-004
+    term: 'nachfragen'
+    translation: 'to ask (for clarification)'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Können Sie das bitte erklären?'
+    exampleTranslation: 'Can you please explain that?'
+  - id: de-DE-B1-SOCIAL-002-005
+    term: 'verstehen'
+    translation: 'to understand'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich verstehe das nicht ganz.'
+    exampleTranslation: "I don't quite understand that."
+  - id: de-DE-B1-SOCIAL-002-006
+    term: 'Interesse'
+    translation: 'interest'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Ich habe großes Interesse daran.'
+    exampleTranslation: 'I have a great interest in it.'
+grammar:
+  - id: B1-SOCIAL-002-GR01
+    point: 'Extended conversation on familiar topics'
+    explanation: 'At B1, sustain conversation by: asking follow-up questions (Können Sie das genauer erklären?), expressing interest (Das klingt spannend!), sharing personal experiences, and using connectors (Außerdem, Deshalb).'
+    examples:
+      - 'Das klingt sehr interessant! Können Sie mir mehr erzählen?'
+      - 'Ich habe auch eine ähnliche Erfahrung gemacht.'
+culturalNotes: 'Germans appreciate conversational depth ("Tiefe des Gesprächs"); surface-level small talk is less common than in Anglo-Saxon cultures.'

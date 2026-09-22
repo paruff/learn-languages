@@ -1,0 +1,53 @@
+nodeId: B1-DISCOURSE-003
+lang: de-DE
+vocabulary:
+  - id: de-DE-B1-DISCOURSE-003-001
+    term: 'weil'
+    translation: 'because'
+    partOfSpeech: conjunction
+    gender: n/a
+    example: 'Ich blieb zu Hause, weil es regnete.'
+    exampleTranslation: 'I stayed home because it was raining.'
+  - id: de-DE-B1-DISCOURSE-003-002
+    term: 'deshalb'
+    translation: 'therefore'
+    partOfSpeech: conjunction
+    gender: n/a
+    example: 'Es regnete. Deshalb blieb ich zu Hause.'
+    exampleTranslation: 'It was raining. Therefore, I stayed home.'
+  - id: de-DE-B1-DISCOURSE-003-003
+    term: 'folglich'
+    translation: 'consequently'
+    partOfSpeech: conjunction
+    gender: n/a
+    example: 'Er war krank. Folglich konnte er nicht kommen.'
+    exampleTranslation: 'He was sick. Consequently, he could not come.'
+  - id: de-DE-B1-DISCOURSE-003-004
+    term: '导致'
+    translation: 'to lead to / to cause'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Der Regen hat den Verkehr verursacht.'
+    exampleTranslation: 'The rain caused the traffic.'
+  - id: de-DE-B1-DISCOURSE-003-005
+    term: 'Folge'
+    translation: 'consequence'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Folgen waren serious.'
+    exampleTranslation: 'The consequences were serious.'
+  - id: de-DE-B1-DISCOURSE-003-006
+    term: 'wegen'
+    translation: 'because of'
+    partOfSpeech: preposition
+    gender: n/a
+    example: 'Wegen des Regens blieb ich zu Hause.'
+    exampleTranslation: 'Because of the rain, I stayed home.'
+grammar:
+  - id: B1-DISCOURSE-003-GR01
+    point: 'Cause and effect connectors'
+    explanation: 'German expresses cause/effect with: weil + verb-final clause (spoken: verb-second), deshalb/folglich in main clauses, and wegen + dative for noun phrases. "Daraus folgt" introduces logical conclusions.'
+    examples:
+      - 'Weil es regnete, blieb ich zu Hause.'
+      - 'Es regnete. Deshalb blieb ich zu Hause.'
+culturalNotes: 'Germans value logical argumentation ("logisches Denken"); clearly articulating cause and effect is important in both academic and professional settings.'

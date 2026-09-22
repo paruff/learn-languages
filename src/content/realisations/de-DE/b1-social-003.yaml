@@ -1,0 +1,53 @@
+nodeId: B1-SOCIAL-003
+lang: de-DE
+vocabulary:
+  - id: de-DE-B1-SOCIAL-003-001
+    term: 'Gefühl'
+    translation: 'feeling'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Wie fühlst du dich?'
+    exampleTranslation: 'How are you feeling?'
+  - id: de-DE-B1-SOCIAL-003-002
+    term: 'freuen'
+    translation: 'to be glad / to be happy'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich freue mich darauf.'
+    exampleTranslation: 'I am looking forward to it.'
+  - id: de-DE-B1-SOCIAL-003-003
+    term: 'traurig'
+    translation: 'sad'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Ich bin etwas traurig.'
+    exampleTranslation: 'I am a little sad.'
+  - id: de-DE-B1-SOCIAL-003-004
+    term: 'aufgeregt'
+    translation: 'excited / nervous'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Ich bin sehr aufgeregt.'
+    exampleTranslation: 'I am very excited.'
+  - id: de-DE-B1-SOCIAL-003-005
+    term: 'enttäuscht'
+    translation: 'disappointed'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Ich bin etwas enttäuscht.'
+    exampleTranslation: 'I am a little disappointed.'
+  - id: de-DE-B1-SOCIAL-003-006
+    term: 'Meinung'
+    translation: 'opinion'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Was ist deine Meinung dazu?'
+    exampleTranslation: 'What is your opinion on that?'
+grammar:
+  - id: B1-SOCIAL-003-GR01
+    point: 'Expressing and responding to feelings'
+    explanation: 'At B1, express emotions with: Ich fühle mich + adjective, Ich bin + adjective, Ich freue mich auf (+ Akkusativ for future). Respond with: Das freut mich! / Das tut mir leid. / Das verstehe ich.'
+    examples:
+      - 'Ich freue mich auf das Wochenende.'
+      - 'Das tut mir leid. Ich hoffe, es geht dir besser.'
+culturalNotes: 'Germans express feelings more reservedly than many cultures; "Mir geht es gut" (I am fine) is the standard response, even when things are not perfect.'
