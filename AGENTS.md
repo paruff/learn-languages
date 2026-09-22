@@ -6,13 +6,26 @@
 
 ## 1. Repository Purpose
 
-**learn-languages** — A research-backed Portuguese (European PT-PT) learning platform built with **Astro 5.x** (static site generation with islands) deployed to **GitHub Pages** via **GitOps**.
+**learn-languages** (deployed as **Acquira**) — a research-backed, CEFR-aligned language-learning platform built with **Astro 5.x** (static site generation with islands) deployed to **GitHub Pages** via **GitOps**. Originally scoped as EN→PT only (see `discovery-brief.md`'s MVP framing); the abstract CEFR-node + realisation content model proved out past a single hand-authored pair, and the platform now supports **en-GB, pt-PT, es-ES, de-DE, and fr-FR** as both source and target languages (Epic #39), with any-direction pairing and per-pair, per-direction SRS state.
 
-- **Framework**: Astro 5.x + Vue 3 islands + TypeScript
-- **Content**: Zod-validated CEFR nodes + language-pair realisations (YAML)
-- **SRS**: SM-2 algorithm (pure TS, 100% test coverage)
+- **Framework**: Astro 5.x + TypeScript, vanilla-JS islands (no framework runtime shipped to the client)
+- **Content**: Zod-validated CEFR nodes (language-agnostic Can-Do statements) + per-language realisations (YAML) — full A1–C2 coverage for pt-PT/es-ES/de-DE, a verified 5-node skeleton for fr-FR
+- **SRS**: SM-2 algorithm (pure TS, 100% test coverage), scoped per language pair *and* review direction
 - **Deployment**: GitHub Actions → GitHub Pages (static export)
-- **Principles**: Evidence-based SLA, SDT motivation, cognitive load management, privacy by default
+
+### 1.0 Learner Experience: what actually makes this a good way to learn
+
+The product's whole reason to exist is the learning loop, not the CI pipeline — read this before touching `src/pages/[sourceLang]/[targetLang]/`. Every mechanism below is a real, shipped feature backed by retrieval-practice research (Brown, Roediger & McDaniel, *Make It Stick* — see Epic #43), not aspirational copy:
+
+- **Retrieval practice over re-reading**: the review loop always forces active recall (prompt → attempt → reveal → self-grade) before showing the answer — the book's central finding, and the platform's core loop (`review.astro`).
+- **Spaced repetition**: SM-2 (`src/utils/srs.ts`) schedules reviews at increasing intervals as recall improves, so cards resurface right when forgetting makes recall effortful (desirable difficulty), not on a fixed schedule.
+- **Interleaving**: the due-card queue is round-robined across CEFR nodes (`interleaveByNode`, `src/lib/reviewSession.ts`) rather than blocked by topic — mixing topics during practice improves long-term discrimination even though it feels harder in the moment (#44).
+- **Generation effect**: an opt-in typed-recall mode (vs. reveal-only) makes the learner produce the answer before seeing it — producing an answer strengthens memory more than recognizing a revealed one (#45).
+- **Calibration feedback**: the progress dashboard surfaces when a confidently-graded item ("Good"/"Easy") needed a re-grade of "Again"/"Hard" soon after — a check against the "fluency illusion" the book warns about, since learners are poor judges of their own mastery (#46).
+- **Dual coding**: optional vocabulary images (with required alt text) pair the verbal and visual channels for concrete-noun vocabulary (#34, #35).
+- **Zero-friction, zero-surveillance**: no accounts, no cookies, no third-party trackers, `localStorage`-only state — matching the "10 minutes on the bus" and "no forced streaks/ads" JTBD from `discovery-brief.md`.
+
+When adding a feature, ask which of these it strengthens (or whether it's UI polish that doesn't touch the learning mechanism at all) — that's the difference between roadmap work and decoration.
 
 ### 1.1 Delivery Stage
 

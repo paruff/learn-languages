@@ -1,5 +1,7 @@
 # Discovery Brief — Portuguese Learning Platform (PLP)
 
+> **Status note:** this brief captures the *original* MVP scoping (EN→PT, A1 only) and is kept as-written for historical record — it is not a living document. The product has since expanded past this scope (es-ES/de-DE/pt-PT now have full A1–C2 content, fr-FR has a walking skeleton — Epic #39) while the JTBD/personas/risks below remain the founding rationale. See `AGENTS.md` §1 for current state.
+
 ## 1. Problem Statement
 
 **Who:** Independent adult learners of European Portuguese (PT-PT) at CEFR A1 level.

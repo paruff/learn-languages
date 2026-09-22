@@ -1,5 +1,7 @@
 # Expert Specification & Design Document
 
+> **Status note:** written for the original EN→PT MVP build. Its architecture was designed "language-pair-agnostic" from the start (see Goal G4) — that bet paid off: the platform now supports en-GB/pt-PT/es-ES/de-DE/fr-FR with zero changes to the code this spec describes, only new content. Kept as-written for historical record; see `AGENTS.md` §1 for current state.
+
 ## Portuguese Learning Platform — CEFR-Aligned, Language-Pair-Agnostic, Static-First
 
 **Document ID:** SPEC-PLP-001  
