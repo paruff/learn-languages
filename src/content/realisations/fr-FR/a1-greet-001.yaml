@@ -1,0 +1,17 @@
+nodeId: A1-GREET-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A1-GREET-001-001
+    term: 'Bonjour'
+    translation: 'Hello'
+    partOfSpeech: interjection
+    example: 'Bonjour, comment allez-vous ?'
+    exampleTranslation: 'Hello, how are you?'
+  - id: fr-FR-A1-GREET-001-002
+    term: 'Bonsoir'
+    translation: 'Good evening'
+    partOfSpeech: phrase
+    example: 'Bonsoir, madame Dupont.'
+    exampleTranslation: 'Good evening, Mrs. Dupont.'
+grammar: []
+culturalNotes: 'In France, "la bise" (cheek kisses, typically two) is common between friends and family; a handshake is standard in formal or professional settings.'
