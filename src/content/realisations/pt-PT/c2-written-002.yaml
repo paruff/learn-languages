@@ -1,0 +1,54 @@
+nodeId: C2-WRITTEN-002
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C2-WRITTEN-002-001
+    term: 'precisão e subtileza'
+    translation: 'precision and subtlety'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Escrevo com precisão e subtileza incomparáveis.'
+    exampleTranslation: 'I write with incomparable precision and subtlety.'
+  - id: pt-PT-C2-WRITTEN-002-002
+    term: 'efeito pretendido'
+    translation: 'intended effect'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Consigno sempre o efeito pretendido no leitor.'
+    exampleTranslation: 'I always achieve the intended effect on the reader.'
+  - id: pt-PT-C2-WRITTEN-002-003
+    term: 'registo adequado'
+    translation: 'appropriate register'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Seleciono sempre o registo adequado ao contexto.'
+    exampleTranslation: 'I always select the appropriate register for the context.'
+  - id: pt-PT-C2-WRITTEN-002-004
+    term: 'estilo adaptado'
+    translation: 'adapted style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Adapto o estilo ao texto e ao destinatário.'
+    exampleTranslation: 'I adapt the style to the text and recipient.'
+  - id: pt-PT-C2-WRITTEN-002-005
+    term: 'expressão culta'
+    translation: 'cultured expression'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Utilizo uma expressão culta e bem fundamentada.'
+    exampleTranslation: 'I use a cultured and well-founded expression.'
+  - id: pt-PT-C2-WRITTEN-002-006
+    term: 'escrita elegante'
+    translation: 'elegant writing'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'A minha escrita é sempre elegante e precisa.'
+    exampleTranslation: 'My writing is always elegant and precise.'
+grammar:
+  - id: C2-GRAMMAR-020
+    point: 'Advanced subjunctive in evaluative relative clauses for stylistic precision'
+    explanation: "Use subjunctive in evaluative relative clauses for stylistic precision: 'Busco um estilo que reflita a subtileza do pensamento' (I seek a style that reflects the subtlety of thought)."
+    examples:
+      - 'Escolho expressões que transmitem exactamente a emoção pretendida.'
+      - 'Selecciono termos que captam os matices do significado.'
+    cefrNotes: 'C2 writers use evaluative subjunctive to achieve near-native stylistic precision'
+culturalNotes: 'At C2 level, Portuguese writers can write with precision and subtlety, conveying intended effects on the reader using appropriate register and adapting style to text and audience with near-native command.'

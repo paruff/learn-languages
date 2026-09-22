@@ -1,0 +1,54 @@
+nodeId: C2-MODALITY-003
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C2-MODALITY-003-001
+    term: 'rápida compreensão auditiva'
+    translation: 'rapid auditory comprehension'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Tenho uma rápida compreensão auditiva em qualquer registo.'
+    exampleTranslation: 'I have rapid auditory comprehension in any register.'
+  - id: pt-PT-C2-MODALITY-003-002
+    term: 'fala nativa rápida'
+    translation: 'fast native speech'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Consigo acompanhar a fala nativa rápida sem dificuldade.'
+    exampleTranslation: 'I can follow fast native speech without difficulty.'
+  - id: pt-PT-C2-MODALITY-003-003
+    term: 'sotaques variados'
+    translation: 'varied accents'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Entendo sotaques variados de português sem problema.'
+    exampleTranslation: 'I understand varied Portuguese accents without issue.'
+  - id: pt-PT-C2-MODALITY-003-004
+    term: 'qualquer tipo de discurso'
+    translation: 'any kind of spoken language'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Compreendo qualquer tipo de discurso, ao vivo ou gravado.'
+    exampleTranslation: 'I understand any kind of spoken language, live or recorded.'
+  - id: pt-PT-C2-MODALITY-003-005
+    term: 'rápida adaptação'
+    translation: 'quick adaptation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Adapto-me rapidamente a qualquer sotaque ou estilo.'
+    exampleTranslation: 'I quickly adapt to any accent or style.'
+  - id: pt-PT-C2-MODALITY-003-006
+    term: 'compreensão total'
+    translation: 'complete understanding'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Tenho compreensão total do discurso oral, mesmo veloz.'
+    exampleTranslation: 'I have complete understanding of spoken discourse, even fast.'
+grammar:
+  - id: C2-GRAMMAR-003
+    point: 'Advanced conditional and subjunctive for hypothetical listening scenarios'
+    explanation: "Use conditional + subjunctive for hypothetical scenarios in listening: 'Mesmo que falassem rapidamente, eu compreenderia tudo' (Even if they spoke quickly, I would understand everything)."
+    examples:
+      - 'Ainda que o orador seja rápido, consigo seguir o raciocínio.'
+      - 'Mesmo com sotaques diferentes, entendo perfeitamente.'
+    cefrNotes: 'C2 listeners use hypothetical constructions to express their capacity with any spoken language'
+culturalNotes: 'Understanding any kind of spoken Portuguese at fast native speed, including varied accents and registers, demonstrates the highest level of listening comprehension.'

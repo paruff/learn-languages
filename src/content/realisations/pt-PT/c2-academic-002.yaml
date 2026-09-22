@@ -1,0 +1,54 @@
+nodeId: C2-ACADEMIC-002
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C2-ACADEMIC-002-001
+    term: 'descrição detalhada'
+    translation: 'detailed description'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Apresento descrições detalhadas de temas complexos.'
+    exampleTranslation: 'I present detailed descriptions of complex subjects.'
+  - id: pt-PT-C2-ACADEMIC-002-002
+    term: 'subtemas relacionados'
+    translation: 'related sub-themes'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Integro subtemas relacionados de forma coerente.'
+    exampleTranslation: 'I integrate related sub-themes in a coherent way.'
+  - id: pt-PT-C2-ACADEMIC-002-003
+    term: 'pontos específicos'
+    translation: 'particular points'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Desenvolvo pontos específicos com profundidade e clareza.'
+    exampleTranslation: 'I develop particular points with depth and clarity.'
+  - id: pt-PT-C2-ACADEMIC-002-004
+    term: 'conclusão adequada'
+    translation: 'appropriate conclusion'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Termino sempre com uma conclusão adequada e satisfatória.'
+    exampleTranslation: 'I always finish with an appropriate and satisfying conclusion.'
+  - id: pt-PT-C2-ACADEMIC-002-005
+    term: 'tema complexo'
+    translation: 'complex subject'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Abordo temas complexos com segurança e competência.'
+    exampleTranslation: 'I address complex subjects with confidence and competence.'
+  - id: pt-PT-C2-ACADEMIC-002-006
+    term: 'apresentação precisa'
+    translation: 'accurate presentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'A minha apresentação é sempre precisa e bem documentada.'
+    exampleTranslation: 'My presentation is always accurate and well-documented.'
+grammar:
+  - id: C2-GRAMMAR-015
+    point: 'Advanced relative and participial clauses for detailed academic descriptions'
+    explanation: "Use advanced relative and participial clauses for detailed descriptions: 'Apresento uma descrição que integra todos os subtemas, tendo em conta a sua relevância' (I present a description that integrates all sub-themes, taking into account their relevance)."
+    examples:
+      - 'Desenvolvo o tema, incluindo todos os aspectos relevantes.'
+      - 'Apresento a análise, abrangendo os diferentes pontos de vista.'
+    cefrNotes: 'C2 speakers use advanced clauses to produce clear, detailed descriptions of complex subjects'
+culturalNotes: 'At C2 level, Portuguese speakers can present clear, detailed and accurate descriptions of complex subjects, integrating sub-themes and developing particular points with appropriate conclusions.'

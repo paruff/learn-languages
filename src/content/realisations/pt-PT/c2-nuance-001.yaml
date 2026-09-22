@@ -1,0 +1,54 @@
+nodeId: C2-NUANCE-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C2-NUANCE-001-001
+    term: 'matizes subtis'
+    translation: 'subtle nuances'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Distingo matizes subtis em qualquer tema.'
+    exampleTranslation: 'I distinguish subtle nuances on any subject.'
+  - id: pt-PT-C2-NUANCE-001-002
+    term: 'repertório lexical enriquecido'
+    translation: 'enriched lexical repertoire'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'O meu repertório lexical enriquecido permite-me precisão total.'
+    exampleTranslation: 'My enriched lexical repertoire allows me total precision.'
+  - id: pt-PT-C2-NUANCE-001-003
+    term: 'expressão precisa'
+    translation: 'precise expression'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'A minha expressão é sempre precisa e bem escolhida.'
+    exampleTranslation: 'My expression is always precise and well-chosen.'
+  - id: pt-PT-C2-NUANCE-001-004
+    term: 'temas diversos'
+    translation: 'diverse subjects'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Abordo temas diversos com domínio e segurança.'
+    exampleTranslation: 'I address diverse subjects with mastery and confidence.'
+  - id: pt-PT-C2-NUANCE-001-005
+    term: 'registo adequado'
+    translation: 'appropriate register'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Selecione sempre o registo adequado a cada situação.'
+    exampleTranslation: 'I always select the appropriate register for each situation.'
+  - id: pt-PT-C2-NUANCE-001-006
+    term: 'precisão total'
+    translation: 'total precision'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Atinjo sempre a precisão total na表达ão.'
+    exampleTranslation: 'I always achieve total precision in expression.'
+grammar:
+  - id: C2-GRAMMAR-009
+    point: 'Advanced concessive and conditional for nuanced qualification'
+    explanation: "Use concessive + conditional for nuanced qualification: 'Embora o tema seja denso, conseguiria expressá-lo com total precisão' (Although the subject is dense, I would be able to express it with total precision)."
+    examples:
+      - 'Mesmo em contextos muito formais, mantenho a precisão e o natural.'
+      - 'Ainda que o assunto exija technicalidade, sei simplificá-lo com clareza.'
+    cefrNotes: 'C2 speakers use concessive-conditional combinations to qualify their ability with native-like subtlety'
+culturalNotes: 'At C2 level, Portuguese speakers can express themselves clearly and precisely on a wide range of subjects, employing an appropriate lexical repertoire and selecting the suitable register for each situation.'

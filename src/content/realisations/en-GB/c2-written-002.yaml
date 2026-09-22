@@ -1,0 +1,54 @@
+nodeId: C2-WRITTEN-002
+lang: en-GB
+vocabulary:
+  - id: en-GB-C2-WRITTEN-002-001
+    term: 'precision and subtlety'
+    translation: 'precisão e subtileza'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'I write with incomparable precision and subtlety.'
+    exampleTranslation: 'Escrevo com precisão e subtileza incomparáveis.'
+  - id: en-GB-C2-WRITTEN-002-002
+    term: 'intended effect'
+    translation: 'efeito pretendido'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'I always achieve the intended effect on the reader.'
+    exampleTranslation: 'Consigno sempre o efeito pretendido no leitor.'
+  - id: en-GB-C2-WRITTEN-002-003
+    term: 'appropriate register'
+    translation: 'registo adequado'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'I always select the appropriate register for the context.'
+    exampleTranslation: 'Seleciono sempre o registo adequado ao contexto.'
+  - id: en-GB-C2-WRITTEN-002-004
+    term: 'adapted style'
+    translation: 'estilo adaptado'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'I adapt the style to the text and recipient.'
+    exampleTranslation: 'Adapto o estilo ao texto e ao destinatário.'
+  - id: en-GB-C2-WRITTEN-002-005
+    term: 'cultured expression'
+    translation: 'expressão culta'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'I use a cultured and well-founded expression.'
+    exampleTranslation: 'Utilizo uma expressão culta e bem fundamentada.'
+  - id: en-GB-C2-WRITTEN-002-006
+    term: 'elegant writing'
+    translation: 'escrita elegante'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'My writing is always elegant and precise.'
+    exampleTranslation: 'A minha escrita é sempre elegante e precisa.'
+grammar:
+  - id: C2-GRAMMAR-020
+    point: 'Advanced evaluative relative clauses for stylistic precision'
+    explanation: "Use evaluative relative clauses for stylistic precision: 'I seek a style that reflects the subtlety of thought' (Busco um estilo que reflita a subtileza do pensamento)."
+    examples:
+      - 'I choose expressions that convey exactly the intended emotion.'
+      - 'I select terms that capture the nuances of meaning.'
+    cefrNotes: 'C2 writers use evaluative relative clauses to achieve near-native stylistic precision'
+culturalNotes: 'At C2 level, English writers can write with precision and subtlety, conveying intended effects on the reader using appropriate register and adapting style to text and audience with near-native command.'

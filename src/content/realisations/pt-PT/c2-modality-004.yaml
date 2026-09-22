@@ -1,0 +1,54 @@
+nodeId: C2-MODALITY-004
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C2-MODALITY-004-001
+    term: 'compreensão global'
+    translation: 'overall comprehension'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Tenho compreensão global de textos orais e escritos.'
+    exampleTranslation: 'I have overall comprehension of spoken and written texts.'
+  - id: pt-PT-C2-MODALITY-004-002
+    term: 'síntese de informação'
+    translation: 'synthesis of information'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Sei sintetizar informação de diferentes fontes com precisão.'
+    exampleTranslation: 'I know how to synthesise information from different sources with precision.'
+  - id: pt-PT-C2-MODALITY-004-003
+    term: 'fontes diversas'
+    translation: 'diverse sources'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Utilizo fontes diversas para construir uma visão completa.'
+    exampleTranslation: 'I use diverse sources to build a complete picture.'
+  - id: pt-PT-C2-MODALITY-004-004
+    term: 'reconstruir argumentos'
+    translation: 'reconstruct arguments'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Consigo reconstruir argumentos complexos de forma coerente.'
+    exampleTranslation: 'I can reconstruct complex arguments in a coherent way.'
+  - id: pt-PT-C2-MODALITY-004-005
+    term: 'leitura fácil'
+    translation: 'reading with ease'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Leio com facilidade praticamente qualquer texto.'
+    exampleTranslation: 'I read with ease virtually any text.'
+  - id: pt-PT-C2-MODALITY-004-006
+    term: 'apresentação coerente'
+    translation: 'coherent presentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Organizo tudo numa apresentação coerente e bem estruturada.'
+    exampleTranslation: 'I organise everything into a coherent and well-structured presentation.'
+grammar:
+  - id: C2-GRAMMAR-004
+    point: 'Advanced participial clauses for summarising complex sources'
+    explanation: "Use participial clauses to condense source analysis: 'Tendo analisado múltiplas fontes, consigo sintetizar a informação essencial' (Having analysed multiple sources, I can synthesise the essential information)."
+    examples:
+      - 'Tendo lido os textos, reconstruo os argumentos de forma coerente.'
+      - 'Depois de analisar as fontes, apresento uma síntese clara.'
+    cefrNotes: 'C2 readers use participial clauses to demonstrate mastery of complex reading comprehension'
+culturalNotes: 'Understanding virtually everything heard or read at C2 level, and being able to summarise from different sources, demonstrates the highest level of reading and listening comprehension in Portuguese.'

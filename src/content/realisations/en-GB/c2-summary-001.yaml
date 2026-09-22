@@ -1,0 +1,54 @@
+nodeId: C2-SUMMARY-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-C2-SUMMARY-001-001
+    term: 'concise summary'
+    translation: 'síntese concisa'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'I make a concise summary of extensive information.'
+    exampleTranslation: 'Faço uma síntese concisa de informações extensas.'
+  - id: en-GB-C2-SUMMARY-001-002
+    term: 'extended sources'
+    translation: 'fontes alargadas'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'I consult extended sources to produce a faithful summary.'
+    exampleTranslation: 'Consulto fontes alargadas para produzir uma síntese fiel.'
+  - id: en-GB-C2-SUMMARY-001-003
+    term: 'diversified argumentation'
+    translation: 'argumentação diversificada'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'I reconstruct diversified argumentation in a coherent way.'
+    exampleTranslation: 'Reconstruo a argumentação diversificada de forma coerente.'
+  - id: en-GB-C2-SUMMARY-001-004
+    term: 'organised presentation'
+    translation: 'apresentação organizada'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'My presentation is always organised and clear.'
+    exampleTranslation: 'A minha apresentação é sempre organizada e clara.'
+  - id: en-GB-C2-SUMMARY-001-005
+    term: 'essential points'
+    translation: 'pontos essenciais'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'I always select the essential points from each source.'
+    exampleTranslation: 'Seleciono sempre os pontos essenciais de cada fonte.'
+  - id: en-GB-C2-SUMMARY-001-006
+    term: 'faithful reconstruction'
+    translation: 'reconstrução fiel'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'I make a faithful reconstruction of the original arguments.'
+    exampleTranslation: 'Faço uma reconstrução fiel dos argumentos originais.'
+grammar:
+  - id: C2-GRAMMAR-006
+    point: 'Advanced nominalisation for concise summaries'
+    explanation: "Use nominalisation to condense complex information: 'The analysis of sources allows the identification of essential points' (A análise das fontes permite a identificação dos pontos essenciais)."
+    examples:
+      - 'The synthesis of different perspectives reveals the points of consensus.'
+      - 'The reconstruction of arguments presents the theses coherently.'
+    cefrNotes: 'C2 writers use nominalisation to produce concise, well-structured summaries'
+culturalNotes: 'Summarising concisely at C2 level requires the ability to select essential points from extended spoken and written sources and reconstruct them in a coherent, organised presentation.'

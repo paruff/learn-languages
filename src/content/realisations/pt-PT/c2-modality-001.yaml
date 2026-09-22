@@ -1,0 +1,54 @@
+nodeId: C2-MODALITY-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C2-MODALITY-001-001
+    term: 'expressão espontânea'
+    translation: 'spontaneous expression'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'A minha expressão espontânea é agora precisa e fluida.'
+    exampleTranslation: 'My spontaneous expression is now precise and fluent.'
+  - id: pt-PT-C2-MODALITY-001-002
+    term: 'fluidez nativa'
+    translation: 'native fluency'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Converso com fluidez nativa mesmo em situações complexas.'
+    exampleTranslation: 'I speak with native fluency even in complex situations.'
+  - id: pt-PT-C2-MODALITY-001-003
+    term: 'matizes de significado'
+    translation: 'shades of meaning'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Distingo matizes de significado em qualquer contexto.'
+    exampleTranslation: 'I distinguish shades of meaning in any context.'
+  - id: pt-PT-C2-MODALITY-001-004
+    term: 'repertório lexical amplo'
+    translation: 'broad lexical repertoire'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'O meu repertório lexical amplo permite-me precisão total.'
+    exampleTranslation: 'My broad lexical repertoire allows me total precision.'
+  - id: pt-PT-C2-MODALITY-001-005
+    term: 'situações complexas'
+    translation: 'complex situations'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Mantenho a fluidez mesmo nas situações mais complexas.'
+    exampleTranslation: 'I maintain fluency even in the most complex situations.'
+  - id: pt-PT-C2-MODALITY-001-006
+    term: 'precisão linguística'
+    translation: 'linguistic precision'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'A minha precisão linguística é compatível com a de um nativo.'
+    exampleTranslation: 'My linguistic precision is comparable to that of a native speaker.'
+grammar:
+  - id: C2-GRAMMAR-001
+    point: 'Advanced subjunctive in concessive clauses for native-level nuance'
+    explanation: "Use concessive clauses with subjunctive to express nuanced qualification: 'Embora me expresse com fluidez, há domínios onde ainda refino o registo' (Although I express myself fluently, there are domains where I still refine register)."
+    examples:
+      - 'Mesmo que me expresse com precisão nativa, continuo a aprender.'
+      - 'Ainda que domine a língua, há sempre nuances por explorar.'
+    cefrNotes: 'C2 speakers use concessive subjunctive to qualify their own ability with native-like subtlety'
+culturalNotes: 'At C2 level, Portuguese speakers achieve near-native spontaneity and precision, distinguishing the finest shades of meaning even in the most complex situations.'

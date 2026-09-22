@@ -1,0 +1,54 @@
+nodeId: C2-SOCIAL-001
+lang: pt-PT
+vocabulary:
+  - id: pt-PT-C2-SOCIAL-001-001
+    term: 'fluidez nativa'
+    translation: 'native fluency'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Interajo com fluidez nativa em qualquer contexto.'
+    exampleTranslation: 'I interact with native fluency in any context.'
+  - id: pt-PT-C2-SOCIAL-001-002
+    term: 'espontaneidade total'
+    translation: 'total spontaneity'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Tenho espontaneidade total nas minhas interações.'
+    exampleTranslation: 'I have total spontaneity in my interactions.'
+  - id: pt-PT-C2-SOCIAL-001-003
+    term: 'precisão nativa'
+    translation: 'native precision'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Comunico com precisão nativa em qualquer situação.'
+    exampleTranslation: 'I communicate with native precision in any situation.'
+  - id: pt-PT-C2-SOCIAL-001-004
+    term: 'comunicação efectiva'
+    translation: 'effective communication'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'A minha comunicação com nativos é sempre efectiva.'
+    exampleTranslation: 'My communication with native speakers is always effective.'
+  - id: pt-PT-C2-SOCIAL-001-005
+    term: 'domínio da língua'
+    translation: 'language mastery'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'O meu domínio da língua permite-me comunicar com confiança.'
+    exampleTranslation: 'My language mastery allows me to communicate with confidence.'
+  - id: pt-PT-C2-SOCIAL-001-006
+    term: 'confiança comunicativa'
+    translation: 'communicative confidence'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Tenho confiança comunicativa em qualquer contexto social.'
+    exampleTranslation: 'I have communicative confidence in any social context.'
+grammar:
+  - id: C2-GRAMMAR-018
+    point: 'Advanced hypothetical constructions for social interaction'
+    explanation: "Use hypothetical clauses for social interaction: 'Se me fosse pedido, explicaria o assunto com total clareza' (If I were asked, I would explain the subject with total clarity)."
+    examples:
+      - 'Podes falar comigo sobre qualquer assunto, que eu compreendo.'
+      - 'Não importa o tema, consigo comunicar com eficácia.'
+    cefrNotes: 'C2 speakers use hypothetical constructions to demonstrate near-native social interaction'
+culturalNotes: 'At C2 level, Portuguese speakers can interact with native speakers with a degree of fluency, spontaneity, confidence and precision that enables effective communication in all social contexts.'

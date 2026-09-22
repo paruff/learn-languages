@@ -1,0 +1,54 @@
+nodeId: C2-ARGUE-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-C2-ARGUE-001-001
+    term: 'precise formulation'
+    translation: 'formulação precisa'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'I select the most precise formulation for each idea.'
+    exampleTranslation: 'Selecione a formulação mais precisa para cada ideia.'
+  - id: en-GB-C2-ARGUE-001-002
+    term: 'range of linguistic means'
+    translation: 'gama de meios expressivos'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'I use a vast range of linguistic means with natural fluency.'
+    exampleTranslation: 'Utilizo uma vasta gama de meios expressivos com natural fluidez.'
+  - id: en-GB-C2-ARGUE-001-003
+    term: 'clear expression'
+    translation: 'expressão clara'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'My expression is always clear and unambiguous.'
+    exampleTranslation: 'A minha expressão é sempre clara e inequívoca.'
+  - id: en-GB-C2-ARGUE-001-004
+    term: 'lexical precision'
+    translation: 'precisão léxica'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Lexical precision is one of my greatest strengths.'
+    exampleTranslation: 'A precisão léxica é uma das minhas maiores forças.'
+  - id: en-GB-C2-ARGUE-001-005
+    term: 'nuances of meaning'
+    translation: 'matices de significado'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'I can convey all nuances of meaning.'
+    exampleTranslation: 'Consigo transmitir todos os matices de significado.'
+  - id: en-GB-C2-ARGUE-001-006
+    term: 'unequivocal expression'
+    translation: 'expressão inequívoca'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'My expression is always unequivocal and well-founded.'
+    exampleTranslation: 'A minha expressão é sempre inequívoca e bem fundamentada.'
+grammar:
+  - id: C2-GRAMMAR-007
+    point: 'Advanced relative clauses for precise argumentation'
+    explanation: "Use advanced relative clauses to achieve precision: 'I select the formulation that best expresses the intended shade of meaning' (Seleciono a formulação que melhor exprime o matiz de significado pretendido)."
+    examples:
+      - 'I choose the expression that captures exactly the intended sense.'
+      - 'I use the term that best fits the specific context.'
+    cefrNotes: 'C2 writers use advanced relative clauses to achieve near-native lexical precision'
+culturalNotes: 'At C2 level, English speakers can select from a broad range of linguistic means with full naturalness, expressing themselves clearly and precisely with near-native command of vocabulary.'
