@@ -4,6 +4,7 @@ import AxeBuilder from '@axe-core/playwright';
 const PAGES = [
   '/learn-languages/',
   '/learn-languages/en-GB/pt-PT/lessons/',
+  '/learn-languages/en-GB/pt-PT/lessons/A1-GREET-001/',
   '/learn-languages/en-GB/pt-PT/review/',
   '/learn-languages/en-GB/pt-PT/progress/',
 ];
