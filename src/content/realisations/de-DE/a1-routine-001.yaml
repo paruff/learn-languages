@@ -1,0 +1,47 @@
+nodeId: A1-ROUTINE-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-A1-ROUTINE-001-001
+    term: 'Haus'
+    translation: 'house'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Das Haus ist groß.'
+    exampleTranslation: 'The house is big.'
+  - id: de-DE-A1-ROUTINE-001-002
+    term: 'Wohnzimmer'
+    translation: 'living room'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Das Wohnzimmer ist gemütlich.'
+    exampleTranslation: 'The living room is cosy.'
+  - id: de-DE-A1-ROUTINE-001-003
+    term: 'Küche'
+    translation: 'kitchen'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Küche ist sauber.'
+    exampleTranslation: 'The kitchen is clean.'
+  - id: de-DE-A1-ROUTINE-001-004
+    term: 'Schlafzimmer'
+    translation: 'bedroom'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Mein Schlafzimmer ist klein.'
+    exampleTranslation: 'My bedroom is small.'
+  - id: de-DE-A1-ROUTINE-001-005
+    term: 'Bad'
+    translation: 'bathroom'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Das Bad ist unten.'
+    exampleTranslation: 'The bathroom is downstairs.'
+  - id: de-DE-A1-ROUTINE-001-006
+    term: 'Möbel'
+    translation: 'furniture'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Wir brauchen neue Möbel.'
+    exampleTranslation: 'We need new furniture.'
+grammar: []
+culturalNotes: 'Germans take pride in their homes; "Gemütlichkeit" (cosiness) is an important concept reflected in how they furnish their living spaces.'

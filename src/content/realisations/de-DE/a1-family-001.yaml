@@ -1,0 +1,45 @@
+nodeId: A1-FAMILY-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-A1-FAMILY-001-001
+    term: 'Mutter'
+    translation: 'mother'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Meine Mutter heißt Anna.'
+    exampleTranslation: 'My mother is called Anna.'
+  - id: de-DE-A1-FAMILY-001-002
+    term: 'Vater'
+    translation: 'father'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Mein Vater ist Lehrer.'
+    exampleTranslation: 'My father is a teacher.'
+  - id: de-DE-A1-FAMILY-001-003
+    term: 'Bruder'
+    translation: 'brother'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Mein Bruder ist zehn Jahre alt.'
+    exampleTranslation: 'My brother is ten years old.'
+  - id: de-DE-A1-FAMILY-001-004
+    term: 'Schwester'
+    translation: 'sister'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Meine Schwester wohnt in Berlin.'
+    exampleTranslation: 'My sister lives in Berlin.'
+  - id: de-DE-A1-FAMILY-001-005
+    term: 'groß'
+    translation: 'tall / big'
+    partOfSpeech: adjective
+    example: 'Mein Vater ist sehr groß.'
+    exampleTranslation: 'My father is very tall.'
+  - id: de-DE-A1-FAMILY-001-006
+    term: 'klein'
+    translation: 'small / short'
+    partOfSpeech: adjective
+    example: 'Meine Schwester ist noch klein.'
+    exampleTranslation: 'My sister is still small.'
+grammar: []
+culturalNotes: 'German family vocabulary is straightforward but note that nouns are always capitalised. "Familie" is feminine (die Familie).'

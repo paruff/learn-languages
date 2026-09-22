@@ -1,0 +1,41 @@
+nodeId: A1-FEEL-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-A1-FEEL-001-001
+    term: 'glücklich'
+    translation: 'happy'
+    partOfSpeech: adjective
+    example: 'Ich bin heute sehr glücklich.'
+    exampleTranslation: 'I am very happy today.'
+  - id: de-DE-A1-FEEL-001-002
+    term: 'traurig'
+    translation: 'sad'
+    partOfSpeech: adjective
+    example: 'Er ist traurig.'
+    exampleTranslation: 'He is sad.'
+  - id: de-DE-A1-FEEL-001-003
+    term: 'müde'
+    translation: 'tired'
+    partOfSpeech: adjective
+    example: 'Ich bin sehr müde.'
+    exampleTranslation: 'I am very tired.'
+  - id: de-DE-A1-FEEL-001-004
+    term: 'hungrig'
+    translation: 'hungry'
+    partOfSpeech: adjective
+    example: 'Ich bin hungrig.'
+    exampleTranslation: 'I am hungry.'
+  - id: de-DE-A1-FEEL-001-005
+    term: 'krank'
+    translation: 'sick'
+    partOfSpeech: adjective
+    example: 'Sie ist krank.'
+    exampleTranslation: 'She is sick.'
+  - id: de-DE-A1-FEEL-001-006
+    term: 'gut'
+    translation: 'good / well'
+    partOfSpeech: adjective
+    example: 'Mir geht es gut.'
+    exampleTranslation: 'I am doing well.'
+grammar: []
+culturalNotes: 'In German, you say "Ich bin hungrig" (I am hungry) rather than "I have hunger" — the adjective form is used directly with "sein" (to be).'

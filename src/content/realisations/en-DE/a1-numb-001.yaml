@@ -1,0 +1,47 @@
+nodeId: A1-NUMB-001
+lang: en-DE
+vocabulary:
+  - id: en-DE-A1-NUMB-001-001
+    term: 'One'
+    translation: 'Eins'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'I have one brother.'
+    exampleTranslation: 'Ich habe einen Bruder.'
+  - id: en-DE-A1-NUMB-001-002
+    term: 'Two'
+    translation: 'Zwei'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'There are two cats.'
+    exampleTranslation: 'Da sind zwei Katzen.'
+  - id: en-DE-A1-NUMB-001-003
+    term: 'Three'
+    translation: 'Drei'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'I would like three coffees.'
+    exampleTranslation: 'Ich möchte drei Kaffee.'
+  - id: en-DE-A1-NUMB-001-004
+    term: 'Ten'
+    translation: 'Zehn'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'The meeting is at ten.'
+    exampleTranslation: 'Das Meeting ist um zehn.'
+  - id: en-DE-A1-NUMB-001-005
+    term: 'Twenty'
+    translation: 'Zwanzig'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'I am twenty years old.'
+    exampleTranslation: 'Ich bin zwanzig Jahre alt.'
+  - id: en-DE-A1-NUMB-001-006
+    term: 'Hundred'
+    translation: 'Hundert'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'The book costs one hundred euros.'
+    exampleTranslation: 'Das Buch kostet hundert Euro.'
+grammar: []
+culturalNotes: 'German numbers follow a logical pattern: 21 = "einundzwanzig" (one-and-twenty), with the units before the tens. This reverses the English order.'

@@ -1,0 +1,42 @@
+nodeId: A1-OFFER-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-A1-OFFER-001-001
+    term: 'Möchten Sie...?'
+    translation: 'Would you like...?'
+    partOfSpeech: phrase
+    example: 'Möchten Sie einen Kaffee?'
+    exampleTranslation: 'Would you like a coffee?'
+  - id: de-DE-A1-OFFER-001-002
+    term: 'Sollen wir...?'
+    translation: 'Shall we...?'
+    partOfSpeech: phrase
+    example: 'Sollen wir ins Kino gehen?'
+    exampleTranslation: 'Shall we go to the cinema?'
+  - id: de-DE-A1-OFFER-001-003
+    term: 'Willst du...?'
+    translation: 'Do you want...?'
+    partOfSpeech: phrase
+    example: 'Willst du mitkommen?'
+    exampleTranslation: 'Do you want to come along?'
+  - id: de-DE-A1-OFFER-001-004
+    term: 'Einladung'
+    translation: 'invitation'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Vielen Dank für die Einladung.'
+    exampleTranslation: 'Thank you very much for the invitation.'
+  - id: de-DE-A1-OFFER-001-005
+    term: 'anbieten'
+    translation: 'to offer'
+    partOfSpeech: verb
+    example: 'Kann ich Ihnen etwas anbieten?'
+    exampleTranslation: 'Can I offer you something?'
+  - id: de-DE-A1-OFFER-001-006
+    term: 'gerne'
+    translation: 'gladly / with pleasure'
+    partOfSpeech: adverb
+    example: 'Ja, gerne!'
+    exampleTranslation: 'Yes, with pleasure!'
+grammar: []
+culturalNotes: '"Möchten Sie" is the polite form; "Willst du" is informal. Germans distinguish clearly between "Sie" (formal you) and "du" (informal you).'
