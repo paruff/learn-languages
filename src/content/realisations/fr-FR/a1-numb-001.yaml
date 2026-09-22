@@ -1,0 +1,28 @@
+nodeId: A1-NUMB-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A1-NUMB-001-001
+    term: 'Un'
+    translation: 'One'
+    partOfSpeech: adjective
+    example: "J'ai un frère."
+    exampleTranslation: 'I have one brother.'
+    imageUrl: 'um.webp'
+    imageAlt: 'A large red number 1 shaped as a birthday candle'
+  - id: fr-FR-A1-NUMB-001-002
+    term: 'Deux'
+    translation: 'Two'
+    partOfSpeech: adjective
+    example: 'Je voudrais deux cafés.'
+    exampleTranslation: 'I want two coffees.'
+    imageUrl: 'dois.webp'
+    imageAlt: 'A large red number 2 shaped as a birthday candle'
+  - id: fr-FR-A1-NUMB-001-003
+    term: 'Trois'
+    translation: 'Three'
+    partOfSpeech: adjective
+    example: 'Elle a trois enfants.'
+    exampleTranslation: 'She has three children.'
+    imageUrl: 'tres.webp'
+    imageAlt: 'A large red number 3 shaped as a birthday candle'
+grammar: []

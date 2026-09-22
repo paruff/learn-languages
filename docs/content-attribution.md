@@ -31,11 +31,12 @@ Before referencing a new image from `imageUrl`, verify it's **pedagogically clea
 
 **National-language-institute CEFR inventories only** — freely published curriculum documents from the relevant country's official language-promotion body:
 
-| Language | Source                                                                                                                           | Status                                            |
-| -------- | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
-| pt-PT    | Referencial Camões PLE (Instituto Camões)                                                                                        | Verified, documented in `docs/cefr-mapping.md`    |
-| es-ES    | Plan Curricular del Instituto Cervantes (PCIC)                                                                                   | Verified, documented in `docs/es-cefr-mapping.md` |
-| de-DE    | Goethe-Institut Prüfungsziele · Testbeschreibung documents (NOT "Profile Deutsch" — that's a paywalled Langenscheidt/Klett book) | Verified, documented in `docs/de-cefr-mapping.md` |
+| Language | Source                                                                                                                                                         | Status                                            |
+| -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
+| pt-PT    | Referencial Camões PLE (Instituto Camões)                                                                                                                      | Verified, documented in `docs/cefr-mapping.md`    |
+| es-ES    | Plan Curricular del Instituto Cervantes (PCIC)                                                                                                                 | Verified, documented in `docs/es-cefr-mapping.md` |
+| de-DE    | Goethe-Institut Prüfungsziele · Testbeschreibung documents (NOT "Profile Deutsch" — that's a paywalled Langenscheidt/Klett book)                               | Verified, documented in `docs/de-cefr-mapping.md` |
+| fr-FR    | CEFR descriptor grid republished by Bureau DELF-DALF / France Éducation international (NOT "Un référentiel pour le français" — not confirmed freely available) | Verified, documented in `docs/fr-cefr-mapping.md` |
 
 **Not** acceptable: textbook content, scraped course-platform text, or any copyrighted teaching material. A commercial course's module _titles_ may be cited for cross-checking topic coverage (as already done for AIMA), but never its written content.
 

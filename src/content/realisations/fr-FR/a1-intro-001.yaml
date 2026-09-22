@@ -1,0 +1,22 @@
+nodeId: A1-INTRO-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A1-INTRO-001-001
+    term: "Je m'appelle"
+    translation: 'My name is'
+    partOfSpeech: phrase
+    example: "Je m'appelle Marie."
+    exampleTranslation: 'My name is Marie.'
+  - id: fr-FR-A1-INTRO-001-002
+    term: 'Enchanté'
+    translation: 'Nice to meet you'
+    partOfSpeech: interjection
+    example: 'Enchanté de faire votre connaissance.'
+    exampleTranslation: 'Nice to meet you (literally: enchanted to make your acquaintance).'
+grammar:
+  - id: fr-FR-A1-INTRO-001-G1
+    point: 'Formal vs. informal address (tu/vous)'
+    explanation: "French distinguishes informal 'tu' from formal 'vous'. Use 'vous' with strangers, elders, and professional contexts."
+    examples:
+      - "Comment tu t'appelles ? (informal)"
+      - 'Comment vous appelez-vous ? (formal)'

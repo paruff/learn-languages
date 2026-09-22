@@ -1,0 +1,16 @@
+nodeId: A1-GREET-002
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A1-GREET-002-001
+    term: 'Au revoir'
+    translation: 'Goodbye'
+    partOfSpeech: interjection
+    example: 'Au revoir, à demain !'
+    exampleTranslation: 'Goodbye, see you tomorrow!'
+  - id: fr-FR-A1-GREET-002-002
+    term: 'À plus tard'
+    translation: 'See you later'
+    partOfSpeech: phrase
+    example: 'À plus tard, bon après-midi !'
+    exampleTranslation: 'See you later, have a good afternoon!'
+grammar: []
