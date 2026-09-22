@@ -63,6 +63,40 @@ export function computeCefrProgress(items: TrackedItem[]): {
   };
 }
 
+export interface NodeProgress {
+  nodeId: string;
+  totalItems: number;
+  masteredItems: number;
+  percent: number;
+}
+
+/**
+ * Aggregates per-item SRS state into per-lesson (nodeId) mastery (#37) — the
+ * same MASTERED_REPETITIONS threshold as computeCefrProgress, so a lesson
+ * card's "x/y mastered" agrees with the CEFR-level dashboard for the same
+ * items, just grouped by nodeId instead of cefrLevel.
+ */
+export function computeNodeProgress(items: TrackedItem[]): Map<string, NodeProgress> {
+  const byNode = new Map<string, TrackedItem[]>();
+  for (const item of items) {
+    const bucket = byNode.get(item.nodeId) ?? [];
+    bucket.push(item);
+    byNode.set(item.nodeId, bucket);
+  }
+
+  const result = new Map<string, NodeProgress>();
+  for (const [nodeId, bucket] of byNode) {
+    const masteredItems = bucket.filter((i) => i.repetitions >= MASTERED_REPETITIONS).length;
+    result.set(nodeId, {
+      nodeId,
+      totalItems: bucket.length,
+      masteredItems,
+      percent: Math.round((masteredItems / bucket.length) * 100),
+    });
+  }
+  return result;
+}
+
 /**
  * Aggregate mastery across all levels combined, independent of cefrLevel/canDo
  * (spec §1.1 desirable-difficulties calibration) — lets the review session
