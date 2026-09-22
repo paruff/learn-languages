@@ -4,6 +4,7 @@ import { getCollection } from 'astro:content';
 import { withBase } from '../../../../lib/urls';
 import { getAvailablePairs, loadPair } from '../../../../lib/pairLoader';
 import { languageName } from '../../../../lib/languageNames';
+import { getSkillIcon } from '../../../../lib/skillIcon';
 
 export async function getStaticPaths() {
   const pairs = await getAvailablePairs();
@@ -81,7 +82,18 @@ const targetName = languageName(targetLang);
                 class="card lesson-index__item"
                 href={withBase(`/${sourceLang}/${targetLang}/lessons/${node.nodeId}/`)}
               >
+                <svg
+                  class="lesson-index__skill-icon"
+                  viewBox={getSkillIcon(node.skill).viewBox}
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d={getSkillIcon(node.skill).path} />
+                </svg>
                 <span class="lesson-index__can-do">{node.canDo}</span>
+                <span class="lesson-index__skill-label">{node.skill.replace('_', ' ')}</span>
                 <span class="lesson-index__progress" data-node-id={node.nodeId} hidden />
               </a>
             </li>
@@ -153,6 +165,17 @@ const targetName = languageName(targetLang);
   }
   .lesson-index__can-do {
     font-weight: 500;
+    flex: 1;
+  }
+  .lesson-index__skill-icon {
+    flex-shrink: 0;
+    color: var(--color-text-muted);
+  }
+  .lesson-index__skill-label {
+    flex-shrink: 0;
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+    text-transform: capitalize;
   }
   .lesson-index__progress {
     flex-shrink: 0;
