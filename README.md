@@ -12,16 +12,16 @@
 
 ### Key Features
 
-| Feature | Description |
-|---------|-------------|
-| **CEFR-Aligned Content** | Abstract, language-agnostic Can-Do nodes mapped to per-language realisations (vocabulary, grammar, cultural notes) |
-| **Any Language Pair** | en-GB, pt-PT, es-ES, de-DE, fr-FR all work as source *or* target — routes and the language-pair selector are derived from content, not hardcoded |
-| **Spaced Repetition** | SM-2 algorithm with 4-grade recall (Again/Hard/Good/Easy), offline in `localStorage`, scoped per pair *and* direction |
-| **Evidence-Based Review** | Interleaved due-card queue, opt-in typed-recall (generation effect), calibration feedback on over-confident grading |
-| **Transparent Progress** | Per-skill Can-Do mastery dashboard; exportable, verifiable |
-| **Native Pronunciation** | Web Speech API, exact-locale voice selection (e.g. `pt-PT` not `pt-BR`, `es-ES` not `es-MX`) |
-| **Privacy by Default** | Zero PII, no cookies, no third-party trackers, `localStorage` only |
-| **Static Deployment** | GitHub Pages via GitOps; instant loads, global CDN, zero cost |
+| Feature                   | Description                                                                                                                                      |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **CEFR-Aligned Content**  | Abstract, language-agnostic Can-Do nodes mapped to per-language realisations (vocabulary, grammar, cultural notes)                               |
+| **Any Language Pair**     | en-GB, pt-PT, es-ES, de-DE, fr-FR all work as source _or_ target — routes and the language-pair selector are derived from content, not hardcoded |
+| **Spaced Repetition**     | SM-2 algorithm with 4-grade recall (Again/Hard/Good/Easy), offline in `localStorage`, scoped per pair _and_ direction                            |
+| **Evidence-Based Review** | Interleaved due-card queue, opt-in typed-recall (generation effect), calibration feedback on over-confident grading                              |
+| **Transparent Progress**  | Per-skill Can-Do mastery dashboard; exportable, verifiable                                                                                       |
+| **Native Pronunciation**  | Web Speech API, exact-locale voice selection (e.g. `pt-PT` not `pt-BR`, `es-ES` not `es-MX`)                                                     |
+| **Privacy by Default**    | Zero PII, no cookies, no third-party trackers, `localStorage` only                                                                               |
+| **Static Deployment**     | GitHub Pages via GitOps; instant loads, global CDN, zero cost                                                                                    |
 
 ---
 
@@ -58,14 +58,14 @@ npm run typecheck && npm run lint && npm run test:unit && npm run build
 
 ### Tech Stack
 
-| Layer | Technology |
-|-------|------------|
-| SSG | Astro 5.x |
-| Interactive Islands | Vue 3.5 |
-| Schema Validation | Zod 3.x |
-| SRS Algorithm | SM-2 (custom, pure TS) |
-| Testing | Vitest + Playwright |
-| Deployment | GitHub Actions → GitHub Pages |
+| Layer               | Technology                    |
+| ------------------- | ----------------------------- |
+| SSG                 | Astro 5.x                     |
+| Interactive Islands | Vue 3.5                       |
+| Schema Validation   | Zod 3.x                       |
+| SRS Algorithm       | SM-2 (custom, pure TS)        |
+| Testing             | Vitest + Playwright           |
+| Deployment          | GitHub Actions → GitHub Pages |
 
 ---
 
@@ -77,10 +77,10 @@ The platform uses a **two-tier content architecture** that separates pedagogical
 CEFR Node (language-agnostic)  ──►  Realisation (language-specific)
 ```
 
-| Tier | Purpose | Example |
-|------|---------|---------|
-| **CEFR Node** | Abstract Can-Do statement | "Can greet people and respond to greetings" (A1-GREET-001) |
-| **Realisation** | PT-PT vocabulary + grammar | "Olá", "Bom dia", "Boa tarde" with examples |
+| Tier            | Purpose                    | Example                                                    |
+| --------------- | -------------------------- | ---------------------------------------------------------- |
+| **CEFR Node**   | Abstract Can-Do statement  | "Can greet people and respond to greetings" (A1-GREET-001) |
+| **Realisation** | PT-PT vocabulary + grammar | "Olá", "Bom dia", "Boa tarde" with examples                |
 
 This enables future language pairs (EN→ES, FR→PT, etc.) without duplicating curriculum structure.
 
@@ -121,6 +121,7 @@ learn-languages/
 ## Development
 
 ### Prerequisites
+
 - Node.js ≥20.18.0
 - pnpm (recommended) or npm
 
@@ -145,10 +146,10 @@ npx lefthook install
 
 ### Git Hooks (Lefthook)
 
-| Hook | Trigger | Runs |
-|------|---------|------|
+| Hook         | Trigger      | Runs                                           |
+| ------------ | ------------ | ---------------------------------------------- |
 | `pre-commit` | Staged files | `lint-staged` (format + lint) + `tsc --noEmit` |
-| `pre-push` | All files | `validate:content` + `test:unit` + `test:e2e` |
+| `pre-push`   | All files    | `validate:content` + `test:unit` + `test:e2e`  |
 
 ---
 
@@ -162,10 +163,10 @@ npx lefthook install
 
 ### Environments
 
-| Environment | URL | Trigger |
-|-------------|-----|---------|
-| Production | `https://paruff.github.io/learn-languages/` | Push to `main` |
-| Preview | PR-specific (Cloudflare Pages optional) | Open PR |
+| Environment | URL                                         | Trigger        |
+| ----------- | ------------------------------------------- | -------------- |
+| Production  | `https://paruff.github.io/learn-languages/` | Push to `main` |
+| Preview     | PR-specific (Cloudflare Pages optional)     | Open PR        |
 
 ---
 
@@ -181,12 +182,12 @@ npx lefthook install
 [footer]
 ```
 
-| Type | Version Bump |
-|------|--------------|
-| `feat` | MINOR |
-| `fix` | PATCH |
-| `content` | PATCH (no schema change) |
-| `refactor!` / `feat!` | MAJOR |
+| Type                  | Version Bump             |
+| --------------------- | ------------------------ |
+| `feat`                | MINOR                    |
+| `fix`                 | PATCH                    |
+| `content`             | PATCH (no schema change) |
+| `refactor!` / `feat!` | MAJOR                    |
 
 ### SemVer 2.0
 
@@ -198,12 +199,12 @@ npx lefthook install
 
 ## Documentation
 
-| Document | Purpose |
-|----------|---------|
-| `discovery-brief.md` | Problem, JTBD, personas, acceptance criteria |
+| Document                  | Purpose                                                |
+| ------------------------- | ------------------------------------------------------ |
+| `discovery-brief.md`      | Problem, JTBD, personas, acceptance criteria           |
 | `specification-design.md` | Architecture, data model, SRS, UI, testing, deployment |
-| `AGENTS.md` | Agent governance, GitOps, conventions |
-| `CHANGELOG.md` | Keep a Changelog format |
+| `AGENTS.md`               | Agent governance, GitOps, conventions                  |
+| `CHANGELOG.md`            | Keep a Changelog format                                |
 
 ---
 

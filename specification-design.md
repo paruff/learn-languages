@@ -46,36 +46,36 @@ The system is built on **Astro** (static site generation with islands architectu
 
 ### 2.1 Goals
 
-| ID | Goal | Rationale |
-|---|---|---|
-| G1 | Deliver CEFR-aligned A1 content for EN→PT | Addresses the primary learning gap identified in discovery |
-| G2 | Implement SM-2 spaced repetition with offline-capable persistence | Respects fragmented-time learner constraints |
-| G3 | Provide a transparent CEFR Can-Do progress dashboard | Serves the Credential-Seeker persona |
-| G4 | Establish an abstract content model that scales to multiple language pairs | Architectural investment for future phases |
-| G5 | Deploy as a static site with zero backend infrastructure | Minimises operational cost and complexity |
+| ID  | Goal                                                                       | Rationale                                                  |
+| --- | -------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| G1  | Deliver CEFR-aligned A1 content for EN→PT                                  | Addresses the primary learning gap identified in discovery |
+| G2  | Implement SM-2 spaced repetition with offline-capable persistence          | Respects fragmented-time learner constraints               |
+| G3  | Provide a transparent CEFR Can-Do progress dashboard                       | Serves the Credential-Seeker persona                       |
+| G4  | Establish an abstract content model that scales to multiple language pairs | Architectural investment for future phases                 |
+| G5  | Deploy as a static site with zero backend infrastructure                   | Minimises operational cost and complexity                  |
 
 ### 2.2 Non-Goals (MVP)
 
-| ID | Non-Goal | Deferred To |
-|---|---|---|
-| NG1 | User accounts, cloud sync, multi-device state | Phase 2+ |
-| NG2 | Content beyond CEFR A1 | Phase 2+ |
-| NG3 | Language pairs beyond EN→PT | Phase 2+ |
-| NG4 | Formal CEFR certification or assessment | Not planned |
-| NG5 | Native mobile application | Not planned |
-| NG6 | Synchronous tutoring or live sessions | Not planned |
-| NG7 | AI-generated content without human review | Not planned |
+| ID  | Non-Goal                                      | Deferred To |
+| --- | --------------------------------------------- | ----------- |
+| NG1 | User accounts, cloud sync, multi-device state | Phase 2+    |
+| NG2 | Content beyond CEFR A1                        | Phase 2+    |
+| NG3 | Language pairs beyond EN→PT                   | Phase 2+    |
+| NG4 | Formal CEFR certification or assessment       | Not planned |
+| NG5 | Native mobile application                     | Not planned |
+| NG6 | Synchronous tutoring or live sessions         | Not planned |
+| NG7 | AI-generated content without human review     | Not planned |
 
 ### 2.3 Success Criteria
 
-| Metric | Baseline | Target (3 months post-launch) | Measurement |
-|---|---|---|---|
-| Weekly Active Learners | 0 | 50 | Privacy-respecting analytics |
-| A1 vocab with SRS interval >21 days | 0 | 60% | localStorage aggregation (opt-in, anonymised) |
-| Can-Do statements with >50% mastery | 0 | 10 A1 statements | Dashboard analytics |
-| Week-2 return rate | — | 40% | Session tracking |
-| Lighthouse Performance score | — | ≥95 | CI Lighthouse audit |
-| First Contentful Paint (mobile) | — | <1.2s | Field data |
+| Metric                              | Baseline | Target (3 months post-launch) | Measurement                                   |
+| ----------------------------------- | -------- | ----------------------------- | --------------------------------------------- |
+| Weekly Active Learners              | 0        | 50                            | Privacy-respecting analytics                  |
+| A1 vocab with SRS interval >21 days | 0        | 60%                           | localStorage aggregation (opt-in, anonymised) |
+| Can-Do statements with >50% mastery | 0        | 10 A1 statements              | Dashboard analytics                           |
+| Week-2 return rate                  | —        | 40%                           | Session tracking                              |
+| Lighthouse Performance score        | —        | ≥95                           | CI Lighthouse audit                           |
+| First Contentful Paint (mobile)     | —        | <1.2s                         | Field data                                    |
 
 ---
 
@@ -126,17 +126,17 @@ The system is built on **Astro** (static site generation with islands architectu
 
 ### 3.3 Technology Stack
 
-| Layer | Technology | Version | Rationale |
-|---|---|---|---|
-| SSG | Astro | 5.x | Islands, i18n, content collections |
-| Interactive islands | Vue 3 | 3.5.x | Component model, founder familiarity |
-| Build tool | Vite | 6.x | Fast HMR, Astro default |
-| Schema validation | Zod | 3.x | Type-safe content validation |
-| SRS algorithm | SM-2 (custom) | — | Proven, simple, no dependency |
-| Testing | Vitest + Playwright | Latest | Unit + E2E |
-| Linting | ESLint + Prettier | Latest | Consistency |
-| Deployment | GitHub Actions + Pages | — | Zero-cost, native |
-| Analytics | Plausible (self-hosted) or Umami | — | Privacy-respecting |
+| Layer               | Technology                       | Version | Rationale                            |
+| ------------------- | -------------------------------- | ------- | ------------------------------------ |
+| SSG                 | Astro                            | 5.x     | Islands, i18n, content collections   |
+| Interactive islands | Vue 3                            | 3.5.x   | Component model, founder familiarity |
+| Build tool          | Vite                             | 6.x     | Fast HMR, Astro default              |
+| Schema validation   | Zod                              | 3.x     | Type-safe content validation         |
+| SRS algorithm       | SM-2 (custom)                    | —       | Proven, simple, no dependency        |
+| Testing             | Vitest + Playwright              | Latest  | Unit + E2E                           |
+| Linting             | ESLint + Prettier                | Latest  | Consistency                          |
+| Deployment          | GitHub Actions + Pages           | —       | Zero-cost, native                    |
+| Analytics           | Plausible (self-hosted) or Umami | —       | Privacy-respecting                   |
 
 ### 3.4 Directory Structure
 
@@ -211,14 +211,14 @@ plp/
 
 ### 4.1 Core Entities
 
-| Entity | Purpose | Storage |
-|---|---|---|
-| **CEFR Node** | Abstract, language-independent learning objective | Build-time: YAML in `content/cefr-nodes/` |
-| **Realisation** | Language-specific expression of a node | Build-time: YAML in `content/realisations/{lang}/` |
-| **Vocabulary Item** | A term within a realisation | Nested in Realisation |
-| **SRS Card State** | Per-item scheduling state for a learner | Runtime: `localStorage` |
-| **Learner Preferences** | Language pair, review direction, TTS voice | Runtime: `localStorage` |
-| **Progress Snapshot** | Derived aggregation of SRS states by CEFR level | Runtime: computed, cached in `localStorage` |
+| Entity                  | Purpose                                           | Storage                                            |
+| ----------------------- | ------------------------------------------------- | -------------------------------------------------- |
+| **CEFR Node**           | Abstract, language-independent learning objective | Build-time: YAML in `content/cefr-nodes/`          |
+| **Realisation**         | Language-specific expression of a node            | Build-time: YAML in `content/realisations/{lang}/` |
+| **Vocabulary Item**     | A term within a realisation                       | Nested in Realisation                              |
+| **SRS Card State**      | Per-item scheduling state for a learner           | Runtime: `localStorage`                            |
+| **Learner Preferences** | Language pair, review direction, TTS voice        | Runtime: `localStorage`                            |
+| **Progress Snapshot**   | Derived aggregation of SRS states by CEFR level   | Runtime: computed, cached in `localStorage`        |
 
 ### 4.2 Entity Relationships
 
@@ -255,13 +255,7 @@ import { defineCollection, z } from 'astro:content';
 const cefrNodeSchema = z.object({
   nodeId: z.string().regex(/^(A1|A2|B1|B2|C1|C2)-[A-Z]+-\d{3}$/),
   cefrLevel: z.enum(['A1', 'A2', 'B1', 'B2', 'C1', 'C2']),
-  skill: z.enum([
-    'listening',
-    'reading',
-    'spoken_interaction',
-    'spoken_production',
-    'writing',
-  ]),
+  skill: z.enum(['listening', 'reading', 'spoken_interaction', 'spoken_production', 'writing']),
   canDo: z.string().min(10).max(200),
   pragmaticFocus: z.string().optional(),
   notionalFocus: z.string().optional(),
@@ -290,8 +284,15 @@ const vocabularyItemSchema = z.object({
   term: z.string().min(1),
   translation: z.string().min(1),
   partOfSpeech: z.enum([
-    'noun', 'verb', 'adjective', 'adverb', 'pronoun',
-    'preposition', 'conjunction', 'interjection', 'phrase',
+    'noun',
+    'verb',
+    'adjective',
+    'adverb',
+    'pronoun',
+    'preposition',
+    'conjunction',
+    'interjection',
+    'phrase',
   ]),
   gender: z.enum(['masculine', 'feminine', 'neuter', 'n/a']).default('n/a'),
   example: z.string().min(5),
@@ -329,42 +330,44 @@ const realisationSchema = z.object({
 ### 5.4 Example Content Files
 
 **`src/content/cefr-nodes/a1-greetings.yaml`:**
+
 ```yaml
 nodeId: A1-GREET-001
 cefrLevel: A1
 skill: spoken_interaction
-canDo: "Can greet people and respond to greetings"
-pragmaticFocus: "Use appropriate greeting for time of day and formality"
-notionalFocus: "Time of day, formality register"
+canDo: 'Can greet people and respond to greetings'
+pragmaticFocus: 'Use appropriate greeting for time of day and formality'
+notionalFocus: 'Time of day, formality register'
 relatedNodes: [A1-GREET-002, A1-INTRO-001]
 prerequisiteNodes: []
 ```
 
 **`src/content/realisations/pt-PT/a1-greetings.yaml`:**
+
 ```yaml
 nodeId: A1-GREET-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-A1-GREET-001-001
-    term: "Olá"
-    translation: "Hello"
+    term: 'Olá'
+    translation: 'Hello'
     partOfSpeech: interjection
-    example: "Olá, como estás?"
-    exampleTranslation: "Hello, how are you?"
+    example: 'Olá, como estás?'
+    exampleTranslation: 'Hello, how are you?'
   - id: pt-PT-A1-GREET-001-002
-    term: "Bom dia"
-    translation: "Good morning"
+    term: 'Bom dia'
+    translation: 'Good morning'
     partOfSpeech: phrase
-    example: "Bom dia, senhor Silva."
-    exampleTranslation: "Good morning, Mr. Silva."
+    example: 'Bom dia, senhor Silva.'
+    exampleTranslation: 'Good morning, Mr. Silva.'
 grammar:
   - id: pt-PT-A1-GREET-001-G1
-    point: "Formal vs. informal address (tu/você)"
+    point: 'Formal vs. informal address (tu/você)'
     explanation: "European Portuguese distinguishes informal 'tu' from formal 'você'. Use 'você' with strangers, elders, and professional contexts."
     examples:
-      - "Como estás? (informal)"
-      - "Como está? (formal)"
-culturalNotes: "Handshakes are standard in formal greetings; cheek kisses (one or two) are common among friends."
+      - 'Como estás? (informal)'
+      - 'Como está? (formal)'
+culturalNotes: 'Handshakes are standard in formal greetings; cheek kisses (one or two) are common among friends.'
 ```
 
 ### 5.5 Content Authoring Workflow
@@ -389,15 +392,15 @@ The SM-2 algorithm is specified in detail below. It is implemented as a pure fun
 
 ```typescript
 interface SRSCardState {
-  reps: number;           // consecutive successful reviews
-  interval: number;       // days until next review
-  ef: number;             // ease factor (min 1.3)
-  due: number;            // epoch ms
+  reps: number; // consecutive successful reviews
+  interval: number; // days until next review
+  ef: number; // ease factor (min 1.3)
+  due: number; // epoch ms
   lastReviewed: number | null;
-  lapses: number;         // times forgotten
+  lapses: number; // times forgotten
 }
 
-type Quality = 1 | 2 | 3 | 4;  // Again | Hard | Good | Easy
+type Quality = 1 | 2 | 3 | 4; // Again | Hard | Good | Easy
 ```
 
 ### 6.3 Scheduling Logic
@@ -442,6 +445,7 @@ export function schedule(state: SRSCardState, quality: Quality, now = Date.now()
 ```
 srs:{sourceLang}:{targetLang}:{direction}:{itemId}
 ```
+
 Where `direction` is `forward` (source→target) or `reverse` (target→source).
 
 Example: `srs:en-GB:pt-PT:forward:pt-PT-A1-GREET-001-001`
@@ -502,8 +506,8 @@ export async function getStaticPaths() {
   const pairs = await getValidLanguagePairs(); // computed from realisations
   return pairs.flatMap(({ source, target }) =>
     nodes
-      .filter(n => hasRealisations(n.nodeId, source, target))
-      .map(node => ({
+      .filter((n) => hasRealisations(n.nodeId, source, target))
+      .map((node) => ({
         params: { sourceLang: source, targetLang: target, nodeId: node.data.nodeId },
         props: { node, source, target },
       }))
@@ -514,6 +518,7 @@ export async function getStaticPaths() {
 ### 7.4 Client-Side State Management
 
 No global state library is required. State is managed through:
+
 - **Astro props** for build-time data.
 - **Vue `ref`/`reactive`** within islands.
 - **Custom events** (`window.dispatchEvent`) for cross-island communication (e.g., language pair change).
@@ -577,13 +582,13 @@ export function on(event: string, handler: (e: CustomEvent) => void) {
 
 ### 8.3 Component Contracts
 
-| Component | Type | Hydration | Props |
-|---|---|---|---|
-| `LanguagePairSelector` | Astro + vanilla JS | `client:load` | `pairs: LanguagePair[]`, `current: LanguagePair` |
-| `PronunciationButton` | Astro + vanilla JS | `client:idle` | `term: string`, `lang: string` |
-| `FlashcardReview` | Vue | `client:load` | `sourceLang`, `targetLang`, `items: VocabularyItem[]` |
-| `ProgressDashboard` | Vue | `client:visible` | `sourceLang`, `targetLang`, `nodes: CEFRNode[]` |
-| `CanDoChecklist` | Vue | `client:visible` | `nodes: CEFRNode[]`, `progress: ProgressMap` |
+| Component              | Type               | Hydration        | Props                                                 |
+| ---------------------- | ------------------ | ---------------- | ----------------------------------------------------- |
+| `LanguagePairSelector` | Astro + vanilla JS | `client:load`    | `pairs: LanguagePair[]`, `current: LanguagePair`      |
+| `PronunciationButton`  | Astro + vanilla JS | `client:idle`    | `term: string`, `lang: string`                        |
+| `FlashcardReview`      | Vue                | `client:load`    | `sourceLang`, `targetLang`, `items: VocabularyItem[]` |
+| `ProgressDashboard`    | Vue                | `client:visible` | `sourceLang`, `targetLang`, `nodes: CEFRNode[]`       |
+| `CanDoChecklist`       | Vue                | `client:visible` | `nodes: CEFRNode[]`, `progress: ProgressMap`          |
 
 ### 8.4 Visual Design Tokens
 
@@ -594,7 +599,7 @@ export function on(event: string, handler: (e: CustomEvent) => void) {
   --color-surface: #ffffff;
   --color-text: #1a1a1a;
   --color-text-muted: #5a5a5a;
-  --color-accent: #006b5e;      /* Portuguese green */
+  --color-accent: #006b5e; /* Portuguese green */
   --color-accent-hover: #005247;
   --color-success: #2e7d32;
   --color-warning: #ed6c02;
@@ -603,7 +608,7 @@ export function on(event: string, handler: (e: CustomEvent) => void) {
   /* Typography */
   --font-body: 'Inter', system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
-  --font-size-base: 1rem;        /* 16px */
+  --font-size-base: 1rem; /* 16px */
   --line-height-base: 1.6;
 
   /* Spacing (8px scale) */
@@ -634,11 +639,11 @@ export function on(event: string, handler: (e: CustomEvent) => void) {
 
 ### 8.5 Responsive Breakpoints
 
-| Breakpoint | Width | Layout |
-|---|---|---|
-| Mobile | <640px | Single column, stacked nav |
-| Tablet | 640–1024px | Single column, wider margins |
-| Desktop | >1024px | Two-column lesson layout (content + sidebar) |
+| Breakpoint | Width      | Layout                                       |
+| ---------- | ---------- | -------------------------------------------- |
+| Mobile     | <640px     | Single column, stacked nav                   |
+| Tablet     | 640–1024px | Single column, wider margins                 |
+| Desktop    | >1024px    | Two-column lesson layout (content + sidebar) |
 
 ---
 
@@ -646,14 +651,14 @@ export function on(event: string, handler: (e: CustomEvent) => void) {
 
 ### 9.1 Accessibility Requirements
 
-| Requirement | Implementation |
-|---|---|
-| WCAG 2.1 AA contrast | All text ≥4.5:1; large text ≥3:1 |
-| Keyboard navigation | All interactive elements reachable via Tab; visible focus rings |
+| Requirement           | Implementation                                                              |
+| --------------------- | --------------------------------------------------------------------------- |
+| WCAG 2.1 AA contrast  | All text ≥4.5:1; large text ≥3:1                                            |
+| Keyboard navigation   | All interactive elements reachable via Tab; visible focus rings             |
 | Screen reader support | Semantic HTML, ARIA labels on icon buttons, live regions for grade feedback |
-| Reduced motion | Respect `prefers-reduced-motion`; disable card flip animations |
-| Text scaling | Layout remains functional at 200% zoom |
-| Pronunciation access | Text alternatives for audio; TTS as an accessible fallback |
+| Reduced motion        | Respect `prefers-reduced-motion`; disable card flip animations              |
+| Text scaling          | Layout remains functional at 200% zoom                                      |
+| Pronunciation access  | Text alternatives for audio; TTS as an accessible fallback                  |
 
 ### 9.2 Internationalisation (i18n)
 
@@ -672,7 +677,7 @@ export function pronounce(term: string, lang: string): void {
   utterance.lang = lang; // e.g., 'pt-PT'
   utterance.rate = 0.9;
   const voices = speechSynthesis.getVoices();
-  const preferred = voices.find(v => v.lang === lang);
+  const preferred = voices.find((v) => v.lang === lang);
   if (preferred) utterance.voice = preferred;
   speechSynthesis.speak(utterance);
 }
@@ -682,16 +687,16 @@ export function pronounce(term: string, lang: string): void {
 
 ## 10. Performance Budgets
 
-| Metric | Budget | Enforcement |
-|---|---|---|
-| Initial HTML (per page) | <30 KB (gzipped) | CI bundle analysis |
-| Total JS (per page) | <50 KB (gzipped) | CI bundle analysis |
-| Total CSS | <20 KB (gzipped) | CI bundle analysis |
-| Lighthouse Performance | ≥95 | Lighthouse CI |
-| Lighthouse Accessibility | 100 | Lighthouse CI |
-| First Contentful Paint (mobile, 4G) | <1.2s | Field data |
-| Time to Interactive (review page) | <2.0s | Field data |
-| Cumulative Layout Shift | <0.1 | Lighthouse CI |
+| Metric                              | Budget           | Enforcement        |
+| ----------------------------------- | ---------------- | ------------------ |
+| Initial HTML (per page)             | <30 KB (gzipped) | CI bundle analysis |
+| Total JS (per page)                 | <50 KB (gzipped) | CI bundle analysis |
+| Total CSS                           | <20 KB (gzipped) | CI bundle analysis |
+| Lighthouse Performance              | ≥95              | Lighthouse CI      |
+| Lighthouse Accessibility            | 100              | Lighthouse CI      |
+| First Contentful Paint (mobile, 4G) | <1.2s            | Field data         |
+| Time to Interactive (review page)   | <2.0s            | Field data         |
+| Cumulative Layout Shift             | <0.1             | Lighthouse CI      |
 
 **Strategy:** Astro's default zero-JS output plus targeted hydration (`client:visible` for below-fold islands) keeps budgets achievable.
 
@@ -701,13 +706,13 @@ export function pronounce(term: string, lang: string): void {
 
 ### 11.1 Security Posture
 
-| Concern | Mitigation |
-|---|---|
-| XSS | Astro escapes content by default; Vue escapes interpolations; no `v-html` on user content |
-| Content injection via YAML | Zod validation with strict types; no `eval` or dynamic code execution |
-| Dependency vulnerabilities | `npm audit` in CI; Dependabot enabled |
-| Supply chain | Lockfile committed; CI uses `npm ci` |
-| GitHub Actions permissions | Least-privilege `permissions:` block in workflows |
+| Concern                    | Mitigation                                                                                |
+| -------------------------- | ----------------------------------------------------------------------------------------- |
+| XSS                        | Astro escapes content by default; Vue escapes interpolations; no `v-html` on user content |
+| Content injection via YAML | Zod validation with strict types; no `eval` or dynamic code execution                     |
+| Dependency vulnerabilities | `npm audit` in CI; Dependabot enabled                                                     |
+| Supply chain               | Lockfile committed; CI uses `npm ci`                                                      |
+| GitHub Actions permissions | Least-privilege `permissions:` block in workflows                                         |
 
 ### 11.2 Privacy Posture
 
@@ -723,18 +728,19 @@ export function pronounce(term: string, lang: string): void {
 
 ### 12.1 Test Pyramid
 
-| Layer | Tool | Coverage Target | Scope |
-|---|---|---|---|
-| Unit | Vitest | ≥90% for `lib/` | SRS, storage, progress, pair loader |
-| Content validation | Custom script + Zod | 100% of content files | All YAML validates against schema |
-| Integration | Vitest + jsdom | Key flows | Pair loader + SRS + storage together |
-| E2E | Playwright | Critical paths | Review session, language switch, progress view |
-| Accessibility | axe-core via Playwright | All pages | WCAG 2.1 AA |
-| Performance | Lighthouse CI | All pages | Budgets from §10 |
+| Layer              | Tool                    | Coverage Target       | Scope                                          |
+| ------------------ | ----------------------- | --------------------- | ---------------------------------------------- |
+| Unit               | Vitest                  | ≥90% for `lib/`       | SRS, storage, progress, pair loader            |
+| Content validation | Custom script + Zod     | 100% of content files | All YAML validates against schema              |
+| Integration        | Vitest + jsdom          | Key flows             | Pair loader + SRS + storage together           |
+| E2E                | Playwright              | Critical paths        | Review session, language switch, progress view |
+| Accessibility      | axe-core via Playwright | All pages             | WCAG 2.1 AA                                    |
+| Performance        | Lighthouse CI           | All pages             | Budgets from §10                               |
 
 ### 12.2 Critical Test Cases
 
 **SRS:**
+
 - New card + Good → interval 1, reps 1
 - New card + Again → interval 1, reps 0, lapses 1
 - Mature card + Good → interval grows by EF
@@ -742,16 +748,19 @@ export function pronounce(term: string, lang: string): void {
 - Due date computed correctly
 
 **Pair Loader:**
+
 - Given EN→PT, returns correctly paired vocabulary
 - Missing realisations are handled gracefully
 - Item IDs are unique across pairs
 
 **Progress:**
+
 - Mastery threshold (interval ≥21) is respected
 - Per-level aggregation is correct
 - Empty state renders without error
 
 **E2E:**
+
 - Complete a review session; verify state persists after reload
 - Switch language pair; verify content updates
 - Trigger pronunciation; verify no console errors
@@ -817,21 +826,21 @@ jobs:
 
 ### 13.2 Environments
 
-| Environment | URL | Trigger |
-|---|---|---|
-| Production | `https://<user>.github.io/plp/` | Push to `main` |
-| Preview | PR-specific preview (optional via Cloudflare Pages) | PR opened |
-| Local | `http://localhost:4321` | `npm run dev` |
+| Environment | URL                                                 | Trigger        |
+| ----------- | --------------------------------------------------- | -------------- |
+| Production  | `https://<user>.github.io/plp/`                     | Push to `main` |
+| Preview     | PR-specific preview (optional via Cloudflare Pages) | PR opened      |
+| Local       | `http://localhost:4321`                             | `npm run dev`  |
 
 ### 13.3 Operational Concerns
 
-| Concern | Approach |
-|---|---|
-| Rollback | Revert commit; GitHub Actions redeploys previous state |
-| Content updates | PR-based; validated in CI before merge |
-| Monitoring | Plausible/Umami dashboard; Lighthouse CI trend |
-| Error tracking | Sentry (optional, client-side, privacy-configured) |
-| Uptime | GitHub Pages SLA; no additional monitoring for MVP |
+| Concern         | Approach                                               |
+| --------------- | ------------------------------------------------------ |
+| Rollback        | Revert commit; GitHub Actions redeploys previous state |
+| Content updates | PR-based; validated in CI before merge                 |
+| Monitoring      | Plausible/Umami dashboard; Lighthouse CI trend         |
+| Error tracking  | Sentry (optional, client-side, privacy-configured)     |
+| Uptime          | GitHub Pages SLA; no additional monitoring for MVP     |
 
 ---
 
@@ -839,13 +848,13 @@ jobs:
 
 ### 14.1 Risks
 
-| ID | Risk | Likelihood | Impact | Mitigation |
-|---|---|---|---|---|
-| R1 | Abstract schema cannot cleanly represent cross-linguistic grammar differences | Medium | High | Schema spike before full build; validate with ser/estar and tu/você |
-| R2 | Referencial Camões extraction is slower than estimated | High | Medium | Time-box extraction; ship A1 subset first |
-| R3 | Learners do not return after first session | Medium | High | User testing of review flow; minimise friction |
-| R4 | Content authoring does not scale beyond founder | Medium | Medium | Simple schema + CONTRIBUTING.md; validate with 1 contributor |
-| R5 | Astro i18n routing becomes complex with many language pairs | Low | Medium | Start with 1 pair; add pairs incrementally |
+| ID  | Risk                                                                          | Likelihood | Impact | Mitigation                                                          |
+| --- | ----------------------------------------------------------------------------- | ---------- | ------ | ------------------------------------------------------------------- |
+| R1  | Abstract schema cannot cleanly represent cross-linguistic grammar differences | Medium     | High   | Schema spike before full build; validate with ser/estar and tu/você |
+| R2  | Referencial Camões extraction is slower than estimated                        | High       | Medium | Time-box extraction; ship A1 subset first                           |
+| R3  | Learners do not return after first session                                    | Medium     | High   | User testing of review flow; minimise friction                      |
+| R4  | Content authoring does not scale beyond founder                               | Medium     | Medium | Simple schema + CONTRIBUTING.md; validate with 1 contributor        |
+| R5  | Astro i18n routing becomes complex with many language pairs                   | Low        | Medium | Start with 1 pair; add pairs incrementally                          |
 
 ### 14.2 Assumptions
 
@@ -856,10 +865,10 @@ jobs:
 
 ### 14.3 Dependencies
 
-| Dependency | Type | Risk if unavailable |
-|---|---|---|
-| Astro | Framework | High — architectural foundation |
-| Vue 3 | Island framework | Medium — could substitute React/Svelte |
-| Zod | Schema validation | Medium — could hand-roll validation |
-| Referencial Camões PLE | Content source | High — required for CEFR mapping |
-| GitHub Pages | Hosting | Low — could migrate
+| Dependency             | Type              | Risk if unavailable                    |
+| ---------------------- | ----------------- | -------------------------------------- |
+| Astro                  | Framework         | High — architectural foundation        |
+| Vue 3                  | Island framework  | Medium — could substitute React/Svelte |
+| Zod                    | Schema validation | Medium — could hand-roll validation    |
+| Referencial Camões PLE | Content source    | High — required for CEFR mapping       |
+| GitHub Pages           | Hosting           | Low — could migrate                    |

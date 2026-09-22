@@ -10,12 +10,12 @@
 
 - **Framework**: Astro 5.x + TypeScript, vanilla-JS islands (no framework runtime shipped to the client)
 - **Content**: Zod-validated CEFR nodes (language-agnostic Can-Do statements) + per-language realisations (YAML) — full A1–C2 coverage for pt-PT/es-ES/de-DE, a verified 5-node skeleton for fr-FR
-- **SRS**: SM-2 algorithm (pure TS, 100% test coverage), scoped per language pair *and* review direction
+- **SRS**: SM-2 algorithm (pure TS, 100% test coverage), scoped per language pair _and_ review direction
 - **Deployment**: GitHub Actions → GitHub Pages (static export)
 
 ### 1.0 Learner Experience: what actually makes this a good way to learn
 
-The product's whole reason to exist is the learning loop, not the CI pipeline — read this before touching `src/pages/[sourceLang]/[targetLang]/`. Every mechanism below is a real, shipped feature backed by retrieval-practice research (Brown, Roediger & McDaniel, *Make It Stick* — see Epic #43), not aspirational copy:
+The product's whole reason to exist is the learning loop, not the CI pipeline — read this before touching `src/pages/[sourceLang]/[targetLang]/`. Every mechanism below is a real, shipped feature backed by retrieval-practice research (Brown, Roediger & McDaniel, _Make It Stick_ — see Epic #43), not aspirational copy:
 
 - **Retrieval practice over re-reading**: the review loop always forces active recall (prompt → attempt → reveal → self-grade) before showing the answer — the book's central finding, and the platform's core loop (`review.astro`).
 - **Spaced repetition**: SM-2 (`src/utils/srs.ts`) schedules reviews at increasing intervals as recall improves, so cards resurface right when forgetting makes recall effortful (desirable difficulty), not on a fixed schedule.
@@ -59,12 +59,12 @@ graph TD
 
 ### 2.2 Required Skills by Task Type
 
-| Task Type | Required Skills (in order) |
-|-----------|---------------------------|
+| Task Type            | Required Skills (in order)                                                                                                                      |
+| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | New feature / design | `brainstorming` → `writing-plans` → `executing-plans` → `test-driven-development` → `verification-before-completion` → `requesting-code-review` |
-| Bug fix | `systematic-debugging` → `writing-plans` → `test-driven-development` → `verification-before-completion` → `requesting-code-review` |
-| Refactor | `writing-plans` → `test-driven-development` → `verification-before-completion` → `requesting-code-review` |
-| Documentation | `writing-plans` → `executing-plans` → `verification-before-completion` |
+| Bug fix              | `systematic-debugging` → `writing-plans` → `test-driven-development` → `verification-before-completion` → `requesting-code-review`              |
+| Refactor             | `writing-plans` → `test-driven-development` → `verification-before-completion` → `requesting-code-review`                                       |
+| Documentation        | `writing-plans` → `executing-plans` → `verification-before-completion`                                                                          |
 
 ### 2.3 Skill Invocation Rules
 
@@ -77,6 +77,7 @@ graph TD
 ### 2.4 Red Flags — STOP and Follow Process
 
 If you catch yourself thinking:
+
 - "This is simple, I'll just code it" → **Use `brainstorming` first**
 - "I'll test after" → **TDD is mandatory**
 - "Let me explore first" → **Skills define HOW to explore**
@@ -86,15 +87,15 @@ If you catch yourself thinking:
 
 ## 3. GitOps Principles (MANDATORY)
 
-| Principle | Enforcement |
-|-----------|-------------|
+| Principle                     | Enforcement                                                           |
+| ----------------------------- | --------------------------------------------------------------------- |
 | **Declarative desired state** | All infra/app config in Git (Astro config, workflows, content schema) |
-| **Single source of truth** | `main` branch = production state; no manual deployments |
-| **Pull-based reconciliation** | GitHub Actions watches repo; deploys on push to `main` |
-| **Immutable artifacts** | Build outputs (dist/) are ephemeral; only Git commits are permanent |
-| **Environment separation** | GitHub Pages environments: Preview (PRs) / Production (main) |
-| **Audit trail** | Every change = Git commit; CI logs = deployment evidence |
-| **Rollback = revert** | `git revert` on main triggers rollback via Actions |
+| **Single source of truth**    | `main` branch = production state; no manual deployments               |
+| **Pull-based reconciliation** | GitHub Actions watches repo; deploys on push to `main`                |
+| **Immutable artifacts**       | Build outputs (dist/) are ephemeral; only Git commits are permanent   |
+| **Environment separation**    | GitHub Pages environments: Preview (PRs) / Production (main)          |
+| **Audit trail**               | Every change = Git commit; CI logs = deployment evidence              |
+| **Rollback = revert**         | `git revert` on main triggers rollback via Actions                    |
 
 **Violations block merge.** See `.github/workflows/ci.yml`, `deploy.yml`.
 
@@ -103,6 +104,7 @@ If you catch yourself thinking:
 ## 4. Astro Conventions
 
 ### 4.1 Project Structure
+
 ```
 src/
 ├── components/          # Reusable UI components (.astro, .vue)
@@ -124,6 +126,7 @@ src/
 ```
 
 ### 4.2 Content Collections (Astro 5.x)
+
 ```typescript
 // src/content.config.ts
 import { defineCollection, z } from 'astro:content';
@@ -143,7 +146,17 @@ const vocabularyItemSchema = z.object({
   id: z.string().regex(/^[a-z]{2}(-[A-Z]{2})?-.+-\d{3}$/),
   term: z.string().min(1),
   translation: z.string().min(1),
-  partOfSpeech: z.enum(['noun', 'verb', 'adjective', 'adverb', 'pronoun', 'preposition', 'conjunction', 'interjection', 'phrase']),
+  partOfSpeech: z.enum([
+    'noun',
+    'verb',
+    'adjective',
+    'adverb',
+    'pronoun',
+    'preposition',
+    'conjunction',
+    'interjection',
+    'phrase',
+  ]),
   gender: z.enum(['masculine', 'feminine', 'neuter', 'n/a']).default('n/a'),
   example: z.string().min(5),
   exampleTranslation: z.string().min(5),
@@ -157,6 +170,7 @@ export const collections = {
 ```
 
 ### 4.3 Styling: Vanilla CSS + Design Tokens + BEM
+
 ```css
 /* src/styles/global.css */
 :root {
@@ -164,23 +178,35 @@ export const collections = {
   --color-surface: #ffffff;
   --color-text: #1a1a1a;
   --color-text-muted: #5a5a5a;
-  --color-accent: #006b5e;      /* Portuguese green */
+  --color-accent: #006b5e; /* Portuguese green */
   --color-accent-hover: #005247;
   --font-body: 'Inter', system-ui, sans-serif;
-  --space-1: 0.25rem; --space-2: 0.5rem; --space-3: 0.75rem;
-  --space-4: 1rem; --space-6: 1.5rem; --space-8: 2rem;
-  --radius-sm: 4px; --radius-md: 8px; --radius-lg: 16px;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
 }
 
 /* BEM example */
-.lesson-card { }
-.lesson-card__title { }
-.lesson-card__progress { }
-.lesson-card--mastered { }
+.lesson-card {
+}
+.lesson-card__title {
+}
+.lesson-card__progress {
+}
+.lesson-card--mastered {
+}
 ```
+
 **No CSS frameworks.** No Tailwind, no styled-components.
 
 ### 4.4 Client Hydration: Islands Only
+
 - Default: **zero-JS** static HTML
 - Interactive islands: `client:load`, `client:visible`, `client:idle`
 - FlashcardReview, ProgressDashboard = Vue islands
@@ -191,31 +217,34 @@ export const collections = {
 ## 5. CI/CD Pipeline
 
 ### 5.1 Required Stages (`.github/workflows/ci.yml`)
+
 ```yaml
 stages:
-  - lint              # ESLint + Prettier (staged files via lefthook)
-  - typecheck         # tsc --noEmit
-  - validate:content  # Zod schema validation for all content
-  - test:unit         # Vitest --run --coverage (thresholds: 90%)
-  - build             # astro build (static export to dist/)
-  - test:e2e          # Playwright critical paths
-  - lighthouse        # Lighthouse CI (perf ≥95, a11y 100)
+  - lint # ESLint + Prettier (staged files via lefthook)
+  - typecheck # tsc --noEmit
+  - validate:content # Zod schema validation for all content
+  - test:unit # Vitest --run --coverage (thresholds: 90%)
+  - build # astro build (static export to dist/)
+  - test:e2e # Playwright critical paths
+  - lighthouse # Lighthouse CI (perf ≥95, a11y 100)
 ```
 
 ### 5.2 Gates
-| Gate | Threshold |
-|------|-----------|
-| TypeScript | 0 errors |
-| Lint | 0 errors, 0 warnings |
-| Content Validation | 100% files valid |
-| Unit Coverage | ≥90% lines, branches, functions |
-| Build | Must succeed |
-| E2E | All critical paths pass |
-| Lighthouse | Perf ≥95, A11y 100 |
+
+| Gate               | Threshold                       |
+| ------------------ | ------------------------------- |
+| TypeScript         | 0 errors                        |
+| Lint               | 0 errors, 0 warnings            |
+| Content Validation | 100% files valid                |
+| Unit Coverage      | ≥90% lines, branches, functions |
+| Build              | Must succeed                    |
+| E2E                | All critical paths pass         |
+| Lighthouse         | Perf ≥95, A11y 100              |
 
 **Failed gate = pipeline stops.** No `continue-on-error`.
 
 ### 5.3 Deployment (`.github/workflows/deploy.yml`)
+
 - Trigger: Push to `main` (after CI passes)
 - Environment: `github-pages` (Production)
 - Preview: PR-specific (optional, Cloudflare Pages)
@@ -226,16 +255,18 @@ stages:
 ## 6. Testing Strategy
 
 ### 6.1 Test Pyramid
-| Layer | Tool | Target | Scope |
-|-------|------|--------|-------|
-| Unit | Vitest | ≥90% | `lib/` (SRS, storage, progress, pairLoader) |
-| Content Validation | Zod + custom | 100% | All YAML files |
-| Integration | Vitest + jsdom | Key flows | Pair loader + SRS + storage |
-| E2E | Playwright | Critical paths | Review session, language switch, progress |
-| Accessibility | axe-core | All pages | WCAG 2.1 AA |
-| Performance | Lighthouse CI | All pages | Budgets per §10 of spec |
+
+| Layer              | Tool           | Target         | Scope                                       |
+| ------------------ | -------------- | -------------- | ------------------------------------------- |
+| Unit               | Vitest         | ≥90%           | `lib/` (SRS, storage, progress, pairLoader) |
+| Content Validation | Zod + custom   | 100%           | All YAML files                              |
+| Integration        | Vitest + jsdom | Key flows      | Pair loader + SRS + storage                 |
+| E2E                | Playwright     | Critical paths | Review session, language switch, progress   |
+| Accessibility      | axe-core       | All pages      | WCAG 2.1 AA                                 |
+| Performance        | Lighthouse CI  | All pages      | Budgets per §10 of spec                     |
 
 ### 6.2 TDD Rules (test-driven-development)
+
 - **RED**: Write failing test first (one behavior, clear name, real code)
 - **Verify RED**: Watch it fail for the RIGHT reason
 - **GREEN**: Minimal code to pass
@@ -247,32 +278,35 @@ stages:
 ## 7. Security & Compliance
 
 ### 7.1 Privacy by Default
+
 - **No PII collected** — no accounts, emails, names
 - **No third-party trackers** — self-hosted analytics only (opt-in)
 - **localStorage only** — no data leaves browser
 - **No cookies** — GDPR compliant by design
 
 ### 7.2 Security Posture
-| Concern | Mitigation |
-|---------|------------|
-| XSS | Astro escapes by default; Vue escapes interpolations; no `v-html` |
-| Content injection | Zod strict validation; no `eval` |
-| Dependency vulns | `npm audit` in CI; Dependabot enabled |
-| Supply chain | Lockfile committed; CI uses `npm ci` |
-| GitHub Actions | Least-privilege `permissions:` blocks |
+
+| Concern           | Mitigation                                                        |
+| ----------------- | ----------------------------------------------------------------- |
+| XSS               | Astro escapes by default; Vue escapes interpolations; no `v-html` |
+| Content injection | Zod strict validation; no `eval`                                  |
+| Dependency vulns  | `npm audit` in CI; Dependabot enabled                             |
+| Supply chain      | Lockfile committed; CI uses `npm ci`                              |
+| GitHub Actions    | Least-privilege `permissions:` blocks                             |
 
 ---
 
 ## 8. Accessibility (WCAG 2.1 AA)
 
 Mandatory for all PRs:
-| Check | Tool |
-|-------|------|
-| Semantic HTML | axe-core (CI) |
-| Color contrast | axe-core + manual |
-| Focus management | Tab navigation test |
-| ARIA labels | Manual review |
-| Reduced motion | `@media (prefers-reduced-motion)` |
+
+| Check            | Tool                              |
+| ---------------- | --------------------------------- |
+| Semantic HTML    | axe-core (CI)                     |
+| Color contrast   | axe-core + manual                 |
+| Focus management | Tab navigation test               |
+| ARIA labels      | Manual review                     |
+| Reduced motion   | `@media (prefers-reduced-motion)` |
 
 **No merge without passing `npm run test:a11y`**.
 
@@ -281,24 +315,28 @@ Mandatory for all PRs:
 ## 9. SemVer 2.0 Versioning (MANDATORY)
 
 ### 9.1 Version Format
+
 ```
 MAJOR.MINOR.PATCH[-PRERELEASE][+BUILD]
 ```
 
 ### 9.2 Increment Rules
-| Change Type | Version Bump | Example |
-|-------------|--------------|---------|
-| Breaking API/content schema change | MAJOR | 1.0.0 → 2.0.0 |
-| New feature (backward compatible) | MINOR | 1.0.0 → 1.1.0 |
-| Bug fix (backward compatible) | PATCH | 1.0.0 → 1.0.1 |
-| Pre-release (alpha/beta/rc) | PRERELEASE | 1.0.0-alpha.1 |
+
+| Change Type                        | Version Bump | Example       |
+| ---------------------------------- | ------------ | ------------- |
+| Breaking API/content schema change | MAJOR        | 1.0.0 → 2.0.0 |
+| New feature (backward compatible)  | MINOR        | 1.0.0 → 1.1.0 |
+| Bug fix (backward compatible)      | PATCH        | 1.0.0 → 1.0.1 |
+| Pre-release (alpha/beta/rc)        | PRERELEASE   | 1.0.0-alpha.1 |
 
 ### 9.3 Content Schema Versioning
+
 - CEFR node schema changes = **MAJOR** (breaks content validation)
 - New optional fields in realisations = **MINOR**
 - Vocabulary item additions = **PATCH** (no schema change)
 
 ### 9.4 Release Process
+
 1. Update `package.json` version per SemVer
 2. Update `CHANGELOG.md` (Keep a Changelog format)
 3. Tag: `git tag -a v{version} -m "Release v{version}"`
@@ -310,6 +348,7 @@ MAJOR.MINOR.PATCH[-PRERELEASE][+BUILD]
 ## 10. Commit Conventions (Conventional Commits 1.0.0)
 
 ### 10.1 Format
+
 ```
 <type>[optional scope]: <description>
 
@@ -319,35 +358,40 @@ MAJOR.MINOR.PATCH[-PRERELEASE][+BUILD]
 ```
 
 ### 10.2 Types
-| Type | Description | Version Bump |
-|------|-------------|--------------|
-| `feat` | New feature | MINOR |
-| `fix` | Bug fix | PATCH |
-| `docs` | Documentation only | — |
-| `style` | Formatting, no code change | — |
-| `refactor` | Code restructure, no behavior change | — |
-| `perf` | Performance improvement | PATCH |
-| `test` | Adding/fixing tests | — |
-| `chore` | Maintenance, deps, config | — |
-| `ci` | CI/CD changes | — |
-| `content` | Content additions/changes | PATCH* |
+
+| Type       | Description                          | Version Bump |
+| ---------- | ------------------------------------ | ------------ |
+| `feat`     | New feature                          | MINOR        |
+| `fix`      | Bug fix                              | PATCH        |
+| `docs`     | Documentation only                   | —            |
+| `style`    | Formatting, no code change           | —            |
+| `refactor` | Code restructure, no behavior change | —            |
+| `perf`     | Performance improvement              | PATCH        |
+| `test`     | Adding/fixing tests                  | —            |
+| `chore`    | Maintenance, deps, config            | —            |
+| `ci`       | CI/CD changes                        | —            |
+| `content`  | Content additions/changes            | PATCH*       |
 
 *Content changes that don't alter schema = PATCH
 
 ### 10.3 Scope (Optional)
+
 - `feat(cefr): add A1-GREET-001 node`
 - `fix(srs): handle EF floor correctly`
 - `content(vocab): add 50 A1 terms`
 
 ### 10.4 Breaking Changes
+
 ```
 feat(cefr)!: redesign node schema to support multi-skill
 
 BREAKING CHANGE: nodeId format changed from A1-XXX-001 to A1-SKILL-001
 ```
+
 **Footer required for breaking changes.**
 
 ### 10.5 Examples
+
 ```
 feat(review): add four-grade SRS buttons (Again/Hard/Good/Easy)
 
@@ -369,6 +413,7 @@ BREAKING CHANGE: schedule() now returns new state object instead of mutating
 > **Lefthook replaces Husky.** It's faster, deterministic, and better suited for staged-file workflows.
 
 ### 11.1 Installation
+
 ```bash
 # Install globally or via npx
 go install github.com/evilmartians/lefthook@latest
@@ -376,16 +421,17 @@ go install github.com/evilmartians/lefthook@latest
 ```
 
 ### 11.2 Configuration (`.lefthook.yml`)
+
 ```yaml
 # .lefthook.yml
 pre-commit:
   parallel: true
   commands:
     lint-staged:
-      glob: "*.{ts,tsx,vue,astro,js,jsx,json,css,md,mdx,yaml,yml}"
+      glob: '*.{ts,tsx,vue,astro,js,jsx,json,css,md,mdx,yaml,yml}'
       run: npx lint-staged
     typecheck:
-      glob: "*.{ts,tsx,vue}"
+      glob: '*.{ts,tsx,vue}'
       run: npx tsc --noEmit
 
 pre-push:
@@ -400,25 +446,22 @@ pre-push:
 ```
 
 ### 11.3 lint-staged Config (in `package.json`)
+
 ```json
 {
   "lint-staged": {
-    "*.{ts,tsx,vue,astro,js,jsx,json,css,md,mdx,yaml,yml}": [
-      "prettier --check"
-    ],
-    "*.{ts,tsx,vue,astro}": [
-      "eslint --max-warnings 0"
-    ]
+    "*.{ts,tsx,vue,astro,js,jsx,json,css,md,mdx,yaml,yml}": ["prettier --check"],
+    "*.{ts,tsx,vue,astro}": ["eslint --max-warnings 0"]
   }
 }
 ```
 
 ### 11.4 Hook Behavior
 
-| Hook | Runs On | Purpose |
-|------|---------|---------|
-| `pre-commit` | Staged files only | Fast feedback: lint + format + typecheck on changed files |
-| `pre-push` | All files | Heavy gates: content validation + unit tests + E2E before push |
+| Hook         | Runs On           | Purpose                                                        |
+| ------------ | ----------------- | -------------------------------------------------------------- |
+| `pre-commit` | Staged files only | Fast feedback: lint + format + typecheck on changed files      |
+| `pre-push`   | All files         | Heavy gates: content validation + unit tests + E2E before push |
 
 **Rationale:** Pre-commit is fast (<10s) for staged files. Pre-push runs full validation before code reaches remote.
 
@@ -427,21 +470,25 @@ pre-push:
 ## 12. Agent Workflow Rules
 
 ### 12.1 Planning Agent
+
 - Uses `discovery` → `spec` → `plan` skills
 - Produces `tasks.json` with acceptance criteria tagged `test_type: unit|integration|e2e|live-system`
 - Validates against `governance-alignment`, `spec-policy-validation`
 
 ### 12.2 Build Agent
+
 - Implements tasks per `build` → `code-generation`
 - Follows `component-workflow` for UI, `manifest-generation` for K8s (if applicable)
 - **TDD enforced**: No production code without failing test first
 
 ### 12.3 Review Agent
+
 - Runs `review` → `spec-compliance`, `design-compliance`, `code-quality`
 - Validates `gitops-overlay`, `pipeline-policy`, `k8s-policy`
 - Blocks on Critical/Important findings
 
 ### 12.4 Test Execution Agent
+
 - Runs `test-execution` with appropriate sub-skills
 - Reports coverage, passes/failures per acceptance criterion
 - `verification-before-completion` required before "done"
@@ -509,15 +556,15 @@ git log --oneline -10    # Recent commits
 
 ## 16. Project Documents
 
-| Document | Purpose |
-|----------|---------|
-| `discovery-brief.md` | JTBD, personas, acceptance criteria, constraints |
+| Document                  | Purpose                                                                               |
+| ------------------------- | ------------------------------------------------------------------------------------- |
+| `discovery-brief.md`      | JTBD, personas, acceptance criteria, constraints                                      |
 | `specification-design.md` | Full technical specification (architecture, data model, SRS, UI, testing, deployment) |
-| `AGENTS.md` | This file — agent governance, GitOps, conventions |
-| `CLAUDE.md` | Symlink to AGENTS.md |
-| `README.md` | Project overview for humans |
-| `CHANGELOG.md` | Keep a Changelog format |
+| `AGENTS.md`               | This file — agent governance, GitOps, conventions                                     |
+| `CLAUDE.md`               | Symlink to AGENTS.md                                                                  |
+| `README.md`               | Project overview for humans                                                           |
+| `CHANGELOG.md`            | Keep a Changelog format                                                               |
 
 ---
 
-*Generated for learn-languages. Update when platform conventions evolve. All agents MUST read this file at session start.*
+_Generated for learn-languages. Update when platform conventions evolve. All agents MUST read this file at session start._
