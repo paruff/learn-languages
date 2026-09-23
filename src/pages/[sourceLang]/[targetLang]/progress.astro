@@ -3,6 +3,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { getAvailablePairs, loadPair } from '../../../lib/pairLoader';
 import { languageName } from '../../../lib/languageNames';
+import { getString } from '../../../lib/strings';
 
 export async function getStaticPaths() {
   const pairs = await getAvailablePairs();
@@ -38,7 +39,7 @@ const targetName = languageName(targetLang);
   sourceLang={sourceLang}
   targetLang={targetLang}
 >
-  <h1>Progress</h1>
+  <h1>{getString(sourceLang, 'progressTitle')}</h1>
   <div id="progress-levels"></div>
   <p id="progress-next" class="card"></p>
   <p id="progress-calibration" class="card" hidden></p>
@@ -66,6 +67,7 @@ const targetName = languageName(targetLang);
   import { loadState } from '../../../lib/storage';
   import { computeCefrProgress, type TrackedItem } from '../../../lib/progress';
   import { loadBreakDates, countRecentBreaks } from '../../../lib/calibration';
+  import { getString, format } from '../../../lib/strings';
 
   interface DataItem {
     itemId: string;
@@ -88,6 +90,7 @@ const targetName = languageName(targetLang);
 
   const { levels, nextRecommended } = computeCefrProgress(items);
 
+  const masteredLabel = getString(sourceLang, 'progressMastered');
   const levelsEl = document.getElementById('progress-levels')!;
   levelsEl.innerHTML = levels.length
     ? levels
@@ -96,18 +99,21 @@ const targetName = languageName(targetLang);
       <div class="progress-level">
         <p class="progress-level__label">
           <span class="badge badge--${l.cefrLevel.toLowerCase()}">${l.cefrLevel}</span>
-          <span>${l.masteredItems}/${l.totalItems} mastered</span>
+          <span>${l.masteredItems}/${l.totalItems} ${masteredLabel}</span>
         </p>
         <div class="progress-bar"><div class="progress-bar__fill" style="width: ${l.percent}%"></div></div>
       </div>`
         )
         .join('')
-    : '<p>No content available for this pair yet.</p>';
+    : `<p>${getString(sourceLang, 'progressNoContent')}</p>`;
 
   const nextEl = document.getElementById('progress-next')!;
   nextEl.textContent = nextRecommended
-    ? `Next up: ${nextRecommended.canDo} (${nextRecommended.cefrLevel})`
-    : 'All available content mastered — nice work.';
+    ? format(getString(sourceLang, 'progressNextUp'), {
+        canDo: nextRecommended.canDo,
+        level: nextRecommended.cefrLevel,
+      })
+    : getString(sourceLang, 'progressAllMastered');
 
   // Calibration signal (issue #46) — the book's "fluency illusion" warning:
   // learners are poor judges of their own mastery. Surfaces how often a
@@ -117,8 +123,9 @@ const targetName = languageName(targetLang);
   const calibrationEl = document.getElementById('progress-calibration')!;
   if (recentBreaks > 0) {
     calibrationEl.hidden = false;
-    calibrationEl.textContent =
-      `Calibration check: ${recentBreaks} item${recentBreaks === 1 ? '' : 's'} you rated ` +
-      `confidently needed a re-grade of Again/Hard within the last week.`;
+    calibrationEl.textContent = format(getString(sourceLang, 'progressCalibration'), {
+      n: recentBreaks,
+      itemWord: getString(sourceLang, recentBreaks === 1 ? 'itemSingular' : 'itemPlural'),
+    });
   }
 </script>

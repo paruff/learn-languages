@@ -5,6 +5,15 @@ import { withBase } from '../../../../lib/urls';
 import { getAvailablePairs, loadPair } from '../../../../lib/pairLoader';
 import { languageName } from '../../../../lib/languageNames';
 import { getSkillIcon } from '../../../../lib/skillIcon';
+import { getString, type StringKey } from '../../../../lib/strings';
+
+const SKILL_KEYS: Record<string, StringKey> = {
+  listening: 'skillListening',
+  reading: 'skillReading',
+  spoken_interaction: 'skillSpokenInteraction',
+  spoken_production: 'skillSpokenProduction',
+  writing: 'skillWriting',
+};
 
 export async function getStaticPaths() {
   const pairs = await getAvailablePairs();
@@ -54,7 +63,7 @@ const targetName = languageName(targetLang);
   sourceLang={sourceLang}
   targetLang={targetLang}
 >
-  <h1>Lessons</h1>
+  <h1>{getString(sourceLang, 'lessonsTitle')}</h1>
 
   {
     firstLesson && (
@@ -62,7 +71,7 @@ const targetName = languageName(targetLang);
         class="card lesson-index__start"
         href={withBase(`/${sourceLang}/${targetLang}/lessons/${firstLesson.nodeId}/`)}
       >
-        <p class="lesson-index__start-label">New here? Start with your first lesson</p>
+        <p class="lesson-index__start-label">{getString(sourceLang, 'lessonsStartHere')}</p>
         <p class="lesson-index__start-title">{firstLesson.canDo}</p>
       </a>
     )
@@ -73,7 +82,11 @@ const targetName = languageName(targetLang);
       <section class="lesson-index__level">
         <h2>
           <span class={`badge badge--${level.toLowerCase()}`}>{level}</span>
-          {levelLessons.length} lesson{levelLessons.length === 1 ? '' : 's'}
+          {levelLessons.length}{' '}
+          {getString(
+            sourceLang,
+            levelLessons.length === 1 ? 'lessonCountSingular' : 'lessonCountPlural'
+          )}
         </h2>
         <ul class="lesson-index">
           {levelLessons.map((node) => (
@@ -93,7 +106,9 @@ const targetName = languageName(targetLang);
                   <path d={getSkillIcon(node.skill).path} />
                 </svg>
                 <span class="lesson-index__can-do">{node.canDo}</span>
-                <span class="lesson-index__skill-label">{node.skill.replace('_', ' ')}</span>
+                <span class="lesson-index__skill-label">
+                  {getString(sourceLang, SKILL_KEYS[node.skill])}
+                </span>
                 <span class="lesson-index__progress" data-node-id={node.nodeId} hidden />
               </a>
             </li>
@@ -104,7 +119,9 @@ const targetName = languageName(targetLang);
   }
 
   <p>
-    <a href={withBase(`/${sourceLang}/${targetLang}/review/`)}>Go straight to review →</a>
+    <a href={withBase(`/${sourceLang}/${targetLang}/review/`)}>
+      {getString(sourceLang, 'lessonsGoToReview')}
+    </a>
   </p>
 
   <script

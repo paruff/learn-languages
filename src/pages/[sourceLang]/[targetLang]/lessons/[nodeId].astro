@@ -5,6 +5,15 @@ import { withBase } from '../../../../lib/urls';
 import { getAvailablePairs } from '../../../../lib/pairLoader';
 import { splitAtTerm } from '../../../../lib/glossText';
 import { getSkillIcon } from '../../../../lib/skillIcon';
+import { getString, type StringKey } from '../../../../lib/strings';
+
+const SKILL_KEYS: Record<string, StringKey> = {
+  listening: 'skillListening',
+  reading: 'skillReading',
+  spoken_interaction: 'skillSpokenInteraction',
+  spoken_production: 'skillSpokenProduction',
+  writing: 'skillWriting',
+};
 
 export async function getStaticPaths() {
   const [pairs, nodes, realisations, exercises] = await Promise.all([
@@ -62,7 +71,7 @@ const { node, source, target, hasExercises } = Astro.props;
         >
           <path d={getSkillIcon(node.skill).path}></path>
         </svg>
-        {node.skill.replace('_', ' ')} · {nodeId}
+        {getString(sourceLang, SKILL_KEYS[node.skill])} · {nodeId}
       </span>
     </p>
     <h1 class="lesson__title">{node.canDo}</h1>
@@ -149,11 +158,13 @@ const { node, source, target, hasExercises } = Astro.props;
     }
 
     <p class="lesson__cta">
-      <a href={withBase(`/${sourceLang}/${targetLang}/review/`)}>Practice these words →</a>
+      <a href={withBase(`/${sourceLang}/${targetLang}/review/`)}>
+        {getString(sourceLang, 'lessonsPracticeWords')}
+      </a>
       {
         hasExercises && (
           <a href={withBase(`/${sourceLang}/${targetLang}/exercises/${nodeId}/`)}>
-            Practice exercises →
+            {getString(sourceLang, 'lessonsPracticeExercises')}
           </a>
         )
       }

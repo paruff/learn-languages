@@ -1,6 +1,7 @@
 ---
 import { withBase } from '../lib/urls';
 import { getAvailablePairs } from '../lib/pairLoader';
+import { getString } from '../lib/strings';
 import LanguagePairSelector from '../components/LanguagePairSelector.astro';
 import '../styles/global.css';
 
@@ -54,16 +55,18 @@ const availablePairs = await getAvailablePairs();
         <a href={withBase('/')} class="nav__brand" aria-label="Acquira home">Acquira</a>
         <ul class="nav__links">
           <li>
-            <a href={withBase(`/${sourceLang}/${targetLang}/lessons/`)} class="nav__link">Lessons</a
+            <a href={withBase(`/${sourceLang}/${targetLang}/lessons/`)} class="nav__link"
+              >{getString(sourceLang, 'navLessons')}</a
             >
           </li>
           <li>
-            <a href={withBase(`/${sourceLang}/${targetLang}/review/`)} class="nav__link">Practice</a
+            <a href={withBase(`/${sourceLang}/${targetLang}/review/`)} class="nav__link"
+              >{getString(sourceLang, 'navPractice')}</a
             >
           </li>
           <li>
             <a href={withBase(`/${sourceLang}/${targetLang}/progress/`)} class="nav__link"
-              >Progress</a
+              >{getString(sourceLang, 'navProgress')}</a
             >
           </li>
         </ul>
@@ -82,7 +85,7 @@ const availablePairs = await getAvailablePairs();
       <slot />
     </main>
     <footer class="site-footer">
-      <p class="footer__text">Built with Astro · Deployed via GitOps · CC-BY-4.0</p>
+      <p class="footer__text">{getString(sourceLang, 'footer')}</p>
     </footer>
     <slot name="scripts" />
   </body>
