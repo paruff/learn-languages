@@ -13,6 +13,30 @@ vocabulary:
     partOfSpeech: interjection
     example: 'Enchanté de faire votre connaissance.'
     exampleTranslation: 'Nice to meet you (literally: enchanted to make your acquaintance).'
+  - id: fr-FR-A1-INTRO-001-003
+    term: 'Je viens de'
+    translation: 'I am from'
+    partOfSpeech: phrase
+    example: "Je viens d'Écosse."
+    exampleTranslation: 'I am from Scotland.'
+  - id: fr-FR-A1-INTRO-001-004
+    term: "J'habite à"
+    translation: 'I live in'
+    partOfSpeech: phrase
+    example: "J'habite à Lyon."
+    exampleTranslation: 'I live in Lyon.'
+  - id: fr-FR-A1-INTRO-001-005
+    term: 'J’ai … ans'
+    translation: 'I am ... years old'
+    partOfSpeech: phrase
+    example: 'J’ai vingt-cinq ans.'
+    exampleTranslation: 'I am 25 years old.'
+  - id: fr-FR-A1-INTRO-001-006
+    term: 'Je parle'
+    translation: 'I speak'
+    partOfSpeech: phrase
+    example: 'Je parle anglais et un peu de français.'
+    exampleTranslation: 'I speak English and a little French.'
 grammar:
   - id: fr-FR-A1-INTRO-001-G1
     point: 'Formal vs. informal address (tu/vous)'
@@ -20,3 +44,4 @@ grammar:
     examples:
       - "Comment tu t'appelles ? (informal)"
       - 'Comment vous appelez-vous ? (formal)'
+culturalNotes: '"Enchanté" is said by a male speaker; a female speaker says "Enchantée". First names are used quickly once two people agree to use "tu".'

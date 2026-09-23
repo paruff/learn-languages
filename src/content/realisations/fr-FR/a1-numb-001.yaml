@@ -13,16 +13,35 @@ vocabulary:
     term: 'Deux'
     translation: 'Two'
     partOfSpeech: adjective
-    example: 'Je voudrais deux cafés.'
-    exampleTranslation: 'I want two coffees.'
+    example: 'Il y a deux chats.'
+    exampleTranslation: 'There are two cats.'
     imageUrl: 'dois.webp'
     imageAlt: 'A large red number 2 shaped as a birthday candle'
   - id: fr-FR-A1-NUMB-001-003
     term: 'Trois'
     translation: 'Three'
     partOfSpeech: adjective
-    example: 'Elle a trois enfants.'
-    exampleTranslation: 'She has three children.'
+    example: 'Je voudrais trois cafés.'
+    exampleTranslation: 'I would like three coffees.'
     imageUrl: 'tres.webp'
     imageAlt: 'A large red number 3 shaped as a birthday candle'
+  - id: fr-FR-A1-NUMB-001-004
+    term: 'Dix'
+    translation: 'Ten'
+    partOfSpeech: adjective
+    example: 'La réunion est à dix heures.'
+    exampleTranslation: 'The meeting is at ten.'
+  - id: fr-FR-A1-NUMB-001-005
+    term: 'Vingt'
+    translation: 'Twenty'
+    partOfSpeech: adjective
+    example: 'J’ai vingt ans.'
+    exampleTranslation: 'I am twenty years old.'
+  - id: fr-FR-A1-NUMB-001-006
+    term: 'Cent'
+    translation: 'Hundred'
+    partOfSpeech: adjective
+    example: 'Le livre coûte cent euros.'
+    exampleTranslation: 'The book costs one hundred euros.'
 grammar: []
+culturalNotes: 'French compound numbers keep the unit after the tens like English: 21 = "vingt-et-un" (twenty-and-one). From 70 upward they build on sixty: 70 = "soixante-dix" (sixty-ten).'

@@ -1,0 +1,41 @@
+nodeId: A1-REQUEST-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A1-REQUEST-001-001
+    term: 'Pouvez-vous m’aider ?'
+    translation: 'Can you help me?'
+    partOfSpeech: phrase
+    example: 'Excusez-moi, pouvez-vous m’aider ?'
+    exampleTranslation: 'Excuse me, can you help me?'
+  - id: fr-FR-A1-REQUEST-001-002
+    term: 'Je voudrais...'
+    translation: 'I would like...'
+    partOfSpeech: phrase
+    example: 'Je voudrais commander un café.'
+    exampleTranslation: 'I would like to order a coffee.'
+  - id: fr-FR-A1-REQUEST-001-003
+    term: 's’il vous plaît'
+    translation: 'Please'
+    partOfSpeech: adverb
+    example: 'Une eau, s’il vous plaît.'
+    exampleTranslation: 'A water, please.'
+  - id: fr-FR-A1-REQUEST-001-004
+    term: 'Merci'
+    translation: 'Thank you'
+    partOfSpeech: interjection
+    example: 'Merci de votre aide.'
+    exampleTranslation: 'Thank you for your help.'
+  - id: fr-FR-A1-REQUEST-001-005
+    term: 'Puis-je... ?'
+    translation: 'May I...?'
+    partOfSpeech: phrase
+    example: 'Puis-je passer ?'
+    exampleTranslation: 'May I pass?'
+  - id: fr-FR-A1-REQUEST-001-006
+    term: 'Pouvez-vous répéter, s’il vous plaît ?'
+    translation: 'Can you repeat that, please?'
+    partOfSpeech: phrase
+    example: 'Pouvez-vous dire cela plus lentement, s’il vous plaît ?'
+    exampleTranslation: 'Can you say that more slowly, please?'
+grammar: []
+culturalNotes: 'Politeness opens nearly every French exchange: greet with "Bonjour" first, soften requests with "s’il vous plaît", and close with "merci". With strangers, use the "vous" form.'

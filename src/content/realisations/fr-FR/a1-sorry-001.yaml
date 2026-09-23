@@ -1,0 +1,41 @@
+nodeId: A1-SORRY-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A1-SORRY-001-001
+    term: 'Excusez-moi'
+    translation: 'Sorry'
+    partOfSpeech: interjection
+    example: 'Excusez-moi, où est la gare ?'
+    exampleTranslation: 'Excuse me, where is the train station?'
+  - id: fr-FR-A1-SORRY-001-002
+    term: 'Je suis désolé'
+    translation: "I'm sorry"
+    partOfSpeech: phrase
+    example: 'Je suis désolé, je ne peux pas venir.'
+    exampleTranslation: "I'm sorry, I can't come."
+  - id: fr-FR-A1-SORRY-001-003
+    term: 'Pas de problème'
+    translation: 'No problem'
+    partOfSpeech: phrase
+    example: 'Pas de problème, ça arrive.'
+    exampleTranslation: 'No problem, that happens.'
+  - id: fr-FR-A1-SORRY-001-004
+    term: 'Ce n’est rien'
+    translation: "It's okay"
+    partOfSpeech: phrase
+    example: 'Ce n’est rien, réessayez.'
+    exampleTranslation: "It's okay, try again."
+  - id: fr-FR-A1-SORRY-001-005
+    term: 'Pardon ?'
+    translation: 'Pardon'
+    partOfSpeech: interjection
+    example: 'Pardon, je ne vous ai pas entendu.'
+    exampleTranslation: "Pardon, I didn't hear you."
+  - id: fr-FR-A1-SORRY-001-006
+    term: 'Veuillez m’excuser'
+    translation: 'Excuse me (formal)'
+    partOfSpeech: phrase
+    example: 'Veuillez m’excuser de la gêne.'
+    exampleTranslation: 'Excuse the disturbance.'
+grammar: []
+culturalNotes: '"Pardon ?" with a rising tone asks someone to repeat; "Pardon" after bumping into someone apologises. Tone and context decide which one you mean.'

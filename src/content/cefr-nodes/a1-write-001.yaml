@@ -1,0 +1,10 @@
+nodeId: A1-WRITE-001
+cefrLevel: A1
+skill: writing
+canDo: Can write short simple texts about themselves, such as postcards and simple descriptions
+pragmaticFocus: Convey personal information and simple descriptions in short written messages
+notionalFocus: Self, others, daily life
+relatedNodes:
+  - A1-FORM-001
+  - A1-INTRO-001
+prerequisiteNodes: []

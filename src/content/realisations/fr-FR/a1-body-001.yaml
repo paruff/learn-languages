@@ -1,0 +1,47 @@
+nodeId: A1-BODY-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A1-BODY-001-001
+    term: 'tête'
+    translation: 'head'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'J’ai mal à la tête.'
+    exampleTranslation: 'I have a headache.'
+  - id: fr-FR-A1-BODY-001-002
+    term: 'main'
+    translation: 'hand'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Sa main est froide.'
+    exampleTranslation: 'Her hand is cold.'
+  - id: fr-FR-A1-BODY-001-003
+    term: 'pied'
+    translation: 'foot'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Mon pied fait mal après la course.'
+    exampleTranslation: 'My foot hurts after running.'
+  - id: fr-FR-A1-BODY-001-004
+    term: 'œil'
+    translation: 'eye'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Il a les yeux verts.'
+    exampleTranslation: 'He has green eyes.'
+  - id: fr-FR-A1-BODY-001-005
+    term: 'bras'
+    translation: 'arm'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'J’ai cassé le bras l’an dernier.'
+    exampleTranslation: 'I broke my arm last year.'
+  - id: fr-FR-A1-BODY-001-006
+    term: 'jambe'
+    translation: 'leg'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Sa jambe est enflée.'
+    exampleTranslation: 'His leg is swollen.'
+grammar: []
+culturalNotes: 'French describes pain with "avoir mal à" plus the body part: "J’ai mal à la tête" (I have a headache), "J’ai mal aux pieds" (My feet hurt).'

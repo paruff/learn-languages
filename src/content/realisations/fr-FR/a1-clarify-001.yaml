@@ -1,0 +1,41 @@
+nodeId: A1-CLARIFY-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A1-CLARIFY-001-001
+    term: 'Pouvez-vous répéter, s’il vous plaît ?'
+    translation: 'Can you repeat that, please?'
+    partOfSpeech: phrase
+    example: 'Pardon, pouvez-vous répéter, s’il vous plaît ?'
+    exampleTranslation: 'Sorry, can you repeat that, please?'
+  - id: fr-FR-A1-CLARIFY-001-002
+    term: 'Comment dit-on... ?'
+    translation: 'How do you say...?'
+    partOfSpeech: phrase
+    example: 'Comment dit-on "bibliothèque" en français ?'
+    exampleTranslation: 'How do you say "library" in French?'
+  - id: fr-FR-A1-CLARIFY-001-003
+    term: 'Je ne comprends pas'
+    translation: "I don't understand"
+    partOfSpeech: phrase
+    example: 'Pardon, je ne comprends pas.'
+    exampleTranslation: "Sorry, I don't understand."
+  - id: fr-FR-A1-CLARIFY-001-004
+    term: 'Parlez plus lentement, s’il vous plaît'
+    translation: 'Please speak more slowly'
+    partOfSpeech: phrase
+    example: 'Pouvez-vous parler plus lentement, s’il vous plaît ?'
+    exampleTranslation: 'Can you speak more slowly, please?'
+  - id: fr-FR-A1-CLARIFY-001-005
+    term: 'Que signifie... ?'
+    translation: 'What does... mean?'
+    partOfSpeech: phrase
+    example: 'Que signifie "vélo" ?'
+    exampleTranslation: 'What does "bicycle" mean?'
+  - id: fr-FR-A1-CLARIFY-001-006
+    term: 'Pouvez-vous épeler cela ?'
+    translation: 'Can you spell that?'
+    partOfSpeech: phrase
+    example: 'Pouvez-vous épeler votre nom, s’il vous plaît ?'
+    exampleTranslation: 'Can you spell your name, please?'
+grammar: []
+culturalNotes: 'French speakers generally appreciate it when learners ask for clarification rather than pretending to understand; a preceding "Pardon" softens the request.'

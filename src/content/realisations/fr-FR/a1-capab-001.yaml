@@ -1,0 +1,41 @@
+nodeId: A1-CAPAB-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A1-CAPAB-001-001
+    term: 'Je peux...'
+    translation: 'I can...'
+    partOfSpeech: phrase
+    example: 'Je peux nager très bien.'
+    exampleTranslation: 'I can swim well.'
+  - id: fr-FR-A1-CAPAB-001-002
+    term: 'Je ne peux pas...'
+    translation: "I can't..."
+    partOfSpeech: phrase
+    example: 'Je ne peux pas chanter.'
+    exampleTranslation: "I can't sing."
+  - id: fr-FR-A1-CAPAB-001-003
+    term: 'Je comprends'
+    translation: 'I understand'
+    partOfSpeech: phrase
+    example: "Je comprends l'anglais, mais je ne parle pas bien."
+    exampleTranslation: "I understand English, but I don't speak well."
+  - id: fr-FR-A1-CAPAB-001-004
+    term: 'Je sais'
+    translation: 'I know'
+    partOfSpeech: phrase
+    example: 'Je ne sais pas.'
+    exampleTranslation: "I don't know."
+  - id: fr-FR-A1-CAPAB-001-005
+    term: 'pouvoir'
+    translation: 'to be able to'
+    partOfSpeech: verb
+    example: 'Pouvez-vous m’aider ?'
+    exampleTranslation: 'Can you help me?'
+  - id: fr-FR-A1-CAPAB-001-006
+    term: 'ne pas pouvoir'
+    translation: 'to not be able to'
+    partOfSpeech: phrase
+    example: 'Je ne peux pas venir aujourd’hui.'
+    exampleTranslation: "I can't come today."
+grammar: []
+culturalNotes: 'The verb "pouvoir" (to be able to) covers both English senses of "can": ability ("Je peux nager" — I can swim) and possibility ("Pouvez-vous m’aider ?" — Can you help me?).'

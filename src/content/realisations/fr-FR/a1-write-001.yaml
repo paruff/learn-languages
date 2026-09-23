@@ -1,0 +1,41 @@
+nodeId: A1-WRITE-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A1-WRITE-001-001
+    term: 'Cher/Chère …'
+    translation: 'Dear …'
+    partOfSpeech: phrase
+    example: 'Chère Claire, voici une photo de ma ville.'
+    exampleTranslation: 'Dear Claire, here is a photo of my town.'
+  - id: fr-FR-A1-WRITE-001-002
+    term: 'Voici…'
+    translation: 'Here is…'
+    partOfSpeech: phrase
+    example: 'Voici ma nouvelle adresse.'
+    exampleTranslation: 'Here is my new address.'
+  - id: fr-FR-A1-WRITE-001-003
+    term: 'J’habite à…'
+    translation: 'I live in…'
+    partOfSpeech: phrase
+    example: 'J’habite à Lyon.'
+    exampleTranslation: 'I live in Lyon.'
+  - id: fr-FR-A1-WRITE-001-004
+    term: 'Il/Elle a … ans'
+    translation: 'He/She is … years old'
+    partOfSpeech: phrase
+    example: 'Elle a douze ans.'
+    exampleTranslation: 'She is twelve years old.'
+  - id: fr-FR-A1-WRITE-001-005
+    term: 'À bientôt'
+    translation: 'See you soon'
+    partOfSpeech: phrase
+    example: 'À bientôt, à dimanche !'
+    exampleTranslation: 'See you soon, see you on Sunday!'
+  - id: fr-FR-A1-WRITE-001-006
+    term: 'Bien à vous'
+    translation: 'Best wishes'
+    partOfSpeech: phrase
+    example: 'Bien à vous, Anna.'
+    exampleTranslation: 'Best wishes, Anna.'
+grammar: []
+culturalNotes: 'French informal messages between friends and family often close with "Bises"; "Bien à vous" or "Cordialement" suits formal or polite contexts.'

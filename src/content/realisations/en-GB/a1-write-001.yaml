@@ -1,0 +1,40 @@
+nodeId: A1-WRITE-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-A1-WRITE-001-001
+    term: 'Dear …'
+    translation: 'Cher/Chère …'
+    partOfSpeech: phrase
+    example: 'Dear Claire, here is a photo of my town.'
+    exampleTranslation: 'Chère Claire, voici une photo de ma ville.'
+  - id: en-GB-A1-WRITE-001-002
+    term: 'Here is…'
+    translation: 'Voici…'
+    partOfSpeech: phrase
+    example: 'Here is my new address.'
+    exampleTranslation: 'Voici ma nouvelle adresse.'
+  - id: en-GB-A1-WRITE-001-003
+    term: 'I live in…'
+    translation: 'J’habite à…'
+    partOfSpeech: phrase
+    example: 'I live in Bristol.'
+    exampleTranslation: 'J’habite à Bristol.'
+  - id: en-GB-A1-WRITE-001-004
+    term: 'He/She is … years old'
+    translation: 'Il/Elle a … ans'
+    partOfSpeech: phrase
+    example: 'She is twelve years old.'
+    exampleTranslation: 'Elle a douze ans.'
+  - id: en-GB-A1-WRITE-001-005
+    term: 'See you soon'
+    translation: 'À bientôt'
+    partOfSpeech: phrase
+    example: 'See you soon, see you on Sunday!'
+    exampleTranslation: 'À bientôt, à dimanche !'
+  - id: en-GB-A1-WRITE-001-006
+    term: 'Best wishes'
+    translation: 'Bien à vous'
+    partOfSpeech: phrase
+    example: 'Best wishes, Anna.'
+    exampleTranslation: 'Bien à vous, Anna.'
+grammar: []

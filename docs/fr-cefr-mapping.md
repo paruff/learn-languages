@@ -1,6 +1,6 @@
 # French (fr-FR) CEFR Mapping — Walking Skeleton
 
-Tracks the CEFR reference-document verification and 5-node walking skeleton for **en-GB↔fr-FR**, per issue #106. Mirrors `docs/de-cefr-mapping.md` and `docs/es-cefr-mapping.md` in format and rigor. Full A1 authoring (issue #107) follows the same "extract real structure, don't assume" discipline once this skeleton is verified end-to-end.
+Tracks the CEFR reference-document verification and 5-node walking skeleton for **en-GB↔fr-FR**, per issue #106, and the full A1 descriptor extraction and content authoring per issue #107. Mirrors `docs/de-cefr-mapping.md` and `docs/es-cefr-mapping.md` in format and rigor.
 
 ## Source document verification (#106)
 
@@ -12,7 +12,7 @@ Tracks the CEFR reference-document verification and 5-node walking skeleton for 
 
 **Real structure, extracted from the PDF (`pdftotext -layout`):** Descriptors are organized under three top-level activity groups — **Activités de production et stratégies** (Production orale, Production écrite, + strategies), **Activités de réception et stratégies** (Compréhension orale, Compréhension écrite, + strategies), **Activités d'interaction et stratégies** (Interaction orale, Interaction écrite) — each with named sub-activities (e.g. "MONOLOGUE SUIVI: décrire l'expérience", "ÉCHANGE D'INFORMATION", "OBTENIR DES BIENS ET DES SERVICES"), some marked "Pas de descripteur disponible" at A1 (no descriptor yet exists at that level in the CEFR's own scale). This maps cleanly onto the repo's existing `skill` enum (listening/reading/spoken_interaction/spoken_production/writing) without needing new categories.
 
-**This mapping does not yet extract the full per-activity descriptor breakdown** — that's #107's job (the full A1 epic), mirroring how #56 and #63 did PCIC's and Prüfungsziele's extraction after their respective spikes confirmed access.
+**The full per-activity descriptor breakdown was extracted for #107** by reading the complete `pdftotext` output of the A1 PDF end-to-end — every sub-activity in all three activity groups plus the cross-cutting Compétences sections was mapped against the repo's existing A1 nodes (see "A1 descriptor extraction" below), mirroring how #56 and #63 did PCIC's and Prüfungsziele's extraction.
 
 ## TTS voice verification (#106)
 
@@ -30,13 +30,114 @@ Mirrors the same 5 nodes used for every other pair's skeleton (#21, #42, #62) �
 | A1-INTRO-002 | spoken_interaction | Can ask and answer basic questions about personal details | ✅ Realised |
 | A1-NUMB-001  | reading            | Can recognize and write numbers 1-100                     | ✅ Realised |
 
+## A1 descriptor extraction (#107)
+
+Every sub-activity in the source PDF's three activity groups — plus the cross-cutting Compétences linguistiques / sociolinguistique / pragmatique sections — was read from the extracted text and mapped against the 23 pre-existing A1 `cefr-nodes/`, applying the decision rule agreed for this epic: **reuse any node whose Can-Do substantively covers the descriptor (even when wording differs); create a new node only where a verified descriptor is clearly uncovered and worth modelling; document everything else as an explicit gap** (activity-group rows marked "Pas de descripteur disponible" are gaps in the CEFR's own A1 scale itself, not omissions by this repo).
+
+**Outcome: 30 real descriptors mapped, 1 new node created (`A1-WRITE-001`), remaining uncovered descriptors documented as gaps below.**
+
+### Production activities
+
+| Sub-activity (source)                                                 | A1 descriptor (condensed)                                 | Repo mapping                                                                                               |
+| --------------------------------------------------------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| PRODUCTION ORALE · GÉNÉRALE                                           | Isolated simple expressions about people and things       | A1-WANT-001, A1-OPIN-001, A1-CAPAB-001                                                                     |
+| PRODUCTION ORALE · MONOLOGUE: décrire l'expérience                    | Describe self, activities, dwelling                       | A1-INTRO-001, A1-INTRO-002, A1-ROUTINE-001                                                                 |
+| PRODUCTION ORALE · argumenter / annonces publiques                    | Pas de descripteur disponible                             | Gap — no A1 descriptor exists in the source                                                                |
+| PRODUCTION ORALE · S'ADRESSER À UN AUDITOIRE                          | Read a brief repeated text (toast, introducing a speaker) | Gap — real descriptor; niche scripted-performance act, not worth modelling for a self-study vocab platform |
+| PRODUCTION ÉCRITE · GÉNÉRALE                                          | Isolated simple written expressions                       | A1-WRITE-001 (new), A1-FORM-001                                                                            |
+| PRODUCTION ÉCRITE · ÉCRITURE CRÉATIVE                                 | Write simple sentences about self and imaginary people    | A1-WRITE-001 (new)                                                                                         |
+| PRODUCTION ÉCRITE · essais et rapports                                | Pas de descripteur disponible                             | Gap — no A1 descriptor exists                                                                              |
+| STRATÉGIES POUR LA PRODUCTION (planification, compensation, contrôle) | Pas de descripteur disponible ×3                          | Gap — no A1 descriptors exist                                                                              |
+
+### Reception activities
+
+| Sub-activity (source)                                              | A1 descriptor (condensed)                            | Repo mapping                                                                                                         |
+| ------------------------------------------------------------------ | ---------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| ORAL · compréhension générale                                      | Understand slowly, carefully articulated speech      | Cross-cutting A1 listening qualifier; exercised via A1-FEEL-001                                                      |
+| ORAL · interaction entre locuteurs natifs / auditeur / radio       | Pas de descripteur disponible ×3                     | Gap — no A1 descriptors exist                                                                                        |
+| ORAL · annonces et instructions orales                             | Follow short simple directives                       | A1-LOC-001, A1-CLARIFY-001                                                                                           |
+| ÉCRIT · compréhension générale                                     | Gist of very short simple texts                      | Cross-cutting A1 reading qualifier; exercised via the A1 reading-vocab cluster                                       |
+| ÉCRIT · correspondance                                             | Understand simple brief postcard messages            | Gap — reading counterpart of A1-WRITE-001's phrase inventory; not duplicated as a separate node (cards would repeat) |
+| ÉCRIT · lire pour s'orienter                                       | Recognise common words in daily life                 | A1-FOOD-001, A1-BODY-001, A1-FAMILY-001, A1-HOBBY-001, A1-ROUTINE-001, A1-SHOP-001, A1-TIME-001, A1-NUMB-001         |
+| ÉCRIT · lire pour s'informer et discuter                           | Gist of a simple informative text (esp. with visual) | Gap — cross-cutting reading qualifier; no standalone vocab set, not worth a separate node                            |
+| ÉCRIT · lire des instructions                                      | Follow brief written directions                      | A1-LOC-001                                                                                                           |
+| STRATÉGIES POUR LA COMPRÉHENSION (TV/films, indices et déductions) | Pas de descripteur disponible ×2                     | Gap — no A1 descriptors exist                                                                                        |
+
+### Interaction activities
+
+| Sub-activity (source)                                                      | A1 descriptor (condensed)                                        | Repo mapping                                          |
+| -------------------------------------------------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------- |
+| ORALE · interaction générale                                               | Simple interaction via repetition; ask/answer simple questions   | A1-CLARIFY-001, A1-INTRO-002, A1-REQUEST-001          |
+| ORALE · comprendre un locuteur natif                                       | Everyday expressions if repeated and slow                        | A1-CLARIFY-001 (+ cross-cutting reception qualifier)  |
+| ORALE · conversation                                                       | Introduce someone; greetings/farewells; ask after someone's news | A1-INTRO-001, A1-GREET-001, A1-GREET-002              |
+| ORALE · discussions informelles / formelles                                | Pas de descripteur disponible ×2                                 | Gap — no A1 descriptors exist                         |
+| ORALE · coopération à visée fonctionnelle                                  | Ask for and give objects; understand instructions                | A1-REQUEST-001, A1-OFFER-001, A1-CLARIFY-001          |
+| ORALE · obtenir des biens et des services                                  | Request/give; numbers, quantities, money, time                   | A1-REQUEST-001, A1-SHOP-001, A1-NUMB-001, A1-TIME-001 |
+| ORALE · échange d'information                                              | Personal Q&A; talk about time expressions                        | A1-INTRO-002, A1-TIME-001                             |
+| ORALE · interviewer et être interviewé                                     | Answer slowly-spoken personal questions                          | A1-INTRO-002                                          |
+| ÉCRITE · interaction générale                                              | Transmit personal info in writing                                | A1-FORM-001                                           |
+| ÉCRITE · correspondance                                                    | Write a simple brief postcard                                    | A1-WRITE-001 (new)                                    |
+| ÉCRITE · notes, messages et formulaires                                    | Name, nationality, address, DOB on a hotel card                  | A1-FORM-001 (exact match)                             |
+| STRATÉGIES POUR L'INTERACTION (tours de parole, coopérer, faire clarifier) | Pas de descripteur disponible ×3                                 | Gap — no A1 descriptors exist                         |
+| MÉDIATION (whole section)                                                  | Pas de descripteurs disponibles                                  | Gap — no A1 descriptors exist                         |
+
+### Cross-cutting competences
+
+| Competence (source)                                                 | A1 descriptor (condensed)                                                                         | Repo mapping                                                                                                             |
+| ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Étendue linguistique générale                                       | Elementary expressions for self and common needs                                                  | Cross-cutting; realized via A1-INTRO-001, A1-REQUEST-001                                                                 |
+| Étendue du vocabulaire                                              | Elementary words for concrete situations                                                          | A1 reading-vocab cluster (validates the vocab-node design)                                                               |
+| Maîtrise du vocabulaire                                             | Pas de descripteur disponible                                                                     | Gap — no A1 descriptor exists                                                                                            |
+| Correction grammaticale                                             | Limited control of memorized simple structures                                                    | Cross-cutting; realized through the memorized phrase inventory (A1 realisations ship `grammar: []` per level convention) |
+| Maîtrise du système phonologique                                    | Understandable memorized pronunciation                                                            | Cross-cutting; served by TTS `pronounce()` (fr-FR voice verified in #106)                                                |
+| Maîtrise de l'orthographe                                           | Copy short expressions; spell address/nationality                                                 | A1-FORM-001 (+ cross-cutting orthography quality)                                                                        |
+| Correction sociolinguistique                                        | Elementary politeness: greetings, farewells, introductions, merci / s'il vous plaît / excusez-moi | A1-GREET-001, A1-GREET-002, A1-INTRO-001, A1-THANK-001, A1-REQUEST-001, A1-SORRY-001                                     |
+| Discursive · souplesse / tours de parole / développement thématique | Pas de descripteur disponible ×3                                                                  | Gap — no A1 descriptors exist                                                                                            |
+| Discursive · cohérence et cohésion                                  | Link words with « et », « alors »                                                                 | Gap — too thin to model at A1; connectors are modelled from B1-DISCOURSE-001 where substantial                           |
+| Fonctionnelle · aisance à l'oral                                    | Very short stereotyped utterances with pauses                                                     | Cross-cutting A1 oral-fluency qualifier                                                                                  |
+| Fonctionnelle · précision                                           | Pas de descripteur disponible                                                                     | Gap — no A1 descriptor exists                                                                                            |
+
+## A1 nodes in the repo (EN→FR)
+
+All 24 A1 `cefr-nodes/` are language-agnostic Can-Do statements — 23 pre-existing (sourced from the Referencial Camões PLE shared A1 inventory) plus **`A1-WRITE-001`, created by #107** for the uncovered written-production descriptors. Paired en-GB/fr-FR realisations were authored for all 24.
+
+| nodeId         | Skill              | Can-Do                                                                                   | Status                  |
+| -------------- | ------------------ | ---------------------------------------------------------------------------------------- | ----------------------- |
+| A1-GREET-001   | spoken_interaction | Can greet people and respond to greetings                                                | ✅ Realised             |
+| A1-GREET-002   | spoken_interaction | Can use basic formulas for leave-taking                                                  | ✅ Realised             |
+| A1-INTRO-001   | spoken_interaction | Can introduce themselves and others                                                      | ✅ Realised             |
+| A1-INTRO-002   | spoken_interaction | Can ask and answer basic questions about personal details                                | ✅ Realised             |
+| A1-NUMB-001    | reading            | Can recognize and write numbers 1-100                                                    | ✅ Realised             |
+| A1-FOOD-001    | reading            | Can identify common food and drink items                                                 | ✅ Realised             |
+| A1-THANK-001   | spoken_interaction | Can express thanks and respond to thanks                                                 | ✅ Realised             |
+| A1-SORRY-001   | spoken_interaction | Can apologise and respond to apologies                                                   | ✅ Realised             |
+| A1-LOC-001     | spoken_interaction | Can ask for and understand simple directions                                             | ✅ Realised             |
+| A1-TIME-001    | reading            | Can understand basic time and date expressions                                           | ✅ Realised             |
+| A1-REQUEST-001 | spoken_interaction | Can make simple requests using polite forms                                              | ✅ Realised             |
+| A1-OFFER-001   | spoken_production  | Can offer things and make simple invitations                                             | ✅ Realised             |
+| A1-OPIN-001    | spoken_production  | Can express simple opinions about everyday topics                                        | ✅ Realised             |
+| A1-CAPAB-001   | spoken_production  | Can express ability and inability to do things                                           | ✅ Realised             |
+| A1-WANT-001    | spoken_production  | Can express simple desires and intentions                                                | ✅ Realised             |
+| A1-FEEL-001    | listening          | Can understand and express basic emotions                                                | ✅ Realised             |
+| A1-CLARIFY-001 | spoken_interaction | Can ask someone to repeat or clarify                                                     | ✅ Realised             |
+| A1-FAMILY-001  | reading            | Can identify immediate family members and basic physical appearance terms                | ✅ Realised             |
+| A1-BODY-001    | reading            | Can identify basic body parts and simple health vocabulary                               | ✅ Realised             |
+| A1-HOBBY-001   | reading            | Can identify common hobbies and free-time activities                                     | ✅ Realised             |
+| A1-ROUTINE-001 | reading            | Can identify common daily-life objects and rooms in a home                               | ✅ Realised             |
+| A1-SHOP-001    | reading            | Can identify basic shopping and money vocabulary                                         | ✅ Realised             |
+| A1-FORM-001    | writing            | Can fill in a simple form with basic personal details                                    | ✅ Realised             |
+| A1-WRITE-001   | writing            | Can write short simple texts about themselves, such as postcards and simple descriptions | ✅ Realised (new, #107) |
+
+A1 Coverage: 24/24 nodes fully realised (100%).
+
 ## Sourcing note
 
 No new vocabulary images were sourced — `A1-NUMB-001`'s `imageUrl`s reuse the existing `um.webp`/`dois.webp`/`tres.webp` files (already credited in `public/vocab-images/CREDITS.md`), since the underlying photographs (numeral shapes) are language-independent. See `docs/content-attribution.md` (#41) for the sourcing policy this follows.
 
 ## Verification
 
-- `npm run validate:content`: 620 realisations, all reference valid `cefr-nodes`
+- `npm run validate:content`: 519 realisations, all reference valid `cefr-nodes` (125 nodes); vocabulary-parity warning at the 17-node informational baseline (not exceeded)
 - `npm run typecheck` / `npm run lint` / `npm test`: clean (see PR for exact numbers)
 - `npm run build`: routes generated automatically for `en-GB↔fr-FR`, `es-ES↔fr-FR`, `pt-PT↔fr-FR`, and `de-DE↔fr-FR` — zero code changes, confirming `getAvailablePairs()`/`pairRealisations()` generalize to a fourth language
+- `tests/e2e/review-fr.spec.ts`: 4/4 passing (fr-FR pair-key SRS persistence, full-session summary, greeting seq-alignment after the skeleton parity fix, en-GB→fr-FR food lesson water/eau)
 - Manual browser verification (chrome-devtools) for `en-GB→fr-FR`: Practice page loads with correct "French" branding (via the existing `languageName()` util, unchanged), a full graded review card, and Progress page showing correctly isolated per-pair state

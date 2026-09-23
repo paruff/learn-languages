@@ -8,10 +8,34 @@ vocabulary:
     example: 'Bonjour, comment allez-vous ?'
     exampleTranslation: 'Hello, how are you?'
   - id: fr-FR-A1-GREET-001-002
+    term: 'Bonjour'
+    translation: 'Good morning'
+    partOfSpeech: phrase
+    example: 'Bonjour Marie, tu as bien dormi ?'
+    exampleTranslation: 'Good morning Marie, did you sleep well?'
+  - id: fr-FR-A1-GREET-001-003
     term: 'Bonsoir'
     translation: 'Good evening'
     partOfSpeech: phrase
     example: 'Bonsoir, madame Dupont.'
     exampleTranslation: 'Good evening, Mrs. Dupont.'
+  - id: fr-FR-A1-GREET-001-004
+    term: 'Comment allez-vous ?'
+    translation: 'How are you?'
+    partOfSpeech: phrase
+    example: 'Bonjour ! Comment allez-vous ?'
+    exampleTranslation: 'Hello! How are you?'
+  - id: fr-FR-A1-GREET-001-005
+    term: 'Bien, merci'
+    translation: 'Fine, thank you'
+    partOfSpeech: phrase
+    example: 'Je vais bien, merci.'
+    exampleTranslation: 'I am fine, thank you.'
+  - id: fr-FR-A1-GREET-001-006
+    term: 'Enchanté'
+    translation: 'Nice to meet you'
+    partOfSpeech: interjection
+    example: "Enchanté, je m'appelle Claire."
+    exampleTranslation: 'Nice to meet you, my name is Claire.'
 grammar: []
 culturalNotes: 'In France, "la bise" (cheek kisses, typically two) is common between friends and family; a handshake is standard in formal or professional settings.'

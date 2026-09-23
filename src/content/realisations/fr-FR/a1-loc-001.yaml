@@ -1,0 +1,42 @@
+nodeId: A1-LOC-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A1-LOC-001-001
+    term: 'Où est... ?'
+    translation: 'Where is...?'
+    partOfSpeech: phrase
+    example: 'Où est la gare ?'
+    exampleTranslation: 'Where is the train station?'
+  - id: fr-FR-A1-LOC-001-002
+    term: 'à gauche'
+    translation: 'left'
+    partOfSpeech: adverb
+    example: 'Allez à gauche.'
+    exampleTranslation: 'Go left.'
+  - id: fr-FR-A1-LOC-001-003
+    term: 'à droite'
+    translation: 'right'
+    partOfSpeech: adverb
+    example: 'Le restaurant est à droite.'
+    exampleTranslation: 'The restaurant is on the right.'
+  - id: fr-FR-A1-LOC-001-004
+    term: 'tout droit'
+    translation: 'straight ahead'
+    partOfSpeech: adverb
+    example: 'Allez tout droit.'
+    exampleTranslation: 'Go straight ahead.'
+  - id: fr-FR-A1-LOC-001-005
+    term: 'rue'
+    translation: 'street'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La rue est longue.'
+    exampleTranslation: 'The street is long.'
+  - id: fr-FR-A1-LOC-001-006
+    term: 'loin'
+    translation: 'away'
+    partOfSpeech: adjective
+    example: 'La gare est loin.'
+    exampleTranslation: 'The station is far away.'
+grammar: []
+culturalNotes: 'Directions in France are usually given street-by-street ("première rue à gauche" — first street on the left), often with everyday landmarks like a pharmacy or bakery as reference points.'

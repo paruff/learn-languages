@@ -1,0 +1,46 @@
+nodeId: A1-HOBBY-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A1-HOBBY-001-001
+    term: 'foot'
+    translation: 'football'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'J’aime jouer au foot le dimanche.'
+    exampleTranslation: 'I like to play football on Sundays.'
+  - id: fr-FR-A1-HOBBY-001-002
+    term: 'musique'
+    translation: 'music'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Elle écoute de la musique chaque soir.'
+    exampleTranslation: 'She listens to music every night.'
+  - id: fr-FR-A1-HOBBY-001-003
+    term: 'livre'
+    translation: 'book'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Je lis un livre intéressant.'
+    exampleTranslation: 'I am reading an interesting book.'
+  - id: fr-FR-A1-HOBBY-001-004
+    term: 'cinéma'
+    translation: 'cinema'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'On y va au cinéma samedi ?'
+    exampleTranslation: 'Shall we go to the cinema on Saturday?'
+  - id: fr-FR-A1-HOBBY-001-005
+    term: 'plage'
+    translation: 'beach'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'En été je vais à la plage tous les jours.'
+    exampleTranslation: 'In summer I go to the beach every day.'
+  - id: fr-FR-A1-HOBBY-001-006
+    term: 'danser'
+    translation: 'to dance'
+    partOfSpeech: verb
+    example: 'J’aime danser avec mes amis.'
+    exampleTranslation: 'I like to dance with my friends.'
+grammar: []
+culturalNotes: 'Everyday French says "jouer au foot" even though the full word is "football" — the short form is what people actually use.'

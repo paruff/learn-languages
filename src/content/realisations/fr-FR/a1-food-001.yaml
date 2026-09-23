@@ -1,0 +1,47 @@
+nodeId: A1-FOOD-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A1-FOOD-001-001
+    term: 'eau'
+    translation: 'water'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Un verre d’eau, s’il vous plaît.'
+    exampleTranslation: 'A glass of water, please.'
+  - id: fr-FR-A1-FOOD-001-002
+    term: 'pain'
+    translation: 'bread'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Je mange du pain au petit-déjeuner.'
+    exampleTranslation: 'I eat bread for breakfast.'
+  - id: fr-FR-A1-FOOD-001-003
+    term: 'café'
+    translation: 'coffee'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Voulez-vous un café ?'
+    exampleTranslation: 'Would you like coffee?'
+  - id: fr-FR-A1-FOOD-001-004
+    term: 'lait'
+    translation: 'milk'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Le lait est dans le frigo.'
+    exampleTranslation: 'The milk is in the fridge.'
+  - id: fr-FR-A1-FOOD-001-005
+    term: 'pomme'
+    translation: 'apple'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Je mange une pomme.'
+    exampleTranslation: 'I eat an apple.'
+  - id: fr-FR-A1-FOOD-001-006
+    term: 'nourriture'
+    translation: 'food'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La nourriture est très bonne.'
+    exampleTranslation: 'The food is very good.'
+grammar: []
+culturalNotes: 'Bread is central to French meals — the daily baguette is still bought fresh at the boulangerie, and "du pain" accompanies most dinners.'

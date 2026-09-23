@@ -1,0 +1,42 @@
+nodeId: A1-OFFER-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A1-OFFER-001-001
+    term: 'Voulez-vous... ?'
+    translation: 'Would you like...?'
+    partOfSpeech: phrase
+    example: 'Voulez-vous un café ?'
+    exampleTranslation: 'Would you like a coffee?'
+  - id: fr-FR-A1-OFFER-001-002
+    term: 'On y va... ?'
+    translation: 'Shall we...?'
+    partOfSpeech: phrase
+    example: 'On y va au cinéma ?'
+    exampleTranslation: 'Shall we go to the cinema?'
+  - id: fr-FR-A1-OFFER-001-003
+    term: 'Tu veux... ?'
+    translation: 'Do you want...?'
+    partOfSpeech: phrase
+    example: 'Tu veux venir avec nous ?'
+    exampleTranslation: 'Do you want to come along?'
+  - id: fr-FR-A1-OFFER-001-004
+    term: 'invitation'
+    translation: 'invitation'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Merci beaucoup pour l’invitation.'
+    exampleTranslation: 'Thank you very much for the invitation.'
+  - id: fr-FR-A1-OFFER-001-005
+    term: 'offrir'
+    translation: 'to offer'
+    partOfSpeech: verb
+    example: 'Puis-je vous offrir quelque chose ?'
+    exampleTranslation: 'Can I offer you something?'
+  - id: fr-FR-A1-OFFER-001-006
+    term: 'volontiers'
+    translation: 'gladly'
+    partOfSpeech: adverb
+    example: 'Oui, volontiers !'
+    exampleTranslation: 'Yes, gladly!'
+grammar: []
+culturalNotes: '"Voulez-vous...?" is the polite offer; "Tu veux...?" is for friends. Answers often use "volontiers" (gladly) rather than a plain "oui", which can sound abrupt.'

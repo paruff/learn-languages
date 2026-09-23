@@ -1,0 +1,42 @@
+nodeId: A1-WANT-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A1-WANT-001-001
+    term: 'Je veux...'
+    translation: 'I want...'
+    partOfSpeech: phrase
+    example: 'Je veux rentrer à la maison.'
+    exampleTranslation: 'I want to go home.'
+  - id: fr-FR-A1-WANT-001-002
+    term: 'Je voudrais...'
+    translation: 'I would like...'
+    partOfSpeech: phrase
+    example: 'Je voudrais boire un thé.'
+    exampleTranslation: 'I would like to drink a tea.'
+  - id: fr-FR-A1-WANT-001-003
+    term: 'Je vais...'
+    translation: "I'm going to..."
+    partOfSpeech: phrase
+    example: 'Je vais voyager demain.'
+    exampleTranslation: "I'm going to travel tomorrow."
+  - id: fr-FR-A1-WANT-001-004
+    term: 'espérer'
+    translation: 'to hope'
+    partOfSpeech: verb
+    example: 'J’espère que vous allez bien.'
+    exampleTranslation: 'I hope you are doing well.'
+  - id: fr-FR-A1-WANT-001-005
+    term: 'souhaiter'
+    translation: 'to wish'
+    partOfSpeech: verb
+    example: 'Je vous souhaite une bonne journée.'
+    exampleTranslation: 'I wish you a nice day.'
+  - id: fr-FR-A1-WANT-001-006
+    term: 'souhait'
+    translation: 'wish'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'C’est mon plus grand souhait.'
+    exampleTranslation: 'That is my greatest wish.'
+grammar: []
+culturalNotes: '"Je voudrais" (I would like) is the polite form for shops and restaurants; "Je veux" (I want) can sound abrupt to strangers.'

@@ -1,0 +1,43 @@
+nodeId: A1-TIME-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A1-TIME-001-001
+    term: 'Quelle heure est-il ?'
+    translation: 'What time is it?'
+    partOfSpeech: phrase
+    example: 'Excusez-moi, quelle heure est-il ?'
+    exampleTranslation: 'Excuse me, what time is it?'
+  - id: fr-FR-A1-TIME-001-002
+    term: 'aujourd’hui'
+    translation: 'today'
+    partOfSpeech: adverb
+    example: 'Aujourd’hui c’est lundi.'
+    exampleTranslation: 'Today is Monday.'
+  - id: fr-FR-A1-TIME-001-003
+    term: 'demain'
+    translation: 'tomorrow'
+    partOfSpeech: adverb
+    example: 'Demain je viendrai encore.'
+    exampleTranslation: 'Tomorrow I will come again.'
+  - id: fr-FR-A1-TIME-001-004
+    term: 'hier'
+    translation: 'yesterday'
+    partOfSpeech: adverb
+    example: 'Hier j’étais au cinéma.'
+    exampleTranslation: 'Yesterday I was at the cinema.'
+  - id: fr-FR-A1-TIME-001-005
+    term: 'heure'
+    translation: "o'clock"
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Il est trois heures.'
+    exampleTranslation: "It's three o'clock."
+  - id: fr-FR-A1-TIME-001-006
+    term: 'jour de la semaine'
+    translation: 'day of the week'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Quel jour de la semaine est-ce aujourd’hui ?'
+    exampleTranslation: 'What day of the week is it today?'
+grammar: []
+culturalNotes: 'For an evening dinner invitation ("un dîner"), arriving about fifteen minutes late is polite; appointments and work demand full punctuality.'
