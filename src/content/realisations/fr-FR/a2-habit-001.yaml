@@ -1,0 +1,41 @@
+nodeId: A2-HABIT-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A2-HABIT-001-001
+    term: 'récemment'
+    translation: 'recently'
+    partOfSpeech: adverb
+    example: "Récemment, j'ai commencé à faire du sport."
+    exampleTranslation: 'Recently I started doing sport.'
+  - id: fr-FR-A2-HABIT-001-002
+    term: 'dernièrement'
+    translation: 'lately'
+    partOfSpeech: adverb
+    example: 'Dernièrement, je mange plus de fruits.'
+    exampleTranslation: 'Lately I have been eating more fruit.'
+  - id: fr-FR-A2-HABIT-001-003
+    term: 'commencer à'
+    translation: 'to start doing'
+    partOfSpeech: verb
+    example: "J'ai commencé à lire plus de livres."
+    exampleTranslation: 'I started reading more books.'
+  - id: fr-FR-A2-HABIT-001-004
+    term: 'arrêter de'
+    translation: 'to stop doing'
+    partOfSpeech: verb
+    example: "J'ai arrêté de manger trop de sucré."
+    exampleTranslation: 'I stopped eating so much sugar.'
+  - id: fr-FR-A2-HABIT-001-005
+    term: 'changer'
+    translation: 'to change'
+    partOfSpeech: verb
+    example: "J'ai changé mes habitudes alimentaires."
+    exampleTranslation: 'I changed my eating habits.'
+  - id: fr-FR-A2-HABIT-001-006
+    term: 'améliorer'
+    translation: 'to improve'
+    partOfSpeech: verb
+    example: 'Je veux améliorer ma santé.'
+    exampleTranslation: 'I want to improve my health.'
+grammar: []
+culturalNotes: 'French wellness talk often starts with the marché and seasonal produce; "manger mieux" is a classic New Year’s resolution.'

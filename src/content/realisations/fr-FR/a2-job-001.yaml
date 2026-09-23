@@ -1,0 +1,45 @@
+nodeId: A2-JOB-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A2-JOB-001-001
+    term: 'emploi'
+    translation: 'job'
+    partOfSpeech: noun
+    gender: masculine
+    example: "J'ai un emploi en centre-ville."
+    exampleTranslation: 'I have a job in the city centre.'
+  - id: fr-FR-A2-JOB-001-002
+    term: 'bureau'
+    translation: 'office'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Je travaille dans un grand bureau.'
+    exampleTranslation: 'I work in a large office.'
+  - id: fr-FR-A2-JOB-001-003
+    term: 'horaires de travail'
+    translation: 'working hours'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Mes horaires de travail sont de neuf à dix-sept heures.'
+    exampleTranslation: 'My working hours are from nine to five.'
+  - id: fr-FR-A2-JOB-001-004
+    term: 'gagner'
+    translation: 'to earn'
+    partOfSpeech: verb
+    example: 'Je gagne bien dans mon emploi.'
+    exampleTranslation: 'I earn well in my job.'
+  - id: fr-FR-A2-JOB-001-005
+    term: 'collègue'
+    translation: 'colleague'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Mes collègues sont très sympathiques.'
+    exampleTranslation: 'My colleagues are very friendly.'
+  - id: fr-FR-A2-JOB-001-006
+    term: 'satisfait'
+    translation: 'satisfied'
+    partOfSpeech: adjective
+    example: 'Je suis satisfait de mon emploi.'
+    exampleTranslation: 'I am satisfied with my job.'
+grammar: []
+culturalNotes: 'In France the standard working week is 35 hours in many sectors; colleagues address each other as "Madame/Monsieur" until invited to use first names.'

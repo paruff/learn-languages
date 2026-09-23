@@ -1,0 +1,44 @@
+nodeId: A2-JOB-002
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A2-JOB-002-001
+    term: 'routine'
+    translation: 'routine'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ma routine de travail est très chargée.'
+    exampleTranslation: 'My work routine is very busy.'
+  - id: fr-FR-A2-JOB-002-002
+    term: 'tâche'
+    translation: 'task'
+    partOfSpeech: noun
+    gender: feminine
+    example: "J'ai beaucoup de tâches à faire aujourd'hui."
+    exampleTranslation: 'I have many tasks to do today.'
+  - id: fr-FR-A2-JOB-002-003
+    term: 'réunion'
+    translation: 'meeting'
+    partOfSpeech: noun
+    gender: feminine
+    example: "J'ai une réunion à dix heures."
+    exampleTranslation: 'I have a meeting at ten in the morning.'
+  - id: fr-FR-A2-JOB-002-004
+    term: 'toujours'
+    translation: 'always'
+    partOfSpeech: adverb
+    example: "J'arrive toujours à l'heure au travail."
+    exampleTranslation: 'I always arrive at work on time.'
+  - id: fr-FR-A2-JOB-002-005
+    term: 'parfois'
+    translation: 'sometimes'
+    partOfSpeech: adverb
+    example: 'Parfois, je déjeune au restaurant du coin.'
+    exampleTranslation: 'Sometimes I have lunch at the corner restaurant.'
+  - id: fr-FR-A2-JOB-002-006
+    term: 'finir'
+    translation: 'to finish'
+    partOfSpeech: verb
+    example: "D'habitude, je finis le travail à six heures."
+    exampleTranslation: 'I usually finish work at six.'
+grammar: []
+culturalNotes: 'The French lunch break is often a full hour; many workers eat at a boulangerie, the cantine, or bring a "plat du jour" from home.'

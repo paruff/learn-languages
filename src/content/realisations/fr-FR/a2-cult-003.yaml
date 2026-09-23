@@ -1,0 +1,41 @@
+nodeId: A2-CULT-003
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A2-CULT-003-001
+    term: "J'aime"
+    translation: 'I like'
+    partOfSpeech: phrase
+    example: "J'aime écouter de la musique traditionnelle."
+    exampleTranslation: 'I like listening to traditional music.'
+  - id: fr-FR-A2-CULT-003-002
+    term: 'Cela me semble intéressant'
+    translation: 'it seems interesting to me'
+    partOfSpeech: phrase
+    example: 'La culture française me semble intéressante.'
+    exampleTranslation: 'French culture seems interesting to me.'
+  - id: fr-FR-A2-CULT-003-003
+    term: 'important'
+    translation: 'important'
+    partOfSpeech: adjective
+    example: 'Il est important de préserver les traditions.'
+    exampleTranslation: 'It is important to preserve traditions.'
+  - id: fr-FR-A2-CULT-003-004
+    term: 'valoriser'
+    translation: 'to value'
+    partOfSpeech: verb
+    example: 'Nous devons valoriser notre culture.'
+    exampleTranslation: 'We should value our culture.'
+  - id: fr-FR-A2-CULT-003-005
+    term: 'apprécier'
+    translation: 'to appreciate'
+    partOfSpeech: verb
+    example: "J'apprécie l'art français."
+    exampleTranslation: 'I appreciate French art.'
+  - id: fr-FR-A2-CULT-003-006
+    term: 'intéressant'
+    translation: 'interesting'
+    partOfSpeech: adjective
+    example: 'Le festival était très intéressant.'
+    exampleTranslation: 'The festival was very interesting.'
+grammar: []
+culturalNotes: 'France hosts hundreds of annual festivals (fêtes, fête de la musique, foires du livre); valuing the "patrimoine" is a common theme in everyday cultural talk.'

@@ -1,0 +1,42 @@
+nodeId: A2-PAST-002
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A2-PAST-002-001
+    term: 'avant'
+    translation: 'before'
+    partOfSpeech: adverb
+    example: 'Avant, je vivais à la campagne.'
+    exampleTranslation: 'Before I lived in the countryside.'
+  - id: fr-FR-A2-PAST-002-002
+    term: 'maintenant'
+    translation: 'now'
+    partOfSpeech: adverb
+    example: 'Maintenant, je vis en ville.'
+    exampleTranslation: 'Now I live in the city.'
+  - id: fr-FR-A2-PAST-002-003
+    term: 'changer'
+    translation: 'to change'
+    partOfSpeech: verb
+    example: 'J’ai beaucoup changé ces dernières années.'
+    exampleTranslation: 'I have changed a lot in recent years.'
+  - id: fr-FR-A2-PAST-002-004
+    term: 'grandir'
+    translation: 'to grow'
+    partOfSpeech: verb
+    example: 'J’ai grandi dans une petite ville.'
+    exampleTranslation: 'I grew up in a small town.'
+  - id: fr-FR-A2-PAST-002-005
+    term: 'expérience'
+    translation: 'experience'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Cette expérience a changé ma vie.'
+    exampleTranslation: 'This experience changed my life.'
+  - id: fr-FR-A2-PAST-002-006
+    term: 'transformer'
+    translation: 'to transform'
+    partOfSpeech: verb
+    example: 'Le temps a tout transformé.'
+    exampleTranslation: 'Time transformed everything.'
+grammar: []
+culturalNotes: 'Many French have moved from rural areas to cities or abroad; "avant / maintenant" stories are a staple of school and café conversation.'

@@ -1,0 +1,45 @@
+nodeId: A2-STUDY-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A2-STUDY-001-001
+    term: 'université'
+    translation: 'university'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'J’étudie à l’université de Lyon.'
+    exampleTranslation: 'I study at the University of Lyon.'
+  - id: fr-FR-A2-STUDY-001-002
+    term: 'cours'
+    translation: 'course'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Mon cours dure trois ans.'
+    exampleTranslation: 'My course lasts three years.'
+  - id: fr-FR-A2-STUDY-001-003
+    term: 'diplôme'
+    translation: 'degree'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'J’ai un diplôme d’ingénieur.'
+    exampleTranslation: 'I have a degree in engineering.'
+  - id: fr-FR-A2-STUDY-001-004
+    term: 'étudier'
+    translation: 'to study'
+    partOfSpeech: verb
+    example: 'J’étudie le français tous les jours.'
+    exampleTranslation: 'I study French every day.'
+  - id: fr-FR-A2-STUDY-001-005
+    term: 'examen'
+    translation: 'exam'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'J’ai un examen la semaine prochaine.'
+    exampleTranslation: 'I have an exam next week.'
+  - id: fr-FR-A2-STUDY-001-006
+    term: 'réussir'
+    translation: 'to pass'
+    partOfSpeech: verb
+    example: 'J’espère réussir l’examen de maths.'
+    exampleTranslation: 'I hope to pass the maths exam.'
+grammar: []
+culturalNotes: 'French higher education runs licence (3 years) then master (2 years); "grande école" tracks and the DUT/BUT are distinct from the university licence.'
