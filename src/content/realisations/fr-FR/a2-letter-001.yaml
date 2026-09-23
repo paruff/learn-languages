@@ -1,0 +1,43 @@
+nodeId: A2-LETTER-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A2-LETTER-001-001
+    term: 'lettre'
+    translation: 'letter'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'J’ai reçu une lettre de ma tante.'
+    exampleTranslation: 'I received a letter from my aunt.'
+  - id: fr-FR-A2-LETTER-001-002
+    term: 'recevoir'
+    translation: 'to receive'
+    partOfSpeech: verb
+    example: 'As-tu reçu mon message ?'
+    exampleTranslation: 'Did you receive my message?'
+  - id: fr-FR-A2-LETTER-001-003
+    term: 'répondre'
+    translation: 'to reply'
+    partOfSpeech: verb
+    example: 'Je répondrai demain matin.'
+    exampleTranslation: 'I will reply tomorrow morning.'
+  - id: fr-FR-A2-LETTER-001-004
+    term: 'Cher/Chère …'
+    translation: 'Dear …'
+    partOfSpeech: phrase
+    example: 'Cher Sam, merci pour de tes nouvelles.'
+    exampleTranslation: 'Dear Sam, thank you for your news.'
+  - id: fr-FR-A2-LETTER-001-005
+    term: 'signature'
+    translation: 'signature'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Mets ta signature en bas.'
+    exampleTranslation: 'Put your signature at the bottom.'
+  - id: fr-FR-A2-LETTER-001-006
+    term: 'Cordialement'
+    translation: 'Best regards'
+    partOfSpeech: phrase
+    example: 'Cordialement, Anna.'
+    exampleTranslation: 'Best regards, Anna.'
+grammar: []
+culturalNotes: 'French letters open with "Madame, Monsieur" when the name is unknown and typically close with "Cordialement" in polite modern correspondence.'

@@ -1,0 +1,11 @@
+nodeId: A2-LOC-001
+cefrLevel: A2
+skill: listening
+canDo: Can follow simple spoken directions and short public announcements
+pragmaticFocus: Understand spoken guidance for getting around
+notionalFocus: Directions, transport, announcements, places
+relatedNodes:
+  - A2-SIGN-001
+  - A2-SHOP-001
+prerequisiteNodes:
+  - A1-LOC-001

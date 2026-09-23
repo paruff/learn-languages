@@ -1,0 +1,43 @@
+nodeId: A2-PLANS-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A2-PLANS-001-001
+    term: 'être d’accord'
+    translation: 'to agree'
+    partOfSpeech: phrase
+    example: 'Je suis d’accord avec ton plan.'
+    exampleTranslation: 'I agree with your plan.'
+  - id: fr-FR-A2-PLANS-001-002
+    term: 'ne pas être d’accord'
+    translation: 'to disagree'
+    partOfSpeech: phrase
+    example: 'Je ne suis pas d’accord avec cette idée.'
+    exampleTranslation: 'I disagree with that idea.'
+  - id: fr-FR-A2-PLANS-001-003
+    term: 'suggestion'
+    translation: 'suggestion'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'J’ai une suggestion pour samedi.'
+    exampleTranslation: 'I have a suggestion for Saturday.'
+  - id: fr-FR-A2-PLANS-001-004
+    term: 'proposer'
+    translation: 'to propose'
+    partOfSpeech: verb
+    example: 'Je propose de nous retrouver à six heures.'
+    exampleTranslation: 'I propose meeting at six.'
+  - id: fr-FR-A2-PLANS-001-005
+    term: 'planifier'
+    translation: 'to plan'
+    partOfSpeech: verb
+    example: 'Nous planifions de visiter le musée.'
+    exampleTranslation: 'We plan to visit the museum.'
+  - id: fr-FR-A2-PLANS-001-006
+    term: 'rendez-vous'
+    translation: 'appointment'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'J’ai un rendez-vous à trois heures.'
+    exampleTranslation: 'I have an appointment at three.'
+grammar: []
+culturalNotes: 'Agreement softeners like "Je pense que…" and tag questions "…, non ?" keep planning talk collaborative; "rendez-vous" covers social and professional appointments alike.'

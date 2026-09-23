@@ -1,0 +1,40 @@
+nodeId: A2-LETTER-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-A2-LETTER-001-001
+    term: 'letter'
+    translation: 'lettre'
+    partOfSpeech: noun
+    example: 'I received a letter from my aunt.'
+    exampleTranslation: 'J’ai reçu une lettre de ma tante.'
+  - id: en-GB-A2-LETTER-001-002
+    term: 'to receive'
+    translation: 'recevoir'
+    partOfSpeech: verb
+    example: 'Did you receive my message?'
+    exampleTranslation: 'As-tu reçu mon message ?'
+  - id: en-GB-A2-LETTER-001-003
+    term: 'to reply'
+    translation: 'répondre'
+    partOfSpeech: verb
+    example: 'I will reply tomorrow morning.'
+    exampleTranslation: 'Je répondrai demain matin.'
+  - id: en-GB-A2-LETTER-001-004
+    term: 'Dear …'
+    translation: 'Cher/Chère …'
+    partOfSpeech: phrase
+    example: 'Dear Sam, thank you for your news.'
+    exampleTranslation: 'Cher Sam, merci pour de tes nouvelles.'
+  - id: en-GB-A2-LETTER-001-005
+    term: 'signature'
+    translation: 'signature'
+    partOfSpeech: noun
+    example: 'Put your signature at the bottom.'
+    exampleTranslation: 'Mets ta signature en bas.'
+  - id: en-GB-A2-LETTER-001-006
+    term: 'Best regards'
+    translation: 'Cordialement'
+    partOfSpeech: phrase
+    example: 'Best regards, Anna.'
+    exampleTranslation: 'Cordialement, Anna.'
+grammar: []

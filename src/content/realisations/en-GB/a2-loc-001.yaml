@@ -1,0 +1,40 @@
+nodeId: A2-LOC-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-A2-LOC-001-001
+    term: 'to turn left'
+    translation: 'tourner à gauche'
+    partOfSpeech: phrase
+    example: 'Turn left at the bank.'
+    exampleTranslation: 'Tournez à gauche devant la banque.'
+  - id: en-GB-A2-LOC-001-002
+    term: 'to turn right'
+    translation: 'tourner à droite'
+    partOfSpeech: phrase
+    example: 'Turn right after the bridge.'
+    exampleTranslation: 'Tournez à droite après le pont.'
+  - id: en-GB-A2-LOC-001-003
+    term: 'straight on'
+    translation: 'tout droit'
+    partOfSpeech: phrase
+    example: 'Go straight on for two minutes.'
+    exampleTranslation: 'Allez tout droit pendant deux minutes.'
+  - id: en-GB-A2-LOC-001-004
+    term: 'bus stop'
+    translation: 'arrêt de bus'
+    partOfSpeech: noun
+    example: 'The bus stop is opposite the school.'
+    exampleTranslation: "L'arrêt de bus est en face de l'école."
+  - id: en-GB-A2-LOC-001-005
+    term: 'to get off'
+    translation: 'descendre'
+    partOfSpeech: verb
+    example: 'Get off at the third stop.'
+    exampleTranslation: 'Descendez à la troisième station.'
+  - id: en-GB-A2-LOC-001-006
+    term: 'delay'
+    translation: 'retard'
+    partOfSpeech: noun
+    example: 'There is a ten-minute delay on line 4.'
+    exampleTranslation: 'Il y a un retard de dix minutes sur la ligne 4.'
+grammar: []

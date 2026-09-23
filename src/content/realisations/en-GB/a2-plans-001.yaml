@@ -1,0 +1,40 @@
+nodeId: A2-PLANS-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-A2-PLANS-001-001
+    term: 'to agree'
+    translation: 'être d’accord'
+    partOfSpeech: phrase
+    example: 'I agree with your plan.'
+    exampleTranslation: 'Je suis d’accord avec ton plan.'
+  - id: en-GB-A2-PLANS-001-002
+    term: 'to disagree'
+    translation: 'ne pas être d’accord'
+    partOfSpeech: phrase
+    example: 'I disagree with that idea.'
+    exampleTranslation: 'Je ne suis pas d’accord avec cette idée.'
+  - id: en-GB-A2-PLANS-001-003
+    term: 'suggestion'
+    translation: 'suggestion'
+    partOfSpeech: noun
+    example: 'I have a suggestion for Saturday.'
+    exampleTranslation: 'J’ai une suggestion pour samedi.'
+  - id: en-GB-A2-PLANS-001-004
+    term: 'to propose'
+    translation: 'proposer'
+    partOfSpeech: verb
+    example: 'I propose meeting at six.'
+    exampleTranslation: 'Je propose de nous retrouver à six heures.'
+  - id: en-GB-A2-PLANS-001-005
+    term: 'to plan'
+    translation: 'planifier'
+    partOfSpeech: verb
+    example: 'We plan to visit the museum.'
+    exampleTranslation: 'Nous planifions de visiter le musée.'
+  - id: en-GB-A2-PLANS-001-006
+    term: 'appointment'
+    translation: 'rendez-vous'
+    partOfSpeech: noun
+    example: 'I have an appointment at three.'
+    exampleTranslation: 'J’ai un rendez-vous à trois heures.'
+grammar: []

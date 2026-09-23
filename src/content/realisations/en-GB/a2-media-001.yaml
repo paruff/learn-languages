@@ -1,0 +1,40 @@
+nodeId: A2-MEDIA-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-A2-MEDIA-001-001
+    term: 'documentary'
+    translation: 'documentaire'
+    partOfSpeech: noun
+    example: 'We watched a documentary about space.'
+    exampleTranslation: 'Nous avons regardé un documentaire sur l’espace.'
+  - id: en-GB-A2-MEDIA-001-002
+    term: 'weather forecast'
+    translation: 'météo'
+    partOfSpeech: noun
+    example: 'The weather forecast says it will rain.'
+    exampleTranslation: 'La météo annonce de la pluie.'
+  - id: en-GB-A2-MEDIA-001-003
+    term: 'traffic'
+    translation: 'circulation'
+    partOfSpeech: noun
+    example: 'There is bad traffic this evening.'
+    exampleTranslation: 'Il y a de mauvaise circulation ce soir.'
+  - id: en-GB-A2-MEDIA-001-004
+    term: 'live'
+    translation: 'en direct'
+    partOfSpeech: adverb
+    example: 'The match is shown live.'
+    exampleTranslation: 'Le match est diffusé en direct.'
+  - id: en-GB-A2-MEDIA-001-005
+    term: 'channel'
+    translation: 'chaîne'
+    partOfSpeech: noun
+    example: 'I watch channel two for the weather.'
+    exampleTranslation: 'Je regarde la chaîne deux pour la météo.'
+  - id: en-GB-A2-MEDIA-001-006
+    term: 'the news'
+    translation: 'le journal'
+    partOfSpeech: noun
+    example: 'The news starts at eight o’clock.'
+    exampleTranslation: 'Le journal commence à huit heures.'
+grammar: []

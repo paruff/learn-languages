@@ -1,0 +1,11 @@
+nodeId: A2-LETTER-001
+cefrLevel: A2
+skill: reading
+canDo: Can understand simple personal letters and standard messages
+pragmaticFocus: Read everyday correspondence for key information
+notionalFocus: Letters, messages, replies, correspondence
+relatedNodes:
+  - A2-WRITE-001
+  - A2-SIGN-001
+prerequisiteNodes:
+  - A1-WRITE-001

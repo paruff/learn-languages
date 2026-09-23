@@ -1,0 +1,41 @@
+nodeId: A2-SOCIAL-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A2-SOCIAL-001-001
+    term: 'Enchanté'
+    translation: 'Nice to meet you'
+    partOfSpeech: interjection
+    example: 'Enchanté, je suis Claire.'
+    exampleTranslation: 'Nice to meet you, I’m Claire.'
+  - id: fr-FR-A2-SOCIAL-001-002
+    term: 'Comment allez-vous ?'
+    translation: 'How are you?'
+    partOfSpeech: phrase
+    example: 'Bonjour Marie, comment allez-vous ?'
+    exampleTranslation: 'Hello Marie, how are you?'
+  - id: fr-FR-A2-SOCIAL-001-003
+    term: 's’il vous plaît'
+    translation: 'please'
+    partOfSpeech: phrase
+    example: 'Un café, s’il vous plaît.'
+    exampleTranslation: 'A coffee, please.'
+  - id: fr-FR-A2-SOCIAL-001-004
+    term: 'excusez-moi'
+    translation: 'excuse me'
+    partOfSpeech: phrase
+    example: 'Excusez-moi, où est la gare ?'
+    exampleTranslation: 'Excuse me, where is the station?'
+  - id: fr-FR-A2-SOCIAL-001-005
+    term: 'présenter'
+    translation: 'to introduce'
+    partOfSpeech: verb
+    example: 'Permettez-moi de vous présenter mon collègue.'
+    exampleTranslation: 'Let me introduce my colleague.'
+  - id: fr-FR-A2-SOCIAL-001-006
+    term: 'échanger'
+    translation: 'to exchange'
+    partOfSpeech: verb
+    example: 'Nous avons échangé nos numéros de téléphone.'
+    exampleTranslation: 'We exchanged phone numbers.'
+grammar: []
+culturalNotes: 'Standard politeness stacks in French requests: "Bonjour" first, then the ask, then "s’il vous plaît"; "Excusez-moi" opens almost any approach to a stranger.'

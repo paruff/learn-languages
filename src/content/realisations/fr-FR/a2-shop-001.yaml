@@ -1,0 +1,44 @@
+nodeId: A2-SHOP-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A2-SHOP-001-001
+    term: 'acheter'
+    translation: 'to buy'
+    partOfSpeech: verb
+    example: 'Je veux acheter deux billets.'
+    exampleTranslation: 'I want to buy two tickets.'
+  - id: fr-FR-A2-SHOP-001-002
+    term: 'prix'
+    translation: 'price'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Quel est le prix de cette veste ?'
+    exampleTranslation: 'What is the price of this jacket?'
+  - id: fr-FR-A2-SHOP-001-003
+    term: 'billet'
+    translation: 'ticket'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Un billet aller-retour, s’il vous plaît.'
+    exampleTranslation: 'A return ticket, please.'
+  - id: fr-FR-A2-SHOP-001-004
+    term: 'commander'
+    translation: 'to order'
+    partOfSpeech: verb
+    example: 'Je voudrais commander la soupe.'
+    exampleTranslation: 'I would like to order the soup.'
+  - id: fr-FR-A2-SHOP-001-005
+    term: 'reçu'
+    translation: 'receipt'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Je peux avoir un reçu, s’il vous plaît ?'
+    exampleTranslation: 'Can I have a receipt, please?'
+  - id: fr-FR-A2-SHOP-001-006
+    term: 'combien'
+    translation: 'how much'
+    partOfSpeech: adverb
+    example: 'Combien ça coûte ?'
+    exampleTranslation: 'How much does it cost?'
+grammar: []
+culturalNotes: 'Card payment is ubiquitous in France ("Carte bancaire" / CB); tipping is modest, and asking for "un reçu" or "la facture" is normal in shops and restaurants.'

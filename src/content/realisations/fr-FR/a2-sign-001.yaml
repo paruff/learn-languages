@@ -1,0 +1,45 @@
+nodeId: A2-SIGN-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A2-SIGN-001-001
+    term: 'panneau'
+    translation: 'sign'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Le panneau dit « Interdiction d’entrer ».'
+    exampleTranslation: 'The sign says "No entry".'
+  - id: fr-FR-A2-SIGN-001-002
+    term: 'horaire'
+    translation: 'timetable'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Consultez l’horaire du prochain train.'
+    exampleTranslation: 'Check the timetable for the next train.'
+  - id: fr-FR-A2-SIGN-001-003
+    term: 'sortie'
+    translation: 'exit'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La sortie est à l’arrière du bâtiment.'
+    exampleTranslation: 'The exit is at the back of the building.'
+  - id: fr-FR-A2-SIGN-001-004
+    term: 'suivre'
+    translation: 'to follow'
+    partOfSpeech: verb
+    example: 'Suivez les instructions à l’écran.'
+    exampleTranslation: 'Follow the instructions on the screen.'
+  - id: fr-FR-A2-SIGN-001-005
+    term: 'indication'
+    translation: 'instruction'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Lis chaque indication attentivement.'
+    exampleTranslation: 'Read each instruction carefully.'
+  - id: fr-FR-A2-SIGN-001-006
+    term: 'ouvert'
+    translation: 'open'
+    partOfSpeech: adjective
+    example: 'La boulangerie est ouverte le dimanche matin.'
+    exampleTranslation: 'The bakery is open on Sunday morning.'
+grammar: []
+culturalNotes: 'Shop signs show "Ouvert / Fermé" with posted "horaires"; public notices often read "Attention", "Sortie de secours", and "Sens interdit".'
