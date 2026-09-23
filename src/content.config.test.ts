@@ -273,16 +273,50 @@ describe('CEFR Node Schema Validation', () => {
 // Re-created from content.config.ts for testing (astro:content isn't
 // importable outside Astro's Vite context — see the note on
 // vocabularyItemSchema above).
-const exerciseSchema = z.object({
-  id: z.string().regex(/^[a-z]{2}(-[A-Z]{2})?-.+-\d{3}$/),
-  lessonId: z.string(),
-  type: z.enum(['fill-blank', 'matching', 'multiple-choice', 'audio']),
+const comprehensionQuestionSchema = z.object({
+  type: z.enum(['fill-blank', 'multiple-choice']),
   prompt: z.string().min(1),
   answer: z.union([z.string(), z.array(z.string())]),
   options: z.array(z.string()).optional(),
-  audio: z.string().optional(),
-  hints: z.array(z.string()).optional(),
 });
+
+const passageSourceSchema = z.object({
+  title: z.string().min(1),
+  url: z.string().url(),
+  license: z.string().min(1),
+});
+
+const exerciseSchema = z
+  .object({
+    id: z.string().regex(/^[a-z]{2}(-[A-Z]{2})?-.+-\d{3}$/),
+    lessonId: z.string(),
+    type: z.enum(['fill-blank', 'matching', 'multiple-choice', 'audio', 'passage']),
+    prompt: z.string().min(1).optional(),
+    answer: z.union([z.string(), z.array(z.string())]).optional(),
+    options: z.array(z.string()).optional(),
+    audio: z.string().optional(),
+    hints: z.array(z.string()).optional(),
+    // Comprehensible-input passage exercise (issue #125): a short connected
+    // text plus 2-4 comprehension questions, distinct from every other type's
+    // single prompt/answer shape.
+    passageText: z.array(z.string().min(1)).min(1).optional(),
+    passageSource: passageSourceSchema.optional(),
+    questions: z.array(comprehensionQuestionSchema).min(2).max(4).optional(),
+  })
+  .refine(
+    (data) => data.type !== 'passage' || (data.passageText && data.passageSource && data.questions),
+    {
+      message: 'passage exercises require passageText, passageSource, and questions',
+      path: ['type'],
+    }
+  )
+  .refine(
+    (data) => data.type === 'passage' || (data.prompt !== undefined && data.answer !== undefined),
+    {
+      message: 'non-passage exercises require prompt and answer',
+      path: ['prompt'],
+    }
+  );
 
 describe('Exercise Schema Validation', () => {
   const baseExercise = {
@@ -332,5 +366,75 @@ describe('Exercise Schema Validation', () => {
   it('rejects an invalid exercise type', () => {
     const result = exerciseSchema.safeParse({ ...baseExercise, type: 'essay' });
     expect(result.success).toBe(false);
+  });
+
+  describe('passage exercises (issue #125)', () => {
+    const basePassage = {
+      id: 'pt-PT-b1-text-001-passage-001',
+      lessonId: 'B1-TEXT-001',
+      type: 'passage' as const,
+      passageText: [
+        'Pastel de nata é uma popular especialidade da doçaria portuguesa.',
+        'Terá sido criado pelos monges jerónimos no Mosteiro de Santa Maria de Belém.',
+      ],
+      passageSource: {
+        title: 'Pastel de nata',
+        url: 'https://pt.wikipedia.org/wiki/Pastel_de_nata',
+        license: 'CC BY-SA 4.0',
+      },
+      questions: [
+        {
+          type: 'multiple-choice' as const,
+          prompt: 'Quem terá criado o pastel de nata?',
+          answer: 'os monges jerónimos',
+          options: ['os monges jerónimos', 'um padeiro de Lisboa', 'uma família real'],
+        },
+        {
+          type: 'fill-blank' as const,
+          prompt: 'O pastel de nata é uma especialidade da _____ portuguesa.',
+          answer: 'doçaria',
+        },
+      ],
+    };
+
+    it('accepts a well-formed passage exercise', () => {
+      const result = exerciseSchema.safeParse(basePassage);
+      expect(result.success).toBe(true);
+    });
+
+    it('rejects a passage exercise missing passageText', () => {
+      const withoutText: Record<string, unknown> = { ...basePassage };
+      delete withoutText.passageText;
+      const result = exerciseSchema.safeParse(withoutText);
+      expect(result.success).toBe(false);
+    });
+
+    it('rejects a passage exercise missing passageSource attribution', () => {
+      const withoutSource: Record<string, unknown> = { ...basePassage };
+      delete withoutSource.passageSource;
+      const result = exerciseSchema.safeParse(withoutSource);
+      expect(result.success).toBe(false);
+    });
+
+    it('rejects a passage exercise with fewer than 2 questions', () => {
+      const result = exerciseSchema.safeParse({
+        ...basePassage,
+        questions: [basePassage.questions[0]],
+      });
+      expect(result.success).toBe(false);
+    });
+
+    it('rejects a passage exercise with more than 4 questions', () => {
+      const fiveQuestions = Array(5).fill(basePassage.questions[0]);
+      const result = exerciseSchema.safeParse({ ...basePassage, questions: fiveQuestions });
+      expect(result.success).toBe(false);
+    });
+
+    it('still requires prompt and answer for non-passage types (regression check)', () => {
+      const withoutPrompt: Record<string, unknown> = { ...baseExercise };
+      delete withoutPrompt.prompt;
+      const result = exerciseSchema.safeParse(withoutPrompt);
+      expect(result.success).toBe(false);
+    });
   });
 });

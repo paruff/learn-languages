@@ -67,16 +67,50 @@ const realisationSchema = z.object({
   culturalNotes: z.string().optional(),
 });
 
-const exerciseSchema = z.object({
-  id: z.string().regex(/^[a-z]{2}(-[A-Z]{2})?-.+-\d{3}$/),
-  lessonId: z.string(),
-  type: z.enum(['fill-blank', 'matching', 'multiple-choice', 'audio']),
+const comprehensionQuestionSchema = z.object({
+  type: z.enum(['fill-blank', 'multiple-choice']),
   prompt: z.string().min(1),
   answer: z.union([z.string(), z.array(z.string())]),
   options: z.array(z.string()).optional(),
-  audio: z.string().optional(),
-  hints: z.array(z.string()).optional(),
 });
+
+const passageSourceSchema = z.object({
+  title: z.string().min(1),
+  url: z.string().url(),
+  license: z.string().min(1),
+});
+
+const exerciseSchema = z
+  .object({
+    id: z.string().regex(/^[a-z]{2}(-[A-Z]{2})?-.+-\d{3}$/),
+    lessonId: z.string(),
+    type: z.enum(['fill-blank', 'matching', 'multiple-choice', 'audio', 'passage']),
+    prompt: z.string().min(1).optional(),
+    answer: z.union([z.string(), z.array(z.string())]).optional(),
+    options: z.array(z.string()).optional(),
+    audio: z.string().optional(),
+    hints: z.array(z.string()).optional(),
+    // Comprehensible-input passage exercise (issue #125): a short connected
+    // text plus 2-4 comprehension questions, distinct from every other type's
+    // single prompt/answer shape.
+    passageText: z.array(z.string().min(1)).min(1).optional(),
+    passageSource: passageSourceSchema.optional(),
+    questions: z.array(comprehensionQuestionSchema).min(2).max(4).optional(),
+  })
+  .refine(
+    (data) => data.type !== 'passage' || (data.passageText && data.passageSource && data.questions),
+    {
+      message: 'passage exercises require passageText, passageSource, and questions',
+      path: ['type'],
+    }
+  )
+  .refine(
+    (data) => data.type === 'passage' || (data.prompt !== undefined && data.answer !== undefined),
+    {
+      message: 'non-passage exercises require prompt and answer',
+      path: ['prompt'],
+    }
+  );
 
 export const collections = {
   'cefr-nodes': defineCollection({

@@ -30,6 +30,10 @@ export async function getStaticPaths() {
 
 const { sourceLang, targetLang, nodeId } = Astro.params;
 const { node, exercises } = Astro.props;
+// Passed to the client script so it can compute the scoring denominator
+// (a passage's sub-questions count individually, not as 1 — issue #125)
+// without re-deriving it from the DOM.
+const scorable = exercises.map((e) => ({ type: e.type, questionCount: e.questions?.length }));
 ---
 
 <BaseLayout
@@ -56,7 +60,77 @@ const { node, exercises } = Astro.props;
             data-answer={JSON.stringify(exercise.answer)}
             hidden
           >
-            <p class="exercise__prompt">{exercise.prompt}</p>
+            {exercise.type !== 'passage' && <p class="exercise__prompt">{exercise.prompt}</p>}
+
+            {exercise.type === 'passage' &&
+              exercise.passageText &&
+              exercise.passageSource &&
+              exercise.questions && (
+                <div class="exercise__passage" data-questions={JSON.stringify(exercise.questions)}>
+                  {exercise.passageText.map((paragraph) => (
+                    <p class="exercise__passage-para">{paragraph}</p>
+                  ))}
+                  <p class="exercise__passage-source">
+                    Source:{' '}
+                    <a href={exercise.passageSource.url} target="_blank" rel="noopener noreferrer">
+                      {exercise.passageSource.title}
+                    </a>
+                    , {exercise.passageSource.license}
+                  </p>
+                  <button type="button" class="btn btn--secondary exercise__passage-listen">
+                    Listen
+                  </button>
+                  <div class="exercise__passage-questions">
+                    {exercise.questions.map((q, qIndex) => (
+                      <div
+                        class="exercise__passage-question"
+                        data-qtype={q.type}
+                        data-qanswer={JSON.stringify(q.answer)}
+                        hidden={qIndex !== 0}
+                      >
+                        <p class="exercise__prompt">{q.prompt}</p>
+
+                        {q.type === 'fill-blank' && (
+                          <form class="exercise__form">
+                            <input
+                              type="text"
+                              class="exercise__input"
+                              autocomplete="off"
+                              aria-label="Your answer"
+                            />
+                            <button type="submit" class="btn btn--primary">
+                              Check
+                            </button>
+                          </form>
+                        )}
+
+                        {q.type === 'multiple-choice' && q.options && (
+                          <div class="exercise__options">
+                            {q.options.map((option) => (
+                              <button
+                                type="button"
+                                class="btn btn--secondary exercise__option"
+                                data-value={option}
+                              >
+                                {option}
+                              </button>
+                            ))}
+                          </div>
+                        )}
+
+                        <p class="exercise__feedback" hidden />
+                        <button
+                          type="button"
+                          class="btn btn--primary exercise__passage-next"
+                          hidden
+                        >
+                          Next question →
+                        </button>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
 
             {exercise.type === 'fill-blank' && (
               <form class="exercise__form">
@@ -129,7 +203,7 @@ const { node, exercises } = Astro.props;
   <script
     type="application/json"
     id="exercises-data"
-    set:html={JSON.stringify({ total: exercises.length })}
+    set:html={JSON.stringify({ total: exercises.length, scorable, targetLang })}
   />
 </BaseLayout>
 
@@ -191,15 +265,50 @@ const { node, exercises } = Astro.props;
   .exercises__cta {
     margin-top: calc(var(--spacing-unit) * 3);
   }
+  .exercise__passage {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--spacing-unit) * 1.5);
+  }
+  .exercise__passage-para {
+    margin: 0;
+    line-height: 1.6;
+  }
+  .exercise__passage-source {
+    margin: 0;
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+  }
+  .exercise__passage-questions {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--spacing-unit) * 1.5);
+    padding-top: calc(var(--spacing-unit) * 1.5);
+    border-top: 1px solid var(--color-border);
+  }
 </style>
 
 <script>
   import { checkAnswer } from '../../../../lib/exerciseCheck';
+  import { countScorableQuestions } from '../../../../lib/exerciseScoring';
+  import { pronounce } from '../../../../lib/pronounce';
 
   const listEl = document.getElementById('exercise-list')!;
   const progressEl = document.getElementById('exercises-progress')!;
   const completeEl = document.getElementById('exercises-complete')!;
   const exerciseEls = Array.from(listEl.querySelectorAll<HTMLElement>('.exercise'));
+
+  const dataEl = document.getElementById('exercises-data');
+  const { scorable, targetLang } = JSON.parse(dataEl?.textContent ?? '{}') as {
+    scorable: { type: string; questionCount?: number }[];
+    targetLang: string;
+  };
+  const totalScorable = countScorableQuestions(
+    scorable.map((s) => ({
+      type: s.type,
+      questions: s.questionCount ? Array(s.questionCount) : undefined,
+    }))
+  );
 
   let currentIndex = 0;
   let correctCount = 0;
@@ -216,7 +325,7 @@ const { node, exercises } = Astro.props;
       listEl.hidden = true;
       progressEl.hidden = true;
       completeEl.hidden = false;
-      completeEl.textContent = `Done — ${correctCount}/${exerciseEls.length} correct.`;
+      completeEl.textContent = `Done — ${correctCount}/${totalScorable} correct.`;
       return;
     }
     updateProgress();
@@ -258,6 +367,83 @@ const { node, exercises } = Astro.props;
           optionButtons.forEach((b) => (b.disabled = true));
           markFeedback(el, checkAnswer(button.dataset.value ?? '', answer), answerText);
         });
+      });
+    }
+
+    if (type === 'passage') {
+      const passageEl = el.querySelector<HTMLElement>('.exercise__passage')!;
+      const questionEls = Array.from(
+        passageEl.querySelectorAll<HTMLElement>('.exercise__passage-question')
+      );
+      let qIndex = 0;
+
+      function showQuestion(index: number): void {
+        questionEls.forEach((qEl, i) => {
+          qEl.hidden = i !== index;
+        });
+      }
+
+      function advance(): void {
+        qIndex += 1;
+        if (qIndex >= questionEls.length) {
+          const nextBtn = el.querySelector<HTMLButtonElement>('.exercise__next')!;
+          nextBtn.hidden = false;
+          return;
+        }
+        showQuestion(qIndex);
+      }
+
+      questionEls.forEach((qEl) => {
+        const qType = qEl.dataset.qtype;
+        const qAnswer = JSON.parse(qEl.dataset.qanswer ?? '""') as string | string[];
+        const qAnswerText = Array.isArray(qAnswer) ? qAnswer.join('; ') : qAnswer;
+        const feedbackEl = qEl.querySelector<HTMLElement>('.exercise__feedback')!;
+        const qNextBtn = qEl.querySelector<HTMLButtonElement>('.exercise__passage-next')!;
+
+        function markSubFeedback(correct: boolean): void {
+          feedbackEl.hidden = false;
+          feedbackEl.className = `exercise__feedback exercise__feedback--${correct ? 'correct' : 'incorrect'}`;
+          feedbackEl.textContent = correct
+            ? 'Correct!'
+            : `Not quite — the answer is "${qAnswerText}".`;
+          if (correct) correctCount += 1;
+          qNextBtn.hidden = false;
+        }
+
+        if (qType === 'fill-blank') {
+          const form = qEl.querySelector('form')!;
+          const input = qEl.querySelector<HTMLInputElement>('.exercise__input')!;
+          form.addEventListener('submit', (event) => {
+            event.preventDefault();
+            if (form.classList.contains('exercise__form--answered')) return;
+            form.classList.add('exercise__form--answered');
+            input.disabled = true;
+            markSubFeedback(checkAnswer(input.value, qAnswer));
+          });
+        }
+
+        if (qType === 'multiple-choice') {
+          const optionButtons = Array.from(
+            qEl.querySelectorAll<HTMLButtonElement>('.exercise__option')
+          );
+          optionButtons.forEach((button) => {
+            button.addEventListener('click', () => {
+              if (optionButtons.some((b) => b.disabled)) return;
+              optionButtons.forEach((b) => (b.disabled = true));
+              markSubFeedback(checkAnswer(button.dataset.value ?? '', qAnswer));
+            });
+          });
+        }
+
+        qNextBtn.addEventListener('click', advance);
+      });
+
+      const listenBtn = passageEl.querySelector<HTMLButtonElement>('.exercise__passage-listen')!;
+      listenBtn.addEventListener('click', () => {
+        const text = Array.from(passageEl.querySelectorAll<HTMLElement>('.exercise__passage-para'))
+          .map((p) => p.textContent ?? '')
+          .join(' ');
+        pronounce(text, targetLang);
       });
     }
 

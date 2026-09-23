@@ -40,9 +40,24 @@ Before referencing a new image from `imageUrl`, verify it's **pedagogically clea
 
 **Not** acceptable: textbook content, scraped course-platform text, or any copyrighted teaching material. A commercial course's module _titles_ may be cited for cross-checking topic coverage (as already done for AIMA), but never its written content.
 
+### Connected text (passage exercises)
+
+For a `passage`-type exercise (issue #125 — comprehensible-input reading/listening), the vocabulary-structure sourcing above doesn't apply: a passage needs real, freely-licensed **connected prose**, not a curriculum's word/topic list.
+
+**Acceptable sources, in order of preference:**
+
+1. **Wikinews** (CC BY 2.5) — short, real, factual news articles. Best fit for Can-Do statements like "understand factual articles on topics of interest" (e.g. B1-TEXT-001). Check the target language's Wikinews for a short, simply-written article at or slightly above the target CEFR level (i+1).
+2. **Wikipedia** (CC BY-SA 4.0) — fallback when the target language's Wikinews is too sparse or has nothing short/simple enough. Use a lead section or short early section of a factual, concrete-topic article (culture, food, geography — avoid dense technical/political prose). Both are sibling Wikimedia Foundation projects to Wikimedia Commons, already trusted above for images, under the same "verify the license, verify it's genuinely reusable" discipline.
+
+**Not** acceptable: the same exclusions as vocabulary text above (textbook content, scraped course platforms, any copyrighted teaching material) — plus AI-generated prose standing in for authentic input, per the issue's explicit acceptance criterion.
+
+**Excerpting**: quoting a short excerpt (a few short paragraphs) rather than a full article is fine under both CC BY 2.5 and CC BY-SA 4.0 as long as it's attributed; a full-text mirror of the whole article is not necessary and increases share-alike surface area for no pedagogical benefit.
+
+**Attribution**: recorded inline on the exercise itself via `passageSource: { title, url, license }` (see `content.config.ts`'s `exerciseSchema`), rendered on the page as a source line — the passage's own JSON file is its attribution record, so no separate ledger entry is needed (same reasoning as the text/vocabulary-structure case above).
+
 ## Attribution ledger
 
-`public/vocab-images/CREDITS.md` is the existing, already-in-use ledger for images — every file referenced from a realisation's `imageUrl` has a row there recording source URL, license, and whether attribution is required. This pattern is the attribution ledger issue #41 asked for; it predates this policy doc and continues unchanged. No separate ledger is needed for audio (TTS carries no licensing obligation) or text (source documents are cited inline in `docs/{lang}-cefr-mapping.md`, e.g. this file's own Source section above).
+`public/vocab-images/CREDITS.md` is the existing, already-in-use ledger for images — every file referenced from a realisation's `imageUrl` has a row there recording source URL, license, and whether attribution is required. This pattern is the attribution ledger issue #41 asked for; it predates this policy doc and continues unchanged. No separate ledger is needed for audio (TTS carries no licensing obligation) or text (source documents are cited inline in `docs/{lang}-cefr-mapping.md`, e.g. this file's own Source section above, or inline in the exercise JSON itself for passages — see Connected text above).
 
 ## Cross-references
 
