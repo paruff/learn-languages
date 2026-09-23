@@ -1,0 +1,34 @@
+{
+  "id": "pt-PT-b1-text-001-passage-001",
+  "lessonId": "B1-TEXT-001",
+  "type": "passage",
+  "passageText": [
+    "Pastel de nata é uma popular especialidade da doçaria portuguesa, de inspiração conventual. Terá sido criado pelos monges jerónimos no Mosteiro de Santa Maria de Belém e possui origem certificada.",
+    "A receita original é denominada Pastel de Belém, produzida exclusivamente na Fábrica dos Pastéis de Belém, em Lisboa, e tem como base ingredientes como ovo, leite, açúcar, limão e canela.",
+    "A receita ganhou diversas versões em Portugal e em outros países e territórios, como Brasil, Macau, Hong Kong, Singapura e Taiwan, sendo difundida globalmente."
+  ],
+  "passageSource": {
+    "title": "Pastel de nata",
+    "url": "https://pt.wikipedia.org/wiki/Pastel_de_nata",
+    "license": "CC BY-SA 4.0"
+  },
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "prompt": "Quem terá criado o pastel de nata?",
+      "answer": "os monges jerónimos",
+      "options": ["os monges jerónimos", "um padeiro de Lisboa", "uma família real"]
+    },
+    {
+      "type": "fill-blank",
+      "prompt": "O pastel de nata é uma especialidade da _____ portuguesa.",
+      "answer": "doçaria"
+    },
+    {
+      "type": "multiple-choice",
+      "prompt": "Onde é produzida a receita original (o Pastel de Belém)?",
+      "answer": "em Lisboa",
+      "options": ["no Porto", "em Lisboa", "em Coimbra"]
+    }
+  ]
+}
