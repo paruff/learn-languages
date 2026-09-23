@@ -1,0 +1,46 @@
+nodeId: A2-JOB-003
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A2-JOB-003-001
+    term: 'annonce'
+    translation: 'advertisement'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'J’ai vu une annonce d’emploi dans le journal.'
+    exampleTranslation: 'I saw a job advertisement in the newspaper.'
+  - id: fr-FR-A2-JOB-003-002
+    term: 'candidature'
+    translation: 'application'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ma candidature a été acceptée.'
+    exampleTranslation: 'My application was accepted.'
+  - id: fr-FR-A2-JOB-003-003
+    term: 'expérience'
+    translation: 'experience'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ils demandent de l’expérience dans le domaine.'
+    exampleTranslation: 'They require experience in the field.'
+  - id: fr-FR-A2-JOB-003-004
+    term: 'salaire'
+    translation: 'salary'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Le salaire est indiqué dans l’annonce.'
+    exampleTranslation: 'The salary is listed in the advertisement.'
+  - id: fr-FR-A2-JOB-003-005
+    term: 'envoyer'
+    translation: 'to send'
+    partOfSpeech: verb
+    example: 'Je dois envoyer mon CV.'
+    exampleTranslation: 'I need to send my CV.'
+  - id: fr-FR-A2-JOB-003-006
+    term: 'entretien'
+    translation: 'interview'
+    partOfSpeech: noun
+    gender: masculine
+    example: "J'ai un entretien demain."
+    exampleTranslation: 'I have an interview tomorrow.'
+grammar: []
+culturalNotes: 'French applications pair a CV with a lettre de motivation; formal "vous" register is expected until told otherwise.'

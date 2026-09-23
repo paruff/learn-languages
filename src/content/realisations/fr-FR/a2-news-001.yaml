@@ -1,0 +1,46 @@
+nodeId: A2-NEWS-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A2-NEWS-001-001
+    term: 'journal'
+    translation: 'newspaper'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Je lis le journal tous les matins.'
+    exampleTranslation: 'I read the newspaper every morning.'
+  - id: fr-FR-A2-NEWS-001-002
+    term: 'magazine'
+    translation: 'magazine'
+    partOfSpeech: noun
+    gender: masculine
+    example: "J'ai acheté un magazine d'actualité."
+    exampleTranslation: 'I bought a current affairs magazine.'
+  - id: fr-FR-A2-NEWS-001-003
+    term: "titre d'article"
+    translation: 'headline'
+    partOfSpeech: noun
+    gender: masculine
+    example: "Le titre de l'article a attiré mon attention."
+    exampleTranslation: 'The headline caught my attention.'
+  - id: fr-FR-A2-NEWS-001-004
+    term: 'auteur'
+    translation: 'author'
+    partOfSpeech: noun
+    gender: masculine
+    example: "L'auteur écrit bien."
+    exampleTranslation: 'The author writes well.'
+  - id: fr-FR-A2-NEWS-001-005
+    term: 'information'
+    translation: 'information'
+    partOfSpeech: noun
+    gender: feminine
+    example: "L'information est fiable."
+    exampleTranslation: 'The information is reliable.'
+  - id: fr-FR-A2-NEWS-001-006
+    term: 'lire'
+    translation: 'to read'
+    partOfSpeech: verb
+    example: "J'aime lire les actualités en ligne."
+    exampleTranslation: 'I like to read news online.'
+grammar: []
+culturalNotes: 'French readers often pair a print title (Le Monde, Le Figaro) with its site; "le titre" heads both print and online articles.'

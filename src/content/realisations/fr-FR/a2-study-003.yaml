@@ -1,0 +1,45 @@
+nodeId: A2-STUDY-003
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A2-STUDY-003-001
+    term: 'article'
+    translation: 'article'
+    partOfSpeech: noun
+    gender: masculine
+    example: "J'ai lu un article intéressant sur l'éducation."
+    exampleTranslation: 'I read an interesting article about education.'
+  - id: fr-FR-A2-STUDY-003-002
+    term: 'livre'
+    translation: 'book'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Le manuel est très utile.'
+    exampleTranslation: 'The textbook is very useful.'
+  - id: fr-FR-A2-STUDY-003-003
+    term: 'résumé'
+    translation: 'summary'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Je dois faire un résumé du chapitre.'
+    exampleTranslation: 'I need to make a summary of the chapter.'
+  - id: fr-FR-A2-STUDY-003-004
+    term: 'recherche'
+    translation: 'research'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Je fais une recherche pour le projet.'
+    exampleTranslation: 'I am doing research for the project.'
+  - id: fr-FR-A2-STUDY-003-005
+    term: 'apprendre'
+    translation: 'to learn'
+    partOfSpeech: verb
+    example: "J'apprends bien avec ce livre."
+    exampleTranslation: 'I can learn well with this book.'
+  - id: fr-FR-A2-STUDY-003-006
+    term: 'comprendre'
+    translation: 'to understand'
+    partOfSpeech: verb
+    example: 'Il est facile de comprendre ce texte.'
+    exampleTranslation: 'It is easy to understand this text.'
+grammar: []
+culturalNotes: 'French academic writing favours a formal register; students summarise with "résumé" and cite sources in "bibliographie".'
