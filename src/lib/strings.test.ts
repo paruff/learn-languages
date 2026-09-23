@@ -11,6 +11,11 @@ describe('getString', () => {
     expect(getString('xx-YY', 'navLessons')).toBe(getString('en-GB', 'navLessons'));
   });
 
+  it('resolves a per-language reviewProgress template distinct from the en-GB one (regression: was hardcoded "X of Y" in review.astro)', () => {
+    expect(getString('es-ES', 'reviewProgress')).toBe('{current} de {total}');
+    expect(getString('en-GB', 'reviewProgress')).toBe('{current} of {total}');
+  });
+
   it('resolves every supported language for every key (no accidental gaps)', () => {
     const languages = ['en-GB', 'es-ES', 'pt-PT', 'de-DE', 'fr-FR'] as const;
     const keys = [
@@ -21,6 +26,7 @@ describe('getString', () => {
       'reviewTitle',
       'reviewRevealButton',
       'reviewGradeAgain',
+      'reviewProgress',
       'progressTitle',
       'lessonsTitle',
     ] as const;

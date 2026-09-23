@@ -32,6 +32,7 @@ export type StringKey =
   | 'reviewIntro'
   | 'reviewModeReveal'
   | 'reviewModeType'
+  | 'reviewProgress'
   | 'reviewHintRevealLabel'
   | 'reviewHintRevealText'
   | 'reviewHintTypeLabel'
@@ -95,6 +96,7 @@ const EN_GB: Dictionary = {
     'Cards are due on a schedule based on how well you know them (spaced repetition) — reveal or type the answer, then grade yourself honestly so the schedule stays accurate.',
   reviewModeReveal: 'Mode: Reveal',
   reviewModeType: 'Mode: Type answer',
+  reviewProgress: '{current} of {total}',
   reviewHintRevealLabel: 'Reveal',
   reviewHintRevealText: 'shows the answer with a tap — faster, good for early practice.',
   reviewHintTypeLabel: 'Type answer',
@@ -160,6 +162,7 @@ const ES_ES: Dictionary = {
     'Las tarjetas vencen según un calendario basado en lo bien que las conoces (repetición espaciada) — revela o escribe la respuesta y luego califícate con honestidad para que el calendario siga siendo preciso.',
   reviewModeReveal: 'Modo: Revelar',
   reviewModeType: 'Modo: Escribir respuesta',
+  reviewProgress: '{current} de {total}',
   reviewHintRevealLabel: 'Revelar',
   reviewHintRevealText:
     'muestra la respuesta con un toque — más rápido, ideal para practicar al principio.',
@@ -226,6 +229,7 @@ const PT_PT: Dictionary = {
     'Os cartões vencem de acordo com um calendário baseado no quão bem os conhece (repetição espaçada) — revele ou escreva a resposta e depois avalie-se com honestidade para que o calendário se mantenha preciso.',
   reviewModeReveal: 'Modo: Revelar',
   reviewModeType: 'Modo: Escrever resposta',
+  reviewProgress: '{current} de {total}',
   reviewHintRevealLabel: 'Revelar',
   reviewHintRevealText: 'mostra a resposta com um toque — mais rápido, bom para a prática inicial.',
   reviewHintTypeLabel: 'Escrever resposta',
@@ -291,6 +295,7 @@ const DE_DE: Dictionary = {
     'Karten werden nach einem Zeitplan fällig, der davon abhängt, wie gut Sie sie kennen (verteiltes Wiederholen) — decken Sie die Antwort auf oder tippen Sie sie ein, und bewerten Sie sich dann ehrlich, damit der Zeitplan genau bleibt.',
   reviewModeReveal: 'Modus: Aufdecken',
   reviewModeType: 'Modus: Antwort eintippen',
+  reviewProgress: '{current} von {total}',
   reviewHintRevealLabel: 'Aufdecken',
   reviewHintRevealText: 'zeigt die Antwort mit einem Tipp — schneller, gut zum frühen Üben.',
   reviewHintTypeLabel: 'Antwort eintippen',
@@ -356,6 +361,7 @@ const FR_FR: Dictionary = {
     'Les cartes arrivent à échéance selon un calendrier basé sur votre niveau de connaissance (répétition espacée) — révélez ou tapez la réponse, puis évaluez-vous honnêtement pour que le calendrier reste exact.',
   reviewModeReveal: 'Mode : Révéler',
   reviewModeType: 'Mode : Taper la réponse',
+  reviewProgress: '{current} sur {total}',
   reviewHintRevealLabel: 'Révéler',
   reviewHintRevealText:
     "affiche la réponse d'un simple geste — plus rapide, idéal pour les débuts.",
