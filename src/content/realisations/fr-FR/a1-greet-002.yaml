@@ -8,9 +8,34 @@ vocabulary:
     example: 'Au revoir, à demain !'
     exampleTranslation: 'Goodbye, see you tomorrow!'
   - id: fr-FR-A1-GREET-002-002
+    term: 'Salut'
+    translation: 'Bye'
+    partOfSpeech: interjection
+    example: 'Salut, on se voit bientôt !'
+    exampleTranslation: 'Bye, see you soon!'
+  - id: fr-FR-A1-GREET-002-003
     term: 'À plus tard'
     translation: 'See you later'
     partOfSpeech: phrase
-    example: 'À plus tard, bon après-midi !'
-    exampleTranslation: 'See you later, have a good afternoon!'
+    example: 'À plus tard, au travail !'
+    exampleTranslation: 'See you later, at work!'
+  - id: fr-FR-A1-GREET-002-004
+    term: 'À demain'
+    translation: 'See you tomorrow'
+    partOfSpeech: phrase
+    example: 'Bonne soirée ! À demain !'
+    exampleTranslation: 'Have a good evening! See you tomorrow!'
+  - id: fr-FR-A1-GREET-002-005
+    term: 'Bonne nuit'
+    translation: 'Good night'
+    partOfSpeech: phrase
+    example: 'Bonne nuit, dors bien.'
+    exampleTranslation: 'Good night, sleep well.'
+  - id: fr-FR-A1-GREET-002-006
+    term: 'Prends soin de toi'
+    translation: 'Take care'
+    partOfSpeech: phrase
+    example: 'C était agréable de te rencontrer. Prends soin de toi !'
+    exampleTranslation: 'It was nice meeting you. Take care!'
 grammar: []
+culturalNotes: '"Au revoir" works in every setting; "Salut" doubles as hi and bye among friends. The formal equivalent of "Bye" remains "Au revoir".'

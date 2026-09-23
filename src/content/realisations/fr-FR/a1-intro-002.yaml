@@ -7,4 +7,35 @@ vocabulary:
     partOfSpeech: phrase
     example: 'Excusez-moi, comment vous appelez-vous ?'
     exampleTranslation: 'Excuse me, what is your name?'
+  - id: fr-FR-A1-INTRO-002-002
+    term: 'Quel âge avez-vous ?'
+    translation: 'How old are you?'
+    partOfSpeech: phrase
+    example: 'Pardon, quel âge avez-vous ?'
+    exampleTranslation: 'Pardon, how old are you?'
+  - id: fr-FR-A1-INTRO-002-003
+    term: 'Vous venez de quel pays ?'
+    translation: 'Where are you from?'
+    partOfSpeech: phrase
+    example: 'Excusez-moi, vous venez de quel pays ?'
+    exampleTranslation: 'Excuse me, where are you from?'
+  - id: fr-FR-A1-INTRO-002-004
+    term: 'Je suis étudiant(e)'
+    translation: 'I am a student'
+    partOfSpeech: phrase
+    example: "Je suis étudiant(e) à l'université."
+    exampleTranslation: 'I am a student at the university.'
+  - id: fr-FR-A1-INTRO-002-005
+    term: 'Je travaille comme'
+    translation: 'I work as'
+    partOfSpeech: phrase
+    example: 'Je travaille comme professeur.'
+    exampleTranslation: 'I work as a teacher.'
+  - id: fr-FR-A1-INTRO-002-006
+    term: 'Parlez-vous anglais ?'
+    translation: 'Do you speak English?'
+    partOfSpeech: phrase
+    example: 'Excusez-moi, parlez-vous anglais ?'
+    exampleTranslation: 'Excuse me, do you speak English?'
 grammar: []
+culturalNotes: '"Excusez-moi" softens a question to a stranger; a conversation opened this way usually continues with "Enchanté" once names are exchanged.'
