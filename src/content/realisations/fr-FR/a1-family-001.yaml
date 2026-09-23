@@ -1,0 +1,47 @@
+nodeId: A1-FAMILY-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A1-FAMILY-001-001
+    term: 'mère'
+    translation: 'mother'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ma mère s’appelle Ana.'
+    exampleTranslation: 'My mother is called Ana.'
+  - id: fr-FR-A1-FAMILY-001-002
+    term: 'père'
+    translation: 'father'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Mon père travaille à Paris.'
+    exampleTranslation: 'My father works in Paris.'
+  - id: fr-FR-A1-FAMILY-001-003
+    term: 'frère'
+    translation: 'brother'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'J’ai un frère plus jeune.'
+    exampleTranslation: 'I have a younger brother.'
+  - id: fr-FR-A1-FAMILY-001-004
+    term: 'sœur'
+    translation: 'sister'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ma sœur est professeure.'
+    exampleTranslation: 'My sister is a teacher.'
+  - id: fr-FR-A1-FAMILY-001-005
+    term: 'grand'
+    translation: 'tall'
+    partOfSpeech: adjective
+    gender: masculine
+    example: 'Mon père est grand.'
+    exampleTranslation: 'My father is tall.'
+  - id: fr-FR-A1-FAMILY-001-006
+    term: 'petit'
+    translation: 'short'
+    partOfSpeech: adjective
+    gender: masculine
+    example: 'Ma sœur est petite.'
+    exampleTranslation: 'My sister is short.'
+grammar: []
+culturalNotes: 'Children call their parents "maman" and "papa" throughout life, not only in childhood; "mère" and "père" are the formal terms.'

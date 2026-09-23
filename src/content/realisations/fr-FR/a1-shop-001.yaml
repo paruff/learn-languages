@@ -1,0 +1,46 @@
+nodeId: A1-SHOP-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A1-SHOP-001-001
+    term: 'magasin'
+    translation: 'shop'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Le magasin ferme à sept heures du soir.'
+    exampleTranslation: 'The shop closes at seven in the evening.'
+  - id: fr-FR-A1-SHOP-001-002
+    term: 'argent'
+    translation: 'money'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Je n’ai pas d’argent sur moi.'
+    exampleTranslation: 'I do not have money with me.'
+  - id: fr-FR-A1-SHOP-001-003
+    term: 'prix'
+    translation: 'price'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Quel est le prix de ce manteau ?'
+    exampleTranslation: 'What is the price of this coat?'
+  - id: fr-FR-A1-SHOP-001-004
+    term: 'euro'
+    translation: 'euro'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ça coûte dix euros.'
+    exampleTranslation: 'It costs ten euros.'
+  - id: fr-FR-A1-SHOP-001-005
+    term: 'payer'
+    translation: 'to pay'
+    partOfSpeech: verb
+    example: 'Puis-je payer par carte ?'
+    exampleTranslation: 'Can I pay by card?'
+  - id: fr-FR-A1-SHOP-001-006
+    term: 'caisse'
+    translation: 'till'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La file à la caisse est longue.'
+    exampleTranslation: 'The queue at the till is long.'
+grammar: []
+culturalNotes: 'France keeps small neighbourhood shops — the boulangerie, fromagerie and boucherie each specialise — alongside supermarkets ("grandes surfaces").'

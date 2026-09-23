@@ -1,0 +1,37 @@
+nodeId: A1-FORM-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A1-FORM-001-001
+    term: 'Nom complet'
+    translation: 'Full name'
+    partOfSpeech: phrase
+    example: 'Écrivez votre nom complet, s’il vous plaît.'
+    exampleTranslation: 'Please write your full name here.'
+  - id: fr-FR-A1-FORM-001-002
+    term: 'Nom de famille'
+    translation: 'Surname'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Mon nom de famille est Martin.'
+    exampleTranslation: 'My surname is Martin.'
+  - id: fr-FR-A1-FORM-001-003
+    term: 'Nationalité'
+    translation: 'Nationality'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Nationalité : française.'
+    exampleTranslation: 'Nationality: French.'
+  - id: fr-FR-A1-FORM-001-004
+    term: 'Adresse'
+    translation: 'Address'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Écrivez votre adresse dans la case ci-dessous, s’il vous plaît.'
+    exampleTranslation: 'Please write your address in the box below.'
+  - id: fr-FR-A1-FORM-001-005
+    term: 'Date de naissance'
+    translation: 'Date of birth'
+    partOfSpeech: phrase
+    example: 'Date de naissance : 12/05/1990.'
+    exampleTranslation: 'Date of birth: 12/05/1990.'
+grammar: []

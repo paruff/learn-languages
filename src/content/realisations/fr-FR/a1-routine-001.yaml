@@ -1,0 +1,47 @@
+nodeId: A1-ROUTINE-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A1-ROUTINE-001-001
+    term: 'maison'
+    translation: 'house'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ma maison est petite.'
+    exampleTranslation: 'My house is small.'
+  - id: fr-FR-A1-ROUTINE-001-002
+    term: 'chambre'
+    translation: 'bedroom'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La chambre a une grande fenêtre.'
+    exampleTranslation: 'The bedroom has a big window.'
+  - id: fr-FR-A1-ROUTINE-001-003
+    term: 'cuisine'
+    translation: 'kitchen'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Je cuisine tous les jours dans la cuisine.'
+    exampleTranslation: 'I cook every day in the kitchen.'
+  - id: fr-FR-A1-ROUTINE-001-004
+    term: 'vêtements'
+    translation: 'clothes'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Je lave les vêtements le samedi.'
+    exampleTranslation: 'I wash the clothes on Saturdays.'
+  - id: fr-FR-A1-ROUTINE-001-005
+    term: 'clé'
+    translation: 'key'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Où est la clé de la porte ?'
+    exampleTranslation: 'Where is the door key?'
+  - id: fr-FR-A1-ROUTINE-001-006
+    term: 'téléphone'
+    translation: 'phone'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Mon téléphone est sur la table.'
+    exampleTranslation: 'My phone is on the table.'
+grammar: []
+culturalNotes: 'French kitchens ("la cuisine") anchor the home — even small flats centre meals there; drying laundry on the "balcon" is a daily sight in apartment buildings.'
