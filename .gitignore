@@ -31,3 +31,5 @@ coverage/
 .lighthouseci/
 test-results/
 playwright-report/
+# project-local worktrees
+.worktrees/
