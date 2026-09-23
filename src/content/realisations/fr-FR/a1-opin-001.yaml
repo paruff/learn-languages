@@ -1,0 +1,41 @@
+nodeId: A1-OPIN-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A1-OPIN-001-001
+    term: 'Je trouve que...'
+    translation: 'I think that...'
+    partOfSpeech: phrase
+    example: 'Je trouve que c’est bien.'
+    exampleTranslation: 'I think that is good.'
+  - id: fr-FR-A1-OPIN-001-002
+    term: "J'aime..."
+    translation: 'I like...'
+    partOfSpeech: phrase
+    example: "J'aime le chocolat."
+    exampleTranslation: 'I like chocolate.'
+  - id: fr-FR-A1-OPIN-001-003
+    term: "Je n'aime pas..."
+    translation: "I don't like..."
+    partOfSpeech: phrase
+    example: "Je n'aime pas la soupe."
+    exampleTranslation: "I don't like soup."
+  - id: fr-FR-A1-OPIN-001-004
+    term: 'bon'
+    translation: 'good'
+    partOfSpeech: adjective
+    example: 'C’est très bon.'
+    exampleTranslation: 'That is very good.'
+  - id: fr-FR-A1-OPIN-001-005
+    term: 'mauvais'
+    translation: 'bad'
+    partOfSpeech: adjective
+    example: 'Le temps est mauvais.'
+    exampleTranslation: 'The weather is bad.'
+  - id: fr-FR-A1-OPIN-001-006
+    term: 'aimer bien'
+    translation: 'fond of'
+    partOfSpeech: verb
+    example: "J'aime bien lire."
+    exampleTranslation: 'I like reading.'
+grammar: []
+culturalNotes: '"Je trouve que…" (I find that…) is the everyday way to give an opinion in French; "Je pense que…" (I think that…) leans slightly more toward belief or reasoning.'

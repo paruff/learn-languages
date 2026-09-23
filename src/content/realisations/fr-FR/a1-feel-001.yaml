@@ -1,0 +1,41 @@
+nodeId: A1-FEEL-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A1-FEEL-001-001
+    term: 'heureux'
+    translation: 'happy'
+    partOfSpeech: adjective
+    example: 'Je suis très heureux aujourd’hui.'
+    exampleTranslation: 'I am very happy today.'
+  - id: fr-FR-A1-FEEL-001-002
+    term: 'triste'
+    translation: 'sad'
+    partOfSpeech: adjective
+    example: 'Il est triste.'
+    exampleTranslation: 'He is sad.'
+  - id: fr-FR-A1-FEEL-001-003
+    term: 'fatigué'
+    translation: 'tired'
+    partOfSpeech: adjective
+    example: 'Je suis très fatigué.'
+    exampleTranslation: 'I am very tired.'
+  - id: fr-FR-A1-FEEL-001-004
+    term: 'avoir faim'
+    translation: 'hungry'
+    partOfSpeech: phrase
+    example: 'J’ai faim.'
+    exampleTranslation: 'I am hungry.'
+  - id: fr-FR-A1-FEEL-001-005
+    term: 'malade'
+    translation: 'sick'
+    partOfSpeech: adjective
+    example: 'Elle est malade.'
+    exampleTranslation: 'She is sick.'
+  - id: fr-FR-A1-FEEL-001-006
+    term: 'bien'
+    translation: 'well'
+    partOfSpeech: adverb
+    example: 'Je vais bien.'
+    exampleTranslation: 'I am doing well.'
+grammar: []
+culturalNotes: 'French uses "avoir" (to have) for several states where English uses "to be": "J’ai faim" (I am hungry), "J’ai soif" (I am thirsty), "J’ai froid" (I am cold).'
