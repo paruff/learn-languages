@@ -2,6 +2,7 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { loadPair, getAvailablePairs } from '../../../lib/pairLoader';
 import { languageName } from '../../../lib/languageNames';
+import { getString } from '../../../lib/strings';
 
 export async function getStaticPaths() {
   const pairs = await getAvailablePairs();
@@ -19,37 +20,41 @@ const targetName = languageName(targetLang);
   sourceLang={sourceLang}
   targetLang={targetLang}
 >
-  <h1>Review</h1>
+  <h1>{getString(sourceLang, 'reviewTitle')}</h1>
   <p id="review-intro" class="review-intro">
-    Cards are due on a schedule based on how well you know them (spaced repetition) — reveal or type
-    the answer, then grade yourself honestly so the schedule stays accurate.
+    {getString(sourceLang, 'reviewIntro')}
   </p>
   <button id="review-direction-toggle" type="button" class="btn btn--secondary">
     {sourceLang} → {targetLang}
   </button>
   <button id="review-recall-mode-toggle" type="button" class="btn btn--secondary">
-    Mode: Reveal
+    {getString(sourceLang, 'reviewModeReveal')}
   </button>
   <p class="review-mode-hint">
-    <strong>Reveal</strong> shows the answer with a tap — faster, good for early practice.{' '}
-    <strong>Type answer</strong> makes you produce it from memory first — slower, but strengthens recall
-    better (the "generation effect").
+    <strong>{getString(sourceLang, 'reviewHintRevealLabel')}</strong>{' '}
+    {getString(sourceLang, 'reviewHintRevealText')}{' '}
+    <strong>{getString(sourceLang, 'reviewHintTypeLabel')}</strong>{' '}
+    {getString(sourceLang, 'reviewHintTypeText')}
   </p>
-  <p id="review-empty" class="card" hidden>No cards due right now — come back later.</p>
+  <p id="review-empty" class="card" hidden>{getString(sourceLang, 'reviewEmpty')}</p>
   <div id="review-card" class="review-card card" hidden>
     <p id="review-progress" class="review-card__progress"></p>
     <img id="review-image" class="review-card__image" hidden />
     <p id="review-front" class="review-card__term"></p>
-    <button id="review-reveal" type="button" class="btn btn--primary">Reveal</button>
+    <button id="review-reveal" type="button" class="btn btn--primary">
+      {getString(sourceLang, 'reviewRevealButton')}
+    </button>
     <form id="review-type-form" class="review-card__type-form" hidden>
       <input
         type="text"
         id="review-type-input"
         class="review-card__type-input"
         autocomplete="off"
-        aria-label="Type the answer"
+        aria-label={getString(sourceLang, 'reviewTypeInputLabel')}
       />
-      <button type="submit" class="btn btn--primary">Check</button>
+      <button type="submit" class="btn btn--primary"
+        >{getString(sourceLang, 'reviewCheckButton')}</button
+      >
     </form>
     <p id="review-type-feedback" class="review-card__type-feedback" hidden></p>
     <p id="review-back" class="review-card__term review-card__term--answer" hidden></p>
@@ -58,28 +63,40 @@ const targetName = languageName(targetLang);
       type="button"
       class="btn btn--secondary"
       hidden
-      aria-label="Pronounce">🔊</button
+      aria-label={getString(sourceLang, 'reviewPronounceLabel')}>🔊</button
     >
     <div id="review-grades" class="review-card__grades" hidden>
-      <button type="button" class="btn btn--grade-again" data-quality="1">Again</button>
-      <button type="button" class="btn btn--grade-hard" data-quality="2">Hard</button>
-      <button type="button" class="btn btn--grade-good" data-quality="3">Good</button>
-      <button type="button" class="btn btn--grade-easy" data-quality="4">Easy</button>
+      <button type="button" class="btn btn--grade-again" data-quality="1"
+        >{getString(sourceLang, 'reviewGradeAgain')}</button
+      >
+      <button type="button" class="btn btn--grade-hard" data-quality="2"
+        >{getString(sourceLang, 'reviewGradeHard')}</button
+      >
+      <button type="button" class="btn btn--grade-good" data-quality="3"
+        >{getString(sourceLang, 'reviewGradeGood')}</button
+      >
+      <button type="button" class="btn btn--grade-easy" data-quality="4"
+        >{getString(sourceLang, 'reviewGradeEasy')}</button
+      >
     </div>
   </div>
   <p id="review-summary" class="card" hidden></p>
   <div id="review-reflection" class="card review-reflection" hidden>
-    <p>How did that session feel?</p>
+    <p>{getString(sourceLang, 'reviewReflectionQuestion')}</p>
     <div class="review-reflection__options">
-      <button type="button" class="btn btn--secondary" data-response="easy">It was easy</button>
+      <button type="button" class="btn btn--secondary" data-response="easy"
+        >{getString(sourceLang, 'reviewReflectionEasy')}</button
+      >
       <button type="button" class="btn btn--secondary" data-response="had-to-think"
-        >I had to think</button
+        >{getString(sourceLang, 'reviewReflectionThink')}</button
       >
       <button type="button" class="btn btn--secondary" data-response="guessed"
-        >I mostly guessed</button
+        >{getString(sourceLang, 'reviewReflectionGuessed')}</button
       >
     </div>
-    <button type="button" id="review-reflection-skip" class="btn btn--secondary">Skip</button>
+    <button type="button" id="review-reflection-skip" class="btn btn--secondary">
+      {getString(sourceLang, 'reviewReflectionSkip')}
+    </button>
   </div>
   <p id="review-reflection-thanks" class="review-reflection__thanks" hidden></p>
 
@@ -193,6 +210,7 @@ const targetName = languageName(targetLang);
   import { saveReflection, loadReflection, type ReflectionResponse } from '../../../lib/reflection';
   import { checkAnswer } from '../../../lib/exerciseCheck';
   import { recordGradeForCalibration } from '../../../lib/calibration';
+  import { getString, format } from '../../../lib/strings';
 
   interface PairSide {
     id: string;
@@ -265,9 +283,9 @@ const targetName = languageName(targetLang);
   }
 
   function reflectionLabel(response: ReflectionResponse): string {
-    if (response === 'easy') return 'was easy';
-    if (response === 'had-to-think') return 'took some thought';
-    return 'was mostly guessing';
+    if (response === 'easy') return getString(sourceLang, 'reviewReflectionLabelEasy');
+    if (response === 'had-to-think') return getString(sourceLang, 'reviewReflectionLabelThink');
+    return getString(sourceLang, 'reviewReflectionLabelGuessed');
   }
 
   function hideReflection(): void {
@@ -280,7 +298,9 @@ const targetName = languageName(targetLang);
     if (existing) {
       reflectionEl.hidden = true;
       reflectionThanksEl.hidden = false;
-      reflectionThanksEl.textContent = `Noted — you said today's session ${reflectionLabel(existing)}.`;
+      reflectionThanksEl.textContent = format(getString(sourceLang, 'reviewReflectionThanks'), {
+        label: reflectionLabel(existing),
+      });
     } else {
       reflectionEl.hidden = false;
       reflectionThanksEl.hidden = true;
@@ -293,7 +313,9 @@ const targetName = languageName(targetLang);
       saveReflection(sourceLang, targetLang, response, todayKey());
       reflectionEl.hidden = true;
       reflectionThanksEl.hidden = false;
-      reflectionThanksEl.textContent = `Noted — you said today's session ${reflectionLabel(response)}.`;
+      reflectionThanksEl.textContent = format(getString(sourceLang, 'reviewReflectionThanks'), {
+        label: reflectionLabel(response),
+      });
     });
   });
 
@@ -326,7 +348,10 @@ const targetName = languageName(targetLang);
   }
 
   function updateRecallModeToggle(): void {
-    recallModeToggle.textContent = recallMode === 'type' ? 'Mode: Type answer' : 'Mode: Reveal';
+    recallModeToggle.textContent =
+      recallMode === 'type'
+        ? getString(sourceLang, 'reviewModeType')
+        : getString(sourceLang, 'reviewModeReveal');
   }
 
   function buildQueue(): void {
@@ -350,13 +375,18 @@ const targetName = languageName(targetLang);
       const masteryDelta = masteryAfter - masteryBefore;
       const deltaText =
         masteryDelta > 0
-          ? `up ${masteryDelta}%`
+          ? format(getString(sourceLang, 'reviewMasteryUp'), { n: masteryDelta })
           : masteryDelta < 0
-            ? `down ${-masteryDelta}%`
-            : 'unchanged';
-      summaryEl.textContent =
-        `Session complete — ${reviewed} card${reviewed === 1 ? '' : 's'} reviewed. ` +
-        `${firstTryCorrect}/${firstTryTotal} correct first try. Mastery ${deltaText} (${masteryAfter}% overall).`;
+            ? format(getString(sourceLang, 'reviewMasteryDown'), { n: -masteryDelta })
+            : getString(sourceLang, 'reviewMasteryUnchanged');
+      summaryEl.textContent = format(getString(sourceLang, 'reviewSessionComplete'), {
+        reviewed,
+        cardWord: getString(sourceLang, reviewed === 1 ? 'cardSingular' : 'cardPlural'),
+        correct: firstTryCorrect,
+        total: firstTryTotal,
+        delta: deltaText,
+        after: masteryAfter,
+      });
       showReflectionPrompt();
       return;
     }
@@ -420,7 +450,9 @@ const targetName = languageName(targetLang);
     typeInputEl.disabled = true;
     typeFeedbackEl.hidden = false;
     typeFeedbackEl.className = `review-card__type-feedback review-card__type-feedback--${correct ? 'correct' : 'incorrect'}`;
-    typeFeedbackEl.textContent = correct ? 'Correct!' : 'Not quite — see the answer below.';
+    typeFeedbackEl.textContent = correct
+      ? getString(sourceLang, 'reviewCorrect')
+      : getString(sourceLang, 'reviewIncorrect');
     backEl.hidden = false;
     pronounceBtn.hidden = false;
     gradesEl.hidden = false;
