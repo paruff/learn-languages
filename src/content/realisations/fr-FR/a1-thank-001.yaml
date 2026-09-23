@@ -1,0 +1,41 @@
+nodeId: A1-THANK-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A1-THANK-001-001
+    term: 'Merci'
+    translation: 'Thank you'
+    partOfSpeech: interjection
+    example: 'Merci de votre aide.'
+    exampleTranslation: 'Thank you for your help.'
+  - id: fr-FR-A1-THANK-001-002
+    term: 'Merci beaucoup'
+    translation: 'Thank you very much'
+    partOfSpeech: phrase
+    example: 'Merci beaucoup pour le cadeau !'
+    exampleTranslation: 'Thank you very much for the gift!'
+  - id: fr-FR-A1-THANK-001-003
+    term: 'De rien'
+    translation: "You're welcome"
+    partOfSpeech: phrase
+    example: '- Merci ! - De rien !'
+    exampleTranslation: '- Thank you! - You are welcome!'
+  - id: fr-FR-A1-THANK-001-004
+    term: 'Je vous en prie'
+    translation: "You're welcome (polite)"
+    partOfSpeech: phrase
+    example: '- Merci beaucoup ! - Je vous en prie !'
+    exampleTranslation: '- Thank you very much! - You are welcome!'
+  - id: fr-FR-A1-THANK-001-005
+    term: 'Merci à toi'
+    translation: 'Thanks (informal)'
+    partOfSpeech: phrase
+    example: 'Merci à toi pour tout.'
+    exampleTranslation: 'Thanks for everything.'
+  - id: fr-FR-A1-THANK-001-006
+    term: 'Merci à vous'
+    translation: 'Thanks (formal)'
+    partOfSpeech: phrase
+    example: 'Merci pour votre temps.'
+    exampleTranslation: 'Thank you for your time.'
+grammar: []
+culturalNotes: '"De rien" is the everyday reply to "Merci"; "Je vous en prie" is more formal. In France, always say "bonjour" before asking a shopkeeper anything — skipping the greeting is considered rude.'
