@@ -1,0 +1,43 @@
+nodeId: A2-HABIT-002
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A2-HABIT-002-001
+    term: 'cette semaine'
+    translation: 'this week'
+    partOfSpeech: adverb
+    example: 'Cette semaine, j’ai fait beaucoup de choses.'
+    exampleTranslation: 'This week I did many things.'
+  - id: fr-FR-A2-HABIT-002-002
+    term: 'hier'
+    translation: 'yesterday'
+    partOfSpeech: adverb
+    example: 'Hier, j’étais avec des amis.'
+    exampleTranslation: 'Yesterday I was with friends.'
+  - id: fr-FR-A2-HABIT-002-003
+    term: 'aujourd’hui'
+    translation: 'today'
+    partOfSpeech: adverb
+    example: "Aujourd'hui, je n'ai rien de prévu."
+    exampleTranslation: 'Today I have nothing planned.'
+  - id: fr-FR-A2-HABIT-002-004
+    term: 'encore'
+    translation: 'still'
+    partOfSpeech: adverb
+    example: "Je n'ai pas encore vu le film."
+    exampleTranslation: "I haven't seen the film yet."
+  - id: fr-FR-A2-HABIT-002-005
+    term: 'activité'
+    translation: 'activity'
+    partOfSpeech: noun
+    gender: feminine
+    example: "J'ai fait une activité en plein air."
+    exampleTranslation: 'I did an outdoor activity.'
+  - id: fr-FR-A2-HABIT-002-006
+    term: 'saison'
+    translation: 'season'
+    partOfSpeech: noun
+    gender: feminine
+    example: "C'est la saison d'été."
+    exampleTranslation: "It's the summer season."
+grammar: []
+culturalNotes: 'French outdoor life follows the seasons: randonnée and vélo in autumn, ski in winter, and beach or terrace culture all summer.'

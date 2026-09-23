@@ -1,0 +1,11 @@
+nodeId: A2-WRITE-001
+cefrLevel: A2
+skill: writing
+canDo: Can write simple connected texts about everyday topics using basic connectors
+pragmaticFocus: Link simple sentences into short coherent written texts
+notionalFocus: Everyday topics, connectors, short messages
+relatedNodes:
+  - A2-PAST-004
+  - A2-LETTER-001
+prerequisiteNodes:
+  - A1-WRITE-001

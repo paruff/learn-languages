@@ -1,0 +1,41 @@
+nodeId: A2-OPIN-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A2-OPIN-001-001
+    term: 'aimer'
+    translation: 'to like'
+    partOfSpeech: verb
+    example: 'J’aime lire le soir.'
+    exampleTranslation: 'I like reading in the evening.'
+  - id: fr-FR-A2-OPIN-001-002
+    term: 'détester'
+    translation: 'to dislike'
+    partOfSpeech: verb
+    example: 'Je déteste me lever tôt.'
+    exampleTranslation: 'I dislike getting up early.'
+  - id: fr-FR-A2-OPIN-001-003
+    term: 'parce que'
+    translation: 'because'
+    partOfSpeech: conjunction
+    example: 'J’aime ça parce que c’est facile.'
+    exampleTranslation: 'I like it because it is easy.'
+  - id: fr-FR-A2-OPIN-001-004
+    term: 'préféré'
+    translation: 'favourite'
+    partOfSpeech: adjective
+    example: 'Le bleu est ma couleur préférée.'
+    exampleTranslation: 'Blue is my favourite colour.'
+  - id: fr-FR-A2-OPIN-001-005
+    term: 'préférer'
+    translation: 'to prefer'
+    partOfSpeech: verb
+    example: 'Je préfère le thé au café.'
+    exampleTranslation: 'I prefer tea to coffee.'
+  - id: fr-FR-A2-OPIN-001-006
+    term: 'ennuyeux'
+    translation: 'boring'
+    partOfSpeech: adjective
+    example: 'La conférence était ennuyeuse.'
+    exampleTranslation: 'The lecture was boring.'
+grammar: []
+culturalNotes: 'French opinions are often stated directly after the reason ("C’est bien parce que…"); disagreement is usually softened with "Je ne suis pas sûr(e)" rather than a flat "no".'

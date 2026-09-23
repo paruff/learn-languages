@@ -1,0 +1,41 @@
+nodeId: A2-PAST-004
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A2-PAST-004-001
+    term: 'autrefois'
+    translation: 'in the past'
+    partOfSpeech: adverb
+    example: 'Autrefois, les choses étaient différentes.'
+    exampleTranslation: 'In the past things were different.'
+  - id: fr-FR-A2-PAST-004-002
+    term: 'actuellement'
+    translation: 'currently'
+    partOfSpeech: adverb
+    example: 'Actuellement, j’ai plus de temps libre.'
+    exampleTranslation: 'Currently I have more free time.'
+  - id: fr-FR-A2-PAST-004-003
+    term: 'comparer'
+    translation: 'to compare'
+    partOfSpeech: verb
+    example: 'J’aime comparer le passé avec le présent.'
+    exampleTranslation: 'I like to compare the past with the present.'
+  - id: fr-FR-A2-PAST-004-004
+    term: 'plus facile'
+    translation: 'easier'
+    partOfSpeech: adjective
+    example: 'La vie était plus facile autrefois.'
+    exampleTranslation: 'Life was easier in the past.'
+  - id: fr-FR-A2-PAST-004-005
+    term: 'plus difficile'
+    translation: 'harder'
+    partOfSpeech: adjective
+    example: 'Maintenant, il est plus difficile de trouver un emploi.'
+    exampleTranslation: 'Now it is harder to find a job.'
+  - id: fr-FR-A2-PAST-004-006
+    term: 'différent'
+    translation: 'different'
+    partOfSpeech: adjective
+    example: 'Le monde est très différent aujourd’hui.'
+    exampleTranslation: 'The world is very different today.'
+grammar: []
+culturalNotes: 'Comparing "avant" and "aujourd’hui" is a common everyday topic, often framed around the Trente Glorieuses and the digital era.'

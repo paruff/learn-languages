@@ -1,0 +1,47 @@
+nodeId: A2-HEALTH-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A2-HEALTH-001-001
+    term: 'médecin'
+    translation: 'doctor'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Je dois aller chez le médecin.'
+    exampleTranslation: 'I need to go to the doctor.'
+  - id: fr-FR-A2-HEALTH-001-002
+    term: 'maladie'
+    translation: 'illness'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La maladie a duré une semaine.'
+    exampleTranslation: 'The illness lasted a week.'
+  - id: fr-FR-A2-HEALTH-001-003
+    term: 'douleur'
+    translation: 'pain'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'J’ai une douleur au ventre depuis hier.'
+    exampleTranslation: 'I have had a stomach pain since yesterday.'
+  - id: fr-FR-A2-HEALTH-001-004
+    term: 'ordonnance'
+    translation: 'prescription'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Le médecin m’a donné une ordonnance.'
+    exampleTranslation: 'The doctor gave me a prescription.'
+  - id: fr-FR-A2-HEALTH-001-005
+    term: 'pharmacie'
+    translation: 'pharmacy'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Je vais à la pharmacie chercher le médicament.'
+    exampleTranslation: 'I am going to the pharmacy to get the medicine.'
+  - id: fr-FR-A2-HEALTH-001-006
+    term: 'rendez-vous'
+    translation: 'appointment'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'J’ai un rendez-vous à quinze heures.'
+    exampleTranslation: 'I have an appointment at three.'
+grammar: []
+culturalNotes: 'French healthcare runs on the carte vitale and Sécurité sociale; the pharmacie (green cross) is often the first stop for minor complaints and advice.'

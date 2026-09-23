@@ -1,0 +1,44 @@
+nodeId: A2-NEWS-002
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A2-NEWS-002-001
+    term: 'se passer'
+    translation: 'to happen'
+    partOfSpeech: verb
+    example: "Qu'est-ce qui s'est passé en ville ?"
+    exampleTranslation: 'What happened in the city?'
+  - id: fr-FR-A2-NEWS-002-002
+    term: 'reportage'
+    translation: 'report'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Le reportage était très détaillé.'
+    exampleTranslation: 'The report was very detailed.'
+  - id: fr-FR-A2-NEWS-002-003
+    term: 'radio'
+    translation: 'radio'
+    partOfSpeech: noun
+    gender: feminine
+    example: "J'écoute la radio en travaillant."
+    exampleTranslation: 'I listen to the radio while working.'
+  - id: fr-FR-A2-NEWS-002-004
+    term: 'événement'
+    translation: 'event'
+    partOfSpeech: noun
+    gender: masculine
+    example: "L'événement a eu lieu hier."
+    exampleTranslation: 'The event happened yesterday.'
+  - id: fr-FR-A2-NEWS-002-005
+    term: 'décrire'
+    translation: 'to describe'
+    partOfSpeech: verb
+    example: "Je peux décrire ce que j'ai vu."
+    exampleTranslation: 'I can describe what I saw.'
+  - id: fr-FR-A2-NEWS-002-006
+    term: 'expliquer'
+    translation: 'to explain'
+    partOfSpeech: verb
+    example: 'Le journaliste a expliqué la situation.'
+    exampleTranslation: 'The reporter explained the situation.'
+grammar: []
+culturalNotes: 'France Info and France Inter mix national and regional bulletins; "faire un reportage" is the standard verb for producing a news piece.'

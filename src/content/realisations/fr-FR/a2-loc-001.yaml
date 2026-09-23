@@ -1,0 +1,43 @@
+nodeId: A2-LOC-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A2-LOC-001-001
+    term: 'tourner à gauche'
+    translation: 'to turn left'
+    partOfSpeech: phrase
+    example: 'Tournez à gauche devant la banque.'
+    exampleTranslation: 'Turn left at the bank.'
+  - id: fr-FR-A2-LOC-001-002
+    term: 'tourner à droite'
+    translation: 'to turn right'
+    partOfSpeech: phrase
+    example: 'Tournez à droite après le pont.'
+    exampleTranslation: 'Turn right after the bridge.'
+  - id: fr-FR-A2-LOC-001-003
+    term: 'tout droit'
+    translation: 'straight on'
+    partOfSpeech: phrase
+    example: 'Allez tout droit pendant deux minutes.'
+    exampleTranslation: 'Go straight on for two minutes.'
+  - id: fr-FR-A2-LOC-001-004
+    term: 'arrêt de bus'
+    translation: 'bus stop'
+    partOfSpeech: noun
+    gender: masculine
+    example: "L'arrêt de bus est en face de l'école."
+    exampleTranslation: 'The bus stop is opposite the school.'
+  - id: fr-FR-A2-LOC-001-005
+    term: 'descendre'
+    translation: 'to get off'
+    partOfSpeech: verb
+    example: 'Descendez à la troisième station.'
+    exampleTranslation: 'Get off at the third stop.'
+  - id: fr-FR-A2-LOC-001-006
+    term: 'retard'
+    translation: 'delay'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Il y a un retard de dix minutes sur la ligne 4.'
+    exampleTranslation: 'There is a ten-minute delay on line 4.'
+grammar: []
+culturalNotes: 'Paris Métro and RATP announcements use "prochain arrêt" and "station suivante"; French directions often landmark with "en face de" and "à côté de".'

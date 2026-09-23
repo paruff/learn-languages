@@ -1,0 +1,41 @@
+nodeId: A2-PAST-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A2-PAST-001-001
+    term: 'hier'
+    translation: 'yesterday'
+    partOfSpeech: adverb
+    example: 'Hier, je suis allé au cinéma.'
+    exampleTranslation: 'Yesterday I went to the cinema.'
+  - id: fr-FR-A2-PAST-001-002
+    term: 'la semaine passée'
+    translation: 'last week'
+    partOfSpeech: adverb
+    example: 'La semaine passée, je suis allé à Lyon.'
+    exampleTranslation: 'Last week I travelled to Lyon.'
+  - id: fr-FR-A2-PAST-001-003
+    term: "l'année passée"
+    translation: 'last year'
+    partOfSpeech: adverb
+    example: "L'année passée, j'ai changé d'emploi."
+    exampleTranslation: 'Last year I changed jobs.'
+  - id: fr-FR-A2-PAST-001-004
+    term: 'visiter'
+    translation: 'to visit'
+    partOfSpeech: verb
+    example: "J'ai visité mes grands-parents dimanche."
+    exampleTranslation: 'I visited my grandparents on Sunday.'
+  - id: fr-FR-A2-PAST-001-005
+    term: 'manger'
+    translation: 'to eat'
+    partOfSpeech: verb
+    example: 'J’ai mangé au restaurant hier soir.'
+    exampleTranslation: 'I ate at the restaurant last night.'
+  - id: fr-FR-A2-PAST-001-006
+    term: 'voyager'
+    translation: 'to travel'
+    partOfSpeech: verb
+    example: 'Nous avons voyagé en train.'
+    exampleTranslation: 'We travelled by train.'
+grammar: []
+culturalNotes: 'Completed past actions take the passé composé; weekend trips and family visits are classic narration topics in everyday French.'

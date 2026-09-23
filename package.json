@@ -17,6 +17,7 @@
     "test:integration": "vitest --run --config vitest.integration.config.ts",
     "pretest:e2e": "npm run build",
     "test:e2e": "playwright test",
+    "install:browsers": "bash scripts/install-browsers.sh",
     "format": "prettier --write src tests",
     "prepare": "npx lefthook install"
   },

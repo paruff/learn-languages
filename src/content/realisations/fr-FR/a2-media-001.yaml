@@ -1,0 +1,46 @@
+nodeId: A2-MEDIA-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A2-MEDIA-001-001
+    term: 'documentaire'
+    translation: 'documentary'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Nous avons regardé un documentaire sur l’espace.'
+    exampleTranslation: 'We watched a documentary about space.'
+  - id: fr-FR-A2-MEDIA-001-002
+    term: 'météo'
+    translation: 'weather forecast'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La météo annonce de la pluie.'
+    exampleTranslation: 'The weather forecast says it will rain.'
+  - id: fr-FR-A2-MEDIA-001-003
+    term: 'circulation'
+    translation: 'traffic'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Il y a de mauvaise circulation ce soir.'
+    exampleTranslation: 'There is bad traffic this evening.'
+  - id: fr-FR-A2-MEDIA-001-004
+    term: 'en direct'
+    translation: 'live'
+    partOfSpeech: adverb
+    example: 'Le match est diffusé en direct.'
+    exampleTranslation: 'The match is shown live.'
+  - id: fr-FR-A2-MEDIA-001-005
+    term: 'chaîne'
+    translation: 'channel'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Je regarde la chaîne deux pour la météo.'
+    exampleTranslation: 'I watch channel two for the weather.'
+  - id: fr-FR-A2-MEDIA-001-006
+    term: 'le journal'
+    translation: 'the news'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Le journal commence à huit heures.'
+    exampleTranslation: 'The news starts at eight o’clock.'
+grammar: []
+culturalNotes: 'France’s public channels (France 2, France 3) carry the flagship "journal télévisé" at 20h00; "la météo" is a familiar standalone bulletin on radio and TV.'

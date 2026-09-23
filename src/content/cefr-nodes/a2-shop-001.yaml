@@ -1,0 +1,11 @@
+nodeId: A2-SHOP-001
+cefrLevel: A2
+skill: spoken_interaction
+canDo: Can buy goods and services and handle simple everyday transactions
+pragmaticFocus: Complete routine purchases and service exchanges
+notionalFocus: Shopping, prices, transactions, services
+relatedNodes:
+  - A2-LOC-001
+  - A2-SOCIAL-001
+prerequisiteNodes:
+  - A1-SHOP-001

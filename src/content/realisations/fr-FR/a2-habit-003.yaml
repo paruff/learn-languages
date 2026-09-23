@@ -1,0 +1,47 @@
+nodeId: A2-HABIT-003
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A2-HABIT-003-001
+    term: 'actualité'
+    translation: 'news'
+    partOfSpeech: noun
+    gender: feminine
+    example: "J'ai lu une actualité intéressante aujourd'hui."
+    exampleTranslation: 'I read an interesting news item today.'
+  - id: fr-FR-A2-HABIT-003-002
+    term: 'presse'
+    translation: 'press'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La presse a beaucoup écrit sur le sujet.'
+    exampleTranslation: 'The press wrote a lot about the subject.'
+  - id: fr-FR-A2-HABIT-003-003
+    term: 'télévision'
+    translation: 'television'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'J’ai vu l’actualité à la télévision.'
+    exampleTranslation: 'I saw the news on television.'
+  - id: fr-FR-A2-HABIT-003-004
+    term: 'journal'
+    translation: 'newspaper'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Je lis le journal tous les matins.'
+    exampleTranslation: 'I read the newspaper every morning.'
+  - id: fr-FR-A2-HABIT-003-005
+    term: 'article'
+    translation: 'article'
+    partOfSpeech: noun
+    gender: masculine
+    example: "L'article est très bien écrit."
+    exampleTranslation: 'The article is very well written.'
+  - id: fr-FR-A2-HABIT-003-006
+    term: 'reportage'
+    translation: 'report'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Le reportage montrait la réalité.'
+    exampleTranslation: 'The report showed the reality.'
+grammar: []
+culturalNotes: 'Major French titles: Le Monde, Le Figaro, Libération; public broadcasters France 2 and France Info mix TV, radio, and online bulletins.'

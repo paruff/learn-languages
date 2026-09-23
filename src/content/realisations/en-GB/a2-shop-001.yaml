@@ -1,0 +1,40 @@
+nodeId: A2-SHOP-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-A2-SHOP-001-001
+    term: 'to buy'
+    translation: 'acheter'
+    partOfSpeech: verb
+    example: 'I want to buy two tickets.'
+    exampleTranslation: 'Je veux acheter deux billets.'
+  - id: en-GB-A2-SHOP-001-002
+    term: 'price'
+    translation: 'prix'
+    partOfSpeech: noun
+    example: 'What is the price of this jacket?'
+    exampleTranslation: 'Quel est le prix de cette veste ?'
+  - id: en-GB-A2-SHOP-001-003
+    term: 'ticket'
+    translation: 'billet'
+    partOfSpeech: noun
+    example: 'A return ticket, please.'
+    exampleTranslation: 'Un billet aller-retour, s’il vous plaît.'
+  - id: en-GB-A2-SHOP-001-004
+    term: 'to order'
+    translation: 'commander'
+    partOfSpeech: verb
+    example: 'I would like to order the soup.'
+    exampleTranslation: 'Je voudrais commander la soupe.'
+  - id: en-GB-A2-SHOP-001-005
+    term: 'receipt'
+    translation: 'reçu'
+    partOfSpeech: noun
+    example: 'Can I have a receipt, please?'
+    exampleTranslation: 'Je peux avoir un reçu, s’il vous plaît ?'
+  - id: en-GB-A2-SHOP-001-006
+    term: 'how much'
+    translation: 'combien'
+    partOfSpeech: adverb
+    example: 'How much does it cost?'
+    exampleTranslation: 'Combien ça coûte ?'
+grammar: []

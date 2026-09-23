@@ -1,0 +1,41 @@
+nodeId: A2-NEWS-003
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A2-NEWS-003-001
+    term: 'Je pense que'
+    translation: 'I think that'
+    partOfSpeech: phrase
+    example: 'Je pense que cette actualité est importante.'
+    exampleTranslation: 'I think this news is important.'
+  - id: fr-FR-A2-NEWS-003-002
+    term: 'À mon avis'
+    translation: 'in my opinion'
+    partOfSpeech: phrase
+    example: 'À mon avis, le gouvernement devrait agir.'
+    exampleTranslation: 'In my opinion, the government should act.'
+  - id: fr-FR-A2-NEWS-003-003
+    term: 'Il me semble'
+    translation: 'it seems to me'
+    partOfSpeech: phrase
+    example: 'Il me semble que la situation s’améliore.'
+    exampleTranslation: 'It seems to me that the situation is improving.'
+  - id: fr-FR-A2-NEWS-003-004
+    term: 'important'
+    translation: 'important'
+    partOfSpeech: adjective
+    example: "Il est important de s'informer."
+    exampleTranslation: 'It is important to stay informed.'
+  - id: fr-FR-A2-NEWS-003-005
+    term: "être d'accord"
+    translation: 'to agree'
+    partOfSpeech: phrase
+    example: "Je suis d'accord avec l'article."
+    exampleTranslation: 'I agree with the article.'
+  - id: fr-FR-A2-NEWS-003-006
+    term: "ne pas être d'accord"
+    translation: 'to disagree'
+    partOfSpeech: phrase
+    example: "Je ne suis pas d'accord avec l'avis de l'auteur."
+    exampleTranslation: "I disagree with the author's opinion."
+grammar: []
+culturalNotes: 'Debating current affairs is a French national pastime; opinions often open with "À mon avis" or "Je pense que", and polite disagreement softens with "Je ne suis pas sûr(e)".'

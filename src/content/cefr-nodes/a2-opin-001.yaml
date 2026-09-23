@@ -1,0 +1,12 @@
+nodeId: A2-OPIN-001
+cefrLevel: A2
+skill: spoken_production
+canDo: Can explain why they like or dislike something
+pragmaticFocus: Give reasons for personal preferences
+notionalFocus: Likes, dislikes, reasons, preferences
+relatedNodes:
+  - A2-CULT-003
+  - A2-NEWS-003
+  - A2-DESCRIBE-001
+prerequisiteNodes:
+  - A1-OPIN-001

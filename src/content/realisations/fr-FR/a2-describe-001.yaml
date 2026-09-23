@@ -1,0 +1,44 @@
+nodeId: A2-DESCRIBE-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A2-DESCRIBE-001-001
+    term: 'famille'
+    translation: 'family'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ma famille habite dans une petite ville.'
+    exampleTranslation: 'My family lives in a small town.'
+  - id: fr-FR-A2-DESCRIBE-001-002
+    term: 'maison'
+    translation: 'home'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ma maison est près de la gare.'
+    exampleTranslation: 'My home is near the station.'
+  - id: fr-FR-A2-DESCRIBE-001-003
+    term: 'décrire'
+    translation: 'to describe'
+    partOfSpeech: verb
+    example: 'Je peux décrire mon quartier facilement.'
+    exampleTranslation: 'I can describe my neighbourhood easily.'
+  - id: fr-FR-A2-DESCRIBE-001-004
+    term: 'affaires'
+    translation: 'belongings'
+    partOfSpeech: noun
+    gender: feminine
+    example: "J'ai mis mes affaires dans deux sacs."
+    exampleTranslation: 'I packed my belongings in two bags.'
+  - id: fr-FR-A2-DESCRIBE-001-005
+    term: 'semblable'
+    translation: 'similar'
+    partOfSpeech: adjective
+    example: 'Ton appartement est semblable au mien.'
+    exampleTranslation: 'Your flat is similar to mine.'
+  - id: fr-FR-A2-DESCRIBE-001-006
+    term: 'différent'
+    translation: 'different'
+    partOfSpeech: adjective
+    example: 'Leur vie est très différente de la nôtre.'
+    exampleTranslation: 'Their life is very different from ours.'
+grammar: []
+culturalNotes: 'French speakers often describe home life around the "appartement" versus "maison" distinction; family Sunday lunch is a common cultural reference for describing household routines.'

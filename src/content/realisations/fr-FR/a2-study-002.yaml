@@ -1,0 +1,46 @@
+nodeId: A2-STUDY-002
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A2-STUDY-002-001
+    term: 'école'
+    translation: 'school'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Mon école était grande.'
+    exampleTranslation: 'My school was large.'
+  - id: fr-FR-A2-STUDY-002-002
+    term: 'professeur'
+    translation: 'teacher'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Mon professeur de français était très bon.'
+    exampleTranslation: 'My French teacher was very good.'
+  - id: fr-FR-A2-STUDY-002-003
+    term: 'matière'
+    translation: 'subject'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ma matière préférée était l’histoire.'
+    exampleTranslation: 'My favourite subject was history.'
+  - id: fr-FR-A2-STUDY-002-004
+    term: 'classe'
+    translation: 'class'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ma classe comptait vingt élèves.'
+    exampleTranslation: 'My class had twenty students.'
+  - id: fr-FR-A2-STUDY-002-005
+    term: 'notes'
+    translation: 'grades'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'J’ai eu de bonnes notes au dernier examen.'
+    exampleTranslation: 'I got good grades in the last exam.'
+  - id: fr-FR-A2-STUDY-002-006
+    term: 'redoubler'
+    translation: 'to repeat'
+    partOfSpeech: verb
+    example: "Je n'ai pas eu à redoubler."
+    exampleTranslation: "I didn't have to repeat the year."
+grammar: []
+culturalNotes: 'French grading runs 0–20 (10 = pass, 16+ = très bien); school is organised in cycles, and "redoubler" carries a familiar social weight.'

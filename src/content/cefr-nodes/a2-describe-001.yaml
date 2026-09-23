@@ -1,0 +1,11 @@
+nodeId: A2-DESCRIBE-001
+cefrLevel: A2
+skill: spoken_production
+canDo: Can describe their family, living conditions and everyday belongings in simple terms
+pragmaticFocus: Describe people, places and possessions with simple linked phrases
+notionalFocus: Family, home, belongings, comparisons
+relatedNodes:
+  - A2-OPIN-001
+  - A2-SOCIAL-001
+prerequisiteNodes:
+  - A1-FAMILY-001

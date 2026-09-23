@@ -1,0 +1,11 @@
+nodeId: A2-SIGN-001
+cefrLevel: A2
+skill: reading
+canDo: Can find everyday information in signs, timetables and simple written instructions
+pragmaticFocus: Locate practical information in public texts
+notionalFocus: Signs, schedules, instructions, public information
+relatedNodes:
+  - A2-LOC-001
+  - A2-JOB-003
+prerequisiteNodes:
+  - A1-LOC-001

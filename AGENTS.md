@@ -525,6 +525,7 @@ npm run lint             # eslint + prettier --check
 npm run validate:content # Zod schema validation
 npm run test:unit        # vitest --run --coverage
 npm run test:e2e         # playwright test
+npm run install:browsers # Playwright browsers via offline-resilient local relay
 npm run lighthouse       # lighthouse-ci
 
 # Git hooks
@@ -536,6 +537,8 @@ npx lefthook run pre-push     # Manual pre-push
 git status               # Check clean state
 git log --oneline -10    # Recent commits
 ```
+
+> **Playwright browsers:** `npm run install:browsers` (`scripts/install-browsers.sh`) works around the stock CDN downloader hanging on this network by fetching build zips with curl and installing through a local HTTP relay. Build ids are Playwright-version-specific — **re-run it after every Playwright version bump**.
 
 ---
 

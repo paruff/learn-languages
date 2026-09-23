@@ -1,0 +1,40 @@
+nodeId: A2-SOCIAL-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-A2-SOCIAL-001-001
+    term: 'Nice to meet you'
+    translation: 'Enchanté'
+    partOfSpeech: phrase
+    example: 'Nice to meet you, I’m Claire.'
+    exampleTranslation: 'Enchanté, je suis Claire.'
+  - id: en-GB-A2-SOCIAL-001-002
+    term: 'How are you?'
+    translation: 'Comment allez-vous ?'
+    partOfSpeech: phrase
+    example: 'Hello Marie, how are you?'
+    exampleTranslation: 'Bonjour Marie, comment allez-vous ?'
+  - id: en-GB-A2-SOCIAL-001-003
+    term: 'please'
+    translation: 's’il vous plaît'
+    partOfSpeech: phrase
+    example: 'A coffee, please.'
+    exampleTranslation: 'Un café, s’il vous plaît.'
+  - id: en-GB-A2-SOCIAL-001-004
+    term: 'excuse me'
+    translation: 'excusez-moi'
+    partOfSpeech: phrase
+    example: 'Excuse me, where is the station?'
+    exampleTranslation: 'Excusez-moi, où est la gare ?'
+  - id: en-GB-A2-SOCIAL-001-005
+    term: 'to introduce'
+    translation: 'présenter'
+    partOfSpeech: verb
+    example: 'Let me introduce my colleague.'
+    exampleTranslation: 'Permettez-moi de vous présenter mon collègue.'
+  - id: en-GB-A2-SOCIAL-001-006
+    term: 'to exchange'
+    translation: 'échanger'
+    partOfSpeech: verb
+    example: 'We exchanged phone numbers.'
+    exampleTranslation: 'Nous avons échangé nos numéros de téléphone.'
+grammar: []

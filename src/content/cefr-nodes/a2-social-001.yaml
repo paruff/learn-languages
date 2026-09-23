@@ -1,0 +1,12 @@
+nodeId: A2-SOCIAL-001
+cefrLevel: A2
+skill: spoken_interaction
+canDo: Can manage everyday social contact and exchange simple information on familiar topics
+pragmaticFocus: Handle greetings, politeness and routine small talk
+notionalFocus: Social rituals, personal information, everyday exchange
+relatedNodes:
+  - A2-PLANS-001
+  - A2-SHOP-001
+  - A2-DESCRIBE-001
+prerequisiteNodes:
+  - A1-GREET-001

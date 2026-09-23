@@ -1,0 +1,40 @@
+nodeId: A2-WRITE-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-A2-WRITE-001-001
+    term: 'and'
+    translation: 'et'
+    partOfSpeech: conjunction
+    example: 'I bought bread and milk.'
+    exampleTranslation: 'J’ai acheté du pain et du lait.'
+  - id: en-GB-A2-WRITE-001-002
+    term: 'but'
+    translation: 'mais'
+    partOfSpeech: conjunction
+    example: 'I wanted to go out, but it rained.'
+    exampleTranslation: 'Je voulais sortir, mais il a plu.'
+  - id: en-GB-A2-WRITE-001-003
+    term: 'because'
+    translation: 'parce que'
+    partOfSpeech: conjunction
+    example: 'I stayed home because I was tired.'
+    exampleTranslation: 'Je suis resté à la maison parce que j’étais fatigué.'
+  - id: en-GB-A2-WRITE-001-004
+    term: 'then'
+    translation: 'ensuite'
+    partOfSpeech: adverb
+    example: 'I got up, then I had breakfast.'
+    exampleTranslation: 'Je me suis levé, ensuite j’ai pris le petit-déjeuner.'
+  - id: en-GB-A2-WRITE-001-005
+    term: 'sentence'
+    translation: 'phrase'
+    partOfSpeech: noun
+    example: 'Write one sentence about your day.'
+    exampleTranslation: 'Écris une phrase sur ta journée.'
+  - id: en-GB-A2-WRITE-001-006
+    term: 'note'
+    translation: 'note'
+    partOfSpeech: noun
+    example: 'I wrote a short note for my flatmate.'
+    exampleTranslation: 'J’ai écrit une courte note à mon colocataire.'
+grammar: []
