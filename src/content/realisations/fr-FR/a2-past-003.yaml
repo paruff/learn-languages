@@ -1,0 +1,42 @@
+nodeId: A2-PAST-003
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A2-PAST-003-001
+    term: 'histoire'
+    translation: 'story'
+    partOfSpeech: noun
+    gender: feminine
+    example: "L'histoire de mon grand-père est très intéressante."
+    exampleTranslation: "My grandfather's story is very interesting."
+  - id: fr-FR-A2-PAST-003-002
+    term: 'arriver'
+    translation: 'to happen'
+    partOfSpeech: verb
+    example: "Qu'est-ce qui est arrivé hier ?"
+    exampleTranslation: 'What happened yesterday?'
+  - id: fr-FR-A2-PAST-003-003
+    term: 'quand'
+    translation: 'when'
+    partOfSpeech: conjunction
+    example: "Quand j'étais enfant, je jouais dans la rue."
+    exampleTranslation: 'When I was a child, I played in the street.'
+  - id: fr-FR-A2-PAST-003-004
+    term: 'se souvenir'
+    translation: 'to remember'
+    partOfSpeech: verb
+    example: 'Je me souviens parfaitement de ce jour-là.'
+    exampleTranslation: 'I remember that day perfectly.'
+  - id: fr-FR-A2-PAST-003-005
+    term: "à l'époque"
+    translation: 'at that time'
+    partOfSpeech: adverb
+    example: "À l'époque, il n'y avait pas d'internet."
+    exampleTranslation: 'At that time there was no internet.'
+  - id: fr-FR-A2-PAST-003-006
+    term: 'rappeler'
+    translation: 'to recall'
+    partOfSpeech: verb
+    example: 'Je me rappelle bien de ce voyage.'
+    exampleTranslation: 'I recall that trip well.'
+grammar: []
+culturalNotes: 'French oral storytelling is prized — grandparents and "contes" keep regional memory alive; "quand j’étais jeune" opens most personal narratives.'

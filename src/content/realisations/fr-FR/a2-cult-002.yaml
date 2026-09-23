@@ -1,0 +1,46 @@
+nodeId: A2-CULT-002
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-A2-CULT-002-001
+    term: 'culture'
+    translation: 'culture'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La culture française est riche.'
+    exampleTranslation: 'French culture is rich.'
+  - id: fr-FR-A2-CULT-002-002
+    term: 'coutume'
+    translation: 'custom'
+    partOfSpeech: noun
+    gender: feminine
+    example: "C'est la coutume d'offrir des cadeaux à Noël."
+    exampleTranslation: 'It is customary to give gifts at Christmas.'
+  - id: fr-FR-A2-CULT-002-003
+    term: 'différent'
+    translation: 'different'
+    partOfSpeech: adjective
+    example: 'Les pays ont des coutumes différentes.'
+    exampleTranslation: 'Countries have different customs.'
+  - id: fr-FR-A2-CULT-002-004
+    term: 'pays'
+    translation: 'country'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'La France est un beau pays.'
+    exampleTranslation: 'France is a beautiful country.'
+  - id: fr-FR-A2-CULT-002-005
+    term: 'peuple'
+    translation: 'people'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Le peuple français est accueillant.'
+    exampleTranslation: 'The French people are welcoming.'
+  - id: fr-FR-A2-CULT-002-006
+    term: 'région'
+    translation: 'region'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Chaque région a des traditions différentes.'
+    exampleTranslation: 'Each region has different traditions.'
+grammar: []
+culturalNotes: 'France has strong regional identities: Brittany, Alsace, Occitanie, and Corsica each keep distinct traditions, dialects, and festivals.'
