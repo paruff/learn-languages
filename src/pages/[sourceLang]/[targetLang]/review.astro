@@ -391,7 +391,10 @@ const targetName = languageName(targetLang);
       return;
     }
     hideReflection();
-    progressEl.textContent = `${reviewed + 1} of ${reviewed + queue.length}`;
+    progressEl.textContent = format(getString(sourceLang, 'reviewProgress'), {
+      current: reviewed + 1,
+      total: reviewed + queue.length,
+    });
     const image = imageOf(item);
     if (image?.imageUrl) {
       imageEl.src = withBase(`/vocab-images/${image.imageUrl}`);
