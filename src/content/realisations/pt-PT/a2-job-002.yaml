@@ -22,6 +22,8 @@ vocabulary:
     gender: feminine
     example: 'Tenho uma reunião às dez da manhã.'
     exampleTranslation: 'I have a meeting at ten in the morning.'
+    imageUrl: 'reuniao.webp'
+    imageAlt: 'A group of colleagues discussing around an office meeting table'
   - id: pt-PT-A2-JOB-002-004
     term: 'sempre'
     translation: 'always'

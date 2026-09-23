@@ -8,6 +8,8 @@ vocabulary:
     gender: feminine
     example: 'Estudo na Universidade de Lisboa.'
     exampleTranslation: 'I study at the University of Lisbon.'
+    imageUrl: 'universidade.webp'
+    imageAlt: 'A university campus building illuminated at dusk'
   - id: pt-PT-A2-STUDY-001-002
     term: 'curso'
     translation: 'course'
@@ -37,6 +39,8 @@ vocabulary:
     gender: masculine
     example: 'Tenho um exame na semana seguinte.'
     exampleTranslation: 'I have an exam next week.'
+    imageUrl: 'exame.webp'
+    imageAlt: 'A hand writing on a multiple-choice exam answer sheet'
   - id: pt-PT-A2-STUDY-001-006
     term: 'aprovar'
     translation: 'to pass'

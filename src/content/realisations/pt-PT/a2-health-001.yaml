@@ -8,6 +8,8 @@ vocabulary:
     gender: masculine
     example: 'Preciso de ir ao médico.'
     exampleTranslation: 'I need to go to the doctor.'
+    imageUrl: 'medico.webp'
+    imageAlt: 'A female doctor listening to a patient with a stethoscope'
   - id: pt-PT-A2-HEALTH-001-002
     term: 'doença'
     translation: 'illness'

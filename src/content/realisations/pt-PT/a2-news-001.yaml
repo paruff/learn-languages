@@ -17,6 +17,8 @@ vocabulary:
     gender: feminine
     example: 'Comprei uma revista de atualidades.'
     exampleTranslation: 'I bought a current affairs magazine.'
+    imageUrl: 'revista.webp'
+    imageAlt: 'The illustrated cover of a vintage magazine'
   - id: pt-PT-A2-NEWS-001-003
     term: 'título'
     translation: 'headline'
@@ -31,6 +33,8 @@ vocabulary:
     gender: masculine
     example: 'O autor escreve bem.'
     exampleTranslation: 'The author writes well.'
+    imageUrl: 'autor.webp'
+    imageAlt: 'An author signing copies of their own book at a bookshop'
   - id: pt-PT-A2-NEWS-001-005
     term: 'informação'
     translation: 'information'
