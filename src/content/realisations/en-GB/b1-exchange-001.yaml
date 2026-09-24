@@ -1,0 +1,40 @@
+nodeId: B1-EXCHANGE-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-EXCHANGE-001-001
+    term: 'to check the information'
+    translation: 'vérifier l’information'
+    partOfSpeech: phrase
+    example: 'Let me check the information before I leave.'
+    exampleTranslation: 'Laisse-moi vérifier l’information avant de partir.'
+  - id: en-GB-B1-EXCHANGE-001-002
+    term: 'to confirm'
+    translation: 'confirmer'
+    partOfSpeech: verb
+    example: 'Could you confirm the address?'
+    exampleTranslation: 'Pourriez-vous confirmer l’adresse ?'
+  - id: en-GB-B1-EXCHANGE-001-003
+    term: 'factual information'
+    translation: 'des informations factuelles'
+    partOfSpeech: phrase
+    example: 'We exchanged factual information about the delay.'
+    exampleTranslation: 'Nous avons échangé des informations factuelles sur le retard.'
+  - id: en-GB-B1-EXCHANGE-001-004
+    term: 'to relay a message'
+    translation: 'faire passer un message'
+    partOfSpeech: phrase
+    example: 'Can you relay a message to your manager?'
+    exampleTranslation: 'Peux-tu faire passer un message à ton responsable ?'
+  - id: en-GB-B1-EXCHANGE-001-005
+    term: 'to make sure'
+    translation: 's’assurer que'
+    partOfSpeech: phrase
+    example: 'I called to make sure the booking went through.'
+    exampleTranslation: 'J’ai appelé pour m’assurer que la réservation est passée.'
+  - id: en-GB-B1-EXCHANGE-001-006
+    term: 'to obtain details'
+    translation: 'obtenir des renseignements'
+    partOfSpeech: phrase
+    example: 'She called the office to obtain details.'
+    exampleTranslation: 'Elle a appelé le bureau pour obtenir des renseignements.'
+grammar: []

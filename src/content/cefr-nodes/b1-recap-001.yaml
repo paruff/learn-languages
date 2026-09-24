@@ -1,0 +1,12 @@
+nodeId: B1-RECAP-001
+cefrLevel: B1
+skill: spoken_interaction
+canDo: 'Can summarise a short account or programme with their opinion and answer follow-up questions'
+pragmaticFocus: 'Spoken summarising with opinion plus responsive follow-up'
+notionalFocus: 'Accounts, articles, talks, interviews, documentaries'
+relatedNodes:
+  - B1-SUMMARY-001
+  - B1-EXCHANGE-001
+  - B1-OPINION-001
+prerequisiteNodes:
+  - B1-LISTEN-001

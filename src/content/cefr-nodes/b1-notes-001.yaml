@@ -1,0 +1,12 @@
+nodeId: B1-NOTES-001
+cefrLevel: B1
+skill: writing
+canDo: 'Can take sufficiently precise notes during a talk to reuse them later'
+pragmaticFocus: 'Note-taking from clear spoken input for later reuse'
+notionalFocus: 'Talks, lectures, seminars, key points'
+relatedNodes:
+  - B1-SUMMARY-001
+  - B1-MESSAGE-001
+  - B1-LISTEN-001
+prerequisiteNodes:
+  - A2-STUDY-001

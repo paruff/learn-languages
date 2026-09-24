@@ -1,0 +1,40 @@
+nodeId: B1-ARGUMENT-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-ARGUMENT-001-001
+    term: 'an argumentative text'
+    translation: 'un texte argumentatif'
+    partOfSpeech: phrase
+    example: 'The article is a short argumentative text.'
+    exampleTranslation: 'L’article est un court texte argumentatif.'
+  - id: en-GB-B1-ARGUMENT-001-002
+    term: 'the main conclusion'
+    translation: 'la conclusion principale'
+    partOfSpeech: phrase
+    example: 'Identify the main conclusion of the editorial.'
+    exampleTranslation: 'Identifiez la conclusion principale de l’éditorial.'
+  - id: en-GB-B1-ARGUMENT-001-003
+    term: 'the line of argument'
+    translation: 'le schéma argumentatif'
+    partOfSpeech: phrase
+    example: 'Recognise the line of argument before reading in detail.'
+    exampleTranslation: 'Reconnaissez le schéma argumentatif avant de lire en détail.'
+  - id: en-GB-B1-ARGUMENT-001-004
+    term: 'to put forward a point'
+    translation: 'avancer un argument'
+    partOfSpeech: phrase
+    example: 'The author puts forward a strong point.'
+    exampleTranslation: 'L’auteur avance un argument fort.'
+  - id: en-GB-B1-ARGUMENT-001-005
+    term: 'a counterargument'
+    translation: 'un contre-argument'
+    partOfSpeech: noun
+    example: 'The text presents a counterargument at the end.'
+    exampleTranslation: 'Le texte présente un contre-argument à la fin.'
+  - id: en-GB-B1-ARGUMENT-001-006
+    term: 'to be convinced'
+    translation: 'être convaincu'
+    partOfSpeech: phrase
+    example: 'I was convinced by the final paragraph.'
+    exampleTranslation: 'J’étais convaincu par le dernier paragraphe.'
+grammar: []

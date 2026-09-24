@@ -1,0 +1,43 @@
+nodeId: B1-CONSULT-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B1-CONSULT-001-001
+    term: 'décrire des symptômes'
+    translation: 'to describe symptoms'
+    partOfSpeech: phrase
+    example: 'Décrivez vos symptômes au médecin.'
+    exampleTranslation: 'Describe your symptoms to the doctor.'
+  - id: fr-FR-B1-CONSULT-001-002
+    term: 'une consultation'
+    translation: 'a consultation'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La consultation a duré vingt minutes.'
+    exampleTranslation: 'The consultation lasted twenty minutes.'
+  - id: fr-FR-B1-CONSULT-001-003
+    term: 'des renseignements concrets'
+    translation: 'concrete information'
+    partOfSpeech: phrase
+    example: 'Fournissez des renseignements concrets sur votre situation.'
+    exampleTranslation: 'Provide concrete information about your situation.'
+  - id: fr-FR-B1-CONSULT-001-004
+    term: 'un entretien'
+    translation: 'an interview'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'L’entretien portait sur mon expérience.'
+    exampleTranslation: 'The interview focused on my experience.'
+  - id: fr-FR-B1-CONSULT-001-005
+    term: 'introduire un nouveau sujet'
+    translation: 'to introduce a new subject'
+    partOfSpeech: phrase
+    example: 'Elle a pris l’initiative d’introduire un nouveau sujet.'
+    exampleTranslation: 'She took the initiative to introduce a new subject.'
+  - id: fr-FR-B1-CONSULT-001-006
+    term: 'avec une précision limitée'
+    translation: 'with limited precision'
+    partOfSpeech: phrase
+    example: 'Il a répondu avec une précision limitée.'
+    exampleTranslation: 'He answered with limited precision.'
+grammar: []
+culturalNotes: 'French medical consultations begin with the « carte de santé » or CPS card and the « ticket modérateur »; patients describe symptoms directly and expect the doctor to lead the exchange.'

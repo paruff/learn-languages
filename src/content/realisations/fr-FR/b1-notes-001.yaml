@@ -1,0 +1,44 @@
+nodeId: B1-NOTES-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B1-NOTES-001-001
+    term: 'prendre des notes'
+    translation: 'to take notes'
+    partOfSpeech: phrase
+    example: 'J’ai pris des notes pendant le cours.'
+    exampleTranslation: 'I took notes during the lecture.'
+  - id: fr-FR-B1-NOTES-001-002
+    term: 'une liste de points clés'
+    translation: 'a list of key points'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Écrivez une liste de points clés.'
+    exampleTranslation: 'Write a list of key points.'
+  - id: fr-FR-B1-NOTES-001-003
+    term: 'une conférence'
+    translation: 'a lecture'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La conférence était claire et bien structurée.'
+    exampleTranslation: 'The lecture was clear and well structured.'
+  - id: fr-FR-B1-NOTES-001-004
+    term: 'réutiliser ultérieurement'
+    translation: 'to reuse later'
+    partOfSpeech: phrase
+    example: 'Je réutiliserai ces notes dans ma dissertation.'
+    exampleTranslation: 'I will reuse these notes in my essay.'
+  - id: fr-FR-B1-NOTES-001-005
+    term: 'un séminaire'
+    translation: 'a seminar'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Le séminaire portait sur la politique climatique.'
+    exampleTranslation: 'The seminar focused on climate policy.'
+  - id: fr-FR-B1-NOTES-001-006
+    term: 'un sujet familier'
+    translation: 'a familiar topic'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je prends de meilleures notes sur un sujet familier.'
+    exampleTranslation: 'I take better notes on a familiar topic.'
+grammar: []

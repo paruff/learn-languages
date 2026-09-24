@@ -1,0 +1,44 @@
+nodeId: B1-SERVICE-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B1-SERVICE-001-001
+    term: 'un article défectueux'
+    translation: 'a defective item'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je voudrais retourner un article défectueux.'
+    exampleTranslation: 'I would like to return a defective item.'
+  - id: fr-FR-B1-SERVICE-001-002
+    term: 'formuler une plainte'
+    translation: 'to make a complaint'
+    partOfSpeech: phrase
+    example: 'Elle a formulé une plainte concernant le service.'
+    exampleTranslation: 'She made a complaint about the service.'
+  - id: fr-FR-B1-SERVICE-001-003
+    term: 'un remboursement'
+    translation: 'a refund'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ils m’ont proposé un remboursement.'
+    exampleTranslation: 'They offered me a refund.'
+  - id: fr-FR-B1-SERVICE-001-004
+    term: 'le bureau de poste'
+    translation: 'the post office'
+    partOfSpeech: phrase
+    example: 'Le colis est au bureau de poste.'
+    exampleTranslation: 'The parcel is at the post office.'
+  - id: fr-FR-B1-SERVICE-001-005
+    term: 'une agence bancaire'
+    translation: 'a bank branch'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La plus proche agence bancaire ferme à six heures.'
+    exampleTranslation: 'The nearest bank branch closes at six.'
+  - id: fr-FR-B1-SERVICE-001-006
+    term: 'se débrouiller'
+    translation: 'to sort it out'
+    partOfSpeech: phrase
+    example: 'Je me suis débrouillé au comptoir.'
+    exampleTranslation: 'I managed to sort it out at the counter.'
+grammar: []
+culturalNotes: 'French consumers can return defective goods under the legal guarantee of conformity (« garantie de conformité »); a written « réclamation » with the receipt (« ticket de caisse » ) is the usual first step at a « service client ».'

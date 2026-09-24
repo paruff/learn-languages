@@ -1,0 +1,40 @@
+nodeId: B1-CLARIFY-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B1-CLARIFY-001-001
+    term: 'demander des précisions'
+    translation: 'to ask for clarification'
+    partOfSpeech: phrase
+    example: 'Pourrais-je demander des précisions sur ce point ?'
+    exampleTranslation: 'Could I ask for clarification on that point?'
+  - id: fr-FR-B1-CLARIFY-001-002
+    term: 'répéter'
+    translation: 'to repeat'
+    partOfSpeech: verb
+    example: 'Pourriez-vous répéter plus lentement ?'
+    exampleTranslation: 'Could you repeat that more slowly?'
+  - id: fr-FR-B1-CLARIFY-001-003
+    term: 'reformuler'
+    translation: 'to rephrase'
+    partOfSpeech: verb
+    example: 'Laisse-moi reformuler ce que tu as dit.'
+    exampleTranslation: 'Let me rephrase what you said.'
+  - id: fr-FR-B1-CLARIFY-001-004
+    term: 'vérifier la compréhension'
+    translation: 'to check understanding'
+    partOfSpeech: phrase
+    example: 'J’ai reformulé la question pour vérifier la compréhension.'
+    exampleTranslation: 'I rephrased the question to check understanding.'
+  - id: fr-FR-B1-CLARIFY-001-005
+    term: 'développer une idée'
+    translation: 'to develop an idea'
+    partOfSpeech: phrase
+    example: 'Pourriez-vous développer cette idée un peu ?'
+    exampleTranslation: 'Could you develop that idea a little?'
+  - id: fr-FR-B1-CLARIFY-001-006
+    term: 'je ne suis pas sûr de suivre'
+    translation: 'I do not follow'
+    partOfSpeech: phrase
+    example: 'Désolé, je ne suis pas sûr de suivre votre dernier point.'
+    exampleTranslation: 'Sorry, I do not follow your last point.'
+grammar: []

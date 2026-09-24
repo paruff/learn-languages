@@ -1,0 +1,12 @@
+nodeId: B1-INSTRUCT-001
+cefrLevel: B1
+skill: listening
+canDo: 'Can understand spoken technical information and follow detailed directions'
+pragmaticFocus: 'Understanding spoken instructions, announcements and directions'
+notionalFocus: 'Procedures, equipment, step-by-step directions'
+relatedNodes:
+  - B1-LISTEN-001
+  - B1-PROCEDURE-001
+  - B1-TEXT-003
+prerequisiteNodes:
+  - A2-SIGN-001

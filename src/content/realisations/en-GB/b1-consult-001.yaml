@@ -1,0 +1,40 @@
+nodeId: B1-CONSULT-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-CONSULT-001-001
+    term: 'to describe symptoms'
+    translation: 'décrire des symptômes'
+    partOfSpeech: phrase
+    example: 'Describe your symptoms to the doctor.'
+    exampleTranslation: 'Décrivez vos symptômes au médecin.'
+  - id: en-GB-B1-CONSULT-001-002
+    term: 'a consultation'
+    translation: 'une consultation'
+    partOfSpeech: noun
+    example: 'The consultation lasted twenty minutes.'
+    exampleTranslation: 'La consultation a duré vingt minutes.'
+  - id: en-GB-B1-CONSULT-001-003
+    term: 'concrete information'
+    translation: 'des renseignements concrets'
+    partOfSpeech: phrase
+    example: 'Provide concrete information about your situation.'
+    exampleTranslation: 'Fournissez des renseignements concrets sur votre situation.'
+  - id: en-GB-B1-CONSULT-001-004
+    term: 'an interview'
+    translation: 'un entretien'
+    partOfSpeech: noun
+    example: 'The interview focused on my experience.'
+    exampleTranslation: 'L’entretien portait sur mon expérience.'
+  - id: en-GB-B1-CONSULT-001-005
+    term: 'to introduce a new subject'
+    translation: 'introduire un nouveau sujet'
+    partOfSpeech: phrase
+    example: 'She took the initiative to introduce a new subject.'
+    exampleTranslation: 'Elle a pris l’initiative d’introduire un nouveau sujet.'
+  - id: en-GB-B1-CONSULT-001-006
+    term: 'with limited precision'
+    translation: 'avec une précision limitée'
+    partOfSpeech: phrase
+    example: 'He answered with limited precision.'
+    exampleTranslation: 'Il a répondu avec une précision limitée.'
+grammar: []

@@ -1,0 +1,12 @@
+nodeId: B1-LOCATE-001
+cefrLevel: B1
+skill: reading
+canDo: 'Can scan longer texts and everyday documents to find and gather information for a specific task'
+pragmaticFocus: 'Scanning and locating information across parts of a text'
+notionalFocus: 'Everyday documents, specific information needs'
+relatedNodes:
+  - B1-TEXT-001
+  - B1-TEXT-003
+  - B1-ARGUMENT-001
+prerequisiteNodes:
+  - A2-LOC-001
