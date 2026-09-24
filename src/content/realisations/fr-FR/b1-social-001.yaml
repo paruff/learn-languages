@@ -1,0 +1,41 @@
+nodeId: B1-SOCIAL-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B1-SOCIAL-001-001
+    term: 'Excusez-moi, pouvez-vous m’aider ?'
+    translation: 'Excuse me, can you help me?'
+    partOfSpeech: phrase
+    example: 'Excusez-moi, pouvez-vous m’aider à trouver le métro ?'
+    exampleTranslation: 'Excuse me, can you help me find the metro?'
+  - id: fr-FR-B1-SOCIAL-001-002
+    term: 'Pardon'
+    translation: 'Pardon me'
+    partOfSpeech: interjection
+    example: 'Pardon, où se trouve la gare ?'
+    exampleTranslation: 'Pardon me, where is the train station?'
+  - id: fr-FR-B1-SOCIAL-001-003
+    term: 'parler de'
+    translation: 'to talk about'
+    partOfSpeech: verb
+    example: 'J’aimerais parler de la culture française.'
+    exampleTranslation: 'I would like to talk about French culture.'
+  - id: fr-FR-B1-SOCIAL-001-004
+    term: 'la conversation était intéressante'
+    translation: 'the conversation was interesting'
+    partOfSpeech: phrase
+    example: 'La conversation était très intéressante, merci.'
+    exampleTranslation: 'The conversation was very interesting, thank you.'
+  - id: fr-FR-B1-SOCIAL-001-005
+    term: 'd’après mon expérience'
+    translation: 'in my experience'
+    partOfSpeech: phrase
+    example: 'D’après mon expérience, les Français sont très accueillants.'
+    exampleTranslation: 'In my experience, French people are very welcoming.'
+  - id: fr-FR-B1-SOCIAL-001-006
+    term: 'cela dépend des circonstances'
+    translation: 'it depends on the circumstances'
+    partOfSpeech: phrase
+    example: 'Cela dépend des circonstances, mais d’ordinaire j’aide.'
+    exampleTranslation: 'It depends on the circumstances, but I usually help.'
+grammar: []
+culturalNotes: 'Politeness escalates through « s’il vous plaît » and « excusez-moi » in service contexts; strangers are addressed as « Madame » or « Monsieur ».'

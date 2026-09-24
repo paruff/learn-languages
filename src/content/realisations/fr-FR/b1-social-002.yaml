@@ -1,0 +1,40 @@
+nodeId: B1-SOCIAL-002
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B1-SOCIAL-002-001
+    term: 'des sujets familiers'
+    translation: 'familiar topics'
+    partOfSpeech: phrase
+    example: 'J’aime parler de sujets familiers comme le travail et les loisirs.'
+    exampleTranslation: 'I like to talk about familiar topics like work and hobbies.'
+  - id: fr-FR-B1-SOCIAL-002-002
+    term: 'approfondir la conversation'
+    translation: 'to deepen the conversation'
+    partOfSpeech: phrase
+    example: 'Nous pouvons approfondir la conversation sur ce sujet.'
+    exampleTranslation: 'We can deepen the conversation about this topic.'
+  - id: fr-FR-B1-SOCIAL-002-003
+    term: 'donner mon avis'
+    translation: 'to give my opinion'
+    partOfSpeech: phrase
+    example: 'Puis-je donner mon avis sur ce sujet ?'
+    exampleTranslation: 'Can I give my opinion on this topic?'
+  - id: fr-FR-B1-SOCIAL-002-004
+    term: 'écouter activement'
+    translation: 'to listen actively'
+    partOfSpeech: phrase
+    example: 'Il est important d’écouter activement quand quelqu’un parle.'
+    exampleTranslation: 'It is important to listen actively when someone is speaking.'
+  - id: fr-FR-B1-SOCIAL-002-005
+    term: 'reformuler ce que l’on a entendu'
+    translation: 'to rephrase what was heard'
+    partOfSpeech: phrase
+    example: 'Puis-je reformuler ce que j’ai entendu pour confirmer que j’ai compris ?'
+    exampleTranslation: 'Can I rephrase what I heard to confirm I understood?'
+  - id: fr-FR-B1-SOCIAL-002-006
+    term: 'confirmer la compréhension'
+    translation: 'to confirm understanding'
+    partOfSpeech: phrase
+    example: 'Je veux confirmer la compréhension avant de continuer.'
+    exampleTranslation: 'I want to confirm understanding before continuing.'
+grammar: []

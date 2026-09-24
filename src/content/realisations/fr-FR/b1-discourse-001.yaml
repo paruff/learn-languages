@@ -1,0 +1,40 @@
+nodeId: B1-DISCOURSE-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B1-DISCOURSE-001-001
+    term: 'en outre'
+    translation: 'furthermore'
+    partOfSpeech: phrase
+    example: 'En outre, la qualité du produit est excellente.'
+    exampleTranslation: 'Furthermore, the product quality is excellent.'
+  - id: fr-FR-B1-DISCOURSE-001-002
+    term: 'cependant'
+    translation: 'however'
+    partOfSpeech: adverb
+    example: 'Cependant, il y a quelques exceptions à considérer.'
+    exampleTranslation: 'However, there are some exceptions to consider.'
+  - id: fr-FR-B1-DISCOURSE-001-003
+    term: 'en revanche'
+    translation: 'on the other hand'
+    partOfSpeech: phrase
+    example: 'En revanche, les avantages sont significatifs.'
+    exampleTranslation: 'On the other hand, the benefits are significant.'
+  - id: fr-FR-B1-DISCOURSE-001-004
+    term: 'bien que'
+    translation: 'although'
+    partOfSpeech: conjunction
+    example: 'Bien que ce soit difficile, cela vaut la peine d’essayer.'
+    exampleTranslation: 'Although it is difficult, it is worth trying.'
+  - id: fr-FR-B1-DISCOURSE-001-005
+    term: 'donc'
+    translation: 'therefore'
+    partOfSpeech: adverb
+    example: 'Nous devrions donc agir rapidement.'
+    exampleTranslation: 'Therefore, we should act quickly.'
+  - id: fr-FR-B1-DISCOURSE-001-006
+    term: 'malgré'
+    translation: 'despite'
+    partOfSpeech: preposition
+    example: 'Malgré la pluie, nous sommes sortis nous promener.'
+    exampleTranslation: 'Despite the rain, we went out for a walk.'
+grammar: []
