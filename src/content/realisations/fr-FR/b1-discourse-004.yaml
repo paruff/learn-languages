@@ -1,0 +1,40 @@
+nodeId: B1-DISCOURSE-004
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B1-DISCOURSE-004-001
+    term: 'dans une certaine mesure'
+    translation: 'to a certain extent'
+    partOfSpeech: phrase
+    example: 'Dans une certaine mesure, j’ai raison.'
+    exampleTranslation: 'To a certain extent, I am right.'
+  - id: fr-FR-B1-DISCOURSE-004-002
+    term: 'selon'
+    translation: 'depending on'
+    partOfSpeech: preposition
+    example: 'Selon la météo, nous irons au parc.'
+    exampleTranslation: 'Depending on the weather, we will go to the park.'
+  - id: fr-FR-B1-DISCOURSE-004-003
+    term: 'jusqu’à un certain point'
+    translation: 'up to a point'
+    partOfSpeech: phrase
+    example: 'Jusqu’à un certain point, je suis d’accord avec l’analyse.'
+    exampleTranslation: 'Up to a point, I agree with the analysis.'
+  - id: fr-FR-B1-DISCOURSE-004-004
+    term: 'dans la pratique'
+    translation: 'in practice'
+    partOfSpeech: phrase
+    example: 'Dans la pratique, les choses sont différentes.'
+    exampleTranslation: 'In practice, things are different.'
+  - id: fr-FR-B1-DISCOURSE-004-005
+    term: 'd’après mon expérience'
+    translation: 'in my experience'
+    partOfSpeech: phrase
+    example: 'D’après mon expérience, cela fonctionne bien.'
+    exampleTranslation: 'In my experience, this works well.'
+  - id: fr-FR-B1-DISCOURSE-004-006
+    term: 'd’une manière générale'
+    translation: 'in general terms'
+    partOfSpeech: phrase
+    example: 'D’une manière générale, le projet a été un succès.'
+    exampleTranslation: 'In general terms, the project was a success.'
+grammar: []
