@@ -1,0 +1,45 @@
+nodeId: B1-TEXT-003
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B1-TEXT-003-001
+    term: 'une information technique'
+    translation: 'technical information'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je peux comprendre des informations techniques simples.'
+    exampleTranslation: 'I can understand simple technical information.'
+  - id: fr-FR-B1-TEXT-003-002
+    term: 'un domaine professionnel'
+    translation: 'professional field'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je travaille dans un domaine professionnel précis.'
+    exampleTranslation: 'I work in a specific professional field.'
+  - id: fr-FR-B1-TEXT-003-003
+    term: 'une notice d’utilisation'
+    translation: 'instruction manual'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'J’ai lu la notice d’utilisation de l’ordinateur.'
+    exampleTranslation: 'I read the computer instruction manual.'
+  - id: fr-FR-B1-TEXT-003-004
+    term: 'un rapport technique'
+    translation: 'technical report'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'J’ai besoin d’écrire un rapport technique.'
+    exampleTranslation: 'I need to write a technical report.'
+  - id: fr-FR-B1-TEXT-003-005
+    term: 'la terminologie spécifique'
+    translation: 'specific terminology'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La terminologie spécifique est difficile à comprendre.'
+    exampleTranslation: 'The specific terminology is difficult to understand.'
+  - id: fr-FR-B1-TEXT-003-006
+    term: 'consulter les références'
+    translation: 'to consult references'
+    partOfSpeech: phrase
+    example: 'Il est utile de consulter les références pour comprendre le texte.'
+    exampleTranslation: 'It is useful to consult references to understand the text.'
+grammar: []

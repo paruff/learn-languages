@@ -1,0 +1,42 @@
+nodeId: B1-TEXT-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B1-TEXT-001-001
+    term: 'un article factuel'
+    translation: 'factual article'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'J’ai lu un article factuel sur l’économie française.'
+    exampleTranslation: 'I read a factual article about the Portuguese economy.'
+  - id: fr-FR-B1-TEXT-001-002
+    term: 'un sujet d’intérêt'
+    translation: 'topic of interest'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'J’ai trouvé un article sur un sujet d’intérêt.'
+    exampleTranslation: 'I found an article about a topic of interest.'
+  - id: fr-FR-B1-TEXT-001-003
+    term: 'comprendre le texte'
+    translation: 'to understand the text'
+    partOfSpeech: phrase
+    example: 'Je peux comprendre le texte sans dictionnaire.'
+    exampleTranslation: 'I can understand the text without a dictionary.'
+  - id: fr-FR-B1-TEXT-001-004
+    term: 'identifier les idées principales'
+    translation: 'to identify main ideas'
+    partOfSpeech: phrase
+    example: 'Il est important d’identifier les idées principales.'
+    exampleTranslation: 'It is important to identify the main ideas.'
+  - id: fr-FR-B1-TEXT-001-005
+    term: 'extraire des informations'
+    translation: 'to extract information'
+    partOfSpeech: phrase
+    example: 'J’ai besoin d’extraire des informations pertinentes.'
+    exampleTranslation: 'I need to extract relevant information.'
+  - id: fr-FR-B1-TEXT-001-006
+    term: 'lire avec attention'
+    translation: 'to read carefully'
+    partOfSpeech: phrase
+    example: 'Il faut lire avec attention pour comprendre.'
+    exampleTranslation: 'You need to read carefully to understand.'
+grammar: []

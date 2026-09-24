@@ -1,0 +1,43 @@
+nodeId: B1-TEXT-002
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B1-TEXT-002-001
+    term: 'l’actualité'
+    translation: 'news'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'J’ai lu un article d’actualité intéressant dans le journal.'
+    exampleTranslation: 'I read an interesting news article in the newspaper.'
+  - id: fr-FR-B1-TEXT-002-002
+    term: 'le résumé de l’actualité'
+    translation: 'news summary'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Le résumé de l’actualité est très clair.'
+    exampleTranslation: 'The news summary is very clear.'
+  - id: fr-FR-B1-TEXT-002-003
+    term: 'le titre principal'
+    translation: 'main headline'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Le titre principal a attiré mon attention.'
+    exampleTranslation: 'The main headline caught my attention.'
+  - id: fr-FR-B1-TEXT-002-004
+    term: 'lire rapidement'
+    translation: 'to read quickly'
+    partOfSpeech: phrase
+    example: 'Je peux lire rapidement pour trouver l’information.'
+    exampleTranslation: 'I can read quickly to find the information.'
+  - id: fr-FR-B1-TEXT-002-005
+    term: 'souligner les mots-clés'
+    translation: 'to underline key words'
+    partOfSpeech: phrase
+    example: 'J’aime souligner les mots-clés quand je lis.'
+    exampleTranslation: 'I like to underline key words when I read.'
+  - id: fr-FR-B1-TEXT-002-006
+    term: 'prendre des notes'
+    translation: 'to make notes'
+    partOfSpeech: phrase
+    example: 'Il est utile de prendre des notes pendant que je lis.'
+    exampleTranslation: 'It is useful to make notes while I read.'
+grammar: []
