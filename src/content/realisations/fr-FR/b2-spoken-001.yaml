@@ -1,0 +1,47 @@
+nodeId: B2-SPOKEN-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B2-SPOKEN-001-001
+    term: 'comprendre un discours étendu'
+    translation: 'to understand extended speech'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je peux comprendre un discours étendu lors de conférences.'
+    exampleTranslation: 'I can understand extended speech in lectures.'
+  - id: fr-FR-B2-SPOKEN-001-002
+    term: "suivre les lignes d'argumentation"
+    translation: 'to follow lines of argumentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "Il est important de suivre des lignes d'argumentation complexes."
+    exampleTranslation: 'It is important to follow complex lines of argumentation.'
+  - id: fr-FR-B2-SPOKEN-001-003
+    term: 'identifier les sujets de discussion'
+    translation: 'to identify discussion topics'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je vais identifier les sujets de discussion dans la conférence.'
+    exampleTranslation: 'I will identify the discussion topics in the lecture.'
+  - id: fr-FR-B2-SPOKEN-001-004
+    term: 'comprendre la structure du discours'
+    translation: 'to understand the speech structure'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "J'ai besoin de comprendre la structure du discours."
+    exampleTranslation: 'I need to understand the speech structure.'
+  - id: fr-FR-B2-SPOKEN-001-005
+    term: "relever l'intonation"
+    translation: 'to note the intonation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "Il est utile de relever l'intonation pour comprendre l'attitude."
+    exampleTranslation: 'It is useful to note the intonation to understand the attitude.'
+  - id: fr-FR-B2-SPOKEN-001-006
+    term: 'extraire les informations pertinentes'
+    translation: 'to extract relevant information'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je vais extraire les informations pertinentes du discours.'
+    exampleTranslation: 'I will extract relevant information from the speech.'
+grammar: []
+culturalNotes: "French academic listening requires following 'le fil conducteur' (the thread); 'relever' implies active noting, not passive hearing."
