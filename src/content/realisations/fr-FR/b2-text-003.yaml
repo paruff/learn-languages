@@ -1,0 +1,47 @@
+nodeId: B2-TEXT-003
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B2-TEXT-003-001
+    term: "reconnaître la ligne d'argumentation"
+    translation: 'to recognise the line of argument'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "Je peux reconnaître la ligne d'argumentation de l'auteur."
+    exampleTranslation: "I can recognise the author's line of argument."
+  - id: fr-FR-B2-TEXT-003-002
+    term: 'analyser la structure du texte'
+    translation: 'to analyse the text structure'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je vais analyser la structure du texte pour mieux comprendre.'
+    exampleTranslation: 'I will analyse the text structure to understand better.'
+  - id: fr-FR-B2-TEXT-003-003
+    term: 'identifier les prémisses et les conclusions'
+    translation: 'to identify premises and conclusions'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "Il est important d'identifier les prémisses et les conclusions dans l'argument."
+    exampleTranslation: 'It is important to identify premises and conclusions in the argument.'
+  - id: fr-FR-B2-TEXT-003-004
+    term: "évaluer la force de l'argument"
+    translation: 'to evaluate the strength of the argument'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "Je dois évaluer la force de l'argument présenté."
+    exampleTranslation: 'I need to evaluate the strength of the presented argument.'
+  - id: fr-FR-B2-TEXT-003-005
+    term: 'reconnaître les présupposés'
+    translation: 'to recognise assumptions'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "Je vais reconnaître les présupposés de l'auteur."
+    exampleTranslation: "I will recognise the author's assumptions."
+  - id: fr-FR-B2-TEXT-003-006
+    term: 'tirer des conclusions'
+    translation: 'to draw conclusions'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je peux tirer des conclusions du texte.'
+    exampleTranslation: 'I can draw conclusions from the text.'
+grammar: []
+culturalNotes: "French critical reading distinguishes 'prémisse' (premise) from 'présupposé' (presupposition); 'tirer des conclusions' is standard for logical deduction from text."

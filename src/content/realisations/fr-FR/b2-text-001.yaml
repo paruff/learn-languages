@@ -1,0 +1,47 @@
+nodeId: B2-TEXT-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B2-TEXT-001-001
+    term: 'lire en autonomie'
+    translation: 'to read with independence'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je peux lire en autonomie sur des sujets familiers.'
+    exampleTranslation: 'I can read with independence on familiar topics.'
+  - id: fr-FR-B2-TEXT-001-002
+    term: 'comprendre des textes de difficulté moyenne'
+    translation: 'to understand texts of medium difficulty'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je vais comprendre des textes de difficulté moyenne.'
+    exampleTranslation: 'I will understand texts of medium difficulty.'
+  - id: fr-FR-B2-TEXT-001-003
+    term: 'identifier les idées principales'
+    translation: 'to identify main ideas'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "Il est important d'identifier les idées principales du texte."
+    exampleTranslation: 'It is important to identify the main ideas of the text.'
+  - id: fr-FR-B2-TEXT-001-004
+    term: 'utiliser des stratégies de lecture'
+    translation: 'to use reading strategies'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "J'utiliserai des stratégies de lecture pour mieux comprendre."
+    exampleTranslation: 'I will use reading strategies to understand better.'
+  - id: fr-FR-B2-TEXT-001-005
+    term: 'lire de façon critique'
+    translation: 'to read critically'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je dois lire de façon critique pour évaluer.'
+    exampleTranslation: 'I need to read critically to evaluate.'
+  - id: fr-FR-B2-TEXT-001-006
+    term: 'adapter le rythme de lecture'
+    translation: 'to adapt the reading pace'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "J'adapterai le rythme de lecture au type de texte."
+    exampleTranslation: 'I will adapt the reading pace to the type of text.'
+grammar: []
+culturalNotes: "French reading pedagogy emphasizes 'lecture cursive' (extensive) vs 'lecture analytique' (intensive); 'lire en autonomie' implies self-directed text selection."
