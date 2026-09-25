@@ -1,0 +1,47 @@
+nodeId: B2-SOCIAL-002
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B2-SOCIAL-002-001
+    term: 'débattre de sujets'
+    translation: 'to debate topics'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "J'aime débattre de sujets d'actualité avec mes amis."
+    exampleTranslation: 'I like to debate current topics with my friends.'
+  - id: fr-FR-B2-SOCIAL-002-002
+    term: 'participer à des discussions'
+    translation: 'to participate in discussions'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Il est important de participer activement aux discussions.'
+    exampleTranslation: 'It is important to participate actively in discussions.'
+  - id: fr-FR-B2-SOCIAL-002-003
+    term: 'exprimer des points de vue'
+    translation: 'to express points of view'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je peux exprimer mes points de vue clairement.'
+    exampleTranslation: 'I can express my points of view clearly.'
+  - id: fr-FR-B2-SOCIAL-002-004
+    term: 'argumenter en faveur'
+    translation: 'to argue in favour'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je vais argumenter en faveur de ma position.'
+    exampleTranslation: 'I will argue in favour of my position.'
+  - id: fr-FR-B2-SOCIAL-002-005
+    term: 'contester des arguments'
+    translation: 'to counter arguments'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Il est utile de contester des arguments pour enrichir le débat.'
+    exampleTranslation: 'It is useful to counter arguments to enrich the discussion.'
+  - id: fr-FR-B2-SOCIAL-002-006
+    term: 'parvenir à un consensus'
+    translation: 'to reach consensus'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Le but est de parvenir à un consensus, pas à un conflit.'
+    exampleTranslation: 'The goal is to reach consensus, not conflict.'
+grammar: []
+culturalNotes: "French debate culture uses 'd'un côté... de l'autre' for balanced argumentation; 'parvenir à un consensus' implies collaborative resolution."

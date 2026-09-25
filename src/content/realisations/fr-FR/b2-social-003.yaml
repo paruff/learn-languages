@@ -1,0 +1,47 @@
+nodeId: B2-SOCIAL-003
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B2-SOCIAL-003-001
+    term: 'défendre ma position'
+    translation: 'to defend my position'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je peux défendre ma position avec des arguments solides.'
+    exampleTranslation: 'I can defend my position with solid arguments.'
+  - id: fr-FR-B2-SOCIAL-003-002
+    term: 'justifier la décision'
+    translation: 'to justify the decision'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je dois justifier ma décision avec des faits.'
+    exampleTranslation: 'I need to justify my decision with facts.'
+  - id: fr-FR-B2-SOCIAL-003-003
+    term: "soutenir l'opinion"
+    translation: 'to sustain the opinion'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "Il est important de soutenir l'opinion avec des exemples."
+    exampleTranslation: 'It is important to sustain the opinion with examples.'
+  - id: fr-FR-B2-SOCIAL-003-004
+    term: 'présenter des raisons'
+    translation: 'to present reasons'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je vais présenter des raisons pour soutenir mon argument.'
+    exampleTranslation: 'I will present reasons to support my argument.'
+  - id: fr-FR-B2-SOCIAL-003-005
+    term: 'expliquer le raisonnement'
+    translation: 'to explain the reasoning'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "Il est utile d'expliquer le raisonnement pour que tous comprennent."
+    exampleTranslation: 'It is useful to explain the reasoning so that everyone understands.'
+  - id: fr-FR-B2-SOCIAL-003-006
+    term: 'acquiescer partiellement'
+    translation: 'to partially agree'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "J'acquiesce partiellement, mais j'ai des réserves."
+    exampleTranslation: 'I partially agree, but I have reservations.'
+grammar: []
+culturalNotes: "French polite disagreement uses 'je ne suis pas tout à fait d'accord' or 'sans être entièrement d'accord'; 'acquiescer' is more formal than 'accepter'."
