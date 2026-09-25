@@ -1,0 +1,47 @@
+nodeId: B2-WRITTEN-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B2-WRITTEN-001-001
+    term: 'rédiger des textes clairs et détaillés'
+    translation: 'to write clear and detailed texts'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je peux rédiger des textes clairs et détaillés sur divers sujets.'
+    exampleTranslation: 'I can write clear and detailed texts on various topics.'
+  - id: fr-FR-B2-WRITTEN-001-002
+    term: 'développer la rédaction'
+    translation: 'to develop the writing'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je vais développer la rédaction avec plus de détails.'
+    exampleTranslation: 'I will develop the writing with more details.'
+  - id: fr-FR-B2-WRITTEN-001-003
+    term: 'utiliser un vocabulaire varié'
+    translation: 'to use varied vocabulary'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "Il est important d'utiliser un vocabulaire varié à l'écrit."
+    exampleTranslation: 'It is important to use varied vocabulary in writing.'
+  - id: fr-FR-B2-WRITTEN-001-004
+    term: 'structurer les paragraphes'
+    translation: 'to structure paragraphs'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je dois structurer les paragraphes de façon logique.'
+    exampleTranslation: 'I need to structure paragraphs logically.'
+  - id: fr-FR-B2-WRITTEN-001-005
+    term: 'utiliser des connecteurs appropriés'
+    translation: 'to use appropriate connectors'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "J'utiliserai des connecteurs appropriés pour lier les idées."
+    exampleTranslation: 'I will use appropriate connectors to connect ideas.'
+  - id: fr-FR-B2-WRITTEN-001-006
+    term: 'réécrire pour améliorer'
+    translation: 'to rewrite to improve'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "Je vais réécrire le texte pour l'améliorer."
+    exampleTranslation: 'I will rewrite the text to improve it.'
+grammar: []
+culturalNotes: "French writing values 'la clarté' and 'la précision'; 'réécrire' implies a deliberate revision process, not just editing."

@@ -1,0 +1,54 @@
+nodeId: B2-ARGUE-004
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B2-ARGUE-004-001
+    term: 'soutenir la thèse'
+    translation: 'to sustain the thesis'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je dois soutenir la thèse avec des arguments solides.'
+    exampleTranslation: 'I need to sustain the thesis with solid arguments.'
+  - id: fr-FR-B2-ARGUE-004-002
+    term: 'présenter des données de soutien'
+    translation: 'to present supporting data'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je vais présenter des données de soutien pour ma position.'
+    exampleTranslation: 'I will present supporting data for my position.'
+  - id: fr-FR-B2-ARGUE-004-003
+    term: "exposer l'argumentation"
+    translation: 'to expose the argumentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "Il est important d'exposer l'argumentation de façon claire."
+    exampleTranslation: 'It is important to expose the argumentation clearly.'
+  - id: fr-FR-B2-ARGUE-004-004
+    term: 'utiliser des exemples concrets'
+    translation: 'to use concrete examples'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "J'utiliserai des exemples concrets pour illustrer."
+    exampleTranslation: 'I will use concrete examples to illustrate.'
+  - id: fr-FR-B2-ARGUE-004-005
+    term: 'renforcer la position'
+    translation: 'to reinforce the position'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Il est utile de renforcer la position avec plus de preuves.'
+    exampleTranslation: 'It is useful to reinforce the position with more evidence.'
+  - id: fr-FR-B2-ARGUE-004-006
+    term: 'rédiger un essai'
+    translation: 'to write an essay'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je dois rédiger un essai qui développe un argument.'
+    exampleTranslation: 'I have to write an essay that develops an argument.'
+grammar:
+  - id: B2-GRAMMAR-008
+    point: 'Subjunctive in subordinate clauses after expressions of necessity'
+    explanation: 'Using subjunctive after il faut que, il est important que, etc.'
+    examples:
+      - "Il faut que l'argument soit clair."
+      - 'Il est important que la thèse soit soutenue.'
+    cefrNotes: 'B2 learners use subjunctive in formal written argumentation'
+culturalNotes: "French essays follow a structured plan: introduction, développement (thèse/antithèse/synthèse), conclusion. 'Rédiger' is more formal than 'écrire' for essays."

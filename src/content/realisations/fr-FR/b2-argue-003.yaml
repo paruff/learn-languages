@@ -1,0 +1,47 @@
+nodeId: B2-ARGUE-003
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B2-ARGUE-003-001
+    term: 'développer systématiquement'
+    translation: 'to develop systematically'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "Je vais développer l'argument de manière systématique."
+    exampleTranslation: 'I will develop the argument systematically.'
+  - id: fr-FR-B2-ARGUE-003-002
+    term: 'mettre en évidence les points importants'
+    translation: 'to highlight important points'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Il est important de mettre en évidence les points les plus importants.'
+    exampleTranslation: 'It is important to highlight the most important points.'
+  - id: fr-FR-B2-ARGUE-003-003
+    term: 'présenter des détails pertinents'
+    translation: 'to present relevant details'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je vais présenter des détails pertinents pour soutenir ma thèse.'
+    exampleTranslation: 'I will present relevant details to support my thesis.'
+  - id: fr-FR-B2-ARGUE-003-004
+    term: "structurer l'argumentation"
+    translation: 'to structure the argumentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "J'ai besoin de structurer l'argumentation clairement."
+    exampleTranslation: 'I need to structure the argumentation clearly.'
+  - id: fr-FR-B2-ARGUE-003-005
+    term: 'utiliser des marqueurs discursifs'
+    translation: 'to use discourse markers'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "Il est utile d'utiliser des marqueurs discursifs pour organiser."
+    exampleTranslation: 'It is useful to use discourse markers to organise.'
+  - id: fr-FR-B2-ARGUE-003-006
+    term: 'conclure le raisonnement'
+    translation: 'to conclude the reasoning'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Pour conclure le raisonnement, résumons les points clés.'
+    exampleTranslation: 'To conclude the reasoning, let us summarise the key points.'
+grammar: []
+culturalNotes: "French academic writing uses 'en outre', 'par ailleurs', 'enfin' as discourse markers; 'mettre en exergue' is a formal alternative to 'mettre en évidence'."

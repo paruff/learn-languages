@@ -1,0 +1,54 @@
+nodeId: B2-WRITTEN-002
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B2-WRITTEN-002-001
+    term: 'rédiger un essai'
+    translation: 'to write an essay'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je vais rédiger un essai qui développe un argument.'
+    exampleTranslation: 'I will write an essay that develops an argument.'
+  - id: fr-FR-B2-WRITTEN-002-002
+    term: 'élaborer un rapport'
+    translation: 'to elaborate a report'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je dois élaborer un rapport détaillé.'
+    exampleTranslation: 'I need to elaborate a detailed report.'
+  - id: fr-FR-B2-WRITTEN-002-003
+    term: 'développer la thèse'
+    translation: 'to develop the thesis'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Il est important de développer la thèse avec des arguments.'
+    exampleTranslation: 'It is important to develop the thesis with arguments.'
+  - id: fr-FR-B2-WRITTEN-002-004
+    term: 'présenter des données de soutien'
+    translation: 'to present supporting data'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "Je présenterai des données de soutien dans l'essai."
+    exampleTranslation: 'I will present supporting data in the essay.'
+  - id: fr-FR-B2-WRITTEN-002-005
+    term: 'utiliser un vocabulaire académique'
+    translation: 'to use academic vocabulary'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "Il est utile d'utiliser un vocabulaire académique dans le rapport."
+    exampleTranslation: 'It is useful to use academic vocabulary in the report.'
+  - id: fr-FR-B2-WRITTEN-002-006
+    term: "structurer l'argumentation écrite"
+    translation: 'to structure the written argumentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "Je dois structurer l'argumentation écrite clairement."
+    exampleTranslation: 'I need to structure the written argumentation clearly.'
+grammar:
+  - id: B2-GRAMMAR-009
+    point: 'Passive voice in formal written reports'
+    explanation: 'Using passive constructions for objectivity in academic/professional writing'
+    examples:
+      - 'Les résultats ont été analysés.'
+      - "Le rapport a été rédigé par l'équipe."
+    cefrNotes: 'B2 learners use passive for formal register in written reports'
+culturalNotes: "French academic reports use 'nous' (impersonal) or passive; 'élaborer' suggests careful construction; 'soutenir une thèse' is the standard phrase for thesis defence."
