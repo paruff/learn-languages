@@ -1,0 +1,11 @@
+nodeId: B1-SERVICE-001
+cefrLevel: B1
+skill: spoken_interaction
+canDo: 'Can handle unusual service situations and formulate a complaint'
+pragmaticFocus: 'Managing uncommon service encounters and making complaints'
+notionalFocus: 'Shops, post office, banking, defective purchases'
+relatedNodes:
+  - B1-SOCIAL-001
+  - B1-EXCHANGE-001
+prerequisiteNodes:
+  - A2-SHOP-001

@@ -1,0 +1,43 @@
+nodeId: B1-ARGUMENT-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B1-ARGUMENT-001-001
+    term: 'un texte argumentatif'
+    translation: 'an argumentative text'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'L’article est un court texte argumentatif.'
+    exampleTranslation: 'The article is a short argumentative text.'
+  - id: fr-FR-B1-ARGUMENT-001-002
+    term: 'la conclusion principale'
+    translation: 'the main conclusion'
+    partOfSpeech: phrase
+    example: 'Identifiez la conclusion principale de l’éditorial.'
+    exampleTranslation: 'Identify the main conclusion of the editorial.'
+  - id: fr-FR-B1-ARGUMENT-001-003
+    term: 'le schéma argumentatif'
+    translation: 'the line of argument'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Reconnaissez le schéma argumentatif avant de lire en détail.'
+    exampleTranslation: 'Recognise the line of argument before reading in detail.'
+  - id: fr-FR-B1-ARGUMENT-001-004
+    term: 'avancer un argument'
+    translation: 'to put forward a point'
+    partOfSpeech: phrase
+    example: 'L’auteur avance un argument fort.'
+    exampleTranslation: 'The author puts forward a strong point.'
+  - id: fr-FR-B1-ARGUMENT-001-005
+    term: 'un contre-argument'
+    translation: 'a counterargument'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Le texte présente un contre-argument à la fin.'
+    exampleTranslation: 'The text presents a counterargument at the end.'
+  - id: fr-FR-B1-ARGUMENT-001-006
+    term: 'être convaincu'
+    translation: 'to be convinced'
+    partOfSpeech: phrase
+    example: 'J’étais convaincu par le dernier paragraphe.'
+    exampleTranslation: 'I was convinced by the final paragraph.'
+grammar: []

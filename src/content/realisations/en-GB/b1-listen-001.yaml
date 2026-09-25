@@ -1,0 +1,40 @@
+nodeId: B1-LISTEN-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-LISTEN-001-001
+    term: 'the main points'
+    translation: 'les points principaux'
+    partOfSpeech: phrase
+    example: 'I only caught the main points of the talk.'
+    exampleTranslation: 'Je n’ai saisi que les points principaux de l’exposé.'
+  - id: en-GB-B1-LISTEN-001-002
+    term: 'a general message'
+    translation: 'un message général'
+    partOfSpeech: phrase
+    example: 'The announcement carried a general message about the closure.'
+    exampleTranslation: 'L’annonce portait un message général sur la fermeture.'
+  - id: en-GB-B1-LISTEN-001-003
+    term: 'a short narrative'
+    translation: 'un récit court'
+    partOfSpeech: phrase
+    example: 'The interview included a short narrative about the war.'
+    exampleTranslation: 'L’entretien incluait un récit court sur la guerre.'
+  - id: en-GB-B1-LISTEN-001-004
+    term: 'to follow a discussion'
+    translation: 'suivre une discussion'
+    partOfSpeech: phrase
+    example: 'I can follow a discussion in standard French.'
+    exampleTranslation: 'Je peux suivre une discussion en français standard.'
+  - id: en-GB-B1-LISTEN-001-005
+    term: 'clearly articulated'
+    translation: 'clairement articulé'
+    partOfSpeech: adjective
+    example: 'I understand better when the speech is clearly articulated.'
+    exampleTranslation: 'Je comprends mieux quand le discours est clairement articulé.'
+  - id: en-GB-B1-LISTEN-001-006
+    term: 'at work'
+    translation: 'au travail'
+    partOfSpeech: phrase
+    example: 'I understood the main points of the meeting at work.'
+    exampleTranslation: 'J’ai compris les points principaux de la réunion au travail.'
+grammar: []

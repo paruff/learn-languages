@@ -1,0 +1,40 @@
+nodeId: B1-OPINION-002
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B1-OPINION-002-001
+    term: 'Je suis tout à fait d’accord'
+    translation: 'I fully agree'
+    partOfSpeech: phrase
+    example: 'Je suis tout à fait d’accord avec ce que vous avez dit.'
+    exampleTranslation: 'I fully agree with what you said.'
+  - id: fr-FR-B1-OPINION-002-002
+    term: 'Je suis d’accord'
+    translation: 'I agree'
+    partOfSpeech: phrase
+    example: 'Je suis d’accord avec cette proposition.'
+    exampleTranslation: 'I agree with this proposal.'
+  - id: fr-FR-B1-OPINION-002-003
+    term: 'Je ne suis pas d’accord avec votre point de vue'
+    translation: 'I disagree with your point of view'
+    partOfSpeech: phrase
+    example: 'Respectueusement, je ne suis pas d’accord avec votre point de vue.'
+    exampleTranslation: 'Respectfully, I disagree with your point of view.'
+  - id: fr-FR-B1-OPINION-002-004
+    term: 'Je comprends ce que vous dites, mais'
+    translation: 'I understand what you say, but'
+    partOfSpeech: phrase
+    example: 'Je comprends ce que vous dites, mais j’ai une perspective différente.'
+    exampleTranslation: 'I understand what you say, but I have a different perspective.'
+  - id: fr-FR-B1-OPINION-002-005
+    term: 'Je ne suis pas tout à fait d’accord'
+    translation: 'I do not fully agree'
+    partOfSpeech: phrase
+    example: 'Je ne suis pas tout à fait d’accord, mais cela a du sens.'
+    exampleTranslation: 'I do not fully agree, but it makes sense.'
+  - id: fr-FR-B1-OPINION-002-006
+    term: 'Cela dépend'
+    translation: 'that depends'
+    partOfSpeech: phrase
+    example: 'Cela dépend des circonstances.'
+    exampleTranslation: 'That depends on the circumstances.'
+grammar: []

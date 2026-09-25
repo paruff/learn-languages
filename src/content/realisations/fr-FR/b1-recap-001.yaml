@@ -1,0 +1,44 @@
+nodeId: B1-RECAP-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B1-RECAP-001-001
+    term: 'un bref récit'
+    translation: 'a brief account'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Laisse-moi te donner un bref récit de la réunion.'
+    exampleTranslation: 'Let me give you a brief account of the meeting.'
+  - id: fr-FR-B1-RECAP-001-002
+    term: 'mon impression est que'
+    translation: 'my impression is'
+    partOfSpeech: phrase
+    example: 'Mon impression est que cela s’est bien passé.'
+    exampleTranslation: 'My impression is that it went well.'
+  - id: fr-FR-B1-RECAP-001-003
+    term: 'une question complémentaire'
+    translation: 'a follow-up question'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'L’entretien a posé une question complémentaire.'
+    exampleTranslation: 'The interviewer asked a follow-up question.'
+  - id: fr-FR-B1-RECAP-001-004
+    term: 'un documentaire'
+    translation: 'a documentary'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Le documentaire portait sur l’océan.'
+    exampleTranslation: 'The documentary was about the ocean.'
+  - id: fr-FR-B1-RECAP-001-005
+    term: 'l’essentiel'
+    translation: 'the gist'
+    partOfSpeech: phrase
+    example: 'Je vais te dire l’essentiel.'
+    exampleTranslation: 'I will tell you the gist of it.'
+  - id: fr-FR-B1-RECAP-001-006
+    term: 'une discussion'
+    translation: 'a discussion'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La discussion a duré une heure.'
+    exampleTranslation: 'The discussion lasted an hour.'
+grammar: []

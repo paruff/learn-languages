@@ -1,0 +1,41 @@
+nodeId: B1-DISCOURSE-005
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B1-DISCOURSE-005-001
+    term: 'un bref rapport'
+    translation: 'brief report'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je vais faire un bref rapport de mon expérience.'
+    exampleTranslation: 'I will make a brief report of my experience.'
+  - id: fr-FR-B1-DISCOURSE-005-002
+    term: 'résumer les faits'
+    translation: 'to summarise the facts'
+    partOfSpeech: phrase
+    example: 'Il est important de résumer les faits principaux.'
+    exampleTranslation: 'It is important to summarise the main facts.'
+  - id: fr-FR-B1-DISCOURSE-005-003
+    term: 'décrire la situation'
+    translation: 'to describe the situation'
+    partOfSpeech: phrase
+    example: 'Je vais décrire la situation en détail.'
+    exampleTranslation: 'I will describe the situation in detail.'
+  - id: fr-FR-B1-DISCOURSE-005-004
+    term: 'faire une analyse'
+    translation: 'to do an analysis'
+    partOfSpeech: phrase
+    example: 'Nous devons faire une analyse approfondie.'
+    exampleTranslation: 'We need to do a careful analysis.'
+  - id: fr-FR-B1-DISCOURSE-005-005
+    term: 'tirer des conclusions'
+    translation: 'to draw conclusions'
+    partOfSpeech: phrase
+    example: 'Tirons des conclusions à partir des données.'
+    exampleTranslation: 'Let us draw conclusions based on the data.'
+  - id: fr-FR-B1-DISCOURSE-005-006
+    term: 'présenter des recommandations'
+    translation: 'to present recommendations'
+    partOfSpeech: phrase
+    example: 'Je vais présenter des recommandations pour améliorer les choses.'
+    exampleTranslation: 'I will present recommendations for improvement.'
+grammar: []

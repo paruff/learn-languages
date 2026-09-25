@@ -1,0 +1,40 @@
+nodeId: B1-LOCATE-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-LOCATE-001-001
+    term: 'to scan a text'
+    translation: 'parcourir un texte'
+    partOfSpeech: phrase
+    example: 'Scan the text to find the opening hours.'
+    exampleTranslation: 'Parcourez le texte pour trouver les horaires d’ouverture.'
+  - id: en-GB-B1-LOCATE-001-002
+    term: 'to locate information'
+    translation: 'localiser une information'
+    partOfSpeech: phrase
+    example: 'Locate the information you need in the brochure.'
+    exampleTranslation: 'Localisez l’information dont vous avez besoin dans la brochure.'
+  - id: en-GB-B1-LOCATE-001-003
+    term: 'a specific task'
+    translation: 'une tâche précise'
+    partOfSpeech: phrase
+    example: 'Gather the figures for a specific task.'
+    exampleTranslation: 'Rassemblez les chiffres pour une tâche précise.'
+  - id: en-GB-B1-LOCATE-001-004
+    term: 'an official document'
+    translation: 'un document officiel'
+    partOfSpeech: phrase
+    example: 'The form is an official document.'
+    exampleTranslation: 'Le formulaire est un document officiel.'
+  - id: en-GB-B1-LOCATE-001-005
+    term: 'a leaflet'
+    translation: 'un prospectus'
+    partOfSpeech: noun
+    example: 'The leaflet lists the opening times.'
+    exampleTranslation: 'Le prospectus indique les horaires.'
+  - id: en-GB-B1-LOCATE-001-006
+    term: 'relevant information'
+    translation: 'l’information pertinente'
+    partOfSpeech: phrase
+    example: 'Find the relevant information on page two.'
+    exampleTranslation: 'Trouvez l’information pertinente à la page deux.'
+grammar: []

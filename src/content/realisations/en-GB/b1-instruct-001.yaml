@@ -1,0 +1,40 @@
+nodeId: B1-INSTRUCT-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-INSTRUCT-001-001
+    term: 'an instruction'
+    translation: 'une instruction'
+    partOfSpeech: noun
+    example: 'Follow each instruction carefully.'
+    exampleTranslation: 'Suivez chaque instruction attentivement.'
+  - id: en-GB-B1-INSTRUCT-001-002
+    term: 'detailed directions'
+    translation: 'des directives détaillées'
+    partOfSpeech: phrase
+    example: 'The guide gave detailed directions.'
+    exampleTranslation: 'Le guide a donné des directives détaillées.'
+  - id: en-GB-B1-INSTRUCT-001-003
+    term: 'a user manual'
+    translation: 'un mode d’emploi'
+    partOfSpeech: phrase
+    example: 'The user manual explains the setup.'
+    exampleTranslation: 'Le mode d’emploi explique la configuration.'
+  - id: en-GB-B1-INSTRUCT-001-004
+    term: 'to follow a procedure'
+    translation: 'suivre une procédure'
+    partOfSpeech: phrase
+    example: 'Follow the procedure described on the phone.'
+    exampleTranslation: 'Suivez la procédure décrite au téléphone.'
+  - id: en-GB-B1-INSTRUCT-001-005
+    term: 'step by step'
+    translation: 'étape par étape'
+    partOfSpeech: phrase
+    example: 'He explained the process step by step.'
+    exampleTranslation: 'Il a expliqué le processus étape par étape.'
+  - id: en-GB-B1-INSTRUCT-001-006
+    term: 'common equipment'
+    translation: 'un équipement courant'
+    partOfSpeech: phrase
+    example: 'The instructions cover common equipment.'
+    exampleTranslation: 'Les instructions couvrent un équipement courant.'
+grammar: []

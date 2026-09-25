@@ -1,0 +1,12 @@
+nodeId: B1-CLARIFY-001
+cefrLevel: B1
+skill: spoken_interaction
+canDo: 'Can ask someone to clarify or develop what was just said and confirm understanding by restating it'
+pragmaticFocus: 'Conversation repair, clarification and confirmation of understanding'
+notionalFocus: 'Clarification, repetition, reformulation, mutual understanding'
+relatedNodes:
+  - B1-SOCIAL-002
+  - B1-OPINION-002
+  - B1-EXCHANGE-001
+prerequisiteNodes:
+  - A1-CLARIFY-001

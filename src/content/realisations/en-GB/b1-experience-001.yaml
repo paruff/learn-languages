@@ -1,0 +1,40 @@
+nodeId: B1-EXPERIENCE-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-EXPERIENCE-001-001
+    term: 'to relate an experience'
+    translation: 'raconter une expérience'
+    partOfSpeech: phrase
+    example: 'She related her experience in Japan in detail.'
+    exampleTranslation: 'Elle a raconté son expérience au Japon en détail.'
+  - id: en-GB-B1-EXPERIENCE-001-002
+    term: 'in detail'
+    translation: 'en détail'
+    partOfSpeech: phrase
+    example: 'He explained the accident in detail.'
+    exampleTranslation: 'Il a expliqué l’accident en détail.'
+  - id: en-GB-B1-EXPERIENCE-001-003
+    term: 'my reaction was'
+    translation: 'ma réaction a été'
+    partOfSpeech: phrase
+    example: 'My reaction was surprise at first.'
+    exampleTranslation: 'Ma réaction a été la surprise au début.'
+  - id: en-GB-B1-EXPERIENCE-001-004
+    term: 'how I felt'
+    translation: 'ce que j’ai ressenti'
+    partOfSpeech: phrase
+    example: 'I will tell you how I felt during the trip.'
+    exampleTranslation: 'Je vais te dire ce que j’ai ressenti pendant le voyage.'
+  - id: en-GB-B1-EXPERIENCE-001-005
+    term: 'an unexpected event'
+    translation: 'un événement imprévu'
+    partOfSpeech: phrase
+    example: 'An unexpected event changed our plans.'
+    exampleTranslation: 'Un événement imprévu a changé nos plans.'
+  - id: en-GB-B1-EXPERIENCE-001-006
+    term: 'to describe a dream'
+    translation: 'décrire un rêve'
+    partOfSpeech: phrase
+    example: 'She described a dream she often had as a child.'
+    exampleTranslation: 'Elle a décrit un rêve qu’elle faisait souvent enfant.'
+grammar: []

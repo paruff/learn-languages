@@ -1,0 +1,11 @@
+nodeId: B1-DESCRIBE-001
+cefrLevel: B1
+skill: spoken_production
+canDo: 'Can give a direct, uncomplicated description of varied subjects as a linear sequence of points'
+pragmaticFocus: 'Linear spoken description linking a series of discrete points'
+notionalFocus: 'Varied subjects in the learner field, familiar topics'
+relatedNodes:
+  - B1-DISCOURSE-002
+  - B1-EXPERIENCE-001
+prerequisiteNodes:
+  - A2-DESCRIBE-001

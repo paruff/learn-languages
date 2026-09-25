@@ -1,0 +1,40 @@
+nodeId: B1-SERVICE-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-SERVICE-001-001
+    term: 'a defective item'
+    translation: 'un article défectueux'
+    partOfSpeech: phrase
+    example: 'I would like to return a defective item.'
+    exampleTranslation: 'Je voudrais retourner un article défectueux.'
+  - id: en-GB-B1-SERVICE-001-002
+    term: 'to make a complaint'
+    translation: 'formuler une plainte'
+    partOfSpeech: phrase
+    example: 'She made a complaint about the service.'
+    exampleTranslation: 'Elle a formulé une plainte concernant le service.'
+  - id: en-GB-B1-SERVICE-001-003
+    term: 'a refund'
+    translation: 'un remboursement'
+    partOfSpeech: noun
+    example: 'They offered me a refund.'
+    exampleTranslation: 'Ils m’ont proposé un remboursement.'
+  - id: en-GB-B1-SERVICE-001-004
+    term: 'the post office'
+    translation: 'le bureau de poste'
+    partOfSpeech: phrase
+    example: 'The parcel is at the post office.'
+    exampleTranslation: 'Le colis est au bureau de poste.'
+  - id: en-GB-B1-SERVICE-001-005
+    term: 'a bank branch'
+    translation: 'une agence bancaire'
+    partOfSpeech: phrase
+    example: 'The nearest bank branch closes at six.'
+    exampleTranslation: 'La plus proche agence bancaire ferme à six heures.'
+  - id: en-GB-B1-SERVICE-001-006
+    term: 'to sort it out'
+    translation: 'se débrouiller'
+    partOfSpeech: phrase
+    example: 'I managed to sort it out at the counter.'
+    exampleTranslation: 'Je me suis débrouillé au comptoir.'
+grammar: []

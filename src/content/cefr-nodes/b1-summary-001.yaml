@@ -1,0 +1,12 @@
+nodeId: B1-SUMMARY-001
+cefrLevel: B1
+skill: writing
+canDo: 'Can summarise factual sources in writing, report on them and give their opinion'
+pragmaticFocus: 'Written summarising, paraphrase and reporting of factual sources'
+notionalFocus: 'Sources, reports, opinions on familiar and field topics'
+relatedNodes:
+  - B1-DISCOURSE-005
+  - B1-OPINION-004
+  - B1-NOTES-001
+prerequisiteNodes:
+  - B1-TEXT-001

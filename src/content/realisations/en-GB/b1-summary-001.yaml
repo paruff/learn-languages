@@ -1,0 +1,40 @@
+nodeId: B1-SUMMARY-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-SUMMARY-001-001
+    term: 'to summarise'
+    translation: 'résumer'
+    partOfSpeech: verb
+    example: 'Please summarise the main findings.'
+    exampleTranslation: 'Veuillez résumer les conclusions principales.'
+  - id: en-GB-B1-SUMMARY-001-002
+    term: 'a factual source'
+    translation: 'une source factuelle'
+    partOfSpeech: phrase
+    example: 'Check every factual source before writing.'
+    exampleTranslation: 'Vérifiez chaque source factuelle avant d’écrire.'
+  - id: en-GB-B1-SUMMARY-001-003
+    term: 'to collate information'
+    translation: 'rassembler des informations'
+    partOfSpeech: phrase
+    example: 'Collate information from several documents.'
+    exampleTranslation: 'Rassemblez des informations provenant de plusieurs documents.'
+  - id: en-GB-B1-SUMMARY-001-004
+    term: 'to paraphrase'
+    translation: 'paraphraser'
+    partOfSpeech: verb
+    example: 'Paraphrase the passage in your own words.'
+    exampleTranslation: 'Paraphrasez le passage avec vos propres mots.'
+  - id: en-GB-B1-SUMMARY-001-005
+    term: 'in my view'
+    translation: 'à mon avis'
+    partOfSpeech: phrase
+    example: 'In my view, the report is convincing.'
+    exampleTranslation: 'À mon avis, le rapport est convaincant.'
+  - id: en-GB-B1-SUMMARY-001-006
+    term: 'to draw a conclusion'
+    translation: 'tirer une conclusion'
+    partOfSpeech: phrase
+    example: 'The essay draws a clear conclusion.'
+    exampleTranslation: 'L’essai tire une conclusion claire.'
+grammar: []

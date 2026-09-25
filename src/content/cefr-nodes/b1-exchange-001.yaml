@@ -1,0 +1,12 @@
+nodeId: B1-EXCHANGE-001
+cefrLevel: B1
+skill: spoken_interaction
+canDo: 'Can exchange, verify and confirm factual information with a degree of confidence'
+pragmaticFocus: 'Transactional exchange, verification and confirmation of information'
+notionalFocus: 'Factual information on everyday and field topics'
+relatedNodes:
+  - B1-SOCIAL-002
+  - B1-SERVICE-001
+  - B1-RECAP-001
+prerequisiteNodes:
+  - A2-SOCIAL-001
