@@ -1,0 +1,43 @@
+nodeId: B1-OPINION-004
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B1-OPINION-004-001
+    term: 'un article d’opinion'
+    translation: 'opinion article'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'J’ai lu un article d’opinion sur l’avenir du travail.'
+    exampleTranslation: 'I read an opinion article about the future of work.'
+  - id: fr-FR-B1-OPINION-004-002
+    term: 'écrire sur'
+    translation: 'to write about'
+    partOfSpeech: phrase
+    example: 'Je vais écrire sur l’importance de l’éducation.'
+    exampleTranslation: 'I am going to write about the importance of education.'
+  - id: fr-FR-B1-OPINION-004-003
+    term: 'exprimer ma position'
+    translation: 'to express my position'
+    partOfSpeech: phrase
+    example: 'Il est important d’exprimer ma position clairement.'
+    exampleTranslation: 'It is important to express my position clearly.'
+  - id: fr-FR-B1-OPINION-004-004
+    term: 'étayer mon opinion'
+    translation: 'to support my opinion'
+    partOfSpeech: phrase
+    example: 'Je dois étayer mon opinion avec des faits.'
+    exampleTranslation: 'I need to support my opinion with facts.'
+  - id: fr-FR-B1-OPINION-004-005
+    term: 'l’actualité'
+    translation: 'current events'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Je suis l’actualité chaque jour.'
+    exampleTranslation: 'I follow current events daily.'
+  - id: fr-FR-B1-OPINION-004-006
+    term: 'les médias'
+    translation: 'the media'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Les médias sont importants pour la démocratie.'
+    exampleTranslation: 'The media are important for democracy.'
+grammar: []

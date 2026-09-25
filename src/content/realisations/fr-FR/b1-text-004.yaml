@@ -1,0 +1,42 @@
+nodeId: B1-TEXT-004
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B1-TEXT-004-001
+    term: 'un texte cohérent'
+    translation: 'connected text'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je vais écrire un texte cohérent sur mon expérience.'
+    exampleTranslation: 'I will write a connected text about my experience.'
+  - id: fr-FR-B1-TEXT-004-002
+    term: 'un sujet familier'
+    translation: 'familiar topic'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je préfère écrire sur des sujets familiers.'
+    exampleTranslation: 'I prefer to write about familiar topics.'
+  - id: fr-FR-B1-TEXT-004-003
+    term: 'décrire des expériences'
+    translation: 'to describe experiences'
+    partOfSpeech: phrase
+    example: 'J’aime décrire mes expériences de voyage.'
+    exampleTranslation: 'I like to describe my travel experiences.'
+  - id: fr-FR-B1-TEXT-004-004
+    term: 'exprimer mes impressions'
+    translation: 'to express impressions'
+    partOfSpeech: phrase
+    example: 'Il est important d’exprimer mes impressions clairement.'
+    exampleTranslation: 'It is important to express my impressions clearly.'
+  - id: fr-FR-B1-TEXT-004-005
+    term: 'utiliser des connecteurs'
+    translation: 'to use connectors'
+    partOfSpeech: phrase
+    example: 'J’ai besoin d’utiliser des connecteurs pour organiser le texte.'
+    exampleTranslation: 'I need to use connectors to organise the text.'
+  - id: fr-FR-B1-TEXT-004-006
+    term: 'réécrire le texte'
+    translation: 'to rewrite the text'
+    partOfSpeech: phrase
+    example: 'Je vais réécrire le texte pour améliorer la clarté.'
+    exampleTranslation: 'I will rewrite the text to improve clarity.'
+grammar: []

@@ -1,0 +1,40 @@
+nodeId: B1-DESCRIBE-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-DESCRIBE-001-001
+    term: 'to describe'
+    translation: 'décrire'
+    partOfSpeech: verb
+    example: 'Can you describe your last holiday?'
+    exampleTranslation: 'Peux-tu décrire ton dernier voyage ?'
+  - id: en-GB-B1-DESCRIBE-001-002
+    term: 'point by point'
+    translation: 'point par point'
+    partOfSpeech: phrase
+    example: 'She presented her argument point by point.'
+    exampleTranslation: 'Elle a présenté son argument point par point.'
+  - id: en-GB-B1-DESCRIBE-001-003
+    term: 'straightforward'
+    translation: 'direct'
+    partOfSpeech: adjective
+    example: 'The description is straightforward and easy to follow.'
+    exampleTranslation: 'La description est directe et facile à suivre.'
+  - id: en-GB-B1-DESCRIBE-001-004
+    term: 'a range of subjects'
+    translation: 'une gamme de sujets'
+    partOfSpeech: phrase
+    example: 'He can talk about a range of subjects.'
+    exampleTranslation: 'Il peut parler d’une gamme de sujets.'
+  - id: en-GB-B1-DESCRIBE-001-005
+    term: 'to present'
+    translation: 'présenter'
+    partOfSpeech: verb
+    example: 'First I will present the main facts.'
+    exampleTranslation: 'D’abord, je vais présenter les faits principaux.'
+  - id: en-GB-B1-DESCRIBE-001-006
+    term: 'in simple terms'
+    translation: 'en termes simples'
+    partOfSpeech: phrase
+    example: 'Explain the process in simple terms.'
+    exampleTranslation: 'Expliquez le processus en termes simples.'
+grammar: []

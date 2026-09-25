@@ -1,0 +1,40 @@
+nodeId: B1-SOCIAL-004
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B1-SOCIAL-004-001
+    term: 'inviter à partager son avis'
+    translation: 'to invite opinion'
+    partOfSpeech: phrase
+    example: 'J’aimerais vous inviter à partager votre avis sur ce sujet.'
+    exampleTranslation: 'I would like to invite your opinion on this topic.'
+  - id: fr-FR-B1-SOCIAL-004-002
+    term: 'réagir à une nouvelle'
+    translation: 'to react to news'
+    partOfSpeech: phrase
+    example: 'Comment avez-vous réagi à la nouvelle sur la météo ?'
+    exampleTranslation: 'How did you react to the news about the weather?'
+  - id: fr-FR-B1-SOCIAL-004-003
+    term: 'changer de sujet poliment'
+    translation: 'to change the subject politely'
+    partOfSpeech: phrase
+    example: 'Nous pouvons changer de sujet poliment si vous préférez.'
+    exampleTranslation: 'We can change the subject politely if you prefer.'
+  - id: fr-FR-B1-SOCIAL-004-004
+    term: 'revenir sur le sujet'
+    translation: 'to follow up'
+    partOfSpeech: phrase
+    example: 'J’aimerais revenir sur ce qui a été dit plus tôt.'
+    exampleTranslation: 'I would like to follow up on what was said earlier.'
+  - id: fr-FR-B1-SOCIAL-004-005
+    term: 'trouver un terrain d’entente'
+    translation: 'to find common ground'
+    partOfSpeech: phrase
+    example: 'Il est important de trouver un terrain d’entente dans une discussion.'
+    exampleTranslation: 'It is important to find common ground in a discussion.'
+  - id: fr-FR-B1-SOCIAL-004-006
+    term: 'conclure la conversation'
+    translation: 'to conclude the conversation'
+    partOfSpeech: phrase
+    example: 'Concluons la conversation pour le moment ?'
+    exampleTranslation: 'Shall we conclude the conversation for now?'
+grammar: []

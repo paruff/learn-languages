@@ -1,0 +1,12 @@
+nodeId: B1-PROCEDURE-001
+cefrLevel: B1
+skill: spoken_interaction
+canDo: 'Can explain how to do something, giving detailed instructions'
+pragmaticFocus: 'Explaining processes and giving detailed step-by-step instructions'
+notionalFocus: 'Procedures, everyday tasks, sequences of actions'
+relatedNodes:
+  - B1-INSTRUCT-001
+  - B1-DISCOURSE-001
+  - B1-RECAP-001
+prerequisiteNodes:
+  - A2-SIGN-001

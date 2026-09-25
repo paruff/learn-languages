@@ -1,0 +1,43 @@
+nodeId: B1-MESSAGE-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B1-MESSAGE-001-001
+    term: 'laisser un mot'
+    translation: 'to leave a note'
+    partOfSpeech: phrase
+    example: 'J’ai laissé un mot pour le gardien.'
+    exampleTranslation: 'I left a note for the caretaker.'
+  - id: fr-FR-B1-MESSAGE-001-002
+    term: 'un message'
+    translation: 'a message'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Elle a pris un message au sujet de la livraison.'
+    exampleTranslation: 'She took a message about the delivery.'
+  - id: fr-FR-B1-MESSAGE-001-003
+    term: 'une demande d’information'
+    translation: 'a request for information'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La lettre contient une demande d’information.'
+    exampleTranslation: 'The letter contains a request for information.'
+  - id: fr-FR-B1-MESSAGE-001-004
+    term: 'expliquer un problème'
+    translation: 'to explain a problem'
+    partOfSpeech: phrase
+    example: 'Écrivez pour expliquer le problème clairement.'
+    exampleTranslation: 'Write to explain the problem clearly.'
+  - id: fr-FR-B1-MESSAGE-001-005
+    term: 'une information urgente'
+    translation: 'urgent information'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Ce message contient une information urgente.'
+    exampleTranslation: 'This message carries urgent information.'
+  - id: fr-FR-B1-MESSAGE-001-006
+    term: 'les points importants'
+    translation: 'the key points'
+    partOfSpeech: phrase
+    example: 'Mettez les points importants en valeur.'
+    exampleTranslation: 'Make the key points stand out.'
+grammar: []

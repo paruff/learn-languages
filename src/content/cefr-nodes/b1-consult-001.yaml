@@ -1,0 +1,11 @@
+nodeId: B1-CONSULT-001
+cefrLevel: B1
+skill: spoken_interaction
+canDo: 'Can provide the concrete information required in an interview or consultation'
+pragmaticFocus: 'Supplying concrete required information in consultations and interviews'
+notionalFocus: 'Health, personal circumstances, structured interviews'
+relatedNodes:
+  - B1-EXCHANGE-001
+  - B1-SOCIAL-001
+prerequisiteNodes:
+  - A2-HEALTH-001

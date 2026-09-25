@@ -1,0 +1,12 @@
+nodeId: B1-ARGUMENT-001
+cefrLevel: B1
+skill: reading
+canDo: 'Can identify the main conclusions and the argumentative structure of a clearly articulated text'
+pragmaticFocus: 'Recognising conclusions and argumentative schema in texts'
+notionalFocus: 'Argumentative texts, problem presentation, debate'
+relatedNodes:
+  - B1-TEXT-002
+  - B1-OPINION-001
+  - B1-OPINION-004
+prerequisiteNodes:
+  - B1-TEXT-001

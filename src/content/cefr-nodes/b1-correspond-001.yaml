@@ -1,0 +1,12 @@
+nodeId: B1-CORRESPOND-001
+cefrLevel: B1
+skill: reading
+canDo: 'Can understand personal correspondence describing events, feelings and wishes'
+pragmaticFocus: 'Reading personal letters and messages for events, feelings and wishes'
+notionalFocus: 'Personal correspondence, news from friends, wishes'
+relatedNodes:
+  - B1-TEXT-005
+  - B1-MESSAGE-001
+  - B1-TEXT-001
+prerequisiteNodes:
+  - A2-LETTER-001

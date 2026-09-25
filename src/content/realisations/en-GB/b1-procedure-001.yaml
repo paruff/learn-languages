@@ -1,0 +1,40 @@
+nodeId: B1-PROCEDURE-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-PROCEDURE-001-001
+    term: 'how to do something'
+    translation: 'comment faire quelque chose'
+    partOfSpeech: phrase
+    example: 'He explained how to do it in two minutes.'
+    exampleTranslation: 'Il a expliqué comment faire en deux minutes.'
+  - id: en-GB-B1-PROCEDURE-001-002
+    term: 'detailed instructions'
+    translation: 'des instructions détaillées'
+    partOfSpeech: phrase
+    example: 'Follow my detailed instructions carefully.'
+    exampleTranslation: 'Suivez mes instructions détaillées attentivement.'
+  - id: en-GB-B1-PROCEDURE-001-003
+    term: 'to set up'
+    translation: 'installer'
+    partOfSpeech: verb
+    example: 'I will show you how to set up the printer.'
+    exampleTranslation: 'Je vais vous montrer comment installer l’imprimante.'
+  - id: en-GB-B1-PROCEDURE-001-004
+    term: 'the next step'
+    translation: 'l’étape suivante'
+    partOfSpeech: phrase
+    example: 'The next step is to connect the cable.'
+    exampleTranslation: 'L’étape suivante consiste à connecter le câble.'
+  - id: en-GB-B1-PROCEDURE-001-005
+    term: 'in order'
+    translation: 'dans l’ordre'
+    partOfSpeech: phrase
+    example: 'Carry out the tasks in order.'
+    exampleTranslation: 'Effectuez les tâches dans l’ordre.'
+  - id: en-GB-B1-PROCEDURE-001-006
+    term: 'a recipe'
+    translation: 'une recette'
+    partOfSpeech: noun
+    example: 'She explained the recipe step by step.'
+    exampleTranslation: 'Elle a expliqué la recette étape par étape.'
+grammar: []

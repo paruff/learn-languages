@@ -1,0 +1,40 @@
+nodeId: B1-MESSAGE-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-MESSAGE-001-001
+    term: 'to leave a note'
+    translation: 'laisser un mot'
+    partOfSpeech: phrase
+    example: 'I left a note for the caretaker.'
+    exampleTranslation: 'J’ai laissé un mot pour le gardien.'
+  - id: en-GB-B1-MESSAGE-001-002
+    term: 'a message'
+    translation: 'un message'
+    partOfSpeech: noun
+    example: 'She took a message about the delivery.'
+    exampleTranslation: 'Elle a pris un message au sujet de la livraison.'
+  - id: en-GB-B1-MESSAGE-001-003
+    term: 'a request for information'
+    translation: 'une demande d’information'
+    partOfSpeech: phrase
+    example: 'The letter contains a request for information.'
+    exampleTranslation: 'La lettre contient une demande d’information.'
+  - id: en-GB-B1-MESSAGE-001-004
+    term: 'to explain a problem'
+    translation: 'expliquer un problème'
+    partOfSpeech: phrase
+    example: 'Write to explain the problem clearly.'
+    exampleTranslation: 'Écrivez pour expliquer le problème clairement.'
+  - id: en-GB-B1-MESSAGE-001-005
+    term: 'urgent information'
+    translation: 'une information urgente'
+    partOfSpeech: phrase
+    example: 'This message carries urgent information.'
+    exampleTranslation: 'Ce message contient une information urgente.'
+  - id: en-GB-B1-MESSAGE-001-006
+    term: 'the key points'
+    translation: 'les points importants'
+    partOfSpeech: phrase
+    example: 'Make the key points stand out.'
+    exampleTranslation: 'Mettez les points importants en valeur.'
+grammar: []

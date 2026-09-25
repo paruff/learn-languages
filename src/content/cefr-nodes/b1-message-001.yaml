@@ -1,0 +1,12 @@
+nodeId: B1-MESSAGE-001
+cefrLevel: B1
+skill: writing
+canDo: 'Can write notes and messages to request or pass on immediate information and explain problems'
+pragmaticFocus: 'Short functional written notes and messages for immediate needs'
+notionalFocus: 'Requests, information, problems, everyday contacts'
+relatedNodes:
+  - B1-TEXT-005
+  - B1-NOTES-001
+  - B1-CORRESPOND-001
+prerequisiteNodes:
+  - A2-LETTER-001

@@ -1,0 +1,12 @@
+nodeId: B1-EXPERIENCE-001
+cefrLevel: B1
+skill: spoken_production
+canDo: 'Can relate their experiences in detail, describing their feelings and reactions'
+pragmaticFocus: 'Detailed narration of personal experience with feelings and reactions'
+notionalFocus: 'Experiences, unexpected events, dreams and ambitions'
+relatedNodes:
+  - B1-DISCOURSE-002
+  - B1-DESCRIBE-001
+  - B1-SOCIAL-003
+prerequisiteNodes:
+  - A2-PAST-001

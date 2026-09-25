@@ -1,0 +1,40 @@
+nodeId: B1-DISCOURSE-002
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B1-DISCOURSE-002-001
+    term: 'à la suite de'
+    translation: 'following'
+    partOfSpeech: phrase
+    example: 'À la suite de la réunion, nous avons pris une décision.'
+    exampleTranslation: 'Following the meeting, we made a decision.'
+  - id: fr-FR-B1-DISCOURSE-002-002
+    term: 'après cela'
+    translation: 'after that'
+    partOfSpeech: phrase
+    example: 'Après cela, nous sommes allés dîner.'
+    exampleTranslation: 'After that, we went to dinner.'
+  - id: fr-FR-B1-DISCOURSE-002-003
+    term: 'tout d’abord'
+    translation: 'first of all'
+    partOfSpeech: phrase
+    example: 'Tout d’abord, je veux remercier tout le monde d’être là.'
+    exampleTranslation: 'First of all, I want to thank everyone for being here.'
+  - id: fr-FR-B1-DISCOURSE-002-004
+    term: 'pendant ce temps'
+    translation: 'meanwhile'
+    partOfSpeech: phrase
+    example: 'Pendant ce temps, la situation s’est améliorée.'
+    exampleTranslation: 'Meanwhile, the situation improved.'
+  - id: fr-FR-B1-DISCOURSE-002-005
+    term: 'ensuite'
+    translation: 'next'
+    partOfSpeech: adverb
+    example: 'Ensuite, nous avons présenté les résultats.'
+    exampleTranslation: 'Next, we presented the results.'
+  - id: fr-FR-B1-DISCOURSE-002-006
+    term: 'enfin'
+    translation: 'finally'
+    partOfSpeech: adverb
+    example: 'Enfin, nous sommes arrivés à une conclusion.'
+    exampleTranslation: 'Finally, we reached a conclusion.'
+grammar: []

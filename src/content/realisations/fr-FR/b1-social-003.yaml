@@ -1,0 +1,40 @@
+nodeId: B1-SOCIAL-003
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B1-SOCIAL-003-001
+    term: 'se sentir'
+    translation: 'to feel'
+    partOfSpeech: verb
+    example: 'Je me sens très bien quand je suis avec mes amis.'
+    exampleTranslation: 'I feel very good when I am with my friends.'
+  - id: fr-FR-B1-SOCIAL-003-002
+    term: 'exprimer ses sentiments'
+    translation: 'to express feelings'
+    partOfSpeech: phrase
+    example: 'Il est important d’exprimer nos sentiments.'
+    exampleTranslation: 'It is important to express our feelings.'
+  - id: fr-FR-B1-SOCIAL-003-003
+    term: 'être d’accord avec'
+    translation: 'to agree with'
+    partOfSpeech: phrase
+    example: 'Je suis entièrement d’accord avec votre opinion.'
+    exampleTranslation: 'I completely agree with your opinion.'
+  - id: fr-FR-B1-SOCIAL-003-004
+    term: 'ne pas être d’accord poliment'
+    translation: 'to disagree politely'
+    partOfSpeech: phrase
+    example: 'Je comprends votre point de vue, mais je ne suis pas d’accord.'
+    exampleTranslation: 'I understand your point, but I disagree politely.'
+  - id: fr-FR-B1-SOCIAL-003-005
+    term: 'montrer de l’intérêt'
+    translation: 'to show interest'
+    partOfSpeech: phrase
+    example: 'C’est bien de montrer de l’intérêt quand quelqu’un nous raconte quelque chose.'
+    exampleTranslation: 'It is good to show interest when someone tells us something.'
+  - id: fr-FR-B1-SOCIAL-003-006
+    term: 'partager ma perspective'
+    translation: 'to share my perspective'
+    partOfSpeech: phrase
+    example: 'J’aimerais partager ma perspective sur ce sujet.'
+    exampleTranslation: 'I would like to share my perspective on this topic.'
+grammar: []

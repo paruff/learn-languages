@@ -1,0 +1,40 @@
+nodeId: B1-NOTES-001
+lang: en-GB
+vocabulary:
+  - id: en-GB-B1-NOTES-001-001
+    term: 'to take notes'
+    translation: 'prendre des notes'
+    partOfSpeech: phrase
+    example: 'I took notes during the lecture.'
+    exampleTranslation: 'J’ai pris des notes pendant le cours.'
+  - id: en-GB-B1-NOTES-001-002
+    term: 'a list of key points'
+    translation: 'une liste de points clés'
+    partOfSpeech: phrase
+    example: 'Write a list of key points.'
+    exampleTranslation: 'Écrivez une liste de points clés.'
+  - id: en-GB-B1-NOTES-001-003
+    term: 'a lecture'
+    translation: 'une conférence'
+    partOfSpeech: noun
+    example: 'The lecture was clear and well structured.'
+    exampleTranslation: 'La conférence était claire et bien structurée.'
+  - id: en-GB-B1-NOTES-001-004
+    term: 'to reuse later'
+    translation: 'réutiliser ultérieurement'
+    partOfSpeech: phrase
+    example: 'I will reuse these notes in my essay.'
+    exampleTranslation: 'Je réutiliserai ces notes dans ma dissertation.'
+  - id: en-GB-B1-NOTES-001-005
+    term: 'a seminar'
+    translation: 'un séminaire'
+    partOfSpeech: noun
+    example: 'The seminar focused on climate policy.'
+    exampleTranslation: 'Le séminaire portait sur la politique climatique.'
+  - id: en-GB-B1-NOTES-001-006
+    term: 'a familiar topic'
+    translation: 'un sujet familier'
+    partOfSpeech: phrase
+    example: 'I take better notes on a familiar topic.'
+    exampleTranslation: 'Je prends de meilleures notes sur un sujet familier.'
+grammar: []

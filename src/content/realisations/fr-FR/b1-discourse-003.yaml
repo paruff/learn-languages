@@ -1,0 +1,41 @@
+nodeId: B1-DISCOURSE-003
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B1-DISCOURSE-003-001
+    term: 'en raison de'
+    translation: 'due to'
+    partOfSpeech: phrase
+    example: 'En raison de la pluie, l’événement a été reporté.'
+    exampleTranslation: 'Due to the rain, the event was postponed.'
+  - id: fr-FR-B1-DISCOURSE-003-002
+    term: 'par conséquent'
+    translation: 'as a result'
+    partOfSpeech: phrase
+    example: 'Par conséquent, l’économie s’est développée.'
+    exampleTranslation: 'As a result, the economy grew.'
+  - id: fr-FR-B1-DISCOURSE-003-003
+    term: 'à cause de'
+    translation: 'because of'
+    partOfSpeech: phrase
+    example: 'À cause des embouteillages, je suis arrivé en retard.'
+    exampleTranslation: 'Because of the traffic, I arrived late.'
+  - id: fr-FR-B1-DISCOURSE-003-004
+    term: 'c’est pourquoi'
+    translation: 'consequently'
+    partOfSpeech: phrase
+    example: 'C’est pourquoi nous avons dû changer de plans.'
+    exampleTranslation: 'Consequently, we needed to change plans.'
+  - id: fr-FR-B1-DISCOURSE-003-005
+    term: 'cela a conduit à'
+    translation: 'this led to'
+    partOfSpeech: phrase
+    example: 'Cela nous a conduits à faire de nouvelles découvertes.'
+    exampleTranslation: 'This led to us making new discoveries.'
+  - id: fr-FR-B1-DISCOURSE-003-006
+    term: 'la cause était'
+    translation: 'the cause was'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La cause était le manque de communication.'
+    exampleTranslation: 'The cause was the lack of communication.'
+grammar: []
