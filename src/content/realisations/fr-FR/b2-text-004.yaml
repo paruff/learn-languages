@@ -1,0 +1,47 @@
+nodeId: B2-TEXT-004
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B2-TEXT-004-001
+    term: 'comprendre les conclusions de textes argumentatifs'
+    translation: 'to understand conclusions of argumentative texts'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je peux comprendre les conclusions de textes argumentatifs.'
+    exampleTranslation: 'I can understand conclusions of argumentative texts.'
+  - id: fr-FR-B2-TEXT-004-002
+    term: 'identifier les marqueurs de conclusion'
+    translation: 'to identify conclusion markers'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "Il est important d'identifier les marqueurs de conclusion dans le texte."
+    exampleTranslation: 'It is important to identify conclusion markers in the text.'
+  - id: fr-FR-B2-TEXT-004-003
+    term: 'synthétiser les idées principales'
+    translation: 'to synthesise the main ideas'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "Je vais synthétiser les idées principales de l'article."
+    exampleTranslation: 'I will synthesise the main ideas of the article.'
+  - id: fr-FR-B2-TEXT-004-004
+    term: 'évaluer la conclusion'
+    translation: 'to evaluate the conclusion'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je dois évaluer si la conclusion est étayée.'
+    exampleTranslation: 'I need to evaluate whether the conclusion is sustained.'
+  - id: fr-FR-B2-TEXT-004-005
+    term: 'relier la conclusion aux prémisses'
+    translation: 'to relate conclusion with premises'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je vais relier la conclusion aux prémisses présentées.'
+    exampleTranslation: 'I will relate the conclusion with the presented premises.'
+  - id: fr-FR-B2-TEXT-004-006
+    term: 'extraire les implications'
+    translation: 'to extract implications'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je peux extraire des implications pertinentes du texte.'
+    exampleTranslation: 'I can extract relevant implications from the text.'
+grammar: []
+culturalNotes: "French academic writing marks conclusions with 'en définitive', 'pour conclure', 'il ressort que'; 'évaluer la conclusion' checks if 'la thèse est démontrée'."

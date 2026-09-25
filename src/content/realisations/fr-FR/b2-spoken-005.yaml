@@ -1,0 +1,54 @@
+nodeId: B2-SPOKEN-005
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B2-SPOKEN-005-001
+    term: "s'écarter du texte préparé"
+    translation: 'to depart from the script'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "L'orateur s'est écarté du texte préparé pour répondre à une question."
+    exampleTranslation: 'The speaker departed from the script to address a question.'
+  - id: fr-FR-B2-SPOKEN-005-002
+    term: 'improviser'
+    translation: 'to improvise'
+    partOfSpeech: verb
+    gender: masculine
+    example: "Elle a dû improviser quand l'auditoire a posé des questions inattendues."
+    exampleTranslation: 'She had to improvise when the audience asked unexpected questions.'
+  - id: fr-FR-B2-SPOKEN-005-003
+    term: 'reprendre un point'
+    translation: 'to follow up on a point'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Il a repris le point soulevé par un auditeur.'
+    exampleTranslation: 'He followed up on the point raised by a listener.'
+  - id: fr-FR-B2-SPOKEN-005-004
+    term: "s'adapter spontanément"
+    translation: 'to adapt spontaneously'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "Le présentateur s'est adapté spontanément à la réaction du public."
+    exampleTranslation: 'The presenter adapted spontaneously to the audience reaction.'
+  - id: fr-FR-B2-SPOKEN-005-005
+    term: "interagir avec l'auditoire"
+    translation: 'to engage with the audience'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'De bons orateurs interagissent naturellement avec leur auditoire.'
+    exampleTranslation: 'Good speakers engage with their audience naturally.'
+  - id: fr-FR-B2-SPOKEN-005-006
+    term: 'réagir vite'
+    translation: "to think on one's feet"
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Il faut réagir vite pendant les sessions de questions-réponses.'
+    exampleTranslation: 'You need to think on your feet during Q&A sessions.'
+grammar:
+  - id: B2-GRAMMAR-007
+    point: 'Discourse markers for spontaneous adaptation'
+    explanation: 'Using discourse markers to signal spontaneous shifts in prepared discourse'
+    examples:
+      - "D'ailleurs, cela me fait penser à..."
+      - "Avant de continuer, permettez-moi d'aborder ce point..."
+    cefrNotes: 'B2 learners use discourse markers to manage spontaneous shifts smoothly'
+culturalNotes: "In French presentations, acknowledging audience input with 'C'est une excellente question...' before adapting is expected polite behaviour."

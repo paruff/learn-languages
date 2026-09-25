@@ -1,0 +1,12 @@
+nodeId: B2-SPOKEN-005
+cefrLevel: B2
+skill: spoken_production
+canDo: 'Can depart spontaneously from a prepared text to follow up interesting points raised by listeners'
+pragmaticFocus: 'Spontaneous adaptation of prepared discourse'
+notionalFocus: 'Improvisation, audience interaction, flexibility'
+relatedNodes:
+  - B2-SPOKEN-001
+  - B2-SOCIAL-001
+prerequisiteNodes:
+  - B2-SPOKEN-001
+  - B2-SOCIAL-001

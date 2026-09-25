@@ -1,0 +1,54 @@
+nodeId: B2-SPOKEN-004
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B2-SPOKEN-004-001
+    term: 'faire une annonce'
+    translation: 'to make an announcement'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "Je dois faire une annonce concernant le changement d'horaire."
+    exampleTranslation: 'I need to make an announcement about the schedule change.'
+  - id: fr-FR-B2-SPOKEN-004-002
+    term: "s'adresser à l'auditoire"
+    translation: 'to address the audience'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "L'orateur s'est adressé à l'auditoire clairement."
+    exampleTranslation: 'The speaker addressed the audience clearly.'
+  - id: fr-FR-B2-SPOKEN-004-003
+    term: 'communiquer clairement'
+    translation: 'to communicate clearly'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Il est important de communiquer clairement lors des annonces.'
+    exampleTranslation: 'It is important to communicate clearly during announcements.'
+  - id: fr-FR-B2-SPOKEN-004-004
+    term: 'parler avec aisance'
+    translation: 'to speak with fluency'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Elle a parlé avec aisance et assurance.'
+    exampleTranslation: 'She spoke with fluency and confidence.'
+  - id: fr-FR-B2-SPOKEN-004-005
+    term: 'transmettre un message'
+    translation: 'to deliver a message'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Il a transmis le message efficacement.'
+    exampleTranslation: 'He delivered the message effectively.'
+  - id: fr-FR-B2-SPOKEN-004-006
+    term: "capter l'attention"
+    translation: 'to capture attention'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "L'annonce a capté l'attention de tout le monde."
+    exampleTranslation: "The announcement captured everyone's attention."
+grammar:
+  - id: B2-GRAMMAR-006
+    point: 'Impersonal structures for formal announcements'
+    explanation: 'Using impersonal constructions to add formality and objectivity to public announcements'
+    examples:
+      - 'Il est annoncé que la réunion est reportée.'
+      - 'Les voyageurs sont priés de surveiller leurs bagages.'
+    cefrNotes: 'B2 learners use passive/impersonal forms for formal public communication'
+culturalNotes: "French public announcements (transport, events) use formal register: 'Nous souhaitons informer les voyageurs que...' rather than direct imperatives."

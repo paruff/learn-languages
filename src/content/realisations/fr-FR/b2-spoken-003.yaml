@@ -1,0 +1,47 @@
+nodeId: B2-SPOKEN-003
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B2-SPOKEN-003-001
+    term: 'comprendre un discours complexe'
+    translation: 'to understand complex speech'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je peux comprendre un discours complexe sur des sujets abstraits.'
+    exampleTranslation: 'I can understand complex speech on abstract topics.'
+  - id: fr-FR-B2-SPOKEN-003-002
+    term: 'identifier les idées principales dans les discours'
+    translation: 'to identify main ideas in speeches'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je vais identifier les idées principales dans de longs discours.'
+    exampleTranslation: 'I will identify main ideas in long speeches.'
+  - id: fr-FR-B2-SPOKEN-003-003
+    term: 'comprendre une argumentation abstraite'
+    translation: 'to understand abstract argumentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "Il est important de comprendre l'argumentation abstraite en conférence."
+    exampleTranslation: 'It is important to understand abstract argumentation in lectures.'
+  - id: fr-FR-B2-SPOKEN-003-004
+    term: "reconnaître l'intention de l'orateur"
+    translation: "to recognise the speaker's intention"
+    partOfSpeech: phrase
+    gender: feminine
+    example: "Je dois reconnaître l'intention de l'orateur."
+    exampleTranslation: "I need to recognise the speaker's intention."
+  - id: fr-FR-B2-SPOKEN-003-005
+    term: "interpréter l'intonation"
+    translation: 'to interpret the intonation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "Il est utile d'interpréter l'intonation pour comprendre l'attitude."
+    exampleTranslation: 'It is useful to interpret the intonation to understand the attitude.'
+  - id: fr-FR-B2-SPOKEN-003-006
+    term: 'faire des inférences à partir du discours'
+    translation: 'to make inferences from speech'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "Je peux faire des inférences à partir du discours de l'orateur."
+    exampleTranslation: "I can make inferences from the speaker's speech."
+grammar: []
+culturalNotes: "French rhetorical analysis values 'l'implicite' (the unspoken); 'faire des inférences' is key skill for B2-level listening to political/intellectual discourse."

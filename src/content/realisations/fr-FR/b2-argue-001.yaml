@@ -1,0 +1,54 @@
+nodeId: B2-ARGUE-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B2-ARGUE-001-001
+    term: 'construire une chaîne de raisonnement'
+    translation: 'to construct a chain of reasoning'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je vais construire une chaîne de raisonnement pour expliquer.'
+    exampleTranslation: 'I will construct a chain of reasoning to explain.'
+  - id: fr-FR-B2-ARGUE-001-002
+    term: "développer l'argument"
+    translation: 'to develop the argument'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "Il est important de développer l'argument étape par étape."
+    exampleTranslation: 'It is important to develop the argument step by step.'
+  - id: fr-FR-B2-ARGUE-001-003
+    term: 'présenter des déductions'
+    translation: 'to present deductions'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je peux présenter des déductions basées sur des faits.'
+    exampleTranslation: 'I can present deductions based on facts.'
+  - id: fr-FR-B2-ARGUE-001-004
+    term: 'relier les idées logiquement'
+    translation: 'to connect ideas logically'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "J'ai besoin de relier les idées logiquement."
+    exampleTranslation: 'I need to connect the ideas logically.'
+  - id: fr-FR-B2-ARGUE-001-005
+    term: 'utiliser des connecteurs de conséquence'
+    translation: 'to use consequence connectors'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "Il est utile d'utiliser des connecteurs comme donc, ainsi, par conséquent."
+    exampleTranslation: 'It is useful to use connectors like therefore, thus, consequently.'
+  - id: fr-FR-B2-ARGUE-001-006
+    term: 'structurer le discours'
+    translation: 'to structure the discourse'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je vais structurer le discours en trois parties.'
+    exampleTranslation: 'I will structure the discourse in three parts.'
+grammar:
+  - id: B2-GRAMMAR-005
+    point: 'Passive voice for objectivity'
+    explanation: 'Using passive constructions to add formality and objectivity'
+    examples:
+      - "Le projet a été développé par l'équipe."
+      - 'Plusieurs arguments ont été présentés.'
+    cefrNotes: 'B2 learners use passive voice to shift focus from agent to action'
+culturalNotes: "French academic discourse values logical structure. Using 'en premier lieu', 'de plus', 'en conclusion' signals organised thinking."

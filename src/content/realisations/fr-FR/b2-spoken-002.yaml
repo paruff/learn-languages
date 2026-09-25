@@ -1,0 +1,47 @@
+nodeId: B2-SPOKEN-002
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B2-SPOKEN-002-001
+    term: 'comprendre les journaux télévisés'
+    translation: 'to understand TV news'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "Je peux comprendre les journaux télévisés sur des sujets d'actualité."
+    exampleTranslation: 'I can understand TV news on current topics.'
+  - id: fr-FR-B2-SPOKEN-002-002
+    term: "suivre des émissions d'actualité"
+    translation: 'to follow current affairs programmes'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "Je vais suivre des émissions d'actualité cette semaine."
+    exampleTranslation: 'I will follow current affairs programmes this week.'
+  - id: fr-FR-B2-SPOKEN-002-003
+    term: 'comprendre des films sans sous-titres'
+    translation: 'to understand films without subtitles'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "J'ai besoin de comprendre des films sans sous-titres."
+    exampleTranslation: 'I need to understand films without subtitles.'
+  - id: fr-FR-B2-SPOKEN-002-004
+    term: 'identifier le thème principal'
+    translation: 'to identify the main theme'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "Il est important d'identifier le thème principal du reportage."
+    exampleTranslation: 'It is important to identify the main theme of the report.'
+  - id: fr-FR-B2-SPOKEN-002-005
+    term: 'saisir les références culturelles'
+    translation: 'to understand cultural references'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Il est utile de saisir les références culturelles dans le noticiário.'
+    exampleTranslation: 'It is useful to understand cultural references in the news.'
+  - id: fr-FR-B2-SPOKEN-002-006
+    term: "synthétiser l'information orale"
+    translation: 'to synthesise oral information'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "Je vais synthétiser l'information orale que j'ai entendue."
+    exampleTranslation: 'I will synthesise the oral information I heard.'
+grammar: []
+culturalNotes: "French TV news uses formal register; 'journal télévisé' (JT) at 20h is a cultural institution; 'saisir' implies active comprehension of cultural nuances."

@@ -1,0 +1,47 @@
+nodeId: B2-TEXT-002
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B2-TEXT-002-001
+    term: 'comprendre des articles de presse'
+    translation: 'to understand newspaper articles'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "Je peux comprendre des articles de presse sur des sujets d'actualité."
+    exampleTranslation: 'I can understand newspaper articles on current topics.'
+  - id: fr-FR-B2-TEXT-002-002
+    term: 'lire des rapports techniques'
+    translation: 'to read technical reports'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je vais lire des rapports techniques sur le sujet.'
+    exampleTranslation: 'I will read technical reports on the topic.'
+  - id: fr-FR-B2-TEXT-002-003
+    term: 'analyser des textes argumentatifs'
+    translation: 'to analyse argumentative texts'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "Il est important d'analyser les textes argumentatifs avec attention."
+    exampleTranslation: 'It is important to analyse argumentative texts carefully.'
+  - id: fr-FR-B2-TEXT-002-004
+    term: 'distinguer faits et opinions'
+    translation: 'to distinguish facts from opinions'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "Je dois distinguer faits et opinions dans l'article."
+    exampleTranslation: 'I need to distinguish facts from opinions in the article.'
+  - id: fr-FR-B2-TEXT-002-005
+    term: 'identifier le but du texte'
+    translation: 'to identify the purpose of the text'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "J'identifierai le but du texte dès le début."
+    exampleTranslation: 'I will identify the purpose of the text from the beginning.'
+  - id: fr-FR-B2-TEXT-002-006
+    term: 'lire entre les lignes'
+    translation: 'to read between the lines'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "Il est utile de lire entre les lignes pour comprendre l'implicite."
+    exampleTranslation: 'It is useful to read between the lines to understand the implicit.'
+grammar: []
+culturalNotes: "French press uses 'l'actualité' for news; 'distinguer faits et opinions' is a core media literacy skill taught in French lycées; 'lire entre les lignes' captures 'le non-dit'."

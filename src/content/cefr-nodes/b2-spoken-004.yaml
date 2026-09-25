@@ -1,0 +1,11 @@
+nodeId: B2-SPOKEN-004
+cefrLevel: B2
+skill: spoken_production
+canDo: 'Can make announcements on general topics with clarity and fluency'
+pragmaticFocus: 'Public announcement delivery'
+notionalFocus: 'General topics, clarity, fluency'
+relatedNodes:
+  - B2-SPOKEN-001
+  - B2-ARGUE-001
+prerequisiteNodes:
+  - B2-SPOKEN-001

@@ -1,0 +1,47 @@
+nodeId: B2-ARGUE-002
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B2-ARGUE-002-001
+    term: 'justifier sa position'
+    translation: 'to justify the position'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je justifierai ma position avec des exemples concrets.'
+    exampleTranslation: 'I will justify my position with concrete examples.'
+  - id: fr-FR-B2-ARGUE-002-002
+    term: "argumenter sur des sujets d'actualité"
+    translation: 'to argue about current topics'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "J'aime argumenter sur des sujets d'actualité avec des amis."
+    exampleTranslation: 'I like to argue about current topics with friends.'
+  - id: fr-FR-B2-ARGUE-002-003
+    term: 'présenter des preuves'
+    translation: 'to present evidence'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "Il est important de présenter des preuves qui soutiennent l'opinion."
+    exampleTranslation: 'It is important to present evidence that supports the opinion.'
+  - id: fr-FR-B2-ARGUE-002-004
+    term: 'exposer les pour et les contre'
+    translation: 'to present the pros and cons'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je vais exposer les pour et les contre de la situation.'
+    exampleTranslation: 'I will present the pros and cons of the situation.'
+  - id: fr-FR-B2-ARGUE-002-005
+    term: 'réfuter des arguments'
+    translation: 'to refute arguments'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je peux réfuter les arguments faibles avec des faits.'
+    exampleTranslation: 'I can refute weak arguments with facts.'
+  - id: fr-FR-B2-ARGUE-002-006
+    term: 'arriver à des conclusions'
+    translation: 'to reach conclusions'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Après analyse, nous arrivons à des conclusions claires.'
+    exampleTranslation: 'After analysis, we reach clear conclusions.'
+grammar: []
+culturalNotes: "In French debates, 'pour' and 'contre' are standard for pros/cons; 'tirer des conclusions' is also common for 'reach conclusions'."

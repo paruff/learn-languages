@@ -1,0 +1,47 @@
+nodeId: B2-SOCIAL-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B2-SOCIAL-001-001
+    term: 'approfondir la discussion'
+    translation: 'to deepen the discussion'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Pouvons-nous approfondir la discussion sur ce sujet ?'
+    exampleTranslation: 'Can we deepen the discussion about this topic?'
+  - id: fr-FR-B2-SOCIAL-001-002
+    term: 'maintenir la conversation'
+    translation: 'to keep the conversation going'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Il est important de maintenir la conversation fluide.'
+    exampleTranslation: 'It is important to keep the conversation flowing.'
+  - id: fr-FR-B2-SOCIAL-001-003
+    term: 'réagir spontanément'
+    translation: 'to react spontaneously'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je peux réagir spontanément dans les discussions.'
+    exampleTranslation: 'I can react spontaneously in discussions.'
+  - id: fr-FR-B2-SOCIAL-001-004
+    term: 'participer activement'
+    translation: 'to participate actively'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "J'aime participer activement en classe."
+    exampleTranslation: 'I like to participate actively in classes.'
+  - id: fr-FR-B2-SOCIAL-001-005
+    term: 'exprimer ses idées clairement'
+    translation: 'to express ideas clearly'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "Il est fondamental d'exprimer ses idées clairement."
+    exampleTranslation: 'It is fundamental to express ideas clearly.'
+  - id: fr-FR-B2-SOCIAL-001-006
+    term: 'interagir avec aisance'
+    translation: 'to interact with fluency'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je veux interagir avec aisance en français.'
+    exampleTranslation: 'I want to interact with fluency in French.'
+grammar: []
+culturalNotes: "French conversation values 'l'art de la conversation' — maintaining flow with 'en effet', 'par ailleurs', 'c'est vrai que' shows engagement and fluency."

@@ -1,0 +1,47 @@
+nodeId: B2-SOCIAL-004
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-B2-SOCIAL-004-001
+    term: 'clarifier les doutes'
+    translation: 'to clarify doubts'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je peux clarifier vos doutes sur le sujet.'
+    exampleTranslation: 'I can clarify your doubts about the subject.'
+  - id: fr-FR-B2-SOCIAL-004-002
+    term: "détailler l'explication"
+    translation: 'to detail the explanation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "Je vais détailler l'explication pour plus de clarté."
+    exampleTranslation: 'I will detail the explanation for greater clarity.'
+  - id: fr-FR-B2-SOCIAL-004-003
+    term: 'préciser le concept'
+    translation: 'to specify the concept'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Il est important de préciser le concept avant de discuter.'
+    exampleTranslation: 'It is important to specify the concept before discussing.'
+  - id: fr-FR-B2-SOCIAL-004-004
+    term: 'exemplifier par des situations'
+    translation: 'to exemplify with situations'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je peux exemplifier par des situations réelles.'
+    exampleTranslation: 'I can exemplify with real situations.'
+  - id: fr-FR-B2-SOCIAL-004-005
+    term: "réinterpréter l'idée"
+    translation: 'to reinterpret the idea'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "Je vais réinterpréter l'idée de façon plus simple."
+    exampleTranslation: 'I will reinterpret the idea in a simpler way.'
+  - id: fr-FR-B2-SOCIAL-004-006
+    term: 'assurer la compréhension'
+    translation: 'to ensure understanding'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je veux assurer la compréhension avant de continuer.'
+    exampleTranslation: 'I want to ensure understanding before continuing.'
+grammar: []
+culturalNotes: "French clarification phrases: 'si je comprends bien', 'en d'autres termes', 'pour être précis'; 'assurer la compréhension' reflects pedagogical tradition."
