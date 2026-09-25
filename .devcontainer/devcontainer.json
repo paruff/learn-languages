@@ -1,0 +1,49 @@
+{
+  "name": "learn-languages",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": true,
+      "upgradePackages": true
+    },
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "astro-build.astro-vscode",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "github.vscode-github-actions",
+        "ms-playwright.playwright",
+        "redhat.vscode-yaml",
+        "vitest.explorer"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": "explicit"
+        },
+        "eslint.validate": ["javascript", "typescript", "astro"],
+        "prettier.enable": true,
+        "typescript.tsdk": "node_modules/typescript/lib"
+      }
+    }
+  },
+  "forwardPorts": [4321],
+  "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "postStartCommand": "npx lefthook install",
+  "remoteUser": "node",
+  "containerEnv": {
+    "NODE_ENV": "development",
+    "PLAYWRIGHT_BROWSERS_PATH": "/ms-playwright"
+  },
+  "runArgs": ["--init"],
+  "mounts": [
+    "source=${localWorkspaceFolder}/.worktrees,target=/workspaces/.worktrees,type=bind,consistency=cached"
+  ]
+}
