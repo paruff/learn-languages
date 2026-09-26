@@ -528,6 +528,10 @@ npm run test:e2e         # playwright test
 npm run install:browsers # Playwright browsers via offline-resilient local relay
 npm run lighthouse       # lighthouse-ci
 
+# opencode config (single source of truth = repo opencode/, never ~/.config)
+bash opencode/sync.sh    # install config + pinned plugins + validate
+bash opencode/validate.sh # invariants only (no install)
+
 # Git hooks
 npx lefthook install     # Install hooks
 npx lefthook run pre-commit   # Manual pre-commit
@@ -537,6 +541,8 @@ npx lefthook run pre-push     # Manual pre-push
 git status               # Check clean state
 git log --oneline -10    # Recent commits
 ```
+
+> **opencode config:** edit `opencode/` in this repo and run `bash opencode/sync.sh` (restart opencode after). `~/.config/opencode` is an install target — hand-edits there are overwritten. Details, removed-services, and re-add conditions: `opencode/README.md`.
 
 > **Playwright browsers:** `npm run install:browsers` (`scripts/install-browsers.sh`) works around the stock CDN downloader hanging on this network by fetching build zips with curl and installing through a local HTTP relay. Build ids are Playwright-version-specific — **re-run it after every Playwright version bump**.
 

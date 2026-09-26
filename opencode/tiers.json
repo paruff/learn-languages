@@ -1,0 +1,98 @@
+{
+  "activePreset": "default",
+  "presets": {
+    "default": {
+      "@fast": {
+        "model": "google/gemini-2.5-flash",
+        "description": "Fast tier — read-only, searches, simple edits, grep/glob, file reads",
+        "steps": 5,
+        "color": "success",
+        "prompt": "You are the FAST tier. Handle read-only work, searches, simple file reads, grep/glob patterns, and straightforward edits. Be concise. Do NOT do complex reasoning, architecture, or multi-step implementation."
+      },
+      "@medium": {
+        "model": "google/gemini-3-flash-preview",
+        "description": "Medium tier — implementation, multi-step tasks, writing code, tests, content authoring",
+        "steps": 15,
+        "color": "warning",
+        "prompt": "You are the MEDIUM tier. Handle implementation tasks, writing code, creating tests, content authoring, multi-step workflows. Follow the Superpowers skill workflow. Use TDD. Be thorough but efficient."
+      },
+      "@heavy": {
+        "model": "google/gemini-3-flash-preview",
+        "description": "Heavy tier — architecture, debug complex issues, design decisions, cross-cutting concerns",
+        "steps": 30,
+        "color": "error",
+        "thinking": { "budgetTokens": 32768 },
+        "prompt": "You are the HEAVY tier. Handle architecture decisions, complex debugging, system design, cross-cutting concerns, and high-stakes decisions. Think deeply. Use the full thinking budget. Apply rigorous analysis."
+      }
+    },
+    "minimal": {
+      "@fast": {
+        "model": "google/gemini-2.5-flash",
+        "description": "Fast tier — read-only, searches, simple edits",
+        "steps": 3,
+        "color": "success"
+      },
+      "@medium": {
+        "model": "google/gemini-3-flash-preview",
+        "description": "Medium tier — implementation, writing code",
+        "steps": 10,
+        "color": "warning"
+      },
+      "@heavy": {
+        "model": "google/gemini-2.5-flash",
+        "description": "Heavy tier — architecture, complex debug",
+        "steps": 20,
+        "color": "error"
+      }
+    }
+  },
+  "activeMode": "standard",
+  "modes": {
+    "standard": {
+      "overrideRules": [
+        "read-only operations (grep, glob, read, ls) -> @fast",
+        "search and exploration -> @fast",
+        "simple edits, config changes, documentation -> @fast",
+        "implementation tasks (writing code, tests, content) -> @medium",
+        "multi-step workflows, TDD cycles -> @medium",
+        "content authoring, batch file creation -> @medium",
+        "architecture decisions, system design -> @heavy",
+        "complex debugging, root cause analysis -> @heavy",
+        "cross-cutting concerns, security, performance -> @heavy",
+        "high-stakes decisions, irreversible changes -> @heavy"
+      ]
+    },
+    "review": {
+      "overrideRules": [
+        "code review, spec compliance, design compliance -> @heavy",
+        "security review, policy validation -> @heavy",
+        "simple linting, formatting -> @fast"
+      ]
+    },
+    "content": {
+      "overrideRules": [
+        "content extraction, PDF processing -> @fast",
+        "content authoring, translation, mapping -> @medium",
+        "content strategy, pedagogy decisions -> @heavy"
+      ]
+    }
+  },
+  "rules": [
+    "read-only operations (grep, glob, read, ls) -> @fast",
+    "search and exploration -> @fast",
+    "simple edits, config changes, documentation -> @fast",
+    "implementation tasks (writing code, tests, content) -> @medium",
+    "multi-step workflows, TDD cycles -> @medium",
+    "content authoring, batch file creation -> @medium",
+    "architecture decisions, system design -> @heavy",
+    "complex debugging, root cause analysis -> @heavy",
+    "cross-cutting concerns, security, performance -> @heavy",
+    "high-stakes decisions, irreversible changes -> @heavy"
+  ],
+  "defaultTier": "@medium",
+  "tierPrompts": {
+    "@fast": "FAST TIER: Handle read-only work, searches, simple edits. Be concise. Max 5 steps.",
+    "@medium": "MEDIUM TIER: Implementation, multi-step tasks, TDD, content authoring. Max 15 steps.",
+    "@heavy": "HEAVY TIER: Architecture, complex debug, design decisions. Think deeply. Max 30 steps with 32k thinking budget."
+  }
+}

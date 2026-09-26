@@ -1,0 +1,63 @@
+{
+  "$schema": "https://raw.githubusercontent.com/HyeokjaeLee/opencode-auto-fallback/main/docs/fallback.schema.json",
+  "enabled": true,
+  "autoUpdate": false,
+  "defaultFallback": [
+    "google/gemini-2.5-flash",
+    "google/gemini-3-flash-preview",
+    "opencode/nemotron-3.5-lightning-free"
+  ],
+  "agents": {
+    "@fast": {
+      "largeContextModel": "google/gemini-2.5-flash",
+      "fallback": [
+        "google/gemini-3-flash-preview",
+        "opencode/mimo-v2.6-flash-free",
+        "opencode/big-pickle"
+      ]
+    },
+    "@medium": {
+      "largeContextModel": "google/gemini-3-flash-preview",
+      "fallback": [
+        "google/gemini-2.5-flash",
+        "opencode/mimo-v2.6-flash-free",
+        "opencode/big-pickle"
+      ]
+    },
+    "@heavy": {
+      "largeContextModel": "google/gemini-3-flash-preview",
+      "fallback": [
+        "google/gemini-2.5-flash",
+        "opencode/mimo-v2.6-flash-free",
+        "opencode/big-pickle"
+      ]
+    },
+    "build": {
+      "largeContextModel": "opencode/mimo-v2.6-flash-free",
+      "fallback": [
+        "google/gemini-2.5-flash",
+        "google/gemini-3-flash-preview",
+        "opencode/nemotron-3.5-lightning-free"
+      ]
+    },
+    "general": {
+      "largeContextModel": "opencode/mimo-v2.6-flash-free",
+      "fallback": [
+        "google/gemini-2.5-flash",
+        "google/gemini-3-flash-preview",
+        "opencode/nemotron-3.5-lightning-free"
+      ]
+    },
+    "explore": {
+      "largeContextModel": "opencode/mimo-v2.6-flash-free",
+      "fallback": [
+        "google/gemini-2.5-flash",
+        "google/gemini-3-flash-preview",
+        "opencode/nemotron-3.5-lightning-free"
+      ]
+    }
+  },
+  "cooldownMs": 60000,
+  "maxRetries": 2,
+  "logging": true
+}
