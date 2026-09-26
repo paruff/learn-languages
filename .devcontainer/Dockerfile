@@ -25,8 +25,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libatspi2.0-0 \
     && rm -rf /var/lib/apt/lists/*
 
-# Set up Playwright browsers directory
+# Set up Playwright browsers directory (node-writable so post-create can install)
 ENV PLAYWRIGHT_BROWSERS_PATH=/ms-playwright
+RUN mkdir -p /ms-playwright && chown node:node /ms-playwright
 
 # Switch to node user (devcontainers default)
 USER node

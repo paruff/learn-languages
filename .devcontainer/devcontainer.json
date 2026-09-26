@@ -40,7 +40,8 @@
   "remoteUser": "node",
   "containerEnv": {
     "NODE_ENV": "development",
-    "PLAYWRIGHT_BROWSERS_PATH": "/ms-playwright"
+    "PLAYWRIGHT_BROWSERS_PATH": "/ms-playwright",
+    "GEMINI_API_KEY": "${localEnv:GEMINI_API_KEY}"
   },
   "runArgs": ["--init"],
   "mounts": [

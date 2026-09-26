@@ -33,6 +33,14 @@ sudo apt-get update && sudo apt-get install -y \
 echo "📦 Installing Node dependencies..."
 npm ci
 
+# Install opencode CLI (pinned — keep in sync with the host Homebrew version)
+echo "🤖 Installing opencode CLI (pinned)..."
+npm install -g opencode-ai@1.18.30
+
+# Sync the versioned opencode config (config files, pinned plugins, skills)
+echo "🔌 Syncing opencode configuration..."
+bash opencode/sync.sh
+
 # Install Playwright browsers
 echo "🌐 Installing Playwright browsers..."
 npx playwright install --with-deps chromium firefox webkit
@@ -46,7 +54,14 @@ echo "✅ Verifying setup..."
 npm run typecheck --if-present 2>&1 | head -20 || true
 npm run lint --if-present 2>&1 | head -20 || true
 
+# Verify opencode configuration (sync.sh already ran validate.sh)
+echo "🤖 Verifying opencode configuration..."
+opencode --version 2>&1 || true
+opencode models 2>&1 | head -10 || true
+echo "   (openrouter hops need auth: run 'opencode auth login' once per container)"
+
 echo "🎉 Devcontainer setup complete!"
 echo "   Run 'npm run dev' to start the Astro dev server"
 echo "   Run 'npm run test:e2e' to run Playwright tests"
 echo "   Run 'npm run validate:content' to validate content"
+echo "   Run 'opencode run \"list files in src\"' to test opencode"
