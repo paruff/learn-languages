@@ -15,9 +15,11 @@ bash opencode/sync.sh
 
 Idempotent; runs on demand (and automatically in the devcontainer post-create):
 
-1. Copies `opencode.jsonc`, `fallback.json`, `tiers.json`, `package.json`,
-   `package-lock.json`, and `plugins/superpowers-bridge.js` into
-   `$OPENCODE_CONFIG_DIR` (default `~/.config/opencode`).
+1. Copies `opencode.jsonc`, `fallback.json`, `tiers.json`, `package.json`, and
+   `package-lock.json` into `$OPENCODE_CONFIG_DIR` (default
+   `~/.config/opencode`), copies `commands/*.md` (global commands such as
+   `/doctor`) into `$OPENCODE_CONFIG_DIR/commands/`, and removes the stale
+   `plugins/superpowers-bridge.js` (retired bridge).
 2. Substitutes the `__HOME__` token with the current `$HOME`, so one committed
    file works unchanged on host (`/Users/…`) and in the container (`/home/node/…`).
 3. Removes the legacy `skills/superpowers` symlink if present — skills are
@@ -30,15 +32,15 @@ Idempotent; runs on demand (and automatically in the devcontainer post-create):
 
 ## Files
 
-| File                            | Purpose                                                                                                     |
-| ------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| `opencode.jsonc`                | Main config: providers + model definitions, default/agent models, plugin list, skills paths, MCP servers    |
-| `fallback.json`                 | Per-agent fallback chains for `opencode-auto-fallback`                                                      |
-| `tiers.json`                    | `@fast/@medium/@heavy` tier preset (model, steps, prompts, thinking budget) for the TUI model-router plugin |
-| `package.json`(+lock)           | Exact-pinned plugin dependencies (git deps SHA-pinned)                                                      |
-| `plugins/superpowers-bridge.js` | Loads superpowers through a clean default export (see below)                                                |
-| `sync.sh`                       | Install script (above)                                                                                      |
-| `validate.sh`                   | Determinism invariants (below)                                                                              |
+| File                  | Purpose                                                                                                     |
+| --------------------- | ----------------------------------------------------------------------------------------------------------- |
+| `opencode.jsonc`      | Main config: providers + model definitions, default/agent models, plugin list, skills paths, MCP servers    |
+| `fallback.json`       | Per-agent fallback chains for `opencode-auto-fallback`                                                      |
+| `tiers.json`          | `@fast/@medium/@heavy` tier preset (model, steps, prompts, thinking budget) for the TUI model-router plugin |
+| `package.json`(+lock) | Exact-pinned plugin dependencies (git deps SHA-pinned)                                                      |
+| `commands/doctor.md`  | Global `/doctor` command: config/tier/fallback health check (installed to `~/.config/opencode/commands/`)   |
+| `sync.sh`             | Install script (above)                                                                                      |
+| `validate.sh`         | Determinism invariants (below)                                                                              |
 
 ## Why tiers.json looks triplicated — it isn't dead code
 
@@ -54,26 +56,34 @@ Neither copy is derivable at runtime; drift between them is prevented by
 `validate.sh` check 8 (`rules[]` must equal `modes.standard.overrideRules`)
 instead of by deletion.
 
-## superpowers must go through the bridge
+## superpowers loads via a SHA-pinned git-spec entry
 
-Referencing the bare `"superpowers"` package in the `plugin` list never loaded
-on opencode 1.18.30 (silent since 2026-09-23, surfaced 2026-09-25): superpowers
-v6 exports string constants alongside the plugin function, and opencode's
-legacy loader iterates `Object.values(mod)` and throws
-`"Plugin export is not a function"` on the first string. (The removed `headroom`
-plugin failed the same way.)
+The `plugin` list references superpowers as
+`superpowers@git+https://github.com/obra/superpowers.git#<40-hex SHA>` — the
+same commit `package.json` pins. Never write the bare package name: on the npm
+registry, `superpowers` is an abandoned **0.0.2 stub** that installs as a
+silent no-op, so a bare `"superpowers"` entry "succeeds" while loading
+nothing. The old `plugins/superpowers-bridge.js` shim (retired 2026-09-26)
+was a workaround that pointed at an absolute installed path; the git-spec
+entry supersedes it. obra's repo ships a clean
+`export default { id, server }` that opencode
+1.18.30's primary loader path accepts. Invariants (enforced by
+`validate.sh`):
 
-`plugins/superpowers-bridge.js` default-exports a single
-`{ id, server }` object, which satisfies both of opencode's loader paths under
-any ESM/CJS interop shape. Invariants (enforced by `validate.sh`):
+- the plugin list carries the git-spec entry, full-SHA-pinned (40 hex) —
+  an absent or unpinned spec fails validation;
+- bare `"superpowers"` never appears;
+- no stale `plugins/superpowers-bridge.js` lingers in the config dir.
 
-- the plugin list references the bridge **path**, never bare `"superpowers"`;
-- the bridge file exists and contains **exactly one** export statement
-  (`export default`) — any added named export reintroduces the bug.
+The `superpowers` npm dependency in `package.json` remains, but solely to
+supply `skills.paths` (below) — it installs the skill files that the boot-time
+scan reads.
 
-Superpowers **skills** are registered separately and only via
-`skills.paths` in `opencode.jsonc` (boot-time scan; the plugin's config-hook
-injection is not picked up — verified 2026-09-25).
+Superpowers **skills** are registered file-side via `skills.paths` in
+`opencode.jsonc`. Since the git-spec entry (2026-09-26) the plugin's
+config-hook injection is _also_ picked up at boot, but the file-side entry
+stays as the source of truth: it works with a cold plugin cache, and the
+loader dedupes both registrations (no duplicate-name warnings).
 
 ## Model definitions live in opencode.jsonc (README step 3)
 
@@ -111,10 +121,11 @@ Fails the sync (and should gate CI if wired in) when any of these regress:
 
 1. removed providers (`nvidia-proxy`, `ollama`) reappear
 2. MCP server enabled while listed in `disabled_providers` (incl. stale headroom)
-3. removed plugins reappear; bare `"superpowers"` sneaks in; bridge file missing
+3. removed plugins reappear; bare `"superpowers"` sneaks in; the SHA-pinned
+   `superpowers@git+…#<40-hex>` git-spec entry is absent or not full-SHA-pinned
 4. default/agent models unqualified, on a removed provider, or unknown
 5. plugin deps not exact-pinned; git deps not pinned to a full 40-hex SHA
-   5b. bridge loses its single-`export default` shape
+   5b. stale `plugins/superpowers-bridge.js` still present in the config dir
 6. fallback hops / `largeContextModel` unqualified or on removed providers
 7. tiers reference the antigravity channel or undeclared Google models
 8. `tiers.json` `rules[]` drifts from `modes.standard.overrideRules`

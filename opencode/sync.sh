@@ -20,9 +20,16 @@ for f in "${FILES[@]}"; do
   cp "$SRC/$f" "$DEST/$f"
 done
 
-# Local bridge plugin (loaded by absolute path from opencode.jsonc)
-mkdir -p "$DEST/plugins"
-cp "$SRC/plugins/superpowers-bridge.js" "$DEST/plugins/"
+# Global commands (e.g. /doctor) — same SSOT treatment as the config files
+for c in "$SRC"/commands/*.md; do
+  [ -e "$c" ] || continue
+  mkdir -p "$DEST/commands"
+  cp "$c" "$DEST/commands/"
+done
+
+# Retired superpowers bridge plugin — cleaned up (superpowers now loads via
+# the SHA-pinned git-spec entry in opencode.jsonc)
+rm -f "$DEST/plugins/superpowers-bridge.js"
 
 # __HOME__ token -> this machine's home (same file works on host + container)
 sed -i.bak "s|__HOME__|$HOME|g" "$DEST/opencode.jsonc"
