@@ -110,21 +110,25 @@
   // package-lock.json, installed by opencode/sync.sh (npm ci). Bare names
   // resolve from ~/.config/opencode/node_modules.
   //
-  // superpowers is loaded via plugins/superpowers-bridge.js, NOT its bare
-  // package name: v6's mixed exports make opencode 1.18.30's legacy loader
-  // throw "Plugin export is not a function" (same failure headroom had). The
-  // bridge default-exports a clean V1 plugin object — see the bridge header.
+  // superpowers loads via a SHA-pinned git-spec entry (obra/superpowers, the
+  // same commit package.json pins), NOT the bare package name: the npm name
+  // "superpowers" is an abandoned 0.0.2 stub that resolves to a silent no-op,
+  // so bare "superpowers" must never appear in this list. The `superpowers`
+  // npm dependency in package.json remains solely to supply `skills.paths`
+  // (below) — the authoritative, file-side registration of the skill files.
   "plugin": [
     "opencode-tui-model-router",
     "opencode-auto-fallback",
     "opencode-antigravity-auth",
-    "__HOME__/.config/opencode/plugins/superpowers-bridge.js"
+    "superpowers@git+https://github.com/obra/superpowers.git#8ca22dba9a94f28898bbce59f2537ff4d87c747d"
   ],
 
-  // Skills must be registered FILE-SIDE: skill discovery is a boot-time scan
-  // that does not pick up the superpowers plugin's config-hook injection of
-  // this same path (verified 2026-09-25). Single registration ONLY — a
-  // companion skills/superpowers symlink caused "duplicate skill name"
+  // Skills are registered FILE-SIDE as the source of truth. Since the
+  // git-spec entry (2026-09-26) the plugin's config-hook injection of this
+  // same path IS also picked up at boot, but the file-side entry stays: it
+  // works even with a cold plugin cache, and the loader dedupes the two
+  // registrations (no duplicate-name warnings). Single registration path ONLY
+  // — a companion skills/superpowers symlink caused "duplicate skill name"
   // warnings and is removed by sync.sh. __HOME__ is substituted by
   // opencode/sync.sh so the same file works on host and in the devcontainer.
   "skills": {

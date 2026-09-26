@@ -28,7 +28,10 @@ load_strict("package-lock.json")
 cfg = None
 try:
     src = open(os.path.join(d, "opencode.jsonc")).read()
-    cfg = json.loads(re.sub(r"^\s*//.*$", "", src, flags=re.M))
+    # tolerate trailing commas — a prettier --write on the jsonc adds them
+    text = re.sub(r"^\s*//.*$", "", src, flags=re.M)
+    text = re.sub(r",(\s*[}\]])", r"\1", text)
+    cfg = json.loads(text)
 except Exception as e:
     fails.append(f"opencode.jsonc: not parseable after stripping // comments ({e})")
 
@@ -54,17 +57,15 @@ if cfg:
     if "headroom" in dis:
         fails.append("disabled_providers: stale headroom entry")
 
-    # 3. plugin list: no removed plugins, superpowers goes through the bridge
+    # 3. plugin list: no removed plugins, superpowers via SHA-pinned git spec
     plugins = cfg.get("plugin", [])
     for p in plugins:
         if "ghilteras" in p or p in ("headroom", "headroom-opencode"):
             fails.append(f"plugin: removed plugin reappeared ({p})")
         if p == "superpowers":
-            fails.append("plugin: bare 'superpowers' breaks opencode 1.x loader — use plugins/superpowers-bridge.js")
-    if not any("superpowers-bridge.js" in p for p in plugins):
-        fails.append("plugin: superpowers-bridge.js is not registered")
-    if not os.path.isfile(os.path.join(d, "plugins", "superpowers-bridge.js")):
-        fails.append("plugins/superpowers-bridge.js: missing from config dir (sync.sh not run?)")
+            fails.append("plugin: bare 'superpowers' npm name is an abandoned 0.0.2 stub that silently no-ops — use the superpowers@git+https://github.com/obra/superpowers.git#<sha> git-spec entry")
+    if not any(re.fullmatch(r"superpowers@git\+https://github\.com/obra/superpowers\.git#[0-9a-f]{40}", p) for p in plugins):
+        fails.append("plugin: no SHA-pinned superpowers git-spec entry (superpowers@git+https://github.com/obra/superpowers.git#<40-hex>)")
 
     # 4. default model + agent models fully qualified, live provider
     def check_model(mid, where):
@@ -91,14 +92,10 @@ if pkg:
         elif not re.fullmatch(r"\d+\.\d+\.\d+", spec):
             fails.append(f"dependency {name}: not exact-pinned ({spec})")
 
-# 5b. bridge must expose exactly one export (any extra named export makes
-#     opencode's legacy Object.values() scan throw on it)
-bridge_path = os.path.join(d, "plugins", "superpowers-bridge.js")
-if os.path.isfile(bridge_path):
-    src = open(bridge_path).read()
-    exports = re.findall(r"^\s*export\s", src, flags=re.M)
-    if len(exports) != 1 or not re.search(r"^\s*export\s+default\s", src, flags=re.M):
-        fails.append("plugins/superpowers-bridge.js: must contain exactly one statement: `export default {...}`")
+# 5b. the retired bridge must not linger in the config dir (stale artifact of
+#     the bridge approach, replaced by the SHA-pinned git-spec plugin entry)
+if os.path.isfile(os.path.join(d, "plugins", "superpowers-bridge.js")):
+    fails.append("plugins/superpowers-bridge.js: stale artifact of the retired bridge — must not exist in the config dir")
 
 # 6. every fallback hop / largeContextModel fully qualified, live provider
 if fallback:
