@@ -1,12 +1,13 @@
 {
   "name": "learn-languages",
   "build": {
-    "dockerfile": "Dockerfile"
+    "dockerfile": "Dockerfile",
+    "context": ".."
   },
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2": {
       "installZsh": true,
-      "upgradePackages": true
+      "upgradePackages": false
     },
     "ghcr.io/devcontainers/features/git:1": {},
     "ghcr.io/devcontainers/features/github-cli:1": {},
@@ -36,7 +37,9 @@
   },
   "forwardPorts": [4321],
   "postCreateCommand": "bash .devcontainer/post-create.sh",
-  "postStartCommand": "npx lefthook install",
+  // setup-bg.sh is a no-op once ~/.devcontainer-setup.done exists; re-launching
+  // it on every start retries a background setup that failed at create time.
+  "postStartCommand": "setsid nohup bash .devcontainer/setup-bg.sh >/dev/null 2>&1 </dev/null & npx lefthook install || true",
   "remoteUser": "node",
   "containerEnv": {
     "NODE_ENV": "development",
@@ -45,6 +48,12 @@
   },
   "runArgs": ["--init"],
   "mounts": [
-    "source=${localWorkspaceFolder}/.worktrees,target=/workspaces/.worktrees,type=bind,consistency=cached"
+    "source=${localWorkspaceFolder}/.worktrees,target=/workspaces/.worktrees,type=bind,consistency=cached",
+    // node_modules gets its own named volume so the container's linux
+    // `npm ci` (post-create) and the host's darwin installs stop clobbering
+    // each other through the bind-mounted workspace. Target matches the
+    // Dockerfile WORKDIR; the image pre-creates the dir node-owned so
+    // docker's first-mount copy-up seeds a writable volume.
+    "source=learn-languages-node-modules,target=/workspaces/learn-languages/node_modules,type=volume"
   ]
 }

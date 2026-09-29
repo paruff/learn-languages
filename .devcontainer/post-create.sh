@@ -1,67 +1,42 @@
 #!/bin/bash
 # Post-create script for devcontainer
-# Runs after container is created to set up the development environment
+# Blocking path: ONLY `npm ci` — everything else runs in the background so the
+# container becomes usable in seconds instead of minutes.
+# The image (.devcontainer/Dockerfile) already bakes uv/uvx + the serena cache,
+# the pinned opencode CLI, Playwright browsers, and ~/.config/opencode — so the
+# background script below is only self-healing guards for anything missing/stale.
+# Background work is logged to ~/.devcontainer-setup.log and finishes with a
+# marker at ~/.devcontainer-setup.done (see .devcontainer/wait-setup.sh).
 
 set -e
 
-echo "🚀 Setting up learn-languages devcontainer..."
+echo "🚀 Setting up learn-languages devcontainer (fast path)..."
 
-# Install system dependencies for Playwright and PDF processing
-echo "📦 Installing system dependencies..."
-sudo apt-get update && sudo apt-get install -y \
-  poppler-utils \
-  xvfb \
-  libnss3 \
-  libnspr4 \
-  libatk1.0-0 \
-  libatk-bridge2.0-0 \
-  libcups2 \
-  libdrm2 \
-  libxkbcommon0 \
-  libxcomposite1 \
-  libxdamage1 \
-  libxfixes3 \
-  libxrandr2 \
-  libgbm1 \
-  libasound2 \
-  libpango-1.0-0 \
-  libcairo2 \
-  libatspi2.0-0 \
-  2>/dev/null || true
-
-# Install Node dependencies
-echo "📦 Installing Node dependencies..."
+# Install Node dependencies (this also runs `prepare` -> `npx lefthook install`)
+echo "📦 Installing Node dependencies (blocking)..."
+# node_modules is a named volume (devcontainer.json mounts); a fresh volume
+# can land root-owned depending on how the mountpoint was created — make
+# sure the node user can write it before npm ci.
+if [ -d node_modules ] && [ ! -w node_modules ]; then
+  sudo chown -R "$(id -u):$(id -g)" node_modules
+fi
 npm ci
 
-# Install opencode CLI (pinned — keep in sync with the host Homebrew version)
-echo "🤖 Installing opencode CLI (pinned)..."
-npm install -g opencode-ai@1.18.30
+# Everything else runs detached so it does not hold up container readiness.
+# Each step is a guard: the baked layers satisfy it instantly; only drift
+# (edited opencode/, Playwright bump, missing tool) costs real work.
+# The script is idempotent (marker + flock) and is re-launched from
+# postStartCommand, so a failed run is retried on the next container start
+# instead of requiring a rebuild.
+LOG="$HOME/.devcontainer-setup.log"
+MARKER="$HOME/.devcontainer-setup.done"
+rm -f "$MARKER"
 
-# Sync the versioned opencode config (config files, pinned plugins, skills)
-echo "🔌 Syncing opencode configuration..."
-bash opencode/sync.sh
+echo "⚙️  Remaining setup continues in the background (log: $LOG)"
+setsid nohup bash .devcontainer/setup-bg.sh >/dev/null 2>&1 </dev/null &
 
-# Install Playwright browsers
-echo "🌐 Installing Playwright browsers..."
-npx playwright install --with-deps chromium firefox webkit
-
-# Install lefthook git hooks
-echo "🪝 Installing git hooks..."
-npx lefthook install
-
-# Verify setup
-echo "✅ Verifying setup..."
-npm run typecheck --if-present 2>&1 | head -20 || true
-npm run lint --if-present 2>&1 | head -20 || true
-
-# Verify opencode configuration (sync.sh already ran validate.sh)
-echo "🤖 Verifying opencode configuration..."
-opencode --version 2>&1 || true
-opencode models 2>&1 | head -10 || true
-echo "   (openrouter hops need auth: run 'opencode auth login' once per container)"
-
-echo "🎉 Devcontainer setup complete!"
+echo "🎉 Blocking setup complete!"
 echo "   Run 'npm run dev' to start the Astro dev server"
-echo "   Run 'npm run test:e2e' to run Playwright tests"
+echo "   ⏳ Background setup still running — check:  tail -f ~/.devcontainer-setup.log"
+echo "   ⏳ Before 'npm run test:e2e' or opencode:  bash .devcontainer/wait-setup.sh"
 echo "   Run 'npm run validate:content' to validate content"
-echo "   Run 'opencode run \"list files in src\"' to test opencode"

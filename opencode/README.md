@@ -132,9 +132,16 @@ Fails the sync (and should gate CI if wired in) when any of these regress:
 
 ## Devcontainer parity
 
-`.devcontainer/post-create.sh` runs `npm ci` (repo), installs the pinned
-`opencode-ai@1.18.30` (keep in sync with host Homebrew), then
-`bash opencode/sync.sh`. `GEMINI_API_KEY` is injected via `containerEnv`
+The image (`.devcontainer/Dockerfile`) bakes the pinned `opencode-ai@1.18.30`
+(keep in sync with host Homebrew), uv/uvx + the serena cache, Playwright
+browsers, and `~/.config/opencode` (via `sync.sh`). At container create,
+`.devcontainer/post-create.sh` runs only `npm ci` (blocking), then detaches
+`.devcontainer/setup-bg.sh` — config re-sync, browser top-up, missing-tool
+guards — logged to `~/.devcontainer-setup.log` with a
+`~/.devcontainer-setup.done` marker (check via
+`.devcontainer/wait-setup.sh`). `postStartCommand` re-launches it, so a
+failed background run retries on the next container start instead of
+requiring a rebuild. `GEMINI_API_KEY` is injected via `containerEnv`
 (opencode reads it as `GOOGLE_GENERATIVE_AI_API_KEY` for the Google provider).
 
 ## Host cleanup performed (2026-09-25)

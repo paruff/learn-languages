@@ -1,0 +1,16 @@
+# Build-context hygiene: keep heavy/volatile repo dirs out of the context so
+# they never reach the daemon and can't invalidate image layers. The Dockerfile
+# COPYs .devcontainer/, opencode/, scripts/ and package-lock.json — those must
+# stay in the context.
+node_modules
+**/node_modules
+.git
+.worktrees
+dist
+coverage
+playwright-report
+test-results
+.astro
+.ruff_cache
+.serena
+.cache
