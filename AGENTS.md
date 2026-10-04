@@ -6,9 +6,9 @@
 
 ## 1. Repository Purpose
 
-**learn-languages** (deployed as **Acquira**) — a research-backed, CEFR-aligned language-learning platform built with **Astro 5.x** (static site generation with islands) deployed to **GitHub Pages** via **GitOps**. Originally scoped as EN→PT only (see `discovery-brief.md`'s MVP framing); the abstract CEFR-node + realisation content model proved out past a single hand-authored pair, and the platform now supports **en-GB, pt-PT, es-ES, de-DE, and fr-FR** as both source and target languages (Epic #39), with any-direction pairing and per-pair, per-direction SRS state.
+**learn-languages** (deployed as **Acquira**) — a research-backed, CEFR-aligned language-learning platform built with **Astro 7.x** (static site generation with islands) deployed to **GitHub Pages** via **GitOps**. Originally scoped as EN→PT only (see `discovery-brief.md`'s MVP framing); the abstract CEFR-node + realisation content model proved out past a single hand-authored pair, and the platform now supports **en-GB, pt-PT, es-ES, de-DE, and fr-FR** as both source and target languages (Epic #39), with any-direction pairing and per-pair, per-direction SRS state.
 
-- **Framework**: Astro 5.x + TypeScript, vanilla-JS islands (no framework runtime shipped to the client)
+- **Framework**: Astro 7.x + TypeScript, vanilla-JS islands (no framework runtime shipped to the client)
 - **Content**: Zod-validated CEFR nodes (language-agnostic Can-Do statements) + per-language realisations (YAML) — full A1–C2 coverage for pt-PT/es-ES/de-DE, a verified 5-node skeleton for fr-FR
 - **SRS**: SM-2 algorithm (pure TS, 100% test coverage), scoped per language pair _and_ review direction
 - **Deployment**: GitHub Actions → GitHub Pages (static export)
@@ -38,6 +38,8 @@ This project is **pre-validation**: zero real learners, biggest named risk is re
 ---
 
 ## 2. Superpowers Skill Workflow (MANDATORY for feature/content-model work)
+
+**Read first, every session:** `intent.md` (why; changes rarely) → `spec.md` (what the product must do; requirement IDs + status) → `plan.md` (what's next, in order, with gates). Work that can't trace to a `plan.md` row and a `spec.md` ID needs one added first. Behaviour changes update `spec.md` in the same PR. `plan.md`'s Phase 1 gate (real-learner evidence, #21) blocks new content and features.
 
 All agents MUST follow the Superpowers skill sequence for feature and content-model work — see §1.1 for when lighter iteration is appropriate:
 
@@ -125,7 +127,7 @@ src/
 └── content.config.ts    # Zod schemas for content collections
 ```
 
-### 4.2 Content Collections (Astro 5.x)
+### 4.2 Content Collections (Astro 7.x)
 
 ```typescript
 // src/content.config.ts
@@ -440,7 +442,7 @@ pre-push:
     validate-content:
       run: npm run validate:content
     test-unit:
-      run: npm run test:unit
+      run: npm test
     test-e2e:
       run: npm run test:e2e
 ```
@@ -523,7 +525,7 @@ npm run preview          # Preview dist/ locally
 npm run typecheck        # tsc --noEmit
 npm run lint             # eslint + prettier --check
 npm run validate:content # Zod schema validation
-npm run test:unit        # vitest --run --coverage
+npm test                 # vitest --run --coverage (unit)
 npm run test:e2e         # playwright test
 npm run install:browsers # Playwright browsers via offline-resilient local relay
 npm run lighthouse       # lighthouse-ci
@@ -567,7 +569,10 @@ git log --oneline -10    # Recent commits
 
 | Document                  | Purpose                                                                               |
 | ------------------------- | ------------------------------------------------------------------------------------- |
-| `discovery-brief.md`      | JTBD, personas, acceptance criteria, constraints                                      |
+| `intent.md`               | Why the product exists, outcome, success signals, principles, non-goals (stable)      |
+| `spec.md`                 | Living requirement contract: IDs, intent trace, verifying check, status               |
+| `plan.md`                 | Current ordered work + gates; supersedes #20's phase list                             |
+| `discovery-brief.md`      | JTBD, personas, acceptance criteria, constraints (historical record)                  |
 | `specification-design.md` | Full technical specification (architecture, data model, SRS, UI, testing, deployment) |
 | `AGENTS.md`               | This file — agent governance, GitOps, conventions                                     |
 | `CLAUDE.md`               | Symlink to AGENTS.md                                                                  |

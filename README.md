@@ -60,7 +60,7 @@ npm run typecheck && npm run lint && npm run test:unit && npm run build
 
 | Layer               | Technology                    |
 | ------------------- | ----------------------------- |
-| SSG                 | Astro 5.x                     |
+| SSG                 | Astro 7.x                     |
 | Interactive Islands | Vue 3.5                       |
 | Schema Validation   | Zod 3.x                       |
 | SRS Algorithm       | SM-2 (custom, pure TS)        |
