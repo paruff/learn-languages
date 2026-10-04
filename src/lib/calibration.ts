@@ -1,3 +1,5 @@
+import { readJson, writeItem } from './storage';
+
 interface LastGrade {
   quality: number;
   date: string;
@@ -35,26 +37,25 @@ export function recordGradeForCalibration(
   date: string
 ): boolean {
   const key = lastGradeKey(sourceLang, targetLang, direction, itemId);
-  const prevRaw = window.localStorage.getItem(key);
-  let broke = false;
-  if (prevRaw) {
-    const prev = JSON.parse(prevRaw) as LastGrade;
-    broke = prev.quality >= CONFIDENT_THRESHOLD && quality < CONFIDENT_THRESHOLD;
-  }
-  window.localStorage.setItem(key, JSON.stringify({ quality, date } satisfies LastGrade));
+  const prev = readJson<LastGrade>(key);
+  const broke =
+    typeof prev?.quality === 'number' &&
+    prev.quality >= CONFIDENT_THRESHOLD &&
+    quality < CONFIDENT_THRESHOLD;
+  writeItem(key, JSON.stringify({ quality, date } satisfies LastGrade));
 
   if (broke) {
     const log = loadBreakDates(sourceLang, targetLang);
     log.push(date);
-    window.localStorage.setItem(breakLogKey(sourceLang, targetLang), JSON.stringify(log));
+    writeItem(breakLogKey(sourceLang, targetLang), JSON.stringify(log));
   }
 
   return broke;
 }
 
 export function loadBreakDates(sourceLang: string, targetLang: string): string[] {
-  const raw = window.localStorage.getItem(breakLogKey(sourceLang, targetLang));
-  return raw ? (JSON.parse(raw) as string[]) : [];
+  const log = readJson<unknown>(breakLogKey(sourceLang, targetLang));
+  return Array.isArray(log) ? log.filter((d): d is string => typeof d === 'string') : [];
 }
 
 /** Pure — counts break dates within the trailing window (default 7 days). */

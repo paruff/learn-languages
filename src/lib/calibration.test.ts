@@ -58,3 +58,14 @@ describe('countRecentBreaks', () => {
     expect(countRecentBreaks(['2026-09-13'], now, 7)).toBe(0);
   });
 });
+
+describe('calibration resilience (spec S7)', () => {
+  it('treats corrupt stored grades and logs as empty instead of throwing', () => {
+    window.localStorage.setItem('calibration-breaks:en-GB:pt-PT', 'nope');
+    window.localStorage.setItem('calibration-last-grade:en-GB:pt-PT:forward:x', 'nope');
+    expect(loadBreakDates('en-GB', 'pt-PT')).toEqual([]);
+    expect(recordGradeForCalibration('en-GB', 'pt-PT', 'forward', 'x', 1, '2026-10-04')).toBe(
+      false
+    );
+  });
+});

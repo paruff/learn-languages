@@ -1,3 +1,5 @@
+import { readItem, writeItem } from './storage';
+
 export type ReflectionResponse = 'easy' | 'had-to-think' | 'guessed';
 
 function reflectionKey(sourceLang: string, targetLang: string, date: string): string {
@@ -16,7 +18,7 @@ export function saveReflection(
   response: ReflectionResponse,
   date: string
 ): void {
-  window.localStorage.setItem(reflectionKey(sourceLang, targetLang, date), response);
+  writeItem(reflectionKey(sourceLang, targetLang, date), response);
 }
 
 export function loadReflection(
@@ -24,6 +26,6 @@ export function loadReflection(
   targetLang: string,
   date: string
 ): ReflectionResponse | null {
-  const raw = window.localStorage.getItem(reflectionKey(sourceLang, targetLang, date));
+  const raw = readItem(reflectionKey(sourceLang, targetLang, date));
   return raw === 'easy' || raw === 'had-to-think' || raw === 'guessed' ? raw : null;
 }
