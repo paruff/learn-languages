@@ -67,6 +67,15 @@ export type StringKey =
   | 'progressAllMastered'
   | 'progressNextUp'
   | 'progressCalibration'
+  | 'backupTitle'
+  | 'backupHint'
+  | 'backupExport'
+  | 'backupImport'
+  | 'backupImported'
+  | 'backupImportFailed'
+  | 'notFoundTitle'
+  | 'notFoundBody'
+  | 'notFoundHome'
   | 'itemSingular'
   | 'itemPlural'
   | 'cardSingular'
@@ -132,6 +141,16 @@ const EN_GB: Dictionary = {
   progressNoContent: 'No content available for this pair yet.',
   progressAllMastered: 'All available content mastered — nice work.',
   progressNextUp: 'Next up: {canDo} ({level})',
+  backupTitle: 'Back up your progress',
+  backupHint:
+    'Your progress lives only in this browser. Save a backup file before clearing browser data or switching devices.',
+  backupExport: 'Download backup',
+  backupImport: 'Restore from backup',
+  backupImported: 'Restored {n} saved items.',
+  backupImportFailed: "That file isn't an Acquira backup — nothing was changed.",
+  notFoundTitle: 'Page not found',
+  notFoundBody: "That page doesn't exist — the link may be out of date.",
+  notFoundHome: 'Back to Acquira',
   progressCalibration:
     'Calibration check: {n} {itemWord} you rated confidently needed a re-grade of Again/Hard within the last week.',
   itemSingular: 'item',
@@ -199,6 +218,16 @@ const ES_ES: Dictionary = {
   progressNoContent: 'Todavía no hay contenido disponible para este par.',
   progressAllMastered: 'Todo el contenido disponible está dominado — ¡buen trabajo!',
   progressNextUp: 'Siguiente: {canDo} ({level})',
+  backupTitle: 'Guarda una copia de tu progreso',
+  backupHint:
+    'Tu progreso solo se guarda en este navegador. Descarga una copia antes de borrar los datos del navegador o cambiar de dispositivo.',
+  backupExport: 'Descargar copia',
+  backupImport: 'Restaurar copia',
+  backupImported: 'Se restauraron {n} elementos guardados.',
+  backupImportFailed: 'Ese archivo no es una copia de Acquira; no se ha cambiado nada.',
+  notFoundTitle: 'Página no encontrada',
+  notFoundBody: 'Esa página no existe; es posible que el enlace esté desactualizado.',
+  notFoundHome: 'Volver a Acquira',
   progressCalibration:
     'Aviso de calibración: {n} {itemWord} que calificaste con confianza necesitaron una recalificación de Otra vez/Difícil en la última semana.',
   itemSingular: 'elemento',
@@ -265,6 +294,16 @@ const PT_PT: Dictionary = {
   progressNoContent: 'Ainda não há conteúdo disponível para este par.',
   progressAllMastered: 'Todo o conteúdo disponível está dominado — bom trabalho.',
   progressNextUp: 'A seguir: {canDo} ({level})',
+  backupTitle: 'Faça uma cópia do seu progresso',
+  backupHint:
+    'O seu progresso fica guardado apenas neste navegador. Transfira uma cópia antes de limpar os dados do navegador ou mudar de dispositivo.',
+  backupExport: 'Transferir cópia',
+  backupImport: 'Restaurar cópia',
+  backupImported: 'Foram restaurados {n} itens guardados.',
+  backupImportFailed: 'Esse ficheiro não é uma cópia do Acquira — nada foi alterado.',
+  notFoundTitle: 'Página não encontrada',
+  notFoundBody: 'Essa página não existe — a ligação pode estar desatualizada.',
+  notFoundHome: 'Voltar ao Acquira',
   progressCalibration:
     'Aviso de calibração: {n} {itemWord} que classificou com confiança precisaram de uma reclassificação de Outra vez/Difícil na última semana.',
   itemSingular: 'item',
@@ -331,6 +370,16 @@ const DE_DE: Dictionary = {
   progressNoContent: 'Für dieses Sprachenpaar sind noch keine Inhalte verfügbar.',
   progressAllMastered: 'Aller verfügbarer Inhalt beherrscht — gute Arbeit.',
   progressNextUp: 'Als Nächstes: {canDo} ({level})',
+  backupTitle: 'Fortschritt sichern',
+  backupHint:
+    'Dein Fortschritt wird nur in diesem Browser gespeichert. Lade eine Sicherung herunter, bevor du Browserdaten löschst oder das Gerät wechselst.',
+  backupExport: 'Sicherung herunterladen',
+  backupImport: 'Sicherung wiederherstellen',
+  backupImported: '{n} gespeicherte Einträge wiederhergestellt.',
+  backupImportFailed: 'Diese Datei ist keine Acquira-Sicherung – es wurde nichts geändert.',
+  notFoundTitle: 'Seite nicht gefunden',
+  notFoundBody: 'Diese Seite existiert nicht – der Link ist möglicherweise veraltet.',
+  notFoundHome: 'Zurück zu Acquira',
   progressCalibration:
     'Kalibrierungshinweis: {n} {itemWord}, die Sie selbstbewusst bewertet haben, mussten in der letzten Woche mit Nochmal/Schwer neu bewertet werden.',
   itemSingular: 'Element',
@@ -398,6 +447,16 @@ const FR_FR: Dictionary = {
   progressNoContent: "Aucun contenu disponible pour cette paire pour l'instant.",
   progressAllMastered: 'Tout le contenu disponible est maîtrisé — bon travail.',
   progressNextUp: 'À suivre : {canDo} ({level})',
+  backupTitle: 'Sauvegardez votre progression',
+  backupHint:
+    'Votre progression est enregistrée uniquement dans ce navigateur. Téléchargez une sauvegarde avant d’effacer les données du navigateur ou de changer d’appareil.',
+  backupExport: 'Télécharger la sauvegarde',
+  backupImport: 'Restaurer une sauvegarde',
+  backupImported: '{n} éléments enregistrés restaurés.',
+  backupImportFailed: 'Ce fichier n’est pas une sauvegarde Acquira : rien n’a été modifié.',
+  notFoundTitle: 'Page introuvable',
+  notFoundBody: 'Cette page n’existe pas : le lien est peut-être obsolète.',
+  notFoundHome: 'Retour à Acquira',
   progressCalibration:
     'Vérification de calibrage : {n} {itemWord} que vous avez évalué(s) avec confiance ont nécessité une réévaluation Encore/Difficile au cours de la dernière semaine.',
   itemSingular: 'élément',

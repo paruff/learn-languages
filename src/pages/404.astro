@@ -1,0 +1,16 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../lib/urls';
+import { getString } from '../lib/strings';
+
+// GitHub Pages serves dist/404.html for any unknown path. Without this the
+// learner lands on GitHub's own 404 with no way back into the app (#28-style
+// friction). Static, so it can't know the learner's source language: en-GB.
+const sourceLang = 'en-GB';
+---
+
+<BaseLayout title="Page not found — Acquira">
+  <h1>{getString(sourceLang, 'notFoundTitle')}</h1>
+  <p>{getString(sourceLang, 'notFoundBody')}</p>
+  <p><a class="btn" href={withBase('/')}>{getString(sourceLang, 'notFoundHome')}</a></p>
+</BaseLayout>

@@ -41,8 +41,23 @@ const targetName = languageName(targetLang);
 >
   <h1>{getString(sourceLang, 'progressTitle')}</h1>
   <div id="progress-levels"></div>
-  <p id="progress-next" class="card"></p>
+  <p id="progress-next" class="card" hidden></p>
   <p id="progress-calibration" class="card" hidden></p>
+
+  <section class="card backup" id="backup" aria-labelledby="backup-title" hidden>
+    <h2 id="backup-title">{getString(sourceLang, 'backupTitle')}</h2>
+    <p>{getString(sourceLang, 'backupHint')}</p>
+    <div class="backup__actions">
+      <button type="button" class="btn" id="backup-export"
+        >{getString(sourceLang, 'backupExport')}</button
+      >
+      <label class="btn backup__import">
+        {getString(sourceLang, 'backupImport')}
+        <input type="file" id="backup-import" accept="application/json,.json" />
+      </label>
+    </div>
+    <p id="backup-status" role="status" aria-live="polite"></p>
+  </section>
 
   <script
     type="application/json"
@@ -55,6 +70,24 @@ const targetName = languageName(targetLang);
   .progress-level {
     margin-bottom: calc(var(--spacing-unit) * 2);
   }
+  .backup__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-unit);
+  }
+  .backup__import {
+    position: relative;
+  }
+  .backup__import input {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .backup__import:focus-within {
+    outline: 2px solid var(--color-focus);
+    outline-offset: 2px;
+  }
   .progress-level__label {
     display: flex;
     justify-content: space-between;
@@ -64,7 +97,7 @@ const targetName = languageName(targetLang);
 </style>
 
 <script>
-  import { loadState } from '../../../lib/storage';
+  import { loadState, exportProgress, importProgress } from '../../../lib/storage';
   import { computeCefrProgress, type TrackedItem } from '../../../lib/progress';
   import { loadBreakDates, countRecentBreaks } from '../../../lib/calibration';
   import { getString, format } from '../../../lib/strings';
@@ -115,6 +148,11 @@ const targetName = languageName(targetLang);
       })
     : getString(sourceLang, 'progressAllMastered');
 
+  // Revealed in the same task that renders the levels above them, so they
+  // never shift after first paint (CLS) and stay hidden when JS is unavailable.
+  nextEl.hidden = false;
+  document.getElementById('backup')!.hidden = false;
+
   // Calibration signal (issue #46) — the book's "fluency illusion" warning:
   // learners are poor judges of their own mastery. Surfaces how often a
   // confident Good/Easy grade was followed by a struggling Again/Hard grade
@@ -128,4 +166,33 @@ const targetName = languageName(targetLang);
       itemWord: getString(sourceLang, recentBreaks === 1 ? 'itemSingular' : 'itemPlural'),
     });
   }
+
+  // Backup/restore (spec S5) — progress lives only in localStorage, so this is
+  // the learner's only protection against clearing browser data.
+  document.getElementById('backup-export')?.addEventListener('click', () => {
+    const blob = new Blob([JSON.stringify(exportProgress(), null, 2)], {
+      type: 'application/json',
+    });
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = `acquira-backup-${new Date().toISOString().slice(0, 10)}.json`;
+    link.click();
+    URL.revokeObjectURL(link.href);
+  });
+
+  const statusEl = document.getElementById('backup-status')!;
+  document.getElementById('backup-import')?.addEventListener('change', async (event) => {
+    const input = event.currentTarget as HTMLInputElement;
+    const file = input.files?.[0];
+    if (!file) return;
+    const result = importProgress(await file.text());
+    input.value = '';
+    if (!result.ok) {
+      statusEl.textContent = getString(sourceLang, 'backupImportFailed');
+      return;
+    }
+    statusEl.textContent = format(getString(sourceLang, 'backupImported'), { n: result.count });
+    // Re-render levels/next-up from the restored state.
+    setTimeout(() => window.location.reload(), 1200);
+  });
 </script>
