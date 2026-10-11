@@ -21,6 +21,7 @@ const {
   targetLang = 'pt-PT',
 } = Astro.props;
 const availablePairs = await getAvailablePairs();
+const fontUrl = withBase('/fonts/fraunces-latin-opsz144-wght600-700.woff2');
 ---
 
 <!doctype html>
@@ -29,23 +30,15 @@ const availablePairs = await getAvailablePairs();
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- Fetched without blocking render (media="print" until loaded), then
-         swapped to apply — a plain `rel="stylesheet"` here is a render-blocking
-         request that cost ~1.8s of Lighthouse performance score. -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@144,600;144,700&display=swap"
-      media="print"
-      onload="this.media='all'"
-    />
-    <noscript>
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@144,600;144,700&display=swap"
-      />
-    </noscript>
+    <!-- Self-hosted (spec S3): loading from Google Fonts sent every visitor's
+         IP to Google. One variable latin-subset file covers 600-700 and every
+         character pt/es/de/fr need. Inline @font-face (not global.css) so the
+         URL honours the site base path. -->
+    <link rel="preload" href={fontUrl} as="font" type="font/woff2" crossorigin />
+    <style
+      is:inline
+      set:html={`@font-face{font-family:'Fraunces';font-style:normal;font-weight:600 700;font-display:swap;src:url('${fontUrl}') format('woff2');}`}
+    ></style>
     <title>{title}</title>
     <slot name="head" />
   </head>
@@ -88,5 +81,10 @@ const availablePairs = await getAvailablePairs();
       <p class="footer__text">{getString(sourceLang, 'footer')}</p>
     </footer>
     <slot name="scripts" />
+    <script is:inline define:vars={{ swUrl: withBase('/sw.js'), swScope: withBase('/') }}>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register(swUrl, { scope: swScope }).catch(() => {}); // offline support is an enhancement; the app works without it
+      }
+    </script>
   </body>
 </html>

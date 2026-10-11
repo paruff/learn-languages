@@ -28,6 +28,9 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - run: npm run validate:content
+      # Runtime/build deps only: dev-only advisories (e.g. braces via
+      # eslint-plugin-astro, no fixed version yet) don't reach the shipped site.
+      - run: npm audit --omit=dev --audit-level=high
 
   typecheck:
     name: TypeCheck

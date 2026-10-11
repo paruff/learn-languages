@@ -69,3 +69,11 @@ For a `passage`-type exercise (issue #125 — comprehensible-input reading/liste
 1. Confirm the CEFR reference document per the table above (or research and add a new row, following the same "confirm access, extract real structure, document it" discipline used for pt-PT and es-ES).
 2. For any new concept needing an image: search Wikimedia Commons/Openverse with a license filter, verify pedagogical clarity, add a `CREDITS.md` row before referencing it from any realisation.
 3. Prefer reusing an existing `public/vocab-images/` file over sourcing a new one whenever the concept is language-independent.
+
+## Fonts
+
+| Font                                                                              | Licence                                               | Files                                                   |
+| --------------------------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------- |
+| Fraunces (Undercase Type, via Google Fonts; latin subset, opsz 144, wght 600–700) | SIL Open Font License 1.1, see `public/fonts/OFL.txt` | `public/fonts/fraunces-latin-opsz144-wght600-700.woff2` |
+
+Self-hosted rather than loaded from Google Fonts so visitors make no third-party requests (spec S3).
