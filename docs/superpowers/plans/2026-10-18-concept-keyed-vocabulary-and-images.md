@@ -92,7 +92,7 @@ Add a **"Background only (do not cite as justification)"** section after Tier 2:
   - Revise C7 to "Images are keyed by concept: one per concept, optional per-target-language override for culturally specific concepts; each has alt text and attribution in `src/content/concept-images.yaml`, shown on the in-app credits page". Status → 🟡.
   - Add ⬜ rows **L13** (opt-in picture-prompt cards: image only, produce the target term; RHM, with the Carpenter & Olson caution), **L14** (false-friend/cognate notes shown when the source language is not English; Ringbom 2007), **L15** (grammar points may carry a contrastive note keyed by source language; Norris & Ortega 2000).
   - Add an open question: "L13: does the picture-prompt mode raise the calibration-flag rate (L5) for image cards? Needs S6."
-- [ ] **Step 3: plan.md.** Add a "Now (bug and compliance, rule 3)" table linking this plan's Phases 0/A/B. Add L15 to Phase 2 as part of row 2.4, and L13 as row 2.7 (after 2.1). Add L14 and the L13 calibration check to Phase 3. Bump "Last updated".
+- [ ] **Step 3: plan.md.** Add a "Now (bug and compliance, rule 3)" table linking this plan's Phases 0/A/B (issues #139–#141, epic #148) and a Phase D row for #142/#143 recording the owner decision of 2026-10-18 as an explicit exception to rule 1. Add L15 to Phase 2 as part of row 2.4, and L13 as row 2.7 (after 2.1). Add L14 and the L13 calibration check to Phase 3. Bump "Last updated".
 - [ ] **Step 4: Verify** `npx prettier --check docs spec.md plan.md`.
 - [ ] **Step 5: Commit** `docs(research): add bilingual-lexicon, transfer and explicit-instruction evidence; UG as background only`.
 
