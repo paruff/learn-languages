@@ -18,7 +18,7 @@ vocabulary:
     example: 'No tengo dinero conmigo.'
     exampleTranslation: 'I do not have money with me.'
     imageUrl: 'dinheiro.webp'
-    imageAlt: 'Euro banknotes and coins spread out'
+    imageAlt: 'A black wallet with a banknote and coins beside it'
   - id: es-ES-A1-SHOP-001-003
     term: 'precio'
     translation: 'price'
