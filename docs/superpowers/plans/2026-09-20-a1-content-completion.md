@@ -27,6 +27,7 @@
 ## File Map
 
 ### Existing files to modify
+
 - `docs/cefr-mapping.md` — update coverage table after each phase
 
 ### Files to create (26 total)
