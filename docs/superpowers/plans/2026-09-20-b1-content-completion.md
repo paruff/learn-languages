@@ -30,10 +30,12 @@
 ### Task 0.1: Create B1-SOCIAL-001 CEFR node + pt-PT realisation
 
 **Files:**
+
 - Create: `src/content/cefr-nodes/b1-social-001.yaml`
 - Create: `src/content/realisations/pt-PT/b1-social-001.yaml`
 
 **Interfaces:**
+
 - Produces: `B1-SOCIAL-001` node referenced by pt-PT realisation
 
 - [ ] **Step 1: Create CEFR node file**
@@ -42,9 +44,9 @@
 nodeId: B1-SOCIAL-001
 cefrLevel: B1
 skill: spoken_interaction
-canDo: "Can handle most social situations while travelling in Portugal"
-pragmaticFocus: "Social register management"
-notionalFocus: "Travel, social encounters"
+canDo: 'Can handle most social situations while travelling in Portugal'
+pragmaticFocus: 'Social register management'
+notionalFocus: 'Travel, social encounters'
 relatedNodes:
   - B1-SOCIAL-002
   - A1-GREET-001
@@ -59,66 +61,66 @@ nodeId: B1-SOCIAL-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-B1-SOCIAL-001-001
-    term: "Desculpe, pode ajudar-me?"
-    translation: "Excuse me, can you help me?"
+    term: 'Desculpe, pode ajudar-me?'
+    translation: 'Excuse me, can you help me?'
     partOfSpeech: phrase
     gender: n/a
-    example: "Desculpe, pode ajudar-me a encontrar o metro?"
-    exampleTranslation: "Excuse me, can you help me find the metro?"
+    example: 'Desculpe, pode ajudar-me a encontrar o metro?'
+    exampleTranslation: 'Excuse me, can you help me find the metro?'
   - id: pt-PT-B1-SOCIAL-001-002
-    term: "Com licença"
-    translation: "Pardon me"
+    term: 'Com licença'
+    translation: 'Pardon me'
     partOfSpeech: phrase
     gender: n/a
-    example: "Com licença, onde fica a estação de comboios?"
-    exampleTranslation: "Pardon me, where is the train station?"
+    example: 'Com licença, onde fica a estação de comboios?'
+    exampleTranslation: 'Pardon me, where is the train station?'
   - id: pt-PT-B1-SOCIAL-001-003
-    term: "falar sobre"
-    translation: "to talk about"
+    term: 'falar sobre'
+    translation: 'to talk about'
     partOfSpeech: verb
     gender: n/a
-    example: "Gostava de falar sobre a cultura portuguesa."
-    exampleTranslation: "I would like to talk about Portuguese culture."
+    example: 'Gostava de falar sobre a cultura portuguesa.'
+    exampleTranslation: 'I would like to talk about Portuguese culture.'
   - id: pt-PT-B1-SOCIAL-001-004
-    term: "a conversa foi interesting"
-    translation: "the conversation was interesting"
+    term: 'a conversa foi interesting'
+    translation: 'the conversation was interesting'
     partOfSpeech: phrase
     gender: n/a
-    example: "A conversa foi muito interessante, obrigado."
-    exampleTranslation: "The conversation was very interesting, thank you."
+    example: 'A conversa foi muito interessante, obrigado.'
+    exampleTranslation: 'The conversation was very interesting, thank you.'
   - id: pt-PT-B1-SOCIAL-001-005
-    term: "na minha experiência"
-    translation: "in my experience"
+    term: 'na minha experiência'
+    translation: 'in my experience'
     partOfSpeech: phrase
     gender: n/a
-    example: "Na minha experiência, os portugueses são muito simpáticos."
-    exampleTranslation: "In my experience, Portuguese people are very friendly."
+    example: 'Na minha experiência, os portugueses são muito simpáticos.'
+    exampleTranslation: 'In my experience, Portuguese people are very friendly.'
   - id: pt-PT-B1-SOCIAL-001-006
-    term: "depende das circunstâncias"
-    translation: "it depends on the circumstances"
+    term: 'depende das circunstâncias'
+    translation: 'it depends on the circumstances'
     partOfSpeech: phrase
     gender: n/a
-    example: "Depende das circunstâncias, mas normalmente ajudo."
-    exampleTranslation: "It depends on the circumstances, but I usually help."
+    example: 'Depende das circunstâncias, mas normalmente ajudo.'
+    exampleTranslation: 'It depends on the circumstances, but I usually help.'
 grammar:
   - id: B1-GRAMMAR-001
-    point: "Polite request structures with modal verbs"
+    point: 'Polite request structures with modal verbs'
     explanation: "Using 'poderia', 'gostaria de', 'pode' for polite requests beyond simple imperative"
     examples:
-      - pt: "Poderia ajudar-me?"
-        en: "Could you help me?"
-      - pt: "Gostaria de saber mais."
-        en: "I would like to know more."
-    cefrNotes: "B1 learners expand from simple imperative (ajuda-me) to polite modal constructions"
+      - pt: 'Poderia ajudar-me?'
+        en: 'Could you help me?'
+      - pt: 'Gostaria de saber mais.'
+        en: 'I would like to know more.'
+    cefrNotes: 'B1 learners expand from simple imperative (ajuda-me) to polite modal constructions'
   - id: B1-GRAMMAR-002
-    point: "Complex connectors: além disso, no entanto"
-    explanation: "Using connectors beyond e, mas, porque to structure extended speech"
+    point: 'Complex connectors: além disso, no entanto'
+    explanation: 'Using connectors beyond e, mas, porque to structure extended speech'
     examples:
-      - pt: "Além disso, a cultura portuguesa é muito rica."
-        en: "Furthermore, Portuguese culture is very rich."
-      - pt: "No entanto, às vezes é difícil encontrar ajuda."
-        en: "However, sometimes it is difficult to find help."
-    cefrNotes: "B1 introduces discourse connectors for extended discourse organisation"
+      - pt: 'Além disso, a cultura portuguesa é muito rica.'
+        en: 'Furthermore, Portuguese culture is very rich.'
+      - pt: 'No entanto, às vezes é difícil encontrar ajuda.'
+        en: 'However, sometimes it is difficult to find help.'
+    cefrNotes: 'B1 introduces discourse connectors for extended discourse organisation'
 culturalNotes: "Portuguese people are generally helpful to tourists. Starting with 'Desculpe' (excuse me) or 'Com licença' (pardon me) is essential for polite interaction. Direct eye contact and a smile are appreciated."
 ```
 
@@ -139,9 +141,11 @@ git commit -m "content(b1): add B1-SOCIAL-001 node + pt-PT realisation"
 ### Task 0.2: Create en-GB realisation for B1-SOCIAL-001
 
 **Files:**
+
 - Create: `src/content/realisations/en-GB/b1-social-001.yaml`
 
 **Interfaces:**
+
 - Produces: Paired en-GB realisation matching B1-SOCIAL-001 pt-PT vocabulary sequence
 
 - [ ] **Step 1: Create en-GB realisation**
@@ -151,66 +155,66 @@ nodeId: B1-SOCIAL-001
 lang: en-GB
 vocabulary:
   - id: en-GB-B1-SOCIAL-001-001
-    term: "Excuse me, can you help me?"
-    translation: "Desculpe, pode ajudar-me?"
+    term: 'Excuse me, can you help me?'
+    translation: 'Desculpe, pode ajudar-me?'
     partOfSpeech: phrase
     gender: n/a
-    example: "Excuse me, can you help me find the metro?"
-    exampleTranslation: "Desculpe, pode ajudar-me a encontrar o metro?"
+    example: 'Excuse me, can you help me find the metro?'
+    exampleTranslation: 'Desculpe, pode ajudar-me a encontrar o metro?'
   - id: en-GB-B1-SOCIAL-001-002
-    term: "Pardon me"
-    translation: "Com licença"
+    term: 'Pardon me'
+    translation: 'Com licença'
     partOfSpeech: phrase
     gender: n/a
-    example: "Pardon me, where is the train station?"
-    exampleTranslation: "Com licença, onde fica a estação de comboios?"
+    example: 'Pardon me, where is the train station?'
+    exampleTranslation: 'Com licença, onde fica a estação de comboios?'
   - id: en-GB-B1-SOCIAL-001-003
-    term: "to talk about"
-    translation: "falar sobre"
+    term: 'to talk about'
+    translation: 'falar sobre'
     partOfSpeech: verb
     gender: n/a
-    example: "I would like to talk about Portuguese culture."
-    exampleTranslation: "Gostava de falar sobre a cultura portuguesa."
+    example: 'I would like to talk about Portuguese culture.'
+    exampleTranslation: 'Gostava de falar sobre a cultura portuguesa.'
   - id: en-GB-B1-SOCIAL-001-004
-    term: "the conversation was interesting"
-    translation: "a conversa foi interessante"
+    term: 'the conversation was interesting'
+    translation: 'a conversa foi interessante'
     partOfSpeech: phrase
     gender: n/a
-    example: "The conversation was very interesting, thank you."
-    exampleTranslation: "A conversa foi muito interessante, obrigado."
+    example: 'The conversation was very interesting, thank you.'
+    exampleTranslation: 'A conversa foi muito interessante, obrigado.'
   - id: en-GB-B1-SOCIAL-001-005
-    term: "in my experience"
-    translation: "na minha experiência"
+    term: 'in my experience'
+    translation: 'na minha experiência'
     partOfSpeech: phrase
     gender: n/a
-    example: "In my experience, Portuguese people are very friendly."
-    exampleTranslation: "Na minha experiência, os portugueses são muito simpáticos."
+    example: 'In my experience, Portuguese people are very friendly.'
+    exampleTranslation: 'Na minha experiência, os portugueses são muito simpáticos.'
   - id: en-GB-B1-SOCIAL-001-006
-    term: "it depends on the circumstances"
-    translation: "depende das circunstâncias"
+    term: 'it depends on the circumstances'
+    translation: 'depende das circunstâncias'
     partOfSpeech: phrase
     gender: n/a
-    example: "It depends on the circumstances, but I usually help."
-    exampleTranslation: "Depende das circunstâncias, mas normalmente ajudo."
+    example: 'It depends on the circumstances, but I usually help.'
+    exampleTranslation: 'Depende das circunstâncias, mas normalmente ajudo.'
 grammar:
   - id: B1-GRAMMAR-001
-    point: "Polite request structures with modal verbs"
+    point: 'Polite request structures with modal verbs'
     explanation: "Using 'poderia', 'gostaria de', 'pode' for polite requests beyond simple imperative"
     examples:
-      - pt: "Poderia ajudar-me?"
-        en: "Could you help me?"
-      - pt: "Gostaria de saber mais."
-        en: "I would like to know more."
-    cefrNotes: "B1 learners expand from simple imperative (ajuda-me) to polite modal constructions"
+      - pt: 'Poderia ajudar-me?'
+        en: 'Could you help me?'
+      - pt: 'Gostaria de saber mais.'
+        en: 'I would like to know more.'
+    cefrNotes: 'B1 learners expand from simple imperative (ajuda-me) to polite modal constructions'
   - id: B1-GRAMMAR-002
-    point: "Complex connectors: além disso, no entanto"
-    explanation: "Using connectors beyond e, mas, porque to structure extended speech"
+    point: 'Complex connectors: além disso, no entanto'
+    explanation: 'Using connectors beyond e, mas, porque to structure extended speech'
     examples:
-      - pt: "Além disso, a cultura portuguesa é muito rica."
-        en: "Furthermore, Portuguese culture is very rich."
-      - pt: "No entanto, às vezes é difícil encontrar ajuda."
-        en: "However, sometimes it is difficult to find help."
-    cefrNotes: "B1 introduces discourse connectors for extended discourse organisation"
+      - pt: 'Além disso, a cultura portuguesa é muito rica.'
+        en: 'Furthermore, Portuguese culture is very rich.'
+      - pt: 'No entanto, às vezes é difícil encontrar ajuda.'
+        en: 'However, sometimes it is difficult to find help.'
+    cefrNotes: 'B1 introduces discourse connectors for extended discourse organisation'
 culturalNotes: "In British English, politeness is expressed through indirect questions and hedging. 'Would you mind helping me?' is more common than direct requests. 'Sorry to bother you' serves a similar function to Portuguese 'Desculpe'."
 ```
 
@@ -238,6 +242,7 @@ git commit -m "content(b1): add B1-SOCIAL-001 en-GB realisation"
 ### Task 1.1: Create B1-SOCIAL-002/003/004 nodes + pt-PT realisations
 
 **Files:**
+
 - Create: `src/content/cefr-nodes/b1-social-002.yaml`
 - Create: `src/content/cefr-nodes/b1-social-003.yaml`
 - Create: `src/content/cefr-nodes/b1-social-004.yaml`
@@ -277,6 +282,7 @@ git commit -m "content(b1): add B1-SOCIAL-002/003/004 nodes + pt-PT realisations
 ### Task 1.2: Create B1-SOCIAL-002/003/004 en-GB realisations
 
 **Files:**
+
 - Create: `src/content/realisations/en-GB/b1-social-002.yaml`
 - Create: `src/content/realisations/en-GB/b1-social-003.yaml`
 - Create: `src/content/realisations/en-GB/b1-social-004.yaml`
@@ -303,6 +309,7 @@ git commit -m "content(b1): add B1-SOCIAL-002/003/004 en-GB realisations"
 ### Task 2.1: Create B1-OPINION-001/002/003/004 nodes + pt-PT realisations
 
 **Files:**
+
 - Create: `src/content/cefr-nodes/b1-opinion-001.yaml` through `b1-opinion-004.yaml`
 - Create: `src/content/realisations/pt-PT/b1-opinion-001.yaml` through `b1-opinion-004.yaml`
 
@@ -361,6 +368,7 @@ git commit -m "content(b1): add B1-OPINION-001/002/003/004 en-GB realisations"
 ### Task 3.1: Create B1-DISCOURSE-001/002/003/004/005 nodes + pt-PT realisations
 
 **Files:**
+
 - Create: `src/content/cefr-nodes/b1-discourse-001.yaml` through `b1-discourse-005.yaml`
 - Create: `src/content/realisations/pt-PT/b1-discourse-001.yaml` through `b1-discourse-005.yaml`
 
@@ -423,6 +431,7 @@ git commit -m "content(b1): add B1-DISCOURSE-001/002/003/004/005 en-GB realisati
 ### Task 4.1: Create B1-TEXT-001/002/003/004/005 nodes + pt-PT realisations
 
 **Files:**
+
 - Create: `src/content/cefr-nodes/b1-text-001.yaml` through `b1-text-005.yaml`
 - Create: `src/content/realisations/pt-PT/b1-text-001.yaml` through `b1-text-005.yaml`
 
@@ -485,6 +494,7 @@ git commit -m "content(b1): add B1-TEXT-001/002/003/004/005 en-GB realisations"
 ### Task 5.1: Update CEFR mapping with B1 section
 
 **Files:**
+
 - Modify: `docs/cefr-mapping.md`
 
 - [ ] **Step 1: Add B1 nodes table**
@@ -548,4 +558,4 @@ Expected: All pass (review session dynamic total)
 
 ---
 
-*Plan written for learn-languages Epic #52. Execute via superpowers:executing-plans or superpowers:subagent-driven-development.*
+_Plan written for learn-languages Epic #52. Execute via superpowers:executing-plans or superpowers:subagent-driven-development._

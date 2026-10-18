@@ -32,6 +32,7 @@ Establish the A2 baseline with one node and paired realisations.
 ### Task 0.1: Create A2-JOB-001 CEFR node
 
 **Files:**
+
 - Create: `src/content/cefr-nodes/a2-job-001.yaml`
 
 - [ ] **Step 1: Create node YAML**
@@ -65,6 +66,7 @@ git commit -m "content(cefr): add A2-JOB-001 node"
 ### Task 0.2: Create A2-JOB-001 pt-PT realisation
 
 **Files:**
+
 - Create: `src/content/realisations/pt-PT/a2-job-001.yaml`
 
 - [ ] **Step 1: Create pt-PT realisation**
@@ -73,7 +75,7 @@ git commit -m "content(cefr): add A2-JOB-001 node"
 id: pt-A2-JOB-001
 nodeId: A2-JOB-001
 lang: pt-PT
-title: "Descrever o meu emprego"
+title: 'Descrever o meu emprego'
 overview: >
   Aprenderes descrevem o seu emprego, local de trabalho e horários
   usando o presente do indicativo e conectores básicos.
@@ -148,6 +150,7 @@ git commit -m "content(vocab): add A2-JOB-001 pt-PT realisation"
 ### Task 0.3: Create A2-JOB-001 en-GB realisation
 
 **Files:**
+
 - Create: `src/content/realisations/en-GB/a2-job-001.yaml`
 
 - [ ] **Step 1: Create en-GB realisation**
@@ -156,7 +159,7 @@ git commit -m "content(vocab): add A2-JOB-001 pt-PT realisation"
 id: en-A2-JOB-001
 nodeId: A2-JOB-001
 lang: en-GB
-title: "Describing my job"
+title: 'Describing my job'
 overview: >
   Learners describe their job, workplace, and working hours using
   present tense and basic connectors.
@@ -235,6 +238,7 @@ git commit -m "content(vocab): add A2-JOB-001 en-GB realisation"
 ### Task 1.1: Create A2-JOB-002 node + realisations
 
 **Files:**
+
 - Create: `src/content/cefr-nodes/a2-job-002.yaml`
 - Create: `src/content/realisations/pt-PT/a2-job-002.yaml`
 - Create: `src/content/realisations/en-GB/a2-job-002.yaml`
@@ -261,7 +265,7 @@ prerequisiteNodes:
 id: pt-A2-JOB-002
 nodeId: A2-JOB-002
 lang: pt-PT
-title: "Falar das rotinas de trabalho"
+title: 'Falar das rotinas de trabalho'
 overview: >
   Aprenderes descrevem as suas rotinas diárias de trabalho,
   incluindo tarefas e interações com colegas.
@@ -327,7 +331,7 @@ culturalNotes:
 id: en-A2-JOB-002
 nodeId: A2-JOB-002
 lang: en-GB
-title: "Talking about work routines"
+title: 'Talking about work routines'
 overview: >
   Learners describe their daily work routines, including tasks
   and interactions with colleagues.
@@ -402,6 +406,7 @@ git commit -m "content(vocab): add A2-JOB-002 node + realisations"
 ### Task 1.2: Create A2-JOB-003 node + realisations
 
 **Files:**
+
 - Create: `src/content/cefr-nodes/a2-job-003.yaml`
 - Create: `src/content/realisations/pt-PT/a2-job-003.yaml`
 - Create: `src/content/realisations/en-GB/a2-job-003.yaml`
@@ -428,7 +433,7 @@ prerequisiteNodes:
 id: pt-A2-JOB-003
 nodeId: A2-JOB-003
 lang: pt-PT
-title: "Compreender anúncios de emprego"
+title: 'Compreender anúncios de emprego'
 overview: >
   Aprenderes leem e compreendem anúncios simples de emprego,
   identificando requisitos e condições de trabalho.
@@ -494,7 +499,7 @@ culturalNotes:
 id: en-A2-JOB-003
 nodeId: A2-JOB-003
 lang: en-GB
-title: "Understanding job advertisements"
+title: 'Understanding job advertisements'
 overview: >
   Learners read and understand simple job advertisements,
   identifying requirements and working conditions.
@@ -569,6 +574,7 @@ git commit -m "content(vocab): add A2-JOB-003 node + realisations"
 ### Task 1.3: Create A2-STUDY-001 node + realisations
 
 **Files:**
+
 - Create: `src/content/cefr-nodes/a2-study-001.yaml`
 - Create: `src/content/realisations/pt-PT/a2-study-001.yaml`
 - Create: `src/content/realisations/en-GB/a2-study-001.yaml`
@@ -595,7 +601,7 @@ prerequisiteNodes:
 id: pt-A2-STUDY-001
 nodeId: A2-STUDY-001
 lang: pt-PT
-title: "Descrever os meus estudos"
+title: 'Descrever os meus estudos'
 overview: >
   Aprenderes descrevem a sua formação académica e qualificações,
   usando o presente do indicativo e conectores.
@@ -661,7 +667,7 @@ culturalNotes:
 id: en-A2-STUDY-001
 nodeId: A2-STUDY-001
 lang: en-GB
-title: "Describing my studies"
+title: 'Describing my studies'
 overview: >
   Learners describe their educational background and qualifications
   using present tense and connectors.
@@ -738,17 +744,21 @@ git commit -m "content(vocab): add A2-STUDY-001 node + realisations"
 ## Phase 2: Studies & Past/Present — A2-STUDY-002/003, A2-PAST-001
 
 ### Task 2.1: Create A2-STUDY-002 node + realisations
+
 ### Task 2.2: Create A2-STUDY-003 node + realisations
+
 ### Task 2.3: Create A2-PAST-001 node + realisations (pretérito perfeito introduction)
 
 **Pattern:** Follow same structure as Phase 1 tasks. Each task creates node + pt-PT + en-GB realisations with 6 vocabulary items, grammar points, and cultural notes.
 
 **Key vocabulary for Phase 2:**
+
 - A2-STUDY-002: escola, professor, materia, qualidade, secundário, licenciatura
 - A2-STUDY-003: artigo, research, universidade, publicação, académico, revista
 - A2-PAST-001: ontem, semana passada, ano passado, visitar, comer, viajar
 
 **Key grammar for Phase 2:**
+
 - A2-PAST-001: Pretérito perfeito (visitou, comeu, viajou)
 
 ---
@@ -756,15 +766,19 @@ git commit -m "content(vocab): add A2-STUDY-001 node + realisations"
 ## Phase 3: Past/Present (continued) — A2-PAST-002/003/004
 
 ### Task 3.1: Create A2-PAST-002 node + realisations (changes over time)
+
 ### Task 3.2: Create A2-PAST-003 node + realisations (past narratives)
+
 ### Task 3.3: Create A2-PAST-004 node + realisations (past vs present comparison)
 
 **Key vocabulary for Phase 3:**
+
 - A2-PAST-002: antes, agora, mudou, cresceu, construiu, transformou
 - A2-PAST-003: história, aconteceu, quando era criança, lembro-me, naquela época
 - A2-PAST-004: antigamente, atualmente, comparação, mais fácil, mais difícil, diferente
 
 **Key grammar for Phase 3:**
+
 - A2-PAST-002/003: Pretérito perfeito continued
 - A2-PAST-004: Comparisons (mais...que, menos...que)
 
@@ -773,13 +787,19 @@ git commit -m "content(vocab): add A2-STUDY-001 node + realisations"
 ## Phase 4: Recent Habits & News — A2-HABIT-001/002/003, A2-NEWS-001/002/003
 
 ### Task 4.1: Create A2-HABIT-001 node + realisations (recent habit changes)
+
 ### Task 4.2: Create A2-HABIT-002 node + realisations (recent activities)
+
 ### Task 4.3: Create A2-HABIT-003 node + realisations (recent news understanding)
+
 ### Task 4.4: Create A2-NEWS-001 node + realisations (news articles)
+
 ### Task 4.5: Create A2-NEWS-002 node + realisations (media events)
+
 ### Task 4.6: Create A2-NEWS-003 node + realisations (opinions about news)
 
 **Key vocabulary for Phase 4:**
+
 - A2-HABIT-001: recentemente, ultimamente, mudei, comecei a, parei de, agora
 - A2-HABIT-002: esta semana, ontem, hoje, ainda, temporada, actividades
 - A2-HABIT-003: notícia, imprensa, televisão, jornal, artigo, reportagem
@@ -788,6 +808,7 @@ git commit -m "content(vocab): add A2-STUDY-001 node + realisations"
 - A2-NEWS-003: acho que, na minha opinião, parece-me, importante, concordo, discordo
 
 **Key grammar for Phase 4:**
+
 - A2-HABIT-001/002: Presente do indicativo with recent change markers
 - A2-NEWS-003: Opinion expressions (acho que, na minha opinião)
 
@@ -796,17 +817,22 @@ git commit -m "content(vocab): add A2-STUDY-001 node + realisations"
 ## Phase 5: Citizenship & Culture — A2-CULT-001/002/003, A2-HEALTH-001
 
 ### Task 5.1: Create A2-CULT-001 node + realisations (cultural events)
+
 ### Task 5.2: Create A2-CULT-002 node + realisations (cultural aspects)
+
 ### Task 5.3: Create A2-CULT-003 node + realisations (cultural opinions)
+
 ### Task 5.4: Create A2-HEALTH-001 node + realisations (health descriptions)
 
 **Key vocabulary for Phase 5:**
+
 - A2-CULT-001: festival, tradição, celebração, música, dança, festa
 - A2-CULT-002: cultura, costume, diferentes, país, pueblo, região
 - A2-CULT-003: acho que, gosto de, parece-me interessante, importante, valorizar
 - A2-HEALTH-001: médico, doença, dor, receita, farmácia, consulta
 
 **Key grammar for Phase 5:**
+
 - A2-CULT-003: Opinion expressions continued
 - A2-HEALTH-001: Describing symptoms (tenho dor de..., sinto-me...)
 
@@ -817,15 +843,15 @@ git commit -m "content(vocab): add A2-STUDY-001 node + realisations"
 After all phases complete:
 
 - [ ] Run: `npm run validate:content`
-  Expected: 74+ realisations (34 A1 + 40 A2) all valid
+      Expected: 74+ realisations (34 A1 + 40 A2) all valid
 - [ ] Run: `npm run typecheck`
-  Expected: 0 errors
+      Expected: 0 errors
 - [ ] Run: `npm run lint`
-  Expected: 0 errors, 0 warnings
+      Expected: 0 errors, 0 warnings
 - [ ] Run: `npm run build`
-  Expected: Build succeeds (more pages than before)
+      Expected: Build succeeds (more pages than before)
 - [ ] Run: `npm test`
-  Expected: 52+ tests pass
+      Expected: 52+ tests pass
 - [ ] Update `docs/cefr-mapping.md` with all A2 nodes
 - [ ] Commit: `content(cefr): complete A2 CEFR inventory — 20 nodes, 40 realisations`
 - [ ] Push and create PR

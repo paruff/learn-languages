@@ -9,7 +9,7 @@ vocabulary:
     example: 'Tenho dor de cabeça.'
     exampleTranslation: 'I have a headache.'
     imageUrl: 'cabeca.webp'
-    imageAlt: "A close-up portrait of a young boy's face"
+    imageAlt: "Side view of a man's whole head and neck"
   - id: pt-PT-A1-BODY-001-002
     term: 'mão'
     translation: 'hand'
