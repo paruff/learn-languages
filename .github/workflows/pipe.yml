@@ -12,7 +12,9 @@ permissions:
   pages: write
 
 env:
-  NODE_VERSION: '22.14.0'
+  # Major-only pin: tracks 26.x patches (and the move to LTS). Keep in step with
+  # package.json engines and .devcontainer/Dockerfile.
+  NODE_VERSION: '26'
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
 
