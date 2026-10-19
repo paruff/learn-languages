@@ -13,6 +13,7 @@ describe('languageName', () => {
   it('resolves a language not yet used by any content (readiness for "any language")', () => {
     expect(languageName('es-ES')).toBe('Spanish');
     expect(languageName('de-DE')).toBe('German');
+    expect(languageName('it-IT')).toBe('Italian');
     expect(languageName('ja-JP')).toBe('Japanese');
   });
 
