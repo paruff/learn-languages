@@ -505,6 +505,47 @@ All 20 B2 `cefr-nodes/` are language-agnostic Can-Do statements — 18 pre-exist
 
 B2 Coverage: 20/20 nodes fully realised (100%).
 
+## C2 descriptor extraction (#111–#112)
+
+**Source verification (#111):** the French C2 scale was mapped to the same Council-of-Europe-aligned descriptor set used for the earlier levels, with the same `pdftotext -layout` extraction discipline and no new source taxonomy. The C2 inventory is the highest CEFR layer in the project, and reused the language-agnostic `cefr-nodes/` set already present in the repository.
+
+All 20 C2 `cefr-nodes/` are language-agnostic Can-Do statements, and the paired en-GB/fr-FR realisations were authored to complete the French coverage set.
+
+| nodeId              | Skill              | Can-Do                                                                                                         | Status      |
+| ------------------- | ------------------ | -------------------------------------------------------------------------------------------------------------- | ----------- |
+| C2-ACADEMIC-001     | writing            | Can express themselves clearly and fluently on complex subjects with coherent, convincing text                 | ✅ Realised |
+| C2-ACADEMIC-002     | spoken_production  | Can present clear, detailed and accurate descriptions of complex subjects                                      | ✅ Realised |
+| C2-ARGUE-001        | writing            | Can select an appropriate formulation from a broad range of language                                           | ✅ Realised |
+| C2-ARGUE-002        | spoken_interaction | Can take an active part in discussion in all registers and construct a chain of reasoning                      | ✅ Realised |
+| C2-LITERARY-001     | reading            | Can read and appreciate complex literary texts, poetry and opinion pieces                                      | ✅ Realised |
+| C2-LITERARY-002     | writing            | Can write with precision and subtlety to convey an intended effect on the reader                               | ✅ Realised |
+| C2-MEDIATION-001    | spoken_interaction | Can act as an effective intermediary, simplifying the message and resolving misunderstandings                  | ✅ Realised |
+| C2-MEDIATION-002    | reading            | Can understand all forms of written language including abstract and complex texts                              | ✅ Realised |
+| C2-MODALITY-001     | spoken_interaction | Can express themselves spontaneously, very fluently and precisely                                              | ✅ Realised |
+| C2-MODALITY-002     | spoken_production  | Can present a clear, smoothly flowing description or argument in an appropriate style                          | ✅ Realised |
+| C2-MODALITY-003     | listening          | Can understand any kind of spoken language even at fast native speed                                           | ✅ Realised |
+| C2-MODALITY-004     | reading            | Can understand virtually everything heard or read and summarise from different sources                         | ✅ Realised |
+| C2-MODALITY-005     | writing            | Can write clear, smoothly flowing text on a complex subject                                                    | ✅ Realised |
+| C2-NUANCE-001       | spoken_interaction | Can express themselves clearly and precisely, differentiating finer shades of meaning                          | ✅ Realised |
+| C2-PROFESSIONAL-001 | writing            | Can write an excellent, well-structured summary of complex factual material                                    | ✅ Realised |
+| C2-PROFESSIONAL-002 | spoken_interaction | Can express themselves fluently, spontaneously and precisely with near-native command of vocabulary and syntax | ✅ Realised |
+| C2-SOCIAL-001       | spoken_interaction | Can interact with native speakers with fluency, spontaneity and precision                                      | ✅ Realised |
+| C2-SUMMARY-001      | writing            | Can summarise information and arguments from extended spoken and written sources                               | ✅ Realised |
+| C2-WRITTEN-001      | writing            | Can write clear, detailed and well-structured texts developing arguments and hypotheses                        | ✅ Realised |
+| C2-WRITTEN-002      | writing            | Can write with precision and subtlety, conveying an intended effect on the reader                              | ✅ Realised |
+
+C2 Coverage: 20/20 nodes fully realised (100%).
+
+### C2 skill distribution
+
+| Skill              | Count | Nodes                                                                                               |
+| ------------------ | ----- | --------------------------------------------------------------------------------------------------- |
+| spoken_interaction | 6     | MODALITY-001/003, ARGUE-002, NUANCE-001, PROFESSIONAL-002, MEDIATION-001, SOCIAL-001                |
+| spoken_production  | 2     | MODALITY-002, ACADEMIC-002                                                                          |
+| writing            | 8     | MODALITY-005, SUMMARY-001, ARGUE-001, PROFESSIONAL-001, LITERARY-002, ACADEMIC-001, WRITTEN-001/002 |
+| reading            | 3     | MODALITY-004, LITERARY-001, MEDIATION-002                                                           |
+| listening          | 1     | MODALITY-003                                                                                        |
+
 ## Sourcing note
 
 No new vocabulary images were sourced — `A1-NUMB-001`'s `imageUrl`s reuse the existing `um.webp`/`dois.webp`/`tres.webp` files (already credited in `public/vocab-images/CREDITS.md`), since the underlying photographs (numeral shapes) are language-independent. No images apply at A2 (no en-GB `imageUrl` fields in the A2 inventory). No images apply at B1 (no en-GB `imageUrl` fields in the B1 inventory). No images apply at B2 (no en-GB `imageUrl` fields in the B2 inventory). See `docs/content-attribution.md` (#41) for the sourcing policy this follows.
