@@ -1,0 +1,56 @@
+nodeId: A2-PAST-001
+lang: it-IT
+vocabulary:
+- id: it-IT-A2-PAST-001-001
+  concept: yesterday
+  term: ieri
+  translation: yesterday
+  partOfSpeech: adverb
+  example: Ieri sono andato al cinema.
+  exampleTranslation: Yesterday I went to the cinema.
+- id: it-IT-A2-PAST-001-002
+  concept: last-week
+  term: la settimana scorsa
+  translation: last week
+  partOfSpeech: phrase
+  example: La settimana scorsa ho viaggiato.
+  exampleTranslation: Last week I travelled.
+- id: it-IT-A2-PAST-001-003
+  concept: last-year
+  term: l’anno scorso
+  translation: last year
+  partOfSpeech: phrase
+  example: L’anno scorso ho cambiato lavoro.
+  exampleTranslation: Last year I changed jobs.
+- id: it-IT-A2-PAST-001-004
+  concept: to-visit
+  term: visitare
+  translation: to visit
+  partOfSpeech: verb
+  example: Ho visitato i miei nonni domenica.
+  exampleTranslation: I visited my grandparents on Sunday.
+- id: it-IT-A2-PAST-001-005
+  concept: to-eat
+  term: mangiare
+  translation: to eat
+  partOfSpeech: verb
+  example: Ho mangiato una pizza deliziosa.
+  exampleTranslation: I ate a delicious pizza.
+- id: it-IT-A2-PAST-001-006
+  concept: to-travel
+  term: viaggiare
+  translation: to travel
+  partOfSpeech: verb
+  example: Abbiamo viaggiato in treno.
+  exampleTranslation: We travelled by train.
+grammar:
+- id: it-IT-A2-PAST-001-G01
+  point: passato prossimo
+  explanation: Usare il passato prossimo per descrivere eventi compiuti nel passato
+    recente.
+  examples:
+  - Ho visitato i miei nonni domenica.
+  - Ho mangiato una pizza deliziosa.
+  cefrNotes: A2 learners narrate past events and experiences with common time markers.
+culturalNotes: Le descrizioni di eventi passati spesso usano marcatori temporali come
+  ieri, la settimana scorsa e l’anno scorso.

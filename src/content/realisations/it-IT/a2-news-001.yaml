@@ -1,0 +1,60 @@
+nodeId: A2-NEWS-001
+lang: it-IT
+vocabulary:
+- id: it-IT-A2-NEWS-001-001
+  concept: newspaper
+  term: giornale
+  translation: newspaper
+  partOfSpeech: noun
+  gender: masculine
+  example: Leggo il giornale ogni mattina.
+  exampleTranslation: I read the newspaper every morning.
+- id: it-IT-A2-NEWS-001-002
+  concept: magazine
+  term: rivista
+  translation: magazine
+  partOfSpeech: noun
+  gender: feminine
+  example: La rivista parla di viaggi.
+  exampleTranslation: The magazine talks about travel.
+- id: it-IT-A2-NEWS-001-003
+  concept: headline
+  term: titolo
+  translation: headline
+  partOfSpeech: noun
+  gender: masculine
+  example: Il titolo è molto importante.
+  exampleTranslation: The headline is very important.
+- id: it-IT-A2-NEWS-001-004
+  concept: author
+  term: autore
+  translation: author
+  partOfSpeech: noun
+  gender: masculine
+  example: L’autore scrive molto bene.
+  exampleTranslation: The author writes very well.
+- id: it-IT-A2-NEWS-001-005
+  concept: information
+  term: informazione
+  translation: information
+  partOfSpeech: noun
+  gender: feminine
+  example: L’informazione è chiara.
+  exampleTranslation: The information is clear.
+- id: it-IT-A2-NEWS-001-006
+  concept: to-read
+  term: leggere
+  translation: to read
+  partOfSpeech: verb
+  example: Leggo le notizie sul mio smartphone.
+  exampleTranslation: I read the news on my smartphone.
+grammar:
+- id: it-IT-A2-NEWS-001-G01
+  point: strategies per leggere le notizie
+  explanation: Capire titoli e informazioni principali in un articolo semplice.
+  examples:
+  - L’articolo parla dell’economia.
+  - Il titolo riassume l’evento.
+  cefrNotes: A2 learners scan news items for main ideas and key details.
+culturalNotes: Le notizie e i giornali locali sono una fonte importante per orientarsi
+  sui temi del giorno in Italia.

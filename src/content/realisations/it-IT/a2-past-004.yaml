@@ -1,0 +1,59 @@
+nodeId: A2-PAST-004
+lang: it-IT
+vocabulary:
+- id: it-IT-A2-PAST-004-001
+  concept: in-the-past
+  term: in passato
+  translation: in the past
+  partOfSpeech: phrase
+  example: In passato andavo a scuola a piedi.
+  exampleTranslation: In the past I walked to school.
+- id: it-IT-A2-PAST-004-002
+  concept: currently
+  term: attualmente
+  translation: currently
+  partOfSpeech: adverb
+  example: Attualmente vivo a Roma.
+  exampleTranslation: I currently live in Rome.
+- id: it-IT-A2-PAST-004-003
+  concept: to-compare
+  term: confrontare
+  translation: to compare
+  partOfSpeech: verb
+  example: Confronto la vita di allora con quella di oggi.
+  exampleTranslation: I compare life then with life now.
+- id: it-IT-A2-PAST-004-004
+  concept: easier
+  term: più facile
+  translation: easier
+  partOfSpeech: adjective
+  gender: n/a
+  example: Ora è più facile viaggiare.
+  exampleTranslation: Now it is easier to travel.
+- id: it-IT-A2-PAST-004-005
+  concept: harder
+  term: più difficile
+  translation: harder
+  partOfSpeech: adjective
+  gender: n/a
+  example: Allora era più difficile trovare lavoro.
+  exampleTranslation: Back then it was harder to find a job.
+- id: it-IT-A2-PAST-004-006
+  concept: different
+  term: diverso
+  translation: different
+  partOfSpeech: adjective
+  gender: masculine
+  example: La situazione è diversa oggi.
+  exampleTranslation: The situation is different today.
+grammar:
+- id: it-IT-A2-PAST-004-G01
+  point: confrontare passato e presente
+  explanation: Usare comparativi per mettere a confronto situazioni passate e presenti.
+  examples:
+  - In passato era più difficile viaggiare.
+  - Adesso è più facile.
+  cefrNotes: A2 learners compare past and present situations using basic comparative
+    structures.
+culturalNotes: Le differenze tra passato e presente sono un tema frequente in conversazioni
+  su istruzione, lavoro, tecnologia e qualità della vita.

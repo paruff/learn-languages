@@ -1,0 +1,56 @@
+nodeId: A2-NEWS-003
+lang: it-IT
+vocabulary:
+- id: it-IT-A2-NEWS-003-001
+  concept: i-think-that
+  term: penso che
+  translation: I think that
+  partOfSpeech: phrase
+  example: Penso che la notizia sia molto importante.
+  exampleTranslation: I think that the news is very important.
+- id: it-IT-A2-NEWS-003-002
+  concept: in-my-opinion
+  term: a mio parere
+  translation: in my opinion
+  partOfSpeech: phrase
+  example: A mio parere, la situazione è grave.
+  exampleTranslation: In my opinion, the situation is serious.
+- id: it-IT-A2-NEWS-003-003
+  concept: it-seems-to-me
+  term: mi sembra
+  translation: it seems to me
+  partOfSpeech: phrase
+  example: Mi sembra che il problema sia serio.
+  exampleTranslation: It seems to me that the problem is serious.
+- id: it-IT-A2-NEWS-003-004
+  concept: important
+  term: importante
+  translation: important
+  partOfSpeech: adjective
+  gender: n/a
+  example: È importante discutere di questi temi.
+  exampleTranslation: It is important to discuss these themes.
+- id: it-IT-A2-NEWS-003-005
+  concept: to-agree
+  term: essere d’accordo
+  translation: to agree
+  partOfSpeech: phrase
+  example: Sono d’accordo con te.
+  exampleTranslation: I agree with you.
+- id: it-IT-A2-NEWS-003-006
+  concept: to-disagree
+  term: non essere d’accordo
+  translation: to disagree
+  partOfSpeech: phrase
+  example: Non sono d’accordo con questa decisione.
+  exampleTranslation: I disagree with this decision.
+grammar:
+- id: it-IT-A2-NEWS-003-G01
+  point: esprimere opinioni su notizie
+  explanation: Usare formule semplici per dare opinioni su fatti e attualità.
+  examples:
+  - Penso che questa notizia sia molto importante.
+  - A mio parere la situazione va migliorata.
+  cefrNotes: A2 learners express basic opinions about news topics and current events.
+culturalNotes: Le opinioni sul giornale, i media e i temi dell’attualità fanno spesso
+  parte di conversazioni informali in tutte le regioni.
