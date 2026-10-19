@@ -1,0 +1,11 @@
+nodeId: C1-PROFESSIONAL-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-C1-PROFESSIONAL-001-001
+    concept: proposal-for-discussion
+    term: proposition de discussion
+    translation: proposal for discussion
+    partOfSpeech: noun
+    gender: feminine
+    example: La proposition de discussion répond aux objections du comité.
+    exampleTranslation: The proposal for discussion earned careful analysis.

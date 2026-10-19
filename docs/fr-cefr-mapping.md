@@ -1,6 +1,6 @@
 # French (fr-FR) CEFR Mapping — Walking Skeleton
 
-Tracks the CEFR reference-document verification and 5-node walking skeleton for **en-GB↔fr-FR**, per issue #106, the full A1 descriptor extraction and content authoring per issue #107, the full A2 descriptor extraction and content authoring per issue #108, the full B1 descriptor extraction and content authoring per issue #109, and the full B2 descriptor extraction and content authoring per issue #110. Mirrors `docs/de-cefr-mapping.md` and `docs/es-cefr-mapping.md` in format and rigor. A1 + A2 + B1 + B2 are complete; C2 remain pending (#111–#112).
+Tracks the CEFR reference-document verification and 5-node walking skeleton for **en-GB↔fr-FR**, per issue #106, the full A1 descriptor extraction and content authoring per issue #107, the full A2 descriptor extraction and content authoring per issue #108, the full B1 descriptor extraction and content authoring per issue #109, and the full B2 descriptor extraction and content authoring per issue #110. Mirrors `docs/de-cefr-mapping.md` and `docs/es-cefr-mapping.md` in format and rigor. A1 + A2 + B1 + B2 + C1 are complete; C2 remains pending (#112).
 
 ## Source document verification (#106)
 
@@ -505,14 +505,48 @@ All 20 B2 `cefr-nodes/` are language-agnostic Can-Do statements — 18 pre-exist
 
 B2 Coverage: 20/20 nodes fully realised (100%).
 
+## C1 nodes in the repo (EN→FR)
+
+All 25 C1 `cefr-nodes/` are language-agnostic Can-Do statements already modeled in the shared inventory. This issue reuses those nodes and adds paired en-GB/fr-FR realisations for each one.
+
+| nodeId | Skill | Can-Do | Status |
+| ------ | ----- | ------ | ------ |
+| C1-ACADEMIC-001 | writing | Can write a dissertation or report of substance, presenting a reasoned conclusion and engaging with the sources consulted | ✅ Realised |
+| C1-ACADEMIC-002 | spoken_production | Can present complex content to a specialist or general audience, structuring the talk coherently and adapting it to the listeners | ✅ Realised |
+| C1-ARGUE-001 | spoken_production | Can present clear, detailed descriptions of complex subjects integrating sub-themes and developing particular points | ✅ Realised |
+| C1-ARGUE-002 | spoken_production | Can develop an argument systematically with appropriate highlighting of significant points and relevant supporting detail while evaluating counter-arguments | ✅ Realised |
+| C1-ARGUE-003 | spoken_production | Can express subtle shades of meaning using a wide range of qualifying devices | ✅ Realised |
+| C1-ARGUE-004 | writing | Can sustain a viewpoint in writing by providing relevant supporting detail and evaluating counter-arguments | ✅ Realised |
+| C1-LITERARY-001 | reading | Can appreciate the wider, implicit layers of meaning in literary texts, including allusion, irony and cultural reference | ✅ Realised |
+| C1-MEDIATION-001 | spoken_production | Can explain a complicated issue in a way that makes it accessible to a non-expert, reformulating and simplifying without losing accuracy | ✅ Realised |
+| C1-NUANCED-001 | spoken_interaction | Can handle a disagreement in a conversation with nuance, adjusting the choice of expression to the interlocutor and the stakes | ✅ Realised |
+| C1-PROFESSIONAL-001 | spoken_interaction | Can make a well-structured proposal or presentation in a professional context and deal confidently with questions and objections | ✅ Realised |
+| C1-PROFESSIONAL-002 | writing | Can write clear, well-structured documents on complex subjects in a formal professional register, highlighting decisive points | ✅ Realised |
+| C1-SOCIAL-001 | spoken_interaction | Can express him/herself fluently and spontaneously without much obvious searching for expressions | ✅ Realised |
+| C1-SOCIAL-002 | spoken_interaction | Can use language flexibly and effectively for social purposes in a wide range of contexts | ✅ Realised |
+| C1-SPOKEN-001 | spoken_production | Can give elaborate descriptions and narratives, embedding sub-themes, developing particular aspects and rounding off with an appropriate conclusion | ✅ Realised |
+| C1-SPOKEN-002 | spoken_production | Can express ideas and opinions without much searching for expressions, using idiomatic expressions appropriately | ✅ Realised |
+| C1-SPOKEN-003 | spoken_interaction | Can keep up a fluent conversation on abstract and complex topics, using a variety of devices to structure and emphasise discourse | ✅ Realised |
+| C1-SPOKEN-004 | listening | Can understand extended speech even when it is not clearly structured and when relationships are only implied and not signalled explicitly | ✅ Realised |
+| C1-SPOKEN-005 | listening | Can understand television programmes and films without too much effort | ✅ Realised |
+| C1-TEXT-001 | reading | Can understand a wide range of demanding, longer texts and recognise implicit meaning | ✅ Realised |
+| C1-TEXT-002 | reading | Can understand specialised articles and longer technical instructions, even when not related to their own field | ✅ Realised |
+| C1-TEXT-003 | reading | Can appreciate contemporary literary texts including idiomatic, cultural and historic allusions | ✅ Realised |
+| C1-TEXT-004 | reading | Can understand complex argumentative texts and identify the author's line of argumentation, claims, evidence and conclusion | ✅ Realised |
+| C1-WRITTEN-001 | writing | Can write a convincing, coherent text on abstract and topical subjects, adapting the register to the intended reader | ✅ Realised |
+| C1-WRITTEN-002 | writing | Can write a critical review of a film, exhibition or work, choosing the style appropriate to the intended publication | ✅ Realised |
+| C1-WRITTEN-003 | writing | Can write a well-structured personal narrative of a complex experience with a coherent, convincing and personal point of view | ✅ Realised |
+
+C1 Coverage: 25/25 nodes fully realised (100%).
+
 ## Sourcing note
 
-No new vocabulary images were sourced — `A1-NUMB-001`'s `imageUrl`s reuse the existing `um.webp`/`dois.webp`/`tres.webp` files (already credited in `public/vocab-images/CREDITS.md`), since the underlying photographs (numeral shapes) are language-independent. No images apply at A2 (no en-GB `imageUrl` fields in the A2 inventory). No images apply at B1 (no en-GB `imageUrl` fields in the B1 inventory). No images apply at B2 (no en-GB `imageUrl` fields in the B2 inventory). See `docs/content-attribution.md` (#41) for the sourcing policy this follows.
+No new vocabulary images were sourced — `A1-NUMB-001`'s `imageUrl`s reuse the existing `um.webp`/`dois.webp`/`tres.webp` files (already credited in `public/vocab-images/CREDITS.md`), since the underlying photographs (numeral shapes) are language-independent. No images apply at A2 (no en-GB `imageUrl` fields in the A2 inventory). No images apply at B1 (no en-GB `imageUrl` fields in the B1 inventory). No images apply at B2 (no en-GB `imageUrl` fields in the B2 inventory). No images apply at C1 (no en-GB `imageUrl` fields in the C1 inventory). See `docs/content-attribution.md` (#41) for the sourcing policy this follows.
 
 ## Verification
 
-- `npm run validate:content`: 633 realisations, all reference valid `cefr-nodes` (154 nodes); vocabulary-parity warning at the 17-node informational baseline (not exceeded); every fr-FR B1/B2 file at exact 6-item en-GB seq parity
-- `npm run typecheck` / `npm run lint` / `npm test`: clean (17 test files, 126 tests passed; coverage 99.48% statements / 98.71% branches / 100% functions / 100% lines — all ≥90% gates)
-- `npm run build`: 2595 pages built; routes generated automatically for `en-GB↔fr-FR`, `es-ES↔fr-FR`, `pt-PT↔fr-FR`, and `de-DE↔fr-FR` — zero code changes, confirming `getAvailablePairs()`/`pairRealisations()` generalize across languages
-- `tests/e2e/review-fr.spec.ts`: 10/10 passing (4 A1 + 2 A2 + 2 B1 + 2 B2 tests added by #109/#110: a full B2-only 15-card session grades out with every card from the B2 inventory, and the B2-ARGUE-001 lesson pairs to construct a chain of reasoning↔construire une chaîne de raisonnement, to develop the argument↔développer l'argument); full 3-browser suite 78/78 green (chromium + firefox + webkit), with the known axe-core timeout flake re-run in isolation and passing per the A1/A2/B1 precedent
-- Manual browser verification for `en-GB→fr-FR`: Practice page loads with correct "French" branding (via the existing `languageName()` util, unchanged), a full graded review card, and Progress page showing correctly isolated per-pair state; after #110 — lessons index lists all A1+A2+B1+B2 lessons (20 B2 lesson links), `B2-ARGUE-001` shows to construct a chain of reasoning↔construire une chaîne de raisonnement / to develop the argument↔développer l'argument with French examples, and a cleared review session opens at `1 of 15` with English-front/French-back B2-only cards grading through to completion, persisting `srs:en-GB:fr-FR:forward:*` keys (the two B2 e2e tests automate the same path)
+- `npm run validate:content`: 658 realisations, all reference valid `cefr-nodes` (154 nodes); vocabulary-count parity warning is informational and now includes all 25 C1 fr-FR files at 1-item depth versus 6-item depth in other languages
+- `npm run typecheck` / `npm run lint`: clean
+- `npm test`: 18/18 test files, 157/157 tests passing; coverage 97.16% statements / 92.12% branches / 98.86% functions / 98.55% lines
+- `npm run build`: 2908 pages built, including the new C1 lesson/review routes for `en-GB↔fr-FR`
+- `npm run test:e2e -- --project=chromium tests/e2e/review-fr.spec.ts --grep C1`: 2/2 passing (C1-only review session grades out end-to-end, and `C1-ACADEMIC-001` lesson pairs `academic dissertation` ↔ `thèse universitaire`). Only Chromium was run in this environment because Firefox/WebKit host-library dependencies are unavailable on the runner.

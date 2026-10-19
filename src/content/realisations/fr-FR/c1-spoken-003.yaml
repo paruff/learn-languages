@@ -1,0 +1,11 @@
+nodeId: C1-SPOKEN-003
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-C1-SPOKEN-003-001
+    concept: to-hit-the-nail-on-the-head
+    term: mettre le doigt sur le problème
+    translation: to hit the nail on the head
+    partOfSpeech: phrase
+    gender: n/a
+    example: Elle a su mettre le doigt sur le problème principal.
+    exampleTranslation: With that question, he hit the nail on the head of the debate.

@@ -1,0 +1,11 @@
+nodeId: C1-SPOKEN-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-C1-SPOKEN-001-001
+    concept: detailed-narrative
+    term: récit détaillé
+    translation: detailed narrative
+    partOfSpeech: noun
+    gender: masculine
+    example: Son récit détaillé intègre des sous-thèmes et une conclusion.
+    exampleTranslation: The detailed narrative of the journey delighted the guests.

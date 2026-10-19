@@ -1,0 +1,11 @@
+nodeId: C1-LITERARY-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-C1-LITERARY-001-001
+    concept: layers-of-meaning
+    term: niveaux implicites de sens
+    translation: layers of meaning
+    partOfSpeech: noun
+    gender: masculine
+    example: Ce roman révèle plusieurs niveaux implicites de sens.
+    exampleTranslation: The poem reveals layers of meaning with every re-reading.
