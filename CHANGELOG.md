@@ -12,7 +12,7 @@ First tagged release. Captures everything shipped since the repository was creat
 ### Added
 
 - Review loop with active recall (prompt → attempt → reveal → self-grade) and SM-2 spaced repetition, scoped per language pair and direction.
-- Five languages (en-GB, pt-PT, es-ES, de-DE, fr-FR), each usable as source or target; CEFR A1–C2 content for pt-PT, es-ES and de-DE, and A1–B2 for fr-FR.
+- Five languages (en-GB, pt-PT, es-ES, de-DE, fr-FR), each usable as source or target; CEFR A1–C2 content for pt-PT, es-ES and de-DE, and A1–B2 content for fr-FR with C1/C2 still pending behind the retention gate.
 - Learning-science features: interleaved review queue (#44), opt-in typed recall (#45), calibration feedback (#46), post-session reflection (#89), vocabulary images (#34, #35), and lesson exercises.
 - Offline use: a service worker caches pages and assets after the first online visit (spec Q7).
 - Progress backup: download and restore learner progress as a JSON file from the progress page (spec S5).

@@ -11,7 +11,7 @@
 ## Where we are
 
 - The core learning loop is shipped and tested: retrieval, spacing, interleaving, typed recall, calibration, reflection and exercises (spec §2 mostly ✅).
-- Coverage reality: pt-PT/es-ES/de-DE are A1–C2, fr-FR is A1–B2, and every supported language works as source or target (spec C4/C5).
+- Coverage reality: pt-PT/es-ES/de-DE are A1–C2, fr-FR is A1–B2 with C1/C2 lower-priority pending, and every supported language works as source or target (spec C4/C5).
 - **Primary gate remains #21**: no major net-new content expansion should start before real learner retention evidence (intent S1/S2).
 
 ## Now: alignment + issue hygiene + retention gate

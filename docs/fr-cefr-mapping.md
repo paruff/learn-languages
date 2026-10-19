@@ -1,6 +1,6 @@
 # French (fr-FR) CEFR Mapping — Walking Skeleton
 
-Tracks the CEFR reference-document verification and 5-node walking skeleton for **en-GB↔fr-FR**, per issue #106, the full A1 descriptor extraction and content authoring per issue #107, the full A2 descriptor extraction and content authoring per issue #108, the full B1 descriptor extraction and content authoring per issue #109, and the full B2 descriptor extraction and content authoring per issue #110. Mirrors `docs/de-cefr-mapping.md` and `docs/es-cefr-mapping.md` in format and rigor. A1 + A2 + B1 + B2 + C1 are complete; C2 remains pending (#112).
+Tracks the CEFR reference-document verification and 5-node walking skeleton for **en-GB↔fr-FR**, per issue #106, the full A1 descriptor extraction and content authoring per issue #107, the full A2 descriptor extraction and content authoring per issue #108, the full B1 descriptor extraction and content authoring per issue #109, and the full B2 descriptor extraction and content authoring per issue #110. Mirrors `docs/de-cefr-mapping.md` and `docs/es-cefr-mapping.md` in format and rigor. A1 + A2 + B1 + B2 are complete; C1 + C2 remain pending and lower priority unless retention evidence justifies the advanced-level spend (#111, #112).
 
 ## Source document verification (#106)
 
