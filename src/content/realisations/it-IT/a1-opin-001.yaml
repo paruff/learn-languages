@@ -1,0 +1,55 @@
+nodeId: A1-OPIN-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A1-OPIN-001-001
+    concept: i-think-that
+    term: penso che
+    translation: I think that...
+    partOfSpeech: phrase
+    example: Penso che sia molto bello.
+    exampleTranslation: I think that is good.
+  - id: it-IT-A1-OPIN-001-002
+    concept: i-like
+    term: mi piace
+    translation: I like...
+    partOfSpeech: phrase
+    example: Mi piace il cinema.
+    exampleTranslation: I like chocolate.
+  - id: it-IT-A1-OPIN-001-003
+    concept: i-don-t-like
+    term: non mi piace
+    translation: I don't like...
+    partOfSpeech: phrase
+    example: Non mi piace il caffè amaro.
+    exampleTranslation: I don't like soup.
+  - id: it-IT-A1-OPIN-001-004
+    concept: good
+    term: buono
+    translation: good
+    partOfSpeech: adjective
+    gender: masculine
+    example: Il cibo è molto buono.
+    exampleTranslation: That is very good.
+  - id: it-IT-A1-OPIN-001-005
+    concept: bad
+    term: cattivo
+    translation: bad
+    partOfSpeech: adjective
+    gender: masculine
+    example: Il tempo è cattivo oggi.
+    exampleTranslation: The weather is bad.
+  - id: it-IT-A1-OPIN-001-006
+    concept: fond-of
+    term: appassionato di
+    translation: fond of
+    partOfSpeech: phrase
+    example: Sono appassionato di musica.
+    exampleTranslation: I like reading.
+  - concept: in-my-opinion
+    term: Secondo me
+    translation: In my opinion...
+    partOfSpeech: phrase
+    example: Secondo me, Roma è bellissima.
+    exampleTranslation: In my opinion, Rome is beautiful.
+    id: it-IT-A1-OPIN-001-007
+grammar: []

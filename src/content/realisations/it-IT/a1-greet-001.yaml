@@ -1,0 +1,46 @@
+nodeId: A1-GREET-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A1-GREET-001-001
+    concept: hello
+    term: ciao
+    translation: Hello
+    partOfSpeech: interjection
+    example: Ciao, come stai?
+    exampleTranslation: Hello, how are you?
+  - id: it-IT-A1-GREET-001-002
+    concept: good-morning
+    term: buongiorno
+    translation: Good morning
+    partOfSpeech: phrase
+    example: Buongiorno, signor Rossi.
+    exampleTranslation: Good morning, Mr. Schmidt.
+  - id: it-IT-A1-GREET-001-003
+    concept: good-evening
+    term: buonasera
+    translation: Good evening
+    partOfSpeech: phrase
+    example: Buonasera, signora Bianchi.
+    exampleTranslation: Good evening, ladies and gentlemen.
+  - id: it-IT-A1-GREET-001-004
+    concept: how-are-you
+    term: come stai?
+    translation: How are you?
+    partOfSpeech: phrase
+    example: Buongiorno! Come stai?
+    exampleTranslation: Good morning! How are you?
+  - id: it-IT-A1-GREET-001-005
+    concept: fine-thank-you
+    term: bene, grazie
+    translation: Fine, thank you
+    partOfSpeech: phrase
+    example: Sto bene, grazie.
+    exampleTranslation: I am fine, thank you.
+  - id: it-IT-A1-GREET-001-006
+    concept: nice-to-meet-you
+    term: piacere di conoscerti
+    translation: Nice to meet you
+    partOfSpeech: interjection
+    example: Piacere di conoscerti, mi chiamo Anna.
+    exampleTranslation: I'm Anna. Nice to meet you.
+grammar: []

@@ -1,0 +1,47 @@
+nodeId: A1-WRITE-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A1-WRITE-001-001
+    concept: dear
+    term: caro
+    translation: Dear …
+    partOfSpeech: adjective
+    gender: masculine
+    example: Caro amico, come stai?
+    exampleTranslation: Dear Claire, here is a photo of my town.
+  - id: it-IT-A1-WRITE-001-002
+    concept: here-is
+    term: ecco
+    translation: Here is…
+    partOfSpeech: phrase
+    example: Ecco la mia foto.
+    exampleTranslation: Here is my new address.
+  - id: it-IT-A1-WRITE-001-003
+    concept: i-live-in
+    term: abito a
+    translation: I live in…
+    partOfSpeech: phrase
+    example: Abito a Firenze.
+    exampleTranslation: I live in Bristol.
+  - id: it-IT-A1-WRITE-001-004
+    concept: he
+    term: lui
+    translation: He/She is … years old
+    partOfSpeech: pronoun
+    example: Lui è il mio amico.
+    exampleTranslation: She is twelve years old.
+  - id: it-IT-A1-WRITE-001-005
+    concept: see-you-soon
+    term: a presto
+    translation: See you soon
+    partOfSpeech: phrase
+    example: A presto, ci vediamo presto.
+    exampleTranslation: See you soon, see you on Sunday!
+  - id: it-IT-A1-WRITE-001-006
+    concept: best-wishes
+    term: un caro saluto
+    translation: Best wishes
+    partOfSpeech: phrase
+    example: Un caro saluto e a presto.
+    exampleTranslation: Best wishes, Anna.
+grammar: []

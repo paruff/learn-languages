@@ -1,0 +1,51 @@
+nodeId: A1-HOBBY-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A1-HOBBY-001-001
+    concept: football
+    term: calcio
+    translation: football
+    partOfSpeech: noun
+    gender: masculine
+    example: Gioco a calcio il sabato.
+    exampleTranslation: I like to play football on Sundays.
+  - id: it-IT-A1-HOBBY-001-002
+    concept: music
+    term: musica
+    translation: music
+    partOfSpeech: noun
+    gender: feminine
+    example: Ascolto musica ogni giorno.
+    exampleTranslation: She listens to music every night.
+  - id: it-IT-A1-HOBBY-001-003
+    concept: book
+    term: libro
+    translation: book
+    partOfSpeech: noun
+    gender: masculine
+    example: Leggo un libro interessante.
+    exampleTranslation: I am reading an interesting book.
+  - id: it-IT-A1-HOBBY-001-004
+    concept: cinema
+    term: cinema
+    translation: cinema
+    partOfSpeech: noun
+    gender: masculine
+    example: Vado al cinema il venerdì.
+    exampleTranslation: Shall we go to the cinema on Saturday?
+  - id: it-IT-A1-HOBBY-001-005
+    concept: beach
+    term: spiaggia
+    translation: beach
+    partOfSpeech: noun
+    gender: feminine
+    example: Mi piace andare in spiaggia.
+    exampleTranslation: In summer I go to the beach every day.
+  - id: it-IT-A1-HOBBY-001-006
+    concept: to-dance
+    term: ballare
+    translation: to dance
+    partOfSpeech: verb
+    example: Mi piace ballare con gli amici.
+    exampleTranslation: I like to dance with my friends.
+grammar: []
