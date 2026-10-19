@@ -132,15 +132,28 @@ test.describe('review session', () => {
     const front = page.locator('#review-front');
     const reveal = page.locator('#review-reveal');
     const input = page.locator('#review-type-input');
+    const grades = page.locator('#review-grades');
 
     await expect(modeToggle).toHaveText('Mode: Reveal');
     await modeToggle.click();
     await expect(modeToggle).toHaveText('Mode: Type answer');
     await modeToggle.click();
     await expect(modeToggle).toHaveText('Mode: Picture prompt');
+
+    let imageSeen = false;
+    for (let i = 0; i < 12; i++) {
+      if (await image.isVisible()) {
+        imageSeen = true;
+        break;
+      }
+      await expect(grades.locator('button[data-quality="4"]')).toBeVisible();
+      await grades.locator('button[data-quality="4"]').click();
+    }
+
+    expect(imageSeen).toBe(true);
     await expect(image).toBeVisible();
     await expect(front).toBeHidden();
-    await expect(reveal).toBeVisible();
+    await expect(reveal).toBeHidden();
     await expect(input).toBeVisible();
 
     await page.reload();

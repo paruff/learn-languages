@@ -419,9 +419,10 @@ const targetName = languageName(targetLang);
       revealBtn.hidden = true;
       typeFormEl.hidden = false;
       frontEl.hidden = false;
+      imageEl.hidden = true;
       frontEl.textContent = frontOf(item).term;
     } else if (picturePrompt) {
-      revealBtn.hidden = false;
+      revealBtn.hidden = true;
       typeFormEl.hidden = false;
       frontEl.hidden = true;
       imageEl.hidden = false;
@@ -429,6 +430,7 @@ const targetName = languageName(targetLang);
       revealBtn.hidden = false;
       typeFormEl.hidden = true;
       frontEl.hidden = false;
+      imageEl.hidden = true;
       frontEl.textContent = frontOf(item).term;
     }
   }
