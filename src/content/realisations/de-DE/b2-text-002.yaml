@@ -19,7 +19,7 @@ vocabulary:
     exampleTranslation: 'The report was very detailed.'
   - id: de-DE-B2-TEXT-002-003
     concept: 'contemporary'
-    term: 'Zeitgenössisch'
+    term: 'zeitgenössisch'
     translation: 'contemporary'
     partOfSpeech: adjective
     gender: n/a

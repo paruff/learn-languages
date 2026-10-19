@@ -43,7 +43,7 @@ vocabulary:
     exampleTranslation: 'In which field are you active?'
   - id: de-DE-B1-TEXT-003-006
     concept: 'to-check'
-    term: 'Prüfen'
+    term: 'prüfen'
     translation: 'to check / to examine'
     partOfSpeech: verb
     gender: n/a

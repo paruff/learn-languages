@@ -27,7 +27,7 @@ vocabulary:
     exampleTranslation: 'We speak about topic-related topics.'
   - id: de-DE-B2-SOCIAL-001-004
     concept: 'fluent'
-    term: 'Fließend'
+    term: 'fließend'
     translation: 'fluent'
     partOfSpeech: adjective
     gender: n/a

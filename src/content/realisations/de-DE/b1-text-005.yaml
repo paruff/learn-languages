@@ -27,7 +27,7 @@ vocabulary:
     exampleTranslation: 'My first impression was good.'
   - id: de-DE-B1-TEXT-005-004
     concept: 'to-describe'
-    term: 'Beschreiben'
+    term: 'beschreiben'
     translation: 'to describe'
     partOfSpeech: verb
     gender: n/a
