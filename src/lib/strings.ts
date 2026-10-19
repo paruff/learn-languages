@@ -15,6 +15,7 @@ export type StringKey =
   | 'navLessons'
   | 'navPractice'
   | 'navProgress'
+  | 'credits'
   | 'footer'
   | 'skillListening'
   | 'skillReading'
@@ -87,6 +88,7 @@ const EN_GB: Dictionary = {
   navLessons: 'Lessons',
   navPractice: 'Practice',
   navProgress: 'Progress',
+  credits: 'Credits',
   footer: 'Built with Astro · Deployed via GitOps · CC-BY-4.0',
   skillListening: 'listening',
   skillReading: 'reading',
@@ -163,6 +165,7 @@ const ES_ES: Dictionary = {
   navLessons: 'Lecciones',
   navPractice: 'Practicar',
   navProgress: 'Progreso',
+  credits: 'Créditos',
   footer: 'Creado con Astro · Desplegado vía GitOps · CC-BY-4.0',
   skillListening: 'comprensión auditiva',
   skillReading: 'comprensión lectora',
@@ -240,6 +243,7 @@ const PT_PT: Dictionary = {
   navLessons: 'Lições',
   navPractice: 'Praticar',
   navProgress: 'Progresso',
+  credits: 'Créditos',
   footer: 'Construído com Astro · Implementado via GitOps · CC-BY-4.0',
   skillListening: 'compreensão oral',
   skillReading: 'compreensão escrita',
@@ -316,6 +320,7 @@ const DE_DE: Dictionary = {
   navLessons: 'Lektionen',
   navPractice: 'Üben',
   navProgress: 'Fortschritt',
+  credits: 'Quellen',
   footer: 'Erstellt mit Astro · Bereitgestellt via GitOps · CC-BY-4.0',
   skillListening: 'Hören',
   skillReading: 'Lesen',
@@ -392,6 +397,7 @@ const FR_FR: Dictionary = {
   navLessons: 'Leçons',
   navPractice: "S'exercer",
   navProgress: 'Progrès',
+  credits: 'Crédits',
   footer: 'Construit avec Astro · Déployé via GitOps · CC-BY-4.0',
   skillListening: 'compréhension orale',
   skillReading: 'compréhension écrite',
