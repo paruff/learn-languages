@@ -23,7 +23,7 @@ Rules:
 - `{LEVEL}` must be one of: `A1`, `A2`, `B1`, `B2`, `C1`, `C2`
 - `nodeId` format: `{LEVEL}-{TOPIC}-{SEQ}` (example: `A1-SHOP-002`)
 - `{TOPIC}` is an uppercase domain code (for example `SHOP`, `GREET`, `INTRO`), not the `skill` field value
-- `{TOPIC}` must be uppercase letters only (no digits or hyphens); `{SEQ}` must be a zero-padded 3-digit number (`001`, `002`, ...)
+- `{TOPIC}` must be uppercase letters only (no digits or hyphens); `{SEQ}` must be exactly 3 digits (`001`, `010`, `099`, ...)
 - `cefrLevel` must match the start of `nodeId`
 
 ### 2) Author paired realisations
@@ -31,7 +31,7 @@ Create matching files in:
 - `src/content/realisations/<sourceLang>/<node-file>.yaml`
 - `src/content/realisations/<targetLang>/<node-file>.yaml`
 
-Each vocabulary item must include `concept` (kebab-case English gloss slug). Pairing is done by `nodeId + concept`, so the same concept must exist across paired languages. This is enforced by the current schema and integrity checks in `src/content.config.ts` and `npm run validate:content`.
+Each vocabulary item must include `concept` (kebab-case English gloss slug). Pairing is done by `nodeId + concept`, so the same concept must exist across paired languages. This is enforced by the integrity checks run by `npm run validate:content`.
 In the examples below, replace `<lang>` and `<nodeId>` in `id` with concrete values (for example, `pt-PT-A1-SHOP-002-001`).
 
 Example (`pt-PT`):
