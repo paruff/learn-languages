@@ -1,56 +1,60 @@
 nodeId: B1-OPINION-003
 lang: es-ES
 vocabulary:
-  - id: es-ES-B1-OPINION-003-001
-    concept: 'advantage'
-    term: 'ventaja'
-    translation: 'advantage'
+  - id: es-ES-B1-OPINION-003-007
+    concept: the-advantages-are
+    term: ventaja
+    translation: advantage / the advantages are
     partOfSpeech: noun
     gender: feminine
-    example: 'Las ventajas de este método son evidentes.'
-    exampleTranslation: 'The advantages of this method are clear.'
-  - id: es-ES-B1-OPINION-003-002
-    concept: 'disadvantage'
-    term: 'desventaja'
-    translation: 'disadvantage'
+    example: Las ventajas de este método son evidentes.
+    exampleTranslation: The advantages of this method are clear.
+  - id: es-ES-B1-OPINION-003-008
+    concept: the-disadvantages-are
+    term: desventaja
+    translation: disadvantage / the disadvantages are
     partOfSpeech: noun
     gender: feminine
-    example: 'La principal desventaja es el coste.'
-    exampleTranslation: 'The main disadvantage is the cost.'
-  - id: es-ES-B1-OPINION-003-003
-    concept: 'to-compare'
-    term: 'comparar'
-    translation: 'to compare'
+    example: La principal desventaja es el coste.
+    exampleTranslation: The main disadvantage is the cost.
+  - id: es-ES-B1-OPINION-003-009
+    concept: on-the-one-hand-on-the-other-hand
+    term: comparar
+    translation: to compare / on the one hand... on the other hand
     partOfSpeech: verb
-    example: 'Vamos a comparar las opciones disponibles.'
-    exampleTranslation: "Let's compare the available options."
-  - id: es-ES-B1-OPINION-003-004
-    concept: 'on-one-hand'
-    term: 'por una parte'
-    translation: 'on one hand'
+    example: Vamos a comparar las opciones disponibles.
+    exampleTranslation: Let's compare the available options.
+    gender: n/a
+  - id: es-ES-B1-OPINION-003-010
+    concept: a-positive-aspect
+    term: por una parte
+    translation: on one hand / a positive aspect
     partOfSpeech: phrase
-    example: 'Por una parte es barato; por otra, de baja calidad.'
-    exampleTranslation: 'On one hand it is cheap; on the other, low quality.'
-  - id: es-ES-B1-OPINION-003-005
-    concept: 'on-the-other-hand'
-    term: 'por otra parte'
-    translation: 'on the other hand'
+    example: Por una parte es barato; por otra, de baja calidad.
+    exampleTranslation: On one hand it is cheap; on the other, low quality.
+    gender: n/a
+  - id: es-ES-B1-OPINION-003-011
+    concept: a-negative-aspect
+    term: por otra parte
+    translation: on the other hand / a negative aspect
     partOfSpeech: phrase
-    example: 'Por otra parte, también hay aspectos positivos.'
-    exampleTranslation: 'On the other hand, there are also positive aspects.'
-  - id: es-ES-B1-OPINION-003-006
-    concept: 'to-assess'
-    term: 'valorar'
-    translation: 'to assess / to value'
+    example: Por otra parte, también hay aspectos positivos.
+    exampleTranslation: On the other hand, there are also positive aspects.
+    gender: n/a
+  - id: es-ES-B1-OPINION-003-012
+    concept: overall
+    term: valorar
+    translation: to assess / to value / overall
     partOfSpeech: verb
-    example: 'Hay que valorar tanto ventajas como desventajas.'
-    exampleTranslation: 'We must assess both advantages and disadvantages.'
+    example: Hay que valorar tanto ventajas como desventajas.
+    exampleTranslation: We must assess both advantages and disadvantages.
+    gender: n/a
 grammar:
   - id: es-ES-B1-OPINION-003-G1
-    point: 'Comparative structures for advantages and disadvantages'
-    explanation: "Use 'más...que' (more...than), 'menos...que' (less...than), 'tan...como' (as...as) for comparisons. Use 'por una parte...por otra' to present contrasting points."
+    point: Comparative structures for advantages and disadvantages
+    explanation: Use 'más...que' (more...than), 'menos...que' (less...than), 'tan...como' (as...as) for comparisons. Use 'por una parte...por otra' to present contrasting points.
     examples:
-      - 'La vida en la ciudad es más conveniente que en el campo.'
-      - 'Esta opción tiene tantas ventajas como desventajas.'
-    cefrNotes: 'B1 learners use comparative structures and contrastive connectors'
+      - La vida en la ciudad es más conveniente que en el campo.
+      - Esta opción tiene tantas ventajas como desventajas.
+    cefrNotes: B1 learners use comparative structures and contrastive connectors
 culturalNotes: 'Spanish argumentative writing often uses a balanced structure: presenting advantages first, then disadvantages, before reaching a conclusion. This mirrors academic conventions in Spanish-speaking countries.'

@@ -1,58 +1,60 @@
 nodeId: C1-ARGUE-003
 lang: es-ES
 vocabulary:
-  - id: es-ES-C1-ARGUE-003-001
-    concept: 'subtle-nuances'
-    term: 'matices sutiles'
-    translation: 'subtle nuances'
+  - id: es-ES-C1-ARGUE-003-007
+    concept: to-soften-a-statement
+    term: matices sutiles
+    translation: subtle nuances / to soften a statement
     partOfSpeech: phrase
     gender: masculine
-    example: 'Expreso matices sutiles con precisión.'
-    exampleTranslation: 'I express subtle nuances with precision.'
-  - id: es-ES-C1-ARGUE-003-002
-    concept: 'semantic-nuances'
-    term: 'matices semánticos'
-    translation: 'semantic nuances'
+    example: Expreso matices sutiles con precisión.
+    exampleTranslation: I express subtle nuances with precision.
+  - id: es-ES-C1-ARGUE-003-008
+    concept: to-qualify-one-s-opinion
+    term: matices semánticos
+    translation: semantic nuances / to qualify one's opinion
     partOfSpeech: phrase
     gender: masculine
-    example: 'Los matices semánticos son fundamentales en la traducción.'
-    exampleTranslation: 'Semantic nuances are fundamental in translation.'
-  - id: es-ES-C1-ARGUE-003-003
-    concept: 'to-nuance'
-    term: 'matizar'
-    translation: 'to nuance'
+    example: Los matices semánticos son fundamentales en la traducción.
+    exampleTranslation: Semantic nuances are fundamental in translation.
+  - id: es-ES-C1-ARGUE-003-009
+    concept: rhetorical-modesty
+    term: matizar
+    translation: to nuance / rhetorical modesty
     partOfSpeech: verb
-    example: 'Sé matizar mis opiniones para ser más preciso.'
-    exampleTranslation: 'I know how to nuance my opinions to be more precise.'
-  - id: es-ES-C1-ARGUE-003-004
-    concept: 'cultural-nuances'
-    term: 'matices culturales'
-    translation: 'cultural nuances'
+    example: Sé matizar mis opiniones para ser más preciso.
+    exampleTranslation: I know how to nuance my opinions to be more precise.
+    gender: n/a
+  - id: es-ES-C1-ARGUE-003-010
+    concept: to-show-reserve
+    term: matices culturales
+    translation: cultural nuances / to show reserve
     partOfSpeech: phrase
     gender: masculine
-    example: 'Los matices culturales son importantes al comunicar.'
-    exampleTranslation: 'Cultural nuances are important when communicating.'
-  - id: es-ES-C1-ARGUE-003-005
-    concept: 'linguistic-precision'
-    term: 'precisión lingüística'
-    translation: 'linguistic precision'
+    example: Los matices culturales son importantes al comunicar.
+    exampleTranslation: Cultural nuances are important when communicating.
+  - id: es-ES-C1-ARGUE-003-011
+    concept: to-guard-one-s-opinion
+    term: precisión lingüística
+    translation: linguistic precision / to guard one's opinion
     partOfSpeech: phrase
     gender: feminine
-    example: 'La precisión lingüística es clave en el nivel C1.'
-    exampleTranslation: 'Linguistic precision is key at C1 level.'
-  - id: es-ES-C1-ARGUE-003-006
-    concept: 'to-suggest'
-    term: 'sugerir'
-    translation: 'to suggest / to imply'
+    example: La precisión lingüística es clave en el nivel C1.
+    exampleTranslation: Linguistic precision is key at C1 level.
+  - id: es-ES-C1-ARGUE-003-012
+    concept: to-express-prudent-doubt
+    term: sugerir
+    translation: to suggest / to imply / to express prudent doubt
     partOfSpeech: verb
-    example: 'El autor sugiere ideas sin declararlas explícitamente.'
-    exampleTranslation: 'The author suggests ideas without declaring them explicitly.'
+    example: El autor sugiere ideas sin declararlas explícitamente.
+    exampleTranslation: The author suggests ideas without declaring them explicitly.
+    gender: n/a
 grammar:
   - id: es-ES-C1-ARGUE-003-G1
-    point: 'Subjunctive in relative clauses for qualification'
+    point: Subjunctive in relative clauses for qualification
     explanation: "Use subjunctive in relative clauses to qualify or limit: 'Busco argumentos que sustenten mi tesis' (I seek arguments that support my thesis — specific requirement)."
     examples:
-      - 'Utilizo expresiones que transmitan precisión.'
-      - 'Necesito adjetivos que matizen correctamente.'
-    cefrNotes: 'C1 learners use subjunctive in qualifying relative clauses for precise expression'
-culturalNotes: 'Expressing subtle shades of meaning at C1 level requires mastery of register, vocabulary precision, and the ability to use qualifying devices such as hedging, intensifying, and modulating language.'
+      - Utilizo expresiones que transmitan precisión.
+      - Necesito adjetivos que matizen correctamente.
+    cefrNotes: C1 learners use subjunctive in qualifying relative clauses for precise expression
+culturalNotes: Expressing subtle shades of meaning at C1 level requires mastery of register, vocabulary precision, and the ability to use qualifying devices such as hedging, intensifying, and modulating language.

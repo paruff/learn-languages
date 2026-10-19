@@ -1,60 +1,60 @@
 nodeId: C1-ACADEMIC-001
 lang: es-ES
 vocabulary:
-  - id: es-ES-C1-ACADEMIC-001-001
-    concept: 'dissertation'
-    term: 'disertación'
-    translation: 'dissertation'
+  - id: es-ES-C1-ACADEMIC-001-007
+    concept: academic-dissertation
+    term: disertación
+    translation: dissertation / academic dissertation
     partOfSpeech: noun
     gender: feminine
-    example: 'Escribí una disertación sobre la historia de España.'
-    exampleTranslation: 'I wrote a dissertation on the history of Spain.'
-  - id: es-ES-C1-ACADEMIC-001-002
-    concept: 'sources-consulted'
-    term: 'fuentes consultadas'
-    translation: 'sources consulted'
+    example: Escribí una disertación sobre la historia de España.
+    exampleTranslation: I wrote a dissertation on the history of Spain.
+  - id: es-ES-C1-ACADEMIC-001-008
+    concept: body-of-sources
+    term: fuentes consultadas
+    translation: sources consulted / body of sources
     partOfSpeech: phrase
     gender: feminine
-    example: 'Las fuentes consultadas son variadas y fiables.'
-    exampleTranslation: 'The sources consulted are varied and reliable.'
-  - id: es-ES-C1-ACADEMIC-001-003
-    concept: 'reasoned-conclusion'
-    term: 'conclusión razonada'
-    translation: 'reasoned conclusion'
+    example: Las fuentes consultadas son variadas y fiables.
+    exampleTranslation: The sources consulted are varied and reliable.
+  - id: es-ES-C1-ACADEMIC-001-009
+    concept: theoretical-framework
+    term: conclusión razonada
+    translation: reasoned conclusion / theoretical framework
     partOfSpeech: phrase
     gender: feminine
-    example: 'La conclusión razonada del informe es convincente.'
-    exampleTranslation: "The report's reasoned conclusion is convincing."
-  - id: es-ES-C1-ACADEMIC-001-004
-    concept: 'solid-argumentation'
-    term: 'argumentación sólida'
-    translation: 'solid argumentation'
+    example: La conclusión razonada del informe es convincente.
+    exampleTranslation: The report's reasoned conclusion is convincing.
+  - id: es-ES-C1-ACADEMIC-001-010
+    concept: to-gather-evidence
+    term: argumentación sólida
+    translation: solid argumentation / to gather evidence
     partOfSpeech: phrase
     gender: feminine
-    example: 'Su argumentación sólida respalda toda la tesis.'
-    exampleTranslation: 'His solid argumentation supports the entire thesis.'
-  - id: es-ES-C1-ACADEMIC-001-005
-    concept: 'exhaustive'
-    term: 'exhaustivo'
-    translation: 'exhaustive'
+    example: Su argumentación sólida respalda toda la tesis.
+    exampleTranslation: His solid argumentation supports the entire thesis.
+  - id: es-ES-C1-ACADEMIC-001-011
+    concept: to-synthesise-the-findings
+    term: exhaustivo
+    translation: exhaustive / to synthesise the findings
     partOfSpeech: adjective
     gender: masculine
-    example: 'El análisis exhaustivo cubre todos los aspectos.'
-    exampleTranslation: 'The exhaustive analysis covers all aspects.'
-  - id: es-ES-C1-ACADEMIC-001-006
-    concept: 'academic-rigour'
-    term: 'rigor académico'
-    translation: 'academic rigour'
+    example: El análisis exhaustivo cubre todos los aspectos.
+    exampleTranslation: The exhaustive analysis covers all aspects.
+  - id: es-ES-C1-ACADEMIC-001-012
+    concept: original-contribution
+    term: rigor académico
+    translation: academic rigour / original contribution
     partOfSpeech: phrase
     gender: masculine
-    example: 'El rigor académico es esencial en una disertación.'
-    exampleTranslation: 'Academic rigour is essential in a dissertation.'
+    example: El rigor académico es esencial en una disertación.
+    exampleTranslation: Academic rigour is essential in a dissertation.
 grammar:
   - id: es-ES-C1-ACADEMIC-001-G1
-    point: 'Complex conditional structures with "de haber + past participle"'
+    point: Complex conditional structures with "de haber + past participle"
     explanation: "Use perfect subjunctive in conditional structures: 'De haber consultado más fuentes, la conclusión sería diferente' (Had more sources been consulted, the conclusion would be different)."
     examples:
-      - 'De haber profundizado más, el resultado habría sido más completo.'
-      - 'De no haber sido tan exhaustivo, habría omitido detalles clave.'
-    cefrNotes: 'C1 learners use perfect subjunctive in formal academic writing'
-culturalNotes: 'Spanish academic writing at C1 level demonstrates mastery of formal register, complex sentence structures, and the ability to engage critically with sources while presenting a reasoned conclusion.'
+      - De haber profundizado más, el resultado habría sido más completo.
+      - De no haber sido tan exhaustivo, habría omitido detalles clave.
+    cefrNotes: C1 learners use perfect subjunctive in formal academic writing
+culturalNotes: Spanish academic writing at C1 level demonstrates mastery of formal register, complex sentence structures, and the ability to engage critically with sources while presenting a reasoned conclusion.

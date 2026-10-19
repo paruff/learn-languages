@@ -1,58 +1,60 @@
 nodeId: C1-NUANCED-001
 lang: es-ES
 vocabulary:
-  - id: es-ES-C1-NUANCED-001-001
-    concept: 'disagreement'
-    term: 'desacuerdo'
-    translation: 'disagreement'
+  - id: es-ES-C1-NUANCED-001-007
+    concept: delicate-disagreement
+    term: desacuerdo
+    translation: disagreement / delicate disagreement
     partOfSpeech: noun
     gender: masculine
-    example: 'Puedo manejar un desacuerdo con sutileza.'
-    exampleTranslation: 'I can handle a disagreement with nuance.'
-  - id: es-ES-C1-NUANCED-001-002
-    concept: 'to-adjust-the-expression'
-    term: 'ajustar la expresión'
-    translation: 'to adjust the expression'
+    example: Puedo manejar un desacuerdo con sutileza.
+    exampleTranslation: I can handle a disagreement with nuance.
+  - id: es-ES-C1-NUANCED-001-008
+    concept: to-fine-tune-one-s-language
+    term: ajustar la expresión
+    translation: to adjust the expression / to fine-tune one's language
     partOfSpeech: phrase
-    example: 'Sé ajustar la expresión según el interlocutor.'
-    exampleTranslation: 'I know how to adjust the expression according to the interlocutor.'
-  - id: es-ES-C1-NUANCED-001-003
-    concept: 'stakes'
-    term: 'consecuencias'
-    translation: 'stakes / consequences'
+    example: Sé ajustar la expresión según el interlocutor.
+    exampleTranslation: I know how to adjust the expression according to the interlocutor.
+    gender: n/a
+  - id: es-ES-C1-NUANCED-001-009
+    concept: to-tread-carefully
+    term: consecuencias
+    translation: stakes / consequences / to tread carefully
     partOfSpeech: noun
     gender: feminine
-    example: 'Adapto mi lenguaje según las consecuencias del tema.'
-    exampleTranslation: 'I adapt my language according to the stakes of the topic.'
-  - id: es-ES-C1-NUANCED-001-004
-    concept: 'delicacy'
-    term: 'delicadeza'
-    translation: 'delicacy'
+    example: Adapto mi lenguaje según las consecuencias del tema.
+    exampleTranslation: I adapt my language according to the stakes of the topic.
+  - id: es-ES-C1-NUANCED-001-010
+    concept: sensitive-matter
+    term: delicadeza
+    translation: delicacy / sensitive matter
     partOfSpeech: noun
     gender: feminine
-    example: 'La delicadeza es necesaria en conversaciones difíciles.'
-    exampleTranslation: 'Delicacy is necessary in difficult conversations.'
-  - id: es-ES-C1-NUANCED-001-005
-    concept: 'verbal-prudence'
-    term: 'prudencia verbal'
-    translation: 'verbal prudence'
+    example: La delicadeza es necesaria en conversaciones difíciles.
+    exampleTranslation: Delicacy is necessary in difficult conversations.
+  - id: es-ES-C1-NUANCED-001-011
+    concept: pausing-for-thought
+    term: prudencia verbal
+    translation: verbal prudence / pausing for thought
     partOfSpeech: phrase
     gender: feminine
-    example: 'La prudencia verbal evita malentendidos.'
-    exampleTranslation: 'Verbal prudence prevents misunderstandings.'
-  - id: es-ES-C1-NUANCED-001-006
-    concept: 'to-weigh-up'
-    term: 'sopesar'
-    translation: 'to weigh up'
+    example: La prudencia verbal evita malentendidos.
+    exampleTranslation: Verbal prudence prevents misunderstandings.
+  - id: es-ES-C1-NUANCED-001-012
+    concept: to-be-ill-favoured
+    term: sopesar
+    translation: to weigh up / to be ill-favoured
     partOfSpeech: verb
-    example: 'Sopeso cada palabra antes de expresar un desacuerdo.'
-    exampleTranslation: 'I weigh up every word before expressing a disagreement.'
+    example: Sopeso cada palabra antes de expresar un desacuerdo.
+    exampleTranslation: I weigh up every word before expressing a disagreement.
+    gender: n/a
 grammar:
   - id: es-ES-C1-NUANCED-001-G1
-    point: 'Conditional mood for hedged disagreement'
+    point: Conditional mood for hedged disagreement
     explanation: "Use conditional mood for hedged, nuanced disagreement: 'No estaría totalmente de acuerdo' (I wouldn't be entirely in agreement), 'Podría ser, pero...' (It could be, but...)."
     examples:
-      - 'No estaría completamente de acuerdo, sin embargo...'
-      - 'Podría ser cierto en algunos contextos, pero no en todos.'
-    cefrNotes: 'C1 learners use conditional mood for pragmatic hedging in disagreement'
-culturalNotes: 'Handling disagreement with nuance at C1 level requires the ability to adjust expression to the interlocutor and the stakes. This pragmatic competence distinguishes advanced speakers from intermediate ones.'
+      - No estaría completamente de acuerdo, sin embargo...
+      - Podría ser cierto en algunos contextos, pero no en todos.
+    cefrNotes: C1 learners use conditional mood for pragmatic hedging in disagreement
+culturalNotes: Handling disagreement with nuance at C1 level requires the ability to adjust expression to the interlocutor and the stakes. This pragmatic competence distinguishes advanced speakers from intermediate ones.

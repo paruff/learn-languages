@@ -1,57 +1,60 @@
 nodeId: B2-SOCIAL-004
 lang: es-ES
 vocabulary:
-  - id: es-ES-B2-SOCIAL-004-001
-    concept: 'to-clarify'
-    term: 'clarificar'
-    translation: 'to clarify'
+  - id: es-ES-B2-SOCIAL-004-007
+    concept: to-clarify-doubts
+    term: clarificar
+    translation: to clarify / to clarify doubts
     partOfSpeech: verb
-    example: 'Puedo clarificar mi postura sin problemas.'
-    exampleTranslation: 'I can clarify my position without problems.'
-  - id: es-ES-B2-SOCIAL-004-002
-    concept: 'detailed-view'
-    term: 'visión detallada'
-    translation: 'detailed view'
+    example: Puedo clarificar mi postura sin problemas.
+    exampleTranslation: I can clarify my position without problems.
+    gender: n/a
+  - id: es-ES-B2-SOCIAL-004-008
+    concept: to-detail-the-explanation
+    term: visión detallada
+    translation: detailed view / to detail the explanation
     partOfSpeech: phrase
     gender: feminine
-    example: 'Ofrezco una visión detallada del tema.'
-    exampleTranslation: 'I offer a detailed view of the topic.'
-  - id: es-ES-B2-SOCIAL-004-003
-    concept: 'to-explain-clearly'
-    term: 'exponer con claridad'
-    translation: 'to explain clearly'
+    example: Ofrezco una visión detallada del tema.
+    exampleTranslation: I offer a detailed view of the topic.
+  - id: es-ES-B2-SOCIAL-004-009
+    concept: to-specify-the-concept
+    term: exponer con claridad
+    translation: to explain clearly / to specify the concept
     partOfSpeech: phrase
-    example: 'Es importante exponer con claridad nuestras ideas.'
-    exampleTranslation: 'It is important to explain our ideas clearly.'
-  - id: es-ES-B2-SOCIAL-004-004
-    concept: 'precision'
-    term: 'precisión'
-    translation: 'precision'
+    example: Es importante exponer con claridad nuestras ideas.
+    exampleTranslation: It is important to explain our ideas clearly.
+    gender: n/a
+  - id: es-ES-B2-SOCIAL-004-010
+    concept: to-exemplify-with-situations
+    term: precisión
+    translation: precision / to exemplify with situations
     partOfSpeech: noun
     gender: feminine
-    example: 'Hablo con precisidad sobre temas complejos.'
-    exampleTranslation: 'I speak with precision about complex topics.'
-  - id: es-ES-B2-SOCIAL-004-005
-    concept: 'meaning'
-    term: 'sentido'
-    translation: 'meaning / sense'
+    example: Hablo con precisión sobre temas complejos.
+    exampleTranslation: I speak with precision about complex topics.
+  - id: es-ES-B2-SOCIAL-004-011
+    concept: to-reinterpret-the-idea
+    term: sentido
+    translation: meaning / sense / to reinterpret the idea
     partOfSpeech: noun
     gender: masculine
-    example: 'Quiero que quede claro el sentido de mi argumento.'
-    exampleTranslation: 'I want the meaning of my argument to be clear.'
-  - id: es-ES-B2-SOCIAL-004-006
-    concept: 'to-nuance'
-    term: 'matisar'
-    translation: 'to nuance'
+    example: Quiero que quede claro el sentido de mi argumento.
+    exampleTranslation: I want the meaning of my argument to be clear.
+  - id: es-ES-B2-SOCIAL-004-012
+    concept: to-ensure-understanding
+    term: matisar
+    translation: to nuance / to ensure understanding
     partOfSpeech: verb
-    example: 'Es importante matizar las opiniones para ser justo.'
-    exampleTranslation: 'It is important to nuance opinions to be fair.'
+    example: Es importante matizar las opiniones para ser justo.
+    exampleTranslation: It is important to nuance opinions to be fair.
+    gender: n/a
 grammar:
   - id: es-ES-B2-SOCIAL-004-G1
-    point: 'Concessive contrast with "sin que" + subjunctive'
+    point: Concessive contrast with "sin que" + subjunctive
     explanation: "Use 'sin que' + subjunctive to express contrast without conflict: 'Puedo explicar mi punto sin que se ofenda nadie' (I can explain my point without anyone being offended)."
     examples:
-      - 'Puedo clarificar mi postura sin que eso implique que estoy de acuerdo.'
-      - 'Hablo con precisión sin que pierda naturalidad.'
-    cefrNotes: 'B2 learners use concessive clauses with subjunctive for nuanced expression'
-culturalNotes: 'Clarifying a detailed point of view at B2 level requires the ability to explain complex ideas precisely, using register-appropriate language and nuanced expressions.'
+      - Puedo clarificar mi postura sin que eso implique que estoy de acuerdo.
+      - Hablo con precisión sin que pierda naturalidad.
+    cefrNotes: B2 learners use concessive clauses with subjunctive for nuanced expression
+culturalNotes: Clarifying a detailed point of view at B2 level requires the ability to explain complex ideas precisely, using register-appropriate language and nuanced expressions.

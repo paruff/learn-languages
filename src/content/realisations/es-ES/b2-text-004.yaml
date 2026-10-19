@@ -1,59 +1,60 @@
 nodeId: B2-TEXT-004
 lang: es-ES
 vocabulary:
-  - id: es-ES-B2-TEXT-004-001
-    concept: 'argumentative-text'
-    term: 'texto argumentativo'
-    translation: 'argumentative text'
+  - id: es-ES-B2-TEXT-004-007
+    concept: to-understand-conclusions-of-argumentative-texts
+    term: texto argumentativo
+    translation: argumentative text / to understand conclusions of argumentative texts
     partOfSpeech: phrase
     gender: masculine
-    example: 'El texto argumentativo presenta una tesis clara.'
-    exampleTranslation: 'The argumentative text presents a clear thesis.'
-  - id: es-ES-B2-TEXT-004-002
-    concept: 'conclusion'
-    term: 'conclusión'
-    translation: 'conclusion'
+    example: El texto argumentativo presenta una tesis clara.
+    exampleTranslation: The argumentative text presents a clear thesis.
+  - id: es-ES-B2-TEXT-004-008
+    concept: to-identify-conclusion-markers
+    term: conclusión
+    translation: conclusion / to identify conclusion markers
     partOfSpeech: noun
     gender: feminine
-    example: 'Las conclusiones del texto están bien fundamentadas.'
-    exampleTranslation: 'The conclusions of the text are well founded.'
-  - id: es-ES-B2-TEXT-004-003
-    concept: 'signposting'
-    term: 'señalización'
-    translation: 'signposting'
+    example: Las conclusiones del texto están bien fundamentadas.
+    exampleTranslation: The conclusions of the text are well founded.
+  - id: es-ES-B2-TEXT-004-009
+    concept: to-synthesise-the-main-ideas
+    term: señalización
+    translation: signposting / to synthesise the main ideas
     partOfSpeech: noun
     gender: feminine
-    example: 'La buena señalización del texto facilita la lectura.'
-    exampleTranslation: 'Good signposting in the text facilitates reading.'
-  - id: es-ES-B2-TEXT-004-004
-    concept: 'argumentative-development'
-    term: 'desarrollo argumentativo'
-    translation: 'argumentative development'
+    example: La buena señalización del texto facilita la lectura.
+    exampleTranslation: Good signposting in the text facilitates reading.
+  - id: es-ES-B2-TEXT-004-010
+    concept: to-evaluate-the-conclusion
+    term: desarrollo argumentativo
+    translation: argumentative development / to evaluate the conclusion
     partOfSpeech: phrase
     gender: masculine
-    example: 'El desarrollo argumentativo es claro y lógico.'
-    exampleTranslation: 'The argumentative development is clear and logical.'
-  - id: es-ES-B2-TEXT-004-005
-    concept: 'to-identify-conclusions'
-    term: 'identificar conclusiones'
-    translation: 'to identify conclusions'
+    example: El desarrollo argumentativo es claro y lógico.
+    exampleTranslation: The argumentative development is clear and logical.
+  - id: es-ES-B2-TEXT-004-011
+    concept: to-relate-conclusion-with-premises
+    term: identificar conclusiones
+    translation: to identify conclusions / to relate conclusion with premises
     partOfSpeech: phrase
-    example: 'Puedo identificar conclusiones en textos argumentativos.'
-    exampleTranslation: 'I can identify conclusions in argumentative texts.'
-  - id: es-ES-B2-TEXT-004-006
-    concept: 'well-structured-text'
-    term: 'texto bien estructurado'
-    translation: 'well-structured text'
+    example: Puedo identificar conclusiones en textos argumentativos.
+    exampleTranslation: I can identify conclusions in argumentative texts.
+    gender: n/a
+  - id: es-ES-B2-TEXT-004-012
+    concept: to-extract-implications
+    term: texto bien estructurado
+    translation: well-structured text / to extract implications
     partOfSpeech: phrase
     gender: masculine
-    example: 'Un texto bien estructurado es más fácil de comprender.'
-    exampleTranslation: 'A well-structured text is easier to comprehend.'
+    example: Un texto bien estructurado es más fácil de comprender.
+    exampleTranslation: A well-structured text is easier to comprehend.
 grammar:
   - id: es-ES-B2-TEXT-004-G1
-    point: 'Conclusive connectors in argumentative texts'
+    point: Conclusive connectors in argumentative texts
     explanation: "Use conclusive connectors: 'en conclusión' (in conclusion), 'en definitiva' (ultimately), 'por consiguiente' (therefore) to identify conclusions in argumentative texts."
     examples:
-      - 'En conclusión, el autor demuestra su tesis con datos.'
-      - 'Por consiguiente, debemos reconsiderar nuestra postura.'
-    cefrNotes: 'B2 learners use conclusive connectors to identify main conclusions'
-culturalNotes: "Understanding clearly signposted argumentative texts at B2 level means being able to follow the logical structure from thesis through evidence to conclusion, recognizing the author's rhetorical strategy."
+      - En conclusión, el autor demuestra su tesis con datos.
+      - Por consiguiente, debemos reconsiderar nuestra postura.
+    cefrNotes: B2 learners use conclusive connectors to identify main conclusions
+culturalNotes: Understanding clearly signposted argumentative texts at B2 level means being able to follow the logical structure from thesis through evidence to conclusion, recognizing the author's rhetorical strategy.

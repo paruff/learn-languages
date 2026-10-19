@@ -1,59 +1,60 @@
 nodeId: C1-WRITTEN-002
 lang: es-ES
 vocabulary:
-  - id: es-ES-C1-WRITTEN-002-001
-    concept: 'film-review'
-    term: 'crítica de cine'
-    translation: 'film review'
+  - id: es-ES-C1-WRITTEN-002-007
+    concept: critical-review
+    term: crítica de cine
+    translation: film review / critical review
     partOfSpeech: phrase
     gender: feminine
-    example: 'Escribí una crítica de cine para una revista.'
-    exampleTranslation: 'I wrote a film review for a magazine.'
-  - id: es-ES-C1-WRITTEN-002-002
-    concept: 'exhibition-review'
-    term: 'reseña de exposición'
-    translation: 'exhibition review'
+    example: Escribí una crítica de cine para una revista.
+    exampleTranslation: I wrote a film review for a magazine.
+  - id: es-ES-C1-WRITTEN-002-008
+    concept: reference-works
+    term: reseña de exposición
+    translation: exhibition review / reference works
     partOfSpeech: phrase
     gender: feminine
-    example: 'La reseña de exposición fue publicada en un periódico.'
-    exampleTranslation: 'The exhibition review was published in a newspaper.'
-  - id: es-ES-C1-WRITTEN-002-003
-    concept: 'appropriate-style'
-    term: 'estilo adecuado'
-    translation: 'appropriate style'
+    example: La reseña de exposición fue publicada en un periódico.
+    exampleTranslation: The exhibition review was published in a newspaper.
+  - id: es-ES-C1-WRITTEN-002-009
+    concept: aesthetic-judgement
+    term: estilo adecuado
+    translation: appropriate style / aesthetic judgement
     partOfSpeech: phrase
     gender: masculine
-    example: 'Selecciono el estilo adecuado según la publicación.'
-    exampleTranslation: 'I select the appropriate style according to the publication.'
-  - id: es-ES-C1-WRITTEN-002-004
-    concept: 'target-publication'
-    term: 'publicación objetivo'
-    translation: 'target publication'
+    example: Selecciono el estilo adecuado según la publicación.
+    exampleTranslation: I select the appropriate style according to the publication.
+  - id: es-ES-C1-WRITTEN-002-010
+    concept: to-put-into-perspective
+    term: publicación objetivo
+    translation: target publication / to put into perspective
     partOfSpeech: phrase
     gender: feminine
-    example: 'Adapto mi escritura según la publicación objetivo.'
-    exampleTranslation: 'I adapt my writing according to the target publication.'
-  - id: es-ES-C1-WRITTEN-002-005
-    concept: 'critical-opinion'
-    term: 'opinión crítica'
-    translation: 'critical opinion'
+    example: Adapto mi escritura según la publicación objetivo.
+    exampleTranslation: I adapt my writing according to the target publication.
+  - id: es-ES-C1-WRITTEN-002-011
+    concept: close-reading
+    term: opinión crítica
+    translation: critical opinion / close reading
     partOfSpeech: phrase
     gender: feminine
-    example: 'Expreso mi opinión crítica de forma argumentada.'
-    exampleTranslation: 'I express my critical opinion in an argued way.'
-  - id: es-ES-C1-WRITTEN-002-006
-    concept: 'to-select-the-style'
-    term: 'seleccionar el estilo'
-    translation: 'to select the style'
+    example: Expreso mi opinión crítica de forma argumentada.
+    exampleTranslation: I express my critical opinion in an argued way.
+  - id: es-ES-C1-WRITTEN-002-012
+    concept: final-assessment
+    term: seleccionar el estilo
+    translation: to select the style / final assessment
     partOfSpeech: phrase
-    example: 'Sé seleccionar el estilo según el contexto.'
-    exampleTranslation: 'I know how to select the style according to the context.'
+    example: Sé seleccionar el estilo según el contexto.
+    exampleTranslation: I know how to select the style according to the context.
+    gender: n/a
 grammar:
   - id: es-ES-C1-WRITTEN-002-G1
-    point: 'Subjunctive in evaluative relative clauses'
+    point: Subjunctive in evaluative relative clauses
     explanation: "Use subjunctive in evaluative relative clauses for reviews: 'Es una película que merezca la pena ver' (It is a film worth seeing — evaluative)."
     examples:
-      - 'Es una exposición que valga la pena visitar.'
-      - 'Es una obra que merezca un análisis detallado.'
-    cefrNotes: 'C1 learners use subjunctive in evaluative relative clauses for critical review'
-culturalNotes: 'Writing critical reviews at C1 level requires the ability to select an appropriate style for the intended publication, present well-argued opinions, and use register that matches the target audience.'
+      - Es una exposición que valga la pena visitar.
+      - Es una obra que merezca un análisis detallado.
+    cefrNotes: C1 learners use subjunctive in evaluative relative clauses for critical review
+culturalNotes: Writing critical reviews at C1 level requires the ability to select an appropriate style for the intended publication, present well-argued opinions, and use register that matches the target audience.

@@ -1,57 +1,60 @@
 nodeId: B2-SOCIAL-002
 lang: es-ES
 vocabulary:
-  - id: es-ES-B2-SOCIAL-002-001
-    concept: 'to-participate-in-a-debate'
-    term: 'participar en un debate'
-    translation: 'to participate in a debate'
+  - id: es-ES-B2-SOCIAL-002-007
+    concept: to-debate-topics
+    term: participar en un debate
+    translation: to participate in a debate / to debate topics
     partOfSpeech: phrase
-    example: 'Me gusta participar en debates sobre temas actuales.'
-    exampleTranslation: 'I like to participate in debates on current topics.'
-  - id: es-ES-B2-SOCIAL-002-002
-    concept: 'to-present-ideas'
-    term: 'exponer ideas'
-    translation: 'to present ideas'
+    example: Me gusta participar en debates sobre temas actuales.
+    exampleTranslation: I like to participate in debates on current topics.
+    gender: n/a
+  - id: es-ES-B2-SOCIAL-002-008
+    concept: to-participate-in-discussions
+    term: exponer ideas
+    translation: to present ideas / to participate in discussions
     partOfSpeech: phrase
-    example: 'Puedo exponer ideas de forma clara y concisa.'
-    exampleTranslation: 'I can present ideas clearly and concisely.'
-  - id: es-ES-B2-SOCIAL-002-003
-    concept: 'familiar-context'
-    term: 'contexto familiar'
-    translation: 'familiar context'
+    example: Puedo exponer ideas de forma clara y concisa.
+    exampleTranslation: I can present ideas clearly and concisely.
+    gender: n/a
+  - id: es-ES-B2-SOCIAL-002-009
+    concept: to-express-points-of-view
+    term: contexto familiar
+    translation: familiar context / to express points of view
     partOfSpeech: phrase
     gender: masculine
-    example: 'En contextos familiares, me siento más seguro.'
-    exampleTranslation: 'In familiar contexts, I feel more confident.'
-  - id: es-ES-B2-SOCIAL-002-004
-    concept: 'intervention'
-    term: 'intervención'
-    translation: 'intervention / turn to speak'
+    example: En contextos familiares, me siento más seguro.
+    exampleTranslation: In familiar contexts, I feel more confident.
+  - id: es-ES-B2-SOCIAL-002-010
+    concept: to-argue-in-favour
+    term: intervención
+    translation: intervention / turn to speak / to argue in favour
     partOfSpeech: noun
     gender: feminine
-    example: 'Mi intervención en el debate fue breve pero efectiva.'
-    exampleTranslation: 'My intervention in the debate was brief but effective.'
-  - id: es-ES-B2-SOCIAL-002-005
-    concept: 'to-collaborate'
-    term: 'colaborar'
-    translation: 'to collaborate'
+    example: Mi intervención en el debate fue breve pero efectiva.
+    exampleTranslation: My intervention in the debate was brief but effective.
+  - id: es-ES-B2-SOCIAL-002-011
+    concept: to-counter-arguments
+    term: colaborar
+    translation: to collaborate / to counter arguments
     partOfSpeech: verb
-    example: 'Es importante colaborar en la discusión.'
-    exampleTranslation: 'It is important to collaborate in the discussion.'
-  - id: es-ES-B2-SOCIAL-002-006
-    concept: 'constructive-debate'
-    term: 'debate constructivo'
-    translation: 'constructive debate'
+    example: Es importante colaborar en la discusión.
+    exampleTranslation: It is important to collaborate in the discussion.
+    gender: n/a
+  - id: es-ES-B2-SOCIAL-002-012
+    concept: to-reach-consensus
+    term: debate constructivo
+    translation: constructive debate / to reach consensus
     partOfSpeech: phrase
     gender: masculine
-    example: 'Promovemos un debate constructivo y respetuoso.'
-    exampleTranslation: 'We promote a constructive and respectful debate.'
+    example: Promovemos un debate constructivo y respetuoso.
+    exampleTranslation: We promote a constructive and respectful debate.
 grammar:
   - id: es-ES-B2-SOCIAL-002-G1
-    point: 'Relative clauses with "quien" for discussion'
+    point: Relative clauses with "quien" for discussion
     explanation: "Use 'quien' (who/whom) in relative clauses: 'Yo, quien ha vivido allí, puedo confirmar' (I, who have lived there, can confirm)."
     examples:
-      - 'El profesor, quien es experto en el tema, explicó bien.'
-      - 'Mis amigos, quienes comparten mi opinión, estarán de acuerdo.'
-    cefrNotes: 'B2 learners use non-restrictive relative clauses with "quien" in discussion'
-culturalNotes: 'Active participation in discussion is valued in Spanish academic and professional settings. B2 learners should be able to take turns, respond to others, and contribute meaningfully.'
+      - El profesor, quien es experto en el tema, explicó bien.
+      - Mis amigos, quienes comparten mi opinión, estarán de acuerdo.
+    cefrNotes: B2 learners use non-restrictive relative clauses with "quien" in discussion
+culturalNotes: Active participation in discussion is valued in Spanish academic and professional settings. B2 learners should be able to take turns, respond to others, and contribute meaningfully.

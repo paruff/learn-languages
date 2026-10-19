@@ -1,59 +1,60 @@
 nodeId: C1-LITERARY-001
 lang: es-ES
 vocabulary:
-  - id: es-ES-C1-LITERARY-001-001
-    concept: 'implicit-layer'
-    term: 'capa implícita'
-    translation: 'implicit layer'
+  - id: es-ES-C1-LITERARY-001-007
+    concept: layers-of-meaning
+    term: capa implícita
+    translation: implicit layer / layers of meaning
     partOfSpeech: phrase
     gender: feminine
-    example: 'El texto tiene capas implícitas de significado.'
-    exampleTranslation: 'The text has implicit layers of meaning.'
-  - id: es-ES-C1-LITERARY-001-002
-    concept: 'allusion'
-    term: 'alusión'
-    translation: 'allusion'
+    example: El texto tiene capas implícitas de significado.
+    exampleTranslation: The text has implicit layers of meaning.
+  - id: es-ES-C1-LITERARY-001-008
+    concept: extended-metaphor
+    term: alusión
+    translation: allusion / extended metaphor
     partOfSpeech: noun
     gender: feminine
-    example: 'La alusión histórica enriquece el texto.'
-    exampleTranslation: 'The historical allusion enriches the text.'
-  - id: es-ES-C1-LITERARY-001-003
-    concept: 'irony'
-    term: 'ironía'
-    translation: 'irony'
+    example: La alusión histórica enriquece el texto.
+    exampleTranslation: The historical allusion enriches the text.
+  - id: es-ES-C1-LITERARY-001-009
+    concept: cultural-resonance
+    term: ironía
+    translation: irony / cultural resonance
     partOfSpeech: noun
     gender: feminine
-    example: 'La ironía del autor es sutil pero efectiva.'
-    exampleTranslation: "The author's irony is subtle but effective."
-  - id: es-ES-C1-LITERARY-001-004
-    concept: 'cultural-reference'
-    term: 'referencia cultural'
-    translation: 'cultural reference'
+    example: La ironía del autor es sutil pero efectiva.
+    exampleTranslation: The author's irony is subtle but effective.
+  - id: es-ES-C1-LITERARY-001-010
+    concept: narrative-voice
+    term: referencia cultural
+    translation: cultural reference / narrative voice
     partOfSpeech: phrase
     gender: feminine
-    example: 'Las referencias culturales son abundantes en la literatura.'
-    exampleTranslation: 'Cultural references are abundant in literature.'
-  - id: es-ES-C1-LITERARY-001-005
-    concept: 'subtext'
-    term: 'subtexto'
-    translation: 'subtext'
+    example: Las referencias culturales son abundantes en la literatura.
+    exampleTranslation: Cultural references are abundant in literature.
+  - id: es-ES-C1-LITERARY-001-011
+    concept: to-weave-the-references-together
+    term: subtexto
+    translation: subtext / to weave the references together
     partOfSpeech: noun
     gender: masculine
-    example: 'El subtext de la novela es más rico que la trama.'
-    exampleTranslation: 'The subtext of the novel is richer than the plot.'
-  - id: es-ES-C1-LITERARY-001-006
-    concept: 'to-interpret'
-    term: 'interpretar'
-    translation: 'to interpret'
+    example: El subtexto de la novela es más rico que la trama.
+    exampleTranslation: The subtext of the novel is richer than the plot.
+  - id: es-ES-C1-LITERARY-001-012
+    concept: flavour-of-the-era
+    term: interpretar
+    translation: to interpret / flavour of the era
     partOfSpeech: verb
-    example: 'Sé interpretar las capas implícitas de un texto.'
-    exampleTranslation: 'I know how to interpret the implicit layers of a text.'
+    example: Sé interpretar las capas implícitas de un texto.
+    exampleTranslation: I know how to interpret the implicit layers of a text.
+    gender: n/a
 grammar:
   - id: es-ES-C1-LITERARY-001-G1
-    point: 'Literary subjunctive in aesthetic evaluation'
+    point: Literary subjunctive in aesthetic evaluation
     explanation: "Use subjunctive for aesthetic evaluation of literary texts: 'El autor Utiliza un lenguaje que haga evocador el paisaje' (The author uses language that makes the landscape evocative)."
     examples:
-      - 'Es una obra que trascienda los límites del género.'
-      - 'Es un texto que invite a la reflexión profunda.'
-    cefrNotes: 'C1 learners use subjunctive for literary-aesthetic evaluation'
-culturalNotes: 'Appreciating literary texts at C1 level requires understanding of allusion, irony, and cultural references that form the implicit layers of meaning. This is a key cultural competence in Spanish-speaking literary tradition.'
+      - Es una obra que trascienda los límites del género.
+      - Es un texto que invite a la reflexión profunda.
+    cefrNotes: C1 learners use subjunctive for literary-aesthetic evaluation
+culturalNotes: Appreciating literary texts at C1 level requires understanding of allusion, irony, and cultural references that form the implicit layers of meaning. This is a key cultural competence in Spanish-speaking literary tradition.

@@ -1,60 +1,60 @@
 nodeId: C2-MODALITY-003
 lang: es-ES
 vocabulary:
-  - id: es-ES-C2-MODALITY-003-001
-    concept: 'spoken-language'
-    term: 'lengua hablada'
-    translation: 'spoken language'
+  - id: es-ES-C2-MODALITY-003-007
+    concept: rapid-auditory-comprehension
+    term: lengua hablada
+    translation: spoken language / rapid auditory comprehension
     partOfSpeech: phrase
     gender: feminine
-    example: 'Entiendo toda forma de lengua hablada, incluyendo acentos variados.'
-    exampleTranslation: 'I understand all forms of spoken language, including varied accents.'
-  - id: es-ES-C2-MODALITY-003-002
-    concept: 'native-speed'
-    term: 'velocidad nativa'
-    translation: 'native speed'
+    example: Entiendo toda forma de lengua hablada, incluyendo acentos variados.
+    exampleTranslation: I understand all forms of spoken language, including varied accents.
+  - id: es-ES-C2-MODALITY-003-008
+    concept: fast-native-speech
+    term: velocidad nativa
+    translation: native speed / fast native speech
     partOfSpeech: phrase
     gender: feminine
-    example: 'Puedo seguir conversaciones a velocidad nativa.'
-    exampleTranslation: 'I can follow conversations at native speed.'
-  - id: es-ES-C2-MODALITY-003-003
-    concept: 'varied-accent'
-    term: 'acento variado'
-    translation: 'varied accent'
+    example: Puedo seguir conversaciones a velocidad nativa.
+    exampleTranslation: I can follow conversations at native speed.
+  - id: es-ES-C2-MODALITY-003-009
+    concept: varied-accents
+    term: acento variado
+    translation: varied accent / varied accents
     partOfSpeech: phrase
     gender: masculine
-    example: 'Entiendo diferentes acentos sin dificultad.'
-    exampleTranslation: 'I understand different accents without difficulty.'
-  - id: es-ES-C2-MODALITY-003-004
-    concept: 'live-broadcast'
-    term: 'emisión en directo'
-    translation: 'live broadcast'
+    example: Entiendo diferentes acentos sin dificultad.
+    exampleTranslation: I understand different accents without difficulty.
+  - id: es-ES-C2-MODALITY-003-010
+    concept: any-kind-of-spoken-language
+    term: emisión en directo
+    translation: live broadcast / any kind of spoken language
     partOfSpeech: phrase
     gender: feminine
-    example: 'Sigo emisiones en directo sin perder detalles.'
-    exampleTranslation: 'I follow live broadcasts without missing details.'
-  - id: es-ES-C2-MODALITY-003-005
-    concept: 'broadcast'
-    term: 'transmisión'
-    translation: 'broadcast'
+    example: Sigo emisiones en directo sin perder detalles.
+    exampleTranslation: I follow live broadcasts without missing details.
+  - id: es-ES-C2-MODALITY-003-011
+    concept: quick-adaptation
+    term: transmisión
+    translation: broadcast / quick adaptation
     partOfSpeech: noun
     gender: feminine
-    example: 'Entiendo transmisiones en vivo de noticias y eventos.'
-    exampleTranslation: 'I understand live broadcasts of news and events.'
-  - id: es-ES-C2-MODALITY-003-006
-    concept: 'advanced-listening-comprehension'
-    term: 'comprensión auditiva avanzada'
-    translation: 'advanced listening comprehension'
+    example: Entiendo transmisiones en vivo de noticias y eventos.
+    exampleTranslation: I understand live broadcasts of news and events.
+  - id: es-ES-C2-MODALITY-003-012
+    concept: complete-understanding
+    term: comprensión auditiva avanzada
+    translation: advanced listening comprehension / complete understanding
     partOfSpeech: phrase
     gender: feminine
-    example: 'Mi comprensión auditiva avanzada abarca todos los registros.'
-    exampleTranslation: 'My advanced listening comprehension covers all registers.'
+    example: Mi comprensión auditiva avanzada abarca todos los registros.
+    exampleTranslation: My advanced listening comprehension covers all registers.
 grammar:
   - id: es-ES-C2-MODALITY-003-G1
-    point: 'Concessive structures for native-speed comprehension'
+    point: Concessive structures for native-speed comprehension
     explanation: "Use concessive structures to express comprehension of native-speed speech: 'Aunque hablen muy rápido, puedo seguir la conversación' (Even if they speak very fast, I can follow the conversation)."
     examples:
-      - 'Aunque el acento sea muy fuerte, entiendo el mensaje.'
-      - 'Puedo seguir la conversación aunque sea a velocidad nativa.'
-    cefrNotes: 'C2 learners use concessive structures to express comprehension of native-speed speech'
-culturalNotes: 'Understanding any kind of spoken language at native speed at C2 level demonstrates the highest level of listening comprehension, including the ability to adapt to unfamiliar accents quickly.'
+      - Aunque el acento sea muy fuerte, entiendo el mensaje.
+      - Puedo seguir la conversación aunque sea a velocidad nativa.
+    cefrNotes: C2 learners use concessive structures to express comprehension of native-speed speech
+culturalNotes: Understanding any kind of spoken language at native speed at C2 level demonstrates the highest level of listening comprehension, including the ability to adapt to unfamiliar accents quickly.

@@ -1,55 +1,60 @@
 nodeId: B1-DISCOURSE-001
 lang: es-ES
 vocabulary:
-  - id: es-ES-B1-DISCOURSE-001-001
-    concept: 'connector'
-    term: 'conector'
-    translation: 'connector / discourse marker'
+  - id: es-ES-B1-DISCOURSE-001-003
+    concept: furthermore
+    term: además
+    translation: furthermore / besides / furthermore
+    partOfSpeech: conjunction
+    example: Además, hay que considerar el coste.
+    exampleTranslation: Furthermore, we must consider the cost.
+    gender: n/a
+  - id: es-ES-B1-DISCOURSE-001-004
+    concept: however
+    term: sin embargo
+    translation: however
+    partOfSpeech: conjunction
+    example: Es caro; sin embargo, la calidad es excelente.
+    exampleTranslation: It is expensive; however, the quality is excellent.
+    gender: n/a
+  - id: es-ES-B1-DISCOURSE-001-006
+    concept: on-the-other-hand
+    term: por otro lado
+    translation: on the other hand
+    partOfSpeech: conjunction
+    example: Por un lado es ventajoso; por otro lado, tiene riesgos.
+    exampleTranslation: On one hand it is advantageous; on the other hand, it has risks.
+    gender: n/a
+  - id: es-ES-B1-DISCOURSE-001-007
+    concept: although
+    term: conector
+    translation: connector / discourse marker / although
     partOfSpeech: noun
     gender: masculine
-    example: 'Los conectores ayudan a enlazar ideas.'
-    exampleTranslation: 'Connectors help to link ideas.'
-  - id: es-ES-B1-DISCOURSE-001-002
-    concept: 'to-link-ideas'
-    term: 'enlazar ideas'
-    translation: 'to link ideas'
-    partOfSpeech: phrase
-    example: 'Es importante enlazar ideas de forma coherente.'
-    exampleTranslation: 'It is important to link ideas coherently.'
-  - id: es-ES-B1-DISCOURSE-001-003
-    concept: 'furthermore'
-    term: 'además'
-    translation: 'furthermore / besides'
-    partOfSpeech: conjunction
-    example: 'Además, hay que considerar el coste.'
-    exampleTranslation: 'Furthermore, we must consider the cost.'
-  - id: es-ES-B1-DISCOURSE-001-004
-    concept: 'however'
-    term: 'sin embargo'
-    translation: 'however'
-    partOfSpeech: conjunction
-    example: 'Es caro; sin embargo, la calidad es excelente.'
-    exampleTranslation: 'It is expensive; however, the quality is excellent.'
+    example: Los conectores ayudan a enlazar ideas.
+    exampleTranslation: Connectors help to link ideas.
   - id: es-ES-B1-DISCOURSE-001-005
-    concept: 'therefore'
-    term: 'por lo tanto'
-    translation: 'therefore'
+    concept: therefore
+    term: por lo tanto
+    translation: therefore
     partOfSpeech: conjunction
-    example: 'No hay tiempo; por lo tanto, debemos actuar rápido.'
-    exampleTranslation: 'There is no time; therefore, we must act quickly.'
-  - id: es-ES-B1-DISCOURSE-001-006
-    concept: 'on-the-other-hand'
-    term: 'por otro lado'
-    translation: 'on the other hand'
-    partOfSpeech: conjunction
-    example: 'Por un lado es ventajoso; por otro lado, tiene riesgos.'
-    exampleTranslation: 'On one hand it is advantageous; on the other hand, it has risks.'
+    example: No hay tiempo; por lo tanto, debemos actuar rápido.
+    exampleTranslation: There is no time; therefore, we must act quickly.
+    gender: n/a
+  - id: es-ES-B1-DISCOURSE-001-008
+    concept: despite
+    term: enlazar ideas
+    translation: to link ideas / despite
+    partOfSpeech: phrase
+    example: Es importante enlazar ideas de forma coherente.
+    exampleTranslation: It is important to link ideas coherently.
+    gender: n/a
 grammar:
   - id: es-ES-B1-DISCOURSE-001-G1
-    point: 'Discourse connectors for extended speech'
-    explanation: "Use connectors like 'además' (furthermore), 'sin embargo' (however), 'por lo tanto' (therefore) to link ideas in extended speech."
+    point: Discourse connectors for extended speech
+    explanation: Use connectors like 'además' (furthermore), 'sin embargo' (however), 'por lo tanto' (therefore) to link ideas in extended speech.
     examples:
-      - 'El proyecto es interesante. Además, es rentable.'
-      - 'El resultado fue positivo; sin embargo, hubo dificultades.'
-    cefrNotes: 'B1 learners use a range of connectors to structure extended speech'
-culturalNotes: 'Spanish connectors are essential for formal and informal speech alike. Overusing "además" and "por lo tanto" is a common marker of learner speech; variety is a sign of B1 proficiency.'
+      - El proyecto es interesante. Además, es rentable.
+      - El resultado fue positivo; sin embargo, hubo dificultades.
+    cefrNotes: B1 learners use a range of connectors to structure extended speech
+culturalNotes: Spanish connectors are essential for formal and informal speech alike. Overusing "además" and "por lo tanto" is a common marker of learner speech; variety is a sign of B1 proficiency.

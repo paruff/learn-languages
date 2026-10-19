@@ -1,58 +1,60 @@
 nodeId: B2-ARGUE-004
 lang: es-ES
 vocabulary:
-  - id: es-ES-B2-ARGUE-004-001
-    concept: 'to-sustain-a-position'
-    term: 'sostener una postura'
-    translation: 'to sustain a position'
+  - id: es-ES-B2-ARGUE-004-007
+    concept: to-sustain-the-thesis
+    term: sostener una postura
+    translation: to sustain a position / to sustain the thesis
     partOfSpeech: phrase
-    example: 'Puedo sostener mi postura con argumentos sólidos.'
-    exampleTranslation: 'I can sustain my position with solid arguments.'
-  - id: es-ES-B2-ARGUE-004-002
-    concept: 'relevant-detail'
-    term: 'detalle relevante'
-    translation: 'relevant detail'
+    example: Puedo sostener mi postura con argumentos sólidos.
+    exampleTranslation: I can sustain my position with solid arguments.
+    gender: n/a
+  - id: es-ES-B2-ARGUE-004-008
+    concept: to-present-supporting-data
+    term: detalle relevante
+    translation: relevant detail / to present supporting data
     partOfSpeech: phrase
     gender: masculine
-    example: 'Incluí detalles relevantes para apoyar mi argumento.'
-    exampleTranslation: 'I included relevant details to support my argument.'
-  - id: es-ES-B2-ARGUE-004-003
-    concept: 'essay'
-    term: 'ensayo'
-    translation: 'essay'
+    example: Incluí detalles relevantes para apoyar mi argumento.
+    exampleTranslation: I included relevant details to support my argument.
+  - id: es-ES-B2-ARGUE-004-009
+    concept: to-expose-the-argumentation
+    term: ensayo
+    translation: essay / to expose the argumentation
     partOfSpeech: noun
     gender: masculine
-    example: 'Escribí un ensayo sobre los derechos humanos.'
-    exampleTranslation: 'I wrote an essay about human rights.'
-  - id: es-ES-B2-ARGUE-004-004
-    concept: 'to-support'
-    term: 'apoyar'
-    translation: 'to support'
+    example: Escribí un ensayo sobre los derechos humanos.
+    exampleTranslation: I wrote an essay about human rights.
+  - id: es-ES-B2-ARGUE-004-010
+    concept: to-use-concrete-examples
+    term: apoyar
+    translation: to support / to use concrete examples
     partOfSpeech: verb
-    example: 'Es importante apoyar las opiniones con hechos.'
-    exampleTranslation: 'It is important to support opinions with facts.'
-  - id: es-ES-B2-ARGUE-004-005
-    concept: 'development'
-    term: 'desarrollo'
-    translation: 'development'
+    example: Es importante apoyar las opiniones con hechos.
+    exampleTranslation: It is important to support opinions with facts.
+    gender: n/a
+  - id: es-ES-B2-ARGUE-004-011
+    concept: to-reinforce-the-position
+    term: desarrollo
+    translation: development / to reinforce the position
     partOfSpeech: noun
     gender: masculine
-    example: 'El desarrollo del argumento fue claro y convincente.'
-    exampleTranslation: 'The development of the argument was clear and convincing.'
-  - id: es-ES-B2-ARGUE-004-006
-    concept: 'presentation'
-    term: 'exposición'
-    translation: 'presentation / exposition'
+    example: El desarrollo del argumento fue claro y convincente.
+    exampleTranslation: The development of the argument was clear and convincing.
+  - id: es-ES-B2-ARGUE-004-012
+    concept: to-write-an-essay
+    term: exposición
+    translation: presentation / exposition / to write an essay
     partOfSpeech: noun
     gender: feminine
-    example: 'La exposición de ideas fue muy organizada.'
-    exampleTranslation: 'The exposition of ideas was very organized.'
+    example: La exposición de ideas fue muy organizada.
+    exampleTranslation: The exposition of ideas was very organized.
 grammar:
   - id: es-ES-B2-ARGUE-004-G1
-    point: 'Written argument structures with "no solo... sino también"'
+    point: Written argument structures with "no solo... sino también"
     explanation: "Use 'no solo... sino también' (not only... but also) for written argument structures: 'No solo es importante, sino también urgente.'"
     examples:
-      - 'No solo debemos analizar el problema, sino también proponer soluciones.'
-      - 'El ensayo no solo presenta datos, sino también interpreta tendencias.'
-    cefrNotes: 'B2 learners use complex written argument structures for emphasis'
-culturalNotes: 'Written argumentation at B2 level should demonstrate the ability to sustain a viewpoint with relevant supporting detail, using formal register and complex sentence structures.'
+      - No solo debemos analizar el problema, sino también proponer soluciones.
+      - El ensayo no solo presenta datos, sino también interpreta tendencias.
+    cefrNotes: B2 learners use complex written argument structures for emphasis
+culturalNotes: Written argumentation at B2 level should demonstrate the ability to sustain a viewpoint with relevant supporting detail, using formal register and complex sentence structures.

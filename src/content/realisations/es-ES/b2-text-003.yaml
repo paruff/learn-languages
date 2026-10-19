@@ -1,59 +1,60 @@
 nodeId: B2-TEXT-003
 lang: es-ES
 vocabulary:
-  - id: es-ES-B2-TEXT-003-001
-    concept: 'line-of-argument'
-    term: 'línea argumentativa'
-    translation: 'line of argument'
+  - id: es-ES-B2-TEXT-003-007
+    concept: to-recognise-the-line-of-argument
+    term: línea argumentativa
+    translation: line of argument / to recognise the line of argument
     partOfSpeech: phrase
     gender: feminine
-    example: 'Puedo seguir la línea argumentativa de un texto.'
-    exampleTranslation: 'I can follow the line of argument of a text.'
-  - id: es-ES-B2-TEXT-003-002
-    concept: 'thesis'
-    term: 'tesis'
-    translation: 'thesis'
+    example: Puedo seguir la línea argumentativa de un texto.
+    exampleTranslation: I can follow the line of argument of a text.
+  - id: es-ES-B2-TEXT-003-008
+    concept: to-analyse-the-text-structure
+    term: tesis
+    translation: thesis / to analyse the text structure
     partOfSpeech: noun
     gender: feminine
-    example: 'La tesis del autor es clara y bien defendida.'
-    exampleTranslation: "The author's thesis is clear and well defended."
-  - id: es-ES-B2-TEXT-003-003
-    concept: 'treatment'
-    term: 'tratamiento'
-    translation: 'treatment / handling'
+    example: La tesis del autor es clara y bien defendida.
+    exampleTranslation: The author's thesis is clear and well defended.
+  - id: es-ES-B2-TEXT-003-009
+    concept: to-identify-premises-and-conclusions
+    term: tratamiento
+    translation: treatment / handling / to identify premises and conclusions
     partOfSpeech: noun
     gender: masculine
-    example: 'El tratamiento del tema es exhaustivo.'
-    exampleTranslation: 'The treatment of the topic is exhaustive.'
-  - id: es-ES-B2-TEXT-003-004
-    concept: 'to-recognise'
-    term: 'reconocer'
-    translation: 'to recognise'
+    example: El tratamiento del tema es exhaustivo.
+    exampleTranslation: The treatment of the topic is exhaustive.
+  - id: es-ES-B2-TEXT-003-010
+    concept: to-evaluate-the-strength-of-the-argument
+    term: reconocer
+    translation: to recognise / to evaluate the strength of the argument
     partOfSpeech: verb
-    example: 'Puedo reconocer la postura del autor.'
-    exampleTranslation: "I can recognise the author's position."
-  - id: es-ES-B2-TEXT-003-005
-    concept: 'textual-coherence'
-    term: 'coherencia textual'
-    translation: 'textual coherence'
+    example: Puedo reconocer la postura del autor.
+    exampleTranslation: I can recognise the author's position.
+    gender: n/a
+  - id: es-ES-B2-TEXT-003-011
+    concept: to-recognise-assumptions
+    term: coherencia textual
+    translation: textual coherence / to recognise assumptions
     partOfSpeech: phrase
     gender: feminine
-    example: 'La coherencia textual facilita la comprensión.'
-    exampleTranslation: 'Textual coherence facilitates comprehension.'
-  - id: es-ES-B2-TEXT-003-006
-    concept: 'argumentative-connector'
-    term: 'conector argumentativo'
-    translation: 'argumentative connector'
+    example: La coherencia textual facilita la comprensión.
+    exampleTranslation: Textual coherence facilitates comprehension.
+  - id: es-ES-B2-TEXT-003-012
+    concept: to-draw-conclusions
+    term: conector argumentativo
+    translation: argumentative connector / to draw conclusions
     partOfSpeech: phrase
     gender: masculine
-    example: 'Los conectores argumentativos guían al lector.'
-    exampleTranslation: 'Argumentative connectors guide the reader.'
+    example: Los conectores argumentativos guían al lector.
+    exampleTranslation: Argumentative connectors guide the reader.
 grammar:
   - id: es-ES-B2-TEXT-003-G1
-    point: 'Result clauses with "de modo que" + indicative/subjunctive'
+    point: Result clauses with "de modo que" + indicative/subjunctive
     explanation: "Use 'de modo que' + indicative for real results: 'El autor escribe de modo que se entiende todo.' Use subjunctive for hypothetical results: 'Escribe de modo que todos lo entiendan.'"
     examples:
-      - 'El texto está organizado de modo que la lectura es fluida.'
-      - 'El autor explica de modo que todos comprendan.'
-    cefrNotes: 'B2 learners use result clauses to analyze text structure'
-culturalNotes: 'Recognizing the line of argument in treatment of issues is a key B2 reading skill. This requires understanding how the author structures their argument and uses evidence.'
+      - El texto está organizado de modo que la lectura es fluida.
+      - El autor explica de modo que todos comprendan.
+    cefrNotes: B2 learners use result clauses to analyze text structure
+culturalNotes: Recognizing the line of argument in treatment of issues is a key B2 reading skill. This requires understanding how the author structures their argument and uses evidence.

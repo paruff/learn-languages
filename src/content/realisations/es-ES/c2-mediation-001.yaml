@@ -1,58 +1,60 @@
 nodeId: C2-MEDIATION-001
 lang: es-ES
 vocabulary:
-  - id: es-ES-C2-MEDIATION-001-001
-    concept: 'mediation'
-    term: 'intermediación'
-    translation: 'mediation'
+  - id: es-ES-C2-MEDIATION-001-007
+    concept: effective-mediation
+    term: intermediación
+    translation: mediation / effective mediation
     partOfSpeech: noun
     gender: feminine
-    example: 'Puedo actuar como intermediario entre hablantes nativos.'
-    exampleTranslation: 'I can act as an intermediary between native speakers.'
-  - id: es-ES-C2-MEDIATION-001-002
-    concept: 'to-simplify-the-message'
-    term: 'simplificar el mensaje'
-    translation: 'to simplify the message'
+    example: Puedo actuar como intermediario entre hablantes nativos.
+    exampleTranslation: I can act as an intermediary between native speakers.
+  - id: es-ES-C2-MEDIATION-001-008
+    concept: simplify-the-message
+    term: simplificar el mensaje
+    translation: to simplify the message / simplify the message
     partOfSpeech: phrase
-    example: 'Sé simplificar el mensaje sin perder precisión.'
-    exampleTranslation: 'I know how to simplify the message without losing precision.'
-  - id: es-ES-C2-MEDIATION-001-003
-    concept: 'to-intervene-skilfully'
-    term: 'intervenir hábilmente'
-    translation: 'to intervene skilfully'
+    example: Sé simplificar el mensaje sin perder precisión.
+    exampleTranslation: I know how to simplify the message without losing precision.
+    gender: n/a
+  - id: es-ES-C2-MEDIATION-001-009
+    concept: resolve-misunderstandings
+    term: intervenir hábilmente
+    translation: to intervene skilfully / resolve misunderstandings
     partOfSpeech: phrase
-    example: 'Puedo intervenir hábilmente para resolver malentendidos.'
-    exampleTranslation: 'I can intervene skilfully to resolve misunderstandings.'
-  - id: es-ES-C2-MEDIATION-001-004
-    concept: 'disagreements'
-    term: 'desacuerdos'
-    translation: 'disagreements'
+    example: Puedo intervenir hábilmente para resolver malentendidos.
+    exampleTranslation: I can intervene skilfully to resolve misunderstandings.
+    gender: n/a
+  - id: es-ES-C2-MEDIATION-001-010
+    concept: skilful-intervention
+    term: desacuerdos
+    translation: disagreements / skilful intervention
     partOfSpeech: noun
     gender: masculine
-    example: 'Puedo resolver desacuerdos de forma diplomática.'
-    exampleTranslation: 'I can resolve disagreements diplomatically.'
-  - id: es-ES-C2-MEDIATION-001-005
-    concept: 'misunderstandings'
-    term: 'malentendidos'
-    translation: 'misunderstandings'
+    example: Puedo resolver desacuerdos de forma diplomática.
+    exampleTranslation: I can resolve disagreements diplomatically.
+  - id: es-ES-C2-MEDIATION-001-011
+    concept: complex-disagreements
+    term: malentendidos
+    translation: misunderstandings / complex disagreements
     partOfSpeech: noun
     gender: masculine
-    example: 'Puedo identificar y resolver malentendidos rápidamente.'
-    exampleTranslation: 'I can identify and resolve misunderstandings quickly.'
-  - id: es-ES-C2-MEDIATION-001-006
-    concept: 'mediation-skill'
-    term: 'habilidad de mediación'
-    translation: 'mediation skill'
+    example: Puedo identificar y resolver malentendidos rápidamente.
+    exampleTranslation: I can identify and resolve misunderstandings quickly.
+  - id: es-ES-C2-MEDIATION-001-012
+    concept: effective-communication
+    term: habilidad de mediación
+    translation: mediation skill / effective communication
     partOfSpeech: phrase
     gender: feminine
-    example: 'La habilidad de mediación es clave en la comunicación avanzada.'
-    exampleTranslation: 'Mediation skill is key in advanced communication.'
+    example: La habilidad de mediación es clave en la comunicación avanzada.
+    exampleTranslation: Mediation skill is key in advanced communication.
 grammar:
   - id: es-ES-C2-MEDIATION-001-G1
-    point: 'Subjunctive in purpose clauses for effective mediation'
+    point: Subjunctive in purpose clauses for effective mediation
     explanation: "Use subjunctive in purpose clauses for effective mediation: 'Simplifico el mensaje para que ambos interlocutores lo entiendan' (I simplify the message so that both interlocutors understand it)."
     examples:
-      - 'Intervengo para que la conversación fluya sin problemas.'
-      - 'Reformulo la idea para que no haya malentendidos.'
-    cefrNotes: 'C2 learners use purpose clauses with subjunctive for effective mediation'
-culturalNotes: 'Acting as an effective intermediary at C2 level requires the ability to simplify messages appropriately, intervene skilfully to resolve misunderstandings, and maintain effective communication between parties.'
+      - Intervengo para que la conversación fluya sin problemas.
+      - Reformulo la idea para que no haya malentendidos.
+    cefrNotes: C2 learners use purpose clauses with subjunctive for effective mediation
+culturalNotes: Acting as an effective intermediary at C2 level requires the ability to simplify messages appropriately, intervene skilfully to resolve misunderstandings, and maintain effective communication between parties.

@@ -1,59 +1,60 @@
 nodeId: B2-WRITTEN-003
 lang: es-ES
 vocabulary:
-  - id: es-ES-B2-WRITTEN-003-001
-    concept: 'spelling'
-    term: 'ortografía'
-    translation: 'spelling'
+  - id: es-ES-B2-WRITTEN-003-007
+    concept: to-write-with-correct-spelling
+    term: ortografía
+    translation: spelling / to write with correct spelling
     partOfSpeech: noun
     gender: feminine
-    example: 'Mi ortografía ha mejorado significativamente.'
-    exampleTranslation: 'My spelling has improved significantly.'
-  - id: es-ES-B2-WRITTEN-003-002
-    concept: 'punctuation'
-    term: 'puntuación'
-    translation: 'punctuation'
+    example: Mi ortografía ha mejorado significativamente.
+    exampleTranslation: My spelling has improved significantly.
+  - id: es-ES-B2-WRITTEN-003-008
+    concept: to-use-appropriate-punctuation
+    term: puntuación
+    translation: punctuation / to use appropriate punctuation
     partOfSpeech: noun
     gender: feminine
-    example: 'La puntuación correcta es esencial para la claridad.'
-    exampleTranslation: 'Correct punctuation is essential for clarity.'
-  - id: es-ES-B2-WRITTEN-003-003
-    concept: 'correct-writing'
-    term: 'escritura correcta'
-    translation: 'correct writing'
+    example: La puntuación correcta es esencial para la claridad.
+    exampleTranslation: Correct punctuation is essential for clarity.
+  - id: es-ES-B2-WRITTEN-003-009
+    concept: to-review-the-text
+    term: escritura correcta
+    translation: correct writing / to review the text
     partOfSpeech: phrase
     gender: feminine
-    example: 'La escritura correcta genera credibilidad.'
-    exampleTranslation: 'Correct writing generates credibility.'
-  - id: es-ES-B2-WRITTEN-003-004
-    concept: 'to-review'
-    term: 'revisar'
-    translation: 'to review / to proofread'
+    example: La escritura correcta genera credibilidad.
+    exampleTranslation: Correct writing generates credibility.
+  - id: es-ES-B2-WRITTEN-003-010
+    concept: to-correct-errors
+    term: revisar
+    translation: to review / to proofread / to correct errors
     partOfSpeech: verb
-    example: 'Siempre reviso mis textos antes de enviarlos.'
-    exampleTranslation: 'I always review my texts before sending them.'
-  - id: es-ES-B2-WRITTEN-003-005
-    concept: 'spelling-errors'
-    term: 'errores ortográficos'
-    translation: 'spelling errors'
+    example: Siempre reviso mis textos antes de enviarlos.
+    exampleTranslation: I always review my texts before sending them.
+    gender: n/a
+  - id: es-ES-B2-WRITTEN-003-011
+    concept: to-use-writing-models
+    term: errores ortográficos
+    translation: spelling errors / to use writing models
     partOfSpeech: phrase
     gender: masculine
-    example: 'Los errores ortográficos deben corregirse.'
-    exampleTranslation: 'Spelling errors must be corrected.'
-  - id: es-ES-B2-WRITTEN-003-006
-    concept: 'written-precision'
-    term: 'precisión escrita'
-    translation: 'written precision'
+    example: Los errores ortográficos deben corregirse.
+    exampleTranslation: Spelling errors must be corrected.
+  - id: es-ES-B2-WRITTEN-003-012
+    concept: to-write-with-precision
+    term: precisión escrita
+    translation: written precision / to write with precision
     partOfSpeech: phrase
     gender: feminine
-    example: 'La precisión escrita es un signo de competencia.'
-    exampleTranslation: 'Written precision is a sign of competence.'
+    example: La precisión escrita es un signo de competencia.
+    exampleTranslation: Written precision is a sign of competence.
 grammar:
   - id: es-ES-B2-WRITTEN-003-G1
-    point: 'Adverbial clauses with "antes de que" + subjunctive'
+    point: Adverbial clauses with "antes de que" + subjunctive
     explanation: "Use 'antes de que' + subjunctive for temporal adverbial clauses: 'Reviso el texto antes de que lo envíe' (I review the text before I send it)."
     examples:
-      - 'Corrijo los errores antes de que el texto sea publicado.'
-      - 'Reviso la ortografía antes de que termine el plazo.'
-    cefrNotes: 'B2 learners use temporal adverbial clauses with subjunctive in written expression'
-culturalNotes: 'B2-level writing should demonstrate correct spelling and punctuation. While some errors are acceptable, the ability to self-correct through proofreading is a key development indicator.'
+      - Corrijo los errores antes de que el texto sea publicado.
+      - Reviso la ortografía antes de que termine el plazo.
+    cefrNotes: B2 learners use temporal adverbial clauses with subjunctive in written expression
+culturalNotes: B2-level writing should demonstrate correct spelling and punctuation. While some errors are acceptable, the ability to self-correct through proofreading is a key development indicator.

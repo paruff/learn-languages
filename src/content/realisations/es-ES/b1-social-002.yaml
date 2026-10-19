@@ -1,50 +1,53 @@
 nodeId: B1-SOCIAL-002
 lang: es-ES
 vocabulary:
-  - id: es-ES-B1-SOCIAL-002-001
-    concept: 'extended-conversation'
-    term: 'conversación extensa'
-    translation: 'extended conversation'
+  - id: es-ES-B1-SOCIAL-002-007
+    concept: familiar-topics
+    term: conversación extensa
+    translation: extended conversation / familiar topics
     partOfSpeech: phrase
     gender: feminine
-    example: 'Mantengo conversaciones extensas sobre temas familiares.'
-    exampleTranslation: 'I sustain extended conversations on familiar topics.'
-  - id: es-ES-B1-SOCIAL-002-002
-    concept: 'to-go-deeper'
-    term: 'profundizar'
-    translation: 'to go deeper'
+    example: Mantengo conversaciones extensas sobre temas familiares.
+    exampleTranslation: I sustain extended conversations on familiar topics.
+  - id: es-ES-B1-SOCIAL-002-008
+    concept: to-deepen-the-conversation
+    term: profundizar
+    translation: to go deeper / to deepen the conversation
     partOfSpeech: verb
-    example: 'Me gusta profundizar en los temas que me interesan.'
-    exampleTranslation: 'I like to go deeper into topics that interest me.'
-  - id: es-ES-B1-SOCIAL-002-003
-    concept: 'to-develop-a-topic'
-    term: 'desarrollar un tema'
-    translation: 'to develop a topic'
+    example: Me gusta profundizar en los temas que me interesan.
+    exampleTranslation: I like to go deeper into topics that interest me.
+    gender: n/a
+  - id: es-ES-B1-SOCIAL-002-009
+    concept: to-give-my-opinion
+    term: desarrollar un tema
+    translation: to develop a topic / to give my opinion
     partOfSpeech: phrase
-    example: 'Es fácil desarrollar un tema cuando te apasiona.'
-    exampleTranslation: 'It is easy to develop a topic when you are passionate about it.'
-  - id: es-ES-B1-SOCIAL-002-004
-    concept: 'personal-opinion'
-    term: 'opinión personal'
-    translation: 'personal opinion'
+    example: Es fácil desarrollar un tema cuando te apasiona.
+    exampleTranslation: It is easy to develop a topic when you are passionate about it.
+    gender: n/a
+  - id: es-ES-B1-SOCIAL-002-010
+    concept: to-listen-actively
+    term: opinión personal
+    translation: personal opinion / to listen actively
     partOfSpeech: phrase
     gender: feminine
-    example: 'Es importante dar tu opinión personal en la conversación.'
-    exampleTranslation: 'It is important to give your personal opinion in the conversation.'
-  - id: es-ES-B1-SOCIAL-002-005
-    concept: 'familiar-topic'
-    term: 'tema familiar'
-    translation: 'familiar topic'
+    example: Es importante dar tu opinión personal en la conversación.
+    exampleTranslation: It is important to give your personal opinion in the conversation.
+  - id: es-ES-B1-SOCIAL-002-011
+    concept: to-rephrase-what-was-heard
+    term: tema familiar
+    translation: familiar topic / to rephrase what was heard
     partOfSpeech: phrase
     gender: masculine
-    example: 'Puedo hablar de cualquier tema familiar con confianza.'
-    exampleTranslation: 'I can talk about any familiar topic with confidence.'
-  - id: es-ES-B1-SOCIAL-002-006
-    concept: 'to-sustain'
-    term: 'sostener'
-    translation: 'to sustain'
+    example: Puedo hablar de cualquier tema familiar con confianza.
+    exampleTranslation: I can talk about any familiar topic with confidence.
+  - id: es-ES-B1-SOCIAL-002-012
+    concept: to-confirm-understanding
+    term: sostener
+    translation: to sustain / to confirm understanding
     partOfSpeech: verb
-    example: 'Es importante sostener una conversación sin que se detenga.'
-    exampleTranslation: 'It is important to sustain a conversation without it stopping.'
+    example: Es importante sostener una conversación sin que se detenga.
+    exampleTranslation: It is important to sustain a conversation without it stopping.
+    gender: n/a
 grammar: []
-culturalNotes: 'Spanish conversation often involves animated discussion with overlapping speech. This is not considered rude but rather a sign of engagement and interest in the topic.'
+culturalNotes: Spanish conversation often involves animated discussion with overlapping speech. This is not considered rude but rather a sign of engagement and interest in the topic.

@@ -1,55 +1,60 @@
 nodeId: B1-OPINION-002
 lang: es-ES
 vocabulary:
-  - id: es-ES-B1-OPINION-002-001
-    concept: 'to-agree'
-    term: 'estar de acuerdo'
-    translation: 'to agree'
+  - id: es-ES-B1-OPINION-002-007
+    concept: i-fully-agree
+    term: estar de acuerdo
+    translation: to agree / I fully agree
     partOfSpeech: phrase
-    example: 'Estoy completamente de acuerdo contigo.'
-    exampleTranslation: 'I completely agree with you.'
-  - id: es-ES-B1-OPINION-002-002
-    concept: 'to-disagree'
-    term: 'discrepar'
-    translation: 'to disagree'
+    example: Estoy completamente de acuerdo contigo.
+    exampleTranslation: I completely agree with you.
+    gender: n/a
+  - id: es-ES-B1-OPINION-002-008
+    concept: i-agree
+    term: discrepar
+    translation: to disagree / I agree
     partOfSpeech: verb
-    example: 'Respeto tu opinión, pero discrepo.'
-    exampleTranslation: 'I respect your opinion, but I disagree.'
-  - id: es-ES-B1-OPINION-002-003
-    concept: 'to-some-extent'
-    term: 'en cierto modo'
-    translation: 'to some extent'
+    example: Respeto tu opinión, pero discrepo.
+    exampleTranslation: I respect your opinion, but I disagree.
+    gender: n/a
+  - id: es-ES-B1-OPINION-002-009
+    concept: i-disagree-with-your-point-of-view
+    term: en cierto modo
+    translation: to some extent / I disagree with your point of view
     partOfSpeech: phrase
-    example: 'En cierto modo tienes razón.'
-    exampleTranslation: 'To some extent you are right.'
-  - id: es-ES-B1-OPINION-002-004
-    concept: 'without-offence'
-    term: 'sin ofender'
-    translation: 'without offence'
+    example: En cierto modo tienes razón.
+    exampleTranslation: To some extent you are right.
+    gender: n/a
+  - id: es-ES-B1-OPINION-002-010
+    concept: i-understand-what-you-say-but
+    term: sin ofender
+    translation: without offence / I understand what you say, but
     partOfSpeech: phrase
-    example: 'Sin ofender, no estoy de acuerdo.'
-    exampleTranslation: 'Without offence, I do not agree.'
-  - id: es-ES-B1-OPINION-002-005
-    concept: 'respectfully'
-    term: 'respetuosamente'
-    translation: 'respectfully'
+    example: Sin ofender, no estoy de acuerdo.
+    exampleTranslation: Without offence, I do not agree.
+    gender: n/a
+  - id: es-ES-B1-OPINION-002-011
+    concept: i-do-not-fully-agree
+    term: respetuosamente
+    translation: respectfully / I do not fully agree
     partOfSpeech: adverb
-    example: 'Discrepo respetuosamente de tu punto de vista.'
-    exampleTranslation: 'I respectfully disagree with your point of view.'
-  - id: es-ES-B1-OPINION-002-006
-    concept: 'point-of-view'
-    term: 'punkt de vista'
-    translation: 'point of view'
+    example: Discrepo respetuosamente de tu punto de vista.
+    exampleTranslation: I respectfully disagree with your point of view.
+    gender: n/a
+  - id: es-ES-B1-OPINION-002-012
+    concept: that-depends
+    term: punkt de vista
+    translation: point of view / that depends
     partOfSpeech: phrase
     gender: masculine
-    example: 'Entiendo tu punto de vista, pero tengo otra opinión.'
-    exampleTranslation: 'I understand your point of view, but I have a different opinion.'
+    example: Entiendo tu punto de vista, pero tengo otra opinión.
+    exampleTranslation: I understand your point of view, but I have a different opinion.
 grammar:
   - id: es-ES-B1-OPINION-002-G1
-    point: 'Polite agreement and disagreement formulas'
+    point: Polite agreement and disagreement formulas
     explanation: "Use polite formulas: 'Estoy de acuerdo' (I agree), 'No estoy del todo de acuerdo' (I don't fully agree), 'Tienes razón en parte' (You're partly right)."
     examples:
-      - 'Entiendo lo que dices, pero no estoy del todo de acuerdo.'
-      - 'Tienes razón en parte, sin embargo...'
-    cefrNotes: 'B1 learners use hedging and politeness strategies in discussion'
-culturalNotes: 'Spanish discussion culture values directness tempered with respect. Phrases like "entiendo tu punto" (I understand your point) before disagreeing show B1-level pragmatic competence.'
+      - Entiendo lo que dices, pero no estoy del todo de acuerdo.
+      - Tienes razón en parte, sin embargo...
+    cefrNotes: B1 learners use hedging and politeness strategies in discussion
+culturalNotes: Spanish discussion culture values directness tempered with respect. Phrases like "entiendo tu punto" (I understand your point) before disagreeing show B1-level pragmatic competence.

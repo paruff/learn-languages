@@ -1,60 +1,60 @@
 nodeId: B2-SOCIAL-001
 lang: es-ES
 vocabulary:
-  - id: es-ES-B2-SOCIAL-001-001
-    concept: 'fluency'
-    term: 'fluidez'
-    translation: 'fluency'
+  - id: es-ES-B2-SOCIAL-001-007
+    concept: to-deepen-the-discussion
+    term: fluidez
+    translation: fluency / to deepen the discussion
     partOfSpeech: noun
     gender: feminine
-    example: 'Hablo con fluidez sobre temas familiares.'
-    exampleTranslation: 'I speak with fluency on familiar topics.'
-  - id: es-ES-B2-SOCIAL-001-002
-    concept: 'spontaneity'
-    term: 'espontaneidad'
-    translation: 'spontaneity'
+    example: Hablo con fluidez sobre temas familiares.
+    exampleTranslation: I speak with fluency on familiar topics.
+  - id: es-ES-B2-SOCIAL-001-008
+    concept: to-keep-the-conversation-going
+    term: espontaneidad
+    translation: spontaneity / to keep the conversation going
     partOfSpeech: noun
     gender: feminine
-    example: 'La espontaneidad en la conversación es importante.'
-    exampleTranslation: 'Spontaneity in conversation is important.'
-  - id: es-ES-B2-SOCIAL-001-003
-    concept: 'fluid-conversation'
-    term: 'conversación fluida'
-    translation: 'fluid conversation'
+    example: La espontaneidad en la conversación es importante.
+    exampleTranslation: Spontaneity in conversation is important.
+  - id: es-ES-B2-SOCIAL-001-009
+    concept: to-react-spontaneously
+    term: conversación fluida
+    translation: fluid conversation / to react spontaneously
     partOfSpeech: phrase
     gender: feminine
-    example: 'Mantuvimos una conversación fluida durante toda la tarde.'
-    exampleTranslation: 'We maintained a fluid conversation throughout the afternoon.'
-  - id: es-ES-B2-SOCIAL-001-004
-    concept: 'everyday-topics'
-    term: 'temas cotidianos'
-    translation: 'everyday topics'
+    example: Mantuvimos una conversación fluida durante toda la tarde.
+    exampleTranslation: We maintained a fluid conversation throughout the afternoon.
+  - id: es-ES-B2-SOCIAL-001-010
+    concept: to-participate-actively
+    term: temas cotidianos
+    translation: everyday topics / to participate actively
     partOfSpeech: phrase
     gender: masculine
-    example: 'Puedo hablar de temas cotidianos sin dificultad.'
-    exampleTranslation: 'I can talk about everyday topics without difficulty.'
-  - id: es-ES-B2-SOCIAL-001-005
-    concept: 'social-interaction'
-    term: 'interacción social'
-    translation: 'social interaction'
+    example: Puedo hablar de temas cotidianos sin dificultad.
+    exampleTranslation: I can talk about everyday topics without difficulty.
+  - id: es-ES-B2-SOCIAL-001-011
+    concept: to-express-ideas-clearly
+    term: interacción social
+    translation: social interaction / to express ideas clearly
     partOfSpeech: phrase
     gender: feminine
-    example: 'La interacción social es clave para aprender idiomas.'
-    exampleTranslation: 'Social interaction is key for learning languages.'
-  - id: es-ES-B2-SOCIAL-001-006
-    concept: 'naturalness'
-    term: 'naturalidad'
-    translation: 'naturalness'
+    example: La interacción social es clave para aprender idiomas.
+    exampleTranslation: Social interaction is key for learning languages.
+  - id: es-ES-B2-SOCIAL-001-012
+    concept: to-interact-with-fluency
+    term: naturalidad
+    translation: naturalness / to interact with fluency
     partOfSpeech: noun
     gender: feminine
-    example: 'Hablo con naturalidad en la mayoría de situaciones.'
-    exampleTranslation: 'I speak naturally in most situations.'
+    example: Hablo con naturalidad en la mayoría de situaciones.
+    exampleTranslation: I speak naturally in most situations.
 grammar:
   - id: es-ES-B2-SOCIAL-001-G1
-    point: 'Present subjunctive for spontaneous suggestions'
+    point: Present subjunctive for spontaneous suggestions
     explanation: "Use present subjunctive for spontaneous suggestions in conversation: '¿Qué tal si vamos al cine?' (What about going to the cinema?), '¿No crees que deberíamos salir?' (Don't you think we should go out?)."
     examples:
-      - '¿Qué tal si hablamos del tema mañana?'
-      - '¿No te parece que deberíamos cambiar de tema?'
-    cefrNotes: 'B2 learners use subjunctive for natural conversational suggestions'
-culturalNotes: 'B2-level Spanish conversation demonstrates natural fluency with idiomatic expressions and conversational fillers that signal engagement and spontaneity.'
+      - ¿Qué tal si hablamos del tema mañana?
+      - ¿No te parece que deberíamos cambiar de tema?
+    cefrNotes: B2 learners use subjunctive for natural conversational suggestions
+culturalNotes: B2-level Spanish conversation demonstrates natural fluency with idiomatic expressions and conversational fillers that signal engagement and spontaneity.
