@@ -19,7 +19,7 @@ vocabulary:
     exampleTranslation: 'Can you justify your point of view?'
   - id: de-DE-B2-ARGUE-002-003
     concept: 'current'
-    term: 'aktuelle'
+    term: 'aktuell'
     translation: 'current / topical'
     partOfSpeech: adjective
     gender: n/a
