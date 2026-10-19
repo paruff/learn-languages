@@ -8,14 +8,14 @@ const IT_DIR = 'src/content/realisations/it-IT';
 const EN_DIR = 'src/content/realisations/en-GB';
 
 function itVocabIds(levelPrefix: 'a1-' | 'a2-'): string[] {
-  const levelToken = levelPrefix.toUpperCase();
+  const levelToken = levelPrefix.toUpperCase().replace(/-$/, '');
   return readdirSync(IT_DIR)
     .filter((file) => file.startsWith(levelPrefix) && file.endsWith('.yaml'))
     .flatMap((file) => {
       const text = readFileSync(join(IT_DIR, file), 'utf8');
       return [...text.matchAll(/id:\s*['"]?(it-IT-[A-Za-z0-9-]+)['"]?/g)]
         .map((match) => match[1])
-        .filter((id) => id.includes(`${levelToken}-`) && !id.includes('-G'));
+        .filter((id) => id.includes(levelToken) && !id.includes('-G'));
     });
 }
 
