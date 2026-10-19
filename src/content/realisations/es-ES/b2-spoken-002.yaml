@@ -1,59 +1,60 @@
 nodeId: B2-SPOKEN-002
 lang: es-ES
 vocabulary:
-  - id: es-ES-B2-SPOKEN-002-001
-    concept: 'current-affairs-programme'
-    term: 'programa de actualidad'
-    translation: 'current affairs programme'
+  - id: es-ES-B2-SPOKEN-002-007
+    concept: to-understand-tv-news
+    term: programa de actualidad
+    translation: to understand TV news
     partOfSpeech: noun
     gender: masculine
-    example: 'Veo programas de actualidad para informarme.'
-    exampleTranslation: 'I watch current affairs programmes to stay informed.'
-  - id: es-ES-B2-SPOKEN-002-002
-    concept: 'news-broadcast'
-    term: 'noticiero'
-    translation: 'news broadcast'
+    example: Veo programas de actualidad para informarme.
+    exampleTranslation: I watch current affairs programmes to stay informed.
+  - id: es-ES-B2-SPOKEN-002-008
+    concept: to-follow-current-affairs-programmes
+    term: noticiero
+    translation: to follow current affairs programmes
     partOfSpeech: noun
     gender: masculine
-    example: 'El noticiero cubre temas internacionales.'
-    exampleTranslation: 'The news broadcast covers international topics.'
-  - id: es-ES-B2-SPOKEN-002-003
-    concept: 'film'
-    term: 'película'
-    translation: 'film / movie'
+    example: El noticiero cubre temas internacionales.
+    exampleTranslation: The news broadcast covers international topics.
+  - id: es-ES-B2-SPOKEN-002-009
+    concept: to-understand-films-without-subtitles
+    term: película
+    translation: to understand films without subtitles
     partOfSpeech: noun
     gender: feminine
-    example: 'Puedo entender películas sin subtítulos.'
-    exampleTranslation: 'I can understand films without subtitles.'
-  - id: es-ES-B2-SPOKEN-002-004
-    concept: 'television'
-    term: 'televisión'
-    translation: 'television'
+    example: Puedo entender películas sin subtítulos.
+    exampleTranslation: I can understand films without subtitles.
+  - id: es-ES-B2-SPOKEN-002-010
+    concept: to-identify-the-main-theme
+    term: televisión
+    translation: to identify the main theme
     partOfSpeech: noun
     gender: feminine
-    example: 'La televisión española tiene programas variados.'
-    exampleTranslation: 'Spanish television has varied programmes.'
-  - id: es-ES-B2-SPOKEN-002-005
-    concept: 'to-comprehend'
-    term: 'comprender'
-    translation: 'to comprehend'
+    example: La televisión española tiene programas variados.
+    exampleTranslation: Spanish television has varied programmes.
+  - id: es-ES-B2-SPOKEN-002-011
+    concept: to-understand-cultural-references
+    term: comprender
+    translation: to understand cultural references
     partOfSpeech: verb
-    example: 'Puedo comprender la mayoría de programas en televisión.'
-    exampleTranslation: 'I can comprehend most programmes on television.'
-  - id: es-ES-B2-SPOKEN-002-006
-    concept: 'fast-dialogue'
-    term: 'diálogo rápido'
-    translation: 'fast dialogue'
+    example: Puedo comprender la mayoría de programas en televisión.
+    exampleTranslation: I can comprehend most programmes on television.
+    gender: n/a
+  - id: es-ES-B2-SPOKEN-002-012
+    concept: to-synthesise-oral-information
+    term: diálogo rápido
+    translation: to synthesise oral information
     partOfSpeech: phrase
     gender: masculine
-    example: 'Los diálogos rápidos de las películas son un buen ejercicio.'
-    exampleTranslation: 'Fast film dialogues are good practice.'
+    example: Los diálogos rápidos de las películas son un buen ejercicio.
+    exampleTranslation: Fast film dialogues are good practice.
 grammar:
   - id: es-ES-B2-SPOKEN-002-G1
-    point: 'Temporal expressions with "desde que" + indicative for media comprehension'
+    point: Temporal expressions with "desde que" + indicative for media comprehension
     explanation: "Use 'desde que' + indicative for temporal reference in media comprehension: 'Desde que estudio español, entiendo más películas' (Since I study Spanish, I understand more films)."
     examples:
-      - 'Desde que vivo en Madrid, entiendo el noticiero sin problemas.'
-      - 'Desde que cambiaron el formato, los programas son más claros.'
-    cefrNotes: 'B2 learners use temporal clauses to contextualize media comprehension'
-culturalNotes: 'Understanding Spanish TV news and films at B2 level requires familiarity with regional accents, colloquial expressions, and cultural references. Spanish films often use regional dialects that add complexity.'
+      - Desde que vivo en Madrid, entiendo el noticiero sin problemas.
+      - Desde que cambiaron el formato, los programas son más claros.
+    cefrNotes: B2 learners use temporal clauses to contextualize media comprehension
+culturalNotes: Understanding Spanish TV news and films at B2 level requires familiarity with regional accents, colloquial expressions, and cultural references. Spanish films often use regional dialects that add complexity.

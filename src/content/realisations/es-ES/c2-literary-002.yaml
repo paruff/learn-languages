@@ -1,60 +1,60 @@
 nodeId: C2-LITERARY-002
 lang: es-ES
 vocabulary:
-  - id: es-ES-C2-LITERARY-002-001
-    concept: 'literary-style'
-    term: 'estilo literario'
-    translation: 'literary style'
+  - id: es-ES-C2-LITERARY-002-007
+    concept: elegant-style
+    term: estilo literario
+    translation: elegant style
     partOfSpeech: phrase
     gender: masculine
-    example: 'Puedo adaptar mi estilo literario según el texto.'
-    exampleTranslation: 'I can adapt my literary style according to the text.'
-  - id: es-ES-C2-LITERARY-002-002
-    concept: 'subtle-nuance'
-    term: 'matiz sutil'
-    translation: 'subtle nuance'
+    example: Puedo adaptar mi estilo literario según el texto.
+    exampleTranslation: I can adapt my literary style according to the text.
+  - id: es-ES-C2-LITERARY-002-008
+    concept: intended-effect
+    term: matiz sutil
+    translation: intended effect
     partOfSpeech: phrase
     gender: masculine
-    example: 'Escribo con matices sutiles que enriquecen el texto.'
-    exampleTranslation: 'I write with subtle nuances that enrich the text.'
-  - id: es-ES-C2-LITERARY-002-003
-    concept: 'effect-on-the-reader'
-    term: 'efecto en el lector'
-    translation: 'effect on the reader'
-    partOfSpeech: phrase
-    gender: masculine
-    example: 'Busco producir un efecto específico en el lector.'
-    exampleTranslation: 'I seek to produce a specific effect on the reader.'
+    example: Escribo con matices sutiles que enriquecen el texto.
+    exampleTranslation: I write with subtle nuances that enrich the text.
   - id: es-ES-C2-LITERARY-002-004
-    concept: 'appropriate-register'
-    term: 'registro adecuado'
-    translation: 'appropriate register'
+    concept: appropriate-register
+    term: registro adecuado
+    translation: appropriate register
     partOfSpeech: phrase
     gender: masculine
-    example: 'Selecciono el registro adecuado según la audiencia.'
-    exampleTranslation: 'I select the appropriate register according to the audience.'
-  - id: es-ES-C2-LITERARY-002-005
-    concept: 'written-precision'
-    term: 'precisión escrita'
-    translation: 'written precision'
+    example: Selecciono el registro adecuado según la audiencia.
+    exampleTranslation: I select the appropriate register according to the audience.
+  - id: es-ES-C2-LITERARY-002-006
+    concept: adapted-style
+    term: estilo adaptado
+    translation: adapted style
+    partOfSpeech: phrase
+    gender: masculine
+    example: Utilizo un estilo adaptado al tipo de texto.
+    exampleTranslation: I use an adapted style according to the type of text.
+  - id: es-ES-C2-LITERARY-002-009
+    concept: precision-and-subtlety
+    term: efecto en el lector
+    translation: precision and subtlety
+    partOfSpeech: phrase
+    gender: masculine
+    example: Busco producir un efecto específico en el lector.
+    exampleTranslation: I seek to produce a specific effect on the reader.
+  - id: es-ES-C2-LITERARY-002-010
+    concept: cultured-expression
+    term: precisión escrita
+    translation: cultured expression
     partOfSpeech: phrase
     gender: feminine
-    example: 'Mi precisión escrita es un signo de dominio del idioma.'
-    exampleTranslation: 'My written precision is a sign of language mastery.'
-  - id: es-ES-C2-LITERARY-002-006
-    concept: 'adapted-style'
-    term: 'estilo adaptado'
-    translation: 'adapted style'
-    partOfSpeech: phrase
-    gender: masculine
-    example: 'Utilizo un estilo adaptado al tipo de texto.'
-    exampleTranslation: 'I use an adapted style according to the type of text.'
+    example: Mi precisión escrita es un signo de dominio del idioma.
+    exampleTranslation: My written precision is a sign of language mastery.
 grammar:
   - id: es-ES-C2-LITERARY-002-G1
-    point: 'Subjunctive in relative clauses for style evaluation'
+    point: Subjunctive in relative clauses for style evaluation
     explanation: "Use subjunctive in relative clauses for literary style evaluation: 'Busco un estilo que refleje la sutileza del pensamiento' (I seek a style that reflects the subtlety of thought)."
     examples:
-      - 'Elijo un estilo que evoque la atmósfera adecuada.'
-      - 'Busco una expresión que transmita exactamente la emoción.'
-    cefrNotes: 'C2 learners use subjunctive in evaluative relative clauses for literary style control'
-culturalNotes: 'Writing with precision and subtlety at C2 level demonstrates the ability to convey intended effects on the reader, adapting style to text and audience with near-native command of the language.'
+      - Elijo un estilo que evoque la atmósfera adecuada.
+      - Busco una expresión que transmita exactamente la emoción.
+    cefrNotes: C2 learners use subjunctive in evaluative relative clauses for literary style control
+culturalNotes: Writing with precision and subtlety at C2 level demonstrates the ability to convey intended effects on the reader, adapting style to text and audience with near-native command of the language.

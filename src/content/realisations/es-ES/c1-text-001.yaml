@@ -1,60 +1,60 @@
 nodeId: C1-TEXT-001
 lang: es-ES
 vocabulary:
-  - id: es-ES-C1-TEXT-001-001
-    concept: 'demanding-text'
-    term: 'texto exigente'
-    translation: 'demanding text'
+  - id: es-ES-C1-TEXT-001-007
+    concept: to-read-between-the-lines
+    term: texto exigente
+    translation: to read between the lines
     partOfSpeech: phrase
     gender: masculine
-    example: 'Puedo leer textos exigentes con comprensión profunda.'
-    exampleTranslation: 'I can read demanding texts with deep comprehension.'
-  - id: es-ES-C1-TEXT-001-002
-    concept: 'implicit-meaning'
-    term: 'significado implícito'
-    translation: 'implicit meaning'
+    example: Puedo leer textos exigentes con comprensión profunda.
+    exampleTranslation: I can read demanding texts with deep comprehension.
+  - id: es-ES-C1-TEXT-001-008
+    concept: to-grasp-the-implicit-meaning
+    term: significado implícito
+    translation: to grasp the implicit meaning
     partOfSpeech: phrase
     gender: masculine
-    example: 'Reconozco el significado implícito en textos complejos.'
-    exampleTranslation: 'I recognise implicit meaning in complex texts.'
-  - id: es-ES-C1-TEXT-001-003
-    concept: 'extended-texts'
-    term: 'textos extensos'
-    translation: 'extended texts'
+    example: Reconozco el significado implícito en textos complejos.
+    exampleTranslation: I recognise implicit meaning in complex texts.
+  - id: es-ES-C1-TEXT-001-009
+    concept: to-discern-the-irony
+    term: textos extensos
+    translation: to discern the irony
     partOfSpeech: phrase
     gender: masculine
-    example: 'Leo textos extensos sin perder el hilo.'
-    exampleTranslation: 'I read extended texts without losing the thread.'
-  - id: es-ES-C1-TEXT-001-004
-    concept: 'layers-of-meaning'
-    term: 'capas de significado'
-    translation: 'layers of meaning'
+    example: Leo textos extensos sin perder el hilo.
+    exampleTranslation: I read extended texts without losing the thread.
+  - id: es-ES-C1-TEXT-001-010
+    concept: long-form-text
+    term: capas de significado
+    translation: long-form text
     partOfSpeech: phrase
     gender: feminine
-    example: 'Los textos literarios tienen múltiples capas de significado.'
-    exampleTranslation: 'Literary texts have multiple layers of meaning.'
-  - id: es-ES-C1-TEXT-001-005
-    concept: 'global-comprehension'
-    term: 'comprensión global'
-    translation: 'global comprehension'
+    example: Los textos literarios tienen múltiples capas de significado.
+    exampleTranslation: Literary texts have multiple layers of meaning.
+  - id: es-ES-C1-TEXT-001-011
+    concept: to-contextualise-the-work
+    term: comprensión global
+    translation: to contextualise the work
     partOfSpeech: phrase
     gender: feminine
-    example: 'Mi comprensión global de textos exigentes ha mejorado.'
-    exampleTranslation: 'My global comprehension of demanding texts has improved.'
-  - id: es-ES-C1-TEXT-001-006
-    concept: 'deep-reading'
-    term: 'lectura profunda'
-    translation: 'deep reading'
+    example: Mi comprensión global de textos exigentes ha mejorado.
+    exampleTranslation: My global comprehension of demanding texts has improved.
+  - id: es-ES-C1-TEXT-001-012
+    concept: to-infer-the-point-of-view
+    term: lectura profunda
+    translation: to infer the point of view
     partOfSpeech: phrase
     gender: feminine
-    example: 'La lectura profunda es esencial para entender textos complejos.'
-    exampleTranslation: 'Deep reading is essential for understanding complex texts.'
+    example: La lectura profunda es esencial para entender textos complejos.
+    exampleTranslation: Deep reading is essential for understanding complex texts.
 grammar:
   - id: es-ES-C1-TEXT-001-G1
-    point: 'Subjunctive in relative clauses for literary evaluation'
+    point: Subjunctive in relative clauses for literary evaluation
     explanation: "Use subjunctive in relative clauses to express literary evaluation: 'Busco textos que trasciendan lo superficial' (I seek texts that transcend the superficial)."
     examples:
-      - 'Puedo leer textos que requieran análisis profundo.'
-      - 'Entiendo obras que contemplen múltiples interpretaciones.'
-    cefrNotes: 'C1 learners use subjunctive in literary-evaluative relative clauses'
-culturalNotes: "Understanding demanding, longer texts at C1 level requires the ability to recognise implicit meaning, appreciate layers of interpretation, and engage critically with the text's content and style."
+      - Puedo leer textos que requieran análisis profundo.
+      - Entiendo obras que contemplen múltiples interpretaciones.
+    cefrNotes: C1 learners use subjunctive in literary-evaluative relative clauses
+culturalNotes: Understanding demanding, longer texts at C1 level requires the ability to recognise implicit meaning, appreciate layers of interpretation, and engage critically with the text's content and style.

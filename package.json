@@ -13,6 +13,7 @@
     "typecheck": "tsc --noEmit",
     "lint": "eslint src tests --ext .ts,.tsx,.astro --max-warnings 0 && prettier --check src tests",
     "validate:content": "astro sync && node --experimental-strip-types scripts/validate-content-integrity.ts",
+    "report:coverage": "node --experimental-strip-types scripts/report-concept-coverage.ts",
     "test": "vitest --run --coverage",
     "test:integration": "vitest --run --config vitest.integration.config.ts",
     "pretest:e2e": "npm run build",

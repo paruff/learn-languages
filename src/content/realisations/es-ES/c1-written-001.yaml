@@ -1,58 +1,60 @@
 nodeId: C1-WRITTEN-001
 lang: es-ES
 vocabulary:
-  - id: es-ES-C1-WRITTEN-001-001
-    concept: 'persuasive-text'
-    term: 'texto persuasivo'
-    translation: 'persuasive text'
+  - id: es-ES-C1-WRITTEN-001-007
+    concept: to-adapt-the-register-to-the-reader
+    term: texto persuasivo
+    translation: to adapt the register to the reader
     partOfSpeech: phrase
     gender: masculine
-    example: 'Puedo escribir textos persuasivos sobre temas abstractos.'
-    exampleTranslation: 'I can write persuasive texts on abstract topics.'
-  - id: es-ES-C1-WRITTEN-001-002
-    concept: 'to-adapt-the-register'
-    term: 'adaptar el registro'
-    translation: 'to adapt the register'
+    example: Puedo escribir textos persuasivos sobre temas abstractos.
+    exampleTranslation: I can write persuasive texts on abstract topics.
+  - id: es-ES-C1-WRITTEN-001-008
+    concept: opinion-piece
+    term: adaptar el registro
+    translation: opinion piece
     partOfSpeech: phrase
-    example: 'Sé adaptar el registro al lector objetivo.'
-    exampleTranslation: 'I know how to adapt the register to the target reader.'
-  - id: es-ES-C1-WRITTEN-001-003
-    concept: 'current-topic'
-    term: 'tema de actualidad'
-    translation: 'current topic'
-    partOfSpeech: phrase
-    gender: masculine
-    example: 'Escribo sobre temas de actualidad con profundidad.'
-    exampleTranslation: 'I write about current topics with depth.'
-  - id: es-ES-C1-WRITTEN-001-004
-    concept: 'appropriate-register'
-    term: 'registro adecuado'
-    translation: 'appropriate register'
+    example: Sé adaptar el registro al lector objetivo.
+    exampleTranslation: I know how to adapt the register to the target reader.
+    gender: n/a
+  - id: es-ES-C1-WRITTEN-001-009
+    concept: argumentative-coherence
+    term: tema de actualidad
+    translation: argumentative coherence
     partOfSpeech: phrase
     gender: masculine
-    example: 'El registro adecuado es clave para un buen texto.'
-    exampleTranslation: 'The appropriate register is key for a good text.'
-  - id: es-ES-C1-WRITTEN-001-005
-    concept: 'target-reader'
-    term: 'lector objetivo'
-    translation: 'target reader'
+    example: Escribo sobre temas de actualidad con profundidad.
+    exampleTranslation: I write about current topics with depth.
+  - id: es-ES-C1-WRITTEN-001-010
+    concept: to-dismantle-an-argument
+    term: registro adecuado
+    translation: to dismantle an argument
     partOfSpeech: phrase
     gender: masculine
-    example: 'Adapto el texto según el lector objetivo.'
-    exampleTranslation: 'I adapt the text according to the target reader.'
-  - id: es-ES-C1-WRITTEN-001-006
-    concept: 'to-persuade'
-    term: 'convencer'
-    translation: 'to persuade'
+    example: El registro adecuado es clave para un buen texto.
+    exampleTranslation: The appropriate register is key for a good text.
+  - id: es-ES-C1-WRITTEN-001-011
+    concept: critical-eye
+    term: lector objetivo
+    translation: critical eye
+    partOfSpeech: phrase
+    gender: masculine
+    example: Adapto el texto según el lector objetivo.
+    exampleTranslation: I adapt the text according to the target reader.
+  - id: es-ES-C1-WRITTEN-001-012
+    concept: personal-signature
+    term: convencer
+    translation: personal signature
     partOfSpeech: verb
-    example: 'Puedo convencer al lector con argumentos sólidos.'
-    exampleTranslation: 'I can persuade the reader with solid arguments.'
+    example: Puedo convencer al lector con argumentos sólidos.
+    exampleTranslation: I can persuade the reader with solid arguments.
+    gender: n/a
 grammar:
   - id: es-ES-C1-WRITTEN-001-G1
-    point: 'Passive voice for formal register in persuasive writing'
+    point: Passive voice for formal register in persuasive writing
     explanation: "Use passive voice for formal register: 'Se puede concluir que...' (It can be concluded that...), 'Se ha demostrado que...' (It has been demonstrated that...)."
     examples:
-      - 'Se puede afirmar que la tendencia es clara.'
-      - 'Se ha demostrado que el método es eficaz.'
-    cefrNotes: 'C1 learners use passive voice for formal register in persuasive writing'
-culturalNotes: 'Writing persuasive texts on abstract and current topics at C1 level requires the ability to adapt register to the intended reader, use formal language appropriately, and present arguments that convince.'
+      - Se puede afirmar que la tendencia es clara.
+      - Se ha demostrado que el método es eficaz.
+    cefrNotes: C1 learners use passive voice for formal register in persuasive writing
+culturalNotes: Writing persuasive texts on abstract and current topics at C1 level requires the ability to adapt register to the intended reader, use formal language appropriately, and present arguments that convince.

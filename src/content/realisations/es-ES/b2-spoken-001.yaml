@@ -1,59 +1,60 @@
 nodeId: B2-SPOKEN-001
 lang: es-ES
 vocabulary:
-  - id: es-ES-B2-SPOKEN-001-001
-    concept: 'extended-speech'
-    term: 'discurso extenso'
-    translation: 'extended speech'
+  - id: es-ES-B2-SPOKEN-001-007
+    concept: to-understand-extended-speech
+    term: discurso extenso
+    translation: to understand extended speech
     partOfSpeech: phrase
     gender: masculine
-    example: 'Puedo seguir discurso extensos sobre temas académicos.'
-    exampleTranslation: 'I can follow extended speech on academic topics.'
-  - id: es-ES-B2-SPOKEN-001-002
-    concept: 'lecture'
-    term: 'conferencia'
-    translation: 'lecture / conference'
+    example: Puedo seguir discurso extensos sobre temas académicos.
+    exampleTranslation: I can follow extended speech on academic topics.
+  - id: es-ES-B2-SPOKEN-001-008
+    concept: to-follow-lines-of-argumentation
+    term: conferencia
+    translation: to follow lines of argumentation
     partOfSpeech: noun
     gender: feminine
-    example: 'Asistí a una conferencia sobre inteligencia artificial.'
-    exampleTranslation: 'I attended a lecture on artificial intelligence.'
-  - id: es-ES-B2-SPOKEN-001-003
-    concept: 'line-of-argument'
-    term: 'línea de argumentación'
-    translation: 'line of argument'
+    example: Asistí a una conferencia sobre inteligencia artificial.
+    exampleTranslation: I attended a lecture on artificial intelligence.
+  - id: es-ES-B2-SPOKEN-001-009
+    concept: to-identify-discussion-topics
+    term: línea de argumentación
+    translation: to identify discussion topics
     partOfSpeech: phrase
     gender: feminine
-    example: 'Puedo seguir una línea de argumentación compleja.'
-    exampleTranslation: 'I can follow a complex line of argument.'
-  - id: es-ES-B2-SPOKEN-001-004
-    concept: 'dissertation'
-    term: 'disertación'
-    translation: 'dissertation / lecture'
+    example: Puedo seguir una línea de argumentación compleja.
+    exampleTranslation: I can follow a complex line of argument.
+  - id: es-ES-B2-SPOKEN-001-010
+    concept: to-understand-the-speech-structure
+    term: disertación
+    translation: to understand the speech structure
     partOfSpeech: noun
     gender: feminine
-    example: 'La disertación del profesor fue muy ilustrativa.'
-    exampleTranslation: "The professor's lecture was very informative."
-  - id: es-ES-B2-SPOKEN-001-005
-    concept: 'to-follow-the-thread'
-    term: 'seguir el hilo'
-    translation: 'to follow the thread'
+    example: La disertación del profesor fue muy ilustrativa.
+    exampleTranslation: The professor's lecture was very informative.
+  - id: es-ES-B2-SPOKEN-001-011
+    concept: to-note-the-intonation
+    term: seguir el hilo
+    translation: to note the intonation
     partOfSpeech: phrase
-    example: 'Es fácil seguir el hilo de su discurso.'
-    exampleTranslation: 'It is easy to follow the thread of his speech.'
-  - id: es-ES-B2-SPOKEN-001-006
-    concept: 'oral-presentation'
-    term: 'exposición oral'
-    translation: 'oral presentation'
+    example: Es fácil seguir el hilo de su discurso.
+    exampleTranslation: It is easy to follow the thread of his speech.
+    gender: n/a
+  - id: es-ES-B2-SPOKEN-001-012
+    concept: to-extract-relevant-information
+    term: exposición oral
+    translation: to extract relevant information
     partOfSpeech: phrase
     gender: feminine
-    example: 'La exposición oral del candidato fue clara.'
-    exampleTranslation: "The candidate's oral presentation was clear."
+    example: La exposición oral del candidato fue clara.
+    exampleTranslation: The candidate's oral presentation was clear.
 grammar:
   - id: es-ES-B2-SPOKEN-001-G1
-    point: 'Past subjunctive for reported speech in lectures'
+    point: Past subjunctive for reported speech in lectures
     explanation: "Use past subjunctive when reporting what was said in lectures: 'El profesor explicó que fuera importante estudiar' (The professor explained that it was important to study — formal literary register)."
     examples:
-      - 'El conferenciante sugirió que consideráramos otras opciones.'
-      - 'Dijo que el tema fuera de su interés.'
-    cefrNotes: 'B2 learners understand past subjunctive in formal reported speech contexts'
-culturalNotes: 'Spanish lectures at B2 level use formal academic register with complex sentence structures. Understanding extended speech requires familiarity with academic vocabulary and discourse markers.'
+      - El conferenciante sugirió que consideráramos otras opciones.
+      - Dijo que el tema fuera de su interés.
+    cefrNotes: B2 learners understand past subjunctive in formal reported speech contexts
+culturalNotes: Spanish lectures at B2 level use formal academic register with complex sentence structures. Understanding extended speech requires familiarity with academic vocabulary and discourse markers.

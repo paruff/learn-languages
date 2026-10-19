@@ -1,57 +1,60 @@
 nodeId: B1-DISCOURSE-005
 lang: es-ES
 vocabulary:
-  - id: es-ES-B1-DISCOURSE-005-001
-    concept: 'report'
-    term: 'informe'
-    translation: 'report'
+  - id: es-ES-B1-DISCOURSE-005-007
+    concept: brief-report
+    term: informe
+    translation: brief report
     partOfSpeech: noun
     gender: masculine
-    example: 'Escribí un informe sobre mi experiencia laboral.'
-    exampleTranslation: 'I wrote a report about my work experience.'
-  - id: es-ES-B1-DISCOURSE-005-002
-    concept: 'experience'
-    term: 'experiencia'
-    translation: 'experience'
+    example: Escribí un informe sobre mi experiencia laboral.
+    exampleTranslation: I wrote a report about my work experience.
+  - id: es-ES-B1-DISCOURSE-005-008
+    concept: to-summarise-the-facts
+    term: experiencia
+    translation: to summarise the facts
     partOfSpeech: noun
     gender: feminine
-    example: 'Compartí mi experiencia en el proyecto.'
-    exampleTranslation: 'I shared my experience in the project.'
-  - id: es-ES-B1-DISCOURSE-005-003
-    concept: 'to-describe'
-    term: 'describir'
-    translation: 'to describe'
+    example: Compartí mi experiencia en el proyecto.
+    exampleTranslation: I shared my experience in the project.
+  - id: es-ES-B1-DISCOURSE-005-009
+    concept: to-describe-the-situation
+    term: describir
+    translation: to describe the situation
     partOfSpeech: verb
-    example: 'Puedo describir experiencias de forma detallada.'
-    exampleTranslation: 'I can describe experiences in detail.'
-  - id: es-ES-B1-DISCOURSE-005-004
-    concept: 'result'
-    term: 'resultado'
-    translation: 'result'
+    example: Puedo describir experiencias de forma detallada.
+    exampleTranslation: I can describe experiences in detail.
+    gender: n/a
+  - id: es-ES-B1-DISCOURSE-005-010
+    concept: to-do-an-analysis
+    term: resultado
+    translation: to do an analysis
     partOfSpeech: noun
     gender: masculine
-    example: 'Los resultados del informe fueron positivos.'
-    exampleTranslation: 'The results of the report were positive.'
-  - id: es-ES-B1-DISCOURSE-005-005
-    concept: 'to-draft'
-    term: 'redactar'
-    translation: 'to draft / to write'
+    example: Los resultados del informe fueron positivos.
+    exampleTranslation: The results of the report were positive.
+  - id: es-ES-B1-DISCOURSE-005-011
+    concept: to-draw-conclusions
+    term: redactar
+    translation: to draw conclusions
     partOfSpeech: verb
-    example: 'Necesito redactar el informe para el lunes.'
-    exampleTranslation: 'I need to draft the report for Monday.'
-  - id: es-ES-B1-DISCOURSE-005-006
-    concept: 'to-conclude'
-    term: 'concluir'
-    translation: 'to conclude'
+    example: Necesito redactar el informe para el lunes.
+    exampleTranslation: I need to draft the report for Monday.
+    gender: n/a
+  - id: es-ES-B1-DISCOURSE-005-012
+    concept: to-present-recommendations
+    term: concluir
+    translation: to present recommendations
     partOfSpeech: verb
-    example: 'Concluyo que la experiencia fue muy positiva.'
-    exampleTranslation: 'I conclude that the experience was very positive.'
+    example: Concluyo que la experiencia fue muy positiva.
+    exampleTranslation: I conclude that the experience was very positive.
+    gender: n/a
 grammar:
   - id: es-ES-B1-DISCOURSE-005-G1
-    point: 'Report structures with "poner en" + noun'
+    point: Report structures with "poner en" + noun
     explanation: "Use formal report structures: 'poner en práctica' (to put into practice), 'poner de manifiesto' (to highlight), 'poner en evidencia' (to demonstrate)."
     examples:
-      - 'El informe pone de manifiesto la necesidad de cambios.'
-      - 'Los datos ponen en evidencia una tendencia positiva.'
-    cefrNotes: 'B1 learners use formal report structures for written expression'
+      - El informe pone de manifiesto la necesidad de cambios.
+      - Los datos ponen en evidencia una tendencia positiva.
+    cefrNotes: B1 learners use formal report structures for written expression
 culturalNotes: 'Spanish professional reports follow a structured format: introduction, development, conclusions, and recommendations. The register should be formal and objective.'

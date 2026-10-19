@@ -1,57 +1,60 @@
 nodeId: B2-ARGUE-003
 lang: es-ES
 vocabulary:
-  - id: es-ES-B2-ARGUE-003-001
-    concept: 'systematic-argument'
-    term: 'argumento sistemático'
-    translation: 'systematic argument'
+  - id: es-ES-B2-ARGUE-003-007
+    concept: to-develop-systematically
+    term: argumento sistemático
+    translation: to develop systematically
     partOfSpeech: phrase
     gender: masculine
-    example: 'Presentó un argumento sistemático y bien estructurado.'
-    exampleTranslation: 'He presented a systematic and well-structured argument.'
-  - id: es-ES-B2-ARGUE-003-002
-    concept: 'significant-points'
-    term: 'puntos significativos'
-    translation: 'significant points'
+    example: Presentó un argumento sistemático y bien estructurado.
+    exampleTranslation: He presented a systematic and well-structured argument.
+  - id: es-ES-B2-ARGUE-003-008
+    concept: to-highlight-important-points
+    term: puntos significativos
+    translation: to highlight important points
     partOfSpeech: phrase
     gender: masculine
-    example: 'Es importante destacar los puntos significativos.'
-    exampleTranslation: 'It is important to highlight the significant points.'
-  - id: es-ES-B2-ARGUE-003-003
-    concept: 'to-structure'
-    term: 'estructurar'
-    translation: 'to structure'
+    example: Es importante destacar los puntos significativos.
+    exampleTranslation: It is important to highlight the significant points.
+  - id: es-ES-B2-ARGUE-003-009
+    concept: to-present-relevant-details
+    term: estructurar
+    translation: to present relevant details
     partOfSpeech: verb
-    example: 'Necesito estructurar mejor mi discurso.'
-    exampleTranslation: 'I need to better structure my speech.'
-  - id: es-ES-B2-ARGUE-003-004
-    concept: 'to-refute'
-    term: 'rebatir'
-    translation: 'to refute'
+    example: Necesito estructurar mejor mi discurso.
+    exampleTranslation: I need to better structure my speech.
+    gender: n/a
+  - id: es-ES-B2-ARGUE-003-010
+    concept: to-structure-the-argumentation
+    term: rebatir
+    translation: to structure the argumentation
     partOfSpeech: verb
-    example: 'Es difícil rebatir un argumento tan bien fundamentado.'
-    exampleTranslation: 'It is difficult to refute such a well-founded argument.'
-  - id: es-ES-B2-ARGUE-003-005
-    concept: 'to-present'
-    term: 'exponer'
-    translation: 'to present / to explain'
+    example: Es difícil rebatir un argumento tan bien fundamentado.
+    exampleTranslation: It is difficult to refute such a well-founded argument.
+    gender: n/a
+  - id: es-ES-B2-ARGUE-003-011
+    concept: to-use-discourse-markers
+    term: exponer
+    translation: to use discourse markers
     partOfSpeech: verb
-    example: 'Voy a exponer mi punto de vista de forma clara.'
-    exampleTranslation: 'I am going to present my point of view clearly.'
-  - id: es-ES-B2-ARGUE-003-006
-    concept: 'emphasis'
-    term: 'énfasis'
-    translation: 'emphasis'
+    example: Voy a exponer mi punto de vista de forma clara.
+    exampleTranslation: I am going to present my point of view clearly.
+    gender: n/a
+  - id: es-ES-B2-ARGUE-003-012
+    concept: to-conclude-the-reasoning
+    term: énfasis
+    translation: to conclude the reasoning
     partOfSpeech: noun
     gender: masculine
-    example: 'Puso énfasis en los aspectos positivos.'
-    exampleTranslation: 'He placed emphasis on the positive aspects.'
+    example: Puso énfasis en los aspectos positivos.
+    exampleTranslation: He placed emphasis on the positive aspects.
 grammar:
   - id: es-ES-B2-ARGUE-003-G1
-    point: 'Subjunctive in argumentative clauses with "es importante que"'
+    point: Subjunctive in argumentative clauses with "es importante que"
     explanation: "Use subjunctive after expressions of importance: 'Es importante que se consideren' (It is important that they be considered), 'Es necesario que actúemos' (It is necessary that we act)."
     examples:
-      - 'Es fundamental que se presenten datos concretos.'
-      - 'Es crucial que la argumentación sea coherente.'
-    cefrNotes: 'B2 learners use subjunctive in formal argumentative structures'
-culturalNotes: 'Systematic argumentation at B2 level requires clear topic sentences, supporting evidence, and logical connectors. Spanish academic writing follows this structure closely.'
+      - Es fundamental que se presenten datos concretos.
+      - Es crucial que la argumentación sea coherente.
+    cefrNotes: B2 learners use subjunctive in formal argumentative structures
+culturalNotes: Systematic argumentation at B2 level requires clear topic sentences, supporting evidence, and logical connectors. Spanish academic writing follows this structure closely.

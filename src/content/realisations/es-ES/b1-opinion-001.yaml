@@ -1,57 +1,68 @@
 nodeId: B1-OPINION-001
 lang: es-ES
 vocabulary:
-  - id: es-ES-B1-OPINION-001-001
-    concept: 'opinion'
-    term: 'opinión'
-    translation: 'opinion'
+  - id: es-ES-B1-OPINION-001-007
+    concept: in-my-opinion
+    term: opinión
+    translation: in my opinion
     partOfSpeech: noun
     gender: feminine
-    example: 'Mi opinión es que debemos seguir adelante.'
-    exampleTranslation: 'My opinion is that we should move forward.'
-  - id: es-ES-B1-OPINION-001-002
-    concept: 'reason'
-    term: 'razón'
-    translation: 'reason'
+    example: Mi opinión es que debemos seguir adelante.
+    exampleTranslation: My opinion is that we should move forward.
+  - id: es-ES-B1-OPINION-001-008
+    concept: i-think-that
+    term: razón
+    translation: I think that
     partOfSpeech: noun
     gender: feminine
-    example: 'Tengo mis razones para pensar así.'
-    exampleTranslation: 'I have my reasons for thinking that way.'
-  - id: es-ES-B1-OPINION-001-003
-    concept: 'to-defend'
-    term: 'defender'
-    translation: 'to defend'
+    example: Tengo mis razones para pensar así.
+    exampleTranslation: I have my reasons for thinking that way.
+  - id: es-ES-B1-OPINION-001-009
+    concept: it-seems-to-me-that
+    term: defender
+    translation: it seems to me that
     partOfSpeech: verb
-    example: 'Es importante defender tus ideas con respeto.'
-    exampleTranslation: 'It is important to defend your ideas with respect.'
-  - id: es-ES-B1-OPINION-001-004
-    concept: 'to-justify'
-    term: 'justificar'
-    translation: 'to justify'
+    example: Es importante defender tus ideas con respeto.
+    exampleTranslation: It is important to defend your ideas with respect.
+    gender: n/a
+  - id: es-ES-B1-OPINION-001-010
+    concept: i-defend-the-idea-that
+    term: justificar
+    translation: I defend the idea that
     partOfSpeech: verb
-    example: 'Debes justificar tu respuesta con ejemplos.'
-    exampleTranslation: 'You must justify your answer with examples.'
-  - id: es-ES-B1-OPINION-001-005
-    concept: 'argument'
-    term: 'argumento'
-    translation: 'argument'
+    example: Debes justificar tu respuesta con ejemplos.
+    exampleTranslation: You must justify your answer with examples.
+    gender: n/a
+  - id: es-ES-B1-OPINION-001-011
+    concept: i-am-sure-that
+    term: argumento
+    translation: I am sure that
     partOfSpeech: noun
     gender: masculine
-    example: 'Presentó un argumento muy convincente.'
-    exampleTranslation: 'He presented a very convincing argument.'
-  - id: es-ES-B1-OPINION-001-006
-    concept: 'to-persuade'
-    term: 'persuadir'
-    translation: 'to persuade'
+    example: Presentó un argumento muy convincente.
+    exampleTranslation: He presented a very convincing argument.
+  - id: es-ES-B1-OPINION-001-012
+    concept: i-am-of-the-opinion-that
+    term: persuadir
+    translation: I am of the opinion that
     partOfSpeech: verb
-    example: 'Intenté persuadir a los demás con datos.'
-    exampleTranslation: 'I tried to persuade the others with data.'
+    example: Intenté persuadir a los demás con datos.
+    exampleTranslation: I tried to persuade the others with data.
+    gender: n/a
+  - id: es-ES-B1-OPINION-001-013
+    concept: to-defend-the-idea-that
+    term: persuadir
+    translation: to defend the idea that
+    partOfSpeech: verb
+    example: Intenté persuadir a los demás con datos.
+    exampleTranslation: I tried to persuade the others with data.
+    gender: n/a
 grammar:
   - id: es-ES-B1-OPINION-001-G1
-    point: 'Expressing opinions with "creo que" + indicative vs. subjunctive'
+    point: Expressing opinions with "creo que" + indicative vs. subjunctive
     explanation: "Use 'creo que' + indicative for beliefs: 'Creo que es importante.' Use 'no creo que' + subjunctive for doubt: 'No creo que sea correcto.'"
     examples:
-      - 'Creo que la educación es fundamental.'
-      - 'No creo que sea la mejor opción.'
-    cefrNotes: 'B1 learners distinguish indicative after positive opinion verbs, subjunctive after negatives'
-culturalNotes: 'In Spanish culture, expressing opinions directly is common and expected. The subjunctive after opinion verbs is a key B1 grammar point that distinguishes intermediate from beginner learners.'
+      - Creo que la educación es fundamental.
+      - No creo que sea la mejor opción.
+    cefrNotes: B1 learners distinguish indicative after positive opinion verbs, subjunctive after negatives
+culturalNotes: In Spanish culture, expressing opinions directly is common and expected. The subjunctive after opinion verbs is a key B1 grammar point that distinguishes intermediate from beginner learners.

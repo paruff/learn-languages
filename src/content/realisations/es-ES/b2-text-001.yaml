@@ -1,59 +1,60 @@
 nodeId: B2-TEXT-001
 lang: es-ES
 vocabulary:
-  - id: es-ES-B2-TEXT-001-001
-    concept: 'reading-independence'
-    term: 'independencia lectora'
-    translation: 'reading independence'
+  - id: es-ES-B2-TEXT-001-007
+    concept: to-read-with-independence
+    term: independencia lectora
+    translation: to read with independence
     partOfSpeech: phrase
     gender: feminine
-    example: 'Tengo independencia lectora en temas que me interesan.'
-    exampleTranslation: 'I have reading independence on topics that interest me.'
-  - id: es-ES-B2-TEXT-001-002
-    concept: 'extended-text'
-    term: 'texto extenso'
-    translation: 'extended text'
+    example: Tengo independencia lectora en temas que me interesan.
+    exampleTranslation: I have reading independence on topics that interest me.
+  - id: es-ES-B2-TEXT-001-008
+    concept: to-understand-texts-of-medium-difficulty
+    term: texto extenso
+    translation: to understand texts of medium difficulty
     partOfSpeech: phrase
     gender: masculine
-    example: 'Puedo leer textos extensos sin perder el hilo.'
-    exampleTranslation: 'I can read extended texts without losing the thread.'
-  - id: es-ES-B2-TEXT-001-003
-    concept: 'autonomous-reading'
-    term: 'lectura autónoma'
-    translation: 'autonomous reading'
+    example: Puedo leer textos extensos sin perder el hilo.
+    exampleTranslation: I can read extended texts without losing the thread.
+  - id: es-ES-B2-TEXT-001-009
+    concept: to-identify-main-ideas
+    term: lectura autónoma
+    translation: to identify main ideas
     partOfSpeech: phrase
     gender: feminine
-    example: 'La lectura autónoma es clave para mejorar.'
-    exampleTranslation: 'Autonomous reading is key to improving.'
-  - id: es-ES-B2-TEXT-001-004
-    concept: 'to-comprehend-texts'
-    term: 'comprender textos'
-    translation: 'to comprehend texts'
+    example: La lectura autónoma es clave para mejorar.
+    exampleTranslation: Autonomous reading is key to improving.
+  - id: es-ES-B2-TEXT-001-010
+    concept: to-use-reading-strategies
+    term: comprender textos
+    translation: to use reading strategies
     partOfSpeech: phrase
-    example: 'Puedo comprender textos de diversa complejidad.'
-    exampleTranslation: 'I can comprehend texts of diverse complexity.'
-  - id: es-ES-B2-TEXT-001-005
-    concept: 'personal-interest-topic'
-    term: 'tema de interés personal'
-    translation: 'personal interest topic'
+    example: Puedo comprender textos de diversa complejidad.
+    exampleTranslation: I can comprehend texts of diverse complexity.
+    gender: n/a
+  - id: es-ES-B2-TEXT-001-011
+    concept: to-read-critically
+    term: tema de interés personal
+    translation: to read critically
     partOfSpeech: phrase
     gender: masculine
-    example: 'Los textos sobre temas de interés personal son más fáciles.'
-    exampleTranslation: 'Texts on personal interest topics are easier.'
-  - id: es-ES-B2-TEXT-001-006
-    concept: 'reading-strategy'
-    term: 'estrategia lectora'
-    translation: 'reading strategy'
+    example: Los textos sobre temas de interés personal son más fáciles.
+    exampleTranslation: Texts on personal interest topics are easier.
+  - id: es-ES-B2-TEXT-001-012
+    concept: to-adapt-the-reading-pace
+    term: estrategia lectora
+    translation: to adapt the reading pace
     partOfSpeech: phrase
     gender: feminine
-    example: 'Aplico diferentes estrategias lectoras según el texto.'
-    exampleTranslation: 'I apply different reading strategies depending on the text.'
+    example: Aplico diferentes estrategias lectoras según el texto.
+    exampleTranslation: I apply different reading strategies depending on the text.
 grammar:
   - id: es-ES-B2-TEXT-001-G1
-    point: 'Relative clauses with "cuyo" for text reference'
+    point: Relative clauses with "cuyo" for text reference
     explanation: "Use 'cuyo/cuya/cuyos/cuyas' (whose) for text reference: 'El autor, cuyo estilo es único, escribe con claridad' (The author, whose style is unique, writes clearly)."
     examples:
-      - 'El artículo, cuya tesis es controvertida, generó debate.'
-      - 'Los autores, cuyos argumentos son sólidos, merecen credibilidad.'
-    cefrNotes: 'B2 learners use possessive relative clauses for sophisticated text comprehension'
-culturalNotes: 'Reading with independence at B2 level means being able to tackle unfamiliar texts on familiar topics, using context clues and reading strategies to maintain comprehension.'
+      - El artículo, cuya tesis es controvertida, generó debate.
+      - Los autores, cuyos argumentos son sólidos, merecen credibilidad.
+    cefrNotes: B2 learners use possessive relative clauses for sophisticated text comprehension
+culturalNotes: Reading with independence at B2 level means being able to tackle unfamiliar texts on familiar topics, using context clues and reading strategies to maintain comprehension.
