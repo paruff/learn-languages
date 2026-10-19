@@ -1,0 +1,53 @@
+nodeId: C2-MODALITY-005
+lang: fr-FR
+vocabulary:
+  - id: 'fr-FR-C2-MODALITY-005-001'
+    concept: 'smooth-flowing-text'
+    term: 'texte fluide'
+    translation: 'smooth-flowing text'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je rédige un texte fluide adapté au sujet.'
+    exampleTranslation: 'I write a smooth-flowing text adapted to the subject.'
+  - id: 'fr-FR-C2-MODALITY-005-002'
+    concept: 'engaging-introduction'
+    term: 'introduction engageante'
+    translation: 'engaging introduction'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'L’introduction engageante capte immédiatement l’attention.'
+    exampleTranslation: 'The engaging introduction immediately captures attention.'
+  - id: 'fr-FR-C2-MODALITY-005-003'
+    concept: 'development-of-the-subject'
+    term: 'développement du sujet'
+    translation: 'development of the subject'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Le développement du sujet suit une logique claire.'
+    exampleTranslation: 'The development of the subject follows a clear logic.'
+  - id: 'fr-FR-C2-MODALITY-005-004'
+    concept: 'central-point'
+    term: 'point central'
+    translation: 'central point'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je mets en relief le point central de mon argument.'
+    exampleTranslation: 'I highlight the central point of my argument.'
+  - id: 'fr-FR-C2-MODALITY-005-005'
+    concept: 'fitting-conclusion'
+    term: 'conclusion adaptée'
+    translation: 'fitting conclusion'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La conclusion adaptée clôt le texte de manière convaincante.'
+    exampleTranslation: 'The fitting conclusion closes the text convincingly.'
+  - id: 'fr-FR-C2-MODALITY-005-006'
+    concept: 'appropriate-style'
+    term: 'style approprié'
+    translation: 'appropriate style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Le style approprié renforce la clarté du message.'
+    exampleTranslation: 'The appropriate style strengthens the clarity of the message.'
+grammar: []
+culturalNotes: 'French C2 communication values precision, register control and stylistic finesse, with clear argumentation and smooth adaptation to the audience.'

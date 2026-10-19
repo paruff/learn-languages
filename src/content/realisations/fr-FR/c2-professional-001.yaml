@@ -1,0 +1,53 @@
+nodeId: C2-PROFESSIONAL-001
+lang: fr-FR
+vocabulary:
+  - id: 'fr-FR-C2-PROFESSIONAL-001-001'
+    concept: 'structured-summary'
+    term: 'résumé structuré'
+    translation: 'structured summary'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je rédige un résumé structuré et clair.'
+    exampleTranslation: 'I write a clear and structured summary.'
+  - id: 'fr-FR-C2-PROFESSIONAL-001-002'
+    concept: 'key-points'
+    term: 'points essentiels'
+    translation: 'key points'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je mets en avant les points essentiels du document.'
+    exampleTranslation: 'I highlight the key points of the document.'
+  - id: 'fr-FR-C2-PROFESSIONAL-001-003'
+    concept: 'appropriate-format'
+    term: 'format approprié'
+    translation: 'appropriate format'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Le format approprié renforce la qualité du rapport.'
+    exampleTranslation: 'The appropriate format strengthens the quality of the report.'
+  - id: 'fr-FR-C2-PROFESSIONAL-001-004'
+    concept: 'professional-style'
+    term: 'style professionnel'
+    translation: 'professional style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Le style professionnel reste clair et formel.'
+    exampleTranslation: 'The professional style remains clear and formal.'
+  - id: 'fr-FR-C2-PROFESSIONAL-001-005'
+    concept: 'complex-factual-material'
+    term: 'matériel factuel complexe'
+    translation: 'complex factual material'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je peux résumer un matériel factuel complexe avec précision.'
+    exampleTranslation: 'I can summarise complex factual material accurately.'
+  - id: 'fr-FR-C2-PROFESSIONAL-001-006'
+    concept: 'clear-presentation'
+    term: 'présentation claire'
+    translation: 'clear presentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La présentation claire aide le lecteur à suivre les idées.'
+    exampleTranslation: 'The clear presentation helps the reader follow the ideas.'
+grammar: []
+culturalNotes: 'French C2 communication values precision, register control and stylistic finesse, with clear argumentation and smooth adaptation to the audience.'

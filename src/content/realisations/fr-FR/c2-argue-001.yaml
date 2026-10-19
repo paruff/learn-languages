@@ -1,0 +1,53 @@
+nodeId: C2-ARGUE-001
+lang: fr-FR
+vocabulary:
+  - id: 'fr-FR-C2-ARGUE-001-001'
+    concept: 'precise-formulation'
+    term: 'formulation précise'
+    translation: 'precise formulation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je choisis une formulation précise pour éviter toute ambiguïté.'
+    exampleTranslation: 'I choose a precise formulation to avoid any ambiguity.'
+  - id: 'fr-FR-C2-ARGUE-001-002'
+    concept: 'range-of-linguistic-means'
+    term: 'large éventail de moyens linguistiques'
+    translation: 'range of linguistic means'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je dispose d’un large éventail de moyens linguistiques.'
+    exampleTranslation: 'I have a wide range of linguistic means at my disposal.'
+  - id: 'fr-FR-C2-ARGUE-001-003'
+    concept: 'clear-expression'
+    term: 'expression claire'
+    translation: 'clear expression'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'L’expression claire aide à transmettre le sens exact.'
+    exampleTranslation: 'Clear expression helps convey the exact meaning.'
+  - id: 'fr-FR-C2-ARGUE-001-004'
+    concept: 'lexical-precision'
+    term: 'précision lexicale'
+    translation: 'lexical precision'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La précision lexicale est essentielle dans un argument bien construit.'
+    exampleTranslation: 'Lexical precision is essential in a well-constructed argument.'
+  - id: 'fr-FR-C2-ARGUE-001-005'
+    concept: 'nuances-of-meaning'
+    term: 'nuances de sens'
+    translation: 'nuances of meaning'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je distingue les nuances de sens avec subtilité.'
+    exampleTranslation: 'I distinguish nuances of meaning with subtlety.'
+  - id: 'fr-FR-C2-ARGUE-001-006'
+    concept: 'unequivocal-expression'
+    term: 'expression sans ambiguïté'
+    translation: 'unequivocal expression'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'L’expression sans ambiguïté renforce la crédibilité du message.'
+    exampleTranslation: 'Unequivocal expression strengthens the credibility of the message.'
+grammar: []
+culturalNotes: 'French C2 communication values precision, register control and stylistic finesse, with clear argumentation and smooth adaptation to the audience.'

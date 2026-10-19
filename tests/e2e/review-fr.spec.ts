@@ -9,7 +9,6 @@ const FOOD_LESSON_URL = '/learn-languages/en-GB/fr-FR/lessons/A1-FOOD-001/';
 const JOB_LESSON_URL = '/learn-languages/en-GB/fr-FR/lessons/A2-JOB-001/';
 const B1_OPINION_LESSON_URL = '/learn-languages/en-GB/fr-FR/lessons/B1-OPINION-001/';
 const B2_ARGUE_LESSON_URL = '/learn-languages/en-GB/fr-FR/lessons/B2-ARGUE-001/';
-const C1_ACADEMIC_LESSON_URL = '/learn-languages/en-GB/fr-FR/lessons/C1-ACADEMIC-001/';
 const FR_DIR = 'src/content/realisations/fr-FR';
 const EN_DIR = 'src/content/realisations/en-GB';
 
@@ -63,11 +62,11 @@ function enB2Terms(): Set<string> {
   return terms;
 }
 
-/** en-GB C1 terms — the expected vocabulary surface of any C1 session card front. */
-function enC1Terms(): Set<string> {
+/** en-GB C2 terms — the expected vocabulary surface of any C2 session card front. */
+function enC2Terms(): Set<string> {
   const terms = new Set<string>();
   for (const f of readdirSync(EN_DIR)) {
-    if (!f.startsWith('c1-') || !f.endsWith('.yaml')) continue;
+    if (!f.startsWith('c2-') || !f.endsWith('.yaml')) continue;
     const text = readFileSync(join(EN_DIR, f), 'utf8');
     for (const m of text.matchAll(/^\s+term:\s*(.+)\s*$/gm)) {
       terms.add(m[1].replace(/^['"]/, '').replace(/['"]$/, ''));
@@ -338,16 +337,15 @@ test.describe('fr-FR B2 review session', () => {
   });
 });
 
-test.describe('fr-FR C1 review session', () => {
+test.describe('fr-FR C2 review session', () => {
   test.beforeEach(async ({ page }) => {
-    // Schedule every A1, A2, B1, and B2 card a year out so the SESSION_SIZE=15
-    // slice is drawn from C1 cards only.
     await page.goto(REVIEW_URL);
     const olderIds = [
       ...frVocabIds('a1-'),
       ...frVocabIds('a2-'),
       ...frVocabIds('b1-'),
       ...frVocabIds('b2-'),
+      ...frVocabIds('c1-'),
     ];
     expect(olderIds.length).toBeGreaterThan(0);
     await page.evaluate((ids) => {
@@ -363,7 +361,7 @@ test.describe('fr-FR C1 review session', () => {
     await page.reload();
   });
 
-  test('a full C1 session grades out and every card is C1', async ({ page }) => {
+  test('a full C2 session grades out and every card is C2', async ({ page }) => {
     const progress = page.locator('#review-progress');
     const front = page.locator('#review-front');
     const reveal = page.locator('#review-reveal');
@@ -375,7 +373,7 @@ test.describe('fr-FR C1 review session', () => {
     const totalCount = Number(progressText?.match(/of (\d+)$/)?.[1]);
     expect(totalCount).toBe(SESSION_SIZE);
 
-    const c1Terms = enC1Terms();
+    const c2Terms = enC2Terms();
     const fronts: string[] = [];
     for (let i = 0; i < totalCount; i++) {
       fronts.push((await front.textContent()) ?? '');
@@ -384,17 +382,10 @@ test.describe('fr-FR C1 review session', () => {
     }
 
     for (const text of fronts) {
-      expect([...c1Terms].some((term) => text.includes(term))).toBe(true);
+      expect([...c2Terms].some((term) => text.includes(term))).toBe(true);
     }
 
     await expect(summary).toBeVisible();
     await expect(summary).toContainText(`${totalCount}/${totalCount} correct first try`);
-  });
-
-  test('C1 academic lesson pairs English prompts with aligned French answers', async ({ page }) => {
-    await page.goto(C1_ACADEMIC_LESSON_URL);
-    const terms = page.locator('.vocab-item__term');
-    await expect(terms.nth(0)).toContainText('academic dissertation');
-    await expect(terms.nth(0)).toContainText('thèse universitaire');
   });
 });

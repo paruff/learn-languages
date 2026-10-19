@@ -1,0 +1,53 @@
+nodeId: C2-MODALITY-002
+lang: fr-FR
+vocabulary:
+  - id: 'fr-FR-C2-MODALITY-002-001'
+    concept: 'smooth-flowing-description'
+    term: 'description fluide'
+    translation: 'smooth-flowing description'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je fais une description fluide et facilement compréhensible.'
+    exampleTranslation: 'I give a smooth-flowing and easily understandable description.'
+  - id: 'fr-FR-C2-MODALITY-002-002'
+    concept: 'appropriate-style'
+    term: 'style approprié'
+    translation: 'appropriate style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'J’adopte le style approprié au sujet et au public.'
+    exampleTranslation: 'I adopt the appropriate style for the subject and audience.'
+  - id: 'fr-FR-C2-MODALITY-002-003'
+    concept: 'complex-subject'
+    term: 'sujet complexe'
+    translation: 'complex subject'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je peux traiter un sujet complexe avec clarté.'
+    exampleTranslation: 'I can handle a complex subject with clarity.'
+  - id: 'fr-FR-C2-MODALITY-002-004'
+    concept: 'key-points'
+    term: 'points essentiels'
+    translation: 'key points'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je mets en avant les points essentiels avec précision.'
+    exampleTranslation: 'I highlight the key points with precision.'
+  - id: 'fr-FR-C2-MODALITY-002-005'
+    concept: 'structured-argument'
+    term: 'argument structuré'
+    translation: 'structured argument'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Mon argument est structuré et bien hiérarchisé.'
+    exampleTranslation: 'My argument is structured and well organised.'
+  - id: 'fr-FR-C2-MODALITY-002-006'
+    concept: 'appropriate-conclusion'
+    term: 'conclusion adaptée'
+    translation: 'appropriate conclusion'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La conclusion adaptée clôt le discours de façon convaincante.'
+    exampleTranslation: 'The appropriate conclusion closes the speech convincingly.'
+grammar: []
+culturalNotes: 'French C2 communication values precision, register control and stylistic finesse, with clear argumentation and smooth adaptation to the audience.'

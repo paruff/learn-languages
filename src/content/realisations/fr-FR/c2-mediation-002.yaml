@@ -1,0 +1,53 @@
+nodeId: C2-MEDIATION-002
+lang: fr-FR
+vocabulary:
+  - id: 'fr-FR-C2-MEDIATION-002-001'
+    concept: 'abstract-texts'
+    term: 'textes abstraits'
+    translation: 'abstract texts'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je comprends les textes abstraits et exigeants.'
+    exampleTranslation: 'I understand abstract and demanding texts.'
+  - id: 'fr-FR-C2-MEDIATION-002-002'
+    concept: 'technically-complex-texts'
+    term: 'textes techniques complexes'
+    translation: 'technically complex texts'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je peux lire des textes techniques complexes sans difficulté majeure.'
+    exampleTranslation: 'I can read technically complex texts without major difficulty.'
+  - id: 'fr-FR-C2-MEDIATION-002-003'
+    concept: 'linguistically-demanding-texts'
+    term: 'textes linguistiquement exigeants'
+    translation: 'linguistically demanding texts'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Les textes linguistiquement exigeants ne me posent pas de problème.'
+    exampleTranslation: 'Linguistically demanding texts do not pose a problem for me.'
+  - id: 'fr-FR-C2-MEDIATION-002-004'
+    concept: 'style-and-implicit-meaning'
+    term: 'style et sens implicite'
+    translation: 'style and implicit meaning'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je perçois le style et le sens implicite d’un texte.'
+    exampleTranslation: 'I perceive the style and implicit meaning of a text.'
+  - id: 'fr-FR-C2-MEDIATION-002-005'
+    concept: 'contemporary-literature'
+    term: 'littérature contemporaine'
+    translation: 'contemporary literature'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La littérature contemporaine me permet d’explorer des nuances stylistiques.'
+    exampleTranslation: 'Contemporary literature allows me to explore stylistic nuances.'
+  - id: 'fr-FR-C2-MEDIATION-002-006'
+    concept: 'linguistic-nuance'
+    term: 'nuance linguistique'
+    translation: 'linguistic nuance'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je capte la nuance linguistique dans les textes les plus complexes.'
+    exampleTranslation: 'I grasp linguistic nuance in the most complex texts.'
+grammar: []
+culturalNotes: 'French C2 communication values precision, register control and stylistic finesse, with clear argumentation and smooth adaptation to the audience.'
