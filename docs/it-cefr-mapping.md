@@ -15,7 +15,7 @@ These sources satisfy the repo's policy bar (`docs/content-attribution.md`): fre
 
 ## TTS voice verification (#159)
 
-The implementation already does the correct thing for regional voices: `pronounce()` (`src/lib/pronounce.ts`) sets `utterance.lang` explicitly and prefers a voice whose `lang` matches that code. For Italian, the correct BCP-47 code is `it-IT`; it should resolve to an Italian voice (`it-IT`) rather than silently mapping to another locale such as `it-CH` or `it-IT` via a generic fallback.
+The implementation already does the correct thing for regional voices: `pronounce()` (`src/lib/pronounce.ts`) sets `utterance.lang` explicitly and prefers a voice whose `lang` matches that code. For Italian, the correct BCP-47 code is `it-IT`; it should resolve to an Italian voice (`it-IT`) rather than silently mapping to a generic locale such as `it` or another regional variant via a fallback.
 
 The repo's design is intentionally robust to the browser's voice list: it does not hardcode a locale alias, and it only uses an exact voice match when present. That is the same pattern already used for `pt-PT`, `es-ES`, and `de-DE`.
 
