@@ -6,7 +6,7 @@
 > Deep design detail (schemas, SM-2 maths, tokens, budgets) lives in `specification-design.md`. This file stays at the requirement level and links into it instead of copying it.
 > Per-feature design notes go in `docs/superpowers/specs/YYYY-MM-DD-<topic>-design.md` and must cite the requirement IDs they add or change here.
 
-**Spec version:** 1.2 (2026-10-18) · **Status legend:** ✅ shipped and verified · 🟡 partial · ⬜ not started
+**Spec version:** 1.3 (2026-10-19) · **Status legend:** ✅ shipped and verified · 🟡 partial · ⬜ not started
 
 ## 1. Content model
 
@@ -41,6 +41,10 @@
 | L13 | Opt-in picture-prompt cards: image only, the learner produces the target term                                                                                                     | Dual coding, retrieval (RHM; Carpenter & Olson 2012 caution) | `tests/e2e/review.spec.ts` (#145)                                | ✅     |
 | L14 | False-friend and cognate notes are shown when the source language is not English                                                                                                  | Transfer (Ringbom 2007)                                      | — (#147)                                                         | ⬜     |
 | L15 | Grammar points may carry a contrastive note keyed by source language                                                                                                              | Explicit instruction (Norris & Ortega 2000)                  | — (#144)                                                         | ⬜     |
+| L16 | Contrastive grammar modules explicitly compare the learner's source language and target language for high-interference features                                                   | Metalinguistic awareness, noticing, transfer                 | —                                                                | ⬜     |
+| L17 | Metalinguistic analysis tasks ask learners to explain and compare why a form is wrong or right, not just pick an answer                                                           | Metalinguistic awareness, explicit analysis                  | —                                                                | ⬜     |
+| L18 | Optional L1 grammar diagnostic identifies likely L1 gaps and recommends relevant contrastive L2 modules                                                                           | Metalinguistic awareness, calibration                        | —                                                                | ⬜     |
+| L19 | Tricky grammar points include short "rule-of-thumb" notes tied to likely L1→L2 interference patterns, shown in lessons and corrective support                                     | Explicit instruction, transfer                               | —                                                                | ⬜     |
 
 ## 3. Learner state & privacy
 
@@ -78,3 +82,6 @@ Unchanged from AGENTS.md §5 and §13: typecheck 0 errors, lint 0 warnings, cont
 - L8: does grammar share the vocabulary SRS queue (interleaved) or get its own? To be decided in #126.
 - S6: what is the smallest privacy-preserving way to know whether anyone came back on day 2? Options: a manual learner log, or opt-in self-hosted counters.
 - L13: does the picture-prompt mode raise the calibration-flag rate (L5) for image cards? Needs S6. The image-vs-non-image calibration split is tracked in #146.
+- L16/L17: should contrastive grammar and metalinguistic tasks run inside the same review queue as L8 items, or be a linked practice surface from lessons?
+- L18: should L1 diagnostics stay self-report + lightweight quizzes only, or include adaptive follow-up checks before recommending modules?
+- L19: how opinionated should "rule-of-thumb" guidance be per language pair before it becomes overgeneralized advice?
