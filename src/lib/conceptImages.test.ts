@@ -1,4 +1,6 @@
+import { readdirSync, readFileSync } from 'node:fs';
 import { describe, it, expect } from 'vitest';
+import { parse } from 'yaml';
 import {
   attachImages,
   checkConceptImages,
@@ -172,5 +174,43 @@ describe('checkConceptImages', () => {
       'missing override file: pharmacy.es-ES.webp',
       'orphan file: orphan.webp',
     ]);
+  });
+
+  it('covers every A2/B1 concrete-noun concept with a concept-image entry', () => {
+    const source = readFileSync('./src/content/concept-images/index.yaml', 'utf-8');
+    const images = parse(source) as ConceptImage[];
+    const ledgerConcepts = new Set(images.map((image) => image.concept));
+    const ledgerFiles = new Set(
+      images.flatMap((image) => [
+        image.file,
+        ...Object.values(image.overrides ?? {}).map((override) => override.file),
+      ])
+    );
+
+    const requiredConcepts = new Set<string>();
+    const requiredFiles = new Set<string>();
+
+    for (const file of readdirSync('./src/content/realisations/pt-PT')) {
+      if (!file.endsWith('.yaml')) continue;
+      const realisation = parse(
+        readFileSync(`./src/content/realisations/pt-PT/${file}`, 'utf-8')
+      ) as {
+        nodeId?: string;
+        vocabulary?: { concept?: string; imageUrl?: string }[];
+      };
+      if (
+        !realisation.nodeId ||
+        (!realisation.nodeId.startsWith('A2-') && !realisation.nodeId.startsWith('B1-'))
+      )
+        continue;
+      for (const item of realisation.vocabulary ?? []) {
+        if (!item.concept || !item.imageUrl) continue;
+        requiredConcepts.add(item.concept);
+        requiredFiles.add(item.imageUrl);
+      }
+    }
+
+    expect([...requiredConcepts].filter((concept) => !ledgerConcepts.has(concept))).toEqual([]);
+    expect([...requiredFiles].filter((file) => !ledgerFiles.has(file))).toEqual([]);
   });
 });

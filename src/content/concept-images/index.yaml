@@ -1,27 +1,100 @@
 - concept: bread
-  file: bread.webp
+  file: pao.webp
   alt: A loaf of bread wrapped in cloth in a wire basket.
-  source: https://example.com/bread
-  license: CC BY 4.0
-- concept: water
-  file: water.webp
-  alt: A clear glass filled with water.
-  source: https://example.com/water
+  source: https://commons.wikimedia.org/wiki/File:Bread_on_the_Table_(Unsplash).jpg
   license: CC0 1.0
-- concept: pharmacy
-  file: pharmacy.webp
-  alt: The interior of a modern pharmacy shop.
-  source: https://example.com/pharmacy
+- concept: water
+  file: agua.webp
+  alt: A clear glass filled with water.
+  source: https://commons.wikimedia.org/wiki/File:Glass-of-water.jpg
+  license: Public Domain
+- concept: author
+  file: autor.webp
+  alt: An author signing copies of their own book at a bookshop.
+  source: https://commons.wikimedia.org/wiki/File:Alistair_Mackay_signing_book_at_the_Book_Lounge_(February_2023).jpg
+  license: CC BY-SA 4.0
+- concept: book
+  file: livro.webp
+  alt: Open pages of a book.
+  source: https://commons.wikimedia.org/wiki/File:Open_Internal_Pages_of_the_Book_Detr%C3%A1s_del_espejo_08.png
+  license: CC BY-SA 4.0
+- concept: dance
+  file: dancar.webp
+  alt: People dancing together in a dance studio.
+  source: https://commons.wikimedia.org/wiki/File:Silhouettes_Dance_Studio_at_California_Dance_Festival_2025_01.jpg
+  license: CC BY-SA 4.0
+- concept: degree
+  file: diploma.webp
+  alt: A graduation diploma, cap, and ring.
+  source: https://commons.wikimedia.org/wiki/File:Graduation_diploma,_graduation_cap_and_senior_ring_of_Robert_Paul_Rowan_(10009396).jpg
   license: CC BY 4.0
-  culturallySpecific: true
-  overrides:
-    pt-PT:
-      file: pharmacy.pt-PT.webp
-      alt: A pharmacy interior in Portugal.
-      source: https://example.com/pharmacy-pt
-      license: CC BY 4.0
-    es-ES:
-      file: pharmacy.es-ES.webp
-      alt: A pharmacy interior in Spain.
-      source: https://example.com/pharmacy-es
-      license: CC BY 4.0
+- concept: doctor
+  file: medico.webp
+  alt: A female doctor listening to a patient with a stethoscope.
+  source: https://commons.wikimedia.org/wiki/File:Female_doctor_listens_to_the_patient_using_a_stethoscope_closeup.jpg
+  license: CC BY 2.0
+- concept: exam
+  file: exame.webp
+  alt: A handwritten exam paper in a classroom.
+  source: https://commons.wikimedia.org/wiki/File:Hand-writing-exam-classroom.jpg
+  license: CC BY 3.0
+- concept: magazine
+  file: revista.webp
+  alt: The illustrated cover of a vintage magazine.
+  source: https://commons.wikimedia.org/wiki/File:The_Elks_Magazine_1928-10_cover.png
+  license: Public Domain
+- concept: meeting
+  file: reuniao.webp
+  alt: People meeting around a desk in a work meeting.
+  source: https://commons.wikimedia.org/wiki/File:Work_Meeting.jpg
+  license: CC BY 2.0
+- concept: music
+  file: musica.webp
+  alt: A handwritten sheet of musical notation.
+  source: https://commons.wikimedia.org/wiki/File:Chopin_polonaise_Op._53.jpg
+  license: Public Domain
+- concept: newspaper
+  file: jornal.webp
+  alt: A person reading a large open newspaper.
+  source: https://commons.wikimedia.org/wiki/File:Person_reading_a_newspaper_(Unsplash).jpg
+  license: CC0 1.0
+- concept: office
+  file: escritorio.webp
+  alt: Hands typing at a keyboard and mouse on an office desk.
+  source: https://commons.wikimedia.org/wiki/File:Hands-desk-office-working_(24326654535).jpg
+  license: CC0 1.0
+- concept: party
+  file: festa.webp
+  alt: A birthday party table with balloons and a cake.
+  source: https://commons.wikimedia.org/wiki/File:K_Dimaculangan_first_birthday_party.jpg
+  license: CC BY-SA 3.0
+- concept: pharmacy
+  file: farmacia.webp
+  alt: The interior of a pharmacy shop with shelves of products.
+  source: https://commons.wikimedia.org/wiki/File:The_interior_of_a_modern_pharmacy_shop_in_the_United_States.jpg
+  license: CC BY 4.0
+- concept: radio
+  file: radio.webp
+  alt: An old vintage radio.
+  source: https://commons.wikimedia.org/wiki/File:Old_vintage_radio_-_Offenburg.jpg
+  license: CC BY 4.0
+- concept: school
+  file: escola.webp
+  alt: Students in a classroom.
+  source: https://commons.wikimedia.org/wiki/File:Students_in_a_classroom.jpg
+  license: Public Domain
+- concept: teacher
+  file: professor.webp
+  alt: An instructor presenting ideas on a whiteboard.
+  source: https://commons.wikimedia.org/wiki/File:Instructor_Presenting_Ideas_on_Whiteboard.jpg
+  license: CC BY 4.0
+- concept: television
+  file: televisao.webp
+  alt: A flat-screen television.
+  source: https://commons.wikimedia.org/wiki/File:A_flat-screen_television.jpg
+  license: CC BY-SA 4.0
+- concept: university
+  file: universidade.webp
+  alt: A university campus building illuminated at dusk.
+  source: https://commons.wikimedia.org/wiki/File:Academic_City_University_campus_building_illuminated_at_dusk.jpg
+  license: CC BY-SA 4.0
