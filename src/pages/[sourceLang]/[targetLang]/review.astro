@@ -133,8 +133,8 @@ const targetName = languageName(targetLang);
     margin: 0;
   }
   .review-card__image {
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    height: 160px;
     object-fit: cover;
     border-radius: var(--radius);
     background-color: var(--color-bg-secondary);
@@ -351,7 +351,9 @@ const targetName = languageName(targetLang);
     recallModeToggle.textContent =
       recallMode === 'type'
         ? getString(sourceLang, 'reviewModeType')
-        : getString(sourceLang, 'reviewModeReveal');
+        : recallMode === 'picture'
+          ? getString(sourceLang, 'reviewModePicture')
+          : getString(sourceLang, 'reviewModeReveal');
   }
 
   function buildQueue(): void {
@@ -411,12 +413,23 @@ const targetName = languageName(targetLang);
     typeInputEl.value = '';
     typeInputEl.disabled = false;
     typeFeedbackEl.hidden = true;
+
+    const picturePrompt = recallMode === 'picture' && !!image?.imageUrl;
     if (recallMode === 'type') {
       revealBtn.hidden = true;
       typeFormEl.hidden = false;
+      frontEl.hidden = false;
+      frontEl.textContent = frontOf(item).term;
+    } else if (picturePrompt) {
+      revealBtn.hidden = false;
+      typeFormEl.hidden = false;
+      frontEl.hidden = true;
+      imageEl.hidden = false;
     } else {
       revealBtn.hidden = false;
       typeFormEl.hidden = true;
+      frontEl.hidden = false;
+      frontEl.textContent = frontOf(item).term;
     }
   }
 
@@ -514,7 +527,13 @@ const targetName = languageName(targetLang);
   });
 
   recallModeToggle.addEventListener('click', () => {
-    recallMode = recallMode === 'type' ? 'reveal' : 'type';
+    if (recallMode === 'reveal') {
+      recallMode = 'type';
+    } else if (recallMode === 'type') {
+      recallMode = 'picture';
+    } else {
+      recallMode = 'reveal';
+    }
     saveRecallModePreference(sourceLang, targetLang, recallMode);
     updateRecallModeToggle();
     // Reset the current card's controls for the new mode without losing

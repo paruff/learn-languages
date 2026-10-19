@@ -58,6 +58,9 @@ describe('storage', () => {
   it('persists and reloads the chosen recall mode', () => {
     saveRecallModePreference('en-GB', 'pt-PT', 'type');
     expect(loadRecallModePreference('en-GB', 'pt-PT')).toBe('type');
+
+    saveRecallModePreference('en-GB', 'pt-PT', 'picture');
+    expect(loadRecallModePreference('en-GB', 'pt-PT')).toBe('picture');
   });
 });
 
