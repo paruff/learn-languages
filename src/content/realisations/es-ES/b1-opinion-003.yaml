@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-B1-OPINION-003-007
     concept: the-advantages-are
     term: ventaja
-    translation: the advantages are
+    translation: advantage / the advantages are
     partOfSpeech: noun
     gender: feminine
     example: Las ventajas de este método son evidentes.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-B1-OPINION-003-008
     concept: the-disadvantages-are
     term: desventaja
-    translation: the disadvantages are
+    translation: disadvantage / the disadvantages are
     partOfSpeech: noun
     gender: feminine
     example: La principal desventaja es el coste.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-B1-OPINION-003-009
     concept: on-the-one-hand-on-the-other-hand
     term: comparar
-    translation: on the one hand... on the other hand
+    translation: to compare / on the one hand... on the other hand
     partOfSpeech: verb
     example: Vamos a comparar las opciones disponibles.
     exampleTranslation: Let's compare the available options.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-B1-OPINION-003-010
     concept: a-positive-aspect
     term: por una parte
-    translation: a positive aspect
+    translation: on one hand / a positive aspect
     partOfSpeech: phrase
     example: Por una parte es barato; por otra, de baja calidad.
     exampleTranslation: On one hand it is cheap; on the other, low quality.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-B1-OPINION-003-011
     concept: a-negative-aspect
     term: por otra parte
-    translation: a negative aspect
+    translation: on the other hand / a negative aspect
     partOfSpeech: phrase
     example: Por otra parte, también hay aspectos positivos.
     exampleTranslation: On the other hand, there are also positive aspects.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-B1-OPINION-003-012
     concept: overall
     term: valorar
-    translation: overall
+    translation: to assess / to value / overall
     partOfSpeech: verb
     example: Hay que valorar tanto ventajas como desventajas.
     exampleTranslation: We must assess both advantages and disadvantages.

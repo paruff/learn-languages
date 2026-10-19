@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C1-WRITTEN-002-007
     concept: critical-review
     term: crítica de cine
-    translation: critical review
+    translation: film review / critical review
     partOfSpeech: phrase
     gender: feminine
     example: Escribí una crítica de cine para una revista.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C1-WRITTEN-002-008
     concept: reference-works
     term: reseña de exposición
-    translation: reference works
+    translation: exhibition review / reference works
     partOfSpeech: phrase
     gender: feminine
     example: La reseña de exposición fue publicada en un periódico.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C1-WRITTEN-002-009
     concept: aesthetic-judgement
     term: estilo adecuado
-    translation: aesthetic judgement
+    translation: appropriate style / aesthetic judgement
     partOfSpeech: phrase
     gender: masculine
     example: Selecciono el estilo adecuado según la publicación.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-C1-WRITTEN-002-010
     concept: to-put-into-perspective
     term: publicación objetivo
-    translation: to put into perspective
+    translation: target publication / to put into perspective
     partOfSpeech: phrase
     gender: feminine
     example: Adapto mi escritura según la publicación objetivo.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-C1-WRITTEN-002-011
     concept: close-reading
     term: opinión crítica
-    translation: close reading
+    translation: critical opinion / close reading
     partOfSpeech: phrase
     gender: feminine
     example: Expreso mi opinión crítica de forma argumentada.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-C1-WRITTEN-002-012
     concept: final-assessment
     term: seleccionar el estilo
-    translation: final assessment
+    translation: to select the style / final assessment
     partOfSpeech: phrase
     example: Sé seleccionar el estilo según el contexto.
     exampleTranslation: I know how to select the style according to the context.

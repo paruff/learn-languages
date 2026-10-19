@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C1-ARGUE-003-007
     concept: to-soften-a-statement
     term: matices sutiles
-    translation: to soften a statement
+    translation: subtle nuances / to soften a statement
     partOfSpeech: phrase
     gender: masculine
     example: Expreso matices sutiles con precisión.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C1-ARGUE-003-008
     concept: to-qualify-one-s-opinion
     term: matices semánticos
-    translation: to qualify one's opinion
+    translation: semantic nuances / to qualify one's opinion
     partOfSpeech: phrase
     gender: masculine
     example: Los matices semánticos son fundamentales en la traducción.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C1-ARGUE-003-009
     concept: rhetorical-modesty
     term: matizar
-    translation: rhetorical modesty
+    translation: to nuance / rhetorical modesty
     partOfSpeech: verb
     example: Sé matizar mis opiniones para ser más preciso.
     exampleTranslation: I know how to nuance my opinions to be more precise.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-C1-ARGUE-003-010
     concept: to-show-reserve
     term: matices culturales
-    translation: to show reserve
+    translation: cultural nuances / to show reserve
     partOfSpeech: phrase
     gender: masculine
     example: Los matices culturales son importantes al comunicar.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-C1-ARGUE-003-011
     concept: to-guard-one-s-opinion
     term: precisión lingüística
-    translation: to guard one's opinion
+    translation: linguistic precision / to guard one's opinion
     partOfSpeech: phrase
     gender: feminine
     example: La precisión lingüística es clave en el nivel C1.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-C1-ARGUE-003-012
     concept: to-express-prudent-doubt
     term: sugerir
-    translation: to express prudent doubt
+    translation: to suggest / to imply / to express prudent doubt
     partOfSpeech: verb
     example: El autor sugiere ideas sin declararlas explícitamente.
     exampleTranslation: The author suggests ideas without declaring them explicitly.

@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C1-SOCIAL-002-007
     concept: to-switch-register
     term: uso flexible
-    translation: to switch register
+    translation: flexible use / to switch register
     partOfSpeech: phrase
     gender: masculine
     example: Tengo un uso flexible del idioma en diversos contextos.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C1-SOCIAL-002-008
     concept: to-address-someone-formally
     term: propósitos sociales
-    translation: to address someone formally
+    translation: social purposes / to address someone formally
     partOfSpeech: phrase
     gender: masculine
     example: El idioma sirve para múltiples propósitos sociales.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C1-SOCIAL-002-009
     concept: to-address-someone-informally
     term: eficacia
-    translation: to address someone informally
+    translation: effectiveness / to address someone informally
     partOfSpeech: noun
     gender: feminine
     example: Comunico con eficacia en situaciones diversas.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-C1-SOCIAL-002-010
     concept: to-adjust-the-tone
     term: amplia gama de contextos
-    translation: to adjust the tone
+    translation: wide range of contexts / to adjust the tone
     partOfSpeech: phrase
     gender: masculine
     example: Puedo comunicarme en una amplia gama de contextos.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-C1-SOCIAL-002-011
     concept: to-keep-respectful-distance
     term: adaptabilidad lingüística
-    translation: to keep respectful distance
+    translation: linguistic adaptability / to keep respectful distance
     partOfSpeech: phrase
     gender: feminine
     example: La adaptabilidad lingüística es clave para la comunicación efectiva.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-C1-SOCIAL-002-012
     concept: to-break-the-ice
     term: registros
-    translation: to break the ice
+    translation: registers / to break the ice
     partOfSpeech: noun
     gender: masculine
     example: Domino diferentes registros según la situación.

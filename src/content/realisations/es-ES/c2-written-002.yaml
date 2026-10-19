@@ -3,15 +3,15 @@ lang: es-ES
 vocabulary:
   - id: es-ES-C2-WRITTEN-002-007
     concept: precision-and-subtlety
-    term: estilo elegante
+    term: precisión y sutileza
     translation: precision and subtlety
     partOfSpeech: phrase
-    gender: masculine
+    gender: feminine
     example: Escribo con un estilo elegante y preciso.
     exampleTranslation: I write with an elegant and precise style.
   - id: es-ES-C2-WRITTEN-002-008
     concept: intended-effect
-    term: efecto en el lector
+    term: efecto deseado
     translation: intended effect
     partOfSpeech: phrase
     gender: masculine
@@ -35,7 +35,7 @@ vocabulary:
     exampleTranslation: I use an adapted style according to the reader's needs.
   - id: es-ES-C2-WRITTEN-002-009
     concept: cultured-expression
-    term: adaptar el estilo
+    term: expresión culta
     translation: cultured expression
     partOfSpeech: phrase
     example: Sé adaptar el estilo al texto y a la audiencia.
@@ -43,7 +43,7 @@ vocabulary:
     gender: n/a
   - id: es-ES-C2-WRITTEN-002-010
     concept: elegant-writing
-    term: precisión sutil
+    term: escritura elegante
     translation: elegant writing
     partOfSpeech: phrase
     gender: feminine

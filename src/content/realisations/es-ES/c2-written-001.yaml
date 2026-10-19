@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C2-WRITTEN-001-007
     concept: detailed-and-well-structured-text
     term: texto detallado
-    translation: detailed and well-structured text
+    translation: detailed text / detailed and well-structured text
     partOfSpeech: phrase
     gender: masculine
     example: Puedo escribir textos detallados y bien estructurados.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C2-WRITTEN-001-008
     concept: development-of-arguments
     term: hipótesis
-    translation: development of arguments
+    translation: hypothesis / development of arguments
     partOfSpeech: noun
     gender: feminine
     example: Puedo desarrollar y apoyar hipótesis complejas.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C2-WRITTEN-001-009
     concept: well-founded-hypotheses
     term: razonamiento estructurado
-    translation: well-founded hypotheses
+    translation: structured reasoning / well-founded hypotheses
     partOfSpeech: phrase
     gender: masculine
     example: Mi razonamiento estructurado es claro y convincente.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-C2-WRITTEN-001-010
     concept: chain-of-reasoning
     term: argumentación convincente
-    translation: chain of reasoning
+    translation: convincing argumentation / chain of reasoning
     partOfSpeech: phrase
     gender: feminine
     example: Mi argumentación convincente respalda mis conclusiones.

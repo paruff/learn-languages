@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-B2-ARGUE-003-007
     concept: to-develop-systematically
     term: argumento sistemático
-    translation: to develop systematically
+    translation: systematic argument / to develop systematically
     partOfSpeech: phrase
     gender: masculine
     example: Presentó un argumento sistemático y bien estructurado.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-B2-ARGUE-003-008
     concept: to-highlight-important-points
     term: puntos significativos
-    translation: to highlight important points
+    translation: significant points / to highlight important points
     partOfSpeech: phrase
     gender: masculine
     example: Es importante destacar los puntos significativos.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-B2-ARGUE-003-009
     concept: to-present-relevant-details
     term: estructurar
-    translation: to present relevant details
+    translation: to structure / to present relevant details
     partOfSpeech: verb
     example: Necesito estructurar mejor mi discurso.
     exampleTranslation: I need to better structure my speech.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-B2-ARGUE-003-010
     concept: to-structure-the-argumentation
     term: rebatir
-    translation: to structure the argumentation
+    translation: to refute / to structure the argumentation
     partOfSpeech: verb
     example: Es difícil rebatir un argumento tan bien fundamentado.
     exampleTranslation: It is difficult to refute such a well-founded argument.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-B2-ARGUE-003-011
     concept: to-use-discourse-markers
     term: exponer
-    translation: to use discourse markers
+    translation: to present / to explain / to use discourse markers
     partOfSpeech: verb
     example: Voy a exponer mi punto de vista de forma clara.
     exampleTranslation: I am going to present my point of view clearly.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-B2-ARGUE-003-012
     concept: to-conclude-the-reasoning
     term: énfasis
-    translation: to conclude the reasoning
+    translation: emphasis / to conclude the reasoning
     partOfSpeech: noun
     gender: masculine
     example: Puso énfasis en los aspectos positivos.

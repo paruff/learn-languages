@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-B2-TEXT-001-007
     concept: to-read-with-independence
     term: independencia lectora
-    translation: to read with independence
+    translation: reading independence / to read with independence
     partOfSpeech: phrase
     gender: feminine
     example: Tengo independencia lectora en temas que me interesan.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-B2-TEXT-001-008
     concept: to-understand-texts-of-medium-difficulty
     term: texto extenso
-    translation: to understand texts of medium difficulty
+    translation: extended text / to understand texts of medium difficulty
     partOfSpeech: phrase
     gender: masculine
     example: Puedo leer textos extensos sin perder el hilo.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-B2-TEXT-001-009
     concept: to-identify-main-ideas
     term: lectura autónoma
-    translation: to identify main ideas
+    translation: autonomous reading / to identify main ideas
     partOfSpeech: phrase
     gender: feminine
     example: La lectura autónoma es clave para mejorar.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-B2-TEXT-001-010
     concept: to-use-reading-strategies
     term: comprender textos
-    translation: to use reading strategies
+    translation: to comprehend texts / to use reading strategies
     partOfSpeech: phrase
     example: Puedo comprender textos de diversa complejidad.
     exampleTranslation: I can comprehend texts of diverse complexity.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-B2-TEXT-001-011
     concept: to-read-critically
     term: tema de interés personal
-    translation: to read critically
+    translation: personal interest topic / to read critically
     partOfSpeech: phrase
     gender: masculine
     example: Los textos sobre temas de interés personal son más fáciles.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-B2-TEXT-001-012
     concept: to-adapt-the-reading-pace
     term: estrategia lectora
-    translation: to adapt the reading pace
+    translation: reading strategy / to adapt the reading pace
     partOfSpeech: phrase
     gender: feminine
     example: Aplico diferentes estrategias lectoras según el texto.

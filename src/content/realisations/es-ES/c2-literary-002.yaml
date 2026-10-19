@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C2-LITERARY-002-007
     concept: elegant-style
     term: estilo literario
-    translation: elegant style
+    translation: literary style / elegant style
     partOfSpeech: phrase
     gender: masculine
     example: Puedo adaptar mi estilo literario según el texto.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C2-LITERARY-002-008
     concept: intended-effect
     term: matiz sutil
-    translation: intended effect
+    translation: subtle nuance / intended effect
     partOfSpeech: phrase
     gender: masculine
     example: Escribo con matices sutiles que enriquecen el texto.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-C2-LITERARY-002-009
     concept: precision-and-subtlety
     term: efecto en el lector
-    translation: precision and subtlety
+    translation: effect on the reader / precision and subtlety
     partOfSpeech: phrase
     gender: masculine
     example: Busco producir un efecto específico en el lector.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-C2-LITERARY-002-010
     concept: cultured-expression
     term: precisión escrita
-    translation: cultured expression
+    translation: written precision / cultured expression
     partOfSpeech: phrase
     gender: feminine
     example: Mi precisión escrita es un signo de dominio del idioma.

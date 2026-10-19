@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-B1-SOCIAL-002-007
     concept: familiar-topics
     term: conversación extensa
-    translation: familiar topics
+    translation: extended conversation / familiar topics
     partOfSpeech: phrase
     gender: feminine
     example: Mantengo conversaciones extensas sobre temas familiares.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-B1-SOCIAL-002-008
     concept: to-deepen-the-conversation
     term: profundizar
-    translation: to deepen the conversation
+    translation: to go deeper / to deepen the conversation
     partOfSpeech: verb
     example: Me gusta profundizar en los temas que me interesan.
     exampleTranslation: I like to go deeper into topics that interest me.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-B1-SOCIAL-002-009
     concept: to-give-my-opinion
     term: desarrollar un tema
-    translation: to give my opinion
+    translation: to develop a topic / to give my opinion
     partOfSpeech: phrase
     example: Es fácil desarrollar un tema cuando te apasiona.
     exampleTranslation: It is easy to develop a topic when you are passionate about it.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-B1-SOCIAL-002-010
     concept: to-listen-actively
     term: opinión personal
-    translation: to listen actively
+    translation: personal opinion / to listen actively
     partOfSpeech: phrase
     gender: feminine
     example: Es importante dar tu opinión personal en la conversación.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-B1-SOCIAL-002-011
     concept: to-rephrase-what-was-heard
     term: tema familiar
-    translation: to rephrase what was heard
+    translation: familiar topic / to rephrase what was heard
     partOfSpeech: phrase
     gender: masculine
     example: Puedo hablar de cualquier tema familiar con confianza.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-B1-SOCIAL-002-012
     concept: to-confirm-understanding
     term: sostener
-    translation: to confirm understanding
+    translation: to sustain / to confirm understanding
     partOfSpeech: verb
     example: Es importante sostener una conversación sin que se detenga.
     exampleTranslation: It is important to sustain a conversation without it stopping.

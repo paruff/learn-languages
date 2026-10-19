@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C1-MEDIATION-001-007
     concept: to-translate-for-laymen
     term: reformular
-    translation: to translate for laymen
+    translation: to reformulate / to translate for laymen
     partOfSpeech: verb
     example: Puedo reformular ideas complejas de forma accesible.
     exampleTranslation: I can reformulate complex ideas in an accessible way.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C1-MEDIATION-001-008
     concept: to-simplify-without-losing-rigour
     term: simplificar
-    translation: to simplify without losing rigour
+    translation: to simplify / to simplify without losing rigour
     partOfSpeech: verb
     example: Sé simplificar sin perder precisión técnica.
     exampleTranslation: I know how to simplify without losing technical precision.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C1-MEDIATION-001-009
     concept: to-bridge-between-audiences
     term: cuestión compleja
-    translation: to bridge between audiences
+    translation: complicated issue / to bridge between audiences
     partOfSpeech: phrase
     gender: feminine
     example: Puedo explicar una cuestión compleja a un público general.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-C1-MEDIATION-001-010
     concept: to-rewrite-the-explanation
     term: accesible
-    translation: to rewrite the explanation
+    translation: accessible / to rewrite the explanation
     partOfSpeech: adjective
     gender: masculine
     example: El lenguaje accesible es clave para la mediación.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-C1-MEDIATION-001-011
     concept: the-heart-of-the-matter
     term: precisión
-    translation: the heart of the matter
+    translation: precision / the heart of the matter
     partOfSpeech: noun
     gender: feminine
     example: Mantengo la precisión aunque simplifique.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-C1-MEDIATION-001-012
     concept: presentation-in-simple-terms
     term: traducir al lenguaje cotidiano
-    translation: presentation in simple terms
+    translation: to translate into everyday language / presentation in simple terms
     partOfSpeech: phrase
     example: Sé traducir conceptos técnicos al lenguaje cotidiano.
     exampleTranslation: I know how to translate technical concepts into everyday language.

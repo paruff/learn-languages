@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-B1-DISCOURSE-001-003
     concept: furthermore
     term: además
-    translation: furthermore
+    translation: furthermore / besides / furthermore
     partOfSpeech: conjunction
     example: Además, hay que considerar el coste.
     exampleTranslation: Furthermore, we must consider the cost.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-B1-DISCOURSE-001-007
     concept: although
     term: conector
-    translation: although
+    translation: connector / discourse marker / although
     partOfSpeech: noun
     gender: masculine
     example: Los conectores ayudan a enlazar ideas.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-B1-DISCOURSE-001-008
     concept: despite
     term: enlazar ideas
-    translation: despite
+    translation: to link ideas / despite
     partOfSpeech: phrase
     example: Es importante enlazar ideas de forma coherente.
     exampleTranslation: It is important to link ideas coherently.

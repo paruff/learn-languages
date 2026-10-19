@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-B1-OPINION-004-007
     concept: opinion-article
     term: acontecimiento
-    translation: opinion article
+    translation: event / happening / opinion article
     partOfSpeech: noun
     gender: masculine
     example: Los acontecimientos recientes han sido importantes.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-B1-OPINION-004-008
     concept: to-write-about
     term: opinar
-    translation: to write about
+    translation: to give an opinion / to write about
     partOfSpeech: verb
     example: Es importante opinar con conocimiento.
     exampleTranslation: It is important to give an opinion based on knowledge.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-B1-OPINION-004-009
     concept: to-express-my-position
     term: reflexionar
-    translation: to express my position
+    translation: to reflect / to express my position
     partOfSpeech: verb
     example: Hay que reflexionar sobre las causas del problema.
     exampleTranslation: We must reflect on the causes of the problem.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-B1-OPINION-004-010
     concept: to-support-my-opinion
     term: análisis
-    translation: to support my opinion
+    translation: analysis / to support my opinion
     partOfSpeech: noun
     gender: masculine
     example: El análisis de la situación revela varios factores.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-B1-OPINION-004-011
     concept: current-events
     term: expresar
-    translation: current events
+    translation: to express / current events
     partOfSpeech: verb
     example: Puedo expresar mi opinión por escrito.
     exampleTranslation: I can express my opinion in writing.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-B1-OPINION-004-012
     concept: the-media
     term: punto de vista
-    translation: the media
+    translation: point of view / the media
     partOfSpeech: phrase
     gender: masculine
     example: Desde mi punto de vista, la situación es preocupante.
@@ -52,7 +52,7 @@ vocabulary:
   - id: es-ES-B1-OPINION-004-013
     concept: media
     term: punto de vista
-    translation: media
+    translation: point of view / media
     partOfSpeech: phrase
     gender: masculine
     example: Desde mi punto de vista, la situación es preocupante.

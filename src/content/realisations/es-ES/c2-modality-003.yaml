@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C2-MODALITY-003-007
     concept: rapid-auditory-comprehension
     term: lengua hablada
-    translation: rapid auditory comprehension
+    translation: spoken language / rapid auditory comprehension
     partOfSpeech: phrase
     gender: feminine
     example: Entiendo toda forma de lengua hablada, incluyendo acentos variados.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C2-MODALITY-003-008
     concept: fast-native-speech
     term: velocidad nativa
-    translation: fast native speech
+    translation: native speed / fast native speech
     partOfSpeech: phrase
     gender: feminine
     example: Puedo seguir conversaciones a velocidad nativa.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C2-MODALITY-003-009
     concept: varied-accents
     term: acento variado
-    translation: varied accents
+    translation: varied accent / varied accents
     partOfSpeech: phrase
     gender: masculine
     example: Entiendo diferentes acentos sin dificultad.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-C2-MODALITY-003-010
     concept: any-kind-of-spoken-language
     term: emisión en directo
-    translation: any kind of spoken language
+    translation: live broadcast / any kind of spoken language
     partOfSpeech: phrase
     gender: feminine
     example: Sigo emisiones en directo sin perder detalles.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-C2-MODALITY-003-011
     concept: quick-adaptation
     term: transmisión
-    translation: quick adaptation
+    translation: broadcast / quick adaptation
     partOfSpeech: noun
     gender: feminine
     example: Entiendo transmisiones en vivo de noticias y eventos.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-C2-MODALITY-003-012
     concept: complete-understanding
     term: comprensión auditiva avanzada
-    translation: complete understanding
+    translation: advanced listening comprehension / complete understanding
     partOfSpeech: phrase
     gender: feminine
     example: Mi comprensión auditiva avanzada abarca todos los registros.

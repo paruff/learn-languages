@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C1-SPOKEN-001-007
     concept: detailed-narrative
     term: descripción completa
-    translation: detailed narrative
+    translation: complete description / detailed narrative
     partOfSpeech: phrase
     gender: feminine
     example: Ofrezco descripciones completas de temas complejos.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C1-SPOKEN-001-008
     concept: background
     term: narración
-    translation: background
+    translation: narrative / background
     partOfSpeech: noun
     gender: feminine
     example: Mi narración incluye todos los detalles relevantes.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C1-SPOKEN-001-009
     concept: to-develop-a-sub-theme
     term: subtemas
-    translation: to develop a sub-theme
+    translation: sub-themes / to develop a sub-theme
     partOfSpeech: noun
     gender: masculine
     example: Integro subtemas de forma natural en mis descripciones.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-C1-SPOKEN-001-010
     concept: to-round-off-the-story
     term: desarrollo de aspectos
-    translation: to round off the story
+    translation: development of aspects / to round off the story
     partOfSpeech: phrase
     gender: masculine
     example: El desarrollo de aspectos específicos es exhaustivo.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-C1-SPOKEN-001-011
     concept: to-offer-reflections
     term: conclusión apropiada
-    translation: to offer reflections
+    translation: appropriate conclusion / to offer reflections
     partOfSpeech: phrase
     gender: feminine
     example: Cierro con una conclusión apropiada y bien fundamentada.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-C1-SPOKEN-001-012
     concept: vivid-description
     term: redondear
-    translation: vivid description
+    translation: to round off / vivid description
     partOfSpeech: verb
     example: Sé redondear mis exposiciones de forma elegante.
     exampleTranslation: I know how to round off my presentations elegantly.

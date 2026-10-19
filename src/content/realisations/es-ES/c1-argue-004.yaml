@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C1-ARGUE-004-007
     concept: to-defend-with-arguments
     term: sostener una postura
-    translation: to defend with arguments
+    translation: to sustain a position / to defend with arguments
     partOfSpeech: phrase
     example: Puedo sostener mi postura por escrito con argumentos sólidos.
     exampleTranslation: I can sustain my position in writing with solid arguments.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C1-ARGUE-004-008
     concept: to-guide-the-reader
     term: refutar
-    translation: to guide the reader
+    translation: to refute / to guide the reader
     partOfSpeech: verb
     example: Refuto los contraejemplos con datos concretos.
     exampleTranslation: I refute the counter-examples with concrete data.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C1-ARGUE-004-009
     concept: to-articulate-the-ideas
     term: crítica fundamentada
-    translation: to articulate the ideas
+    translation: well-founded criticism / to articulate the ideas
     partOfSpeech: phrase
     gender: feminine
     example: Presento una crítica fundamentada del proyecto.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-C1-ARGUE-004-010
     concept: to-rebut-the-objection
     term: texto argumentativo
-    translation: to rebut the objection
+    translation: argumentative text / to rebut the objection
     partOfSpeech: phrase
     gender: masculine
     example: El texto argumentativo debe ser coherente y convincente.
@@ -36,18 +36,18 @@ vocabulary:
   - id: es-ES-C1-ARGUE-004-011
     concept: to-follow-a-guiding-thread
     term: examen crítico
-    translation: to follow a guiding thread
+    translation: critical examination / to follow a guiding thread
     partOfSpeech: phrase
     gender: masculine
     example: Realizo un examen crítico de la literatura existente.
     exampleTranslation: I conduct a critical examination of the existing literature.
   - id: es-ES-C1-ARGUE-004-012
     concept: to-rest-on-premises
-    term: rétor
-    translation: to rest on premises
+    term: retórica
+    translation: rhetoric / to rest on premises
     partOfSpeech: noun
     gender: feminine
-    example: La rétora es una herramienta poderosa en la argumentación.
+    example: La retórica es una herramienta poderosa en la argumentación.
     exampleTranslation: Rhetoric is a powerful tool in argumentation.
 grammar:
   - id: es-ES-C1-ARGUE-004-G1

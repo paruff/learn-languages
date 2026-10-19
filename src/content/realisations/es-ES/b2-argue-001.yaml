@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-B2-ARGUE-001-007
     concept: to-construct-a-chain-of-reasoning
     term: cadena de razonamiento
-    translation: to construct a chain of reasoning
+    translation: chain of reasoning / to construct a chain of reasoning
     partOfSpeech: phrase
     gender: feminine
     example: Presenté una cadena de razonamiento lógica.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-B2-ARGUE-001-008
     concept: to-develop-the-argument
     term: premisa
-    translation: to develop the argument
+    translation: premise / to develop the argument
     partOfSpeech: noun
     gender: feminine
     example: La premisa de mi argumento es que la educación es clave.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-B2-ARGUE-001-009
     concept: to-present-deductions
     term: deducir
-    translation: to present deductions
+    translation: to deduce / to present deductions
     partOfSpeech: verb
     example: De los datos se deduce una tendencia clara.
     exampleTranslation: From the data, a clear trend is deduced.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-B2-ARGUE-001-010
     concept: to-connect-ideas-logically
     term: conclusión lógica
-    translation: to connect ideas logically
+    translation: logical conclusion / to connect ideas logically
     partOfSpeech: phrase
     gender: feminine
     example: La conclusión lógica es que debemos cambiar de estrategia.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-B2-ARGUE-001-011
     concept: to-use-consequence-connectors
     term: desarrollar un argumento
-    translation: to use consequence connectors
+    translation: to develop an argument / to use consequence connectors
     partOfSpeech: phrase
     example: Es importante desarrollar un argumento paso a paso.
     exampleTranslation: It is important to develop an argument step by step.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-B2-ARGUE-001-012
     concept: to-structure-the-discourse
     term: razonamiento
-    translation: to structure the discourse
+    translation: reasoning / to structure the discourse
     partOfSpeech: noun
     gender: masculine
     example: Su razonamiento es difícil de rebatir.

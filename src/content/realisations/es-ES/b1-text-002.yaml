@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-B1-TEXT-002-007
     concept: news
     term: titular
-    translation: news
+    translation: headline / news
     partOfSpeech: noun
     gender: masculine
     example: El titular del periódico me llamó la atención.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-B1-TEXT-002-008
     concept: news-summary
     term: noticia
-    translation: news summary
+    translation: news item / news summary
     partOfSpeech: noun
     gender: feminine
     example: Leí varias noticias sobre la economía.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-B1-TEXT-002-009
     concept: main-headline
     term: resumen
-    translation: main headline
+    translation: summary / main headline
     partOfSpeech: noun
     gender: masculine
     example: El resumen del artículo es muy claro.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-B1-TEXT-002-010
     concept: to-read-quickly
     term: identificar
-    translation: to read quickly
+    translation: to identify / to read quickly
     partOfSpeech: verb
     example: Puedo identificar los puntos clave de una noticia.
     exampleTranslation: I can identify the key points of a news item.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-B1-TEXT-002-011
     concept: to-underline-key-words
     term: contenido
-    translation: to underline key words
+    translation: content / to underline key words
     partOfSpeech: noun
     gender: masculine
     example: El contenido del periódico es variado.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-B1-TEXT-002-012
     concept: to-make-notes
     term: sección
-    translation: to make notes
+    translation: section / to make notes
     partOfSpeech: noun
     gender: feminine
     example: La sección de internacional es mi favorita.

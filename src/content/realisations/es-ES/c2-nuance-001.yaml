@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C2-NUANCE-001-007
     concept: subtle-nuances
     term: matices de significado
-    translation: subtle nuances
+    translation: shades of meaning / subtle nuances
     partOfSpeech: phrase
     gender: masculine
     example: Puedo expresar matices de significado con precisión.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C2-NUANCE-001-008
     concept: enriched-lexical-repertoire
     term: repertorio léxico amplio
-    translation: enriched lexical repertoire
+    translation: wide lexical repertoire / enriched lexical repertoire
     partOfSpeech: phrase
     gender: masculine
     example: Mi repertorio léxico amplio me permite precisión.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C2-NUANCE-001-009
     concept: precise-expression
     term: expresiones
-    translation: precise expression
+    translation: expressions / precise expression
     partOfSpeech: noun
     gender: feminine
     example: Utilizo expresiones que transmitan exactamente lo que quiero decir.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-C2-NUANCE-001-010
     concept: diverse-subjects
     term: dominio del vocabulario
-    translation: diverse subjects
+    translation: vocabulary mastery / diverse subjects
     partOfSpeech: phrase
     gender: masculine
     example: Mi dominio del vocabulario me permite ser muy preciso.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-C2-NUANCE-001-011
     concept: appropriate-register
     term: claridad expresiva
-    translation: appropriate register
+    translation: expressive clarity / appropriate register
     partOfSpeech: phrase
     gender: feminine
     example: La claridad expresiva es esencial en la comunicación avanzada.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-C2-NUANCE-001-012
     concept: total-precision
     term: dominio sintáctico
-    translation: total precision
+    translation: syntactic mastery / total precision
     partOfSpeech: phrase
     gender: masculine
     example: El dominio sintáctico me permite construir oraciones complejas.

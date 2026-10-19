@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C2-SUMMARY-001-007
     concept: extended-sources
     term: fuentes orales
-    translation: extended sources
+    translation: oral sources / extended sources
     partOfSpeech: phrase
     gender: feminine
     example: Puedo sintetizar fuentes orales y escritas.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C2-SUMMARY-001-008
     concept: diversified-argumentation
     term: presentación coherente
-    translation: diversified argumentation
+    translation: coherent presentation / diversified argumentation
     partOfSpeech: phrase
     gender: feminine
     example: Organizo la información en una presentación coherente.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-C2-SUMMARY-001-009
     concept: organised-presentation
     term: sintetizar
-    translation: organised presentation
+    translation: to synthesise / organised presentation
     partOfSpeech: verb
     example: Sé sintetizar argumentos complejos de forma efectiva.
     exampleTranslation: I know how to synthesise complex arguments effectively.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-C2-SUMMARY-001-010
     concept: essential-points
     term: reconstrucción de argumentos
-    translation: essential points
+    translation: argument reconstruction / essential points
     partOfSpeech: phrase
     gender: feminine
     example: La reconstrucción de argumentos es una habilidad clave.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-C2-SUMMARY-001-011
     concept: faithful-reconstruction
     term: información de múltiples fuentes
-    translation: faithful reconstruction
+    translation: information from multiple sources / faithful reconstruction
     partOfSpeech: phrase
     gender: feminine
     example: Integro información de múltiples fuentes en un resumen.

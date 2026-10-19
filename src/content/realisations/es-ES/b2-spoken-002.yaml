@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-B2-SPOKEN-002-007
     concept: to-understand-tv-news
     term: programa de actualidad
-    translation: to understand TV news
+    translation: current affairs programme / to understand TV news
     partOfSpeech: noun
     gender: masculine
     example: Veo programas de actualidad para informarme.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-B2-SPOKEN-002-008
     concept: to-follow-current-affairs-programmes
     term: noticiero
-    translation: to follow current affairs programmes
+    translation: news broadcast / to follow current affairs programmes
     partOfSpeech: noun
     gender: masculine
     example: El noticiero cubre temas internacionales.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-B2-SPOKEN-002-009
     concept: to-understand-films-without-subtitles
     term: película
-    translation: to understand films without subtitles
+    translation: film / movie / to understand films without subtitles
     partOfSpeech: noun
     gender: feminine
     example: Puedo entender películas sin subtítulos.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-B2-SPOKEN-002-010
     concept: to-identify-the-main-theme
     term: televisión
-    translation: to identify the main theme
+    translation: television / to identify the main theme
     partOfSpeech: noun
     gender: feminine
     example: La televisión española tiene programas variados.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-B2-SPOKEN-002-011
     concept: to-understand-cultural-references
     term: comprender
-    translation: to understand cultural references
+    translation: to comprehend / to understand cultural references
     partOfSpeech: verb
     example: Puedo comprender la mayoría de programas en televisión.
     exampleTranslation: I can comprehend most programmes on television.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-B2-SPOKEN-002-012
     concept: to-synthesise-oral-information
     term: diálogo rápido
-    translation: to synthesise oral information
+    translation: fast dialogue / to synthesise oral information
     partOfSpeech: phrase
     gender: masculine
     example: Los diálogos rápidos de las películas son un buen ejercicio.

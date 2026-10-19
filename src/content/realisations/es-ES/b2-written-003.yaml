@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-B2-WRITTEN-003-007
     concept: to-write-with-correct-spelling
     term: ortografía
-    translation: to write with correct spelling
+    translation: spelling / to write with correct spelling
     partOfSpeech: noun
     gender: feminine
     example: Mi ortografía ha mejorado significativamente.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-B2-WRITTEN-003-008
     concept: to-use-appropriate-punctuation
     term: puntuación
-    translation: to use appropriate punctuation
+    translation: punctuation / to use appropriate punctuation
     partOfSpeech: noun
     gender: feminine
     example: La puntuación correcta es esencial para la claridad.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-B2-WRITTEN-003-009
     concept: to-review-the-text
     term: escritura correcta
-    translation: to review the text
+    translation: correct writing / to review the text
     partOfSpeech: phrase
     gender: feminine
     example: La escritura correcta genera credibilidad.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-B2-WRITTEN-003-010
     concept: to-correct-errors
     term: revisar
-    translation: to correct errors
+    translation: to review / to proofread / to correct errors
     partOfSpeech: verb
     example: Siempre reviso mis textos antes de enviarlos.
     exampleTranslation: I always review my texts before sending them.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-B2-WRITTEN-003-011
     concept: to-use-writing-models
     term: errores ortográficos
-    translation: to use writing models
+    translation: spelling errors / to use writing models
     partOfSpeech: phrase
     gender: masculine
     example: Los errores ortográficos deben corregirse.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-B2-WRITTEN-003-012
     concept: to-write-with-precision
     term: precisión escrita
-    translation: to write with precision
+    translation: written precision / to write with precision
     partOfSpeech: phrase
     gender: feminine
     example: La precisión escrita es un signo de competencia.

@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C2-ACADEMIC-002-007
     concept: detailed-description
     term: exposición académica
-    translation: detailed description
+    translation: academic presentation / detailed description
     partOfSpeech: phrase
     gender: feminine
     example: Presento exposiciones académicas claras y detalladas.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C2-ACADEMIC-002-008
     concept: related-sub-themes
     term: subtemas
-    translation: related sub-themes
+    translation: sub-themes / related sub-themes
     partOfSpeech: noun
     gender: masculine
     example: Integro subtemas de forma natural en mis presentaciones.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C2-ACADEMIC-002-009
     concept: particular-points
     term: desarrollo exhaustivo
-    translation: particular points
+    translation: exhaustive development / particular points
     partOfSpeech: phrase
     gender: masculine
     example: El desarrollo de cada punto es exhaustivo y riguroso.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-C2-ACADEMIC-002-010
     concept: complex-subject
     term: descripción precisa
-    translation: complex subject
+    translation: precise description / complex subject
     partOfSpeech: phrase
     gender: feminine
     example: Mis descripciones son precisas y completas.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-C2-ACADEMIC-002-011
     concept: accurate-presentation
     term: redondear
-    translation: accurate presentation
+    translation: to round off / accurate presentation
     partOfSpeech: verb
     example: Sé redondear mis exposiciones de forma elegante.
     exampleTranslation: I know how to round off my presentations elegantly.

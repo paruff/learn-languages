@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C1-TEXT-004-007
     concept: line-of-argumentation
     term: texto argumentativo complejo
-    translation: line of argumentation
+    translation: complex argumentative text / line of argumentation
     partOfSpeech: phrase
     gender: masculine
     example: Puedo analizar textos argumentativos complejos con profundidad.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C1-TEXT-004-008
     concept: theses-and-antitheses
     term: línea argumentativa
-    translation: theses and antitheses
+    translation: line of argument / theses and antitheses
     partOfSpeech: phrase
     gender: feminine
     example: Reconozco la línea argumentativa del autor.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C1-TEXT-004-009
     concept: circumstantial-evidence
     term: afirmaciones
-    translation: circumstantial evidence
+    translation: claims / circumstantial evidence
     partOfSpeech: noun
     gender: feminine
     example: Puedo identificar las afirmaciones principales del autor.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-C1-TEXT-004-010
     concept: turning-point
     term: evidencia
-    translation: turning point
+    translation: evidence / turning point
     partOfSpeech: noun
     gender: feminine
     example: Evalúo la evidencia presentada en el texto.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-C1-TEXT-004-011
     concept: convergence-of-factors
     term: conclusión
-    translation: convergence of factors
+    translation: conclusion / convergence of factors
     partOfSpeech: noun
     gender: feminine
     example: La conclusión del autor es convincente.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-C1-TEXT-004-012
     concept: to-follow-the-reasoning
     term: identificar
-    translation: to follow the reasoning
+    translation: to identify / to follow the reasoning
     partOfSpeech: verb
     example: Sé identificar la línea argumentativa del autor.
     exampleTranslation: I know how to identify the author's line of argument.

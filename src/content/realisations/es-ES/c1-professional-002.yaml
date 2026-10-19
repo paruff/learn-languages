@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C1-PROFESSIONAL-002-007
     concept: detailed-report
     term: documento formal
-    translation: detailed report
+    translation: formal document / detailed report
     partOfSpeech: phrase
     gender: masculine
     example: Redacto documentos formales con registro profesional.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C1-PROFESSIONAL-002-008
     concept: contingency-plan
     term: registro formal
-    translation: contingency plan
+    translation: formal register / contingency plan
     partOfSpeech: phrase
     gender: masculine
     example: El registro formal es adecuado para documentos oficiales.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C1-PROFESSIONAL-002-009
     concept: culminating-point-of-the-analysis
     term: puntos decisivos
-    translation: culminating point of the analysis
+    translation: decisive points / culminating point of the analysis
     partOfSpeech: phrase
     gender: masculine
     example: Es importante destacar los puntos decisivos.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-C1-PROFESSIONAL-002-010
     concept: concrete-measures
     term: asunto complejo
-    translation: concrete measures
+    translation: complex subject / concrete measures
     partOfSpeech: phrase
     gender: masculine
     example: Puedo redactar sobre asuntos complejos con claridad.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-C1-PROFESSIONAL-002-011
     concept: notice-to-partners
     term: bien estructurado
-    translation: notice to partners
+    translation: well-structured / notice to partners
     partOfSpeech: adjective
     gender: masculine
     example: El informe está bien estructurado y es fácil de seguir.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-C1-PROFESSIONAL-002-012
     concept: ranking-of-the-risks
     term: destacar
-    translation: ranking of the risks
+    translation: to highlight / ranking of the risks
     partOfSpeech: verb
     example: Destaco los aspectos más relevantes del proyecto.
     exampleTranslation: I highlight the most relevant aspects of the project.

@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C1-TEXT-002-007
     concept: technical-specifications
     term: instrucciones técnicas
-    translation: technical specifications
+    translation: technical instructions / technical specifications
     partOfSpeech: phrase
     gender: feminine
     example: Entiendo instrucciones técnicas complejas.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C1-TEXT-002-008
     concept: assembly-instructions
     term: texto técnico extenso
-    translation: assembly instructions
+    translation: extended technical text / assembly instructions
     partOfSpeech: phrase
     gender: masculine
     example: Leo textos técnicos extensos sin dificultad.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-C1-TEXT-002-009
     concept: technical-jargon
     term: campo ajeno
-    translation: technical jargon
+    translation: outside one's field / technical jargon
     partOfSpeech: phrase
     gender: masculine
     example: Entiendo textos de campos ajenos al mío.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-C1-TEXT-002-010
     concept: to-decipher-the-acronyms
     term: lectura especializada
-    translation: to decipher the acronyms
+    translation: specialised reading / to decipher the acronyms
     partOfSpeech: phrase
     gender: feminine
     example: La lectura especializada es parte de mi rutina.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-C1-TEXT-002-011
     concept: technical-annex
     term: vocabulario técnico
-    translation: technical annex
+    translation: technical vocabulary / technical annex
     partOfSpeech: phrase
     gender: masculine
     example: Mi vocabulario técnico cubre varios campos.

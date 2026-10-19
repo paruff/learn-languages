@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C1-ACADEMIC-002-007
     concept: conference-paper
     term: exposición compleja
-    translation: conference paper
+    translation: complex presentation / conference paper
     partOfSpeech: phrase
     gender: feminine
     example: Preparé una exposición compleja para el congreso.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C1-ACADEMIC-002-008
     concept: to-serve-as-a-foundation-for-the-presentation
     term: público general
-    translation: to serve as a foundation for the presentation
+    translation: general audience / to serve as a foundation for the presentation
     partOfSpeech: phrase
     gender: masculine
     example: Adapté mi charla para un público general.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-C1-ACADEMIC-002-009
     concept: path-of-the-argumentation
     term: estructurar coherentemente
-    translation: path of the argumentation
+    translation: to structure coherently / path of the argumentation
     partOfSpeech: phrase
     example: Es fundamental estructurar coherentemente la exposición.
     exampleTranslation: It is fundamental to structure the presentation coherently.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-C1-ACADEMIC-002-010
     concept: to-manage-speaking-time
     term: adaptar
-    translation: to manage speaking time
+    translation: to adapt / to manage speaking time
     partOfSpeech: verb
     example: Sé adaptar el lenguaje según el interlocutor.
     exampleTranslation: I know how to adapt language according to the interlocutor.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-C1-ACADEMIC-002-011
     concept: to-refute-without-aggression
     term: contenido complejo
-    translation: to refute without aggression
+    translation: complex content / to refute without aggression
     partOfSpeech: phrase
     gender: masculine
     example: Presento contenido complejo de forma accesible.

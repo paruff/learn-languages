@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C2-PROFESSIONAL-002-007
     concept: spontaneous-fluency
     term: comando del idioma
-    translation: spontaneous fluency
+    translation: command of the language / spontaneous fluency
     partOfSpeech: phrase
     gender: masculine
     example: Mi comando del idioma se acerca al nivel nativo.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C2-PROFESSIONAL-002-008
     concept: native-vocabulary
     term: repertorio de vocabulario
-    translation: native vocabulary
+    translation: vocabulary repertoire / native vocabulary
     partOfSpeech: phrase
     gender: masculine
     example: Utilizo un repertorio de vocabulario amplio y preciso.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C2-PROFESSIONAL-002-009
     concept: total-precision
     term: dominio de la sintaxis
-    translation: total precision
+    translation: command of syntax / total precision
     partOfSpeech: phrase
     gender: masculine
     example: Mi dominio de la sintaxis me permite construir oraciones complejas.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-C2-PROFESSIONAL-002-010
     concept: communicative-flexibility
     term: uso flexible
-    translation: communicative flexibility
+    translation: flexible use / communicative flexibility
     partOfSpeech: phrase
     gender: masculine
     example: Mi uso flexible del idioma es adecuado para cualquier contexto.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-C2-PROFESSIONAL-002-011
     concept: natural-use-of-language
     term: comunicación nativa
-    translation: natural use of language
+    translation: native communication / natural use of language
     partOfSpeech: phrase
     gender: feminine
     example: Mi comunicación se aproxima al nivel nativo.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-C2-PROFESSIONAL-002-012
     concept: communicative-confidence
     term: precisión nativa
-    translation: communicative confidence
+    translation: native precision / communicative confidence
     partOfSpeech: phrase
     gender: feminine
     example: Puedo expresar ideas con precisión nativa.

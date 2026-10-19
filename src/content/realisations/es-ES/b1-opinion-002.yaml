@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-B1-OPINION-002-007
     concept: i-fully-agree
     term: estar de acuerdo
-    translation: I fully agree
+    translation: to agree / I fully agree
     partOfSpeech: phrase
     example: Estoy completamente de acuerdo contigo.
     exampleTranslation: I completely agree with you.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-B1-OPINION-002-008
     concept: i-agree
     term: discrepar
-    translation: I agree
+    translation: to disagree / I agree
     partOfSpeech: verb
     example: Respeto tu opinión, pero discrepo.
     exampleTranslation: I respect your opinion, but I disagree.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-B1-OPINION-002-009
     concept: i-disagree-with-your-point-of-view
     term: en cierto modo
-    translation: I disagree with your point of view
+    translation: to some extent / I disagree with your point of view
     partOfSpeech: phrase
     example: En cierto modo tienes razón.
     exampleTranslation: To some extent you are right.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-B1-OPINION-002-010
     concept: i-understand-what-you-say-but
     term: sin ofender
-    translation: I understand what you say, but
+    translation: without offence / I understand what you say, but
     partOfSpeech: phrase
     example: Sin ofender, no estoy de acuerdo.
     exampleTranslation: Without offence, I do not agree.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-B1-OPINION-002-011
     concept: i-do-not-fully-agree
     term: respetuosamente
-    translation: I do not fully agree
+    translation: respectfully / I do not fully agree
     partOfSpeech: adverb
     example: Discrepo respetuosamente de tu punto de vista.
     exampleTranslation: I respectfully disagree with your point of view.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-B1-OPINION-002-012
     concept: that-depends
     term: punkt de vista
-    translation: that depends
+    translation: point of view / that depends
     partOfSpeech: phrase
     gender: masculine
     example: Entiendo tu punto de vista, pero tengo otra opinión.

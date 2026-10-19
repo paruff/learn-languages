@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-B2-WRITTEN-002-007
     concept: to-write-an-essay
     term: ensayo argumentativo
-    translation: to write an essay
+    translation: argumentative essay / to write an essay
     partOfSpeech: phrase
     gender: masculine
     example: Escribí un ensayo argumentativo sobre educación.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-B2-WRITTEN-002-008
     concept: to-elaborate-a-report
     term: desarrollar una tesis
-    translation: to elaborate a report
+    translation: to develop a thesis / to elaborate a report
     partOfSpeech: phrase
     example: Es importante desarrollar una tesis coherente.
     exampleTranslation: It is important to develop a coherent thesis.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-B2-WRITTEN-002-009
     concept: to-develop-the-thesis
     term: informe analítico
-    translation: to develop the thesis
+    translation: analytical report / to develop the thesis
     partOfSpeech: phrase
     gender: masculine
     example: El informe analítico presenta datos y conclusiones.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-B2-WRITTEN-002-010
     concept: to-present-supporting-data
     term: exposición de argumentos
-    translation: to present supporting data
+    translation: exposition of arguments / to present supporting data
     partOfSpeech: phrase
     gender: feminine
     example: La exposición de argumentos fue muy clara.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-B2-WRITTEN-002-011
     concept: to-use-academic-vocabulary
     term: desarrollo de ideas
-    translation: to use academic vocabulary
+    translation: development of ideas / to use academic vocabulary
     partOfSpeech: phrase
     gender: masculine
     example: El desarrollo de ideas del ensayo es sólido.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-B2-WRITTEN-002-012
     concept: to-structure-the-written-argumentation
     term: conclusiones fundamentadas
-    translation: to structure the written argumentation
+    translation: well-founded conclusions / to structure the written argumentation
     partOfSpeech: phrase
     gender: feminine
     example: Las conclusiones del ensayo están bien fundamentadas.
@@ -55,6 +55,6 @@ grammar:
     explanation: "Use 'si' + imperfect subjunctive + conditional for hypothetical arguments: 'Si se implementara esta medida, los resultados serían positivos' (If this measure were implemented, the results would be positive)."
     examples:
       - Si analizáramos los datos, veríamos una tendencia clara.
-      - Si se采取iera esta política, los problemas se reducirían.
+      - Si se adoptara esta política, los problemas se reducirían.
     cefrNotes: B2 learners use hypothetical structures for argumentative writing
 culturalNotes: Writing essays and reports that develop an argument at B2 level requires the ability to present a clear thesis, support it with evidence, and draw well-founded conclusions.

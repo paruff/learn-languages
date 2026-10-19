@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-B2-WRITTEN-001-007
     concept: to-write-clear-and-detailed-texts
     term: texto detallado
-    translation: to write clear and detailed texts
+    translation: detailed text / to write clear and detailed texts
     partOfSpeech: phrase
     gender: masculine
     example: Puedo escribir textos detallados sobre diversos temas.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-B2-WRITTEN-001-008
     concept: to-develop-the-writing
     term: amplia gama
-    translation: to develop the writing
+    translation: wide range / to develop the writing
     partOfSpeech: phrase
     gender: feminine
     example: Trabajo con una amplia gama de temas.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-B2-WRITTEN-001-009
     concept: to-use-varied-vocabulary
     term: redacción clara
-    translation: to use varied vocabulary
+    translation: clear writing / to use varied vocabulary
     partOfSpeech: phrase
     gender: feminine
     example: La redacción clara es esencial para comunicar ideas.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-B2-WRITTEN-001-010
     concept: to-structure-paragraphs
     term: registro formal
-    translation: to structure paragraphs
+    translation: formal register / to structure paragraphs
     partOfSpeech: phrase
     gender: masculine
     example: En el registro formal, uso vocabulario académico.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-B2-WRITTEN-001-011
     concept: to-use-appropriate-connectors
     term: estilo académico
-    translation: to use appropriate connectors
+    translation: academic style / to use appropriate connectors
     partOfSpeech: phrase
     gender: masculine
     example: Mi estilo académico ha mejorado con la práctica.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-B2-WRITTEN-001-012
     concept: to-rewrite-to-improve
     term: expresión escrita
-    translation: to rewrite to improve
+    translation: written expression / to rewrite to improve
     partOfSpeech: phrase
     gender: feminine
     example: La expresión escrita es clave para el éxito profesional.

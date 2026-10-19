@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C1-SPOKEN-002-007
     concept: to-get-down-to-business
     term: expresiones idiomáticas
-    translation: to get down to business
+    translation: idiomatic expressions / to get down to business
     partOfSpeech: phrase
     gender: feminine
     example: Uso expresiones idiomáticas de forma natural y apropiada.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C1-SPOKEN-002-008
     concept: a-wild-and-uncalled-for-addition
     term: modismos
-    translation: a wild and uncalled-for addition
+    translation: idioms / a wild and uncalled-for addition
     partOfSpeech: noun
     gender: masculine
     example: Los modismos españoles enriquecen mi expresión oral.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C1-SPOKEN-002-009
     concept: to-have-the-patience-of-a-saint
     term: buscar expresiones
-    translation: to have the patience of a saint
+    translation: to search for expressions / to have the patience of a saint
     partOfSpeech: phrase
     example: Hablo sin necesidad de buscar expresiones.
     exampleTranslation: I speak without needing to search for expressions.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-C1-SPOKEN-002-010
     concept: to-know-what-one-is-talking-about
     term: fluidez
-    translation: to know what one is talking about
+    translation: fluency / to know what one is talking about
     partOfSpeech: noun
     gender: feminine
     example: Mi fluidez me permite expresar ideas complejas.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-C1-SPOKEN-002-011
     concept: to-dig-into-one-s-memory
     term: expresión oral
-    translation: to dig into one's memory
+    translation: oral expression / to dig into one's memory
     partOfSpeech: phrase
     gender: feminine
     example: Mi expresión oral ha alcanzado un alto nivel.
@@ -44,19 +44,19 @@ vocabulary:
   - id: es-ES-C1-SPOKEN-002-012
     concept: in-no-time-at-all
     term: naturalidad
-    translation: in no time at all
+    translation: naturalness / in no time at all
     partOfSpeech: noun
     gender: feminine
     example: Hablo con naturalidad y seguridad.
     exampleTranslation: I speak with naturalness and confidence.
   - id: es-ES-C1-SPOKEN-002-013
     concept: to-be-a-superfluous-addition
-    term: naturalidad
+    term: estar de más
     translation: to be a superfluous addition
-    partOfSpeech: noun
-    gender: feminine
-    example: Hablo con naturalidad y seguridad.
-    exampleTranslation: I speak with naturalness and confidence.
+    partOfSpeech: phrase
+    gender: n/a
+    example: Ese comentario está de más en esta discusión.
+    exampleTranslation: That comment is a superfluous addition in this discussion.
 grammar:
   - id: es-ES-C1-SPOKEN-002-G1
     point: Idiomatic expressions with "estar como" for vivid description

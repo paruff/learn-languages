@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-B2-SPOKEN-001-007
     concept: to-understand-extended-speech
     term: discurso extenso
-    translation: to understand extended speech
+    translation: extended speech / to understand extended speech
     partOfSpeech: phrase
     gender: masculine
     example: Puedo seguir discurso extensos sobre temas académicos.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-B2-SPOKEN-001-008
     concept: to-follow-lines-of-argumentation
     term: conferencia
-    translation: to follow lines of argumentation
+    translation: lecture / conference / to follow lines of argumentation
     partOfSpeech: noun
     gender: feminine
     example: Asistí a una conferencia sobre inteligencia artificial.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-B2-SPOKEN-001-009
     concept: to-identify-discussion-topics
     term: línea de argumentación
-    translation: to identify discussion topics
+    translation: line of argument / to identify discussion topics
     partOfSpeech: phrase
     gender: feminine
     example: Puedo seguir una línea de argumentación compleja.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-B2-SPOKEN-001-010
     concept: to-understand-the-speech-structure
     term: disertación
-    translation: to understand the speech structure
+    translation: dissertation / lecture / to understand the speech structure
     partOfSpeech: noun
     gender: feminine
     example: La disertación del profesor fue muy ilustrativa.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-B2-SPOKEN-001-011
     concept: to-note-the-intonation
     term: seguir el hilo
-    translation: to note the intonation
+    translation: to follow the thread / to note the intonation
     partOfSpeech: phrase
     example: Es fácil seguir el hilo de su discurso.
     exampleTranslation: It is easy to follow the thread of his speech.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-B2-SPOKEN-001-012
     concept: to-extract-relevant-information
     term: exposición oral
-    translation: to extract relevant information
+    translation: oral presentation / to extract relevant information
     partOfSpeech: phrase
     gender: feminine
     example: La exposición oral del candidato fue clara.

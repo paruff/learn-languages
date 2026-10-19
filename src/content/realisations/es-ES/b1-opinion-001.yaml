@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-B1-OPINION-001-007
     concept: in-my-opinion
     term: opinión
-    translation: in my opinion
+    translation: opinion / in my opinion
     partOfSpeech: noun
     gender: feminine
     example: Mi opinión es que debemos seguir adelante.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-B1-OPINION-001-008
     concept: i-think-that
     term: razón
-    translation: I think that
+    translation: reason / I think that
     partOfSpeech: noun
     gender: feminine
     example: Tengo mis razones para pensar así.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-B1-OPINION-001-009
     concept: it-seems-to-me-that
     term: defender
-    translation: it seems to me that
+    translation: to defend / it seems to me that
     partOfSpeech: verb
     example: Es importante defender tus ideas con respeto.
     exampleTranslation: It is important to defend your ideas with respect.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-B1-OPINION-001-010
     concept: i-defend-the-idea-that
     term: justificar
-    translation: I defend the idea that
+    translation: to justify / I defend the idea that
     partOfSpeech: verb
     example: Debes justificar tu respuesta con ejemplos.
     exampleTranslation: You must justify your answer with examples.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-B1-OPINION-001-011
     concept: i-am-sure-that
     term: argumento
-    translation: I am sure that
+    translation: argument / I am sure that
     partOfSpeech: noun
     gender: masculine
     example: Presentó un argumento muy convincente.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-B1-OPINION-001-012
     concept: i-am-of-the-opinion-that
     term: persuadir
-    translation: I am of the opinion that
+    translation: to persuade / I am of the opinion that
     partOfSpeech: verb
     example: Intenté persuadir a los demás con datos.
     exampleTranslation: I tried to persuade the others with data.
@@ -52,7 +52,7 @@ vocabulary:
   - id: es-ES-B1-OPINION-001-013
     concept: to-defend-the-idea-that
     term: persuadir
-    translation: to defend the idea that
+    translation: to persuade / to defend the idea that
     partOfSpeech: verb
     example: Intenté persuadir a los demás con datos.
     exampleTranslation: I tried to persuade the others with data.

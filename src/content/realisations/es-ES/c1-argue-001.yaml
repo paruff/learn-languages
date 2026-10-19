@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C1-ARGUE-001-007
     concept: to-develop-sub-topics
     term: tema complejo
-    translation: to develop sub-topics
+    translation: complex subject / to develop sub-topics
     partOfSpeech: phrase
     gender: masculine
     example: Puedo describir temas complejos con claridad.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C1-ARGUE-001-008
     concept: to-structure-the-presentation
     term: subtemas
-    translation: to structure the presentation
+    translation: sub-themes / to structure the presentation
     partOfSpeech: noun
     gender: masculine
     example: Integro subtemas de forma natural en mis exposiciones.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C1-ARGUE-001-009
     concept: to-elaborate-the-points
     term: desarrollar aspectos concretos
-    translation: to elaborate the points
+    translation: to develop particular aspects / to elaborate the points
     partOfSpeech: phrase
     example: Es importante desarrollar aspectos concretos del tema.
     exampleTranslation: It is important to develop particular aspects of the topic.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-C1-ARGUE-001-010
     concept: to-establish-connections
     term: descripción detallada
-    translation: to establish connections
+    translation: detailed description / to establish connections
     partOfSpeech: phrase
     gender: feminine
     example: Ofrezco descripciones detalladas y bien estructuradas.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-C1-ARGUE-001-011
     concept: to-present-an-overview
     term: integrar
-    translation: to present an overview
+    translation: to integrate / to present an overview
     partOfSpeech: verb
     example: Integro diferentes perspectivas en mi análisis.
     exampleTranslation: I integrate different perspectives in my analysis.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-C1-ARGUE-001-012
     concept: to-give-depth
     term: conclusión apropiada
-    translation: to give depth
+    translation: appropriate conclusion / to give depth
     partOfSpeech: phrase
     gender: feminine
     example: Cierro con una conclusión apropiada y bien fundamentada.

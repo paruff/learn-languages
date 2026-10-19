@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C2-MEDIATION-002-007
     concept: linguistically-demanding-texts
     term: textos lingüísticamente complejos
-    translation: linguistically demanding texts
+    translation: linguistically complex texts / linguistically demanding texts
     partOfSpeech: phrase
     gender: masculine
     example: Puedo comprender textos lingüísticamente exigentes.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-C2-MEDIATION-002-008
     concept: contemporary-literature
     term: textos literarios
-    translation: contemporary literature
+    translation: literary texts / contemporary literature
     partOfSpeech: phrase
     gender: masculine
     example: Entiendo textos literarios en toda su complejidad.

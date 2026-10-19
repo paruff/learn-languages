@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-B2-SOCIAL-004-007
     concept: to-clarify-doubts
     term: clarificar
-    translation: to clarify doubts
+    translation: to clarify / to clarify doubts
     partOfSpeech: verb
     example: Puedo clarificar mi postura sin problemas.
     exampleTranslation: I can clarify my position without problems.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-B2-SOCIAL-004-008
     concept: to-detail-the-explanation
     term: visión detallada
-    translation: to detail the explanation
+    translation: detailed view / to detail the explanation
     partOfSpeech: phrase
     gender: feminine
     example: Ofrezco una visión detallada del tema.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-B2-SOCIAL-004-009
     concept: to-specify-the-concept
     term: exponer con claridad
-    translation: to specify the concept
+    translation: to explain clearly / to specify the concept
     partOfSpeech: phrase
     example: Es importante exponer con claridad nuestras ideas.
     exampleTranslation: It is important to explain our ideas clearly.
@@ -28,15 +28,15 @@ vocabulary:
   - id: es-ES-B2-SOCIAL-004-010
     concept: to-exemplify-with-situations
     term: precisión
-    translation: to exemplify with situations
+    translation: precision / to exemplify with situations
     partOfSpeech: noun
     gender: feminine
-    example: Hablo con precisidad sobre temas complejos.
+    example: Hablo con precisión sobre temas complejos.
     exampleTranslation: I speak with precision about complex topics.
   - id: es-ES-B2-SOCIAL-004-011
     concept: to-reinterpret-the-idea
     term: sentido
-    translation: to reinterpret the idea
+    translation: meaning / sense / to reinterpret the idea
     partOfSpeech: noun
     gender: masculine
     example: Quiero que quede claro el sentido de mi argumento.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-B2-SOCIAL-004-012
     concept: to-ensure-understanding
     term: matisar
-    translation: to ensure understanding
+    translation: to nuance / to ensure understanding
     partOfSpeech: verb
     example: Es importante matizar las opiniones para ser justo.
     exampleTranslation: It is important to nuance opinions to be fair.

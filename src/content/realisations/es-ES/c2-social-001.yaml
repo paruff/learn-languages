@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C2-SOCIAL-001-007
     concept: total-spontaneity
     term: espontaneidad
-    translation: total spontaneity
+    translation: spontaneity / total spontaneity
     partOfSpeech: noun
     gender: feminine
     example: Mi espontaneidad en la conversación es total.

@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C2-MODALITY-005-007
     concept: smooth-flowing-text
     term: estilo fluido
-    translation: smooth-flowing text
+    translation: flowing style / smooth-flowing text
     partOfSpeech: phrase
     gender: masculine
     example: Escribo con un estilo fluido y natural.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C2-MODALITY-005-008
     concept: engaging-introduction
     term: asunto complejo
-    translation: engaging introduction
+    translation: complex subject / engaging introduction
     partOfSpeech: phrase
     gender: masculine
     example: Puedo escribir sobre asuntos complejos con claridad.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C2-MODALITY-005-009
     concept: development-of-the-subject
     term: introducción
-    translation: development of the subject
+    translation: introduction / development of the subject
     partOfSpeech: noun
     gender: feminine
     example: Escribo introducciones que captan la atención del lector.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-C2-MODALITY-005-010
     concept: central-point
     term: desarrollo de ideas
-    translation: central point
+    translation: development of ideas / central point
     partOfSpeech: phrase
     gender: masculine
     example: El desarrollo de ideas es claro y convincente.

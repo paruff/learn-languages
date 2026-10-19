@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-B1-SOCIAL-003-007
     concept: to-feel
     term: responder a
-    translation: to feel
+    translation: to respond to / to feel
     partOfSpeech: phrase
     example: Sé responder adecuadamente a diferentes emociones.
     exampleTranslation: I know how to respond appropriately to different emotions.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-B1-SOCIAL-003-008
     concept: to-agree-with
     term: empatía
-    translation: to agree with
+    translation: empathy / to agree with
     partOfSpeech: noun
     gender: feminine
     example: La empatía es fundamental en las relaciones personales.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-B1-SOCIAL-003-009
     concept: to-disagree-politely
     term: reacciones adecuadas
-    translation: to disagree politely
+    translation: appropriate reactions / to disagree politely
     partOfSpeech: phrase
     gender: feminine
     example: Tengo reacciones adecuadas en diferentes situaciones.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-B1-SOCIAL-003-010
     concept: to-share-my-perspective
     term: intercambiar
-    translation: to share my perspective
+    translation: to exchange / to share my perspective
     partOfSpeech: verb
     example: Intercambiamos opiniones sobre varios temas.
     exampleTranslation: We exchange opinions on various topics.

@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-B1-DISCOURSE-004-007
     concept: to-a-certain-extent
     term: narración
-    translation: to a certain extent
+    translation: narrative / to a certain extent
     partOfSpeech: noun
     gender: feminine
     example: Escribí una narración sobre mi viaje.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-B1-DISCOURSE-004-008
     concept: depending-on
     term: marcador temporal
-    translation: depending on
+    translation: temporal marker / depending on
     partOfSpeech: noun
     gender: masculine
     example: Los marcadores temporales ayudan a ordenar el relato.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-B1-DISCOURSE-004-009
     concept: up-to-a-point
     term: relato
-    translation: up to a point
+    translation: story / account / up to a point
     partOfSpeech: noun
     gender: masculine
     example: Mi relato tiene una estructura clara.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-B1-DISCOURSE-004-010
     concept: in-practice
     term: ordenar
-    translation: in practice
+    translation: to order / to sort / in practice
     partOfSpeech: verb
     example: Necesito ordenar las ideas antes de escribir.
     exampleTranslation: I need to order my ideas before writing.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-B1-DISCOURSE-004-011
     concept: in-my-experience
     term: conectar
-    translation: in my experience
+    translation: to connect / in my experience
     partOfSpeech: verb
     example: Conecto las oraciones con palabras de enlace.
     exampleTranslation: I connect sentences with linking words.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-B1-DISCOURSE-004-012
     concept: in-general-terms
     term: estructurar
-    translation: in general terms
+    translation: to structure / in general terms
     partOfSpeech: verb
     example: Es importante estructurar un texto de forma coherente.
     exampleTranslation: It is important to structure a text coherently.

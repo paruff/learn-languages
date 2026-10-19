@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C1-SPOKEN-004-007
     concept: to-read-between-the-lines
     term: discurso extenso
-    translation: to read between the lines
+    translation: extended speech / to read between the lines
     partOfSpeech: phrase
     gender: masculine
     example: Puedo seguir discursos extensos incluso sin estructura clara.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C1-SPOKEN-004-008
     concept: rambling-speech
     term: relaciones implícitas
-    translation: rambling speech
+    translation: implicit relationships / rambling speech
     partOfSpeech: phrase
     gender: feminine
     example: Capto las relaciones implícitas en un discurso complejo.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C1-SPOKEN-004-009
     concept: implied-connections
     term: señales
-    translation: implied connections
+    translation: signals / implied connections
     partOfSpeech: noun
     gender: feminine
     example: Aunque no haya señales explícitas, entiendo el contexto.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-C1-SPOKEN-004-010
     concept: to-follow-the-thread-of-the-reasoning
     term: signales implícitas
-    translation: to follow the thread of the reasoning
+    translation: implicit signals / to follow the thread of the reasoning
     partOfSpeech: phrase
     gender: feminine
     example: Las señales implícitas son clave para la comprensión.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-C1-SPOKEN-004-011
     concept: to-grasp-the-intention
     term: comprensión profunda
-    translation: to grasp the intention
+    translation: deep comprehension / to grasp the intention
     partOfSpeech: phrase
     gender: feminine
     example: Mi comprensión profunda me permite entender discursos complejos.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-C1-SPOKEN-004-012
     concept: unmarked-communication
     term: inferir
-    translation: unmarked communication
+    translation: to infer / unmarked communication
     partOfSpeech: verb
     example: Sé inferir el sentido de un discurso no estructurado.
     exampleTranslation: I know how to infer the meaning of unstructured speech.

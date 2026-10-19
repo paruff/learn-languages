@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-B2-SOCIAL-003-007
     concept: to-defend-my-position
     term: argumentar
-    translation: to defend my position
+    translation: to argue / to defend my position
     partOfSpeech: verb
     example: Puedo argumentar mi punto de vista con claridad.
     exampleTranslation: I can argue my point of view clearly.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-B2-SOCIAL-003-008
     concept: to-justify-the-decision
     term: explicación detallada
-    translation: to justify the decision
+    translation: detailed explanation / to justify the decision
     partOfSpeech: phrase
     gender: feminine
     example: Doy explicaciones detalladas para sostener mis opiniones.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-B2-SOCIAL-003-009
     concept: to-sustain-the-opinion
     term: persuadir
-    translation: to sustain the opinion
+    translation: to persuade / to sustain the opinion
     partOfSpeech: verb
     example: Intento persuadir con argumentos, no con emociones.
     exampleTranslation: I try to persuade with arguments, not emotions.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-B2-SOCIAL-003-010
     concept: to-present-reasons
     term: convencer
-    translation: to present reasons
+    translation: to convince / to present reasons
     partOfSpeech: verb
     example: Es difícil convencer a alguien que no quiere escuchar.
     exampleTranslation: It is difficult to convince someone who doesn't want to listen.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-B2-SOCIAL-003-011
     concept: to-explain-the-reasoning
     term: postura
-    translation: to explain the reasoning
+    translation: position / stance / to explain the reasoning
     partOfSpeech: noun
     gender: feminine
     example: Mi postura sobre el tema está bien definida.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-B2-SOCIAL-003-012
     concept: to-partially-agree
     term: reafirmar
-    translation: to partially agree
+    translation: to reaffirm / to partially agree
     partOfSpeech: verb
     example: Reafirmo mi opinión con nuevos datos.
     exampleTranslation: I reaffirm my opinion with new data.

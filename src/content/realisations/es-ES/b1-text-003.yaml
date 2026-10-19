@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-B1-TEXT-003-007
     concept: technical-information
     term: técnico
-    translation: technical information
+    translation: technical / technical information
     partOfSpeech: adjective
     gender: masculine
     example: El texto técnico contiene vocabulario específico.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-B1-TEXT-003-008
     concept: instruction-manual
     term: vocabulario específico
-    translation: instruction manual
+    translation: specific vocabulary / instruction manual
     partOfSpeech: phrase
     gender: masculine
     example: El vocabulario específico es clave para entender el texto.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-B1-TEXT-003-009
     concept: technical-report
     term: información práctica
-    translation: technical report
+    translation: practical information / technical report
     partOfSpeech: phrase
     gender: feminine
     example: El documento contiene información práctica.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-B1-TEXT-003-010
     concept: specific-terminology
     term: manual
-    translation: specific terminology
+    translation: manual / handbook / specific terminology
     partOfSpeech: noun
     gender: masculine
     example: El manual de instrucciones es fácil de seguir.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-B1-TEXT-003-011
     concept: to-consult-references
     term: procedimiento
-    translation: to consult references
+    translation: procedure / to consult references
     partOfSpeech: noun
     gender: masculine
     example: El procedimiento se describe paso a paso.

@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C1-WRITTEN-003-007
     concept: thread-of-memories
     term: experiencia compleja
-    translation: thread of memories
+    translation: complex experience / thread of memories
     partOfSpeech: phrase
     gender: feminine
     example: Puedo narrar experiencias complejas con coherencia.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C1-WRITTEN-003-008
     concept: childhood-memories
     term: perspectiva personal
-    translation: childhood memories
+    translation: personal perspective / childhood memories
     partOfSpeech: phrase
     gender: feminine
     example: Incluyo mi perspectiva personal en la narración.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-C1-WRITTEN-003-009
     concept: personal-point-of-view
     term: punto de vista convincente
-    translation: personal point of view
+    translation: convincing point of view / personal point of view
     partOfSpeech: phrase
     gender: masculine
     example: Presento un punto de vista convincente y fundamentado.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-C1-WRITTEN-003-010
     concept: honest-caveats
     term: estructura narrativa
-    translation: honest caveats
+    translation: narrative structure / honest caveats
     partOfSpeech: phrase
     gender: feminine
     example: La estructura narrativa del relato es coherente.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-C1-WRITTEN-003-011
     concept: a-one-breath-effect
     term: coherencia narrativa
-    translation: a one-breath effect
+    translation: narrative coherence / a one-breath effect
     partOfSpeech: phrase
     gender: feminine
     example: La coherencia narrativa es esencial en un buen relato.

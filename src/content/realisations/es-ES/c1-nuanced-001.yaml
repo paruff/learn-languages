@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C1-NUANCED-001-007
     concept: delicate-disagreement
     term: desacuerdo
-    translation: delicate disagreement
+    translation: disagreement / delicate disagreement
     partOfSpeech: noun
     gender: masculine
     example: Puedo manejar un desacuerdo con sutileza.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C1-NUANCED-001-008
     concept: to-fine-tune-one-s-language
     term: ajustar la expresión
-    translation: to fine-tune one's language
+    translation: to adjust the expression / to fine-tune one's language
     partOfSpeech: phrase
     example: Sé ajustar la expresión según el interlocutor.
     exampleTranslation: I know how to adjust the expression according to the interlocutor.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C1-NUANCED-001-009
     concept: to-tread-carefully
     term: consecuencias
-    translation: to tread carefully
+    translation: stakes / consequences / to tread carefully
     partOfSpeech: noun
     gender: feminine
     example: Adapto mi lenguaje según las consecuencias del tema.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-C1-NUANCED-001-010
     concept: sensitive-matter
     term: delicadeza
-    translation: sensitive matter
+    translation: delicacy / sensitive matter
     partOfSpeech: noun
     gender: feminine
     example: La delicadeza es necesaria en conversaciones difíciles.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-C1-NUANCED-001-011
     concept: pausing-for-thought
     term: prudencia verbal
-    translation: pausing for thought
+    translation: verbal prudence / pausing for thought
     partOfSpeech: phrase
     gender: feminine
     example: La prudencia verbal evita malentendidos.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-C1-NUANCED-001-012
     concept: to-be-ill-favoured
     term: sopesar
-    translation: to be ill-favoured
+    translation: to weigh up / to be ill-favoured
     partOfSpeech: verb
     example: Sopeso cada palabra antes de expresar un desacuerdo.
     exampleTranslation: I weigh up every word before expressing a disagreement.

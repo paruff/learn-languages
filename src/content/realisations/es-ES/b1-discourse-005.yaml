@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-B1-DISCOURSE-005-007
     concept: brief-report
     term: informe
-    translation: brief report
+    translation: report / brief report
     partOfSpeech: noun
     gender: masculine
     example: Escribí un informe sobre mi experiencia laboral.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-B1-DISCOURSE-005-008
     concept: to-summarise-the-facts
     term: experiencia
-    translation: to summarise the facts
+    translation: experience / to summarise the facts
     partOfSpeech: noun
     gender: feminine
     example: Compartí mi experiencia en el proyecto.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-B1-DISCOURSE-005-009
     concept: to-describe-the-situation
     term: describir
-    translation: to describe the situation
+    translation: to describe / to describe the situation
     partOfSpeech: verb
     example: Puedo describir experiencias de forma detallada.
     exampleTranslation: I can describe experiences in detail.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-B1-DISCOURSE-005-010
     concept: to-do-an-analysis
     term: resultado
-    translation: to do an analysis
+    translation: result / to do an analysis
     partOfSpeech: noun
     gender: masculine
     example: Los resultados del informe fueron positivos.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-B1-DISCOURSE-005-011
     concept: to-draw-conclusions
     term: redactar
-    translation: to draw conclusions
+    translation: to draft / to write / to draw conclusions
     partOfSpeech: verb
     example: Necesito redactar el informe para el lunes.
     exampleTranslation: I need to draft the report for Monday.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-B1-DISCOURSE-005-012
     concept: to-present-recommendations
     term: concluir
-    translation: to present recommendations
+    translation: to conclude / to present recommendations
     partOfSpeech: verb
     example: Concluyo que la experiencia fue muy positiva.
     exampleTranslation: I conclude that the experience was very positive.

@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-B2-ARGUE-004-007
     concept: to-sustain-the-thesis
     term: sostener una postura
-    translation: to sustain the thesis
+    translation: to sustain a position / to sustain the thesis
     partOfSpeech: phrase
     example: Puedo sostener mi postura con argumentos sólidos.
     exampleTranslation: I can sustain my position with solid arguments.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-B2-ARGUE-004-008
     concept: to-present-supporting-data
     term: detalle relevante
-    translation: to present supporting data
+    translation: relevant detail / to present supporting data
     partOfSpeech: phrase
     gender: masculine
     example: Incluí detalles relevantes para apoyar mi argumento.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-B2-ARGUE-004-009
     concept: to-expose-the-argumentation
     term: ensayo
-    translation: to expose the argumentation
+    translation: essay / to expose the argumentation
     partOfSpeech: noun
     gender: masculine
     example: Escribí un ensayo sobre los derechos humanos.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-B2-ARGUE-004-010
     concept: to-use-concrete-examples
     term: apoyar
-    translation: to use concrete examples
+    translation: to support / to use concrete examples
     partOfSpeech: verb
     example: Es importante apoyar las opiniones con hechos.
     exampleTranslation: It is important to support opinions with facts.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-B2-ARGUE-004-011
     concept: to-reinforce-the-position
     term: desarrollo
-    translation: to reinforce the position
+    translation: development / to reinforce the position
     partOfSpeech: noun
     gender: masculine
     example: El desarrollo del argumento fue claro y convincente.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-B2-ARGUE-004-012
     concept: to-write-an-essay
     term: exposición
-    translation: to write an essay
+    translation: presentation / exposition / to write an essay
     partOfSpeech: noun
     gender: feminine
     example: La exposición de ideas fue muy organizada.

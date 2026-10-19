@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C1-SOCIAL-001-007
     concept: to-express-oneself-fluently
     term: fluidez natural
-    translation: to express oneself fluently
+    translation: natural fluency / to express oneself fluently
     partOfSpeech: phrase
     gender: feminine
     example: Hablo con fluidez natural en casi cualquier situación.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C1-SOCIAL-001-008
     concept: without-hesitation
     term: espontaneidad
-    translation: without hesitation
+    translation: spontaneity / without hesitation
     partOfSpeech: noun
     gender: feminine
     example: Mi espontaneidad en español ha mejorado mucho.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C1-SOCIAL-001-009
     concept: to-adapt-one-s-discourse
     term: buscar expresiones
-    translation: to adapt one's discourse
+    translation: to search for expressions / to adapt one's discourse
     partOfSpeech: phrase
     example: Hablo sin buscar expresiones, de forma natural.
     exampleTranslation: I speak without searching for expressions, naturally.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-C1-SOCIAL-001-010
     concept: to-anticipate-the-reaction
     term: expresiones idiomáticas
-    translation: to anticipate the reaction
+    translation: idiomatic expressions / to anticipate the reaction
     partOfSpeech: phrase
     gender: feminine
     example: Uso expresiones idiomáticas de forma natural.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-C1-SOCIAL-001-011
     concept: to-maintain-naturalness
     term: naturalidad
-    translation: to maintain naturalness
+    translation: naturalness / to maintain naturalness
     partOfSpeech: noun
     gender: feminine
     example: La naturalidad en la conversación es un signo de dominio.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-C1-SOCIAL-001-012
     concept: to-resort-to-strategies
     term: dominio del idioma
-    translation: to resort to strategies
+    translation: language mastery / to resort to strategies
     partOfSpeech: phrase
     gender: masculine
     example: El dominio del idioma se refleja en la fluidez.

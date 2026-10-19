@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C2-ACADEMIC-001-007
     concept: advanced-academic-writing
     term: estilo fluido
-    translation: advanced academic writing
+    translation: flowing style / advanced academic writing
     partOfSpeech: phrase
     gender: masculine
     example: Escribo con un estilo fluido y convincente.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C2-ACADEMIC-001-008
     concept: coherent-and-convincing-text
     term: tema complejo
-    translation: coherent and convincing text
+    translation: complex subject / coherent and convincing text
     partOfSpeech: phrase
     gender: masculine
     example: Puedo tratar temas complejos con claridad y profundidad.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C2-ACADEMIC-001-009
     concept: clear-structure
     term: estructura coherente
-    translation: clear structure
+    translation: coherent structure / clear structure
     partOfSpeech: phrase
     gender: feminine
     example: Mi escritura tiene una estructura coherente y convincente.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-C2-ACADEMIC-001-010
     concept: wide-range-of-language
     term: repertorio de lenguaje
-    translation: wide range of language
+    translation: language repertoire / wide range of language
     partOfSpeech: phrase
     gender: masculine
     example: Utilizo un repertorio amplio de lenguaje.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-C2-ACADEMIC-001-011
     concept: solid-argumentation
     term: expresión académica
-    translation: solid argumentation
+    translation: academic expression / solid argumentation
     partOfSpeech: phrase
     gender: feminine
     example: Mi expresión académica es precisa y elegante.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-C2-ACADEMIC-001-012
     concept: academic-style
     term: escritura persuasiva
-    translation: academic style
+    translation: persuasive writing / academic style
     partOfSpeech: phrase
     gender: feminine
     example: Mi escritura persuasiva es efectiva y bien fundamentada.

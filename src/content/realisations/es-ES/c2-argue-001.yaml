@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C2-ARGUE-001-007
     concept: precise-formulation
     term: repertorio léxico
-    translation: precise formulation
+    translation: lexical repertoire / precise formulation
     partOfSpeech: phrase
     gender: masculine
     example: Mi repertorio léxico abarca un amplio rango de expresiones.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C2-ARGUE-001-008
     concept: range-of-linguistic-means
     term: formulación apropiada
-    translation: range of linguistic means
+    translation: appropriate formulation / range of linguistic means
     partOfSpeech: phrase
     gender: feminine
     example: Selecciono la formulación apropiada para cada contexto.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C2-ARGUE-001-009
     concept: clear-expression
     term: matices semánticos
-    translation: clear expression
+    translation: semantic nuances / clear expression
     partOfSpeech: phrase
     gender: masculine
     example: Distingo matices semánticos que enriquecen la expresión.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-C2-ARGUE-001-010
     concept: lexical-precision
     term: expresión escrita
-    translation: lexical precision
+    translation: written expression / lexical precision
     partOfSpeech: phrase
     gender: feminine
     example: Mi expresión escrita refleja un alto nivel de precisión.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-C2-ARGUE-001-011
     concept: nuances-of-meaning
     term: repertorio amplio
-    translation: nuances of meaning
+    translation: wide repertoire / nuances of meaning
     partOfSpeech: phrase
     gender: masculine
     example: Utilizo un repertorio amplio de expresiones.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-C2-ARGUE-001-012
     concept: unequivocal-expression
     term: selectividad
-    translation: unequivocal expression
+    translation: selectivity / unequivocal expression
     partOfSpeech: noun
     gender: feminine
     example: La selectividad léxica es clave para la precisión.

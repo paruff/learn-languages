@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-B1-SOCIAL-004-007
     concept: to-invite-opinion
     term: invitar a opinar
-    translation: to invite opinion
+    translation: to invite to give an opinion / to invite opinion
     partOfSpeech: phrase
     example: Suele invitar a opinar a todos los participantes.
     exampleTranslation: He usually invites all participants to give their opinion.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-B1-SOCIAL-004-008
     concept: to-react-to-news
     term: reacción
-    translation: to react to news
+    translation: reaction / to react to news
     partOfSpeech: noun
     gender: feminine
     example: Tuvo una reacción muy positiva.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-B1-SOCIAL-004-009
     concept: to-change-the-subject-politely
     term: mantener viva la conversación
-    translation: to change the subject politely
+    translation: to keep the conversation going / to change the subject politely
     partOfSpeech: phrase
     example: Es una habilidad importante mantener viva la conversación.
     exampleTranslation: It is an important skill to keep the conversation going.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-B1-SOCIAL-004-010
     concept: to-follow-up
     term: participar activamente
-    translation: to follow up
+    translation: to participate actively / to follow up
     partOfSpeech: phrase
     example: Todos deberían participar activamente en el debate.
     exampleTranslation: Everyone should participate actively in the debate.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-B1-SOCIAL-004-011
     concept: to-find-common-ground
     term: comentario
-    translation: to find common ground
+    translation: comment / to find common ground
     partOfSpeech: noun
     gender: masculine
     example: Hizo un comentario muy interesante.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-B1-SOCIAL-004-012
     concept: to-conclude-the-conversation
     term: turno de palabra
-    translation: to conclude the conversation
+    translation: turn to speak / to conclude the conversation
     partOfSpeech: phrase
     gender: masculine
     example: Esperé mi turno de palabra con paciencia.

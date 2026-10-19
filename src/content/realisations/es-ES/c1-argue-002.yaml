@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C1-ARGUE-002-007
     concept: to-refute-an-argument
     term: argumentación sistemática
-    translation: to refute an argument
+    translation: systematic argumentation / to refute an argument
     partOfSpeech: phrase
     gender: feminine
     example: Mi argumentación sistemática cubre todos los aspectos.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C1-ARGUE-002-008
     concept: to-weigh-the-pros-and-cons
     term: contrargumento
-    translation: to weigh the pros and cons
+    translation: counter-argument / to weigh the pros and cons
     partOfSpeech: noun
     gender: masculine
     example: Es importante considerar los contrargumentos.
@@ -20,23 +20,23 @@ vocabulary:
   - id: es-ES-C1-ARGUE-002-009
     concept: to-present-counter-arguments
     term: ponderar
-    translation: to present counter-arguments
+    translation: to evaluate / to weigh / to present counter-arguments
     partOfSpeech: verb
     example: Debo ponderar los argumentos a favor y en contra.
     exampleTranslation: I must evaluate the arguments for and against.
     gender: n/a
   - id: es-ES-C1-ARGUE-002-010
     concept: to-give-emphasis-to
-    term: matises
-    translation: to give emphasis to
+    term: matices
+    translation: nuances / to give emphasis to
     partOfSpeech: noun
     gender: masculine
-    example: Expreso matises sutiles en mi argumentación.
+    example: Expreso matices sutiles en mi argumentación.
     exampleTranslation: I express subtle nuances in my argumentation.
   - id: es-ES-C1-ARGUE-002-011
     concept: to-draw-conclusions
     term: destacar puntos clave
-    translation: to draw conclusions
+    translation: to highlight key points / to draw conclusions
     partOfSpeech: phrase
     example: Sé destacar los puntos clave de forma efectiva.
     exampleTranslation: I know how to highlight key points effectively.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-C1-ARGUE-002-012
     concept: to-substantiate-one-s-position
     term: evaluar
-    translation: to substantiate one's position
+    translation: to evaluate / to substantiate one's position
     partOfSpeech: verb
     example: Evalúo cada argumento antes de presentarlo.
     exampleTranslation: I evaluate each argument before presenting it.

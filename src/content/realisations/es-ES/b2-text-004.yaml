@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-B2-TEXT-004-007
     concept: to-understand-conclusions-of-argumentative-texts
     term: texto argumentativo
-    translation: to understand conclusions of argumentative texts
+    translation: argumentative text / to understand conclusions of argumentative texts
     partOfSpeech: phrase
     gender: masculine
     example: El texto argumentativo presenta una tesis clara.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-B2-TEXT-004-008
     concept: to-identify-conclusion-markers
     term: conclusión
-    translation: to identify conclusion markers
+    translation: conclusion / to identify conclusion markers
     partOfSpeech: noun
     gender: feminine
     example: Las conclusiones del texto están bien fundamentadas.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-B2-TEXT-004-009
     concept: to-synthesise-the-main-ideas
     term: señalización
-    translation: to synthesise the main ideas
+    translation: signposting / to synthesise the main ideas
     partOfSpeech: noun
     gender: feminine
     example: La buena señalización del texto facilita la lectura.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-B2-TEXT-004-010
     concept: to-evaluate-the-conclusion
     term: desarrollo argumentativo
-    translation: to evaluate the conclusion
+    translation: argumentative development / to evaluate the conclusion
     partOfSpeech: phrase
     gender: masculine
     example: El desarrollo argumentativo es claro y lógico.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-B2-TEXT-004-011
     concept: to-relate-conclusion-with-premises
     term: identificar conclusiones
-    translation: to relate conclusion with premises
+    translation: to identify conclusions / to relate conclusion with premises
     partOfSpeech: phrase
     example: Puedo identificar conclusiones en textos argumentativos.
     exampleTranslation: I can identify conclusions in argumentative texts.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-B2-TEXT-004-012
     concept: to-extract-implications
     term: texto bien estructurado
-    translation: to extract implications
+    translation: well-structured text / to extract implications
     partOfSpeech: phrase
     gender: masculine
     example: Un texto bien estructurado es más fácil de comprender.

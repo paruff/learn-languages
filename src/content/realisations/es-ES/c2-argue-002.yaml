@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C2-ARGUE-002-007
     concept: active-participation
     term: registro formal
-    translation: active participation
+    translation: formal register / active participation
     partOfSpeech: phrase
     gender: masculine
     example: Participo activamente en discusiones en todos los registros.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C2-ARGUE-002-008
     concept: all-registers
     term: opiniones propias y ajenas
-    translation: all registers
+    translation: one's own and others' views / all registers
     partOfSpeech: phrase
     gender: feminine
     example: Puedo desarrollar y dirigir tanto mis opiniones como las ajenas.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C2-ARGUE-002-009
     concept: develop-points-of-view
     term: intervención efectiva
-    translation: develop points of view
+    translation: effective intervention / develop points of view
     partOfSpeech: phrase
     gender: feminine
     example: Mi intervención en la discusión es siempre efectiva.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-C2-ARGUE-002-010
     concept: well-founded-reasoning
     term: construcción argumentativa
-    translation: well-founded reasoning
+    translation: argumentative construction / well-founded reasoning
     partOfSpeech: phrase
     gender: feminine
     example: La construcción argumentativa es rigurosa y convincente.

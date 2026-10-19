@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-B1-DISCOURSE-003-007
     concept: due-to
     term: causa y efecto
-    translation: due to
+    translation: cause and effect / due to
     partOfSpeech: phrase
     gender: masculine
     example: Es importante entender la relación de causa y efecto.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-B1-DISCOURSE-003-008
     concept: consequently
     term: consecuencia
-    translation: consequently
+    translation: consequence / consequently
     partOfSpeech: noun
     gender: feminine
     example: Las consecuencias del cambio climático son graves.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-B1-DISCOURSE-003-009
     concept: this-led-to
     term: provocar
-    translation: this led to
+    translation: to cause / to provoke / this led to
     partOfSpeech: verb
     example: La subida de precios provocó protestas.
     exampleTranslation: The price increase caused protests.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-B1-DISCOURSE-003-010
     concept: the-cause-was
     term: devenir
-    translation: the cause was
+    translation: to become / to turn out / the cause was
     partOfSpeech: verb
     example: El problema devino en una crisis.
     exampleTranslation: The problem turned into a crisis.

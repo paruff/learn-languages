@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C1-ACADEMIC-001-007
     concept: academic-dissertation
     term: disertación
-    translation: academic dissertation
+    translation: dissertation / academic dissertation
     partOfSpeech: noun
     gender: feminine
     example: Escribí una disertación sobre la historia de España.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C1-ACADEMIC-001-008
     concept: body-of-sources
     term: fuentes consultadas
-    translation: body of sources
+    translation: sources consulted / body of sources
     partOfSpeech: phrase
     gender: feminine
     example: Las fuentes consultadas son variadas y fiables.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C1-ACADEMIC-001-009
     concept: theoretical-framework
     term: conclusión razonada
-    translation: theoretical framework
+    translation: reasoned conclusion / theoretical framework
     partOfSpeech: phrase
     gender: feminine
     example: La conclusión razonada del informe es convincente.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-C1-ACADEMIC-001-010
     concept: to-gather-evidence
     term: argumentación sólida
-    translation: to gather evidence
+    translation: solid argumentation / to gather evidence
     partOfSpeech: phrase
     gender: feminine
     example: Su argumentación sólida respalda toda la tesis.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-C1-ACADEMIC-001-011
     concept: to-synthesise-the-findings
     term: exhaustivo
-    translation: to synthesise the findings
+    translation: exhaustive / to synthesise the findings
     partOfSpeech: adjective
     gender: masculine
     example: El análisis exhaustivo cubre todos los aspectos.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-C1-ACADEMIC-001-012
     concept: original-contribution
     term: rigor académico
-    translation: original contribution
+    translation: academic rigour / original contribution
     partOfSpeech: phrase
     gender: masculine
     example: El rigor académico es esencial en una disertación.

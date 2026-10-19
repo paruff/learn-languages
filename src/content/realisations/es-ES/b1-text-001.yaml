@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-B1-TEXT-001-007
     concept: factual-article
     term: artículo
-    translation: factual article
+    translation: article / factual article
     partOfSpeech: noun
     gender: masculine
     example: Leí un artículo sobre el cambio climático.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-B1-TEXT-001-008
     concept: to-understand-the-text
     term: comprensión
-    translation: to understand the text
+    translation: comprehension / to understand the text
     partOfSpeech: noun
     gender: feminine
     example: Mi comprensión de textos ha mejorado mucho.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-B1-TEXT-001-009
     concept: to-identify-main-ideas
     term: idea principal
-    translation: to identify main ideas
+    translation: main idea / to identify main ideas
     partOfSpeech: phrase
     gender: feminine
     example: La idea principal del artículo es clara.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-B1-TEXT-001-010
     concept: to-read-carefully
     term: detalles específicos
-    translation: to read carefully
+    translation: specific details / to read carefully
     partOfSpeech: phrase
     gender: masculine
     example: Puedo identificar detalles específicos en el texto.

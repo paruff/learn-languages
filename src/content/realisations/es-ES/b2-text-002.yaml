@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-B2-TEXT-002-007
     concept: to-understand-newspaper-articles
     term: artículo de opinión
-    translation: to understand newspaper articles
+    translation: opinion article / to understand newspaper articles
     partOfSpeech: phrase
     gender: masculine
     example: Leí un artículo de opinión sobre el cambio climático.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-B2-TEXT-002-008
     concept: to-read-technical-reports
     term: problema contemporáneo
-    translation: to read technical reports
+    translation: contemporary problem / to read technical reports
     partOfSpeech: phrase
     gender: masculine
     example: Los problemas contemporáneos requieren análisis profundo.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-B2-TEXT-002-009
     concept: to-analyse-argumentative-texts
     term: información veraz
-    translation: to analyse argumentative texts
+    translation: truthful information / to analyse argumentative texts
     partOfSpeech: phrase
     gender: feminine
     example: Es importante buscar información veraz en internet.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-B2-TEXT-002-010
     concept: to-distinguish-facts-from-opinions
     term: comprensión profunda
-    translation: to distinguish facts from opinions
+    translation: deep comprehension / to distinguish facts from opinions
     partOfSpeech: phrase
     gender: feminine
     example: La comprensión profunda requiere tiempo y práctica.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-B2-TEXT-002-011
     concept: to-identify-the-purpose-of-the-text
     term: análisis crítico
-    translation: to identify the purpose of the text
+    translation: critical analysis / to identify the purpose of the text
     partOfSpeech: phrase
     gender: masculine
     example: El análisis crítico de textos es una habilidad clave.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-B2-TEXT-002-012
     concept: to-read-between-the-lines
     term: argumentación
-    translation: to read between the lines
+    translation: argumentation / to read between the lines
     partOfSpeech: noun
     gender: feminine
     example: La argumentación del autor es convincente.

@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C2-MODALITY-001-007
     concept: spontaneous-expression
     term: fluidez espontánea
-    translation: spontaneous expression
+    translation: spontaneous fluency / spontaneous expression
     partOfSpeech: phrase
     gender: feminine
     example: Hablo con fluidez espontánea en cualquier situación.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C2-MODALITY-001-008
     concept: native-fluency
     term: matices
-    translation: native fluency
+    translation: nuances / native fluency
     partOfSpeech: noun
     gender: masculine
     example: Distingo matices que otros hablantes no perciben.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C2-MODALITY-001-009
     concept: shades-of-meaning
     term: nativo
-    translation: shades of meaning
+    translation: native / shades of meaning
     partOfSpeech: adjective
     gender: masculine
     example: Mi nivel se acerca al de un hablante nativo.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-C2-MODALITY-001-010
     concept: broad-lexical-repertoire
     term: dominio del idioma
-    translation: broad lexical repertoire
+    translation: language mastery / broad lexical repertoire
     partOfSpeech: phrase
     gender: masculine
     example: El dominio del idioma se manifiesta en la fluidez.

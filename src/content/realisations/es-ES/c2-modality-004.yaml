@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C2-MODALITY-004-007
     concept: overall-comprehension
     term: reconstruir argumentos
-    translation: overall comprehension
+    translation: to reconstruct arguments / overall comprehension
     partOfSpeech: phrase
     example: Sé reconstruir argumentos complejos de forma coherente.
     exampleTranslation: I know how to reconstruct complex arguments coherently.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C2-MODALITY-004-008
     concept: synthesis-of-information
     term: resumir
-    translation: synthesis of information
+    translation: to summarise / synthesis of information
     partOfSpeech: verb
     example: Puedo resumir información compleja de forma precisa.
     exampleTranslation: I can summarise complex information precisely.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-C2-MODALITY-004-009
     concept: reconstruct-arguments
     term: síntesis
-    translation: reconstruct arguments
+    translation: synthesis / reconstruct arguments
     partOfSpeech: noun
     gender: feminine
     example: Mi síntesis integra diferentes perspectivas.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-C2-MODALITY-004-010
     concept: reading-with-ease
     term: reconstrucción
-    translation: reading with ease
+    translation: reconstruction / reading with ease
     partOfSpeech: noun
     gender: feminine
     example: La reconstrucción de los argumentos es rigurosa.

@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-B2-SOCIAL-002-007
     concept: to-debate-topics
     term: participar en un debate
-    translation: to debate topics
+    translation: to participate in a debate / to debate topics
     partOfSpeech: phrase
     example: Me gusta participar en debates sobre temas actuales.
     exampleTranslation: I like to participate in debates on current topics.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-B2-SOCIAL-002-008
     concept: to-participate-in-discussions
     term: exponer ideas
-    translation: to participate in discussions
+    translation: to present ideas / to participate in discussions
     partOfSpeech: phrase
     example: Puedo exponer ideas de forma clara y concisa.
     exampleTranslation: I can present ideas clearly and concisely.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-B2-SOCIAL-002-009
     concept: to-express-points-of-view
     term: contexto familiar
-    translation: to express points of view
+    translation: familiar context / to express points of view
     partOfSpeech: phrase
     gender: masculine
     example: En contextos familiares, me siento más seguro.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-B2-SOCIAL-002-010
     concept: to-argue-in-favour
     term: intervención
-    translation: to argue in favour
+    translation: intervention / turn to speak / to argue in favour
     partOfSpeech: noun
     gender: feminine
     example: Mi intervención en el debate fue breve pero efectiva.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-B2-SOCIAL-002-011
     concept: to-counter-arguments
     term: colaborar
-    translation: to counter arguments
+    translation: to collaborate / to counter arguments
     partOfSpeech: verb
     example: Es importante colaborar en la discusión.
     exampleTranslation: It is important to collaborate in the discussion.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-B2-SOCIAL-002-012
     concept: to-reach-consensus
     term: debate constructivo
-    translation: to reach consensus
+    translation: constructive debate / to reach consensus
     partOfSpeech: phrase
     gender: masculine
     example: Promovemos un debate constructivo y respetuoso.

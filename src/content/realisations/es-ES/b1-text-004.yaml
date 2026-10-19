@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-B1-TEXT-004-007
     concept: familiar-topic
     term: desarrollar
-    translation: familiar topic
+    translation: to develop / familiar topic
     partOfSpeech: verb
     example: Necesito desarrollar mis ideas con más detalle.
     exampleTranslation: I need to develop my ideas in more detail.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-B1-TEXT-004-008
     concept: to-describe-experiences
     term: organizar
-    translation: to describe experiences
+    translation: to organize / to describe experiences
     partOfSpeech: verb
     example: Es importante organizar las ideas antes de escribir.
     exampleTranslation: It is important to organize ideas before writing.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-B1-TEXT-004-009
     concept: to-express-impressions
     term: párrafo
-    translation: to express impressions
+    translation: paragraph / to express impressions
     partOfSpeech: noun
     gender: masculine
     example: Cada párrafo debe tener una idea central.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-B1-TEXT-004-010
     concept: to-use-connectors
     term: coherencia
-    translation: to use connectors
+    translation: coherence / to use connectors
     partOfSpeech: noun
     gender: feminine
     example: La coherencia del texto es fundamental.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-B1-TEXT-004-011
     concept: to-rewrite-the-text
     term: temática
-    translation: to rewrite the text
+    translation: theme / subject matter / to rewrite the text
     partOfSpeech: noun
     gender: feminine
     example: Elegí una temática que conocía bien.

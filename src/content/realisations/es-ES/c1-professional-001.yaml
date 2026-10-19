@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C1-PROFESSIONAL-001-007
     concept: proposal-for-discussion
     term: propuesta profesional
-    translation: proposal for discussion
+    translation: professional proposal / proposal for discussion
     partOfSpeech: phrase
     gender: feminine
     example: Presenté una propuesta profesional bien estructurada.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C1-PROFESSIONAL-001-008
     concept: objection-of-the-partners
     term: presentación oral
-    translation: objection of the partners
+    translation: oral presentation / objection of the partners
     partOfSpeech: phrase
     gender: feminine
     example: La presentación oral fue clara y convincente.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C1-PROFESSIONAL-001-009
     concept: to-set-the-record-straight
     term: objeciones
-    translation: to set the record straight
+    translation: objections / to set the record straight
     partOfSpeech: noun
     gender: feminine
     example: Respondí a las objeciones con calma y argumentos.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-C1-PROFESSIONAL-001-010
     concept: room-for-manoeuvre
     term: contexto profesional
-    translation: room for manoeuvre
+    translation: professional context / room for manoeuvre
     partOfSpeech: phrase
     gender: masculine
     example: En el contexto profesional, la claridad es esencial.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-C1-PROFESSIONAL-001-011
     concept: workable-consensus
     term: gestionar preguntas
-    translation: workable consensus
+    translation: to handle questions / workable consensus
     partOfSpeech: phrase
     example: Sé gestionar preguntas difíciles durante una presentación.
     exampleTranslation: I know how to handle difficult questions during a presentation.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-C1-PROFESSIONAL-001-012
     concept: tone-of-mutual-understanding
     term: exponer con seguridad
-    translation: tone of mutual understanding
+    translation: to present with confidence / tone of mutual understanding
     partOfSpeech: phrase
     example: Expongo con seguridad ante cualquier audiencia.
     exampleTranslation: I present with confidence before any audience.

@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-B2-ARGUE-002-007
     concept: to-justify-the-position
     term: cuestión de actualidad
-    translation: to justify the position
+    translation: current issue / to justify the position
     partOfSpeech: phrase
     gender: feminine
     example: La educación es una cuestión de actualidad.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-B2-ARGUE-002-008
     concept: to-argue-about-current-topics
     term: justificar
-    translation: to argue about current topics
+    translation: to justify / to argue about current topics
     partOfSpeech: verb
     example: Debo justificar mi postura con datos.
     exampleTranslation: I must justify my position with data.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-B2-ARGUE-002-009
     concept: to-present-evidence
     term: punto de vista
-    translation: to present evidence
+    translation: point of view / to present evidence
     partOfSpeech: phrase
     gender: masculine
     example: Desde mi punto de vista, la situación es preocupante.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-B2-ARGUE-002-010
     concept: to-present-the-pros-and-cons
     term: perspectiva
-    translation: to present the pros and cons
+    translation: perspective / to present the pros and cons
     partOfSpeech: noun
     gender: feminine
     example: Hay que considerar la perspectiva de todos.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-B2-ARGUE-002-011
     concept: to-refute-arguments
     term: opinión fundamentada
-    translation: to refute arguments
+    translation: informed opinion / to refute arguments
     partOfSpeech: phrase
     gender: feminine
     example: Es importante dar una opinión fundamentada.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-B2-ARGUE-002-012
     concept: to-reach-conclusions
     term: tema polémico
-    translation: to reach conclusions
+    translation: controversial topic / to reach conclusions
     partOfSpeech: phrase
     gender: masculine
     example: La inteligencia artificial es un tema polémico.

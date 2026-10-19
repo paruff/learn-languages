@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-B1-DISCOURSE-002-007
     concept: following
     term: narrar
-    translation: following
+    translation: to narrate / following
     partOfSpeech: verb
     example: Puedo narrar acontecimientos de forma clara.
     exampleTranslation: I can narrate events clearly.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-B1-DISCOURSE-002-008
     concept: after-that
     term: secuencia temporal
-    translation: after that
+    translation: temporal sequence / after that
     partOfSpeech: phrase
     gender: feminine
     example: Es importante respetar la secuencia temporal.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-B1-DISCOURSE-002-009
     concept: first-of-all
     term: antes de
-    translation: first of all
+    translation: before / first of all
     partOfSpeech: conjunction
     example: Antes de salir, revisé todo.
     exampleTranslation: Before leaving, I checked everything.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-B1-DISCOURSE-002-010
     concept: next
     term: después de
-    translation: next
+    translation: after / next
     partOfSpeech: conjunction
     example: Después de comer, dimos un paseo.
     exampleTranslation: After eating, we took a walk.

@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C1-SPOKEN-005-007
     concept: to-follow-a-film-without-subtitles
     term: programa de televisión
-    translation: to follow a film without subtitles
+    translation: television programme / to follow a film without subtitles
     partOfSpeech: phrase
     gender: masculine
     example: Puedo seguir programas de televisión sin esfuerzo.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C1-SPOKEN-005-008
     concept: fast-paced-dialogue
     term: película
-    translation: fast-paced dialogue
+    translation: film / fast-paced dialogue
     partOfSpeech: noun
     gender: feminine
     example: Entiendo películas españolas sin subtítulos.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C1-SPOKEN-005-009
     concept: register-shifts
     term: sin mucho esfuerzo
-    translation: register shifts
+    translation: without too much effort / register shifts
     partOfSpeech: phrase
     example: Sigo la tele sin mucho esfuerzo.
     exampleTranslation: I follow TV without too much effort.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-C1-SPOKEN-005-010
     concept: coherence-of-the-plot
     term: comprensión auditiva
-    translation: coherence of the plot
+    translation: listening comprehension / coherence of the plot
     partOfSpeech: phrase
     gender: feminine
     example: Mi comprensión auditiva ha alcanzado un nivel alto.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-C1-SPOKEN-005-011
     concept: slang-and-everyday-expressions
     term: series de televisión
-    translation: slang and everyday expressions
+    translation: television series / slang and everyday expressions
     partOfSpeech: phrase
     gender: feminine
     example: Veo series de televisión en español para practicar.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-C1-SPOKEN-005-012
     concept: to-interpret-the-tone
     term: acento variado
-    translation: to interpret the tone
+    translation: varied accent / to interpret the tone
     partOfSpeech: phrase
     gender: masculine
     example: Puedo entender diferentes acentos en los medios.

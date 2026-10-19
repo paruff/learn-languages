@@ -4,7 +4,7 @@ vocabulary:
   - id: es-ES-C1-WRITTEN-001-007
     concept: to-adapt-the-register-to-the-reader
     term: texto persuasivo
-    translation: to adapt the register to the reader
+    translation: persuasive text / to adapt the register to the reader
     partOfSpeech: phrase
     gender: masculine
     example: Puedo escribir textos persuasivos sobre temas abstractos.
@@ -12,7 +12,7 @@ vocabulary:
   - id: es-ES-C1-WRITTEN-001-008
     concept: opinion-piece
     term: adaptar el registro
-    translation: opinion piece
+    translation: to adapt the register / opinion piece
     partOfSpeech: phrase
     example: Sé adaptar el registro al lector objetivo.
     exampleTranslation: I know how to adapt the register to the target reader.
@@ -20,7 +20,7 @@ vocabulary:
   - id: es-ES-C1-WRITTEN-001-009
     concept: argumentative-coherence
     term: tema de actualidad
-    translation: argumentative coherence
+    translation: current topic / argumentative coherence
     partOfSpeech: phrase
     gender: masculine
     example: Escribo sobre temas de actualidad con profundidad.
@@ -28,7 +28,7 @@ vocabulary:
   - id: es-ES-C1-WRITTEN-001-010
     concept: to-dismantle-an-argument
     term: registro adecuado
-    translation: to dismantle an argument
+    translation: appropriate register / to dismantle an argument
     partOfSpeech: phrase
     gender: masculine
     example: El registro adecuado es clave para un buen texto.
@@ -36,7 +36,7 @@ vocabulary:
   - id: es-ES-C1-WRITTEN-001-011
     concept: critical-eye
     term: lector objetivo
-    translation: critical eye
+    translation: target reader / critical eye
     partOfSpeech: phrase
     gender: masculine
     example: Adapto el texto según el lector objetivo.
@@ -44,7 +44,7 @@ vocabulary:
   - id: es-ES-C1-WRITTEN-001-012
     concept: personal-signature
     term: convencer
-    translation: personal signature
+    translation: to persuade / personal signature
     partOfSpeech: verb
     example: Puedo convencer al lector con argumentos sólidos.
     exampleTranslation: I can persuade the reader with solid arguments.
