@@ -1,0 +1,11 @@
+nodeId: C1-ACADEMIC-002
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-C1-ACADEMIC-002-001
+    concept: conference-paper
+    term: communication scientifique
+    translation: conference paper
+    partOfSpeech: noun
+    gender: feminine
+    example: Sa communication scientifique est claire pour un public mixte.
+    exampleTranslation: The conference paper used up the allotted time.

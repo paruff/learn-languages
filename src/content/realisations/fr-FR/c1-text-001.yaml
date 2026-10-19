@@ -1,0 +1,11 @@
+nodeId: C1-TEXT-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-C1-TEXT-001-001
+    concept: to-read-between-the-lines
+    term: lire entre les lignes
+    translation: to read between the lines
+    partOfSpeech: phrase
+    gender: n/a
+    example: Avec l'expérience, on apprend à lire entre les lignes.
+    exampleTranslation: An attentive reader knows how to read between the lines of editorials.

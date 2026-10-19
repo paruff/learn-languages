@@ -1,0 +1,11 @@
+nodeId: C1-PROFESSIONAL-002
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-C1-PROFESSIONAL-002-001
+    concept: detailed-report
+    term: rapport détaillé
+    translation: detailed report
+    partOfSpeech: noun
+    gender: masculine
+    example: Le rapport détaillé met en évidence les points décisifs.
+    exampleTranslation: The detailed report covers all the figures of the quarter.

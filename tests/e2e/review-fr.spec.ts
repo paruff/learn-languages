@@ -9,11 +9,12 @@ const FOOD_LESSON_URL = '/learn-languages/en-GB/fr-FR/lessons/A1-FOOD-001/';
 const JOB_LESSON_URL = '/learn-languages/en-GB/fr-FR/lessons/A2-JOB-001/';
 const B1_OPINION_LESSON_URL = '/learn-languages/en-GB/fr-FR/lessons/B1-OPINION-001/';
 const B2_ARGUE_LESSON_URL = '/learn-languages/en-GB/fr-FR/lessons/B2-ARGUE-001/';
+const C1_ACADEMIC_LESSON_URL = '/learn-languages/en-GB/fr-FR/lessons/C1-ACADEMIC-001/';
 const FR_DIR = 'src/content/realisations/fr-FR';
 const EN_DIR = 'src/content/realisations/en-GB';
 
 /** fr-FR vocab ids for a level (grammar blocks are empty in fr files, so every id is a vocab id). */
-function frVocabIds(levelPrefix: 'a1-' | 'a2-' | 'b1-' | 'b2-'): string[] {
+function frVocabIds(levelPrefix: 'a1-' | 'a2-' | 'b1-' | 'b2-' | 'c1-'): string[] {
   return readdirSync(FR_DIR)
     .filter((f) => f.startsWith(levelPrefix) && f.endsWith('.yaml'))
     .flatMap((f) =>

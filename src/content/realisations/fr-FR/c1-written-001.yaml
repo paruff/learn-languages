@@ -1,0 +1,11 @@
+nodeId: C1-WRITTEN-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-C1-WRITTEN-001-001
+    concept: to-adapt-the-register-to-the-reader
+    term: adapter le registre au lecteur
+    translation: to adapt the register to the reader
+    partOfSpeech: phrase
+    gender: n/a
+    example: Il faut adapter le registre au lecteur visé.
+    exampleTranslation: The columnist knows how to adapt the register to the newspaper reader.

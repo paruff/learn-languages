@@ -1,6 +1,6 @@
 # French (fr-FR) CEFR Mapping — Walking Skeleton
 
-Tracks the CEFR reference-document verification and 5-node walking skeleton for **en-GB↔fr-FR**, per issue #106, the full A1 descriptor extraction and content authoring per issue #107, the full A2 descriptor extraction and content authoring per issue #108, the full B1 descriptor extraction and content authoring per issue #109, and the full B2 descriptor extraction and content authoring per issue #110. Mirrors `docs/de-cefr-mapping.md` and `docs/es-cefr-mapping.md` in format and rigor. A1 + A2 + B1 + B2 are complete; C2 remain pending (#111–#112).
+Tracks the CEFR reference-document verification and 5-node walking skeleton for **en-GB↔fr-FR**, per issue #106, the full A1 descriptor extraction and content authoring per issue #107, the full A2 descriptor extraction and content authoring per issue #108, the full B1 descriptor extraction and content authoring per issue #109, and the full B2 descriptor extraction and content authoring per issue #110. Mirrors `docs/de-cefr-mapping.md` and `docs/es-cefr-mapping.md` in format and rigor. A1 + A2 + B1 + B2 + C1 are complete; C2 remains pending (#112).
 
 ## Source document verification (#106)
 
@@ -548,12 +548,12 @@ C2 Coverage: 20/20 nodes fully realised (100%).
 
 ## Sourcing note
 
-No new vocabulary images were sourced — `A1-NUMB-001`'s `imageUrl`s reuse the existing `um.webp`/`dois.webp`/`tres.webp` files (already credited in `public/vocab-images/CREDITS.md`), since the underlying photographs (numeral shapes) are language-independent. No images apply at A2 (no en-GB `imageUrl` fields in the A2 inventory). No images apply at B1 (no en-GB `imageUrl` fields in the B1 inventory). No images apply at B2 (no en-GB `imageUrl` fields in the B2 inventory). See `docs/content-attribution.md` (#41) for the sourcing policy this follows.
+No new vocabulary images were sourced — `A1-NUMB-001`'s `imageUrl`s reuse the existing `um.webp`/`dois.webp`/`tres.webp` files (already credited in `public/vocab-images/CREDITS.md`), since the underlying photographs (numeral shapes) are language-independent. No images apply at A2 (no en-GB `imageUrl` fields in the A2 inventory). No images apply at B1 (no en-GB `imageUrl` fields in the B1 inventory). No images apply at B2 (no en-GB `imageUrl` fields in the B2 inventory). No images apply at C1 (no en-GB `imageUrl` fields in the C1 inventory). See `docs/content-attribution.md` (#41) for the sourcing policy this follows.
 
 ## Verification
 
-- `npm run validate:content`: 633 realisations, all reference valid `cefr-nodes` (154 nodes); vocabulary-parity warning at the 17-node informational baseline (not exceeded); every fr-FR B1/B2 file at exact 6-item en-GB seq parity
-- `npm run typecheck` / `npm run lint` / `npm test`: clean (17 test files, 126 tests passed; coverage 99.48% statements / 98.71% branches / 100% functions / 100% lines — all ≥90% gates)
-- `npm run build`: 2595 pages built; routes generated automatically for `en-GB↔fr-FR`, `es-ES↔fr-FR`, `pt-PT↔fr-FR`, and `de-DE↔fr-FR` — zero code changes, confirming `getAvailablePairs()`/`pairRealisations()` generalize across languages
-- `tests/e2e/review-fr.spec.ts`: 10/10 passing (4 A1 + 2 A2 + 2 B1 + 2 B2 tests added by #109/#110: a full B2-only 15-card session grades out with every card from the B2 inventory, and the B2-ARGUE-001 lesson pairs to construct a chain of reasoning↔construire une chaîne de raisonnement, to develop the argument↔développer l'argument); full 3-browser suite 78/78 green (chromium + firefox + webkit), with the known axe-core timeout flake re-run in isolation and passing per the A1/A2/B1 precedent
-- Manual browser verification for `en-GB→fr-FR`: Practice page loads with correct "French" branding (via the existing `languageName()` util, unchanged), a full graded review card, and Progress page showing correctly isolated per-pair state; after #110 — lessons index lists all A1+A2+B1+B2 lessons (20 B2 lesson links), `B2-ARGUE-001` shows to construct a chain of reasoning↔construire une chaîne de raisonnement / to develop the argument↔développer l'argument with French examples, and a cleared review session opens at `1 of 15` with English-front/French-back B2-only cards grading through to completion, persisting `srs:en-GB:fr-FR:forward:*` keys (the two B2 e2e tests automate the same path)
+- `npm run validate:content`: 658 realisations, all reference valid `cefr-nodes` (154 nodes); vocabulary-count parity warning is informational and now includes all 25 C1 fr-FR files at 1-item depth versus 6-item depth in other languages
+- `npm run typecheck` / `npm run lint`: clean
+- `npm test`: 18/18 test files, 157/157 tests passing; coverage 97.16% statements / 92.12% branches / 98.86% functions / 98.55% lines
+- `npm run build`: 2908 pages built, including the new C1 lesson/review routes for `en-GB↔fr-FR`
+- `npm run test:e2e -- --project=chromium tests/e2e/review-fr.spec.ts --grep C1`: 2/2 passing (C1-only review session grades out end-to-end, and `C1-ACADEMIC-001` lesson pairs `academic dissertation` ↔ `thèse universitaire`). Only Chromium was run in this environment because Firefox/WebKit host-library dependencies are unavailable on the runner.

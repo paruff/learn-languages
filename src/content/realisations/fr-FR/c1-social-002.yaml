@@ -1,0 +1,11 @@
+nodeId: C1-SOCIAL-002
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-C1-SOCIAL-002-001
+    concept: to-switch-register
+    term: adapter le registre
+    translation: to switch register
+    partOfSpeech: phrase
+    gender: n/a
+    example: Il sait adapter le registre selon ses interlocuteurs.
+    exampleTranslation: In a formal environment, he switches register with surprising naturalness.

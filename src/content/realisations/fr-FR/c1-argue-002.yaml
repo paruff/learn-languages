@@ -1,0 +1,11 @@
+nodeId: C1-ARGUE-002
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-C1-ARGUE-002-001
+    concept: to-refute-an-argument
+    term: réfuter un argument
+    translation: to refute an argument
+    partOfSpeech: phrase
+    gender: n/a
+    example: Elle peut réfuter un argument sans perdre en précision.
+    exampleTranslation: She refuted her opponent's argument with objective data.
