@@ -1,0 +1,11 @@
+nodeId: C1-SPOKEN-002
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-C1-SPOKEN-002-001
+    concept: to-get-down-to-business
+    term: aller droit au but
+    translation: to get down to business
+    partOfSpeech: phrase
+    gender: n/a
+    example: Dans la réunion, il sait aller droit au but.
+    exampleTranslation: Enough beating about the bush; let's get down to business.

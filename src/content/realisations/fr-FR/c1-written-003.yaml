@@ -1,0 +1,11 @@
+nodeId: C1-WRITTEN-003
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-C1-WRITTEN-003-001
+    concept: personal-narrative
+    term: récit personnel
+    translation: personal narrative
+    partOfSpeech: noun
+    gender: masculine
+    example: Son récit personnel propose un point de vue convaincant.
+    exampleTranslation: His personal narrative offers a convincing point of view.

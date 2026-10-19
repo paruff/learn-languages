@@ -1,0 +1,11 @@
+nodeId: C1-TEXT-002
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-C1-TEXT-002-001
+    concept: technical-specifications
+    term: spécifications techniques
+    translation: technical specifications
+    partOfSpeech: noun
+    gender: feminine
+    example: Ces spécifications techniques restent compréhensibles hors du domaine.
+    exampleTranslation: The technical specifications of the equipment run to twenty pages.
