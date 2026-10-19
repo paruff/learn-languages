@@ -147,6 +147,41 @@ describe('pairRealisations', () => {
     expect(paired).toHaveLength(2);
   });
 
+  it('handles an Italian realisation the same way as any other language pair', () => {
+    const itGreet: RealisationLike = {
+      nodeId: 'A1-GREET-001',
+      lang: 'it-IT',
+      vocabulary: [
+        {
+          id: 'it-IT-A1-GREET-001-001',
+          concept: 'hello',
+          term: 'Ciao',
+          translation: 'Hello',
+          example: 'Ciao, come stai?',
+          exampleTranslation: 'Hello, how are you?',
+        },
+        {
+          id: 'it-IT-A1-GREET-001-002',
+          concept: 'good-morning',
+          term: 'Buongiorno',
+          translation: 'Good morning',
+          example: 'Buongiorno, signora.',
+          exampleTranslation: 'Good morning, madam.',
+        },
+      ],
+    };
+
+    const paired = pairRealisations([enGreet, itGreet], 'en-GB', 'it-IT');
+    expect(paired).toHaveLength(2);
+    expect(paired[0].source.term).toBe('Hello');
+    expect(paired[0].target.term).toBe('Ciao');
+
+    const reverse = pairRealisations([itGreet, enGreet], 'it-IT', 'en-GB');
+    expect(reverse).toHaveLength(2);
+    expect(reverse[0].source.term).toBe('Ciao');
+    expect(reverse[0].target.term).toBe('Hello');
+  });
+
   it('returns an empty array when there is no overlap at all', () => {
     const paired = pairRealisations([enNumbers], 'en-GB', 'pt-PT');
     expect(paired).toEqual([]);
