@@ -12,10 +12,8 @@ export interface ConceptImage {
   source: string;
   license: string;
   culturallySpecific?: boolean;
-  overrides?: Partial<Record<string, ConceptImageOverride>>;
+  overrides?: Record<string, ConceptImageOverride>;
 }
-
-export type ConceptImageEntry = ConceptImage;
 
 export interface ResolvedImage {
   file: string;

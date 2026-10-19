@@ -1,5 +1,5 @@
 import { defineCollection, z } from 'astro:content';
-import { file, glob } from 'astro/loaders';
+import { glob } from 'astro/loaders';
 
 const cefrNodeSchema = z
   .object({
@@ -53,7 +53,7 @@ const vocabularyItemSchema = z
   });
 
 const conceptImageOverrideSchema = z.object({
-  file: z.string().regex(/^[a-z0-9][a-z0-9.-]*\.webp$/i),
+  file: z.string().regex(/^[a-z0-9][a-z0-9.-]*\.webp$/),
   alt: z.string().min(5),
   source: z.string().url(),
   license: z.string().min(1),
@@ -61,7 +61,7 @@ const conceptImageOverrideSchema = z.object({
 
 const conceptImageSchema = z.object({
   concept: z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/),
-  file: z.string().regex(/^[a-z0-9][a-z0-9.-]*\.webp$/i),
+  file: z.string().regex(/^[a-z0-9][a-z0-9.-]*\.webp$/),
   alt: z.string().min(5),
   source: z.string().url(),
   license: z.string().min(1),
@@ -144,7 +144,7 @@ export const collections = {
     schema: vocabularyItemSchema,
   }),
   'concept-images': defineCollection({
-    loader: file('./src/content/concept-images/index.yaml'),
+    type: 'data',
     schema: z.array(conceptImageSchema),
   }),
   realisations: defineCollection({

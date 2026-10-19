@@ -10,9 +10,28 @@ export async function getStaticPaths() {
 }
 
 const { sourceLang, targetLang } = Astro.params;
-const conceptImages = (await getCollection('concept-images')).flatMap((entry) =>
-  Array.isArray(entry.data) ? entry.data : [entry.data]
-);
+const conceptImages = (await getCollection('concept-images'))
+  .flatMap((entry) => entry.data)
+  .map((image) => {
+    const resolvedTarget = targetLang ? image.overrides?.[targetLang] : undefined;
+    if (resolvedTarget) {
+      return {
+        concept: image.concept,
+        file: resolvedTarget.file,
+        alt: resolvedTarget.alt,
+        source: resolvedTarget.source,
+        license: resolvedTarget.license,
+      };
+    }
+
+    return {
+      concept: image.concept,
+      file: image.file,
+      alt: image.alt,
+      source: image.source,
+      license: image.license,
+    };
+  });
 ---
 
 <BaseLayout
@@ -51,9 +70,13 @@ const conceptImages = (await getCollection('concept-images')).flatMap((entry) =>
               />
             </td>
             <td>
-              <a href={image.source} target="_blank" rel="noreferrer">
-                {image.source}
-              </a>
+              {image.source ? (
+                <a href={image.source} target="_blank" rel="noopener noreferrer">
+                  {image.source}
+                </a>
+              ) : (
+                'Source unavailable'
+              )}
             </td>
             <td>{image.license}</td>
           </tr>
@@ -81,7 +104,7 @@ const conceptImages = (await getCollection('concept-images')).flatMap((entry) =>
   .credits-table img {
     width: 80px;
     height: 80px;
-    border-radius: var(--radius);
+    border-radius: var(--radius-md);
     object-fit: cover;
     background: var(--color-bg-secondary);
   }
