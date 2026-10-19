@@ -1,0 +1,46 @@
+nodeId: B1-ARGUMENT-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-ARGUMENT-001-001
+    concept: an-argumentative-text
+    term: un testo argomentativo
+    translation: an argumentative text
+    partOfSpeech: phrase
+    example: The article is a short argumentative text.
+    exampleTranslation: The article is a short argumentative text.
+  - id: it-IT-B1-ARGUMENT-001-002
+    concept: the-main-conclusion
+    term: la conclusione principale
+    translation: the main conclusion
+    partOfSpeech: phrase
+    example: Identify the main conclusion of the editorial.
+    exampleTranslation: Identify the main conclusion of the editorial.
+  - id: it-IT-B1-ARGUMENT-001-003
+    concept: the-line-of-argument
+    term: la linea di argomentazione
+    translation: the line of argument
+    partOfSpeech: phrase
+    example: Recognise the line of argument before reading in detail.
+    exampleTranslation: Recognise the line of argument before reading in detail.
+  - id: it-IT-B1-ARGUMENT-001-004
+    concept: to-put-forward-a-point
+    term: presentare un punto
+    translation: to put forward a point
+    partOfSpeech: phrase
+    example: The author puts forward a strong point.
+    exampleTranslation: The author puts forward a strong point.
+  - id: it-IT-B1-ARGUMENT-001-005
+    concept: a-counterargument
+    term: una controargomentazione
+    translation: a counterargument
+    partOfSpeech: noun
+    example: The text presents a counterargument at the end.
+    exampleTranslation: The text presents a counterargument at the end.
+  - id: it-IT-B1-ARGUMENT-001-006
+    concept: to-be-convinced
+    term: essere convinto
+    translation: to be convinced
+    partOfSpeech: phrase
+    example: I was convinced by the final paragraph.
+    exampleTranslation: I was convinced by the final paragraph.
+grammar: []

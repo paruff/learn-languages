@@ -1,12 +1,12 @@
-# Italian (it-IT) CEFR Mapping — A1 Inventory
+# Italian (it-IT) CEFR Mapping — A1–B1 Inventory
 
-Tracks the CEFR A1 Can-Do inventory for **en-GB↔it-IT** against the shared repository node set and the paired `realisations` content. This issue reuses the existing language-agnostic A1 node inventory rather than creating a duplicate Italian-only schema.
+Tracks the CEFR A1–B1 Can-Do inventory for **en-GB↔it-IT** against the shared repository node set and paired `realisations` content. This epic reuses the existing language-agnostic B1 node inventory rather than creating a duplicate Italian-only schema.
 
 ## Source verification
 
-This mapping follows the same evidence rule used elsewhere in the repo: the CEFR inventory is not assumed by language; it is checked against a publicly available institutional descriptor source and then mapped onto the shared node set. For the Italian A1 slice, the repository uses the common CEFR A1 skill structure already reflected in the shared `cefr-nodes/` YAML files.
+This mapping follows the same evidence rule used elsewhere in the repo: the CEFR inventory is not assumed by language; it is checked against a publicly available institutional descriptor source and then mapped onto the shared node set. For the Italian A1 and B1 slices, the repository reuses the language-agnostic CEFR nodes already used across the other verified language pairs.
 
-**Source basis:** the Council of Europe CEFR A1 descriptors combined with the repo’s verified language-agnostic A1 nodes already used for en-GB/pt-PT/es-ES/de-DE/fr-FR. The A1 inventory is a shared capability model, and the Italian realisations are language-specific surface forms of those already-validated Can-Do statements.
+**Source basis:** Council of Europe CEFR descriptors for A1/B1, validated against the repository's shared `cefr-nodes/` inventory and the same source model already used for the existing verified pair docs (pt-PT, es-ES, de-DE, fr-FR).
 
 ## A1 coverage table
 
@@ -39,8 +39,50 @@ This mapping follows the same evidence rule used elsewhere in the repo: the CEFR
 
 A1 coverage: 23/23 nodes fully realised (100%). All A1 node IDs now have paired `en-GB` + `it-IT` realisations and match the shared concept inventory consumed by `npm run report:coverage -- it-IT A1`.
 
+## B1 coverage table
+
+| nodeId | Skill | Can-Do | Status |
+| --- | --- | --- | --- |
+| B1-ARGUMENT-001 | writing | Can identify the main points in an argument | ✅ Realised |
+| B1-CLARIFY-001 | spoken_interaction | Can ask for and give clarification in conversations | ✅ Realised |
+| B1-CONSULT-001 | spoken_interaction | Can describe symptoms and consult a professional | ✅ Realised |
+| B1-CORRESPOND-001 | writing | Can keep up a correspondence with a pen friend | ✅ Realised |
+| B1-DESCRIBE-001 | spoken_production | Can describe experiences and feelings in detail | ✅ Realised |
+| B1-DISCOURSE-001 | spoken_interaction | Can use connectors to link ideas in extended speech | ✅ Realised |
+| B1-DISCOURSE-002 | spoken_production | Can narrate events in correct temporal sequence | ✅ Realised |
+| B1-DISCOURSE-003 | spoken_production | Can describe cause and effect relationships | ✅ Realised |
+| B1-DISCOURSE-004 | writing | Can write a simple narrative with temporal markers | ✅ Realised |
+| B1-DISCOURSE-005 | writing | Can write short reports describing experiences | ✅ Realised |
+| B1-EXCHANGE-001 | spoken_interaction | Can exchange information on familiar topics | ✅ Realised |
+| B1-EXPERIENCE-001 | spoken_production | Can relate personal experiences and reactions | ✅ Realised |
+| B1-INSTRUCT-001 | spoken_interaction | Can give clear instructions and procedures | ✅ Realised |
+| B1-LISTEN-001 | listening | Can follow the main points of a clear discussion | ✅ Realised |
+| B1-LOCATE-001 | reading | Can locate specific information in a text | ✅ Realised |
+| B1-MEDIA-001 | listening | Can understand the gist of radio and media content | ✅ Realised |
+| B1-MESSAGE-001 | writing | Can relay a message and clarify key points | ✅ Realised |
+| B1-NOTES-001 | writing | Can take notes on key information in a lecture | ✅ Realised |
+| B1-OPINION-001 | spoken_production | Can express opinions with supporting reasons | ✅ Realised |
+| B1-OPINION-002 | spoken_interaction | Can agree and disagree politely | ✅ Realised |
+| B1-OPINION-003 | spoken_production | Can describe advantages and disadvantages | ✅ Realised |
+| B1-OPINION-004 | writing | Can write simple opinions about current events | ✅ Realised |
+| B1-PROCEDURE-001 | reading | Can follow a process or set of instructions | ✅ Realised |
+| B1-RECAP-001 | spoken_production | Can summarise and recap information clearly | ✅ Realised |
+| B1-SERVICE-001 | spoken_interaction | Can manage typical service and administrative interactions | ✅ Realised |
+| B1-SOCIAL-001 | spoken_interaction | Can handle most social situations while travelling | ✅ Realised |
+| B1-SOCIAL-002 | spoken_interaction | Can engage in extended conversation on familiar topics | ✅ Realised |
+| B1-SOCIAL-003 | spoken_interaction | Can express and respond to feelings and opinions | ✅ Realised |
+| B1-SOCIAL-004 | spoken_production | Can keep a conversation going by inviting opinions | ✅ Realised |
+| B1-SUMMARY-001 | writing | Can summarise the main points of a factual text | ✅ Realised |
+| B1-TEXT-001 | reading | Can understand factual articles on topics of interest | ✅ Realised |
+| B1-TEXT-002 | reading | Can identify the main points in news articles | ✅ Realised |
+| B1-TEXT-003 | reading | Can read simple technical information in their field | ✅ Realised |
+| B1-TEXT-004 | writing | Can write straightforward connected text on familiar topics | ✅ Realised |
+| B1-TEXT-005 | writing | Can write a letter or email describing experiences | ✅ Realised |
+
+B1 coverage: 35/35 nodes fully realised (100%). The Italian B1 slice reuses the shared CEFR B1 node set and adds paired `en-GB` + `it-IT` realisations for every B1 node in `src/content/realisations/it-IT`.
+
 ## Notes
 
-- This epic follows the repository’s existing playbook: reuse the shared CEFR A1 nodes, author the target-language realisation layer, and verify content integrity rather than creating language-specific node IDs.
-- The route set is derived from actual realisations via `getAvailablePairs()`, so adding the `it-IT` A1 files creates the `en-GB↔it-IT` review and lesson routes automatically.
-- Browser validation is done via the real `en-GB→it-IT` A1 flow, with SRS state persisted under the pair key `srs:en-GB:it-IT:forward:*`.
+- The route set is derived from actual realisations via `getAvailablePairs()`, so the `en-GB↔it-IT` review and lesson routes become available automatically once the B1 files are in place.
+- Browser validation is done via the real `en-GB→it-IT` review flow, with SRS state persisted under the pair key `srs:en-GB:it-IT:forward:*`.
+- This update follows the repository playbook: reuse the shared CEFR node inventory, author the target-language realisation layer, and validate integrity rather than duplicating the node model.

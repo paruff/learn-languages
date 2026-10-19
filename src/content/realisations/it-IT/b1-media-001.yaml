@@ -1,0 +1,46 @@
+nodeId: B1-MEDIA-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-MEDIA-001-001
+    concept: a-news-bulletin
+    term: un bollettino di notizie
+    translation: a news bulletin
+    partOfSpeech: phrase
+    example: I listen to the news bulletin every morning.
+    exampleTranslation: I listen to the news bulletin every morning.
+  - id: it-IT-B1-MEDIA-001-002
+    concept: a-radio-broadcast
+    term: una trasmissione radio
+    translation: a radio broadcast
+    partOfSpeech: phrase
+    example: The radio broadcast covered the election.
+    exampleTranslation: The radio broadcast covered the election.
+  - id: it-IT-B1-MEDIA-001-003
+    concept: a-recorded-document
+    term: un documento registrato
+    translation: a recorded document
+    partOfSpeech: phrase
+    example: The recorded document is available online.
+    exampleTranslation: The recorded document is available online.
+  - id: it-IT-B1-MEDIA-001-004
+    concept: the-plot
+    term: la trama
+    translation: the plot
+    partOfSpeech: phrase
+    example: I followed the plot of the film easily.
+    exampleTranslation: I followed the plot of the film easily.
+  - id: it-IT-B1-MEDIA-001-005
+    concept: subtitles
+    term: sottotitoli
+    translation: subtitles
+    partOfSpeech: noun
+    example: I watch French films with subtitles.
+    exampleTranslation: I watch French films with subtitles.
+  - id: it-IT-B1-MEDIA-001-006
+    concept: a-slow-pace
+    term: un ritmo lento
+    translation: a slow pace
+    partOfSpeech: phrase
+    example: I understand better when the speaker uses a slow pace.
+    exampleTranslation: I understand better when the speaker uses a slow pace.
+grammar: []

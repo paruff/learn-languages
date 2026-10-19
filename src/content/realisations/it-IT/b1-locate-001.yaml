@@ -1,0 +1,46 @@
+nodeId: B1-LOCATE-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-LOCATE-001-001
+    concept: to-scan-a-text
+    term: scansionare un testo
+    translation: to scan a text
+    partOfSpeech: phrase
+    example: Scan the text to find the opening hours.
+    exampleTranslation: Scan the text to find the opening hours.
+  - id: it-IT-B1-LOCATE-001-002
+    concept: to-locate-information
+    term: trovare informazioni
+    translation: to locate information
+    partOfSpeech: phrase
+    example: Locate the information you need in the brochure.
+    exampleTranslation: Locate the information you need in the brochure.
+  - id: it-IT-B1-LOCATE-001-003
+    concept: a-specific-task
+    term: un compito specifico
+    translation: a specific task
+    partOfSpeech: phrase
+    example: Gather the figures for a specific task.
+    exampleTranslation: Gather the figures for a specific task.
+  - id: it-IT-B1-LOCATE-001-004
+    concept: an-official-document
+    term: un documento ufficiale
+    translation: an official document
+    partOfSpeech: phrase
+    example: The form is an official document.
+    exampleTranslation: The form is an official document.
+  - id: it-IT-B1-LOCATE-001-005
+    concept: a-leaflet
+    term: un opuscolo
+    translation: a leaflet
+    partOfSpeech: noun
+    example: The leaflet lists the opening times.
+    exampleTranslation: The leaflet lists the opening times.
+  - id: it-IT-B1-LOCATE-001-006
+    concept: relevant-information
+    term: informazioni rilevanti
+    translation: relevant information
+    partOfSpeech: phrase
+    example: Find the relevant information on page two.
+    exampleTranslation: Find the relevant information on page two.
+grammar: []

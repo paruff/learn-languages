@@ -1,0 +1,46 @@
+nodeId: B1-PROCEDURE-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-PROCEDURE-001-001
+    concept: how-to-do-something
+    term: come fare qualcosa
+    translation: how to do something
+    partOfSpeech: phrase
+    example: He explained how to do it in two minutes.
+    exampleTranslation: He explained how to do it in two minutes.
+  - id: it-IT-B1-PROCEDURE-001-002
+    concept: detailed-instructions
+    term: istruzioni dettagliate
+    translation: detailed instructions
+    partOfSpeech: phrase
+    example: Follow my detailed instructions carefully.
+    exampleTranslation: Follow my detailed instructions carefully.
+  - id: it-IT-B1-PROCEDURE-001-003
+    concept: to-set-up
+    term: preparare
+    translation: to set up
+    partOfSpeech: verb
+    example: I will show you how to set up the printer.
+    exampleTranslation: I will show you how to set up the printer.
+  - id: it-IT-B1-PROCEDURE-001-004
+    concept: the-next-step
+    term: il passo successivo
+    translation: the next step
+    partOfSpeech: phrase
+    example: The next step is to connect the cable.
+    exampleTranslation: The next step is to connect the cable.
+  - id: it-IT-B1-PROCEDURE-001-005
+    concept: in-order
+    term: per
+    translation: in order
+    partOfSpeech: phrase
+    example: Carry out the tasks in order.
+    exampleTranslation: Carry out the tasks in order.
+  - id: it-IT-B1-PROCEDURE-001-006
+    concept: a-recipe
+    term: una ricetta
+    translation: a recipe
+    partOfSpeech: noun
+    example: She explained the recipe step by step.
+    exampleTranslation: She explained the recipe step by step.
+grammar: []

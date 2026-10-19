@@ -1,0 +1,61 @@
+nodeId: B1-DISCOURSE-004
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-DISCOURSE-004-001
+    concept: to-a-certain-extent
+    term: in certa misura
+    translation: to a certain extent
+    partOfSpeech: phrase
+    gender: n/a
+    example: To a certain extent, I am right.
+    exampleTranslation: To a certain extent, I am right.
+  - id: it-IT-B1-DISCOURSE-004-002
+    concept: depending-on
+    term: a seconda di
+    translation: depending on
+    partOfSpeech: phrase
+    gender: n/a
+    example: Depending on the weather, we will go to the park.
+    exampleTranslation: Depending on the weather, we will go to the park.
+  - id: it-IT-B1-DISCOURSE-004-003
+    concept: up-to-a-point
+    term: fino a un certo punto
+    translation: up to a point
+    partOfSpeech: phrase
+    gender: n/a
+    example: Up to a point, I agree with the analysis.
+    exampleTranslation: Up to a point, I agree with the analysis.
+  - id: it-IT-B1-DISCOURSE-004-004
+    concept: in-practice
+    term: nella pratica
+    translation: in practice
+    partOfSpeech: phrase
+    gender: n/a
+    example: In practice, things are different.
+    exampleTranslation: In practice, things are different.
+  - id: it-IT-B1-DISCOURSE-004-005
+    concept: in-my-experience
+    term: in mia esperienza
+    translation: in my experience
+    partOfSpeech: phrase
+    gender: n/a
+    example: In my experience, this works well.
+    exampleTranslation: In my experience, this works well.
+  - id: it-IT-B1-DISCOURSE-004-006
+    concept: in-general-terms
+    term: in termini generali
+    translation: in general terms
+    partOfSpeech: phrase
+    gender: n/a
+    example: In general terms, the project was a success.
+    exampleTranslation: In general terms, the project was a success.
+grammar:
+  - id: B1-GRAMMAR-013
+    point: Hedging and qualification
+    explanation: Using phrases to moderate or qualify statements
+    examples:
+      - To a certain extent, I agree.
+      - In practice, it is more complicated.
+    cefrNotes: Hedging allows B1 learners to express nuance and avoid absolutes
+culturalNotes: British communication often uses hedging to soften assertions. 'To
+  some extent' or 'in principle' shows considered thinking without appearing dogmatic.

@@ -1,0 +1,46 @@
+nodeId: B1-MESSAGE-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-MESSAGE-001-001
+    concept: to-leave-a-note
+    term: lasciare una nota
+    translation: to leave a note
+    partOfSpeech: phrase
+    example: I left a note for the caretaker.
+    exampleTranslation: I left a note for the caretaker.
+  - id: it-IT-B1-MESSAGE-001-002
+    concept: a-message
+    term: un messaggio
+    translation: a message
+    partOfSpeech: noun
+    example: She took a message about the delivery.
+    exampleTranslation: She took a message about the delivery.
+  - id: it-IT-B1-MESSAGE-001-003
+    concept: a-request-for-information
+    term: una richiesta di informazioni
+    translation: a request for information
+    partOfSpeech: phrase
+    example: The letter contains a request for information.
+    exampleTranslation: The letter contains a request for information.
+  - id: it-IT-B1-MESSAGE-001-004
+    concept: to-explain-a-problem
+    term: spiegare un problema
+    translation: to explain a problem
+    partOfSpeech: phrase
+    example: Write to explain the problem clearly.
+    exampleTranslation: Write to explain the problem clearly.
+  - id: it-IT-B1-MESSAGE-001-005
+    concept: urgent-information
+    term: informazioni urgenti
+    translation: urgent information
+    partOfSpeech: phrase
+    example: This message carries urgent information.
+    exampleTranslation: This message carries urgent information.
+  - id: it-IT-B1-MESSAGE-001-006
+    concept: the-key-points
+    term: i punti chiave
+    translation: the key points
+    partOfSpeech: phrase
+    example: Make the key points stand out.
+    exampleTranslation: Make the key points stand out.
+grammar: []

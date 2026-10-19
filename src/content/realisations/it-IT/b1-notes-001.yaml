@@ -1,0 +1,46 @@
+nodeId: B1-NOTES-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-NOTES-001-001
+    concept: to-take-notes
+    term: prendere appunti
+    translation: to take notes
+    partOfSpeech: phrase
+    example: I took notes during the lecture.
+    exampleTranslation: I took notes during the lecture.
+  - id: it-IT-B1-NOTES-001-002
+    concept: a-list-of-key-points
+    term: una lista di punti chiave
+    translation: a list of key points
+    partOfSpeech: phrase
+    example: Write a list of key points.
+    exampleTranslation: Write a list of key points.
+  - id: it-IT-B1-NOTES-001-003
+    concept: a-lecture
+    term: una lezione
+    translation: a lecture
+    partOfSpeech: noun
+    example: The lecture was clear and well structured.
+    exampleTranslation: The lecture was clear and well structured.
+  - id: it-IT-B1-NOTES-001-004
+    concept: to-reuse-later
+    term: riutilizzare più tardi
+    translation: to reuse later
+    partOfSpeech: phrase
+    example: I will reuse these notes in my essay.
+    exampleTranslation: I will reuse these notes in my essay.
+  - id: it-IT-B1-NOTES-001-005
+    concept: a-seminar
+    term: un seminario
+    translation: a seminar
+    partOfSpeech: noun
+    example: The seminar focused on climate policy.
+    exampleTranslation: The seminar focused on climate policy.
+  - id: it-IT-B1-NOTES-001-006
+    concept: a-familiar-topic
+    term: un argomento familiare
+    translation: a familiar topic
+    partOfSpeech: phrase
+    example: I take better notes on a familiar topic.
+    exampleTranslation: I take better notes on a familiar topic.
+grammar: []

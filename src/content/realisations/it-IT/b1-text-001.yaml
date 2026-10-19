@@ -1,0 +1,61 @@
+nodeId: B1-TEXT-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-TEXT-001-001
+    concept: factual-article
+    term: articolo di attualità
+    translation: factual article
+    partOfSpeech: phrase
+    gender: masculine
+    example: I read a factual article about the Portuguese economy.
+    exampleTranslation: I read a factual article about the Portuguese economy.
+  - id: it-IT-B1-TEXT-001-002
+    concept: topic-of-interest
+    term: argomento di interesse
+    translation: topic of interest
+    partOfSpeech: phrase
+    gender: masculine
+    example: I found an article about a topic of interest.
+    exampleTranslation: I found an article about a topic of interest.
+  - id: it-IT-B1-TEXT-001-003
+    concept: to-understand-the-text
+    term: capire il testo
+    translation: to understand the text
+    partOfSpeech: phrase
+    gender: n/a
+    example: I can understand the text without a dictionary.
+    exampleTranslation: I can understand the text without a dictionary.
+  - id: it-IT-B1-TEXT-001-004
+    concept: to-identify-main-ideas
+    term: individuare le idee principali
+    translation: to identify main ideas
+    partOfSpeech: phrase
+    gender: n/a
+    example: It is important to identify the main ideas.
+    exampleTranslation: It is important to identify the main ideas.
+  - id: it-IT-B1-TEXT-001-005
+    concept: to-extract-information
+    term: estrarre informazioni
+    translation: to extract information
+    partOfSpeech: phrase
+    gender: n/a
+    example: I need to extract relevant information.
+    exampleTranslation: I need to extract relevant information.
+  - id: it-IT-B1-TEXT-001-006
+    concept: to-read-carefully
+    term: leggere attentamente
+    translation: to read carefully
+    partOfSpeech: phrase
+    gender: n/a
+    example: You need to read carefully to understand.
+    exampleTranslation: You need to read carefully to understand.
+grammar:
+  - id: B1-GRAMMAR-015
+    point: Reading strategies for comprehension
+    explanation: Using context clues and word formation to understand texts
+    examples:
+      - I can deduce the meaning from context.
+      - The word root helps me understand.
+    cefrNotes: B1 learners develop independent reading strategies
+culturalNotes: British newspapers like The Guardian and BBC News publish accessible
+  articles. Reading these regularly improves comprehension.

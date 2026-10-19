@@ -1,0 +1,61 @@
+nodeId: B1-DISCOURSE-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-DISCOURSE-001-001
+    concept: furthermore
+    term: inoltre
+    translation: furthermore
+    partOfSpeech: phrase
+    gender: n/a
+    example: Furthermore, the product quality is excellent.
+    exampleTranslation: Furthermore, the product quality is excellent.
+  - id: it-IT-B1-DISCOURSE-001-002
+    concept: however
+    term: tuttavia
+    translation: however
+    partOfSpeech: phrase
+    gender: n/a
+    example: However, there are some exceptions to consider.
+    exampleTranslation: However, there are some exceptions to consider.
+  - id: it-IT-B1-DISCOURSE-001-003
+    concept: on-the-other-hand
+    term: d'altra parte
+    translation: on the other hand
+    partOfSpeech: phrase
+    gender: n/a
+    example: On the other hand, the benefits are significant.
+    exampleTranslation: On the other hand, the benefits are significant.
+  - id: it-IT-B1-DISCOURSE-001-004
+    concept: although
+    term: sebbene
+    translation: although
+    partOfSpeech: conjunction
+    gender: n/a
+    example: Although it is difficult, it is worth trying.
+    exampleTranslation: Although it is difficult, it is worth trying.
+  - id: it-IT-B1-DISCOURSE-001-005
+    concept: therefore
+    term: quindi
+    translation: therefore
+    partOfSpeech: phrase
+    gender: n/a
+    example: Therefore, we should act quickly.
+    exampleTranslation: Therefore, we should act quickly.
+  - id: it-IT-B1-DISCOURSE-001-006
+    concept: despite
+    term: nonostante
+    translation: despite
+    partOfSpeech: phrase
+    gender: n/a
+    example: Despite the rain, we went out for a walk.
+    exampleTranslation: Despite the rain, we went out for a walk.
+grammar:
+  - id: B1-GRAMMAR-010
+    point: Complex connectors for extended discourse
+    explanation: Using connectors beyond and, but, because to organise longer speech
+    examples:
+      - Furthermore, we need to consider the budget.
+      - However, the situation is not so simple.
+    cefrNotes: B1 introduces advanced connectors for organised discourse
+culturalNotes: British discourse values logical connectors. Using 'furthermore', 'however',
+  'therefore' demonstrates organised thinking in formal contexts.

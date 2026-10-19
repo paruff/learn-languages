@@ -1,0 +1,62 @@
+nodeId: B1-OPINION-002
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-OPINION-002-001
+    concept: i-fully-agree
+    term: sono pienamente d'accordo
+    translation: I fully agree
+    partOfSpeech: phrase
+    gender: n/a
+    example: I fully agree with what you said.
+    exampleTranslation: I fully agree with what you said.
+  - id: it-IT-B1-OPINION-002-002
+    concept: i-agree
+    term: sono d'accordo
+    translation: I agree
+    partOfSpeech: phrase
+    gender: n/a
+    example: I agree with this proposal.
+    exampleTranslation: I agree with this proposal.
+  - id: it-IT-B1-OPINION-002-003
+    concept: i-disagree-with-your-point-of-view
+    term: non sono d'accordo con il tuo punto di vista
+    translation: I disagree with your point of view
+    partOfSpeech: phrase
+    gender: n/a
+    example: Respectfully, I disagree with your point of view.
+    exampleTranslation: Respectfully, I disagree with your point of view.
+  - id: it-IT-B1-OPINION-002-004
+    concept: i-understand-what-you-say-but
+    term: capisco quello che dici, ma
+    translation: I understand what you say, but
+    partOfSpeech: phrase
+    gender: n/a
+    example: I understand what you say, but I have a different perspective.
+    exampleTranslation: I understand what you say, but I have a different perspective.
+  - id: it-IT-B1-OPINION-002-005
+    concept: i-do-not-fully-agree
+    term: non sono pienamente d'accordo
+    translation: I do not fully agree
+    partOfSpeech: phrase
+    gender: n/a
+    example: I do not fully agree, but it makes sense.
+    exampleTranslation: I do not fully agree, but it makes sense.
+  - id: it-IT-B1-OPINION-002-006
+    concept: that-depends
+    term: dipende
+    translation: that depends
+    partOfSpeech: phrase
+    gender: n/a
+    example: That depends on the circumstances.
+    exampleTranslation: That depends on the circumstances.
+grammar:
+  - id: B1-GRAMMAR-007
+    point: Polite disagreement with hedging
+    explanation: Using 'I do not fully agree', 'I understand, but' for diplomatic disagreement
+    examples:
+      - I do not fully agree with that approach.
+      - I understand, however I think there are other options.
+    cefrNotes: B1 learners learn to soften disagreement for social harmony
+culturalNotes: British culture values indirect disagreement. Phrases like 'I see your
+  point, but' or 'That's an interesting perspective, though' soften dissent and maintain
+  politeness.

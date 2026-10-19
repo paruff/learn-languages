@@ -1,0 +1,46 @@
+nodeId: B1-CORRESPOND-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-CORRESPOND-001-001
+    concept: a-personal-letter
+    term: una lettera personale
+    translation: a personal letter
+    partOfSpeech: phrase
+    example: She writes a personal letter every month.
+    exampleTranslation: She writes a personal letter every month.
+  - id: it-IT-B1-CORRESPOND-001-002
+    concept: a-pen-friend
+    term: un amico epistolare
+    translation: a pen friend
+    partOfSpeech: phrase
+    example: I have a pen friend in Lyon.
+    exampleTranslation: I have a pen friend in Lyon.
+  - id: it-IT-B1-CORRESPOND-001-003
+    concept: to-keep-up-a-correspondence
+    term: mantenere una corrispondenza
+    translation: to keep up a correspondence
+    partOfSpeech: phrase
+    example: They kept up a correspondence for years.
+    exampleTranslation: They kept up a correspondence for years.
+  - id: it-IT-B1-CORRESPOND-001-004
+    concept: wishes
+    term: desideri
+    translation: wishes
+    partOfSpeech: noun
+    example: The letter expressed her wishes for the future.
+    exampleTranslation: The letter expressed her wishes for the future.
+  - id: it-IT-B1-CORRESPOND-001-005
+    concept: to-give-news
+    term: dare notizie
+    translation: to give news
+    partOfSpeech: phrase
+    example: He wrote to give news after the move.
+    exampleTranslation: He wrote to give news after the move.
+  - id: it-IT-B1-CORRESPOND-001-006
+    concept: feelings
+    term: sentimenti
+    translation: feelings
+    partOfSpeech: noun
+    example: The e-mail shared her feelings about the change.
+    exampleTranslation: The e-mail shared her feelings about the change.
+grammar: []

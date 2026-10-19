@@ -1,0 +1,46 @@
+nodeId: B1-DESCRIBE-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-DESCRIBE-001-001
+    concept: to-describe
+    term: descrivere
+    translation: to describe
+    partOfSpeech: verb
+    example: Can you describe your last holiday?
+    exampleTranslation: Can you describe your last holiday?
+  - id: it-IT-B1-DESCRIBE-001-002
+    concept: point-by-point
+    term: punto per punto
+    translation: point by point
+    partOfSpeech: phrase
+    example: She presented her argument point by point.
+    exampleTranslation: She presented her argument point by point.
+  - id: it-IT-B1-DESCRIBE-001-003
+    concept: straightforward
+    term: semplice
+    translation: straightforward
+    partOfSpeech: adjective
+    example: The description is straightforward and easy to follow.
+    exampleTranslation: The description is straightforward and easy to follow.
+  - id: it-IT-B1-DESCRIBE-001-004
+    concept: a-range-of-subjects
+    term: una serie di argomenti
+    translation: a range of subjects
+    partOfSpeech: phrase
+    example: He can talk about a range of subjects.
+    exampleTranslation: He can talk about a range of subjects.
+  - id: it-IT-B1-DESCRIBE-001-005
+    concept: to-present
+    term: presentare
+    translation: to present
+    partOfSpeech: verb
+    example: First I will present the main facts.
+    exampleTranslation: First I will present the main facts.
+  - id: it-IT-B1-DESCRIBE-001-006
+    concept: in-simple-terms
+    term: in termini semplici
+    translation: in simple terms
+    partOfSpeech: phrase
+    example: Explain the process in simple terms.
+    exampleTranslation: Explain the process in simple terms.
+grammar: []
