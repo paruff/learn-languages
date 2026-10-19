@@ -2,6 +2,7 @@ nodeId: B1-TEXT-005
 lang: en-GB
 vocabulary:
   - id: en-GB-B1-TEXT-005-001
+    concept: 'formal-letter'
     term: 'formal letter'
     translation: 'carta formal'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'I need to write a formal letter to the employer.'
     exampleTranslation: 'Preciso de escrever uma carta formal para o empregador.'
   - id: en-GB-B1-TEXT-005-002
+    concept: 'professional-email'
     term: 'professional email'
     translation: 'email profissional'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'I sent a professional email to the colleague.'
     exampleTranslation: 'Enviei um email profissional para o colega.'
   - id: en-GB-B1-TEXT-005-003
+    concept: 'greeting'
     term: 'greeting'
     translation: 'saudação'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'The greeting should be appropriate to the context.'
     exampleTranslation: 'A saudação deve ser adequada ao contexto.'
   - id: en-GB-B1-TEXT-005-004
+    concept: 'farewell'
     term: 'farewell'
     translation: 'despedida'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'I used a formal farewell in the letter.'
     exampleTranslation: 'Usei uma despedida formal na carta.'
   - id: en-GB-B1-TEXT-005-005
+    concept: 'courtesy-formula'
     term: 'courtesy formula'
     translation: 'fórmula de cortesia'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Courtesy formulas are important in formal writing.'
     exampleTranslation: 'As fórmulas de cortesia são importantes na escrita formal.'
   - id: en-GB-B1-TEXT-005-006
+    concept: 'to-sign-the-email'
     term: 'to sign the email'
     translation: 'assinar o email'
     partOfSpeech: phrase

@@ -2,6 +2,7 @@ nodeId: B2-TEXT-001
 lang: es-ES
 vocabulary:
   - id: es-ES-B2-TEXT-001-001
+    concept: 'reading-independence'
     term: 'independencia lectora'
     translation: 'reading independence'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Tengo independencia lectora en temas que me interesan.'
     exampleTranslation: 'I have reading independence on topics that interest me.'
   - id: es-ES-B2-TEXT-001-002
+    concept: 'extended-text'
     term: 'texto extenso'
     translation: 'extended text'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Puedo leer textos extensos sin perder el hilo.'
     exampleTranslation: 'I can read extended texts without losing the thread.'
   - id: es-ES-B2-TEXT-001-003
+    concept: 'autonomous-reading'
     term: 'lectura autónoma'
     translation: 'autonomous reading'
     partOfSpeech: phrase
@@ -23,12 +26,14 @@ vocabulary:
     example: 'La lectura autónoma es clave para mejorar.'
     exampleTranslation: 'Autonomous reading is key to improving.'
   - id: es-ES-B2-TEXT-001-004
+    concept: 'to-comprehend-texts'
     term: 'comprender textos'
     translation: 'to comprehend texts'
     partOfSpeech: phrase
     example: 'Puedo comprender textos de diversa complejidad.'
     exampleTranslation: 'I can comprehend texts of diverse complexity.'
   - id: es-ES-B2-TEXT-001-005
+    concept: 'personal-interest-topic'
     term: 'tema de interés personal'
     translation: 'personal interest topic'
     partOfSpeech: phrase
@@ -36,6 +41,7 @@ vocabulary:
     example: 'Los textos sobre temas de interés personal son más fáciles.'
     exampleTranslation: 'Texts on personal interest topics are easier.'
   - id: es-ES-B2-TEXT-001-006
+    concept: 'reading-strategy'
     term: 'estrategia lectora'
     translation: 'reading strategy'
     partOfSpeech: phrase

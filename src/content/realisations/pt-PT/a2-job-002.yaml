@@ -2,6 +2,7 @@ nodeId: A2-JOB-002
 lang: pt-PT
 vocabulary:
   - id: pt-PT-A2-JOB-002-001
+    concept: 'routine'
     term: 'rotina'
     translation: 'routine'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'A minha rotina de trabalho é muito ocupada.'
     exampleTranslation: 'My work routine is very busy.'
   - id: pt-PT-A2-JOB-002-002
+    concept: 'task'
     term: 'tarefa'
     translation: 'task'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Tenho muitas tarefas para fazer hoje.'
     exampleTranslation: 'I have many tasks to do today.'
   - id: pt-PT-A2-JOB-002-003
+    concept: 'meeting'
     term: 'reunião'
     translation: 'meeting'
     partOfSpeech: noun
@@ -25,18 +28,21 @@ vocabulary:
     imageUrl: 'reuniao.webp'
     imageAlt: 'A group of colleagues discussing around an office meeting table'
   - id: pt-PT-A2-JOB-002-004
+    concept: 'always'
     term: 'sempre'
     translation: 'always'
     partOfSpeech: adverb
     example: 'Sempre chego a tempo ao trabalho.'
     exampleTranslation: 'I always arrive at work on time.'
   - id: pt-PT-A2-JOB-002-005
+    concept: 'sometimes'
     term: 'às vezes'
     translation: 'sometimes'
     partOfSpeech: adverb
     example: 'Às vezes almoço no restaurante da esquina.'
     exampleTranslation: 'Sometimes I have lunch at the corner restaurant.'
   - id: pt-PT-A2-JOB-002-006
+    concept: 'to-finish'
     term: 'terminar'
     translation: 'to finish'
     partOfSpeech: verb

@@ -2,6 +2,7 @@ nodeId: C2-LITERARY-002
 lang: es-ES
 vocabulary:
   - id: es-ES-C2-LITERARY-002-001
+    concept: 'literary-style'
     term: 'estilo literario'
     translation: 'literary style'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Puedo adaptar mi estilo literario según el texto.'
     exampleTranslation: 'I can adapt my literary style according to the text.'
   - id: es-ES-C2-LITERARY-002-002
+    concept: 'subtle-nuance'
     term: 'matiz sutil'
     translation: 'subtle nuance'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Escribo con matices sutiles que enriquecen el texto.'
     exampleTranslation: 'I write with subtle nuances that enrich the text.'
   - id: es-ES-C2-LITERARY-002-003
+    concept: 'effect-on-the-reader'
     term: 'efecto en el lector'
     translation: 'effect on the reader'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Busco producir un efecto específico en el lector.'
     exampleTranslation: 'I seek to produce a specific effect on the reader.'
   - id: es-ES-C2-LITERARY-002-004
+    concept: 'appropriate-register'
     term: 'registro adecuado'
     translation: 'appropriate register'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Selecciono el registro adecuado según la audiencia.'
     exampleTranslation: 'I select the appropriate register according to the audience.'
   - id: es-ES-C2-LITERARY-002-005
+    concept: 'written-precision'
     term: 'precisión escrita'
     translation: 'written precision'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Mi precisión escrita es un signo de dominio del idioma.'
     exampleTranslation: 'My written precision is a sign of language mastery.'
   - id: es-ES-C2-LITERARY-002-006
+    concept: 'adapted-style'
     term: 'estilo adaptado'
     translation: 'adapted style'
     partOfSpeech: phrase

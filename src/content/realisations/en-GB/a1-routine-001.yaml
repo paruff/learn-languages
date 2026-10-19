@@ -2,6 +2,7 @@ nodeId: A1-ROUTINE-001
 lang: en-GB
 vocabulary:
   - id: en-GB-A1-ROUTINE-001-001
+    concept: 'house'
     term: 'house'
     translation: 'casa'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'My house is small.'
     exampleTranslation: 'A minha casa é pequena.'
   - id: en-GB-A1-ROUTINE-001-002
+    concept: 'bedroom'
     term: 'bedroom'
     translation: 'quarto'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'The bedroom has a big window.'
     exampleTranslation: 'O quarto tem uma janela grande.'
   - id: en-GB-A1-ROUTINE-001-003
+    concept: 'kitchen'
     term: 'kitchen'
     translation: 'cozinha'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'I cook every day in the kitchen.'
     exampleTranslation: 'Cozinho todos os dias na cozinha.'
   - id: en-GB-A1-ROUTINE-001-004
+    concept: 'clothes'
     term: 'clothes'
     translation: 'roupa'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'I wash the clothes on Saturdays.'
     exampleTranslation: 'Lavo a roupa aos sábados.'
   - id: en-GB-A1-ROUTINE-001-005
+    concept: 'key'
     term: 'key'
     translation: 'chave'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Where is the door key?'
     exampleTranslation: 'Onde está a chave da porta?'
   - id: en-GB-A1-ROUTINE-001-006
+    concept: 'phone'
     term: 'phone'
     translation: 'telefone'
     partOfSpeech: noun

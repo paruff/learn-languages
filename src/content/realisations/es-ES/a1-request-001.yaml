@@ -2,18 +2,21 @@ nodeId: A1-REQUEST-001
 lang: es-ES
 vocabulary:
   - id: es-ES-A1-REQUEST-001-001
+    concept: 'can-you-help-me'
     term: '¿Puede ayudarme?'
     translation: 'Can you help me?'
     partOfSpeech: phrase
     example: '¿Puede ayudarme, por favor?'
     exampleTranslation: 'Can you help me, please?'
   - id: es-ES-A1-REQUEST-001-002
+    concept: 'i-want'
     term: 'Quiero... / Yo quiero...'
     translation: 'I want...'
     partOfSpeech: phrase
     example: 'Quiero un café, por favor.'
     exampleTranslation: 'I want a coffee, please.'
   - id: es-ES-A1-REQUEST-001-003
+    concept: 'could-you'
     term: '¿Podría...?'
     translation: 'Could you...?'
     partOfSpeech: phrase

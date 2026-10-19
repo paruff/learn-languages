@@ -2,6 +2,7 @@ nodeId: B2-ARGUE-003
 lang: pt-PT
 vocabulary:
   - id: pt-PT-B2-ARGUE-003-001
+    concept: 'to-develop-systematically'
     term: 'desenvolver sistematicamente'
     translation: 'to develop systematically'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Vou desenvolver o argumento sistematicamente.'
     exampleTranslation: 'I will develop the argument systematically.'
   - id: pt-PT-B2-ARGUE-003-002
+    concept: 'to-highlight-important-points'
     term: 'destacar pontos importantes'
     translation: 'to highlight important points'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'É importante destacar os pontos mais importantes.'
     exampleTranslation: 'It is important to highlight the most important points.'
   - id: pt-PT-B2-ARGUE-003-003
+    concept: 'to-present-relevant-details'
     term: 'apresentar detalhes relevantes'
     translation: 'to present relevant details'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Vou apresentar detalhes relevantes para apoiar a minha tese.'
     exampleTranslation: 'I will present relevant details to support my thesis.'
   - id: pt-PT-B2-ARGUE-003-004
+    concept: 'to-structure-the-argumentation'
     term: 'estruturar a argumentação'
     translation: 'to structure the argumentation'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Preciso de estruturar a argumentação de forma clara.'
     exampleTranslation: 'I need to structure the argumentation clearly.'
   - id: pt-PT-B2-ARGUE-003-005
+    concept: 'to-use-discourse-markers'
     term: 'usar marcadores discursivos'
     translation: 'to use discourse markers'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'É útil usar marcadores discursivos para organizar.'
     exampleTranslation: 'It is useful to use discourse markers to organise.'
   - id: pt-PT-B2-ARGUE-003-006
+    concept: 'to-conclude-the-reasoning'
     term: 'concluir o raciocínio'
     translation: 'to conclude the reasoning'
     partOfSpeech: phrase

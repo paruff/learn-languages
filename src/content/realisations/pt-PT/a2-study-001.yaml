@@ -2,6 +2,7 @@ nodeId: A2-STUDY-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-A2-STUDY-001-001
+    concept: 'university'
     term: 'universidade'
     translation: 'university'
     partOfSpeech: noun
@@ -11,6 +12,7 @@ vocabulary:
     imageUrl: 'universidade.webp'
     imageAlt: 'A university campus building illuminated at dusk'
   - id: pt-PT-A2-STUDY-001-002
+    concept: 'course'
     term: 'curso'
     translation: 'course'
     partOfSpeech: noun
@@ -18,6 +20,7 @@ vocabulary:
     example: 'O meu curso dura três anos.'
     exampleTranslation: 'My course lasts three years.'
   - id: pt-PT-A2-STUDY-001-003
+    concept: 'degree'
     term: 'diploma'
     translation: 'degree'
     partOfSpeech: noun
@@ -27,12 +30,14 @@ vocabulary:
     imageUrl: 'diploma.webp'
     imageAlt: 'A graduation diploma certificate with a cap and ring'
   - id: pt-PT-A2-STUDY-001-004
+    concept: 'to-study'
     term: 'estudar'
     translation: 'to study'
     partOfSpeech: verb
     example: 'Estudo português todos os dias.'
     exampleTranslation: 'I study Portuguese every day.'
   - id: pt-PT-A2-STUDY-001-005
+    concept: 'exam'
     term: 'exame'
     translation: 'exam'
     partOfSpeech: noun
@@ -42,6 +47,7 @@ vocabulary:
     imageUrl: 'exame.webp'
     imageAlt: 'A hand writing on a multiple-choice exam answer sheet'
   - id: pt-PT-A2-STUDY-001-006
+    concept: 'to-pass'
     term: 'aprovar'
     translation: 'to pass'
     partOfSpeech: verb

@@ -2,6 +2,7 @@ nodeId: B1-OPINION-002
 lang: de-DE
 vocabulary:
   - id: de-DE-B1-OPINION-002-001
+    concept: 'i-agree'
     term: 'Das stimme ich zu'
     translation: 'I agree'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Das stimme ich完全 zu.'
     exampleTranslation: 'I completely agree.'
   - id: de-DE-B1-OPINION-002-002
+    concept: 'i-share-the-same-opinion'
     term: 'Ich bin derselben Meinung'
     translation: 'I share the same opinion'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Ich bin derselben Meinung wie Sie.'
     exampleTranslation: 'I share your opinion.'
   - id: de-DE-B1-OPINION-002-003
+    concept: 'i-see-it-differently'
     term: 'Das sehe ich anders'
     translation: 'I see it differently'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Das sehe ich anders, denn...'
     exampleTranslation: 'I see it differently, because...'
   - id: de-DE-B1-OPINION-002-004
+    concept: 'i-doubt-that'
     term: 'Das bezweifle ich'
     translation: 'I doubt that'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Das bezweifle ich sehr.'
     exampleTranslation: 'I strongly doubt that.'
   - id: de-DE-B1-OPINION-002-005
+    concept: 'i-am-not-sure'
     term: 'Ich bin nicht sicher'
     translation: 'I am not sure'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Ich bin nicht sicher, ob das stimmt.'
     exampleTranslation: 'I am not sure if that is true.'
   - id: de-DE-B1-OPINION-002-006
+    concept: 'however'
     term: 'Allerdings'
     translation: 'however'
     partOfSpeech: conjunction

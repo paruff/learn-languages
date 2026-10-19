@@ -2,6 +2,7 @@ nodeId: B1-DISCOURSE-004
 lang: pt-PT
 vocabulary:
   - id: pt-PT-B1-DISCOURSE-004-001
+    concept: 'to-a-certain-extent'
     term: 'numa certa medida'
     translation: 'to a certain extent'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Numa certa medida, tenho razão.'
     exampleTranslation: 'To a certain extent, I am right.'
   - id: pt-PT-B1-DISCOURSE-004-002
+    concept: 'depending-on'
     term: 'dependendo de'
     translation: 'depending on'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Dependendo do tempo, vamos ao parque.'
     exampleTranslation: 'Depending on the weather, we will go to the park.'
   - id: pt-PT-B1-DISCOURSE-004-003
+    concept: 'up-to-a-point'
     term: 'até certo ponto'
     translation: 'up to a point'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Até certo ponto, concordo com a análise.'
     exampleTranslation: 'Up to a point, I agree with the analysis.'
   - id: pt-PT-B1-DISCOURSE-004-004
+    concept: 'in-practice'
     term: 'na prática'
     translation: 'in practice'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Na prática, as coisas são diferentes.'
     exampleTranslation: 'In practice, things are different.'
   - id: pt-PT-B1-DISCOURSE-004-005
+    concept: 'in-my-experience'
     term: 'na minha experiência'
     translation: 'in my experience'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Na minha experiência, isto funciona bem.'
     exampleTranslation: 'In my experience, this works well.'
   - id: pt-PT-B1-DISCOURSE-004-006
+    concept: 'in-general-terms'
     term: 'em termos gerais'
     translation: 'in general terms'
     partOfSpeech: phrase

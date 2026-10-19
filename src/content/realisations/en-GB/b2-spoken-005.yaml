@@ -2,6 +2,7 @@ nodeId: B2-SPOKEN-005
 lang: en-GB
 vocabulary:
   - id: en-GB-B2-SPOKEN-005-001
+    concept: 'to-depart-from-the-script'
     term: 'to depart from the script'
     translation: "s'écarter du texte préparé"
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'The speaker departed from the script to address a question.'
     exampleTranslation: "L'orateur s'est écarté du texte préparé pour répondre à une question."
   - id: en-GB-B2-SPOKEN-005-002
+    concept: 'to-improvise'
     term: 'to improvise'
     translation: 'improviser'
     partOfSpeech: verb
@@ -16,6 +18,7 @@ vocabulary:
     example: 'She had to improvise when the audience asked unexpected questions.'
     exampleTranslation: "Elle a dû improviser quand l'auditoire a posé des questions inattendues."
   - id: en-GB-B2-SPOKEN-005-003
+    concept: 'to-follow-up-on-a-point'
     term: 'to follow up on a point'
     translation: 'reprendre un point'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'He followed up on the point raised by a listener.'
     exampleTranslation: 'Il a repris le point soulevé par un auditeur.'
   - id: en-GB-B2-SPOKEN-005-004
+    concept: 'to-adapt-spontaneously'
     term: 'to adapt spontaneously'
     translation: "s'adapter spontanément"
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'The presenter adapted spontaneously to the audience reaction.'
     exampleTranslation: "Le présentateur s'est adapté spontanément à la réaction du public."
   - id: en-GB-B2-SPOKEN-005-005
+    concept: 'to-engage-with-the-audience'
     term: 'to engage with the audience'
     translation: "interagir avec l'auditoire"
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Good speakers engage with their audience naturally.'
     exampleTranslation: 'De bons orateurs interagissent naturellement avec leur auditoire.'
   - id: en-GB-B2-SPOKEN-005-006
+    concept: 'to-think-on-one-s-feet'
     term: "to think on one's feet"
     translation: 'réagir vite'
     partOfSpeech: phrase

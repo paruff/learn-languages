@@ -2,6 +2,7 @@ nodeId: A2-NEWS-002
 lang: de-DE
 vocabulary:
   - id: de-DE-A2-NEWS-002-001
+    concept: 'event'
     term: 'Ereignis'
     translation: 'event'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Das war ein wichtiges Ereignis.'
     exampleTranslation: 'That was an important event.'
   - id: de-DE-A2-NEWS-002-002
+    concept: 'to-describe'
     term: 'beschreiben'
     translation: 'to describe'
     partOfSpeech: verb
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Können Sie das Ereignis beschreiben?'
     exampleTranslation: 'Can you describe the event?'
   - id: de-DE-A2-NEWS-002-003
+    concept: 'place'
     term: 'Ort'
     translation: 'place'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Wo hat das stattgefunden?'
     exampleTranslation: 'Where did it take place?'
   - id: de-DE-A2-NEWS-002-004
+    concept: 'time'
     term: 'Zeit'
     translation: 'time'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Wann war das Ereignis?'
     exampleTranslation: 'When was the event?'
   - id: de-DE-A2-NEWS-002-005
+    concept: 'to-take-place'
     term: 'stattfinden'
     translation: 'to take place'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Das Konzert findet morgen statt.'
     exampleTranslation: 'The concert takes place tomorrow.'
   - id: de-DE-A2-NEWS-002-006
+    concept: 'to-report'
     term: 'berichten'
     translation: 'to report'
     partOfSpeech: verb

@@ -2,6 +2,7 @@ nodeId: A2-CULT-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-A2-CULT-001-001
+    concept: 'festival'
     term: 'festival'
     translation: 'festival'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'O festival de música é muito popular.'
     exampleTranslation: 'The music festival is very popular.'
   - id: pt-PT-A2-CULT-001-002
+    concept: 'tradition'
     term: 'tradição'
     translation: 'tradition'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'É uma tradição antiga.'
     exampleTranslation: 'It is an old tradition.'
   - id: pt-PT-A2-CULT-001-003
+    concept: 'celebration'
     term: 'celebração'
     translation: 'celebration'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'A celebração durou dois dias.'
     exampleTranslation: 'The celebration lasted two days.'
   - id: pt-PT-A2-CULT-001-004
+    concept: 'music'
     term: 'música'
     translation: 'music'
     partOfSpeech: noun
@@ -32,6 +36,7 @@ vocabulary:
     imageUrl: 'musica.webp'
     imageAlt: 'A handwritten sheet of musical notation'
   - id: pt-PT-A2-CULT-001-005
+    concept: 'dance'
     term: 'dança'
     translation: 'dance'
     partOfSpeech: noun
@@ -41,6 +46,7 @@ vocabulary:
     imageUrl: 'dancar.webp'
     imageAlt: 'People dancing together in a dance studio'
   - id: pt-PT-A2-CULT-001-006
+    concept: 'party'
     term: 'festa'
     translation: 'party / festival'
     partOfSpeech: noun

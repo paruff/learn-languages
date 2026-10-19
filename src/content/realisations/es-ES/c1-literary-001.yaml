@@ -2,6 +2,7 @@ nodeId: C1-LITERARY-001
 lang: es-ES
 vocabulary:
   - id: es-ES-C1-LITERARY-001-001
+    concept: 'implicit-layer'
     term: 'capa implícita'
     translation: 'implicit layer'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'El texto tiene capas implícitas de significado.'
     exampleTranslation: 'The text has implicit layers of meaning.'
   - id: es-ES-C1-LITERARY-001-002
+    concept: 'allusion'
     term: 'alusión'
     translation: 'allusion'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'La alusión histórica enriquece el texto.'
     exampleTranslation: 'The historical allusion enriches the text.'
   - id: es-ES-C1-LITERARY-001-003
+    concept: 'irony'
     term: 'ironía'
     translation: 'irony'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'La ironía del autor es sutil pero efectiva.'
     exampleTranslation: "The author's irony is subtle but effective."
   - id: es-ES-C1-LITERARY-001-004
+    concept: 'cultural-reference'
     term: 'referencia cultural'
     translation: 'cultural reference'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Las referencias culturales son abundantes en la literatura.'
     exampleTranslation: 'Cultural references are abundant in literature.'
   - id: es-ES-C1-LITERARY-001-005
+    concept: 'subtext'
     term: 'subtexto'
     translation: 'subtext'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'El subtext de la novela es más rico que la trama.'
     exampleTranslation: 'The subtext of the novel is richer than the plot.'
   - id: es-ES-C1-LITERARY-001-006
+    concept: 'to-interpret'
     term: 'interpretar'
     translation: 'to interpret'
     partOfSpeech: verb

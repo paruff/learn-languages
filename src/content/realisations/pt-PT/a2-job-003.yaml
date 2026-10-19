@@ -2,6 +2,7 @@ nodeId: A2-JOB-003
 lang: pt-PT
 vocabulary:
   - id: pt-PT-A2-JOB-003-001
+    concept: 'advertisement'
     term: 'anúncio'
     translation: 'advertisement'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Vi um anúncio de emprego no jornal.'
     exampleTranslation: 'I saw a job advertisement in the newspaper.'
   - id: pt-PT-A2-JOB-003-002
+    concept: 'application'
     term: 'candidatura'
     translation: 'application'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'A minha candidatura foi aceite.'
     exampleTranslation: 'My application was accepted.'
   - id: pt-PT-A2-JOB-003-003
+    concept: 'experience'
     term: 'experiência'
     translation: 'experience'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Precisam de experiência na área.'
     exampleTranslation: 'They require experience in the field.'
   - id: pt-PT-A2-JOB-003-004
+    concept: 'salary'
     term: 'salário'
     translation: 'salary'
     partOfSpeech: noun
@@ -30,12 +34,14 @@ vocabulary:
     example: 'O salário é indicado no anúncio.'
     exampleTranslation: 'The salary is listed in the advertisement.'
   - id: pt-PT-A2-JOB-003-005
+    concept: 'to-send'
     term: 'enviar'
     translation: 'to send'
     partOfSpeech: verb
     example: 'Preciso de enviar o currículo.'
     exampleTranslation: 'I need to send my CV.'
   - id: pt-PT-A2-JOB-003-006
+    concept: 'interview'
     term: 'entrevista'
     translation: 'interview'
     partOfSpeech: noun

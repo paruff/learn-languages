@@ -2,6 +2,7 @@ nodeId: B1-SOCIAL-002
 lang: pt-PT
 vocabulary:
   - id: pt-PT-B1-SOCIAL-002-001
+    concept: 'familiar-topics'
     term: 'fam topicos'
     translation: 'familiar topics'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Gosto de conversar sobre tópicos familiares como trabalho e hobbies.'
     exampleTranslation: 'I like to talk about familiar topics like work and hobbies.'
   - id: pt-PT-B1-SOCIAL-002-002
+    concept: 'to-deepen-the-conversation'
     term: 'aprofundar a conversa'
     translation: 'to deepen the conversation'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Podemos aprofundar a conversa sobre este assunto.'
     exampleTranslation: 'We can deepen the conversation about this topic.'
   - id: pt-PT-B1-SOCIAL-002-003
+    concept: 'to-give-my-opinion'
     term: 'dar a minha opinião'
     translation: 'to give my opinion'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Posso dar a minha opinião sobre este tema?'
     exampleTranslation: 'Can I give my opinion on this topic?'
   - id: pt-PT-B1-SOCIAL-002-004
+    concept: 'to-listen-actively'
     term: 'ouvir ativamente'
     translation: 'to listen actively'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'É importante ouvir ativamente quando alguém está a falar.'
     exampleTranslation: 'It is important to listen actively when someone is speaking.'
   - id: pt-PT-B1-SOCIAL-002-005
+    concept: 'to-rephrase-what-was-heard'
     term: 'reformular o que se ouviu'
     translation: 'to rephrase what was heard'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Posso reformular o que ouvi para confirmar que entendi.'
     exampleTranslation: 'Can I rephrase what I heard to confirm I understood?'
   - id: pt-PT-B1-SOCIAL-002-006
+    concept: 'to-confirm-understanding'
     term: 'confirmar a compreensão'
     translation: 'to confirm understanding'
     partOfSpeech: phrase

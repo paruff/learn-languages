@@ -2,6 +2,7 @@ nodeId: C1-SPOKEN-001
 lang: es-ES
 vocabulary:
   - id: es-ES-C1-SPOKEN-001-001
+    concept: 'complete-description'
     term: 'descripción completa'
     translation: 'complete description'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Ofrezco descripciones completas de temas complejos.'
     exampleTranslation: 'I offer complete descriptions of complex topics.'
   - id: es-ES-C1-SPOKEN-001-002
+    concept: 'narrative'
     term: 'narración'
     translation: 'narrative'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Mi narración incluye todos los detalles relevantes.'
     exampleTranslation: 'My narrative includes all relevant details.'
   - id: es-ES-C1-SPOKEN-001-003
+    concept: 'sub-themes'
     term: 'subtemas'
     translation: 'sub-themes'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Integro subtemas de forma natural en mis descripciones.'
     exampleTranslation: 'I integrate sub-themes naturally in my descriptions.'
   - id: es-ES-C1-SPOKEN-001-004
+    concept: 'development-of-aspects'
     term: 'desarrollo de aspectos'
     translation: 'development of aspects'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'El desarrollo de aspectos específicos es exhaustivo.'
     exampleTranslation: 'The development of specific aspects is exhaustive.'
   - id: es-ES-C1-SPOKEN-001-005
+    concept: 'appropriate-conclusion'
     term: 'conclusión apropiada'
     translation: 'appropriate conclusion'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Cierro con una conclusión apropiada y bien fundamentada.'
     exampleTranslation: 'I close with an appropriate and well-founded conclusion.'
   - id: es-ES-C1-SPOKEN-001-006
+    concept: 'to-round-off'
     term: 'redondear'
     translation: 'to round off'
     partOfSpeech: verb

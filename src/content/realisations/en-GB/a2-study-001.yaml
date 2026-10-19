@@ -2,36 +2,42 @@ nodeId: A2-STUDY-001
 lang: en-GB
 vocabulary:
   - id: en-GB-A2-STUDY-001-001
+    concept: 'university'
     term: 'university'
     translation: 'universidade'
     partOfSpeech: noun
     example: 'I study at the University of Lisbon.'
     exampleTranslation: 'Estudo na Universidade de Lisboa.'
   - id: en-GB-A2-STUDY-001-002
+    concept: 'course'
     term: 'course'
     translation: 'curso'
     partOfSpeech: noun
     example: 'My course lasts three years.'
     exampleTranslation: 'O meu curso dura três anos.'
   - id: en-GB-A2-STUDY-001-003
+    concept: 'degree'
     term: 'degree'
     translation: 'diploma'
     partOfSpeech: noun
     example: 'I have a degree in engineering.'
     exampleTranslation: 'Tenho um diploma em engenharia.'
   - id: en-GB-A2-STUDY-001-004
+    concept: 'to-study'
     term: 'to study'
     translation: 'estudar'
     partOfSpeech: verb
     example: 'I study Portuguese every day.'
     exampleTranslation: 'Estudo português todos os dias.'
   - id: en-GB-A2-STUDY-001-005
+    concept: 'exam'
     term: 'exam'
     translation: 'exame'
     partOfSpeech: noun
     example: 'I have an exam next week.'
     exampleTranslation: 'Tenho um exame na semana seguinte.'
   - id: en-GB-A2-STUDY-001-006
+    concept: 'to-pass'
     term: 'to pass'
     translation: 'aprovar'
     partOfSpeech: verb

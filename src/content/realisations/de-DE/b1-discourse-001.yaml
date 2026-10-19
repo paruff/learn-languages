@@ -2,6 +2,7 @@ nodeId: B1-DISCOURSE-001
 lang: de-DE
 vocabulary:
   - id: de-DE-B1-DISCOURSE-001-001
+    concept: 'furthermore'
     term: 'außerdem'
     translation: 'furthermore / besides'
     partOfSpeech: conjunction
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Es war teuer. Außerdem war es schlecht.'
     exampleTranslation: 'It was expensive. Furthermore, it was bad.'
   - id: de-DE-B1-DISCOURSE-001-002
+    concept: 'therefore'
     term: 'deshalb'
     translation: 'therefore'
     partOfSpeech: conjunction
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Es regnete. Deshalb blieb ich zu Hause.'
     exampleTranslation: 'It was raining. Therefore, I stayed home.'
   - id: de-DE-B1-DISCOURSE-001-003
+    concept: 'nevertheless'
     term: 'trotzdem'
     translation: 'nevertheless'
     partOfSpeech: conjunction
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Es war kalt. Trotzdem ging ich spazieren.'
     exampleTranslation: 'It was cold. Nevertheless, I went for a walk.'
   - id: de-DE-B1-DISCOURSE-001-004
+    concept: 'however'
     term: 'allerdings'
     translation: 'however / though'
     partOfSpeech: conjunction
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Das ist gut. Allerdings gibt es Probleme.'
     exampleTranslation: 'That is good. However, there are problems.'
   - id: de-DE-B1-DISCOURSE-001-005
+    concept: 'admittedly'
     term: 'zwar'
     translation: 'admittedly'
     partOfSpeech: adverb
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Es war zwar teurable, aber gut.'
     exampleTranslation: 'It was admittedly expensive, but good.'
   - id: de-DE-B1-DISCOURSE-001-006
+    concept: 'on-the-other-hand'
     term: 'dagegen'
     translation: 'on the other hand'
     partOfSpeech: conjunction

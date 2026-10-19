@@ -2,6 +2,7 @@ nodeId: C2-MEDIATION-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-C2-MEDIATION-001-001
+    concept: 'effective-mediation'
     term: 'intermediação eficaz'
     translation: 'effective mediation'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Actuo como intermediário eficaz entre interlocutores nativos.'
     exampleTranslation: 'I act as an effective intermediary between native speakers.'
   - id: pt-PT-C2-MEDIATION-001-002
+    concept: 'simplify-the-message'
     term: 'simplificar a mensagem'
     translation: 'simplify the message'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Sei simplificar a mensagem sem perder o sentido.'
     exampleTranslation: 'I know how to simplify the message without losing meaning.'
   - id: pt-PT-C2-MEDIATION-001-003
+    concept: 'resolve-misunderstandings'
     term: 'resolver mal-entendidos'
     translation: 'resolve misunderstandings'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Consigo resolver mal-entendidos de forma hábil.'
     exampleTranslation: 'I can resolve misunderstandings skilfully.'
   - id: pt-PT-C2-MEDIATION-001-004
+    concept: 'skilful-intervention'
     term: 'intervenção hábil'
     translation: 'skilful intervention'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'A minha intervenção hábil facilita a comunicação.'
     exampleTranslation: 'My skilful intervention facilitates communication.'
   - id: pt-PT-C2-MEDIATION-001-005
+    concept: 'complex-disagreements'
     term: 'desacordos complexos'
     translation: 'complex disagreements'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Mediação desacordos complexos entre interlocutores.'
     exampleTranslation: 'I mediate complex disagreements between speakers.'
   - id: pt-PT-C2-MEDIATION-001-006
+    concept: 'effective-communication'
     term: 'comunicação efectiva'
     translation: 'effective communication'
     partOfSpeech: phrase

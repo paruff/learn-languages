@@ -1,5 +1,6 @@
 export interface VocabularyPairItem {
   id: string;
+  concept: string;
   term: string;
   translation: string;
   example: string;
@@ -10,7 +11,7 @@ export interface VocabularyPairItem {
 
 export interface PairedVocabularyItem {
   nodeId: string;
-  seq: string;
+  concept: string;
   source: VocabularyPairItem;
   target: VocabularyPairItem;
 }
@@ -21,14 +22,23 @@ export interface RealisationLike {
   vocabulary: VocabularyPairItem[];
 }
 
-function seqFromId(id: string, lang: string, nodeId: string): string {
-  return id.replace(`${lang}-${nodeId}-`, '');
+export const GLOSS_LANG = 'en-GB';
+
+export function glossSide(target: VocabularyPairItem): VocabularyPairItem {
+  return {
+    id: `${target.id}:gloss`,
+    concept: target.concept,
+    term: target.translation,
+    translation: target.term,
+    example: target.exampleTranslation,
+    exampleTranslation: target.example,
+  };
 }
 
 /**
- * Pure pairing logic: joins two languages' realisations on nodeId, then on
- * vocabulary item sequence (the part of the id after `{lang}-{nodeId}-`).
- * Nodes or items missing a pairing are skipped, not thrown (spec §12.2).
+ * Pure pairing logic: joins two languages' realisations on nodeId + concept.
+ * If source is the gloss language (en-GB), target items without a source-side
+ * concept match still become cards using their own English gloss.
  *
  * Kept free of `astro:content` imports so it's unit-testable outside Astro's
  * Vite context — see pairLoader.ts for the content-layer wrapper.
@@ -38,26 +48,35 @@ export function pairRealisations(
   sourceLang: string,
   targetLang: string
 ): PairedVocabularyItem[] {
-  const sourceRealisations = realisations.filter((r) => r.lang === sourceLang);
-  const targetByNode = new Map(
-    realisations.filter((r) => r.lang === targetLang).map((r) => [r.nodeId, r])
+  const sourceByNode = new Map(
+    realisations.filter((r) => r.lang === sourceLang).map((r) => [r.nodeId, r])
   );
+  const targetRealisations = realisations.filter((r) => r.lang === targetLang);
 
   const paired: PairedVocabularyItem[] = [];
-  for (const source of sourceRealisations) {
-    const target = targetByNode.get(source.nodeId);
-    if (!target) continue;
+  for (const target of targetRealisations) {
+    const source = sourceByNode.get(target.nodeId);
+    const sourceByConcept = new Map((source?.vocabulary ?? []).map((item) => [item.concept, item]));
 
-    const targetBySeq = new Map(
-      target.vocabulary.map((item) => [seqFromId(item.id, targetLang, source.nodeId), item])
-    );
-
-    for (const sourceItem of source.vocabulary) {
-      const seq = seqFromId(sourceItem.id, sourceLang, source.nodeId);
-      const targetItem = targetBySeq.get(seq);
-      if (!targetItem) continue;
-
-      paired.push({ nodeId: source.nodeId, seq, source: sourceItem, target: targetItem });
+    for (const targetItem of target.vocabulary) {
+      const sourceItem = sourceByConcept.get(targetItem.concept);
+      if (sourceItem) {
+        paired.push({
+          nodeId: target.nodeId,
+          concept: targetItem.concept,
+          source: sourceItem,
+          target: targetItem,
+        });
+        continue;
+      }
+      if (sourceLang === GLOSS_LANG) {
+        paired.push({
+          nodeId: target.nodeId,
+          concept: targetItem.concept,
+          source: glossSide(targetItem),
+          target: targetItem,
+        });
+      }
     }
   }
 

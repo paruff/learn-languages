@@ -2,6 +2,7 @@ nodeId: C1-ARGUE-001
 lang: es-ES
 vocabulary:
   - id: es-ES-C1-ARGUE-001-001
+    concept: 'complex-subject'
     term: 'tema complejo'
     translation: 'complex subject'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Puedo describir temas complejos con claridad.'
     exampleTranslation: 'I can describe complex subjects clearly.'
   - id: es-ES-C1-ARGUE-001-002
+    concept: 'sub-themes'
     term: 'subtemas'
     translation: 'sub-themes'
     partOfSpeech: noun
@@ -16,12 +18,14 @@ vocabulary:
     example: 'Integro subtemas de forma natural en mis exposiciones.'
     exampleTranslation: 'I integrate sub-themes naturally in my presentations.'
   - id: es-ES-C1-ARGUE-001-003
+    concept: 'to-develop-particular-aspects'
     term: 'desarrollar aspectos concretos'
     translation: 'to develop particular aspects'
     partOfSpeech: phrase
     example: 'Es importante desarrollar aspectos concretos del tema.'
     exampleTranslation: 'It is important to develop particular aspects of the topic.'
   - id: es-ES-C1-ARGUE-001-004
+    concept: 'detailed-description'
     term: 'descripción detallada'
     translation: 'detailed description'
     partOfSpeech: phrase
@@ -29,12 +33,14 @@ vocabulary:
     example: 'Ofrezco descripciones detalladas y bien estructuradas.'
     exampleTranslation: 'I offer detailed and well-structured descriptions.'
   - id: es-ES-C1-ARGUE-001-005
+    concept: 'to-integrate'
     term: 'integrar'
     translation: 'to integrate'
     partOfSpeech: verb
     example: 'Integro diferentes perspectivas en mi análisis.'
     exampleTranslation: 'I integrate different perspectives in my analysis.'
   - id: es-ES-C1-ARGUE-001-006
+    concept: 'appropriate-conclusion'
     term: 'conclusión apropiada'
     translation: 'appropriate conclusion'
     partOfSpeech: phrase

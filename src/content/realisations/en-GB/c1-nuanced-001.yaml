@@ -2,6 +2,7 @@ nodeId: C1-NUANCED-001
 lang: en-GB
 vocabulary:
   - id: en-GB-C1-NUANCED-001-001
+    concept: 'delicate-disagreement'
     term: 'delicate disagreement'
     translation: 'discordância delicada'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'The delicate disagreement did not harm the friendship.'
     exampleTranslation: 'A discordância delicada não prejudicou a amizade.'
   - id: en-GB-C1-NUANCED-001-002
+    concept: 'to-fine-tune-one-s-language'
     term: "to fine-tune one's language"
     translation: 'afinar a linguagem'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'As the conversation heated up, he fine-tunes his language so as not to hurt.'
     exampleTranslation: 'Conforme a conversa esquentava, afina a linguagem para não ferir.'
   - id: en-GB-C1-NUANCED-001-003
+    concept: 'to-tread-carefully'
     term: 'to tread carefully'
     translation: 'ir com cautela'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'In family debates, it is wise to tread carefully when touching the matter.'
     exampleTranslation: 'No debate familiar, convém ir com cautela ao tocar o assunto.'
   - id: en-GB-C1-NUANCED-001-004
+    concept: 'sensitive-matter'
     term: 'sensitive matter'
     translation: 'matéria sensível'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'The sensitive matter calls for measured words.'
     exampleTranslation: 'A matéria sensível exige palavras medidas.'
   - id: en-GB-C1-NUANCED-001-005
+    concept: 'pausing-for-thought'
     term: 'pausing for thought'
     translation: 'tempo de espera'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Pausing for thought before answering avoids misunderstandings.'
     exampleTranslation: 'Um tempo de espera antes de responder evita mal-entendidos.'
   - id: en-GB-C1-NUANCED-001-006
+    concept: 'to-be-ill-favoured'
     term: 'to be ill-favoured'
     translation: 'ficar mal visto'
     partOfSpeech: phrase

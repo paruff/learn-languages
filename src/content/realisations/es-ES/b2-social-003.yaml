@@ -2,12 +2,14 @@ nodeId: B2-SOCIAL-003
 lang: es-ES
 vocabulary:
   - id: es-ES-B2-SOCIAL-003-001
+    concept: 'to-argue'
     term: 'argumentar'
     translation: 'to argue'
     partOfSpeech: verb
     example: 'Puedo argumentar mi punto de vista con claridad.'
     exampleTranslation: 'I can argue my point of view clearly.'
   - id: es-ES-B2-SOCIAL-003-002
+    concept: 'detailed-explanation'
     term: 'explicación detallada'
     translation: 'detailed explanation'
     partOfSpeech: phrase
@@ -15,18 +17,21 @@ vocabulary:
     example: 'Doy explicaciones detalladas para sostener mis opiniones.'
     exampleTranslation: 'I give detailed explanations to sustain my opinions.'
   - id: es-ES-B2-SOCIAL-003-003
+    concept: 'to-persuade'
     term: 'persuadir'
     translation: 'to persuade'
     partOfSpeech: verb
     example: 'Intento persuadir con argumentos, no con emociones.'
     exampleTranslation: 'I try to persuade with arguments, not emotions.'
   - id: es-ES-B2-SOCIAL-003-004
+    concept: 'to-convince'
     term: 'convencer'
     translation: 'to convince'
     partOfSpeech: verb
     example: 'Es difícil convencer a alguien que no quiere escuchar.'
     exampleTranslation: "It is difficult to convince someone who doesn't want to listen."
   - id: es-ES-B2-SOCIAL-003-005
+    concept: 'position'
     term: 'postura'
     translation: 'position / stance'
     partOfSpeech: noun
@@ -34,6 +39,7 @@ vocabulary:
     example: 'Mi postura sobre el tema está bien definida.'
     exampleTranslation: 'My position on the topic is well defined.'
   - id: es-ES-B2-SOCIAL-003-006
+    concept: 'to-reaffirm'
     term: 'reafirmar'
     translation: 'to reaffirm'
     partOfSpeech: verb

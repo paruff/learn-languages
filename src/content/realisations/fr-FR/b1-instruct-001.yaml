@@ -2,6 +2,7 @@ nodeId: B1-INSTRUCT-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-B1-INSTRUCT-001-001
+    concept: 'an-instruction'
     term: 'une instruction'
     translation: 'an instruction'
     partOfSpeech: noun
@@ -9,12 +10,14 @@ vocabulary:
     example: 'Suivez chaque instruction attentivement.'
     exampleTranslation: 'Follow each instruction carefully.'
   - id: fr-FR-B1-INSTRUCT-001-002
+    concept: 'detailed-directions'
     term: 'des directives détaillées'
     translation: 'detailed directions'
     partOfSpeech: phrase
     example: 'Le guide a donné des directives détaillées.'
     exampleTranslation: 'The guide gave detailed directions.'
   - id: fr-FR-B1-INSTRUCT-001-003
+    concept: 'a-user-manual'
     term: 'un mode d’emploi'
     translation: 'a user manual'
     partOfSpeech: phrase
@@ -22,18 +25,21 @@ vocabulary:
     example: 'Le mode d’emploi explique la configuration.'
     exampleTranslation: 'The user manual explains the setup.'
   - id: fr-FR-B1-INSTRUCT-001-004
+    concept: 'to-follow-a-procedure'
     term: 'suivre une procédure'
     translation: 'to follow a procedure'
     partOfSpeech: phrase
     example: 'Suivez la procédure décrite au téléphone.'
     exampleTranslation: 'Follow the procedure described on the phone.'
   - id: fr-FR-B1-INSTRUCT-001-005
+    concept: 'step-by-step'
     term: 'étape par étape'
     translation: 'step by step'
     partOfSpeech: phrase
     example: 'Il a expliqué le processus étape par étape.'
     exampleTranslation: 'He explained the process step by step.'
   - id: fr-FR-B1-INSTRUCT-001-006
+    concept: 'common-equipment'
     term: 'un équipement courant'
     translation: 'common equipment'
     partOfSpeech: phrase

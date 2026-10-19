@@ -2,6 +2,7 @@ nodeId: C1-SOCIAL-002
 lang: es-ES
 vocabulary:
   - id: es-ES-C1-SOCIAL-002-001
+    concept: 'flexible-use'
     term: 'uso flexible'
     translation: 'flexible use'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Tengo un uso flexible del idioma en diversos contextos.'
     exampleTranslation: 'I have a flexible use of language in diverse contexts.'
   - id: es-ES-C1-SOCIAL-002-002
+    concept: 'social-purposes'
     term: 'propósitos sociales'
     translation: 'social purposes'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'El idioma sirve para múltiples propósitos sociales.'
     exampleTranslation: 'Language serves multiple social purposes.'
   - id: es-ES-C1-SOCIAL-002-003
+    concept: 'effectiveness'
     term: 'eficacia'
     translation: 'effectiveness'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Comunico con eficacia en situaciones diversas.'
     exampleTranslation: 'I communicate effectively in diverse situations.'
   - id: es-ES-C1-SOCIAL-002-004
+    concept: 'wide-range-of-contexts'
     term: 'amplia gama de contextos'
     translation: 'wide range of contexts'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Puedo comunicarme en una amplia gama de contextos.'
     exampleTranslation: 'I can communicate in a wide range of contexts.'
   - id: es-ES-C1-SOCIAL-002-005
+    concept: 'linguistic-adaptability'
     term: 'adaptabilidad lingüística'
     translation: 'linguistic adaptability'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'La adaptabilidad lingüística es clave para la comunicación efectiva.'
     exampleTranslation: 'Linguistic adaptability is key for effective communication.'
   - id: es-ES-C1-SOCIAL-002-006
+    concept: 'registers'
     term: 'registros'
     translation: 'registers'
     partOfSpeech: noun

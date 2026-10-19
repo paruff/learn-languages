@@ -2,24 +2,28 @@ nodeId: A1-CLARIFY-001
 lang: es-ES
 vocabulary:
   - id: es-ES-A1-CLARIFY-001-001
+    concept: 'can-you-repeat'
     term: '¿Puede repetir?'
     translation: 'Can you repeat?'
     partOfSpeech: phrase
     example: 'Perdón, ¿puede repetir?'
     exampleTranslation: 'Sorry, can you repeat?'
   - id: es-ES-A1-CLARIFY-001-002
+    concept: 'how-do-you-say'
     term: '¿Cómo se dice...?'
     translation: 'How do you say...?'
     partOfSpeech: phrase
     example: '¿Cómo se dice "water" en español?'
     exampleTranslation: 'How do you say "water" in Spanish?'
   - id: es-ES-A1-CLARIFY-001-003
+    concept: 'i-don-t-understand'
     term: 'No entiendo'
     translation: "I don't understand"
     partOfSpeech: phrase
     example: 'No entiendo, ¿puede hablar más despacio?'
     exampleTranslation: "I don't understand, can you speak more slowly?"
   - id: es-ES-A1-CLARIFY-001-004
+    concept: 'can-you-speak-more-slowly'
     term: '¿Puede hablar más despacio?'
     translation: 'Can you speak more slowly?'
     partOfSpeech: phrase

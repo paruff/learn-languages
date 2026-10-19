@@ -2,6 +2,7 @@ nodeId: A2-CULT-003
 lang: de-DE
 vocabulary:
   - id: de-DE-A2-CULT-003-001
+    concept: 'opinion'
     term: 'Meinung'
     translation: 'opinion'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Was ist deine Meinung?'
     exampleTranslation: 'What is your opinion?'
   - id: de-DE-A2-CULT-003-002
+    concept: 'to-find'
     term: 'finden'
     translation: 'to find'
     partOfSpeech: verb
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Ich finde das sehr interessant.'
     exampleTranslation: 'I find that very interesting.'
   - id: de-DE-A2-CULT-003-003
+    concept: 'interesting'
     term: 'interessant'
     translation: 'interesting'
     partOfSpeech: adjective
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Die Kultur ist interessant.'
     exampleTranslation: 'The culture is interesting.'
   - id: de-DE-A2-CULT-003-004
+    concept: 'boring'
     term: 'langweilig'
     translation: 'boring'
     partOfSpeech: adjective
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Der Film war langweilig.'
     exampleTranslation: 'The film was boring.'
   - id: de-DE-A2-CULT-003-005
+    concept: 'to-like'
     term: 'mögen'
     translation: 'to like'
     partOfSpeech: verb
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Ich mag deutsche Filme.'
     exampleTranslation: 'I like German films.'
   - id: de-DE-A2-CULT-003-006
+    concept: 'art'
     term: 'Kunst'
     translation: 'art'
     partOfSpeech: noun

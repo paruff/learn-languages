@@ -2,18 +2,21 @@ nodeId: A1-WANT-001
 lang: es-ES
 vocabulary:
   - id: es-ES-A1-WANT-001-001
+    concept: 'i-want'
     term: 'Quiero...'
     translation: 'I want...'
     partOfSpeech: phrase
     example: 'Quiero aprender español.'
     exampleTranslation: 'I want to learn Spanish.'
   - id: es-ES-A1-WANT-001-002
+    concept: 'i-m-going-to'
     term: 'Voy a...'
     translation: "I'm going to..."
     partOfSpeech: phrase
     example: 'Voy a ir al mercado mañana.'
     exampleTranslation: "I'm going to the market tomorrow."
   - id: es-ES-A1-WANT-001-003
+    concept: 'i-would-like'
     term: 'Me gustaría...'
     translation: 'I would like...'
     partOfSpeech: phrase

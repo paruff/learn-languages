@@ -2,6 +2,7 @@ nodeId: C1-WRITTEN-003
 lang: en-GB
 vocabulary:
   - id: en-GB-C1-WRITTEN-003-001
+    concept: 'personal-narrative'
     term: 'personal narrative'
     translation: 'narrativa pessoal'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: "The author's personal narrative crossed paths with the collective history."
     exampleTranslation: 'A narrativa pessoal do autor cruzou-se com a história coletiva.'
   - id: en-GB-C1-WRITTEN-003-002
+    concept: 'thread-of-memories'
     term: 'thread of memories'
     translation: 'fio das lembranças'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'The text follows the thread of memories without losing its way.'
     exampleTranslation: 'O texto segue o fio das lembranças sem perder o rumo.'
   - id: en-GB-C1-WRITTEN-003-003
+    concept: 'childhood-memories'
     term: 'childhood memories'
     translation: 'memórias de infância'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'The childhood memories emerge with surprising clarity.'
     exampleTranslation: 'As memórias de infância surgem com nitidez surpreendente.'
   - id: en-GB-C1-WRITTEN-003-004
+    concept: 'personal-point-of-view'
     term: 'personal point of view'
     translation: 'ponto de vista pessoal'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'The personal point of view lends coherence to the whole chronicle.'
     exampleTranslation: 'O ponto de vista pessoal dá coerência a toda a crónica.'
   - id: en-GB-C1-WRITTEN-003-005
+    concept: 'honest-caveats'
     term: 'honest caveats'
     translation: 'ressalvas honestas'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'The honest caveats lend credibility to the account.'
     exampleTranslation: 'As ressalvas honestas conferem credibilidade ao relato.'
   - id: en-GB-C1-WRITTEN-003-006
+    concept: 'a-one-breath-effect'
     term: 'a one-breath effect'
     translation: 'efeito de um só fôlego'
     partOfSpeech: noun

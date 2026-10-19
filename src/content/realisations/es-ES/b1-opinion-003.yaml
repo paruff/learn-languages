@@ -2,6 +2,7 @@ nodeId: B1-OPINION-003
 lang: es-ES
 vocabulary:
   - id: es-ES-B1-OPINION-003-001
+    concept: 'advantage'
     term: 'ventaja'
     translation: 'advantage'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Las ventajas de este método son evidentes.'
     exampleTranslation: 'The advantages of this method are clear.'
   - id: es-ES-B1-OPINION-003-002
+    concept: 'disadvantage'
     term: 'desventaja'
     translation: 'disadvantage'
     partOfSpeech: noun
@@ -16,24 +18,28 @@ vocabulary:
     example: 'La principal desventaja es el coste.'
     exampleTranslation: 'The main disadvantage is the cost.'
   - id: es-ES-B1-OPINION-003-003
+    concept: 'to-compare'
     term: 'comparar'
     translation: 'to compare'
     partOfSpeech: verb
     example: 'Vamos a comparar las opciones disponibles.'
     exampleTranslation: "Let's compare the available options."
   - id: es-ES-B1-OPINION-003-004
+    concept: 'on-one-hand'
     term: 'por una parte'
     translation: 'on one hand'
     partOfSpeech: phrase
     example: 'Por una parte es barato; por otra, de baja calidad.'
     exampleTranslation: 'On one hand it is cheap; on the other, low quality.'
   - id: es-ES-B1-OPINION-003-005
+    concept: 'on-the-other-hand'
     term: 'por otra parte'
     translation: 'on the other hand'
     partOfSpeech: phrase
     example: 'Por otra parte, también hay aspectos positivos.'
     exampleTranslation: 'On the other hand, there are also positive aspects.'
   - id: es-ES-B1-OPINION-003-006
+    concept: 'to-assess'
     term: 'valorar'
     translation: 'to assess / to value'
     partOfSpeech: verb

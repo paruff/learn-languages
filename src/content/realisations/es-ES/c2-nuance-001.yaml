@@ -2,6 +2,7 @@ nodeId: C2-NUANCE-001
 lang: es-ES
 vocabulary:
   - id: es-ES-C2-NUANCE-001-001
+    concept: 'shades-of-meaning'
     term: 'matices de significado'
     translation: 'shades of meaning'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Puedo expresar matices de significado con precisión.'
     exampleTranslation: 'I can express shades of meaning with precision.'
   - id: es-ES-C2-NUANCE-001-002
+    concept: 'wide-lexical-repertoire'
     term: 'repertorio léxico amplio'
     translation: 'wide lexical repertoire'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Mi repertorio léxico amplio me permite precisión.'
     exampleTranslation: 'My wide lexical repertoire allows me precision.'
   - id: es-ES-C2-NUANCE-001-003
+    concept: 'expressions'
     term: 'expresiones'
     translation: 'expressions'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Utilizo expresiones que transmitan exactamente lo que quiero decir.'
     exampleTranslation: 'I use expressions that convey exactly what I want to say.'
   - id: es-ES-C2-NUANCE-001-004
+    concept: 'vocabulary-mastery'
     term: 'dominio del vocabulario'
     translation: 'vocabulary mastery'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Mi dominio del vocabulario me permite ser muy preciso.'
     exampleTranslation: 'My vocabulary mastery allows me to be very precise.'
   - id: es-ES-C2-NUANCE-001-005
+    concept: 'expressive-clarity'
     term: 'claridad expresiva'
     translation: 'expressive clarity'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'La claridad expresiva es esencial en la comunicación avanzada.'
     exampleTranslation: 'Expressive clarity is essential in advanced communication.'
   - id: es-ES-C2-NUANCE-001-006
+    concept: 'syntactic-mastery'
     term: 'dominio sintáctico'
     translation: 'syntactic mastery'
     partOfSpeech: phrase

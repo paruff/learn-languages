@@ -2,24 +2,28 @@ nodeId: A1-OPIN-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-A1-OPIN-001-001
+    concept: 'i-think-that'
     term: 'Acho que...'
     translation: 'I think that...'
     partOfSpeech: phrase
     example: 'Acho que o filme é bom.'
     exampleTranslation: 'I think the film is good.'
   - id: pt-PT-A1-OPIN-001-002
+    concept: 'i-like'
     term: 'Gosto de...'
     translation: 'I like...'
     partOfSpeech: phrase
     example: 'Gosto de música portuguesa.'
     exampleTranslation: 'I like Portuguese music.'
   - id: pt-PT-A1-OPIN-001-003
+    concept: 'i-don-t-like'
     term: 'Não gosto de...'
     translation: "I don't like..."
     partOfSpeech: phrase
     example: 'Não gosto de café.'
     exampleTranslation: "I don't like coffee."
   - id: pt-PT-A1-OPIN-001-004
+    concept: 'in-my-opinion'
     term: 'Na minha opinião...'
     translation: 'In my opinion...'
     partOfSpeech: phrase

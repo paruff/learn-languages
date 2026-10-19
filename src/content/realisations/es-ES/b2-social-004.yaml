@@ -2,12 +2,14 @@ nodeId: B2-SOCIAL-004
 lang: es-ES
 vocabulary:
   - id: es-ES-B2-SOCIAL-004-001
+    concept: 'to-clarify'
     term: 'clarificar'
     translation: 'to clarify'
     partOfSpeech: verb
     example: 'Puedo clarificar mi postura sin problemas.'
     exampleTranslation: 'I can clarify my position without problems.'
   - id: es-ES-B2-SOCIAL-004-002
+    concept: 'detailed-view'
     term: 'visión detallada'
     translation: 'detailed view'
     partOfSpeech: phrase
@@ -15,12 +17,14 @@ vocabulary:
     example: 'Ofrezco una visión detallada del tema.'
     exampleTranslation: 'I offer a detailed view of the topic.'
   - id: es-ES-B2-SOCIAL-004-003
+    concept: 'to-explain-clearly'
     term: 'exponer con claridad'
     translation: 'to explain clearly'
     partOfSpeech: phrase
     example: 'Es importante exponer con claridad nuestras ideas.'
     exampleTranslation: 'It is important to explain our ideas clearly.'
   - id: es-ES-B2-SOCIAL-004-004
+    concept: 'precision'
     term: 'precisión'
     translation: 'precision'
     partOfSpeech: noun
@@ -28,6 +32,7 @@ vocabulary:
     example: 'Hablo con precisidad sobre temas complejos.'
     exampleTranslation: 'I speak with precision about complex topics.'
   - id: es-ES-B2-SOCIAL-004-005
+    concept: 'meaning'
     term: 'sentido'
     translation: 'meaning / sense'
     partOfSpeech: noun
@@ -35,6 +40,7 @@ vocabulary:
     example: 'Quiero que quede claro el sentido de mi argumento.'
     exampleTranslation: 'I want the meaning of my argument to be clear.'
   - id: es-ES-B2-SOCIAL-004-006
+    concept: 'to-nuance'
     term: 'matisar'
     translation: 'to nuance'
     partOfSpeech: verb

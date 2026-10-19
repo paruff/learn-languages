@@ -2,36 +2,42 @@ nodeId: B1-MEDIA-001
 lang: en-GB
 vocabulary:
   - id: en-GB-B1-MEDIA-001-001
+    concept: 'a-news-bulletin'
     term: 'a news bulletin'
     translation: 'un bulletin d’information'
     partOfSpeech: phrase
     example: 'I listen to the news bulletin every morning.'
     exampleTranslation: 'J’écoute le bulletin d’information chaque matin.'
   - id: en-GB-B1-MEDIA-001-002
+    concept: 'a-radio-broadcast'
     term: 'a radio broadcast'
     translation: 'une émission radiophonique'
     partOfSpeech: phrase
     example: 'The radio broadcast covered the election.'
     exampleTranslation: 'L’émission radiophonique a couvert les élections.'
   - id: en-GB-B1-MEDIA-001-003
+    concept: 'a-recorded-document'
     term: 'a recorded document'
     translation: 'un document enregistré'
     partOfSpeech: phrase
     example: 'The recorded document is available online.'
     exampleTranslation: 'Le document enregistré est disponible en ligne.'
   - id: en-GB-B1-MEDIA-001-004
+    concept: 'the-plot'
     term: 'the plot'
     translation: 'l’intrigue'
     partOfSpeech: phrase
     example: 'I followed the plot of the film easily.'
     exampleTranslation: 'J’ai suivi l’intrigue du film facilement.'
   - id: en-GB-B1-MEDIA-001-005
+    concept: 'subtitles'
     term: 'subtitles'
     translation: 'les sous-titres'
     partOfSpeech: noun
     example: 'I watch French films with subtitles.'
     exampleTranslation: 'Je regarde des films français avec les sous-titres.'
   - id: en-GB-B1-MEDIA-001-006
+    concept: 'a-slow-pace'
     term: 'a slow pace'
     translation: 'un débit lent'
     partOfSpeech: phrase

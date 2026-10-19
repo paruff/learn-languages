@@ -2,6 +2,7 @@ nodeId: C1-ARGUE-003
 lang: en-GB
 vocabulary:
   - id: en-GB-C1-ARGUE-003-001
+    concept: 'to-soften-a-statement'
     term: 'to soften a statement'
     translation: 'atenuar a afirmação'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'In order not to seem arrogant, he softened the statement with a cautious comment.'
     exampleTranslation: 'Para não parecer arrogante, atenuou a afirmação com um comentário prudente.'
   - id: en-GB-C1-ARGUE-003-002
+    concept: 'to-qualify-one-s-opinion'
     term: "to qualify one's opinion"
     translation: 'matizar a opinião'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: "Qualifying one's opinion with concrete examples is a sign of maturity."
     exampleTranslation: 'É sinal de maturidade matizar a opinião com exemplos concretos.'
   - id: en-GB-C1-ARGUE-003-003
+    concept: 'rhetorical-modesty'
     term: 'rhetorical modesty'
     translation: 'recurso à modéstia'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Rhetorical modesty allows presenting strong ideas without hostility.'
     exampleTranslation: 'O recurso à modéstia permite apresentar ideias fortes sem hostilidade.'
   - id: en-GB-C1-ARGUE-003-004
+    concept: 'to-show-reserve'
     term: 'to show reserve'
     translation: 'mostrar reserva'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'He showed reserve regarding the most optimistic forecasts.'
     exampleTranslation: 'Mostrou reserva quanto às previsões mais otimistas.'
   - id: en-GB-C1-ARGUE-003-005
+    concept: 'to-guard-one-s-opinion'
     term: "to guard one's opinion"
     translation: 'salvaguardar a opinião'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'He guarded his opinion with a final caveat.'
     exampleTranslation: 'Salvaguardou a sua opinião com uma ressalva final.'
   - id: en-GB-C1-ARGUE-003-006
+    concept: 'to-express-prudent-doubt'
     term: 'to express prudent doubt'
     translation: 'exprimir dúvida prudente'
     partOfSpeech: phrase

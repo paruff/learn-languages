@@ -2,6 +2,7 @@ nodeId: B2-WRITTEN-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-B2-WRITTEN-001-001
+    concept: 'to-write-clear-and-detailed-texts'
     term: 'rédiger des textes clairs et détaillés'
     translation: 'to write clear and detailed texts'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Je peux rédiger des textes clairs et détaillés sur divers sujets.'
     exampleTranslation: 'I can write clear and detailed texts on various topics.'
   - id: fr-FR-B2-WRITTEN-001-002
+    concept: 'to-develop-the-writing'
     term: 'développer la rédaction'
     translation: 'to develop the writing'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Je vais développer la rédaction avec plus de détails.'
     exampleTranslation: 'I will develop the writing with more details.'
   - id: fr-FR-B2-WRITTEN-001-003
+    concept: 'to-use-varied-vocabulary'
     term: 'utiliser un vocabulaire varié'
     translation: 'to use varied vocabulary'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: "Il est important d'utiliser un vocabulaire varié à l'écrit."
     exampleTranslation: 'It is important to use varied vocabulary in writing.'
   - id: fr-FR-B2-WRITTEN-001-004
+    concept: 'to-structure-paragraphs'
     term: 'structurer les paragraphes'
     translation: 'to structure paragraphs'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Je dois structurer les paragraphes de façon logique.'
     exampleTranslation: 'I need to structure paragraphs logically.'
   - id: fr-FR-B2-WRITTEN-001-005
+    concept: 'to-use-appropriate-connectors'
     term: 'utiliser des connecteurs appropriés'
     translation: 'to use appropriate connectors'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: "J'utiliserai des connecteurs appropriés pour lier les idées."
     exampleTranslation: 'I will use appropriate connectors to connect ideas.'
   - id: fr-FR-B2-WRITTEN-001-006
+    concept: 'to-rewrite-to-improve'
     term: 'réécrire pour améliorer'
     translation: 'to rewrite to improve'
     partOfSpeech: phrase

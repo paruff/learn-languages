@@ -2,6 +2,7 @@ nodeId: C2-ARGUE-001
 lang: es-ES
 vocabulary:
   - id: es-ES-C2-ARGUE-001-001
+    concept: 'lexical-repertoire'
     term: 'repertorio léxico'
     translation: 'lexical repertoire'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Mi repertorio léxico abarca un amplio rango de expresiones.'
     exampleTranslation: 'My lexical repertoire covers a wide range of expressions.'
   - id: es-ES-C2-ARGUE-001-002
+    concept: 'appropriate-formulation'
     term: 'formulación apropiada'
     translation: 'appropriate formulation'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Selecciono la formulación apropiada para cada contexto.'
     exampleTranslation: 'I select the appropriate formulation for each context.'
   - id: es-ES-C2-ARGUE-001-003
+    concept: 'semantic-nuances'
     term: 'matices semánticos'
     translation: 'semantic nuances'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Distingo matices semánticos que enriquecen la expresión.'
     exampleTranslation: 'I distinguish semantic nuances that enrich expression.'
   - id: es-ES-C2-ARGUE-001-004
+    concept: 'written-expression'
     term: 'expresión escrita'
     translation: 'written expression'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Mi expresión escrita refleja un alto nivel de precisión.'
     exampleTranslation: 'My written expression reflects a high level of precision.'
   - id: es-ES-C2-ARGUE-001-005
+    concept: 'wide-repertoire'
     term: 'repertorio amplio'
     translation: 'wide repertoire'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Utilizo un repertorio amplio de expresiones.'
     exampleTranslation: 'I use a wide repertoire of expressions.'
   - id: es-ES-C2-ARGUE-001-006
+    concept: 'selectivity'
     term: 'selectividad'
     translation: 'selectivity'
     partOfSpeech: noun

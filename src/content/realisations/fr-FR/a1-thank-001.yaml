@@ -2,36 +2,42 @@ nodeId: A1-THANK-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-A1-THANK-001-001
+    concept: 'thank-you'
     term: 'Merci'
     translation: 'Thank you'
     partOfSpeech: interjection
     example: 'Merci de votre aide.'
     exampleTranslation: 'Thank you for your help.'
   - id: fr-FR-A1-THANK-001-002
+    concept: 'thank-you-very-much'
     term: 'Merci beaucoup'
     translation: 'Thank you very much'
     partOfSpeech: phrase
     example: 'Merci beaucoup pour le cadeau !'
     exampleTranslation: 'Thank you very much for the gift!'
   - id: fr-FR-A1-THANK-001-003
+    concept: 'you-re-welcome'
     term: 'De rien'
     translation: "You're welcome"
     partOfSpeech: phrase
     example: '- Merci ! - De rien !'
     exampleTranslation: '- Thank you! - You are welcome!'
   - id: fr-FR-A1-THANK-001-004
+    concept: 'you-re-welcome-polite'
     term: 'Je vous en prie'
     translation: "You're welcome (polite)"
     partOfSpeech: phrase
     example: '- Merci beaucoup ! - Je vous en prie !'
     exampleTranslation: '- Thank you very much! - You are welcome!'
   - id: fr-FR-A1-THANK-001-005
+    concept: 'thanks'
     term: 'Merci à toi'
     translation: 'Thanks (informal)'
     partOfSpeech: phrase
     example: 'Merci à toi pour tout.'
     exampleTranslation: 'Thanks for everything.'
   - id: fr-FR-A1-THANK-001-006
+    concept: 'thanks-formal'
     term: 'Merci à vous'
     translation: 'Thanks (formal)'
     partOfSpeech: phrase

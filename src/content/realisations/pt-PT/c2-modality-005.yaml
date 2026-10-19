@@ -2,6 +2,7 @@ nodeId: C2-MODALITY-005
 lang: pt-PT
 vocabulary:
   - id: pt-PT-C2-MODALITY-005-001
+    concept: 'smooth-flowing-text'
     term: 'texto fluente'
     translation: 'smooth-flowing text'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Escrevo textos fluentes e bem estruturados sobre temas complexos.'
     exampleTranslation: 'I write smooth-flowing, well-structured texts on complex subjects.'
   - id: pt-PT-C2-MODALITY-005-002
+    concept: 'engaging-introduction'
     term: 'introdução cativante'
     translation: 'engaging introduction'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Começo sempre com uma introdução cativante e pertinente.'
     exampleTranslation: 'I always start with an engaging and relevant introduction.'
   - id: pt-PT-C2-MODALITY-005-003
+    concept: 'development-of-the-subject'
     term: 'desenvolvimento do tema'
     translation: 'development of the subject'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'O desenvolvimento do tema é lógico e bem fundamentado.'
     exampleTranslation: 'The development of the subject is logical and well-founded.'
   - id: pt-PT-C2-MODALITY-005-004
+    concept: 'central-point'
     term: 'ponto central'
     translation: 'central point'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Defendo o ponto central com argumentos sólidos.'
     exampleTranslation: 'I defend the central point with solid arguments.'
   - id: pt-PT-C2-MODALITY-005-005
+    concept: 'fitting-conclusion'
     term: 'conclusão adequada'
     translation: 'fitting conclusion'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Termino com uma conclusão adequada e convincente.'
     exampleTranslation: 'I finish with a fitting and convincing conclusion.'
   - id: pt-PT-C2-MODALITY-005-006
+    concept: 'appropriate-style'
     term: 'estilo apropriado'
     translation: 'appropriate style'
     partOfSpeech: phrase

@@ -2,6 +2,7 @@ nodeId: C2-LITERARY-001
 lang: es-ES
 vocabulary:
   - id: es-ES-C2-LITERARY-001-001
+    concept: 'literary-works'
     term: 'obras literarias'
     translation: 'literary works'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Leo obras literarias contemporáneas con facilidad.'
     exampleTranslation: 'I read contemporary literary works with ease.'
   - id: es-ES-C2-LITERARY-001-002
+    concept: 'dramatic-prose'
     term: 'prosa dramática'
     translation: 'dramatic prose'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Disfruto de la prosa dramática contemporánea.'
     exampleTranslation: 'I enjoy contemporary dramatic prose.'
   - id: es-ES-C2-LITERARY-001-003
+    concept: 'poetry'
     term: 'poesía'
     translation: 'poetry'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'La poesía española tiene una rica tradición.'
     exampleTranslation: 'Spanish poetry has a rich tradition.'
   - id: es-ES-C2-LITERARY-001-004
+    concept: 'song-lyrics'
     term: 'letras de canciones'
     translation: 'song lyrics'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Puedo apreciar las letras de canciones en su complejidad.'
     exampleTranslation: 'I can appreciate song lyrics in their complexity.'
   - id: es-ES-C2-LITERARY-001-005
+    concept: 'opinion-pieces-in-newspapers'
     term: 'opiniones en periódicos'
     translation: 'opinion pieces in newspapers'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Leo artículos de opinión en periódicos sin dificultad.'
     exampleTranslation: 'I read opinion pieces in newspapers without difficulty.'
   - id: es-ES-C2-LITERARY-001-006
+    concept: 'to-appreciate-literature'
     term: 'apreciar la literatura'
     translation: 'to appreciate literature'
     partOfSpeech: phrase

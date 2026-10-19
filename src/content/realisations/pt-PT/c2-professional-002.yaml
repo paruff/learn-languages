@@ -2,6 +2,7 @@ nodeId: C2-PROFESSIONAL-002
 lang: pt-PT
 vocabulary:
   - id: pt-PT-C2-PROFESSIONAL-002-001
+    concept: 'spontaneous-fluency'
     term: 'fluidez espontânea'
     translation: 'spontaneous fluency'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Falo com fluidez espontânea em qualquer contexto.'
     exampleTranslation: 'I speak with spontaneous fluency in any context.'
   - id: pt-PT-C2-PROFESSIONAL-002-002
+    concept: 'native-vocabulary'
     term: 'vocabulário nativo'
     translation: 'native vocabulary'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'O meu vocabulário é vasto e natural como o de um nativo.'
     exampleTranslation: 'My vocabulary is vast and natural like that of a native speaker.'
   - id: pt-PT-C2-PROFESSIONAL-002-003
+    concept: 'total-precision'
     term: 'precisão total'
     translation: 'total precision'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Atinjo sempre a precisão total nas minhas表达ões.'
     exampleTranslation: 'I always achieve total precision in my expressions.'
   - id: pt-PT-C2-PROFESSIONAL-002-004
+    concept: 'communicative-flexibility'
     term: 'flexibilidade comunicativa'
     translation: 'communicative flexibility'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Tenho flexibilidade comunicativa em registos diversos.'
     exampleTranslation: 'I have communicative flexibility in diverse registers.'
   - id: pt-PT-C2-PROFESSIONAL-002-005
+    concept: 'natural-use-of-language'
     term: 'uso natural da língua'
     translation: 'natural use of language'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'O meu uso da língua é sempre natural e adequado.'
     exampleTranslation: 'My use of language is always natural and appropriate.'
   - id: pt-PT-C2-PROFESSIONAL-002-006
+    concept: 'communicative-confidence'
     term: 'confiança comunicativa'
     translation: 'communicative confidence'
     partOfSpeech: phrase

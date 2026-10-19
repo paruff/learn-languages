@@ -2,6 +2,7 @@ nodeId: B2-SOCIAL-004
 lang: pt-PT
 vocabulary:
   - id: pt-PT-B2-SOCIAL-004-001
+    concept: 'to-clarify-doubts'
     term: 'esclarecer dúvidas'
     translation: 'to clarify doubts'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Posso esclarecer as suas dúvidas sobre o assunto.'
     exampleTranslation: 'I can clarify your doubts about the subject.'
   - id: pt-PT-B2-SOCIAL-004-002
+    concept: 'to-detail-the-explanation'
     term: 'detalhar a explicação'
     translation: 'to detail the explanation'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Vou detalhar a explicação para maior clareza.'
     exampleTranslation: 'I will detail the explanation for greater clarity.'
   - id: pt-PT-B2-SOCIAL-004-003
+    concept: 'to-specify-the-concept'
     term: 'precisar o conceito'
     translation: 'to specify the concept'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'É importante precisar o conceito antes de discutir.'
     exampleTranslation: 'It is important to specify the concept before discussing.'
   - id: pt-PT-B2-SOCIAL-004-004
+    concept: 'to-exemplify-with-situations'
     term: 'exemplificar com situações'
     translation: 'to exemplify with situations'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Posso exemplificar com situações reais.'
     exampleTranslation: 'I can exemplify with real situations.'
   - id: pt-PT-B2-SOCIAL-004-005
+    concept: 'to-reinterpret-the-idea'
     term: 'reinterpretar a ideia'
     translation: 'to reinterpret the idea'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Vou reinterpretar a ideia de forma mais simples.'
     exampleTranslation: 'I will reinterpret the idea in a simpler way.'
   - id: pt-PT-B2-SOCIAL-004-006
+    concept: 'to-ensure-understanding'
     term: 'garantir a compreensão'
     translation: 'to ensure understanding'
     partOfSpeech: phrase

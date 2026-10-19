@@ -2,6 +2,7 @@ nodeId: B1-SOCIAL-002
 lang: de-DE
 vocabulary:
   - id: de-DE-B1-SOCIAL-002-001
+    concept: 'conversation'
     term: 'Gespräch'
     translation: 'conversation'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Wir hatten ein langes Gespräch.'
     exampleTranslation: 'We had a long conversation.'
   - id: de-DE-B1-SOCIAL-002-002
+    concept: 'topic'
     term: 'Thema'
     translation: 'topic'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Das Thema war interessant.'
     exampleTranslation: 'The topic was interesting.'
   - id: de-DE-B1-SOCIAL-002-003
+    concept: 'to-tell'
     term: 'erzählen'
     translation: 'to tell / to narrate'
     partOfSpeech: verb
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Erzähl mir mehr darüber!'
     exampleTranslation: 'Tell me more about it!'
   - id: de-DE-B1-SOCIAL-002-004
+    concept: 'to-ask'
     term: 'nachfragen'
     translation: 'to ask (for clarification)'
     partOfSpeech: verb
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Können Sie das bitte erklären?'
     exampleTranslation: 'Can you please explain that?'
   - id: de-DE-B1-SOCIAL-002-005
+    concept: 'to-understand'
     term: 'verstehen'
     translation: 'to understand'
     partOfSpeech: verb
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Ich verstehe das nicht ganz.'
     exampleTranslation: "I don't quite understand that."
   - id: de-DE-B1-SOCIAL-002-006
+    concept: 'interest'
     term: 'Interesse'
     translation: 'interest'
     partOfSpeech: noun

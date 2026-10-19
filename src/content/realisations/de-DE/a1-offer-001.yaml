@@ -2,24 +2,28 @@ nodeId: A1-OFFER-001
 lang: de-DE
 vocabulary:
   - id: de-DE-A1-OFFER-001-001
+    concept: 'would-you-like'
     term: 'Möchten Sie...?'
     translation: 'Would you like...?'
     partOfSpeech: phrase
     example: 'Möchten Sie einen Kaffee?'
     exampleTranslation: 'Would you like a coffee?'
   - id: de-DE-A1-OFFER-001-002
+    concept: 'shall-we'
     term: 'Sollen wir...?'
     translation: 'Shall we...?'
     partOfSpeech: phrase
     example: 'Sollen wir ins Kino gehen?'
     exampleTranslation: 'Shall we go to the cinema?'
   - id: de-DE-A1-OFFER-001-003
+    concept: 'do-you-want'
     term: 'Willst du...?'
     translation: 'Do you want...?'
     partOfSpeech: phrase
     example: 'Willst du mitkommen?'
     exampleTranslation: 'Do you want to come along?'
   - id: de-DE-A1-OFFER-001-004
+    concept: 'invitation'
     term: 'Einladung'
     translation: 'invitation'
     partOfSpeech: noun
@@ -27,12 +31,14 @@ vocabulary:
     example: 'Vielen Dank für die Einladung.'
     exampleTranslation: 'Thank you very much for the invitation.'
   - id: de-DE-A1-OFFER-001-005
+    concept: 'to-offer'
     term: 'anbieten'
     translation: 'to offer'
     partOfSpeech: verb
     example: 'Kann ich Ihnen etwas anbieten?'
     exampleTranslation: 'Can I offer you something?'
   - id: de-DE-A1-OFFER-001-006
+    concept: 'gladly'
     term: 'gerne'
     translation: 'gladly / with pleasure'
     partOfSpeech: adverb

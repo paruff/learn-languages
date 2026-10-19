@@ -2,6 +2,7 @@ nodeId: A1-BODY-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-A1-BODY-001-001
+    concept: 'head'
     term: 'cabeça'
     translation: 'head'
     partOfSpeech: noun
@@ -11,6 +12,7 @@ vocabulary:
     imageUrl: 'cabeca.webp'
     imageAlt: 'A mannequin head with long brown hair, seen from the front'
   - id: pt-PT-A1-BODY-001-002
+    concept: 'hand'
     term: 'mão'
     translation: 'hand'
     partOfSpeech: noun
@@ -18,6 +20,7 @@ vocabulary:
     example: 'Ela tem a mão fria.'
     exampleTranslation: 'Her hand is cold.'
   - id: pt-PT-A1-BODY-001-003
+    concept: 'foot'
     term: 'pé'
     translation: 'foot'
     partOfSpeech: noun
@@ -27,6 +30,7 @@ vocabulary:
     imageUrl: 'pe.webp'
     imageAlt: 'A pair of bare feet standing on a rock outdoors'
   - id: pt-PT-A1-BODY-001-004
+    concept: 'eye'
     term: 'olho'
     translation: 'eye'
     partOfSpeech: noun
@@ -36,6 +40,7 @@ vocabulary:
     imageUrl: 'olho.webp'
     imageAlt: 'An extreme close-up of a human eye with a brown iris'
   - id: pt-PT-A1-BODY-001-005
+    concept: 'arm'
     term: 'braço'
     translation: 'arm'
     partOfSpeech: noun
@@ -45,6 +50,7 @@ vocabulary:
     imageUrl: 'braco.webp'
     imageAlt: 'An extended human arm and open hand against a plain background'
   - id: pt-PT-A1-BODY-001-006
+    concept: 'leg'
     term: 'perna'
     translation: 'leg'
     partOfSpeech: noun

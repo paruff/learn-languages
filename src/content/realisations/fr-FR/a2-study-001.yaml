@@ -2,6 +2,7 @@ nodeId: A2-STUDY-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-A2-STUDY-001-001
+    concept: 'university'
     term: 'université'
     translation: 'university'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'J’étudie à l’université de Lyon.'
     exampleTranslation: 'I study at the University of Lyon.'
   - id: fr-FR-A2-STUDY-001-002
+    concept: 'course'
     term: 'cours'
     translation: 'course'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Mon cours dure trois ans.'
     exampleTranslation: 'My course lasts three years.'
   - id: fr-FR-A2-STUDY-001-003
+    concept: 'degree'
     term: 'diplôme'
     translation: 'degree'
     partOfSpeech: noun
@@ -23,12 +26,14 @@ vocabulary:
     example: 'J’ai un diplôme d’ingénieur.'
     exampleTranslation: 'I have a degree in engineering.'
   - id: fr-FR-A2-STUDY-001-004
+    concept: 'to-study'
     term: 'étudier'
     translation: 'to study'
     partOfSpeech: verb
     example: 'J’étudie le français tous les jours.'
     exampleTranslation: 'I study French every day.'
   - id: fr-FR-A2-STUDY-001-005
+    concept: 'exam'
     term: 'examen'
     translation: 'exam'
     partOfSpeech: noun
@@ -36,6 +41,7 @@ vocabulary:
     example: 'J’ai un examen la semaine prochaine.'
     exampleTranslation: 'I have an exam next week.'
   - id: fr-FR-A2-STUDY-001-006
+    concept: 'to-pass'
     term: 'réussir'
     translation: 'to pass'
     partOfSpeech: verb

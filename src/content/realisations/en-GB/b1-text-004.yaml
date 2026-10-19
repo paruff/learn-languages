@@ -2,6 +2,7 @@ nodeId: B1-TEXT-004
 lang: en-GB
 vocabulary:
   - id: en-GB-B1-TEXT-004-001
+    concept: 'connected-text'
     term: 'connected text'
     translation: 'texto conectado'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'I will write a connected text about my experience.'
     exampleTranslation: 'Vou escrever um texto conectado sobre a minha experiência.'
   - id: en-GB-B1-TEXT-004-002
+    concept: 'familiar-topic'
     term: 'familiar topic'
     translation: 'tópico familiar'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'I prefer to write about familiar topics.'
     exampleTranslation: 'Prefiro escrever sobre tópicos familiares.'
   - id: en-GB-B1-TEXT-004-003
+    concept: 'to-describe-experiences'
     term: 'to describe experiences'
     translation: 'descrever experiências'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'I like to describe my travel experiences.'
     exampleTranslation: 'Gosto de descrever as minhas experiências de viagem.'
   - id: en-GB-B1-TEXT-004-004
+    concept: 'to-express-impressions'
     term: 'to express impressions'
     translation: 'expressar impressões'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'It is important to express my impressions clearly.'
     exampleTranslation: 'É importante expressar as minhas impressões com clareza.'
   - id: en-GB-B1-TEXT-004-005
+    concept: 'to-use-connectors'
     term: 'to use connectors'
     translation: 'usar conectores'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'I need to use connectors to organise the text.'
     exampleTranslation: 'Preciso de usar conectores para organizar o texto.'
   - id: en-GB-B1-TEXT-004-006
+    concept: 'to-rewrite-the-text'
     term: 'to rewrite the text'
     translation: 'reescrever o texto'
     partOfSpeech: phrase

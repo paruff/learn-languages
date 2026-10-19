@@ -2,6 +2,7 @@ nodeId: A1-SHOP-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-A1-SHOP-001-001
+    concept: 'shop'
     term: 'magasin'
     translation: 'shop'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Le magasin ferme à sept heures du soir.'
     exampleTranslation: 'The shop closes at seven in the evening.'
   - id: fr-FR-A1-SHOP-001-002
+    concept: 'money'
     term: 'argent'
     translation: 'money'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Je n’ai pas d’argent sur moi.'
     exampleTranslation: 'I do not have money with me.'
   - id: fr-FR-A1-SHOP-001-003
+    concept: 'price'
     term: 'prix'
     translation: 'price'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Quel est le prix de ce manteau ?'
     exampleTranslation: 'What is the price of this coat?'
   - id: fr-FR-A1-SHOP-001-004
+    concept: 'euro'
     term: 'euro'
     translation: 'euro'
     partOfSpeech: noun
@@ -30,12 +34,14 @@ vocabulary:
     example: 'Ça coûte dix euros.'
     exampleTranslation: 'It costs ten euros.'
   - id: fr-FR-A1-SHOP-001-005
+    concept: 'to-pay'
     term: 'payer'
     translation: 'to pay'
     partOfSpeech: verb
     example: 'Puis-je payer par carte ?'
     exampleTranslation: 'Can I pay by card?'
   - id: fr-FR-A1-SHOP-001-006
+    concept: 'till'
     term: 'caisse'
     translation: 'till'
     partOfSpeech: noun

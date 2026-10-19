@@ -2,6 +2,7 @@ nodeId: C2-MEDIATION-001
 lang: es-ES
 vocabulary:
   - id: es-ES-C2-MEDIATION-001-001
+    concept: 'mediation'
     term: 'intermediación'
     translation: 'mediation'
     partOfSpeech: noun
@@ -9,18 +10,21 @@ vocabulary:
     example: 'Puedo actuar como intermediario entre hablantes nativos.'
     exampleTranslation: 'I can act as an intermediary between native speakers.'
   - id: es-ES-C2-MEDIATION-001-002
+    concept: 'to-simplify-the-message'
     term: 'simplificar el mensaje'
     translation: 'to simplify the message'
     partOfSpeech: phrase
     example: 'Sé simplificar el mensaje sin perder precisión.'
     exampleTranslation: 'I know how to simplify the message without losing precision.'
   - id: es-ES-C2-MEDIATION-001-003
+    concept: 'to-intervene-skilfully'
     term: 'intervenir hábilmente'
     translation: 'to intervene skilfully'
     partOfSpeech: phrase
     example: 'Puedo intervenir hábilmente para resolver malentendidos.'
     exampleTranslation: 'I can intervene skilfully to resolve misunderstandings.'
   - id: es-ES-C2-MEDIATION-001-004
+    concept: 'disagreements'
     term: 'desacuerdos'
     translation: 'disagreements'
     partOfSpeech: noun
@@ -28,6 +32,7 @@ vocabulary:
     example: 'Puedo resolver desacuerdos de forma diplomática.'
     exampleTranslation: 'I can resolve disagreements diplomatically.'
   - id: es-ES-C2-MEDIATION-001-005
+    concept: 'misunderstandings'
     term: 'malentendidos'
     translation: 'misunderstandings'
     partOfSpeech: noun
@@ -35,6 +40,7 @@ vocabulary:
     example: 'Puedo identificar y resolver malentendidos rápidamente.'
     exampleTranslation: 'I can identify and resolve misunderstandings quickly.'
   - id: es-ES-C2-MEDIATION-001-006
+    concept: 'mediation-skill'
     term: 'habilidad de mediación'
     translation: 'mediation skill'
     partOfSpeech: phrase

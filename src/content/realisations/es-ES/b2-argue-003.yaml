@@ -2,6 +2,7 @@ nodeId: B2-ARGUE-003
 lang: es-ES
 vocabulary:
   - id: es-ES-B2-ARGUE-003-001
+    concept: 'systematic-argument'
     term: 'argumento sistemático'
     translation: 'systematic argument'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Presentó un argumento sistemático y bien estructurado.'
     exampleTranslation: 'He presented a systematic and well-structured argument.'
   - id: es-ES-B2-ARGUE-003-002
+    concept: 'significant-points'
     term: 'puntos significativos'
     translation: 'significant points'
     partOfSpeech: phrase
@@ -16,24 +18,28 @@ vocabulary:
     example: 'Es importante destacar los puntos significativos.'
     exampleTranslation: 'It is important to highlight the significant points.'
   - id: es-ES-B2-ARGUE-003-003
+    concept: 'to-structure'
     term: 'estructurar'
     translation: 'to structure'
     partOfSpeech: verb
     example: 'Necesito estructurar mejor mi discurso.'
     exampleTranslation: 'I need to better structure my speech.'
   - id: es-ES-B2-ARGUE-003-004
+    concept: 'to-refute'
     term: 'rebatir'
     translation: 'to refute'
     partOfSpeech: verb
     example: 'Es difícil rebatir un argumento tan bien fundamentado.'
     exampleTranslation: 'It is difficult to refute such a well-founded argument.'
   - id: es-ES-B2-ARGUE-003-005
+    concept: 'to-present'
     term: 'exponer'
     translation: 'to present / to explain'
     partOfSpeech: verb
     example: 'Voy a exponer mi punto de vista de forma clara.'
     exampleTranslation: 'I am going to present my point of view clearly.'
   - id: es-ES-B2-ARGUE-003-006
+    concept: 'emphasis'
     term: 'énfasis'
     translation: 'emphasis'
     partOfSpeech: noun

@@ -2,6 +2,7 @@ nodeId: C2-SUMMARY-001
 lang: es-ES
 vocabulary:
   - id: es-ES-C2-SUMMARY-001-001
+    concept: 'concise-summary'
     term: 'resumen conciso'
     translation: 'concise summary'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Puedo hacer un resumen conciso de información extensa.'
     exampleTranslation: 'I can make a concise summary of extensive information.'
   - id: es-ES-C2-SUMMARY-001-002
+    concept: 'oral-sources'
     term: 'fuentes orales'
     translation: 'oral sources'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Puedo sintetizar fuentes orales y escritas.'
     exampleTranslation: 'I can synthesise oral and written sources.'
   - id: es-ES-C2-SUMMARY-001-003
+    concept: 'coherent-presentation'
     term: 'presentación coherente'
     translation: 'coherent presentation'
     partOfSpeech: phrase
@@ -23,12 +26,14 @@ vocabulary:
     example: 'Organizo la información en una presentación coherente.'
     exampleTranslation: 'I organise the information in a coherent presentation.'
   - id: es-ES-C2-SUMMARY-001-004
+    concept: 'to-synthesise'
     term: 'sintetizar'
     translation: 'to synthesise'
     partOfSpeech: verb
     example: 'Sé sintetizar argumentos complejos de forma efectiva.'
     exampleTranslation: 'I know how to synthesise complex arguments effectively.'
   - id: es-ES-C2-SUMMARY-001-005
+    concept: 'argument-reconstruction'
     term: 'reconstrucción de argumentos'
     translation: 'argument reconstruction'
     partOfSpeech: phrase
@@ -36,6 +41,7 @@ vocabulary:
     example: 'La reconstrucción de argumentos es una habilidad clave.'
     exampleTranslation: 'Argument reconstruction is a key skill.'
   - id: es-ES-C2-SUMMARY-001-006
+    concept: 'information-from-multiple-sources'
     term: 'información de múltiples fuentes'
     translation: 'information from multiple sources'
     partOfSpeech: phrase

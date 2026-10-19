@@ -2,12 +2,14 @@ nodeId: B1-DISCOURSE-002
 lang: es-ES
 vocabulary:
   - id: es-ES-B1-DISCOURSE-002-001
+    concept: 'to-narrate'
     term: 'narrar'
     translation: 'to narrate'
     partOfSpeech: verb
     example: 'Puedo narrar acontecimientos de forma clara.'
     exampleTranslation: 'I can narrate events clearly.'
   - id: es-ES-B1-DISCOURSE-002-002
+    concept: 'temporal-sequence'
     term: 'secuencia temporal'
     translation: 'temporal sequence'
     partOfSpeech: phrase
@@ -15,24 +17,28 @@ vocabulary:
     example: 'Es importante respetar la secuencia temporal.'
     exampleTranslation: 'It is important to respect the temporal sequence.'
   - id: es-ES-B1-DISCOURSE-002-003
+    concept: 'before'
     term: 'antes de'
     translation: 'before'
     partOfSpeech: conjunction
     example: 'Antes de salir, revisé todo.'
     exampleTranslation: 'Before leaving, I checked everything.'
   - id: es-ES-B1-DISCOURSE-002-004
+    concept: 'after'
     term: 'después de'
     translation: 'after'
     partOfSpeech: conjunction
     example: 'Después de comer, dimos un paseo.'
     exampleTranslation: 'After eating, we took a walk.'
   - id: es-ES-B1-DISCOURSE-002-005
+    concept: 'meanwhile'
     term: 'mientras tanto'
     translation: 'meanwhile'
     partOfSpeech: conjunction
     example: 'Yo preparaba la cena; mientras tanto, él leía.'
     exampleTranslation: 'I was preparing dinner; meanwhile, he was reading.'
   - id: es-ES-B1-DISCOURSE-002-006
+    concept: 'finally'
     term: 'finalmente'
     translation: 'finally'
     partOfSpeech: adverb

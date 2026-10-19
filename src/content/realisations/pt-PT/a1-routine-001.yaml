@@ -2,6 +2,7 @@ nodeId: A1-ROUTINE-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-A1-ROUTINE-001-001
+    concept: 'house'
     term: 'casa'
     translation: 'house'
     partOfSpeech: noun
@@ -11,6 +12,7 @@ vocabulary:
     imageUrl: 'casa.webp'
     imageAlt: 'A single-family house with a front garden and pathway'
   - id: pt-PT-A1-ROUTINE-001-002
+    concept: 'bedroom'
     term: 'quarto'
     translation: 'bedroom'
     partOfSpeech: noun
@@ -20,6 +22,7 @@ vocabulary:
     imageUrl: 'quarto.webp'
     imageAlt: 'A cozy modern bedroom with a large bed'
   - id: pt-PT-A1-ROUTINE-001-003
+    concept: 'kitchen'
     term: 'cozinha'
     translation: 'kitchen'
     partOfSpeech: noun
@@ -29,6 +32,7 @@ vocabulary:
     imageUrl: 'cozinha.webp'
     imageAlt: 'A modern kitchen with red cabinets and a wooden table'
   - id: pt-PT-A1-ROUTINE-001-004
+    concept: 'clothes'
     term: 'roupa'
     translation: 'clothes'
     partOfSpeech: noun
@@ -38,6 +42,7 @@ vocabulary:
     imageUrl: 'roupa.webp'
     imageAlt: 'Rows of clothes hanging inside a closet'
   - id: pt-PT-A1-ROUTINE-001-005
+    concept: 'key'
     term: 'chave'
     translation: 'key'
     partOfSpeech: noun
@@ -47,6 +52,7 @@ vocabulary:
     imageUrl: 'chave.webp'
     imageAlt: 'A hand inserting a key into a door lock'
   - id: pt-PT-A1-ROUTINE-001-006
+    concept: 'phone'
     term: 'telefone'
     translation: 'phone'
     partOfSpeech: noun

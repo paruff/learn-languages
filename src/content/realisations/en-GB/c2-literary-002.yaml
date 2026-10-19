@@ -2,6 +2,7 @@ nodeId: C2-LITERARY-002
 lang: en-GB
 vocabulary:
   - id: en-GB-C2-LITERARY-002-001
+    concept: 'elegant-style'
     term: 'elegant style'
     translation: 'estilo elegante'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'I write with an elegant and precise style.'
     exampleTranslation: 'Escrevo com um estilo elegante e preciso.'
   - id: en-GB-C2-LITERARY-002-002
+    concept: 'intended-effect'
     term: 'intended effect'
     translation: 'efeito pretendido'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'I always achieve the intended effect on the reader.'
     exampleTranslation: 'Consigno sempre o efeito pretendido no leitor.'
   - id: en-GB-C2-LITERARY-002-003
+    concept: 'appropriate-register'
     term: 'appropriate register'
     translation: 'registo adequado'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'I always select the appropriate register for the text.'
     exampleTranslation: 'Selecione sempre o registo adequado ao texto.'
   - id: en-GB-C2-LITERARY-002-004
+    concept: 'adapted-style'
     term: 'adapted style'
     translation: 'estilo adaptado'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'I adapt the style to the literary genre and audience.'
     exampleTranslation: 'Adapto o estilo ao género literário e ao público.'
   - id: en-GB-C2-LITERARY-002-005
+    concept: 'precision-and-subtlety'
     term: 'precision and subtlety'
     translation: 'precisão e subtileza'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'My writing has incomparable precision and subtlety.'
     exampleTranslation: 'A minha escrita tem precisão e subtileza incomparáveis.'
   - id: en-GB-C2-LITERARY-002-006
+    concept: 'cultured-expression'
     term: 'cultured expression'
     translation: 'expressão culta'
     partOfSpeech: phrase

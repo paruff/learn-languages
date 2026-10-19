@@ -2,18 +2,21 @@ nodeId: A1-SORRY-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-A1-SORRY-001-001
+    concept: 'sorry'
     term: 'Desculpe'
     translation: 'Sorry (formal) / Excuse me'
     partOfSpeech: interjection
     example: 'Desculpe, onde fica a estação?'
     exampleTranslation: 'Excuse me, where is the station?'
   - id: pt-PT-A1-SORRY-001-002
+    concept: 'excuse-me'
     term: 'Com licença'
     translation: 'Excuse me (to pass by)'
     partOfSpeech: phrase
     example: 'Com licença, posso passar?'
     exampleTranslation: 'Excuse me, can I pass?'
   - id: pt-PT-A1-SORRY-001-003
+    concept: 'it-s-okay'
     term: 'Não faz mal'
     translation: "It's okay / No problem"
     partOfSpeech: phrase

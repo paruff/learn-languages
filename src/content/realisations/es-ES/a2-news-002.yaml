@@ -2,6 +2,7 @@ nodeId: A2-NEWS-002
 lang: es-ES
 vocabulary:
   - id: es-ES-A2-NEWS-002-001
+    concept: 'event'
     term: 'acontecimiento'
     translation: 'event / happening'
     partOfSpeech: noun
@@ -9,18 +10,21 @@ vocabulary:
     example: 'El acontecimiento más importante fue la elección.'
     exampleTranslation: 'The most important event was the election.'
   - id: es-ES-A2-NEWS-002-002
+    concept: 'to-report'
     term: 'reportar'
     translation: 'to report'
     partOfSpeech: verb
     example: 'Los medios reportaron el accidente.'
     exampleTranslation: 'The media reported the accident.'
   - id: es-ES-A2-NEWS-002-003
+    concept: 'to-describe'
     term: 'describir'
     translation: 'to describe'
     partOfSpeech: verb
     example: 'Puedo describir lo que pasó.'
     exampleTranslation: 'I can describe what happened.'
   - id: es-ES-A2-NEWS-002-004
+    concept: 'event-noun'
     term: 'evento'
     translation: 'event'
     partOfSpeech: noun
@@ -28,12 +32,14 @@ vocabulary:
     example: 'El evento tuvo lugar en el centro de la ciudad.'
     exampleTranslation: 'The event took place in the city centre.'
   - id: es-ES-A2-NEWS-002-005
+    concept: 'to-happen'
     term: 'ocurrir'
     translation: 'to happen'
     partOfSpeech: verb
     example: '¿Qué fue lo que ocurrió?'
     exampleTranslation: 'What was it that happened?'
   - id: es-ES-A2-NEWS-002-006
+    concept: 'place'
     term: 'lugar'
     translation: 'place / location'
     partOfSpeech: noun

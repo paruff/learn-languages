@@ -2,6 +2,7 @@ nodeId: B1-DISCOURSE-002
 lang: en-GB
 vocabulary:
   - id: en-GB-B1-DISCOURSE-002-001
+    concept: 'following'
     term: 'following'
     translation: 'na sequência de'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Following the meeting, we made a decision.'
     exampleTranslation: 'Na sequência da reunião, tomámos uma decisão.'
   - id: en-GB-B1-DISCOURSE-002-002
+    concept: 'after-that'
     term: 'after that'
     translation: 'depois disso'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'After that, we went to dinner.'
     exampleTranslation: 'Depois disso, fomos jantar.'
   - id: en-GB-B1-DISCOURSE-002-003
+    concept: 'first-of-all'
     term: 'first of all'
     translation: 'antes de tudo'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'First of all, I want to thank everyone for being here.'
     exampleTranslation: 'Antes de tudo, quero agradecer a presença de todos.'
   - id: en-GB-B1-DISCOURSE-002-004
+    concept: 'meanwhile'
     term: 'meanwhile'
     translation: 'enquanto isso'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Meanwhile, the situation improved.'
     exampleTranslation: 'Enquanto isso, a situação melhorou.'
   - id: en-GB-B1-DISCOURSE-002-005
+    concept: 'next'
     term: 'next'
     translation: 'em seguida'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Next, we presented the results.'
     exampleTranslation: 'Em seguida, apresentámos os resultados.'
   - id: en-GB-B1-DISCOURSE-002-006
+    concept: 'finally'
     term: 'finally'
     translation: 'por fim'
     partOfSpeech: phrase

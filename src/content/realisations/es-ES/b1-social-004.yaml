@@ -2,12 +2,14 @@ nodeId: B1-SOCIAL-004
 lang: es-ES
 vocabulary:
   - id: es-ES-B1-SOCIAL-004-001
+    concept: 'to-invite-to-give-an-opinion'
     term: 'invitar a opinar'
     translation: 'to invite to give an opinion'
     partOfSpeech: phrase
     example: 'Suele invitar a opinar a todos los participantes.'
     exampleTranslation: 'He usually invites all participants to give their opinion.'
   - id: es-ES-B1-SOCIAL-004-002
+    concept: 'reaction'
     term: 'reacción'
     translation: 'reaction'
     partOfSpeech: noun
@@ -15,18 +17,21 @@ vocabulary:
     example: 'Tuvo una reacción muy positiva.'
     exampleTranslation: 'She had a very positive reaction.'
   - id: es-ES-B1-SOCIAL-004-003
+    concept: 'to-keep-the-conversation-going'
     term: 'mantener viva la conversación'
     translation: 'to keep the conversation going'
     partOfSpeech: phrase
     example: 'Es una habilidad importante mantener viva la conversación.'
     exampleTranslation: 'It is an important skill to keep the conversation going.'
   - id: es-ES-B1-SOCIAL-004-004
+    concept: 'to-participate-actively'
     term: 'participar activamente'
     translation: 'to participate actively'
     partOfSpeech: phrase
     example: 'Todos deberían participar activamente en el debate.'
     exampleTranslation: 'Everyone should participate actively in the debate.'
   - id: es-ES-B1-SOCIAL-004-005
+    concept: 'comment'
     term: 'comentario'
     translation: 'comment'
     partOfSpeech: noun
@@ -34,6 +39,7 @@ vocabulary:
     example: 'Hizo un comentario muy interesante.'
     exampleTranslation: 'He made a very interesting comment.'
   - id: es-ES-B1-SOCIAL-004-006
+    concept: 'turn-to-speak'
     term: 'turno de palabra'
     translation: 'turn to speak'
     partOfSpeech: phrase

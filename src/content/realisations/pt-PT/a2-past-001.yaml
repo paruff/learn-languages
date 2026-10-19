@@ -2,36 +2,42 @@ nodeId: A2-PAST-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-A2-PAST-001-001
+    concept: 'yesterday'
     term: 'ontem'
     translation: 'yesterday'
     partOfSpeech: adverb
     example: 'Ontem fui ao cinema.'
     exampleTranslation: 'Yesterday I went to the cinema.'
   - id: pt-PT-A2-PAST-001-002
+    concept: 'last-week'
     term: 'semana passada'
     translation: 'last week'
     partOfSpeech: adverb
     example: 'Semana passada viajei para o Porto.'
     exampleTranslation: 'Last week I travelled to Porto.'
   - id: pt-PT-A2-PAST-001-003
+    concept: 'last-year'
     term: 'ano passado'
     translation: 'last year'
     partOfSpeech: adverb
     example: 'Ano passado mudei de emprego.'
     exampleTranslation: 'Last year I changed jobs.'
   - id: pt-PT-A2-PAST-001-004
+    concept: 'to-visit'
     term: 'visitar'
     translation: 'to visit'
     partOfSpeech: verb
     example: 'Visitei os meus avós no domingo.'
     exampleTranslation: 'I visited my grandparents on Sunday.'
   - id: pt-PT-A2-PAST-001-005
+    concept: 'to-eat'
     term: 'comer'
     translation: 'to eat'
     partOfSpeech: verb
     example: 'Comi francesinhas no Porto.'
     exampleTranslation: 'I ate francesinhas in Porto.'
   - id: pt-PT-A2-PAST-001-006
+    concept: 'to-travel'
     term: 'viajar'
     translation: 'to travel'
     partOfSpeech: verb

@@ -2,6 +2,7 @@ nodeId: C2-MEDIATION-002
 lang: pt-PT
 vocabulary:
   - id: pt-PT-C2-MEDIATION-002-001
+    concept: 'abstract-texts'
     term: 'textos abstractos'
     translation: 'abstract texts'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Compreendo textos abstractos com total facilidade.'
     exampleTranslation: 'I understand abstract texts with complete ease.'
   - id: pt-PT-C2-MEDIATION-002-002
+    concept: 'technically-complex-texts'
     term: 'textos tecnicamente complexos'
     translation: 'technically complex texts'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Entendo textos tecnicamente complexos sem dificuldade.'
     exampleTranslation: 'I understand technically complex texts without difficulty.'
   - id: pt-PT-C2-MEDIATION-002-003
+    concept: 'linguistically-demanding-texts'
     term: 'textos linguisticamente exigentes'
     translation: 'linguistically demanding texts'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Consigo compreender textos linguisticamente exigentes.'
     exampleTranslation: 'I can comprehend linguistically demanding texts.'
   - id: pt-PT-C2-MEDIATION-002-004
+    concept: 'style-and-implicit-meaning'
     term: 'estilo e significado implícito'
     translation: 'style and implicit meaning'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Aprecio o estilo e o significado implícito dos textos.'
     exampleTranslation: 'I appreciate the style and implicit meaning of texts.'
   - id: pt-PT-C2-MEDIATION-002-005
+    concept: 'contemporary-literature'
     term: 'literatura contemporânea'
     translation: 'contemporary literature'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Domino a literatura contemporânea em todas as suas formas.'
     exampleTranslation: 'I master contemporary literature in all its forms.'
   - id: pt-PT-C2-MEDIATION-002-006
+    concept: 'linguistic-nuance'
     term: 'matiz linguística'
     translation: 'linguistic nuance'
     partOfSpeech: phrase

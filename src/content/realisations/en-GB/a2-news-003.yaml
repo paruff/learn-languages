@@ -2,36 +2,42 @@ nodeId: A2-NEWS-003
 lang: en-GB
 vocabulary:
   - id: en-GB-A2-NEWS-003-001
+    concept: 'i-think-that'
     term: 'I think that'
     translation: 'acho que'
     partOfSpeech: phrase
     example: 'I think this news is important.'
     exampleTranslation: 'Acho que esta notícia é importante.'
   - id: en-GB-A2-NEWS-003-002
+    concept: 'in-my-opinion'
     term: 'in my opinion'
     translation: 'na minha opinião'
     partOfSpeech: phrase
     example: 'In my opinion, the government should act.'
     exampleTranslation: 'Na minha opinião, o governo devia agir.'
   - id: en-GB-A2-NEWS-003-003
+    concept: 'it-seems-to-me'
     term: 'it seems to me'
     translation: 'parece-me'
     partOfSpeech: phrase
     example: 'It seems to me that the situation is improving.'
     exampleTranslation: 'Parece-me que a situação está a melhorar.'
   - id: en-GB-A2-NEWS-003-004
+    concept: 'important'
     term: 'important'
     translation: 'importante'
     partOfSpeech: adjective
     example: 'It is important to stay informed.'
     exampleTranslation: 'É importante informar-se.'
   - id: en-GB-A2-NEWS-003-005
+    concept: 'to-agree'
     term: 'to agree'
     translation: 'concordar'
     partOfSpeech: verb
     example: 'I agree with the article.'
     exampleTranslation: 'Concordo com o artigo.'
   - id: en-GB-A2-NEWS-003-006
+    concept: 'to-disagree'
     term: 'to disagree'
     translation: 'discordar'
     partOfSpeech: verb

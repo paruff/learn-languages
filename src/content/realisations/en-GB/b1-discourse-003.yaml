@@ -2,6 +2,7 @@ nodeId: B1-DISCOURSE-003
 lang: en-GB
 vocabulary:
   - id: en-GB-B1-DISCOURSE-003-001
+    concept: 'due-to'
     term: 'due to'
     translation: 'devido a'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Due to the rain, the event was postponed.'
     exampleTranslation: 'Devido à chuva, o evento foi adiado.'
   - id: en-GB-B1-DISCOURSE-003-002
+    concept: 'as-a-result'
     term: 'as a result'
     translation: 'como resultado'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'As a result, the economy grew.'
     exampleTranslation: 'Como resultado, a economia cresceu.'
   - id: en-GB-B1-DISCOURSE-003-003
+    concept: 'because-of'
     term: 'because of'
     translation: 'por causa de'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Because of the traffic, I arrived late.'
     exampleTranslation: 'Por causa do tráfego, cheguei atrasado.'
   - id: en-GB-B1-DISCOURSE-003-004
+    concept: 'consequently'
     term: 'consequently'
     translation: 'consequentemente'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Consequently, we needed to change plans.'
     exampleTranslation: 'Consequentemente, precisámos de mudar os planos.'
   - id: en-GB-B1-DISCOURSE-003-005
+    concept: 'this-led-to'
     term: 'this led to'
     translation: 'isto levou a que'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'This led to us making new discoveries.'
     exampleTranslation: 'Isto levou a que fizéssemos novas descobertas.'
   - id: en-GB-B1-DISCOURSE-003-006
+    concept: 'the-cause-was'
     term: 'the cause was'
     translation: 'a causa foi'
     partOfSpeech: phrase

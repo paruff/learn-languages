@@ -2,6 +2,7 @@ nodeId: B1-OPINION-004
 lang: es-ES
 vocabulary:
   - id: es-ES-B1-OPINION-004-001
+    concept: 'event'
     term: 'acontecimiento'
     translation: 'event / happening'
     partOfSpeech: noun
@@ -9,18 +10,21 @@ vocabulary:
     example: 'Los acontecimientos recientes han sido importantes.'
     exampleTranslation: 'Recent events have been important.'
   - id: es-ES-B1-OPINION-004-002
+    concept: 'to-give-an-opinion'
     term: 'opinar'
     translation: 'to give an opinion'
     partOfSpeech: verb
     example: 'Es importante opinar con conocimiento.'
     exampleTranslation: 'It is important to give an opinion based on knowledge.'
   - id: es-ES-B1-OPINION-004-003
+    concept: 'to-reflect'
     term: 'reflexionar'
     translation: 'to reflect'
     partOfSpeech: verb
     example: 'Hay que reflexionar sobre las causas del problema.'
     exampleTranslation: 'We must reflect on the causes of the problem.'
   - id: es-ES-B1-OPINION-004-004
+    concept: 'analysis'
     term: 'análisis'
     translation: 'analysis'
     partOfSpeech: noun
@@ -28,12 +32,14 @@ vocabulary:
     example: 'El análisis de la situación revela varios factores.'
     exampleTranslation: 'The analysis of the situation reveals several factors.'
   - id: es-ES-B1-OPINION-004-005
+    concept: 'to-express'
     term: 'expresar'
     translation: 'to express'
     partOfSpeech: verb
     example: 'Puedo expresar mi opinión por escrito.'
     exampleTranslation: 'I can express my opinion in writing.'
   - id: es-ES-B1-OPINION-004-006
+    concept: 'point-of-view'
     term: 'punto de vista'
     translation: 'point of view'
     partOfSpeech: phrase

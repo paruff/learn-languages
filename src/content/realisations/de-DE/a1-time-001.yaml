@@ -2,30 +2,35 @@ nodeId: A1-TIME-001
 lang: de-DE
 vocabulary:
   - id: de-DE-A1-TIME-001-001
+    concept: 'what-time-is-it'
     term: 'Wie spät ist es?'
     translation: 'What time is it?'
     partOfSpeech: phrase
     example: 'Entschuldigung, wie spät ist es?'
     exampleTranslation: 'Excuse me, what time is it?'
   - id: de-DE-A1-TIME-001-002
+    concept: 'today'
     term: 'heute'
     translation: 'today'
     partOfSpeech: adverb
     example: 'Heute ist Montag.'
     exampleTranslation: 'Today is Monday.'
   - id: de-DE-A1-TIME-001-003
+    concept: 'tomorrow'
     term: 'morgen'
     translation: 'tomorrow'
     partOfSpeech: adverb
     example: 'Morgen komme ich wieder.'
     exampleTranslation: 'Tomorrow I will come again.'
   - id: de-DE-A1-TIME-001-004
+    concept: 'yesterday'
     term: 'gestern'
     translation: 'yesterday'
     partOfSpeech: adverb
     example: 'Gestern war ich im Kino.'
     exampleTranslation: 'Yesterday I was at the cinema.'
   - id: de-DE-A1-TIME-001-005
+    concept: 'o-clock'
     term: 'Uhr'
     translation: "o'clock / clock"
     partOfSpeech: noun
@@ -33,6 +38,7 @@ vocabulary:
     example: 'Es ist drei Uhr.'
     exampleTranslation: "It's three o'clock."
   - id: de-DE-A1-TIME-001-006
+    concept: 'day-of-the-week'
     term: 'Wochentag'
     translation: 'day of the week'
     partOfSpeech: noun

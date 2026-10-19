@@ -2,6 +2,7 @@ nodeId: C2-LITERARY-001
 lang: en-GB
 vocabulary:
   - id: en-GB-C2-LITERARY-001-001
+    concept: 'complex-literary-texts'
     term: 'complex literary texts'
     translation: 'textos literários complexos'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'I read complex literary texts with full comprehension.'
     exampleTranslation: 'Leio textos literários complexos com total compreensão.'
   - id: en-GB-C2-LITERARY-001-002
+    concept: 'contemporary-literature'
     term: 'contemporary literature'
     translation: 'literatura contemporânea'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'I master contemporary literature in all its forms.'
     exampleTranslation: 'Domino a literatura contemporânea em todas as suas formas.'
   - id: en-GB-C2-LITERARY-001-003
+    concept: 'poetry-and-song-lyrics'
     term: 'poetry and song lyrics'
     translation: 'poesia e música'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'I appreciate poetry and song lyrics with aesthetic discernment.'
     exampleTranslation: 'Aprecio poesia e música com discernimento estético.'
   - id: en-GB-C2-LITERARY-001-004
+    concept: 'opinion-pieces'
     term: 'opinion pieces'
     translation: 'textos de opinião'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'I understand opinion pieces with full lucidity.'
     exampleTranslation: 'Entendo textos de opinião com total lucidez.'
   - id: en-GB-C2-LITERARY-001-005
+    concept: 'aesthetic-discernment'
     term: 'aesthetic discernment'
     translation: 'discernimento estético'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'I have aesthetic discernment in multiple literary genres.'
     exampleTranslation: 'Tenho discernimento estético em vários géneros literários.'
   - id: en-GB-C2-LITERARY-001-006
+    concept: 'literary-appreciation'
     term: 'literary appreciation'
     translation: 'apreciação literária'
     partOfSpeech: phrase

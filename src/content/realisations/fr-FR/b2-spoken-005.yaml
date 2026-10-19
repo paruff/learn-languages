@@ -2,6 +2,7 @@ nodeId: B2-SPOKEN-005
 lang: fr-FR
 vocabulary:
   - id: fr-FR-B2-SPOKEN-005-001
+    concept: 'to-depart-from-the-script'
     term: "s'écarter du texte préparé"
     translation: 'to depart from the script'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: "L'orateur s'est écarté du texte préparé pour répondre à une question."
     exampleTranslation: 'The speaker departed from the script to address a question.'
   - id: fr-FR-B2-SPOKEN-005-002
+    concept: 'to-improvise'
     term: 'improviser'
     translation: 'to improvise'
     partOfSpeech: verb
@@ -16,6 +18,7 @@ vocabulary:
     example: "Elle a dû improviser quand l'auditoire a posé des questions inattendues."
     exampleTranslation: 'She had to improvise when the audience asked unexpected questions.'
   - id: fr-FR-B2-SPOKEN-005-003
+    concept: 'to-follow-up-on-a-point'
     term: 'reprendre un point'
     translation: 'to follow up on a point'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Il a repris le point soulevé par un auditeur.'
     exampleTranslation: 'He followed up on the point raised by a listener.'
   - id: fr-FR-B2-SPOKEN-005-004
+    concept: 'to-adapt-spontaneously'
     term: "s'adapter spontanément"
     translation: 'to adapt spontaneously'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: "Le présentateur s'est adapté spontanément à la réaction du public."
     exampleTranslation: 'The presenter adapted spontaneously to the audience reaction.'
   - id: fr-FR-B2-SPOKEN-005-005
+    concept: 'to-engage-with-the-audience'
     term: "interagir avec l'auditoire"
     translation: 'to engage with the audience'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'De bons orateurs interagissent naturellement avec leur auditoire.'
     exampleTranslation: 'Good speakers engage with their audience naturally.'
   - id: fr-FR-B2-SPOKEN-005-006
+    concept: 'to-think-on-one-s-feet'
     term: 'réagir vite'
     translation: "to think on one's feet"
     partOfSpeech: phrase

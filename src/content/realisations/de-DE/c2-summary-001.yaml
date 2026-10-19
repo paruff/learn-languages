@@ -2,6 +2,7 @@ nodeId: C2-SUMMARY-001
 lang: de-DE
 vocabulary:
   - id: de-DE-C2-SUMMARY-001-001
+    concept: 'summary'
     term: 'Zusammenfassung'
     translation: 'summary'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Die Zusammenfassung war klar und prägnant.'
     exampleTranslation: 'The summary was clear and concise.'
   - id: de-DE-C2-SUMMARY-001-002
+    concept: 'key-points'
     term: 'Kernpunkte'
     translation: 'key points'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Die Kernpunkte wurden hervorgehoben.'
     exampleTranslation: 'The key points were highlighted.'
   - id: de-DE-C2-SUMMARY-001-003
+    concept: 'to-summarize'
     term: 'zusammenfassen'
     translation: 'to summarize'
     partOfSpeech: verb
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Können Sie das zusammenfassen?'
     exampleTranslation: 'Can you summarize that?'
   - id: de-DE-C2-SUMMARY-001-004
+    concept: 'essence'
     term: 'Essenz'
     translation: 'essence'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Die Essenz der Diskussion war klar.'
     exampleTranslation: 'The essence of the discussion was clear.'
   - id: de-DE-C2-SUMMARY-001-005
+    concept: 'to-compress'
     term: 'komprimieren'
     translation: 'to compress'
     partOfSpeech: verb
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Er hat die Information komprimiert.'
     exampleTranslation: 'He has compressed the information.'
   - id: de-DE-C2-SUMMARY-001-006
+    concept: 'conciseness'
     term: 'Prägnanz'
     translation: 'conciseness'
     partOfSpeech: noun

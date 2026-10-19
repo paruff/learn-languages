@@ -2,6 +2,7 @@ nodeId: B1-OPINION-002
 lang: pt-PT
 vocabulary:
   - id: pt-PT-B1-OPINION-002-001
+    concept: 'i-fully-agree'
     term: 'concordo plenamente'
     translation: 'I fully agree'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Concordo plenamente com o que disseste.'
     exampleTranslation: 'I fully agree with what you said.'
   - id: pt-PT-B1-OPINION-002-002
+    concept: 'i-agree'
     term: 'estou de acordo'
     translation: 'I agree'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Estou de acordo com esta proposta.'
     exampleTranslation: 'I agree with this proposal.'
   - id: pt-PT-B1-OPINION-002-003
+    concept: 'i-disagree-with-your-point-of-view'
     term: 'discordo do seu ponto de vista'
     translation: 'I disagree with your point of view'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Respeitosamente, discordo do seu ponto de vista.'
     exampleTranslation: 'Respectfully, I disagree with your point of view.'
   - id: pt-PT-B1-OPINION-002-004
+    concept: 'i-understand-what-you-say-but'
     term: 'compreendo o que diz, mas'
     translation: 'I understand what you say, but'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Compreendo o que diz, mas tenho uma perspetiva diferente.'
     exampleTranslation: 'I understand what you say, but I have a different perspective.'
   - id: pt-PT-B1-OPINION-002-005
+    concept: 'i-do-not-fully-agree'
     term: 'não concordo totalmente'
     translation: 'I do not fully agree'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Não concordo totalmente, mas faz sentido.'
     exampleTranslation: 'I do not fully agree, but it makes sense.'
   - id: pt-PT-B1-OPINION-002-006
+    concept: 'that-depends'
     term: 'isso depende'
     translation: 'that depends'
     partOfSpeech: phrase

@@ -2,36 +2,42 @@ nodeId: A2-OPIN-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-A2-OPIN-001-001
+    concept: 'to-like'
     term: 'aimer'
     translation: 'to like'
     partOfSpeech: verb
     example: 'J’aime lire le soir.'
     exampleTranslation: 'I like reading in the evening.'
   - id: fr-FR-A2-OPIN-001-002
+    concept: 'to-dislike'
     term: 'détester'
     translation: 'to dislike'
     partOfSpeech: verb
     example: 'Je déteste me lever tôt.'
     exampleTranslation: 'I dislike getting up early.'
   - id: fr-FR-A2-OPIN-001-003
+    concept: 'because'
     term: 'parce que'
     translation: 'because'
     partOfSpeech: conjunction
     example: 'J’aime ça parce que c’est facile.'
     exampleTranslation: 'I like it because it is easy.'
   - id: fr-FR-A2-OPIN-001-004
+    concept: 'favourite'
     term: 'préféré'
     translation: 'favourite'
     partOfSpeech: adjective
     example: 'Le bleu est ma couleur préférée.'
     exampleTranslation: 'Blue is my favourite colour.'
   - id: fr-FR-A2-OPIN-001-005
+    concept: 'to-prefer'
     term: 'préférer'
     translation: 'to prefer'
     partOfSpeech: verb
     example: 'Je préfère le thé au café.'
     exampleTranslation: 'I prefer tea to coffee.'
   - id: fr-FR-A2-OPIN-001-006
+    concept: 'boring'
     term: 'ennuyeux'
     translation: 'boring'
     partOfSpeech: adjective

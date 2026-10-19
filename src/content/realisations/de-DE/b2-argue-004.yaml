@@ -2,6 +2,7 @@ nodeId: B2-ARGUE-004
 lang: de-DE
 vocabulary:
   - id: de-DE-B2-ARGUE-004-001
+    concept: 'presentation'
     term: 'Darlegung'
     translation: 'presentation / explanation'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Die Darlegung war klar.'
     exampleTranslation: 'The presentation was clear.'
   - id: de-DE-B2-ARGUE-004-002
+    concept: 'to-prove'
     term: 'belegen'
     translation: 'to prove / to substantiate'
     partOfSpeech: verb
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Können Sie das belegen?'
     exampleTranslation: 'Can you substantiate that?'
   - id: de-DE-B2-ARGUE-004-003
+    concept: 'detail'
     term: 'Einzelheit'
     translation: 'detail'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Die Einzelheiten sind wichtig.'
     exampleTranslation: 'The details are important.'
   - id: de-DE-B2-ARGUE-004-004
+    concept: 'to-demonstrate'
     term: 'nachweisen'
     translation: 'to demonstrate / to prove'
     partOfSpeech: verb
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Ich kann das nachweisen.'
     exampleTranslation: 'I can prove that.'
   - id: de-DE-B2-ARGUE-004-005
+    concept: 'perspective'
     term: 'Sichtweise'
     translation: 'perspective / viewpoint'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Ich teile Ihre Sichtweise.'
     exampleTranslation: 'I share your perspective.'
   - id: de-DE-B2-ARGUE-004-006
+    concept: 'to-support'
     term: 'untermauern'
     translation: 'to support / to back up'
     partOfSpeech: verb

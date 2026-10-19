@@ -2,6 +2,7 @@ nodeId: B2-SOCIAL-002
 lang: en-GB
 vocabulary:
   - id: en-GB-B2-SOCIAL-002-001
+    concept: 'to-debate-topics'
     term: 'to debate topics'
     translation: 'debater temas'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'I like to debate current topics with my friends.'
     exampleTranslation: 'Gosto de debater temas de actualidade com os meus amigos.'
   - id: en-GB-B2-SOCIAL-002-002
+    concept: 'to-participate-in-discussions'
     term: 'to participate in discussions'
     translation: 'participar em discussões'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'It is important to participate actively in discussions.'
     exampleTranslation: 'É importante participar ativamente em discussões.'
   - id: en-GB-B2-SOCIAL-002-003
+    concept: 'to-express-points-of-view'
     term: 'to express points of view'
     translation: 'expressar pontos de vista'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'I can express my points of view clearly.'
     exampleTranslation: 'Consigo expressar os meus pontos de vista com clareza.'
   - id: en-GB-B2-SOCIAL-002-004
+    concept: 'to-argue-in-favour'
     term: 'to argue in favour'
     translation: 'argumentar a favor'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'I will argue in favour of my position.'
     exampleTranslation: 'Vou argumentar a favor da minha posição.'
   - id: en-GB-B2-SOCIAL-002-005
+    concept: 'to-counter-arguments'
     term: 'to counter arguments'
     translation: 'contrapor argumentos'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'It is useful to counter arguments to enrich the discussion.'
     exampleTranslation: 'É útil contrapor argumentos para enriquecer a discussão.'
   - id: en-GB-B2-SOCIAL-002-006
+    concept: 'to-reach-consensus'
     term: 'to reach consensus'
     translation: 'chegar a consensos'
     partOfSpeech: phrase

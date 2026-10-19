@@ -2,6 +2,7 @@ nodeId: B1-DISCOURSE-003
 lang: de-DE
 vocabulary:
   - id: de-DE-B1-DISCOURSE-003-001
+    concept: 'because'
     term: 'weil'
     translation: 'because'
     partOfSpeech: conjunction
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Ich blieb zu Hause, weil es regnete.'
     exampleTranslation: 'I stayed home because it was raining.'
   - id: de-DE-B1-DISCOURSE-003-002
+    concept: 'therefore'
     term: 'deshalb'
     translation: 'therefore'
     partOfSpeech: conjunction
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Es regnete. Deshalb blieb ich zu Hause.'
     exampleTranslation: 'It was raining. Therefore, I stayed home.'
   - id: de-DE-B1-DISCOURSE-003-003
+    concept: 'consequently'
     term: 'folglich'
     translation: 'consequently'
     partOfSpeech: conjunction
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Er war krank. Folglich konnte er nicht kommen.'
     exampleTranslation: 'He was sick. Consequently, he could not come.'
   - id: de-DE-B1-DISCOURSE-003-004
+    concept: 'to-lead-to'
     term: '导致'
     translation: 'to lead to / to cause'
     partOfSpeech: verb
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Der Regen hat den Verkehr verursacht.'
     exampleTranslation: 'The rain caused the traffic.'
   - id: de-DE-B1-DISCOURSE-003-005
+    concept: 'consequence'
     term: 'Folge'
     translation: 'consequence'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Die Folgen waren serious.'
     exampleTranslation: 'The consequences were serious.'
   - id: de-DE-B1-DISCOURSE-003-006
+    concept: 'because-of'
     term: 'wegen'
     translation: 'because of'
     partOfSpeech: preposition

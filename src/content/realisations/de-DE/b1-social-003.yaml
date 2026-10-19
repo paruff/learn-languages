@@ -2,6 +2,7 @@ nodeId: B1-SOCIAL-003
 lang: de-DE
 vocabulary:
   - id: de-DE-B1-SOCIAL-003-001
+    concept: 'feeling'
     term: 'Gefühl'
     translation: 'feeling'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Wie fühlst du dich?'
     exampleTranslation: 'How are you feeling?'
   - id: de-DE-B1-SOCIAL-003-002
+    concept: 'to-be-glad'
     term: 'freuen'
     translation: 'to be glad / to be happy'
     partOfSpeech: verb
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Ich freue mich darauf.'
     exampleTranslation: 'I am looking forward to it.'
   - id: de-DE-B1-SOCIAL-003-003
+    concept: 'sad'
     term: 'traurig'
     translation: 'sad'
     partOfSpeech: adjective
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Ich bin etwas traurig.'
     exampleTranslation: 'I am a little sad.'
   - id: de-DE-B1-SOCIAL-003-004
+    concept: 'excited'
     term: 'aufgeregt'
     translation: 'excited / nervous'
     partOfSpeech: adjective
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Ich bin sehr aufgeregt.'
     exampleTranslation: 'I am very excited.'
   - id: de-DE-B1-SOCIAL-003-005
+    concept: 'disappointed'
     term: 'enttäuscht'
     translation: 'disappointed'
     partOfSpeech: adjective
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Ich bin etwas enttäuscht.'
     exampleTranslation: 'I am a little disappointed.'
   - id: de-DE-B1-SOCIAL-003-006
+    concept: 'opinion'
     term: 'Meinung'
     translation: 'opinion'
     partOfSpeech: noun

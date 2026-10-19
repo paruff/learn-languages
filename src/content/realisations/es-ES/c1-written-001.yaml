@@ -2,6 +2,7 @@ nodeId: C1-WRITTEN-001
 lang: es-ES
 vocabulary:
   - id: es-ES-C1-WRITTEN-001-001
+    concept: 'persuasive-text'
     term: 'texto persuasivo'
     translation: 'persuasive text'
     partOfSpeech: phrase
@@ -9,12 +10,14 @@ vocabulary:
     example: 'Puedo escribir textos persuasivos sobre temas abstractos.'
     exampleTranslation: 'I can write persuasive texts on abstract topics.'
   - id: es-ES-C1-WRITTEN-001-002
+    concept: 'to-adapt-the-register'
     term: 'adaptar el registro'
     translation: 'to adapt the register'
     partOfSpeech: phrase
     example: 'Sé adaptar el registro al lector objetivo.'
     exampleTranslation: 'I know how to adapt the register to the target reader.'
   - id: es-ES-C1-WRITTEN-001-003
+    concept: 'current-topic'
     term: 'tema de actualidad'
     translation: 'current topic'
     partOfSpeech: phrase
@@ -22,6 +25,7 @@ vocabulary:
     example: 'Escribo sobre temas de actualidad con profundidad.'
     exampleTranslation: 'I write about current topics with depth.'
   - id: es-ES-C1-WRITTEN-001-004
+    concept: 'appropriate-register'
     term: 'registro adecuado'
     translation: 'appropriate register'
     partOfSpeech: phrase
@@ -29,6 +33,7 @@ vocabulary:
     example: 'El registro adecuado es clave para un buen texto.'
     exampleTranslation: 'The appropriate register is key for a good text.'
   - id: es-ES-C1-WRITTEN-001-005
+    concept: 'target-reader'
     term: 'lector objetivo'
     translation: 'target reader'
     partOfSpeech: phrase
@@ -36,6 +41,7 @@ vocabulary:
     example: 'Adapto el texto según el lector objetivo.'
     exampleTranslation: 'I adapt the text according to the target reader.'
   - id: es-ES-C1-WRITTEN-001-006
+    concept: 'to-persuade'
     term: 'convencer'
     translation: 'to persuade'
     partOfSpeech: verb

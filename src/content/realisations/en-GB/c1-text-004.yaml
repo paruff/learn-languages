@@ -2,6 +2,7 @@ nodeId: C1-TEXT-004
 lang: en-GB
 vocabulary:
   - id: en-GB-C1-TEXT-004-001
+    concept: 'line-of-argumentation'
     term: 'line of argumentation'
     translation: 'linha de argumentação'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'The line of argumentation of the text rests on recent data.'
     exampleTranslation: 'A linha de argumentação do texto apoia-se em dados recentes.'
   - id: en-GB-C1-TEXT-004-002
+    concept: 'theses-and-antitheses'
     term: 'theses and antitheses'
     translation: 'teses e antíteses'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'The author confronts theses and antitheses before concluding.'
     exampleTranslation: 'O autor confronta teses e antíteses antes de concluir.'
   - id: en-GB-C1-TEXT-004-003
+    concept: 'circumstantial-evidence'
     term: 'circumstantial evidence'
     translation: 'evidência circunstancial'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'The circumstantial evidence suggests, but does not prove, the thesis.'
     exampleTranslation: 'A evidência circunstancial sugere, mas não prova, a tese.'
   - id: en-GB-C1-TEXT-004-004
+    concept: 'turning-point'
     term: 'turning point'
     translation: 'momento de viragem'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'The turning point of the text is the refutation of the central objection.'
     exampleTranslation: 'O momento de viragem do texto é a refutação da objeção central.'
   - id: en-GB-C1-TEXT-004-005
+    concept: 'convergence-of-factors'
     term: 'convergence of factors'
     translation: 'convergência de fatores'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'The author shows the convergence of factors that explains the phenomenon.'
     exampleTranslation: 'O autor mostra a convergência de fatores que explica o fenómeno.'
   - id: en-GB-C1-TEXT-004-006
+    concept: 'to-follow-the-reasoning'
     term: 'to follow the reasoning'
     translation: 'travar o raciocínio'
     partOfSpeech: phrase

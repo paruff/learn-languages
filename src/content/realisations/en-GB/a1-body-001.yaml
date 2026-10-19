@@ -2,6 +2,7 @@ nodeId: A1-BODY-001
 lang: en-GB
 vocabulary:
   - id: en-GB-A1-BODY-001-001
+    concept: 'head'
     term: 'head'
     translation: 'cabeça'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'I have a headache.'
     exampleTranslation: 'Tenho dor de cabeça.'
   - id: en-GB-A1-BODY-001-002
+    concept: 'hand'
     term: 'hand'
     translation: 'mão'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Her hand is cold.'
     exampleTranslation: 'Ela tem a mão fria.'
   - id: en-GB-A1-BODY-001-003
+    concept: 'foot'
     term: 'foot'
     translation: 'pé'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'My foot hurts after running.'
     exampleTranslation: 'O meu pé dói depois de correr.'
   - id: en-GB-A1-BODY-001-004
+    concept: 'eye'
     term: 'eye'
     translation: 'olho'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'He has green eyes.'
     exampleTranslation: 'Ele tem os olhos verdes.'
   - id: en-GB-A1-BODY-001-005
+    concept: 'arm'
     term: 'arm'
     translation: 'braço'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'I broke my arm last year.'
     exampleTranslation: 'Parti o braço no ano passado.'
   - id: en-GB-A1-BODY-001-006
+    concept: 'leg'
     term: 'leg'
     translation: 'perna'
     partOfSpeech: noun

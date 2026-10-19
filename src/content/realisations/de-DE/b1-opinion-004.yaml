@@ -2,6 +2,7 @@ nodeId: B1-OPINION-004
 lang: de-DE
 vocabulary:
   - id: de-DE-B1-OPINION-004-001
+    concept: 'current'
     term: 'aktuell'
     translation: 'current'
     partOfSpeech: adjective
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Das ist ein aktuelles Thema.'
     exampleTranslation: 'That is a current topic.'
   - id: de-DE-B1-OPINION-004-002
+    concept: 'event'
     term: 'Ereignis'
     translation: 'event'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Das war ein wichtiges Ereignis.'
     exampleTranslation: 'That was an important event.'
   - id: de-DE-B1-OPINION-004-003
+    concept: 'opinion'
     term: 'Meinung'
     translation: 'opinion'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Was ist Ihre Meinung dazu?'
     exampleTranslation: 'What is your opinion on that?'
   - id: de-DE-B1-OPINION-004-004
+    concept: 'expression-of-opinion'
     term: ' Meinungsäußerung'
     translation: 'expression of opinion'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Die Meinungsäußerung war klar.'
     exampleTranslation: 'The expression of opinion was clear.'
   - id: de-DE-B1-OPINION-004-005
+    concept: 'to-comment'
     term: 'kommentieren'
     translation: 'to comment'
     partOfSpeech: verb
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Ich kommentiere das Ereignis.'
     exampleTranslation: 'I comment on the event.'
   - id: de-DE-B1-OPINION-004-006
+    concept: 'to-evaluate'
     term: 'bewerten'
     translation: 'to evaluate'
     partOfSpeech: verb

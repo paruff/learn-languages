@@ -2,6 +2,7 @@ nodeId: A2-JOB-002
 lang: es-ES
 vocabulary:
   - id: es-ES-A2-JOB-002-001
+    concept: 'work-routine'
     term: 'rutina laboral'
     translation: 'work routine'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Mi rutina laboral empieza a las ocho.'
     exampleTranslation: 'My work routine starts at eight.'
   - id: es-ES-A2-JOB-002-002
+    concept: 'task'
     term: 'tarea'
     translation: 'task'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Tengo muchas tareas pendientes.'
     exampleTranslation: 'I have many pending tasks.'
   - id: es-ES-A2-JOB-002-003
+    concept: 'colleague'
     term: 'compañero'
     translation: 'colleague'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Mi compañero de trabajo es muy simpático.'
     exampleTranslation: 'My colleague is very nice.'
   - id: es-ES-A2-JOB-002-004
+    concept: 'meeting'
     term: 'reunión'
     translation: 'meeting'
     partOfSpeech: noun
@@ -30,12 +34,14 @@ vocabulary:
     example: 'Tenemos una reunión a las diez.'
     exampleTranslation: 'We have a meeting at ten.'
   - id: es-ES-A2-JOB-002-005
+    concept: 'to-be-late'
     term: 'llegar tarde'
     translation: 'to be late'
     partOfSpeech: phrase
     example: 'No me gusta llegar tarde al trabajo.'
     exampleTranslation: "I don't like being late for work."
   - id: es-ES-A2-JOB-002-006
+    concept: 'to-finish'
     term: 'terminar'
     translation: 'to finish'
     partOfSpeech: verb

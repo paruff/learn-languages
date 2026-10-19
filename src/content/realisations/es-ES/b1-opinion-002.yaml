@@ -2,36 +2,42 @@ nodeId: B1-OPINION-002
 lang: es-ES
 vocabulary:
   - id: es-ES-B1-OPINION-002-001
+    concept: 'to-agree'
     term: 'estar de acuerdo'
     translation: 'to agree'
     partOfSpeech: phrase
     example: 'Estoy completamente de acuerdo contigo.'
     exampleTranslation: 'I completely agree with you.'
   - id: es-ES-B1-OPINION-002-002
+    concept: 'to-disagree'
     term: 'discrepar'
     translation: 'to disagree'
     partOfSpeech: verb
     example: 'Respeto tu opinión, pero discrepo.'
     exampleTranslation: 'I respect your opinion, but I disagree.'
   - id: es-ES-B1-OPINION-002-003
+    concept: 'to-some-extent'
     term: 'en cierto modo'
     translation: 'to some extent'
     partOfSpeech: phrase
     example: 'En cierto modo tienes razón.'
     exampleTranslation: 'To some extent you are right.'
   - id: es-ES-B1-OPINION-002-004
+    concept: 'without-offence'
     term: 'sin ofender'
     translation: 'without offence'
     partOfSpeech: phrase
     example: 'Sin ofender, no estoy de acuerdo.'
     exampleTranslation: 'Without offence, I do not agree.'
   - id: es-ES-B1-OPINION-002-005
+    concept: 'respectfully'
     term: 'respetuosamente'
     translation: 'respectfully'
     partOfSpeech: adverb
     example: 'Discrepo respetuosamente de tu punto de vista.'
     exampleTranslation: 'I respectfully disagree with your point of view.'
   - id: es-ES-B1-OPINION-002-006
+    concept: 'point-of-view'
     term: 'punkt de vista'
     translation: 'point of view'
     partOfSpeech: phrase

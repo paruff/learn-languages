@@ -2,6 +2,7 @@ nodeId: A1-SHOP-001
 lang: es-ES
 vocabulary:
   - id: es-ES-A1-SHOP-001-001
+    concept: 'shop'
     term: 'tienda'
     translation: 'shop'
     partOfSpeech: noun
@@ -11,6 +12,7 @@ vocabulary:
     imageUrl: 'loja.webp'
     imageAlt: 'A small shop storefront with display windows'
   - id: es-ES-A1-SHOP-001-002
+    concept: 'money'
     term: 'dinero'
     translation: 'money'
     partOfSpeech: noun
@@ -20,6 +22,7 @@ vocabulary:
     imageUrl: 'dinheiro.webp'
     imageAlt: 'A hand holding a fan of 50-euro banknotes'
   - id: es-ES-A1-SHOP-001-003
+    concept: 'price'
     term: 'precio'
     translation: 'price'
     partOfSpeech: noun
@@ -29,6 +32,7 @@ vocabulary:
     imageUrl: 'preco.webp'
     imageAlt: 'Price tag labels on a shelf'
   - id: es-ES-A1-SHOP-001-004
+    concept: 'euro'
     term: 'euro'
     translation: 'euro'
     partOfSpeech: noun
@@ -38,6 +42,7 @@ vocabulary:
     imageUrl: 'euro.webp'
     imageAlt: 'Euro banknotes and coins of different denominations'
   - id: es-ES-A1-SHOP-001-005
+    concept: 'to-pay'
     term: 'pagar'
     translation: 'to pay'
     partOfSpeech: verb
@@ -46,6 +51,7 @@ vocabulary:
     imageUrl: 'pagar.webp'
     imageAlt: 'A customer paying a cashier at a shop counter'
   - id: es-ES-A1-SHOP-001-006
+    concept: 'till'
     term: 'caja'
     translation: 'till'
     partOfSpeech: noun

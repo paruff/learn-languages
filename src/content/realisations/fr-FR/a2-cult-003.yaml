@@ -2,36 +2,42 @@ nodeId: A2-CULT-003
 lang: fr-FR
 vocabulary:
   - id: fr-FR-A2-CULT-003-001
+    concept: 'i-like'
     term: "J'aime"
     translation: 'I like'
     partOfSpeech: phrase
     example: "J'aime écouter de la musique traditionnelle."
     exampleTranslation: 'I like listening to traditional music.'
   - id: fr-FR-A2-CULT-003-002
+    concept: 'it-seems-interesting-to-me'
     term: 'Cela me semble intéressant'
     translation: 'it seems interesting to me'
     partOfSpeech: phrase
     example: 'La culture française me semble intéressante.'
     exampleTranslation: 'French culture seems interesting to me.'
   - id: fr-FR-A2-CULT-003-003
+    concept: 'important'
     term: 'important'
     translation: 'important'
     partOfSpeech: adjective
     example: 'Il est important de préserver les traditions.'
     exampleTranslation: 'It is important to preserve traditions.'
   - id: fr-FR-A2-CULT-003-004
+    concept: 'to-value'
     term: 'valoriser'
     translation: 'to value'
     partOfSpeech: verb
     example: 'Nous devons valoriser notre culture.'
     exampleTranslation: 'We should value our culture.'
   - id: fr-FR-A2-CULT-003-005
+    concept: 'to-appreciate'
     term: 'apprécier'
     translation: 'to appreciate'
     partOfSpeech: verb
     example: "J'apprécie l'art français."
     exampleTranslation: 'I appreciate French art.'
   - id: fr-FR-A2-CULT-003-006
+    concept: 'interesting'
     term: 'intéressant'
     translation: 'interesting'
     partOfSpeech: adjective

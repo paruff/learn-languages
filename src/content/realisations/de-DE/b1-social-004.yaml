@@ -2,6 +2,7 @@ nodeId: B1-SOCIAL-004
 lang: de-DE
 vocabulary:
   - id: de-DE-B1-SOCIAL-004-001
+    concept: 'opinion'
     term: 'Meinung'
     translation: 'opinion'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Was meinst du dazu?'
     exampleTranslation: 'What do you think about that?'
   - id: de-DE-B1-SOCIAL-004-002
+    concept: 'to-react'
     term: 'reagieren'
     translation: 'to react'
     partOfSpeech: verb
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Wie hast du darauf reagiert?'
     exampleTranslation: 'How did you react to that?'
   - id: de-DE-B1-SOCIAL-004-003
+    concept: 'to-invite'
     term: 'einladen'
     translation: 'to invite'
     partOfSpeech: verb
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Ich lade dich zum Kaffee ein.'
     exampleTranslation: 'I invite you for coffee.'
   - id: de-DE-B1-SOCIAL-004-004
+    concept: 'to-converse'
     term: 'unterhalten'
     translation: 'to converse'
     partOfSpeech: verb
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Wir haben uns gut unterhalten.'
     exampleTranslation: 'We had a good conversation.'
   - id: de-DE-B1-SOCIAL-004-005
+    concept: 'conversation'
     term: 'Gespräch'
     translation: 'conversation'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Das Gespräch war sehr angenehm.'
     exampleTranslation: 'The conversation was very pleasant.'
   - id: de-DE-B1-SOCIAL-004-006
+    concept: 'reaction'
     term: 'REAKTION'
     translation: 'reaction'
     partOfSpeech: noun

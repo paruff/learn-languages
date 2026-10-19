@@ -2,6 +2,7 @@ nodeId: B1-OPINION-001
 lang: de-DE
 vocabulary:
   - id: de-DE-B1-OPINION-001-001
+    concept: 'in-my-opinion'
     term: 'meiner Meinung nach'
     translation: 'in my opinion'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Meiner Meinung nach ist das richtig.'
     exampleTranslation: 'In my opinion, that is correct.'
   - id: de-DE-B1-OPINION-001-002
+    concept: 'i-believe'
     term: 'ich glaube'
     translation: 'I believe'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Ich glaube, dass das besser ist.'
     exampleTranslation: 'I believe that is better.'
   - id: de-DE-B1-OPINION-001-003
+    concept: 'i-find'
     term: 'Ich finde'
     translation: 'I find'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Ich finde das sehr gut.'
     exampleTranslation: 'I find that very good.'
   - id: de-DE-B1-OPINION-001-004
+    concept: 'because'
     term: 'denn'
     translation: 'because'
     partOfSpeech: conjunction
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Das ist gut, denn es hilft mir.'
     exampleTranslation: 'That is good, because it helps me.'
   - id: de-DE-B1-OPINION-001-005
+    concept: 'i-think'
     term: 'Ich denke'
     translation: 'I think'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Ich denke, das ist eine gute Idee.'
     exampleTranslation: 'I think that is a good idea.'
   - id: de-DE-B1-OPINION-001-006
+    concept: 'reasoning'
     term: 'Begründung'
     translation: 'reasoning / justification'
     partOfSpeech: noun

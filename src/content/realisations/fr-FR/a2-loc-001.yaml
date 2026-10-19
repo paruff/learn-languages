@@ -2,24 +2,28 @@ nodeId: A2-LOC-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-A2-LOC-001-001
+    concept: 'to-turn-left'
     term: 'tourner à gauche'
     translation: 'to turn left'
     partOfSpeech: phrase
     example: 'Tournez à gauche devant la banque.'
     exampleTranslation: 'Turn left at the bank.'
   - id: fr-FR-A2-LOC-001-002
+    concept: 'to-turn-right'
     term: 'tourner à droite'
     translation: 'to turn right'
     partOfSpeech: phrase
     example: 'Tournez à droite après le pont.'
     exampleTranslation: 'Turn right after the bridge.'
   - id: fr-FR-A2-LOC-001-003
+    concept: 'straight-on'
     term: 'tout droit'
     translation: 'straight on'
     partOfSpeech: phrase
     example: 'Allez tout droit pendant deux minutes.'
     exampleTranslation: 'Go straight on for two minutes.'
   - id: fr-FR-A2-LOC-001-004
+    concept: 'bus-stop'
     term: 'arrêt de bus'
     translation: 'bus stop'
     partOfSpeech: noun
@@ -27,12 +31,14 @@ vocabulary:
     example: "L'arrêt de bus est en face de l'école."
     exampleTranslation: 'The bus stop is opposite the school.'
   - id: fr-FR-A2-LOC-001-005
+    concept: 'to-get-off'
     term: 'descendre'
     translation: 'to get off'
     partOfSpeech: verb
     example: 'Descendez à la troisième station.'
     exampleTranslation: 'Get off at the third stop.'
   - id: fr-FR-A2-LOC-001-006
+    concept: 'delay'
     term: 'retard'
     translation: 'delay'
     partOfSpeech: noun

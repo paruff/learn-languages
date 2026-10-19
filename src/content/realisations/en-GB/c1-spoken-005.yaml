@@ -2,6 +2,7 @@ nodeId: C1-SPOKEN-005
 lang: en-GB
 vocabulary:
   - id: en-GB-C1-SPOKEN-005-001
+    concept: 'to-follow-a-film-without-subtitles'
     term: 'to follow a film without subtitles'
     translation: 'acompanhar um filme sem legendas'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'She can already follow a film without subtitles from start to finish.'
     exampleTranslation: 'Já consegue acompanhar um filme sem legendas do princípio ao fim.'
   - id: en-GB-C1-SPOKEN-005-002
+    concept: 'fast-paced-dialogue'
     term: 'fast-paced dialogue'
     translation: 'diálogo cerrado'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'The fast-paced dialogue of modern series requires great agility.'
     exampleTranslation: 'O diálogo cerrado das séries modernas requer grande agilidade.'
   - id: en-GB-C1-SPOKEN-005-003
+    concept: 'register-shifts'
     term: 'register shifts'
     translation: 'mudanças de registo'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'The register shifts between scenes even reveal irony.'
     exampleTranslation: 'As mudanças de registo entre cenas revelam até ironia.'
   - id: en-GB-C1-SPOKEN-005-004
+    concept: 'coherence-of-the-plot'
     term: 'coherence of the plot'
     translation: 'coerência da trama'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Following the coherence of the plot is a task for the attentive listener.'
     exampleTranslation: 'Seguir a coerência da trama é tarefa de ouvinte atento.'
   - id: en-GB-C1-SPOKEN-005-005
+    concept: 'slang-and-everyday-expressions'
     term: 'slang and everyday expressions'
     translation: 'gíria e expressões do quotidiano'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Slang and everyday expressions appear without warning.'
     exampleTranslation: 'A gíria e as expressões do quotidiano aparecem sem aviso.'
   - id: en-GB-C1-SPOKEN-005-006
+    concept: 'to-interpret-the-tone'
     term: 'to interpret the tone'
     translation: 'interpretar o tom'
     partOfSpeech: phrase

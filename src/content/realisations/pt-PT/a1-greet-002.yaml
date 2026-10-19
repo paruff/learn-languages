@@ -2,12 +2,14 @@ nodeId: A1-GREET-002
 lang: pt-PT
 vocabulary:
   - id: pt-PT-A1-GREET-002-001
+    concept: 'bye'
     term: 'Tchau'
     translation: 'Bye'
     partOfSpeech: interjection
     example: 'Tchau, até amanhã!'
     exampleTranslation: 'Bye, see you tomorrow!'
   - id: pt-PT-A1-GREET-002-002
+    concept: 'see-you-later'
     term: 'Até logo'
     translation: 'See you later'
     partOfSpeech: phrase

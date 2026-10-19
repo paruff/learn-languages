@@ -2,6 +2,7 @@ nodeId: A2-HABIT-002
 lang: es-ES
 vocabulary:
   - id: es-ES-A2-HABIT-002-001
+    concept: 'recent-activity'
     term: 'actividad reciente'
     translation: 'recent activity'
     partOfSpeech: phrase
@@ -9,30 +10,35 @@ vocabulary:
     example: '¿Cuál fue tu actividad reciente?'
     exampleTranslation: 'What was your recent activity?'
   - id: es-ES-A2-HABIT-002-002
+    concept: 'to-make-plans'
     term: 'hacer planes'
     translation: 'to make plans'
     partOfSpeech: phrase
     example: 'Hice planes con mis amigos para el fin de semana.'
     exampleTranslation: 'I made plans with my friends for the weekend.'
   - id: es-ES-A2-HABIT-002-003
+    concept: 'to-stay-at-home'
     term: 'quedarse en casa'
     translation: 'to stay at home'
     partOfSpeech: phrase
     example: 'A veces prefiero quedarme en casa.'
     exampleTranslation: 'Sometimes I prefer staying at home.'
   - id: es-ES-A2-HABIT-002-004
+    concept: 'to-go-out'
     term: 'salir'
     translation: 'to go out'
     partOfSpeech: verb
     example: 'Salí con mis compañeros ayer por la noche.'
     exampleTranslation: 'I went out with my colleagues last night.'
   - id: es-ES-A2-HABIT-002-005
+    concept: 'to-visit'
     term: 'visitar'
     translation: 'to visit'
     partOfSpeech: verb
     example: 'Visité a mis abuelos el domingo pasado.'
     exampleTranslation: 'I visited my grandparents last Sunday.'
   - id: es-ES-A2-HABIT-002-006
+    concept: 'to-participate'
     term: 'participar'
     translation: 'to participate'
     partOfSpeech: verb

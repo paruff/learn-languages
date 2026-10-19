@@ -2,6 +2,7 @@ nodeId: B2-WRITTEN-003
 lang: pt-PT
 vocabulary:
   - id: pt-PT-B2-WRITTEN-003-001
+    concept: 'to-write-with-correct-spelling'
     term: 'escrever com ortografia correta'
     translation: 'to write with correct spelling'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Preciso de escrever com ortografia correta.'
     exampleTranslation: 'I need to write with correct spelling.'
   - id: pt-PT-B2-WRITTEN-003-002
+    concept: 'to-use-appropriate-punctuation'
     term: 'usar pontuação adequada'
     translation: 'to use appropriate punctuation'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'É importante usar pontuação adequada no texto.'
     exampleTranslation: 'It is important to use appropriate punctuation in the text.'
   - id: pt-PT-B2-WRITTEN-003-003
+    concept: 'to-review-the-text'
     term: 'revisar o texto'
     translation: 'to review the text'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Vou revisar o texto para garantir a correção.'
     exampleTranslation: 'I will review the text to ensure correctness.'
   - id: pt-PT-B2-WRITTEN-003-004
+    concept: 'to-correct-errors'
     term: 'corrigir erros'
     translation: 'to correct errors'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Preciso de corrigir erros ortográficos e gramaticais.'
     exampleTranslation: 'I need to correct spelling and grammatical errors.'
   - id: pt-PT-B2-WRITTEN-003-005
+    concept: 'to-use-writing-models'
     term: 'usar modelos de escrita'
     translation: 'to use writing models'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'É útil usar modelos de escrita para melhorar.'
     exampleTranslation: 'It is useful to use writing models to improve.'
   - id: pt-PT-B2-WRITTEN-003-006
+    concept: 'to-write-with-precision'
     term: 'escrever com precisão'
     translation: 'to write with precision'
     partOfSpeech: phrase

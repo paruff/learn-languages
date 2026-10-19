@@ -2,6 +2,7 @@ nodeId: B2-TEXT-002
 lang: es-ES
 vocabulary:
   - id: es-ES-B2-TEXT-002-001
+    concept: 'opinion-article'
     term: 'artículo de opinión'
     translation: 'opinion article'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Leí un artículo de opinión sobre el cambio climático.'
     exampleTranslation: 'I read an opinion article about climate change.'
   - id: es-ES-B2-TEXT-002-002
+    concept: 'contemporary-problem'
     term: 'problema contemporáneo'
     translation: 'contemporary problem'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Los problemas contemporáneos requieren análisis profundo.'
     exampleTranslation: 'Contemporary problems require deep analysis.'
   - id: es-ES-B2-TEXT-002-003
+    concept: 'truthful-information'
     term: 'información veraz'
     translation: 'truthful information'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Es importante buscar información veraz en internet.'
     exampleTranslation: 'It is important to seek truthful information on the internet.'
   - id: es-ES-B2-TEXT-002-004
+    concept: 'deep-comprehension'
     term: 'comprensión profunda'
     translation: 'deep comprehension'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'La comprensión profunda requiere tiempo y práctica.'
     exampleTranslation: 'Deep comprehension requires time and practice.'
   - id: es-ES-B2-TEXT-002-005
+    concept: 'critical-analysis'
     term: 'análisis crítico'
     translation: 'critical analysis'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'El análisis crítico de textos es una habilidad clave.'
     exampleTranslation: 'Critical analysis of texts is a key skill.'
   - id: es-ES-B2-TEXT-002-006
+    concept: 'argumentation'
     term: 'argumentación'
     translation: 'argumentation'
     partOfSpeech: noun

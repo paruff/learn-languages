@@ -2,6 +2,7 @@ nodeId: B1-DISCOURSE-004
 lang: es-ES
 vocabulary:
   - id: es-ES-B1-DISCOURSE-004-001
+    concept: 'narrative'
     term: 'narración'
     translation: 'narrative'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Escribí una narración sobre mi viaje.'
     exampleTranslation: 'I wrote a narrative about my trip.'
   - id: es-ES-B1-DISCOURSE-004-002
+    concept: 'temporal-marker'
     term: 'marcador temporal'
     translation: 'temporal marker'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Los marcadores temporales ayudan a ordenar el relato.'
     exampleTranslation: 'Temporal markers help to order the narrative.'
   - id: es-ES-B1-DISCOURSE-004-003
+    concept: 'story'
     term: 'relato'
     translation: 'story / account'
     partOfSpeech: noun
@@ -23,18 +26,21 @@ vocabulary:
     example: 'Mi relato tiene una estructura clara.'
     exampleTranslation: 'My story has a clear structure.'
   - id: es-ES-B1-DISCOURSE-004-004
+    concept: 'to-order'
     term: 'ordenar'
     translation: 'to order / to sort'
     partOfSpeech: verb
     example: 'Necesito ordenar las ideas antes de escribir.'
     exampleTranslation: 'I need to order my ideas before writing.'
   - id: es-ES-B1-DISCOURSE-004-005
+    concept: 'to-connect'
     term: 'conectar'
     translation: 'to connect'
     partOfSpeech: verb
     example: 'Conecto las oraciones con palabras de enlace.'
     exampleTranslation: 'I connect sentences with linking words.'
   - id: es-ES-B1-DISCOURSE-004-006
+    concept: 'to-structure'
     term: 'estructurar'
     translation: 'to structure'
     partOfSpeech: verb

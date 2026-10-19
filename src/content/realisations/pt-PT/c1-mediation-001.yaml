@@ -2,6 +2,7 @@ nodeId: C1-MEDIATION-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-C1-MEDIATION-001-001
+    concept: 'to-translate-for-laymen'
     term: 'traduzir para leigos'
     translation: 'to translate for laymen'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'O professor soube traduzir para leigos o debate técnico.'
     exampleTranslation: 'The teacher knew how to translate the technical debate for laymen.'
   - id: pt-PT-C1-MEDIATION-001-002
+    concept: 'to-simplify-without-losing-rigour'
     term: 'simplificar sem perder rigor'
     translation: 'to simplify without losing rigour'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'O jornalista simplifica sem perder rigor os dados complexos.'
     exampleTranslation: 'The journalist simplifies the complex data without losing rigour.'
   - id: pt-PT-C1-MEDIATION-001-003
+    concept: 'to-bridge-between-audiences'
     term: 'fazer a ponte entre os públicos'
     translation: 'to bridge between audiences'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'O mediador faz a ponte entre os públicos técnico e geral.'
     exampleTranslation: 'The mediator bridges between the technical and general audiences.'
   - id: pt-PT-C1-MEDIATION-001-004
+    concept: 'to-rewrite-the-explanation'
     term: 'reescrever a explicação'
     translation: 'to rewrite the explanation'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Reescreveu a explicação três vezes até ficar clara.'
     exampleTranslation: 'He rewrote the explanation three times until it was clear.'
   - id: pt-PT-C1-MEDIATION-001-005
+    concept: 'the-heart-of-the-matter'
     term: 'núcleo da questão'
     translation: 'the heart of the matter'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'O núcleo da questão é a definição de prioridades.'
     exampleTranslation: 'The heart of the matter is the definition of priorities.'
   - id: pt-PT-C1-MEDIATION-001-006
+    concept: 'presentation-in-simple-terms'
     term: 'apresentação em termos simples'
     translation: 'presentation in simple terms'
     partOfSpeech: noun

@@ -2,6 +2,7 @@ nodeId: C1-SOCIAL-001
 lang: de-DE
 vocabulary:
   - id: de-DE-C1-SOCIAL-001-001
+    concept: 'fluency'
     term: 'Flüssigkeit'
     translation: 'fluency'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Seine Flüssigkeit in Deutsch ist beeindruckend.'
     exampleTranslation: 'His fluency in German is impressive.'
   - id: de-DE-C1-SOCIAL-001-002
+    concept: 'spontaneity'
     term: 'Spontanität'
     translation: 'spontaneity'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Spontanität ist in Gesprächen wichtig.'
     exampleTranslation: 'Spontaneity is important in conversations.'
   - id: de-DE-C1-SOCIAL-001-003
+    concept: 'topic-related'
     term: 'themenbezogen'
     translation: 'topic-related'
     partOfSpeech: adjective
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Wir sprechen über themenbezogene Themen.'
     exampleTranslation: 'We speak about topic-related topics.'
   - id: de-DE-C1-SOCIAL-001-004
+    concept: 'fluent'
     term: 'fließend'
     translation: 'fluent'
     partOfSpeech: adjective
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Er spricht fließend Deutsch.'
     exampleTranslation: 'He speaks fluent German.'
   - id: de-DE-C1-SOCIAL-001-005
+    concept: 'to-converse'
     term: 'sich unterhalten'
     translation: 'to converse'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Wir haben uns gut unterhalten.'
     exampleTranslation: 'We had a good conversation.'
   - id: de-DE-C1-SOCIAL-001-006
+    concept: 'change-of-topic'
     term: 'Themenwechsel'
     translation: 'change of topic'
     partOfSpeech: noun

@@ -2,6 +2,7 @@ nodeId: B2-TEXT-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-B2-TEXT-001-001
+    concept: 'to-read-with-independence'
     term: 'ler com autonomia'
     translation: 'to read with independence'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Consigo ler com autonomia sobre temas familiares.'
     exampleTranslation: 'I can read with independence on familiar topics.'
   - id: pt-PT-B2-TEXT-001-002
+    concept: 'to-understand-texts-of-medium-difficulty'
     term: 'compreender textos de dificuldade média'
     translation: 'to understand texts of medium difficulty'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Vou compreender textos de dificuldade média.'
     exampleTranslation: 'I will understand texts of medium difficulty.'
   - id: pt-PT-B2-TEXT-001-003
+    concept: 'to-identify-main-ideas'
     term: 'identificar ideias principais'
     translation: 'to identify main ideas'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'É importante identificar as ideias principais do texto.'
     exampleTranslation: 'It is important to identify the main ideas of the text.'
   - id: pt-PT-B2-TEXT-001-004
+    concept: 'to-use-reading-strategies'
     term: 'usar estratégias de leitura'
     translation: 'to use reading strategies'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Vou usar estratégias de leitura para compreender melhor.'
     exampleTranslation: 'I will use reading strategies to understand better.'
   - id: pt-PT-B2-TEXT-001-005
+    concept: 'to-read-critically'
     term: 'ler de forma crítica'
     translation: 'to read critically'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Preciso de ler de forma crítica para avaliar.'
     exampleTranslation: 'I need to read critically to evaluate.'
   - id: pt-PT-B2-TEXT-001-006
+    concept: 'to-adapt-the-reading-pace'
     term: 'adaptar o ritmo de leitura'
     translation: 'to adapt the reading pace'
     partOfSpeech: phrase

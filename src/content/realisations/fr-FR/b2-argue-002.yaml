@@ -2,6 +2,7 @@ nodeId: B2-ARGUE-002
 lang: fr-FR
 vocabulary:
   - id: fr-FR-B2-ARGUE-002-001
+    concept: 'to-justify-the-position'
     term: 'justifier sa position'
     translation: 'to justify the position'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Je justifierai ma position avec des exemples concrets.'
     exampleTranslation: 'I will justify my position with concrete examples.'
   - id: fr-FR-B2-ARGUE-002-002
+    concept: 'to-argue-about-current-topics'
     term: "argumenter sur des sujets d'actualité"
     translation: 'to argue about current topics'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: "J'aime argumenter sur des sujets d'actualité avec des amis."
     exampleTranslation: 'I like to argue about current topics with friends.'
   - id: fr-FR-B2-ARGUE-002-003
+    concept: 'to-present-evidence'
     term: 'présenter des preuves'
     translation: 'to present evidence'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: "Il est important de présenter des preuves qui soutiennent l'opinion."
     exampleTranslation: 'It is important to present evidence that supports the opinion.'
   - id: fr-FR-B2-ARGUE-002-004
+    concept: 'to-present-the-pros-and-cons'
     term: 'exposer les pour et les contre'
     translation: 'to present the pros and cons'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Je vais exposer les pour et les contre de la situation.'
     exampleTranslation: 'I will present the pros and cons of the situation.'
   - id: fr-FR-B2-ARGUE-002-005
+    concept: 'to-refute-arguments'
     term: 'réfuter des arguments'
     translation: 'to refute arguments'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Je peux réfuter les arguments faibles avec des faits.'
     exampleTranslation: 'I can refute weak arguments with facts.'
   - id: fr-FR-B2-ARGUE-002-006
+    concept: 'to-reach-conclusions'
     term: 'arriver à des conclusions'
     translation: 'to reach conclusions'
     partOfSpeech: phrase

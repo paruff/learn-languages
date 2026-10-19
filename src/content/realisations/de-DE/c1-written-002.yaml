@@ -2,6 +2,7 @@ nodeId: C1-WRITTEN-002
 lang: de-DE
 vocabulary:
   - id: de-DE-C1-WRITTEN-002-001
+    concept: 'essay'
     term: 'Essay'
     translation: 'essay'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Ich schreibe einen Essay über das Thema.'
     exampleTranslation: 'I am writing an essay on the topic.'
   - id: de-DE-C1-WRITTEN-002-002
+    concept: 'report'
     term: 'Bericht'
     translation: 'report'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Der Bericht war detailliert geschrieben.'
     exampleTranslation: 'The report was written in detail.'
   - id: de-DE-C1-WRITTEN-002-003
+    concept: 'to-develop'
     term: 'entwickeln'
     translation: 'to develop'
     partOfSpeech: verb
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Ich entwickle mein Argument weiter.'
     exampleTranslation: 'I develop my argument further.'
   - id: de-DE-C1-WRITTEN-002-004
+    concept: 'argument'
     term: 'Argument'
     translation: 'argument'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Das Argument war überzeugend.'
     exampleTranslation: 'The argument was convincing.'
   - id: de-DE-C1-WRITTEN-002-005
+    concept: 'thesis'
     term: 'These'
     translation: 'thesis'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Meine These ist klar formuliert.'
     exampleTranslation: 'My thesis is clearly formulated.'
   - id: de-DE-C1-WRITTEN-002-006
+    concept: 'conclusion'
     term: 'Schlussfolgerung'
     translation: 'conclusion'
     partOfSpeech: noun

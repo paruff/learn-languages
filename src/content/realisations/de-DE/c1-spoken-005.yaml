@@ -2,6 +2,7 @@ nodeId: C1-SPOKEN-005
 lang: de-DE
 vocabulary:
   - id: de-DE-C1-SPOKEN-005-001
+    concept: 'multiple-choice'
     term: 'Mehrfachauswahl'
     translation: 'multiple choice'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Die Aufgabe war eine Mehrfachauswahl.'
     exampleTranslation: 'The task was a multiple choice.'
   - id: de-DE-C1-SPOKEN-005-002
+    concept: 'main-idea'
     term: 'Hauptgedanke'
     translation: 'main idea'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Der Hauptgedanke war klar.'
     exampleTranslation: 'The main idea was clear.'
   - id: de-DE-C1-SPOKEN-005-003
+    concept: 'detail-question'
     term: 'Detailfrage'
     translation: 'detail question'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Die Detailfrage war anspruchsvoll.'
     exampleTranslation: 'The detail question was demanding.'
   - id: de-DE-C1-SPOKEN-005-004
+    concept: 'structure'
     term: 'Struktur'
     translation: 'structure'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Die Struktur des Textes war klar.'
     exampleTranslation: 'The structure of the text was clear.'
   - id: de-DE-C1-SPOKEN-005-005
+    concept: 'context'
     term: 'Zusammenhang'
     translation: 'context / coherence'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Der Zusammenhang war erkennbar.'
     exampleTranslation: 'The context was recognizable.'
   - id: de-DE-C1-SPOKEN-005-006
+    concept: 'to-recognize'
     term: 'erkennen'
     translation: 'to recognize'
     partOfSpeech: verb

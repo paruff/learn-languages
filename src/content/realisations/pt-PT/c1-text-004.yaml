@@ -2,6 +2,7 @@ nodeId: C1-TEXT-004
 lang: pt-PT
 vocabulary:
   - id: pt-PT-C1-TEXT-004-001
+    concept: 'line-of-argumentation'
     term: 'linha de argumentação'
     translation: 'line of argumentation'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'A linha de argumentação do texto apoia-se em dados recentes.'
     exampleTranslation: 'The line of argumentation of the text rests on recent data.'
   - id: pt-PT-C1-TEXT-004-002
+    concept: 'theses-and-antitheses'
     term: 'teses e antíteses'
     translation: 'theses and antitheses'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'O autor confronta teses e antíteses antes de concluir.'
     exampleTranslation: 'The author confronts theses and antitheses before concluding.'
   - id: pt-PT-C1-TEXT-004-003
+    concept: 'circumstantial-evidence'
     term: 'evidência circunstancial'
     translation: 'circumstantial evidence'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'A evidência circunstancial sugere, mas não prova, a tese.'
     exampleTranslation: 'The circumstantial evidence suggests, but does not prove, the thesis.'
   - id: pt-PT-C1-TEXT-004-004
+    concept: 'turning-point'
     term: 'momento de viragem'
     translation: 'turning point'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'O momento de viragem do texto é a refutação da objeção central.'
     exampleTranslation: 'The turning point of the text is the refutation of the central objection.'
   - id: pt-PT-C1-TEXT-004-005
+    concept: 'convergence-of-factors'
     term: 'convergência de fatores'
     translation: 'convergence of factors'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'O autor mostra a convergência de fatores que explica o fenómeno.'
     exampleTranslation: 'The author shows the convergence of factors that explains the phenomenon.'
   - id: pt-PT-C1-TEXT-004-006
+    concept: 'to-follow-the-reasoning'
     term: 'travar o raciocínio'
     translation: 'to follow the reasoning'
     partOfSpeech: phrase

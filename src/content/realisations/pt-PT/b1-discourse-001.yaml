@@ -2,6 +2,7 @@ nodeId: B1-DISCOURSE-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-B1-DISCOURSE-001-001
+    concept: 'furthermore'
     term: 'além disso'
     translation: 'furthermore'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Além disso, a qualidade do produto é excelente.'
     exampleTranslation: 'Furthermore, the product quality is excellent.'
   - id: pt-PT-B1-DISCOURSE-001-002
+    concept: 'however'
     term: 'no entanto'
     translation: 'however'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'No entanto, há algumas exceções a considerar.'
     exampleTranslation: 'However, there are some exceptions to consider.'
   - id: pt-PT-B1-DISCOURSE-001-003
+    concept: 'on-the-other-hand'
     term: 'por outro lado'
     translation: 'on the other hand'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Por outro lado, os benefícios são significativos.'
     exampleTranslation: 'On the other hand, the benefits are significant.'
   - id: pt-PT-B1-DISCOURSE-001-004
+    concept: 'although'
     term: 'embora'
     translation: 'although'
     partOfSpeech: conjunction
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Embora seja difícil, vale a pena tentar.'
     exampleTranslation: 'Although it is difficult, it is worth trying.'
   - id: pt-PT-B1-DISCOURSE-001-005
+    concept: 'therefore'
     term: 'portanto'
     translation: 'therefore'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Portanto, devemos agir rapidamente.'
     exampleTranslation: 'Therefore, we should act quickly.'
   - id: pt-PT-B1-DISCOURSE-001-006
+    concept: 'despite'
     term: 'apesar de'
     translation: 'despite'
     partOfSpeech: phrase

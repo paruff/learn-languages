@@ -2,6 +2,7 @@ nodeId: B1-OPINION-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-B1-OPINION-001-001
+    concept: 'in-my-opinion'
     term: 'na minha opinião'
     translation: 'in my opinion'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Na minha opinião, o cinema português é muito interessante.'
     exampleTranslation: 'In my opinion, Portuguese cinema is very interesting.'
   - id: pt-PT-B1-OPINION-001-002
+    concept: 'i-think-that'
     term: 'acho que'
     translation: 'I think that'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Acho que devíamos investir mais na educação.'
     exampleTranslation: 'I think we should invest more in education.'
   - id: pt-PT-B1-OPINION-001-003
+    concept: 'it-seems-to-me-that'
     term: 'parece-me que'
     translation: 'it seems to me that'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Parece-me que esta solução é a melhor.'
     exampleTranslation: 'It seems to me that this solution is the best.'
   - id: pt-PT-B1-OPINION-001-004
+    concept: 'to-defend-the-idea-that'
     term: 'defender a ideia de que'
     translation: 'to defend the idea that'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Defendo a ideia de que todos devem ter acesso à saúde.'
     exampleTranslation: 'I defend the idea that everyone should have access to healthcare.'
   - id: pt-PT-B1-OPINION-001-005
+    concept: 'i-am-sure-that'
     term: 'tenho a certeza de que'
     translation: 'I am sure that'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Tenho a certeza de que isto vai melhorar.'
     exampleTranslation: 'I am sure that this will improve.'
   - id: pt-PT-B1-OPINION-001-006
+    concept: 'i-am-of-the-opinion-that'
     term: 'sou da opinião de que'
     translation: 'I am of the opinion that'
     partOfSpeech: phrase

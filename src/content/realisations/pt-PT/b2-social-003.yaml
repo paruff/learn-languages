@@ -2,6 +2,7 @@ nodeId: B2-SOCIAL-003
 lang: pt-PT
 vocabulary:
   - id: pt-PT-B2-SOCIAL-003-001
+    concept: 'to-defend-my-position'
     term: 'defender a minha posição'
     translation: 'to defend my position'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Consigo defender a minha posição com argumentos sólidos.'
     exampleTranslation: 'I can defend my position with solid arguments.'
   - id: pt-PT-B2-SOCIAL-003-002
+    concept: 'to-justify-the-decision'
     term: 'justificar a decisão'
     translation: 'to justify the decision'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Preciso de justificar a minha decisão com factos.'
     exampleTranslation: 'I need to justify my decision with facts.'
   - id: pt-PT-B2-SOCIAL-003-003
+    concept: 'to-sustain-the-opinion'
     term: 'sustentar a opinião'
     translation: 'to sustain the opinion'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'É importante sustentar a opinião com exemplos.'
     exampleTranslation: 'It is important to sustain the opinion with examples.'
   - id: pt-PT-B2-SOCIAL-003-004
+    concept: 'to-present-reasons'
     term: 'apresentar razões'
     translation: 'to present reasons'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Vou apresentar razões para apoiar o meu argumento.'
     exampleTranslation: 'I will present reasons to support my argument.'
   - id: pt-PT-B2-SOCIAL-003-005
+    concept: 'to-explain-the-reasoning'
     term: 'explicar o raciocínio'
     translation: 'to explain the reasoning'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'É útil explicar o raciocínio para que todos compreendam.'
     exampleTranslation: 'It is useful to explain the reasoning so that everyone understands.'
   - id: pt-PT-B2-SOCIAL-003-006
+    concept: 'to-partially-agree'
     term: 'concordar parcialmente'
     translation: 'to partially agree'
     partOfSpeech: phrase

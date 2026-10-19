@@ -2,6 +2,7 @@ nodeId: C1-ARGUE-003
 lang: es-ES
 vocabulary:
   - id: es-ES-C1-ARGUE-003-001
+    concept: 'subtle-nuances'
     term: 'matices sutiles'
     translation: 'subtle nuances'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Expreso matices sutiles con precisión.'
     exampleTranslation: 'I express subtle nuances with precision.'
   - id: es-ES-C1-ARGUE-003-002
+    concept: 'semantic-nuances'
     term: 'matices semánticos'
     translation: 'semantic nuances'
     partOfSpeech: phrase
@@ -16,12 +18,14 @@ vocabulary:
     example: 'Los matices semánticos son fundamentales en la traducción.'
     exampleTranslation: 'Semantic nuances are fundamental in translation.'
   - id: es-ES-C1-ARGUE-003-003
+    concept: 'to-nuance'
     term: 'matizar'
     translation: 'to nuance'
     partOfSpeech: verb
     example: 'Sé matizar mis opiniones para ser más preciso.'
     exampleTranslation: 'I know how to nuance my opinions to be more precise.'
   - id: es-ES-C1-ARGUE-003-004
+    concept: 'cultural-nuances'
     term: 'matices culturales'
     translation: 'cultural nuances'
     partOfSpeech: phrase
@@ -29,6 +33,7 @@ vocabulary:
     example: 'Los matices culturales son importantes al comunicar.'
     exampleTranslation: 'Cultural nuances are important when communicating.'
   - id: es-ES-C1-ARGUE-003-005
+    concept: 'linguistic-precision'
     term: 'precisión lingüística'
     translation: 'linguistic precision'
     partOfSpeech: phrase
@@ -36,6 +41,7 @@ vocabulary:
     example: 'La precisión lingüística es clave en el nivel C1.'
     exampleTranslation: 'Linguistic precision is key at C1 level.'
   - id: es-ES-C1-ARGUE-003-006
+    concept: 'to-suggest'
     term: 'sugerir'
     translation: 'to suggest / to imply'
     partOfSpeech: verb

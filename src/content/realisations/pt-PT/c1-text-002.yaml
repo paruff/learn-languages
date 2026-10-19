@@ -2,6 +2,7 @@ nodeId: C1-TEXT-002
 lang: pt-PT
 vocabulary:
   - id: pt-PT-C1-TEXT-002-001
+    concept: 'technical-specifications'
     term: 'especificações técnicas'
     translation: 'technical specifications'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'As especificações técnicas do equipamento ocupam vinte páginas.'
     exampleTranslation: 'The technical specifications of the equipment run to twenty pages.'
   - id: pt-PT-C1-TEXT-002-002
+    concept: 'assembly-instructions'
     term: 'instruções de montagem'
     translation: 'assembly instructions'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'As instruções de montagem partem do pressuposto de que o leitor conhece o básico.'
     exampleTranslation: 'The assembly instructions assume the reader knows the basics.'
   - id: pt-PT-C1-TEXT-002-003
+    concept: 'specialised-article'
     term: 'artigo especializado'
     translation: 'specialised article'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'O artigo especializado pressupõe conhecimentos de bioquímica.'
     exampleTranslation: 'The specialised article presupposes knowledge of biochemistry.'
   - id: pt-PT-C1-TEXT-002-004
+    concept: 'technical-jargon'
     term: 'jargão técnico'
     translation: 'technical jargon'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'O texto recorre a um jargão técnico que intimida os leigos.'
     exampleTranslation: 'The text uses technical jargon that intimidates non-specialists.'
   - id: pt-PT-C1-TEXT-002-005
+    concept: 'to-decipher-the-acronyms'
     term: 'decifrar as siglas'
     translation: 'to decipher the acronyms'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Para compreender o relatório, é preciso decifrar as siglas da primeira página.'
     exampleTranslation: 'To understand the report, one must decipher the acronyms on the first page.'
   - id: pt-PT-C1-TEXT-002-006
+    concept: 'technical-annex'
     term: 'anexo técnico'
     translation: 'technical annex'
     partOfSpeech: noun

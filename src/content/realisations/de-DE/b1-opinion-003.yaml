@@ -2,6 +2,7 @@ nodeId: B1-OPINION-003
 lang: de-DE
 vocabulary:
   - id: de-DE-B1-OPINION-003-001
+    concept: 'advantage'
     term: 'Vorteil'
     translation: 'advantage'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Der größte Vorteil ist die Geschwindigkeit.'
     exampleTranslation: 'The biggest advantage is the speed.'
   - id: de-DE-B1-OPINION-003-002
+    concept: 'disadvantage'
     term: 'Nachteil'
     translation: 'disadvantage'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Ein Nachteil ist der hohe Preis.'
     exampleTranslation: 'A disadvantage is the high price.'
   - id: de-DE-B1-OPINION-003-003
+    concept: 'on-the-one-hand'
     term: 'einerseits'
     translation: 'on the one hand'
     partOfSpeech: conjunction
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Einerseits ist es gut, andererseits...'
     exampleTranslation: 'On the one hand it is good...'
   - id: de-DE-B1-OPINION-003-004
+    concept: 'on-the-other-hand'
     term: 'andererseits'
     translation: 'on the other hand'
     partOfSpeech: conjunction
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Einerseits ist es teuer. Andererseits ist es gut.'
     exampleTranslation: 'On the one hand it is expensive. On the other hand it is good.'
   - id: de-DE-B1-OPINION-003-005
+    concept: 'comparison'
     term: 'Vergleich'
     translation: 'comparison'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Ein Vergleich ist wichtig.'
     exampleTranslation: 'A comparison is important.'
   - id: de-DE-B1-OPINION-003-006
+    concept: 'different'
     term: 'unterschiedlich'
     translation: 'different / diverse'
     partOfSpeech: adjective

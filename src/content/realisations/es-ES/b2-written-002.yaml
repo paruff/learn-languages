@@ -2,6 +2,7 @@ nodeId: B2-WRITTEN-002
 lang: es-ES
 vocabulary:
   - id: es-ES-B2-WRITTEN-002-001
+    concept: 'argumentative-essay'
     term: 'ensayo argumentativo'
     translation: 'argumentative essay'
     partOfSpeech: phrase
@@ -9,12 +10,14 @@ vocabulary:
     example: 'Escribí un ensayo argumentativo sobre educación.'
     exampleTranslation: 'I wrote an argumentative essay about education.'
   - id: es-ES-B2-WRITTEN-002-002
+    concept: 'to-develop-a-thesis'
     term: 'desarrollar una tesis'
     translation: 'to develop a thesis'
     partOfSpeech: phrase
     example: 'Es importante desarrollar una tesis coherente.'
     exampleTranslation: 'It is important to develop a coherent thesis.'
   - id: es-ES-B2-WRITTEN-002-003
+    concept: 'analytical-report'
     term: 'informe analítico'
     translation: 'analytical report'
     partOfSpeech: phrase
@@ -22,6 +25,7 @@ vocabulary:
     example: 'El informe analítico presenta datos y conclusiones.'
     exampleTranslation: 'The analytical report presents data and conclusions.'
   - id: es-ES-B2-WRITTEN-002-004
+    concept: 'exposition-of-arguments'
     term: 'exposición de argumentos'
     translation: 'exposition of arguments'
     partOfSpeech: phrase
@@ -29,6 +33,7 @@ vocabulary:
     example: 'La exposición de argumentos fue muy clara.'
     exampleTranslation: 'The exposition of arguments was very clear.'
   - id: es-ES-B2-WRITTEN-002-005
+    concept: 'development-of-ideas'
     term: 'desarrollo de ideas'
     translation: 'development of ideas'
     partOfSpeech: phrase
@@ -36,6 +41,7 @@ vocabulary:
     example: 'El desarrollo de ideas del ensayo es sólido.'
     exampleTranslation: "The essay's development of ideas is solid."
   - id: es-ES-B2-WRITTEN-002-006
+    concept: 'well-founded-conclusions'
     term: 'conclusiones fundamentadas'
     translation: 'well-founded conclusions'
     partOfSpeech: phrase

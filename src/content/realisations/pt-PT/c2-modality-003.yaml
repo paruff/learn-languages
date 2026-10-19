@@ -2,6 +2,7 @@ nodeId: C2-MODALITY-003
 lang: pt-PT
 vocabulary:
   - id: pt-PT-C2-MODALITY-003-001
+    concept: 'rapid-auditory-comprehension'
     term: 'rápida compreensão auditiva'
     translation: 'rapid auditory comprehension'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Tenho uma rápida compreensão auditiva em qualquer registo.'
     exampleTranslation: 'I have rapid auditory comprehension in any register.'
   - id: pt-PT-C2-MODALITY-003-002
+    concept: 'fast-native-speech'
     term: 'fala nativa rápida'
     translation: 'fast native speech'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Consigo acompanhar a fala nativa rápida sem dificuldade.'
     exampleTranslation: 'I can follow fast native speech without difficulty.'
   - id: pt-PT-C2-MODALITY-003-003
+    concept: 'varied-accents'
     term: 'sotaques variados'
     translation: 'varied accents'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Entendo sotaques variados de português sem problema.'
     exampleTranslation: 'I understand varied Portuguese accents without issue.'
   - id: pt-PT-C2-MODALITY-003-004
+    concept: 'any-kind-of-spoken-language'
     term: 'qualquer tipo de discurso'
     translation: 'any kind of spoken language'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Compreendo qualquer tipo de discurso, ao vivo ou gravado.'
     exampleTranslation: 'I understand any kind of spoken language, live or recorded.'
   - id: pt-PT-C2-MODALITY-003-005
+    concept: 'quick-adaptation'
     term: 'rápida adaptação'
     translation: 'quick adaptation'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Adapto-me rapidamente a qualquer sotaque ou estilo.'
     exampleTranslation: 'I quickly adapt to any accent or style.'
   - id: pt-PT-C2-MODALITY-003-006
+    concept: 'complete-understanding'
     term: 'compreensão total'
     translation: 'complete understanding'
     partOfSpeech: phrase

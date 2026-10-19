@@ -2,6 +2,7 @@ nodeId: C1-ARGUE-004
 lang: pt-PT
 vocabulary:
   - id: pt-PT-C1-ARGUE-004-001
+    concept: 'to-defend-with-arguments'
     term: 'defender com argumentos'
     translation: 'to defend with arguments'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'O texto defende com argumentos sólidos a posição do autor.'
     exampleTranslation: "The text defends the author's position with solid arguments."
   - id: pt-PT-C1-ARGUE-004-002
+    concept: 'to-guide-the-reader'
     term: 'conduzir o leitor'
     translation: 'to guide the reader'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Uma boa argumentação conduz o leitor de forma natural à conclusão.'
     exampleTranslation: 'Good argumentation guides the reader naturally towards the conclusion.'
   - id: pt-PT-C1-ARGUE-004-003
+    concept: 'to-articulate-the-ideas'
     term: 'articular as ideias'
     translation: 'to articulate the ideas'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'É imprescindível articular as ideias antes de escrever o primeiro parágrafo.'
     exampleTranslation: 'It is essential to articulate the ideas before writing the first paragraph.'
   - id: pt-PT-C1-ARGUE-004-004
+    concept: 'to-rebut-the-objection'
     term: 'rebater a objeção'
     translation: 'to rebut the objection'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'No quarto parágrafo, o autor rebate a principal objeção.'
     exampleTranslation: 'In the fourth paragraph, the author rebuts the main objection.'
   - id: pt-PT-C1-ARGUE-004-005
+    concept: 'to-follow-a-guiding-thread'
     term: 'seguir um fio condutor'
     translation: 'to follow a guiding thread'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Todos os exemplos seguem um fio condutor claro e rigoroso.'
     exampleTranslation: 'All the examples follow a clear and rigorous guiding thread.'
   - id: pt-PT-C1-ARGUE-004-006
+    concept: 'to-rest-on-premises'
     term: 'assentar em premissas'
     translation: 'to rest on premises'
     partOfSpeech: phrase

@@ -2,36 +2,42 @@ nodeId: A1-GREET-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-A1-GREET-001-001
+    concept: 'hello'
     term: 'Bonjour'
     translation: 'Hello'
     partOfSpeech: interjection
     example: 'Bonjour, comment allez-vous ?'
     exampleTranslation: 'Hello, how are you?'
   - id: fr-FR-A1-GREET-001-002
+    concept: 'good-morning'
     term: 'Bonjour'
     translation: 'Good morning'
     partOfSpeech: phrase
     example: 'Bonjour Marie, tu as bien dormi ?'
     exampleTranslation: 'Good morning Marie, did you sleep well?'
   - id: fr-FR-A1-GREET-001-003
+    concept: 'good-evening'
     term: 'Bonsoir'
     translation: 'Good evening'
     partOfSpeech: phrase
     example: 'Bonsoir, madame Dupont.'
     exampleTranslation: 'Good evening, Mrs. Dupont.'
   - id: fr-FR-A1-GREET-001-004
+    concept: 'how-are-you'
     term: 'Comment allez-vous ?'
     translation: 'How are you?'
     partOfSpeech: phrase
     example: 'Bonjour ! Comment allez-vous ?'
     exampleTranslation: 'Hello! How are you?'
   - id: fr-FR-A1-GREET-001-005
+    concept: 'fine-thank-you'
     term: 'Bien, merci'
     translation: 'Fine, thank you'
     partOfSpeech: phrase
     example: 'Je vais bien, merci.'
     exampleTranslation: 'I am fine, thank you.'
   - id: fr-FR-A1-GREET-001-006
+    concept: 'nice-to-meet-you'
     term: 'Enchanté'
     translation: 'Nice to meet you'
     partOfSpeech: interjection

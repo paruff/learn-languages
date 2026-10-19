@@ -50,6 +50,7 @@ export async function getStaticPaths() {
 
 const { sourceLang, targetLang, nodeId } = Astro.params;
 const { node, source, target, hasExercises } = Astro.props;
+const sourceByConcept = new Map(source.vocabulary.map((v) => [v.concept, v]));
 ---
 
 <BaseLayout
@@ -80,8 +81,8 @@ const { node, source, target, hasExercises } = Astro.props;
     <h2>Vocabulary</h2>
     <ul class="vocab-list">
       {
-        target.vocabulary.map((targetItem, i) => {
-          const sourceItem = source.vocabulary[i];
+        target.vocabulary.map((targetItem) => {
+          const sourceItem = sourceByConcept.get(targetItem.concept);
           return (
             <li class="vocab-item">
               {targetItem.imageUrl && (

@@ -2,6 +2,7 @@ nodeId: C1-TEXT-003
 lang: en-GB
 vocabulary:
   - id: en-GB-C1-TEXT-003-001
+    concept: 'to-grasp-the-beauty-of-the-text'
     term: 'to grasp the beauty of the text'
     translation: 'apreender a beleza do texto'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'The patient reader grasps the beauty of the text in the cadence of the sentences.'
     exampleTranslation: 'O leitor demorado apreende a beleza do texto na cadência das frases.'
   - id: en-GB-C1-TEXT-003-002
+    concept: 'cultural-allusions'
     term: 'cultural allusions'
     translation: 'ciladas culturais'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'The lively prose is peppered with cultural allusions that escape the tourist.'
     exampleTranslation: 'A prosa viva é pontuada por ciladas culturais que escapam ao turista.'
   - id: en-GB-C1-TEXT-003-003
+    concept: 'to-go-beyond-the-literal-meaning'
     term: 'to go beyond the literal meaning'
     translation: 'ir além do sentido literal'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'One should go beyond the literal meaning to savour the metaphor.'
     exampleTranslation: 'Convém ir além do sentido literal para saborear a metáfora.'
   - id: en-GB-C1-TEXT-003-004
+    concept: 'figurative-language'
     term: 'figurative language'
     translation: 'linguagem figurada'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Figurative language enriches the poem without making it hermetic.'
     exampleTranslation: 'A linguagem figurada enriquece o poema sem o tornar hermetizante.'
   - id: en-GB-C1-TEXT-003-005
+    concept: 'aesthetic-stance'
     term: 'aesthetic stance'
     translation: 'tomada de posição estética'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: "The author's aesthetic stance divides the critics."
     exampleTranslation: 'A tomada de posição estética do autor divide os críticos.'
   - id: en-GB-C1-TEXT-003-006
+    concept: 'lusophone-flavour'
     term: 'Lusophone flavour'
     translation: 'sabor lusófono'
     partOfSpeech: noun

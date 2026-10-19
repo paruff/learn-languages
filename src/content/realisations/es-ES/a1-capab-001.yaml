@@ -2,18 +2,21 @@ nodeId: A1-CAPAB-001
 lang: es-ES
 vocabulary:
   - id: es-ES-A1-CAPAB-001-001
+    concept: 'i-can'
     term: 'Puedo...'
     translation: 'I can...'
     partOfSpeech: phrase
     example: 'Puedo hablar un poco de español.'
     exampleTranslation: 'I can speak a little Spanish.'
   - id: es-ES-A1-CAPAB-001-002
+    concept: 'i-can-t'
     term: 'No puedo...'
     translation: "I can't..."
     partOfSpeech: phrase
     example: 'No puedo encontrar el teléfono.'
     exampleTranslation: "I can't find the phone."
   - id: es-ES-A1-CAPAB-001-003
+    concept: 'i-know'
     term: 'Sé... / No sé...'
     translation: "I know (how to)... / I don't know (how to)..."
     partOfSpeech: phrase

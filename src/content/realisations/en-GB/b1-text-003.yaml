@@ -2,6 +2,7 @@ nodeId: B1-TEXT-003
 lang: en-GB
 vocabulary:
   - id: en-GB-B1-TEXT-003-001
+    concept: 'technical-information'
     term: 'technical information'
     translation: 'informação técnica'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'I can understand simple technical information.'
     exampleTranslation: 'Consigo entender informação técnica simples.'
   - id: en-GB-B1-TEXT-003-002
+    concept: 'professional-field'
     term: 'professional field'
     translation: 'área profissional'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'I work in a specific professional field.'
     exampleTranslation: 'Trabalho numa área profissional específica.'
   - id: en-GB-B1-TEXT-003-003
+    concept: 'instruction-manual'
     term: 'instruction manual'
     translation: 'manual de instruções'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'I read the computer instruction manual.'
     exampleTranslation: 'Li o manual de instruções do computador.'
   - id: en-GB-B1-TEXT-003-004
+    concept: 'technical-report'
     term: 'technical report'
     translation: 'relatório técnico'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'I need to write a technical report.'
     exampleTranslation: 'Preciso de escrever um relatório técnico.'
   - id: en-GB-B1-TEXT-003-005
+    concept: 'specific-terminology'
     term: 'specific terminology'
     translation: 'terminologia específica'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'The specific terminology is difficult to understand.'
     exampleTranslation: 'A terminologia específica é difícil de entender.'
   - id: en-GB-B1-TEXT-003-006
+    concept: 'to-consult-references'
     term: 'to consult references'
     translation: 'consultar referências'
     partOfSpeech: phrase

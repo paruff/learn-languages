@@ -2,6 +2,7 @@ nodeId: A2-JOB-001
 lang: es-ES
 vocabulary:
   - id: es-ES-A2-JOB-001-001
+    concept: 'job'
     term: 'empleo'
     translation: 'job'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Tengo un empleo en el centro de la ciudad.'
     exampleTranslation: 'I have a job in the city centre.'
   - id: es-ES-A2-JOB-001-002
+    concept: 'office'
     term: 'oficina'
     translation: 'office'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Trabajo en una oficina grande.'
     exampleTranslation: 'I work in a large office.'
   - id: es-ES-A2-JOB-001-003
+    concept: 'working-hours'
     term: 'horario'
     translation: 'working hours'
     partOfSpeech: noun
@@ -23,12 +26,14 @@ vocabulary:
     example: 'Mi horario es de nueve a cinco.'
     exampleTranslation: 'My working hours are from nine to five.'
   - id: es-ES-A2-JOB-001-004
+    concept: 'to-earn'
     term: 'ganar'
     translation: 'to earn'
     partOfSpeech: verb
     example: 'Gano dos mil euros al mes.'
     exampleTranslation: 'I earn two thousand euros a month.'
   - id: es-ES-A2-JOB-001-005
+    concept: 'working-day'
     term: 'jornada'
     translation: 'working day'
     partOfSpeech: noun
@@ -36,6 +41,7 @@ vocabulary:
     example: 'Mi jornada laboral es de ocho horas.'
     exampleTranslation: 'My working day is eight hours.'
   - id: es-ES-A2-JOB-001-006
+    concept: 'salary'
     term: 'sueldo'
     translation: 'salary'
     partOfSpeech: noun

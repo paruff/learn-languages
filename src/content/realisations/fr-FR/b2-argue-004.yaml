@@ -2,6 +2,7 @@ nodeId: B2-ARGUE-004
 lang: fr-FR
 vocabulary:
   - id: fr-FR-B2-ARGUE-004-001
+    concept: 'to-sustain-the-thesis'
     term: 'soutenir la thèse'
     translation: 'to sustain the thesis'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Je dois soutenir la thèse avec des arguments solides.'
     exampleTranslation: 'I need to sustain the thesis with solid arguments.'
   - id: fr-FR-B2-ARGUE-004-002
+    concept: 'to-present-supporting-data'
     term: 'présenter des données de soutien'
     translation: 'to present supporting data'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Je vais présenter des données de soutien pour ma position.'
     exampleTranslation: 'I will present supporting data for my position.'
   - id: fr-FR-B2-ARGUE-004-003
+    concept: 'to-expose-the-argumentation'
     term: "exposer l'argumentation"
     translation: 'to expose the argumentation'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: "Il est important d'exposer l'argumentation de façon claire."
     exampleTranslation: 'It is important to expose the argumentation clearly.'
   - id: fr-FR-B2-ARGUE-004-004
+    concept: 'to-use-concrete-examples'
     term: 'utiliser des exemples concrets'
     translation: 'to use concrete examples'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: "J'utiliserai des exemples concrets pour illustrer."
     exampleTranslation: 'I will use concrete examples to illustrate.'
   - id: fr-FR-B2-ARGUE-004-005
+    concept: 'to-reinforce-the-position'
     term: 'renforcer la position'
     translation: 'to reinforce the position'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Il est utile de renforcer la position avec plus de preuves.'
     exampleTranslation: 'It is useful to reinforce the position with more evidence.'
   - id: fr-FR-B2-ARGUE-004-006
+    concept: 'to-write-an-essay'
     term: 'rédiger un essai'
     translation: 'to write an essay'
     partOfSpeech: phrase

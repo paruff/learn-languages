@@ -2,6 +2,7 @@ nodeId: A1-HOBBY-001
 lang: de-DE
 vocabulary:
   - id: de-DE-A1-HOBBY-001-001
+    concept: 'football'
     term: 'Fußball'
     translation: 'football'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Ich spiele gerne Fußball.'
     exampleTranslation: 'I like playing football.'
   - id: de-DE-A1-HOBBY-001-002
+    concept: 'music'
     term: 'Musik'
     translation: 'music'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Ich höre gern Musik.'
     exampleTranslation: 'I like listening to music.'
   - id: de-DE-A1-HOBBY-001-003
+    concept: 'book'
     term: 'Buch'
     translation: 'book'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Ich lese ein Buch.'
     exampleTranslation: 'I am reading a book.'
   - id: de-DE-A1-HOBBY-001-004
+    concept: 'swimming'
     term: 'Schwimmen'
     translation: 'swimming'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Schwimmen macht Spaß.'
     exampleTranslation: 'Swimming is fun.'
   - id: de-DE-A1-HOBBY-001-005
+    concept: 'cinema'
     term: 'Kino'
     translation: 'cinema'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Wir gehen ins Kino.'
     exampleTranslation: 'We are going to the cinema.'
   - id: de-DE-A1-HOBBY-001-006
+    concept: 'hobby'
     term: 'Hobby'
     translation: 'hobby'
     partOfSpeech: noun

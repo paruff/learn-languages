@@ -2,36 +2,42 @@ nodeId: A2-STUDY-003
 lang: en-GB
 vocabulary:
   - id: en-GB-A2-STUDY-003-001
+    concept: 'article'
     term: 'article'
     translation: 'artigo'
     partOfSpeech: noun
     example: 'I read an interesting article about education.'
     exampleTranslation: 'Li um artigo interessante sobre educação.'
   - id: en-GB-A2-STUDY-003-002
+    concept: 'book'
     term: 'book'
     translation: 'livro'
     partOfSpeech: noun
     example: 'The textbook is very useful.'
     exampleTranslation: 'O livro de texto é muito útil.'
   - id: en-GB-A2-STUDY-003-003
+    concept: 'summary'
     term: 'summary'
     translation: 'resumo'
     partOfSpeech: noun
     example: 'I need to make a summary of the chapter.'
     exampleTranslation: 'Preciso de fazer um resumo do capítulo.'
   - id: en-GB-A2-STUDY-003-004
+    concept: 'research'
     term: 'research'
     translation: 'pesquisa'
     partOfSpeech: noun
     example: 'I am doing research for the project.'
     exampleTranslation: 'Estou a fazer uma pesquisa para o projeto.'
   - id: en-GB-A2-STUDY-003-005
+    concept: 'to-learn'
     term: 'to learn'
     translation: 'aprender'
     partOfSpeech: verb
     example: 'I can learn well with this book.'
     exampleTranslation: 'Consigo aprender bem com este livro.'
   - id: en-GB-A2-STUDY-003-006
+    concept: 'to-understand'
     term: 'to understand'
     translation: 'compreender'
     partOfSpeech: verb

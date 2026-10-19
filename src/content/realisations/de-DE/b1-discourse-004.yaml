@@ -2,6 +2,7 @@ nodeId: B1-DISCOURSE-004
 lang: de-DE
 vocabulary:
   - id: de-DE-B1-DISCOURSE-004-001
+    concept: 'narrative'
     term: 'Erzählung'
     translation: 'narrative / story'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Ich schreibe eine Erzählung.'
     exampleTranslation: 'I am writing a narrative.'
   - id: de-DE-B1-DISCOURSE-004-002
+    concept: 'temporal-sequence'
     term: 'Zeitfolge'
     translation: 'temporal sequence'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Die Zeitfolge ist wichtig.'
     exampleTranslation: 'The temporal sequence is important.'
   - id: de-DE-B1-DISCOURSE-004-003
+    concept: 'events'
     term: 'Geschehen'
     translation: 'events / occurrences'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Was ist geschehen?'
     exampleTranslation: 'What happened?'
   - id: de-DE-B1-DISCOURSE-004-004
+    concept: 'to-describe'
     term: 'schildern'
     translation: 'to describe / to depict'
     partOfSpeech: verb
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Ich schildere den Verlauf des Tages.'
     exampleTranslation: 'I describe the course of the day.'
   - id: de-DE-B1-DISCOURSE-004-005
+    concept: 'report'
     term: 'Bericht'
     translation: 'report'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Ich schreibe einen Bericht über meinen Urlaub.'
     exampleTranslation: 'I am writing a report about my vacation.'
   - id: de-DE-B1-DISCOURSE-004-006
+    concept: 'to-summarize'
     term: 'zusammenfassen'
     translation: 'to summarize'
     partOfSpeech: verb

@@ -2,36 +2,42 @@ nodeId: A2-HEALTH-001
 lang: en-GB
 vocabulary:
   - id: en-GB-A2-HEALTH-001-001
+    concept: 'doctor'
     term: 'doctor'
     translation: 'médico'
     partOfSpeech: noun
     example: 'I need to go to the doctor.'
     exampleTranslation: 'Preciso de ir ao médico.'
   - id: en-GB-A2-HEALTH-001-002
+    concept: 'illness'
     term: 'illness'
     translation: 'doença'
     partOfSpeech: noun
     example: 'The illness lasted a week.'
     exampleTranslation: 'A doença durou uma semana.'
   - id: en-GB-A2-HEALTH-001-003
+    concept: 'pain'
     term: 'pain'
     translation: 'dor'
     partOfSpeech: noun
     example: 'I have a headache.'
     exampleTranslation: 'Tenho dor de cabeça.'
   - id: en-GB-A2-HEALTH-001-004
+    concept: 'prescription'
     term: 'prescription'
     translation: 'receita'
     partOfSpeech: noun
     example: 'The doctor gave me a prescription.'
     exampleTranslation: 'O médico deu-me uma receita.'
   - id: en-GB-A2-HEALTH-001-005
+    concept: 'pharmacy'
     term: 'pharmacy'
     translation: 'farmácia'
     partOfSpeech: noun
     example: "I'm going to the pharmacy to get the medicine."
     exampleTranslation: 'Vou à farmácia buscar o medicamento.'
   - id: en-GB-A2-HEALTH-001-006
+    concept: 'appointment'
     term: 'appointment'
     translation: 'consulta'
     partOfSpeech: noun
