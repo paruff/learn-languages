@@ -3,7 +3,7 @@ lang: de-DE
 vocabulary:
   - id: de-DE-B2-SPOKEN-003-001
     concept: 'complex'
-    term: 'komplexe'
+    term: 'komplex'
     translation: 'complex'
     partOfSpeech: adjective
     gender: n/a
