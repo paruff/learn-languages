@@ -19,11 +19,11 @@ vocabulary:
     exampleTranslation: 'I am writing about a wide range of topics.'
   - id: de-DE-B2-WRITTEN-001-003
     concept: 'detailed'
-    term: 'Detailiert'
+    term: 'detailliert'
     translation: 'detailed'
     partOfSpeech: adjective
     gender: n/a
-    example: 'Der Text war sehr detailiert.'
+    example: 'Der Text war sehr detailliert.'
     exampleTranslation: 'The text was very detailed.'
   - id: de-DE-B2-WRITTEN-001-004
     concept: 'structured'

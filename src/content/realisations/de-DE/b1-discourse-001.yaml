@@ -39,7 +39,7 @@ vocabulary:
     translation: 'admittedly'
     partOfSpeech: adverb
     gender: n/a
-    example: 'Es war zwar teurable, aber gut.'
+    example: 'Es war zwar teuer, aber gut.'
     exampleTranslation: 'It was admittedly expensive, but good.'
   - id: de-DE-B1-DISCOURSE-001-006
     concept: 'on-the-other-hand'

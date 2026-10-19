@@ -35,7 +35,7 @@ vocabulary:
     exampleTranslation: 'The topic is very important.'
   - id: de-DE-A2-NEWS-003-005
     concept: 'i-find'
-    term: ' finde'
+    term: 'Ich finde'
     translation: 'I find'
     partOfSpeech: phrase
     gender: n/a

@@ -43,7 +43,7 @@ vocabulary:
     exampleTranslation: 'The conversation was very pleasant.'
   - id: de-DE-B1-SOCIAL-004-006
     concept: 'reaction'
-    term: 'REAKTION'
+    term: 'Reaktion'
     translation: 'reaction'
     partOfSpeech: noun
     gender: feminine

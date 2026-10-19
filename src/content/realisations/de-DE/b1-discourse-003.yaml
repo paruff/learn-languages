@@ -27,7 +27,7 @@ vocabulary:
     exampleTranslation: 'He was sick. Consequently, he could not come.'
   - id: de-DE-B1-DISCOURSE-003-004
     concept: 'to-lead-to'
-    term: '导致'
+    term: 'führen zu'
     translation: 'to lead to / to cause'
     partOfSpeech: verb
     gender: n/a
@@ -39,7 +39,7 @@ vocabulary:
     translation: 'consequence'
     partOfSpeech: noun
     gender: feminine
-    example: 'Die Folgen waren serious.'
+    example: 'Die Folgen waren ernst.'
     exampleTranslation: 'The consequences were serious.'
   - id: de-DE-B1-DISCOURSE-003-006
     concept: 'because-of'

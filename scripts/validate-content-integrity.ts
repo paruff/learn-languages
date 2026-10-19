@@ -70,7 +70,7 @@ function loadConceptRefs(dir: string): ConceptRef[] {
       lang: data?.lang ?? '',
       items: (data?.vocabulary ?? []).map((item) => ({
         id: item.id ?? '',
-        concept: item.concept,
+        concept: item.concept ?? '',
         term: item.term ?? '',
         translation: item.translation ?? '',
       })),

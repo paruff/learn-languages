@@ -27,7 +27,7 @@ vocabulary:
     exampleTranslation: 'What is your opinion on that?'
   - id: de-DE-B1-OPINION-004-004
     concept: 'expression-of-opinion'
-    term: ' Meinungsäußerung'
+    term: 'Meinungsäußerung'
     translation: 'expression of opinion'
     partOfSpeech: noun
     gender: feminine

@@ -27,7 +27,7 @@ vocabulary:
     exampleTranslation: 'We are working on a new project.'
   - id: de-DE-A2-JOB-002-004
     concept: 'deadline'
-    term: 'termin'
+    term: 'Termin'
     translation: 'deadline'
     partOfSpeech: noun
     gender: masculine

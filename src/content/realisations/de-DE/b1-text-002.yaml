@@ -27,11 +27,11 @@ vocabulary:
     exampleTranslation: 'The content was clearly structured.'
   - id: de-DE-B1-TEXT-002-004
     concept: 'detailed'
-    term: 'detailiert'
+    term: 'detailliert'
     translation: 'detailed'
     partOfSpeech: adjective
     gender: n/a
-    example: 'Der Artikel war sehr detailiert.'
+    example: 'Der Artikel war sehr detailliert.'
     exampleTranslation: 'The article was very detailed.'
   - id: de-DE-B1-TEXT-002-005
     concept: 'to-summarize'

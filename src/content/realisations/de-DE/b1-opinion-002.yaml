@@ -7,7 +7,7 @@ vocabulary:
     translation: 'I agree'
     partOfSpeech: phrase
     gender: n/a
-    example: 'Das stimme ich完全 zu.'
+    example: 'Das stimme ich völlig zu.'
     exampleTranslation: 'I completely agree.'
   - id: de-DE-B1-OPINION-002-002
     concept: 'i-share-the-same-opinion'
