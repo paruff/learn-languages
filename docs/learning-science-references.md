@@ -37,7 +37,7 @@ Sources are tiered by how much weight a design decision can put on them. Prefer 
 | L15 (contrastive grammar notes)        | Norris & Ortega 2000; Spada & Tomita 2010; Ringbom 2007; Odlin 1989 |
 | L16 (contrastive grammar modules)      | Roehr 2008; Ringbom 2007; Odlin 1989; Schmidt 1990 (noticing)       |
 | L17 (metalinguistic analysis tasks)    | Roehr 2008; Lyster & Saito 2010                                     |
-| L18 (optional L1 grammar diagnostic)   | Roehr 2008; Bjork, Dunlosky & Kornell 2013                          |
+| L18 (optional L1 grammar diagnostic)   | Roehr 2008; Norris & Ortega 2000                                    |
 | L19 (rule-of-thumb interference notes) | Norris & Ortega 2000; Spada & Tomita 2010; Ringbom 2007; Odlin 1989 |
 
 ## Tier 2: syntheses for practitioners (use for direction, not as proof)
