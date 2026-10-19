@@ -345,6 +345,7 @@ test.describe('fr-FR C2 review session', () => {
       ...frVocabIds('a2-'),
       ...frVocabIds('b1-'),
       ...frVocabIds('b2-'),
+      ...frVocabIds('c1-'),
     ];
     expect(olderIds.length).toBeGreaterThan(0);
     await page.evaluate((ids) => {
