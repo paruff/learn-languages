@@ -1,0 +1,61 @@
+nodeId: A2-STUDY-003
+lang: it-IT
+vocabulary:
+- id: it-IT-A2-STUDY-003-001
+  concept: article
+  term: articolo
+  translation: article
+  partOfSpeech: noun
+  gender: masculine
+  example: L’articolo parla dei risultati dello studio.
+  exampleTranslation: The article talks about the study results.
+- id: it-IT-A2-STUDY-003-002
+  concept: book
+  term: libro
+  translation: book
+  partOfSpeech: noun
+  gender: masculine
+  example: Il libro è molto interessante.
+  exampleTranslation: The book is very interesting.
+- id: it-IT-A2-STUDY-003-003
+  concept: summary
+  term: riassunto
+  translation: summary
+  partOfSpeech: noun
+  gender: masculine
+  example: Il riassunto spiega i punti principali.
+  exampleTranslation: The summary explains the main points.
+- id: it-IT-A2-STUDY-003-004
+  concept: research
+  term: ricerca
+  translation: research
+  partOfSpeech: noun
+  gender: feminine
+  example: La ricerca dimostra i risultati.
+  exampleTranslation: The research shows the results.
+- id: it-IT-A2-STUDY-003-005
+  concept: to-learn
+  term: imparare
+  translation: to learn
+  partOfSpeech: verb
+  example: Imparo nuove parole ogni giorno.
+  exampleTranslation: I learn new words every day.
+- id: it-IT-A2-STUDY-003-006
+  concept: to-understand
+  term: capire
+  translation: to understand
+  partOfSpeech: verb
+  example: Cerco di capire il testo completo.
+  exampleTranslation: I try to understand the full text.
+grammar:
+- id: it-IT-A2-STUDY-003-G01
+  point: comprendere testi accademici semplici
+  explanation: Usare strategie di lettura per capire idee principali e dettagli nei
+    testi di studio.
+  examples:
+  - L’articolo parla dei risultati dello studio.
+  - Il riassunto mette in luce le conclusioni.
+  cefrNotes: A2 learners understand simple academic texts by scanning for main ideas
+    and key details.
+culturalNotes: L’istruzione e la lettura di testi informativi sono momenti importanti
+  per lo studio e per la cultura generale.
