@@ -6,69 +6,48 @@
 >
 > Supersedes the phase list in issue #20 as the source of truth. #20 now links here.
 
-**Last updated:** 2026-10-18
+**Last updated:** 2026-10-19
 
 ## Where we are
 
-- The engineering side is ahead of the evidence. The review loop, SRS, interleaving, typed recall, calibration, reflection, exercises, and multi-language pairing are shipped and tested (spec §2, almost all ✅).
-- Content runs A1–C2 for three target languages. Plan #20's sequencing rule 3 ("no A2–C2 or new-language content before #21 learner evidence") was **not followed**. That content is sunk cost now, so we keep it. The lesson is to stop adding more until the signal exists.
-- **The gating risk is unchanged:** zero persona-matched learners have been observed (intent S1/S2). The only data point is one informal run by the owner, which found the 404 nav bug (#28, fixed).
+- The core learning loop is shipped and tested: retrieval, spacing, interleaving, typed recall, calibration, reflection and exercises (spec §2 mostly ✅).
+- Coverage reality: pt-PT/es-ES/de-DE are A1–C2, fr-FR is A1–B2, and every supported language works as source or target (spec C4/C5).
+- **Primary gate remains #21**: no major net-new content expansion should start before real learner retention evidence (intent S1/S2).
 
-## Done outside the gate (2026-10-04)
+## Now: alignment + issue hygiene + retention gate
 
-Launch-blocker fixes from the production audit, done ahead of the gate because they protect the Phase 1 learner sessions themselves: self-hosted font (S3), storage resilience (S7), offline use (Q7), progress backup (S5), in-app 404 (Q8), `npm audit` CI gate, CHANGELOG and v0.1.0. Delete this section once the PR has merged.
+| #   | Work                                                                                                                              | Spec                 | Issue           | Exit criterion                                                                                                  |
+| --- | --------------------------------------------------------------------------------------------------------------------------------- | -------------------- | --------------- | --------------------------------------------------------------------------------------------------------------- |
+| N.1 | Align product docs/spec with shipped reality and add L1-grammar accelerator requirements + evidence mapping                       | C4, C5, L16–L19      | this PR         | `spec.md`, `plan.md`, `README.md`, and `docs/learning-science-references.md` are internally consistent          |
+| N.2 | Issue hygiene pass: close stale completed issues, align language epic status, and wire active research-feature issues to spec IDs | C5, L8, L13–L15, L17 | #39, #108, #110 | Issue state matches shipped code/content and every active research issue cites the requirement IDs it satisfies |
+| N.3 | Run 3–5 persona-matched learner sessions on `/en-GB/pt-PT/review/` and day-2 follow-up                                            | Q6, intent S1/S2     | #21             | Filled observation table and day-2 follow-up evidence posted on #21                                             |
+| N.4 | Fix highest-friction session-1 blockers found in N.3                                                                              | Q6                   | new             | Reproduced friction no longer occurs in a real browser walkthrough                                              |
+| N.5 | Decide gate outcome for #21 and record it (positive / negative / unclear)                                                         | —                    | #21, #20        | Decision recorded in this file and reflected in issue sequencing comments                                       |
 
-## Alongside Phase 1: bug, compliance and approved content work (plan rule 3)
+## Next: Phase 2 — L1 grammar as an accelerator (only after N.5 is positive)
 
-Concept-keyed vocabulary and images, tracked in epic #148 (plan: `docs/superpowers/plans/2026-10-18-concept-keyed-vocabulary-and-images.md`). These are a bug and an attribution/compliance fix, so they proceed ahead of the Phase 1 gate.
+| #   | Work                                                                                                     | Spec     | Issue | Exit criterion                                                                                    |
+| --- | -------------------------------------------------------------------------------------------------------- | -------- | ----- | ------------------------------------------------------------------------------------------------- |
+| 2.1 | Corrective support on "Again": show example + translation + relevant grammar support before re-queueing  | L10      | new   | E2E confirms corrective support appears before next card                                          |
+| 2.2 | State the session learning intention (Can-Do statements) before first card                               | L11      | new   | E2E confirms due-card Can-Do statements are shown at review start                                 |
+| 2.3 | Grammar points in retrieval loop (pilot on A1-INTRO-001)                                                 | L8       | #126  | One grammar point is graded in a live review session with its own SRS state                       |
+| 2.4 | Contrastive grammar modules by source→target pair                                                        | L16, L15 | new   | One pair-specific contrastive module is shipped and validated in browser                          |
+| 2.5 | Metalinguistic analysis tasks (error explanation/comparison prompts)                                     | L17      | new   | At least one analysis task type is live and scored in lessons/review with tests                   |
+| 2.6 | Optional L1 grammar diagnostic with recommendations into contrastive modules                             | L18      | new   | Diagnostic runs end-to-end and produces recommendation links without breaking privacy constraints |
+| 2.7 | Rule-of-thumb support notes tied to L1→L2 interference patterns, shown in lessons and corrective support | L19      | new   | One verified interference pattern per active pair is shown where relevant and covered by tests    |
+| 2.8 | Opt-in picture-prompt cards (after corrective support)                                                   | L13      | #145  | E2E confirms image-only front in picture mode with correct answer checking                        |
+| 2.9 | Opt-in privacy-preserving return measurement                                                             | S6       | new   | Week-2 return trend is observable without violating S3                                            |
 
-| #   | Work                                                                    | Spec   | Issue | Exit criterion                                                                                          |
-| --- | ----------------------------------------------------------------------- | ------ | ----- | ------------------------------------------------------------------------------------------------------- |
-| B.0 | Phase 0: evidence base, spec and plan rows for concept-keyed content    | C3, C9 | #140  | Docs merged; `npx prettier --check docs spec.md plan.md` clean                                          |
-| B.1 | Phase A: fix non-English-source vocabulary pairing by `concept`         | C3, C9 | #139  | `pairLoader` test shows every non-English-source pair pairing correctly; `validate:content` enforces C9 |
-| B.2 | Phase B: images keyed by concept, with credits page and coverage report | C7     | #141  | Built site shows one attributed image per concept on every pair; coverage report posted on #141         |
+## Later: breadth and expansion (only after retention + Phase 2 signals)
 
-### Phase D: re-author es-ES and de-DE B1–C2 vocabulary
-
-Owner decision, 2026-10-18: re-author es-ES and de-DE B1–C2 vocabulary (#142, #143) so non-English-source pairs fill in above A2. This is an explicit, owner-approved exception to rule 1 and intent P2: it re-authors existing content and adds no new levels. It depends on Phase A (#139) and Phase B (#141, the coverage report).
-
-| #   | Work                                         | Spec   | Issue | Exit criterion                                                         |
-| --- | -------------------------------------------- | ------ | ----- | ---------------------------------------------------------------------- |
-| D.1 | Re-align es-ES B1–C2 vocabulary by `concept` | C3, C9 | #142  | Coverage report (#141) shows es-ES B1–C2 pairs filled for every source |
-| D.2 | Re-align de-DE B1–C2 vocabulary by `concept` | C3, C9 | #143  | Coverage report (#141) shows de-DE B1–C2 pairs filled for every source |
-
-## Now: Phase 1, validate retention (blocks everything below)
-
-| #   | Work                                                                                                                                       | Spec          | Issue   | Exit criterion                                                                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------- | ------- | ------------------------------------------------------------------------------------- |
-| 1.1 | Run 3–5 persona-matched learner sessions on `/en-GB/pt-PT/review/` following `docs/phase-1-learner-session-protocol.md`                    | Q6, intent S1 | #21     | Filled observation table posted on #21                                                |
-| 1.2 | Day-2 follow-up with the same learners                                                                                                     | intent S2     | #21     | "Returned day 2?" column filled in                                                    |
-| 1.3 | Fix whatever session-1 friction 1.1 finds, worst first                                                                                     | Q6            | new     | The friction no longer happens when the observed scenario is re-run in a real browser |
-| 1.4 | Decide on the outcome: **positive** → Phase 2 as written; **negative** → rescope this plan around what broke; **unclear** → a larger round | —             | #21/#20 | A decision recorded in this file                                                      |
-
-## Next: Phase 2, strengthen the loop for returners (only after 1.4 is positive)
-
-Ordered by how directly each item serves intent §3 ("comes back"). 2.1 and 2.2 come from the learning-science gap review (`docs/learning-science-references.md`): cheap, and strongly evidenced.
-
-| #   | Work                                                                                                                                       | Spec    | Issue      | Exit criterion                                                                                                              |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------- | ---------- | --------------------------------------------------------------------------------------------------------------------------- |
-| 2.1 | Corrective support on "Again": show the example and translation (and any grammar note) before re-queueing                                  | L10     | new        | E2E: an Again grade shows the example before the next card; learners in a Phase 1 follow-up round notice it                 |
-| 2.2 | State the session's learning intention (Can-Do statements) at the start of review                                                          | L11     | new        | E2E: the review page lists the Can-Do statements for the due cards before the first card                                    |
-| 2.3 | Opt-in, privacy-preserving return measurement                                                                                              | S6      | new        | Week-2 return rate is observable without breaking S3                                                                        |
-| 2.4 | Grammar points in the retrieval loop (pilot: A1-INTRO-001 formality); grammar points may carry a contrastive note keyed by source language | L8, L15 | #126, #144 | One grammar point graded in a real review session with its own SRS state; a contrastive note shows for a non-English source |
-| 2.5 | Soft prerequisites: author `prerequisiteNodes` for A1, then recommend unmastered prerequisites first                                       | L12     | new        | Progress's "next up" picks an unmastered prerequisite over a later node; nothing is locked                                  |
-| 2.6 | Regional TTS voice detection and fallback hardening                                                                                        | Q3      | —          | The correct voice is verified on iOS Safari and Android Chrome                                                              |
-| 2.7 | Opt-in picture-prompt cards (image only, produce the target term), after 2.1                                                               | L13     | #145       | E2E: an opted-in image card shows no text prompt and checks the typed or revealed target term                               |
-
-## Later: Phase 3, breadth (only with S3/S4 trending toward target)
-
-- fr-FR C1–C2 (#111, #112; #108 and #110 content has landed, so close those issues); A2/B1 images (#75, key by concept per #141); contributor tooling (#22)
-- False-friend and cognate notes when the source language is not English (L14, #147), plus the image-vs-non-image calibration split for L13 (L5, #146; needs S6)
-- Any new language under Epic #39. It needs its own authoritative-source verification first (sequencing rule 4 in #20 still applies)
+- fr-FR C1–C2 (#111, #112), with priority held behind #21 unless retention and demand justify advanced-level spend.
+- Italian expansion under #39 (decision/source verification + 5-node skeleton, then gated A1–C2).
+- False-friend/cognate notes (#147, L14) and calibration split for image vs non-image cards (#146, L5 extension), gated by S6.
+- Residual image sourcing work (#75) and contributor workflow scaling (#22).
 
 ## Rules for this plan
 
-1. Nothing in **Next** starts before 1.4 is recorded as positive. Nothing in **Later** starts before 2.3 produces data.
+1. Nothing in **Next** starts before N.5 is recorded as positive. Nothing in **Later** starts before retention measurement exists (S6).
 2. Feature work follows intent → spec → plan: (a) add or adjust the requirement ID in `spec.md`, (b) add or reorder its row here, (c) brainstorming → writing-plans → TDD → verification → review (AGENTS.md §2), (d) flip the spec status to ✅ in the same PR, with the evidence linked.
 3. Bug fixes and small polish don't need a plan row. They still need a spec row if they change behaviour.
 4. When an item is done, delete it from here. History lives in git, CHANGELOG, and the issues.
