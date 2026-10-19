@@ -1,0 +1,53 @@
+nodeId: C2-MODALITY-003
+lang: fr-FR
+vocabulary:
+  - id: 'fr-FR-C2-MODALITY-003-001'
+    concept: 'rapid-auditory-comprehension'
+    term: 'compréhension auditive rapide'
+    translation: 'rapid auditory comprehension'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je comprends rapidement une parole naturelle et rapide.'
+    exampleTranslation: 'I quickly understand natural, rapid speech.'
+  - id: 'fr-FR-C2-MODALITY-003-002'
+    concept: 'fast-native-speech'
+    term: 'parole native rapide'
+    translation: 'fast native speech'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je peux suivre une parole native rapide sans perdre le fil.'
+    exampleTranslation: 'I can follow fast native speech without losing the thread.'
+  - id: 'fr-FR-C2-MODALITY-003-003'
+    concept: 'varied-accents'
+    term: 'accents variés'
+    translation: 'varied accents'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je m’adapte à des accents variés dans les situations réelles.'
+    exampleTranslation: 'I adapt to varied accents in real situations.'
+  - id: 'fr-FR-C2-MODALITY-003-004'
+    concept: 'any-kind-of-spoken-language'
+    term: 'toutes sortes de langue parlée'
+    translation: 'any kind of spoken language'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je comprends toutes sortes de langue parlée selon le contexte.'
+    exampleTranslation: 'I understand all kinds of spoken language depending on context.'
+  - id: 'fr-FR-C2-MODALITY-003-005'
+    concept: 'quick-adaptation'
+    term: 'adaptation rapide'
+    translation: 'quick adaptation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'J’ai une adaptation rapide à la vitesse et au débit de parole.'
+    exampleTranslation: 'I adapt quickly to the speed and flow of speech.'
+  - id: 'fr-FR-C2-MODALITY-003-006'
+    concept: 'complete-understanding'
+    term: 'compréhension complète'
+    translation: 'complete understanding'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La compréhension complète est possible lorsque le contexte est clair.'
+    exampleTranslation: 'Complete understanding is possible when the context is clear.'
+grammar: []
+culturalNotes: 'French C2 communication values precision, register control and stylistic finesse, with clear argumentation and smooth adaptation to the audience.'

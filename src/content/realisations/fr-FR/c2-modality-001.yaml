@@ -1,0 +1,53 @@
+nodeId: C2-MODALITY-001
+lang: fr-FR
+vocabulary:
+  - id: 'fr-FR-C2-MODALITY-001-001'
+    concept: 'spontaneous-expression'
+    term: 'expression spontanée'
+    translation: 'spontaneous expression'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'J’exprime mes idées spontanément et avec précision.'
+    exampleTranslation: 'I express my ideas spontaneously and precisely.'
+  - id: 'fr-FR-C2-MODALITY-001-002'
+    concept: 'native-fluency'
+    term: 'fluidité native'
+    translation: 'native fluency'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La fluidité native me permet de parler sans hésitation.'
+    exampleTranslation: 'Native fluency lets me speak without hesitation.'
+  - id: 'fr-FR-C2-MODALITY-001-003'
+    concept: 'shades-of-meaning'
+    term: 'nuances de sens'
+    translation: 'shades of meaning'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je distingue les nuances de sens même dans des situations complexes.'
+    exampleTranslation: 'I distinguish shades of meaning even in complex situations.'
+  - id: 'fr-FR-C2-MODALITY-001-004'
+    concept: 'broad-lexical-repertoire'
+    term: 'large répertoire lexical'
+    translation: 'broad lexical repertoire'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'J’utilise un large répertoire lexical avec aisance.'
+    exampleTranslation: 'I use a broad lexical repertoire with ease.'
+  - id: 'fr-FR-C2-MODALITY-001-005'
+    concept: 'complex-situations'
+    term: 'situations complexes'
+    translation: 'complex situations'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je m’exprime clairement dans des situations complexes.'
+    exampleTranslation: 'I express myself clearly in complex situations.'
+  - id: 'fr-FR-C2-MODALITY-001-006'
+    concept: 'linguistic-precision'
+    term: 'précision linguistique'
+    translation: 'linguistic precision'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La précision linguistique est un atout majeur.'
+    exampleTranslation: 'Linguistic precision is a major asset.'
+grammar: []
+culturalNotes: 'French C2 communication values precision, register control and stylistic finesse, with clear argumentation and smooth adaptation to the audience.'

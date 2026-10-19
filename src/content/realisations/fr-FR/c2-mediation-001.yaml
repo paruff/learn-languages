@@ -1,0 +1,53 @@
+nodeId: C2-MEDIATION-001
+lang: fr-FR
+vocabulary:
+  - id: 'fr-FR-C2-MEDIATION-001-001'
+    concept: 'effective-mediation'
+    term: 'médiation efficace'
+    translation: 'effective mediation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La médiation efficace réduit les malentendus entre interlocuteurs.'
+    exampleTranslation: 'Effective mediation reduces misunderstandings between speakers.'
+  - id: 'fr-FR-C2-MEDIATION-001-002'
+    concept: 'simplify-the-message'
+    term: 'simplifier le message'
+    translation: 'simplify the message'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je peux simplifier le message sans perdre le sens.'
+    exampleTranslation: 'I can simplify the message without losing its meaning.'
+  - id: 'fr-FR-C2-MEDIATION-001-003'
+    concept: 'resolve-misunderstandings'
+    term: 'résoudre les malentendus'
+    translation: 'resolve misunderstandings'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je sais résoudre les malentendus avec tact.'
+    exampleTranslation: 'I know how to resolve misunderstandings tactfully.'
+  - id: 'fr-FR-C2-MEDIATION-001-004'
+    concept: 'skilful-intervention'
+    term: 'intervention habile'
+    translation: 'skilful intervention'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Une intervention habile rétablit le dialogue.'
+    exampleTranslation: 'A skilful intervention restores the dialogue.'
+  - id: 'fr-FR-C2-MEDIATION-001-005'
+    concept: 'complex-disagreements'
+    term: 'désaccords complexes'
+    translation: 'complex disagreements'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je traite les désaccords complexes avec pédagogie.'
+    exampleTranslation: 'I handle complex disagreements with pedagogy.'
+  - id: 'fr-FR-C2-MEDIATION-001-006'
+    concept: 'effective-communication'
+    term: 'communication efficace'
+    translation: 'effective communication'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La communication efficace passe par la clarté et la précision.'
+    exampleTranslation: 'Effective communication depends on clarity and precision.'
+grammar: []
+culturalNotes: 'French C2 communication values precision, register control and stylistic finesse, with clear argumentation and smooth adaptation to the audience.'

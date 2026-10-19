@@ -1,0 +1,53 @@
+nodeId: C2-LITERARY-001
+lang: fr-FR
+vocabulary:
+  - id: 'fr-FR-C2-LITERARY-001-001'
+    concept: 'complex-literary-texts'
+    term: 'textes littéraires complexes'
+    translation: 'complex literary texts'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je lis des textes littéraires complexes avec attention.'
+    exampleTranslation: 'I read complex literary texts carefully.'
+  - id: 'fr-FR-C2-LITERARY-001-002'
+    concept: 'contemporary-literature'
+    term: 'littérature contemporaine'
+    translation: 'contemporary literature'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La littérature contemporaine demande une lecture attentive.'
+    exampleTranslation: 'Contemporary literature requires attentive reading.'
+  - id: 'fr-FR-C2-LITERARY-001-003'
+    concept: 'poetry-and-song-lyrics'
+    term: 'poésie et paroles de chansons'
+    translation: 'poetry and song lyrics'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La poésie et les paroles de chansons enrichissent mon appréciation du langage.'
+    exampleTranslation: 'Poetry and song lyrics enrich my appreciation of language.'
+  - id: 'fr-FR-C2-LITERARY-001-004'
+    concept: 'opinion-pieces'
+    term: 'articles d’opinion'
+    translation: 'opinion pieces'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je comprends les articles d’opinion aux fins subtiles.'
+    exampleTranslation: 'I understand opinion pieces with subtle aims.'
+  - id: 'fr-FR-C2-LITERARY-001-005'
+    concept: 'aesthetic-discernment'
+    term: 'sens de l’esthétique'
+    translation: 'aesthetic discernment'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Mon sens de l’esthétique me guide dans l’interprétation.'
+    exampleTranslation: 'My aesthetic sense guides my interpretation.'
+  - id: 'fr-FR-C2-LITERARY-001-006'
+    concept: 'literary-appreciation'
+    term: 'appréciation littéraire'
+    translation: 'literary appreciation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'L’appréciation littéraire repose sur le contexte et les nuances.'
+    exampleTranslation: 'Literary appreciation rests on context and nuance.'
+grammar: []
+culturalNotes: 'French C2 communication values precision, register control and stylistic finesse, with clear argumentation and smooth adaptation to the audience.'

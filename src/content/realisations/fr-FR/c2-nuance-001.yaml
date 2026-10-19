@@ -1,0 +1,53 @@
+nodeId: C2-NUANCE-001
+lang: fr-FR
+vocabulary:
+  - id: 'fr-FR-C2-NUANCE-001-001'
+    concept: 'subtle-nuances'
+    term: 'nuances subtiles'
+    translation: 'subtle nuances'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je sais distinguer les nuances subtiles du discours.'
+    exampleTranslation: 'I know how to distinguish subtle nuances in speech.'
+  - id: 'fr-FR-C2-NUANCE-001-002'
+    concept: 'enriched-lexical-repertoire'
+    term: 'répertoire lexical enrichi'
+    translation: 'enriched lexical repertoire'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Mon répertoire lexical enrichi facilite l’expression précise.'
+    exampleTranslation: 'My enriched lexical repertoire makes precise expression easier.'
+  - id: 'fr-FR-C2-NUANCE-001-003'
+    concept: 'precise-expression'
+    term: 'expression précise'
+    translation: 'precise expression'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'L’expression précise aide à transmettre le sens exact.'
+    exampleTranslation: 'Precise expression helps convey the exact meaning.'
+  - id: 'fr-FR-C2-NUANCE-001-004'
+    concept: 'diverse-subjects'
+    term: 'sujets variés'
+    translation: 'diverse subjects'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je peux parler de sujets variés avec finesse.'
+    exampleTranslation: 'I can speak about diverse subjects with finesse.'
+  - id: 'fr-FR-C2-NUANCE-001-005'
+    concept: 'appropriate-register'
+    term: 'registre adapté'
+    translation: 'appropriate register'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je choisis le registre adapté à chaque situation.'
+    exampleTranslation: 'I choose the appropriate register for each situation.'
+  - id: 'fr-FR-C2-NUANCE-001-006'
+    concept: 'total-precision'
+    term: 'précision totale'
+    translation: 'total precision'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La précision totale est nécessaire dans les échanges complexes.'
+    exampleTranslation: 'Total precision is necessary in complex exchanges.'
+grammar: []
+culturalNotes: 'French C2 communication values precision, register control and stylistic finesse, with clear argumentation and smooth adaptation to the audience.'

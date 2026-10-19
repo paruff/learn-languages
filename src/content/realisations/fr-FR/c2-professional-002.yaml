@@ -1,0 +1,53 @@
+nodeId: C2-PROFESSIONAL-002
+lang: fr-FR
+vocabulary:
+  - id: 'fr-FR-C2-PROFESSIONAL-002-001'
+    concept: 'spontaneous-fluency'
+    term: 'fluidité spontanée'
+    translation: 'spontaneous fluency'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'J’ai une fluidité spontanée dans les échanges professionnels.'
+    exampleTranslation: 'I have spontaneous fluency in professional exchanges.'
+  - id: 'fr-FR-C2-PROFESSIONAL-002-002'
+    concept: 'native-vocabulary'
+    term: 'vocabulaire de niveau natif'
+    translation: 'native vocabulary'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'J’utilise un vocabulaire proche du niveau natif.'
+    exampleTranslation: 'I use vocabulary close to native level.'
+  - id: 'fr-FR-C2-PROFESSIONAL-002-003'
+    concept: 'total-precision'
+    term: 'précision totale'
+    translation: 'total precision'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La précision totale est décisive dans les situations professionnelles.'
+    exampleTranslation: 'Total precision is decisive in professional situations.'
+  - id: 'fr-FR-C2-PROFESSIONAL-002-004'
+    concept: 'communicative-flexibility'
+    term: 'flexibilité communicative'
+    translation: 'communicative flexibility'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La flexibilité communicative me permet de m’adapter à tous.'
+    exampleTranslation: 'Communicative flexibility allows me to adapt to everyone.'
+  - id: 'fr-FR-C2-PROFESSIONAL-002-005'
+    concept: 'natural-use-of-language'
+    term: 'usage naturel de la langue'
+    translation: 'natural use of language'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'L’usage naturel de la langue évite toute rigidité.'
+    exampleTranslation: 'The natural use of language avoids rigidity.'
+  - id: 'fr-FR-C2-PROFESSIONAL-002-006'
+    concept: 'communicative-confidence'
+    term: 'confiance communicative'
+    translation: 'communicative confidence'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La confiance communicative me permet d’échanger avec aisance.'
+    exampleTranslation: 'Communicative confidence lets me exchange with ease.'
+grammar: []
+culturalNotes: 'French C2 communication values precision, register control and stylistic finesse, with clear argumentation and smooth adaptation to the audience.'

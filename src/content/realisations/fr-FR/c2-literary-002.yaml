@@ -1,0 +1,53 @@
+nodeId: C2-LITERARY-002
+lang: fr-FR
+vocabulary:
+  - id: 'fr-FR-C2-LITERARY-002-001'
+    concept: 'elegant-style'
+    term: 'style élégant'
+    translation: 'elegant style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'J’utilise un style élégant pour produire un effet précis.'
+    exampleTranslation: 'I use an elegant style to produce a precise effect.'
+  - id: 'fr-FR-C2-LITERARY-002-002'
+    concept: 'intended-effect'
+    term: 'effet recherché'
+    translation: 'intended effect'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je choisis les mots pour produire l’effet recherché.'
+    exampleTranslation: 'I choose my words to produce the intended effect.'
+  - id: 'fr-FR-C2-LITERARY-002-003'
+    concept: 'appropriate-register'
+    term: 'registre approprié'
+    translation: 'appropriate register'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Le bon registre est essentiel pour le public visé.'
+    exampleTranslation: 'The appropriate register is essential for the intended audience.'
+  - id: 'fr-FR-C2-LITERARY-002-004'
+    concept: 'adapted-style'
+    term: 'style adapté'
+    translation: 'adapted style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je modifie le style selon le texte et le destinataire.'
+    exampleTranslation: 'I adapt the style according to the text and the recipient.'
+  - id: 'fr-FR-C2-LITERARY-002-005'
+    concept: 'precision-and-subtlety'
+    term: 'précision et subtilité'
+    translation: 'precision and subtlety'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La précision et la subtilité guident mon écriture.'
+    exampleTranslation: 'Precision and subtlety guide my writing.'
+  - id: 'fr-FR-C2-LITERARY-002-006'
+    concept: 'cultured-expression'
+    term: 'expression cultivée'
+    translation: 'cultured expression'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'L’expression cultivée donne de la richesse au propos.'
+    exampleTranslation: 'Cultured expression gives richness to the expression.'
+grammar: []
+culturalNotes: 'French C2 communication values precision, register control and stylistic finesse, with clear argumentation and smooth adaptation to the audience.'
