@@ -1,0 +1,60 @@
+nodeId: A2-STUDY-001
+lang: it-IT
+vocabulary:
+- id: it-IT-A2-STUDY-001-001
+  concept: university
+  term: università
+  translation: university
+  partOfSpeech: noun
+  gender: feminine
+  example: Studio all’università di Bologna.
+  exampleTranslation: I study at the University of Bologna.
+- id: it-IT-A2-STUDY-001-002
+  concept: course
+  term: corso
+  translation: course
+  partOfSpeech: noun
+  gender: masculine
+  example: Sto seguendo un corso di italiano.
+  exampleTranslation: I am taking an Italian course.
+- id: it-IT-A2-STUDY-001-003
+  concept: degree
+  term: laurea
+  translation: degree
+  partOfSpeech: noun
+  gender: feminine
+  example: Ho una laurea in psicologia.
+  exampleTranslation: I have a degree in psychology.
+- id: it-IT-A2-STUDY-001-004
+  concept: to-study
+  term: studiare
+  translation: to study
+  partOfSpeech: verb
+  example: Studio italiano ogni settimana.
+  exampleTranslation: I study Italian every week.
+- id: it-IT-A2-STUDY-001-005
+  concept: exam
+  term: esame
+  translation: exam
+  partOfSpeech: noun
+  gender: masculine
+  example: Domani ho un esame importante.
+  exampleTranslation: I have an important exam tomorrow.
+- id: it-IT-A2-STUDY-001-006
+  concept: to-pass
+  term: superare
+  translation: to pass
+  partOfSpeech: verb
+  example: Spero di superare l’esame.
+  exampleTranslation: I hope to pass the exam.
+grammar:
+- id: it-IT-A2-STUDY-001-G01
+  point: connettori per elencare esperienze
+  explanation: Usare e, ma e anche per collegare esperienze scolastiche e lavorative.
+  examples:
+  - Studio all’università e lavoro nel weekend.
+  - Ho una laurea, ma voglio fare un master.
+  cefrNotes: A2 learners describe study and qualification history with simple linked
+    phrases.
+culturalNotes: In Italia l’istruzione superiore e i corsi di specializzazione sono
+  temi comuni nella vita adulta.
