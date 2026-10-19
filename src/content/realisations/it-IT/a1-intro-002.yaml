@@ -1,46 +1,46 @@
-nodeId: 'A1-INTRO-002'
-lang: 'it-IT'
+nodeId: A1-INTRO-002
+lang: it-IT
 vocabulary:
-  - id: 'it-IT-A1-INTRO-002-001'
-    concept: 'what-is-your-name'
-    term: 'Come ti chiami?'
-    translation: 'What is your name?'
-    partOfSpeech: 'phrase'
-    example: 'Scusa, come ti chiami?'
-    exampleTranslation: 'Excuse me, what is your name?'
-  - id: 'it-IT-A1-INTRO-002-002'
-    concept: 'how-old-are-you'
-    term: 'Quanti anni hai?'
-    translation: 'How old are you?'
-    partOfSpeech: 'phrase'
-    example: 'Scusa, quanti anni hai?'
-    exampleTranslation: 'Excuse me, how old are you?'
-  - id: 'it-IT-A1-INTRO-002-003'
-    concept: 'where-are-you-from'
-    term: 'Di dove sei?'
-    translation: 'Where are you from?'
-    partOfSpeech: 'phrase'
-    example: 'Scusa, di dove sei?'
-    exampleTranslation: 'Excuse me, where are you from?'
-  - id: 'it-IT-A1-INTRO-002-004'
-    concept: 'i-am-a-student'
-    term: 'Sono uno studente'
-    translation: 'I am a student'
-    partOfSpeech: 'phrase'
-    example: "Sono uno studente all'università."
-    exampleTranslation: 'I am a student at the university.'
-  - id: 'it-IT-A1-INTRO-002-005'
-    concept: 'i-work-as'
-    term: 'Lavoro come'
-    translation: 'I work as'
-    partOfSpeech: 'phrase'
-    example: 'Lavoro come insegnante.'
-    exampleTranslation: 'I work as a teacher.'
-  - id: 'it-IT-A1-INTRO-002-006'
-    concept: 'do-you-speak-english'
-    term: 'Parli inglese?'
-    translation: 'Do you speak English?'
-    partOfSpeech: 'phrase'
-    example: 'Scusa, parli inglese?'
-    exampleTranslation: 'Excuse me, do you speak English?'
+  - id: it-IT-A1-INTRO-002-001
+    concept: what-is-your-name
+    term: come ti chiami?
+    translation: What is your name?
+    partOfSpeech: phrase
+    example: Come ti chiami?
+    exampleTranslation: Excuse me, what is your name?
+  - id: it-IT-A1-INTRO-002-002
+    concept: how-old-are-you
+    term: quanti anni hai?
+    translation: How old are you?
+    partOfSpeech: phrase
+    example: Quanti anni hai?
+    exampleTranslation: How old are you?
+  - id: it-IT-A1-INTRO-002-003
+    concept: where-are-you-from
+    term: da dove vieni?
+    translation: Where are you from?
+    partOfSpeech: phrase
+    example: Da dove vieni?
+    exampleTranslation: Where are you from?
+  - id: it-IT-A1-INTRO-002-004
+    concept: i-am-a-student
+    term: sono uno studente
+    translation: I am a student
+    partOfSpeech: phrase
+    example: Sono uno studente di medicina.
+    exampleTranslation: I am a student at the university.
+  - id: it-IT-A1-INTRO-002-005
+    concept: i-work-as
+    term: lavoro come
+    translation: I work as
+    partOfSpeech: phrase
+    example: Lavoro come insegnante.
+    exampleTranslation: I work as a teacher.
+  - id: it-IT-A1-INTRO-002-006
+    concept: do-you-speak-english
+    term: parli inglese?
+    translation: Do you speak English?
+    partOfSpeech: phrase
+    example: Parli inglese?
+    exampleTranslation: Excuse me, do you speak English?
 grammar: []

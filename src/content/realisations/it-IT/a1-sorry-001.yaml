@@ -1,0 +1,46 @@
+nodeId: A1-SORRY-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A1-SORRY-001-001
+    concept: sorry
+    term: scusa
+    translation: Sorry
+    partOfSpeech: interjection
+    example: Scusa, non ti avevo visto.
+    exampleTranslation: Excuse me, where is the train station?
+  - id: it-IT-A1-SORRY-001-002
+    concept: i-m-sorry
+    term: mi dispiace
+    translation: I'm sorry
+    partOfSpeech: phrase
+    example: Mi dispiace, non l’ho fatto apposta.
+    exampleTranslation: I'm sorry, I can't come.
+  - id: it-IT-A1-SORRY-001-003
+    concept: no-problem
+    term: non c’è problema
+    translation: No problem
+    partOfSpeech: phrase
+    example: Non c’è problema, va bene.
+    exampleTranslation: No problem, that happens.
+  - id: it-IT-A1-SORRY-001-004
+    concept: it-s-okay
+    term: va bene
+    translation: It's okay
+    partOfSpeech: phrase
+    example: Va bene, tutto okay.
+    exampleTranslation: It's okay, try again.
+  - id: it-IT-A1-SORRY-001-005
+    concept: pardon
+    term: perdono
+    translation: Pardon
+    partOfSpeech: interjection
+    example: Perdono, posso passare?
+    exampleTranslation: Pardon, I didn't hear you.
+  - id: it-IT-A1-SORRY-001-006
+    concept: excuse-me
+    term: scusi
+    translation: Excuse me (formal)
+    partOfSpeech: interjection
+    example: Scusi, dove si trova il bagno?
+    exampleTranslation: Excuse the disturbance.
+grammar: []

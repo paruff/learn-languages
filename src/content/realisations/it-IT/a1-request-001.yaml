@@ -1,0 +1,60 @@
+nodeId: A1-REQUEST-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A1-REQUEST-001-001
+    concept: can-you-help-me
+    term: mi può aiutare?
+    translation: Can you help me?
+    partOfSpeech: phrase
+    example: Mi può aiutare, per favore?
+    exampleTranslation: Excuse me, can you help me?
+  - id: it-IT-A1-REQUEST-001-002
+    concept: i-would-like
+    term: vorrei
+    translation: I would like...
+    partOfSpeech: phrase
+    example: Vorrei un tavolo per due.
+    exampleTranslation: I would like to order a coffee.
+  - id: it-IT-A1-REQUEST-001-003
+    concept: please
+    term: per favore
+    translation: Please
+    partOfSpeech: phrase
+    example: Per favore, mi dia un tavolo.
+    exampleTranslation: A water, please.
+  - id: it-IT-A1-REQUEST-001-004
+    concept: thank-you
+    term: grazie
+    translation: Thank you
+    partOfSpeech: phrase
+    example: Grazie mille per l’aiuto.
+    exampleTranslation: Thank you for your help.
+  - id: it-IT-A1-REQUEST-001-005
+    concept: may-i
+    term: posso
+    translation: May I...?
+    partOfSpeech: phrase
+    example: Posso sedermi qui?
+    exampleTranslation: May I pass?
+  - id: it-IT-A1-REQUEST-001-006
+    concept: can-you-repeat-that-please
+    term: può ripetere per favore?
+    translation: Can you repeat that, please?
+    partOfSpeech: phrase
+    example: Può ripetere per favore?
+    exampleTranslation: Can you say that more slowly, please?
+  - concept: could-you
+    term: Potresti...?
+    translation: Could you...?
+    partOfSpeech: phrase
+    example: Potresti aprire la finestra?
+    exampleTranslation: Could you open the window?
+    id: it-IT-A1-REQUEST-001-007
+  - concept: i-want
+    term: Voglio...
+    translation: I want...
+    partOfSpeech: phrase
+    example: Voglio un caffè, per favore.
+    exampleTranslation: I want a coffee, please.
+    id: it-IT-A1-REQUEST-001-008
+grammar: []

@@ -1,0 +1,47 @@
+nodeId: A1-OFFER-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A1-OFFER-001-001
+    concept: would-you-like
+    term: vorresti?
+    translation: Would you like...?
+    partOfSpeech: phrase
+    example: Vorresti un tè?
+    exampleTranslation: Would you like a coffee?
+  - id: it-IT-A1-OFFER-001-002
+    concept: shall-we
+    term: andiamo?
+    translation: Shall we...?
+    partOfSpeech: phrase
+    example: Andiamo a mangiare?
+    exampleTranslation: Shall we go to the cinema?
+  - id: it-IT-A1-OFFER-001-003
+    concept: do-you-want
+    term: vuoi?
+    translation: Do you want...?
+    partOfSpeech: phrase
+    example: Vuoi venire con me?
+    exampleTranslation: Do you want to come along?
+  - id: it-IT-A1-OFFER-001-004
+    concept: invitation
+    term: invito
+    translation: invitation
+    partOfSpeech: noun
+    gender: masculine
+    example: Ti invito a cena.
+    exampleTranslation: Thank you very much for the invitation.
+  - id: it-IT-A1-OFFER-001-005
+    concept: to-offer
+    term: offrire
+    translation: to offer
+    partOfSpeech: verb
+    example: Posso offrirti un drink?
+    exampleTranslation: Can I offer you something?
+  - id: it-IT-A1-OFFER-001-006
+    concept: gladly
+    term: volentieri
+    translation: gladly
+    partOfSpeech: adverb
+    example: Volentieri, grazie.
+    exampleTranslation: Yes, with pleasure!
+grammar: []
