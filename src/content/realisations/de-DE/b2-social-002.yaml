@@ -2,6 +2,7 @@ nodeId: B2-SOCIAL-002
 lang: de-DE
 vocabulary:
   - id: de-DE-B2-SOCIAL-002-001
+    concept: 'discussion'
     term: 'Diskussion'
     translation: 'discussion'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Die Diskussion war sehr konstruktiv.'
     exampleTranslation: 'The discussion was very constructive.'
   - id: de-DE-B2-SOCIAL-002-002
+    concept: 'context-related'
     term: 'kontextbezogen'
     translation: 'context-related'
     partOfSpeech: adjective
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Die Diskussion war kontextbezogen.'
     exampleTranslation: 'The discussion was context-related.'
   - id: de-DE-B2-SOCIAL-002-003
+    concept: 'to-participate-actively'
     term: 'aktiv teilnehmen'
     translation: 'to participate actively'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Ich nehme aktiv an der Diskussion teil.'
     exampleTranslation: 'I actively participate in the discussion.'
   - id: de-DE-B2-SOCIAL-002-004
+    concept: 'to-express-an-opinion'
     term: 'Meinung äußern'
     translation: 'to express an opinion'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Ich möchte meine Meinung äußern.'
     exampleTranslation: 'I would like to express my opinion.'
   - id: de-DE-B2-SOCIAL-002-005
+    concept: 'to-agree'
     term: 'zustimmen'
     translation: 'to agree'
     partOfSpeech: verb
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Ich stimme Ihnen zu.'
     exampleTranslation: 'I agree with you.'
   - id: de-DE-B2-SOCIAL-002-006
+    concept: 'to-reject'
     term: 'ablehnen'
     translation: 'to reject / to decline'
     partOfSpeech: verb

@@ -2,6 +2,7 @@ nodeId: B1-SERVICE-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-B1-SERVICE-001-001
+    concept: 'a-defective-item'
     term: 'un article défectueux'
     translation: 'a defective item'
     partOfSpeech: phrase
@@ -9,12 +10,14 @@ vocabulary:
     example: 'Je voudrais retourner un article défectueux.'
     exampleTranslation: 'I would like to return a defective item.'
   - id: fr-FR-B1-SERVICE-001-002
+    concept: 'to-make-a-complaint'
     term: 'formuler une plainte'
     translation: 'to make a complaint'
     partOfSpeech: phrase
     example: 'Elle a formulé une plainte concernant le service.'
     exampleTranslation: 'She made a complaint about the service.'
   - id: fr-FR-B1-SERVICE-001-003
+    concept: 'a-refund'
     term: 'un remboursement'
     translation: 'a refund'
     partOfSpeech: noun
@@ -22,12 +25,14 @@ vocabulary:
     example: 'Ils m’ont proposé un remboursement.'
     exampleTranslation: 'They offered me a refund.'
   - id: fr-FR-B1-SERVICE-001-004
+    concept: 'the-post-office'
     term: 'le bureau de poste'
     translation: 'the post office'
     partOfSpeech: phrase
     example: 'Le colis est au bureau de poste.'
     exampleTranslation: 'The parcel is at the post office.'
   - id: fr-FR-B1-SERVICE-001-005
+    concept: 'a-bank-branch'
     term: 'une agence bancaire'
     translation: 'a bank branch'
     partOfSpeech: phrase
@@ -35,6 +40,7 @@ vocabulary:
     example: 'La plus proche agence bancaire ferme à six heures.'
     exampleTranslation: 'The nearest bank branch closes at six.'
   - id: fr-FR-B1-SERVICE-001-006
+    concept: 'to-sort-it-out'
     term: 'se débrouiller'
     translation: 'to sort it out'
     partOfSpeech: phrase

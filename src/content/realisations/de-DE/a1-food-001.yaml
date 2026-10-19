@@ -2,6 +2,7 @@ nodeId: A1-FOOD-001
 lang: de-DE
 vocabulary:
   - id: de-DE-A1-FOOD-001-001
+    concept: 'water'
     term: 'Wasser'
     translation: 'water'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Ein Glas Wasser, bitte.'
     exampleTranslation: 'A glass of water, please.'
   - id: de-DE-A1-FOOD-001-002
+    concept: 'bread'
     term: 'Brot'
     translation: 'bread'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Ich esse Brot zum Frühstück.'
     exampleTranslation: 'I eat bread for breakfast.'
   - id: de-DE-A1-FOOD-001-003
+    concept: 'coffee'
     term: 'Kaffee'
     translation: 'coffee'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Möchten Sie Kaffee?'
     exampleTranslation: 'Would you like coffee?'
   - id: de-DE-A1-FOOD-001-004
+    concept: 'milk'
     term: 'Milch'
     translation: 'milk'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Die Milch ist im Kühlschrank.'
     exampleTranslation: 'The milk is in the fridge.'
   - id: de-DE-A1-FOOD-001-005
+    concept: 'apple'
     term: 'Apfel'
     translation: 'apple'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Ich esse einen Apfel.'
     exampleTranslation: 'I eat an apple.'
   - id: de-DE-A1-FOOD-001-006
+    concept: 'food'
     term: 'Essen'
     translation: 'food / to eat'
     partOfSpeech: noun

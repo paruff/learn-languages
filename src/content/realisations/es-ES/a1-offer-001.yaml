@@ -2,18 +2,21 @@ nodeId: A1-OFFER-001
 lang: es-ES
 vocabulary:
   - id: es-ES-A1-OFFER-001-001
+    concept: 'do-you-want'
     term: '¿Quiere...?'
     translation: 'Do you want...?'
     partOfSpeech: phrase
     example: '¿Quiere un café?'
     exampleTranslation: 'Do you want a coffee?'
   - id: es-ES-A1-OFFER-001-002
+    concept: 'would-you-like'
     term: '¿Le gustaría...?'
     translation: 'Would you like...?'
     partOfSpeech: phrase
     example: '¿Le gustaría más té?'
     exampleTranslation: 'Would you like more tea?'
   - id: es-ES-A1-OFFER-001-003
+    concept: 'shall-we'
     term: '¿Vamos...?'
     translation: 'Shall we...?'
     partOfSpeech: phrase

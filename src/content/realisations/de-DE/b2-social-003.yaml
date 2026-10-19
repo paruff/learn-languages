@@ -2,6 +2,7 @@ nodeId: B2-SOCIAL-003
 lang: de-DE
 vocabulary:
   - id: de-DE-B2-SOCIAL-003-001
+    concept: 'to-justify'
     term: 'begründen'
     translation: 'to justify'
     partOfSpeech: verb
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Können Sie Ihre Meinung begründen?'
     exampleTranslation: 'Can you justify your opinion?'
   - id: de-DE-B2-SOCIAL-003-002
+    concept: 'to-maintain'
     term: 'aufrechterhalten'
     translation: 'to maintain / to sustain'
     partOfSpeech: verb
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Ich halte meine Meinung aufrecht.'
     exampleTranslation: 'I maintain my opinion.'
   - id: de-DE-B2-SOCIAL-003-003
+    concept: 'explanation'
     term: 'Erklärung'
     translation: 'explanation'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Die Erklärung war überzeugend.'
     exampleTranslation: 'The explanation was convincing.'
   - id: de-DE-B2-SOCIAL-003-004
+    concept: 'argument'
     term: 'Argument'
     translation: 'argument'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Das ist ein starkes Argument.'
     exampleTranslation: 'That is a strong argument.'
   - id: de-DE-B2-SOCIAL-003-005
+    concept: 'to-convince'
     term: 'überzeugen'
     translation: 'to convince'
     partOfSpeech: verb
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Das überzeugt mich nicht.'
     exampleTranslation: 'That does not convince me.'
   - id: de-DE-B2-SOCIAL-003-006
+    concept: 'to-communicate'
     term: 'sich verständigen'
     translation: 'to communicate / to come to an understanding'
     partOfSpeech: phrase

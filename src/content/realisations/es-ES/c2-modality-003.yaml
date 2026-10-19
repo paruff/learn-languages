@@ -2,6 +2,7 @@ nodeId: C2-MODALITY-003
 lang: es-ES
 vocabulary:
   - id: es-ES-C2-MODALITY-003-001
+    concept: 'spoken-language'
     term: 'lengua hablada'
     translation: 'spoken language'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Entiendo toda forma de lengua hablada, incluyendo acentos variados.'
     exampleTranslation: 'I understand all forms of spoken language, including varied accents.'
   - id: es-ES-C2-MODALITY-003-002
+    concept: 'native-speed'
     term: 'velocidad nativa'
     translation: 'native speed'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Puedo seguir conversaciones a velocidad nativa.'
     exampleTranslation: 'I can follow conversations at native speed.'
   - id: es-ES-C2-MODALITY-003-003
+    concept: 'varied-accent'
     term: 'acento variado'
     translation: 'varied accent'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Entiendo diferentes acentos sin dificultad.'
     exampleTranslation: 'I understand different accents without difficulty.'
   - id: es-ES-C2-MODALITY-003-004
+    concept: 'live-broadcast'
     term: 'emisión en directo'
     translation: 'live broadcast'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Sigo emisiones en directo sin perder detalles.'
     exampleTranslation: 'I follow live broadcasts without missing details.'
   - id: es-ES-C2-MODALITY-003-005
+    concept: 'broadcast'
     term: 'transmisión'
     translation: 'broadcast'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Entiendo transmisiones en vivo de noticias y eventos.'
     exampleTranslation: 'I understand live broadcasts of news and events.'
   - id: es-ES-C2-MODALITY-003-006
+    concept: 'advanced-listening-comprehension'
     term: 'comprensión auditiva avanzada'
     translation: 'advanced listening comprehension'
     partOfSpeech: phrase

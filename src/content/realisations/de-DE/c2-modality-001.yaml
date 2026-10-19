@@ -2,6 +2,7 @@ nodeId: C2-MODALITY-001
 lang: de-DE
 vocabulary:
   - id: de-DE-C2-MODALITY-001-001
+    concept: 'subjunctive-ii'
     term: 'Konjunktiv II'
     translation: 'subjunctive II'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Der Konjunktiv II wird für hypothetische Aussagen verwendet.'
     exampleTranslation: 'The subjunctive II is used for hypothetical statements.'
   - id: de-DE-C2-MODALITY-001-002
+    concept: 'hypothetical'
     term: 'hypothisch'
     translation: 'hypothetical'
     partOfSpeech: adjective
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Das ist eine hypothetische Aussage.'
     exampleTranslation: 'That is a hypothetical statement.'
   - id: de-DE-C2-MODALITY-001-003
+    concept: 'wish-form'
     term: 'Wunschform'
     translation: 'wish form'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Die Wunschform wird oft verwendet.'
     exampleTranslation: 'The wish form is often used.'
   - id: de-DE-C2-MODALITY-001-004
+    concept: 'unreal'
     term: 'irreal'
     translation: 'unreal / counterfactual'
     partOfSpeech: adjective
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Das ist eine irrealistische Vorstellung.'
     exampleTranslation: 'That is an unrealistic idea.'
   - id: de-DE-C2-MODALITY-001-005
+    concept: 'past'
     term: 'Vergangenheit'
     translation: 'past'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Die Vergangenheit ist unveränderlich.'
     exampleTranslation: 'The past is unchangeable.'
   - id: de-DE-C2-MODALITY-001-006
+    concept: 'to-condition'
     term: 'bedingen'
     translation: 'to condition / to require'
     partOfSpeech: verb

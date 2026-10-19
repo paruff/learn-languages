@@ -2,6 +2,7 @@ nodeId: C2-ARGUE-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-C2-ARGUE-001-001
+    concept: 'precise-formulation'
     term: 'formulação precisa'
     translation: 'precise formulation'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Selecione a formulação mais precisa para cada ideia.'
     exampleTranslation: 'I select the most precise formulation for each idea.'
   - id: pt-PT-C2-ARGUE-001-002
+    concept: 'range-of-linguistic-means'
     term: 'gama de meios expressivos'
     translation: 'range of linguistic means'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Utilizo uma vasta gama de meios expressivos com自然 fluidez.'
     exampleTranslation: 'I use a vast range of linguistic means with natural fluency.'
   - id: pt-PT-C2-ARGUE-001-003
+    concept: 'clear-expression'
     term: 'expressão clara'
     translation: 'clear expression'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'A minha expressão é sempre clara e inequívoca.'
     exampleTranslation: 'My expression is always clear and unambiguous.'
   - id: pt-PT-C2-ARGUE-001-004
+    concept: 'lexical-precision'
     term: 'precisão léxica'
     translation: 'lexical precision'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'A precisão léxica é uma das minhas maiores forças.'
     exampleTranslation: 'Lexical precision is one of my greatest strengths.'
   - id: pt-PT-C2-ARGUE-001-005
+    concept: 'nuances-of-meaning'
     term: 'matices de significado'
     translation: 'nuances of meaning'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Consigo transmitir todos os matices de significado.'
     exampleTranslation: 'I can convey all nuances of meaning.'
   - id: pt-PT-C2-ARGUE-001-006
+    concept: 'unequivocal-expression'
     term: 'expressão inequívoca'
     translation: 'unequivocal expression'
     partOfSpeech: phrase

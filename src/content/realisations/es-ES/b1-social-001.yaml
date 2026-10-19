@@ -2,6 +2,7 @@ nodeId: B1-SOCIAL-001
 lang: es-ES
 vocabulary:
   - id: es-ES-B1-SOCIAL-001-001
+    concept: 'social-situation'
     term: 'situación social'
     translation: 'social situation'
     partOfSpeech: phrase
@@ -9,12 +10,14 @@ vocabulary:
     example: 'Me siento cómodo en situaciones sociales diversas.'
     exampleTranslation: 'I feel comfortable in various social situations.'
   - id: es-ES-B1-SOCIAL-001-002
+    concept: 'to-adapt'
     term: 'adaptarse'
     translation: 'to adapt'
     partOfSpeech: verb
     example: 'Es importante adaptarse a nuevas situaciones.'
     exampleTranslation: 'It is important to adapt to new situations.'
   - id: es-ES-B1-SOCIAL-001-003
+    concept: 'context'
     term: 'contexto'
     translation: 'context'
     partOfSpeech: noun
@@ -22,12 +25,14 @@ vocabulary:
     example: 'En cada contexto social hay diferentes normas.'
     exampleTranslation: 'In each social context there are different norms.'
   - id: es-ES-B1-SOCIAL-001-004
+    concept: 'to-manage'
     term: 'gestionar'
     translation: 'to manage'
     partOfSpeech: verb
     example: 'Soy capaz de gestionar conversaciones en español.'
     exampleTranslation: 'I am able to manage conversations in Spanish.'
   - id: es-ES-B1-SOCIAL-001-005
+    concept: 'unforeseen-event'
     term: 'imprevisto'
     translation: 'unforeseen event'
     partOfSpeech: noun
@@ -35,6 +40,7 @@ vocabulary:
     example: 'Si hay un imprevisto, lo resuelvo sin problemas.'
     exampleTranslation: 'If there is an unforeseen event, I handle it without problems.'
   - id: es-ES-B1-SOCIAL-001-006
+    concept: 'naturally'
     term: 'de forma natural'
     translation: 'naturally'
     partOfSpeech: phrase

@@ -2,6 +2,7 @@ nodeId: A2-PAST-001
 lang: de-DE
 vocabulary:
   - id: de-DE-A2-PAST-001-001
+    concept: 'experience'
     term: 'Erfahrung'
     translation: 'experience'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Das war eine tolle Erfahrung.'
     exampleTranslation: 'That was a great experience.'
   - id: de-DE-A2-PAST-001-002
+    concept: 'at-that-time'
     term: 'damals'
     translation: 'at that time / back then'
     partOfSpeech: adverb
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Damals war ich noch jung.'
     exampleTranslation: 'I was still young back then.'
   - id: de-DE-A2-PAST-001-003
+    concept: 'to-experience'
     term: 'erleben'
     translation: 'to experience'
     partOfSpeech: verb
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Wir haben viel erlebt.'
     exampleTranslation: 'We experienced a lot.'
   - id: de-DE-A2-PAST-001-004
+    concept: 'trip'
     term: 'Reise'
     translation: 'trip'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Wir haben eine tolle Reise gemacht.'
     exampleTranslation: 'We had a great trip.'
   - id: de-DE-A2-PAST-001-005
+    concept: 'to-visit'
     term: 'besuchen'
     translation: 'to visit'
     partOfSpeech: verb
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Ich habe meine Großeltern besucht.'
     exampleTranslation: 'I visited my grandparents.'
   - id: de-DE-A2-PAST-001-006
+    concept: 'to-see'
     term: 'sehen'
     translation: 'to see'
     partOfSpeech: verb

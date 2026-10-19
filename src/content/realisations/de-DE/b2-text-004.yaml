@@ -2,6 +2,7 @@ nodeId: B2-TEXT-004
 lang: de-DE
 vocabulary:
   - id: de-DE-B2-TEXT-004-001
+    concept: 'conclusion'
     term: 'Schlussfolgerung'
     translation: 'conclusion'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Die Schlussfolgerung war logisch.'
     exampleTranslation: 'The conclusion was logical.'
   - id: de-DE-B2-TEXT-004-002
+    concept: 'to-recognize'
     term: 'erkennen'
     translation: 'to recognize'
     partOfSpeech: verb
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Ich kann die Schlussfolgerung erkennen.'
     exampleTranslation: 'I can recognize the conclusion.'
   - id: de-DE-B2-TEXT-004-003
+    concept: 'argumentative-text'
     term: 'Argumentationstext'
     translation: 'argumentative text'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Der Argumentationstext war klar strukturiert.'
     exampleTranslation: 'The argumentative text was clearly structured.'
   - id: de-DE-B2-TEXT-004-004
+    concept: 'emphasis'
     term: 'Hervorhebung'
     translation: 'emphasis'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Die Hervorhebung war wichtig.'
     exampleTranslation: 'The emphasis was important.'
   - id: de-DE-B2-TEXT-004-005
+    concept: 'structure'
     term: 'Struktur'
     translation: 'structure'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Die Struktur war klar.'
     exampleTranslation: 'The structure was clear.'
   - id: de-DE-B2-TEXT-004-006
+    concept: 'to-understand'
     term: 'verstehen'
     translation: 'to understand'
     partOfSpeech: verb

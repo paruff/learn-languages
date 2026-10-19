@@ -2,6 +2,7 @@ nodeId: A1-FAMILY-001
 lang: de-DE
 vocabulary:
   - id: de-DE-A1-FAMILY-001-001
+    concept: 'mother'
     term: 'Mutter'
     translation: 'mother'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Meine Mutter heißt Anna.'
     exampleTranslation: 'My mother is called Anna.'
   - id: de-DE-A1-FAMILY-001-002
+    concept: 'father'
     term: 'Vater'
     translation: 'father'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Mein Vater ist Lehrer.'
     exampleTranslation: 'My father is a teacher.'
   - id: de-DE-A1-FAMILY-001-003
+    concept: 'brother'
     term: 'Bruder'
     translation: 'brother'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Mein Bruder ist zehn Jahre alt.'
     exampleTranslation: 'My brother is ten years old.'
   - id: de-DE-A1-FAMILY-001-004
+    concept: 'sister'
     term: 'Schwester'
     translation: 'sister'
     partOfSpeech: noun
@@ -30,12 +34,14 @@ vocabulary:
     example: 'Meine Schwester wohnt in Berlin.'
     exampleTranslation: 'My sister lives in Berlin.'
   - id: de-DE-A1-FAMILY-001-005
+    concept: 'tall'
     term: 'groß'
     translation: 'tall / big'
     partOfSpeech: adjective
     example: 'Mein Vater ist sehr groß.'
     exampleTranslation: 'My father is very tall.'
   - id: de-DE-A1-FAMILY-001-006
+    concept: 'small'
     term: 'klein'
     translation: 'small / short'
     partOfSpeech: adjective

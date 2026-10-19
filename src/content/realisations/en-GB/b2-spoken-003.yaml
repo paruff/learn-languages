@@ -2,6 +2,7 @@ nodeId: B2-SPOKEN-003
 lang: en-GB
 vocabulary:
   - id: en-GB-B2-SPOKEN-003-001
+    concept: 'to-understand-complex-speech'
     term: 'to understand complex speech'
     translation: 'compreender fala complexa'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'I can understand complex speech on abstract topics.'
     exampleTranslation: 'Consigo compreender fala complexa sobre temas abstratos.'
   - id: en-GB-B2-SPOKEN-003-002
+    concept: 'to-identify-main-ideas-in-speeches'
     term: 'to identify main ideas in speeches'
     translation: 'identificar ideias principais em discursos'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'I will identify main ideas in long speeches.'
     exampleTranslation: 'Vou identificar ideias principais em discursos longos.'
   - id: en-GB-B2-SPOKEN-003-003
+    concept: 'to-understand-abstract-argumentation'
     term: 'to understand abstract argumentation'
     translation: 'perceber argumentação abstrata'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'It is important to understand abstract argumentation in lectures.'
     exampleTranslation: 'É importante perceber argumentação abstrata em palestras.'
   - id: en-GB-B2-SPOKEN-003-004
+    concept: 'to-recognise-the-speaker-s-intention'
     term: "to recognise the speaker's intention"
     translation: 'reconhecer a intenção do orador'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: "I need to recognise the speaker's intention."
     exampleTranslation: 'Preciso de reconhecer a intenção do orador.'
   - id: en-GB-B2-SPOKEN-003-005
+    concept: 'to-interpret-the-intonation'
     term: 'to interpret the intonation'
     translation: 'interpretar a entoação'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'It is useful to interpret the intonation to understand the attitude.'
     exampleTranslation: 'É útil interpretar a entoação para perceber a atitude.'
   - id: en-GB-B2-SPOKEN-003-006
+    concept: 'to-make-inferences-from-speech'
     term: 'to make inferences from speech'
     translation: 'fazer inferências a partir da fala'
     partOfSpeech: phrase

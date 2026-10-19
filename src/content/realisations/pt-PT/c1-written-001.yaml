@@ -2,6 +2,7 @@ nodeId: C1-WRITTEN-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-C1-WRITTEN-001-001
+    concept: 'to-adapt-the-register-to-the-reader'
     term: 'adaptar o registo ao leitor'
     translation: 'to adapt the register to the reader'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'O cronista sabe adaptar o registo ao leitor do jornal.'
     exampleTranslation: 'The columnist knows how to adapt the register to the newspaper reader.'
   - id: pt-PT-C1-WRITTEN-001-002
+    concept: 'opinion-piece'
     term: 'texto de opinião'
     translation: 'opinion piece'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'O texto de opinião provocou uma resposta imediata dos leitores.'
     exampleTranslation: 'The opinion piece prompted an immediate response from readers.'
   - id: pt-PT-C1-WRITTEN-001-003
+    concept: 'argumentative-coherence'
     term: 'coerência argumentativa'
     translation: 'argumentative coherence'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'A coerência argumentativa do ensaio é notável.'
     exampleTranslation: 'The argumentative coherence of the essay is remarkable.'
   - id: pt-PT-C1-WRITTEN-001-004
+    concept: 'to-dismantle-an-argument'
     term: 'desmontar um argumento'
     translation: 'to dismantle an argument'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'No terceiro parágrafo, desmonta o argumento da eficiência económica.'
     exampleTranslation: 'In the third paragraph, he dismantles the argument of economic efficiency.'
   - id: pt-PT-C1-WRITTEN-001-005
+    concept: 'critical-eye'
     term: 'olhar crítico'
     translation: 'critical eye'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'O texto apresenta um olhar crítico sobre a política urbana.'
     exampleTranslation: 'The text offers a critical eye on urban policy.'
   - id: pt-PT-C1-WRITTEN-001-006
+    concept: 'personal-signature'
     term: 'assinatura pessoal'
     translation: 'personal signature'
     partOfSpeech: noun

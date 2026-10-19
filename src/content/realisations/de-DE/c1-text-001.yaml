@@ -2,6 +2,7 @@ nodeId: C1-TEXT-001
 lang: de-DE
 vocabulary:
   - id: de-DE-C1-TEXT-001-001
+    concept: 'independence'
     term: 'Unabhängigkeit'
     translation: 'independence'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Er liest mit großer Unabhängigkeit.'
     exampleTranslation: 'He reads with a great degree of independence.'
   - id: de-DE-C1-TEXT-001-002
+    concept: 'topic-related'
     term: 'themenbezogen'
     translation: 'topic-related'
     partOfSpeech: adjective
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Die Texte sind themenbezogen.'
     exampleTranslation: 'The texts are topic-related.'
   - id: de-DE-C1-TEXT-001-003
+    concept: 'text-comprehension'
     term: 'Textverständnis'
     translation: 'text comprehension'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Mein Textverständnis ist gut.'
     exampleTranslation: 'My text comprehension is good.'
   - id: de-DE-C1-TEXT-001-004
+    concept: 'independent'
     term: 'unabhängig'
     translation: 'independent'
     partOfSpeech: adjective
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Ich lese unabhängig von Hilfsmitteln.'
     exampleTranslation: 'I read independently of aids.'
   - id: de-DE-C1-TEXT-001-005
+    concept: 'main-content'
     term: 'Hauptinhalt'
     translation: 'main content'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Was ist der Hauptinhalt?'
     exampleTranslation: 'What is the main content?'
   - id: de-DE-C1-TEXT-001-006
+    concept: 'to-understand'
     term: 'verstehen'
     translation: 'to understand'
     partOfSpeech: verb

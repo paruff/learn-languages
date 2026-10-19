@@ -2,6 +2,7 @@ nodeId: C1-SPOKEN-004
 lang: de-DE
 vocabulary:
   - id: de-DE-C1-SPOKEN-004-001
+    concept: 'multiple-choice'
     term: 'Mehrfachauswahl'
     translation: 'multiple choice'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Die Prüfung enthielt eine Mehrfachauswahl.'
     exampleTranslation: 'The exam contained a multiple choice section.'
   - id: de-DE-C1-SPOKEN-004-002
+    concept: 'exam'
     term: 'Prüfung'
     translation: 'exam'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Die Prüfung war anspruchsvoll.'
     exampleTranslation: 'The exam was demanding.'
   - id: de-DE-C1-SPOKEN-004-003
+    concept: 'detail-questions'
     term: 'Detailfragen'
     translation: 'detail questions'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Es gab viele Detailfragen.'
     exampleTranslation: 'There were many detail questions.'
   - id: de-DE-C1-SPOKEN-004-004
+    concept: 'main-idea'
     term: 'Hauptgedanke'
     translation: 'main idea'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Was ist der Hauptgedanke des Textes?'
     exampleTranslation: 'What is the main idea of the text?'
   - id: de-DE-C1-SPOKEN-004-005
+    concept: 'to-recognize'
     term: 'erkennen'
     translation: 'to recognize'
     partOfSpeech: verb
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Ich kann die Hauptgedanken erkennen.'
     exampleTranslation: 'I can recognize the main ideas.'
   - id: de-DE-C1-SPOKEN-004-006
+    concept: 'detail-question'
     term: 'Detailfrage'
     translation: 'detail question'
     partOfSpeech: noun

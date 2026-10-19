@@ -2,6 +2,7 @@ nodeId: B2-WRITTEN-002
 lang: en-GB
 vocabulary:
   - id: en-GB-B2-WRITTEN-002-001
+    concept: 'to-write-an-essay'
     term: 'to write an essay'
     translation: 'escrever um ensaio'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'I will write an essay that develops an argument.'
     exampleTranslation: 'Vou escrever um ensaio que desenvolva um argumento.'
   - id: en-GB-B2-WRITTEN-002-002
+    concept: 'to-elaborate-a-report'
     term: 'to elaborate a report'
     translation: 'elaborar um relatório'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'I need to elaborate a detailed report.'
     exampleTranslation: 'Preciso de elaborar um relatório detalhado.'
   - id: en-GB-B2-WRITTEN-002-003
+    concept: 'to-develop-the-thesis'
     term: 'to develop the thesis'
     translation: 'desenvolver a tese'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'It is important to develop the thesis with arguments.'
     exampleTranslation: 'É importante desenvolver a tese com argumentos.'
   - id: en-GB-B2-WRITTEN-002-004
+    concept: 'to-present-supporting-data'
     term: 'to present supporting data'
     translation: 'apresentar dados de suporte'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'I will present supporting data in the essay.'
     exampleTranslation: 'Vou apresentar dados de suporte no ensaio.'
   - id: en-GB-B2-WRITTEN-002-005
+    concept: 'to-use-academic-vocabulary'
     term: 'to use academic vocabulary'
     translation: 'usar vocabulário académico'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'It is useful to use academic vocabulary in the report.'
     exampleTranslation: 'É útil usar vocabulário académico no relatório.'
   - id: en-GB-B2-WRITTEN-002-006
+    concept: 'to-structure-the-written-argumentation'
     term: 'to structure the written argumentation'
     translation: 'estruturar a argumentação escrita'
     partOfSpeech: phrase

@@ -2,30 +2,35 @@ nodeId: A1-LOC-001
 lang: de-DE
 vocabulary:
   - id: de-DE-A1-LOC-001-001
+    concept: 'where-is'
     term: 'Wo ist...?'
     translation: 'Where is...?'
     partOfSpeech: phrase
     example: 'Wo ist der Bahnhof?'
     exampleTranslation: 'Where is the train station?'
   - id: de-DE-A1-LOC-001-002
+    concept: 'left'
     term: 'links'
     translation: 'left'
     partOfSpeech: adverb
     example: 'Gehen Sie links.'
     exampleTranslation: 'Go left.'
   - id: de-DE-A1-LOC-001-003
+    concept: 'right'
     term: 'rechts'
     translation: 'right'
     partOfSpeech: adverb
     example: 'Das Restaurant ist rechts.'
     exampleTranslation: 'The restaurant is on the right.'
   - id: de-DE-A1-LOC-001-004
+    concept: 'straight-ahead'
     term: 'geradeaus'
     translation: 'straight ahead'
     partOfSpeech: adverb
     example: 'Gehen Sie geradeaus.'
     exampleTranslation: 'Go straight ahead.'
   - id: de-DE-A1-LOC-001-005
+    concept: 'street'
     term: 'Straße'
     translation: 'street'
     partOfSpeech: noun
@@ -33,6 +38,7 @@ vocabulary:
     example: 'Die Straße ist lang.'
     exampleTranslation: 'The street is long.'
   - id: de-DE-A1-LOC-001-006
+    concept: 'away'
     term: 'entfernt'
     translation: 'away / distant'
     partOfSpeech: adjective

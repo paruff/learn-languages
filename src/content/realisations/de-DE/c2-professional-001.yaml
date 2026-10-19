@@ -2,6 +2,7 @@ nodeId: C2-PROFESSIONAL-001
 lang: de-DE
 vocabulary:
   - id: de-DE-C2-PROFESSIONAL-001-001
+    concept: 'company'
     term: 'Betrieb'
     translation: 'company / operation'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Der Betrieb ist sehr groß.'
     exampleTranslation: 'The company is very large.'
   - id: de-DE-C2-PROFESSIONAL-001-002
+    concept: 'company-enterprise'
     term: 'Unternehmen'
     translation: 'company / enterprise'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Das Unternehmen investiert in Innovation.'
     exampleTranslation: 'The company invests in innovation.'
   - id: de-DE-C2-PROFESSIONAL-001-003
+    concept: 'presentation'
     term: 'Präsentation'
     translation: 'presentation'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Die Präsentation war professionell.'
     exampleTranslation: 'The presentation was professional.'
   - id: de-DE-C2-PROFESSIONAL-001-004
+    concept: 'specialist-audience'
     term: 'Fachpublikum'
     translation: 'specialist audience'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Die Präsentation war für ein Fachpublikum.'
     exampleTranslation: 'The presentation was for a specialist audience.'
   - id: de-DE-C2-PROFESSIONAL-001-005
+    concept: 'professional'
     term: 'beruflich'
     translation: 'professional'
     partOfSpeech: adjective
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Die berufliche Entwicklung ist wichtig.'
     exampleTranslation: 'Professional development is important.'
   - id: de-DE-C2-PROFESSIONAL-001-006
+    concept: 'summary'
     term: 'Zusammenfassung'
     translation: 'summary'
     partOfSpeech: noun

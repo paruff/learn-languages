@@ -2,12 +2,14 @@ nodeId: A2-NEWS-002
 lang: pt-PT
 vocabulary:
   - id: pt-PT-A2-NEWS-002-001
+    concept: 'to-happen'
     term: 'acontecer'
     translation: 'to happen'
     partOfSpeech: verb
     example: 'O que aconteceu na cidade?'
     exampleTranslation: 'What happened in the city?'
   - id: pt-PT-A2-NEWS-002-002
+    concept: 'report'
     term: 'reportagem'
     translation: 'report'
     partOfSpeech: noun
@@ -15,6 +17,7 @@ vocabulary:
     example: 'A reportagem foi muito detalhada.'
     exampleTranslation: 'The report was very detailed.'
   - id: pt-PT-A2-NEWS-002-003
+    concept: 'radio'
     term: 'rádio'
     translation: 'radio'
     partOfSpeech: noun
@@ -24,6 +27,7 @@ vocabulary:
     imageUrl: 'radio.webp'
     imageAlt: 'A close-up of a vintage radio dial and knobs'
   - id: pt-PT-A2-NEWS-002-004
+    concept: 'event'
     term: 'evento'
     translation: 'event'
     partOfSpeech: noun
@@ -31,12 +35,14 @@ vocabulary:
     example: 'O evento aconteceu ontem.'
     exampleTranslation: 'The event happened yesterday.'
   - id: pt-PT-A2-NEWS-002-005
+    concept: 'to-describe'
     term: 'descrever'
     translation: 'to describe'
     partOfSpeech: verb
     example: 'Consigo descrever o que vi.'
     exampleTranslation: 'I can describe what I saw.'
   - id: pt-PT-A2-NEWS-002-006
+    concept: 'to-explain'
     term: 'explicar'
     translation: 'to explain'
     partOfSpeech: verb

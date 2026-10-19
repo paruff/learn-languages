@@ -2,36 +2,42 @@ nodeId: B1-CORRESPOND-001
 lang: en-GB
 vocabulary:
   - id: en-GB-B1-CORRESPOND-001-001
+    concept: 'a-personal-letter'
     term: 'a personal letter'
     translation: 'une lettre personnelle'
     partOfSpeech: phrase
     example: 'She writes a personal letter every month.'
     exampleTranslation: 'Elle écrit une lettre personnelle chaque mois.'
   - id: en-GB-B1-CORRESPOND-001-002
+    concept: 'a-pen-friend'
     term: 'a pen friend'
     translation: 'un correspondant'
     partOfSpeech: phrase
     example: 'I have a pen friend in Lyon.'
     exampleTranslation: 'J’ai un correspondant à Lyon.'
   - id: en-GB-B1-CORRESPOND-001-003
+    concept: 'to-keep-up-a-correspondence'
     term: 'to keep up a correspondence'
     translation: 'entretenir une correspondance'
     partOfSpeech: phrase
     example: 'They kept up a correspondence for years.'
     exampleTranslation: 'Ils ont entretenu une correspondance pendant des années.'
   - id: en-GB-B1-CORRESPOND-001-004
+    concept: 'wishes'
     term: 'wishes'
     translation: 'des souhaits'
     partOfSpeech: noun
     example: 'The letter expressed her wishes for the future.'
     exampleTranslation: 'La lettre exprimait ses souhaits pour l’avenir.'
   - id: en-GB-B1-CORRESPOND-001-005
+    concept: 'to-give-news'
     term: 'to give news'
     translation: 'donner des nouvelles'
     partOfSpeech: phrase
     example: 'He wrote to give news after the move.'
     exampleTranslation: 'Il a écrit pour donner des nouvelles après le déménagement.'
   - id: en-GB-B1-CORRESPOND-001-006
+    concept: 'feelings'
     term: 'feelings'
     translation: 'des sentiments'
     partOfSpeech: noun

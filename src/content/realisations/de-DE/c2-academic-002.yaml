@@ -2,6 +2,7 @@ nodeId: C2-ACADEMIC-002
 lang: de-DE
 vocabulary:
   - id: de-DE-C2-ACADEMIC-002-001
+    concept: 'discourse'
     term: 'Diskurs'
     translation: 'discourse'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Der wissenschaftliche Diskurs ist komplex.'
     exampleTranslation: 'The academic discourse is complex.'
   - id: de-DE-C2-ACADEMIC-002-002
+    concept: 'thesis'
     term: 'These'
     translation: 'thesis'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Die These ist gut begründet.'
     exampleTranslation: 'The thesis is well-founded.'
   - id: de-DE-C2-ACADEMIC-002-003
+    concept: 'argumentation'
     term: 'Argumentation'
     translation: 'argumentation'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Die Argumentation war systematisch und überzeugend.'
     exampleTranslation: 'The argumentation was systematic and convincing.'
   - id: de-DE-C2-ACADEMIC-002-004
+    concept: 'context'
     term: 'Zusammenhang'
     translation: 'context / coherence'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Der Zusammenhang zwischen den Fakten war klar.'
     exampleTranslation: 'The context between the facts was clear.'
   - id: de-DE-C2-ACADEMIC-002-005
+    concept: 'primary-source'
     term: 'Primärquelle'
     translation: 'primary source'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Die Primärquelle war eine alte Handschrift.'
     exampleTranslation: 'The primary source was an old manuscript.'
   - id: de-DE-C2-ACADEMIC-002-006
+    concept: 'research-gap'
     term: 'Forschungslücke'
     translation: 'research gap'
     partOfSpeech: noun

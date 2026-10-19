@@ -2,6 +2,7 @@ nodeId: B2-SPOKEN-001
 lang: en-GB
 vocabulary:
   - id: en-GB-B2-SPOKEN-001-001
+    concept: 'to-understand-extended-speech'
     term: 'to understand extended speech'
     translation: 'compreender discurso extenso'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'I can understand extended speech in lectures.'
     exampleTranslation: 'Consigo compreender discurso extenso em palestras.'
   - id: en-GB-B2-SPOKEN-001-002
+    concept: 'to-follow-lines-of-argumentation'
     term: 'to follow lines of argumentation'
     translation: 'seguir linhas de argumentação'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'It is important to follow complex lines of argumentation.'
     exampleTranslation: 'É importante seguir linhas de argumentação complexas.'
   - id: en-GB-B2-SPOKEN-001-003
+    concept: 'to-identify-discussion-topics'
     term: 'to identify discussion topics'
     translation: 'identificar temas de discussão'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'I will identify the discussion topics in the lecture.'
     exampleTranslation: 'Vou identificar os temas de discussão na palestra.'
   - id: en-GB-B2-SPOKEN-001-004
+    concept: 'to-understand-the-speech-structure'
     term: 'to understand the speech structure'
     translation: 'perceber a estrutura do discurso'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'I need to understand the speech structure.'
     exampleTranslation: 'Preciso de perceber a estrutura do discurso.'
   - id: en-GB-B2-SPOKEN-001-005
+    concept: 'to-note-the-intonation'
     term: 'to note the intonation'
     translation: 'notar a entoação'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'It is useful to note the intonation to understand the attitude.'
     exampleTranslation: 'É útil notar a entoação para perceber a atitude.'
   - id: en-GB-B2-SPOKEN-001-006
+    concept: 'to-extract-relevant-information'
     term: 'to extract relevant information'
     translation: 'extrair informações relevantes'
     partOfSpeech: phrase

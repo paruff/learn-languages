@@ -2,6 +2,7 @@ nodeId: A2-PAST-004
 lang: de-DE
 vocabulary:
   - id: de-DE-A2-PAST-004-001
+    concept: 'to-compare'
     term: 'vergleichen'
     translation: 'to compare'
     partOfSpeech: verb
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Ich vergleiche die Vergangenheit mit der Gegenwart.'
     exampleTranslation: 'I compare the past with the present.'
   - id: de-DE-A2-PAST-004-002
+    concept: 'past'
     term: 'Vergangenheit'
     translation: 'past'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'In der Vergangenheit war alles anders.'
     exampleTranslation: 'In the past everything was different.'
   - id: de-DE-A2-PAST-004-003
+    concept: 'present'
     term: 'Gegenwart'
     translation: 'present'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Heute ist die Gegenwart.'
     exampleTranslation: 'Today is the present.'
   - id: de-DE-A2-PAST-004-004
+    concept: 'back-then'
     term: 'damals'
     translation: 'back then'
     partOfSpeech: adverb
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Damals hatte ich mehr Zeit.'
     exampleTranslation: 'I had more time back then.'
   - id: de-DE-A2-PAST-004-005
+    concept: 'today'
     term: 'heute'
     translation: 'today'
     partOfSpeech: adverb
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Heute ist alles schneller.'
     exampleTranslation: 'Everything is faster today.'
   - id: de-DE-A2-PAST-004-006
+    concept: 'different'
     term: 'unterschiedlich'
     translation: 'different'
     partOfSpeech: adjective

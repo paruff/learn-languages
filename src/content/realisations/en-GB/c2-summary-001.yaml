@@ -2,6 +2,7 @@ nodeId: C2-SUMMARY-001
 lang: en-GB
 vocabulary:
   - id: en-GB-C2-SUMMARY-001-001
+    concept: 'concise-summary'
     term: 'concise summary'
     translation: 'síntese concisa'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'I make a concise summary of extensive information.'
     exampleTranslation: 'Faço uma síntese concisa de informações extensas.'
   - id: en-GB-C2-SUMMARY-001-002
+    concept: 'extended-sources'
     term: 'extended sources'
     translation: 'fontes alargadas'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'I consult extended sources to produce a faithful summary.'
     exampleTranslation: 'Consulto fontes alargadas para produzir uma síntese fiel.'
   - id: en-GB-C2-SUMMARY-001-003
+    concept: 'diversified-argumentation'
     term: 'diversified argumentation'
     translation: 'argumentação diversificada'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'I reconstruct diversified argumentation in a coherent way.'
     exampleTranslation: 'Reconstruo a argumentação diversificada de forma coerente.'
   - id: en-GB-C2-SUMMARY-001-004
+    concept: 'organised-presentation'
     term: 'organised presentation'
     translation: 'apresentação organizada'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'My presentation is always organised and clear.'
     exampleTranslation: 'A minha apresentação é sempre organizada e clara.'
   - id: en-GB-C2-SUMMARY-001-005
+    concept: 'essential-points'
     term: 'essential points'
     translation: 'pontos essenciais'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'I always select the essential points from each source.'
     exampleTranslation: 'Seleciono sempre os pontos essenciais de cada fonte.'
   - id: en-GB-C2-SUMMARY-001-006
+    concept: 'faithful-reconstruction'
     term: 'faithful reconstruction'
     translation: 'reconstrução fiel'
     partOfSpeech: phrase

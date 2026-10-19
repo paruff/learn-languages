@@ -2,6 +2,7 @@ nodeId: C1-NUANCED-001
 lang: es-ES
 vocabulary:
   - id: es-ES-C1-NUANCED-001-001
+    concept: 'disagreement'
     term: 'desacuerdo'
     translation: 'disagreement'
     partOfSpeech: noun
@@ -9,12 +10,14 @@ vocabulary:
     example: 'Puedo manejar un desacuerdo con sutileza.'
     exampleTranslation: 'I can handle a disagreement with nuance.'
   - id: es-ES-C1-NUANCED-001-002
+    concept: 'to-adjust-the-expression'
     term: 'ajustar la expresión'
     translation: 'to adjust the expression'
     partOfSpeech: phrase
     example: 'Sé ajustar la expresión según el interlocutor.'
     exampleTranslation: 'I know how to adjust the expression according to the interlocutor.'
   - id: es-ES-C1-NUANCED-001-003
+    concept: 'stakes'
     term: 'consecuencias'
     translation: 'stakes / consequences'
     partOfSpeech: noun
@@ -22,6 +25,7 @@ vocabulary:
     example: 'Adapto mi lenguaje según las consecuencias del tema.'
     exampleTranslation: 'I adapt my language according to the stakes of the topic.'
   - id: es-ES-C1-NUANCED-001-004
+    concept: 'delicacy'
     term: 'delicadeza'
     translation: 'delicacy'
     partOfSpeech: noun
@@ -29,6 +33,7 @@ vocabulary:
     example: 'La delicadeza es necesaria en conversaciones difíciles.'
     exampleTranslation: 'Delicacy is necessary in difficult conversations.'
   - id: es-ES-C1-NUANCED-001-005
+    concept: 'verbal-prudence'
     term: 'prudencia verbal'
     translation: 'verbal prudence'
     partOfSpeech: phrase
@@ -36,6 +41,7 @@ vocabulary:
     example: 'La prudencia verbal evita malentendidos.'
     exampleTranslation: 'Verbal prudence prevents misunderstandings.'
   - id: es-ES-C1-NUANCED-001-006
+    concept: 'to-weigh-up'
     term: 'sopesar'
     translation: 'to weigh up'
     partOfSpeech: verb

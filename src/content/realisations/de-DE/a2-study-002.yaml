@@ -2,6 +2,7 @@ nodeId: A2-STUDY-002
 lang: de-DE
 vocabulary:
   - id: de-DE-A2-STUDY-002-001
+    concept: 'education'
     term: 'Bildung'
     translation: 'education'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Bildung ist sehr wichtig in Deutschland.'
     exampleTranslation: 'Education is very important in Germany.'
   - id: de-DE-A2-STUDY-002-002
+    concept: 'school'
     term: 'Schule'
     translation: 'school'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Ich gehe zur Schule.'
     exampleTranslation: 'I go to school.'
   - id: de-DE-A2-STUDY-002-003
+    concept: 'teacher'
     term: 'Lehrer'
     translation: 'teacher'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Mein Lehrer ist sehr nett.'
     exampleTranslation: 'My teacher is very nice.'
   - id: de-DE-A2-STUDY-002-004
+    concept: 'report-card'
     term: 'Zeugnis'
     translation: 'report card'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Ich habe ein gutes Zeugnis bekommen.'
     exampleTranslation: 'I got a good report card.'
   - id: de-DE-A2-STUDY-002-005
+    concept: 'homework'
     term: 'Hausaufgabe'
     translation: 'homework'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Ich muss meine Hausaufgaben machen.'
     exampleTranslation: 'I have to do my homework.'
   - id: de-DE-A2-STUDY-002-006
+    concept: 'class'
     term: 'Klasse'
     translation: 'class'
     partOfSpeech: noun

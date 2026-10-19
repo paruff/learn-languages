@@ -2,18 +2,21 @@ nodeId: A2-CULT-003
 lang: pt-PT
 vocabulary:
   - id: pt-PT-A2-CULT-003-001
+    concept: 'i-like'
     term: 'gosto de'
     translation: 'I like'
     partOfSpeech: phrase
     example: 'Gosto de ouvir fado.'
     exampleTranslation: 'I like listening to fado.'
   - id: pt-PT-A2-CULT-003-002
+    concept: 'it-seems-interesting-to-me'
     term: 'parece-me interessante'
     translation: 'it seems interesting to me'
     partOfSpeech: phrase
     example: 'Parece-me interessante a cultura portuguesa.'
     exampleTranslation: 'Portuguese culture seems interesting to me.'
   - id: pt-PT-A2-CULT-003-003
+    concept: 'important'
     term: 'importante'
     translation: 'important'
     partOfSpeech: adjective
@@ -21,18 +24,21 @@ vocabulary:
     example: 'É importante preservar as tradições.'
     exampleTranslation: 'It is important to preserve traditions.'
   - id: pt-PT-A2-CULT-003-004
+    concept: 'to-value'
     term: 'valorizar'
     translation: 'to value'
     partOfSpeech: verb
     example: 'Devemos valorizar a nossa cultura.'
     exampleTranslation: 'We should value our culture.'
   - id: pt-PT-A2-CULT-003-005
+    concept: 'to-appreciate'
     term: 'apreciar'
     translation: 'to appreciate'
     partOfSpeech: verb
     example: 'Aprecio a arte portuguesa.'
     exampleTranslation: 'I appreciate Portuguese art.'
   - id: pt-PT-A2-CULT-003-006
+    concept: 'interesting'
     term: 'interessante'
     translation: 'interesting'
     partOfSpeech: adjective

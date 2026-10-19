@@ -2,6 +2,7 @@ nodeId: B2-WRITTEN-001
 lang: de-DE
 vocabulary:
   - id: de-DE-B2-WRITTEN-001-001
+    concept: 'text'
     term: 'Text'
     translation: 'text'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Ich schreibe einen klaren Text.'
     exampleTranslation: 'I am writing a clear text.'
   - id: de-DE-B2-WRITTEN-001-002
+    concept: 'topic'
     term: 'Thema'
     translation: 'topic'
     partOfSpeech: noun
@@ -16,13 +18,15 @@ vocabulary:
     example: 'Ich schreibe über ein breites Thema.'
     exampleTranslation: 'I am writing about a wide range of topics.'
   - id: de-DE-B2-WRITTEN-001-003
-    term: 'Detailiert'
+    concept: 'detailed'
+    term: 'detailliert'
     translation: 'detailed'
     partOfSpeech: adjective
     gender: n/a
-    example: 'Der Text war sehr detailiert.'
+    example: 'Der Text war sehr detailliert.'
     exampleTranslation: 'The text was very detailed.'
   - id: de-DE-B2-WRITTEN-001-004
+    concept: 'structured'
     term: 'strukturiert'
     translation: 'structured'
     partOfSpeech: adjective
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Der Text war klar strukturiert.'
     exampleTranslation: 'The text was clearly structured.'
   - id: de-DE-B2-WRITTEN-001-005
+    concept: 'to-write'
     term: 'verfassen'
     translation: 'to write / to compose'
     partOfSpeech: verb
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Ich verfasse einen Essay über das Thema.'
     exampleTranslation: 'I am writing an essay on the topic.'
   - id: de-DE-B2-WRITTEN-001-006
+    concept: 'main-idea'
     term: 'Hauptgedanke'
     translation: 'main idea'
     partOfSpeech: noun

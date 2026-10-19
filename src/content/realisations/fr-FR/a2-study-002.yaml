@@ -2,6 +2,7 @@ nodeId: A2-STUDY-002
 lang: fr-FR
 vocabulary:
   - id: fr-FR-A2-STUDY-002-001
+    concept: 'school'
     term: 'école'
     translation: 'school'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Mon école était grande.'
     exampleTranslation: 'My school was large.'
   - id: fr-FR-A2-STUDY-002-002
+    concept: 'teacher'
     term: 'professeur'
     translation: 'teacher'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Mon professeur de français était très bon.'
     exampleTranslation: 'My French teacher was very good.'
   - id: fr-FR-A2-STUDY-002-003
+    concept: 'subject'
     term: 'matière'
     translation: 'subject'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Ma matière préférée était l’histoire.'
     exampleTranslation: 'My favourite subject was history.'
   - id: fr-FR-A2-STUDY-002-004
+    concept: 'class'
     term: 'classe'
     translation: 'class'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Ma classe comptait vingt élèves.'
     exampleTranslation: 'My class had twenty students.'
   - id: fr-FR-A2-STUDY-002-005
+    concept: 'grades'
     term: 'notes'
     translation: 'grades'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'J’ai eu de bonnes notes au dernier examen.'
     exampleTranslation: 'I got good grades in the last exam.'
   - id: fr-FR-A2-STUDY-002-006
+    concept: 'to-repeat'
     term: 'redoubler'
     translation: 'to repeat'
     partOfSpeech: verb

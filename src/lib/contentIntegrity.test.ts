@@ -1,5 +1,12 @@
 import { describe, it, expect } from 'vitest';
-import { checkRealisationReferences, checkVocabularyParity } from './contentIntegrity';
+import {
+  checkRealisationReferences,
+  checkVocabularyParity,
+  checkConcepts,
+  checkPairAlignment,
+  glossOf,
+  normaliseGloss,
+} from './contentIntegrity';
 
 describe('checkRealisationReferences', () => {
   it('passes when every realisation references an existing cefr-node', () => {
@@ -98,5 +105,128 @@ describe('checkVocabularyParity', () => {
 
   it('returns an empty list for no realisations at all', () => {
     expect(checkVocabularyParity([])).toEqual([]);
+  });
+});
+
+describe('concept integrity checks', () => {
+  it('checkConcepts reports an item with no concept', () => {
+    const errors = checkConcepts([
+      {
+        file: 'realisations/pt-PT/a1-body-001.yaml',
+        nodeId: 'A1-BODY-001',
+        lang: 'pt-PT',
+        items: [
+          {
+            id: 'pt-PT-A1-BODY-001-004',
+            concept: undefined,
+            term: 'olho',
+            translation: 'eye',
+          },
+        ],
+      },
+    ]);
+
+    expect(errors.some((line) => line.includes('realisations/pt-PT/a1-body-001.yaml'))).toBe(true);
+    expect(errors.some((line) => line.includes('pt-PT-A1-BODY-001-004'))).toBe(true);
+  });
+
+  it('checkConcepts rejects a non-kebab concept', () => {
+    const errors = checkConcepts([
+      {
+        file: 'x.yaml',
+        nodeId: 'A1-BODY-001',
+        lang: 'pt-PT',
+        items: [{ id: 'x', concept: 'Eye', term: 'olho', translation: 'eye' }],
+      },
+    ]);
+
+    expect(errors.some((line) => line.includes('Eye'))).toBe(true);
+  });
+
+  it('checkConcepts reports duplicate concepts in one realisation', () => {
+    const errors = checkConcepts([
+      {
+        file: 'realisations/pt-PT/a1-body-001.yaml',
+        nodeId: 'A1-BODY-001',
+        lang: 'pt-PT',
+        items: [
+          { id: 'x-001', concept: 'eye', term: 'olho', translation: 'eye' },
+          { id: 'x-002', concept: 'eye', term: 'vista', translation: 'eye' },
+        ],
+      },
+    ]);
+
+    expect(errors.some((line) => line.includes('eye'))).toBe(true);
+    expect(errors.some((line) => line.includes('realisations/pt-PT/a1-body-001.yaml'))).toBe(true);
+  });
+
+  it('checkPairAlignment flags same-concept items whose glosses differ', () => {
+    const errors = checkPairAlignment([
+      {
+        file: 'realisations/pt-PT/a1-body-001.yaml',
+        nodeId: 'A1-BODY-001',
+        lang: 'pt-PT',
+        items: [{ id: 'pt', concept: 'eye', term: 'olho', translation: 'eye' }],
+      },
+      {
+        file: 'realisations/de-DE/a1-body-001.yaml',
+        nodeId: 'A1-BODY-001',
+        lang: 'de-DE',
+        items: [{ id: 'de', concept: 'eye', term: 'Bauch', translation: 'belly' }],
+      },
+    ]);
+
+    expect(errors).toHaveLength(1);
+    expect(errors[0]).toContain('A1-BODY-001');
+    expect(errors[0]).toContain('eye');
+    expect(errors[0]).toContain('pt-PT');
+    expect(errors[0]).toContain('de-DE');
+  });
+
+  it('checkPairAlignment accepts overlapping alternatives', () => {
+    const errors = checkPairAlignment([
+      {
+        file: 'realisations/en-GB/a1-shop-001.yaml',
+        nodeId: 'A1-SHOP-001',
+        lang: 'en-GB',
+        items: [{ id: 'en', concept: 'till', term: 'till', translation: 'caixa' }],
+      },
+      {
+        file: 'realisations/de-DE/a1-shop-001.yaml',
+        nodeId: 'A1-SHOP-001',
+        lang: 'de-DE',
+        items: [{ id: 'de', concept: 'till', term: 'Kasse', translation: 'till / cash register' }],
+      },
+    ]);
+
+    expect(errors).toEqual([]);
+  });
+
+  it('checkPairAlignment uses term as the gloss for en-GB', () => {
+    const errors = checkPairAlignment([
+      {
+        file: 'realisations/en-GB/a1-body-001.yaml',
+        nodeId: 'A1-BODY-001',
+        lang: 'en-GB',
+        items: [{ id: 'en', concept: 'eye', term: 'eye', translation: 'olho' }],
+      },
+      {
+        file: 'realisations/pt-PT/a1-body-001.yaml',
+        nodeId: 'A1-BODY-001',
+        lang: 'pt-PT',
+        items: [{ id: 'pt', concept: 'eye', term: 'olho', translation: 'eye' }],
+      },
+    ]);
+
+    expect(errors).toEqual([]);
+  });
+
+  it('normaliseGloss strips punctuation and infinitive marker', () => {
+    expect(normaliseGloss('To pay (for)...')).toEqual(['pay']);
+  });
+
+  it('glossOf uses term for en-GB and translation for other languages', () => {
+    expect(glossOf('en-GB', { term: 'eye', translation: 'olho' })).toBe('eye');
+    expect(glossOf('pt-PT', { term: 'olho', translation: 'eye' })).toBe('eye');
   });
 });

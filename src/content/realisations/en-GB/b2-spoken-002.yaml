@@ -2,6 +2,7 @@ nodeId: B2-SPOKEN-002
 lang: en-GB
 vocabulary:
   - id: en-GB-B2-SPOKEN-002-001
+    concept: 'to-understand-tv-news'
     term: 'to understand TV news'
     translation: 'compreender notícias de TV'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'I can understand TV news on current topics.'
     exampleTranslation: 'Consigo compreender notícias de TV sobre temas atuais.'
   - id: en-GB-B2-SPOKEN-002-002
+    concept: 'to-follow-current-affairs-programmes'
     term: 'to follow current affairs programmes'
     translation: 'acompanhar programas de atualidades'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'I will follow current affairs programmes this week.'
     exampleTranslation: 'Vou acompanhar programas de atualidades esta semana.'
   - id: en-GB-B2-SPOKEN-002-003
+    concept: 'to-understand-films-without-subtitles'
     term: 'to understand films without subtitles'
     translation: 'compreender filmes sem legendas'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'I need to understand films without subtitles.'
     exampleTranslation: 'Preciso de compreender filmes sem legendas.'
   - id: en-GB-B2-SPOKEN-002-004
+    concept: 'to-identify-the-main-theme'
     term: 'to identify the main theme'
     translation: 'identificar o tema principal'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'It is important to identify the main theme of the report.'
     exampleTranslation: 'É importante identificar o tema principal da reportagem.'
   - id: en-GB-B2-SPOKEN-002-005
+    concept: 'to-understand-cultural-references'
     term: 'to understand cultural references'
     translation: 'perceber referências culturais'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'It is useful to understand cultural references in the news.'
     exampleTranslation: 'É útil perceber referências culturais no noticiário.'
   - id: en-GB-B2-SPOKEN-002-006
+    concept: 'to-synthesise-oral-information'
     term: 'to synthesise oral information'
     translation: 'sintetizar informação oral'
     partOfSpeech: phrase

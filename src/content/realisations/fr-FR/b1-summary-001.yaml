@@ -2,12 +2,14 @@ nodeId: B1-SUMMARY-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-B1-SUMMARY-001-001
+    concept: 'to-summarise'
     term: 'résumer'
     translation: 'to summarise'
     partOfSpeech: verb
     example: 'Veuillez résumer les conclusions principales.'
     exampleTranslation: 'Please summarise the main findings.'
   - id: fr-FR-B1-SUMMARY-001-002
+    concept: 'a-factual-source'
     term: 'une source factuelle'
     translation: 'a factual source'
     partOfSpeech: phrase
@@ -15,24 +17,28 @@ vocabulary:
     example: 'Vérifiez chaque source factuelle avant d’écrire.'
     exampleTranslation: 'Check every factual source before writing.'
   - id: fr-FR-B1-SUMMARY-001-003
+    concept: 'to-collate-information'
     term: 'rassembler des informations'
     translation: 'to collate information'
     partOfSpeech: phrase
     example: 'Rassemblez des informations provenant de plusieurs documents.'
     exampleTranslation: 'Collate information from several documents.'
   - id: fr-FR-B1-SUMMARY-001-004
+    concept: 'to-paraphrase'
     term: 'paraphraser'
     translation: 'to paraphrase'
     partOfSpeech: verb
     example: 'Paraphrasez le passage avec vos propres mots.'
     exampleTranslation: 'Paraphrase the passage in your own words.'
   - id: fr-FR-B1-SUMMARY-001-005
+    concept: 'in-my-view'
     term: 'à mon avis'
     translation: 'in my view'
     partOfSpeech: phrase
     example: 'À mon avis, le rapport est convaincant.'
     exampleTranslation: 'In my view, the report is convincing.'
   - id: fr-FR-B1-SUMMARY-001-006
+    concept: 'to-draw-a-conclusion'
     term: 'tirer une conclusion'
     translation: 'to draw a conclusion'
     partOfSpeech: phrase

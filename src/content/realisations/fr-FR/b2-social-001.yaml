@@ -2,6 +2,7 @@ nodeId: B2-SOCIAL-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-B2-SOCIAL-001-001
+    concept: 'to-deepen-the-discussion'
     term: 'approfondir la discussion'
     translation: 'to deepen the discussion'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Pouvons-nous approfondir la discussion sur ce sujet ?'
     exampleTranslation: 'Can we deepen the discussion about this topic?'
   - id: fr-FR-B2-SOCIAL-001-002
+    concept: 'to-keep-the-conversation-going'
     term: 'maintenir la conversation'
     translation: 'to keep the conversation going'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Il est important de maintenir la conversation fluide.'
     exampleTranslation: 'It is important to keep the conversation flowing.'
   - id: fr-FR-B2-SOCIAL-001-003
+    concept: 'to-react-spontaneously'
     term: 'réagir spontanément'
     translation: 'to react spontaneously'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Je peux réagir spontanément dans les discussions.'
     exampleTranslation: 'I can react spontaneously in discussions.'
   - id: fr-FR-B2-SOCIAL-001-004
+    concept: 'to-participate-actively'
     term: 'participer activement'
     translation: 'to participate actively'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: "J'aime participer activement en classe."
     exampleTranslation: 'I like to participate actively in classes.'
   - id: fr-FR-B2-SOCIAL-001-005
+    concept: 'to-express-ideas-clearly'
     term: 'exprimer ses idées clairement'
     translation: 'to express ideas clearly'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: "Il est fondamental d'exprimer ses idées clairement."
     exampleTranslation: 'It is fundamental to express ideas clearly.'
   - id: fr-FR-B2-SOCIAL-001-006
+    concept: 'to-interact-with-fluency'
     term: 'interagir avec aisance'
     translation: 'to interact with fluency'
     partOfSpeech: phrase

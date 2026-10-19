@@ -2,6 +2,7 @@ nodeId: A1-NUMB-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-A1-NUMB-001-001
+    concept: 'one'
     term: 'Un'
     translation: 'One'
     partOfSpeech: adjective
@@ -10,6 +11,7 @@ vocabulary:
     imageUrl: 'um.webp'
     imageAlt: 'A large red number 1 shaped as a birthday candle'
   - id: fr-FR-A1-NUMB-001-002
+    concept: 'two'
     term: 'Deux'
     translation: 'Two'
     partOfSpeech: adjective
@@ -18,6 +20,7 @@ vocabulary:
     imageUrl: 'dois.webp'
     imageAlt: 'A large red number 2 shaped as a birthday candle'
   - id: fr-FR-A1-NUMB-001-003
+    concept: 'three'
     term: 'Trois'
     translation: 'Three'
     partOfSpeech: adjective
@@ -26,18 +29,21 @@ vocabulary:
     imageUrl: 'tres.webp'
     imageAlt: 'A large red number 3 shaped as a birthday candle'
   - id: fr-FR-A1-NUMB-001-004
+    concept: 'ten'
     term: 'Dix'
     translation: 'Ten'
     partOfSpeech: adjective
     example: 'La réunion est à dix heures.'
     exampleTranslation: 'The meeting is at ten.'
   - id: fr-FR-A1-NUMB-001-005
+    concept: 'twenty'
     term: 'Vingt'
     translation: 'Twenty'
     partOfSpeech: adjective
     example: 'J’ai vingt ans.'
     exampleTranslation: 'I am twenty years old.'
   - id: fr-FR-A1-NUMB-001-006
+    concept: 'hundred'
     term: 'Cent'
     translation: 'Hundred'
     partOfSpeech: adjective

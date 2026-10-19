@@ -2,30 +2,35 @@ nodeId: A2-PAST-002
 lang: fr-FR
 vocabulary:
   - id: fr-FR-A2-PAST-002-001
+    concept: 'before'
     term: 'avant'
     translation: 'before'
     partOfSpeech: adverb
     example: 'Avant, je vivais à la campagne.'
     exampleTranslation: 'Before I lived in the countryside.'
   - id: fr-FR-A2-PAST-002-002
+    concept: 'now'
     term: 'maintenant'
     translation: 'now'
     partOfSpeech: adverb
     example: 'Maintenant, je vis en ville.'
     exampleTranslation: 'Now I live in the city.'
   - id: fr-FR-A2-PAST-002-003
+    concept: 'to-change'
     term: 'changer'
     translation: 'to change'
     partOfSpeech: verb
     example: 'J’ai beaucoup changé ces dernières années.'
     exampleTranslation: 'I have changed a lot in recent years.'
   - id: fr-FR-A2-PAST-002-004
+    concept: 'to-grow'
     term: 'grandir'
     translation: 'to grow'
     partOfSpeech: verb
     example: 'J’ai grandi dans une petite ville.'
     exampleTranslation: 'I grew up in a small town.'
   - id: fr-FR-A2-PAST-002-005
+    concept: 'experience'
     term: 'expérience'
     translation: 'experience'
     partOfSpeech: noun
@@ -33,6 +38,7 @@ vocabulary:
     example: 'Cette expérience a changé ma vie.'
     exampleTranslation: 'This experience changed my life.'
   - id: fr-FR-A2-PAST-002-006
+    concept: 'to-transform'
     term: 'transformer'
     translation: 'to transform'
     partOfSpeech: verb

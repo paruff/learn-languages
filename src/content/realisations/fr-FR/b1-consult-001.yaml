@@ -2,12 +2,14 @@ nodeId: B1-CONSULT-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-B1-CONSULT-001-001
+    concept: 'to-describe-symptoms'
     term: 'décrire des symptômes'
     translation: 'to describe symptoms'
     partOfSpeech: phrase
     example: 'Décrivez vos symptômes au médecin.'
     exampleTranslation: 'Describe your symptoms to the doctor.'
   - id: fr-FR-B1-CONSULT-001-002
+    concept: 'a-consultation'
     term: 'une consultation'
     translation: 'a consultation'
     partOfSpeech: noun
@@ -15,12 +17,14 @@ vocabulary:
     example: 'La consultation a duré vingt minutes.'
     exampleTranslation: 'The consultation lasted twenty minutes.'
   - id: fr-FR-B1-CONSULT-001-003
+    concept: 'concrete-information'
     term: 'des renseignements concrets'
     translation: 'concrete information'
     partOfSpeech: phrase
     example: 'Fournissez des renseignements concrets sur votre situation.'
     exampleTranslation: 'Provide concrete information about your situation.'
   - id: fr-FR-B1-CONSULT-001-004
+    concept: 'an-interview'
     term: 'un entretien'
     translation: 'an interview'
     partOfSpeech: noun
@@ -28,12 +32,14 @@ vocabulary:
     example: 'L’entretien portait sur mon expérience.'
     exampleTranslation: 'The interview focused on my experience.'
   - id: fr-FR-B1-CONSULT-001-005
+    concept: 'to-introduce-a-new-subject'
     term: 'introduire un nouveau sujet'
     translation: 'to introduce a new subject'
     partOfSpeech: phrase
     example: 'Elle a pris l’initiative d’introduire un nouveau sujet.'
     exampleTranslation: 'She took the initiative to introduce a new subject.'
   - id: fr-FR-B1-CONSULT-001-006
+    concept: 'with-limited-precision'
     term: 'avec une précision limitée'
     translation: 'with limited precision'
     partOfSpeech: phrase

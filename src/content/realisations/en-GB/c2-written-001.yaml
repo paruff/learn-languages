@@ -2,6 +2,7 @@ nodeId: C2-WRITTEN-001
 lang: en-GB
 vocabulary:
   - id: en-GB-C2-WRITTEN-001-001
+    concept: 'detailed-and-well-structured-text'
     term: 'detailed and well-structured text'
     translation: 'texto detalhado e bem estruturado'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'I write detailed and well-structured texts.'
     exampleTranslation: 'Escrevo textos detalhados e bem estruturados.'
   - id: en-GB-C2-WRITTEN-001-002
+    concept: 'development-of-arguments'
     term: 'development of arguments'
     translation: 'desenvolvimento de argumentos'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'I develop arguments in a solid and convincing way.'
     exampleTranslation: 'Desenvolvo argumentos de forma sólida e convincente.'
   - id: en-GB-C2-WRITTEN-001-003
+    concept: 'well-founded-hypotheses'
     term: 'well-founded hypotheses'
     translation: 'hipóteses fundamentadas'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'I present well-founded hypotheses based on evidence.'
     exampleTranslation: 'Apresento hipóteses fundamentadas em evidências.'
   - id: en-GB-C2-WRITTEN-001-004
+    concept: 'appropriate-format'
     term: 'appropriate format'
     translation: 'formato adequado'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'I always use the appropriate format for the text type.'
     exampleTranslation: 'Utilizo sempre o formato adequado ao género textual.'
   - id: en-GB-C2-WRITTEN-001-005
+    concept: 'chain-of-reasoning'
     term: 'chain of reasoning'
     translation: 'encadeamento argumentativo'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'I construct a solid and coherent chain of reasoning.'
     exampleTranslation: 'Construo um encadeamento argumentativo sólido e coerente.'
   - id: en-GB-C2-WRITTEN-001-006
+    concept: 'appropriate-style'
     term: 'appropriate style'
     translation: 'estilo adequado'
     partOfSpeech: phrase

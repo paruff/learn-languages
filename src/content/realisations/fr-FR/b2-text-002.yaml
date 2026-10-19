@@ -2,6 +2,7 @@ nodeId: B2-TEXT-002
 lang: fr-FR
 vocabulary:
   - id: fr-FR-B2-TEXT-002-001
+    concept: 'to-understand-newspaper-articles'
     term: 'comprendre des articles de presse'
     translation: 'to understand newspaper articles'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: "Je peux comprendre des articles de presse sur des sujets d'actualité."
     exampleTranslation: 'I can understand newspaper articles on current topics.'
   - id: fr-FR-B2-TEXT-002-002
+    concept: 'to-read-technical-reports'
     term: 'lire des rapports techniques'
     translation: 'to read technical reports'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Je vais lire des rapports techniques sur le sujet.'
     exampleTranslation: 'I will read technical reports on the topic.'
   - id: fr-FR-B2-TEXT-002-003
+    concept: 'to-analyse-argumentative-texts'
     term: 'analyser des textes argumentatifs'
     translation: 'to analyse argumentative texts'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: "Il est important d'analyser les textes argumentatifs avec attention."
     exampleTranslation: 'It is important to analyse argumentative texts carefully.'
   - id: fr-FR-B2-TEXT-002-004
+    concept: 'to-distinguish-facts-from-opinions'
     term: 'distinguer faits et opinions'
     translation: 'to distinguish facts from opinions'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: "Je dois distinguer faits et opinions dans l'article."
     exampleTranslation: 'I need to distinguish facts from opinions in the article.'
   - id: fr-FR-B2-TEXT-002-005
+    concept: 'to-identify-the-purpose-of-the-text'
     term: 'identifier le but du texte'
     translation: 'to identify the purpose of the text'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: "J'identifierai le but du texte dès le début."
     exampleTranslation: 'I will identify the purpose of the text from the beginning.'
   - id: fr-FR-B2-TEXT-002-006
+    concept: 'to-read-between-the-lines'
     term: 'lire entre les lignes'
     translation: 'to read between the lines'
     partOfSpeech: phrase

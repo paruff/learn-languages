@@ -2,36 +2,42 @@ nodeId: A2-SIGN-001
 lang: en-GB
 vocabulary:
   - id: en-GB-A2-SIGN-001-001
+    concept: 'sign'
     term: 'sign'
     translation: 'panneau'
     partOfSpeech: noun
     example: 'The sign says "No entry".'
     exampleTranslation: 'Le panneau dit « Interdiction d’entrer ».'
   - id: en-GB-A2-SIGN-001-002
+    concept: 'timetable'
     term: 'timetable'
     translation: 'horaire'
     partOfSpeech: noun
     example: 'Check the timetable for the next train.'
     exampleTranslation: 'Consultez l’horaire du prochain train.'
   - id: en-GB-A2-SIGN-001-003
+    concept: 'exit'
     term: 'exit'
     translation: 'sortie'
     partOfSpeech: noun
     example: 'The exit is at the back of the building.'
     exampleTranslation: 'La sortie est à l’arrière du bâtiment.'
   - id: en-GB-A2-SIGN-001-004
+    concept: 'to-follow'
     term: 'to follow'
     translation: 'suivre'
     partOfSpeech: verb
     example: 'Follow the instructions on the screen.'
     exampleTranslation: 'Suivez les instructions à l’écran.'
   - id: en-GB-A2-SIGN-001-005
+    concept: 'instruction'
     term: 'instruction'
     translation: 'indication'
     partOfSpeech: noun
     example: 'Read each instruction carefully.'
     exampleTranslation: 'Lis chaque indication attentivement.'
   - id: en-GB-A2-SIGN-001-006
+    concept: 'open'
     term: 'open'
     translation: 'ouvert'
     partOfSpeech: adjective

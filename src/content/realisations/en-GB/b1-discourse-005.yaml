@@ -2,6 +2,7 @@ nodeId: B1-DISCOURSE-005
 lang: en-GB
 vocabulary:
   - id: en-GB-B1-DISCOURSE-005-001
+    concept: 'brief-report'
     term: 'brief report'
     translation: 'relato breve'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'I will make a brief report of my experience.'
     exampleTranslation: 'Vou fazer um relato breve da minha experiência.'
   - id: en-GB-B1-DISCOURSE-005-002
+    concept: 'to-summarise-the-facts'
     term: 'to summarise the facts'
     translation: 'resumir os factos'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'It is important to summarise the main facts.'
     exampleTranslation: 'É importante resumir os factos principais.'
   - id: en-GB-B1-DISCOURSE-005-003
+    concept: 'to-describe-the-situation'
     term: 'to describe the situation'
     translation: 'descrever a situação'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'I will describe the situation in detail.'
     exampleTranslation: 'Vou descrever a situação em detalhe.'
   - id: en-GB-B1-DISCOURSE-005-004
+    concept: 'to-do-an-analysis'
     term: 'to do an analysis'
     translation: 'fazer uma análise'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'We need to do a careful analysis.'
     exampleTranslation: 'Precisamos de fazer uma análise cuidadosa.'
   - id: en-GB-B1-DISCOURSE-005-005
+    concept: 'to-draw-conclusions'
     term: 'to draw conclusions'
     translation: 'tirar conclusões'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Let us draw conclusions based on the data.'
     exampleTranslation: 'Vamos tirar conclusões baseadas nos dados.'
   - id: en-GB-B1-DISCOURSE-005-006
+    concept: 'to-present-recommendations'
     term: 'to present recommendations'
     translation: 'apresentar recomendações'
     partOfSpeech: phrase

@@ -2,12 +2,14 @@ nodeId: A2-NEWS-002
 lang: fr-FR
 vocabulary:
   - id: fr-FR-A2-NEWS-002-001
+    concept: 'to-happen'
     term: 'se passer'
     translation: 'to happen'
     partOfSpeech: verb
     example: "Qu'est-ce qui s'est passé en ville ?"
     exampleTranslation: 'What happened in the city?'
   - id: fr-FR-A2-NEWS-002-002
+    concept: 'report'
     term: 'reportage'
     translation: 'report'
     partOfSpeech: noun
@@ -15,6 +17,7 @@ vocabulary:
     example: 'Le reportage était très détaillé.'
     exampleTranslation: 'The report was very detailed.'
   - id: fr-FR-A2-NEWS-002-003
+    concept: 'radio'
     term: 'radio'
     translation: 'radio'
     partOfSpeech: noun
@@ -22,6 +25,7 @@ vocabulary:
     example: "J'écoute la radio en travaillant."
     exampleTranslation: 'I listen to the radio while working.'
   - id: fr-FR-A2-NEWS-002-004
+    concept: 'event'
     term: 'événement'
     translation: 'event'
     partOfSpeech: noun
@@ -29,12 +33,14 @@ vocabulary:
     example: "L'événement a eu lieu hier."
     exampleTranslation: 'The event happened yesterday.'
   - id: fr-FR-A2-NEWS-002-005
+    concept: 'to-describe'
     term: 'décrire'
     translation: 'to describe'
     partOfSpeech: verb
     example: "Je peux décrire ce que j'ai vu."
     exampleTranslation: 'I can describe what I saw.'
   - id: fr-FR-A2-NEWS-002-006
+    concept: 'to-explain'
     term: 'expliquer'
     translation: 'to explain'
     partOfSpeech: verb

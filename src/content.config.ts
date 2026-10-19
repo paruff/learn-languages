@@ -20,6 +20,7 @@ const cefrNodeSchema = z
 const vocabularyItemSchema = z
   .object({
     id: z.string().regex(/^[a-z]{2}(-[A-Z]{2})?-.+-\d{3}$/),
+    concept: z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/),
     term: z.string().min(1),
     translation: z.string().min(1),
     partOfSpeech: z.enum([

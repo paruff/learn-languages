@@ -2,30 +2,35 @@ nodeId: A1-LOC-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-A1-LOC-001-001
+    concept: 'where-is'
     term: 'Où est... ?'
     translation: 'Where is...?'
     partOfSpeech: phrase
     example: 'Où est la gare ?'
     exampleTranslation: 'Where is the train station?'
   - id: fr-FR-A1-LOC-001-002
+    concept: 'left'
     term: 'à gauche'
     translation: 'left'
     partOfSpeech: adverb
     example: 'Allez à gauche.'
     exampleTranslation: 'Go left.'
   - id: fr-FR-A1-LOC-001-003
+    concept: 'right'
     term: 'à droite'
     translation: 'right'
     partOfSpeech: adverb
     example: 'Le restaurant est à droite.'
     exampleTranslation: 'The restaurant is on the right.'
   - id: fr-FR-A1-LOC-001-004
+    concept: 'straight-ahead'
     term: 'tout droit'
     translation: 'straight ahead'
     partOfSpeech: adverb
     example: 'Allez tout droit.'
     exampleTranslation: 'Go straight ahead.'
   - id: fr-FR-A1-LOC-001-005
+    concept: 'street'
     term: 'rue'
     translation: 'street'
     partOfSpeech: noun
@@ -33,6 +38,7 @@ vocabulary:
     example: 'La rue est longue.'
     exampleTranslation: 'The street is long.'
   - id: fr-FR-A1-LOC-001-006
+    concept: 'away'
     term: 'loin'
     translation: 'away'
     partOfSpeech: adjective

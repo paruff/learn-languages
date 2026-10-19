@@ -2,36 +2,42 @@ nodeId: A2-JOB-002
 lang: en-GB
 vocabulary:
   - id: en-GB-A2-JOB-002-001
+    concept: 'routine'
     term: 'routine'
     translation: 'rotina'
     partOfSpeech: noun
     example: 'My work routine is very busy.'
     exampleTranslation: 'A minha rotina de trabalho é muito ocupada.'
   - id: en-GB-A2-JOB-002-002
+    concept: 'task'
     term: 'task'
     translation: 'tarefa'
     partOfSpeech: noun
     example: 'I have many tasks to do today.'
     exampleTranslation: 'Tenho muitas tarefas para fazer hoje.'
   - id: en-GB-A2-JOB-002-003
+    concept: 'meeting'
     term: 'meeting'
     translation: 'reunião'
     partOfSpeech: noun
     example: 'I have a meeting at ten in the morning.'
     exampleTranslation: 'Tenho uma reunião às dez da manhã.'
   - id: en-GB-A2-JOB-002-004
+    concept: 'always'
     term: 'always'
     translation: 'sempre'
     partOfSpeech: adverb
     example: 'I always arrive at work on time.'
     exampleTranslation: 'Sempre chego a tempo ao trabalho.'
   - id: en-GB-A2-JOB-002-005
+    concept: 'sometimes'
     term: 'sometimes'
     translation: 'às vezes'
     partOfSpeech: adverb
     example: 'Sometimes I have lunch at the corner restaurant.'
     exampleTranslation: 'Às vezes almoço no restaurante da esquina.'
   - id: en-GB-A2-JOB-002-006
+    concept: 'to-finish'
     term: 'to finish'
     translation: 'terminar'
     partOfSpeech: verb

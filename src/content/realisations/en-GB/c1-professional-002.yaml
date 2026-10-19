@@ -2,6 +2,7 @@ nodeId: C1-PROFESSIONAL-002
 lang: en-GB
 vocabulary:
   - id: en-GB-C1-PROFESSIONAL-002-001
+    concept: 'detailed-report'
     term: 'detailed report'
     translation: 'relatório circunstanciado'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'The detailed report covers all the figures of the quarter.'
     exampleTranslation: 'O relatório circunstanciado acompanha todos os números do trimestre.'
   - id: en-GB-C1-PROFESSIONAL-002-002
+    concept: 'contingency-plan'
     term: 'contingency plan'
     translation: 'plano de contingência'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'The contingency plan provides responses for adverse scenarios.'
     exampleTranslation: 'O plano de contingência prevê respostas para cenários adversos.'
   - id: en-GB-C1-PROFESSIONAL-002-003
+    concept: 'culminating-point-of-the-analysis'
     term: 'culminating point of the analysis'
     translation: 'ponto culminante da análise'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'The culminating point of the analysis is the comparison between the two markets.'
     exampleTranslation: 'O ponto culminante da análise é a comparação entre os dois mercados.'
   - id: en-GB-C1-PROFESSIONAL-002-004
+    concept: 'concrete-measures'
     term: 'concrete measures'
     translation: 'medidas concretas'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'The document proposes concrete measures to reduce costs.'
     exampleTranslation: 'O documento propõe medidas concretas para reduzir custos.'
   - id: en-GB-C1-PROFESSIONAL-002-005
+    concept: 'notice-to-partners'
     term: 'notice to partners'
     translation: 'comunicado aos parceiros'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'The notice to partners clarifies the new policy.'
     exampleTranslation: 'O comunicado aos parceiros clarifica a nova política.'
   - id: en-GB-C1-PROFESSIONAL-002-006
+    concept: 'ranking-of-the-risks'
     term: 'ranking of the risks'
     translation: 'numeração dos riscos'
     partOfSpeech: noun

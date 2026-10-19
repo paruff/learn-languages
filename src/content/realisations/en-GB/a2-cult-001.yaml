@@ -2,36 +2,42 @@ nodeId: A2-CULT-001
 lang: en-GB
 vocabulary:
   - id: en-GB-A2-CULT-001-001
+    concept: 'festival'
     term: 'festival'
     translation: 'festival'
     partOfSpeech: noun
     example: 'The music festival is very popular.'
     exampleTranslation: 'O festival de música é muito popular.'
   - id: en-GB-A2-CULT-001-002
+    concept: 'tradition'
     term: 'tradition'
     translation: 'tradição'
     partOfSpeech: noun
     example: 'It is an old tradition.'
     exampleTranslation: 'É uma tradição antiga.'
   - id: en-GB-A2-CULT-001-003
+    concept: 'celebration'
     term: 'celebration'
     translation: 'celebração'
     partOfSpeech: noun
     example: 'The celebration lasted two days.'
     exampleTranslation: 'A celebração durou dois dias.'
   - id: en-GB-A2-CULT-001-004
+    concept: 'music'
     term: 'music'
     translation: 'música'
     partOfSpeech: noun
     example: 'Portuguese music is very beautiful.'
     exampleTranslation: 'A música portuguesa é muito bonita.'
   - id: en-GB-A2-CULT-001-005
+    concept: 'dance'
     term: 'dance'
     translation: 'dança'
     partOfSpeech: noun
     example: 'The traditional dance is beautiful to watch.'
     exampleTranslation: 'A dança tradicional é bonita de ver.'
   - id: en-GB-A2-CULT-001-006
+    concept: 'party'
     term: 'party'
     translation: 'festa'
     partOfSpeech: noun

@@ -2,6 +2,7 @@ nodeId: B1-TEXT-001
 lang: de-DE
 vocabulary:
   - id: de-DE-B1-TEXT-001-001
+    concept: 'article'
     term: 'Artikel'
     translation: 'article'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Dieser Artikel ist sehr informativ.'
     exampleTranslation: 'This article is very informative.'
   - id: de-DE-B1-TEXT-001-002
+    concept: 'main-content'
     term: 'Hauptinhalt'
     translation: 'main content'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Was ist der Hauptinhalt des Artikels?'
     exampleTranslation: 'What is the main content of the article?'
   - id: de-DE-B1-TEXT-001-003
+    concept: 'keyword'
     term: 'Schlüsselwort'
     translation: 'keyword'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Können Sie die Schlüsselwörter nennen?'
     exampleTranslation: 'Can you name the keywords?'
   - id: de-DE-B1-TEXT-001-004
+    concept: 'to-summarize'
     term: 'zusammenfassen'
     translation: 'to summarize'
     partOfSpeech: verb
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Ich fasse den Artikel kurz zusammen.'
     exampleTranslation: 'I briefly summarize the article.'
   - id: de-DE-B1-TEXT-001-005
+    concept: 'to-understand'
     term: 'verstehen'
     translation: 'to understand'
     partOfSpeech: verb
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Ich verstehe den Text gut.'
     exampleTranslation: 'I understand the text well.'
   - id: de-DE-B1-TEXT-001-006
+    concept: 'news'
     term: 'Nachricht'
     translation: 'news'
     partOfSpeech: noun

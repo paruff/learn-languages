@@ -2,6 +2,7 @@ nodeId: C1-SPOKEN-001
 lang: en-GB
 vocabulary:
   - id: en-GB-C1-SPOKEN-001-001
+    concept: 'detailed-narrative'
     term: 'detailed narrative'
     translation: 'narrativa pormenorizada'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'The detailed narrative of the journey delighted the guests.'
     exampleTranslation: 'A narrativa pormenorizada da viagem encantou os convidados.'
   - id: en-GB-C1-SPOKEN-001-002
+    concept: 'background'
     term: 'background'
     translation: 'pano de fundo'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'The background of the account is the economic crisis of the nineties.'
     exampleTranslation: 'O pano de fundo do relato é a crise económica dos anos noventa.'
   - id: en-GB-C1-SPOKEN-001-003
+    concept: 'to-develop-a-sub-theme'
     term: 'to develop a sub-theme'
     translation: 'desenvolver um subtema'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: "He developed a sub-theme nobody expected and captured everyone's attention."
     exampleTranslation: 'Desenvolveu um subtema que ninguém esperava e captou a atenção geral.'
   - id: en-GB-C1-SPOKEN-001-004
+    concept: 'to-round-off-the-story'
     term: 'to round off the story'
     translation: 'rematar a história'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'He rounded off the story with a surprising reflection.'
     exampleTranslation: 'Rematou a história com uma reflexão surpreendente.'
   - id: en-GB-C1-SPOKEN-001-005
+    concept: 'to-offer-reflections'
     term: 'to offer reflections'
     translation: 'tecer considerações'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Throughout the conversation, he offered pertinent reflections on the matter.'
     exampleTranslation: 'Ao longo da conversa, teceu considerações pertinentes sobre o assunto.'
   - id: en-GB-C1-SPOKEN-001-006
+    concept: 'vivid-description'
     term: 'vivid description'
     translation: 'descrição vívida'
     partOfSpeech: noun

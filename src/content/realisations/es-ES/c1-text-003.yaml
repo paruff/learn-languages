@@ -2,6 +2,7 @@ nodeId: C1-TEXT-003
 lang: es-ES
 vocabulary:
   - id: es-ES-C1-TEXT-003-001
+    concept: 'contemporary-literary-text'
     term: 'texto literario contemporáneo'
     translation: 'contemporary literary text'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Leo textos literarios contemporáneos con agrado.'
     exampleTranslation: 'I read contemporary literary texts with pleasure.'
   - id: es-ES-C1-TEXT-003-002
+    concept: 'cultural-allusion'
     term: 'alusión cultural'
     translation: 'cultural allusion'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Reconozco alusiones culturales en la literatura.'
     exampleTranslation: 'I recognise cultural allusions in literature.'
   - id: es-ES-C1-TEXT-003-003
+    concept: 'historical-allusion'
     term: 'alusión histórica'
     translation: 'historical allusion'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Las alusiones históricas enriquecen la lectura.'
     exampleTranslation: 'Historical allusions enrich the reading.'
   - id: es-ES-C1-TEXT-003-004
+    concept: 'idiomatic-expressions'
     term: 'expresiones idiomáticas'
     translation: 'idiomatic expressions'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Las expresiones idiomáticas son frecuentes en la literatura.'
     exampleTranslation: 'Idiomatic expressions are frequent in literature.'
   - id: es-ES-C1-TEXT-003-005
+    concept: 'layers-of-meaning'
     term: 'capas de significado'
     translation: 'layers of meaning'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'La literatura tiene múltiples capas de significado.'
     exampleTranslation: 'Literature has multiple layers of meaning.'
   - id: es-ES-C1-TEXT-003-006
+    concept: 'to-appreciate'
     term: 'apreciar'
     translation: 'to appreciate'
     partOfSpeech: verb

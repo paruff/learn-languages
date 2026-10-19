@@ -2,6 +2,7 @@ nodeId: C2-PROFESSIONAL-001
 lang: es-ES
 vocabulary:
   - id: es-ES-C2-PROFESSIONAL-001-001
+    concept: 'executive-summary'
     term: 'resumen ejecutivo'
     translation: 'executive summary'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Escribí un resumen ejecutivo claro y bien estructurado.'
     exampleTranslation: 'I wrote a clear and well-structured executive summary.'
   - id: es-ES-C2-PROFESSIONAL-001-002
+    concept: 'factual-material'
     term: 'material factual'
     translation: 'factual material'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Puedo seleccionar los puntos clave de material factual complejo.'
     exampleTranslation: 'I can select key points from complex factual material.'
   - id: es-ES-C2-PROFESSIONAL-001-003
+    concept: 'essential-points'
     term: 'puntos esenciales'
     translation: 'essential points'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Presento los puntos esenciales de forma clara y concisa.'
     exampleTranslation: 'I present the essential points clearly and concisely.'
   - id: es-ES-C2-PROFESSIONAL-001-004
+    concept: 'appropriate-format'
     term: 'formato adecuado'
     translation: 'appropriate format'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Selecciono el formato adecuado según el destinatario.'
     exampleTranslation: 'I select the appropriate format according to the recipient.'
   - id: es-ES-C2-PROFESSIONAL-001-005
+    concept: 'professional-style'
     term: 'estilo profesional'
     translation: 'professional style'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Mi estilo profesional es claro y efectivo.'
     exampleTranslation: 'My professional style is clear and effective.'
   - id: es-ES-C2-PROFESSIONAL-001-006
+    concept: 'information-selection'
     term: 'selección de información'
     translation: 'information selection'
     partOfSpeech: phrase

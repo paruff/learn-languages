@@ -2,6 +2,7 @@ nodeId: B1-TEXT-002
 lang: en-GB
 vocabulary:
   - id: en-GB-B1-TEXT-002-001
+    concept: 'news'
     term: 'news'
     translation: 'notícia'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'I read an interesting news article in the newspaper.'
     exampleTranslation: 'Li uma notícia interessante no jornal.'
   - id: en-GB-B1-TEXT-002-002
+    concept: 'news-summary'
     term: 'news summary'
     translation: 'resumo da notícia'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'The news summary is very clear.'
     exampleTranslation: 'O resumo da notícia é muito claro.'
   - id: en-GB-B1-TEXT-002-003
+    concept: 'main-headline'
     term: 'main headline'
     translation: 'título principal'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'The main headline caught my attention.'
     exampleTranslation: 'O título principal chamou a minha atenção.'
   - id: en-GB-B1-TEXT-002-004
+    concept: 'to-read-quickly'
     term: 'to read quickly'
     translation: 'ler rapidamente'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'I can read quickly to find the information.'
     exampleTranslation: 'Posso ler rapidamente para encontrar a informação.'
   - id: en-GB-B1-TEXT-002-005
+    concept: 'to-underline-key-words'
     term: 'to underline key words'
     translation: 'sublinhar palavras-chave'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'I like to underline key words when I read.'
     exampleTranslation: 'Gosto de sublinhar palavras-chave quando leio.'
   - id: en-GB-B1-TEXT-002-006
+    concept: 'to-make-notes'
     term: 'to make notes'
     translation: 'fazer anotações'
     partOfSpeech: phrase

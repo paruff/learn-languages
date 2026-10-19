@@ -2,6 +2,7 @@ nodeId: C2-ACADEMIC-002
 lang: en-GB
 vocabulary:
   - id: en-GB-C2-ACADEMIC-002-001
+    concept: 'detailed-description'
     term: 'detailed description'
     translation: 'descrição detalhada'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'I present detailed descriptions of complex subjects.'
     exampleTranslation: 'Apresento descrições detalhadas de temas complexos.'
   - id: en-GB-C2-ACADEMIC-002-002
+    concept: 'related-sub-themes'
     term: 'related sub-themes'
     translation: 'subtemas relacionados'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'I integrate related sub-themes in a coherent way.'
     exampleTranslation: 'Integro subtemas relacionados de forma coerente.'
   - id: en-GB-C2-ACADEMIC-002-003
+    concept: 'particular-points'
     term: 'particular points'
     translation: 'pontos específicos'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'I develop particular points with depth and clarity.'
     exampleTranslation: 'Desenvolvo pontos específicos com profundidade e clareza.'
   - id: en-GB-C2-ACADEMIC-002-004
+    concept: 'appropriate-conclusion'
     term: 'appropriate conclusion'
     translation: 'conclusão adequada'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'I always finish with an appropriate and satisfying conclusion.'
     exampleTranslation: 'Termino sempre com uma conclusão adequada e satisfatória.'
   - id: en-GB-C2-ACADEMIC-002-005
+    concept: 'complex-subject'
     term: 'complex subject'
     translation: 'tema complexo'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'I address complex subjects with confidence and competence.'
     exampleTranslation: 'Abordo temas complexos com segurança e competência.'
   - id: en-GB-C2-ACADEMIC-002-006
+    concept: 'accurate-presentation'
     term: 'accurate presentation'
     translation: 'apresentação precisa'
     partOfSpeech: phrase

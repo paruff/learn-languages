@@ -2,6 +2,7 @@ nodeId: A2-PAST-002
 lang: de-DE
 vocabulary:
   - id: de-DE-A2-PAST-002-001
+    concept: 'change'
     term: 'Veränderung'
     translation: 'change'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Die Veränderung war groß.'
     exampleTranslation: 'The change was big.'
   - id: de-DE-A2-PAST-002-002
+    concept: 'formerly'
     term: 'früher'
     translation: 'formerly'
     partOfSpeech: adverb
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Früher war alles anders.'
     exampleTranslation: 'Everything was different before.'
   - id: de-DE-A2-PAST-002-003
+    concept: 'nowadays'
     term: 'heutzutage'
     translation: 'nowadays'
     partOfSpeech: adverb
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Heutzutage gibt es viele Computer.'
     exampleTranslation: 'Nowadays there are many computers.'
   - id: de-DE-A2-PAST-002-004
+    concept: 'to-develop'
     term: 'sich entwickeln'
     translation: 'to develop'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Die Stadt hat sich gut entwickelt.'
     exampleTranslation: 'The city has developed well.'
   - id: de-DE-A2-PAST-002-005
+    concept: 'better'
     term: 'besser'
     translation: 'better'
     partOfSpeech: adjective
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Alles ist jetzt besser.'
     exampleTranslation: 'Everything is better now.'
   - id: de-DE-A2-PAST-002-006
+    concept: 'worse'
     term: 'schlechter'
     translation: 'worse'
     partOfSpeech: adjective

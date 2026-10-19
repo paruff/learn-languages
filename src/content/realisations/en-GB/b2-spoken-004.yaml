@@ -2,6 +2,7 @@ nodeId: B2-SPOKEN-004
 lang: en-GB
 vocabulary:
   - id: en-GB-B2-SPOKEN-004-001
+    concept: 'to-make-an-announcement'
     term: 'to make an announcement'
     translation: 'faire une annonce'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'I need to make an announcement about the schedule change.'
     exampleTranslation: "Je dois faire une annonce concernant le changement d'horaire."
   - id: en-GB-B2-SPOKEN-004-002
+    concept: 'to-address-the-audience'
     term: 'to address the audience'
     translation: "s'adresser à l'auditoire"
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'The speaker addressed the audience clearly.'
     exampleTranslation: "L'orateur s'est adressé à l'auditoire clairement."
   - id: en-GB-B2-SPOKEN-004-003
+    concept: 'to-communicate-clearly'
     term: 'to communicate clearly'
     translation: 'communiquer clairement'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'It is important to communicate clearly during announcements.'
     exampleTranslation: 'Il est important de communiquer clairement pendant les annonces.'
   - id: en-GB-B2-SPOKEN-004-004
+    concept: 'to-speak-with-fluency'
     term: 'to speak with fluency'
     translation: 'parler avec aisance'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'She spoke with fluency and confidence.'
     exampleTranslation: 'Elle a parlé avec aisance et confiance.'
   - id: en-GB-B2-SPOKEN-004-005
+    concept: 'to-deliver-a-message'
     term: 'to deliver a message'
     translation: 'transmettre un message'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'He delivered the message effectively.'
     exampleTranslation: 'Il a transmis le message efficacement.'
   - id: en-GB-B2-SPOKEN-004-006
+    concept: 'to-capture-attention'
     term: 'to capture attention'
     translation: "capter l'attention"
     partOfSpeech: phrase

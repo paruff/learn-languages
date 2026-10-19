@@ -2,6 +2,7 @@ nodeId: B1-TEXT-002
 lang: de-DE
 vocabulary:
   - id: de-DE-B1-TEXT-002-001
+    concept: 'news'
     term: 'Nachricht'
     translation: 'news'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Die Nachricht war aufregend.'
     exampleTranslation: 'The news was exciting.'
   - id: de-DE-B1-TEXT-002-002
+    concept: 'main-point'
     term: 'Hauptpunkt'
     translation: 'main point'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Was sind die Hauptpunkte?'
     exampleTranslation: 'What are the main points?'
   - id: de-DE-B1-TEXT-002-003
+    concept: 'content'
     term: 'Inhalt'
     translation: 'content'
     partOfSpeech: noun
@@ -23,13 +26,15 @@ vocabulary:
     example: 'Der Inhalt war klar strukturiert.'
     exampleTranslation: 'The content was clearly structured.'
   - id: de-DE-B1-TEXT-002-004
-    term: 'detailiert'
+    concept: 'detailed'
+    term: 'detailliert'
     translation: 'detailed'
     partOfSpeech: adjective
     gender: n/a
-    example: 'Der Artikel war sehr detailiert.'
+    example: 'Der Artikel war sehr detailliert.'
     exampleTranslation: 'The article was very detailed.'
   - id: de-DE-B1-TEXT-002-005
+    concept: 'to-summarize'
     term: 'zusammenfassen'
     translation: 'to summarize'
     partOfSpeech: verb
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Ich fasse die Hauptpunkte zusammen.'
     exampleTranslation: 'I summarize the main points.'
   - id: de-DE-B1-TEXT-002-006
+    concept: 'to-mean'
     term: 'bedeuten'
     translation: 'to mean'
     partOfSpeech: verb

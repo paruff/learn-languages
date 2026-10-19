@@ -2,36 +2,42 @@ nodeId: A1-CLARIFY-001
 lang: de-DE
 vocabulary:
   - id: de-DE-A1-CLARIFY-001-001
+    concept: 'can-you-repeat-that-please'
     term: 'Können Sie das bitte wiederholen?'
     translation: 'Can you repeat that, please?'
     partOfSpeech: phrase
     example: 'Entschuldigung, können Sie das bitte wiederholen?'
     exampleTranslation: 'Sorry, can you repeat that, please?'
   - id: de-DE-A1-CLARIFY-001-002
+    concept: 'how-do-you-say'
     term: 'Wie sagt man...?'
     translation: 'How do you say...?'
     partOfSpeech: phrase
     example: 'Wie sagt man "library" auf Deutsch?'
     exampleTranslation: 'How do you say "library" in German?'
   - id: de-DE-A1-CLARIFY-001-003
+    concept: 'i-don-t-understand'
     term: 'Ich verstehe nicht'
     translation: "I don't understand"
     partOfSpeech: phrase
     example: 'Entschuldigung, ich verstehe nicht.'
     exampleTranslation: "Sorry, I don't understand."
   - id: de-DE-A1-CLARIFY-001-004
+    concept: 'please-speak-more-slowly'
     term: 'Sprechen Sie bitte langsamer'
     translation: 'Please speak more slowly'
     partOfSpeech: phrase
     example: 'Können Sie bitte langsamer sprechen?'
     exampleTranslation: 'Can you speak more slowly, please?'
   - id: de-DE-A1-CLARIFY-001-005
+    concept: 'what-does-mean'
     term: 'Was bedeutet...?'
     translation: 'What does... mean?'
     partOfSpeech: phrase
     example: 'Was bedeutet "Fahrrad"?'
     exampleTranslation: 'What does "Fahrrad" mean?'
   - id: de-DE-A1-CLARIFY-001-006
+    concept: 'can-you-spell-that'
     term: 'Können Sie das buchstabieren?'
     translation: 'Can you spell that?'
     partOfSpeech: phrase

@@ -2,12 +2,14 @@ nodeId: B2-ARGUE-004
 lang: es-ES
 vocabulary:
   - id: es-ES-B2-ARGUE-004-001
+    concept: 'to-sustain-a-position'
     term: 'sostener una postura'
     translation: 'to sustain a position'
     partOfSpeech: phrase
     example: 'Puedo sostener mi postura con argumentos sólidos.'
     exampleTranslation: 'I can sustain my position with solid arguments.'
   - id: es-ES-B2-ARGUE-004-002
+    concept: 'relevant-detail'
     term: 'detalle relevante'
     translation: 'relevant detail'
     partOfSpeech: phrase
@@ -15,6 +17,7 @@ vocabulary:
     example: 'Incluí detalles relevantes para apoyar mi argumento.'
     exampleTranslation: 'I included relevant details to support my argument.'
   - id: es-ES-B2-ARGUE-004-003
+    concept: 'essay'
     term: 'ensayo'
     translation: 'essay'
     partOfSpeech: noun
@@ -22,12 +25,14 @@ vocabulary:
     example: 'Escribí un ensayo sobre los derechos humanos.'
     exampleTranslation: 'I wrote an essay about human rights.'
   - id: es-ES-B2-ARGUE-004-004
+    concept: 'to-support'
     term: 'apoyar'
     translation: 'to support'
     partOfSpeech: verb
     example: 'Es importante apoyar las opiniones con hechos.'
     exampleTranslation: 'It is important to support opinions with facts.'
   - id: es-ES-B2-ARGUE-004-005
+    concept: 'development'
     term: 'desarrollo'
     translation: 'development'
     partOfSpeech: noun
@@ -35,6 +40,7 @@ vocabulary:
     example: 'El desarrollo del argumento fue claro y convincente.'
     exampleTranslation: 'The development of the argument was clear and convincing.'
   - id: es-ES-B2-ARGUE-004-006
+    concept: 'presentation'
     term: 'exposición'
     translation: 'presentation / exposition'
     partOfSpeech: noun

@@ -2,6 +2,7 @@ nodeId: C2-SOCIAL-001
 lang: en-GB
 vocabulary:
   - id: en-GB-C2-SOCIAL-001-001
+    concept: 'native-fluency'
     term: 'native fluency'
     translation: 'fluidez nativa'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'I interact with native fluency in any context.'
     exampleTranslation: 'Interajo com fluidez nativa em qualquer contexto.'
   - id: en-GB-C2-SOCIAL-001-002
+    concept: 'total-spontaneity'
     term: 'total spontaneity'
     translation: 'espontaneidade total'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'I have total spontaneity in my interactions.'
     exampleTranslation: 'Tenho espontaneidade total nas minhas interações.'
   - id: en-GB-C2-SOCIAL-001-003
+    concept: 'native-precision'
     term: 'native precision'
     translation: 'precisão nativa'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'I communicate with native precision in any situation.'
     exampleTranslation: 'Comunico com precisão nativa em qualquer situação.'
   - id: en-GB-C2-SOCIAL-001-004
+    concept: 'effective-communication'
     term: 'effective communication'
     translation: 'comunicação efectiva'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'My communication with native speakers is always effective.'
     exampleTranslation: 'A minha comunicação com nativos é sempre efectiva.'
   - id: en-GB-C2-SOCIAL-001-005
+    concept: 'language-mastery'
     term: 'language mastery'
     translation: 'domínio da língua'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'My language mastery allows me to communicate with confidence.'
     exampleTranslation: 'O meu domínio da língua permite-me comunicar com confiança.'
   - id: en-GB-C2-SOCIAL-001-006
+    concept: 'communicative-confidence'
     term: 'communicative confidence'
     translation: 'confiança comunicativa'
     partOfSpeech: phrase

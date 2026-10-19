@@ -4,6 +4,9 @@ import { parse } from 'yaml';
 import {
   checkRealisationReferences,
   checkVocabularyParity,
+  checkConcepts,
+  checkPairAlignment,
+  type ConceptRef,
   type RealisationRef,
   type VocabularyRef,
 } from '../src/lib/contentIntegrity.ts';
@@ -49,6 +52,32 @@ function loadVocabularyRefs(dir: string): VocabularyRef[] {
   });
 }
 
+function loadConceptRefs(dir: string): ConceptRef[] {
+  return findYamlFiles(dir).map((file) => {
+    const data = parse(readFileSync(file, 'utf-8')) as {
+      nodeId?: string;
+      lang?: string;
+      vocabulary?: {
+        id?: string;
+        concept?: string;
+        term?: string;
+        translation?: string;
+      }[];
+    };
+    return {
+      file,
+      nodeId: data?.nodeId ?? '',
+      lang: data?.lang ?? '',
+      items: (data?.vocabulary ?? []).map((item) => ({
+        id: item.id ?? '',
+        concept: item.concept ?? '',
+        term: item.term ?? '',
+        translation: item.translation ?? '',
+      })),
+    };
+  });
+}
+
 function existsOrEmpty(dir: string): boolean {
   try {
     return statSync(dir).isDirectory();
@@ -78,6 +107,16 @@ if (!result.valid) {
 console.log(
   `Content integrity check passed: ${realisations.length} realisation(s) all reference valid cefr-nodes (${cefrNodeIds.size} node(s)).`
 );
+
+const conceptRefs = existsOrEmpty(realisationsDir) ? loadConceptRefs(realisationsDir) : [];
+const conceptErrors = checkConcepts(conceptRefs);
+const alignmentErrors = checkPairAlignment(conceptRefs);
+if (conceptErrors.length > 0 || alignmentErrors.length > 0) {
+  console.error('\nContent integrity check FAILED (concept pairing):');
+  for (const line of conceptErrors) console.error(`  ${line}`);
+  for (const line of alignmentErrors) console.error(`  ${line}`);
+  globalThis.process.exit(1);
+}
 
 // Informational only (does not fail the build) -- see checkVocabularyParity's
 // doc comment for why this is a warning, not a gate.

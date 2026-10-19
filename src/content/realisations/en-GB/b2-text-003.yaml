@@ -2,6 +2,7 @@ nodeId: B2-TEXT-003
 lang: en-GB
 vocabulary:
   - id: en-GB-B2-TEXT-003-001
+    concept: 'to-recognise-the-line-of-argument'
     term: 'to recognise the line of argument'
     translation: 'reconhecer a linha de argumentação'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: "I can recognise the author's line of argument."
     exampleTranslation: 'Consigo reconhecer a linha de argumentação do autor.'
   - id: en-GB-B2-TEXT-003-002
+    concept: 'to-analyse-the-text-structure'
     term: 'to analyse the text structure'
     translation: 'analisar a estrutura do texto'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'I will analyse the text structure to understand better.'
     exampleTranslation: 'Vou analisar a estrutura do texto para compreender melhor.'
   - id: en-GB-B2-TEXT-003-003
+    concept: 'to-identify-premises-and-conclusions'
     term: 'to identify premises and conclusions'
     translation: 'identificar premissas e conclusões'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'It is important to identify premises and conclusions in the argument.'
     exampleTranslation: 'É importante identificar premissas e conclusões no argumento.'
   - id: en-GB-B2-TEXT-003-004
+    concept: 'to-evaluate-the-strength-of-the-argument'
     term: 'to evaluate the strength of the argument'
     translation: 'avaliar a força do argumento'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'I need to evaluate the strength of the presented argument.'
     exampleTranslation: 'Preciso de avaliar a força do argumento apresentado.'
   - id: en-GB-B2-TEXT-003-005
+    concept: 'to-recognise-assumptions'
     term: 'to recognise assumptions'
     translation: 'reconhecer pressupostos'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: "I will recognise the author's assumptions."
     exampleTranslation: 'Vou reconhecer os pressupostos do autor.'
   - id: en-GB-B2-TEXT-003-006
+    concept: 'to-draw-conclusions'
     term: 'to draw conclusions'
     translation: 'extrair ilações'
     partOfSpeech: phrase

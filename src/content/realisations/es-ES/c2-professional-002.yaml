@@ -2,6 +2,7 @@ nodeId: C2-PROFESSIONAL-002
 lang: es-ES
 vocabulary:
   - id: es-ES-C2-PROFESSIONAL-002-001
+    concept: 'command-of-the-language'
     term: 'comando del idioma'
     translation: 'command of the language'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Mi comando del idioma se acerca al nivel nativo.'
     exampleTranslation: 'My command of the language is close to native level.'
   - id: es-ES-C2-PROFESSIONAL-002-002
+    concept: 'vocabulary-repertoire'
     term: 'repertorio de vocabulario'
     translation: 'vocabulary repertoire'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Utilizo un repertorio de vocabulario amplio y preciso.'
     exampleTranslation: 'I use a wide and precise vocabulary repertoire.'
   - id: es-ES-C2-PROFESSIONAL-002-003
+    concept: 'command-of-syntax'
     term: 'dominio de la sintaxis'
     translation: 'command of syntax'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Mi dominio de la sintaxis me permite construir oraciones complejas.'
     exampleTranslation: 'My command of syntax allows me to construct complex sentences.'
   - id: es-ES-C2-PROFESSIONAL-002-004
+    concept: 'flexible-use'
     term: 'uso flexible'
     translation: 'flexible use'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Mi uso flexible del idioma es adecuado para cualquier contexto.'
     exampleTranslation: 'My flexible use of language is appropriate for any context.'
   - id: es-ES-C2-PROFESSIONAL-002-005
+    concept: 'native-communication'
     term: 'comunicación nativa'
     translation: 'native communication'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Mi comunicación se aproxima al nivel nativo.'
     exampleTranslation: 'My communication approaches native level.'
   - id: es-ES-C2-PROFESSIONAL-002-006
+    concept: 'native-precision'
     term: 'precisión nativa'
     translation: 'native precision'
     partOfSpeech: phrase

@@ -2,6 +2,7 @@ nodeId: B1-SOCIAL-003
 lang: en-GB
 vocabulary:
   - id: en-GB-B1-SOCIAL-003-001
+    concept: 'to-feel'
     term: 'to feel'
     translation: 'sentir-se'
     partOfSpeech: verb
@@ -9,6 +10,7 @@ vocabulary:
     example: 'I feel very good when I am with my friends.'
     exampleTranslation: 'Sinto-me muito bem quando estou com os meus amigos.'
   - id: en-GB-B1-SOCIAL-003-002
+    concept: 'to-express-feelings'
     term: 'to express feelings'
     translation: 'expressar sentimentos'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'It is important to express our feelings.'
     exampleTranslation: 'É importante expressar os nossos sentimentos.'
   - id: en-GB-B1-SOCIAL-003-003
+    concept: 'to-agree-with'
     term: 'to agree with'
     translation: 'concordar com'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'I completely agree with your opinion.'
     exampleTranslation: 'Concordo completamente com a sua opinião.'
   - id: en-GB-B1-SOCIAL-003-004
+    concept: 'to-disagree-politely'
     term: 'to disagree politely'
     translation: 'discordar educadamente'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'I understand your point, but I disagree politely.'
     exampleTranslation: 'Compreendo o seu ponto, mas discordo educadamente.'
   - id: en-GB-B1-SOCIAL-003-005
+    concept: 'to-show-interest'
     term: 'to show interest'
     translation: 'demonstrar interesse'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'It is good to show interest when someone tells us something.'
     exampleTranslation: 'É bom demonstrar interesse quando alguém nos conta algo.'
   - id: en-GB-B1-SOCIAL-003-006
+    concept: 'to-share-my-perspective'
     term: 'to share my perspective'
     translation: 'partilhar a minha perspetiva'
     partOfSpeech: phrase

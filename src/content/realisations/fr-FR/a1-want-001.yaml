@@ -2,36 +2,42 @@ nodeId: A1-WANT-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-A1-WANT-001-001
+    concept: 'i-want'
     term: 'Je veux...'
     translation: 'I want...'
     partOfSpeech: phrase
     example: 'Je veux rentrer à la maison.'
     exampleTranslation: 'I want to go home.'
   - id: fr-FR-A1-WANT-001-002
+    concept: 'i-would-like'
     term: 'Je voudrais...'
     translation: 'I would like...'
     partOfSpeech: phrase
     example: 'Je voudrais boire un thé.'
     exampleTranslation: 'I would like to drink a tea.'
   - id: fr-FR-A1-WANT-001-003
+    concept: 'i-m-going-to'
     term: 'Je vais...'
     translation: "I'm going to..."
     partOfSpeech: phrase
     example: 'Je vais voyager demain.'
     exampleTranslation: "I'm going to travel tomorrow."
   - id: fr-FR-A1-WANT-001-004
+    concept: 'to-hope'
     term: 'espérer'
     translation: 'to hope'
     partOfSpeech: verb
     example: 'J’espère que vous allez bien.'
     exampleTranslation: 'I hope you are doing well.'
   - id: fr-FR-A1-WANT-001-005
+    concept: 'to-wish'
     term: 'souhaiter'
     translation: 'to wish'
     partOfSpeech: verb
     example: 'Je vous souhaite une bonne journée.'
     exampleTranslation: 'I wish you a nice day.'
   - id: fr-FR-A1-WANT-001-006
+    concept: 'wish'
     term: 'souhait'
     translation: 'wish'
     partOfSpeech: noun

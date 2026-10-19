@@ -2,6 +2,7 @@ nodeId: C2-NUANCE-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-C2-NUANCE-001-001
+    concept: 'subtle-nuances'
     term: 'matizes subtis'
     translation: 'subtle nuances'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Distingo matizes subtis em qualquer tema.'
     exampleTranslation: 'I distinguish subtle nuances on any subject.'
   - id: pt-PT-C2-NUANCE-001-002
+    concept: 'enriched-lexical-repertoire'
     term: 'repertório lexical enriquecido'
     translation: 'enriched lexical repertoire'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'O meu repertório lexical enriquecido permite-me precisão total.'
     exampleTranslation: 'My enriched lexical repertoire allows me total precision.'
   - id: pt-PT-C2-NUANCE-001-003
+    concept: 'precise-expression'
     term: 'expressão precisa'
     translation: 'precise expression'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'A minha expressão é sempre precisa e bem escolhida.'
     exampleTranslation: 'My expression is always precise and well-chosen.'
   - id: pt-PT-C2-NUANCE-001-004
+    concept: 'diverse-subjects'
     term: 'temas diversos'
     translation: 'diverse subjects'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Abordo temas diversos com domínio e segurança.'
     exampleTranslation: 'I address diverse subjects with mastery and confidence.'
   - id: pt-PT-C2-NUANCE-001-005
+    concept: 'appropriate-register'
     term: 'registo adequado'
     translation: 'appropriate register'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Selecione sempre o registo adequado a cada situação.'
     exampleTranslation: 'I always select the appropriate register for each situation.'
   - id: pt-PT-C2-NUANCE-001-006
+    concept: 'total-precision'
     term: 'precisão total'
     translation: 'total precision'
     partOfSpeech: phrase

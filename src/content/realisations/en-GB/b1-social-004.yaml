@@ -2,6 +2,7 @@ nodeId: B1-SOCIAL-004
 lang: en-GB
 vocabulary:
   - id: en-GB-B1-SOCIAL-004-001
+    concept: 'to-invite-opinion'
     term: 'to invite opinion'
     translation: 'convidar a opinião'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'I would like to invite your opinion on this topic.'
     exampleTranslation: 'Gostava de convidar a sua opinião sobre este tema.'
   - id: en-GB-B1-SOCIAL-004-002
+    concept: 'to-react-to-news'
     term: 'to react to news'
     translation: 'reagir à notícia'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'How did you react to the news about the weather?'
     exampleTranslation: 'Como reagiu à notícia sobre o clima?'
   - id: en-GB-B1-SOCIAL-004-003
+    concept: 'to-change-the-subject-politely'
     term: 'to change the subject politely'
     translation: 'mudar de assunto educadamente'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'We can change the subject politely if you prefer.'
     exampleTranslation: 'Podemos mudar de assunto educadamente se preferir.'
   - id: en-GB-B1-SOCIAL-004-004
+    concept: 'to-follow-up'
     term: 'to follow up'
     translation: 'fazer follow-up'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'I would like to follow up on what was said earlier.'
     exampleTranslation: 'Gostava de fazer follow-up sobre o que disse anteriormente.'
   - id: en-GB-B1-SOCIAL-004-005
+    concept: 'to-find-common-ground'
     term: 'to find common ground'
     translation: 'encontrar ponto comum'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'It is important to find common ground in a discussion.'
     exampleTranslation: 'É importante encontrar ponto comum numa discussão.'
   - id: en-GB-B1-SOCIAL-004-006
+    concept: 'to-conclude-the-conversation'
     term: 'to conclude the conversation'
     translation: 'concluir a conversa'
     partOfSpeech: phrase

@@ -2,18 +2,21 @@ nodeId: A2-NEWS-003
 lang: es-ES
 vocabulary:
   - id: es-ES-A2-NEWS-003-001
+    concept: 'to-give-an-opinion'
     term: 'opinar'
     translation: 'to give an opinion'
     partOfSpeech: verb
     example: 'Opino que la situación es preocupante.'
     exampleTranslation: 'I think the situation is worrying.'
   - id: es-ES-A2-NEWS-003-002
+    concept: 'to-seem'
     term: 'parecer'
     translation: 'to seem / to have an opinion'
     partOfSpeech: verb
     example: 'Me parece que es una buena idea.'
     exampleTranslation: 'It seems to me that it is a good idea.'
   - id: es-ES-A2-NEWS-003-003
+    concept: 'agreement'
     term: 'acuerdo'
     translation: 'agreement'
     partOfSpeech: noun
@@ -21,6 +24,7 @@ vocabulary:
     example: 'Estoy de acuerdo con la mayoría.'
     exampleTranslation: 'I agree with the majority.'
   - id: es-ES-A2-NEWS-003-004
+    concept: 'disagreement'
     term: 'desacuerdo'
     translation: 'disagreement'
     partOfSpeech: noun
@@ -28,12 +32,14 @@ vocabulary:
     example: 'Hay un desacuerdo sobre el tema.'
     exampleTranslation: 'There is a disagreement about the topic.'
   - id: es-ES-A2-NEWS-003-005
+    concept: 'interesting'
     term: 'interesante'
     translation: 'interesting'
     partOfSpeech: adjective
     example: 'La noticia es muy interesante.'
     exampleTranslation: 'The news is very interesting.'
   - id: es-ES-A2-NEWS-003-006
+    concept: 'worrying'
     term: 'preocupante'
     translation: 'worrying'
     partOfSpeech: adjective

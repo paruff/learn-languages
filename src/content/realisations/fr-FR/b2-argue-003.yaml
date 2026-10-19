@@ -2,6 +2,7 @@ nodeId: B2-ARGUE-003
 lang: fr-FR
 vocabulary:
   - id: fr-FR-B2-ARGUE-003-001
+    concept: 'to-develop-systematically'
     term: 'développer systématiquement'
     translation: 'to develop systematically'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: "Je vais développer l'argument de manière systématique."
     exampleTranslation: 'I will develop the argument systematically.'
   - id: fr-FR-B2-ARGUE-003-002
+    concept: 'to-highlight-important-points'
     term: 'mettre en évidence les points importants'
     translation: 'to highlight important points'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Il est important de mettre en évidence les points les plus importants.'
     exampleTranslation: 'It is important to highlight the most important points.'
   - id: fr-FR-B2-ARGUE-003-003
+    concept: 'to-present-relevant-details'
     term: 'présenter des détails pertinents'
     translation: 'to present relevant details'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Je vais présenter des détails pertinents pour soutenir ma thèse.'
     exampleTranslation: 'I will present relevant details to support my thesis.'
   - id: fr-FR-B2-ARGUE-003-004
+    concept: 'to-structure-the-argumentation'
     term: "structurer l'argumentation"
     translation: 'to structure the argumentation'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: "J'ai besoin de structurer l'argumentation clairement."
     exampleTranslation: 'I need to structure the argumentation clearly.'
   - id: fr-FR-B2-ARGUE-003-005
+    concept: 'to-use-discourse-markers'
     term: 'utiliser des marqueurs discursifs'
     translation: 'to use discourse markers'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: "Il est utile d'utiliser des marqueurs discursifs pour organiser."
     exampleTranslation: 'It is useful to use discourse markers to organise.'
   - id: fr-FR-B2-ARGUE-003-006
+    concept: 'to-conclude-the-reasoning'
     term: 'conclure le raisonnement'
     translation: 'to conclude the reasoning'
     partOfSpeech: phrase

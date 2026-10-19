@@ -2,6 +2,7 @@ nodeId: C1-ACADEMIC-002
 lang: es-ES
 vocabulary:
   - id: es-ES-C1-ACADEMIC-002-001
+    concept: 'complex-presentation'
     term: 'exposición compleja'
     translation: 'complex presentation'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Preparé una exposición compleja para el congreso.'
     exampleTranslation: 'I prepared a complex presentation for the conference.'
   - id: es-ES-C1-ACADEMIC-002-002
+    concept: 'general-audience'
     term: 'público general'
     translation: 'general audience'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Adapté mi charla para un público general.'
     exampleTranslation: 'I adapted my talk for a general audience.'
   - id: es-ES-C1-ACADEMIC-002-003
+    concept: 'specialist-audience'
     term: 'público especializado'
     translation: 'specialist audience'
     partOfSpeech: phrase
@@ -23,18 +26,21 @@ vocabulary:
     example: 'La conferencia fue dirigida a un público especializado.'
     exampleTranslation: 'The conference was aimed at a specialist audience.'
   - id: es-ES-C1-ACADEMIC-002-004
+    concept: 'to-structure-coherently'
     term: 'estructurar coherentemente'
     translation: 'to structure coherently'
     partOfSpeech: phrase
     example: 'Es fundamental estructurar coherentemente la exposición.'
     exampleTranslation: 'It is fundamental to structure the presentation coherently.'
   - id: es-ES-C1-ACADEMIC-002-005
+    concept: 'to-adapt'
     term: 'adaptar'
     translation: 'to adapt'
     partOfSpeech: verb
     example: 'Sé adaptar el lenguaje según el interlocutor.'
     exampleTranslation: 'I know how to adapt language according to the interlocutor.'
   - id: es-ES-C1-ACADEMIC-002-006
+    concept: 'complex-content'
     term: 'contenido complejo'
     translation: 'complex content'
     partOfSpeech: phrase

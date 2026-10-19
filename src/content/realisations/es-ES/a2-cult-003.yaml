@@ -2,36 +2,42 @@ nodeId: A2-CULT-003
 lang: es-ES
 vocabulary:
   - id: es-ES-A2-CULT-003-001
+    concept: 'to-give-an-opinion'
     term: 'opinar'
     translation: 'to give an opinion'
     partOfSpeech: verb
     example: 'Opino que la cultura es importante.'
     exampleTranslation: 'I think culture is important.'
   - id: es-ES-A2-CULT-003-002
+    concept: 'to-enjoy'
     term: 'disfrutar'
     translation: 'to enjoy'
     partOfSpeech: verb
     example: 'Disfruto de la música y el arte.'
     exampleTranslation: 'I enjoy music and art.'
   - id: es-ES-A2-CULT-003-003
+    concept: 'to-appreciate'
     term: 'apreciar'
     translation: 'to appreciate'
     partOfSpeech: verb
     example: 'Aprecio mucho la literatura.'
     exampleTranslation: 'I really appreciate literature.'
   - id: es-ES-A2-CULT-003-004
+    concept: 'to-be-interested-in'
     term: 'interesarse por'
     translation: 'to be interested in'
     partOfSpeech: phrase
     example: 'Me intereso por la historia del arte.'
     exampleTranslation: 'I am interested in art history.'
   - id: es-ES-A2-CULT-003-005
+    concept: 'favourite'
     term: 'favorito'
     translation: 'favourite'
     partOfSpeech: adjective
     example: 'Mi pintor favorito es Picasso.'
     exampleTranslation: 'My favourite painter is Picasso.'
   - id: es-ES-A2-CULT-003-006
+    concept: 'to-consider'
     term: 'considerar'
     translation: 'to consider'
     partOfSpeech: verb

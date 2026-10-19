@@ -2,6 +2,7 @@ nodeId: C1-WRITTEN-002
 lang: en-GB
 vocabulary:
   - id: en-GB-C1-WRITTEN-002-001
+    concept: 'critical-review'
     term: 'critical review'
     translation: 'resenha crítica'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'The critical review of the film came out in the Sunday edition.'
     exampleTranslation: 'A resenha crítica do filme saiu na edição de domingo.'
   - id: en-GB-C1-WRITTEN-002-002
+    concept: 'reference-works'
     term: 'reference works'
     translation: 'obras de referência'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'The article draws on indispensable reference works.'
     exampleTranslation: 'O artigo recorre a obras de referência incontornáveis.'
   - id: en-GB-C1-WRITTEN-002-003
+    concept: 'aesthetic-judgement'
     term: 'aesthetic judgement'
     translation: 'juízo estético'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'The critic backs his aesthetic judgement with precise examples.'
     exampleTranslation: 'O crítico sustenta o seu juízo estético com exemplos precisos.'
   - id: en-GB-C1-WRITTEN-002-004
+    concept: 'to-put-into-perspective'
     term: 'to put into perspective'
     translation: 'colocar em perspetiva'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'One should put the criticisms of the first essay into perspective.'
     exampleTranslation: 'Convém colocar em perspetiva as críticas do primeiro ensaio.'
   - id: en-GB-C1-WRITTEN-002-005
+    concept: 'close-reading'
     term: 'close reading'
     translation: 'leitura atenta'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'His close reading of the final scene is admirable.'
     exampleTranslation: 'A sua leitura atenta da cena final é admirável.'
   - id: en-GB-C1-WRITTEN-002-006
+    concept: 'final-assessment'
     term: 'final assessment'
     translation: 'balanço final'
     partOfSpeech: noun

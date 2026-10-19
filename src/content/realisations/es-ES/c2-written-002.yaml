@@ -2,6 +2,7 @@ nodeId: C2-WRITTEN-002
 lang: es-ES
 vocabulary:
   - id: es-ES-C2-WRITTEN-002-001
+    concept: 'elegant-style'
     term: 'estilo elegante'
     translation: 'elegant style'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Escribo con un estilo elegante y preciso.'
     exampleTranslation: 'I write with an elegant and precise style.'
   - id: es-ES-C2-WRITTEN-002-002
+    concept: 'effect-on-the-reader'
     term: 'efecto en el lector'
     translation: 'effect on the reader'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Busco producir un efecto específico en el lector.'
     exampleTranslation: 'I seek to produce a specific effect on the reader.'
   - id: es-ES-C2-WRITTEN-002-003
+    concept: 'appropriate-register'
     term: 'registro apropiado'
     translation: 'appropriate register'
     partOfSpeech: phrase
@@ -23,12 +26,14 @@ vocabulary:
     example: 'Selecciono el registro apropiado según el contexto.'
     exampleTranslation: 'I select the appropriate register according to the context.'
   - id: es-ES-C2-WRITTEN-002-004
+    concept: 'to-adapt-the-style'
     term: 'adaptar el estilo'
     translation: 'to adapt the style'
     partOfSpeech: phrase
     example: 'Sé adaptar el estilo al texto y a la audiencia.'
     exampleTranslation: 'I know how to adapt the style to the text and audience.'
   - id: es-ES-C2-WRITTEN-002-005
+    concept: 'subtle-precision'
     term: 'precisión sutil'
     translation: 'subtle precision'
     partOfSpeech: phrase
@@ -36,6 +41,7 @@ vocabulary:
     example: 'Mi escritura tiene una precisión sutil que enriquece el texto.'
     exampleTranslation: 'My writing has a subtle precision that enriches the text.'
   - id: es-ES-C2-WRITTEN-002-006
+    concept: 'adapted-style'
     term: 'estilo adaptado'
     translation: 'adapted style'
     partOfSpeech: phrase

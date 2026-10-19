@@ -2,6 +2,7 @@ nodeId: C1-SPOKEN-002
 lang: en-GB
 vocabulary:
   - id: en-GB-C1-SPOKEN-002-001
+    concept: 'to-get-down-to-business'
     term: 'to get down to business'
     translation: 'deitar mãos ao assunto'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: "Enough beating about the bush; let's get down to business."
     exampleTranslation: 'Basta de rodear o assunto; vamos deitar mãos ao trabalho.'
   - id: en-GB-C1-SPOKEN-002-002
+    concept: 'a-wild-and-uncalled-for-addition'
     term: 'a wild and uncalled-for addition'
     translation: 'cair que nem ginjas'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'That comment was a wild and uncalled-for addition to the discussion.'
     exampleTranslation: 'Aquele comentário caiu que nem ginjas na discussão.'
   - id: en-GB-C1-SPOKEN-002-003
+    concept: 'to-have-the-patience-of-a-saint'
     term: 'to have the patience of a saint'
     translation: 'ter paciências de santo'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'The teacher has the patience of a saint with the slower students.'
     exampleTranslation: 'A professora tem paciências de santo com os alunos mais lentos.'
   - id: en-GB-C1-SPOKEN-002-004
+    concept: 'to-know-what-one-is-talking-about'
     term: 'to know what one is talking about'
     translation: 'saber do que fala'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'When he talks about fishing, he knows what he is talking about.'
     exampleTranslation: 'Quando fala de pesca, sabe do que fala.'
   - id: en-GB-C1-SPOKEN-002-005
+    concept: 'to-dig-into-one-s-memory'
     term: "to dig into one's memory"
     translation: 'puxar da memória'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'He dug into his memory for the names of all the old songs.'
     exampleTranslation: 'Puxou da memória os nomes de todas as canções antigas.'
   - id: en-GB-C1-SPOKEN-002-006
+    concept: 'in-no-time-at-all'
     term: 'in no time at all'
     translation: 'em dois tempos'
     partOfSpeech: phrase

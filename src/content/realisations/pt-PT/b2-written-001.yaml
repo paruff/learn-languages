@@ -2,6 +2,7 @@ nodeId: B2-WRITTEN-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-B2-WRITTEN-001-001
+    concept: 'to-write-clear-and-detailed-texts'
     term: 'escrever textos claros e detalhados'
     translation: 'to write clear and detailed texts'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Consigo escrever textos claros e detalhados sobre vários temas.'
     exampleTranslation: 'I can write clear and detailed texts on various topics.'
   - id: pt-PT-B2-WRITTEN-001-002
+    concept: 'to-develop-the-writing'
     term: 'desenvolver a escrita'
     translation: 'to develop the writing'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Vou desenvolver a escrita com mais detalhes.'
     exampleTranslation: 'I will develop the writing with more details.'
   - id: pt-PT-B2-WRITTEN-001-003
+    concept: 'to-use-varied-vocabulary'
     term: 'usar vocabulário variado'
     translation: 'to use varied vocabulary'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'É importante usar vocabulário variado na escrita.'
     exampleTranslation: 'It is important to use varied vocabulary in writing.'
   - id: pt-PT-B2-WRITTEN-001-004
+    concept: 'to-structure-paragraphs'
     term: 'estruturar parágrafos'
     translation: 'to structure paragraphs'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Preciso de estruturar parágrafos de forma lógica.'
     exampleTranslation: 'I need to structure paragraphs logically.'
   - id: pt-PT-B2-WRITTEN-001-005
+    concept: 'to-use-appropriate-connectors'
     term: 'usar conectores adequados'
     translation: 'to use appropriate connectors'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Vou usar conectores adequados para ligar ideias.'
     exampleTranslation: 'I will use appropriate connectors to connect ideas.'
   - id: pt-PT-B2-WRITTEN-001-006
+    concept: 'to-rewrite-to-improve'
     term: 'reescrever para melhorar'
     translation: 'to rewrite to improve'
     partOfSpeech: phrase

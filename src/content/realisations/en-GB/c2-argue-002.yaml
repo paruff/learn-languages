@@ -2,6 +2,7 @@ nodeId: C2-ARGUE-002
 lang: en-GB
 vocabulary:
   - id: en-GB-C2-ARGUE-002-001
+    concept: 'active-participation'
     term: 'active participation'
     translation: 'participação activa'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'I actively participate in any type of discussion.'
     exampleTranslation: 'Participo activamente em qualquer tipo de discussão.'
   - id: en-GB-C2-ARGUE-002-002
+    concept: 'all-registers'
     term: 'all registers'
     translation: 'todos os registos'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'I master discussion in all registers, from informal to academic.'
     exampleTranslation: 'Domino a discussão em todos os registos, do informal ao académico.'
   - id: en-GB-C2-ARGUE-002-003
+    concept: 'develop-points-of-view'
     term: 'develop points of view'
     translation: 'desenvolver pontos de vista'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: "I know how to develop my own and others' points of view."
     exampleTranslation: 'Sei desenvolver pontos de vista próprios e alheios.'
   - id: en-GB-C2-ARGUE-002-004
+    concept: 'chain-of-reasoning'
     term: 'chain of reasoning'
     translation: 'encadeamento argumentativo'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'I construct a solid and convincing chain of reasoning.'
     exampleTranslation: 'Construo um encadeamento argumentativo sólido e convincente.'
   - id: en-GB-C2-ARGUE-002-005
+    concept: 'advanced-discussion'
     term: 'advanced discussion'
     translation: 'discussão avançada'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'In advanced discussions, I maintain clarity and precision.'
     exampleTranslation: 'Nas discussões avançadas, mantenho a clareza e a precisão.'
   - id: en-GB-C2-ARGUE-002-006
+    concept: 'well-founded-reasoning'
     term: 'well-founded reasoning'
     translation: 'raciocínio bem fundamentado'
     partOfSpeech: phrase

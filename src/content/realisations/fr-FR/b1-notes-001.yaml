@@ -2,12 +2,14 @@ nodeId: B1-NOTES-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-B1-NOTES-001-001
+    concept: 'to-take-notes'
     term: 'prendre des notes'
     translation: 'to take notes'
     partOfSpeech: phrase
     example: 'J’ai pris des notes pendant le cours.'
     exampleTranslation: 'I took notes during the lecture.'
   - id: fr-FR-B1-NOTES-001-002
+    concept: 'a-list-of-key-points'
     term: 'une liste de points clés'
     translation: 'a list of key points'
     partOfSpeech: phrase
@@ -15,6 +17,7 @@ vocabulary:
     example: 'Écrivez une liste de points clés.'
     exampleTranslation: 'Write a list of key points.'
   - id: fr-FR-B1-NOTES-001-003
+    concept: 'a-lecture'
     term: 'une conférence'
     translation: 'a lecture'
     partOfSpeech: noun
@@ -22,12 +25,14 @@ vocabulary:
     example: 'La conférence était claire et bien structurée.'
     exampleTranslation: 'The lecture was clear and well structured.'
   - id: fr-FR-B1-NOTES-001-004
+    concept: 'to-reuse-later'
     term: 'réutiliser ultérieurement'
     translation: 'to reuse later'
     partOfSpeech: phrase
     example: 'Je réutiliserai ces notes dans ma dissertation.'
     exampleTranslation: 'I will reuse these notes in my essay.'
   - id: fr-FR-B1-NOTES-001-005
+    concept: 'a-seminar'
     term: 'un séminaire'
     translation: 'a seminar'
     partOfSpeech: noun
@@ -35,6 +40,7 @@ vocabulary:
     example: 'Le séminaire portait sur la politique climatique.'
     exampleTranslation: 'The seminar focused on climate policy.'
   - id: fr-FR-B1-NOTES-001-006
+    concept: 'a-familiar-topic'
     term: 'un sujet familier'
     translation: 'a familiar topic'
     partOfSpeech: phrase

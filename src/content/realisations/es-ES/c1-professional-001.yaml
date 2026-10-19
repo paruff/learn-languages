@@ -2,6 +2,7 @@ nodeId: C1-PROFESSIONAL-001
 lang: es-ES
 vocabulary:
   - id: es-ES-C1-PROFESSIONAL-001-001
+    concept: 'professional-proposal'
     term: 'propuesta profesional'
     translation: 'professional proposal'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Presenté una propuesta profesional bien estructurada.'
     exampleTranslation: 'I presented a well-structured professional proposal.'
   - id: es-ES-C1-PROFESSIONAL-001-002
+    concept: 'oral-presentation'
     term: 'presentación oral'
     translation: 'oral presentation'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'La presentación oral fue clara y convincente.'
     exampleTranslation: 'The oral presentation was clear and convincing.'
   - id: es-ES-C1-PROFESSIONAL-001-003
+    concept: 'objections'
     term: 'objeciones'
     translation: 'objections'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Respondí a las objeciones con calma y argumentos.'
     exampleTranslation: 'I responded to the objections calmly and with arguments.'
   - id: es-ES-C1-PROFESSIONAL-001-004
+    concept: 'professional-context'
     term: 'contexto profesional'
     translation: 'professional context'
     partOfSpeech: phrase
@@ -30,12 +34,14 @@ vocabulary:
     example: 'En el contexto profesional, la claridad es esencial.'
     exampleTranslation: 'In the professional context, clarity is essential.'
   - id: es-ES-C1-PROFESSIONAL-001-005
+    concept: 'to-handle-questions'
     term: 'gestionar preguntas'
     translation: 'to handle questions'
     partOfSpeech: phrase
     example: 'Sé gestionar preguntas difíciles durante una presentación.'
     exampleTranslation: 'I know how to handle difficult questions during a presentation.'
   - id: es-ES-C1-PROFESSIONAL-001-006
+    concept: 'to-present-with-confidence'
     term: 'exponer con seguridad'
     translation: 'to present with confidence'
     partOfSpeech: phrase

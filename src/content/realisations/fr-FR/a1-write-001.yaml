@@ -2,36 +2,42 @@ nodeId: A1-WRITE-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-A1-WRITE-001-001
+    concept: 'dear'
     term: 'Cher/Chère …'
     translation: 'Dear …'
     partOfSpeech: phrase
     example: 'Chère Claire, voici une photo de ma ville.'
     exampleTranslation: 'Dear Claire, here is a photo of my town.'
   - id: fr-FR-A1-WRITE-001-002
+    concept: 'here-is'
     term: 'Voici…'
     translation: 'Here is…'
     partOfSpeech: phrase
     example: 'Voici ma nouvelle adresse.'
     exampleTranslation: 'Here is my new address.'
   - id: fr-FR-A1-WRITE-001-003
+    concept: 'i-live-in'
     term: 'J’habite à…'
     translation: 'I live in…'
     partOfSpeech: phrase
     example: 'J’habite à Lyon.'
     exampleTranslation: 'I live in Lyon.'
   - id: fr-FR-A1-WRITE-001-004
+    concept: 'he'
     term: 'Il/Elle a … ans'
     translation: 'He/She is … years old'
     partOfSpeech: phrase
     example: 'Elle a douze ans.'
     exampleTranslation: 'She is twelve years old.'
   - id: fr-FR-A1-WRITE-001-005
+    concept: 'see-you-soon'
     term: 'À bientôt'
     translation: 'See you soon'
     partOfSpeech: phrase
     example: 'À bientôt, à dimanche !'
     exampleTranslation: 'See you soon, see you on Sunday!'
   - id: fr-FR-A1-WRITE-001-006
+    concept: 'best-wishes'
     term: 'Bien à vous'
     translation: 'Best wishes'
     partOfSpeech: phrase

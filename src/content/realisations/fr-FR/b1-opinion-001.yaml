@@ -2,36 +2,42 @@ nodeId: B1-OPINION-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-B1-OPINION-001-001
+    concept: 'in-my-opinion'
     term: 'À mon avis'
     translation: 'in my opinion'
     partOfSpeech: phrase
     example: 'À mon avis, ce film est très intéressant.'
     exampleTranslation: 'In my opinion, this film is very interesting.'
   - id: fr-FR-B1-OPINION-001-002
+    concept: 'i-think-that'
     term: 'Je pense que'
     translation: 'I think that'
     partOfSpeech: phrase
     example: "Je pense que nous devrions investir davantage dans l'éducation."
     exampleTranslation: 'I think that we should invest more in education.'
   - id: fr-FR-B1-OPINION-001-003
+    concept: 'it-seems-to-me-that'
     term: 'Il me semble que'
     translation: 'it seems to me that'
     partOfSpeech: phrase
     example: 'Il me semble que cette solution est la meilleure.'
     exampleTranslation: 'It seems to me that this solution is the best.'
   - id: fr-FR-B1-OPINION-001-004
+    concept: 'i-defend-the-idea-that'
     term: "Je défends l'idée que"
     translation: 'I defend the idea that'
     partOfSpeech: phrase
     example: "Je défends l'idée que chacun devrait avoir accès aux soins de santé."
     exampleTranslation: 'I defend the idea that everyone should have access to healthcare.'
   - id: fr-FR-B1-OPINION-001-005
+    concept: 'i-am-sure-that'
     term: 'Je suis certain que'
     translation: 'I am sure that'
     partOfSpeech: phrase
     example: "Je suis certain que la situation va s'améliorer."
     exampleTranslation: 'I am sure that this will improve.'
   - id: fr-FR-B1-OPINION-001-006
+    concept: 'i-am-of-the-opinion-that'
     term: "Je suis de l'avis que"
     translation: 'I am of the opinion that'
     partOfSpeech: phrase

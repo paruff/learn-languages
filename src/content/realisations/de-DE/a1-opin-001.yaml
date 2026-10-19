@@ -2,36 +2,42 @@ nodeId: A1-OPIN-001
 lang: de-DE
 vocabulary:
   - id: de-DE-A1-OPIN-001-001
+    concept: 'i-think-that'
     term: 'Ich finde, dass...'
     translation: 'I think that...'
     partOfSpeech: phrase
     example: 'Ich finde, dass das gut ist.'
     exampleTranslation: 'I think that is good.'
   - id: de-DE-A1-OPIN-001-002
+    concept: 'i-like'
     term: 'Ich mag...'
     translation: 'I like...'
     partOfSpeech: phrase
     example: 'Ich mag Schokolade.'
     exampleTranslation: 'I like chocolate.'
   - id: de-DE-A1-OPIN-001-003
+    concept: 'i-don-t-like'
     term: 'Ich mag nicht...'
     translation: "I don't like..."
     partOfSpeech: phrase
     example: 'Ich mag nicht Suppe.'
     exampleTranslation: "I don't like soup."
   - id: de-DE-A1-OPIN-001-004
+    concept: 'good'
     term: 'gut'
     translation: 'good'
     partOfSpeech: adjective
     example: 'Das ist sehr gut.'
     exampleTranslation: 'That is very good.'
   - id: de-DE-A1-OPIN-001-005
+    concept: 'bad'
     term: 'schlecht'
     translation: 'bad'
     partOfSpeech: adjective
     example: 'Das Wetter ist schlecht.'
     exampleTranslation: 'The weather is bad.'
   - id: de-DE-A1-OPIN-001-006
+    concept: 'gladly'
     term: 'gern'
     translation: 'gladly / fond of'
     partOfSpeech: adverb

@@ -2,6 +2,7 @@ nodeId: C1-ARGUE-003
 lang: de-DE
 vocabulary:
   - id: de-DE-C1-ARGUE-003-001
+    concept: 'facts'
     term: 'Sachverhalte'
     translation: 'facts / circumstances'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Die Sachverhalte wurden klar dargestellt.'
     exampleTranslation: 'The facts were clearly presented.'
   - id: de-DE-C1-ARGUE-003-002
+    concept: 'facts-noun'
     term: 'Tatsachen'
     translation: 'facts'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Die Tatsachen sprechen für sich.'
     exampleTranslation: 'The facts speak for themselves.'
   - id: de-DE-C1-ARGUE-003-003
+    concept: 'logic'
     term: 'Logik'
     translation: 'logic'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Die Logik der Argumentation war einwandfrei.'
     exampleTranslation: 'The logic of the argumentation was flawless.'
   - id: de-DE-C1-ARGUE-003-004
+    concept: 'structure'
     term: 'Struktur'
     translation: 'structure'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Die Struktur war klar und nachvollziehbar.'
     exampleTranslation: 'The structure was clear and comprehensible.'
   - id: de-DE-C1-ARGUE-003-005
+    concept: 'comprehensible'
     term: 'nachvollziehbar'
     translation: 'comprehensible / traceable'
     partOfSpeech: adjective
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Die Argumentation war nachvollziehbar.'
     exampleTranslation: 'The argumentation was comprehensible.'
   - id: de-DE-C1-ARGUE-003-006
+    concept: 'context'
     term: 'Zusammenhang'
     translation: 'context / coherence'
     partOfSpeech: noun

@@ -2,6 +2,7 @@ nodeId: C2-LITERARY-002
 lang: de-DE
 vocabulary:
   - id: de-DE-C2-LITERARY-002-001
+    concept: 'literature'
     term: 'Literatur'
     translation: 'literature'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Die Literatur des 19. Jahrhunderts ist faszinierend.'
     exampleTranslation: 'The literature of the 19th century is fascinating.'
   - id: de-DE-C2-LITERARY-002-002
+    concept: 'stylistic-device'
     term: 'Stilmittel'
     translation: 'stylistic device'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Das Stilmittel der Metapher wurde perfekt eingesetzt.'
     exampleTranslation: 'The stylistic device of metaphor was perfectly employed.'
   - id: de-DE-C2-LITERARY-002-003
+    concept: 'to-interpret'
     term: 'interpretieren'
     translation: 'to interpret'
     partOfSpeech: verb
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Sie kann die Gedichte sehr gut interpretieren.'
     exampleTranslation: 'She can interpret the poems very well.'
   - id: de-DE-C2-LITERARY-002-004
+    concept: 'analysis'
     term: 'Analyse'
     translation: 'analysis'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Die Analyse des Textes war tiefgründig.'
     exampleTranslation: 'The analysis of the text was profound.'
   - id: de-DE-C2-LITERARY-002-005
+    concept: 'text-analysis'
     term: 'Textanalyse'
     translation: 'text analysis'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Die Textanalyse war sehr detailliert.'
     exampleTranslation: 'The text analysis was very detailed.'
   - id: de-DE-C2-LITERARY-002-006
+    concept: 'to-summarize'
     term: 'zusammenfassen'
     translation: 'to summarize'
     partOfSpeech: verb

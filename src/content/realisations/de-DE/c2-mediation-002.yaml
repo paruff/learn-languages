@@ -2,6 +2,7 @@ nodeId: C2-MEDIATION-002
 lang: de-DE
 vocabulary:
   - id: de-DE-C2-MEDIATION-002-001
+    concept: 'cultural'
     term: 'kulturell'
     translation: 'cultural'
     partOfSpeech: adjective
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Die kulturellen Unterschiede sind wichtig.'
     exampleTranslation: 'The cultural differences are important.'
   - id: de-DE-C2-MEDIATION-002-002
+    concept: 'key-terms'
     term: 'Schlüsselbegriffe'
     translation: 'key terms'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Die Schlüsselbegriffe wurden identifiziert.'
     exampleTranslation: 'The key terms were identified.'
   - id: de-DE-C2-MEDIATION-002-003
+    concept: 'interpretation'
     term: 'Interpretation'
     translation: 'interpretation'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Die Interpretation war subtil und präzise.'
     exampleTranslation: 'The interpretation was subtle and precise.'
   - id: de-DE-C2-MEDIATION-002-004
+    concept: 'to-mean'
     term: 'bedeuten'
     translation: 'to mean'
     partOfSpeech: verb
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Was bedeutet dieser Begriff im Kontext?'
     exampleTranslation: 'What does this term mean in context?'
   - id: de-DE-C2-MEDIATION-002-005
+    concept: 'to-summarize'
     term: 'zusammenfassen'
     translation: 'to summarize'
     partOfSpeech: verb
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Können Sie die Bedeutung zusammenfassen?'
     exampleTranslation: 'Can you summarize the meaning?'
   - id: de-DE-C2-MEDIATION-002-006
+    concept: 'ambiguity'
     term: 'Mehrfachdeutigkeit'
     translation: 'ambiguity / multiple meanings'
     partOfSpeech: noun

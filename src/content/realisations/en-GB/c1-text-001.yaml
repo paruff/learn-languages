@@ -2,6 +2,7 @@ nodeId: C1-TEXT-001
 lang: en-GB
 vocabulary:
   - id: en-GB-C1-TEXT-001-001
+    concept: 'to-read-between-the-lines'
     term: 'to read between the lines'
     translation: 'ler nas entrelinhas'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'An attentive reader knows how to read between the lines of editorials.'
     exampleTranslation: 'Um leitor atento sabe ler nas entrelinhas dos editoriais.'
   - id: en-GB-C1-TEXT-001-002
+    concept: 'to-grasp-the-implicit-meaning'
     term: 'to grasp the implicit meaning'
     translation: 'apreender o sentido implícito'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'The critic grasped the implicit meaning of the novel.'
     exampleTranslation: 'O crítico apreendeu o sentido implícito do romance.'
   - id: en-GB-C1-TEXT-001-003
+    concept: 'to-discern-the-irony'
     term: 'to discern the irony'
     translation: 'descortinar a ironia'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Only an experienced reader can discern the irony of the text.'
     exampleTranslation: 'Só um leitor experiente consegue descortinar a ironia do texto.'
   - id: en-GB-C1-TEXT-001-004
+    concept: 'long-form-text'
     term: 'long-form text'
     translation: 'texto de fôlego'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'The essay is a long-form text on European identity.'
     exampleTranslation: 'O ensaio é um texto de fôlego sobre a identidade europeia.'
   - id: en-GB-C1-TEXT-001-005
+    concept: 'to-contextualise-the-work'
     term: 'to contextualise the work'
     translation: 'contextualizar a obra'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'It is advisable to contextualise the work within the era in which it was written.'
     exampleTranslation: 'Convém contextualizar a obra na época em que foi escrita.'
   - id: en-GB-C1-TEXT-001-006
+    concept: 'to-infer-the-point-of-view'
     term: 'to infer the point of view'
     translation: 'deduzir o ponto de vista'
     partOfSpeech: phrase

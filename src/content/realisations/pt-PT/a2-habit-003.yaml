@@ -2,6 +2,7 @@ nodeId: A2-HABIT-003
 lang: pt-PT
 vocabulary:
   - id: pt-PT-A2-HABIT-003-001
+    concept: 'news'
     term: 'notícia'
     translation: 'news'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Li uma notícia interessante hoje.'
     exampleTranslation: 'I read an interesting news item today.'
   - id: pt-PT-A2-HABIT-003-002
+    concept: 'press'
     term: 'imprensa'
     translation: 'press'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'A imprensa escreveu muito sobre o assunto.'
     exampleTranslation: 'The press wrote a lot about the subject.'
   - id: pt-PT-A2-HABIT-003-003
+    concept: 'television'
     term: 'televisão'
     translation: 'television'
     partOfSpeech: noun
@@ -25,6 +28,7 @@ vocabulary:
     imageUrl: 'televisao.webp'
     imageAlt: 'A flat-screen television in a wooden cabinet'
   - id: pt-PT-A2-HABIT-003-004
+    concept: 'newspaper'
     term: 'jornal'
     translation: 'newspaper'
     partOfSpeech: noun
@@ -34,6 +38,7 @@ vocabulary:
     imageUrl: 'jornal.webp'
     imageAlt: 'A person reading a large open newspaper'
   - id: pt-PT-A2-HABIT-003-005
+    concept: 'article'
     term: 'artigo'
     translation: 'article'
     partOfSpeech: noun
@@ -41,6 +46,7 @@ vocabulary:
     example: 'O artigo é muito bem escrito.'
     exampleTranslation: 'The article is very well written.'
   - id: pt-PT-A2-HABIT-003-006
+    concept: 'report'
     term: 'reportagem'
     translation: 'report'
     partOfSpeech: noun

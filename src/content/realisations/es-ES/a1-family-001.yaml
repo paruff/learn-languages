@@ -2,6 +2,7 @@ nodeId: A1-FAMILY-001
 lang: es-ES
 vocabulary:
   - id: es-ES-A1-FAMILY-001-001
+    concept: 'mother'
     term: 'madre'
     translation: 'mother'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Mi madre se llama Ana.'
     exampleTranslation: 'My mother is called Ana.'
   - id: es-ES-A1-FAMILY-001-002
+    concept: 'father'
     term: 'padre'
     translation: 'father'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Mi padre trabaja en Madrid.'
     exampleTranslation: 'My father works in Madrid.'
   - id: es-ES-A1-FAMILY-001-003
+    concept: 'brother'
     term: 'hermano'
     translation: 'brother'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Tengo un hermano menor.'
     exampleTranslation: 'I have a younger brother.'
   - id: es-ES-A1-FAMILY-001-004
+    concept: 'sister'
     term: 'hermana'
     translation: 'sister'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Mi hermana es profesora.'
     exampleTranslation: 'My sister is a teacher.'
   - id: es-ES-A1-FAMILY-001-005
+    concept: 'tall'
     term: 'alto'
     translation: 'tall'
     partOfSpeech: adjective
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Mi padre es alto.'
     exampleTranslation: 'My father is tall.'
   - id: es-ES-A1-FAMILY-001-006
+    concept: 'short'
     term: 'bajo'
     translation: 'short'
     partOfSpeech: adjective

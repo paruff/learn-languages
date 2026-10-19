@@ -2,24 +2,28 @@ nodeId: A1-LOC-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-A1-LOC-001-001
+    concept: 'where-is'
     term: 'Onde fica...?'
     translation: 'Where is...?'
     partOfSpeech: phrase
     example: 'Onde fica a estação de comboios?'
     exampleTranslation: 'Where is the train station?'
   - id: pt-PT-A1-LOC-001-002
+    concept: 'on-the-left'
     term: 'À esquerda'
     translation: 'On the left'
     partOfSpeech: phrase
     example: 'A loja fica à esquerda.'
     exampleTranslation: 'The shop is on the left.'
   - id: pt-PT-A1-LOC-001-003
+    concept: 'on-the-right'
     term: 'À direita'
     translation: 'On the right'
     partOfSpeech: phrase
     example: 'Vire à direita.'
     exampleTranslation: 'Turn right.'
   - id: pt-PT-A1-LOC-001-004
+    concept: 'straight-ahead'
     term: 'Em frente'
     translation: 'Straight ahead'
     partOfSpeech: phrase

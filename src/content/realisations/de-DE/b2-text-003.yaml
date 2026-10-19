@@ -2,6 +2,7 @@ nodeId: B2-TEXT-003
 lang: de-DE
 vocabulary:
   - id: de-DE-B2-TEXT-003-001
+    concept: 'line-of-argument'
     term: 'Argumentationslinie'
     translation: 'line of argument'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Die Argumentationslinie war klar.'
     exampleTranslation: 'The line of argument was clear.'
   - id: de-DE-B2-TEXT-003-002
+    concept: 'to-recognize'
     term: 'erkennen'
     translation: 'to recognize'
     partOfSpeech: verb
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Ich kann die Argumentationslinie erkennen.'
     exampleTranslation: 'I can recognize the line of argument.'
   - id: de-DE-B2-TEXT-003-003
+    concept: 'topic'
     term: 'Thema'
     translation: 'topic / issue'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Das Thema wurde klar dargestellt.'
     exampleTranslation: 'The issue was clearly presented.'
   - id: de-DE-B2-TEXT-003-004
+    concept: 'presentation'
     term: 'Darstellung'
     translation: 'presentation / representation'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Die Darstellung war überzeugend.'
     exampleTranslation: 'The presentation was convincing.'
   - id: de-DE-B2-TEXT-003-005
+    concept: 'structure'
     term: 'Struktur'
     translation: 'structure'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Die Struktur des Textes war klar.'
     exampleTranslation: 'The structure of the text was clear.'
   - id: de-DE-B2-TEXT-003-006
+    concept: 'main-idea'
     term: 'Hauptgedanke'
     translation: 'main idea'
     partOfSpeech: noun

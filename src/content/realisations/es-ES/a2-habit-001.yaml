@@ -2,6 +2,7 @@ nodeId: A2-HABIT-001
 lang: es-ES
 vocabulary:
   - id: es-ES-A2-HABIT-001-001
+    concept: 'habit'
     term: 'costumbre'
     translation: 'habit'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Tengo la costumbre de leer antes de dormir.'
     exampleTranslation: 'I have the habit of reading before sleeping.'
   - id: es-ES-A2-HABIT-001-002
+    concept: 'change'
     term: 'cambio'
     translation: 'change'
     partOfSpeech: noun
@@ -16,24 +18,28 @@ vocabulary:
     example: 'El cambio de hábitos es difícil.'
     exampleTranslation: 'Changing habits is difficult.'
   - id: es-ES-A2-HABIT-001-003
+    concept: 'lately'
     term: 'últimamente'
     translation: 'lately'
     partOfSpeech: adverb
     example: 'Últimamente como más verduras.'
     exampleTranslation: 'Lately I eat more vegetables.'
   - id: es-ES-A2-HABIT-001-004
+    concept: 'to-start'
     term: 'empezar'
     translation: 'to start / to begin'
     partOfSpeech: verb
     example: 'Empecé a hacer ejercicio todas las mañanas.'
     exampleTranslation: 'I started exercising every morning.'
   - id: es-ES-A2-HABIT-001-005
+    concept: 'to-stop'
     term: 'dejar de'
     translation: 'to stop (doing something)'
     partOfSpeech: phrase
     example: 'Dejé de fumar hace un año.'
     exampleTranslation: 'I stopped smoking a year ago.'
   - id: es-ES-A2-HABIT-001-006
+    concept: 'to-improve'
     term: 'mejorar'
     translation: 'to improve'
     partOfSpeech: verb

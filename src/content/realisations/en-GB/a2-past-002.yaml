@@ -2,36 +2,42 @@ nodeId: A2-PAST-002
 lang: en-GB
 vocabulary:
   - id: en-GB-A2-PAST-002-001
+    concept: 'before'
     term: 'before'
     translation: 'antes'
     partOfSpeech: adverb
     example: 'Before I lived in the countryside.'
     exampleTranslation: 'Antes vivia no campo.'
   - id: en-GB-A2-PAST-002-002
+    concept: 'now'
     term: 'now'
     translation: 'agora'
     partOfSpeech: adverb
     example: 'Now I live in the city.'
     exampleTranslation: 'Agora vivo na cidade.'
   - id: en-GB-A2-PAST-002-003
+    concept: 'to-change'
     term: 'to change'
     translation: 'mudar'
     partOfSpeech: verb
     example: 'I have changed a lot in recent years.'
     exampleTranslation: 'Mudei muito nos últimos anos.'
   - id: en-GB-A2-PAST-002-004
+    concept: 'to-grow'
     term: 'to grow'
     translation: 'crescer'
     partOfSpeech: verb
     example: 'I grew up in a small town.'
     exampleTranslation: 'Cresci numa cidade pequena.'
   - id: en-GB-A2-PAST-002-005
+    concept: 'experience'
     term: 'experience'
     translation: 'experiência'
     partOfSpeech: noun
     example: 'This experience changed my life.'
     exampleTranslation: 'Esta experiência mudou a minha vida.'
   - id: en-GB-A2-PAST-002-006
+    concept: 'to-transform'
     term: 'to transform'
     translation: 'transformar'
     partOfSpeech: verb

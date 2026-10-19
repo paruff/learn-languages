@@ -2,6 +2,7 @@ nodeId: A2-NEWS-001
 lang: es-ES
 vocabulary:
   - id: es-ES-A2-NEWS-001-001
+    concept: 'newspaper'
     term: 'periódico'
     translation: 'newspaper'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Leo el periódico todas las mañanas.'
     exampleTranslation: 'I read the newspaper every morning.'
   - id: es-ES-A2-NEWS-001-002
+    concept: 'article'
     term: 'artículo'
     translation: 'article'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'El artículo habla sobre el cambio climático.'
     exampleTranslation: 'The article talks about climate change.'
   - id: es-ES-A2-NEWS-001-003
+    concept: 'headline'
     term: 'titular'
     translation: 'headline'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'El titular del periódico es impactante.'
     exampleTranslation: 'The newspaper headline is striking.'
   - id: es-ES-A2-NEWS-001-004
+    concept: 'information'
     term: 'información'
     translation: 'information'
     partOfSpeech: noun
@@ -30,12 +34,14 @@ vocabulary:
     example: 'La información del periódico es fiable.'
     exampleTranslation: 'The information in the newspaper is reliable.'
   - id: es-ES-A2-NEWS-001-005
+    concept: 'to-understand'
     term: 'entender'
     translation: 'to understand'
     partOfSpeech: verb
     example: 'Puedo entender los artículos simples.'
     exampleTranslation: 'I can understand simple articles.'
   - id: es-ES-A2-NEWS-001-006
+    concept: 'source'
     term: 'fuente'
     translation: 'source'
     partOfSpeech: noun

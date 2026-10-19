@@ -2,6 +2,7 @@ nodeId: A2-CULT-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-A2-CULT-001-001
+    concept: 'festival'
     term: 'festival'
     translation: 'festival'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Le festival de musique est très populaire.'
     exampleTranslation: 'The music festival is very popular.'
   - id: fr-FR-A2-CULT-001-002
+    concept: 'tradition'
     term: 'tradition'
     translation: 'tradition'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: "C'est une vieille tradition."
     exampleTranslation: 'It is an old tradition.'
   - id: fr-FR-A2-CULT-001-003
+    concept: 'celebration'
     term: 'célébration'
     translation: 'celebration'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'La célébration a duré deux jours.'
     exampleTranslation: 'The celebration lasted two days.'
   - id: fr-FR-A2-CULT-001-004
+    concept: 'music'
     term: 'musique'
     translation: 'music'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'La musique française est très belle.'
     exampleTranslation: 'French music is very beautiful.'
   - id: fr-FR-A2-CULT-001-005
+    concept: 'dance'
     term: 'danse'
     translation: 'dance'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'La danse traditionnelle est belle à regarder.'
     exampleTranslation: 'The traditional dance is beautiful to watch.'
   - id: fr-FR-A2-CULT-001-006
+    concept: 'party'
     term: 'fête'
     translation: 'party'
     partOfSpeech: noun

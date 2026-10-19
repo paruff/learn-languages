@@ -2,6 +2,7 @@ nodeId: C1-LITERARY-001
 lang: en-GB
 vocabulary:
   - id: en-GB-C1-LITERARY-001-001
+    concept: 'layers-of-meaning'
     term: 'layers of meaning'
     translation: 'camadas de sentido'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'The poem reveals layers of meaning with every re-reading.'
     exampleTranslation: 'O poema revela camadas de sentido a cada releitura.'
   - id: en-GB-C1-LITERARY-001-002
+    concept: 'extended-metaphor'
     term: 'extended metaphor'
     translation: 'metáfora de fôlego'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'The extended metaphor runs through the whole novel.'
     exampleTranslation: 'A metáfora de fôlego atravessa todo o romance.'
   - id: en-GB-C1-LITERARY-001-003
+    concept: 'cultural-resonance'
     term: 'cultural resonance'
     translation: 'ressonância cultural'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'The cultural resonance of the tale escapes foreign readers.'
     exampleTranslation: 'A ressonância cultural do conto escapa a leitores estrangeiros.'
   - id: en-GB-C1-LITERARY-001-004
+    concept: 'narrative-voice'
     term: 'narrative voice'
     translation: 'voz narrativa'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'The narrative voice distances itself from the classic omniscient narrator.'
     exampleTranslation: 'A voz narrativa distancia-se do narrador omnisciente clássico.'
   - id: en-GB-C1-LITERARY-001-005
+    concept: 'to-weave-the-references-together'
     term: 'to weave the references together'
     translation: 'entrelaçar as referências'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'The author weaves the biblical and maritime references together with talent.'
     exampleTranslation: 'O autor entrelaça as referências bíblicas e marítimas com talento.'
   - id: en-GB-C1-LITERARY-001-006
+    concept: 'flavour-of-the-era'
     term: 'flavour of the era'
     translation: 'sabor da época'
     partOfSpeech: noun

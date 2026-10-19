@@ -2,6 +2,7 @@ nodeId: C1-TEXT-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-C1-TEXT-001-001
+    concept: 'to-read-between-the-lines'
     term: 'ler nas entrelinhas'
     translation: 'to read between the lines'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Um leitor atento sabe ler nas entrelinhas dos editoriais.'
     exampleTranslation: 'An attentive reader knows how to read between the lines of editorials.'
   - id: pt-PT-C1-TEXT-001-002
+    concept: 'to-grasp-the-implicit-meaning'
     term: 'apreender o sentido implícito'
     translation: 'to grasp the implicit meaning'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'O crítico apreendeu o sentido implícito do romance.'
     exampleTranslation: 'The critic grasped the implicit meaning of the novel.'
   - id: pt-PT-C1-TEXT-001-003
+    concept: 'to-discern-the-irony'
     term: 'descortinar a ironia'
     translation: 'to discern the irony'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Só um leitor experiente consegue descortinar a ironia do texto.'
     exampleTranslation: 'Only an experienced reader can discern the irony of the text.'
   - id: pt-PT-C1-TEXT-001-004
+    concept: 'long-form-text'
     term: 'texto de fôlego'
     translation: 'long-form text'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'O ensaio é um texto de fôlego sobre a identidade europeia.'
     exampleTranslation: 'The essay is a long-form text on European identity.'
   - id: pt-PT-C1-TEXT-001-005
+    concept: 'to-contextualise-the-work'
     term: 'contextualizar a obra'
     translation: 'to contextualise the work'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Convém contextualizar a obra na época em que foi escrita.'
     exampleTranslation: 'It is advisable to contextualise the work within the era in which it was written.'
   - id: pt-PT-C1-TEXT-001-006
+    concept: 'to-infer-the-point-of-view'
     term: 'deduzir o ponto de vista'
     translation: 'to infer the point of view'
     partOfSpeech: phrase

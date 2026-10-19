@@ -2,6 +2,7 @@ nodeId: A1-SHOP-001
 lang: de-DE
 vocabulary:
   - id: de-DE-A1-SHOP-001-001
+    concept: 'shop'
     term: 'Geschäft'
     translation: 'shop'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Das Geschäft ist geöffnet.'
     exampleTranslation: 'The shop is open.'
   - id: de-DE-A1-SHOP-001-002
+    concept: 'money'
     term: 'Geld'
     translation: 'money'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Ich habe kein Geld dabei.'
     exampleTranslation: "I don't have any money with me."
   - id: de-DE-A1-SHOP-001-003
+    concept: 'price'
     term: 'Preis'
     translation: 'price'
     partOfSpeech: noun
@@ -23,18 +26,21 @@ vocabulary:
     example: 'Was ist der Preis?'
     exampleTranslation: 'What is the price?'
   - id: de-DE-A1-SHOP-001-004
+    concept: 'to-buy'
     term: 'kaufen'
     translation: 'to buy'
     partOfSpeech: verb
     example: 'Ich möchte das kaufen.'
     exampleTranslation: 'I would like to buy that.'
   - id: de-DE-A1-SHOP-001-005
+    concept: 'expensive'
     term: 'teuer'
     translation: 'expensive'
     partOfSpeech: adjective
     example: 'Das ist zu teuer.'
     exampleTranslation: 'That is too expensive.'
   - id: de-DE-A1-SHOP-001-006
+    concept: 'cheap'
     term: 'billig'
     translation: 'cheap'
     partOfSpeech: adjective

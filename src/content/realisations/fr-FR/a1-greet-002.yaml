@@ -2,36 +2,42 @@ nodeId: A1-GREET-002
 lang: fr-FR
 vocabulary:
   - id: fr-FR-A1-GREET-002-001
+    concept: 'goodbye'
     term: 'Au revoir'
     translation: 'Goodbye'
     partOfSpeech: interjection
     example: 'Au revoir, à demain !'
     exampleTranslation: 'Goodbye, see you tomorrow!'
   - id: fr-FR-A1-GREET-002-002
+    concept: 'bye'
     term: 'Salut'
     translation: 'Bye'
     partOfSpeech: interjection
     example: 'Salut, on se voit bientôt !'
     exampleTranslation: 'Bye, see you soon!'
   - id: fr-FR-A1-GREET-002-003
+    concept: 'see-you-later'
     term: 'À plus tard'
     translation: 'See you later'
     partOfSpeech: phrase
     example: 'À plus tard, au travail !'
     exampleTranslation: 'See you later, at work!'
   - id: fr-FR-A1-GREET-002-004
+    concept: 'see-you-tomorrow'
     term: 'À demain'
     translation: 'See you tomorrow'
     partOfSpeech: phrase
     example: 'Bonne soirée ! À demain !'
     exampleTranslation: 'Have a good evening! See you tomorrow!'
   - id: fr-FR-A1-GREET-002-005
+    concept: 'good-night'
     term: 'Bonne nuit'
     translation: 'Good night'
     partOfSpeech: phrase
     example: 'Bonne nuit, dors bien.'
     exampleTranslation: 'Good night, sleep well.'
   - id: fr-FR-A1-GREET-002-006
+    concept: 'take-care'
     term: 'Prends soin de toi'
     translation: 'Take care'
     partOfSpeech: phrase

@@ -2,6 +2,7 @@ nodeId: C1-SOCIAL-001
 lang: es-ES
 vocabulary:
   - id: es-ES-C1-SOCIAL-001-001
+    concept: 'natural-fluency'
     term: 'fluidez natural'
     translation: 'natural fluency'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Hablo con fluidez natural en casi cualquier situación.'
     exampleTranslation: 'I speak with natural fluency in almost any situation.'
   - id: es-ES-C1-SOCIAL-001-002
+    concept: 'spontaneity'
     term: 'espontaneidad'
     translation: 'spontaneity'
     partOfSpeech: noun
@@ -16,12 +18,14 @@ vocabulary:
     example: 'Mi espontaneidad en español ha mejorado mucho.'
     exampleTranslation: 'My spontaneity in Spanish has improved a lot.'
   - id: es-ES-C1-SOCIAL-001-003
+    concept: 'to-search-for-expressions'
     term: 'buscar expresiones'
     translation: 'to search for expressions'
     partOfSpeech: phrase
     example: 'Hablo sin buscar expresiones, de forma natural.'
     exampleTranslation: 'I speak without searching for expressions, naturally.'
   - id: es-ES-C1-SOCIAL-001-004
+    concept: 'idiomatic-expressions'
     term: 'expresiones idiomáticas'
     translation: 'idiomatic expressions'
     partOfSpeech: phrase
@@ -29,6 +33,7 @@ vocabulary:
     example: 'Uso expresiones idiomáticas de forma natural.'
     exampleTranslation: 'I use idiomatic expressions naturally.'
   - id: es-ES-C1-SOCIAL-001-005
+    concept: 'naturalness'
     term: 'naturalidad'
     translation: 'naturalness'
     partOfSpeech: noun
@@ -36,6 +41,7 @@ vocabulary:
     example: 'La naturalidad en la conversación es un signo de dominio.'
     exampleTranslation: 'Naturalness in conversation is a sign of mastery.'
   - id: es-ES-C1-SOCIAL-001-006
+    concept: 'language-mastery'
     term: 'dominio del idioma'
     translation: 'language mastery'
     partOfSpeech: phrase

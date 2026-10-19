@@ -2,24 +2,28 @@ nodeId: A1-OPIN-001
 lang: es-ES
 vocabulary:
   - id: es-ES-A1-OPIN-001-001
+    concept: 'i-think-that'
     term: 'Creo que...'
     translation: 'I think that...'
     partOfSpeech: phrase
     example: 'Creo que la película es buena.'
     exampleTranslation: 'I think the film is good.'
   - id: es-ES-A1-OPIN-001-002
+    concept: 'i-like'
     term: 'Me gusta...'
     translation: 'I like...'
     partOfSpeech: phrase
     example: 'Me gusta la música española.'
     exampleTranslation: 'I like Spanish music.'
   - id: es-ES-A1-OPIN-001-003
+    concept: 'i-don-t-like'
     term: 'No me gusta...'
     translation: "I don't like..."
     partOfSpeech: phrase
     example: 'No me gusta el café.'
     exampleTranslation: "I don't like coffee."
   - id: es-ES-A1-OPIN-001-004
+    concept: 'in-my-opinion'
     term: 'En mi opinión...'
     translation: 'In my opinion...'
     partOfSpeech: phrase

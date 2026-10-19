@@ -2,6 +2,7 @@ nodeId: B1-OPINION-001
 lang: es-ES
 vocabulary:
   - id: es-ES-B1-OPINION-001-001
+    concept: 'opinion'
     term: 'opinión'
     translation: 'opinion'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Mi opinión es que debemos seguir adelante.'
     exampleTranslation: 'My opinion is that we should move forward.'
   - id: es-ES-B1-OPINION-001-002
+    concept: 'reason'
     term: 'razón'
     translation: 'reason'
     partOfSpeech: noun
@@ -16,18 +18,21 @@ vocabulary:
     example: 'Tengo mis razones para pensar así.'
     exampleTranslation: 'I have my reasons for thinking that way.'
   - id: es-ES-B1-OPINION-001-003
+    concept: 'to-defend'
     term: 'defender'
     translation: 'to defend'
     partOfSpeech: verb
     example: 'Es importante defender tus ideas con respeto.'
     exampleTranslation: 'It is important to defend your ideas with respect.'
   - id: es-ES-B1-OPINION-001-004
+    concept: 'to-justify'
     term: 'justificar'
     translation: 'to justify'
     partOfSpeech: verb
     example: 'Debes justificar tu respuesta con ejemplos.'
     exampleTranslation: 'You must justify your answer with examples.'
   - id: es-ES-B1-OPINION-001-005
+    concept: 'argument'
     term: 'argumento'
     translation: 'argument'
     partOfSpeech: noun
@@ -35,6 +40,7 @@ vocabulary:
     example: 'Presentó un argumento muy convincente.'
     exampleTranslation: 'He presented a very convincing argument.'
   - id: es-ES-B1-OPINION-001-006
+    concept: 'to-persuade'
     term: 'persuadir'
     translation: 'to persuade'
     partOfSpeech: verb
