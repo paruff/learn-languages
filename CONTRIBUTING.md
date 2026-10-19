@@ -5,7 +5,7 @@ Thanks for helping expand Acquira content. This guide is the shortest path to au
 ## Quickstart: author one node + two realisations
 
 ### 1) Create or update a CEFR node
-Create `/home/runner/work/learn-languages/learn-languages/src/content/cefr-nodes/<node-file>.yaml`:
+Create `src/content/cefr-nodes/<node-file>.yaml`:
 
 ```yaml
 nodeId: A1-SHOP-002
@@ -20,15 +20,19 @@ prerequisiteNodes: []
 ```
 
 Rules:
-- `nodeId` format: `{LEVEL}-{SKILL}-{SEQ}` (example: `A1-SHOP-002`)
+- `{LEVEL}` must be one of: `A1`, `A2`, `B1`, `B2`, `C1`, `C2`
+- `nodeId` format: `{LEVEL}-{TOPIC}-{SEQ}` (example: `A1-SHOP-002`)
+- `{TOPIC}` is an uppercase domain code (for example `SHOP`, `GREET`, `INTRO`), not the `skill` field value
+- `{TOPIC}` must be uppercase letters only (no digits or hyphens); `{SEQ}` must be a zero-padded 3-digit number (`001`, `002`, ...)
 - `cefrLevel` must match the start of `nodeId`
 
 ### 2) Author paired realisations
 Create matching files in:
-- `/home/runner/work/learn-languages/learn-languages/src/content/realisations/<sourceLang>/<node-file>.yaml`
-- `/home/runner/work/learn-languages/learn-languages/src/content/realisations/<targetLang>/<node-file>.yaml`
+- `src/content/realisations/<sourceLang>/<node-file>.yaml`
+- `src/content/realisations/<targetLang>/<node-file>.yaml`
 
-Each vocabulary item must include `concept` (kebab-case English gloss slug). Pairing is done by `nodeId + concept`, so the same concept must exist across paired languages.
+Each vocabulary item must include `concept` (kebab-case English gloss slug). Pairing is done by `nodeId + concept`, so the same concept must exist across paired languages. This is enforced by the current schema and integrity checks in `src/content.config.ts` and `npm run validate:content`.
+In the examples below, replace `<lang>` and `<nodeId>` in `id` with concrete values (for example, `pt-PT-A1-SHOP-002-001`).
 
 Example (`pt-PT`):
 
@@ -36,11 +40,12 @@ Example (`pt-PT`):
 nodeId: A1-SHOP-002
 lang: pt-PT
 vocabulary:
-  - id: pt-PT-A1-SHOP-002-001
+  - id: <lang>-<nodeId>-001
     concept: ask-price
     term: Quanto custa?
     translation: How much is it?
     partOfSpeech: phrase
+    gender: n/a
     example: Quanto custa este livro?
     exampleTranslation: How much is this book?
 grammar: []
@@ -52,18 +57,19 @@ Example (`en-GB`):
 nodeId: A1-SHOP-002
 lang: en-GB
 vocabulary:
-  - id: en-GB-A1-SHOP-002-001
+  - id: <lang>-<nodeId>-001
     concept: ask-price
     term: How much is it?
     translation: Quanto custa?
     partOfSpeech: phrase
+    gender: n/a
     example: How much is this book?
     exampleTranslation: Quanto custa este livro?
 grammar: []
 ```
 
 ### 3) Validate locally
-From `/home/runner/work/learn-languages/learn-languages` run:
+From the repository root run:
 
 ```bash
 npm run validate:content
@@ -72,8 +78,13 @@ npm run validate:content
 This checks schema + integrity rules (including node references and concept-based pairing constraints).
 
 ## Worked example
-- For the first complete EN→PT A1 implementation notes, see:
-  `/home/runner/work/learn-languages/learn-languages/docs/reference-implementation.md`
+For `A1-SHOP-002`, the complete minimal pair is:
+
+1. Add `src/content/cefr-nodes/a1-shop-002.yaml` with `nodeId: A1-SHOP-002`.
+2. Add `src/content/realisations/pt-PT/a1-shop-002.yaml`.
+3. Add `src/content/realisations/en-GB/a1-shop-002.yaml`.
+4. Keep shared `concept` values between language files (for example `ask-price`).
+5. Run `npm run validate:content`.
 
 ## PR checklist (content contributions)
 Before opening a PR:
@@ -83,5 +94,3 @@ Before opening a PR:
 - [ ] Vocabulary `concept` values are kebab-case and aligned across paired languages
 - [ ] `npm run validate:content` passes locally
 - [ ] PR description states which node(s) were added and which language pair(s) were updated
-
-Maintainers use this issue acceptance criterion for #22: at least one non-founder contributor successfully merges a node+realisation pair using this document alone.
