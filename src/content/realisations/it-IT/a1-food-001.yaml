@@ -1,0 +1,60 @@
+nodeId: A1-FOOD-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A1-FOOD-001-001
+    concept: water
+    term: acqua
+    translation: water
+    partOfSpeech: noun
+    gender: feminine
+    example: Un bicchiere d’acqua, per favore.
+    exampleTranslation: A glass of water, please.
+  - id: it-IT-A1-FOOD-001-002
+    concept: bread
+    term: pane
+    translation: bread
+    partOfSpeech: noun
+    gender: masculine
+    example: Vorrei un panino con pane.
+    exampleTranslation: I eat bread for breakfast.
+  - id: it-IT-A1-FOOD-001-003
+    concept: coffee
+    term: caffè
+    translation: coffee
+    partOfSpeech: noun
+    gender: masculine
+    example: Mi piace il caffè al mattino.
+    exampleTranslation: Would you like coffee?
+  - id: it-IT-A1-FOOD-001-004
+    concept: milk
+    term: latte
+    translation: milk
+    partOfSpeech: noun
+    gender: masculine
+    example: Il latte è nel frigo.
+    exampleTranslation: The milk is in the fridge.
+  - id: it-IT-A1-FOOD-001-005
+    concept: apple
+    term: mela
+    translation: apple
+    partOfSpeech: noun
+    gender: feminine
+    example: Mangio una mela ogni giorno.
+    exampleTranslation: I eat an apple.
+  - id: it-IT-A1-FOOD-001-006
+    concept: food
+    term: cibo
+    translation: food
+    partOfSpeech: noun
+    gender: masculine
+    example: Il cibo è molto buono.
+    exampleTranslation: The food is very good.
+  - concept: rice
+    term: riso
+    translation: rice
+    partOfSpeech: noun
+    gender: masculine
+    example: Il riso è molto buono.
+    exampleTranslation: Rice is very tasty.
+    id: it-IT-A1-FOOD-001-007
+grammar: []

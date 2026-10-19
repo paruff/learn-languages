@@ -1,0 +1,52 @@
+nodeId: A1-FAMILY-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A1-FAMILY-001-001
+    concept: mother
+    term: madre
+    translation: mother
+    partOfSpeech: noun
+    gender: feminine
+    example: Mia madre è molto gentile.
+    exampleTranslation: My mother is called Ana.
+  - id: it-IT-A1-FAMILY-001-002
+    concept: father
+    term: padre
+    translation: father
+    partOfSpeech: noun
+    gender: masculine
+    example: Mio padre lavora a Torino.
+    exampleTranslation: My father works in Lisbon.
+  - id: it-IT-A1-FAMILY-001-003
+    concept: brother
+    term: fratello
+    translation: brother
+    partOfSpeech: noun
+    gender: masculine
+    example: Mio fratello è più grande di me.
+    exampleTranslation: I have a younger brother.
+  - id: it-IT-A1-FAMILY-001-004
+    concept: sister
+    term: sorella
+    translation: sister
+    partOfSpeech: noun
+    gender: feminine
+    example: La mia sorella è studentessa.
+    exampleTranslation: My sister is a teacher.
+  - id: it-IT-A1-FAMILY-001-005
+    concept: tall
+    term: alto
+    translation: tall
+    partOfSpeech: adjective
+    gender: masculine
+    example: Mio fratello è alto.
+    exampleTranslation: My father is tall.
+  - id: it-IT-A1-FAMILY-001-006
+    concept: short
+    term: basso
+    translation: short
+    partOfSpeech: adjective
+    gender: feminine
+    example: Mia sorella è bassa.
+    exampleTranslation: My sister is short.
+grammar: []

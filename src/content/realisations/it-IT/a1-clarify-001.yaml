@@ -1,0 +1,60 @@
+nodeId: A1-CLARIFY-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A1-CLARIFY-001-001
+    concept: can-you-repeat-that-please
+    term: può ripetere per favore?
+    translation: Can you repeat that, please?
+    partOfSpeech: phrase
+    example: Può ripetere per favore?
+    exampleTranslation: Sorry, can you repeat that, please?
+  - id: it-IT-A1-CLARIFY-001-002
+    concept: how-do-you-say
+    term: come si dice?
+    translation: How do you say...?
+    partOfSpeech: phrase
+    example: Come si dice “x” in italiano?
+    exampleTranslation: How do you say "library" in German?
+  - id: it-IT-A1-CLARIFY-001-003
+    concept: i-don-t-understand
+    term: non capisco
+    translation: I don't understand
+    partOfSpeech: phrase
+    example: Non capisco la frase.
+    exampleTranslation: Sorry, I don't understand.
+  - id: it-IT-A1-CLARIFY-001-004
+    concept: please-speak-more-slowly
+    term: parli più lentamente per favore
+    translation: Please speak more slowly
+    partOfSpeech: phrase
+    example: Parli più lentamente, per favore.
+    exampleTranslation: Can you speak more slowly, please?
+  - id: it-IT-A1-CLARIFY-001-005
+    concept: what-does-mean
+    term: cosa significa?
+    translation: What does... mean?
+    partOfSpeech: phrase
+    example: Cosa significa questa parola?
+    exampleTranslation: What does "Fahrrad" mean?
+  - id: it-IT-A1-CLARIFY-001-006
+    concept: can-you-spell-that
+    term: può scrivere la parola?
+    translation: Can you spell that?
+    partOfSpeech: phrase
+    example: Può scrivere la parola per favore?
+    exampleTranslation: Can you spell your name, please?
+  - concept: can-you-repeat
+    term: Può ripetere?
+    translation: Can you repeat?
+    partOfSpeech: phrase
+    example: Mi scusi, può ripetere?
+    exampleTranslation: Sorry, can you repeat?
+    id: it-IT-A1-CLARIFY-001-007
+  - concept: can-you-speak-more-slowly
+    term: Può parlare più lentamente, per favore?
+    translation: Can you speak more slowly?
+    partOfSpeech: phrase
+    example: Può parlare più lentamente, per favore?
+    exampleTranslation: Can you speak more slowly, please?
+    id: it-IT-A1-CLARIFY-001-008
+grammar: []

@@ -1,0 +1,60 @@
+nodeId: A1-THANK-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A1-THANK-001-001
+    concept: thank-you
+    term: grazie
+    translation: Thank you
+    partOfSpeech: phrase
+    example: Grazie mille per l’aiuto.
+    exampleTranslation: Thank you for your help.
+  - id: it-IT-A1-THANK-001-002
+    concept: thank-you-very-much
+    term: grazie mille
+    translation: Thank you very much
+    partOfSpeech: phrase
+    example: Grazie mille, sei gentile.
+    exampleTranslation: Thank you very much for the gift!
+  - id: it-IT-A1-THANK-001-003
+    concept: you-re-welcome
+    term: prego
+    translation: You're welcome
+    partOfSpeech: phrase
+    example: Prego, è stato un piacere.
+    exampleTranslation: "- Thank you! - You're welcome!"
+  - id: it-IT-A1-THANK-001-004
+    concept: you-re-welcome-polite
+    term: di niente
+    translation: You're welcome (polite)
+    partOfSpeech: phrase
+    example: Di niente, sono felice di aiutarti.
+    exampleTranslation: "- Thank you very much! - You're welcome!"
+  - id: it-IT-A1-THANK-001-005
+    concept: thanks
+    term: grazie
+    translation: Thanks (informal)
+    partOfSpeech: phrase
+    example: Grazie per il tuo tempo.
+    exampleTranslation: Thanks for everything.
+  - id: it-IT-A1-THANK-001-006
+    concept: thanks-formal
+    term: ringraziamenti
+    translation: Thanks (formal)
+    partOfSpeech: phrase
+    example: Vi ringrazio molto per l’aiuto.
+    exampleTranslation: Thank you for your time.
+  - concept: thank-you-female-speaker
+    term: Grazie
+    translation: Thank you (female speaker)
+    partOfSpeech: interjection
+    example: Grazie per il regalo.
+    exampleTranslation: Thank you for the gift.
+    id: it-IT-A1-THANK-001-007
+  - concept: you-are-welcome
+    term: Prego
+    translation: You are welcome
+    partOfSpeech: phrase
+    example: — Grazie! — Prego.
+    exampleTranslation: — Thank you! — You are welcome.
+    id: it-IT-A1-THANK-001-008
+grammar: []

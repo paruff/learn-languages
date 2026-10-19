@@ -1,0 +1,51 @@
+nodeId: A1-SHOP-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A1-SHOP-001-001
+    concept: shop
+    term: negozio
+    translation: shop
+    partOfSpeech: noun
+    gender: masculine
+    example: Il negozio apre alle nove.
+    exampleTranslation: The shop closes at seven in the evening.
+  - id: it-IT-A1-SHOP-001-002
+    concept: money
+    term: denaro
+    translation: money
+    partOfSpeech: noun
+    gender: masculine
+    example: Ho poco denaro oggi.
+    exampleTranslation: I do not have money with me.
+  - id: it-IT-A1-SHOP-001-003
+    concept: price
+    term: prezzo
+    translation: price
+    partOfSpeech: noun
+    gender: masculine
+    example: Qual è il prezzo?
+    exampleTranslation: What is the price of this coat?
+  - id: it-IT-A1-SHOP-001-004
+    concept: euro
+    term: euro
+    translation: euro
+    partOfSpeech: noun
+    gender: masculine
+    example: Costa venti euro.
+    exampleTranslation: It costs ten euros.
+  - id: it-IT-A1-SHOP-001-005
+    concept: to-pay
+    term: pagare
+    translation: to pay
+    partOfSpeech: verb
+    example: Devo pagare alla cassa.
+    exampleTranslation: Can I pay by card?
+  - id: it-IT-A1-SHOP-001-006
+    concept: till
+    term: cassa
+    translation: till
+    partOfSpeech: noun
+    gender: feminine
+    example: Vado alla cassa.
+    exampleTranslation: The queue at the till is long.
+grammar: []

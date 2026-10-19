@@ -1,52 +1,47 @@
-nodeId: 'A1-NUMB-001'
-lang: 'it-IT'
+nodeId: A1-NUMB-001
+lang: it-IT
 vocabulary:
-  - id: 'it-IT-A1-NUMB-001-001'
-    concept: 'one'
-    term: 'Uno'
-    translation: 'One'
-    partOfSpeech: 'adjective'
-    gender: 'n/a'
-    example: 'Ho un fratello.'
-    exampleTranslation: 'I have one brother.'
-  - id: 'it-IT-A1-NUMB-001-002'
-    concept: 'two'
-    term: 'Due'
-    translation: 'Two'
-    partOfSpeech: 'adjective'
-    gender: 'n/a'
-    example: 'Ci sono due gatti.'
-    exampleTranslation: 'There are two cats.'
-  - id: 'it-IT-A1-NUMB-001-003'
-    concept: 'three'
-    term: 'Tre'
-    translation: 'Three'
-    partOfSpeech: 'adjective'
-    gender: 'n/a'
-    example: 'Vorrei tre caffè.'
-    exampleTranslation: 'I would like three coffees.'
-  - id: 'it-IT-A1-NUMB-001-004'
-    concept: 'ten'
-    term: 'Dieci'
-    translation: 'Ten'
-    partOfSpeech: 'adjective'
-    gender: 'n/a'
-    example: "L'incontro è alle dieci."
-    exampleTranslation: 'The meeting is at ten.'
-  - id: 'it-IT-A1-NUMB-001-005'
-    concept: 'twenty'
-    term: 'Venti'
-    translation: 'Twenty'
-    partOfSpeech: 'adjective'
-    gender: 'n/a'
-    example: 'Ho venti anni.'
-    exampleTranslation: 'I am twenty years old.'
-  - id: 'it-IT-A1-NUMB-001-006'
-    concept: 'hundred'
-    term: 'Cento'
-    translation: 'Hundred'
-    partOfSpeech: 'adjective'
-    gender: 'n/a'
-    example: 'Il libro costa cento euro.'
-    exampleTranslation: 'The book costs one hundred euros.'
+  - id: it-IT-A1-NUMB-001-001
+    concept: one
+    term: uno
+    translation: One
+    partOfSpeech: noun
+    gender: masculine
+    example: Uno, due, tre.
+    exampleTranslation: I have one brother.
+  - id: it-IT-A1-NUMB-001-002
+    concept: two
+    term: due
+    translation: Two
+    partOfSpeech: noun
+    example: Ho due fratelli.
+    exampleTranslation: There are two cats.
+  - id: it-IT-A1-NUMB-001-003
+    concept: three
+    term: tre
+    translation: Three
+    partOfSpeech: noun
+    example: Ci sono tre sedie.
+    exampleTranslation: I would like three coffees.
+  - id: it-IT-A1-NUMB-001-004
+    concept: ten
+    term: dieci
+    translation: Ten
+    partOfSpeech: noun
+    example: La stanza ha dieci finestre.
+    exampleTranslation: The meeting is at ten.
+  - id: it-IT-A1-NUMB-001-005
+    concept: twenty
+    term: venti
+    translation: Twenty
+    partOfSpeech: noun
+    example: Venti euro, per favore.
+    exampleTranslation: I am twenty years old.
+  - id: it-IT-A1-NUMB-001-006
+    concept: hundred
+    term: cento
+    translation: Hundred
+    partOfSpeech: noun
+    example: Il libro costa cento euro.
+    exampleTranslation: The book costs one hundred euros.
 grammar: []

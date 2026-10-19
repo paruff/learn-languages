@@ -1,0 +1,52 @@
+nodeId: A1-BODY-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A1-BODY-001-001
+    concept: head
+    term: testa
+    translation: head
+    partOfSpeech: noun
+    gender: feminine
+    example: Mi fa male la testa.
+    exampleTranslation: I have a headache.
+  - id: it-IT-A1-BODY-001-002
+    concept: hand
+    term: mano
+    translation: hand
+    partOfSpeech: noun
+    gender: feminine
+    example: Ho una mano ferita.
+    exampleTranslation: Her hand is cold.
+  - id: it-IT-A1-BODY-001-003
+    concept: foot
+    term: piede
+    translation: foot
+    partOfSpeech: noun
+    gender: masculine
+    example: Mi fa male un piede.
+    exampleTranslation: My foot hurts after running.
+  - id: it-IT-A1-BODY-001-004
+    concept: eye
+    term: occhio
+    translation: eye
+    partOfSpeech: noun
+    gender: masculine
+    example: Ho due occhi.
+    exampleTranslation: He has green eyes.
+  - id: it-IT-A1-BODY-001-005
+    concept: arm
+    term: braccio
+    translation: arm
+    partOfSpeech: noun
+    gender: masculine
+    example: Ho un braccio stanco.
+    exampleTranslation: I broke my arm last year.
+  - id: it-IT-A1-BODY-001-006
+    concept: leg
+    term: gamba
+    translation: leg
+    partOfSpeech: noun
+    gender: feminine
+    example: Mi fa male una gamba.
+    exampleTranslation: His leg is swollen.
+grammar: []

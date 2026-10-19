@@ -1,52 +1,46 @@
-nodeId: 'A1-INTRO-001'
-lang: 'it-IT'
+nodeId: A1-INTRO-001
+lang: it-IT
 vocabulary:
-  - id: 'it-IT-A1-INTRO-001-001'
-    concept: 'my-name-is'
-    term: 'Mi chiamo'
-    translation: 'My name is'
-    partOfSpeech: 'phrase'
-    example: 'Mi chiamo Luca.'
-    exampleTranslation: 'My name is Luca.'
-  - id: 'it-IT-A1-INTRO-001-002'
-    concept: 'nice-to-meet-you'
-    term: 'Piacere'
-    translation: 'Nice to meet you'
-    partOfSpeech: 'interjection'
-    example: 'Piacere di conoscerti.'
-    exampleTranslation: 'Nice to meet you.'
-  - id: 'it-IT-A1-INTRO-001-003'
-    concept: 'i-am-from'
-    term: 'Vengo da'
-    translation: 'I am from'
-    partOfSpeech: 'phrase'
-    example: 'Vengo da Roma.'
-    exampleTranslation: 'I am from Rome.'
-  - id: 'it-IT-A1-INTRO-001-004'
-    concept: 'i-live-in'
-    term: 'Abito a'
-    translation: 'I live in'
-    partOfSpeech: 'phrase'
-    example: 'Abito a Milano.'
-    exampleTranslation: 'I live in Milan.'
-  - id: 'it-IT-A1-INTRO-001-005'
-    concept: 'i-am-years-old'
-    term: 'Ho ... anni'
-    translation: 'I am ... years old'
-    partOfSpeech: 'phrase'
-    example: 'Ho venticinque anni.'
-    exampleTranslation: 'I am 25 years old.'
-  - id: 'it-IT-A1-INTRO-001-006'
-    concept: 'i-speak'
-    term: 'Parlo'
-    translation: 'I speak'
-    partOfSpeech: 'phrase'
-    example: "Parlo inglese e un po' di italiano."
-    exampleTranslation: 'I speak English and a little Italian.'
-grammar:
-  - id: 'it-IT-A1-INTRO-001-G1'
-    point: 'Formal vs. informal address (tu vs. Lei)'
-    explanation: "Italian distinguishes informal 'tu' from formal 'Lei'. Use 'Lei' with strangers, elders, and professional contexts."
-    examples:
-      - 'Come ti chiami? (informal)'
-      - 'Come si chiama? (formal)'
+  - id: it-IT-A1-INTRO-001-001
+    concept: my-name-is
+    term: mi chiamo
+    translation: My name is
+    partOfSpeech: phrase
+    example: Mi chiamo Luca.
+    exampleTranslation: My name is Thomas.
+  - id: it-IT-A1-INTRO-001-002
+    concept: nice-to-meet-you
+    term: piacere di conoscerti
+    translation: Nice to meet you
+    partOfSpeech: interjection
+    example: Piacere di conoscerti, mi chiamo Anna.
+    exampleTranslation: I'm Anna. Nice to meet you.
+  - id: it-IT-A1-INTRO-001-003
+    concept: i-am-from
+    term: vengo da
+    translation: I am from
+    partOfSpeech: phrase
+    example: Vengo da Roma.
+    exampleTranslation: I am from England.
+  - id: it-IT-A1-INTRO-001-004
+    concept: i-live-in
+    term: abito a
+    translation: I live in
+    partOfSpeech: phrase
+    example: Abito a Firenze.
+    exampleTranslation: I live in Berlin.
+  - id: it-IT-A1-INTRO-001-005
+    concept: i-am-years-old
+    term: ho anni
+    translation: I am ... years old
+    partOfSpeech: phrase
+    example: Ho ventidue anni.
+    exampleTranslation: I am 25 years old.
+  - id: it-IT-A1-INTRO-001-006
+    concept: i-speak
+    term: parlo
+    translation: I speak
+    partOfSpeech: verb
+    example: Parlo inglese e italiano.
+    exampleTranslation: I speak English and a little German.
+grammar: []

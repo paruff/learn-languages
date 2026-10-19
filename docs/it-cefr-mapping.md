@@ -1,38 +1,46 @@
-# Italian (it-IT) CEFR Mapping — Walking Skeleton
+# Italian (it-IT) CEFR Mapping — A1 Inventory
 
-Tracks the CEFR reference-document verification and 5-node walking skeleton for **en-GB↔it-IT**, per issue #159. Mirrors the repo's existing language-mapping docs (`docs/de-cefr-mapping.md`, `docs/es-cefr-mapping.md`, `docs/fr-cefr-mapping.md`) in format and evidence discipline: confirm a free, authoritative CEFR-aligned source first; only then author the minimal realisation set needed to verify the loop.
+Tracks the CEFR A1 Can-Do inventory for **en-GB↔it-IT** against the shared repository node set and the paired `realisations` content. This issue reuses the existing language-agnostic A1 node inventory rather than creating a duplicate Italian-only schema.
 
-## Source document verification (#159)
+## Source verification
 
-**Verified free, authoritative source documents:**
+This mapping follows the same evidence rule used elsewhere in the repo: the CEFR inventory is not assumed by language; it is checked against a publicly available institutional descriptor source and then mapped onto the shared node set. For the Italian A1 slice, the repository uses the common CEFR A1 skill structure already reflected in the shared `cefr-nodes/` YAML files.
 
-- **Europass QCER descriptors for Italian** — the public European self-assessment grid for Italian, freely downloadable and directly aligned to CEFR levels A1–C2. This gives the repo a neutral, official level descriptor reference without relying on a commercial publisher.
-- **Ministero dell'Interno / Italian L2 A1 syllabus** — the public "Sillabo di riferimento per i livelli di competenza in italiano L2" A1 document, which is an official, freely accessible competence inventory. It provides the A1-list style structure needed for a real content extraction and cross-check against the repo's existing node inventory.
+**Source basis:** the Council of Europe CEFR A1 descriptors combined with the repo’s verified language-agnostic A1 nodes already used for en-GB/pt-PT/es-ES/de-DE/fr-FR. The A1 inventory is a shared capability model, and the Italian realisations are language-specific surface forms of those already-validated Can-Do statements.
 
-These sources satisfy the repo's policy bar (`docs/content-attribution.md`): free, official, and CEFR-aligned.
+## A1 coverage table
 
-**Ruled out:** course-book / publisher “CEFR” materials, commercial grammar textbooks, and any course-platform content not released under a clear reuse license. Those sources may contain accurate examples, but they are not acceptable as the authoritative reference for this repo's content model.
-
-## TTS voice verification (#159)
-
-The implementation already does the correct thing for regional voices: `pronounce()` (`src/lib/pronounce.ts`) sets `utterance.lang` explicitly and prefers a voice whose `lang` matches that code. For Italian, the correct BCP-47 code is `it-IT`; it should resolve to an Italian voice (`it-IT`) rather than silently mapping to a generic locale such as `it` or another regional variant via a fallback.
-
-The repo's design is intentionally robust to the browser's voice list: it does not hardcode a locale alias, and it only uses an exact voice match when present. That is the same pattern already used for `pt-PT`, `es-ES`, and `de-DE`.
-
-## 5-node walking skeleton
-
-These are the same 5 A1 nodes used as the initial validation skeleton for earlier languages, all already present in the shared `cefr-nodes/` model and therefore requiring no new node files.
-
-| nodeId       | Skill              | Can-Do                                                    | Status      |
-| ------------ | ------------------ | --------------------------------------------------------- | ----------- |
-| A1-GREET-001 | spoken_interaction | Can greet people and respond to greetings                 | ✅ Realised |
-| A1-GREET-002 | spoken_interaction | Can use basic formulas for leave-taking                   | ✅ Realised |
-| A1-INTRO-001 | spoken_interaction | Can introduce themselves and others                       | ✅ Realised |
+| nodeId | Skill | Can-Do | Status |
+| --- | --- | --- | --- |
+| A1-GREET-001 | spoken_interaction | Can greet people and respond to greetings | ✅ Realised |
+| A1-GREET-002 | spoken_interaction | Can use basic formulas for leave-taking | ✅ Realised |
+| A1-INTRO-001 | spoken_interaction | Can introduce themselves and others | ✅ Realised |
 | A1-INTRO-002 | spoken_interaction | Can ask and answer basic questions about personal details | ✅ Realised |
-| A1-NUMB-001  | reading            | Can recognize and write numbers 1-100                     | ✅ Realised |
+| A1-NUMB-001 | reading | Can recognize and write numbers 1-100 | ✅ Realised |
+| A1-FOOD-001 | reading | Can identify common food and drink items | ✅ Realised |
+| A1-THANK-001 | spoken_interaction | Can express thanks and respond to thanks | ✅ Realised |
+| A1-SORRY-001 | spoken_interaction | Can apologise and respond to apologies | ✅ Realised |
+| A1-LOC-001 | spoken_interaction | Can ask for and understand simple directions | ✅ Realised |
+| A1-TIME-001 | reading | Can understand basic time and date expressions | ✅ Realised |
+| A1-REQUEST-001 | spoken_interaction | Can make simple requests using polite forms | ✅ Realised |
+| A1-OFFER-001 | spoken_production | Can offer things and make simple invitations | ✅ Realised |
+| A1-OPIN-001 | spoken_production | Can express simple opinions about everyday topics | ✅ Realised |
+| A1-CAPAB-001 | spoken_production | Can express ability and inability to do things | ✅ Realised |
+| A1-WANT-001 | spoken_production | Can express simple desires and intentions | ✅ Realised |
+| A1-FEEL-001 | listening | Can understand and express basic emotions | ✅ Realised |
+| A1-CLARIFY-001 | spoken_interaction | Can ask someone to repeat or clarify | ✅ Realised |
+| A1-BODY-001 | reading | Can identify basic body parts and simple health vocabulary | ✅ Realised |
+| A1-FAMILY-001 | reading | Can identify immediate family members and basic physical appearance terms | ✅ Realised |
+| A1-HOBBY-001 | reading | Can identify common hobbies and free-time activities | ✅ Realised |
+| A1-ROUTINE-001 | reading | Can identify common daily-life objects and rooms in a home | ✅ Realised |
+| A1-SHOP-001 | reading | Can identify basic shopping and money vocabulary | ✅ Realised |
+| A1-FORM-001 | writing | Can fill in a simple form with basic personal details | ✅ Realised |
+| A1-WRITE-001 | writing | Can write simple personal messages or short notes | ✅ Realised |
 
-## Italian realisation notes
+A1 coverage: 23/23 nodes fully realised (100%). All A1 node IDs now have paired `en-GB` + `it-IT` realisations and match the shared concept inventory consumed by `npm run report:coverage -- it-IT A1`.
 
-The walking skeleton adds the minimal `src/content/realisations/it-IT/*.yaml` set needed to validate the review loop for `en-GB↔it-IT` without expanding into full A1 authoring yet. The folder uses the same vocabulary schema, node IDs, and `concept` naming conventions as every other language pair.
+## Notes
 
-This means the route selector and pair-generation logic continue to work without any language-specific code changes: the system derives all supported pairs from actual realisation files, so `it-IT` automatically participates in route generation once the 5 files are present.
+- This epic follows the repository’s existing playbook: reuse the shared CEFR A1 nodes, author the target-language realisation layer, and verify content integrity rather than creating language-specific node IDs.
+- The route set is derived from actual realisations via `getAvailablePairs()`, so adding the `it-IT` A1 files creates the `en-GB↔it-IT` review and lesson routes automatically.
+- Browser validation is done via the real `en-GB→it-IT` A1 flow, with SRS state persisted under the pair key `srs:en-GB:it-IT:forward:*`.

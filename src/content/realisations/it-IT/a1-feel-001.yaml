@@ -1,0 +1,77 @@
+nodeId: A1-FEEL-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A1-FEEL-001-001
+    concept: happy
+    term: felice
+    translation: happy
+    partOfSpeech: adjective
+    example: Sono felice oggi.
+    exampleTranslation: I am very happy today.
+  - id: it-IT-A1-FEEL-001-002
+    concept: sad
+    term: triste
+    translation: sad
+    partOfSpeech: adjective
+    example: Sono triste per la notizia.
+    exampleTranslation: He is sad.
+  - id: it-IT-A1-FEEL-001-003
+    concept: tired
+    term: stanco
+    translation: tired
+    partOfSpeech: adjective
+    gender: masculine
+    example: Sono molto stanco questa sera.
+    exampleTranslation: I am very tired.
+  - id: it-IT-A1-FEEL-001-004
+    concept: hungry
+    term: affamato
+    translation: hungry
+    partOfSpeech: adjective
+    gender: masculine
+    example: Ho fame, sono affamato.
+    exampleTranslation: I am hungry.
+  - id: it-IT-A1-FEEL-001-005
+    concept: sick
+    term: malato
+    translation: sick
+    partOfSpeech: adjective
+    gender: masculine
+    example: Sono malato e resto a casa.
+    exampleTranslation: She is sick.
+  - id: it-IT-A1-FEEL-001-006
+    concept: well
+    term: bene
+    translation: well
+    partOfSpeech: adverb
+    example: Sto bene, grazie.
+    exampleTranslation: I am doing well.
+  - concept: i-am-happy
+    term: Sono felice
+    translation: I am happy
+    partOfSpeech: phrase
+    example: Sono felice oggi.
+    exampleTranslation: I am happy today.
+    id: it-IT-A1-FEEL-001-007
+  - concept: i-am-sad
+    term: Sono triste
+    translation: I am sad
+    partOfSpeech: phrase
+    example: Sono triste per la notizia.
+    exampleTranslation: I am sad about the news.
+    id: it-IT-A1-FEEL-001-008
+  - concept: i-am-tired
+    term: Sono stanco/stanca
+    translation: I am tired
+    partOfSpeech: phrase
+    example: Sono stanco dopo il lavoro.
+    exampleTranslation: I am tired after work.
+    id: it-IT-A1-FEEL-001-009
+  - concept: i-m-hungry
+    term: Ho fame
+    translation: I'm hungry/thirsty
+    partOfSpeech: phrase
+    example: Ho molta fame.
+    exampleTranslation: I'm very hungry.
+    id: it-IT-A1-FEEL-001-010
+grammar: []
