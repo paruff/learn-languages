@@ -18,7 +18,7 @@
 
 Launch-blocker fixes from the production audit, done ahead of the gate because they protect the Phase 1 learner sessions themselves: self-hosted font (S3), storage resilience (S7), offline use (Q7), progress backup (S5), in-app 404 (Q8), `npm audit` CI gate, CHANGELOG and v0.1.0. Delete this section once the PR has merged.
 
-## Now (bug and compliance, plan rule 3)
+## Alongside Phase 1: bug, compliance and approved content work (plan rule 3)
 
 Concept-keyed vocabulary and images, tracked in epic #148 (plan: `docs/superpowers/plans/2026-10-18-concept-keyed-vocabulary-and-images.md`). These are a bug and an attribution/compliance fix, so they proceed ahead of the Phase 1 gate.
 

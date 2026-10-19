@@ -9,7 +9,7 @@ vocabulary:
     example: 'Tengo dolor de cabeza.'
     exampleTranslation: 'I have a headache.'
     imageUrl: 'cabeca.webp'
-    imageAlt: "Side view of a man's whole head and neck"
+    imageAlt: 'A mannequin head with long brown hair, seen from the front'
   - id: es-ES-A1-BODY-001-002
     term: 'mano'
     translation: 'hand'
