@@ -37,6 +37,7 @@ Before referencing a new image from `imageUrl`, verify it's **pedagogically clea
 | es-ES    | Plan Curricular del Instituto Cervantes (PCIC)                                                                                                                 | Verified, documented in `docs/es-cefr-mapping.md` |
 | de-DE    | Goethe-Institut Prüfungsziele · Testbeschreibung documents (NOT "Profile Deutsch" — that's a paywalled Langenscheidt/Klett book)                               | Verified, documented in `docs/de-cefr-mapping.md` |
 | fr-FR    | CEFR descriptor grid republished by Bureau DELF-DALF / France Éducation international (NOT "Un référentiel pour le français" — not confirmed freely available) | Verified, documented in `docs/fr-cefr-mapping.md` |
+| it-IT    | Europass QCER descriptors + Ministero dell'Interno / Italian L2 A1 syllabus                                                                                   | Verified, documented in `docs/it-cefr-mapping.md` |
 
 **Not** acceptable: textbook content, scraped course-platform text, or any copyrighted teaching material. A commercial course's module _titles_ may be cited for cross-checking topic coverage (as already done for AIMA), but never its written content.
 
