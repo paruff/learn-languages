@@ -52,6 +52,23 @@ const vocabularyItemSchema = z
     path: ['imageAlt'],
   });
 
+const conceptImageOverrideSchema = z.object({
+  file: z.string().regex(/^[a-z0-9][a-z0-9.-]*\.webp$/),
+  alt: z.string().min(5),
+  source: z.string().url(),
+  license: z.string().min(1),
+});
+
+const conceptImageSchema = z.object({
+  concept: z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/),
+  file: z.string().regex(/^[a-z0-9][a-z0-9.-]*\.webp$/),
+  alt: z.string().min(5),
+  source: z.string().url(),
+  license: z.string().min(1),
+  culturallySpecific: z.boolean().optional(),
+  overrides: z.record(z.string(), conceptImageOverrideSchema).optional(),
+});
+
 const grammarPointSchema = z.object({
   id: z.string(),
   point: z.string().min(5),
@@ -125,6 +142,10 @@ export const collections = {
   vocab: defineCollection({
     type: 'data',
     schema: vocabularyItemSchema,
+  }),
+  'concept-images': defineCollection({
+    type: 'data',
+    schema: z.array(conceptImageSchema),
   }),
   realisations: defineCollection({
     loader: glob({ pattern: '**/*.yaml', base: './src/content/realisations' }),

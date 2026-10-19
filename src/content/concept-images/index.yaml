@@ -1,0 +1,27 @@
+- concept: bread
+  file: bread.webp
+  alt: A loaf of bread wrapped in cloth in a wire basket.
+  source: https://example.com/bread
+  license: CC BY 4.0
+- concept: water
+  file: water.webp
+  alt: A clear glass filled with water.
+  source: https://example.com/water
+  license: CC0 1.0
+- concept: pharmacy
+  file: pharmacy.webp
+  alt: The interior of a modern pharmacy shop.
+  source: https://example.com/pharmacy
+  license: CC BY 4.0
+  culturallySpecific: true
+  overrides:
+    pt-PT:
+      file: pharmacy.pt-PT.webp
+      alt: A pharmacy interior in Portugal.
+      source: https://example.com/pharmacy-pt
+      license: CC BY 4.0
+    es-ES:
+      file: pharmacy.es-ES.webp
+      alt: A pharmacy interior in Spain.
+      source: https://example.com/pharmacy-es
+      license: CC BY 4.0
