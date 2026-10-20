@@ -8,7 +8,7 @@
 
 ## Overview
 
-**Acquira** delivers structured, CEFR-aligned language learning through a static site deployed to GitHub Pages. It started as European Portuguese only (see `discovery-brief.md` for the original MVP scope) — the abstract CEFR-node + realisation content model proved out past that single pair, and pt-PT/es-ES/de-DE/fr-FR now have full A1–C2 content, with it-IT complete through B1 (A2 is 20/30 nodes). No backend, no accounts, no tracking — just evidence-based retrieval-practice principles (spacing, interleaving, generation effect, calibration feedback — see `AGENTS.md` §1.0), SM-2 spaced repetition, and transparent CEFR progress tracking.
+**Acquira** delivers structured, CEFR-aligned language learning through a static site deployed to GitHub Pages. It started as European Portuguese only (see `discovery-brief.md` for the original MVP scope) — the abstract CEFR-node + realisation content model proved out past that single pair, and pt-PT/es-ES/de-DE now have full A1–C2 content, with it-IT at A1–B1 plus a C1 slice (B2 in progress) and fr-FR currently complete through B2 (C1/C2 remain lower-priority pending work). No backend, no accounts, no tracking — just evidence-based retrieval-practice principles (spacing, interleaving, generation effect, calibration feedback — see `AGENTS.md` §1.0), SM-2 spaced repetition, and transparent CEFR progress tracking.
 
 ### Key Features
 

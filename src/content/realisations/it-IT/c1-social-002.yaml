@@ -1,0 +1,11 @@
+nodeId: C1-SOCIAL-002
+lang: it-IT
+vocabulary:
+  - id: it-IT-C1-SOCIAL-002-001
+    concept: to-switch-register
+    term: cambiare registro
+    translation: to switch register
+    partOfSpeech: phrase
+    gender: n/a
+    example: Sa cambiare registro passando da una riunione a una cena tra amici.
+    exampleTranslation: He can switch register moving from a meeting to dinner with friends.

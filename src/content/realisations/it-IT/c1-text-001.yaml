@@ -1,0 +1,11 @@
+nodeId: C1-TEXT-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-C1-TEXT-001-001
+    concept: to-read-between-the-lines
+    term: leggere tra le righe
+    translation: to read between the lines
+    partOfSpeech: phrase
+    gender: n/a
+    example: L'editoriale va letto tra le righe per coglierne il tono ironico.
+    exampleTranslation: The editorial must be read between the lines to catch its ironic tone.

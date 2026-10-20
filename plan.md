@@ -11,7 +11,7 @@
 ## Where we are
 
 - The core learning loop is shipped and tested: retrieval, spacing, interleaving, typed recall, calibration, reflection and exercises (spec §2 mostly ✅).
-- Coverage reality: pt-PT/es-ES/de-DE are A1–C2, fr-FR is A1–B2 with C1/C2 lower-priority pending, and every supported language works as source or target (spec C4/C5).
+- Coverage reality: pt-PT/es-ES/de-DE are A1–C2; fr-FR is A1–B2 with C1/C2 lower-priority pending; it-IT is A1–B1 plus C1 (B2 in progress #182, C2 pending); every supported language works as source or target (spec C4/C5).
 - **Primary gate remains #21**: no major net-new content expansion should start before real learner retention evidence (intent S1/S2).
 
 ## Now: alignment + issue hygiene + retention gate
@@ -39,9 +39,11 @@
 
 ## Later: breadth and expansion (only after retention + Phase 2 signals)
 
-- Italian C1–C2 under #39 (A1–B1 shipped; A2 is 20/30 nodes), with advanced levels gated by #21.
+- Italian C1–C2 under #39 (A1–B1 shipped; A2 is 20/30 nodes; C1 realised at 1 concept per node via #165/#183), with C2 gated by #21.
 - False-friend/cognate notes (#147, L14) and calibration split for image vs non-image cards (#146, L5 extension), gated by S6. Both were claimed closed by empty merges (#170, #167) and are still unimplemented.
 - es-ES shared-concept realignment above A2 with per-item PCIC review (#185).
+- fr-FR C1–C2 (#111, #112), with priority held behind #21 unless retention and demand justify advanced-level spend.
+- B2 Italian in progress (#182), C2 pending.
 - Residual image sourcing work (#75) and contributor workflow scaling (#22).
 
 ## Rules for this plan

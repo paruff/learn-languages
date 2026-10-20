@@ -1,0 +1,11 @@
+nodeId: C1-ARGUE-002
+lang: it-IT
+vocabulary:
+  - id: it-IT-C1-ARGUE-002-001
+    concept: to-refute-an-argument
+    term: confutare un argomento
+    translation: to refute an argument
+    partOfSpeech: phrase
+    gender: n/a
+    example: Confutare un argomento richiede prove, non solo obiezioni.
+    exampleTranslation: Refuting an argument requires evidence, not just objections.

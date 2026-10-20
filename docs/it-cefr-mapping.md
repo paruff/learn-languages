@@ -1,6 +1,6 @@
-# Italian (it-IT) CEFR Mapping — A1–B1 Inventory
+# Italian (it-IT) CEFR Mapping — A1–B1 and C1 Inventory
 
-Tracks the CEFR A1–B1 Can-Do inventory for **en-GB↔it-IT** against the shared repository node set and paired `realisations` content. This epic reuses the existing language-agnostic B1 node inventory rather than creating a duplicate Italian-only schema.
+Tracks the CEFR A1–B1 and C1 Can-Do inventory for **en-GB↔it-IT** against the shared repository node set and paired `realisations` content. This epic reuses the existing language-agnostic B1 and C1 node inventories rather than creating a duplicate Italian-only schema.
 
 ## Source verification
 
@@ -110,8 +110,41 @@ A2 coverage: 20/30 nodes realised. Pending: `A2-DESCRIBE-001`, `A2-LETTER-001`, 
 
 B1 coverage: 35/35 nodes fully realised (100%). The Italian B1 slice reuses the shared CEFR B1 node set and adds paired `en-GB` + `it-IT` realisations for every B1 node in `src/content/realisations/it-IT`.
 
+## C1 coverage table
+
+| nodeId              | Skill              | Can-Do                                                                                                                                                       | Status      |
+| ------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| C1-ACADEMIC-001     | writing            | Can write a dissertation or report of substance, presenting a reasoned conclusion and engaging with the sources consulted                                    | ✅ Realised |
+| C1-ACADEMIC-002     | spoken_production  | Can present complex content to a specialist or general audience, structuring the talk coherently and adapting it to the listeners                            | ✅ Realised |
+| C1-ARGUE-001        | spoken_production  | Can present clear, detailed descriptions of complex subjects integrating sub-themes and developing particular points                                         | ✅ Realised |
+| C1-ARGUE-002        | spoken_production  | Can develop an argument systematically with appropriate highlighting of significant points and relevant supporting detail while evaluating counter-arguments | ✅ Realised |
+| C1-ARGUE-003        | spoken_production  | Can express subtle shades of meaning using a wide range of qualifying devices                                                                                | ✅ Realised |
+| C1-ARGUE-004        | writing            | Can sustain a viewpoint in writing by providing relevant supporting detail and evaluating counter-arguments                                                  | ✅ Realised |
+| C1-LITERARY-001     | reading            | Can appreciate the wider, implicit layers of meaning in literary texts, including allusion, irony and cultural reference                                     | ✅ Realised |
+| C1-MEDIATION-001    | spoken_production  | Can explain a complicated issue in a way that makes it accessible to a non-expert, reformulating and simplifying without losing accuracy                     | ✅ Realised |
+| C1-NUANCED-001      | spoken_interaction | Can handle a disagreement in a conversation with nuance, adjusting the choice of expression to the interlocutor and the stakes                               | ✅ Realised |
+| C1-PROFESSIONAL-001 | spoken_interaction | Can make a well-structured proposal or presentation in a professional context and deal confidently with questions and objections                             | ✅ Realised |
+| C1-PROFESSIONAL-002 | writing            | Can write clear, well-structured documents on complex subjects in a formal professional register, highlighting decisive points                               | ✅ Realised |
+| C1-SOCIAL-001       | spoken_interaction | Can express him/herself fluently and spontaneously without much obvious searching for expressions                                                            | ✅ Realised |
+| C1-SOCIAL-002       | spoken_interaction | Can use language flexibly and effectively for social purposes in a wide range of contexts                                                                    | ✅ Realised |
+| C1-SPOKEN-001       | spoken_production  | Can give elaborate descriptions and narratives, embedding sub-themes, developing particular aspects and rounding off with an appropriate conclusion          | ✅ Realised |
+| C1-SPOKEN-002       | spoken_production  | Can express ideas and opinions without much searching for expressions, using idiomatic expressions appropriately                                             | ✅ Realised |
+| C1-SPOKEN-003       | spoken_interaction | Can keep up a fluent conversation on abstract and complex topics, using a variety of devices to structure and emphasise discourse                            | ✅ Realised |
+| C1-SPOKEN-004       | listening          | Can understand extended speech even when it is not clearly structured and when relationships are only implied and not signalled explicitly                   | ✅ Realised |
+| C1-SPOKEN-005       | listening          | Can understand television programmes and films without too much effort                                                                                       | ✅ Realised |
+| C1-TEXT-001         | reading            | Can understand a wide range of demanding, longer texts and recognise implicit meaning                                                                        | ✅ Realised |
+| C1-TEXT-002         | reading            | Can understand specialised articles and longer technical instructions, even when not related to their own field                                              | ✅ Realised |
+| C1-TEXT-003         | reading            | Can appreciate contemporary literary texts including idiomatic, cultural and historic allusions                                                              | ✅ Realised |
+| C1-TEXT-004         | reading            | Can understand complex argumentative texts and identify the author's line of argumentation, claims, evidence and conclusion                                  | ✅ Realised |
+| C1-WRITTEN-001      | writing            | Can write a convincing, coherent text on abstract and topical subjects, adapting the register to the intended reader                                         | ✅ Realised |
+| C1-WRITTEN-002      | writing            | Can write a critical review of a film, exhibition or work, choosing the style appropriate to the intended publication                                        | ✅ Realised |
+| C1-WRITTEN-003      | writing            | Can write a well-structured personal narrative of a complex experience with a coherent, convincing and personal point of view                                | ✅ Realised |
+
+C1 coverage: 25/25 nodes realised (100% of nodes, 1 concept per node). C1 landed ahead of B2 by explicit product direction; Italian B2 remains in progress under #182, so the C1 slice reuses the shared C1 node set without a complete B2 bridge. Depth matches the accepted fr-FR C1 pattern (1 concept per node) rather than the 6-concept en-GB/pt-PT/es-ES/de-DE sets; `validate:content` reports that depth gap as an informational parity warning. Every C1 concept key is copied from the shared en-GB realisation for the same node, so prompts and answers pair without a divergent Italian taxonomy.
+
 ## Notes
 
+- C1 review and lesson routes work with the same pair key and SRS scoping as the lower levels; `tests/e2e/review-it.spec.ts` exercises a full C1 session and the `C1-SPOKEN-002` lesson.
 - The route set is derived from actual realisations via `getAvailablePairs()`, so the `en-GB↔it-IT` review and lesson routes become available automatically once the B1 files are in place.
 - Browser validation is done via the real `en-GB→it-IT` review flow, with SRS state persisted under the pair key `srs:en-GB:it-IT:forward:*`.
 - This update follows the repository playbook: reuse the shared CEFR node inventory, author the target-language realisation layer, and validate integrity rather than duplicating the node model.

@@ -1,0 +1,11 @@
+nodeId: C1-ARGUE-004
+lang: it-IT
+vocabulary:
+  - id: it-IT-C1-ARGUE-004-001
+    concept: to-defend-with-arguments
+    term: difendere con argomenti
+    translation: to defend with arguments
+    partOfSpeech: phrase
+    gender: n/a
+    example: Sa difendere la propria posizione con argomenti solidi.
+    exampleTranslation: She can defend her position with solid arguments.

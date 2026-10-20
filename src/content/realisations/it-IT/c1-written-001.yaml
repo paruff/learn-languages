@@ -1,0 +1,11 @@
+nodeId: C1-WRITTEN-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-C1-WRITTEN-001-001
+    concept: to-adapt-the-register-to-the-reader
+    term: adattare il registro al lettore
+    translation: to adapt the register to the reader
+    partOfSpeech: phrase
+    gender: n/a
+    example: Bisogna adattare il registro al lettore, non solo al tema.
+    exampleTranslation: One must adapt the register to the reader, not only to the topic.

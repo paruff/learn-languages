@@ -1,0 +1,11 @@
+nodeId: C1-WRITTEN-002
+lang: it-IT
+vocabulary:
+  - id: it-IT-C1-WRITTEN-002-001
+    concept: critical-review
+    term: recensione critica
+    translation: critical review
+    partOfSpeech: noun
+    gender: feminine
+    example: La recensione critica è destinata a una rivista culturale.
+    exampleTranslation: The critical review is intended for a cultural magazine.

@@ -1,0 +1,11 @@
+nodeId: C1-SOCIAL-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-C1-SOCIAL-001-001
+    concept: to-express-oneself-fluently
+    term: esprimersi con scioltezza
+    translation: to express oneself fluently
+    partOfSpeech: phrase
+    gender: n/a
+    example: Si esprime con scioltezza anche quando il tema è astratto.
+    exampleTranslation: She expresses herself fluently even when the topic is abstract.

@@ -1,0 +1,11 @@
+nodeId: C1-TEXT-002
+lang: it-IT
+vocabulary:
+  - id: it-IT-C1-TEXT-002-001
+    concept: technical-specifications
+    term: specifiche tecniche
+    translation: technical specifications
+    partOfSpeech: noun
+    gender: feminine
+    example: Le specifiche tecniche restano comprensibili anche fuori dal settore.
+    exampleTranslation: The technical specifications remain understandable even outside the field.

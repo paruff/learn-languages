@@ -1,0 +1,11 @@
+nodeId: C1-NUANCED-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-C1-NUANCED-001-001
+    concept: delicate-disagreement
+    term: disaccordo delicato
+    translation: delicate disagreement
+    partOfSpeech: noun
+    gender: masculine
+    example: Un disaccordo delicato si gestisce ascoltando prima di replicare.
+    exampleTranslation: A delicate disagreement is handled by listening before replying.

@@ -1,0 +1,11 @@
+nodeId: C1-ARGUE-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-C1-ARGUE-001-001
+    concept: to-develop-sub-topics
+    term: sviluppare sottoargomenti
+    translation: to develop sub-topics
+    partOfSpeech: phrase
+    gender: n/a
+    example: Sa sviluppare sottoargomenti senza perdere il filo del discorso.
+    exampleTranslation: He can develop sub-topics without losing the thread of the argument.

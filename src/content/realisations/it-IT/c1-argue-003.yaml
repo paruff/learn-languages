@@ -1,0 +1,11 @@
+nodeId: C1-ARGUE-003
+lang: it-IT
+vocabulary:
+  - id: it-IT-C1-ARGUE-003-001
+    concept: to-soften-a-statement
+    term: attenuare un'affermazione
+    translation: to soften a statement
+    partOfSpeech: phrase
+    gender: n/a
+    example: In un contesto delicato conviene attenuare un'affermazione.
+    exampleTranslation: In a sensitive setting, it is better to soften a statement.

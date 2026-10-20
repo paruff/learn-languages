@@ -1,0 +1,13 @@
+nodeId: C1-SPOKEN-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-C1-SPOKEN-001-001
+    concept: detailed-narrative
+    term: racconto dettagliato
+    translation: detailed narrative
+    partOfSpeech: noun
+    gender: masculine
+    example: Il suo racconto dettagliato integra episodi secondari e una conclusione
+      efficace.
+    exampleTranslation: His detailed narrative integrates secondary episodes and an
+      effective conclusion.
