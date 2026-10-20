@@ -37,7 +37,36 @@ This mapping follows the same evidence rule used elsewhere in the repo: the CEFR
 | A1-FORM-001 | writing | Can fill in a simple form with basic personal details | ✅ Realised |
 | A1-WRITE-001 | writing | Can write simple personal messages or short notes | ✅ Realised |
 
-A1 coverage: 23/23 nodes fully realised (100%). All A1 node IDs now have paired `en-GB` + `it-IT` realisations and match the shared concept inventory consumed by `npm run report:coverage -- it-IT A1`.
+A1 coverage: 24/24 nodes fully realised (100%). All A1 node IDs now have paired `en-GB` + `it-IT` realisations and match the shared concept inventory consumed by `npm run report:coverage -- it-IT A1`.
+
+## A2 coverage table
+
+The A2 inventory is the repo's 30 shared A2 `cefr-nodes/`. 20 nodes have an `it-IT` realisation today; the remaining 10 are listed as pending rather than claimed as complete.
+
+| nodeId        | Skill              | Can-Do                                               | Status      |
+| ------------- | ------------------ | ---------------------------------------------------- | ----------- |
+| A2-CULT-001   | listening          | Can talk about cultural events and traditions        | ✅ Realised |
+| A2-CULT-002   | spoken_interaction | Can describe simple aspects of different cultures    | ✅ Realised |
+| A2-CULT-003   | spoken_production  | Can express opinions about cultural topics           | ✅ Realised |
+| A2-HABIT-001  | spoken_production  | Can describe recent changes in habits                | ✅ Realised |
+| A2-HABIT-002  | listening          | Can talk about recent activities                     | ✅ Realised |
+| A2-HABIT-003  | reading            | Can understand simple news items about recent events | ✅ Realised |
+| A2-HEALTH-001 | spoken_interaction | Can describe symptoms and understand medical advice  | ✅ Realised |
+| A2-JOB-001    | spoken_production  | Can describe my job and working hours                | ✅ Realised |
+| A2-JOB-002    | spoken_production  | Can talk about daily work routines                   | ✅ Realised |
+| A2-JOB-003    | reading            | Can understand simple job advertisements             | ✅ Realised |
+| A2-NEWS-001   | reading            | Can understand simple news articles                  | ✅ Realised |
+| A2-NEWS-002   | spoken_production  | Can describe events reported in the media            | ✅ Realised |
+| A2-NEWS-003   | spoken_production  | Can express basic opinions about news items          | ✅ Realised |
+| A2-PAST-001   | spoken_production  | Can describe past events and experiences             | ✅ Realised |
+| A2-PAST-002   | spoken_production  | Can talk about changes over time                     | ✅ Realised |
+| A2-PAST-003   | listening          | Can understand simple narratives about the past      | ✅ Realised |
+| A2-PAST-004   | writing            | Can compare past and present situations              | ✅ Realised |
+| A2-STUDY-001  | spoken_production  | Can describe my studies and qualifications           | ✅ Realised |
+| A2-STUDY-002  | spoken_interaction | Can talk about my educational background             | ✅ Realised |
+| A2-STUDY-003  | reading            | Can understand simple academic texts                 | ✅ Realised |
+
+A2 coverage: 20/30 nodes realised. Pending: `A2-DESCRIBE-001`, `A2-LETTER-001`, `A2-LOC-001`, `A2-MEDIA-001`, `A2-OPIN-001`, `A2-PLANS-001`, `A2-SHOP-001`, `A2-SIGN-001`, `A2-SOCIAL-001`, `A2-WRITE-001`.
 
 ## B1 coverage table
 
