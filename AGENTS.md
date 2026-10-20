@@ -9,7 +9,7 @@
 **learn-languages** (deployed as **Acquira**) — a research-backed, CEFR-aligned language-learning platform built with **Astro 7.x** (static site generation with islands) deployed to **GitHub Pages** via **GitOps**. Originally scoped as EN→PT only (see `discovery-brief.md`'s MVP framing); the abstract CEFR-node + realisation content model proved out past a single hand-authored pair, and the platform now supports **en-GB, pt-PT, es-ES, de-DE, and fr-FR** as both source and target languages (Epic #39), with any-direction pairing and per-pair, per-direction SRS state.
 
 - **Framework**: Astro 7.x + TypeScript, vanilla-JS islands (no framework runtime shipped to the client)
-- **Content**: Zod-validated CEFR nodes (language-agnostic Can-Do statements) + per-language realisations (YAML) — full A1–C2 coverage for pt-PT/es-ES/de-DE, a verified 5-node skeleton for fr-FR
+- **Content**: Zod-validated CEFR nodes (language-agnostic Can-Do statements) + per-language realisations (YAML) — full A1–C2 coverage for pt-PT/es-ES/de-DE/fr-FR, and A1–A2 for it-IT (B1 in PR #180)
 - **SRS**: SM-2 algorithm (pure TS, 100% test coverage), scoped per language pair _and_ review direction
 - **Deployment**: GitHub Actions → GitHub Pages (static export)
 

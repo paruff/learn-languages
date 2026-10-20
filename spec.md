@@ -6,7 +6,7 @@
 > Deep design detail (schemas, SM-2 maths, tokens, budgets) lives in `specification-design.md`. This file stays at the requirement level and links into it instead of copying it.
 > Per-feature design notes go in `docs/superpowers/specs/YYYY-MM-DD-<topic>-design.md` and must cite the requirement IDs they add or change here.
 
-**Spec version:** 1.3 (2026-10-19) · **Status legend:** ✅ shipped and verified · 🟡 partial · ⬜ not started
+**Spec version:** 1.4 (2026-10-20) · **Status legend:** ✅ shipped and verified · 🟡 partial · ⬜ not started
 
 ## 1. Content model
 
@@ -15,10 +15,10 @@
 | C1  | CEFR nodes are language-agnostic (`nodeId`, level, skill, Can-Do) and contain no language-specific text                                                                                                                        | P4       | Zod schema, `npm run validate:content`        | ✅     |
 | C2  | Every realisation references an existing node (invariant I1)                                                                                                                                                                   | P4       | `src/lib/contentIntegrity.ts` + test          | ✅     |
 | C3  | Any two supported languages pair by `nodeId` + vocabulary `concept`, with no per-language code path. When the source is the gloss language (`en-GB`), an unmatched target item pairs against its own English gloss             | P4       | `src/lib/pairLoader.test.ts` (#139, Task A3)  | ✅     |
-| C4  | Supported languages: en-GB, pt-PT, es-ES, de-DE, fr-FR. Each one can be the source or the target                                                                                                                               | §2       | `getAvailablePairs()` tests                   | ✅     |
-| C5  | Coverage: pt-PT, es-ES, and de-DE A1–C2; fr-FR A1–B2; fr-FR C1–C2 pending (#111, #112)                                                                                                                                       | §3       | `docs/*cefr-mapping.md`                       | 🟡     |
+| C4  | Supported languages: en-GB, pt-PT, es-ES, de-DE, fr-FR, it-IT. Each one can be the source or the target                                                                                                                        | §2       | `getAvailablePairs()` tests                   | ✅     |
+| C5  | Coverage: pt-PT, es-ES, de-DE and fr-FR A1–C2; it-IT A1–A2 (B1 in #180). es-ES shared-concept coverage above A2 is reverted pending per-item PCIC review (#185)                                                                | §3       | `docs/*cefr-mapping.md`, `npm run check:coverage` | 🟡     |
 | C6  | Content is checked against the language's authoritative CEFR source before merge                                                                                                                                               | P6       | Mapping docs + PR review                      | ✅     |
-| C7  | Images are keyed by concept: one per concept, optional per-target-language override for culturally specific concepts; each has alt text and attribution in `src/content/concept-images.yaml`, shown on the in-app credits page | P1, a11y | Schema + `docs/content-attribution.md` (#141) | 🟡     |
+| C7  | Images are keyed by concept: one per concept, optional per-target-language override for culturally specific concepts; each has alt text and attribution in `src/content/concept-images/index.yaml`, shown on the in-app credits page | P1, a11y | Schema + `docs/content-attribution.md` (#141) | 🟡     |
 | C8  | Invalid content fails the build                                                                                                                                                                                                | §7       | CI `validate:content`                         | ✅     |
 | C9  | Every vocabulary item has a `concept` (kebab-case English-gloss slug), unique within its realisation; items paired across languages have matching English glosses                                                              | P4       | `validate:content` (#139)                     | ✅     |
 
