@@ -44,20 +44,12 @@ function loadConcepts(lang: string): Map<string, string[]> {
 }
 
 const enGb = loadConcepts('en-GB');
-const ptPt = loadConcepts('pt-PT');
 
-// The shared inventory is the union of the two authoring sources.
-const expectedConcepts = new Map<string, string[]>();
-const expectedNodes = new Set<string>();
-for (const source of [enGb, ptPt]) {
-  for (const [nodeId, concepts] of source) {
-    expectedNodes.add(nodeId);
-    expectedConcepts.set(nodeId, [
-      ...(expectedConcepts.get(nodeId) ?? []),
-      ...concepts,
-    ]);
-  }
-}
+// en-GB is the canonical inventory: every realisation pairs through its English
+// gloss, and the pt-PT source occasionally uses an alternative key for the same
+// item (`media` vs `the-media`), which a union would double-count as a gap.
+const expectedConcepts = enGb;
+const expectedNodes = new Set(enGb.keys());
 
 const targetLanguages = readdirSync(REALISATIONS_DIR, { withFileTypes: true })
   .filter((entry) => entry.isDirectory())
