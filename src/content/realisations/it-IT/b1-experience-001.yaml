@@ -1,0 +1,46 @@
+nodeId: B1-EXPERIENCE-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-EXPERIENCE-001-001
+    concept: to-relate-an-experience
+    term: raccontare un'esperienza
+    translation: to relate an experience
+    partOfSpeech: phrase
+    example: She related her experience in Japan in detail.
+    exampleTranslation: She related her experience in Japan in detail.
+  - id: it-IT-B1-EXPERIENCE-001-002
+    concept: in-detail
+    term: in dettaglio
+    translation: in detail
+    partOfSpeech: phrase
+    example: He explained the accident in detail.
+    exampleTranslation: He explained the accident in detail.
+  - id: it-IT-B1-EXPERIENCE-001-003
+    concept: my-reaction-was
+    term: la mia reazione è stata
+    translation: my reaction was
+    partOfSpeech: phrase
+    example: My reaction was surprise at first.
+    exampleTranslation: My reaction was surprise at first.
+  - id: it-IT-B1-EXPERIENCE-001-004
+    concept: how-i-felt
+    term: come mi sono sentito
+    translation: how I felt
+    partOfSpeech: phrase
+    example: I will tell you how I felt during the trip.
+    exampleTranslation: I will tell you how I felt during the trip.
+  - id: it-IT-B1-EXPERIENCE-001-005
+    concept: an-unexpected-event
+    term: un evento inaspettato
+    translation: an unexpected event
+    partOfSpeech: phrase
+    example: An unexpected event changed our plans.
+    exampleTranslation: An unexpected event changed our plans.
+  - id: it-IT-B1-EXPERIENCE-001-006
+    concept: to-describe-a-dream
+    term: descrivere un sogno
+    translation: to describe a dream
+    partOfSpeech: phrase
+    example: She described a dream she often had as a child.
+    exampleTranslation: She described a dream she often had as a child.
+grammar: []

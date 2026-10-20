@@ -1,0 +1,61 @@
+nodeId: B1-TEXT-005
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-TEXT-005-001
+    concept: formal-letter
+    term: lettera formale
+    translation: formal letter
+    partOfSpeech: phrase
+    gender: feminine
+    example: I need to write a formal letter to the employer.
+    exampleTranslation: I need to write a formal letter to the employer.
+  - id: it-IT-B1-TEXT-005-002
+    concept: professional-email
+    term: e-mail professionale
+    translation: professional email
+    partOfSpeech: phrase
+    gender: masculine
+    example: I sent a professional email to the colleague.
+    exampleTranslation: I sent a professional email to the colleague.
+  - id: it-IT-B1-TEXT-005-003
+    concept: greeting
+    term: saluto
+    translation: greeting
+    partOfSpeech: noun
+    gender: feminine
+    example: The greeting should be appropriate to the context.
+    exampleTranslation: The greeting should be appropriate to the context.
+  - id: it-IT-B1-TEXT-005-004
+    concept: farewell
+    term: saluto finale
+    translation: farewell
+    partOfSpeech: noun
+    gender: feminine
+    example: I used a formal farewell in the letter.
+    exampleTranslation: I used a formal farewell in the letter.
+  - id: it-IT-B1-TEXT-005-005
+    concept: courtesy-formula
+    term: formula di cortesia
+    translation: courtesy formula
+    partOfSpeech: phrase
+    gender: feminine
+    example: Courtesy formulas are important in formal writing.
+    exampleTranslation: Courtesy formulas are important in formal writing.
+  - id: it-IT-B1-TEXT-005-006
+    concept: to-sign-the-email
+    term: firmare l'e-mail
+    translation: to sign the email
+    partOfSpeech: phrase
+    gender: n/a
+    example: I did not forget to sign the email.
+    exampleTranslation: I did not forget to sign the email.
+grammar:
+  - id: B1-GRAMMAR-019
+    point: Formal letter and email conventions
+    explanation: Using appropriate register and format for different types of correspondence
+    examples:
+      - Dear Sir/Madam, I am writing to request...
+      - Kind regards,
+    cefrNotes: B1 learners develop register awareness for different correspondence types
+culturalNotes: British formal correspondence uses concise courtesy. 'Dear Sir/Madam'
+  and 'Kind regards' are standard formulas.

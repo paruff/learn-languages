@@ -1,58 +1,58 @@
 nodeId: A2-CULT-003
 lang: it-IT
 vocabulary:
-- id: it-IT-A2-CULT-003-001
-  concept: i-like
-  term: mi piace
-  translation: I like
-  partOfSpeech: phrase
-  example: Mi piace la musica italiana.
-  exampleTranslation: I like Italian music.
-- id: it-IT-A2-CULT-003-002
-  concept: it-seems-interesting-to-me
-  term: mi sembra interessante
-  translation: it seems interesting to me
-  partOfSpeech: phrase
-  example: Mi sembra interessante la vostra tradizione.
-  exampleTranslation: Your tradition seems interesting to me.
-- id: it-IT-A2-CULT-003-003
-  concept: important
-  term: importante
-  translation: important
-  partOfSpeech: adjective
-  gender: n/a
-  example: È importante rispettare le tradizioni.
-  exampleTranslation: It is important to respect traditions.
-- id: it-IT-A2-CULT-003-004
-  concept: to-value
-  term: valorizzare
-  translation: to value
-  partOfSpeech: verb
-  example: Valorizziamo la nostra cultura.
-  exampleTranslation: We value our culture.
-- id: it-IT-A2-CULT-003-005
-  concept: to-appreciate
-  term: apprezzare
-  translation: to appreciate
-  partOfSpeech: verb
-  example: Apprezzo le feste di famiglia.
-  exampleTranslation: I appreciate family celebrations.
-- id: it-IT-A2-CULT-003-006
-  concept: interesting
-  term: interessante
-  translation: interesting
-  partOfSpeech: adjective
-  gender: n/a
-  example: È interessante conoscere altre culture.
-  exampleTranslation: It is interesting to learn about other cultures.
+  - id: it-IT-A2-CULT-003-001
+    concept: i-like
+    term: mi piace
+    translation: I like
+    partOfSpeech: phrase
+    example: Mi piace la musica italiana.
+    exampleTranslation: I like Italian music.
+  - id: it-IT-A2-CULT-003-002
+    concept: it-seems-interesting-to-me
+    term: mi sembra interessante
+    translation: it seems interesting to me
+    partOfSpeech: phrase
+    example: Mi sembra interessante la vostra tradizione.
+    exampleTranslation: Your tradition seems interesting to me.
+  - id: it-IT-A2-CULT-003-003
+    concept: important
+    term: importante
+    translation: important
+    partOfSpeech: adjective
+    gender: n/a
+    example: È importante rispettare le tradizioni.
+    exampleTranslation: It is important to respect traditions.
+  - id: it-IT-A2-CULT-003-004
+    concept: to-value
+    term: valorizzare
+    translation: to value
+    partOfSpeech: verb
+    example: Valorizziamo la nostra cultura.
+    exampleTranslation: We value our culture.
+  - id: it-IT-A2-CULT-003-005
+    concept: to-appreciate
+    term: apprezzare
+    translation: to appreciate
+    partOfSpeech: verb
+    example: Apprezzo le feste di famiglia.
+    exampleTranslation: I appreciate family celebrations.
+  - id: it-IT-A2-CULT-003-006
+    concept: interesting
+    term: interessante
+    translation: interesting
+    partOfSpeech: adjective
+    gender: n/a
+    example: È interessante conoscere altre culture.
+    exampleTranslation: It is interesting to learn about other cultures.
 grammar:
-- id: it-IT-A2-CULT-003-G01
-  point: esprimere opinioni culturali
-  explanation: Usare formule semplici per dire che qualcosa piace o interessa.
-  examples:
-  - Mi piace la musica italiana.
-  - Penso che le tradizioni siano importanti.
-  cefrNotes: A2 learners express preferences and opinions about culture and everyday
-    traditions.
+  - id: it-IT-A2-CULT-003-G01
+    point: esprimere opinioni culturali
+    explanation: Usare formule semplici per dire che qualcosa piace o interessa.
+    examples:
+      - Mi piace la musica italiana.
+      - Penso che le tradizioni siano importanti.
+    cefrNotes: A2 learners express preferences and opinions about culture and everyday
+      traditions.
 culturalNotes: L’interesse per le tradizioni regionali e per il patrimonio storico
   è un tema comune nelle conversazioni culturali in Italia.

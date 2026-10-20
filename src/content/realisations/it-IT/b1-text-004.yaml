@@ -1,0 +1,61 @@
+nodeId: B1-TEXT-004
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-TEXT-004-001
+    concept: connected-text
+    term: testo collegato
+    translation: connected text
+    partOfSpeech: phrase
+    gender: masculine
+    example: I will write a connected text about my experience.
+    exampleTranslation: I will write a connected text about my experience.
+  - id: it-IT-B1-TEXT-004-002
+    concept: familiar-topic
+    term: argomento familiare
+    translation: familiar topic
+    partOfSpeech: phrase
+    gender: masculine
+    example: I prefer to write about familiar topics.
+    exampleTranslation: I prefer to write about familiar topics.
+  - id: it-IT-B1-TEXT-004-003
+    concept: to-describe-experiences
+    term: descrivere esperienze
+    translation: to describe experiences
+    partOfSpeech: phrase
+    gender: n/a
+    example: I like to describe my travel experiences.
+    exampleTranslation: I like to describe my travel experiences.
+  - id: it-IT-B1-TEXT-004-004
+    concept: to-express-impressions
+    term: esprimere impressioni
+    translation: to express impressions
+    partOfSpeech: phrase
+    gender: n/a
+    example: It is important to express my impressions clearly.
+    exampleTranslation: It is important to express my impressions clearly.
+  - id: it-IT-B1-TEXT-004-005
+    concept: to-use-connectors
+    term: usare i connettori
+    translation: to use connectors
+    partOfSpeech: phrase
+    gender: n/a
+    example: I need to use connectors to organise the text.
+    exampleTranslation: I need to use connectors to organise the text.
+  - id: it-IT-B1-TEXT-004-006
+    concept: to-rewrite-the-text
+    term: riscrivere il testo
+    translation: to rewrite the text
+    partOfSpeech: phrase
+    gender: n/a
+    example: I will rewrite the text to improve clarity.
+    exampleTranslation: I will rewrite the text to improve clarity.
+grammar:
+  - id: B1-GRAMMAR-018
+    point: Cohesive writing with discourse markers
+    explanation: Using connectors and linking words for text coherence
+    examples:
+      - First, I will describe the context.
+      - Then, I present my conclusions.
+    cefrNotes: B1 learners develop cohesive writing skills
+culturalNotes: British writing values clear structure and logical flow. Using 'firstly',
+  'furthermore', 'in conclusion' helps organise written expression.

@@ -1,58 +1,58 @@
 nodeId: A2-HABIT-002
 lang: it-IT
 vocabulary:
-- id: it-IT-A2-HABIT-002-001
-  concept: this-week
-  term: questa settimana
-  translation: this week
-  partOfSpeech: phrase
-  example: Questa settimana ho studiato di più.
-  exampleTranslation: This week I studied more.
-- id: it-IT-A2-HABIT-002-002
-  concept: yesterday
-  term: ieri
-  translation: yesterday
-  partOfSpeech: adverb
-  example: Ieri sono andato al supermercato.
-  exampleTranslation: Yesterday I went to the supermarket.
-- id: it-IT-A2-HABIT-002-003
-  concept: today
-  term: oggi
-  translation: today
-  partOfSpeech: adverb
-  example: Oggi ho fatto una passeggiata.
-  exampleTranslation: Today I went for a walk.
-- id: it-IT-A2-HABIT-002-004
-  concept: still
-  term: ancora
-  translation: still
-  partOfSpeech: adverb
-  example: Sono ancora stanco dopo il lavoro.
-  exampleTranslation: I am still tired after work.
-- id: it-IT-A2-HABIT-002-005
-  concept: activity
-  term: attività
-  translation: activity
-  partOfSpeech: noun
-  gender: feminine
-  example: L’attività preferita è il nuoto.
-  exampleTranslation: My favourite activity is swimming.
-- id: it-IT-A2-HABIT-002-006
-  concept: season
-  term: stagione
-  translation: season
-  partOfSpeech: noun
-  gender: feminine
-  example: In questa stagione faccio più sport.
-  exampleTranslation: In this season I do more sport.
+  - id: it-IT-A2-HABIT-002-001
+    concept: this-week
+    term: questa settimana
+    translation: this week
+    partOfSpeech: phrase
+    example: Questa settimana ho studiato di più.
+    exampleTranslation: This week I studied more.
+  - id: it-IT-A2-HABIT-002-002
+    concept: yesterday
+    term: ieri
+    translation: yesterday
+    partOfSpeech: adverb
+    example: Ieri sono andato al supermercato.
+    exampleTranslation: Yesterday I went to the supermarket.
+  - id: it-IT-A2-HABIT-002-003
+    concept: today
+    term: oggi
+    translation: today
+    partOfSpeech: adverb
+    example: Oggi ho fatto una passeggiata.
+    exampleTranslation: Today I went for a walk.
+  - id: it-IT-A2-HABIT-002-004
+    concept: still
+    term: ancora
+    translation: still
+    partOfSpeech: adverb
+    example: Sono ancora stanco dopo il lavoro.
+    exampleTranslation: I am still tired after work.
+  - id: it-IT-A2-HABIT-002-005
+    concept: activity
+    term: attività
+    translation: activity
+    partOfSpeech: noun
+    gender: feminine
+    example: L’attività preferita è il nuoto.
+    exampleTranslation: My favourite activity is swimming.
+  - id: it-IT-A2-HABIT-002-006
+    concept: season
+    term: stagione
+    translation: season
+    partOfSpeech: noun
+    gender: feminine
+    example: In questa stagione faccio più sport.
+    exampleTranslation: In this season I do more sport.
 grammar:
-- id: it-IT-A2-HABIT-002-G01
-  point: descrivere attività recenti
-  explanation: Usare ieri, oggi e questa settimana per raccontare attività recenti.
-  examples:
-  - Ieri sono andato al supermercato.
-  - Questa settimana ho letto due libri.
-  cefrNotes: A2 learners talk about recent activities using time markers that situate
-    actions in the recent past.
+  - id: it-IT-A2-HABIT-002-G01
+    point: descrivere attività recenti
+    explanation: Usare ieri, oggi e questa settimana per raccontare attività recenti.
+    examples:
+      - Ieri sono andato al supermercato.
+      - Questa settimana ho letto due libri.
+    cefrNotes: A2 learners talk about recent activities using time markers that situate
+      actions in the recent past.
 culturalNotes: Le conversazioni sulle routine quotidiane spesso includono schemi temporali
   come ieri, oggi e questa settimana.

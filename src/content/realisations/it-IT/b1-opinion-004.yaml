@@ -1,0 +1,61 @@
+nodeId: B1-OPINION-004
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-OPINION-004-001
+    concept: opinion-article
+    term: articolo di opinione
+    translation: opinion article
+    partOfSpeech: phrase
+    gender: masculine
+    example: I read an opinion article about the future of work.
+    exampleTranslation: I read an opinion article about the future of work.
+  - id: it-IT-B1-OPINION-004-002
+    concept: to-write-about
+    term: scrivere di
+    translation: to write about
+    partOfSpeech: phrase
+    gender: n/a
+    example: I am going to write about the importance of education.
+    exampleTranslation: I am going to write about the importance of education.
+  - id: it-IT-B1-OPINION-004-003
+    concept: to-express-my-position
+    term: esprimere la mia posizione
+    translation: to express my position
+    partOfSpeech: phrase
+    gender: n/a
+    example: It is important to express my position clearly.
+    exampleTranslation: It is important to express my position clearly.
+  - id: it-IT-B1-OPINION-004-004
+    concept: to-support-my-opinion
+    term: sostenere la mia opinione
+    translation: to support my opinion
+    partOfSpeech: phrase
+    gender: n/a
+    example: I need to support my opinion with facts.
+    exampleTranslation: I need to support my opinion with facts.
+  - id: it-IT-B1-OPINION-004-005
+    concept: current-events
+    term: eventi attuali
+    translation: current events
+    partOfSpeech: noun
+    gender: feminine
+    example: I follow current events daily.
+    exampleTranslation: I follow current events daily.
+  - id: it-IT-B1-OPINION-004-006
+    concept: the-media
+    term: i media
+    translation: the media
+    partOfSpeech: phrase
+    gender: masculine
+    example: The media are important for democracy.
+    exampleTranslation: The media are important for democracy.
+grammar:
+  - id: B1-GRAMMAR-009
+    point: Written opinion structure
+    explanation: Organising written opinions with introduction, arguments, and conclusion
+    examples:
+      - First of all, I want to present my point of view.
+      - In conclusion, I defend that we need to act.
+    cefrNotes: B1 learners develop written opinion skills with clear structure
+culturalNotes: British opinion writing values structured argumentation. Using connectors
+  like 'firstly', 'furthermore', 'in conclusion' helps organise written expression.

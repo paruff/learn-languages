@@ -1,0 +1,61 @@
+nodeId: B1-TEXT-002
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-TEXT-002-001
+    concept: news
+    term: notizie
+    translation: news
+    partOfSpeech: noun
+    gender: feminine
+    example: I read an interesting news article in the newspaper.
+    exampleTranslation: I read an interesting news article in the newspaper.
+  - id: it-IT-B1-TEXT-002-002
+    concept: news-summary
+    term: riassunto delle notizie
+    translation: news summary
+    partOfSpeech: phrase
+    gender: masculine
+    example: The news summary is very clear.
+    exampleTranslation: The news summary is very clear.
+  - id: it-IT-B1-TEXT-002-003
+    concept: main-headline
+    term: titolo principale
+    translation: main headline
+    partOfSpeech: phrase
+    gender: masculine
+    example: The main headline caught my attention.
+    exampleTranslation: The main headline caught my attention.
+  - id: it-IT-B1-TEXT-002-004
+    concept: to-read-quickly
+    term: leggere rapidamente
+    translation: to read quickly
+    partOfSpeech: phrase
+    gender: n/a
+    example: I can read quickly to find the information.
+    exampleTranslation: I can read quickly to find the information.
+  - id: it-IT-B1-TEXT-002-005
+    concept: to-underline-key-words
+    term: sottolineare le parole chiave
+    translation: to underline key words
+    partOfSpeech: phrase
+    gender: n/a
+    example: I like to underline key words when I read.
+    exampleTranslation: I like to underline key words when I read.
+  - id: it-IT-B1-TEXT-002-006
+    concept: to-make-notes
+    term: prendere appunti
+    translation: to make notes
+    partOfSpeech: phrase
+    gender: n/a
+    example: It is useful to make notes while I read.
+    exampleTranslation: It is useful to make notes while I read.
+grammar:
+  - id: B1-GRAMMAR-016
+    point: Skimming and scanning techniques
+    explanation: Quick reading strategies to find specific information
+    examples:
+      - I can scan the text to find dates.
+      - I read the first paragraph to understand the topic.
+    cefrNotes: B1 learners develop efficient reading strategies
+culturalNotes: British news sites like BBC and The Guardian have articles at various
+  levels suitable for learners.

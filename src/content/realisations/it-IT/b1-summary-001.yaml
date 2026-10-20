@@ -1,0 +1,46 @@
+nodeId: B1-SUMMARY-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-SUMMARY-001-001
+    concept: to-summarise
+    term: riassumere
+    translation: to summarise
+    partOfSpeech: verb
+    example: Please summarise the main findings.
+    exampleTranslation: Please summarise the main findings.
+  - id: it-IT-B1-SUMMARY-001-002
+    concept: a-factual-source
+    term: una fonte di fatti
+    translation: a factual source
+    partOfSpeech: phrase
+    example: Check every factual source before writing.
+    exampleTranslation: Check every factual source before writing.
+  - id: it-IT-B1-SUMMARY-001-003
+    concept: to-collate-information
+    term: raccogliere informazioni
+    translation: to collate information
+    partOfSpeech: phrase
+    example: Collate information from several documents.
+    exampleTranslation: Collate information from several documents.
+  - id: it-IT-B1-SUMMARY-001-004
+    concept: to-paraphrase
+    term: paraffrasare
+    translation: to paraphrase
+    partOfSpeech: verb
+    example: Paraphrase the passage in your own words.
+    exampleTranslation: Paraphrase the passage in your own words.
+  - id: it-IT-B1-SUMMARY-001-005
+    concept: in-my-view
+    term: a mio parere
+    translation: in my view
+    partOfSpeech: phrase
+    example: In my view, the report is convincing.
+    exampleTranslation: In my view, the report is convincing.
+  - id: it-IT-B1-SUMMARY-001-006
+    concept: to-draw-a-conclusion
+    term: trarre una conclusione
+    translation: to draw a conclusion
+    partOfSpeech: phrase
+    example: The essay draws a clear conclusion.
+    exampleTranslation: The essay draws a clear conclusion.
+grammar: []

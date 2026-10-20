@@ -1,0 +1,46 @@
+nodeId: B1-CLARIFY-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-CLARIFY-001-001
+    concept: to-ask-for-clarification
+    term: chiedere chiarimenti
+    translation: to ask for clarification
+    partOfSpeech: phrase
+    example: Could I ask for clarification on that point?
+    exampleTranslation: Could I ask for clarification on that point?
+  - id: it-IT-B1-CLARIFY-001-002
+    concept: to-repeat
+    term: ripetere
+    translation: to repeat
+    partOfSpeech: verb
+    example: Could you repeat that more slowly?
+    exampleTranslation: Could you repeat that more slowly?
+  - id: it-IT-B1-CLARIFY-001-003
+    concept: to-rephrase
+    term: paraffrasare
+    translation: to rephrase
+    partOfSpeech: verb
+    example: Let me rephrase what you said.
+    exampleTranslation: Let me rephrase what you said.
+  - id: it-IT-B1-CLARIFY-001-004
+    concept: to-check-understanding
+    term: verificare la comprensione
+    translation: to check understanding
+    partOfSpeech: phrase
+    example: I rephrased the question to check understanding.
+    exampleTranslation: I rephrased the question to check understanding.
+  - id: it-IT-B1-CLARIFY-001-005
+    concept: to-develop-an-idea
+    term: sviluppare un'idea
+    translation: to develop an idea
+    partOfSpeech: phrase
+    example: Could you develop that idea a little?
+    exampleTranslation: Could you develop that idea a little?
+  - id: it-IT-B1-CLARIFY-001-006
+    concept: i-do-not-follow
+    term: non riesco a seguirti
+    translation: I do not follow
+    partOfSpeech: phrase
+    example: Sorry, I do not follow your last point.
+    exampleTranslation: Sorry, I do not follow your last point.
+grammar: []

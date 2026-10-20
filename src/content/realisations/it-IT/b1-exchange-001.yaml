@@ -1,0 +1,46 @@
+nodeId: B1-EXCHANGE-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-EXCHANGE-001-001
+    concept: to-check-the-information
+    term: controllare le informazioni
+    translation: to check the information
+    partOfSpeech: phrase
+    example: Let me check the information before I leave.
+    exampleTranslation: Let me check the information before I leave.
+  - id: it-IT-B1-EXCHANGE-001-002
+    concept: to-confirm
+    term: confermare
+    translation: to confirm
+    partOfSpeech: verb
+    example: Could you confirm the address?
+    exampleTranslation: Could you confirm the address?
+  - id: it-IT-B1-EXCHANGE-001-003
+    concept: factual-information
+    term: informazioni fattuali
+    translation: factual information
+    partOfSpeech: phrase
+    example: We exchanged factual information about the delay.
+    exampleTranslation: We exchanged factual information about the delay.
+  - id: it-IT-B1-EXCHANGE-001-004
+    concept: to-relay-a-message
+    term: trasmettere un messaggio
+    translation: to relay a message
+    partOfSpeech: phrase
+    example: Can you relay a message to your manager?
+    exampleTranslation: Can you relay a message to your manager?
+  - id: it-IT-B1-EXCHANGE-001-005
+    concept: to-make-sure
+    term: essere sicuro
+    translation: to make sure
+    partOfSpeech: phrase
+    example: I called to make sure the booking went through.
+    exampleTranslation: I called to make sure the booking went through.
+  - id: it-IT-B1-EXCHANGE-001-006
+    concept: to-obtain-details
+    term: ottenere dettagli
+    translation: to obtain details
+    partOfSpeech: phrase
+    example: She called the office to obtain details.
+    exampleTranslation: She called the office to obtain details.
+grammar: []

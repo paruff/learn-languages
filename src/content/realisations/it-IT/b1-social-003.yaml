@@ -1,0 +1,63 @@
+nodeId: B1-SOCIAL-003
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-SOCIAL-003-001
+    concept: to-feel
+    term: sentire
+    translation: to feel
+    partOfSpeech: verb
+    gender: n/a
+    example: I feel very good when I am with my friends.
+    exampleTranslation: I feel very good when I am with my friends.
+  - id: it-IT-B1-SOCIAL-003-002
+    concept: to-express-feelings
+    term: esprimere i sentimenti
+    translation: to express feelings
+    partOfSpeech: phrase
+    gender: n/a
+    example: It is important to express our feelings.
+    exampleTranslation: It is important to express our feelings.
+  - id: it-IT-B1-SOCIAL-003-003
+    concept: to-agree-with
+    term: essere d'accordo con
+    translation: to agree with
+    partOfSpeech: phrase
+    gender: n/a
+    example: I completely agree with your opinion.
+    exampleTranslation: I completely agree with your opinion.
+  - id: it-IT-B1-SOCIAL-003-004
+    concept: to-disagree-politely
+    term: essere in disaccordo in modo educato
+    translation: to disagree politely
+    partOfSpeech: phrase
+    gender: n/a
+    example: I understand your point, but I disagree politely.
+    exampleTranslation: I understand your point, but I disagree politely.
+  - id: it-IT-B1-SOCIAL-003-005
+    concept: to-show-interest
+    term: mostrare interesse
+    translation: to show interest
+    partOfSpeech: phrase
+    gender: n/a
+    example: It is good to show interest when someone tells us something.
+    exampleTranslation: It is good to show interest when someone tells us something.
+  - id: it-IT-B1-SOCIAL-003-006
+    concept: to-share-my-perspective
+    term: condividere la mia prospettiva
+    translation: to share my perspective
+    partOfSpeech: phrase
+    gender: n/a
+    example: I would like to share my perspective on this topic.
+    exampleTranslation: I would like to share my perspective on this topic.
+grammar:
+  - id: B1-GRAMMAR-004
+    point: Sentir-se + adjective for emotional states
+    explanation: Using reflexive verb sentir-se with adjectives to describe feelings
+    examples:
+      - I feel motivated to start the project.
+      - She feels confident in her decision.
+    cefrNotes: Sentir-se constructions allow B1 learners to express nuanced emotional
+      states
+culturalNotes: British culture tends to be more reserved about emotional expression.
+  Sharing feelings is appropriate with close friends but may be uncomfortable in casual
+  acquaintances.
