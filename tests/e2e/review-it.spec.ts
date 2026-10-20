@@ -8,21 +8,23 @@ const GREET_LESSON_URL = '/learn-languages/en-GB/it-IT/lessons/A1-GREET-001/';
 const IT_DIR = 'src/content/realisations/it-IT';
 const EN_DIR = 'src/content/realisations/en-GB';
 
-type ItalianoLevel = 'a1-' | 'a2-' | 'b1-' | 'c1-';
+type ItalianoLevel = 'a1-' | 'a2-' | 'b1-' | 'b2-' | 'c1-';
 
 function itVocabIds(levelPrefix: ItalianoLevel): string[] {
   const levelToken = levelPrefix.toUpperCase().replace(/-$/, '');
+  const grammarIdPattern = /-G\d+$/;
+
   return readdirSync(IT_DIR)
     .filter((file) => file.startsWith(levelPrefix) && file.endsWith('.yaml'))
     .flatMap((file) => {
       const text = readFileSync(join(IT_DIR, file), 'utf8');
       return [...text.matchAll(/id:\s*['"]?(it-IT-[A-Za-z0-9-]+)['"]?/g)]
         .map((match) => match[1])
-        .filter((id) => id.includes(levelToken) && !/-G\d+$/.test(id));
+        .filter((id) => id.includes(levelToken) && !grammarIdPattern.test(id));
     });
 }
 
-function enTerms(levelPrefix: 'a2-' | 'b1-' | 'c1-'): Set<string> {
+function enTerms(levelPrefix: 'a2-' | 'b1-' | 'b2-' | 'c1-'): Set<string> {
   const terms = new Set<string>();
   for (const file of readdirSync(EN_DIR)) {
     if (!file.startsWith(levelPrefix) || !file.endsWith('.yaml')) continue;
@@ -73,12 +75,17 @@ test.describe('it-IT A1 review session', () => {
 
 test.describe('it-IT A2 review session', () => {
   test.beforeEach(async ({ page }) => {
+    // Schedule every A1, B1, B2, C1 card a year out so the SESSION_SIZE=15 slice is
+    // drawn from A2 cards only — with a cleared store, interleaveByNode's
+    // round-robin would open on A1/B1/B2/C1 cards first because they sort before A2.
     await page.goto(REVIEW_URL);
-    const a1Ids = itVocabIds('a1-');
-    expect(a1Ids.length).toBeGreaterThan(0);
-
-    // Schedule every A1 card a year out so the SESSION_SIZE=15 slice is drawn
-    // from A2 cards only — the same pattern used for the other language pairs.
+    const olderIds = [
+      ...itVocabIds('a1-'),
+      ...itVocabIds('b1-'),
+      ...itVocabIds('b2-'),
+      ...itVocabIds('c1-'),
+    ];
+    expect(olderIds.length).toBeGreaterThan(0);
     await page.evaluate((ids) => {
       window.localStorage.clear();
       const dueNextYear = new Date(Date.now() + 365 * 24 * 60 * 60 * 1000).toISOString();
@@ -88,8 +95,7 @@ test.describe('it-IT A2 review session', () => {
           JSON.stringify({ interval: 30, easeFactor: 2.5, repetitions: 3, dueDate: dueNextYear })
         );
       }
-    }, a1Ids);
-
+    }, olderIds);
     await page.reload();
   });
 
@@ -125,7 +131,12 @@ test.describe('it-IT A2 review session', () => {
 test.describe('it-IT B1 review session', () => {
   test.beforeEach(async ({ page }) => {
     await page.goto(REVIEW_URL);
-    const olderIds = [...itVocabIds('a1-'), ...itVocabIds('a2-')];
+    const olderIds = [
+      ...itVocabIds('a1-'),
+      ...itVocabIds('a2-'),
+      ...itVocabIds('b2-'),
+      ...itVocabIds('c1-'),
+    ];
     expect(olderIds.length).toBeGreaterThan(0);
     await page.evaluate((ids) => {
       window.localStorage.clear();
@@ -169,10 +180,74 @@ test.describe('it-IT B1 review session', () => {
   });
 });
 
+test.describe('it-IT B2 review session', () => {
+  test.beforeEach(async ({ page }) => {
+    // Schedule every A1, A2, B1, C1 card a year out so the SESSION_SIZE=15 slice is
+    // drawn from B2 cards only — with a cleared store, interleaveByNode's
+    // round-robin would open on A1/A2/B1/C1 cards first because they sort before B2.
+    await page.goto(REVIEW_URL);
+    const olderIds = [
+      ...itVocabIds('a1-'),
+      ...itVocabIds('a2-'),
+      ...itVocabIds('b1-'),
+      ...itVocabIds('c1-'),
+    ];
+    expect(olderIds.length).toBeGreaterThan(0);
+    await page.evaluate((ids) => {
+      window.localStorage.clear();
+      const dueNextYear = new Date(Date.now() + 365 * 24 * 60 * 60 * 1000).toISOString();
+      for (const id of ids) {
+        window.localStorage.setItem(
+          `srs:en-GB:it-IT:forward:${id}`,
+          JSON.stringify({ interval: 30, easeFactor: 2.5, repetitions: 3, dueDate: dueNextYear })
+        );
+      }
+    }, olderIds);
+    await page.reload();
+  });
+
+  test('a full B2 session is available for it-IT and grades out', async ({ page }) => {
+    const progress = page.locator('#review-progress');
+    const front = page.locator('#review-front');
+    const reveal = page.locator('#review-reveal');
+    const grades = page.locator('#review-grades');
+    const easy = grades.locator('button[data-quality="4"]');
+
+    await expect(progress).toContainText('of');
+    const totalCount = Number((await progress.textContent())?.match(/of (\d+)$/)?.[1]);
+    expect(totalCount).toBe(SESSION_SIZE);
+
+    const b2Terms = new Set<string>();
+    for (const file of readdirSync(EN_DIR)) {
+      if (!file.startsWith('b2-') || !file.endsWith('.yaml')) continue;
+      const text = readFileSync(join(EN_DIR, file), 'utf8');
+      for (const match of text.matchAll(/^\s+term:\s*(.+)\s*$/gm)) {
+        b2Terms.add(match[1].replace(/^['"]/, '').replace(/['"]$/, ''));
+      }
+    }
+
+    const fronts: string[] = [];
+    for (let i = 0; i < totalCount; i++) {
+      fronts.push((await front.textContent()) ?? '');
+      await reveal.click();
+      await easy.click();
+    }
+
+    for (const text of fronts) {
+      expect([...b2Terms].some((term) => text.includes(term))).toBe(true);
+    }
+  });
+});
+
 test.describe('it-IT C1 review session', () => {
   test.beforeEach(async ({ page }) => {
     await page.goto(REVIEW_URL);
-    const lowerIds = [...itVocabIds('a1-'), ...itVocabIds('a2-'), ...itVocabIds('b1-')];
+    const lowerIds = [
+      ...itVocabIds('a1-'),
+      ...itVocabIds('a2-'),
+      ...itVocabIds('b1-'),
+      ...itVocabIds('b2-'),
+    ];
     expect(lowerIds.length).toBeGreaterThan(0);
     await page.evaluate((ids) => {
       window.localStorage.clear();

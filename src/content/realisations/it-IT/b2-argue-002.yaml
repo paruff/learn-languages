@@ -1,0 +1,61 @@
+nodeId: B2-ARGUE-002
+lang: it-IT
+vocabulary:
+  - id: it-IT-B2-ARGUE-002-001
+    concept: 'to-justify-the-position'
+    term: 'giustificare la propria posizione'
+    translation: 'to justify the position'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I will justify my position with concrete examples.'
+    exampleTranslation: 'Vou justificar a minha posição com exemplos concretos.'
+  - id: it-IT-B2-ARGUE-002-002
+    concept: 'to-argue-about-current-topics'
+    term: 'discutere i temi attuali'
+    translation: 'to argue about current topics'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I like to argue about current topics with friends.'
+    exampleTranslation: 'Gosto de argumentar sobre temas atuais com amigos.'
+  - id: it-IT-B2-ARGUE-002-003
+    concept: 'to-present-evidence'
+    term: 'presentare prove'
+    translation: 'to present evidence'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'It is important to present evidence that supports the opinion.'
+    exampleTranslation: 'É importante apresentar evidências que sustentem a opinião.'
+  - id: it-IT-B2-ARGUE-002-004
+    concept: 'to-present-the-pros-and-cons'
+    term: 'presentare vantaggi e svantaggi'
+    translation: 'to present the pros and cons'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I will present the pros and cons of the situation.'
+    exampleTranslation: 'Vou expor os prós e contras da situação.'
+  - id: it-IT-B2-ARGUE-002-005
+    concept: 'to-refute-arguments'
+    term: 'confutare gli argomenti'
+    translation: 'to refute arguments'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I can refute weak arguments with facts.'
+    exampleTranslation: 'Consigo refutar argumentos fracos com factos.'
+  - id: it-IT-B2-ARGUE-002-006
+    concept: 'to-reach-conclusions'
+    term: 'raggiungere conclusioni'
+    translation: 'to reach conclusions'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'We can reach conclusions based on the discussion.'
+    exampleTranslation: 'Podemos chegar a conclusões baseadas na discussão.'
+grammar:
+  - id: it-IT-B2-ARGUE-002-G01
+    point: 'Relative clauses for precision'
+    explanation: 'Using non-restrictive and prepositional relative clauses'
+    examples:
+      - 'The book, which I bought yesterday, is excellent.'
+      - 'The person I spoke with was very friendly.'
+    cefrNotes: 'B2 learners use complex relative clauses for detailed expression'
+
+culturalNotes: "British argumentation values evidence and examples. Using 'for example' or 'as demonstrated by' strengthens your position."

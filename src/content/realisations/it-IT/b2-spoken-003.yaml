@@ -1,0 +1,61 @@
+nodeId: B2-SPOKEN-003
+lang: it-IT
+vocabulary:
+  - id: it-IT-B2-SPOKEN-003-001
+    concept: 'to-understand-complex-speech'
+    term: 'capire il discorso complesso'
+    translation: 'to understand complex speech'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I can understand complex speech on abstract topics.'
+    exampleTranslation: 'Consigo compreender fala complexa sobre temas abstratos.'
+  - id: it-IT-B2-SPOKEN-003-002
+    concept: 'to-identify-main-ideas-in-speeches'
+    term: 'identificare le idee principali nei discorsi'
+    translation: 'to identify main ideas in speeches'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I will identify main ideas in long speeches.'
+    exampleTranslation: 'Vou identificar ideias principais em discursos longos.'
+  - id: it-IT-B2-SPOKEN-003-003
+    concept: 'to-understand-abstract-argumentation'
+    term: 'capire l’argomentazione astratta'
+    translation: 'to understand abstract argumentation'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'It is important to understand abstract argumentation in lectures.'
+    exampleTranslation: 'É importante perceber argumentação abstrata em palestras.'
+  - id: it-IT-B2-SPOKEN-003-004
+    concept: 'to-recognise-the-speaker-s-intention'
+    term: 'riconoscere l’intenzione del relatore'
+    translation: "to recognise the speaker's intention"
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: "I need to recognise the speaker's intention."
+    exampleTranslation: 'Preciso de reconhecer a intenção do orador.'
+  - id: it-IT-B2-SPOKEN-003-005
+    concept: 'to-interpret-the-intonation'
+    term: 'interpretare l’intonazione'
+    translation: 'to interpret the intonation'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'It is useful to interpret the intonation to understand the attitude.'
+    exampleTranslation: 'É útil interpretar a entoação para perceber a atitude.'
+  - id: it-IT-B2-SPOKEN-003-006
+    concept: 'to-make-inferences-from-speech'
+    term: 'fare inferenze dal discorso'
+    translation: 'to make inferences from speech'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: "I can make inferences from the speaker's speech."
+    exampleTranslation: 'Posso fazer inferências a partir da fala do orador.'
+grammar:
+  - id: it-IT-B2-SPOKEN-003-G01
+    point: 'Advanced reported speech with complex tenses'
+    explanation: 'Using sophisticated indirect speech for summarising complex spoken content'
+    examples:
+      - 'The speaker argued that the situation would worsen if measures were not taken.'
+      - 'He explained that, given the data, the conclusion was inevitable.'
+    cefrNotes: 'B2 learners handle advanced reported speech for complex summarisation'
+
+culturalNotes: "British spoken discourse values understanding implicit meanings. Using 'that is to say' or 'in other words' signals clarification or paraphrase."

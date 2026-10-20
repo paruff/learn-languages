@@ -1,0 +1,61 @@
+nodeId: B2-SOCIAL-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-B2-SOCIAL-001-001
+    concept: 'to-deepen-the-discussion'
+    term: 'approfondire la discussione'
+    translation: 'to deepen the discussion'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'Can we deepen the discussion about this topic?'
+    exampleTranslation: 'Podemos aprofundar a discussão sobre este tema?'
+  - id: it-IT-B2-SOCIAL-001-002
+    concept: 'to-keep-the-conversation-going'
+    term: 'mantenere la conversazione'
+    translation: 'to keep the conversation going'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'It is important to keep the conversation flowing.'
+    exampleTranslation: 'É importante manter a conversa fluente.'
+  - id: it-IT-B2-SOCIAL-001-003
+    concept: 'to-react-spontaneously'
+    term: 'reagire in modo spontaneo'
+    translation: 'to react spontaneously'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I can react spontaneously in discussions.'
+    exampleTranslation: 'Consigo reagir espontaneamente em discussões.'
+  - id: it-IT-B2-SOCIAL-001-004
+    concept: 'to-participate-actively'
+    term: 'partecipare attivamente'
+    translation: 'to participate actively'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I like to participate actively in classes.'
+    exampleTranslation: 'Gosto de participar ativamente nas aulas.'
+  - id: it-IT-B2-SOCIAL-001-005
+    concept: 'to-express-ideas-clearly'
+    term: 'esprimere le idee chiaramente'
+    translation: 'to express ideas clearly'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'It is fundamental to express ideas clearly.'
+    exampleTranslation: 'É fundamental expressar ideias com clareza.'
+  - id: it-IT-B2-SOCIAL-001-006
+    concept: 'to-interact-with-fluency'
+    term: 'interagire con scioltezza'
+    translation: 'to interact with fluency'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I want to interact with fluency in Portuguese.'
+    exampleTranslation: 'Quero interagir com fluidez em português.'
+grammar:
+  - id: it-IT-B2-SOCIAL-001-G01
+    point: 'Subjunctive mood in dependent clauses'
+    explanation: 'Using present subjunctive after verbs of desire, doubt, emotion'
+    examples:
+      - 'I hope you can come tomorrow.'
+      - 'I doubt he knows the truth.'
+    cefrNotes: 'B2 learners use subjunctive fluently in context'
+
+culturalNotes: "British conversation values measured participation. Active listening through backchannels ('I see', 'right') shows engagement without interrupting."
