@@ -1,6 +1,6 @@
 # learn-languages (Acquira)
 
-> A research-backed, CEFR-aligned language-learning platform — live as **Acquira**. Static-first, privacy-respecting, offline-capable, and language-pair-agnostic: en-GB, pt-PT, es-ES, de-DE, and fr-FR all work as either source or target.
+> A research-backed, CEFR-aligned language-learning platform — live as **Acquira**. Static-first, privacy-respecting, offline-capable, and language-pair-agnostic: en-GB, pt-PT, es-ES, de-DE, fr-FR, and it-IT all work as either source or target.
 
 [![CI](https://github.com/paruff/learn-languages/actions/workflows/ci.yml/badge.svg)](https://github.com/paruff/learn-languages/actions/workflows/ci.yml)
 [![Deploy](https://github.com/paruff/learn-languages/actions/workflows/deploy.yml/badge.svg)](https://github.com/paruff/learn-languages/actions/workflows/deploy.yml)
@@ -8,20 +8,20 @@
 
 ## Overview
 
-**Acquira** delivers structured, CEFR-aligned language learning through a static site deployed to GitHub Pages. It started as European Portuguese only (see `discovery-brief.md` for the original MVP scope) — the abstract CEFR-node + realisation content model proved out past that single pair, and pt-PT/es-ES/de-DE now have full A1–C2 content, with fr-FR currently complete through B2 (C1/C2 remain lower-priority pending work). No backend, no accounts, no tracking — just evidence-based retrieval-practice principles (spacing, interleaving, generation effect, calibration feedback — see `AGENTS.md` §1.0), SM-2 spaced repetition, and transparent CEFR progress tracking.
+**Acquira** delivers structured, CEFR-aligned language learning through a static site deployed to GitHub Pages. It started as European Portuguese only (see `discovery-brief.md` for the original MVP scope) — the abstract CEFR-node + realisation content model proved out past that single pair, and pt-PT/es-ES/de-DE/fr-FR now have full A1–C2 content, with it-IT complete through B1 (A2 is 20/30 nodes). No backend, no accounts, no tracking — just evidence-based retrieval-practice principles (spacing, interleaving, generation effect, calibration feedback — see `AGENTS.md` §1.0), SM-2 spaced repetition, and transparent CEFR progress tracking.
 
 ### Key Features
 
-| Feature                   | Description                                                                                                                                      |
-| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **CEFR-Aligned Content**  | Abstract, language-agnostic Can-Do nodes mapped to per-language realisations (vocabulary, grammar, cultural notes)                               |
-| **Any Language Pair**     | en-GB, pt-PT, es-ES, de-DE, fr-FR all work as source _or_ target — routes and the language-pair selector are derived from content, not hardcoded |
-| **Spaced Repetition**     | SM-2 algorithm with 4-grade recall (Again/Hard/Good/Easy), offline in `localStorage`, scoped per pair _and_ direction                            |
-| **Evidence-Based Review** | Interleaved due-card queue, opt-in typed-recall (generation effect), calibration feedback on over-confident grading                              |
-| **Transparent Progress**  | Per-skill Can-Do mastery dashboard; exportable, verifiable                                                                                       |
-| **Native Pronunciation**  | Web Speech API, exact-locale voice selection (e.g. `pt-PT` not `pt-BR`, `es-ES` not `es-MX`)                                                     |
-| **Privacy by Default**    | Zero PII, no cookies, no third-party trackers, `localStorage` only                                                                               |
-| **Static Deployment**     | GitHub Pages via GitOps; instant loads, global CDN, zero cost                                                                                    |
+| Feature                   | Description                                                                                                                                             |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **CEFR-Aligned Content**  | Abstract, language-agnostic Can-Do nodes mapped to per-language realisations (vocabulary, grammar, cultural notes)                                      |
+| **Any Language Pair**     | en-GB, pt-PT, es-ES, de-DE, fr-FR, it-IT all work as source _or_ target — routes and the language-pair selector are derived from content, not hardcoded |
+| **Spaced Repetition**     | SM-2 algorithm with 4-grade recall (Again/Hard/Good/Easy), offline in `localStorage`, scoped per pair _and_ direction                                   |
+| **Evidence-Based Review** | Interleaved due-card queue, opt-in typed-recall (generation effect), calibration feedback on over-confident grading                                     |
+| **Transparent Progress**  | Per-skill Can-Do mastery dashboard; exportable, verifiable                                                                                              |
+| **Native Pronunciation**  | Web Speech API, exact-locale voice selection (e.g. `pt-PT` not `pt-BR`, `es-ES` not `es-MX`)                                                            |
+| **Privacy by Default**    | Zero PII, no cookies, no third-party trackers, `localStorage` only                                                                                      |
+| **Static Deployment**     | GitHub Pages via GitOps; instant loads, global CDN, zero cost                                                                                           |
 
 ---
 

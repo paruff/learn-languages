@@ -35,14 +35,13 @@
 | 2.5 | Metalinguistic analysis tasks (error explanation/comparison prompts)                                     | L17      | new   | At least one analysis task type is live and scored in lessons/review with tests                   |
 | 2.6 | Optional L1 grammar diagnostic with recommendations into contrastive modules                             | L18      | new   | Diagnostic runs end-to-end and produces recommendation links without breaking privacy constraints |
 | 2.7 | Rule-of-thumb support notes tied to L1→L2 interference patterns, shown in lessons and corrective support | L19      | new   | One verified interference pattern per active pair is shown where relevant and covered by tests    |
-| 2.8 | Opt-in picture-prompt cards (after corrective support)                                                   | L13      | #145  | E2E confirms image-only front in picture mode with correct answer checking                        |
 | 2.9 | Opt-in privacy-preserving return measurement                                                             | S6       | new   | Week-2 return trend is observable without violating S3                                            |
 
 ## Later: breadth and expansion (only after retention + Phase 2 signals)
 
-- fr-FR C1–C2 (#111, #112), with priority held behind #21 unless retention and demand justify advanced-level spend.
-- Italian expansion under #39 (decision/source verification + 5-node skeleton, then gated A1–C2).
-- False-friend/cognate notes (#147, L14) and calibration split for image vs non-image cards (#146, L5 extension), gated by S6.
+- Italian C1–C2 under #39 (A1–B1 shipped; A2 is 20/30 nodes), with advanced levels gated by #21.
+- False-friend/cognate notes (#147, L14) and calibration split for image vs non-image cards (#146, L5 extension), gated by S6. Both were claimed closed by empty merges (#170, #167) and are still unimplemented.
+- es-ES shared-concept realignment above A2 with per-item PCIC review (#185).
 - Residual image sourcing work (#75) and contributor workflow scaling (#22).
 
 ## Rules for this plan

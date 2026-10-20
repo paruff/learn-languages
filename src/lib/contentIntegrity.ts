@@ -187,3 +187,19 @@ export function checkPairAlignment(refs: ConceptRef[]): string[] {
   return errors;
 }
 import { GLOSS_LANG } from './pairing.ts';
+
+/**
+ * Every image referenced from content must have a row in
+ * `public/vocab-images/CREDITS.md`: the site is published under CC-BY-4.0, so
+ * an uncredited image is a licensing liability, not just a missing reference.
+ */
+export function checkImageCredits(
+  referenced: Iterable<string>,
+  credited: Iterable<string>
+): string[] {
+  const creditedSet = new Set(credited);
+  return [...new Set(referenced)]
+    .filter((file) => !creditedSet.has(file))
+    .sort()
+    .map((file) => `missing credit row: ${file}`);
+}

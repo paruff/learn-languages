@@ -4,6 +4,7 @@ import {
   checkVocabularyParity,
   checkConcepts,
   checkPairAlignment,
+  checkImageCredits,
   glossOf,
   normaliseGloss,
 } from './contentIntegrity';
@@ -228,5 +229,21 @@ describe('concept integrity checks', () => {
   it('glossOf uses term for en-GB and translation for other languages', () => {
     expect(glossOf('en-GB', { term: 'eye', translation: 'olho' })).toBe('eye');
     expect(glossOf('pt-PT', { term: 'olho', translation: 'eye' })).toBe('eye');
+  });
+});
+
+describe('checkImageCredits', () => {
+  it('passes when every referenced image has a credit row', () => {
+    expect(checkImageCredits(['agua.webp', 'pao.webp'], ['agua.webp', 'pao.webp'])).toEqual([]);
+  });
+
+  it('flags referenced images with no credit row, once each and sorted', () => {
+    expect(checkImageCredits(['casa.webp', 'agua.webp', 'casa.webp'], ['agua.webp'])).toEqual([
+      'missing credit row: casa.webp',
+    ]);
+  });
+
+  it('ignores credit rows that are not referenced', () => {
+    expect(checkImageCredits([], ['agua.webp'])).toEqual([]);
   });
 });

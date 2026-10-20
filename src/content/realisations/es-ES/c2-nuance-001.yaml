@@ -1,60 +1,60 @@
 nodeId: C2-NUANCE-001
 lang: es-ES
 vocabulary:
-  - id: es-ES-C2-NUANCE-001-007
-    concept: subtle-nuances
-    term: matices de significado
-    translation: shades of meaning / subtle nuances
+  - id: es-ES-C2-NUANCE-001-001
+    concept: 'shades-of-meaning'
+    term: 'matices de significado'
+    translation: 'shades of meaning'
     partOfSpeech: phrase
     gender: masculine
-    example: Puedo expresar matices de significado con precisión.
-    exampleTranslation: I can express shades of meaning with precision.
-  - id: es-ES-C2-NUANCE-001-008
-    concept: enriched-lexical-repertoire
-    term: repertorio léxico amplio
-    translation: wide lexical repertoire / enriched lexical repertoire
+    example: 'Puedo expresar matices de significado con precisión.'
+    exampleTranslation: 'I can express shades of meaning with precision.'
+  - id: es-ES-C2-NUANCE-001-002
+    concept: 'wide-lexical-repertoire'
+    term: 'repertorio léxico amplio'
+    translation: 'wide lexical repertoire'
     partOfSpeech: phrase
     gender: masculine
-    example: Mi repertorio léxico amplio me permite precisión.
-    exampleTranslation: My wide lexical repertoire allows me precision.
-  - id: es-ES-C2-NUANCE-001-009
-    concept: precise-expression
-    term: expresiones
-    translation: expressions / precise expression
+    example: 'Mi repertorio léxico amplio me permite precisión.'
+    exampleTranslation: 'My wide lexical repertoire allows me precision.'
+  - id: es-ES-C2-NUANCE-001-003
+    concept: 'expressions'
+    term: 'expresiones'
+    translation: 'expressions'
     partOfSpeech: noun
     gender: feminine
-    example: Utilizo expresiones que transmitan exactamente lo que quiero decir.
-    exampleTranslation: I use expressions that convey exactly what I want to say.
-  - id: es-ES-C2-NUANCE-001-010
-    concept: diverse-subjects
-    term: dominio del vocabulario
-    translation: vocabulary mastery / diverse subjects
+    example: 'Utilizo expresiones que transmitan exactamente lo que quiero decir.'
+    exampleTranslation: 'I use expressions that convey exactly what I want to say.'
+  - id: es-ES-C2-NUANCE-001-004
+    concept: 'vocabulary-mastery'
+    term: 'dominio del vocabulario'
+    translation: 'vocabulary mastery'
     partOfSpeech: phrase
     gender: masculine
-    example: Mi dominio del vocabulario me permite ser muy preciso.
-    exampleTranslation: My vocabulary mastery allows me to be very precise.
-  - id: es-ES-C2-NUANCE-001-011
-    concept: appropriate-register
-    term: claridad expresiva
-    translation: expressive clarity / appropriate register
+    example: 'Mi dominio del vocabulario me permite ser muy preciso.'
+    exampleTranslation: 'My vocabulary mastery allows me to be very precise.'
+  - id: es-ES-C2-NUANCE-001-005
+    concept: 'expressive-clarity'
+    term: 'claridad expresiva'
+    translation: 'expressive clarity'
     partOfSpeech: phrase
     gender: feminine
-    example: La claridad expresiva es esencial en la comunicación avanzada.
-    exampleTranslation: Expressive clarity is essential in advanced communication.
-  - id: es-ES-C2-NUANCE-001-012
-    concept: total-precision
-    term: dominio sintáctico
-    translation: syntactic mastery / total precision
+    example: 'La claridad expresiva es esencial en la comunicación avanzada.'
+    exampleTranslation: 'Expressive clarity is essential in advanced communication.'
+  - id: es-ES-C2-NUANCE-001-006
+    concept: 'syntactic-mastery'
+    term: 'dominio sintáctico'
+    translation: 'syntactic mastery'
     partOfSpeech: phrase
     gender: masculine
-    example: El dominio sintáctico me permite construir oraciones complejas.
-    exampleTranslation: Syntactic mastery allows me to construct complex sentences.
+    example: 'El dominio sintáctico me permite construir oraciones complejas.'
+    exampleTranslation: 'Syntactic mastery allows me to construct complex sentences.'
 grammar:
   - id: es-ES-C2-NUANCE-001-G1
-    point: Subjunctive in conditional clauses for nuanced domain expression
+    point: 'Subjunctive in conditional clauses for nuanced domain expression'
     explanation: "Use subjunctive in conditional clauses for nuanced expression: 'Si pudiera encontrar la palabra exacta, la utilizaría' (If I could find the exact word, I would use it)."
     examples:
-      - Si encontrara la expresión perfecta, la emplearía sin dudar.
-      - Si pudiera matizar más, lo haría para mayor precisión.
-    cefrNotes: C2 learners use subjunctive in conditional clauses for nuanced domain expression
-culturalNotes: Expressing finer shades of meaning at C2 level across a wide range of subjects demonstrates the highest level of lexical and syntactic mastery, enabling precise communication in any domain.
+      - 'Si encontrara la expresión perfecta, la emplearía sin dudar.'
+      - 'Si pudiera matizar más, lo haría para mayor precisión.'
+    cefrNotes: 'C2 learners use subjunctive in conditional clauses for nuanced domain expression'
+culturalNotes: 'Expressing finer shades of meaning at C2 level across a wide range of subjects demonstrates the highest level of lexical and syntactic mastery, enabling precise communication in any domain.'

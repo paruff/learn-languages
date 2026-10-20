@@ -1,60 +1,57 @@
 nodeId: B1-SOCIAL-001
 lang: es-ES
 vocabulary:
-  - id: es-ES-B1-SOCIAL-001-007
-    concept: excuse-me-can-you-help-me
-    term: situación social
-    translation: social situation / Excuse me, can you help me?
+  - id: es-ES-B1-SOCIAL-001-001
+    concept: 'social-situation'
+    term: 'situación social'
+    translation: 'social situation'
     partOfSpeech: phrase
     gender: feminine
-    example: Me siento cómodo en situaciones sociales diversas.
-    exampleTranslation: I feel comfortable in various social situations.
-  - id: es-ES-B1-SOCIAL-001-008
-    concept: pardon-me
-    term: adaptarse
-    translation: to adapt / Pardon me
+    example: 'Me siento cómodo en situaciones sociales diversas.'
+    exampleTranslation: 'I feel comfortable in various social situations.'
+  - id: es-ES-B1-SOCIAL-001-002
+    concept: 'to-adapt'
+    term: 'adaptarse'
+    translation: 'to adapt'
     partOfSpeech: verb
-    example: Es importante adaptarse a nuevas situaciones.
-    exampleTranslation: It is important to adapt to new situations.
-    gender: n/a
-  - id: es-ES-B1-SOCIAL-001-009
-    concept: to-talk-about
-    term: contexto
-    translation: context / to talk about
+    example: 'Es importante adaptarse a nuevas situaciones.'
+    exampleTranslation: 'It is important to adapt to new situations.'
+  - id: es-ES-B1-SOCIAL-001-003
+    concept: 'context'
+    term: 'contexto'
+    translation: 'context'
     partOfSpeech: noun
     gender: masculine
-    example: En cada contexto social hay diferentes normas.
-    exampleTranslation: In each social context there are different norms.
-  - id: es-ES-B1-SOCIAL-001-010
-    concept: the-conversation-was-interesting
-    term: gestionar
-    translation: to manage / the conversation was interesting
+    example: 'En cada contexto social hay diferentes normas.'
+    exampleTranslation: 'In each social context there are different norms.'
+  - id: es-ES-B1-SOCIAL-001-004
+    concept: 'to-manage'
+    term: 'gestionar'
+    translation: 'to manage'
     partOfSpeech: verb
-    example: Soy capaz de gestionar conversaciones en español.
-    exampleTranslation: I am able to manage conversations in Spanish.
-    gender: n/a
-  - id: es-ES-B1-SOCIAL-001-011
-    concept: in-my-experience
-    term: imprevisto
-    translation: unforeseen event / in my experience
+    example: 'Soy capaz de gestionar conversaciones en español.'
+    exampleTranslation: 'I am able to manage conversations in Spanish.'
+  - id: es-ES-B1-SOCIAL-001-005
+    concept: 'unforeseen-event'
+    term: 'imprevisto'
+    translation: 'unforeseen event'
     partOfSpeech: noun
     gender: masculine
-    example: Si hay un imprevisto, lo resuelvo sin problemas.
-    exampleTranslation: If there is an unforeseen event, I handle it without problems.
-  - id: es-ES-B1-SOCIAL-001-012
-    concept: it-depends-on-the-circumstances
-    term: de forma natural
-    translation: naturally / it depends on the circumstances
+    example: 'Si hay un imprevisto, lo resuelvo sin problemas.'
+    exampleTranslation: 'If there is an unforeseen event, I handle it without problems.'
+  - id: es-ES-B1-SOCIAL-001-006
+    concept: 'naturally'
+    term: 'de forma natural'
+    translation: 'naturally'
     partOfSpeech: phrase
-    example: Respondo de forma natural en la mayoría de situaciones.
-    exampleTranslation: I respond naturally in most situations.
-    gender: n/a
+    example: 'Respondo de forma natural en la mayoría de situaciones.'
+    exampleTranslation: 'I respond naturally in most situations.'
 grammar:
   - id: es-ES-B1-SOCIAL-001-G1
-    point: Conditional tense for polite social situations
-    explanation: Use the conditional tense ('quisiera', 'podría') to make polite requests and suggestions in social contexts.
+    point: 'Conditional tense for polite social situations'
+    explanation: "Use the conditional tense ('quisiera', 'podría') to make polite requests and suggestions in social contexts."
     examples:
-      - ¿Podrías pasarme la sal?
-      - Me gustaría conocer más gente.
-    cefrNotes: B1 learners use the conditional for politeness and hedging in social interaction
-culturalNotes: Spanish social interaction values warmth and personal connection. Even in formal contexts, a brief personal exchange before business is expected and appreciated.
+      - '¿Podrías pasarme la sal?'
+      - 'Me gustaría conocer más gente.'
+    cefrNotes: 'B1 learners use the conditional for politeness and hedging in social interaction'
+culturalNotes: 'Spanish social interaction values warmth and personal connection. Even in formal contexts, a brief personal exchange before business is expected and appreciated.'

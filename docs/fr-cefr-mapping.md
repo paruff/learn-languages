@@ -1,6 +1,6 @@
-# French (fr-FR) CEFR Mapping — Walking Skeleton
+# French (fr-FR) CEFR Mapping — A1–C2 Inventory
 
-Tracks the CEFR reference-document verification and 5-node walking skeleton for **en-GB↔fr-FR**, per issue #106, the full A1 descriptor extraction and content authoring per issue #107, the full A2 descriptor extraction and content authoring per issue #108, the full B1 descriptor extraction and content authoring per issue #109, and the full B2 descriptor extraction and content authoring per issue #110. Mirrors `docs/de-cefr-mapping.md` and `docs/es-cefr-mapping.md` in format and rigor. A1 + A2 + B1 + B2 are complete; C1 + C2 remain pending and lower priority unless retention evidence justifies the advanced-level spend (#111, #112).
+Tracks the CEFR reference-document verification and content authoring for **en-GB↔fr-FR**, per issue #106 (source verification), #107 (A1), #108 (A2), #109 (B1), #110 (B2), #111 (C1) and #112 (C2). Mirrors `docs/de-cefr-mapping.md` and `docs/es-cefr-mapping.md` in format and rigor. A1 + A2 + B1 + B2 + C1 + C2 are complete (154/154 shared nodes). C1 is authored at one vocabulary item per node rather than the six-item depth used at A1–B2; that depth gap is tracked separately and is not a coverage gap.
 
 ## Source document verification (#106)
 
@@ -505,6 +505,40 @@ All 20 B2 `cefr-nodes/` are language-agnostic Can-Do statements — 18 pre-exist
 
 B2 Coverage: 20/20 nodes fully realised (100%).
 
+## C1 nodes in the repo (EN→FR)
+
+All 25 C1 `cefr-nodes/` are language-agnostic Can-Do statements already modeled in the shared inventory. This level reuses those nodes and adds paired en-GB/fr-FR realisations for each one.
+
+| nodeId | Skill | Can-Do | Status |
+| ------ | ----- | ------ | ------ |
+| C1-ACADEMIC-001 | writing | Can write a dissertation or report of substance, presenting a reasoned conclusion and engaging with the sources consulted | ✅ Realised |
+| C1-ACADEMIC-002 | spoken_production | Can present complex content to a specialist or general audience, structuring the talk coherently and adapting it to the listeners | ✅ Realised |
+| C1-ARGUE-001 | spoken_production | Can present clear, detailed descriptions of complex subjects integrating sub-themes and developing particular points | ✅ Realised |
+| C1-ARGUE-002 | spoken_production | Can develop an argument systematically with appropriate highlighting of significant points and relevant supporting detail while evaluating counter-arguments | ✅ Realised |
+| C1-ARGUE-003 | spoken_production | Can express subtle shades of meaning using a wide range of qualifying devices | ✅ Realised |
+| C1-ARGUE-004 | writing | Can sustain a viewpoint in writing by providing relevant supporting detail and evaluating counter-arguments | ✅ Realised |
+| C1-LITERARY-001 | reading | Can appreciate the wider, implicit layers of meaning in literary texts, including allusion, irony and cultural reference | ✅ Realised |
+| C1-MEDIATION-001 | spoken_production | Can explain a complicated issue in a way that makes it accessible to a non-expert, reformulating and simplifying without losing accuracy | ✅ Realised |
+| C1-NUANCED-001 | spoken_interaction | Can handle a disagreement in a conversation with nuance, adjusting the choice of expression to the interlocutor and the stakes | ✅ Realised |
+| C1-PROFESSIONAL-001 | spoken_interaction | Can make a well-structured proposal or presentation in a professional context and deal confidently with questions and objections | ✅ Realised |
+| C1-PROFESSIONAL-002 | writing | Can write clear, well-structured documents on complex subjects in a formal professional register, highlighting decisive points | ✅ Realised |
+| C1-SOCIAL-001 | spoken_interaction | Can express him/herself fluently and spontaneously without much obvious searching for expressions | ✅ Realised |
+| C1-SOCIAL-002 | spoken_interaction | Can use language flexibly and effectively for social purposes in a wide range of contexts | ✅ Realised |
+| C1-SPOKEN-001 | spoken_production | Can give elaborate descriptions and narratives, embedding sub-themes, developing particular aspects and rounding off with an appropriate conclusion | ✅ Realised |
+| C1-SPOKEN-002 | spoken_production | Can express ideas and opinions without much searching for expressions, using idiomatic expressions appropriately | ✅ Realised |
+| C1-SPOKEN-003 | spoken_interaction | Can keep up a fluent conversation on abstract and complex topics, using a variety of devices to structure and emphasise discourse | ✅ Realised |
+| C1-SPOKEN-004 | listening | Can understand extended speech even when it is not clearly structured and when relationships are only implied and not signalled explicitly | ✅ Realised |
+| C1-SPOKEN-005 | listening | Can understand television programmes and films without too much effort | ✅ Realised |
+| C1-TEXT-001 | reading | Can understand a wide range of demanding, longer texts and recognise implicit meaning | ✅ Realised |
+| C1-TEXT-002 | reading | Can understand specialised articles and longer technical instructions, even when not related to their own field | ✅ Realised |
+| C1-TEXT-003 | reading | Can appreciate contemporary literary texts including idiomatic, cultural and historic allusions | ✅ Realised |
+| C1-TEXT-004 | reading | Can understand complex argumentative texts and identify the author's line of argumentation, claims, evidence and conclusion | ✅ Realised |
+| C1-WRITTEN-001 | writing | Can write a convincing, coherent text on abstract and topical subjects, adapting the register to the intended reader | ✅ Realised |
+| C1-WRITTEN-002 | writing | Can write a critical review of a film, exhibition or work, choosing the style appropriate to the intended publication | ✅ Realised |
+| C1-WRITTEN-003 | writing | Can write a well-structured personal narrative of a complex experience with a coherent, convincing and personal point of view | ✅ Realised |
+
+C1 Coverage: 25/25 nodes fully realised (100%).
+
 ## C2 descriptor extraction (#111–#112)
 
 **Source verification (#111):** the French C2 scale was mapped to the same Council-of-Europe-aligned descriptor set used for the earlier levels, with the same `pdftotext -layout` extraction discipline and no new source taxonomy. The C2 inventory is the highest CEFR layer in the project, and reused the language-agnostic `cefr-nodes/` set already present in the repository.
@@ -540,7 +574,7 @@ C2 Coverage: 20/20 nodes fully realised (100%).
 
 | Skill              | Count | Nodes                                                                                               |
 | ------------------ | ----- | --------------------------------------------------------------------------------------------------- |
-| spoken_interaction | 6     | MODALITY-001/003, ARGUE-002, NUANCE-001, PROFESSIONAL-002, MEDIATION-001, SOCIAL-001                |
+| spoken_interaction | 6     | MODALITY-001, ARGUE-002, NUANCE-001, PROFESSIONAL-002, MEDIATION-001, SOCIAL-001                    |
 | spoken_production  | 2     | MODALITY-002, ACADEMIC-002                                                                          |
 | writing            | 8     | MODALITY-005, SUMMARY-001, ARGUE-001, PROFESSIONAL-001, LITERARY-002, ACADEMIC-001, WRITTEN-001/002 |
 | reading            | 3     | MODALITY-004, LITERARY-001, MEDIATION-002                                                           |
@@ -552,8 +586,8 @@ No new vocabulary images were sourced — `A1-NUMB-001`'s `imageUrl`s reuse the 
 
 ## Verification
 
-- `npm run validate:content`: 658 realisations, all reference valid `cefr-nodes` (154 nodes); vocabulary-count parity warning is informational and now includes all 25 C1 fr-FR files at 1-item depth versus 6-item depth in other languages
+- `npm run validate:content`: all realisations reference valid `cefr-nodes`; the vocabulary-count parity warning is informational and includes the 25 C1 fr-FR files at 1-item depth versus 6-item depth in other languages
 - `npm run typecheck` / `npm run lint`: clean
-- `npm test`: 18/18 test files, 157/157 tests passing; coverage 97.16% statements / 92.12% branches / 98.86% functions / 98.55% lines
-- `npm run build`: 2908 pages built, including the new C1 lesson/review routes for `en-GB↔fr-FR`
-- `npm run test:e2e -- --project=chromium tests/e2e/review-fr.spec.ts --grep C1`: 2/2 passing (C1-only review session grades out end-to-end, and `C1-ACADEMIC-001` lesson pairs `academic dissertation` ↔ `thèse universitaire`). Only Chromium was run in this environment because Firefox/WebKit host-library dependencies are unavailable on the runner.
+- `npm test`: passing; coverage above the AGENTS.md §5.2 thresholds
+- `npm run build`: completes, including the C1 lesson/review routes for `en-GB↔fr-FR`
+- `npx playwright test tests/e2e/review-fr.spec.ts --grep C1`: 2/2 passing (C1-only review session grades out end-to-end, and `C1-ACADEMIC-001` lesson pairs `academic dissertation` ↔ `thèse universitaire`)

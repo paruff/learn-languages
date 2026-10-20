@@ -35,11 +35,11 @@ vocabulary:
     exampleTranslation: 'The adapted style responds to the recipient and the context.'
   - id: 'fr-FR-C2-WRITTEN-002-005'
     concept: 'cultured-expression'
-    term: 'expression soignée'
+    term: 'expression cultivée'
     translation: 'cultured expression'
     partOfSpeech: phrase
     gender: feminine
-    example: 'L’expression soignée donne du relief au texte.'
+    example: 'L’expression cultivée donne du relief au texte.'
     exampleTranslation: 'Cultured expression gives the text depth.'
   - id: 'fr-FR-C2-WRITTEN-002-006'
     concept: 'elegant-writing'
