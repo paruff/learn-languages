@@ -1,0 +1,11 @@
+nodeId: C1-SPOKEN-004
+lang: it-IT
+vocabulary:
+  - id: it-IT-C1-SPOKEN-004-001
+    concept: to-read-between-the-lines
+    term: leggere tra le righe
+    translation: to read between the lines
+    partOfSpeech: phrase
+    gender: n/a
+    example: Per capire la vera richiesta bisogna leggere tra le righe.
+    exampleTranslation: To understand the real request, one has to read between the lines.

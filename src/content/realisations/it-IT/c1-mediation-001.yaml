@@ -1,0 +1,12 @@
+nodeId: C1-MEDIATION-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-C1-MEDIATION-001-001
+    concept: to-translate-for-laymen
+    term: tradurre per i non addetti ai lavori
+    translation: to translate for laymen
+    partOfSpeech: phrase
+    gender: n/a
+    example: Tradurre per i non addetti ai lavori significa semplificare senza
+      tradire il senso.
+    exampleTranslation: Translating for laypeople means simplifying without betraying the meaning.

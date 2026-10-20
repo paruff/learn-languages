@@ -1,0 +1,11 @@
+nodeId: C1-ACADEMIC-002
+lang: it-IT
+vocabulary:
+  - id: it-IT-C1-ACADEMIC-002-001
+    concept: conference-paper
+    term: relazione congressuale
+    translation: conference paper
+    partOfSpeech: noun
+    gender: feminine
+    example: La relazione congressuale è pensata per un pubblico specialistico.
+    exampleTranslation: The conference paper is designed for a specialist audience.

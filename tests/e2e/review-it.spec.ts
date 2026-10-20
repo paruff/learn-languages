@@ -8,7 +8,7 @@ const GREET_LESSON_URL = '/learn-languages/en-GB/it-IT/lessons/A1-GREET-001/';
 const IT_DIR = 'src/content/realisations/it-IT';
 const EN_DIR = 'src/content/realisations/en-GB';
 
-type ItalianoLevel = 'a1-' | 'a2-' | 'b1-';
+type ItalianoLevel = 'a1-' | 'a2-' | 'b1-' | 'c1-';
 
 function itVocabIds(levelPrefix: ItalianoLevel): string[] {
   const levelToken = levelPrefix.toUpperCase().replace(/-$/, '');
@@ -22,7 +22,7 @@ function itVocabIds(levelPrefix: ItalianoLevel): string[] {
     });
 }
 
-function enTerms(levelPrefix: 'a2-' | 'b1-'): Set<string> {
+function enTerms(levelPrefix: 'a2-' | 'b1-' | 'c1-'): Set<string> {
   const terms = new Set<string>();
   for (const file of readdirSync(EN_DIR)) {
     if (!file.startsWith(levelPrefix) || !file.endsWith('.yaml')) continue;
@@ -166,5 +166,59 @@ test.describe('it-IT B1 review session', () => {
 
     await expect(summary).toBeVisible();
     await expect(summary).toContainText(`${totalCount}/${totalCount} correct first try`);
+  });
+});
+
+test.describe('it-IT C1 review session', () => {
+  test.beforeEach(async ({ page }) => {
+    await page.goto(REVIEW_URL);
+    const lowerIds = [...itVocabIds('a1-'), ...itVocabIds('a2-'), ...itVocabIds('b1-')];
+    expect(lowerIds.length).toBeGreaterThan(0);
+    await page.evaluate((ids) => {
+      window.localStorage.clear();
+      const dueNextYear = new Date(Date.now() + 365 * 24 * 60 * 60 * 1000).toISOString();
+      for (const id of ids) {
+        window.localStorage.setItem(
+          `srs:en-GB:it-IT:forward:${id}`,
+          JSON.stringify({ interval: 30, easeFactor: 2.5, repetitions: 3, dueDate: dueNextYear })
+        );
+      }
+    }, lowerIds);
+    await page.reload();
+  });
+
+  test('a full C1 session grades out and every card is C1', async ({ page }) => {
+    const progress = page.locator('#review-progress');
+    const front = page.locator('#review-front');
+    const reveal = page.locator('#review-reveal');
+    const grades = page.locator('#review-grades');
+    const summary = page.locator('#review-summary');
+    const easy = grades.locator('button[data-quality="4"]');
+
+    const progressText = await progress.textContent();
+    const totalCount = Number(progressText?.match(/of (\d+)$/)?.[1]);
+    expect(totalCount).toBe(SESSION_SIZE);
+
+    const c1Terms = enTerms('c1-');
+    const fronts: string[] = [];
+    for (let i = 0; i < totalCount; i++) {
+      fronts.push((await front.textContent()) ?? '');
+      await reveal.click();
+      await easy.click();
+    }
+
+    for (const text of fronts) {
+      expect([...c1Terms].some((term) => text.includes(term))).toBe(true);
+    }
+
+    await expect(summary).toBeVisible();
+    await expect(summary).toContainText(`${totalCount}/${totalCount} correct first try`);
+  });
+
+  test('C1 spoken lesson pairs English prompts with aligned Italian answers', async ({ page }) => {
+    await page.goto('/learn-languages/en-GB/it-IT/lessons/C1-SPOKEN-002/');
+    const terms = page.locator('.vocab-item__term');
+    await expect(terms.first()).toContainText('to get down to business');
+    await expect(terms.first()).toContainText('andare al sodo');
   });
 });

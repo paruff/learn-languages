@@ -1,0 +1,11 @@
+nodeId: C1-TEXT-003
+lang: it-IT
+vocabulary:
+  - id: it-IT-C1-TEXT-003-001
+    concept: to-grasp-the-beauty-of-the-text
+    term: cogliere la bellezza del testo
+    translation: to grasp the beauty of the text
+    partOfSpeech: phrase
+    gender: n/a
+    example: Cogliere la bellezza del testo richiede tempo e riletture.
+    exampleTranslation: Grasping the beauty of the text takes time and re-readings.

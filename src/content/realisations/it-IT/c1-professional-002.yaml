@@ -1,0 +1,11 @@
+nodeId: C1-PROFESSIONAL-002
+lang: it-IT
+vocabulary:
+  - id: it-IT-C1-PROFESSIONAL-002-001
+    concept: detailed-report
+    term: rapporto dettagliato
+    translation: detailed report
+    partOfSpeech: noun
+    gender: masculine
+    example: Il rapporto dettagliato mette in evidenza i passaggi decisivi.
+    exampleTranslation: The detailed report highlights the decisive passages.

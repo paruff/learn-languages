@@ -1,0 +1,11 @@
+nodeId: C1-SPOKEN-005
+lang: it-IT
+vocabulary:
+  - id: it-IT-C1-SPOKEN-005-001
+    concept: to-follow-a-film-without-subtitles
+    term: seguire un film senza sottotitoli
+    translation: to follow a film without subtitles
+    partOfSpeech: phrase
+    gender: n/a
+    example: Riesce a seguire un film senza sottotitoli senza sforzo.
+    exampleTranslation: She can follow a film without subtitles effortlessly.

@@ -1,0 +1,12 @@
+nodeId: C1-WRITTEN-003
+lang: it-IT
+vocabulary:
+  - id: it-IT-C1-WRITTEN-003-001
+    concept: personal-narrative
+    term: racconto personale
+    translation: personal narrative
+    partOfSpeech: noun
+    gender: masculine
+    example: Il racconto personale sostiene il proprio punto di vista con esempi
+      concreti.
+    exampleTranslation: The personal narrative supports its point of view with concrete examples.

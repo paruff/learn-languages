@@ -1,0 +1,11 @@
+nodeId: C1-LITERARY-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-C1-LITERARY-001-001
+    concept: layers-of-meaning
+    term: livelli di significato
+    translation: layers of meaning
+    partOfSpeech: noun
+    gender: masculine
+    example: Il racconto rivela livelli di significato che sfuggono a una prima lettura.
+    exampleTranslation: The story reveals layers of meaning that escape a first reading.
