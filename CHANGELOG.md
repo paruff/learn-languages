@@ -5,6 +5,21 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · Versioning: 
 
 ## [Unreleased]
 
+### Fixed
+
+- es-ES B1–C2 content reverted to the last PCIC-reviewed state. The #155 positional concept re-key had paired concepts with unrelated terms (e.g. `to-justify-the-position` with `cuestión de actualidad`) while dual `old / new` glosses passed the pairing gate; re-alignment now requires per-item human review (#185).
+- fr-FR C1: 23 `exampleTranslation` values replaced so lesson pages show a translation of the actual French example instead of an unrelated en-GB sentence.
+- CI: removed the unused import that kept `main` red since #179, and formatted the it-IT A2 YAML that Prettier had never checked.
+
+### Added
+
+- Empty Diff Guard and Coverage Gate CI jobs, plus `npm run check:coverage` with a committed baseline.
+- fr-FR C1 review-session and lesson e2e coverage restored; it-IT A1-A2 coverage documented honestly (A1 24/24, A2 20/30).
+
+### Changed
+
+- Supported-language docs now list it-IT and fr-FR A1–C2; `spec.md` C7 points at the real `concept-images/index.yaml` path.
+
 ## [0.1.0] - 2026-10-04
 
 First tagged release. Captures everything shipped since the repository was created on 2026-09-19 (see `git log` and the closed issues for the per-change detail).
