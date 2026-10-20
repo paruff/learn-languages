@@ -6,11 +6,12 @@ Tracks the CEFR A1–C1 Can-Do statement inventory for **en-GB↔es-ES** against
 
 ## Phase D concept realignment log (#142)
 
-- **Date:** 2026-10-19
+- **Date:** 2026-10-19, reverted 2026-10-20.
 - **Scope:** `src/content/realisations/es-ES/{b1,b2,c1,c2}-*.yaml`
 - **Method:** realigned each node's `concept` set to the shared per-node union of en-GB + pt-PT concepts (the pairing set consumed by `report:coverage`).
+- **Why the realignment was reverted:** the re-key was positional. Concepts moved in sequence while `term`, `example` and `exampleTranslation` kept their old senses, so cards such as concept `to-justify-the-position` / term `cuestión de actualidad` ("current issue") taught the wrong translation. The dual `old / new` glosses satisfied `checkPairAlignment` because `normaliseGloss` splits on `/`, so the gate could not see the drift. The content is restored to the last PCIC-reviewed state; the re-alignment must be done per item with human PCIC review, tracked in #185.
 - **Verification source:** PCIC (Instituto Cervantes), including the B1/B2/C1/C2 "Niveles de referencia para el español" inventories under the same CVC corpus above.
-- **Review note:** this commit records the alignment pass; final lexical/usage verification against PCIC remains a required human review step before merge (per intent P6 / spec C6).
+- **Review note:** final lexical/usage verification against PCIC remains a required human review step before merge (per intent P6 / spec C6).
 
 **Important — this document does not assume PCIC mirrors Referencial Camões's structure**, per the explicit warning in issue #56. It doesn't: PCIC's Funciones inventory has **6** top-level categories at A1-A2 (vs. Camões's 7), with far more granular numbered subcategories (see below) — confirming the two source documents have genuinely different shapes, and this mapping reflects PCIC's real structure rather than an inherited assumption.
 

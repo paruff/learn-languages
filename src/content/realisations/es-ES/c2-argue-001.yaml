@@ -1,60 +1,60 @@
 nodeId: C2-ARGUE-001
 lang: es-ES
 vocabulary:
-  - id: es-ES-C2-ARGUE-001-007
-    concept: precise-formulation
-    term: repertorio léxico
-    translation: lexical repertoire / precise formulation
+  - id: es-ES-C2-ARGUE-001-001
+    concept: 'lexical-repertoire'
+    term: 'repertorio léxico'
+    translation: 'lexical repertoire'
     partOfSpeech: phrase
     gender: masculine
-    example: Mi repertorio léxico abarca un amplio rango de expresiones.
-    exampleTranslation: My lexical repertoire covers a wide range of expressions.
-  - id: es-ES-C2-ARGUE-001-008
-    concept: range-of-linguistic-means
-    term: formulación apropiada
-    translation: appropriate formulation / range of linguistic means
+    example: 'Mi repertorio léxico abarca un amplio rango de expresiones.'
+    exampleTranslation: 'My lexical repertoire covers a wide range of expressions.'
+  - id: es-ES-C2-ARGUE-001-002
+    concept: 'appropriate-formulation'
+    term: 'formulación apropiada'
+    translation: 'appropriate formulation'
     partOfSpeech: phrase
     gender: feminine
-    example: Selecciono la formulación apropiada para cada contexto.
-    exampleTranslation: I select the appropriate formulation for each context.
-  - id: es-ES-C2-ARGUE-001-009
-    concept: clear-expression
-    term: matices semánticos
-    translation: semantic nuances / clear expression
+    example: 'Selecciono la formulación apropiada para cada contexto.'
+    exampleTranslation: 'I select the appropriate formulation for each context.'
+  - id: es-ES-C2-ARGUE-001-003
+    concept: 'semantic-nuances'
+    term: 'matices semánticos'
+    translation: 'semantic nuances'
     partOfSpeech: phrase
     gender: masculine
-    example: Distingo matices semánticos que enriquecen la expresión.
-    exampleTranslation: I distinguish semantic nuances that enrich expression.
-  - id: es-ES-C2-ARGUE-001-010
-    concept: lexical-precision
-    term: expresión escrita
-    translation: written expression / lexical precision
+    example: 'Distingo matices semánticos que enriquecen la expresión.'
+    exampleTranslation: 'I distinguish semantic nuances that enrich expression.'
+  - id: es-ES-C2-ARGUE-001-004
+    concept: 'written-expression'
+    term: 'expresión escrita'
+    translation: 'written expression'
     partOfSpeech: phrase
     gender: feminine
-    example: Mi expresión escrita refleja un alto nivel de precisión.
-    exampleTranslation: My written expression reflects a high level of precision.
-  - id: es-ES-C2-ARGUE-001-011
-    concept: nuances-of-meaning
-    term: repertorio amplio
-    translation: wide repertoire / nuances of meaning
+    example: 'Mi expresión escrita refleja un alto nivel de precisión.'
+    exampleTranslation: 'My written expression reflects a high level of precision.'
+  - id: es-ES-C2-ARGUE-001-005
+    concept: 'wide-repertoire'
+    term: 'repertorio amplio'
+    translation: 'wide repertoire'
     partOfSpeech: phrase
     gender: masculine
-    example: Utilizo un repertorio amplio de expresiones.
-    exampleTranslation: I use a wide repertoire of expressions.
-  - id: es-ES-C2-ARGUE-001-012
-    concept: unequivocal-expression
-    term: selectividad
-    translation: selectivity / unequivocal expression
+    example: 'Utilizo un repertorio amplio de expresiones.'
+    exampleTranslation: 'I use a wide repertoire of expressions.'
+  - id: es-ES-C2-ARGUE-001-006
+    concept: 'selectivity'
+    term: 'selectividad'
+    translation: 'selectivity'
     partOfSpeech: noun
     gender: feminine
-    example: La selectividad léxica es clave para la precisión.
-    exampleTranslation: Lexical selectivity is key for precision.
+    example: 'La selectividad léxica es clave para la precisión.'
+    exampleTranslation: 'Lexical selectivity is key for precision.'
 grammar:
   - id: es-ES-C2-ARGUE-001-G1
-    point: Subjunctive in evaluative clauses for precise expression
+    point: 'Subjunctive in evaluative clauses for precise expression'
     explanation: "Use subjunctive in evaluative clauses: 'Busco la formulación que recoja con precisión la idea' (I seek the formulation that captures the idea precisely)."
     examples:
-      - Selecciono la expresión que transmita exactamente lo que quiero decir.
-      - Elijo el vocablo que refleje el matiz preciso de mi pensamiento.
-    cefrNotes: C2 learners use subjunctive in evaluative clauses for highly precise written expression
-culturalNotes: Selecting appropriate formulations from a broad language repertoire at C2 level demonstrates mastery of lexical precision and the ability to differentiate finer shades of meaning in writing.
+      - 'Selecciono la expresión que transmita exactamente lo que quiero decir.'
+      - 'Elijo el vocablo que refleje el matiz preciso de mi pensamiento.'
+    cefrNotes: 'C2 learners use subjunctive in evaluative clauses for highly precise written expression'
+culturalNotes: 'Selecting appropriate formulations from a broad language repertoire at C2 level demonstrates mastery of lexical precision and the ability to differentiate finer shades of meaning in writing.'

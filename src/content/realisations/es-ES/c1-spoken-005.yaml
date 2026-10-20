@@ -1,60 +1,59 @@
 nodeId: C1-SPOKEN-005
 lang: es-ES
 vocabulary:
-  - id: es-ES-C1-SPOKEN-005-007
-    concept: to-follow-a-film-without-subtitles
-    term: programa de televisión
-    translation: television programme / to follow a film without subtitles
+  - id: es-ES-C1-SPOKEN-005-001
+    concept: 'television-programme'
+    term: 'programa de televisión'
+    translation: 'television programme'
     partOfSpeech: phrase
     gender: masculine
-    example: Puedo seguir programas de televisión sin esfuerzo.
-    exampleTranslation: I can follow television programmes without effort.
-  - id: es-ES-C1-SPOKEN-005-008
-    concept: fast-paced-dialogue
-    term: película
-    translation: film / fast-paced dialogue
+    example: 'Puedo seguir programas de televisión sin esfuerzo.'
+    exampleTranslation: 'I can follow television programmes without effort.'
+  - id: es-ES-C1-SPOKEN-005-002
+    concept: 'film'
+    term: 'película'
+    translation: 'film'
     partOfSpeech: noun
     gender: feminine
-    example: Entiendo películas españolas sin subtítulos.
-    exampleTranslation: I understand Spanish films without subtitles.
-  - id: es-ES-C1-SPOKEN-005-009
-    concept: register-shifts
-    term: sin mucho esfuerzo
-    translation: without too much effort / register shifts
+    example: 'Entiendo películas españolas sin subtítulos.'
+    exampleTranslation: 'I understand Spanish films without subtitles.'
+  - id: es-ES-C1-SPOKEN-005-003
+    concept: 'without-too-much-effort'
+    term: 'sin mucho esfuerzo'
+    translation: 'without too much effort'
     partOfSpeech: phrase
-    example: Sigo la tele sin mucho esfuerzo.
-    exampleTranslation: I follow TV without too much effort.
-    gender: n/a
-  - id: es-ES-C1-SPOKEN-005-010
-    concept: coherence-of-the-plot
-    term: comprensión auditiva
-    translation: listening comprehension / coherence of the plot
-    partOfSpeech: phrase
-    gender: feminine
-    example: Mi comprensión auditiva ha alcanzado un nivel alto.
-    exampleTranslation: My listening comprehension has reached a high level.
-  - id: es-ES-C1-SPOKEN-005-011
-    concept: slang-and-everyday-expressions
-    term: series de televisión
-    translation: television series / slang and everyday expressions
+    example: 'Sigo la tele sin mucho esfuerzo.'
+    exampleTranslation: 'I follow TV without too much effort.'
+  - id: es-ES-C1-SPOKEN-005-004
+    concept: 'listening-comprehension'
+    term: 'comprensión auditiva'
+    translation: 'listening comprehension'
     partOfSpeech: phrase
     gender: feminine
-    example: Veo series de televisión en español para practicar.
-    exampleTranslation: I watch Spanish television series to practise.
-  - id: es-ES-C1-SPOKEN-005-012
-    concept: to-interpret-the-tone
-    term: acento variado
-    translation: varied accent / to interpret the tone
+    example: 'Mi comprensión auditiva ha alcanzado un nivel alto.'
+    exampleTranslation: 'My listening comprehension has reached a high level.'
+  - id: es-ES-C1-SPOKEN-005-005
+    concept: 'television-series'
+    term: 'series de televisión'
+    translation: 'television series'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Veo series de televisión en español para practicar.'
+    exampleTranslation: 'I watch Spanish television series to practise.'
+  - id: es-ES-C1-SPOKEN-005-006
+    concept: 'varied-accent'
+    term: 'acento variado'
+    translation: 'varied accent'
     partOfSpeech: phrase
     gender: masculine
-    example: Puedo entender diferentes acentos en los medios.
-    exampleTranslation: I can understand different accents in the media.
+    example: 'Puedo entender diferentes acentos en los medios.'
+    exampleTranslation: 'I can understand different accents in the media.'
 grammar:
   - id: es-ES-C1-SPOKEN-005-G1
-    point: Periphrastic future in media comprehension
+    point: 'Periphrastic future in media comprehension'
     explanation: "Use periphrastic future for media comprehension: 'Va a salir un nuevo documental' (A new documentary is going to air), 'Van a transmitir el partido' (They are going to broadcast the match)."
     examples:
-      - Van a estrenar una nueva serie en la tele.
-      - Mañana va a haber un documental interesante.
-    cefrNotes: C1 learners use periphrastic future for media-related comprehension
-culturalNotes: Understanding television and films at C1 level without too much effort demonstrates advanced listening comprehension, including the ability to follow different registers, accents, and cultural references in media content.
+      - 'Van a estrenar una nueva serie en la tele.'
+      - 'Mañana va a haber un documental interesante.'
+    cefrNotes: 'C1 learners use periphrastic future for media-related comprehension'
+culturalNotes: 'Understanding television and films at C1 level without too much effort demonstrates advanced listening comprehension, including the ability to follow different registers, accents, and cultural references in media content.'
