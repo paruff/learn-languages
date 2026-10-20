@@ -1,61 +1,61 @@
 nodeId: A2-HEALTH-001
 lang: it-IT
 vocabulary:
-- id: it-IT-A2-HEALTH-001-001
-  concept: doctor
-  term: medico
-  translation: doctor
-  partOfSpeech: noun
-  gender: masculine
-  example: Il medico mi ha dato un consiglio.
-  exampleTranslation: The doctor gave me advice.
-- id: it-IT-A2-HEALTH-001-002
-  concept: illness
-  term: malattia
-  translation: illness
-  partOfSpeech: noun
-  gender: feminine
-  example: La malattia è peggiorata la scorsa settimana.
-  exampleTranslation: The illness got worse last week.
-- id: it-IT-A2-HEALTH-001-003
-  concept: pain
-  term: dolore
-  translation: pain
-  partOfSpeech: noun
-  gender: masculine
-  example: Ho un forte dolore alla schiena.
-  exampleTranslation: I have severe back pain.
-- id: it-IT-A2-HEALTH-001-004
-  concept: prescription
-  term: ricetta
-  translation: prescription
-  partOfSpeech: noun
-  gender: feminine
-  example: Il medico mi ha scritto una ricetta.
-  exampleTranslation: The doctor wrote me a prescription.
-- id: it-IT-A2-HEALTH-001-005
-  concept: pharmacy
-  term: farmacia
-  translation: pharmacy
-  partOfSpeech: noun
-  gender: feminine
-  example: Vado in farmacia dopo il lavoro.
-  exampleTranslation: I go to the pharmacy after work.
-- id: it-IT-A2-HEALTH-001-006
-  concept: appointment
-  term: appuntamento
-  translation: appointment
-  partOfSpeech: noun
-  gender: masculine
-  example: Ho un appuntamento dal medico domani.
-  exampleTranslation: I have a doctor’s appointment tomorrow.
+  - id: it-IT-A2-HEALTH-001-001
+    concept: doctor
+    term: medico
+    translation: doctor
+    partOfSpeech: noun
+    gender: masculine
+    example: Il medico mi ha dato un consiglio.
+    exampleTranslation: The doctor gave me advice.
+  - id: it-IT-A2-HEALTH-001-002
+    concept: illness
+    term: malattia
+    translation: illness
+    partOfSpeech: noun
+    gender: feminine
+    example: La malattia è peggiorata la scorsa settimana.
+    exampleTranslation: The illness got worse last week.
+  - id: it-IT-A2-HEALTH-001-003
+    concept: pain
+    term: dolore
+    translation: pain
+    partOfSpeech: noun
+    gender: masculine
+    example: Ho un forte dolore alla schiena.
+    exampleTranslation: I have severe back pain.
+  - id: it-IT-A2-HEALTH-001-004
+    concept: prescription
+    term: ricetta
+    translation: prescription
+    partOfSpeech: noun
+    gender: feminine
+    example: Il medico mi ha scritto una ricetta.
+    exampleTranslation: The doctor wrote me a prescription.
+  - id: it-IT-A2-HEALTH-001-005
+    concept: pharmacy
+    term: farmacia
+    translation: pharmacy
+    partOfSpeech: noun
+    gender: feminine
+    example: Vado in farmacia dopo il lavoro.
+    exampleTranslation: I go to the pharmacy after work.
+  - id: it-IT-A2-HEALTH-001-006
+    concept: appointment
+    term: appuntamento
+    translation: appointment
+    partOfSpeech: noun
+    gender: masculine
+    example: Ho un appuntamento dal medico domani.
+    exampleTranslation: I have a doctor’s appointment tomorrow.
 grammar:
-- id: it-IT-A2-HEALTH-001-G01
-  point: descrivere sintomi
-  explanation: Usare “ho” + sintomo per parlare di problemi di salute in modo semplice.
-  examples:
-  - Ho mal di testa.
-  - Mi sento stanco.
-  cefrNotes: A2 learners describe symptoms and understand basic medical advice.
+  - id: it-IT-A2-HEALTH-001-G01
+    point: descrivere sintomi
+    explanation: Usare “ho” + sintomo per parlare di problemi di salute in modo semplice.
+    examples:
+      - Ho mal di testa.
+      - Mi sento stanco.
+    cefrNotes: A2 learners describe symptoms and understand basic medical advice.
 culturalNotes: In Italia la visita dal medico richiede spesso prenotazione e la farmacia
   è un punto di riferimento comune per consigli pratici.

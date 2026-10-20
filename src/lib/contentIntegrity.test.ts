@@ -1,4 +1,3 @@
-import { readdirSync } from 'node:fs';
 import { describe, it, expect } from 'vitest';
 import {
   checkRealisationReferences,
