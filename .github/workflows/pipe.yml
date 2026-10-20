@@ -29,8 +29,8 @@ jobs:
           fetch-depth: 0
       - name: Fail when the PR changes no files
         run: |
-          git fetch --no-tags origin "${{ github.base_ref }}"
-          changed=$(git diff --name-only "origin/${{ github.base_ref }}...HEAD" | wc -l | tr -d ' ')
+          git fetch --no-tags origin "${{ github.base_ref }}" "${{ github.head_ref }}"
+          changed=$(git diff --name-only "origin/${{ github.base_ref }}...origin/${{ github.head_ref }}" | wc -l | tr -d ' ')
           if [ "$changed" -eq 0 ]; then
             echo "::error::This PR changes no files. An empty merge hides unimplemented work."
             exit 1

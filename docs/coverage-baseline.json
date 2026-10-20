@@ -13,8 +13,8 @@
       "missingNodes": 0
     },
     "it-IT": {
-      "missingConcepts": 0,
-      "missingNodes": 75
+      "missingConcepts": 125,
+      "missingNodes": 50
     }
   }
 }
