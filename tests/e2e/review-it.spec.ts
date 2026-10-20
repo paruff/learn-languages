@@ -4,33 +4,12 @@ import { join } from 'node:path';
 import { SESSION_SIZE } from '../../src/lib/reviewSession';
 
 const REVIEW_URL = '/learn-languages/en-GB/it-IT/review/';
-const GREET_LESSON_URL = '/learn-languages/en-GB/it-IT/lessons/A1-GREET-001/';
 const IT_DIR = 'src/content/realisations/it-IT';
 const EN_DIR = 'src/content/realisations/en-GB';
 
-function itVocabIds(levelPrefix: 'a1-' | 'b1-'): string[] {
-  return readdirSync(IT_DIR)
-    .filter((f) => f.startsWith(levelPrefix) && f.endsWith('.yaml'))
-    .flatMap((f) =>
-      [...readFileSync(join(IT_DIR, f), 'utf8').matchAll(/^\s*-?\s*id:\s*(it-IT-\S+)\s*$/gm)].map(
-        (m) => m[1]
-      )
-    );
-}
+type ItalianoLevel = 'a1-' | 'a2-' | 'b1-';
 
-function enB1Terms(): Set<string> {
-  const terms = new Set<string>();
-  for (const f of readdirSync(EN_DIR)) {
-    if (!f.startsWith('b1-') || !f.endsWith('.yaml')) continue;
-    const text = readFileSync(join(EN_DIR, f), 'utf8');
-    for (const m of text.matchAll(/^\s+term:\s*(.+)\s*$/gm)) {
-      terms.add(m[1].replace(/^['"]/, '').replace(/['"]$/, ''));
-    }
-  }
-  return terms;
-}
-
-function itVocabIds(levelPrefix: 'a1-' | 'a2-'): string[] {
+function itVocabIds(levelPrefix: ItalianoLevel): string[] {
   const levelToken = levelPrefix.toUpperCase().replace(/-$/, '');
   return readdirSync(IT_DIR)
     .filter((file) => file.startsWith(levelPrefix) && file.endsWith('.yaml'))
@@ -38,14 +17,14 @@ function itVocabIds(levelPrefix: 'a1-' | 'a2-'): string[] {
       const text = readFileSync(join(IT_DIR, file), 'utf8');
       return [...text.matchAll(/id:\s*['"]?(it-IT-[A-Za-z0-9-]+)['"]?/g)]
         .map((match) => match[1])
-        .filter((id) => id.includes(levelToken) && !id.includes('-G'));
+        .filter((id) => id.includes(levelToken) && !/-G\d+$/.test(id));
     });
 }
 
-function enA2Terms(): Set<string> {
+function enTerms(levelPrefix: 'a2-' | 'b1-'): Set<string> {
   const terms = new Set<string>();
   for (const file of readdirSync(EN_DIR)) {
-    if (!file.startsWith('a2-') || !file.endsWith('.yaml')) continue;
+    if (!file.startsWith(levelPrefix) || !file.endsWith('.yaml')) continue;
     const text = readFileSync(join(EN_DIR, file), 'utf8');
     for (const match of text.matchAll(/^\s+term:\s*(.+)\s*$/gm)) {
       terms.add(match[1].replace(/^['"]/, '').replace(/['"]$/, ''));
@@ -88,7 +67,7 @@ test.describe('it-IT A2 review session', () => {
     const totalCount = Number(progressText?.match(/of (\d+)$/)?.[1]);
     expect(totalCount).toBe(SESSION_SIZE);
 
-    const a2Terms = enA2Terms();
+    const a2Terms = enTerms('a2-');
     const fronts: string[] = [];
     for (let i = 0; i < totalCount; i++) {
       fronts.push((await front.textContent()) ?? '');
@@ -108,7 +87,7 @@ test.describe('it-IT A2 review session', () => {
 test.describe('it-IT B1 review session', () => {
   test.beforeEach(async ({ page }) => {
     await page.goto(REVIEW_URL);
-    const olderIds = itVocabIds('a1-');
+    const olderIds = [...itVocabIds('a1-'), ...itVocabIds('a2-')];
     expect(olderIds.length).toBeGreaterThan(0);
     await page.evaluate((ids) => {
       window.localStorage.clear();
@@ -135,7 +114,7 @@ test.describe('it-IT B1 review session', () => {
     const totalCount = Number(progressText?.match(/of (\d+)$/)?.[1]);
     expect(totalCount).toBe(SESSION_SIZE);
 
-    const b1Terms = enB1Terms();
+    const b1Terms = enTerms('b1-');
     const fronts: string[] = [];
     for (let i = 0; i < totalCount; i++) {
       fronts.push((await front.textContent()) ?? '');

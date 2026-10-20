@@ -1,59 +1,59 @@
 nodeId: A2-JOB-002
 lang: it-IT
 vocabulary:
-- id: it-IT-A2-JOB-002-001
-  concept: routine
-  term: routine
-  translation: routine
-  partOfSpeech: noun
-  gender: feminine
-  example: La mia routine al lavoro è semplice.
-  exampleTranslation: My work routine is simple.
-- id: it-IT-A2-JOB-002-002
-  concept: task
-  term: compito
-  translation: task
-  partOfSpeech: noun
-  gender: masculine
-  example: Ho molti compiti oggi.
-  exampleTranslation: I have a lot of tasks today.
-- id: it-IT-A2-JOB-002-003
-  concept: meeting
-  term: riunione
-  translation: meeting
-  partOfSpeech: noun
-  gender: feminine
-  example: La riunione inizia alle nove.
-  exampleTranslation: The meeting starts at nine.
-- id: it-IT-A2-JOB-002-004
-  concept: always
-  term: sempre
-  translation: always
-  partOfSpeech: adverb
-  example: Arrivo sempre in orario.
-  exampleTranslation: I always arrive on time.
-- id: it-IT-A2-JOB-002-005
-  concept: sometimes
-  term: a volte
-  translation: sometimes
-  partOfSpeech: adverb
-  example: A volte prendo il pranzo fuori.
-  exampleTranslation: Sometimes I have lunch out.
-- id: it-IT-A2-JOB-002-006
-  concept: to-finish
-  term: finire
-  translation: to finish
-  partOfSpeech: verb
-  example: Finisco il lavoro alle sei.
-  exampleTranslation: I finish work at six.
+  - id: it-IT-A2-JOB-002-001
+    concept: routine
+    term: routine
+    translation: routine
+    partOfSpeech: noun
+    gender: feminine
+    example: La mia routine al lavoro è semplice.
+    exampleTranslation: My work routine is simple.
+  - id: it-IT-A2-JOB-002-002
+    concept: task
+    term: compito
+    translation: task
+    partOfSpeech: noun
+    gender: masculine
+    example: Ho molti compiti oggi.
+    exampleTranslation: I have a lot of tasks today.
+  - id: it-IT-A2-JOB-002-003
+    concept: meeting
+    term: riunione
+    translation: meeting
+    partOfSpeech: noun
+    gender: feminine
+    example: La riunione inizia alle nove.
+    exampleTranslation: The meeting starts at nine.
+  - id: it-IT-A2-JOB-002-004
+    concept: always
+    term: sempre
+    translation: always
+    partOfSpeech: adverb
+    example: Arrivo sempre in orario.
+    exampleTranslation: I always arrive on time.
+  - id: it-IT-A2-JOB-002-005
+    concept: sometimes
+    term: a volte
+    translation: sometimes
+    partOfSpeech: adverb
+    example: A volte prendo il pranzo fuori.
+    exampleTranslation: Sometimes I have lunch out.
+  - id: it-IT-A2-JOB-002-006
+    concept: to-finish
+    term: finire
+    translation: to finish
+    partOfSpeech: verb
+    example: Finisco il lavoro alle sei.
+    exampleTranslation: I finish work at six.
 grammar:
-- id: it-IT-A2-JOB-002-G01
-  point: avverbi di frequenza
-  explanation: Usare sempre, a volte e di solito per descrivere la frequenza delle
-    attività lavorative.
-  examples:
-  - Arrivo sempre in orario.
-  - A volte prendo il pranzo fuori.
-  cefrNotes: A2 learners describe routines and frequency in everyday work situations.
+  - id: it-IT-A2-JOB-002-G01
+    point: avverbi di frequenza
+    explanation: Usare sempre, a volte e di solito per descrivere la frequenza delle
+      attività lavorative.
+    examples:
+      - Arrivo sempre in orario.
+      - A volte prendo il pranzo fuori.
+    cefrNotes: A2 learners describe routines and frequency in everyday work situations.
 culturalNotes: Nelle descrizioni del lavoro quotidiano, i tempi di lavoro e la frequenza
   delle attività sono spesso centrali in conversazioni informali.

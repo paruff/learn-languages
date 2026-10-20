@@ -1,62 +1,62 @@
 nodeId: A2-HABIT-003
 lang: it-IT
 vocabulary:
-- id: it-IT-A2-HABIT-003-001
-  concept: news
-  term: notizia
-  translation: news
-  partOfSpeech: noun
-  gender: feminine
-  example: La notizia è molto interessante.
-  exampleTranslation: The news is very interesting.
-- id: it-IT-A2-HABIT-003-002
-  concept: press
-  term: stampa
-  translation: press
-  partOfSpeech: noun
-  gender: feminine
-  example: La stampa parla del cambiamento climatico.
-  exampleTranslation: The press is talking about climate change.
-- id: it-IT-A2-HABIT-003-003
-  concept: television
-  term: televisione
-  translation: television
-  partOfSpeech: noun
-  gender: feminine
-  example: Guardo la televisione la sera.
-  exampleTranslation: I watch television in the evening.
-- id: it-IT-A2-HABIT-003-004
-  concept: newspaper
-  term: giornale
-  translation: newspaper
-  partOfSpeech: noun
-  gender: masculine
-  example: Leggo il giornale al mattino.
-  exampleTranslation: I read the newspaper in the morning.
-- id: it-IT-A2-HABIT-003-005
-  concept: article
-  term: articolo
-  translation: article
-  partOfSpeech: noun
-  gender: masculine
-  example: L’articolo parla della crisi energetica.
-  exampleTranslation: The article talks about the energy crisis.
-- id: it-IT-A2-HABIT-003-006
-  concept: report
-  term: rapporto
-  translation: report
-  partOfSpeech: noun
-  gender: masculine
-  example: Il rapporto descrive la situazione locale.
-  exampleTranslation: The report describes the local situation.
+  - id: it-IT-A2-HABIT-003-001
+    concept: news
+    term: notizia
+    translation: news
+    partOfSpeech: noun
+    gender: feminine
+    example: La notizia è molto interessante.
+    exampleTranslation: The news is very interesting.
+  - id: it-IT-A2-HABIT-003-002
+    concept: press
+    term: stampa
+    translation: press
+    partOfSpeech: noun
+    gender: feminine
+    example: La stampa parla del cambiamento climatico.
+    exampleTranslation: The press is talking about climate change.
+  - id: it-IT-A2-HABIT-003-003
+    concept: television
+    term: televisione
+    translation: television
+    partOfSpeech: noun
+    gender: feminine
+    example: Guardo la televisione la sera.
+    exampleTranslation: I watch television in the evening.
+  - id: it-IT-A2-HABIT-003-004
+    concept: newspaper
+    term: giornale
+    translation: newspaper
+    partOfSpeech: noun
+    gender: masculine
+    example: Leggo il giornale al mattino.
+    exampleTranslation: I read the newspaper in the morning.
+  - id: it-IT-A2-HABIT-003-005
+    concept: article
+    term: articolo
+    translation: article
+    partOfSpeech: noun
+    gender: masculine
+    example: L’articolo parla della crisi energetica.
+    exampleTranslation: The article talks about the energy crisis.
+  - id: it-IT-A2-HABIT-003-006
+    concept: report
+    term: rapporto
+    translation: report
+    partOfSpeech: noun
+    gender: masculine
+    example: Il rapporto descrive la situazione locale.
+    exampleTranslation: The report describes the local situation.
 grammar:
-- id: it-IT-A2-HABIT-003-G01
-  point: comprendere notizie semplici
-  explanation: Leggere e capire articoli e titoli di notizie in lingua semplice.
-  examples:
-  - Il giornale parla del clima.
-  - Il rapporto descrive gli eventi.
-  cefrNotes: A2 learners identify core news vocabulary and understand short current-events
-    items.
+  - id: it-IT-A2-HABIT-003-G01
+    point: comprendere notizie semplici
+    explanation: Leggere e capire articoli e titoli di notizie in lingua semplice.
+    examples:
+      - Il giornale parla del clima.
+      - Il rapporto descrive gli eventi.
+    cefrNotes: A2 learners identify core news vocabulary and understand short current-events
+      items.
 culturalNotes: La notizia e la stampa sono fonti comuni di informazione e spesso stimolano
   conversazioni su politica, clima e vita quotidiana.

@@ -1,61 +1,61 @@
 nodeId: A2-JOB-003
 lang: it-IT
 vocabulary:
-- id: it-IT-A2-JOB-003-001
-  concept: advertisement
-  term: annuncio
-  translation: advertisement
-  partOfSpeech: noun
-  gender: masculine
-  example: Ho letto un annuncio interessante.
-  exampleTranslation: I read an interesting advertisement.
-- id: it-IT-A2-JOB-003-002
-  concept: application
-  term: candidatura
-  translation: application
-  partOfSpeech: noun
-  gender: feminine
-  example: Ho inviato la mia candidatura online.
-  exampleTranslation: I sent my application online.
-- id: it-IT-A2-JOB-003-003
-  concept: experience
-  term: esperienza
-  translation: experience
-  partOfSpeech: noun
-  gender: feminine
-  example: Cerco un lavoro con esperienza.
-  exampleTranslation: I am looking for a job with experience.
-- id: it-IT-A2-JOB-003-004
-  concept: salary
-  term: stipendio
-  translation: salary
-  partOfSpeech: noun
-  gender: masculine
-  example: Lo stipendio è abbastanza buono.
-  exampleTranslation: The salary is fairly good.
-- id: it-IT-A2-JOB-003-005
-  concept: to-send
-  term: inviare
-  translation: to send
-  partOfSpeech: verb
-  example: Vorrei inviare una candidatura oggi.
-  exampleTranslation: I would like to send an application today.
-- id: it-IT-A2-JOB-003-006
-  concept: interview
-  term: colloquio
-  translation: interview
-  partOfSpeech: noun
-  gender: masculine
-  example: Il colloquio è alle dieci.
-  exampleTranslation: The interview is at ten.
+  - id: it-IT-A2-JOB-003-001
+    concept: advertisement
+    term: annuncio
+    translation: advertisement
+    partOfSpeech: noun
+    gender: masculine
+    example: Ho letto un annuncio interessante.
+    exampleTranslation: I read an interesting advertisement.
+  - id: it-IT-A2-JOB-003-002
+    concept: application
+    term: candidatura
+    translation: application
+    partOfSpeech: noun
+    gender: feminine
+    example: Ho inviato la mia candidatura online.
+    exampleTranslation: I sent my application online.
+  - id: it-IT-A2-JOB-003-003
+    concept: experience
+    term: esperienza
+    translation: experience
+    partOfSpeech: noun
+    gender: feminine
+    example: Cerco un lavoro con esperienza.
+    exampleTranslation: I am looking for a job with experience.
+  - id: it-IT-A2-JOB-003-004
+    concept: salary
+    term: stipendio
+    translation: salary
+    partOfSpeech: noun
+    gender: masculine
+    example: Lo stipendio è abbastanza buono.
+    exampleTranslation: The salary is fairly good.
+  - id: it-IT-A2-JOB-003-005
+    concept: to-send
+    term: inviare
+    translation: to send
+    partOfSpeech: verb
+    example: Vorrei inviare una candidatura oggi.
+    exampleTranslation: I would like to send an application today.
+  - id: it-IT-A2-JOB-003-006
+    concept: interview
+    term: colloquio
+    translation: interview
+    partOfSpeech: noun
+    gender: masculine
+    example: Il colloquio è alle dieci.
+    exampleTranslation: The interview is at ten.
 grammar:
-- id: it-IT-A2-JOB-003-G01
-  point: leggere annunci di lavoro
-  explanation: Analizzare parole chiave e informazioni essenziali negli annunci.
-  examples:
-  - L’annuncio chiede due anni di esperienza.
-  - Lo stipendio è tra mille e millecinquecento euro.
-  cefrNotes: A2 learners scan job advertisements for key information such as pay and
-    requirements.
+  - id: it-IT-A2-JOB-003-G01
+    point: leggere annunci di lavoro
+    explanation: Analizzare parole chiave e informazioni essenziali negli annunci.
+    examples:
+      - L’annuncio chiede due anni di esperienza.
+      - Lo stipendio è tra mille e millecinquecento euro.
+    cefrNotes: A2 learners scan job advertisements for key information such as pay and
+      requirements.
 culturalNotes: Gli annunci di lavoro italiani spesso menzionano esperienza, orario
   e requisiti linguistici o di formazione.

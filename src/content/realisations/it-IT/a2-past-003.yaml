@@ -1,57 +1,57 @@
 nodeId: A2-PAST-003
 lang: it-IT
 vocabulary:
-- id: it-IT-A2-PAST-003-001
-  concept: story
-  term: storia
-  translation: story
-  partOfSpeech: noun
-  gender: feminine
-  example: La storia è molto interessante.
-  exampleTranslation: The story is very interesting.
-- id: it-IT-A2-PAST-003-002
-  concept: to-happen
-  term: succedere
-  translation: to happen
-  partOfSpeech: verb
-  example: È successo qualcosa di strano.
-  exampleTranslation: Something strange happened.
-- id: it-IT-A2-PAST-003-003
-  concept: when
-  term: quando
-  translation: when
-  partOfSpeech: conjunction
-  example: Quando ero bambino, vivevo in campagna.
-  exampleTranslation: When I was a child, I lived in the countryside.
-- id: it-IT-A2-PAST-003-004
-  concept: to-remember
-  term: ricordare
-  translation: to remember
-  partOfSpeech: verb
-  example: Ricordo bene quell’estate.
-  exampleTranslation: I remember that summer well.
-- id: it-IT-A2-PAST-003-005
-  concept: at-that-time
-  term: allora
-  translation: at that time
-  partOfSpeech: adverb
-  example: Allora vivevamo in città.
-  exampleTranslation: At that time we lived in the city.
-- id: it-IT-A2-PAST-003-006
-  concept: to-recall
-  term: rievocare
-  translation: to recall
-  partOfSpeech: verb
-  example: Mi piace rievocare quei ricordi.
-  exampleTranslation: I like to recall those memories.
+  - id: it-IT-A2-PAST-003-001
+    concept: story
+    term: storia
+    translation: story
+    partOfSpeech: noun
+    gender: feminine
+    example: La storia è molto interessante.
+    exampleTranslation: The story is very interesting.
+  - id: it-IT-A2-PAST-003-002
+    concept: to-happen
+    term: succedere
+    translation: to happen
+    partOfSpeech: verb
+    example: È successo qualcosa di strano.
+    exampleTranslation: Something strange happened.
+  - id: it-IT-A2-PAST-003-003
+    concept: when
+    term: quando
+    translation: when
+    partOfSpeech: conjunction
+    example: Quando ero bambino, vivevo in campagna.
+    exampleTranslation: When I was a child, I lived in the countryside.
+  - id: it-IT-A2-PAST-003-004
+    concept: to-remember
+    term: ricordare
+    translation: to remember
+    partOfSpeech: verb
+    example: Ricordo bene quell’estate.
+    exampleTranslation: I remember that summer well.
+  - id: it-IT-A2-PAST-003-005
+    concept: at-that-time
+    term: allora
+    translation: at that time
+    partOfSpeech: adverb
+    example: Allora vivevamo in città.
+    exampleTranslation: At that time we lived in the city.
+  - id: it-IT-A2-PAST-003-006
+    concept: to-recall
+    term: rievocare
+    translation: to recall
+    partOfSpeech: verb
+    example: Mi piace rievocare quei ricordi.
+    exampleTranslation: I like to recall those memories.
 grammar:
-- id: it-IT-A2-PAST-003-G01
-  point: seguire una narrazione nel passato
-  explanation: Usare sequenze temporali e marcatori per raccontare un racconto semplice.
-  examples:
-  - Quando ero bambino, vivevo in campagna.
-  - Un giorno è successo qualcosa di strano.
-  cefrNotes: A2 learners understand simple narratives about past events and connect
-    main actions in sequence.
+  - id: it-IT-A2-PAST-003-G01
+    point: seguire una narrazione nel passato
+    explanation: Usare sequenze temporali e marcatori per raccontare un racconto semplice.
+    examples:
+      - Quando ero bambino, vivevo in campagna.
+      - Un giorno è successo qualcosa di strano.
+    cefrNotes: A2 learners understand simple narratives about past events and connect
+      main actions in sequence.
 culturalNotes: Le storie familiari e i ricordi d’infanzia sono temi popolari nelle
   conversazioni informali in Italia.

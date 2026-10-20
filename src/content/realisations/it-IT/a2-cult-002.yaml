@@ -1,61 +1,61 @@
 nodeId: A2-CULT-002
 lang: it-IT
 vocabulary:
-- id: it-IT-A2-CULT-002-001
-  concept: culture
-  term: cultura
-  translation: culture
-  partOfSpeech: noun
-  gender: feminine
-  example: La cultura italiana è molto varia.
-  exampleTranslation: Italian culture is very varied.
-- id: it-IT-A2-CULT-002-002
-  concept: custom
-  term: consuetudine
-  translation: custom
-  partOfSpeech: noun
-  gender: feminine
-  example: Questa usanza è molto antica.
-  exampleTranslation: This custom is very old.
-- id: it-IT-A2-CULT-002-003
-  concept: different
-  term: diverso
-  translation: different
-  partOfSpeech: adjective
-  gender: masculine
-  example: Le tradizioni sono diverse da regione a regione.
-  exampleTranslation: The traditions are different from region to region.
-- id: it-IT-A2-CULT-002-004
-  concept: country
-  term: paese
-  translation: country
-  partOfSpeech: noun
-  gender: masculine
-  example: Ho visitato un paese molto bello.
-  exampleTranslation: I visited a very beautiful country.
-- id: it-IT-A2-CULT-002-005
-  concept: people
-  term: persone
-  translation: people
-  partOfSpeech: noun
-  gender: n/a
-  example: Le persone qui sono molto gentili.
-  exampleTranslation: The people here are very kind.
-- id: it-IT-A2-CULT-002-006
-  concept: region
-  term: regione
-  translation: region
-  partOfSpeech: noun
-  gender: feminine
-  example: Ogni regione ha il suo cibo tipico.
-  exampleTranslation: Each region has its own typical food.
+  - id: it-IT-A2-CULT-002-001
+    concept: culture
+    term: cultura
+    translation: culture
+    partOfSpeech: noun
+    gender: feminine
+    example: La cultura italiana è molto varia.
+    exampleTranslation: Italian culture is very varied.
+  - id: it-IT-A2-CULT-002-002
+    concept: custom
+    term: consuetudine
+    translation: custom
+    partOfSpeech: noun
+    gender: feminine
+    example: Questa usanza è molto antica.
+    exampleTranslation: This custom is very old.
+  - id: it-IT-A2-CULT-002-003
+    concept: different
+    term: diverso
+    translation: different
+    partOfSpeech: adjective
+    gender: masculine
+    example: Le tradizioni sono diverse da regione a regione.
+    exampleTranslation: The traditions are different from region to region.
+  - id: it-IT-A2-CULT-002-004
+    concept: country
+    term: paese
+    translation: country
+    partOfSpeech: noun
+    gender: masculine
+    example: Ho visitato un paese molto bello.
+    exampleTranslation: I visited a very beautiful country.
+  - id: it-IT-A2-CULT-002-005
+    concept: people
+    term: persone
+    translation: people
+    partOfSpeech: noun
+    gender: n/a
+    example: Le persone qui sono molto gentili.
+    exampleTranslation: The people here are very kind.
+  - id: it-IT-A2-CULT-002-006
+    concept: region
+    term: regione
+    translation: region
+    partOfSpeech: noun
+    gender: feminine
+    example: Ogni regione ha il suo cibo tipico.
+    exampleTranslation: Each region has its own typical food.
 grammar:
-- id: it-IT-A2-CULT-002-G01
-  point: confrontare culture e usanze
-  explanation: Usare il comparativo per parlare delle differenze tra culture e tradizioni.
-  examples:
-  - La cultura italiana è diversa da quella spagnola.
-  - Le usanze variano da regione a regione.
-  cefrNotes: A2 learners compare cultural practices using basic comparative phrases.
+  - id: it-IT-A2-CULT-002-G01
+    point: confrontare culture e usanze
+    explanation: Usare il comparativo per parlare delle differenze tra culture e tradizioni.
+    examples:
+      - La cultura italiana è diversa da quella spagnola.
+      - Le usanze variano da regione a regione.
+    cefrNotes: A2 learners compare cultural practices using basic comparative phrases.
 culturalNotes: Le differenze regionali in Italia sono marcate, soprattutto tra cucina,
   dialetti e abitudini festive.

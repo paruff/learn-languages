@@ -1,57 +1,57 @@
 nodeId: A2-PAST-002
 lang: it-IT
 vocabulary:
-- id: it-IT-A2-PAST-002-001
-  concept: before
-  term: prima
-  translation: before
-  partOfSpeech: adverb
-  example: Prima lavoravo in una fabbrica.
-  exampleTranslation: Before I worked in a factory.
-- id: it-IT-A2-PAST-002-002
-  concept: now
-  term: adesso
-  translation: now
-  partOfSpeech: adverb
-  example: Adesso sono insegnante.
-  exampleTranslation: Now I am a teacher.
-- id: it-IT-A2-PAST-002-003
-  concept: to-change
-  term: cambiare
-  translation: to change
-  partOfSpeech: verb
-  example: Ho cambiato vita negli ultimi anni.
-  exampleTranslation: I changed my life in recent years.
-- id: it-IT-A2-PAST-002-004
-  concept: to-grow
-  term: crescere
-  translation: to grow
-  partOfSpeech: verb
-  example: Sono cresciuto in una piccola città.
-  exampleTranslation: I grew up in a small town.
-- id: it-IT-A2-PAST-002-005
-  concept: experience
-  term: esperienza
-  translation: experience
-  partOfSpeech: noun
-  gender: feminine
-  example: L’esperienza è stata molto utile.
-  exampleTranslation: The experience was very useful.
-- id: it-IT-A2-PAST-002-006
-  concept: to-transform
-  term: trasformare
-  translation: to transform
-  partOfSpeech: verb
-  example: La vita si è trasformata negli anni.
-  exampleTranslation: Life changed over the years.
+  - id: it-IT-A2-PAST-002-001
+    concept: before
+    term: prima
+    translation: before
+    partOfSpeech: adverb
+    example: Prima lavoravo in una fabbrica.
+    exampleTranslation: Before I worked in a factory.
+  - id: it-IT-A2-PAST-002-002
+    concept: now
+    term: adesso
+    translation: now
+    partOfSpeech: adverb
+    example: Adesso sono insegnante.
+    exampleTranslation: Now I am a teacher.
+  - id: it-IT-A2-PAST-002-003
+    concept: to-change
+    term: cambiare
+    translation: to change
+    partOfSpeech: verb
+    example: Ho cambiato vita negli ultimi anni.
+    exampleTranslation: I changed my life in recent years.
+  - id: it-IT-A2-PAST-002-004
+    concept: to-grow
+    term: crescere
+    translation: to grow
+    partOfSpeech: verb
+    example: Sono cresciuto in una piccola città.
+    exampleTranslation: I grew up in a small town.
+  - id: it-IT-A2-PAST-002-005
+    concept: experience
+    term: esperienza
+    translation: experience
+    partOfSpeech: noun
+    gender: feminine
+    example: L’esperienza è stata molto utile.
+    exampleTranslation: The experience was very useful.
+  - id: it-IT-A2-PAST-002-006
+    concept: to-transform
+    term: trasformare
+    translation: to transform
+    partOfSpeech: verb
+    example: La vita si è trasformata negli anni.
+    exampleTranslation: Life changed over the years.
 grammar:
-- id: it-IT-A2-PAST-002-G01
-  point: cambiare nel tempo
-  explanation: Usare passato e presente per raccontare come la vita personale è cambiata.
-  examples:
-  - Prima lavoravo in un negozio.
-  - Adesso sono insegnante.
-  cefrNotes: A2 learners describe personal changes over time using past and present
-    forms.
+  - id: it-IT-A2-PAST-002-G01
+    point: cambiare nel tempo
+    explanation: Usare passato e presente per raccontare come la vita personale è cambiata.
+    examples:
+      - Prima lavoravo in un negozio.
+      - Adesso sono insegnante.
+    cefrNotes: A2 learners describe personal changes over time using past and present
+      forms.
 culturalNotes: Descrivere cambiamenti di vita è una comune struttura narrativa in
   conversazioni su scuola, lavoro e famiglia.
