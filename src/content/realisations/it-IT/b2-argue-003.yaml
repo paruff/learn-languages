@@ -1,0 +1,61 @@
+nodeId: B2-ARGUE-003
+lang: it-IT
+vocabulary:
+  - id: it-IT-B2-ARGUE-003-001
+    concept: 'to-develop-systematically'
+    term: 'sviluppare in modo sistematico'
+    translation: 'to develop systematically'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I will develop the argument systematically.'
+    exampleTranslation: 'Vou desenvolver o argumento sistematicamente.'
+  - id: it-IT-B2-ARGUE-003-002
+    concept: 'to-highlight-important-points'
+    term: 'evidenziare i punti importanti'
+    translation: 'to highlight important points'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'It is important to highlight the most important points.'
+    exampleTranslation: 'É importante destacar os pontos mais importantes.'
+  - id: it-IT-B2-ARGUE-003-003
+    concept: 'to-present-relevant-details'
+    term: 'presentare dettagli rilevanti'
+    translation: 'to present relevant details'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I will present relevant details to support my thesis.'
+    exampleTranslation: 'Vou apresentar detalhes relevantes para apoiar a minha tese.'
+  - id: it-IT-B2-ARGUE-003-004
+    concept: 'to-structure-the-argumentation'
+    term: 'strutturare l’argomentazione'
+    translation: 'to structure the argumentation'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I need to structure the argumentation clearly.'
+    exampleTranslation: 'Preciso de estruturar a argumentação de forma clara.'
+  - id: it-IT-B2-ARGUE-003-005
+    concept: 'to-use-discourse-markers'
+    term: 'usare marcatori discorsivi'
+    translation: 'to use discourse markers'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'It is useful to use discourse markers to organise.'
+    exampleTranslation: 'É útil usar marcadores discursivos para organizar.'
+  - id: it-IT-B2-ARGUE-003-006
+    concept: 'to-conclude-the-reasoning'
+    term: 'concludere il ragionamento'
+    translation: 'to conclude the reasoning'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I will conclude the reasoning with a summary.'
+    exampleTranslation: 'Vou concluir o raciocínio com uma síntese.'
+grammar:
+  - id: it-IT-B2-ARGUE-003-G01
+    point: 'Advanced discourse markers'
+    explanation: 'Using sophisticated connectors for structured argumentation'
+    examples:
+      - 'Moreover, that confirms my position.'
+      - 'Despite the difficulties, we proceeded.'
+    cefrNotes: 'B2 learners use advanced discourse markers for formal argumentation'
+
+culturalNotes: "British academic discourse values systematic development. Using 'furthermore', 'nevertheless', 'in contrast' signals sophisticated thinking."

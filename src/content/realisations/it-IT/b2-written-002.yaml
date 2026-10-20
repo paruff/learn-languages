@@ -1,0 +1,61 @@
+nodeId: B2-WRITTEN-002
+lang: it-IT
+vocabulary:
+  - id: it-IT-B2-WRITTEN-002-001
+    concept: 'to-write-an-essay'
+    term: 'scrivere un saggio'
+    translation: 'to write an essay'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I will write an essay that develops an argument.'
+    exampleTranslation: 'Vou escrever um ensaio que desenvolva um argumento.'
+  - id: it-IT-B2-WRITTEN-002-002
+    concept: 'to-elaborate-a-report'
+    term: 'redigere un rapporto'
+    translation: 'to elaborate a report'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I need to elaborate a detailed report.'
+    exampleTranslation: 'Preciso de elaborar um relatório detalhado.'
+  - id: it-IT-B2-WRITTEN-002-003
+    concept: 'to-develop-the-thesis'
+    term: 'sviluppare la tesi'
+    translation: 'to develop the thesis'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'It is important to develop the thesis with arguments.'
+    exampleTranslation: 'É importante desenvolver a tese com argumentos.'
+  - id: it-IT-B2-WRITTEN-002-004
+    concept: 'to-present-supporting-data'
+    term: 'presentare dati a supporto'
+    translation: 'to present supporting data'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I will present supporting data in the essay.'
+    exampleTranslation: 'Vou apresentar dados de suporte no ensaio.'
+  - id: it-IT-B2-WRITTEN-002-005
+    concept: 'to-use-academic-vocabulary'
+    term: 'usare lessico accademico'
+    translation: 'to use academic vocabulary'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'It is useful to use academic vocabulary in the report.'
+    exampleTranslation: 'É útil usar vocabulário académico no relatório.'
+  - id: it-IT-B2-WRITTEN-002-006
+    concept: 'to-structure-the-written-argumentation'
+    term: 'strutturare l’argomentazione scritta'
+    translation: 'to structure the written argumentation'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I need to structure the written argumentation clearly.'
+    exampleTranslation: 'Preciso de estruturar a argumentação escrita de forma clara.'
+grammar:
+  - id: it-IT-B2-WRITTEN-002-G01
+    point: 'Advanced connectors for written argumentation'
+    explanation: 'Using sophisticated connectors for structured written expression'
+    examples:
+      - 'Despite the difficulties, the project progressed.'
+      - 'In contrast, the results were positive.'
+    cefrNotes: 'B2 learners use advanced connectors for formal written argumentation'
+
+culturalNotes: "British essay writing values clear thesis and systematic development. Using 'my thesis is that' or 'I argue that' introduces your argument."

@@ -1,0 +1,61 @@
+nodeId: B2-TEXT-002
+lang: it-IT
+vocabulary:
+  - id: it-IT-B2-TEXT-002-001
+    concept: 'to-understand-newspaper-articles'
+    term: 'capire articoli di giornale'
+    translation: 'to understand newspaper articles'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I can understand newspaper articles on current topics.'
+    exampleTranslation: 'Consigo compreender artigos de jornal sobre temas atuais.'
+  - id: it-IT-B2-TEXT-002-002
+    concept: 'to-read-technical-reports'
+    term: 'leggere rapporti tecnici'
+    translation: 'to read technical reports'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I will read technical reports on the topic.'
+    exampleTranslation: 'Vou ler relatórios técnicos sobre o tema.'
+  - id: it-IT-B2-TEXT-002-003
+    concept: 'to-analyse-argumentative-texts'
+    term: 'analizzare testi argomentativi'
+    translation: 'to analyse argumentative texts'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'It is important to analyse argumentative texts carefully.'
+    exampleTranslation: 'É importante analisar textos argumentativos com atenção.'
+  - id: it-IT-B2-TEXT-002-004
+    concept: 'to-distinguish-facts-from-opinions'
+    term: 'distinguere fatti da opinioni'
+    translation: 'to distinguish facts from opinions'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I need to distinguish facts from opinions in the article.'
+    exampleTranslation: 'Preciso de distinguir factos de opiniões no artigo.'
+  - id: it-IT-B2-TEXT-002-005
+    concept: 'to-identify-the-purpose-of-the-text'
+    term: 'identificare lo scopo del testo'
+    translation: 'to identify the purpose of the text'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I will identify the purpose of the text from the beginning.'
+    exampleTranslation: 'Vou identificar o propósito do texto desde o início.'
+  - id: it-IT-B2-TEXT-002-006
+    concept: 'to-read-between-the-lines'
+    term: 'leggere tra le righe'
+    translation: 'to read between the lines'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'It is useful to read between the lines to understand the implicit.'
+    exampleTranslation: 'É útil ler entrelinhas para perceber o implícito.'
+grammar:
+  - id: it-IT-B2-TEXT-002-G01
+    point: 'Passive voice in newspaper style'
+    explanation: 'Using passive constructions common in journalistic English'
+    examples:
+      - 'The project was approved by the council.'
+      - 'Several incidents were recorded.'
+    cefrNotes: 'B2 learners recognise passive voice in journalistic texts'
+
+culturalNotes: "British journalism uses formal register. Terms like 'according to official sources' or 'the report states' signal sourcing."

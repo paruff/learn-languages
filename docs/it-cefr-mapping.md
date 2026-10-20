@@ -1,12 +1,12 @@
-# Italian (it-IT) CEFR Mapping — A1–B1 and C1 Inventory
+# Italian (it-IT) CEFR Mapping — A1–B2 and C1 Inventory
 
-Tracks the CEFR A1–B1 and C1 Can-Do inventory for **en-GB↔it-IT** against the shared repository node set and paired `realisations` content. This epic reuses the existing language-agnostic B1 and C1 node inventories rather than creating a duplicate Italian-only schema.
+Tracks the CEFR A1–B2 and C1 Can-Do inventory for **en-GB↔it-IT** against the shared repository node set and paired `realisations` content. This epic reuses the existing language-agnostic B1, B2 and C1 node inventories rather than creating a duplicate Italian-only schema.
 
 ## Source verification
 
-This mapping follows the same evidence rule used elsewhere in the repo: the CEFR inventory is not assumed by language; it is checked against a publicly available institutional descriptor source and then mapped onto the shared node set. For the Italian A1–B1 slices, the repository reuses the language-agnostic CEFR nodes already used across the other verified language pairs.
+This mapping follows the same evidence rule used elsewhere in the repo: the CEFR inventory is not assumed by language; it is checked against a publicly available institutional descriptor source and then mapped onto the shared node set. For the Italian A1–B2 slices, the repository reuses the language-agnostic CEFR nodes already used across the other verified language pairs.
 
-**Source basis:** Council of Europe CEFR descriptors for A1, A2 and B1, validated against the repository's shared `cefr-nodes/` inventory and the same source model already used for the existing verified pair docs (pt-PT, es-ES, de-DE, fr-FR).
+**Source basis:** Council of Europe CEFR descriptors for A1, A2, B1 and B2, validated against the repository's shared `cefr-nodes/` inventory and the same source model already used for the existing verified pair docs (pt-PT, es-ES, de-DE, fr-FR).
 
 ## A1 coverage table
 
@@ -110,6 +110,35 @@ A2 coverage: 20/30 nodes realised. Pending: `A2-DESCRIBE-001`, `A2-LETTER-001`, 
 
 B1 coverage: 35/35 nodes fully realised (100%). The Italian B1 slice reuses the shared CEFR B1 node set and adds paired `en-GB` + `it-IT` realisations for every B1 node in `src/content/realisations/it-IT`.
 
+## B2 coverage table
+
+The B2 `cefr-nodes/` set is the shared repo inventory for the B2 language-agnostic Can-Do statements, and the `it-IT` realisations were authored to match that same node set. This keeps the target-language authoring aligned with the repo's pairing model rather than adding an unrelated Italian-only structure.
+
+| nodeId         | Skill              | Can-Do                                                        | Status      |
+| -------------- | ------------------ | ------------------------------------------------------------- | ----------- |
+| B2-ARGUE-001   | spoken_production  | Can construct a chain of reasoning                            | ✅ Realised |
+| B2-ARGUE-002   | spoken_production  | Can justify a viewpoint on topical issues                     | ✅ Realised |
+| B2-ARGUE-003   | spoken_production  | Can develop an argument systematically                        | ✅ Realised |
+| B2-ARGUE-004   | writing            | Can sustain a viewpoint with relevant supporting detail       | ✅ Realised |
+| B2-SOCIAL-001  | spoken_interaction | Can interact with a degree of fluency and spontaneity         | ✅ Realised |
+| B2-SOCIAL-002  | spoken_interaction | Can take an active part in discussion                         | ✅ Realised |
+| B2-SOCIAL-003  | spoken_interaction | Can account for and sustain views by giving explanations      | ✅ Realised |
+| B2-SOCIAL-004  | spoken_interaction | Can clarify a detailed point of view clearly                  | ✅ Realised |
+| B2-SPOKEN-001  | listening          | Can understand extended speech and lectures                   | ✅ Realised |
+| B2-SPOKEN-002  | listening          | Can understand most TV news and current-affairs programmes    | ✅ Realised |
+| B2-SPOKEN-003  | listening          | Can understand the main ideas of complex speech               | ✅ Realised |
+| B2-SPOKEN-004  | spoken_production  | Can make announcements and communicate clearly                | ✅ Realised |
+| B2-SPOKEN-005  | spoken_production  | Can depart from a script and adapt spontaneously              | ✅ Realised |
+| B2-TEXT-001    | reading            | Can read with a high degree of independence                   | ✅ Realised |
+| B2-TEXT-002    | reading            | Can understand articles and reports on contemporary problems  | ✅ Realised |
+| B2-TEXT-003    | reading            | Can recognise the line of argument in the treatment of issues | ✅ Realised |
+| B2-TEXT-004    | reading            | Can understand the main conclusions of argumentative texts    | ✅ Realised |
+| B2-WRITTEN-001 | writing            | Can write clear, detailed text on a wide range of subjects    | ✅ Realised |
+| B2-WRITTEN-002 | writing            | Can write essays or reports that develop an argument          | ✅ Realised |
+| B2-WRITTEN-003 | writing            | Can write with correct spelling and punctuation               | ✅ Realised |
+
+B2 Coverage: 20/20 nodes fully realised (100%).
+
 ## C1 coverage table
 
 | nodeId              | Skill              | Can-Do                                                                                                                                                       | Status      |
@@ -145,6 +174,7 @@ C1 coverage: 25/25 nodes realised (100% of nodes, 1 concept per node). C1 landed
 ## Notes
 
 - C1 review and lesson routes work with the same pair key and SRS scoping as the lower levels; `tests/e2e/review-it.spec.ts` exercises a full C1 session and the `C1-SPOKEN-002` lesson.
-- The route set is derived from actual realisations via `getAvailablePairs()`, so the `en-GB↔it-IT` review and lesson routes become available automatically once the B1 files are in place.
+- B2 review and lesson routes work with the same pair key and SRS scoping; the B2 test in `tests/e2e/review-it.spec.ts` exercises a full B2 session.
+- The route set is derived from actual realisations via `getAvailablePairs()`, so the `en-GB↔it-IT` review and lesson routes become available automatically once the files are in place.
 - Browser validation is done via the real `en-GB→it-IT` review flow, with SRS state persisted under the pair key `srs:en-GB:it-IT:forward:*`.
 - This update follows the repository playbook: reuse the shared CEFR node inventory, author the target-language realisation layer, and validate integrity rather than duplicating the node model.

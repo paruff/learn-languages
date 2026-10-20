@@ -1,0 +1,61 @@
+nodeId: B2-TEXT-004
+lang: it-IT
+vocabulary:
+  - id: it-IT-B2-TEXT-004-001
+    concept: 'to-understand-conclusions-of-argumentative-texts'
+    term: 'capire le conclusioni dei testi argomentativi'
+    translation: 'to understand conclusions of argumentative texts'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I can understand conclusions of argumentative texts.'
+    exampleTranslation: 'Consigo compreender conclusões de textos argumentativos.'
+  - id: it-IT-B2-TEXT-004-002
+    concept: 'to-identify-conclusion-markers'
+    term: 'identificare i marcatori conclusivi'
+    translation: 'to identify conclusion markers'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'It is important to identify conclusion markers in the text.'
+    exampleTranslation: 'É importante identificar sinais de conclusão no texto.'
+  - id: it-IT-B2-TEXT-004-003
+    concept: 'to-synthesise-the-main-ideas'
+    term: 'sintetizzare le idee principali'
+    translation: 'to synthesise the main ideas'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I will synthesise the main ideas of the article.'
+    exampleTranslation: 'Vou sintetizar as ideias principais do artigo.'
+  - id: it-IT-B2-TEXT-004-004
+    concept: 'to-evaluate-the-conclusion'
+    term: 'valutare la conclusione'
+    translation: 'to evaluate the conclusion'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I need to evaluate whether the conclusion is sustained.'
+    exampleTranslation: 'Preciso de avaliar se a conclusão é sustentada.'
+  - id: it-IT-B2-TEXT-004-005
+    concept: 'to-relate-conclusion-with-premises'
+    term: 'mettere in relazione conclusione e premesse'
+    translation: 'to relate conclusion with premises'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I will relate the conclusion with the presented premises.'
+    exampleTranslation: 'Vou relacionar a conclusão com as premissas apresentadas.'
+  - id: it-IT-B2-TEXT-004-006
+    concept: 'to-extract-implications'
+    term: 'estrarre implicazioni'
+    translation: 'to extract implications'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I can extract relevant implications from the text.'
+    exampleTranslation: 'Posso extrair implicações relevantes do texto.'
+grammar:
+  - id: it-IT-B2-TEXT-004-G01
+    point: 'Reported speech in textual analysis'
+    explanation: "Using indirect speech to summarise authors' conclusions"
+    examples:
+      - 'The author concludes that the situation will improve.'
+      - 'According to the report, the measures were effective.'
+    cefrNotes: 'B2 learners use reported speech to summarise textual conclusions'
+
+culturalNotes: "British academic writing values clear synthesis. Using 'in summary' or 'to conclude' signals the final synthesis."
