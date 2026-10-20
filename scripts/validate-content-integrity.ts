@@ -6,10 +6,12 @@ import {
   checkVocabularyParity,
   checkConcepts,
   checkPairAlignment,
+  checkImageCredits,
   type ConceptRef,
   type RealisationRef,
   type VocabularyRef,
 } from '../src/lib/contentIntegrity.ts';
+import { checkConceptImages, type ConceptImage } from '../src/lib/conceptImages.ts';
 
 function findYamlFiles(dir: string): string[] {
   const entries = readdirSync(dir);
@@ -78,6 +80,25 @@ function loadConceptRefs(dir: string): ConceptRef[] {
   });
 }
 
+function loadImageRefs(dir: string): string[] {
+  const files: string[] = [];
+  for (const file of findYamlFiles(dir)) {
+    const data = parse(readFileSync(file, 'utf-8')) as {
+      vocabulary?: { imageUrl?: string }[];
+    };
+    for (const item of data?.vocabulary ?? []) {
+      if (item.imageUrl) files.push(item.imageUrl);
+    }
+  }
+  return files;
+}
+
+function loadCreditedImages(path: string): string[] {
+  return [...readFileSync(path, 'utf-8').matchAll(/^\|\s*`([^`]+\.webp)`/gm)].map(
+    (match) => match[1]
+  );
+}
+
 function existsOrEmpty(dir: string): boolean {
   try {
     return statSync(dir).isDirectory();
@@ -117,6 +138,31 @@ if (conceptErrors.length > 0 || alignmentErrors.length > 0) {
   for (const line of alignmentErrors) console.error(`  ${line}`);
   globalThis.process.exit(1);
 }
+
+// Every image referenced from content must exist and carry a credit row.
+// Orphan files are allowed: the legacy `imageUrl` items were sourced before the
+// concept-image index existed and are credited directly in CREDITS.md.
+const conceptImages = parse(
+  readFileSync(join(import.meta.dirname, '../src/content/concept-images/index.yaml'), 'utf-8')
+) as ConceptImage[];
+const imageDir = join(import.meta.dirname, '../public/vocab-images');
+const imageFiles = readdirSync(imageDir);
+const allImageErrors = checkConceptImages(conceptImages, imageFiles);
+const missingImageErrors = allImageErrors.filter((error) => !error.startsWith('orphan file:'));
+const creditErrors = checkImageCredits(
+  existsOrEmpty(realisationsDir) ? loadImageRefs(realisationsDir) : [],
+  loadCreditedImages(join(imageDir, 'CREDITS.md'))
+);
+if (missingImageErrors.length > 0 || creditErrors.length > 0) {
+  console.error('\nContent integrity check FAILED (vocabulary images):');
+  for (const line of missingImageErrors) console.error(`  ${line}`);
+  for (const line of creditErrors) console.error(`  ${line}`);
+  globalThis.process.exit(1);
+}
+const orphanCount = allImageErrors.length - missingImageErrors.length;
+console.log(
+  `Vocabulary image check passed: ${conceptImages.length} indexed concept(s), ${orphanCount} legacy file(s) credited in CREDITS.md.`
+);
 
 // Informational only (does not fail the build) -- see checkVocabularyParity's
 // doc comment for why this is a warning, not a gate.

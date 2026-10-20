@@ -45,6 +45,11 @@ const conceptImages = (await getCollection('concept-images'))
     Images are shared by concept and may use a target-language override where a culture-specific
     item is clearer.
   </p>
+  <p>
+    Legacy vocabulary images sourced before the concept index existed are credited in the
+    <a href={withBase('/vocab-images/CREDITS.md')}>full credits file</a>. Every image referenced
+    from content must have a row there; <code>npm run validate:content</code> fails otherwise.
+  </p>
   <table class="credits-table">
     <thead>
       <tr>
