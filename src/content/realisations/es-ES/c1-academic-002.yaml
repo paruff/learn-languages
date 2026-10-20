@@ -1,60 +1,58 @@
 nodeId: C1-ACADEMIC-002
 lang: es-ES
 vocabulary:
-  - id: es-ES-C1-ACADEMIC-002-007
-    concept: conference-paper
-    term: exposición compleja
-    translation: complex presentation / conference paper
+  - id: es-ES-C1-ACADEMIC-002-001
+    concept: 'complex-presentation'
+    term: 'exposición compleja'
+    translation: 'complex presentation'
     partOfSpeech: phrase
     gender: feminine
-    example: Preparé una exposición compleja para el congreso.
-    exampleTranslation: I prepared a complex presentation for the conference.
+    example: 'Preparé una exposición compleja para el congreso.'
+    exampleTranslation: 'I prepared a complex presentation for the conference.'
+  - id: es-ES-C1-ACADEMIC-002-002
+    concept: 'general-audience'
+    term: 'público general'
+    translation: 'general audience'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Adapté mi charla para un público general.'
+    exampleTranslation: 'I adapted my talk for a general audience.'
   - id: es-ES-C1-ACADEMIC-002-003
-    concept: specialist-audience
-    term: público especializado
-    translation: specialist audience
+    concept: 'specialist-audience'
+    term: 'público especializado'
+    translation: 'specialist audience'
     partOfSpeech: phrase
     gender: masculine
-    example: La conferencia fue dirigida a un público especializado.
-    exampleTranslation: The conference was aimed at a specialist audience.
-  - id: es-ES-C1-ACADEMIC-002-008
-    concept: to-serve-as-a-foundation-for-the-presentation
-    term: público general
-    translation: general audience / to serve as a foundation for the presentation
+    example: 'La conferencia fue dirigida a un público especializado.'
+    exampleTranslation: 'The conference was aimed at a specialist audience.'
+  - id: es-ES-C1-ACADEMIC-002-004
+    concept: 'to-structure-coherently'
+    term: 'estructurar coherentemente'
+    translation: 'to structure coherently'
     partOfSpeech: phrase
-    gender: masculine
-    example: Adapté mi charla para un público general.
-    exampleTranslation: I adapted my talk for a general audience.
-  - id: es-ES-C1-ACADEMIC-002-009
-    concept: path-of-the-argumentation
-    term: estructurar coherentemente
-    translation: to structure coherently / path of the argumentation
-    partOfSpeech: phrase
-    example: Es fundamental estructurar coherentemente la exposición.
-    exampleTranslation: It is fundamental to structure the presentation coherently.
-    gender: n/a
-  - id: es-ES-C1-ACADEMIC-002-010
-    concept: to-manage-speaking-time
-    term: adaptar
-    translation: to adapt / to manage speaking time
+    example: 'Es fundamental estructurar coherentemente la exposición.'
+    exampleTranslation: 'It is fundamental to structure the presentation coherently.'
+  - id: es-ES-C1-ACADEMIC-002-005
+    concept: 'to-adapt'
+    term: 'adaptar'
+    translation: 'to adapt'
     partOfSpeech: verb
-    example: Sé adaptar el lenguaje según el interlocutor.
-    exampleTranslation: I know how to adapt language according to the interlocutor.
-    gender: n/a
-  - id: es-ES-C1-ACADEMIC-002-011
-    concept: to-refute-without-aggression
-    term: contenido complejo
-    translation: complex content / to refute without aggression
+    example: 'Sé adaptar el lenguaje según el interlocutor.'
+    exampleTranslation: 'I know how to adapt language according to the interlocutor.'
+  - id: es-ES-C1-ACADEMIC-002-006
+    concept: 'complex-content'
+    term: 'contenido complejo'
+    translation: 'complex content'
     partOfSpeech: phrase
     gender: masculine
-    example: Presento contenido complejo de forma accesible.
-    exampleTranslation: I present complex content in an accessible way.
+    example: 'Presento contenido complejo de forma accesible.'
+    exampleTranslation: 'I present complex content in an accessible way.'
 grammar:
   - id: es-ES-C1-ACADEMIC-002-G1
-    point: Concessive-subjunctive structures for audience adaptation
+    point: 'Concessive-subjunctive structures for audience adaptation'
     explanation: "Use concessive structures to show audience awareness: 'Aunque el tema sea complejo, lo presento de forma clara' (Although the topic is complex, I present it clearly)."
     examples:
-      - Aunque el contenido sea técnico, lo adapto al nivel del público.
-      - Puedo simplificar el concepto sin que pierda precisión.
-    cefrNotes: C1 learners use concessive-subjunctive to demonstrate audience awareness
-culturalNotes: Presenting complex content to specialist or general audiences at C1 level requires the ability to adapt register, simplify technical concepts, and maintain coherence throughout the presentation.
+      - 'Aunque el contenido sea técnico, lo adapto al nivel del público.'
+      - 'Puedo simplificar el concepto sin que pierda precisión.'
+    cefrNotes: 'C1 learners use concessive-subjunctive to demonstrate audience awareness'
+culturalNotes: 'Presenting complex content to specialist or general audiences at C1 level requires the ability to adapt register, simplify technical concepts, and maintain coherence throughout the presentation.'

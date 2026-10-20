@@ -1,60 +1,59 @@
 nodeId: C1-SPOKEN-001
 lang: es-ES
 vocabulary:
-  - id: es-ES-C1-SPOKEN-001-007
-    concept: detailed-narrative
-    term: descripción completa
-    translation: complete description / detailed narrative
+  - id: es-ES-C1-SPOKEN-001-001
+    concept: 'complete-description'
+    term: 'descripción completa'
+    translation: 'complete description'
     partOfSpeech: phrase
     gender: feminine
-    example: Ofrezco descripciones completas de temas complejos.
-    exampleTranslation: I offer complete descriptions of complex topics.
-  - id: es-ES-C1-SPOKEN-001-008
-    concept: background
-    term: narración
-    translation: narrative / background
+    example: 'Ofrezco descripciones completas de temas complejos.'
+    exampleTranslation: 'I offer complete descriptions of complex topics.'
+  - id: es-ES-C1-SPOKEN-001-002
+    concept: 'narrative'
+    term: 'narración'
+    translation: 'narrative'
     partOfSpeech: noun
     gender: feminine
-    example: Mi narración incluye todos los detalles relevantes.
-    exampleTranslation: My narrative includes all relevant details.
-  - id: es-ES-C1-SPOKEN-001-009
-    concept: to-develop-a-sub-theme
-    term: subtemas
-    translation: sub-themes / to develop a sub-theme
+    example: 'Mi narración incluye todos los detalles relevantes.'
+    exampleTranslation: 'My narrative includes all relevant details.'
+  - id: es-ES-C1-SPOKEN-001-003
+    concept: 'sub-themes'
+    term: 'subtemas'
+    translation: 'sub-themes'
     partOfSpeech: noun
     gender: masculine
-    example: Integro subtemas de forma natural en mis descripciones.
-    exampleTranslation: I integrate sub-themes naturally in my descriptions.
-  - id: es-ES-C1-SPOKEN-001-010
-    concept: to-round-off-the-story
-    term: desarrollo de aspectos
-    translation: development of aspects / to round off the story
+    example: 'Integro subtemas de forma natural en mis descripciones.'
+    exampleTranslation: 'I integrate sub-themes naturally in my descriptions.'
+  - id: es-ES-C1-SPOKEN-001-004
+    concept: 'development-of-aspects'
+    term: 'desarrollo de aspectos'
+    translation: 'development of aspects'
     partOfSpeech: phrase
     gender: masculine
-    example: El desarrollo de aspectos específicos es exhaustivo.
-    exampleTranslation: The development of specific aspects is exhaustive.
-  - id: es-ES-C1-SPOKEN-001-011
-    concept: to-offer-reflections
-    term: conclusión apropiada
-    translation: appropriate conclusion / to offer reflections
+    example: 'El desarrollo de aspectos específicos es exhaustivo.'
+    exampleTranslation: 'The development of specific aspects is exhaustive.'
+  - id: es-ES-C1-SPOKEN-001-005
+    concept: 'appropriate-conclusion'
+    term: 'conclusión apropiada'
+    translation: 'appropriate conclusion'
     partOfSpeech: phrase
     gender: feminine
-    example: Cierro con una conclusión apropiada y bien fundamentada.
-    exampleTranslation: I close with an appropriate and well-founded conclusion.
-  - id: es-ES-C1-SPOKEN-001-012
-    concept: vivid-description
-    term: redondear
-    translation: to round off / vivid description
+    example: 'Cierro con una conclusión apropiada y bien fundamentada.'
+    exampleTranslation: 'I close with an appropriate and well-founded conclusion.'
+  - id: es-ES-C1-SPOKEN-001-006
+    concept: 'to-round-off'
+    term: 'redondear'
+    translation: 'to round off'
     partOfSpeech: verb
-    example: Sé redondear mis exposiciones de forma elegante.
-    exampleTranslation: I know how to round off my presentations elegantly.
-    gender: n/a
+    example: 'Sé redondear mis exposiciones de forma elegante.'
+    exampleTranslation: 'I know how to round off my presentations elegantly.'
 grammar:
   - id: es-ES-C1-SPOKEN-001-G1
-    point: Temporal connectors for elaborate narration
+    point: 'Temporal connectors for elaborate narration'
     explanation: "Use varied temporal connectors for elaborate narration: 'En primer lugar', 'Posteriormente', 'Finalmente', 'A modo de cierre' (To conclude)."
     examples:
-      - En primer lugar, describiré el contexto. Posteriormente, desarrollaré los argumentos.
-      - Finalmente, cerraré con una reflexión personal.
-    cefrNotes: C1 learners use diverse temporal connectors for elaborate spoken descriptions
-culturalNotes: Giving elaborate descriptions and narratives at C1 level requires the ability to embed sub-themes, develop particular aspects, and conclude appropriately, demonstrating mastery of spoken discourse structure.
+      - 'En primer lugar, describiré el contexto. Posteriormente, desarrollaré los argumentos.'
+      - 'Finalmente, cerraré con una reflexión personal.'
+    cefrNotes: 'C1 learners use diverse temporal connectors for elaborate spoken descriptions'
+culturalNotes: 'Giving elaborate descriptions and narratives at C1 level requires the ability to embed sub-themes, develop particular aspects, and conclude appropriately, demonstrating mastery of spoken discourse structure.'
