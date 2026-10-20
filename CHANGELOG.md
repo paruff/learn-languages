@@ -14,7 +14,7 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · Versioning: 
 ### Added
 
 - Empty Diff Guard and Coverage Gate CI jobs, plus `npm run check:coverage` with a committed baseline.
-- fr-FR C1 review-session and lesson e2e coverage restored; it-IT A1-A2 coverage documented honestly (A1 24/24, A2 20/30).
+- fr-FR C1 review-session and lesson e2e coverage restored; it-IT A1 review/lesson tests restored and coverage documented honestly (A1 24/24, A2 20/30, B1 35/35).
 
 ### Changed
 

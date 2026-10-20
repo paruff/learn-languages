@@ -39,7 +39,7 @@
 
 ## Later: breadth and expansion (only after retention + Phase 2 signals)
 
-- Italian C1–C2 under #39 (A1–A2 shipped; B1 in PR #180), with advanced levels gated by #21.
+- Italian C1–C2 under #39 (A1–B1 shipped; A2 is 20/30 nodes), with advanced levels gated by #21.
 - False-friend/cognate notes (#147, L14) and calibration split for image vs non-image cards (#146, L5 extension), gated by S6. Both were claimed closed by empty merges (#170, #167) and are still unimplemented.
 - es-ES shared-concept realignment above A2 with per-item PCIC review (#185).
 - Residual image sourcing work (#75) and contributor workflow scaling (#22).
