@@ -115,3 +115,49 @@ export function computeOverallMastery(items: { repetitions: number }[]): {
     percent: totalItems === 0 ? 0 : Math.round((masteredItems / totalItems) * 100),
   };
 }
+
+export interface CanDoRow {
+  nodeId: string;
+  canDo: string;
+  studied: boolean;
+  practised: boolean;
+  remembered: boolean;
+}
+
+export interface CanDoLevel {
+  cefrLevel: string;
+  /** The first level with a Can-Do not yet remembered: the learner's current goal (spec J3). */
+  current: boolean;
+  canDos: CanDoRow[];
+}
+
+/**
+ * Spec J3: per level, each Can-Do with studied (lesson opened), practised (any
+ * word graded) and remembered (any word recalled 7+ days later) flags.
+ * ponytail: "any word" per Can-Do, not all; tighten if testers find it too generous.
+ */
+export function computeCanDoChecklist(
+  items: TrackedItem[],
+  studied: Set<string>,
+  rememberedItemIds: Set<string>
+): CanDoLevel[] {
+  const levels = LEVEL_ORDER.map((cefrLevel) => {
+    const byNode = new Map<string, TrackedItem[]>();
+    for (const i of items.filter((x) => x.cefrLevel === cefrLevel)) {
+      byNode.set(i.nodeId, [...(byNode.get(i.nodeId) ?? []), i]);
+    }
+    const canDos = [...byNode.entries()]
+      .sort(([a], [b]) => a.localeCompare(b))
+      .map(([nodeId, group]) => ({
+        nodeId,
+        canDo: group[0].canDo,
+        studied: studied.has(nodeId),
+        practised: group.some((i) => i.repetitions >= 1),
+        remembered: group.some((i) => rememberedItemIds.has(i.itemId)),
+      }));
+    return { cefrLevel, current: false, canDos };
+  }).filter((l) => l.canDos.length > 0);
+  const current =
+    levels.find((l) => l.canDos.some((c) => !c.remembered)) ?? levels[levels.length - 1];
+  return levels.map((l) => ({ ...l, current: l === current }));
+}

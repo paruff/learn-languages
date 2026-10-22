@@ -41,6 +41,7 @@ const targetName = languageName(targetLang);
   section="progress"
 >
   <h1>{getString(sourceLang, 'progressTitle')}</h1>
+  <section id="progress-cando" aria-label="What you can do"></section>
   <div id="progress-levels"></div>
   <p id="progress-next" class="card" hidden></p>
   <p id="progress-calibration" class="card" hidden></p>
@@ -124,6 +125,18 @@ const targetName = languageName(targetLang);
     font-size: 0.8rem;
     color: var(--color-text-muted);
   }
+  .cando {
+    list-style: none;
+    padding: 0;
+  }
+  .cando__item {
+    margin-bottom: var(--spacing-unit);
+  }
+  .cando__marks {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+  }
   .progress-level__label {
     display: flex;
     justify-content: space-between;
@@ -133,11 +146,15 @@ const targetName = languageName(targetLang);
 </style>
 
 <script>
-  import { loadState, exportProgress, importProgress } from '../../../lib/storage';
-  import { computeCefrProgress, type TrackedItem } from '../../../lib/progress';
+  import { loadState, loadStudied, exportProgress, importProgress } from '../../../lib/storage';
+  import {
+    computeCefrProgress,
+    computeCanDoChecklist,
+    type TrackedItem,
+  } from '../../../lib/progress';
   import { loadBreakDates, countRecentBreaks } from '../../../lib/calibration';
   import { getString, format } from '../../../lib/strings';
-  import { loadGradeLog, computeRetention } from '../../../lib/gradeLog';
+  import { loadGradeLog, computeRetention, rememberedItems } from '../../../lib/gradeLog';
   import { buildSessionReport } from '../../../lib/sessionReport';
 
   interface DataItem {
@@ -208,6 +225,42 @@ const targetName = languageName(targetLang);
   // Retention (spec M2) and session report (spec M1), from the local grade log.
   const gradeLog = loadGradeLog(sourceLang, targetLang);
   const retention = computeRetention(gradeLog);
+
+  // Spec J3: lead with the goal: the current level's Can-Dos, later levels collapsed.
+  // Can-Do text comes from validated content YAML, but is escaped by textContent anyway.
+  const canDoEl = document.getElementById('progress-cando')!;
+  const mark = (done: boolean, label: string): string =>
+    `${done ? '✓' : '○'} ${label}<span class="sr-only"> ${done ? 'done' : 'not yet'}</span>`;
+  for (const level of computeCanDoChecklist(
+    items,
+    loadStudied(sourceLang, targetLang),
+    rememberedItems(gradeLog)
+  )) {
+    const details = document.createElement('details');
+    details.open = level.current;
+    const summary = document.createElement('summary');
+    summary.textContent = `${level.cefrLevel}: ${level.canDos.filter((c) => c.remembered).length}/${level.canDos.length} Can-Dos remembered`;
+    const list = document.createElement('ul');
+    list.className = 'cando';
+    for (const c of level.canDos) {
+      const li = document.createElement('li');
+      li.className = 'cando__item';
+      li.dataset.nodeId = c.nodeId;
+      const text = document.createElement('span');
+      text.textContent = c.canDo;
+      const marks = document.createElement('span');
+      marks.className = 'cando__marks';
+      marks.innerHTML = [
+        mark(c.studied, 'Studied'),
+        mark(c.practised, 'Practised'),
+        mark(c.remembered, 'Remembered after a week'),
+      ].join(' · ');
+      li.append(text, marks);
+      list.append(li);
+    }
+    details.append(summary, list);
+    canDoEl.append(details);
+  }
   const retentionEl = document.getElementById('retention')!;
   document.getElementById('retention-text')!.textContent =
     retention.rate === null

@@ -96,3 +96,19 @@ describe('summariseLog', () => {
     });
   });
 });
+
+describe('rememberedItems', () => {
+  it('includes items recalled Good/Easy at least 7 days after their previous review', async () => {
+    const { rememberedItems } = await import('./gradeLog');
+    const e = (item: string, q: number, d: string) => ({ item, dir: 'forward' as const, q, d });
+    const log = [
+      e('a', 3, '2026-01-01'),
+      e('a', 3, '2026-01-09'),
+      e('b', 3, '2026-01-01'),
+      e('b', 3, '2026-01-03'),
+      e('c', 3, '2026-01-01'),
+      e('c', 1, '2026-01-10'),
+    ];
+    expect([...rememberedItems(log)]).toEqual(['a']);
+  });
+});
