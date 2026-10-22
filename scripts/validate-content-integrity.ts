@@ -1,4 +1,4 @@
-import { readFileSync, readdirSync, statSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import { parse } from 'yaml';
 import {
@@ -177,3 +177,25 @@ if (parityWarnings.length > 0) {
     console.warn(`  ${warning.nodeId}: ${summary}`);
   }
 }
+
+// Every audio file referenced from an exercise must exist under public/.
+const exercisesDir = join(import.meta.dirname, '../src/content/exercises');
+const publicDir = join(import.meta.dirname, '../public');
+const missingAudio: string[] = [];
+const walkExercises = (dir: string): void => {
+  for (const entry of readdirSync(dir)) {
+    const full = join(dir, entry);
+    if (statSync(full).isDirectory()) walkExercises(full);
+    else if (full.endsWith('.json')) {
+      const { audio } = JSON.parse(readFileSync(full, 'utf-8')) as { audio?: string };
+      if (audio && !existsSync(join(publicDir, audio))) missingAudio.push(`${full} -> ${audio}`);
+    }
+  }
+};
+if (existsOrEmpty(exercisesDir)) walkExercises(exercisesDir);
+if (missingAudio.length > 0) {
+  console.error('\nContent integrity check FAILED (exercise audio): referenced file missing:');
+  for (const line of missingAudio) console.error(`  ${line}`);
+  globalThis.process.exit(1);
+}
+console.log('Exercise audio check passed.');
