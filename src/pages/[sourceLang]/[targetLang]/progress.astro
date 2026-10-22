@@ -4,6 +4,8 @@ import { getCollection } from 'astro:content';
 import { getAvailablePairs, loadPair } from '../../../lib/pairLoader';
 import { languageName } from '../../../lib/languageNames';
 import { getString } from '../../../lib/strings';
+import { orderLessons } from '../../../lib/path';
+import ContinueCard from '../../../components/ContinueCard.astro';
 
 export async function getStaticPaths() {
   const pairs = await getAvailablePairs();
@@ -30,6 +32,11 @@ const trackedItems = items
     };
   });
 
+const a1Path = orderLessons(
+  nodes
+    .filter((n) => n.data.cefrLevel === 'A1' && items.some((i) => i.nodeId === n.data.nodeId))
+    .map((n) => n.data)
+);
 const targetName = languageName(targetLang);
 ---
 
@@ -41,6 +48,7 @@ const targetName = languageName(targetLang);
   section="progress"
 >
   <h1>{getString(sourceLang, 'progressTitle')}</h1>
+  <ContinueCard sourceLang={sourceLang} targetLang={targetLang} lessons={a1Path} />
   <div id="progress-levels"></div>
   <p id="progress-next" class="card" hidden></p>
   <p id="progress-calibration" class="card" hidden></p>

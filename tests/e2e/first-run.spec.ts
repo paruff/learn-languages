@@ -14,8 +14,8 @@ test.describe('first run', () => {
     await expect(page.getByRole('heading', { level: 1 })).toHaveText(
       'Learn Portuguese with Science'
     );
-    await page.getByRole('link', { name: /Start your first lesson/ }).click();
-    await expect(page).toHaveURL(/\/en-GB\/pt-PT\/lessons\/$/);
+    await page.getByRole('link', { name: 'Continue' }).first().click();
+    await expect(page).toHaveURL(/\/en-GB\/pt-PT\/lessons\/A1-GREET-001\/$/);
   });
 
   test('a saved pair is honoured by Start and the nav (U1)', async ({ page }) => {
@@ -26,8 +26,8 @@ test.describe('first run', () => {
       )
     );
     await page.reload();
-    await page.getByRole('link', { name: /Start your first lesson/ }).click();
-    await expect(page).toHaveURL(/\/en-GB\/es-ES\/lessons\/$/);
+    await page.getByRole('link', { name: 'Continue' }).first().click();
+    await expect(page).toHaveURL(/\/en-GB\/es-ES\/lessons\/A1-GREET-001\/$/);
   });
 
   test('page opts out of browser auto-translation (U2)', async ({ page }) => {
@@ -73,5 +73,40 @@ test.describe('first run', () => {
     await expect(target.locator('option:checked')).toHaveText('Portuguese');
     await target.selectOption('es-ES');
     await expect(page).toHaveURL(/\/en-GB\/es-ES\/progress\/$/);
+  });
+});
+
+// Spec J1: one goal, one next step.
+test.describe('learning path (J1)', () => {
+  test('Continue walks A1 in teaching order; Lessons shows A1 open, others collapsed', async ({
+    page,
+  }) => {
+    await page.goto(HOME);
+    await page.evaluate(() => window.localStorage.clear());
+    await page.reload();
+    await page.getByRole('link', { name: 'Continue' }).click();
+    await expect(page).toHaveURL(/\/lessons\/A1-GREET-001\/$/);
+    await page.waitForFunction(() => window.localStorage.getItem('studied:en-GB:pt-PT'));
+
+    await page.goto('/learn-languages/en-GB/pt-PT/lessons/');
+    await expect(page.getByRole('link', { name: 'Continue' })).toHaveAttribute(
+      'href',
+      /A1-INTRO-001\/$/
+    );
+    await expect(page.locator('details.lesson-index__level').first()).toHaveJSProperty(
+      'open',
+      true
+    );
+    await expect(page.locator('details.lesson-index__level').nth(1)).toHaveJSProperty(
+      'open',
+      false
+    );
+    await expect(page.locator('.lesson-index__can-do').first()).toContainText('greet');
+
+    await page.goto('/learn-languages/en-GB/pt-PT/progress/');
+    await expect(page.getByRole('link', { name: 'Continue' })).toHaveAttribute(
+      'href',
+      /A1-INTRO-001\/$/
+    );
   });
 });

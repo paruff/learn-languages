@@ -61,7 +61,7 @@ const sourceByConcept = new Map(source.vocabulary.map((v) => [v.concept, v]));
   targetLang={targetLang}
   section="lessons"
 >
-  <article class="lesson">
+  <article class="lesson" data-lesson-id={nodeId} data-source={sourceLang} data-target={targetLang}>
     <Breadcrumb {sourceLang} {targetLang} title={node.canDo} />
     <p class="lesson__meta">
       <span class={`badge badge--${node.cefrLevel.toLowerCase()}`}>{node.cefrLevel}</span>
@@ -276,6 +276,13 @@ const sourceByConcept = new Map(source.vocabulary.map((v) => [v.concept, v]));
     pointer-events: none;
   }
 </style>
+
+<script>
+  // Spec J1: opening a lesson counts as studying it.
+  import { markStudied } from '../../../../lib/path';
+  const el = document.querySelector<HTMLElement>('[data-lesson-id]')!;
+  markStudied(el.dataset.source!, el.dataset.target!, el.dataset.lessonId!);
+</script>
 
 <script>
   // Inline gloss tooltip (#36) — hover/focus/tap shows a term's translation
