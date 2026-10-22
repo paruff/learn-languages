@@ -39,18 +39,11 @@ Owner decision, 2026-10-18: re-author es-ES and de-DE B1–C2 vocabulary (#142, 
 
 ## Now: T0/T1, tester readiness (before inviting learners)
 
-First outside feedback (2026-10-22) found a wrong-language start, browser auto-translate rewriting the target text, no sense of place, and a wrapping grade button. Full analysis and rationale: `docs/superpowers/plans/2026-10-22-ux-audit-and-learner-success.md`. Each row is test-first.
+First outside feedback (2026-10-22) found a wrong-language start, browser auto-translate rewriting the target text, no sense of place, and a wrapping grade button. Full analysis and rationale: `docs/superpowers/plans/2026-10-22-ux-audit-and-learner-success.md`. Built and verified 2026-10-22 (T0.1–T0.6, T1.1: pair resolution, translate guard, nav state and breadcrumb, even grade buttons, feedback link, session report and retention panel, mobile projects, stricter Lighthouse). What remains is the human step.
 
-| #    | Work                                                                                                          | Spec   | Issue | Exit criterion                                                           |
-| ---- | ------------------------------------------------------------------------------------------------------------- | ------ | ----- | ------------------------------------------------------------------------ |
-| T0.1 | Pair resolution: saved preference, else en-GB→pt-PT; home headline "Learn Portuguese with Science"            | U1     | new   | E2E: fresh visitor's Start lands on en-GB/pt-PT; saved es-ES is honoured |
-| T0.2 | Translate guard and `lang` on target text, first-run hint                                                     | U2     | new   | E2E: `translate="no"`, target spans carry `lang`                         |
-| T0.3 | Active nav state and lesson breadcrumb with Can-Do title                                                      | U3     | new   | E2E: `aria-current` on the right link on every section                   |
-| T0.4 | Equal-width grade buttons                                                                                     | U4     | new   | Layout E2E at 320/375/1280 passes                                        |
-| T0.5 | Footer feedback `mailto:`; pair selector with names and "I speak → I'm learning"                              | U5, U6 | new   | E2E                                                                      |
-| T0.6 | Session report and retention panel                                                                            | M1, M2 | new   | Report has only allow-listed keys; retention panel shows on Progress     |
-| T1.1 | Mobile Playwright projects, `first-run.spec.ts`, mobile Lighthouse profile with best-practices and SEO checks | Q9, Q5 | new   | CI green with the new projects                                           |
-| T1.2 | `docs/tester-readiness.md` manual device checklist (iPhone Safari, Android Chrome with auto-translate on)     | Q9     | new   | Checklist run once, dated, before each invitation wave                   |
+| #    | Work                                                                                                      | Spec | Issue | Exit criterion                                         |
+| ---- | --------------------------------------------------------------------------------------------------------- | ---- | ----- | ------------------------------------------------------ |
+| T1.2 | `docs/tester-readiness.md` manual device checklist (iPhone Safari, Android Chrome with auto-translate on) | Q9   | new   | Checklist run once, dated, before each invitation wave |
 
 Ability checkpoint (L16) is deliberately **not** here: design it after round-one feedback.
 
