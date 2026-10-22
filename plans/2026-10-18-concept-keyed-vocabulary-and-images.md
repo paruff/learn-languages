@@ -31,7 +31,7 @@
 - Images: 240px max edge, `cwebp -q 82`, alt text required (WCAG 2.1 AA), licence in {Public Domain, CC0 1.0, CC BY 2.0/3.0/4.0, CC BY-SA 3.0/4.0}.
 - Content-schema break (required `concept`, removed `imageUrl`/`imageAlt`): `feat(content)!:` with a `BREAKING CHANGE:` footer, version 0.1.0 → 0.2.0 (pre-1.0, so a minor bump; AGENTS.md §9.3).
 - Gates: typecheck 0, lint 0 warnings, `npm run validate:content` passes, unit coverage ≥90% on `src/lib/`, build, E2E, a11y.
-- Plan rules: Phase 0, A and B are bug, refactor or compliance work, allowed now under `plan.md` rule 3. Phase C items follow the Phase 1/2 gates in `plan.md`.
+- Plan rules: Phase 0, A and B are bug, refactor or compliance work, allowed now under master-plan rule 3. Phase C items follow the Phase 1/2 gates in `plan.md`.
 - Work on a new branch from `main`, after `fix/launch-blockers-and-sdlc-docs` merges.
 
 ## Review Focus

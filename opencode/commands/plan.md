@@ -16,14 +16,14 @@ Load the `brainstorming` skill and follow its workflow strictly:
 2. Ask clarifying questions one at a time
 3. Propose 2-3 approaches with recommendations
 4. Present design sections for confirmation
-5. Write the design to `docs/superpowers/specs/YYYY-MM-DD-<topic>-design.md`
+5. Write the design to `plans/YYYY-MM-DD-<topic>-design.md`
    (existing convention — match neighbouring files)
 6. Self-review the spec (scan for TBD/TODO, contradictions, scope issues)
 
 ## Phase 2 — Plan (superpowers `writing-plans`)
 
 Load the `writing-plans` skill and produce
-`docs/superpowers/plans/YYYY-MM-DD-<topic>.md` — sequenced, bounded steps
+`plans/YYYY-MM-DD-<topic>.md` — sequenced, bounded steps
 with verification for each.
 
 ## Phase 3 — Decompose (the `plan` skill)
@@ -39,9 +39,9 @@ on demand) and apply its rules against the design + plan docs:
 
 Emit its JSON outputs next to the plan doc, prefixed with the same stem:
 
-- `docs/superpowers/plans/<stem>.tasks.json`
-- `docs/superpowers/plans/<stem>.dependency-graph.json`
-- `docs/superpowers/plans/<stem>.effort-estimates.json`
+- `plans/<stem>.tasks.json`
+- `plans/<stem>.dependency-graph.json`
+- `plans/<stem>.effort-estimates.json`
 
 ## GitOps Integration
 

@@ -3,7 +3,7 @@
 > **What this file is:** the _why_ and the _what-good-looks-like_. It changes rarely and only on purpose.
 > Every spec and plan in this repo must trace back to something here. If a proposed change can't, either the change is wrong or this file needs an explicit, reviewed edit first.
 >
-> Flow: **intent.md** (why) → **spec.md** (what the product must do) → **plan.md** (what we do next, in what order) → issues/PRs (how).
+> Flow: **intent.md** (why) → **spec.md** (what the product must do) → **plans/README.md** (what we do next, in what order) → issues/PRs (how).
 
 ## 1. Problem
 
