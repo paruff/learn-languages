@@ -21,11 +21,13 @@ describe('gradeLog storage', () => {
   });
 
   it('keeps only the most recent entries', () => {
-    for (let i = 0; i < MAX_LOG_ENTRIES + 5; i++)
-      appendGrade('en-GB', 'pt-PT', e(`i${i}`, 3, '2026-10-01'));
+    const full = Array.from({ length: MAX_LOG_ENTRIES }, (_, i) => e(`i${i}`, 3, '2026-10-01'));
+    window.localStorage.setItem('grade-log:en-GB:pt-PT', JSON.stringify(full));
+    appendGrade('en-GB', 'pt-PT', e('newest', 3, '2026-10-02'));
     const log = loadGradeLog('en-GB', 'pt-PT');
     expect(log).toHaveLength(MAX_LOG_ENTRIES);
-    expect(log[log.length - 1].item).toBe(`i${MAX_LOG_ENTRIES + 4}`);
+    expect(log[0].item).toBe('i1');
+    expect(log[log.length - 1].item).toBe('newest');
   });
 
   it('survives corrupt or malformed stored data (spec S7)', () => {
