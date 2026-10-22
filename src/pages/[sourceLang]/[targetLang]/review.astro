@@ -68,12 +68,8 @@ const targetName = languageName(targetLang);
     </form>
     <p id="review-type-feedback" class="review-card__type-feedback" hidden></p>
     <p id="review-back" class="review-card__term review-card__term--answer" hidden></p>
-    <button
-      id="review-pronounce"
-      type="button"
-      class="btn btn--secondary"
-      hidden
-      aria-label={getString(sourceLang, 'reviewPronounceLabel')}>🔊</button
+    <button id="review-pronounce" type="button" class="btn btn--secondary" hidden
+      ><span aria-hidden="true">🔊</span> {getString(sourceLang, 'reviewPronounceLabel')}</button
     >
     <div id="review-grades" class="review-card__grades" hidden>
       <button type="button" class="btn btn--grade-again" data-quality="1"
@@ -222,7 +218,7 @@ const targetName = languageName(targetLang);
     type RecallMode,
   } from '../../../lib/storage';
   import { calculateNextReview, isDue } from '../../../utils/srs';
-  import { pronounce } from '../../../lib/pronounce';
+  import { pronounce, recordedAudioPath } from '../../../lib/pronounce';
   import { DAILY_NEW_CAP, selectDue } from '../../../lib/reviewSession';
   import { withBase } from '../../../lib/urls';
   import { computeOverallMastery } from '../../../lib/progress';
@@ -508,7 +504,10 @@ const targetName = languageName(targetLang);
 
   pronounceBtn.addEventListener('click', () => {
     const item = queue[0];
-    if (item) pronounce(backOf(item).term, backLang());
+    if (!item) return;
+    const back = backOf(item);
+    const path = recordedAudioPath(backLang(), back.id);
+    pronounce(back.term, backLang(), path && withBase(path));
   });
 
   gradesEl.addEventListener('click', (event) => {
