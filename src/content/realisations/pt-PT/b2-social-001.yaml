@@ -2,6 +2,7 @@ nodeId: B2-SOCIAL-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-B2-SOCIAL-001-001
+    concept: 'to-deepen-the-discussion'
     term: 'aprofundar a discussão'
     translation: 'to deepen the discussion'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Podemos aprofundar a discussão sobre este tema?'
     exampleTranslation: 'Can we deepen the discussion about this topic?'
   - id: pt-PT-B2-SOCIAL-001-002
+    concept: 'to-keep-the-conversation-going'
     term: 'manter a conversa'
     translation: 'to keep the conversation going'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'É importante manter a conversa fluente.'
     exampleTranslation: 'It is important to keep the conversation flowing.'
   - id: pt-PT-B2-SOCIAL-001-003
+    concept: 'to-react-spontaneously'
     term: 'reagir espontaneamente'
     translation: 'to react spontaneously'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Consigo reagir espontaneamente em discussões.'
     exampleTranslation: 'I can react spontaneously in discussions.'
   - id: pt-PT-B2-SOCIAL-001-004
+    concept: 'to-participate-actively'
     term: 'participar ativamente'
     translation: 'to participate actively'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Gosto de participar ativamente nas aulas.'
     exampleTranslation: 'I like to participate actively in classes.'
   - id: pt-PT-B2-SOCIAL-001-005
+    concept: 'to-express-ideas-clearly'
     term: 'expressar ideias com clareza'
     translation: 'to express ideas clearly'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'É fundamental expressar ideias com clareza.'
     exampleTranslation: 'It is fundamental to express ideas clearly.'
   - id: pt-PT-B2-SOCIAL-001-006
+    concept: 'to-interact-with-fluency'
     term: 'interagir com fluidez'
     translation: 'to interact with fluency'
     partOfSpeech: phrase

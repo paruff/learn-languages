@@ -1,0 +1,53 @@
+nodeId: C2-ACADEMIC-002
+lang: fr-FR
+vocabulary:
+  - id: 'fr-FR-C2-ACADEMIC-002-001'
+    concept: 'detailed-description'
+    term: 'description détaillée'
+    translation: 'detailed description'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La description détaillée couvre les éléments essentiels du sujet.'
+    exampleTranslation: 'The detailed description covers the essential elements of the subject.'
+  - id: 'fr-FR-C2-ACADEMIC-002-002'
+    concept: 'related-sub-themes'
+    term: 'sous-thèmes liés'
+    translation: 'related sub-themes'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'J’intègre les sous-thèmes liés dans une présentation cohérente.'
+    exampleTranslation: 'I integrate related sub-themes into a coherent presentation.'
+  - id: 'fr-FR-C2-ACADEMIC-002-003'
+    concept: 'particular-points'
+    term: 'points particuliers'
+    translation: 'particular points'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je mets en relief les points particuliers qui importent.'
+    exampleTranslation: 'I highlight the particular points that matter.'
+  - id: 'fr-FR-C2-ACADEMIC-002-004'
+    concept: 'appropriate-conclusion'
+    term: 'conclusion appropriée'
+    translation: 'appropriate conclusion'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La conclusion appropriée clôt le sujet avec précision.'
+    exampleTranslation: 'The appropriate conclusion closes the topic with precision.'
+  - id: 'fr-FR-C2-ACADEMIC-002-005'
+    concept: 'complex-subject'
+    term: 'sujet complexe'
+    translation: 'complex subject'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je peux exposer un sujet complexe avec clarté.'
+    exampleTranslation: 'I can explain a complex subject clearly.'
+  - id: 'fr-FR-C2-ACADEMIC-002-006'
+    concept: 'accurate-presentation'
+    term: 'présentation précise'
+    translation: 'accurate presentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La présentation précise facilite la compréhension du public.'
+    exampleTranslation: 'The accurate presentation makes it easier for the audience to understand.'
+grammar: []
+culturalNotes: 'French C2 communication values precision, register control and stylistic finesse, with clear argumentation and smooth adaptation to the audience.'

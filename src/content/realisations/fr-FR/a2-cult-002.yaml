@@ -2,6 +2,7 @@ nodeId: A2-CULT-002
 lang: fr-FR
 vocabulary:
   - id: fr-FR-A2-CULT-002-001
+    concept: 'culture'
     term: 'culture'
     translation: 'culture'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'La culture française est riche.'
     exampleTranslation: 'French culture is rich.'
   - id: fr-FR-A2-CULT-002-002
+    concept: 'custom'
     term: 'coutume'
     translation: 'custom'
     partOfSpeech: noun
@@ -16,12 +18,14 @@ vocabulary:
     example: "C'est la coutume d'offrir des cadeaux à Noël."
     exampleTranslation: 'It is customary to give gifts at Christmas.'
   - id: fr-FR-A2-CULT-002-003
+    concept: 'different'
     term: 'différent'
     translation: 'different'
     partOfSpeech: adjective
     example: 'Les pays ont des coutumes différentes.'
     exampleTranslation: 'Countries have different customs.'
   - id: fr-FR-A2-CULT-002-004
+    concept: 'country'
     term: 'pays'
     translation: 'country'
     partOfSpeech: noun
@@ -29,6 +33,7 @@ vocabulary:
     example: 'La France est un beau pays.'
     exampleTranslation: 'France is a beautiful country.'
   - id: fr-FR-A2-CULT-002-005
+    concept: 'people'
     term: 'peuple'
     translation: 'people'
     partOfSpeech: noun
@@ -36,6 +41,7 @@ vocabulary:
     example: 'Le peuple français est accueillant.'
     exampleTranslation: 'The French people are welcoming.'
   - id: fr-FR-A2-CULT-002-006
+    concept: 'region'
     term: 'région'
     translation: 'region'
     partOfSpeech: noun

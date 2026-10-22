@@ -5,6 +5,7 @@ import { z } from 'zod';
 const vocabularyItemSchema = z
   .object({
     id: z.string().regex(/^[a-z]{2}(-[A-Z]{2})?-.+-\d{3}$/),
+    concept: z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/),
     term: z.string().min(1),
     translation: z.string().min(1),
     partOfSpeech: z.enum([
@@ -34,6 +35,7 @@ const vocabularyItemSchema = z
 describe('Vocabulary Item Schema Validation', () => {
   const baseItem = {
     id: 'pt-PT-hello-001',
+    concept: 'hello',
     term: 'Olá',
     translation: 'Hello',
     partOfSpeech: 'interjection' as const,
@@ -44,6 +46,14 @@ describe('Vocabulary Item Schema Validation', () => {
   it('accepts a vocabulary item with no image at all', () => {
     const result = vocabularyItemSchema.safeParse(baseItem);
     expect(result.success).toBe(true);
+  });
+
+  it('rejects a non-kebab concept', () => {
+    const result = vocabularyItemSchema.safeParse({
+      ...baseItem,
+      concept: 'Hello',
+    });
+    expect(result.success).toBe(false);
   });
 
   it('accepts a vocabulary item with both imageUrl and imageAlt', () => {

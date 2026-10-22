@@ -2,6 +2,7 @@ nodeId: B2-SPOKEN-002
 lang: es-ES
 vocabulary:
   - id: es-ES-B2-SPOKEN-002-001
+    concept: 'current-affairs-programme'
     term: 'programa de actualidad'
     translation: 'current affairs programme'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Veo programas de actualidad para informarme.'
     exampleTranslation: 'I watch current affairs programmes to stay informed.'
   - id: es-ES-B2-SPOKEN-002-002
+    concept: 'news-broadcast'
     term: 'noticiero'
     translation: 'news broadcast'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'El noticiero cubre temas internacionales.'
     exampleTranslation: 'The news broadcast covers international topics.'
   - id: es-ES-B2-SPOKEN-002-003
+    concept: 'film'
     term: 'película'
     translation: 'film / movie'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Puedo entender películas sin subtítulos.'
     exampleTranslation: 'I can understand films without subtitles.'
   - id: es-ES-B2-SPOKEN-002-004
+    concept: 'television'
     term: 'televisión'
     translation: 'television'
     partOfSpeech: noun
@@ -30,12 +34,14 @@ vocabulary:
     example: 'La televisión española tiene programas variados.'
     exampleTranslation: 'Spanish television has varied programmes.'
   - id: es-ES-B2-SPOKEN-002-005
+    concept: 'to-comprehend'
     term: 'comprender'
     translation: 'to comprehend'
     partOfSpeech: verb
     example: 'Puedo comprender la mayoría de programas en televisión.'
     exampleTranslation: 'I can comprehend most programmes on television.'
   - id: es-ES-B2-SPOKEN-002-006
+    concept: 'fast-dialogue'
     term: 'diálogo rápido'
     translation: 'fast dialogue'
     partOfSpeech: phrase

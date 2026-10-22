@@ -2,12 +2,14 @@ nodeId: A1-GREET-001
 lang: es-ES
 vocabulary:
   - id: es-ES-A1-GREET-001-001
+    concept: 'hello'
     term: 'Hola'
     translation: 'Hello'
     partOfSpeech: interjection
     example: 'Hola, ¿cómo estás?'
     exampleTranslation: 'Hello, how are you?'
   - id: es-ES-A1-GREET-001-002
+    concept: 'good-morning'
     term: 'Buenos días'
     translation: 'Good morning'
     partOfSpeech: phrase

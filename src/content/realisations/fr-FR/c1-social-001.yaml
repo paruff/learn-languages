@@ -1,0 +1,11 @@
+nodeId: C1-SOCIAL-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-C1-SOCIAL-001-001
+    concept: to-express-oneself-fluently
+    term: s'exprimer avec aisance
+    translation: to express oneself fluently
+    partOfSpeech: phrase
+    gender: n/a
+    example: Elle peut s'exprimer avec aisance dans des contextes variés.
+    exampleTranslation: She can express herself fluently in a variety of contexts.

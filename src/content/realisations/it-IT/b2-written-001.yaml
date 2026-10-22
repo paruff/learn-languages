@@ -1,0 +1,61 @@
+nodeId: B2-WRITTEN-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-B2-WRITTEN-001-001
+    concept: 'to-write-clear-and-detailed-texts'
+    term: 'scrivere testi chiari e dettagliati'
+    translation: 'to write clear and detailed texts'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I can write clear and detailed texts on various topics.'
+    exampleTranslation: 'Consigo escrever textos claros e detalhados sobre vários temas.'
+  - id: it-IT-B2-WRITTEN-001-002
+    concept: 'to-develop-the-writing'
+    term: 'sviluppare la scrittura'
+    translation: 'to develop the writing'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I will develop the writing with more details.'
+    exampleTranslation: 'Vou desenvolver a escrita com mais detalhes.'
+  - id: it-IT-B2-WRITTEN-001-003
+    concept: 'to-use-varied-vocabulary'
+    term: 'usare un lessico vario'
+    translation: 'to use varied vocabulary'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'It is important to use varied vocabulary in writing.'
+    exampleTranslation: 'É importante usar vocabulário variado na escrita.'
+  - id: it-IT-B2-WRITTEN-001-004
+    concept: 'to-structure-paragraphs'
+    term: 'strutturare i paragrafi'
+    translation: 'to structure paragraphs'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I need to structure paragraphs logically.'
+    exampleTranslation: 'Preciso de estruturar parágrafos de forma lógica.'
+  - id: it-IT-B2-WRITTEN-001-005
+    concept: 'to-use-appropriate-connectors'
+    term: 'usare connettori appropriati'
+    translation: 'to use appropriate connectors'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I will use appropriate connectors to connect ideas.'
+    exampleTranslation: 'Vou usar conectores adequados para ligar ideias.'
+  - id: it-IT-B2-WRITTEN-001-006
+    concept: 'to-rewrite-to-improve'
+    term: 'riscrivere per migliorare'
+    translation: 'to rewrite to improve'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'It is useful to rewrite to improve the text.'
+    exampleTranslation: 'É útil reescrever para melhorar o texto.'
+grammar:
+  - id: it-IT-B2-WRITTEN-001-G01
+    point: 'Complex sentence structures in writing'
+    explanation: 'Using subordination and coordination for sophisticated written expression'
+    examples:
+      - 'Although the topic is complex, it can be explained simply.'
+      - 'Not only did he present data, but he also drew relevant conclusions.'
+    cefrNotes: 'B2 learners use complex sentence structures for detailed written expression'
+
+culturalNotes: "British academic writing values clarity and detail. Using 'furthermore', 'on the other hand' signals structured thinking."

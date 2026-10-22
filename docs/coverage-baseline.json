@@ -1,0 +1,20 @@
+{
+  "languages": {
+    "de-DE": {
+      "missingConcepts": 573,
+      "missingNodes": 31
+    },
+    "es-ES": {
+      "missingConcepts": 584,
+      "missingNodes": 31
+    },
+    "fr-FR": {
+      "missingConcepts": 125,
+      "missingNodes": 0
+    },
+    "it-IT": {
+      "missingConcepts": 125,
+      "missingNodes": 50
+    }
+  }
+}

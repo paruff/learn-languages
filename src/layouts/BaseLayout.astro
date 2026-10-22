@@ -79,6 +79,11 @@ const fontUrl = withBase('/fonts/fraunces-latin-opsz144-wght600-700.woff2');
               >{getString(sourceLang, 'navProgress')}</a
             >
           </li>
+          <li>
+            <a href={withBase(`/${sourceLang}/${targetLang}/credits/`)} class="nav__link"
+              >{getString(sourceLang, 'credits')}</a
+            >
+          </li>
         </ul>
         {
           availablePairs.length > 0 && (

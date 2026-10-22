@@ -2,6 +2,7 @@ nodeId: A2-NEWS-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-A2-NEWS-001-001
+    concept: 'newspaper'
     term: 'jornal'
     translation: 'newspaper'
     partOfSpeech: noun
@@ -11,6 +12,7 @@ vocabulary:
     imageUrl: 'jornal.webp'
     imageAlt: 'A person reading a large open newspaper'
   - id: pt-PT-A2-NEWS-001-002
+    concept: 'magazine'
     term: 'revista'
     translation: 'magazine'
     partOfSpeech: noun
@@ -20,6 +22,7 @@ vocabulary:
     imageUrl: 'revista.webp'
     imageAlt: 'The illustrated cover of a vintage magazine'
   - id: pt-PT-A2-NEWS-001-003
+    concept: 'headline'
     term: 'título'
     translation: 'headline'
     partOfSpeech: noun
@@ -27,6 +30,7 @@ vocabulary:
     example: 'O título chamou a minha atenção.'
     exampleTranslation: 'The headline caught my attention.'
   - id: pt-PT-A2-NEWS-001-004
+    concept: 'author'
     term: 'autor'
     translation: 'author'
     partOfSpeech: noun
@@ -36,6 +40,7 @@ vocabulary:
     imageUrl: 'autor.webp'
     imageAlt: 'An author signing copies of their own book at a bookshop'
   - id: pt-PT-A2-NEWS-001-005
+    concept: 'information'
     term: 'informação'
     translation: 'information'
     partOfSpeech: noun
@@ -43,6 +48,7 @@ vocabulary:
     example: 'A informação é fiável.'
     exampleTranslation: 'The information is reliable.'
   - id: pt-PT-A2-NEWS-001-006
+    concept: 'to-read'
     term: 'ler'
     translation: 'to read'
     partOfSpeech: verb

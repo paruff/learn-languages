@@ -2,24 +2,28 @@ nodeId: A1-FEEL-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-A1-FEEL-001-001
+    concept: 'i-am-happy'
     term: 'Estou feliz'
     translation: 'I am happy'
     partOfSpeech: phrase
     example: 'Estou feliz hoje.'
     exampleTranslation: 'I am happy today.'
   - id: pt-PT-A1-FEEL-001-002
+    concept: 'i-am-sad'
     term: 'Estou triste'
     translation: 'I am sad'
     partOfSpeech: phrase
     example: 'Estou triste com a notícia.'
     exampleTranslation: 'I am sad about the news.'
   - id: pt-PT-A1-FEEL-001-003
+    concept: 'i-am-tired'
     term: 'Estou cansado/cansada'
     translation: 'I am tired'
     partOfSpeech: phrase
     example: 'Estou cansado depois do trabalho.'
     exampleTranslation: 'I am tired after work.'
   - id: pt-PT-A1-FEEL-001-004
+    concept: 'i-m-hungry'
     term: 'Tenho fome/sede'
     translation: "I'm hungry/thirsty"
     partOfSpeech: phrase

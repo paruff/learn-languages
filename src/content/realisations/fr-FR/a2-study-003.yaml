@@ -2,6 +2,7 @@ nodeId: A2-STUDY-003
 lang: fr-FR
 vocabulary:
   - id: fr-FR-A2-STUDY-003-001
+    concept: 'article'
     term: 'article'
     translation: 'article'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: "J'ai lu un article intéressant sur l'éducation."
     exampleTranslation: 'I read an interesting article about education.'
   - id: fr-FR-A2-STUDY-003-002
+    concept: 'book'
     term: 'livre'
     translation: 'book'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Le manuel est très utile.'
     exampleTranslation: 'The textbook is very useful.'
   - id: fr-FR-A2-STUDY-003-003
+    concept: 'summary'
     term: 'résumé'
     translation: 'summary'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Je dois faire un résumé du chapitre.'
     exampleTranslation: 'I need to make a summary of the chapter.'
   - id: fr-FR-A2-STUDY-003-004
+    concept: 'research'
     term: 'recherche'
     translation: 'research'
     partOfSpeech: noun
@@ -30,12 +34,14 @@ vocabulary:
     example: 'Je fais une recherche pour le projet.'
     exampleTranslation: 'I am doing research for the project.'
   - id: fr-FR-A2-STUDY-003-005
+    concept: 'to-learn'
     term: 'apprendre'
     translation: 'to learn'
     partOfSpeech: verb
     example: "J'apprends bien avec ce livre."
     exampleTranslation: 'I can learn well with this book.'
   - id: fr-FR-A2-STUDY-003-006
+    concept: 'to-understand'
     term: 'comprendre'
     translation: 'to understand'
     partOfSpeech: verb

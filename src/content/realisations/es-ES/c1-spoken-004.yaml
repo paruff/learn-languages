@@ -2,6 +2,7 @@ nodeId: C1-SPOKEN-004
 lang: es-ES
 vocabulary:
   - id: es-ES-C1-SPOKEN-004-001
+    concept: 'extended-speech'
     term: 'discurso extenso'
     translation: 'extended speech'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Puedo seguir discursos extensos incluso sin estructura clara.'
     exampleTranslation: 'I can follow extended speeches even without clear structure.'
   - id: es-ES-C1-SPOKEN-004-002
+    concept: 'implicit-relationships'
     term: 'relaciones implícitas'
     translation: 'implicit relationships'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Capto las relaciones implícitas en un discurso complejo.'
     exampleTranslation: 'I grasp the implicit relationships in complex speech.'
   - id: es-ES-C1-SPOKEN-004-003
+    concept: 'signals'
     term: 'señales'
     translation: 'signals'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Aunque no haya señales explícitas, entiendo el contexto.'
     exampleTranslation: 'Even without explicit signals, I understand the context.'
   - id: es-ES-C1-SPOKEN-004-004
+    concept: 'implicit-signals'
     term: 'signales implícitas'
     translation: 'implicit signals'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Las señales implícitas son clave para la comprensión.'
     exampleTranslation: 'Implicit signals are key for comprehension.'
   - id: es-ES-C1-SPOKEN-004-005
+    concept: 'deep-comprehension'
     term: 'comprensión profunda'
     translation: 'deep comprehension'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Mi comprensión profunda me permite entender discursos complejos.'
     exampleTranslation: 'My deep comprehension allows me to understand complex speeches.'
   - id: es-ES-C1-SPOKEN-004-006
+    concept: 'to-infer'
     term: 'inferir'
     translation: 'to infer'
     partOfSpeech: verb

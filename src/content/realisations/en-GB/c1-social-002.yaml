@@ -2,6 +2,7 @@ nodeId: C1-SOCIAL-002
 lang: en-GB
 vocabulary:
   - id: en-GB-C1-SOCIAL-002-001
+    concept: 'to-switch-register'
     term: 'to switch register'
     translation: 'mudar de registo'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'In a formal environment, he switches register with surprising naturalness.'
     exampleTranslation: 'Num ambiente formal, muda de registo com uma naturalidade surpreendente.'
   - id: en-GB-C1-SOCIAL-002-002
+    concept: 'to-address-someone-formally'
     term: 'to address someone formally'
     translation: 'tratar por você'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'With older people, it is customary to address them formally.'
     exampleTranslation: 'Com as pessoas mais velhas, é costume tratar por você.'
   - id: en-GB-C1-SOCIAL-002-003
+    concept: 'to-address-someone-informally'
     term: 'to address someone informally'
     translation: 'tratar por tu'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Co-workers have addressed each other informally since day one.'
     exampleTranslation: 'Os colegas de trabalho tratam-se por tu desde o primeiro dia.'
   - id: en-GB-C1-SOCIAL-002-004
+    concept: 'to-adjust-the-tone'
     term: 'to adjust the tone'
     translation: 'adequar o tom'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'She knows how to adjust her tone to the social context she is in.'
     exampleTranslation: 'Sabe adequar o tom ao contexto social em que se encontra.'
   - id: en-GB-C1-SOCIAL-002-005
+    concept: 'to-keep-respectful-distance'
     term: 'to keep respectful distance'
     translation: 'manter distância respeitosa'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'In first conversations, it is prudent to keep a respectful distance.'
     exampleTranslation: 'Nas primeiras conversas, é prudente manter distância respeitosa.'
   - id: en-GB-C1-SOCIAL-002-006
+    concept: 'to-break-the-ice'
     term: 'to break the ice'
     translation: 'quebrar o gelo'
     partOfSpeech: phrase

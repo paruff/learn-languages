@@ -2,6 +2,7 @@ nodeId: A2-JOB-001
 lang: de-DE
 vocabulary:
   - id: de-DE-A2-JOB-001-001
+    concept: 'profession'
     term: 'Beruf'
     translation: 'profession'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Was ist Ihr Beruf?'
     exampleTranslation: 'What is your profession?'
   - id: de-DE-A2-JOB-001-002
+    concept: 'working-hours'
     term: 'Arbeitszeit'
     translation: 'working hours'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Meine Arbeitszeit ist von neun bis fünf.'
     exampleTranslation: 'My working hours are from nine to five.'
   - id: de-DE-A2-JOB-001-003
+    concept: 'colleague'
     term: 'Kollege'
     translation: 'colleague'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Meine Kollegen sind sehr nett.'
     exampleTranslation: 'My colleagues are very nice.'
   - id: de-DE-A2-JOB-001-004
+    concept: 'office'
     term: 'Büro'
     translation: 'office'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Ich arbeite in einem Büro.'
     exampleTranslation: 'I work in an office.'
   - id: de-DE-A2-JOB-001-005
+    concept: 'salary'
     term: 'Gehalt'
     translation: 'salary'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Das Gehalt ist gut.'
     exampleTranslation: 'The salary is good.'
   - id: de-DE-A2-JOB-001-006
+    concept: 'part-time'
     term: 'Teilzeit'
     translation: 'part-time'
     partOfSpeech: noun

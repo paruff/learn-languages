@@ -2,6 +2,7 @@ nodeId: B1-TEXT-002
 lang: fr-FR
 vocabulary:
   - id: fr-FR-B1-TEXT-002-001
+    concept: 'news'
     term: 'l’actualité'
     translation: 'news'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'J’ai lu un article d’actualité intéressant dans le journal.'
     exampleTranslation: 'I read an interesting news article in the newspaper.'
   - id: fr-FR-B1-TEXT-002-002
+    concept: 'news-summary'
     term: 'le résumé de l’actualité'
     translation: 'news summary'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Le résumé de l’actualité est très clair.'
     exampleTranslation: 'The news summary is very clear.'
   - id: fr-FR-B1-TEXT-002-003
+    concept: 'main-headline'
     term: 'le titre principal'
     translation: 'main headline'
     partOfSpeech: phrase
@@ -23,18 +26,21 @@ vocabulary:
     example: 'Le titre principal a attiré mon attention.'
     exampleTranslation: 'The main headline caught my attention.'
   - id: fr-FR-B1-TEXT-002-004
+    concept: 'to-read-quickly'
     term: 'lire rapidement'
     translation: 'to read quickly'
     partOfSpeech: phrase
     example: 'Je peux lire rapidement pour trouver l’information.'
     exampleTranslation: 'I can read quickly to find the information.'
   - id: fr-FR-B1-TEXT-002-005
+    concept: 'to-underline-key-words'
     term: 'souligner les mots-clés'
     translation: 'to underline key words'
     partOfSpeech: phrase
     example: 'J’aime souligner les mots-clés quand je lis.'
     exampleTranslation: 'I like to underline key words when I read.'
   - id: fr-FR-B1-TEXT-002-006
+    concept: 'to-make-notes'
     term: 'prendre des notes'
     translation: 'to make notes'
     partOfSpeech: phrase

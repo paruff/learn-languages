@@ -1,0 +1,52 @@
+nodeId: A1-ROUTINE-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A1-ROUTINE-001-001
+    concept: house
+    term: casa
+    translation: house
+    partOfSpeech: noun
+    gender: feminine
+    example: La mia casa è grande.
+    exampleTranslation: My house is small.
+  - id: it-IT-A1-ROUTINE-001-002
+    concept: bedroom
+    term: camera da letto
+    translation: bedroom
+    partOfSpeech: noun
+    gender: feminine
+    example: La camera da letto è tranquilla.
+    exampleTranslation: The bedroom has a big window.
+  - id: it-IT-A1-ROUTINE-001-003
+    concept: kitchen
+    term: cucina
+    translation: kitchen
+    partOfSpeech: noun
+    gender: feminine
+    example: La cucina è piccola ma funzionale.
+    exampleTranslation: I cook every day in the kitchen.
+  - id: it-IT-A1-ROUTINE-001-004
+    concept: clothes
+    term: abbigliamento
+    translation: clothes
+    partOfSpeech: noun
+    gender: masculine
+    example: Ho bisogno di nuovi vestiti.
+    exampleTranslation: I wash the clothes on Saturdays.
+  - id: it-IT-A1-ROUTINE-001-005
+    concept: key
+    term: chiave
+    translation: key
+    partOfSpeech: noun
+    gender: feminine
+    example: Ho perso la chiave.
+    exampleTranslation: Where is the door key?
+  - id: it-IT-A1-ROUTINE-001-006
+    concept: phone
+    term: telefono
+    translation: phone
+    partOfSpeech: noun
+    gender: masculine
+    example: Il telefono è sul tavolo.
+    exampleTranslation: My phone is on the table.
+grammar: []

@@ -1,0 +1,42 @@
+nodeId: A1-FORM-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A1-FORM-001-001
+    concept: full-name
+    term: nome completo
+    translation: Full name
+    partOfSpeech: phrase
+    example: Scriva il suo nome completo qui.
+    exampleTranslation: Please write your full name here.
+  - id: it-IT-A1-FORM-001-002
+    concept: surname
+    term: cognome
+    translation: Surname
+    partOfSpeech: noun
+    gender: masculine
+    example: Il mio cognome è Rossi.
+    exampleTranslation: My surname is Silva.
+  - id: it-IT-A1-FORM-001-003
+    concept: nationality
+    term: nazionalità
+    translation: Nationality
+    partOfSpeech: noun
+    gender: feminine
+    example: La mia nazionalità è italiana.
+    exampleTranslation: 'Nationality: British.'
+  - id: it-IT-A1-FORM-001-004
+    concept: address
+    term: indirizzo
+    translation: Address
+    partOfSpeech: noun
+    gender: masculine
+    example: Il suo indirizzo è via Roma 12.
+    exampleTranslation: Please write your address in the box below.
+  - id: it-IT-A1-FORM-001-005
+    concept: date-of-birth
+    term: data di nascita
+    translation: Date of birth
+    partOfSpeech: phrase
+    example: 'Data di nascita: 15/03/1992.'
+    exampleTranslation: 'Date of birth: 12/05/1990.'
+grammar: []

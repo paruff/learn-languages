@@ -1,0 +1,11 @@
+nodeId: C1-TEXT-004
+lang: it-IT
+vocabulary:
+  - id: it-IT-C1-TEXT-004-001
+    concept: line-of-argumentation
+    term: linea argomentativa
+    translation: line of argumentation
+    partOfSpeech: noun
+    gender: feminine
+    example: La linea argomentativa emerge con chiarezza già nel primo paragrafo.
+    exampleTranslation: The line of argumentation emerges clearly in the first paragraph.

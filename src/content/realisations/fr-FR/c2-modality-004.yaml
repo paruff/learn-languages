@@ -1,0 +1,53 @@
+nodeId: C2-MODALITY-004
+lang: fr-FR
+vocabulary:
+  - id: 'fr-FR-C2-MODALITY-004-001'
+    concept: 'overall-comprehension'
+    term: 'compréhension globale'
+    translation: 'overall comprehension'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je parviens à la compréhension globale de documents complexes.'
+    exampleTranslation: 'I achieve overall comprehension of complex documents.'
+  - id: 'fr-FR-C2-MODALITY-004-002'
+    concept: 'synthesis-of-information'
+    term: 'synthèse de l’information'
+    translation: 'synthesis of information'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je synthétise l’information provenant de plusieurs sources.'
+    exampleTranslation: 'I synthesise information from several sources.'
+  - id: 'fr-FR-C2-MODALITY-004-003'
+    concept: 'diverse-sources'
+    term: 'sources diverses'
+    translation: 'diverse sources'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je relie des sources diverses dans une compréhension cohérente.'
+    exampleTranslation: 'I connect diverse sources in a coherent understanding.'
+  - id: 'fr-FR-C2-MODALITY-004-004'
+    concept: 'reconstruct-arguments'
+    term: 'reconstruire les arguments'
+    translation: 'reconstruct arguments'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je reconstruis les arguments à partir des idées principales.'
+    exampleTranslation: 'I reconstruct the arguments from the main ideas.'
+  - id: 'fr-FR-C2-MODALITY-004-005'
+    concept: 'reading-with-ease'
+    term: 'lecture aisée'
+    translation: 'reading with ease'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La lecture avec aisance m’aide à comprendre des textes difficiles.'
+    exampleTranslation: 'Reading with ease helps me understand difficult texts.'
+  - id: 'fr-FR-C2-MODALITY-004-006'
+    concept: 'coherent-presentation'
+    term: 'présentation cohérente'
+    translation: 'coherent presentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La présentation cohérente facilite la synthèse finale.'
+    exampleTranslation: 'The coherent presentation facilitates the final synthesis.'
+grammar: []
+culturalNotes: 'French C2 communication values precision, register control and stylistic finesse, with clear argumentation and smooth adaptation to the audience.'

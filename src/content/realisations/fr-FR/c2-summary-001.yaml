@@ -1,0 +1,53 @@
+nodeId: C2-SUMMARY-001
+lang: fr-FR
+vocabulary:
+  - id: 'fr-FR-C2-SUMMARY-001-001'
+    concept: 'concise-summary'
+    term: 'résumé concis'
+    translation: 'concise summary'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je rédige un résumé concis et fidèle au contenu.'
+    exampleTranslation: 'I write a concise summary faithful to the content.'
+  - id: 'fr-FR-C2-SUMMARY-001-002'
+    concept: 'extended-sources'
+    term: 'sources étendues'
+    translation: 'extended sources'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je peux résumer des sources étendues de manière claire.'
+    exampleTranslation: 'I can summarise extended sources clearly.'
+  - id: 'fr-FR-C2-SUMMARY-001-003'
+    concept: 'diversified-argumentation'
+    term: 'argumentation diversifiée'
+    translation: 'diversified argumentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'L’argumentation diversifiée rend la synthèse plus riche.'
+    exampleTranslation: 'Diversified argumentation makes the synthesis richer.'
+  - id: 'fr-FR-C2-SUMMARY-001-004'
+    concept: 'organised-presentation'
+    term: 'présentation organisée'
+    translation: 'organised presentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La présentation organisée rend la synthèse plus lisible.'
+    exampleTranslation: 'The organised presentation makes the synthesis more readable.'
+  - id: 'fr-FR-C2-SUMMARY-001-005'
+    concept: 'essential-points'
+    term: 'points essentiels'
+    translation: 'essential points'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je sélectionne les points essentiels sans perdre le sens.'
+    exampleTranslation: 'I select the essential points without losing meaning.'
+  - id: 'fr-FR-C2-SUMMARY-001-006'
+    concept: 'faithful-reconstruction'
+    term: 'reconstruction fidèle'
+    translation: 'faithful reconstruction'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La reconstruction fidèle respecte le raisonnement initial.'
+    exampleTranslation: 'The faithful reconstruction respects the original reasoning.'
+grammar: []
+culturalNotes: 'French C2 communication values precision, register control and stylistic finesse, with clear argumentation and smooth adaptation to the audience.'

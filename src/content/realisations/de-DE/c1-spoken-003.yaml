@@ -2,6 +2,7 @@ nodeId: C1-SPOKEN-003
 lang: de-DE
 vocabulary:
   - id: de-DE-C1-SPOKEN-003-001
+    concept: 'complex'
     term: 'komplex'
     translation: 'complex'
     partOfSpeech: adjective
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Das war eine komplexe Frage.'
     exampleTranslation: 'That was a complex question.'
   - id: de-DE-C1-SPOKEN-003-002
+    concept: 'abstract'
     term: 'abstrakt'
     translation: 'abstract'
     partOfSpeech: adjective
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Das Thema war sehr abstrakt.'
     exampleTranslation: 'The topic was very abstract.'
   - id: de-DE-C1-SPOKEN-003-003
+    concept: 'concrete'
     term: 'konkret'
     translation: 'concrete'
     partOfSpeech: adjective
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Können Sie ein konkretes Beispiel nennen?'
     exampleTranslation: 'Can you name a concrete example?'
   - id: de-DE-C1-SPOKEN-003-004
+    concept: 'main-idea'
     term: 'Hauptgedanke'
     translation: 'main idea'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Was ist der Hauptgedanke?'
     exampleTranslation: 'What is the main idea?'
   - id: de-DE-C1-SPOKEN-003-005
+    concept: 'to-understand'
     term: 'verstehen'
     translation: 'to understand'
     partOfSpeech: verb
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Ich verstehe die Hauptideen.'
     exampleTranslation: 'I understand the main ideas.'
   - id: de-DE-C1-SPOKEN-003-006
+    concept: 'to-summarize'
     term: 'zusammenfassen'
     translation: 'to summarize'
     partOfSpeech: verb

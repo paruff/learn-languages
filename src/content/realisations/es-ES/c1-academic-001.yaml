@@ -2,6 +2,7 @@ nodeId: C1-ACADEMIC-001
 lang: es-ES
 vocabulary:
   - id: es-ES-C1-ACADEMIC-001-001
+    concept: 'dissertation'
     term: 'disertación'
     translation: 'dissertation'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Escribí una disertación sobre la historia de España.'
     exampleTranslation: 'I wrote a dissertation on the history of Spain.'
   - id: es-ES-C1-ACADEMIC-001-002
+    concept: 'sources-consulted'
     term: 'fuentes consultadas'
     translation: 'sources consulted'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Las fuentes consultadas son variadas y fiables.'
     exampleTranslation: 'The sources consulted are varied and reliable.'
   - id: es-ES-C1-ACADEMIC-001-003
+    concept: 'reasoned-conclusion'
     term: 'conclusión razonada'
     translation: 'reasoned conclusion'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'La conclusión razonada del informe es convincente.'
     exampleTranslation: "The report's reasoned conclusion is convincing."
   - id: es-ES-C1-ACADEMIC-001-004
+    concept: 'solid-argumentation'
     term: 'argumentación sólida'
     translation: 'solid argumentation'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Su argumentación sólida respalda toda la tesis.'
     exampleTranslation: 'His solid argumentation supports the entire thesis.'
   - id: es-ES-C1-ACADEMIC-001-005
+    concept: 'exhaustive'
     term: 'exhaustivo'
     translation: 'exhaustive'
     partOfSpeech: adjective
@@ -37,6 +42,7 @@ vocabulary:
     example: 'El análisis exhaustivo cubre todos los aspectos.'
     exampleTranslation: 'The exhaustive analysis covers all aspects.'
   - id: es-ES-C1-ACADEMIC-001-006
+    concept: 'academic-rigour'
     term: 'rigor académico'
     translation: 'academic rigour'
     partOfSpeech: phrase

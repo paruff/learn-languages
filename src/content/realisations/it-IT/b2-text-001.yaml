@@ -1,0 +1,61 @@
+nodeId: B2-TEXT-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-B2-TEXT-001-001
+    concept: 'to-read-with-independence'
+    term: 'leggere con autonomia'
+    translation: 'to read with independence'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I can read with independence on familiar topics.'
+    exampleTranslation: 'Consigo ler com autonomia sobre temas familiares.'
+  - id: it-IT-B2-TEXT-001-002
+    concept: 'to-understand-texts-of-medium-difficulty'
+    term: 'capire testi di difficoltà media'
+    translation: 'to understand texts of medium difficulty'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I will understand texts of medium difficulty.'
+    exampleTranslation: 'Vou compreender textos de dificuldade média.'
+  - id: it-IT-B2-TEXT-001-003
+    concept: 'to-identify-main-ideas'
+    term: 'identificare le idee principali'
+    translation: 'to identify main ideas'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'It is important to identify the main ideas of the text.'
+    exampleTranslation: 'É importante identificar as ideias principais do texto.'
+  - id: it-IT-B2-TEXT-001-004
+    concept: 'to-use-reading-strategies'
+    term: 'usare strategie di lettura'
+    translation: 'to use reading strategies'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I will use reading strategies to understand better.'
+    exampleTranslation: 'Vou usar estratégias de leitura para compreender melhor.'
+  - id: it-IT-B2-TEXT-001-005
+    concept: 'to-read-critically'
+    term: 'leggere criticamente'
+    translation: 'to read critically'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I need to read critically to evaluate.'
+    exampleTranslation: 'Preciso de ler de forma crítica para avaliar.'
+  - id: it-IT-B2-TEXT-001-006
+    concept: 'to-adapt-the-reading-pace'
+    term: 'adattare il ritmo di lettura'
+    translation: 'to adapt the reading pace'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I will adapt the reading pace to the type of text.'
+    exampleTranslation: 'Vou adaptar o ritmo de leitura ao tipo de texto.'
+grammar:
+  - id: it-IT-B2-TEXT-001-G01
+    point: 'Complex noun phrases for academic reading'
+    explanation: 'Using extended noun phrases for precise academic comprehension'
+    examples:
+      - 'The sustainable development policy was implemented.'
+      - 'The reference document presents the guiding principles.'
+    cefrNotes: 'B2 learners handle complex noun phrases for academic reading'
+
+culturalNotes: "British academic reading requires identifying key arguments. Using 'the author argues that' or 'the presented thesis is' helps summarise positions."

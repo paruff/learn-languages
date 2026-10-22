@@ -2,36 +2,42 @@ nodeId: B1-CLARIFY-001
 lang: en-GB
 vocabulary:
   - id: en-GB-B1-CLARIFY-001-001
+    concept: 'to-ask-for-clarification'
     term: 'to ask for clarification'
     translation: 'demander des précisions'
     partOfSpeech: phrase
     example: 'Could I ask for clarification on that point?'
     exampleTranslation: 'Pourrais-je demander des précisions sur ce point ?'
   - id: en-GB-B1-CLARIFY-001-002
+    concept: 'to-repeat'
     term: 'to repeat'
     translation: 'répéter'
     partOfSpeech: verb
     example: 'Could you repeat that more slowly?'
     exampleTranslation: 'Pourriez-vous répéter plus lentement ?'
   - id: en-GB-B1-CLARIFY-001-003
+    concept: 'to-rephrase'
     term: 'to rephrase'
     translation: 'reformuler'
     partOfSpeech: verb
     example: 'Let me rephrase what you said.'
     exampleTranslation: 'Laisse-moi reformuler ce que tu as dit.'
   - id: en-GB-B1-CLARIFY-001-004
+    concept: 'to-check-understanding'
     term: 'to check understanding'
     translation: 'vérifier la compréhension'
     partOfSpeech: phrase
     example: 'I rephrased the question to check understanding.'
     exampleTranslation: 'J’ai reformulé la question pour vérifier la compréhension.'
   - id: en-GB-B1-CLARIFY-001-005
+    concept: 'to-develop-an-idea'
     term: 'to develop an idea'
     translation: 'développer une idée'
     partOfSpeech: phrase
     example: 'Could you develop that idea a little?'
     exampleTranslation: 'Pourriez-vous développer cette idée un peu ?'
   - id: en-GB-B1-CLARIFY-001-006
+    concept: 'i-do-not-follow'
     term: 'I do not follow'
     translation: 'je ne suis pas sûr de suivre'
     partOfSpeech: phrase

@@ -2,6 +2,7 @@ nodeId: C1-PROFESSIONAL-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-C1-PROFESSIONAL-001-001
+    concept: 'proposal-for-discussion'
     term: 'proposta para discussão'
     translation: 'proposal for discussion'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'A proposta para discussão mereceu uma análise demorada.'
     exampleTranslation: 'The proposal for discussion earned careful analysis.'
   - id: pt-PT-C1-PROFESSIONAL-001-002
+    concept: 'objection-of-the-partners'
     term: 'objeção dos parceiros'
     translation: 'objection of the partners'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'A objeção dos parceiros obrigou a recuar na calendarização.'
     exampleTranslation: 'The objection of the partners forced a step back on the timetable.'
   - id: pt-PT-C1-PROFESSIONAL-001-003
+    concept: 'to-set-the-record-straight'
     term: 'pôr os pontos nos is'
     translation: 'to set the record straight'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Na reunião, pôs os pontos nos is quanto aos prazos.'
     exampleTranslation: 'At the meeting, he set the record straight about the deadlines.'
   - id: pt-PT-C1-PROFESSIONAL-001-004
+    concept: 'room-for-manoeuvre'
     term: 'espaço de manobra'
     translation: 'room for manoeuvre'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'O orçamento deixa pouco espaço de manobra para surpresas.'
     exampleTranslation: 'The budget leaves little room for manoeuvre for surprises.'
   - id: pt-PT-C1-PROFESSIONAL-001-005
+    concept: 'workable-consensus'
     term: 'consenso possível'
     translation: 'workable consensus'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'O mediador procurou o consenso possível entre as partes.'
     exampleTranslation: 'The mediators sought the workable consensus between the parties.'
   - id: pt-PT-C1-PROFESSIONAL-001-006
+    concept: 'tone-of-mutual-understanding'
     term: 'tom de entendimento'
     translation: 'tone of mutual understanding'
     partOfSpeech: noun

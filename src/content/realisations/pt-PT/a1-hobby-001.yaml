@@ -2,6 +2,7 @@ nodeId: A1-HOBBY-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-A1-HOBBY-001-001
+    concept: 'football'
     term: 'futebol'
     translation: 'football'
     partOfSpeech: noun
@@ -11,6 +12,7 @@ vocabulary:
     imageUrl: 'futebol.webp'
     imageAlt: 'A soccer ball resting on a grass pitch'
   - id: pt-PT-A1-HOBBY-001-002
+    concept: 'music'
     term: 'música'
     translation: 'music'
     partOfSpeech: noun
@@ -20,6 +22,7 @@ vocabulary:
     imageUrl: 'musica.webp'
     imageAlt: 'A handwritten sheet of musical notation'
   - id: pt-PT-A1-HOBBY-001-003
+    concept: 'book'
     term: 'livro'
     translation: 'book'
     partOfSpeech: noun
@@ -29,6 +32,7 @@ vocabulary:
     imageUrl: 'livro.webp'
     imageAlt: 'An open illustrated book showing two pages'
   - id: pt-PT-A1-HOBBY-001-004
+    concept: 'cinema'
     term: 'cinema'
     translation: 'cinema'
     partOfSpeech: noun
@@ -38,6 +42,7 @@ vocabulary:
     imageUrl: 'cinema.webp'
     imageAlt: 'Rows of red cinema theatre seats'
   - id: pt-PT-A1-HOBBY-001-005
+    concept: 'beach'
     term: 'praia'
     translation: 'beach'
     partOfSpeech: noun
@@ -47,6 +52,7 @@ vocabulary:
     imageUrl: 'praia.webp'
     imageAlt: 'A sandy beach with waves rolling in'
   - id: pt-PT-A1-HOBBY-001-006
+    concept: 'to-dance'
     term: 'dançar'
     translation: 'to dance'
     partOfSpeech: verb

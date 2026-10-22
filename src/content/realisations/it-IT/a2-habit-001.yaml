@@ -1,0 +1,56 @@
+nodeId: A2-HABIT-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A2-HABIT-001-001
+    concept: recently
+    term: recentemente
+    translation: recently
+    partOfSpeech: adverb
+    example: Recentemente ho iniziato a fare sport.
+    exampleTranslation: Recently I started doing sport.
+  - id: it-IT-A2-HABIT-001-002
+    concept: lately
+    term: ultimamente
+    translation: lately
+    partOfSpeech: adverb
+    example: Ultimamente mangio più frutta.
+    exampleTranslation: Lately I eat more fruit.
+  - id: it-IT-A2-HABIT-001-003
+    concept: to-start-doing
+    term: cominciare a fare
+    translation: to start doing
+    partOfSpeech: phrase
+    example: Ho cominciato a leggere più libri.
+    exampleTranslation: I started reading more books.
+  - id: it-IT-A2-HABIT-001-004
+    concept: to-stop-doing
+    term: smettere di
+    translation: to stop doing
+    partOfSpeech: phrase
+    example: Ho smesso di mangiare fast food.
+    exampleTranslation: I stopped eating fast food.
+  - id: it-IT-A2-HABIT-001-005
+    concept: to-change
+    term: cambiare
+    translation: to change
+    partOfSpeech: verb
+    example: Ho cambiato le mie abitudini alimentari.
+    exampleTranslation: I changed my eating habits.
+  - id: it-IT-A2-HABIT-001-006
+    concept: to-improve
+    term: migliorare
+    translation: to improve
+    partOfSpeech: verb
+    example: Voglio migliorare la mia salute.
+    exampleTranslation: I want to improve my health.
+grammar:
+  - id: it-IT-A2-HABIT-001-G01
+    point: passato prossimo per i cambiamenti recenti
+    explanation: Usare il passato prossimo con indicatori di cambiamento recente.
+    examples:
+      - Ora mangio più verdure.
+      - Recentemente ho cambiato le mie abitudini.
+    cefrNotes: A2 learners describe recent changes in habits with time markers such
+      as recentemente and ultimamente.
+culturalNotes: In Italia il benessere e la salute sono temi molto diffusi; molte persone
+  hanno adottato abitudini più sane.

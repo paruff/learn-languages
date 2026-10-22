@@ -2,6 +2,7 @@ nodeId: A1-BODY-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-A1-BODY-001-001
+    concept: 'head'
     term: 'tête'
     translation: 'head'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'J’ai mal à la tête.'
     exampleTranslation: 'I have a headache.'
   - id: fr-FR-A1-BODY-001-002
+    concept: 'hand'
     term: 'main'
     translation: 'hand'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Sa main est froide.'
     exampleTranslation: 'Her hand is cold.'
   - id: fr-FR-A1-BODY-001-003
+    concept: 'foot'
     term: 'pied'
     translation: 'foot'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Mon pied fait mal après la course.'
     exampleTranslation: 'My foot hurts after running.'
   - id: fr-FR-A1-BODY-001-004
+    concept: 'eye'
     term: 'œil'
     translation: 'eye'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Il a les yeux verts.'
     exampleTranslation: 'He has green eyes.'
   - id: fr-FR-A1-BODY-001-005
+    concept: 'arm'
     term: 'bras'
     translation: 'arm'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'J’ai cassé le bras l’an dernier.'
     exampleTranslation: 'I broke my arm last year.'
   - id: fr-FR-A1-BODY-001-006
+    concept: 'leg'
     term: 'jambe'
     translation: 'leg'
     partOfSpeech: noun

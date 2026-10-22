@@ -1,0 +1,46 @@
+nodeId: B1-CONSULT-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-CONSULT-001-001
+    concept: to-describe-symptoms
+    term: descrivere i sintomi
+    translation: to describe symptoms
+    partOfSpeech: phrase
+    example: Describe your symptoms to the doctor.
+    exampleTranslation: Describe your symptoms to the doctor.
+  - id: it-IT-B1-CONSULT-001-002
+    concept: a-consultation
+    term: una consultazione
+    translation: a consultation
+    partOfSpeech: noun
+    example: The consultation lasted twenty minutes.
+    exampleTranslation: The consultation lasted twenty minutes.
+  - id: it-IT-B1-CONSULT-001-003
+    concept: concrete-information
+    term: informazioni concrete
+    translation: concrete information
+    partOfSpeech: phrase
+    example: Provide concrete information about your situation.
+    exampleTranslation: Provide concrete information about your situation.
+  - id: it-IT-B1-CONSULT-001-004
+    concept: an-interview
+    term: un'intervista
+    translation: an interview
+    partOfSpeech: noun
+    example: The interview focused on my experience.
+    exampleTranslation: The interview focused on my experience.
+  - id: it-IT-B1-CONSULT-001-005
+    concept: to-introduce-a-new-subject
+    term: introdurre un nuovo argomento
+    translation: to introduce a new subject
+    partOfSpeech: phrase
+    example: She took the initiative to introduce a new subject.
+    exampleTranslation: She took the initiative to introduce a new subject.
+  - id: it-IT-B1-CONSULT-001-006
+    concept: with-limited-precision
+    term: con precisione limitata
+    translation: with limited precision
+    partOfSpeech: phrase
+    example: He answered with limited precision.
+    exampleTranslation: He answered with limited precision.
+grammar: []

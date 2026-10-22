@@ -2,6 +2,7 @@ nodeId: C2-MODALITY-004
 lang: es-ES
 vocabulary:
   - id: es-ES-C2-MODALITY-004-001
+    concept: 'diverse-sources'
     term: 'fuentes diversas'
     translation: 'diverse sources'
     partOfSpeech: phrase
@@ -9,12 +10,14 @@ vocabulary:
     example: 'Puedo sintetizar información de fuentes diversas.'
     exampleTranslation: 'I can synthesise information from diverse sources.'
   - id: es-ES-C2-MODALITY-004-002
+    concept: 'to-reconstruct-arguments'
     term: 'reconstruir argumentos'
     translation: 'to reconstruct arguments'
     partOfSpeech: phrase
     example: 'Sé reconstruir argumentos complejos de forma coherente.'
     exampleTranslation: 'I know how to reconstruct complex arguments coherently.'
   - id: es-ES-C2-MODALITY-004-003
+    concept: 'coherent-presentation'
     term: 'presentación coherente'
     translation: 'coherent presentation'
     partOfSpeech: phrase
@@ -22,12 +25,14 @@ vocabulary:
     example: 'Organizo la información en una presentación coherente.'
     exampleTranslation: 'I organise the information in a coherent presentation.'
   - id: es-ES-C2-MODALITY-004-004
+    concept: 'to-summarise'
     term: 'resumir'
     translation: 'to summarise'
     partOfSpeech: verb
     example: 'Puedo resumir información compleja de forma precisa.'
     exampleTranslation: 'I can summarise complex information precisely.'
   - id: es-ES-C2-MODALITY-004-005
+    concept: 'synthesis'
     term: 'síntesis'
     translation: 'synthesis'
     partOfSpeech: noun
@@ -35,6 +40,7 @@ vocabulary:
     example: 'Mi síntesis integra diferentes perspectivas.'
     exampleTranslation: 'My synthesis integrates different perspectives.'
   - id: es-ES-C2-MODALITY-004-006
+    concept: 'reconstruction'
     term: 'reconstrucción'
     translation: 'reconstruction'
     partOfSpeech: noun

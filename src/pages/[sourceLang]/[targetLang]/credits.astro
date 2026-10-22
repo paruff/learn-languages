@@ -1,0 +1,116 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { withBase } from '../../../lib/urls';
+import { getAvailablePairs } from '../../../lib/pairLoader';
+
+export async function getStaticPaths() {
+  const pairs = await getAvailablePairs();
+  return pairs.map(({ sourceLang, targetLang }) => ({ params: { sourceLang, targetLang } }));
+}
+
+const { sourceLang, targetLang } = Astro.params;
+const conceptImages = (await getCollection('concept-images'))
+  .flatMap((entry) => entry.data)
+  .map((image) => {
+    const resolvedTarget = targetLang ? image.overrides?.[targetLang] : undefined;
+    if (resolvedTarget) {
+      return {
+        concept: image.concept,
+        file: resolvedTarget.file,
+        alt: resolvedTarget.alt,
+        source: resolvedTarget.source,
+        license: resolvedTarget.license,
+      };
+    }
+
+    return {
+      concept: image.concept,
+      file: image.file,
+      alt: image.alt,
+      source: image.source,
+      license: image.license,
+    };
+  });
+---
+
+<BaseLayout
+  title="Image credits — Acquira"
+  description="Attribution for vocabulary images."
+  sourceLang={sourceLang}
+  targetLang={targetLang}
+>
+  <h1>Image credits</h1>
+  <p>
+    Images are shared by concept and may use a target-language override where a culture-specific
+    item is clearer.
+  </p>
+  <p>
+    Legacy vocabulary images sourced before the concept index existed are credited in the
+    <a href={withBase('/vocab-images/CREDITS.md')}>full credits file</a>. Every image referenced
+    from content must have a row there; <code>npm run validate:content</code> fails otherwise.
+  </p>
+  <table class="credits-table">
+    <thead>
+      <tr>
+        <th>Concept</th>
+        <th>Image</th>
+        <th>Author / source</th>
+        <th>License</th>
+      </tr>
+    </thead>
+    <tbody>
+      {
+        conceptImages.map((image) => (
+          <tr>
+            <td>{image.concept}</td>
+            <td>
+              <img
+                src={withBase(`/vocab-images/${image.file}`)}
+                alt={image.alt}
+                width="80"
+                height="80"
+                loading="lazy"
+                decoding="async"
+              />
+            </td>
+            <td>
+              {image.source ? (
+                <a href={image.source} target="_blank" rel="noopener noreferrer">
+                  {image.source}
+                </a>
+              ) : (
+                'Source unavailable'
+              )}
+            </td>
+            <td>{image.license}</td>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+</BaseLayout>
+
+<style>
+  .credits-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+  }
+
+  .credits-table th,
+  .credits-table td {
+    border: 1px solid var(--color-border);
+    padding: 0.75rem;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .credits-table img {
+    width: 80px;
+    height: 80px;
+    border-radius: var(--radius-md);
+    object-fit: cover;
+    background: var(--color-bg-secondary);
+  }
+</style>

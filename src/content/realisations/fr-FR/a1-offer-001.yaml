@@ -2,24 +2,28 @@ nodeId: A1-OFFER-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-A1-OFFER-001-001
+    concept: 'would-you-like'
     term: 'Voulez-vous... ?'
     translation: 'Would you like...?'
     partOfSpeech: phrase
     example: 'Voulez-vous un café ?'
     exampleTranslation: 'Would you like a coffee?'
   - id: fr-FR-A1-OFFER-001-002
+    concept: 'shall-we'
     term: 'On y va... ?'
     translation: 'Shall we...?'
     partOfSpeech: phrase
     example: 'On y va au cinéma ?'
     exampleTranslation: 'Shall we go to the cinema?'
   - id: fr-FR-A1-OFFER-001-003
+    concept: 'do-you-want'
     term: 'Tu veux... ?'
     translation: 'Do you want...?'
     partOfSpeech: phrase
     example: 'Tu veux venir avec nous ?'
     exampleTranslation: 'Do you want to come along?'
   - id: fr-FR-A1-OFFER-001-004
+    concept: 'invitation'
     term: 'invitation'
     translation: 'invitation'
     partOfSpeech: noun
@@ -27,12 +31,14 @@ vocabulary:
     example: 'Merci beaucoup pour l’invitation.'
     exampleTranslation: 'Thank you very much for the invitation.'
   - id: fr-FR-A1-OFFER-001-005
+    concept: 'to-offer'
     term: 'offrir'
     translation: 'to offer'
     partOfSpeech: verb
     example: 'Puis-je vous offrir quelque chose ?'
     exampleTranslation: 'Can I offer you something?'
   - id: fr-FR-A1-OFFER-001-006
+    concept: 'gladly'
     term: 'volontiers'
     translation: 'gladly'
     partOfSpeech: adverb

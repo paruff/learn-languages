@@ -2,6 +2,7 @@ nodeId: C1-SPOKEN-004
 lang: pt-PT
 vocabulary:
   - id: pt-PT-C1-SPOKEN-004-001
+    concept: 'to-read-between-the-lines'
     term: 'perceber as entrelinhas'
     translation: 'to read between the lines'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Quando o orador se desvia, é preciso perceber as entrelinhas.'
     exampleTranslation: 'When the speaker digresses, you have to read between the lines.'
   - id: pt-PT-C1-SPOKEN-004-002
+    concept: 'rambling-speech'
     term: 'discurso arrastado'
     translation: 'rambling speech'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Apesar do discurso arrastado, a ideia central estava clara.'
     exampleTranslation: 'Despite the rambling speech, the central idea was clear.'
   - id: pt-PT-C1-SPOKEN-004-003
+    concept: 'implied-connections'
     term: 'ligações implícitas'
     translation: 'implied connections'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'As ligações implícitas entre os temas só se entendem com atenção.'
     exampleTranslation: 'The implied connections between the themes are only understood with attention.'
   - id: pt-PT-C1-SPOKEN-004-004
+    concept: 'to-follow-the-thread-of-the-reasoning'
     term: 'seguir o fio ao raciocínio'
     translation: 'to follow the thread of the reasoning'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Num debate confuso, é difícil seguir o fio ao raciocínio.'
     exampleTranslation: 'In a confusing debate, it is hard to follow the thread of the reasoning.'
   - id: pt-PT-C1-SPOKEN-004-005
+    concept: 'to-grasp-the-intention'
     term: 'captar a intenção'
     translation: 'to grasp the intention'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Só captámos a intenção da pergunta no fim do discurso.'
     exampleTranslation: 'We only grasped the intention of the question at the end of the speech.'
   - id: pt-PT-C1-SPOKEN-004-006
+    concept: 'unmarked-communication'
     term: 'comunicação sem marcações'
     translation: 'unmarked communication'
     partOfSpeech: noun

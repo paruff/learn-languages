@@ -2,6 +2,7 @@ nodeId: C1-SPOKEN-003
 lang: es-ES
 vocabulary:
   - id: es-ES-C1-SPOKEN-003-001
+    concept: 'abstract-topic'
     term: 'tema abstracto'
     translation: 'abstract topic'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Puedo mantener una conversación sobre temas abstractos.'
     exampleTranslation: 'I can sustain a conversation on abstract topics.'
   - id: es-ES-C1-SPOKEN-003-002
+    concept: 'complex-topic'
     term: 'tema complejo'
     translation: 'complex topic'
     partOfSpeech: phrase
@@ -16,12 +18,14 @@ vocabulary:
     example: 'Los temas complejos no me resultan difíciles.'
     exampleTranslation: 'Complex topics are not difficult for me.'
   - id: es-ES-C1-SPOKEN-003-003
+    concept: 'to-structure-discourse'
     term: 'estructurar el discurso'
     translation: 'to structure discourse'
     partOfSpeech: phrase
     example: 'Sé estructurar el discurso de forma coherente.'
     exampleTranslation: 'I know how to structure discourse coherently.'
   - id: es-ES-C1-SPOKEN-003-004
+    concept: 'emphasis'
     term: 'énfasis'
     translation: 'emphasis'
     partOfSpeech: noun
@@ -29,6 +33,7 @@ vocabulary:
     example: 'Uso diferentes dispositivos para dar énfasis al discurso.'
     exampleTranslation: 'I use different devices to give emphasis to discourse.'
   - id: es-ES-C1-SPOKEN-003-005
+    concept: 'constant-fluency'
     term: 'fluidez constante'
     translation: 'constant fluency'
     partOfSpeech: phrase
@@ -36,6 +41,7 @@ vocabulary:
     example: 'Mantengo una fluidez constante incluso en temas difíciles.'
     exampleTranslation: 'I maintain constant fluency even on difficult topics.'
   - id: es-ES-C1-SPOKEN-003-006
+    concept: 'structuring-devices'
     term: 'dispositivos de estructuración'
     translation: 'structuring devices'
     partOfSpeech: phrase

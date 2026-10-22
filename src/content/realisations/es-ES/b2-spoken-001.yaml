@@ -2,6 +2,7 @@ nodeId: B2-SPOKEN-001
 lang: es-ES
 vocabulary:
   - id: es-ES-B2-SPOKEN-001-001
+    concept: 'extended-speech'
     term: 'discurso extenso'
     translation: 'extended speech'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Puedo seguir discurso extensos sobre temas académicos.'
     exampleTranslation: 'I can follow extended speech on academic topics.'
   - id: es-ES-B2-SPOKEN-001-002
+    concept: 'lecture'
     term: 'conferencia'
     translation: 'lecture / conference'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Asistí a una conferencia sobre inteligencia artificial.'
     exampleTranslation: 'I attended a lecture on artificial intelligence.'
   - id: es-ES-B2-SPOKEN-001-003
+    concept: 'line-of-argument'
     term: 'línea de argumentación'
     translation: 'line of argument'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Puedo seguir una línea de argumentación compleja.'
     exampleTranslation: 'I can follow a complex line of argument.'
   - id: es-ES-B2-SPOKEN-001-004
+    concept: 'dissertation'
     term: 'disertación'
     translation: 'dissertation / lecture'
     partOfSpeech: noun
@@ -30,12 +34,14 @@ vocabulary:
     example: 'La disertación del profesor fue muy ilustrativa.'
     exampleTranslation: "The professor's lecture was very informative."
   - id: es-ES-B2-SPOKEN-001-005
+    concept: 'to-follow-the-thread'
     term: 'seguir el hilo'
     translation: 'to follow the thread'
     partOfSpeech: phrase
     example: 'Es fácil seguir el hilo de su discurso.'
     exampleTranslation: 'It is easy to follow the thread of his speech.'
   - id: es-ES-B2-SPOKEN-001-006
+    concept: 'oral-presentation'
     term: 'exposición oral'
     translation: 'oral presentation'
     partOfSpeech: phrase

@@ -2,6 +2,7 @@ nodeId: C2-ACADEMIC-002
 lang: es-ES
 vocabulary:
   - id: es-ES-C2-ACADEMIC-002-001
+    concept: 'academic-presentation'
     term: 'exposición académica'
     translation: 'academic presentation'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Presento exposiciones académicas claras y detalladas.'
     exampleTranslation: 'I present clear and detailed academic presentations.'
   - id: es-ES-C2-ACADEMIC-002-002
+    concept: 'sub-themes'
     term: 'subtemas'
     translation: 'sub-themes'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Integro subtemas de forma natural en mis presentaciones.'
     exampleTranslation: 'I integrate sub-themes naturally in my presentations.'
   - id: es-ES-C2-ACADEMIC-002-003
+    concept: 'exhaustive-development'
     term: 'desarrollo exhaustivo'
     translation: 'exhaustive development'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'El desarrollo de cada punto es exhaustivo y riguroso.'
     exampleTranslation: 'The development of each point is exhaustive and rigorous.'
   - id: es-ES-C2-ACADEMIC-002-004
+    concept: 'appropriate-conclusion'
     term: 'conclusión apropiada'
     translation: 'appropriate conclusion'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Cierro con una conclusión apropiada y bien fundamentada.'
     exampleTranslation: 'I close with an appropriate and well-founded conclusion.'
   - id: es-ES-C2-ACADEMIC-002-005
+    concept: 'precise-description'
     term: 'descripción precisa'
     translation: 'precise description'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Mis descripciones son precisas y completas.'
     exampleTranslation: 'My descriptions are precise and complete.'
   - id: es-ES-C2-ACADEMIC-002-006
+    concept: 'to-round-off'
     term: 'redondear'
     translation: 'to round off'
     partOfSpeech: verb

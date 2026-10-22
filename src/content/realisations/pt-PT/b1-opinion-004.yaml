@@ -2,6 +2,7 @@ nodeId: B1-OPINION-004
 lang: pt-PT
 vocabulary:
   - id: pt-PT-B1-OPINION-004-001
+    concept: 'opinion-article'
     term: 'artigo de opinião'
     translation: 'opinion article'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Li um artigo de opinião sobre o futuro do trabalho.'
     exampleTranslation: 'I read an opinion article about the future of work.'
   - id: pt-PT-B1-OPINION-004-002
+    concept: 'to-write-about'
     term: 'escrever sobre'
     translation: 'to write about'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Vou escrever sobre a importância da educação.'
     exampleTranslation: 'I am going to write about the importance of education.'
   - id: pt-PT-B1-OPINION-004-003
+    concept: 'to-express-my-position'
     term: 'expressar a minha posição'
     translation: 'to express my position'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'É importante expressar a minha posição com clareza.'
     exampleTranslation: 'It is important to express my position clearly.'
   - id: pt-PT-B1-OPINION-004-004
+    concept: 'to-support-my-opinion'
     term: 'fundamentar a minha opinião'
     translation: 'to support my opinion'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Preciso de fundamentar a minha opinião com factos.'
     exampleTranslation: 'I need to support my opinion with facts.'
   - id: pt-PT-B1-OPINION-004-005
+    concept: 'current-events'
     term: 'actualidade'
     translation: 'current events'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Sigo a actualidade diariamente.'
     exampleTranslation: 'I follow current events daily.'
   - id: pt-PT-B1-OPINION-004-006
+    concept: 'media'
     term: 'meios de comunicação'
     translation: 'media'
     partOfSpeech: phrase

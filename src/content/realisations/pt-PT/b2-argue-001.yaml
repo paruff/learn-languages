@@ -2,6 +2,7 @@ nodeId: B2-ARGUE-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-B2-ARGUE-001-001
+    concept: 'to-construct-a-chain-of-reasoning'
     term: 'construir uma cadeia de raciocínio'
     translation: 'to construct a chain of reasoning'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Vou construir uma cadeia de raciocínio para explicar.'
     exampleTranslation: 'I will construct a chain of reasoning to explain.'
   - id: pt-PT-B2-ARGUE-001-002
+    concept: 'to-develop-the-argument'
     term: 'desenvolver o argumento'
     translation: 'to develop the argument'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'É importante desenvolver o argumento passo a passo.'
     exampleTranslation: 'It is important to develop the argument step by step.'
   - id: pt-PT-B2-ARGUE-001-003
+    concept: 'to-present-deductions'
     term: 'apresentar deduções'
     translation: 'to present deductions'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Posso apresentar deduções baseadas em factos.'
     exampleTranslation: 'I can present deductions based on facts.'
   - id: pt-PT-B2-ARGUE-001-004
+    concept: 'to-connect-ideas-logically'
     term: 'ligar ideias logicamente'
     translation: 'to connect ideas logically'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Preciso de ligar as ideias de forma lógica.'
     exampleTranslation: 'I need to connect the ideas logically.'
   - id: pt-PT-B2-ARGUE-001-005
+    concept: 'to-use-consequence-connectors'
     term: 'usar conectores de consequência'
     translation: 'to use consequence connectors'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: "É útil usar conectores como 'portanto', 'logo', 'por conseguinte'."
     exampleTranslation: "It is useful to use connectors like 'therefore', 'thus', 'consequently'."
   - id: pt-PT-B2-ARGUE-001-006
+    concept: 'to-structure-the-discourse'
     term: 'estruturar o discurso'
     translation: 'to structure the discourse'
     partOfSpeech: phrase

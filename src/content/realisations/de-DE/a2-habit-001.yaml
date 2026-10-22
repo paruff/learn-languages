@@ -2,6 +2,7 @@ nodeId: A2-HABIT-001
 lang: de-DE
 vocabulary:
   - id: de-DE-A2-HABIT-001-001
+    concept: 'habit'
     term: 'Gewohnheit'
     translation: 'habit'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Ich habe eine neue Gewohnheit.'
     exampleTranslation: 'I have a new habit.'
   - id: de-DE-A2-HABIT-001-002
+    concept: 'changed'
     term: 'verändert'
     translation: 'changed'
     partOfSpeech: adjective
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Mein Leben hat sich verändert.'
     exampleTranslation: 'My life has changed.'
   - id: de-DE-A2-HABIT-001-003
+    concept: 'formerly'
     term: 'früher'
     translation: 'formerly / in the past'
     partOfSpeech: adverb
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Früher ging ich oft joggen.'
     exampleTranslation: 'I used to go jogging often.'
   - id: de-DE-A2-HABIT-001-004
+    concept: 'now'
     term: 'jetzt'
     translation: 'now'
     partOfSpeech: adverb
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Jetzt koche ich jeden Abend.'
     exampleTranslation: 'Now I cook every evening.'
   - id: de-DE-A2-HABIT-001-005
+    concept: 'in-the-morning'
     term: 'morgens'
     translation: 'in the morning'
     partOfSpeech: adverb
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Morgens trinke ich Kaffee.'
     exampleTranslation: 'In the morning I drink coffee.'
   - id: de-DE-A2-HABIT-001-006
+    concept: 'in-the-evening'
     term: 'abends'
     translation: 'in the evening'
     partOfSpeech: adverb

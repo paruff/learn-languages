@@ -2,6 +2,7 @@ nodeId: B2-TEXT-002
 lang: en-GB
 vocabulary:
   - id: en-GB-B2-TEXT-002-001
+    concept: 'to-understand-newspaper-articles'
     term: 'to understand newspaper articles'
     translation: 'compreender artigos de jornal'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'I can understand newspaper articles on current topics.'
     exampleTranslation: 'Consigo compreender artigos de jornal sobre temas atuais.'
   - id: en-GB-B2-TEXT-002-002
+    concept: 'to-read-technical-reports'
     term: 'to read technical reports'
     translation: 'ler relatórios técnicos'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'I will read technical reports on the topic.'
     exampleTranslation: 'Vou ler relatórios técnicos sobre o tema.'
   - id: en-GB-B2-TEXT-002-003
+    concept: 'to-analyse-argumentative-texts'
     term: 'to analyse argumentative texts'
     translation: 'analisar textos argumentativos'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'It is important to analyse argumentative texts carefully.'
     exampleTranslation: 'É importante analisar textos argumentativos com atenção.'
   - id: en-GB-B2-TEXT-002-004
+    concept: 'to-distinguish-facts-from-opinions'
     term: 'to distinguish facts from opinions'
     translation: 'distinguir factos de opiniões'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'I need to distinguish facts from opinions in the article.'
     exampleTranslation: 'Preciso de distinguir factos de opiniões no artigo.'
   - id: en-GB-B2-TEXT-002-005
+    concept: 'to-identify-the-purpose-of-the-text'
     term: 'to identify the purpose of the text'
     translation: 'identificar o propósito do texto'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'I will identify the purpose of the text from the beginning.'
     exampleTranslation: 'Vou identificar o propósito do texto desde o início.'
   - id: en-GB-B2-TEXT-002-006
+    concept: 'to-read-between-the-lines'
     term: 'to read between the lines'
     translation: 'ler entrelinhas'
     partOfSpeech: phrase

@@ -1,0 +1,46 @@
+nodeId: A1-GREET-002
+lang: it-IT
+vocabulary:
+  - id: it-IT-A1-GREET-002-001
+    concept: goodbye
+    term: arrivederci
+    translation: Goodbye
+    partOfSpeech: phrase
+    example: Arrivederci, a presto!
+    exampleTranslation: Goodbye, see you tomorrow.
+  - id: it-IT-A1-GREET-002-002
+    concept: bye
+    term: ciao
+    translation: Bye
+    partOfSpeech: interjection
+    example: Ciao, ci vediamo domani.
+    exampleTranslation: Bye, take care!
+  - id: it-IT-A1-GREET-002-003
+    concept: see-you-later
+    term: a dopo
+    translation: See you later
+    partOfSpeech: phrase
+    example: A dopo, ci vediamo più tardi.
+    exampleTranslation: See you later at the office.
+  - id: it-IT-A1-GREET-002-004
+    concept: see-you-tomorrow
+    term: a domani
+    translation: See you tomorrow
+    partOfSpeech: phrase
+    example: A domani, grazie mille.
+    exampleTranslation: Have a good evening! See you tomorrow.
+  - id: it-IT-A1-GREET-002-005
+    concept: good-night
+    term: buonanotte
+    translation: Good night
+    partOfSpeech: phrase
+    example: Buonanotte, dormi bene.
+    exampleTranslation: Good night, sleep well.
+  - id: it-IT-A1-GREET-002-006
+    concept: take-care
+    term: stai attento
+    translation: Take care
+    partOfSpeech: phrase
+    example: Stai attento e a presto!
+    exampleTranslation: It was nice meeting you. Take care!
+grammar: []

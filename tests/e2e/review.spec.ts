@@ -126,6 +126,41 @@ test.describe('review session', () => {
     await expect(modeToggle).toHaveText('Mode: Type answer');
   });
 
+  test('picture mode shows only the image when a card has one', async ({ page }) => {
+    const modeToggle = page.locator('#review-recall-mode-toggle');
+    const image = page.locator('#review-image');
+    const front = page.locator('#review-front');
+    const reveal = page.locator('#review-reveal');
+    const input = page.locator('#review-type-input');
+    const grades = page.locator('#review-grades');
+
+    await expect(modeToggle).toHaveText('Mode: Reveal');
+    await modeToggle.click();
+    await expect(modeToggle).toHaveText('Mode: Type answer');
+    await modeToggle.click();
+    await expect(modeToggle).toHaveText('Mode: Picture prompt');
+
+    let imageSeen = false;
+    for (let i = 0; i < 12; i++) {
+      if (await image.isVisible()) {
+        imageSeen = true;
+        break;
+      }
+      await expect(grades.locator('button[data-quality="4"]')).toBeVisible();
+      await grades.locator('button[data-quality="4"]').click();
+    }
+
+    expect(imageSeen).toBe(true);
+    await expect(image).toBeVisible();
+    await expect(front).toBeHidden();
+    await expect(reveal).toBeHidden();
+    await expect(input).toBeVisible();
+
+    await page.reload();
+    await expect(modeToggle).toHaveText('Mode: Picture prompt');
+    await expect(page.locator('#review-card')).toBeVisible();
+  });
+
   test('reflection prompt appears at session end, persists across reload, skip saves nothing', async ({
     page,
   }) => {

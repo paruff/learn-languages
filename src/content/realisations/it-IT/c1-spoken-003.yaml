@@ -1,0 +1,11 @@
+nodeId: C1-SPOKEN-003
+lang: it-IT
+vocabulary:
+  - id: it-IT-C1-SPOKEN-003-001
+    concept: to-hit-the-nail-on-the-head
+    term: cogliere nel segno
+    translation: to hit the nail on the head
+    partOfSpeech: phrase
+    gender: n/a
+    example: Con quella osservazione ha colto nel segno.
+    exampleTranslation: With that observation, she hit the nail on the head.

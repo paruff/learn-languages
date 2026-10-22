@@ -1,0 +1,11 @@
+nodeId: C1-ARGUE-003
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-C1-ARGUE-003-001
+    concept: to-soften-a-statement
+    term: nuancer une affirmation
+    translation: to soften a statement
+    partOfSpeech: phrase
+    gender: n/a
+    example: Il faut nuancer une affirmation dans un débat sensible.
+    exampleTranslation: One must qualify a claim in a sensitive debate.

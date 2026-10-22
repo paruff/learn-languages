@@ -2,30 +2,35 @@ nodeId: A2-WRITE-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-A2-WRITE-001-001
+    concept: 'and'
     term: 'et'
     translation: 'and'
     partOfSpeech: conjunction
     example: 'J’ai acheté du pain et du lait.'
     exampleTranslation: 'I bought bread and milk.'
   - id: fr-FR-A2-WRITE-001-002
+    concept: 'but'
     term: 'mais'
     translation: 'but'
     partOfSpeech: conjunction
     example: 'Je voulais sortir, mais il a plu.'
     exampleTranslation: 'I wanted to go out, but it rained.'
   - id: fr-FR-A2-WRITE-001-003
+    concept: 'because'
     term: 'parce que'
     translation: 'because'
     partOfSpeech: conjunction
     example: 'Je suis resté à la maison parce que j’étais fatigué.'
     exampleTranslation: 'I stayed home because I was tired.'
   - id: fr-FR-A2-WRITE-001-004
+    concept: 'then'
     term: 'ensuite'
     translation: 'then'
     partOfSpeech: adverb
     example: 'Je me suis levé, ensuite j’ai pris le petit-déjeuner.'
     exampleTranslation: 'I got up, then I had breakfast.'
   - id: fr-FR-A2-WRITE-001-005
+    concept: 'sentence'
     term: 'phrase'
     translation: 'sentence'
     partOfSpeech: noun
@@ -33,6 +38,7 @@ vocabulary:
     example: 'Écris une phrase sur ta journée.'
     exampleTranslation: 'Write one sentence about your day.'
   - id: fr-FR-A2-WRITE-001-006
+    concept: 'note'
     term: 'note'
     translation: 'note'
     partOfSpeech: noun

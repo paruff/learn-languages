@@ -2,6 +2,7 @@ nodeId: C1-SOCIAL-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-C1-SOCIAL-001-001
+    concept: 'to-express-oneself-fluently'
     term: 'expressar-se com fluidez'
     translation: 'to express oneself fluently'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Consegue expressar-se com fluidez em qualquer situação.'
     exampleTranslation: 'He/She can express himself/herself fluently in any situation.'
   - id: pt-PT-C1-SOCIAL-001-002
+    concept: 'without-hesitation'
     term: 'sem hesitação'
     translation: 'without hesitation'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Respondeu sem hesitação às perguntas difíceis.'
     exampleTranslation: 'He answered the difficult questions without hesitation.'
   - id: pt-PT-C1-SOCIAL-001-003
+    concept: 'to-adapt-one-s-discourse'
     term: 'adaptar o discurso'
     translation: "to adapt one's discourse"
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Sabe adaptar o discurso ao público que tem à frente.'
     exampleTranslation: 'He knows how to adapt his discourse to the audience in front of him.'
   - id: pt-PT-C1-SOCIAL-001-004
+    concept: 'to-anticipate-the-reaction'
     term: 'antecipar a reação'
     translation: 'to anticipate the reaction'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Consegue antecipar a reação dos interlocutores.'
     exampleTranslation: 'He can anticipate the reaction of his interlocutors.'
   - id: pt-PT-C1-SOCIAL-001-005
+    concept: 'to-maintain-naturalness'
     term: 'manter a naturalidade'
     translation: 'to maintain naturalness'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Mesmo em situações formais, mantém a naturalidade.'
     exampleTranslation: 'Even in formal situations, he maintains his naturalness.'
   - id: pt-PT-C1-SOCIAL-001-006
+    concept: 'to-resort-to-strategies'
     term: 'recorrer a estratégias'
     translation: 'to resort to strategies'
     partOfSpeech: phrase

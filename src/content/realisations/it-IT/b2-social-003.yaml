@@ -1,0 +1,61 @@
+nodeId: B2-SOCIAL-003
+lang: it-IT
+vocabulary:
+  - id: it-IT-B2-SOCIAL-003-001
+    concept: 'to-defend-my-position'
+    term: 'difendere la mia posizione'
+    translation: 'to defend my position'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I can defend my position with solid arguments.'
+    exampleTranslation: 'Consigo defender a minha posição com argumentos sólidos.'
+  - id: it-IT-B2-SOCIAL-003-002
+    concept: 'to-justify-the-decision'
+    term: 'giustificare la decisione'
+    translation: 'to justify the decision'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I need to justify my decision with facts.'
+    exampleTranslation: 'Preciso de justificar a minha decisão com factos.'
+  - id: it-IT-B2-SOCIAL-003-003
+    concept: 'to-sustain-the-opinion'
+    term: 'sostenere l’opinione'
+    translation: 'to sustain the opinion'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'It is important to sustain the opinion with examples.'
+    exampleTranslation: 'É importante sustentar a opinião com exemplos.'
+  - id: it-IT-B2-SOCIAL-003-004
+    concept: 'to-present-reasons'
+    term: 'presentare ragioni'
+    translation: 'to present reasons'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I will present reasons to support my argument.'
+    exampleTranslation: 'Vou apresentar razões para apoiar o meu argumento.'
+  - id: it-IT-B2-SOCIAL-003-005
+    concept: 'to-explain-the-reasoning'
+    term: 'spiegare il ragionamento'
+    translation: 'to explain the reasoning'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'It is useful to explain the reasoning so that everyone understands.'
+    exampleTranslation: 'É útil explicar o raciocínio para que todos compreendam.'
+  - id: it-IT-B2-SOCIAL-003-006
+    concept: 'to-partially-agree'
+    term: 'essere parzialmente d’accordo'
+    translation: 'to partially agree'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I partially agree, but I have reservations.'
+    exampleTranslation: 'Concordo parcialmente, mas tenho reservas.'
+grammar:
+  - id: it-IT-B2-SOCIAL-003-G01
+    point: 'Reported speech with tense sequence'
+    explanation: 'Using indirect speech with proper tense backshift'
+    examples:
+      - 'He said he was coming tomorrow.'
+      - 'She explained that she had been unable to attend.'
+    cefrNotes: 'B2 learners master reported speech with correct tense sequences'
+
+culturalNotes: "British speakers often use 'I take your point' before disagreeing. Hedging with 'I'm not entirely sure' or 'I might be wrong, but' softens assertions."

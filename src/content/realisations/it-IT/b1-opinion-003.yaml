@@ -1,0 +1,61 @@
+nodeId: B1-OPINION-003
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-OPINION-003-001
+    concept: the-advantages-are
+    term: i vantaggi sono
+    translation: the advantages are
+    partOfSpeech: phrase
+    gender: n/a
+    example: The advantages are economic and environmental.
+    exampleTranslation: The advantages are economic and environmental.
+  - id: it-IT-B1-OPINION-003-002
+    concept: the-disadvantages-are
+    term: gli svantaggi sono
+    translation: the disadvantages are
+    partOfSpeech: phrase
+    gender: n/a
+    example: The disadvantages are the cost and the time.
+    exampleTranslation: The disadvantages are the cost and the time.
+  - id: it-IT-B1-OPINION-003-003
+    concept: on-the-one-hand-on-the-other-hand
+    term: da un lato... dall'altro
+    translation: on the one hand... on the other hand
+    partOfSpeech: phrase
+    gender: n/a
+    example: On the one hand it is good, on the other hand there are risks.
+    exampleTranslation: On the one hand it is good, on the other hand there are risks.
+  - id: it-IT-B1-OPINION-003-004
+    concept: a-positive-aspect
+    term: un aspetto positivo
+    translation: a positive aspect
+    partOfSpeech: phrase
+    gender: masculine
+    example: A positive aspect is sustainability.
+    exampleTranslation: A positive aspect is sustainability.
+  - id: it-IT-B1-OPINION-003-005
+    concept: a-negative-aspect
+    term: un aspetto negativo
+    translation: a negative aspect
+    partOfSpeech: phrase
+    gender: masculine
+    example: A negative aspect is the high cost.
+    exampleTranslation: A negative aspect is the high cost.
+  - id: it-IT-B1-OPINION-003-006
+    concept: overall
+    term: in generale
+    translation: overall
+    partOfSpeech: phrase
+    gender: n/a
+    example: Overall, I think it is a good idea.
+    exampleTranslation: Overall, I think it is a good idea.
+grammar:
+  - id: B1-GRAMMAR-008
+    point: Comparative structures for advantages and disadvantages
+    explanation: Using 'more... than', 'as... as' for comparison
+    examples:
+      - This project is more advantageous than the previous one.
+      - The cost is as high as the benefit.
+    cefrNotes: B1 learners expand comparative structures for balanced assessment
+culturalNotes: British discussion of pros and cons values balanced perspective. Using
+  'on the one hand... on the other hand' shows considered thinking.

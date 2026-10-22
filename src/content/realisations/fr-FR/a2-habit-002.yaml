@@ -2,30 +2,35 @@ nodeId: A2-HABIT-002
 lang: fr-FR
 vocabulary:
   - id: fr-FR-A2-HABIT-002-001
+    concept: 'this-week'
     term: 'cette semaine'
     translation: 'this week'
     partOfSpeech: adverb
     example: 'Cette semaine, j’ai fait beaucoup de choses.'
     exampleTranslation: 'This week I did many things.'
   - id: fr-FR-A2-HABIT-002-002
+    concept: 'yesterday'
     term: 'hier'
     translation: 'yesterday'
     partOfSpeech: adverb
     example: 'Hier, j’étais avec des amis.'
     exampleTranslation: 'Yesterday I was with friends.'
   - id: fr-FR-A2-HABIT-002-003
+    concept: 'today'
     term: 'aujourd’hui'
     translation: 'today'
     partOfSpeech: adverb
     example: "Aujourd'hui, je n'ai rien de prévu."
     exampleTranslation: 'Today I have nothing planned.'
   - id: fr-FR-A2-HABIT-002-004
+    concept: 'still'
     term: 'encore'
     translation: 'still'
     partOfSpeech: adverb
     example: "Je n'ai pas encore vu le film."
     exampleTranslation: "I haven't seen the film yet."
   - id: fr-FR-A2-HABIT-002-005
+    concept: 'activity'
     term: 'activité'
     translation: 'activity'
     partOfSpeech: noun
@@ -33,6 +38,7 @@ vocabulary:
     example: "J'ai fait une activité en plein air."
     exampleTranslation: 'I did an outdoor activity.'
   - id: fr-FR-A2-HABIT-002-006
+    concept: 'season'
     term: 'saison'
     translation: 'season'
     partOfSpeech: noun

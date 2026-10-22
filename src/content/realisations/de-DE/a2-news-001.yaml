@@ -2,6 +2,7 @@ nodeId: A2-NEWS-001
 lang: de-DE
 vocabulary:
   - id: de-DE-A2-NEWS-001-001
+    concept: 'article'
     term: 'Artikel'
     translation: 'article'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Dieser Artikel ist sehr interessant.'
     exampleTranslation: 'This article is very interesting.'
   - id: de-DE-A2-NEWS-001-002
+    concept: 'headline'
     term: 'Überschrift'
     translation: 'headline'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Die Überschrift war aufregend.'
     exampleTranslation: 'The headline was exciting.'
   - id: de-DE-A2-NEWS-001-003
+    concept: 'content'
     term: 'Inhalt'
     translation: 'content'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Der Inhalt war klar geschrieben.'
     exampleTranslation: 'The content was written clearly.'
   - id: de-DE-A2-NEWS-001-004
+    concept: 'topic'
     term: 'Thema'
     translation: 'topic'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Das Thema ist aktuell.'
     exampleTranslation: 'The topic is current.'
   - id: de-DE-A2-NEWS-001-005
+    concept: 'to-write'
     term: 'schreiben'
     translation: 'to write'
     partOfSpeech: verb
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Der Journalist hat gut geschrieben.'
     exampleTranslation: 'The journalist wrote well.'
   - id: de-DE-A2-NEWS-001-006
+    concept: 'to-read'
     term: 'lesen'
     translation: 'to read'
     partOfSpeech: verb

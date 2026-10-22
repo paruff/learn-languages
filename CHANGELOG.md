@@ -5,6 +5,22 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · Versioning: 
 
 ## [Unreleased]
 
+### Fixed
+
+- es-ES B1–C2 content reverted to the last PCIC-reviewed state. The #155 positional concept re-key had paired concepts with unrelated terms (e.g. `to-justify-the-position` with `cuestión de actualidad`) while dual `old / new` glosses passed the pairing gate; re-alignment now requires per-item human review (#185).
+- fr-FR C1: 23 `exampleTranslation` values replaced so lesson pages show a translation of the actual French example instead of an unrelated en-GB sentence.
+- CI: removed the unused import that kept `main` red since #179, and formatted the it-IT A2 YAML that Prettier had never checked.
+
+### Added
+
+- Empty Diff Guard and Coverage Gate CI jobs, plus `npm run check:coverage` with a committed baseline.
+- fr-FR C1 review-session and lesson e2e coverage restored; it-IT A1 review/lesson tests restored and coverage documented honestly (A1 24/24, A2 20/30, B1 35/35).
+- Italian (it-IT) C1 realisations for all 25 shared C1 nodes, aligned concept-by-concept to the en-GB inventory, with a full C1 review session and lesson covered by Playwright (#165, #183).
+
+### Changed
+
+- Supported-language docs now list it-IT and fr-FR A1–C2; `spec.md` C7 points at the real `concept-images/index.yaml` path.
+
 ## [0.1.0] - 2026-10-04
 
 First tagged release. Captures everything shipped since the repository was created on 2026-09-19 (see `git log` and the closed issues for the per-change detail).
@@ -12,7 +28,7 @@ First tagged release. Captures everything shipped since the repository was creat
 ### Added
 
 - Review loop with active recall (prompt → attempt → reveal → self-grade) and SM-2 spaced repetition, scoped per language pair and direction.
-- Five languages (en-GB, pt-PT, es-ES, de-DE, fr-FR), each usable as source or target; CEFR A1–C2 content for pt-PT, es-ES and de-DE, and A1–B2 for fr-FR.
+- Five languages (en-GB, pt-PT, es-ES, de-DE, fr-FR), each usable as source or target; CEFR A1–C2 content for pt-PT, es-ES and de-DE, and A1–B2 content for fr-FR with C1/C2 still pending behind the retention gate.
 - Learning-science features: interleaved review queue (#44), opt-in typed recall (#45), calibration feedback (#46), post-session reflection (#89), vocabulary images (#34, #35), and lesson exercises.
 - Offline use: a service worker caches pages and assets after the first online visit (spec Q7).
 - Progress backup: download and restore learner progress as a JSON file from the progress page (spec S5).

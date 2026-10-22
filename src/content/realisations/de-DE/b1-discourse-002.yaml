@@ -2,6 +2,7 @@ nodeId: B1-DISCOURSE-002
 lang: de-DE
 vocabulary:
   - id: de-DE-B1-DISCOURSE-002-001
+    concept: 'first'
     term: 'zuerst'
     translation: 'first'
     partOfSpeech: adverb
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Zuerst ging ich einkaufen.'
     exampleTranslation: 'First, I went shopping.'
   - id: de-DE-B1-DISCOURSE-002-002
+    concept: 'then'
     term: 'dann'
     translation: 'then'
     partOfSpeech: adverb
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Dann habe ich gekocht.'
     exampleTranslation: 'Then I cooked.'
   - id: de-DE-B1-DISCOURSE-002-003
+    concept: 'finally'
     term: 'schließlich'
     translation: 'finally'
     partOfSpeech: adverb
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Schließlich ging ich ins Bett.'
     exampleTranslation: 'Finally, I went to bed.'
   - id: de-DE-B1-DISCOURSE-002-004
+    concept: 'meanwhile'
     term: 'inzwischen'
     translation: 'meanwhile'
     partOfSpeech: adverb
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Inzwischen war es dunkel geworden.'
     exampleTranslation: 'Meanwhile, it had become dark.'
   - id: de-DE-B1-DISCOURSE-002-005
+    concept: 'subsequently'
     term: 'anschließend'
     translation: 'subsequently'
     partOfSpeech: adverb
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Anschließend gingen wir nach Hause.'
     exampleTranslation: 'Subsequently, we went home.'
   - id: de-DE-B1-DISCOURSE-002-006
+    concept: 'beforehand'
     term: 'vorher'
     translation: 'beforehand'
     partOfSpeech: adverb

@@ -2,6 +2,7 @@ nodeId: B1-TEXT-004
 lang: es-ES
 vocabulary:
   - id: es-ES-B1-TEXT-004-001
+    concept: 'connected-text'
     term: 'texto conectado'
     translation: 'connected text'
     partOfSpeech: phrase
@@ -9,18 +10,21 @@ vocabulary:
     example: 'Puedo escribir un texto conectado sobre temas familiares.'
     exampleTranslation: 'I can write a connected text on familiar topics.'
   - id: es-ES-B1-TEXT-004-002
+    concept: 'to-develop'
     term: 'desarrollar'
     translation: 'to develop'
     partOfSpeech: verb
     example: 'Necesito desarrollar mis ideas con más detalle.'
     exampleTranslation: 'I need to develop my ideas in more detail.'
   - id: es-ES-B1-TEXT-004-003
+    concept: 'to-organize'
     term: 'organizar'
     translation: 'to organize'
     partOfSpeech: verb
     example: 'Es importante organizar las ideas antes de escribir.'
     exampleTranslation: 'It is important to organize ideas before writing.'
   - id: es-ES-B1-TEXT-004-004
+    concept: 'paragraph'
     term: 'párrafo'
     translation: 'paragraph'
     partOfSpeech: noun
@@ -28,6 +32,7 @@ vocabulary:
     example: 'Cada párrafo debe tener una idea central.'
     exampleTranslation: 'Each paragraph should have a central idea.'
   - id: es-ES-B1-TEXT-004-005
+    concept: 'coherence'
     term: 'coherencia'
     translation: 'coherence'
     partOfSpeech: noun
@@ -35,6 +40,7 @@ vocabulary:
     example: 'La coherencia del texto es fundamental.'
     exampleTranslation: 'The coherence of the text is fundamental.'
   - id: es-ES-B1-TEXT-004-006
+    concept: 'theme'
     term: 'temática'
     translation: 'theme / subject matter'
     partOfSpeech: noun

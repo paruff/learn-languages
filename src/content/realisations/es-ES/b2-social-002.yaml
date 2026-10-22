@@ -2,18 +2,21 @@ nodeId: B2-SOCIAL-002
 lang: es-ES
 vocabulary:
   - id: es-ES-B2-SOCIAL-002-001
+    concept: 'to-participate-in-a-debate'
     term: 'participar en un debate'
     translation: 'to participate in a debate'
     partOfSpeech: phrase
     example: 'Me gusta participar en debates sobre temas actuales.'
     exampleTranslation: 'I like to participate in debates on current topics.'
   - id: es-ES-B2-SOCIAL-002-002
+    concept: 'to-present-ideas'
     term: 'exponer ideas'
     translation: 'to present ideas'
     partOfSpeech: phrase
     example: 'Puedo exponer ideas de forma clara y concisa.'
     exampleTranslation: 'I can present ideas clearly and concisely.'
   - id: es-ES-B2-SOCIAL-002-003
+    concept: 'familiar-context'
     term: 'contexto familiar'
     translation: 'familiar context'
     partOfSpeech: phrase
@@ -21,6 +24,7 @@ vocabulary:
     example: 'En contextos familiares, me siento más seguro.'
     exampleTranslation: 'In familiar contexts, I feel more confident.'
   - id: es-ES-B2-SOCIAL-002-004
+    concept: 'intervention'
     term: 'intervención'
     translation: 'intervention / turn to speak'
     partOfSpeech: noun
@@ -28,12 +32,14 @@ vocabulary:
     example: 'Mi intervención en el debate fue breve pero efectiva.'
     exampleTranslation: 'My intervention in the debate was brief but effective.'
   - id: es-ES-B2-SOCIAL-002-005
+    concept: 'to-collaborate'
     term: 'colaborar'
     translation: 'to collaborate'
     partOfSpeech: verb
     example: 'Es importante colaborar en la discusión.'
     exampleTranslation: 'It is important to collaborate in the discussion.'
   - id: es-ES-B2-SOCIAL-002-006
+    concept: 'constructive-debate'
     term: 'debate constructivo'
     translation: 'constructive debate'
     partOfSpeech: phrase

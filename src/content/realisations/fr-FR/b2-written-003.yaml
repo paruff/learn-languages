@@ -2,6 +2,7 @@ nodeId: B2-WRITTEN-003
 lang: fr-FR
 vocabulary:
   - id: fr-FR-B2-WRITTEN-003-001
+    concept: 'to-write-with-correct-spelling'
     term: 'écrire avec une orthographe correcte'
     translation: 'to write with correct spelling'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Je dois écrire avec une orthographe correcte.'
     exampleTranslation: 'I need to write with correct spelling.'
   - id: fr-FR-B2-WRITTEN-003-002
+    concept: 'to-use-appropriate-punctuation'
     term: 'utiliser une ponctuation appropriée'
     translation: 'to use appropriate punctuation'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: "Il est important d'utiliser une ponctuation appropriée dans le texte."
     exampleTranslation: 'It is important to use appropriate punctuation in the text.'
   - id: fr-FR-B2-WRITTEN-003-003
+    concept: 'to-review-the-text'
     term: 'relire le texte'
     translation: 'to review the text'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: "Je vais relire le texte pour garantir l'exactitude."
     exampleTranslation: 'I will review the text to ensure correctness.'
   - id: fr-FR-B2-WRITTEN-003-004
+    concept: 'to-correct-errors'
     term: 'corriger les erreurs'
     translation: 'to correct errors'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Je dois corriger les erreurs orthographiques et grammaticales.'
     exampleTranslation: 'I need to correct spelling and grammatical errors.'
   - id: fr-FR-B2-WRITTEN-003-005
+    concept: 'to-use-writing-models'
     term: 'utiliser des modèles de rédaction'
     translation: 'to use writing models'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: "Il est utile d'utiliser des modèles de rédaction pour progresser."
     exampleTranslation: 'It is useful to use writing models to improve.'
   - id: fr-FR-B2-WRITTEN-003-006
+    concept: 'to-write-with-precision'
     term: 'rédiger avec précision'
     translation: 'to write with precision'
     partOfSpeech: phrase

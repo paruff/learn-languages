@@ -1,0 +1,11 @@
+nodeId: C1-WRITTEN-002
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-C1-WRITTEN-002-001
+    concept: critical-review
+    term: critique argumentée
+    translation: critical review
+    partOfSpeech: noun
+    gender: feminine
+    example: Sa critique argumentée convient à une revue culturelle.
+    exampleTranslation: Her reasoned critique is suitable for a cultural review.

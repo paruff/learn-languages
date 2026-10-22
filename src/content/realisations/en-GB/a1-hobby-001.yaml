@@ -2,6 +2,7 @@ nodeId: A1-HOBBY-001
 lang: en-GB
 vocabulary:
   - id: en-GB-A1-HOBBY-001-001
+    concept: 'football'
     term: 'football'
     translation: 'futebol'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'I like to play football on Sundays.'
     exampleTranslation: 'Gosto de jogar futebol aos domingos.'
   - id: en-GB-A1-HOBBY-001-002
+    concept: 'music'
     term: 'music'
     translation: 'música'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'She listens to music every night.'
     exampleTranslation: 'Ela ouve música todas as noites.'
   - id: en-GB-A1-HOBBY-001-003
+    concept: 'book'
     term: 'book'
     translation: 'livro'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'I am reading an interesting book.'
     exampleTranslation: 'Estou a ler um livro interessante.'
   - id: en-GB-A1-HOBBY-001-004
+    concept: 'cinema'
     term: 'cinema'
     translation: 'cinema'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Shall we go to the cinema on Saturday?'
     exampleTranslation: 'Vamos ao cinema no sábado?'
   - id: en-GB-A1-HOBBY-001-005
+    concept: 'beach'
     term: 'beach'
     translation: 'praia'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'In summer I go to the beach every day.'
     exampleTranslation: 'No verão vou à praia todos os dias.'
   - id: en-GB-A1-HOBBY-001-006
+    concept: 'to-dance'
     term: 'to dance'
     translation: 'dançar'
     partOfSpeech: verb

@@ -1,0 +1,46 @@
+nodeId: A1-CAPAB-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A1-CAPAB-001-001
+    concept: i-can
+    term: posso
+    translation: I can...
+    partOfSpeech: phrase
+    example: Posso parlare italiano.
+    exampleTranslation: I can swim well.
+  - id: it-IT-A1-CAPAB-001-002
+    concept: i-can-t
+    term: non posso
+    translation: I can't...
+    partOfSpeech: phrase
+    example: Non posso venire oggi.
+    exampleTranslation: I can't sing.
+  - id: it-IT-A1-CAPAB-001-003
+    concept: i-understand
+    term: capisco
+    translation: I understand
+    partOfSpeech: phrase
+    example: Capisco bene la domanda.
+    exampleTranslation: I understand German, but I don't speak well.
+  - id: it-IT-A1-CAPAB-001-004
+    concept: i-know
+    term: so
+    translation: I know
+    partOfSpeech: verb
+    example: So già la risposta.
+    exampleTranslation: I don't know.
+  - id: it-IT-A1-CAPAB-001-005
+    concept: to-be-able-to
+    term: essere in grado di
+    translation: to be able to
+    partOfSpeech: phrase
+    example: Sono in grado di aiutarti.
+    exampleTranslation: Can you help me?
+  - id: it-IT-A1-CAPAB-001-006
+    concept: to-not-be-able-to
+    term: non essere in grado di
+    translation: to not be able to
+    partOfSpeech: phrase
+    example: Non sono in grado di arrivare in tempo.
+    exampleTranslation: I can't come today.
+grammar: []

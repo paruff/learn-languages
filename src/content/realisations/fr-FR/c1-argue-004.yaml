@@ -1,0 +1,11 @@
+nodeId: C1-ARGUE-004
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-C1-ARGUE-004-001
+    concept: to-defend-with-arguments
+    term: défendre avec des arguments
+    translation: to defend with arguments
+    partOfSpeech: phrase
+    gender: n/a
+    example: Elle sait défendre avec des arguments fondés sur des faits.
+    exampleTranslation: She knows how to defend her position with arguments based on facts.

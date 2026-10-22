@@ -1,0 +1,11 @@
+nodeId: C1-TEXT-004
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-C1-TEXT-004-001
+    concept: line-of-argumentation
+    term: ligne d'argumentation
+    translation: line of argumentation
+    partOfSpeech: noun
+    gender: feminine
+    example: La ligne d'argumentation est explicite du début à la fin.
+    exampleTranslation: The line of argumentation is explicit from start to finish.

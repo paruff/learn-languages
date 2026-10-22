@@ -1,0 +1,63 @@
+nodeId: A1-LOC-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A1-LOC-001-001
+    concept: where-is
+    term: dov’è
+    translation: Where is...?
+    partOfSpeech: phrase
+    example: Dov’è la stazione?
+    exampleTranslation: Where is the train station?
+  - id: it-IT-A1-LOC-001-002
+    concept: left
+    term: sinistra
+    translation: left
+    partOfSpeech: noun
+    gender: feminine
+    example: Gira a sinistra alla piazza.
+    exampleTranslation: Go left.
+  - id: it-IT-A1-LOC-001-003
+    concept: right
+    term: destra
+    translation: right
+    partOfSpeech: noun
+    gender: feminine
+    example: Vai dritto e poi a destra.
+    exampleTranslation: The restaurant is on the right.
+  - id: it-IT-A1-LOC-001-004
+    concept: straight-ahead
+    term: dritto
+    translation: straight ahead
+    partOfSpeech: adverb
+    example: Continua dritto per due minuti.
+    exampleTranslation: Go straight ahead.
+  - id: it-IT-A1-LOC-001-005
+    concept: street
+    term: strada
+    translation: street
+    partOfSpeech: noun
+    gender: feminine
+    example: La strada è molto lunga.
+    exampleTranslation: The street is long.
+  - id: it-IT-A1-LOC-001-006
+    concept: away
+    term: lontano
+    translation: away
+    partOfSpeech: adverb
+    example: Il negozio è lontano da qui.
+    exampleTranslation: How far away is it?
+  - concept: on-the-left
+    term: a sinistra
+    translation: On the left
+    partOfSpeech: phrase
+    example: La stazione è a sinistra.
+    exampleTranslation: The station is on the left.
+    id: it-IT-A1-LOC-001-007
+  - concept: on-the-right
+    term: a destra
+    translation: On the right
+    partOfSpeech: phrase
+    example: La libreria è a destra.
+    exampleTranslation: The bookstore is on the right.
+    id: it-IT-A1-LOC-001-008
+grammar: []

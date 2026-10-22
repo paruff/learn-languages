@@ -2,6 +2,7 @@ nodeId: A2-HEALTH-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-A2-HEALTH-001-001
+    concept: 'doctor'
     term: 'médico'
     translation: 'doctor'
     partOfSpeech: noun
@@ -11,6 +12,7 @@ vocabulary:
     imageUrl: 'medico.webp'
     imageAlt: 'A female doctor listening to a patient with a stethoscope'
   - id: pt-PT-A2-HEALTH-001-002
+    concept: 'illness'
     term: 'doença'
     translation: 'illness'
     partOfSpeech: noun
@@ -18,6 +20,7 @@ vocabulary:
     example: 'A doença durou uma semana.'
     exampleTranslation: 'The illness lasted a week.'
   - id: pt-PT-A2-HEALTH-001-003
+    concept: 'pain'
     term: 'dor'
     translation: 'pain'
     partOfSpeech: noun
@@ -25,6 +28,7 @@ vocabulary:
     example: 'Tenho dor de cabeça.'
     exampleTranslation: 'I have a headache.'
   - id: pt-PT-A2-HEALTH-001-004
+    concept: 'prescription'
     term: 'receita'
     translation: 'prescription'
     partOfSpeech: noun
@@ -32,6 +36,7 @@ vocabulary:
     example: 'O médico deu-me uma receita.'
     exampleTranslation: 'The doctor gave me a prescription.'
   - id: pt-PT-A2-HEALTH-001-005
+    concept: 'pharmacy'
     term: 'farmácia'
     translation: 'pharmacy'
     partOfSpeech: noun
@@ -41,6 +46,7 @@ vocabulary:
     imageUrl: 'farmacia.webp'
     imageAlt: 'The interior of a pharmacy shop with shelves of products'
   - id: pt-PT-A2-HEALTH-001-006
+    concept: 'appointment'
     term: 'consulta'
     translation: 'appointment'
     partOfSpeech: noun

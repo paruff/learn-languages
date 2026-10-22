@@ -2,6 +2,7 @@ nodeId: B2-SPOKEN-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-B2-SPOKEN-001-001
+    concept: 'to-understand-extended-speech'
     term: 'comprendre un discours étendu'
     translation: 'to understand extended speech'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Je peux comprendre un discours étendu lors de conférences.'
     exampleTranslation: 'I can understand extended speech in lectures.'
   - id: fr-FR-B2-SPOKEN-001-002
+    concept: 'to-follow-lines-of-argumentation'
     term: "suivre les lignes d'argumentation"
     translation: 'to follow lines of argumentation'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: "Il est important de suivre des lignes d'argumentation complexes."
     exampleTranslation: 'It is important to follow complex lines of argumentation.'
   - id: fr-FR-B2-SPOKEN-001-003
+    concept: 'to-identify-discussion-topics'
     term: 'identifier les sujets de discussion'
     translation: 'to identify discussion topics'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Je vais identifier les sujets de discussion dans la conférence.'
     exampleTranslation: 'I will identify the discussion topics in the lecture.'
   - id: fr-FR-B2-SPOKEN-001-004
+    concept: 'to-understand-the-speech-structure'
     term: 'comprendre la structure du discours'
     translation: 'to understand the speech structure'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: "J'ai besoin de comprendre la structure du discours."
     exampleTranslation: 'I need to understand the speech structure.'
   - id: fr-FR-B2-SPOKEN-001-005
+    concept: 'to-note-the-intonation'
     term: "relever l'intonation"
     translation: 'to note the intonation'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: "Il est utile de relever l'intonation pour comprendre l'attitude."
     exampleTranslation: 'It is useful to note the intonation to understand the attitude.'
   - id: fr-FR-B2-SPOKEN-001-006
+    concept: 'to-extract-relevant-information'
     term: 'extraire les informations pertinentes'
     translation: 'to extract relevant information'
     partOfSpeech: phrase

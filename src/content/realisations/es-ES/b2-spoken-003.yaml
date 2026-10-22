@@ -2,6 +2,7 @@ nodeId: B2-SPOKEN-003
 lang: es-ES
 vocabulary:
   - id: es-ES-B2-SPOKEN-003-001
+    concept: 'concrete-topic'
     term: 'tema concreto'
     translation: 'concrete topic'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Puedo seguir discusiones sobre temas concretos.'
     exampleTranslation: 'I can follow discussions on concrete topics.'
   - id: es-ES-B2-SPOKEN-003-002
+    concept: 'abstract-topic'
     term: 'tema abstracto'
     translation: 'abstract topic'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Los temas abstractos son más difíciles de entender.'
     exampleTranslation: 'Abstract topics are more difficult to understand.'
   - id: es-ES-B2-SPOKEN-003-003
+    concept: 'main-idea'
     term: 'idea principal'
     translation: 'main idea'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Puedo identificar la idea principal de un discurso.'
     exampleTranslation: 'I can identify the main idea of a speech.'
   - id: es-ES-B2-SPOKEN-003-004
+    concept: 'complex-speech'
     term: 'discurso complejo'
     translation: 'complex speech'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'El discurso complejo requiere atención constante.'
     exampleTranslation: 'Complex speech requires constant attention.'
   - id: es-ES-B2-SPOKEN-003-005
+    concept: 'implicit-message'
     term: 'mensaje implícito'
     translation: 'implicit message'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'A veces el mensaje implícito es más importante.'
     exampleTranslation: 'Sometimes the implicit message is more important.'
   - id: es-ES-B2-SPOKEN-003-006
+    concept: 'to-interpret'
     term: 'interpretar'
     translation: 'to interpret'
     partOfSpeech: verb

@@ -2,6 +2,7 @@ nodeId: A2-STUDY-003
 lang: pt-PT
 vocabulary:
   - id: pt-PT-A2-STUDY-003-001
+    concept: 'article'
     term: 'artigo'
     translation: 'article'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Li um artigo interessante sobre educação.'
     exampleTranslation: 'I read an interesting article about education.'
   - id: pt-PT-A2-STUDY-003-002
+    concept: 'book'
     term: 'livro'
     translation: 'book'
     partOfSpeech: noun
@@ -18,6 +20,7 @@ vocabulary:
     imageUrl: 'livro.webp'
     imageAlt: 'An open illustrated book showing two pages'
   - id: pt-PT-A2-STUDY-003-003
+    concept: 'summary'
     term: 'resumo'
     translation: 'summary'
     partOfSpeech: noun
@@ -25,6 +28,7 @@ vocabulary:
     example: 'Preciso de fazer um resumo do capítulo.'
     exampleTranslation: 'I need to make a summary of the chapter.'
   - id: pt-PT-A2-STUDY-003-004
+    concept: 'research'
     term: 'pesquisa'
     translation: 'research'
     partOfSpeech: noun
@@ -32,12 +36,14 @@ vocabulary:
     example: 'Estou a fazer uma pesquisa para o projeto.'
     exampleTranslation: 'I am doing research for the project.'
   - id: pt-PT-A2-STUDY-003-005
+    concept: 'to-learn'
     term: 'aprender'
     translation: 'to learn'
     partOfSpeech: verb
     example: 'Consigo aprender bem com este livro.'
     exampleTranslation: 'I can learn well with this book.'
   - id: pt-PT-A2-STUDY-003-006
+    concept: 'to-understand'
     term: 'compreender'
     translation: 'to understand'
     partOfSpeech: verb

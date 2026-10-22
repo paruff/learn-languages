@@ -2,6 +2,7 @@ nodeId: A2-JOB-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-A2-JOB-001-001
+    concept: 'job'
     term: 'emprego'
     translation: 'job'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Tenho um emprego no centro da cidade.'
     exampleTranslation: 'I have a job in the city centre.'
   - id: pt-PT-A2-JOB-001-002
+    concept: 'office'
     term: 'escritório'
     translation: 'office'
     partOfSpeech: noun
@@ -18,6 +20,7 @@ vocabulary:
     imageUrl: 'escritorio.webp'
     imageAlt: 'Hands typing at a keyboard and mouse on an office desk'
   - id: pt-PT-A2-JOB-001-003
+    concept: 'working-hours'
     term: 'horário'
     translation: 'working hours'
     partOfSpeech: noun
@@ -25,12 +28,14 @@ vocabulary:
     example: 'O meu horário é das nove às cinco.'
     exampleTranslation: 'My working hours are from nine to five.'
   - id: pt-PT-A2-JOB-001-004
+    concept: 'to-earn'
     term: 'ganhar'
     translation: 'to earn'
     partOfSpeech: verb
     example: 'Ganho bem no meu emprego.'
     exampleTranslation: 'I earn well in my job.'
   - id: pt-PT-A2-JOB-001-005
+    concept: 'colleague'
     term: 'colega'
     translation: 'colleague'
     partOfSpeech: noun
@@ -38,6 +43,7 @@ vocabulary:
     example: 'Os meus colegas são muito simpáticos.'
     exampleTranslation: 'My colleagues are very friendly.'
   - id: pt-PT-A2-JOB-001-006
+    concept: 'satisfied'
     term: 'satisfeito'
     translation: 'satisfied'
     partOfSpeech: adjective

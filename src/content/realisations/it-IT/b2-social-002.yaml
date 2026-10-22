@@ -1,0 +1,61 @@
+nodeId: B2-SOCIAL-002
+lang: it-IT
+vocabulary:
+  - id: it-IT-B2-SOCIAL-002-001
+    concept: 'to-debate-topics'
+    term: 'dibattere i temi'
+    translation: 'to debate topics'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I like to debate current topics with my friends.'
+    exampleTranslation: 'Gosto de debater temas de actualidade com os meus amigos.'
+  - id: it-IT-B2-SOCIAL-002-002
+    concept: 'to-participate-in-discussions'
+    term: 'partecipare alle discussioni'
+    translation: 'to participate in discussions'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'It is important to participate actively in discussions.'
+    exampleTranslation: 'É importante participar ativamente em discussões.'
+  - id: it-IT-B2-SOCIAL-002-003
+    concept: 'to-express-points-of-view'
+    term: 'esprimere punti di vista'
+    translation: 'to express points of view'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I can express my points of view clearly.'
+    exampleTranslation: 'Consigo expressar os meus pontos de vista com clareza.'
+  - id: it-IT-B2-SOCIAL-002-004
+    concept: 'to-argue-in-favour'
+    term: 'argomentare a favore'
+    translation: 'to argue in favour'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I will argue in favour of my position.'
+    exampleTranslation: 'Vou argumentar a favor da minha posição.'
+  - id: it-IT-B2-SOCIAL-002-005
+    concept: 'to-counter-arguments'
+    term: 'controbattere gli argomenti'
+    translation: 'to counter arguments'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'It is useful to counter arguments to enrich the discussion.'
+    exampleTranslation: 'É útil contrapor argumentos para enriquecer a discussão.'
+  - id: it-IT-B2-SOCIAL-002-006
+    concept: 'to-reach-consensus'
+    term: 'raggiungere un consenso'
+    translation: 'to reach consensus'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'The goal is to reach consensus, not conflict.'
+    exampleTranslation: 'O objetivo é chegar a consensos, não a conflitos.'
+grammar:
+  - id: it-IT-B2-SOCIAL-002-G01
+    point: 'Future subjunctive in conditional clauses'
+    explanation: 'Using future subjunctive with when, if, so that in less common contexts'
+    examples:
+      - 'When I am older, I will travel more.'
+      - 'If he comes, let me know.'
+    cefrNotes: 'B2 learners encounter future subjunctive in formal and literary contexts'
+
+culturalNotes: "British discussion culture values measured contribution. Taking turns and not interrupting is preferred. 'I take your point, but...' introduces disagreement politely."

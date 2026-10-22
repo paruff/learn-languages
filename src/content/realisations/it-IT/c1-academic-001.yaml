@@ -1,0 +1,11 @@
+nodeId: C1-ACADEMIC-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-C1-ACADEMIC-001-001
+    concept: academic-dissertation
+    term: dissertazione accademica
+    translation: academic dissertation
+    partOfSpeech: noun
+    gender: feminine
+    example: La dissertazione accademica intreccia teoria e dati empirici.
+    exampleTranslation: The academic dissertation interweaves theory and empirical data.

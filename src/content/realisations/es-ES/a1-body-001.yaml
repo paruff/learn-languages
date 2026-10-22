@@ -2,6 +2,7 @@ nodeId: A1-BODY-001
 lang: es-ES
 vocabulary:
   - id: es-ES-A1-BODY-001-001
+    concept: 'head'
     term: 'cabeza'
     translation: 'head'
     partOfSpeech: noun
@@ -9,8 +10,9 @@ vocabulary:
     example: 'Tengo dolor de cabeza.'
     exampleTranslation: 'I have a headache.'
     imageUrl: 'cabeca.webp'
-    imageAlt: "Side view of a man's whole head and neck"
+    imageAlt: 'A mannequin head with long brown hair, seen from the front'
   - id: es-ES-A1-BODY-001-002
+    concept: 'hand'
     term: 'mano'
     translation: 'hand'
     partOfSpeech: noun
@@ -18,6 +20,7 @@ vocabulary:
     example: 'Ella tiene la mano fría.'
     exampleTranslation: 'Her hand is cold.'
   - id: es-ES-A1-BODY-001-003
+    concept: 'foot'
     term: 'pie'
     translation: 'foot'
     partOfSpeech: noun
@@ -27,6 +30,7 @@ vocabulary:
     imageUrl: 'pe.webp'
     imageAlt: 'A pair of bare feet standing on a rock outdoors'
   - id: es-ES-A1-BODY-001-004
+    concept: 'eye'
     term: 'ojo'
     translation: 'eye'
     partOfSpeech: noun
@@ -36,6 +40,7 @@ vocabulary:
     imageUrl: 'olho.webp'
     imageAlt: 'An extreme close-up of a human eye with a brown iris'
   - id: es-ES-A1-BODY-001-005
+    concept: 'arm'
     term: 'brazo'
     translation: 'arm'
     partOfSpeech: noun
@@ -45,6 +50,7 @@ vocabulary:
     imageUrl: 'braco.webp'
     imageAlt: 'An extended human arm and open hand against a plain background'
   - id: es-ES-A1-BODY-001-006
+    concept: 'leg'
     term: 'pierna'
     translation: 'leg'
     partOfSpeech: noun

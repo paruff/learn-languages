@@ -2,12 +2,14 @@ nodeId: A1-INTRO-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-A1-INTRO-001-001
+    concept: 'my-name-is'
     term: 'Chamo-me'
     translation: 'My name is'
     partOfSpeech: phrase
     example: 'Chamo-me João.'
     exampleTranslation: 'My name is João.'
   - id: pt-PT-A1-INTRO-001-002
+    concept: 'nice-to-meet-you'
     term: 'Prazer'
     translation: 'Nice to meet you'
     partOfSpeech: interjection

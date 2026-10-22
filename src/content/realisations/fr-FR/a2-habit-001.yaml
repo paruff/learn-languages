@@ -2,36 +2,42 @@ nodeId: A2-HABIT-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-A2-HABIT-001-001
+    concept: 'recently'
     term: 'récemment'
     translation: 'recently'
     partOfSpeech: adverb
     example: "Récemment, j'ai commencé à faire du sport."
     exampleTranslation: 'Recently I started doing sport.'
   - id: fr-FR-A2-HABIT-001-002
+    concept: 'lately'
     term: 'dernièrement'
     translation: 'lately'
     partOfSpeech: adverb
     example: 'Dernièrement, je mange plus de fruits.'
     exampleTranslation: 'Lately I have been eating more fruit.'
   - id: fr-FR-A2-HABIT-001-003
+    concept: 'to-start-doing'
     term: 'commencer à'
     translation: 'to start doing'
     partOfSpeech: verb
     example: "J'ai commencé à lire plus de livres."
     exampleTranslation: 'I started reading more books.'
   - id: fr-FR-A2-HABIT-001-004
+    concept: 'to-stop-doing'
     term: 'arrêter de'
     translation: 'to stop doing'
     partOfSpeech: verb
     example: "J'ai arrêté de manger trop de sucré."
     exampleTranslation: 'I stopped eating so much sugar.'
   - id: fr-FR-A2-HABIT-001-005
+    concept: 'to-change'
     term: 'changer'
     translation: 'to change'
     partOfSpeech: verb
     example: "J'ai changé mes habitudes alimentaires."
     exampleTranslation: 'I changed my eating habits.'
   - id: fr-FR-A2-HABIT-001-006
+    concept: 'to-improve'
     term: 'améliorer'
     translation: 'to improve'
     partOfSpeech: verb

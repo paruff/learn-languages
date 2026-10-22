@@ -2,6 +2,7 @@ nodeId: A2-STUDY-003
 lang: es-ES
 vocabulary:
   - id: es-ES-A2-STUDY-003-001
+    concept: 'academic-text'
     term: 'texto académico'
     translation: 'academic text'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'El texto académico es difícil de entender.'
     exampleTranslation: 'The academic text is difficult to understand.'
   - id: es-ES-A2-STUDY-003-002
+    concept: 'textbook'
     term: 'manual'
     translation: 'textbook'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Necesito comprar el manual de matemáticas.'
     exampleTranslation: 'I need to buy the maths textbook.'
   - id: es-ES-A2-STUDY-003-003
+    concept: 'summary'
     term: 'resumen'
     translation: 'summary'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Escribí un resumen del artículo.'
     exampleTranslation: 'I wrote a summary of the article.'
   - id: es-ES-A2-STUDY-003-004
+    concept: 'notes'
     term: 'apuntes'
     translation: 'notes'
     partOfSpeech: noun
@@ -30,12 +34,14 @@ vocabulary:
     example: 'Mis apuntes de clase son muy completos.'
     exampleTranslation: 'My class notes are very thorough.'
   - id: es-ES-A2-STUDY-003-005
+    concept: 'to-read'
     term: 'leer'
     translation: 'to read'
     partOfSpeech: verb
     example: 'Tengo que leer tres capítulos para mañana.'
     exampleTranslation: 'I have to read three chapters by tomorrow.'
   - id: es-ES-A2-STUDY-003-006
+    concept: 'library'
     term: 'biblioteca'
     translation: 'library'
     partOfSpeech: noun

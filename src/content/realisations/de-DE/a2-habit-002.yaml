@@ -2,6 +2,7 @@ nodeId: A2-HABIT-002
 lang: de-DE
 vocabulary:
   - id: de-DE-A2-HABIT-002-001
+    concept: 'last-weekend'
     term: 'letztes Wochenende'
     translation: 'last weekend'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Letztes Wochenende war ich im Kino.'
     exampleTranslation: 'Last weekend I was at the cinema.'
   - id: de-DE-A2-HABIT-002-002
+    concept: 'yesterday'
     term: 'gestern'
     translation: 'yesterday'
     partOfSpeech: adverb
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Gestern habe ich geputzt.'
     exampleTranslation: 'Yesterday I cleaned.'
   - id: de-DE-A2-HABIT-002-003
+    concept: 'to-go-shopping'
     term: 'Einkaufen gehen'
     translation: 'to go shopping'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Am Samstag gehe ich einkaufen.'
     exampleTranslation: 'On Saturday I go shopping.'
   - id: de-DE-A2-HABIT-002-004
+    concept: 'to-go-for-a-walk'
     term: 'Spazierengehen'
     translation: 'to go for a walk'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Wir sind im Park spazieren gegangen.'
     exampleTranslation: 'We went for a walk in the park.'
   - id: de-DE-A2-HABIT-002-005
+    concept: 'to-cook'
     term: 'kochen'
     translation: 'to cook'
     partOfSpeech: verb
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Ich koche heute Abend Pasta.'
     exampleTranslation: 'I am cooking pasta tonight.'
   - id: de-DE-A2-HABIT-002-006
+    concept: 'to-meet'
     term: 'treffen'
     translation: 'to meet'
     partOfSpeech: verb

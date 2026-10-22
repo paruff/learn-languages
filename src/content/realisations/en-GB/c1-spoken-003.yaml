@@ -2,6 +2,7 @@ nodeId: C1-SPOKEN-003
 lang: en-GB
 vocabulary:
   - id: en-GB-C1-SPOKEN-003-001
+    concept: 'to-hit-the-nail-on-the-head'
     term: 'to hit the nail on the head'
     translation: 'pôr o dedo na ferida'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'With that question, he hit the nail on the head of the debate.'
     exampleTranslation: 'Com aquela pergunta, pôs o dedo na ferida do debate.'
   - id: en-GB-C1-SPOKEN-003-002
+    concept: 'to-steer-the-discussion-to-a-good-conclusion'
     term: 'to steer the discussion to a good conclusion'
     translation: 'levar a discussão a bom porto'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'The moderator steered the discussion to a good conclusion without hurting anyone.'
     exampleTranslation: 'A mediadora levou a discussão a bom porto sem ferir ninguém.'
   - id: en-GB-C1-SPOKEN-003-003
+    concept: 'to-follow-the-thread-of-the-conversation'
     term: 'to follow the thread of the conversation'
     translation: 'acompanhar o fio da conversa'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'It is hard to follow the thread of the conversation when everyone speaks at once.'
     exampleTranslation: 'Custa acompanhar o fio da conversa quando todos falam ao mesmo tempo.'
   - id: en-GB-C1-SPOKEN-003-004
+    concept: 'beside-the-point'
     term: 'beside the point'
     translation: 'tangente ao assunto'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'The remark was beside the point, but useful.'
     exampleTranslation: 'A observação era tangente ao assunto, mas útil.'
   - id: en-GB-C1-SPOKEN-003-005
+    concept: 'to-switch-register'
     term: 'to switch register'
     translation: 'mudar de registo'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'He knew how to switch register when the boss came into the room.'
     exampleTranslation: 'Soube mudar de registo quando o chefe entrou na sala.'
   - id: en-GB-C1-SPOKEN-003-006
+    concept: 'to-keep-the-ball-rolling'
     term: 'to keep the ball rolling'
     translation: 'dar o daí venham'
     partOfSpeech: phrase

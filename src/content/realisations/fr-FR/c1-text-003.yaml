@@ -1,0 +1,11 @@
+nodeId: C1-TEXT-003
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-C1-TEXT-003-001
+    concept: to-grasp-the-beauty-of-the-text
+    term: saisir la beauté du texte
+    translation: to grasp the beauty of the text
+    partOfSpeech: phrase
+    gender: n/a
+    example: Il sait saisir la beauté du texte et ses allusions.
+    exampleTranslation: He knows how to grasp the beauty of the text and its allusions.

@@ -1,0 +1,46 @@
+nodeId: B1-INSTRUCT-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-INSTRUCT-001-001
+    concept: an-instruction
+    term: un'istruzione
+    translation: an instruction
+    partOfSpeech: noun
+    example: Follow each instruction carefully.
+    exampleTranslation: Follow each instruction carefully.
+  - id: it-IT-B1-INSTRUCT-001-002
+    concept: detailed-directions
+    term: indicazioni dettagliate
+    translation: detailed directions
+    partOfSpeech: phrase
+    example: The guide gave detailed directions.
+    exampleTranslation: The guide gave detailed directions.
+  - id: it-IT-B1-INSTRUCT-001-003
+    concept: a-user-manual
+    term: un manuale utente
+    translation: a user manual
+    partOfSpeech: phrase
+    example: The user manual explains the setup.
+    exampleTranslation: The user manual explains the setup.
+  - id: it-IT-B1-INSTRUCT-001-004
+    concept: to-follow-a-procedure
+    term: seguire una procedura
+    translation: to follow a procedure
+    partOfSpeech: phrase
+    example: Follow the procedure described on the phone.
+    exampleTranslation: Follow the procedure described on the phone.
+  - id: it-IT-B1-INSTRUCT-001-005
+    concept: step-by-step
+    term: passo dopo passo
+    translation: step by step
+    partOfSpeech: phrase
+    example: He explained the process step by step.
+    exampleTranslation: He explained the process step by step.
+  - id: it-IT-B1-INSTRUCT-001-006
+    concept: common-equipment
+    term: attrezzatura comune
+    translation: common equipment
+    partOfSpeech: phrase
+    example: The instructions cover common equipment.
+    exampleTranslation: The instructions cover common equipment.
+grammar: []

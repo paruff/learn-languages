@@ -2,12 +2,14 @@ nodeId: A1-INTRO-001
 lang: es-ES
 vocabulary:
   - id: es-ES-A1-INTRO-001-001
+    concept: 'my-name-is'
     term: 'Me llamo'
     translation: 'My name is'
     partOfSpeech: phrase
     example: 'Me llamo Juan.'
     exampleTranslation: 'My name is Juan.'
   - id: es-ES-A1-INTRO-001-002
+    concept: 'nice-to-meet-you'
     term: 'Mucho gusto'
     translation: 'Nice to meet you'
     partOfSpeech: interjection

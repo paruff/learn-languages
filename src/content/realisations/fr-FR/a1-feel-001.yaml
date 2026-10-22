@@ -2,36 +2,42 @@ nodeId: A1-FEEL-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-A1-FEEL-001-001
+    concept: 'happy'
     term: 'heureux'
     translation: 'happy'
     partOfSpeech: adjective
     example: 'Je suis très heureux aujourd’hui.'
     exampleTranslation: 'I am very happy today.'
   - id: fr-FR-A1-FEEL-001-002
+    concept: 'sad'
     term: 'triste'
     translation: 'sad'
     partOfSpeech: adjective
     example: 'Il est triste.'
     exampleTranslation: 'He is sad.'
   - id: fr-FR-A1-FEEL-001-003
+    concept: 'tired'
     term: 'fatigué'
     translation: 'tired'
     partOfSpeech: adjective
     example: 'Je suis très fatigué.'
     exampleTranslation: 'I am very tired.'
   - id: fr-FR-A1-FEEL-001-004
+    concept: 'hungry'
     term: 'avoir faim'
     translation: 'hungry'
     partOfSpeech: phrase
     example: 'J’ai faim.'
     exampleTranslation: 'I am hungry.'
   - id: fr-FR-A1-FEEL-001-005
+    concept: 'sick'
     term: 'malade'
     translation: 'sick'
     partOfSpeech: adjective
     example: 'Elle est malade.'
     exampleTranslation: 'She is sick.'
   - id: fr-FR-A1-FEEL-001-006
+    concept: 'well'
     term: 'bien'
     translation: 'well'
     partOfSpeech: adverb

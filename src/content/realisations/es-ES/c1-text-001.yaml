@@ -2,6 +2,7 @@ nodeId: C1-TEXT-001
 lang: es-ES
 vocabulary:
   - id: es-ES-C1-TEXT-001-001
+    concept: 'demanding-text'
     term: 'texto exigente'
     translation: 'demanding text'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Puedo leer textos exigentes con comprensión profunda.'
     exampleTranslation: 'I can read demanding texts with deep comprehension.'
   - id: es-ES-C1-TEXT-001-002
+    concept: 'implicit-meaning'
     term: 'significado implícito'
     translation: 'implicit meaning'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Reconozco el significado implícito en textos complejos.'
     exampleTranslation: 'I recognise implicit meaning in complex texts.'
   - id: es-ES-C1-TEXT-001-003
+    concept: 'extended-texts'
     term: 'textos extensos'
     translation: 'extended texts'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Leo textos extensos sin perder el hilo.'
     exampleTranslation: 'I read extended texts without losing the thread.'
   - id: es-ES-C1-TEXT-001-004
+    concept: 'layers-of-meaning'
     term: 'capas de significado'
     translation: 'layers of meaning'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Los textos literarios tienen múltiples capas de significado.'
     exampleTranslation: 'Literary texts have multiple layers of meaning.'
   - id: es-ES-C1-TEXT-001-005
+    concept: 'global-comprehension'
     term: 'comprensión global'
     translation: 'global comprehension'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Mi comprensión global de textos exigentes ha mejorado.'
     exampleTranslation: 'My global comprehension of demanding texts has improved.'
   - id: es-ES-C1-TEXT-001-006
+    concept: 'deep-reading'
     term: 'lectura profunda'
     translation: 'deep reading'
     partOfSpeech: phrase

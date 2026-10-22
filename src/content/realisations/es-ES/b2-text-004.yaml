@@ -2,6 +2,7 @@ nodeId: B2-TEXT-004
 lang: es-ES
 vocabulary:
   - id: es-ES-B2-TEXT-004-001
+    concept: 'argumentative-text'
     term: 'texto argumentativo'
     translation: 'argumentative text'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'El texto argumentativo presenta una tesis clara.'
     exampleTranslation: 'The argumentative text presents a clear thesis.'
   - id: es-ES-B2-TEXT-004-002
+    concept: 'conclusion'
     term: 'conclusión'
     translation: 'conclusion'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Las conclusiones del texto están bien fundamentadas.'
     exampleTranslation: 'The conclusions of the text are well founded.'
   - id: es-ES-B2-TEXT-004-003
+    concept: 'signposting'
     term: 'señalización'
     translation: 'signposting'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'La buena señalización del texto facilita la lectura.'
     exampleTranslation: 'Good signposting in the text facilitates reading.'
   - id: es-ES-B2-TEXT-004-004
+    concept: 'argumentative-development'
     term: 'desarrollo argumentativo'
     translation: 'argumentative development'
     partOfSpeech: phrase
@@ -30,12 +34,14 @@ vocabulary:
     example: 'El desarrollo argumentativo es claro y lógico.'
     exampleTranslation: 'The argumentative development is clear and logical.'
   - id: es-ES-B2-TEXT-004-005
+    concept: 'to-identify-conclusions'
     term: 'identificar conclusiones'
     translation: 'to identify conclusions'
     partOfSpeech: phrase
     example: 'Puedo identificar conclusiones en textos argumentativos.'
     exampleTranslation: 'I can identify conclusions in argumentative texts.'
   - id: es-ES-B2-TEXT-004-006
+    concept: 'well-structured-text'
     term: 'texto bien estructurado'
     translation: 'well-structured text'
     partOfSpeech: phrase

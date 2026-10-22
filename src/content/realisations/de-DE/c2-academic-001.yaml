@@ -2,6 +2,7 @@ nodeId: C2-ACADEMIC-001
 lang: de-DE
 vocabulary:
   - id: de-DE-C2-ACADEMIC-001-001
+    concept: 'dissertation'
     term: 'Dissertation'
     translation: 'dissertation'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Sie schreibt ihre Dissertation über quantitative Analyse.'
     exampleTranslation: 'She is writing her dissertation on quantitative analysis.'
   - id: de-DE-C2-ACADEMIC-001-002
+    concept: 'report'
     term: 'Bericht'
     translation: 'report'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Der Bericht präsentiert die Ergebnisse der Studie.'
     exampleTranslation: 'The report presents the results of the study.'
   - id: de-DE-C2-ACADEMIC-001-003
+    concept: 'synthesis'
     term: 'Synthese'
     translation: 'synthesis'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Die Synthese der Quellen war überzeugend.'
     exampleTranslation: 'The synthesis of the sources was convincing.'
   - id: de-DE-C2-ACADEMIC-001-004
+    concept: 'conclusion'
     term: 'Schlussfolgerung'
     translation: 'conclusion'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Die Schlussfolgerung war logisch und gut begründet.'
     exampleTranslation: 'The conclusion was logical and well-founded.'
   - id: de-DE-C2-ACADEMIC-001-005
+    concept: 'sources'
     term: 'Quellen'
     translation: 'sources'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Er hat seine Quellen sorgfältig ausgewählt.'
     exampleTranslation: 'He has carefully selected his sources.'
   - id: de-DE-C2-ACADEMIC-001-006
+    concept: 'to-justify'
     term: 'begründen'
     translation: 'to justify / to substantiate'
     partOfSpeech: verb

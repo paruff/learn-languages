@@ -2,30 +2,35 @@ nodeId: A1-FORM-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-A1-FORM-001-001
+    concept: 'full-name'
     term: 'Nome completo'
     translation: 'Full name'
     partOfSpeech: phrase
     example: 'Escreva o seu nome completo aqui, por favor.'
     exampleTranslation: 'Please write your full name here.'
   - id: pt-PT-A1-FORM-001-002
+    concept: 'surname'
     term: 'Apelido'
     translation: 'Surname'
     partOfSpeech: noun
     example: 'O meu apelido é Silva.'
     exampleTranslation: 'My surname is Silva.'
   - id: pt-PT-A1-FORM-001-003
+    concept: 'nationality'
     term: 'Nacionalidade'
     translation: 'Nationality'
     partOfSpeech: noun
     example: 'Nacionalidade: britânica.'
     exampleTranslation: 'Nationality: British.'
   - id: pt-PT-A1-FORM-001-004
+    concept: 'address'
     term: 'Morada'
     translation: 'Address'
     partOfSpeech: noun
     example: 'Escreva a sua morada na caixa abaixo, por favor.'
     exampleTranslation: 'Please write your address in the box below.'
   - id: pt-PT-A1-FORM-001-005
+    concept: 'date-of-birth'
     term: 'Data de nascimento'
     translation: 'Date of birth'
     partOfSpeech: phrase

@@ -20,6 +20,7 @@ const cefrNodeSchema = z
 const vocabularyItemSchema = z
   .object({
     id: z.string().regex(/^[a-z]{2}(-[A-Z]{2})?-.+-\d{3}$/),
+    concept: z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/),
     term: z.string().min(1),
     translation: z.string().min(1),
     partOfSpeech: z.enum([
@@ -50,6 +51,23 @@ const vocabularyItemSchema = z
     message: 'imageAlt is required whenever imageUrl is set (WCAG 2.1 AA — no unlabeled images)',
     path: ['imageAlt'],
   });
+
+const conceptImageOverrideSchema = z.object({
+  file: z.string().regex(/^[a-z0-9][a-z0-9.-]*\.webp$/),
+  alt: z.string().min(5),
+  source: z.string().url(),
+  license: z.string().min(1),
+});
+
+const conceptImageSchema = z.object({
+  concept: z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/),
+  file: z.string().regex(/^[a-z0-9][a-z0-9.-]*\.webp$/),
+  alt: z.string().min(5),
+  source: z.string().url(),
+  license: z.string().min(1),
+  culturallySpecific: z.boolean().optional(),
+  overrides: z.record(z.string(), conceptImageOverrideSchema).optional(),
+});
 
 const grammarPointSchema = z.object({
   id: z.string(),
@@ -124,6 +142,10 @@ export const collections = {
   vocab: defineCollection({
     type: 'data',
     schema: vocabularyItemSchema,
+  }),
+  'concept-images': defineCollection({
+    type: 'data',
+    schema: z.array(conceptImageSchema),
   }),
   realisations: defineCollection({
     loader: glob({ pattern: '**/*.yaml', base: './src/content/realisations' }),

@@ -2,36 +2,42 @@ nodeId: A1-INTRO-002
 lang: fr-FR
 vocabulary:
   - id: fr-FR-A1-INTRO-002-001
+    concept: 'what-is-your-name'
     term: 'Comment vous appelez-vous ?'
     translation: 'What is your name?'
     partOfSpeech: phrase
     example: 'Excusez-moi, comment vous appelez-vous ?'
     exampleTranslation: 'Excuse me, what is your name?'
   - id: fr-FR-A1-INTRO-002-002
+    concept: 'how-old-are-you'
     term: 'Quel âge avez-vous ?'
     translation: 'How old are you?'
     partOfSpeech: phrase
     example: 'Pardon, quel âge avez-vous ?'
     exampleTranslation: 'Pardon, how old are you?'
   - id: fr-FR-A1-INTRO-002-003
+    concept: 'where-are-you-from'
     term: 'Vous venez de quel pays ?'
     translation: 'Where are you from?'
     partOfSpeech: phrase
     example: 'Excusez-moi, vous venez de quel pays ?'
     exampleTranslation: 'Excuse me, where are you from?'
   - id: fr-FR-A1-INTRO-002-004
+    concept: 'i-am-a-student'
     term: 'Je suis étudiant(e)'
     translation: 'I am a student'
     partOfSpeech: phrase
     example: "Je suis étudiant(e) à l'université."
     exampleTranslation: 'I am a student at the university.'
   - id: fr-FR-A1-INTRO-002-005
+    concept: 'i-work-as'
     term: 'Je travaille comme'
     translation: 'I work as'
     partOfSpeech: phrase
     example: 'Je travaille comme professeur.'
     exampleTranslation: 'I work as a teacher.'
   - id: fr-FR-A1-INTRO-002-006
+    concept: 'do-you-speak-english'
     term: 'Parlez-vous anglais ?'
     translation: 'Do you speak English?'
     partOfSpeech: phrase

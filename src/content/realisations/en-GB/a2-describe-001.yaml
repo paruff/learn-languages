@@ -2,36 +2,42 @@ nodeId: A2-DESCRIBE-001
 lang: en-GB
 vocabulary:
   - id: en-GB-A2-DESCRIBE-001-001
+    concept: 'family'
     term: 'family'
     translation: 'famille'
     partOfSpeech: noun
     example: 'My family lives in a small town.'
     exampleTranslation: 'Ma famille habite dans une petite ville.'
   - id: en-GB-A2-DESCRIBE-001-002
+    concept: 'home'
     term: 'home'
     translation: 'maison'
     partOfSpeech: noun
     example: 'My home is near the station.'
     exampleTranslation: 'Ma maison est près de la gare.'
   - id: en-GB-A2-DESCRIBE-001-003
+    concept: 'to-describe'
     term: 'to describe'
     translation: 'décrire'
     partOfSpeech: verb
     example: 'I can describe my neighbourhood easily.'
     exampleTranslation: 'Je peux décrire mon quartier facilement.'
   - id: en-GB-A2-DESCRIBE-001-004
+    concept: 'belongings'
     term: 'belongings'
     translation: 'affaires'
     partOfSpeech: noun
     example: 'I packed my belongings in two bags.'
     exampleTranslation: "J'ai mis mes affaires dans deux sacs."
   - id: en-GB-A2-DESCRIBE-001-005
+    concept: 'similar'
     term: 'similar'
     translation: 'semblable'
     partOfSpeech: adjective
     example: 'Your flat is similar to mine.'
     exampleTranslation: 'Ton appartement est semblable au mien.'
   - id: en-GB-A2-DESCRIBE-001-006
+    concept: 'different'
     term: 'different'
     translation: 'différent'
     partOfSpeech: adjective

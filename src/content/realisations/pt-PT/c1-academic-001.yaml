@@ -2,6 +2,7 @@ nodeId: C1-ACADEMIC-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-C1-ACADEMIC-001-001
+    concept: 'academic-dissertation'
     term: 'dissertação académica'
     translation: 'academic dissertation'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'A dissertação académica articula teoria e dados empíricos.'
     exampleTranslation: 'The academic dissertation articulates theory and empirical data.'
   - id: pt-PT-C1-ACADEMIC-001-002
+    concept: 'body-of-sources'
     term: 'bateria de fontes'
     translation: 'body of sources'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'A bateria de fontes consultadas é vasta e credível.'
     exampleTranslation: 'The body of sources consulted is broad and credible.'
   - id: pt-PT-C1-ACADEMIC-001-003
+    concept: 'theoretical-framework'
     term: 'quadro teórico'
     translation: 'theoretical framework'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'O quadro teórico sustenta toda a análise subsequente.'
     exampleTranslation: 'The theoretical framework underpins all subsequent analysis.'
   - id: pt-PT-C1-ACADEMIC-001-004
+    concept: 'to-gather-evidence'
     term: 'reunir evidências'
     translation: 'to gather evidence'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'O capítulo dois reúne evidências decisivas para a hipótese.'
     exampleTranslation: 'Chapter two gathers decisive evidence for the hypothesis.'
   - id: pt-PT-C1-ACADEMIC-001-005
+    concept: 'to-synthesise-the-findings'
     term: 'sintetizar os pareceres'
     translation: 'to synthesise the findings'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Conclui-se por sintetizar os pareceres dos autores estudados.'
     exampleTranslation: 'The conclusion synthesises the findings of the authors studied.'
   - id: pt-PT-C1-ACADEMIC-001-006
+    concept: 'original-contribution'
     term: 'contributo original'
     translation: 'original contribution'
     partOfSpeech: noun

@@ -1,0 +1,11 @@
+nodeId: C1-NUANCED-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-C1-NUANCED-001-001
+    concept: delicate-disagreement
+    term: désaccord nuancé
+    translation: delicate disagreement (nuanced)
+    partOfSpeech: noun
+    gender: masculine
+    example: Le désaccord nuancé a permis d'éviter le conflit.
+    exampleTranslation: The nuanced disagreement helped avoid conflict.

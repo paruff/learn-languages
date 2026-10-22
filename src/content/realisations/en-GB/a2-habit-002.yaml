@@ -2,36 +2,42 @@ nodeId: A2-HABIT-002
 lang: en-GB
 vocabulary:
   - id: en-GB-A2-HABIT-002-001
+    concept: 'this-week'
     term: 'this week'
     translation: 'esta semana'
     partOfSpeech: adverb
     example: 'This week I did many things.'
     exampleTranslation: 'Esta semana fiz muitas coisas.'
   - id: en-GB-A2-HABIT-002-002
+    concept: 'yesterday'
     term: 'yesterday'
     translation: 'ontem'
     partOfSpeech: adverb
     example: 'Yesterday I was with friends.'
     exampleTranslation: 'Ontem estive com os amigos.'
   - id: en-GB-A2-HABIT-002-003
+    concept: 'today'
     term: 'today'
     translation: 'hoje'
     partOfSpeech: adverb
     example: 'Today I have nothing planned.'
     exampleTranslation: 'Hoje não tenho nada planeado.'
   - id: en-GB-A2-HABIT-002-004
+    concept: 'still'
     term: 'still'
     translation: 'ainda'
     partOfSpeech: adverb
     example: "I haven't seen the film yet."
     exampleTranslation: 'Ainda não vi o filme.'
   - id: en-GB-A2-HABIT-002-005
+    concept: 'activity'
     term: 'activity'
     translation: 'atividade'
     partOfSpeech: noun
     example: 'I did an outdoor activity.'
     exampleTranslation: 'Fiz uma atividade ao ar livre.'
   - id: en-GB-A2-HABIT-002-006
+    concept: 'season'
     term: 'season'
     translation: 'temporada'
     partOfSpeech: noun

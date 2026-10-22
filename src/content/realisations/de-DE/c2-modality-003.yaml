@@ -2,6 +2,7 @@ nodeId: C2-MODALITY-003
 lang: de-DE
 vocabulary:
   - id: de-DE-C2-MODALITY-003-001
+    concept: 'mood'
     term: 'Modus'
     translation: 'mood / mode'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Der Modus des Verbs ist wichtig.'
     exampleTranslation: 'The mood of the verb is important.'
   - id: de-DE-C2-MODALITY-003-002
+    concept: 'tense'
     term: 'Tempus'
     translation: 'tense'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Das Tempus bestimmt die Zeitform.'
     exampleTranslation: 'The tense determines the time form.'
   - id: de-DE-C2-MODALITY-003-003
+    concept: 'aspect'
     term: 'Aspekt'
     translation: 'aspect'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Der Aspekt des Verbs ist komplex.'
     exampleTranslation: 'The aspect of the verb is complex.'
   - id: de-DE-C2-MODALITY-003-004
+    concept: 'inflection'
     term: 'Flexion'
     translation: 'inflection'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Die Flexion der Verben ist wichtig.'
     exampleTranslation: 'The inflection of verbs is important.'
   - id: de-DE-C2-MODALITY-003-005
+    concept: 'to-conjugate'
     term: 'konjugieren'
     translation: 'to conjugate'
     partOfSpeech: verb
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Sie kann die Verben perfekt konjugieren.'
     exampleTranslation: 'She can conjugate the verbs perfectly.'
   - id: de-DE-C2-MODALITY-003-006
+    concept: 'to-decline'
     term: 'deklarieren'
     translation: 'to decline'
     partOfSpeech: verb

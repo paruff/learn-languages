@@ -2,6 +2,7 @@ nodeId: C2-MODALITY-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-C2-MODALITY-001-001
+    concept: 'spontaneous-expression'
     term: 'expressão espontânea'
     translation: 'spontaneous expression'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'A minha expressão espontânea é agora precisa e fluida.'
     exampleTranslation: 'My spontaneous expression is now precise and fluent.'
   - id: pt-PT-C2-MODALITY-001-002
+    concept: 'native-fluency'
     term: 'fluidez nativa'
     translation: 'native fluency'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Converso com fluidez nativa mesmo em situações complexas.'
     exampleTranslation: 'I speak with native fluency even in complex situations.'
   - id: pt-PT-C2-MODALITY-001-003
+    concept: 'shades-of-meaning'
     term: 'matizes de significado'
     translation: 'shades of meaning'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Distingo matizes de significado em qualquer contexto.'
     exampleTranslation: 'I distinguish shades of meaning in any context.'
   - id: pt-PT-C2-MODALITY-001-004
+    concept: 'broad-lexical-repertoire'
     term: 'repertório lexical amplo'
     translation: 'broad lexical repertoire'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'O meu repertório lexical amplo permite-me precisão total.'
     exampleTranslation: 'My broad lexical repertoire allows me total precision.'
   - id: pt-PT-C2-MODALITY-001-005
+    concept: 'complex-situations'
     term: 'situações complexas'
     translation: 'complex situations'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Mantenho a fluidez mesmo nas situações mais complexas.'
     exampleTranslation: 'I maintain fluency even in the most complex situations.'
   - id: pt-PT-C2-MODALITY-001-006
+    concept: 'linguistic-precision'
     term: 'precisão linguística'
     translation: 'linguistic precision'
     partOfSpeech: phrase

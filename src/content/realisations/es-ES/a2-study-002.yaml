@@ -2,6 +2,7 @@ nodeId: A2-STUDY-002
 lang: es-ES
 vocabulary:
   - id: es-ES-A2-STUDY-002-001
+    concept: 'school'
     term: 'instituto'
     translation: 'school'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Estudié en un instituto público.'
     exampleTranslation: 'I studied at a public school.'
   - id: es-ES-A2-STUDY-002-002
+    concept: 'teacher'
     term: 'profesor'
     translation: 'teacher'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Mi profesor de matemáticas era muy paciente.'
     exampleTranslation: 'My maths teacher was very patient.'
   - id: es-ES-A2-STUDY-002-003
+    concept: 'subject'
     term: 'asignatura'
     translation: 'subject'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Mi asignatura favorita era historia.'
     exampleTranslation: 'My favourite subject was history.'
   - id: es-ES-A2-STUDY-002-004
+    concept: 'exam'
     term: 'examen'
     translation: 'exam'
     partOfSpeech: noun
@@ -30,12 +34,14 @@ vocabulary:
     example: 'Mañana tengo un examen de español.'
     exampleTranslation: 'Tomorrow I have a Spanish exam.'
   - id: es-ES-A2-STUDY-002-005
+    concept: 'to-learn'
     term: 'aprender'
     translation: 'to learn'
     partOfSpeech: verb
     example: 'Me gusta aprender cosas nuevas.'
     exampleTranslation: 'I like learning new things.'
   - id: es-ES-A2-STUDY-002-006
+    concept: 'scholarship'
     term: 'beca'
     translation: 'scholarship'
     partOfSpeech: noun

@@ -2,6 +2,7 @@ nodeId: C1-NUANCED-001
 lang: de-DE
 vocabulary:
   - id: de-DE-C1-NUANCED-001-001
+    concept: 'nuance'
     term: 'Feinheit'
     translation: 'nuance / subtlety'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Die Feinheiten der Sprache sind wichtig.'
     exampleTranslation: 'The nuances of language are important.'
   - id: de-DE-C1-NUANCED-001-002
+    concept: 'connotation'
     term: 'Konnotation'
     translation: 'connotation'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Die Konnotation des Wortes ist positiv.'
     exampleTranslation: 'The connotation of the word is positive.'
   - id: de-DE-C1-NUANCED-001-003
+    concept: 'to-distinguish'
     term: 'unterscheiden'
     translation: 'to distinguish'
     partOfSpeech: verb
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Sie kann feine Unterschiede erkennen.'
     exampleTranslation: 'She can recognize subtle differences.'
   - id: de-DE-C1-NUANCED-001-004
+    concept: 'graduated'
     term: 'abgestuft'
     translation: 'graduated / differentiated'
     partOfSpeech: adjective
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Die Bewertung war abgestuft.'
     exampleTranslation: 'The evaluation was graduated.'
   - id: de-DE-C1-NUANCED-001-005
+    concept: 'nuancing'
     term: 'Nuancierung'
     translation: 'nuancing'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Die Nuancierung war präzise.'
     exampleTranslation: 'The nuancing was precise.'
   - id: de-DE-C1-NUANCED-001-006
+    concept: 'sensitivity'
     term: 'Sensibilität'
     translation: 'sensitivity'
     partOfSpeech: noun

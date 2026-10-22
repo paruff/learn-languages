@@ -1,0 +1,60 @@
+nodeId: A2-JOB-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A2-JOB-001-001
+    concept: job
+    term: lavoro
+    translation: job
+    partOfSpeech: noun
+    gender: masculine
+    example: Ho un lavoro nel centro città.
+    exampleTranslation: I have a job in the city centre.
+  - id: it-IT-A2-JOB-001-002
+    concept: office
+    term: ufficio
+    translation: office
+    partOfSpeech: noun
+    gender: masculine
+    example: Lavoro in un ufficio grande.
+    exampleTranslation: I work in a large office.
+  - id: it-IT-A2-JOB-001-003
+    concept: working-hours
+    term: orario
+    translation: working hours
+    partOfSpeech: noun
+    gender: masculine
+    example: Il mio orario va dalle nove alle cinque.
+    exampleTranslation: My working hours are from nine to five.
+  - id: it-IT-A2-JOB-001-004
+    concept: to-earn
+    term: guadagnare
+    translation: to earn
+    partOfSpeech: verb
+    example: Guadagno bene nel mio lavoro.
+    exampleTranslation: I earn well in my job.
+  - id: it-IT-A2-JOB-001-005
+    concept: colleague
+    term: collega
+    translation: colleague
+    partOfSpeech: noun
+    gender: n/a
+    example: I miei colleghi sono molto gentili.
+    exampleTranslation: My colleagues are very friendly.
+  - id: it-IT-A2-JOB-001-006
+    concept: satisfied
+    term: soddisfatto
+    translation: satisfied
+    partOfSpeech: adjective
+    gender: masculine
+    example: Sono soddisfatto del mio lavoro.
+    exampleTranslation: I am satisfied with my job.
+grammar:
+  - id: it-IT-A2-JOB-001-G01
+    point: connettori (e, ma, perché)
+    explanation: Usare connettori per collegare idee sul lavoro e sulle ragioni.
+    examples:
+      - Lavoro in un ufficio e mi piace il mio lavoro.
+      - Non lavoro nel weekend perché ho bisogno di riposare.
+    cefrNotes: A2 learners describe work situations and reasons for schedules and preferences.
+culturalNotes: In Italia la puntualità e le relazioni personali sono importanti sul
+  lavoro; i colleghi spesso si salutano con un semplice buongiorno.

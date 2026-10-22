@@ -1,0 +1,46 @@
+nodeId: A1-TIME-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A1-TIME-001-001
+    concept: what-time-is-it
+    term: che ora è?
+    translation: What time is it?
+    partOfSpeech: phrase
+    example: Che ora è?
+    exampleTranslation: Excuse me, what time is it?
+  - id: it-IT-A1-TIME-001-002
+    concept: today
+    term: oggi
+    translation: today
+    partOfSpeech: adverb
+    example: Oggi è una bella giornata.
+    exampleTranslation: Today is Monday.
+  - id: it-IT-A1-TIME-001-003
+    concept: tomorrow
+    term: domani
+    translation: tomorrow
+    partOfSpeech: adverb
+    example: Domani parto presto.
+    exampleTranslation: Tomorrow I will come again.
+  - id: it-IT-A1-TIME-001-004
+    concept: yesterday
+    term: ieri
+    translation: yesterday
+    partOfSpeech: adverb
+    example: Ieri sono andato al lavoro.
+    exampleTranslation: Yesterday I was at the cinema.
+  - id: it-IT-A1-TIME-001-005
+    concept: o-clock
+    term: in punto
+    translation: o'clock
+    partOfSpeech: phrase
+    example: Sono le otto in punto.
+    exampleTranslation: It's three o'clock.
+  - id: it-IT-A1-TIME-001-006
+    concept: day-of-the-week
+    term: giorno della settimana
+    translation: day of the week
+    partOfSpeech: phrase
+    example: Il martedì lavoro a casa.
+    exampleTranslation: What day of the week is it today?
+grammar: []

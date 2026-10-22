@@ -1,0 +1,61 @@
+nodeId: B1-DISCOURSE-005
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-DISCOURSE-005-001
+    concept: brief-report
+    term: breve rapporto
+    translation: brief report
+    partOfSpeech: phrase
+    gender: masculine
+    example: I will make a brief report of my experience.
+    exampleTranslation: I will make a brief report of my experience.
+  - id: it-IT-B1-DISCOURSE-005-002
+    concept: to-summarise-the-facts
+    term: riassumere i fatti
+    translation: to summarise the facts
+    partOfSpeech: phrase
+    gender: n/a
+    example: It is important to summarise the main facts.
+    exampleTranslation: It is important to summarise the main facts.
+  - id: it-IT-B1-DISCOURSE-005-003
+    concept: to-describe-the-situation
+    term: descrivere la situazione
+    translation: to describe the situation
+    partOfSpeech: phrase
+    gender: n/a
+    example: I will describe the situation in detail.
+    exampleTranslation: I will describe the situation in detail.
+  - id: it-IT-B1-DISCOURSE-005-004
+    concept: to-do-an-analysis
+    term: fare un'analisi
+    translation: to do an analysis
+    partOfSpeech: phrase
+    gender: feminine
+    example: We need to do a careful analysis.
+    exampleTranslation: We need to do a careful analysis.
+  - id: it-IT-B1-DISCOURSE-005-005
+    concept: to-draw-conclusions
+    term: trarre conclusioni
+    translation: to draw conclusions
+    partOfSpeech: phrase
+    gender: n/a
+    example: Let us draw conclusions based on the data.
+    exampleTranslation: Let us draw conclusions based on the data.
+  - id: it-IT-B1-DISCOURSE-005-006
+    concept: to-present-recommendations
+    term: presentare raccomandazioni
+    translation: to present recommendations
+    partOfSpeech: phrase
+    gender: n/a
+    example: I will present recommendations for improvement.
+    exampleTranslation: I will present recommendations for improvement.
+grammar:
+  - id: B1-GRAMMAR-014
+    point: Report structure with logical flow
+    explanation: Organising reports with introduction, body, and conclusion
+    examples:
+      - This report describes the current situation.
+      - In conclusion, the recommendations are clear.
+    cefrNotes: B1 learners develop report writing skills with clear structure
+culturalNotes: British report writing values clarity and logical structure. Using
+  'in summary', 'furthermore', 'in conclusion' maintains professional tone.

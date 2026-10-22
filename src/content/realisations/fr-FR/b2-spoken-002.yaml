@@ -2,6 +2,7 @@ nodeId: B2-SPOKEN-002
 lang: fr-FR
 vocabulary:
   - id: fr-FR-B2-SPOKEN-002-001
+    concept: 'to-understand-tv-news'
     term: 'comprendre les journaux télévisés'
     translation: 'to understand TV news'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: "Je peux comprendre les journaux télévisés sur des sujets d'actualité."
     exampleTranslation: 'I can understand TV news on current topics.'
   - id: fr-FR-B2-SPOKEN-002-002
+    concept: 'to-follow-current-affairs-programmes'
     term: "suivre des émissions d'actualité"
     translation: 'to follow current affairs programmes'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: "Je vais suivre des émissions d'actualité cette semaine."
     exampleTranslation: 'I will follow current affairs programmes this week.'
   - id: fr-FR-B2-SPOKEN-002-003
+    concept: 'to-understand-films-without-subtitles'
     term: 'comprendre des films sans sous-titres'
     translation: 'to understand films without subtitles'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: "J'ai besoin de comprendre des films sans sous-titres."
     exampleTranslation: 'I need to understand films without subtitles.'
   - id: fr-FR-B2-SPOKEN-002-004
+    concept: 'to-identify-the-main-theme'
     term: 'identifier le thème principal'
     translation: 'to identify the main theme'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: "Il est important d'identifier le thème principal du reportage."
     exampleTranslation: 'It is important to identify the main theme of the report.'
   - id: fr-FR-B2-SPOKEN-002-005
+    concept: 'to-understand-cultural-references'
     term: 'saisir les références culturelles'
     translation: 'to understand cultural references'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Il est utile de saisir les références culturelles dans le noticiário.'
     exampleTranslation: 'It is useful to understand cultural references in the news.'
   - id: fr-FR-B2-SPOKEN-002-006
+    concept: 'to-synthesise-oral-information'
     term: "synthétiser l'information orale"
     translation: 'to synthesise oral information'
     partOfSpeech: phrase

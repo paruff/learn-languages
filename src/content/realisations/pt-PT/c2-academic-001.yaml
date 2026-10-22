@@ -2,6 +2,7 @@ nodeId: C2-ACADEMIC-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-C2-ACADEMIC-001-001
+    concept: 'advanced-academic-writing'
     term: 'escrita académica avançada'
     translation: 'advanced academic writing'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Domino a escrita académica avançada em português.'
     exampleTranslation: 'I master advanced academic writing in Portuguese.'
   - id: pt-PT-C2-ACADEMIC-001-002
+    concept: 'coherent-and-convincing-text'
     term: 'texto coerente e convincente'
     translation: 'coherent and convincing text'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Produzo textos coerentes e convincentes sobre temas complexos.'
     exampleTranslation: 'I produce coherent and convincing texts on complex subjects.'
   - id: pt-PT-C2-ACADEMIC-001-003
+    concept: 'clear-structure'
     term: 'estrutura clara'
     translation: 'clear structure'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Os meus textos têm sempre uma estrutura clara e lógica.'
     exampleTranslation: 'My texts always have a clear and logical structure.'
   - id: pt-PT-C2-ACADEMIC-001-004
+    concept: 'wide-range-of-language'
     term: 'repertório linguístico amplo'
     translation: 'wide range of language'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Utilizo um repertório linguístico amplo e variado.'
     exampleTranslation: 'I use a wide and varied range of language.'
   - id: pt-PT-C2-ACADEMIC-001-005
+    concept: 'solid-argumentation'
     term: 'argumentação sólida'
     translation: 'solid argumentation'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'A minha argumentação é sempre sólida e bem fundamentada.'
     exampleTranslation: 'My argumentation is always solid and well-founded.'
   - id: pt-PT-C2-ACADEMIC-001-006
+    concept: 'academic-style'
     term: 'estilo académico'
     translation: 'academic style'
     partOfSpeech: phrase

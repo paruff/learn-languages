@@ -1,0 +1,53 @@
+nodeId: C2-WRITTEN-002
+lang: fr-FR
+vocabulary:
+  - id: 'fr-FR-C2-WRITTEN-002-001'
+    concept: 'precision-and-subtlety'
+    term: 'précision et subtilité'
+    translation: 'precision and subtlety'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La précision et la subtilité définissent mon écriture.'
+    exampleTranslation: 'Precision and subtlety define my writing.'
+  - id: 'fr-FR-C2-WRITTEN-002-002'
+    concept: 'intended-effect'
+    term: 'effet recherché'
+    translation: 'intended effect'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je vise l’effet recherché sur le lecteur.'
+    exampleTranslation: 'I aim at the intended effect on the reader.'
+  - id: 'fr-FR-C2-WRITTEN-002-003'
+    concept: 'appropriate-register'
+    term: 'registre approprié'
+    translation: 'appropriate register'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je choisis le registre approprié selon le sens souhaité.'
+    exampleTranslation: 'I choose the appropriate register according to the intended meaning.'
+  - id: 'fr-FR-C2-WRITTEN-002-004'
+    concept: 'adapted-style'
+    term: 'style adapté'
+    translation: 'adapted style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Le style adapté répond au destinataire et au contexte.'
+    exampleTranslation: 'The adapted style responds to the recipient and the context.'
+  - id: 'fr-FR-C2-WRITTEN-002-005'
+    concept: 'cultured-expression'
+    term: 'expression cultivée'
+    translation: 'cultured expression'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'L’expression cultivée donne du relief au texte.'
+    exampleTranslation: 'Cultured expression gives the text depth.'
+  - id: 'fr-FR-C2-WRITTEN-002-006'
+    concept: 'elegant-writing'
+    term: 'écriture élégante'
+    translation: 'elegant writing'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'L’écriture élégante permet de transmettre le message avec finesse.'
+    exampleTranslation: 'Elegant writing allows me to convey the message with finesse.'
+grammar: []
+culturalNotes: 'French C2 communication values precision, register control and stylistic finesse, with clear argumentation and smooth adaptation to the audience.'

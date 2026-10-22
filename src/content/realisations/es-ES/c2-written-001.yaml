@@ -2,6 +2,7 @@ nodeId: C2-WRITTEN-001
 lang: es-ES
 vocabulary:
   - id: es-ES-C2-WRITTEN-001-001
+    concept: 'detailed-text'
     term: 'texto detallado'
     translation: 'detailed text'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Puedo escribir textos detallados y bien estructurados.'
     exampleTranslation: 'I can write detailed and well-structured texts.'
   - id: es-ES-C2-WRITTEN-001-002
+    concept: 'hypothesis'
     term: 'hipótesis'
     translation: 'hypothesis'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Puedo desarrollar y apoyar hipótesis complejas.'
     exampleTranslation: 'I can develop and support complex hypotheses.'
   - id: es-ES-C2-WRITTEN-001-003
+    concept: 'appropriate-format'
     term: 'formato adecuado'
     translation: 'appropriate format'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Selecciono el formato adecuado según el contexto.'
     exampleTranslation: 'I select the appropriate format according to the context.'
   - id: es-ES-C2-WRITTEN-001-004
+    concept: 'appropriate-style'
     term: 'estilo apropiado'
     translation: 'appropriate style'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Adapto mi estilo según el lector y el propósito.'
     exampleTranslation: 'I adapt my style according to the reader and purpose.'
   - id: es-ES-C2-WRITTEN-001-005
+    concept: 'structured-reasoning'
     term: 'razonamiento estructurado'
     translation: 'structured reasoning'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Mi razonamiento estructurado es claro y convincente.'
     exampleTranslation: 'My structured reasoning is clear and convincing.'
   - id: es-ES-C2-WRITTEN-001-006
+    concept: 'convincing-argumentation'
     term: 'argumentación convincente'
     translation: 'convincing argumentation'
     partOfSpeech: phrase

@@ -1,0 +1,46 @@
+nodeId: B1-RECAP-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-RECAP-001-001
+    concept: a-brief-account
+    term: un breve resoconto
+    translation: a brief account
+    partOfSpeech: phrase
+    example: Let me give you a brief account of the meeting.
+    exampleTranslation: Let me give you a brief account of the meeting.
+  - id: it-IT-B1-RECAP-001-002
+    concept: my-impression-is
+    term: la mia impressione è
+    translation: my impression is
+    partOfSpeech: phrase
+    example: My impression is that it went well.
+    exampleTranslation: My impression is that it went well.
+  - id: it-IT-B1-RECAP-001-003
+    concept: a-follow-up-question
+    term: una domanda di chiarimento
+    translation: a follow-up question
+    partOfSpeech: phrase
+    example: The interviewer asked a follow-up question.
+    exampleTranslation: The interviewer asked a follow-up question.
+  - id: it-IT-B1-RECAP-001-004
+    concept: a-documentary
+    term: un documentario
+    translation: a documentary
+    partOfSpeech: noun
+    example: The documentary was about the ocean.
+    exampleTranslation: The documentary was about the ocean.
+  - id: it-IT-B1-RECAP-001-005
+    concept: the-gist
+    term: l'essenza
+    translation: the gist
+    partOfSpeech: phrase
+    example: I will tell you the gist of it.
+    exampleTranslation: I will tell you the gist of it.
+  - id: it-IT-B1-RECAP-001-006
+    concept: a-discussion
+    term: una discussione
+    translation: a discussion
+    partOfSpeech: noun
+    example: The discussion lasted an hour.
+    exampleTranslation: The discussion lasted an hour.
+grammar: []

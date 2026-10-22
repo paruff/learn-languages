@@ -2,6 +2,7 @@ nodeId: B2-WRITTEN-003
 lang: es-ES
 vocabulary:
   - id: es-ES-B2-WRITTEN-003-001
+    concept: 'spelling'
     term: 'ortografía'
     translation: 'spelling'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Mi ortografía ha mejorado significativamente.'
     exampleTranslation: 'My spelling has improved significantly.'
   - id: es-ES-B2-WRITTEN-003-002
+    concept: 'punctuation'
     term: 'puntuación'
     translation: 'punctuation'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'La puntuación correcta es esencial para la claridad.'
     exampleTranslation: 'Correct punctuation is essential for clarity.'
   - id: es-ES-B2-WRITTEN-003-003
+    concept: 'correct-writing'
     term: 'escritura correcta'
     translation: 'correct writing'
     partOfSpeech: phrase
@@ -23,12 +26,14 @@ vocabulary:
     example: 'La escritura correcta genera credibilidad.'
     exampleTranslation: 'Correct writing generates credibility.'
   - id: es-ES-B2-WRITTEN-003-004
+    concept: 'to-review'
     term: 'revisar'
     translation: 'to review / to proofread'
     partOfSpeech: verb
     example: 'Siempre reviso mis textos antes de enviarlos.'
     exampleTranslation: 'I always review my texts before sending them.'
   - id: es-ES-B2-WRITTEN-003-005
+    concept: 'spelling-errors'
     term: 'errores ortográficos'
     translation: 'spelling errors'
     partOfSpeech: phrase
@@ -36,6 +41,7 @@ vocabulary:
     example: 'Los errores ortográficos deben corregirse.'
     exampleTranslation: 'Spelling errors must be corrected.'
   - id: es-ES-B2-WRITTEN-003-006
+    concept: 'written-precision'
     term: 'precisión escrita'
     translation: 'written precision'
     partOfSpeech: phrase

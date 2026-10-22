@@ -2,6 +2,7 @@ nodeId: B1-DISCOURSE-005
 lang: de-DE
 vocabulary:
   - id: de-DE-B1-DISCOURSE-005-001
+    concept: 'experience'
     term: 'Erfahrung'
     translation: 'experience'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Das war eine interessante Erfahrung.'
     exampleTranslation: 'That was an interesting experience.'
   - id: de-DE-B1-DISCOURSE-005-002
+    concept: 'to-describe'
     term: 'schildern'
     translation: 'to describe'
     partOfSpeech: verb
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Ich schildere meine Erfahrungen.'
     exampleTranslation: 'I describe my experiences.'
   - id: de-DE-B1-DISCOURSE-005-003
+    concept: 'report'
     term: 'Bericht'
     translation: 'report'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Ich schreibe einen kurzen Bericht.'
     exampleTranslation: 'I am writing a short report.'
   - id: de-DE-B1-DISCOURSE-005-004
+    concept: 'content'
     term: 'Inhalt'
     translation: 'content'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Der Inhalt war sehr klar.'
     exampleTranslation: 'The content was very clear.'
   - id: de-DE-B1-DISCOURSE-005-005
+    concept: 'structure'
     term: 'Struktur'
     translation: 'structure'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Die Struktur des Berichts war gut.'
     exampleTranslation: 'The structure of the report was good.'
   - id: de-DE-B1-DISCOURSE-005-006
+    concept: 'to-summarize'
     term: 'zusammenfassen'
     translation: 'to summarize'
     partOfSpeech: verb

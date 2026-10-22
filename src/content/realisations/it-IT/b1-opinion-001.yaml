@@ -1,0 +1,62 @@
+nodeId: B1-OPINION-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-OPINION-001-001
+    concept: in-my-opinion
+    term: in mia opinione
+    translation: in my opinion
+    partOfSpeech: phrase
+    gender: n/a
+    example: In my opinion, Portuguese cinema is very interesting.
+    exampleTranslation: In my opinion, Portuguese cinema is very interesting.
+  - id: it-IT-B1-OPINION-001-002
+    concept: i-think-that
+    term: penso che
+    translation: I think that
+    partOfSpeech: phrase
+    gender: n/a
+    example: I think we should invest more in education.
+    exampleTranslation: I think we should invest more in education.
+  - id: it-IT-B1-OPINION-001-003
+    concept: it-seems-to-me-that
+    term: mi sembra che
+    translation: it seems to me that
+    partOfSpeech: phrase
+    gender: n/a
+    example: It seems to me that this solution is the best.
+    exampleTranslation: It seems to me that this solution is the best.
+  - id: it-IT-B1-OPINION-001-004
+    concept: i-defend-the-idea-that
+    term: difendo l'idea che
+    translation: I defend the idea that
+    partOfSpeech: phrase
+    gender: n/a
+    example: I defend the idea that everyone should have access to healthcare.
+    exampleTranslation: I defend the idea that everyone should have access to healthcare.
+  - id: it-IT-B1-OPINION-001-005
+    concept: i-am-sure-that
+    term: sono sicuro che
+    translation: I am sure that
+    partOfSpeech: phrase
+    gender: n/a
+    example: I am sure that this will improve.
+    exampleTranslation: I am sure that this will improve.
+  - id: it-IT-B1-OPINION-001-006
+    concept: i-am-of-the-opinion-that
+    term: sono dell'opinione che
+    translation: I am of the opinion that
+    partOfSpeech: phrase
+    gender: n/a
+    example: I am of the opinion that we need changes.
+    exampleTranslation: I am of the opinion that we need changes.
+grammar:
+  - id: B1-GRAMMAR-006
+    point: Opinion expressions with subjunctive
+    explanation: Using que + subjunctive in opinion phrases
+    examples:
+      - I think it is important to invest.
+      - I defend that everyone has access.
+    cefrNotes: B1 learners begin using subjunctive in opinion expressions
+culturalNotes: British opinion expression tends to be more reserved. Using 'I think'
+  or 'in my view' is more common than strong assertions. Supporting with evidence
+  is valued.

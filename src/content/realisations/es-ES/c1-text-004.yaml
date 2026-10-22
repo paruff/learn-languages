@@ -2,6 +2,7 @@ nodeId: C1-TEXT-004
 lang: es-ES
 vocabulary:
   - id: es-ES-C1-TEXT-004-001
+    concept: 'complex-argumentative-text'
     term: 'texto argumentativo complejo'
     translation: 'complex argumentative text'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Puedo analizar textos argumentativos complejos con profundidad.'
     exampleTranslation: 'I can analyse complex argumentative texts in depth.'
   - id: es-ES-C1-TEXT-004-002
+    concept: 'line-of-argument'
     term: 'línea argumentativa'
     translation: 'line of argument'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Reconozco la línea argumentativa del autor.'
     exampleTranslation: "I recognise the author's line of argument."
   - id: es-ES-C1-TEXT-004-003
+    concept: 'claims'
     term: 'afirmaciones'
     translation: 'claims'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Puedo identificar las afirmaciones principales del autor.'
     exampleTranslation: "I can identify the author's main claims."
   - id: es-ES-C1-TEXT-004-004
+    concept: 'evidence'
     term: 'evidencia'
     translation: 'evidence'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Evalúo la evidencia presentada en el texto.'
     exampleTranslation: 'I evaluate the evidence presented in the text.'
   - id: es-ES-C1-TEXT-004-005
+    concept: 'conclusion'
     term: 'conclusión'
     translation: 'conclusion'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'La conclusión del autor es convincente.'
     exampleTranslation: "The author's conclusion is convincing."
   - id: es-ES-C1-TEXT-004-006
+    concept: 'to-identify'
     term: 'identificar'
     translation: 'to identify'
     partOfSpeech: verb

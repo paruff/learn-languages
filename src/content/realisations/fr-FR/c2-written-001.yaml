@@ -1,0 +1,53 @@
+nodeId: C2-WRITTEN-001
+lang: fr-FR
+vocabulary:
+  - id: 'fr-FR-C2-WRITTEN-001-001'
+    concept: 'detailed-and-well-structured-text'
+    term: 'texte détaillé et bien structuré'
+    translation: 'detailed and well-structured text'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je peux écrire un texte détaillé et bien structuré.'
+    exampleTranslation: 'I can write a detailed and well-structured text.'
+  - id: 'fr-FR-C2-WRITTEN-001-002'
+    concept: 'development-of-arguments'
+    term: 'développement des arguments'
+    translation: 'development of arguments'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Le développement des arguments suit une logique claire.'
+    exampleTranslation: 'The development of the arguments follows a clear logic.'
+  - id: 'fr-FR-C2-WRITTEN-001-003'
+    concept: 'well-founded-hypotheses'
+    term: 'hypothèses bien fondées'
+    translation: 'well-founded hypotheses'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Les hypothèses bien fondées renforcent la crédibilité du texte.'
+    exampleTranslation: 'Well-founded hypotheses strengthen the credibility of the text.'
+  - id: 'fr-FR-C2-WRITTEN-001-004'
+    concept: 'appropriate-format'
+    term: 'format approprié'
+    translation: 'appropriate format'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je choisis le format approprié à chaque texte.'
+    exampleTranslation: 'I choose the appropriate format for each text.'
+  - id: 'fr-FR-C2-WRITTEN-001-005'
+    concept: 'chain-of-reasoning'
+    term: 'chaîne de raisonnement'
+    translation: 'chain of reasoning'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La chaîne de raisonnement donne de la cohérence au texte.'
+    exampleTranslation: 'The chain of reasoning gives coherence to the text.'
+  - id: 'fr-FR-C2-WRITTEN-001-006'
+    concept: 'appropriate-style'
+    term: 'style approprié'
+    translation: 'appropriate style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Le style approprié aide à convaincre le lecteur.'
+    exampleTranslation: 'The appropriate style helps convince the reader.'
+grammar: []
+culturalNotes: 'French C2 communication values precision, register control and stylistic finesse, with clear argumentation and smooth adaptation to the audience.'

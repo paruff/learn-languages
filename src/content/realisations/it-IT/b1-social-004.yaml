@@ -1,0 +1,62 @@
+nodeId: B1-SOCIAL-004
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-SOCIAL-004-001
+    concept: to-invite-opinion
+    term: invitare un'opinione
+    translation: to invite opinion
+    partOfSpeech: phrase
+    gender: n/a
+    example: I would like to invite your opinion on this topic.
+    exampleTranslation: I would like to invite your opinion on this topic.
+  - id: it-IT-B1-SOCIAL-004-002
+    concept: to-react-to-news
+    term: reagire alle notizie
+    translation: to react to news
+    partOfSpeech: phrase
+    gender: n/a
+    example: How did you react to the news about the weather?
+    exampleTranslation: How did you react to the news about the weather?
+  - id: it-IT-B1-SOCIAL-004-003
+    concept: to-change-the-subject-politely
+    term: cambiare argomento in modo educato
+    translation: to change the subject politely
+    partOfSpeech: phrase
+    gender: n/a
+    example: We can change the subject politely if you prefer.
+    exampleTranslation: We can change the subject politely if you prefer.
+  - id: it-IT-B1-SOCIAL-004-004
+    concept: to-follow-up
+    term: fare seguito
+    translation: to follow up
+    partOfSpeech: phrase
+    gender: n/a
+    example: I would like to follow up on what was said earlier.
+    exampleTranslation: I would like to follow up on what was said earlier.
+  - id: it-IT-B1-SOCIAL-004-005
+    concept: to-find-common-ground
+    term: trovare un punto in comune
+    translation: to find common ground
+    partOfSpeech: phrase
+    gender: n/a
+    example: It is important to find common ground in a discussion.
+    exampleTranslation: It is important to find common ground in a discussion.
+  - id: it-IT-B1-SOCIAL-004-006
+    concept: to-conclude-the-conversation
+    term: concludere la conversazione
+    translation: to conclude the conversation
+    partOfSpeech: phrase
+    gender: n/a
+    example: Shall we conclude the conversation for now?
+    exampleTranslation: Shall we conclude the conversation for now?
+grammar:
+  - id: B1-GRAMMAR-005
+    point: Discourse management phrases
+    explanation: Using set phrases to manage conversation flow and turn-taking
+    examples:
+      - In my opinion, I think that...
+      - I understand your point of view, however...
+    cefrNotes: Discourse management phrases help B1 learners maintain extended conversations
+culturalNotes: British conversation values polite turn-taking and avoiding interruption.
+  Using phrases like 'Sorry to interrupt' or 'If I may add' shows respect for other
+  speakers.

@@ -2,6 +2,7 @@ nodeId: C2-MODALITY-002
 lang: en-GB
 vocabulary:
   - id: en-GB-C2-MODALITY-002-001
+    concept: 'smooth-flowing-description'
     term: 'smooth-flowing description'
     translation: 'descrição fluida'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'I present a smooth-flowing and structured description of any subject.'
     exampleTranslation: 'Apresento uma descrição fluida e estruturada de qualquer assunto.'
   - id: en-GB-C2-MODALITY-002-002
+    concept: 'appropriate-style'
     term: 'appropriate style'
     translation: 'estilo adequado'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'I adapt the appropriate style to the context and audience.'
     exampleTranslation: 'Adapto o estilo adequado ao contexto e à audiência.'
   - id: en-GB-C2-MODALITY-002-003
+    concept: 'complex-subject'
     term: 'complex subject'
     translation: 'tema complexo'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'I develop complex subjects with clarity and coherence.'
     exampleTranslation: 'Desenvolvo temas complexos com clareza e coerência.'
   - id: en-GB-C2-MODALITY-002-004
+    concept: 'key-points'
     term: 'key points'
     translation: 'pontos-chave'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'I give due importance to all key points.'
     exampleTranslation: 'Dou a devida importância a todos os pontos-chave.'
   - id: en-GB-C2-MODALITY-002-005
+    concept: 'structured-argument'
     term: 'structured argument'
     translation: 'argumento estruturado'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'My argument is clear, smooth-flowing and well-structured.'
     exampleTranslation: 'O meu argumento é claro, fluido e bem estruturado.'
   - id: en-GB-C2-MODALITY-002-006
+    concept: 'appropriate-conclusion'
     term: 'appropriate conclusion'
     translation: 'conclusão adequada'
     partOfSpeech: phrase

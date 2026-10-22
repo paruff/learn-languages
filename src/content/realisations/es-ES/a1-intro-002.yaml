@@ -2,6 +2,7 @@ nodeId: A1-INTRO-002
 lang: es-ES
 vocabulary:
   - id: es-ES-A1-INTRO-002-001
+    concept: 'what-is-your-name'
     term: '¿Cómo se llama usted?'
     translation: 'What is your name?'
     partOfSpeech: phrase

@@ -2,12 +2,14 @@ nodeId: B1-LISTEN-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-B1-LISTEN-001-001
+    concept: 'the-main-points'
     term: 'les points principaux'
     translation: 'the main points'
     partOfSpeech: phrase
     example: 'Je n’ai saisi que les points principaux de l’exposé.'
     exampleTranslation: 'I only caught the main points of the talk.'
   - id: fr-FR-B1-LISTEN-001-002
+    concept: 'a-general-message'
     term: 'un message général'
     translation: 'a general message'
     partOfSpeech: phrase
@@ -15,6 +17,7 @@ vocabulary:
     example: 'L’annonce portait un message général sur la fermeture.'
     exampleTranslation: 'The announcement carried a general message about the closure.'
   - id: fr-FR-B1-LISTEN-001-003
+    concept: 'a-short-narrative'
     term: 'un récit court'
     translation: 'a short narrative'
     partOfSpeech: phrase
@@ -22,18 +25,21 @@ vocabulary:
     example: 'L’entretien incluait un récit court sur la guerre.'
     exampleTranslation: 'The interview included a short narrative about the war.'
   - id: fr-FR-B1-LISTEN-001-004
+    concept: 'to-follow-a-discussion'
     term: 'suivre une discussion'
     translation: 'to follow a discussion'
     partOfSpeech: phrase
     example: 'Je peux suivre une discussion en français standard.'
     exampleTranslation: 'I can follow a discussion in standard French.'
   - id: fr-FR-B1-LISTEN-001-005
+    concept: 'clearly-articulated'
     term: 'clairement articulé'
     translation: 'clearly articulated'
     partOfSpeech: adjective
     example: 'Je comprends mieux quand le discours est clairement articulé.'
     exampleTranslation: 'I understand better when the speech is clearly articulated.'
   - id: fr-FR-B1-LISTEN-001-006
+    concept: 'at-work'
     term: 'au travail'
     translation: 'at work'
     partOfSpeech: phrase

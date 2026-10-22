@@ -1,0 +1,46 @@
+nodeId: B1-SERVICE-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-SERVICE-001-001
+    concept: a-defective-item
+    term: un articolo difettoso
+    translation: a defective item
+    partOfSpeech: phrase
+    example: I would like to return a defective item.
+    exampleTranslation: I would like to return a defective item.
+  - id: it-IT-B1-SERVICE-001-002
+    concept: to-make-a-complaint
+    term: fare un reclamo
+    translation: to make a complaint
+    partOfSpeech: phrase
+    example: She made a complaint about the service.
+    exampleTranslation: She made a complaint about the service.
+  - id: it-IT-B1-SERVICE-001-003
+    concept: a-refund
+    term: un rimborso
+    translation: a refund
+    partOfSpeech: noun
+    example: They offered me a refund.
+    exampleTranslation: They offered me a refund.
+  - id: it-IT-B1-SERVICE-001-004
+    concept: the-post-office
+    term: l'ufficio postale
+    translation: the post office
+    partOfSpeech: phrase
+    example: The parcel is at the post office.
+    exampleTranslation: The parcel is at the post office.
+  - id: it-IT-B1-SERVICE-001-005
+    concept: a-bank-branch
+    term: una filiale bancaria
+    translation: a bank branch
+    partOfSpeech: phrase
+    example: The nearest bank branch closes at six.
+    exampleTranslation: The nearest bank branch closes at six.
+  - id: it-IT-B1-SERVICE-001-006
+    concept: to-sort-it-out
+    term: risolverlo
+    translation: to sort it out
+    partOfSpeech: phrase
+    example: I managed to sort it out at the counter.
+    exampleTranslation: I managed to sort it out at the counter.
+grammar: []

@@ -2,6 +2,7 @@ nodeId: B1-SOCIAL-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-B1-SOCIAL-001-001
+    concept: 'excuse-me-can-you-help-me'
     term: 'Desculpe, pode ajudar-me?'
     translation: 'Excuse me, can you help me?'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Desculpe, pode ajudar-me a encontrar o metro?'
     exampleTranslation: 'Excuse me, can you help me find the metro?'
   - id: pt-PT-B1-SOCIAL-001-002
+    concept: 'pardon-me'
     term: 'Com licença'
     translation: 'Pardon me'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Com licença, onde fica a estação de comboios?'
     exampleTranslation: 'Pardon me, where is the train station?'
   - id: pt-PT-B1-SOCIAL-001-003
+    concept: 'to-talk-about'
     term: 'falar sobre'
     translation: 'to talk about'
     partOfSpeech: verb
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Gostava de falar sobre a cultura portuguesa.'
     exampleTranslation: 'I would like to talk about Portuguese culture.'
   - id: pt-PT-B1-SOCIAL-001-004
+    concept: 'the-conversation-was-interesting'
     term: 'a conversa foi interessante'
     translation: 'the conversation was interesting'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'A conversa foi muito interessante, obrigado.'
     exampleTranslation: 'The conversation was very interesting, thank you.'
   - id: pt-PT-B1-SOCIAL-001-005
+    concept: 'in-my-experience'
     term: 'na minha experiência'
     translation: 'in my experience'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Na minha experiência, os portugueses são muito simpáticos.'
     exampleTranslation: 'In my experience, Portuguese people are very friendly.'
   - id: pt-PT-B1-SOCIAL-001-006
+    concept: 'it-depends-on-the-circumstances'
     term: 'depende das circunstâncias'
     translation: 'it depends on the circumstances'
     partOfSpeech: phrase

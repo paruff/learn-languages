@@ -2,6 +2,7 @@ nodeId: B2-ARGUE-002
 lang: de-DE
 vocabulary:
   - id: de-DE-B2-ARGUE-002-001
+    concept: 'point-of-view'
     term: 'Standpunkt'
     translation: 'point of view'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Ich vertrete den Standpunkt, dass...'
     exampleTranslation: 'I hold the point of view that...'
   - id: de-DE-B2-ARGUE-002-002
+    concept: 'to-justify'
     term: 'begründen'
     translation: 'to justify / to give reasons'
     partOfSpeech: verb
@@ -16,13 +18,15 @@ vocabulary:
     example: 'Können Sie Ihren Standpunkt begründen?'
     exampleTranslation: 'Can you justify your point of view?'
   - id: de-DE-B2-ARGUE-002-003
-    term: ' aktuelle'
+    concept: 'current'
+    term: 'aktuell'
     translation: 'current / topical'
     partOfSpeech: adjective
     gender: n/a
     example: 'Das ist eine aktuelle Frage.'
     exampleTranslation: 'That is a current question.'
   - id: de-DE-B2-ARGUE-002-004
+    concept: 'debate'
     term: 'Debatte'
     translation: 'debate'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Die Debatte war sehr lebhaft.'
     exampleTranslation: 'The debate was very lively.'
   - id: de-DE-B2-ARGUE-002-005
+    concept: 'to-represent'
     term: 'vertreten'
     translation: 'to represent / to hold (a view)'
     partOfSpeech: verb
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Ich vertrete die Meinung, dass...'
     exampleTranslation: 'I hold the opinion that...'
   - id: de-DE-B2-ARGUE-002-006
+    concept: 'hint'
     term: 'Hinweis'
     translation: 'hint / indication'
     partOfSpeech: noun

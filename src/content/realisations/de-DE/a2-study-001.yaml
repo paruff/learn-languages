@@ -2,6 +2,7 @@ nodeId: A2-STUDY-001
 lang: de-DE
 vocabulary:
   - id: de-DE-A2-STUDY-001-001
+    concept: 'studies'
     term: 'Studium'
     translation: 'studies'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Ich bin im dritten Semester meines Studiums.'
     exampleTranslation: 'I am in the third semester of my studies.'
   - id: de-DE-A2-STUDY-001-002
+    concept: 'university'
     term: 'Universität'
     translation: 'university'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Ich studiere an der Universität.'
     exampleTranslation: 'I study at the university.'
   - id: de-DE-A2-STUDY-001-003
+    concept: 'subject'
     term: 'Fach'
     translation: 'subject'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Mein Fach ist Informatik.'
     exampleTranslation: 'My subject is computer science.'
   - id: de-DE-A2-STUDY-001-004
+    concept: 'degree'
     term: 'Abschluss'
     translation: 'degree'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Welchen Abschluss haben Sie?'
     exampleTranslation: 'What degree do you have?'
   - id: de-DE-A2-STUDY-001-005
+    concept: 'exam'
     term: 'Klausur'
     translation: 'exam'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Die Klausur ist nächste Woche.'
     exampleTranslation: 'The exam is next week.'
   - id: de-DE-A2-STUDY-001-006
+    concept: 'grade'
     term: 'Note'
     translation: 'grade'
     partOfSpeech: noun

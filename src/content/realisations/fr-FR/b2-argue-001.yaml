@@ -2,6 +2,7 @@ nodeId: B2-ARGUE-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-B2-ARGUE-001-001
+    concept: 'to-construct-a-chain-of-reasoning'
     term: 'construire une chaîne de raisonnement'
     translation: 'to construct a chain of reasoning'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Je vais construire une chaîne de raisonnement pour expliquer.'
     exampleTranslation: 'I will construct a chain of reasoning to explain.'
   - id: fr-FR-B2-ARGUE-001-002
+    concept: 'to-develop-the-argument'
     term: "développer l'argument"
     translation: 'to develop the argument'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: "Il est important de développer l'argument étape par étape."
     exampleTranslation: 'It is important to develop the argument step by step.'
   - id: fr-FR-B2-ARGUE-001-003
+    concept: 'to-present-deductions'
     term: 'présenter des déductions'
     translation: 'to present deductions'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Je peux présenter des déductions basées sur des faits.'
     exampleTranslation: 'I can present deductions based on facts.'
   - id: fr-FR-B2-ARGUE-001-004
+    concept: 'to-connect-ideas-logically'
     term: 'relier les idées logiquement'
     translation: 'to connect ideas logically'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: "J'ai besoin de relier les idées logiquement."
     exampleTranslation: 'I need to connect the ideas logically.'
   - id: fr-FR-B2-ARGUE-001-005
+    concept: 'to-use-consequence-connectors'
     term: 'utiliser des connecteurs de conséquence'
     translation: 'to use consequence connectors'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: "Il est utile d'utiliser des connecteurs comme donc, ainsi, par conséquent."
     exampleTranslation: 'It is useful to use connectors like therefore, thus, consequently.'
   - id: fr-FR-B2-ARGUE-001-006
+    concept: 'to-structure-the-discourse'
     term: 'structurer le discours'
     translation: 'to structure the discourse'
     partOfSpeech: phrase

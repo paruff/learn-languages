@@ -2,6 +2,7 @@ nodeId: B2-TEXT-003
 lang: es-ES
 vocabulary:
   - id: es-ES-B2-TEXT-003-001
+    concept: 'line-of-argument'
     term: 'línea argumentativa'
     translation: 'line of argument'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Puedo seguir la línea argumentativa de un texto.'
     exampleTranslation: 'I can follow the line of argument of a text.'
   - id: es-ES-B2-TEXT-003-002
+    concept: 'thesis'
     term: 'tesis'
     translation: 'thesis'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'La tesis del autor es clara y bien defendida.'
     exampleTranslation: "The author's thesis is clear and well defended."
   - id: es-ES-B2-TEXT-003-003
+    concept: 'treatment'
     term: 'tratamiento'
     translation: 'treatment / handling'
     partOfSpeech: noun
@@ -23,12 +26,14 @@ vocabulary:
     example: 'El tratamiento del tema es exhaustivo.'
     exampleTranslation: 'The treatment of the topic is exhaustive.'
   - id: es-ES-B2-TEXT-003-004
+    concept: 'to-recognise'
     term: 'reconocer'
     translation: 'to recognise'
     partOfSpeech: verb
     example: 'Puedo reconocer la postura del autor.'
     exampleTranslation: "I can recognise the author's position."
   - id: es-ES-B2-TEXT-003-005
+    concept: 'textual-coherence'
     term: 'coherencia textual'
     translation: 'textual coherence'
     partOfSpeech: phrase
@@ -36,6 +41,7 @@ vocabulary:
     example: 'La coherencia textual facilita la comprensión.'
     exampleTranslation: 'Textual coherence facilitates comprehension.'
   - id: es-ES-B2-TEXT-003-006
+    concept: 'argumentative-connector'
     term: 'conector argumentativo'
     translation: 'argumentative connector'
     partOfSpeech: phrase

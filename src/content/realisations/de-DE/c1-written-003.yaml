@@ -2,6 +2,7 @@ nodeId: C1-WRITTEN-003
 lang: de-DE
 vocabulary:
   - id: de-DE-C1-WRITTEN-003-001
+    concept: 'spelling'
     term: 'Rechtschreibung'
     translation: 'spelling'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Meine Rechtschreibung ist gut.'
     exampleTranslation: 'My spelling is good.'
   - id: de-DE-C1-WRITTEN-003-002
+    concept: 'punctuation'
     term: 'Zeichensetzung'
     translation: 'punctuation'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Die Zeichensetzung war korrekt.'
     exampleTranslation: 'The punctuation was correct.'
   - id: de-DE-C1-WRITTEN-003-003
+    concept: 'correct'
     term: 'korrekt'
     translation: 'correct'
     partOfSpeech: adjective
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Das war ein korrekter Satz.'
     exampleTranslation: 'That was a correct sentence.'
   - id: de-DE-C1-WRITTEN-003-004
+    concept: 'error'
     term: 'Fehler'
     translation: 'error / mistake'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Es gibt wenige Fehler.'
     exampleTranslation: 'There are few errors.'
   - id: de-DE-C1-WRITTEN-003-005
+    concept: 'to-check'
     term: 'überprüfen'
     translation: 'to check / to verify'
     partOfSpeech: verb
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Ich überprüfe meinen Text auf Fehler.'
     exampleTranslation: 'I check my text for errors.'
   - id: de-DE-C1-WRITTEN-003-006
+    concept: 'sentence-structure'
     term: 'Satzstruktur'
     translation: 'sentence structure'
     partOfSpeech: noun

@@ -2,6 +2,7 @@ nodeId: C1-MEDIATION-001
 lang: de-DE
 vocabulary:
   - id: de-DE-C1-MEDIATION-001-001
+    concept: 'foreign-language'
     term: 'fremdsprachlich'
     translation: 'foreign-language'
     partOfSpeech: adjective
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Sie liest fremdsprachige Texte mit Verständnis.'
     exampleTranslation: 'She reads foreign-language texts with understanding.'
   - id: de-DE-C1-MEDIATION-001-002
+    concept: 'text-comprehension'
     term: 'Textverständnis'
     translation: 'text comprehension'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Ihr Textverständnis ist ausgezeichnet.'
     exampleTranslation: 'Her text comprehension is excellent.'
   - id: de-DE-C1-MEDIATION-001-003
+    concept: 'suitable'
     term: 'passend'
     translation: 'suitable / fitting'
     partOfSpeech: adjective
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Er hat ein passendes Wort gefunden.'
     exampleTranslation: 'He has found a suitable word.'
   - id: de-DE-C1-MEDIATION-001-004
+    concept: 'adequate'
     term: 'adäquat'
     translation: 'adequate / appropriate'
     partOfSpeech: adjective
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Die Übersetzung war adäquat.'
     exampleTranslation: 'The translation was adequate.'
   - id: de-DE-C1-MEDIATION-001-005
+    concept: 'vocabulary'
     term: 'Wortschatz'
     translation: 'vocabulary'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Ihr Wortschatz ist beeindruckend.'
     exampleTranslation: 'Her vocabulary is impressive.'
   - id: de-DE-C1-MEDIATION-001-006
+    concept: 'paraphrase'
     term: 'Paraphrase'
     translation: 'paraphrase'
     partOfSpeech: noun

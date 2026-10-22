@@ -1,0 +1,47 @@
+nodeId: A1-WANT-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A1-WANT-001-001
+    concept: i-want
+    term: voglio
+    translation: I want...
+    partOfSpeech: phrase
+    example: Voglio comprare un libro.
+    exampleTranslation: I want to go home.
+  - id: it-IT-A1-WANT-001-002
+    concept: i-would-like
+    term: vorrei
+    translation: I would like...
+    partOfSpeech: phrase
+    example: Vorrei un tavolo per due.
+    exampleTranslation: I would like to drink a tea.
+  - id: it-IT-A1-WANT-001-003
+    concept: i-m-going-to
+    term: sto per
+    translation: I'm going to...
+    partOfSpeech: phrase
+    example: Sto per uscire di casa.
+    exampleTranslation: I'm going to travel tomorrow.
+  - id: it-IT-A1-WANT-001-004
+    concept: to-hope
+    term: sperare
+    translation: to hope
+    partOfSpeech: verb
+    example: Spero di vederti presto.
+    exampleTranslation: I hope you are doing well.
+  - id: it-IT-A1-WANT-001-005
+    concept: to-wish
+    term: desiderare
+    translation: to wish
+    partOfSpeech: verb
+    example: Desidero un po’ di pace.
+    exampleTranslation: I wish you a nice day.
+  - id: it-IT-A1-WANT-001-006
+    concept: wish
+    term: desiderio
+    translation: wish
+    partOfSpeech: noun
+    gender: masculine
+    example: Il desiderio di viaggiare è forte.
+    exampleTranslation: That is my greatest wish.
+grammar: []

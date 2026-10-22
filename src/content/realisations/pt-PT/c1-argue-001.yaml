@@ -2,6 +2,7 @@ nodeId: C1-ARGUE-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-C1-ARGUE-001-001
+    concept: 'to-develop-sub-topics'
     term: 'desenvolver sub-temas'
     translation: 'to develop sub-topics'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'O orador desenvolveu os sub-temas com uma coerência invejável.'
     exampleTranslation: 'The speaker developed the sub-topics with enviable coherence.'
   - id: pt-PT-C1-ARGUE-001-002
+    concept: 'to-structure-the-presentation'
     term: 'estruturar a exposição'
     translation: 'to structure the presentation'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Saber estruturar a exposição é essencial para manter a atenção.'
     exampleTranslation: 'Knowing how to structure the presentation is essential for keeping attention.'
   - id: pt-PT-C1-ARGUE-001-003
+    concept: 'to-elaborate-the-points'
     term: 'aprofundar os pontos'
     translation: 'to elaborate the points'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Após a introdução, aprofundou os pontos mais polémicos da questão.'
     exampleTranslation: 'After the introduction, he elaborated on the most controversial points of the issue.'
   - id: pt-PT-C1-ARGUE-001-004
+    concept: 'to-establish-connections'
     term: 'estabelecer ligações'
     translation: 'to establish connections'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Foi notável a forma como estabeleceu ligações entre os vários temas.'
     exampleTranslation: 'The way he established connections between the various topics was remarkable.'
   - id: pt-PT-C1-ARGUE-001-005
+    concept: 'to-present-an-overview'
     term: 'apresentar uma visão global'
     translation: 'to present an overview'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'No início, apresentou uma visão global do problema.'
     exampleTranslation: 'At the start, he presented an overview of the problem.'
   - id: pt-PT-C1-ARGUE-001-006
+    concept: 'to-give-depth'
     term: 'conferir profundidade'
     translation: 'to give depth'
     partOfSpeech: phrase

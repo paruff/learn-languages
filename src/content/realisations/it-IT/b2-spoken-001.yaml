@@ -1,0 +1,61 @@
+nodeId: B2-SPOKEN-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-B2-SPOKEN-001-001
+    concept: 'to-understand-extended-speech'
+    term: 'capire il discorso esteso'
+    translation: 'to understand extended speech'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I can understand extended speech in lectures.'
+    exampleTranslation: 'Consigo compreender discurso extenso em palestras.'
+  - id: it-IT-B2-SPOKEN-001-002
+    concept: 'to-follow-lines-of-argumentation'
+    term: 'seguire le linee di argomentazione'
+    translation: 'to follow lines of argumentation'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'It is important to follow complex lines of argumentation.'
+    exampleTranslation: 'É importante seguir linhas de argumentação complexas.'
+  - id: it-IT-B2-SPOKEN-001-003
+    concept: 'to-identify-discussion-topics'
+    term: 'identificare i temi della discussione'
+    translation: 'to identify discussion topics'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I will identify the discussion topics in the lecture.'
+    exampleTranslation: 'Vou identificar os temas de discussão na palestra.'
+  - id: it-IT-B2-SPOKEN-001-004
+    concept: 'to-understand-the-speech-structure'
+    term: 'capire la struttura del discorso'
+    translation: 'to understand the speech structure'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I need to understand the speech structure.'
+    exampleTranslation: 'Preciso de perceber a estrutura do discurso.'
+  - id: it-IT-B2-SPOKEN-001-005
+    concept: 'to-note-the-intonation'
+    term: 'notare l’intonazione'
+    translation: 'to note the intonation'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'It is useful to note the intonation to understand the attitude.'
+    exampleTranslation: 'É útil notar a entoação para perceber a atitude.'
+  - id: it-IT-B2-SPOKEN-001-006
+    concept: 'to-extract-relevant-information'
+    term: 'estrarre informazioni rilevanti'
+    translation: 'to extract relevant information'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I will extract relevant information from the speech.'
+    exampleTranslation: 'Vou extrair informações relevantes do discurso.'
+grammar:
+  - id: it-IT-B2-SPOKEN-001-G01
+    point: 'Reported speech in listening comprehension'
+    explanation: 'Using indirect speech to summarise spoken content'
+    examples:
+      - 'The speaker explained that the project would start soon.'
+      - 'According to him, the measures were already being implemented.'
+    cefrNotes: 'B2 learners use reported speech to summarise what they hear'
+
+culturalNotes: "British lectures value signposting. Using 'firstly', 'to sum up' helps follow the speaker's structure."

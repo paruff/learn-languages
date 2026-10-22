@@ -12,11 +12,31 @@ permissions:
   pages: write
 
 env:
-  NODE_VERSION: '22.14.0'
+  # Major-only pin: tracks 26.x patches (and the move to LTS). Keep in step with
+  # package.json engines and .devcontainer/Dockerfile.
+  NODE_VERSION: '26'
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
 
 jobs:
+  empty-diff:
+    name: Empty Diff Guard
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - name: Fail when the PR changes no files
+        run: |
+          git fetch --no-tags origin "${{ github.base_ref }}" "${{ github.head_ref }}"
+          changed=$(git diff --name-only "origin/${{ github.base_ref }}...origin/${{ github.head_ref }}" | wc -l | tr -d ' ')
+          if [ "$changed" -eq 0 ]; then
+            echo "::error::This PR changes no files. An empty merge hides unimplemented work."
+            exit 1
+          fi
+          echo "PR changes $changed file(s)."
+
   sync-content:
     name: Sync Content
     runs-on: ubuntu-latest
@@ -80,10 +100,23 @@ jobs:
           files: ./coverage/lcov.info
           fail_ci_if_error: false
 
+  coverage:
+    name: Coverage Gate
+    runs-on: ubuntu-latest
+    needs: sync-content
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run check:coverage
+
   build:
     name: Build
     runs-on: ubuntu-latest
-    needs: [typecheck, lint, unit-test]
+    needs: [typecheck, lint, unit-test, coverage]
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7

@@ -2,6 +2,7 @@ nodeId: B1-DISCOURSE-005
 lang: es-ES
 vocabulary:
   - id: es-ES-B1-DISCOURSE-005-001
+    concept: 'report'
     term: 'informe'
     translation: 'report'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Escribí un informe sobre mi experiencia laboral.'
     exampleTranslation: 'I wrote a report about my work experience.'
   - id: es-ES-B1-DISCOURSE-005-002
+    concept: 'experience'
     term: 'experiencia'
     translation: 'experience'
     partOfSpeech: noun
@@ -16,12 +18,14 @@ vocabulary:
     example: 'Compartí mi experiencia en el proyecto.'
     exampleTranslation: 'I shared my experience in the project.'
   - id: es-ES-B1-DISCOURSE-005-003
+    concept: 'to-describe'
     term: 'describir'
     translation: 'to describe'
     partOfSpeech: verb
     example: 'Puedo describir experiencias de forma detallada.'
     exampleTranslation: 'I can describe experiences in detail.'
   - id: es-ES-B1-DISCOURSE-005-004
+    concept: 'result'
     term: 'resultado'
     translation: 'result'
     partOfSpeech: noun
@@ -29,12 +33,14 @@ vocabulary:
     example: 'Los resultados del informe fueron positivos.'
     exampleTranslation: 'The results of the report were positive.'
   - id: es-ES-B1-DISCOURSE-005-005
+    concept: 'to-draft'
     term: 'redactar'
     translation: 'to draft / to write'
     partOfSpeech: verb
     example: 'Necesito redactar el informe para el lunes.'
     exampleTranslation: 'I need to draft the report for Monday.'
   - id: es-ES-B1-DISCOURSE-005-006
+    concept: 'to-conclude'
     term: 'concluir'
     translation: 'to conclude'
     partOfSpeech: verb

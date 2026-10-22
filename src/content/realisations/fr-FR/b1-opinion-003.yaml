@@ -2,24 +2,28 @@ nodeId: B1-OPINION-003
 lang: fr-FR
 vocabulary:
   - id: fr-FR-B1-OPINION-003-001
+    concept: 'the-advantages-are'
     term: 'les avantages sont'
     translation: 'the advantages are'
     partOfSpeech: phrase
     example: 'Les avantages sont économiques et écologiques.'
     exampleTranslation: 'The advantages are economic and environmental.'
   - id: fr-FR-B1-OPINION-003-002
+    concept: 'the-disadvantages-are'
     term: 'les inconvénients sont'
     translation: 'the disadvantages are'
     partOfSpeech: phrase
     example: 'Les inconvénients sont le coût et le temps.'
     exampleTranslation: 'The disadvantages are the cost and the time.'
   - id: fr-FR-B1-OPINION-003-003
+    concept: 'on-the-one-hand-on-the-other-hand'
     term: 'd’un côté… de l’autre côté'
     translation: 'on the one hand... on the other hand'
     partOfSpeech: phrase
     example: 'D’un côté c’est bien, de l’autre côté il y a des risques.'
     exampleTranslation: 'On the one hand it is good, on the other hand there are risks.'
   - id: fr-FR-B1-OPINION-003-004
+    concept: 'a-positive-aspect'
     term: 'un aspect positif'
     translation: 'a positive aspect'
     partOfSpeech: phrase
@@ -27,6 +31,7 @@ vocabulary:
     example: 'Un aspect positif est la durabilité.'
     exampleTranslation: 'A positive aspect is sustainability.'
   - id: fr-FR-B1-OPINION-003-005
+    concept: 'a-negative-aspect'
     term: 'un aspect négatif'
     translation: 'a negative aspect'
     partOfSpeech: phrase
@@ -34,6 +39,7 @@ vocabulary:
     example: 'Un aspect négatif est le coût élevé.'
     exampleTranslation: 'A negative aspect is the high cost.'
   - id: fr-FR-B1-OPINION-003-006
+    concept: 'overall'
     term: 'dans l’ensemble'
     translation: 'overall'
     partOfSpeech: phrase

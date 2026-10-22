@@ -1,0 +1,62 @@
+nodeId: B1-SOCIAL-002
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-SOCIAL-002-001
+    concept: familiar-topics
+    term: argomenti familiari
+    translation: familiar topics
+    partOfSpeech: phrase
+    gender: n/a
+    example: I like to talk about familiar topics like work and hobbies.
+    exampleTranslation: I like to talk about familiar topics like work and hobbies.
+  - id: it-IT-B1-SOCIAL-002-002
+    concept: to-deepen-the-conversation
+    term: approfondire la conversazione
+    translation: to deepen the conversation
+    partOfSpeech: phrase
+    gender: n/a
+    example: We can deepen the conversation about this topic.
+    exampleTranslation: We can deepen the conversation about this topic.
+  - id: it-IT-B1-SOCIAL-002-003
+    concept: to-give-my-opinion
+    term: dare la mia opinione
+    translation: to give my opinion
+    partOfSpeech: phrase
+    gender: n/a
+    example: Can I give my opinion on this topic?
+    exampleTranslation: Can I give my opinion on this topic?
+  - id: it-IT-B1-SOCIAL-002-004
+    concept: to-listen-actively
+    term: ascoltare in modo attivo
+    translation: to listen actively
+    partOfSpeech: phrase
+    gender: n/a
+    example: It is important to listen actively when someone is speaking.
+    exampleTranslation: It is important to listen actively when someone is speaking.
+  - id: it-IT-B1-SOCIAL-002-005
+    concept: to-rephrase-what-was-heard
+    term: paraffrare ciò che è stato ascoltato
+    translation: to rephrase what was heard
+    partOfSpeech: phrase
+    gender: n/a
+    example: Can I rephrase what I heard to confirm I understood?
+    exampleTranslation: Can I rephrase what I heard to confirm I understood?
+  - id: it-IT-B1-SOCIAL-002-006
+    concept: to-confirm-understanding
+    term: confermare la comprensione
+    translation: to confirm understanding
+    partOfSpeech: phrase
+    gender: n/a
+    example: I want to confirm understanding before continuing.
+    exampleTranslation: I want to confirm understanding before continuing.
+grammar:
+  - id: B1-GRAMMAR-003
+    point: Conditional tense for polite conversation
+    explanation: Using conditional forms (gostaria, poderia, seria) to soften statements
+    examples:
+      - I would like to know more about that.
+      - Would it be possible to meet tomorrow?
+    cefrNotes: Conditional tense enables more nuanced and polite extended conversation
+culturalNotes: British conversation culture values active listening and taking turns.
+  Showing interest through follow-up questions is appreciated. Avoid dominating the
+  conversation.

@@ -2,18 +2,21 @@ nodeId: C1-MEDIATION-001
 lang: es-ES
 vocabulary:
   - id: es-ES-C1-MEDIATION-001-001
+    concept: 'to-reformulate'
     term: 'reformular'
     translation: 'to reformulate'
     partOfSpeech: verb
     example: 'Puedo reformular ideas complejas de forma accesible.'
     exampleTranslation: 'I can reformulate complex ideas in an accessible way.'
   - id: es-ES-C1-MEDIATION-001-002
+    concept: 'to-simplify'
     term: 'simplificar'
     translation: 'to simplify'
     partOfSpeech: verb
     example: 'Sé simplificar sin perder precisión técnica.'
     exampleTranslation: 'I know how to simplify without losing technical precision.'
   - id: es-ES-C1-MEDIATION-001-003
+    concept: 'complicated-issue'
     term: 'cuestión compleja'
     translation: 'complicated issue'
     partOfSpeech: phrase
@@ -21,6 +24,7 @@ vocabulary:
     example: 'Puedo explicar una cuestión compleja a un público general.'
     exampleTranslation: 'I can explain a complicated issue to a general audience.'
   - id: es-ES-C1-MEDIATION-001-004
+    concept: 'accessible'
     term: 'accesible'
     translation: 'accessible'
     partOfSpeech: adjective
@@ -28,6 +32,7 @@ vocabulary:
     example: 'El lenguaje accesible es clave para la mediación.'
     exampleTranslation: 'Accessible language is key for mediation.'
   - id: es-ES-C1-MEDIATION-001-005
+    concept: 'precision'
     term: 'precisión'
     translation: 'precision'
     partOfSpeech: noun
@@ -35,6 +40,7 @@ vocabulary:
     example: 'Mantengo la precisión aunque simplifique.'
     exampleTranslation: 'I maintain precision even when simplifying.'
   - id: es-ES-C1-MEDIATION-001-006
+    concept: 'to-translate-into-everyday-language'
     term: 'traducir al lenguaje cotidiano'
     translation: 'to translate into everyday language'
     partOfSpeech: phrase

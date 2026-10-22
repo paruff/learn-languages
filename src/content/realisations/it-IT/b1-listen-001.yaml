@@ -1,0 +1,46 @@
+nodeId: B1-LISTEN-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-LISTEN-001-001
+    concept: the-main-points
+    term: i punti principali
+    translation: the main points
+    partOfSpeech: phrase
+    example: I only caught the main points of the talk.
+    exampleTranslation: I only caught the main points of the talk.
+  - id: it-IT-B1-LISTEN-001-002
+    concept: a-general-message
+    term: un messaggio generale
+    translation: a general message
+    partOfSpeech: phrase
+    example: The announcement carried a general message about the closure.
+    exampleTranslation: The announcement carried a general message about the closure.
+  - id: it-IT-B1-LISTEN-001-003
+    concept: a-short-narrative
+    term: un breve racconto
+    translation: a short narrative
+    partOfSpeech: phrase
+    example: The interview included a short narrative about the war.
+    exampleTranslation: The interview included a short narrative about the war.
+  - id: it-IT-B1-LISTEN-001-004
+    concept: to-follow-a-discussion
+    term: seguire una discussione
+    translation: to follow a discussion
+    partOfSpeech: phrase
+    example: I can follow a discussion in standard French.
+    exampleTranslation: I can follow a discussion in standard French.
+  - id: it-IT-B1-LISTEN-001-005
+    concept: clearly-articulated
+    term: chiaramente articolato
+    translation: clearly articulated
+    partOfSpeech: adjective
+    example: I understand better when the speech is clearly articulated.
+    exampleTranslation: I understand better when the speech is clearly articulated.
+  - id: it-IT-B1-LISTEN-001-006
+    concept: at-work
+    term: al lavoro
+    translation: at work
+    partOfSpeech: phrase
+    example: I understood the main points of the meeting at work.
+    exampleTranslation: I understood the main points of the meeting at work.
+grammar: []

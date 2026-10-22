@@ -2,6 +2,7 @@ nodeId: B1-TEXT-004
 lang: de-DE
 vocabulary:
   - id: de-DE-B1-TEXT-004-001
+    concept: 'text'
     term: 'Text'
     translation: 'text'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Ich schreibe einen Text über mein Hobby.'
     exampleTranslation: 'I am writing a text about my hobby.'
   - id: de-DE-B1-TEXT-004-002
+    concept: 'topic'
     term: 'Thema'
     translation: 'topic'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Das Thema ist mir bekannt.'
     exampleTranslation: 'The topic is familiar to me.'
   - id: de-DE-B1-TEXT-004-003
+    concept: 'structure'
     term: 'Struktur'
     translation: 'structure'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Die Struktur des Textes ist klar.'
     exampleTranslation: 'The structure of the text is clear.'
   - id: de-DE-B1-TEXT-004-004
+    concept: 'coherent'
     term: 'zusammenhängend'
     translation: 'coherent'
     partOfSpeech: adjective
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Der Text ist zusammenhängend geschrieben.'
     exampleTranslation: 'The text is written coherently.'
   - id: de-DE-B1-TEXT-004-005
+    concept: 'context'
     term: 'Zusammenhang'
     translation: 'context / coherence'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Der Zusammenhang ist klar.'
     exampleTranslation: 'The context is clear.'
   - id: de-DE-B1-TEXT-004-006
+    concept: 'to-write'
     term: 'verfassen'
     translation: 'to write / to compose'
     partOfSpeech: verb

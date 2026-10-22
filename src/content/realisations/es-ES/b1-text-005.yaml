@@ -2,6 +2,7 @@ nodeId: B1-TEXT-005
 lang: es-ES
 vocabulary:
   - id: es-ES-B1-TEXT-005-001
+    concept: 'formal-letter'
     term: 'carta formal'
     translation: 'formal letter'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Redacté una carta formal para solicitar información.'
     exampleTranslation: 'I wrote a formal letter to request information.'
   - id: es-ES-B1-TEXT-005-002
+    concept: 'email'
     term: 'correo electrónico'
     translation: 'email'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Envié un correo electrónico con mi opinión.'
     exampleTranslation: 'I sent an email with my opinion.'
   - id: es-ES-B1-TEXT-005-003
+    concept: 'impression'
     term: 'impresión'
     translation: 'impression'
     partOfSpeech: noun
@@ -23,12 +26,14 @@ vocabulary:
     example: 'Quiero compartir mis impresiones sobre el curso.'
     exampleTranslation: 'I want to share my impressions about the course.'
   - id: es-ES-B1-TEXT-005-004
+    concept: 'to-request'
     term: 'solicitar'
     translation: 'to request'
     partOfSpeech: verb
     example: 'Necesito solicitar una cita con el médico.'
     exampleTranslation: 'I need to request an appointment with the doctor.'
   - id: es-ES-B1-TEXT-005-005
+    concept: 'sender'
     term: 'remitente'
     translation: 'sender'
     partOfSpeech: noun
@@ -36,6 +41,7 @@ vocabulary:
     example: 'El remitente del correo es desconocido.'
     exampleTranslation: 'The sender of the email is unknown.'
   - id: es-ES-B1-TEXT-005-006
+    concept: 'recipient'
     term: 'destinatario'
     translation: 'recipient'
     partOfSpeech: noun

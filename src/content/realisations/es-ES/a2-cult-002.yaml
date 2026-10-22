@@ -2,6 +2,7 @@ nodeId: A2-CULT-002
 lang: es-ES
 vocabulary:
   - id: es-ES-A2-CULT-002-001
+    concept: 'culture'
     term: 'cultura'
     translation: 'culture'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'La cultura española es muy rica.'
     exampleTranslation: 'Spanish culture is very rich.'
   - id: es-ES-A2-CULT-002-002
+    concept: 'cultural-difference'
     term: 'diferencia cultural'
     translation: 'cultural difference'
     partOfSpeech: phrase
@@ -16,24 +18,28 @@ vocabulary:
     example: 'Las diferencias culturales son interesantes.'
     exampleTranslation: 'Cultural differences are interesting.'
   - id: es-ES-A2-CULT-002-003
+    concept: 'to-compare'
     term: 'comparar'
     translation: 'to compare'
     partOfSpeech: verb
     example: 'Me gusta comparar las costumbres de otros países.'
     exampleTranslation: 'I like comparing the customs of other countries.'
   - id: es-ES-A2-CULT-002-004
+    concept: 'similar'
     term: 'parecido'
     translation: 'similar'
     partOfSpeech: adjective
     example: 'Es parecido a lo que hacemos en mi país.'
     exampleTranslation: "It's similar to what we do in my country."
   - id: es-ES-A2-CULT-002-005
+    concept: 'different'
     term: 'distinto'
     translation: 'different'
     partOfSpeech: adjective
     example: 'Es distinto de lo que esperaba.'
     exampleTranslation: 'It is different from what I expected.'
   - id: es-ES-A2-CULT-002-006
+    concept: 'social-custom'
     term: 'costumbre social'
     translation: 'social custom'
     partOfSpeech: phrase

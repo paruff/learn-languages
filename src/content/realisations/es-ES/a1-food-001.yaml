@@ -2,6 +2,7 @@ nodeId: A1-FOOD-001
 lang: es-ES
 vocabulary:
   - id: es-ES-A1-FOOD-001-001
+    concept: 'water'
     term: 'agua'
     translation: 'water'
     partOfSpeech: noun
@@ -12,6 +13,7 @@ vocabulary:
     imageAlt: 'A clear glass filled with water'
     mnemonic: 'Sounds like "aqua" — think aquarium, full of water.'
   - id: es-ES-A1-FOOD-001-002
+    concept: 'bread'
     term: 'pan'
     translation: 'bread'
     partOfSpeech: noun
@@ -22,6 +24,7 @@ vocabulary:
     imageAlt: 'A loaf of bread wrapped in cloth in a wire basket'
     mnemonic: 'Sounds like "pan" — imagine baking bread in a pan.'
   - id: es-ES-A1-FOOD-001-003
+    concept: 'coffee'
     term: 'café'
     translation: 'coffee'
     partOfSpeech: noun
@@ -32,6 +35,7 @@ vocabulary:
     imageAlt: 'A white cup of coffee on a saucer'
     mnemonic: 'Identical to English "café" — a café is where you go for coffee.'
   - id: es-ES-A1-FOOD-001-004
+    concept: 'milk'
     term: 'leche'
     translation: 'milk'
     partOfSpeech: noun
@@ -42,6 +46,7 @@ vocabulary:
     imageAlt: 'Glass pitchers filled with white milk'
     mnemonic: 'Sounds like "letch" — picture someone reaching greedily for a glass of milk.'
   - id: es-ES-A1-FOOD-001-005
+    concept: 'rice'
     term: 'arroz'
     translation: 'rice'
     partOfSpeech: noun

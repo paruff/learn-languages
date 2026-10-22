@@ -2,36 +2,42 @@ nodeId: A1-OPIN-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-A1-OPIN-001-001
+    concept: 'i-think-that'
     term: 'Je trouve que...'
     translation: 'I think that...'
     partOfSpeech: phrase
     example: 'Je trouve que c’est bien.'
     exampleTranslation: 'I think that is good.'
   - id: fr-FR-A1-OPIN-001-002
+    concept: 'i-like'
     term: "J'aime..."
     translation: 'I like...'
     partOfSpeech: phrase
     example: "J'aime le chocolat."
     exampleTranslation: 'I like chocolate.'
   - id: fr-FR-A1-OPIN-001-003
+    concept: 'i-don-t-like'
     term: "Je n'aime pas..."
     translation: "I don't like..."
     partOfSpeech: phrase
     example: "Je n'aime pas la soupe."
     exampleTranslation: "I don't like soup."
   - id: fr-FR-A1-OPIN-001-004
+    concept: 'good'
     term: 'bon'
     translation: 'good'
     partOfSpeech: adjective
     example: 'C’est très bon.'
     exampleTranslation: 'That is very good.'
   - id: fr-FR-A1-OPIN-001-005
+    concept: 'bad'
     term: 'mauvais'
     translation: 'bad'
     partOfSpeech: adjective
     example: 'Le temps est mauvais.'
     exampleTranslation: 'The weather is bad.'
   - id: fr-FR-A1-OPIN-001-006
+    concept: 'fond-of'
     term: 'aimer bien'
     translation: 'fond of'
     partOfSpeech: verb

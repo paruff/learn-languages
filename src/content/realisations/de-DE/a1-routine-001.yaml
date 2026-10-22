@@ -2,6 +2,7 @@ nodeId: A1-ROUTINE-001
 lang: de-DE
 vocabulary:
   - id: de-DE-A1-ROUTINE-001-001
+    concept: 'house'
     term: 'Haus'
     translation: 'house'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Das Haus ist groß.'
     exampleTranslation: 'The house is big.'
   - id: de-DE-A1-ROUTINE-001-002
+    concept: 'living-room'
     term: 'Wohnzimmer'
     translation: 'living room'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Das Wohnzimmer ist gemütlich.'
     exampleTranslation: 'The living room is cosy.'
   - id: de-DE-A1-ROUTINE-001-003
+    concept: 'kitchen'
     term: 'Küche'
     translation: 'kitchen'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Die Küche ist sauber.'
     exampleTranslation: 'The kitchen is clean.'
   - id: de-DE-A1-ROUTINE-001-004
+    concept: 'bedroom'
     term: 'Schlafzimmer'
     translation: 'bedroom'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Mein Schlafzimmer ist klein.'
     exampleTranslation: 'My bedroom is small.'
   - id: de-DE-A1-ROUTINE-001-005
+    concept: 'bathroom'
     term: 'Bad'
     translation: 'bathroom'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Das Bad ist unten.'
     exampleTranslation: 'The bathroom is downstairs.'
   - id: de-DE-A1-ROUTINE-001-006
+    concept: 'furniture'
     term: 'Möbel'
     translation: 'furniture'
     partOfSpeech: noun

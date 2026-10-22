@@ -2,6 +2,7 @@ nodeId: B1-OPINION-003
 lang: en-GB
 vocabulary:
   - id: en-GB-B1-OPINION-003-001
+    concept: 'the-advantages-are'
     term: 'the advantages are'
     translation: 'as vantagens são'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'The advantages are economic and environmental.'
     exampleTranslation: 'As vantagens são económicas e ambientais.'
   - id: en-GB-B1-OPINION-003-002
+    concept: 'the-disadvantages-are'
     term: 'the disadvantages are'
     translation: 'os inconvenientes são'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'The disadvantages are the cost and the time.'
     exampleTranslation: 'Os inconvenientes são o custo e o tempo.'
   - id: en-GB-B1-OPINION-003-003
+    concept: 'on-the-one-hand-on-the-other-hand'
     term: 'on the one hand... on the other hand'
     translation: 'por um lado... por outro lado'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'On the one hand it is good, on the other hand there are risks.'
     exampleTranslation: 'Por um lado é bom, por outro lado há riscos.'
   - id: en-GB-B1-OPINION-003-004
+    concept: 'a-positive-aspect'
     term: 'a positive aspect'
     translation: 'um aspeto positivo'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'A positive aspect is sustainability.'
     exampleTranslation: 'Um aspeto positivo é a sustentabilidade.'
   - id: en-GB-B1-OPINION-003-005
+    concept: 'a-negative-aspect'
     term: 'a negative aspect'
     translation: 'um aspeto negativo'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'A negative aspect is the high cost.'
     exampleTranslation: 'Um aspeto negativo é o custo elevado.'
   - id: en-GB-B1-OPINION-003-006
+    concept: 'overall'
     term: 'overall'
     translation: 'no geral'
     partOfSpeech: phrase

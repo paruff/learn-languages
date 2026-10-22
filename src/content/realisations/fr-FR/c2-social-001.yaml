@@ -1,0 +1,53 @@
+nodeId: C2-SOCIAL-001
+lang: fr-FR
+vocabulary:
+  - id: 'fr-FR-C2-SOCIAL-001-001'
+    concept: 'native-fluency'
+    term: 'fluidité native'
+    translation: 'native fluency'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je parle avec une fluidité native dans beaucoup de situations.'
+    exampleTranslation: 'I speak with native fluency in many situations.'
+  - id: 'fr-FR-C2-SOCIAL-001-002'
+    concept: 'total-spontaneity'
+    term: 'spontanéité totale'
+    translation: 'total spontaneity'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La spontanéité totale me permet de réagir sans préparation.'
+    exampleTranslation: 'Total spontaneity allows me to react without preparation.'
+  - id: 'fr-FR-C2-SOCIAL-001-003'
+    concept: 'native-precision'
+    term: 'précision native'
+    translation: 'native precision'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La précision native me permet d’exprimer des nuances.'
+    exampleTranslation: 'Native precision allows me to express nuances.'
+  - id: 'fr-FR-C2-SOCIAL-001-004'
+    concept: 'effective-communication'
+    term: 'communication efficace'
+    translation: 'effective communication'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La communication efficace est la norme dans mes échanges.'
+    exampleTranslation: 'Effective communication is the norm in my exchanges.'
+  - id: 'fr-FR-C2-SOCIAL-001-005'
+    concept: 'language-mastery'
+    term: 'maîtrise de la langue'
+    translation: 'language mastery'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La maîtrise de la langue me donne confiance.'
+    exampleTranslation: 'Mastery of the language gives me confidence.'
+  - id: 'fr-FR-C2-SOCIAL-001-006'
+    concept: 'communicative-confidence'
+    term: 'confiance communicative'
+    translation: 'communicative confidence'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La confiance communicative me permet de converser librement.'
+    exampleTranslation: 'Communicative confidence allows me to converse freely.'
+grammar: []
+culturalNotes: 'French C2 communication values precision, register control and stylistic finesse, with clear argumentation and smooth adaptation to the audience.'

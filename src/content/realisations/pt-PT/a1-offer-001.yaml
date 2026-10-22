@@ -2,18 +2,21 @@ nodeId: A1-OFFER-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-A1-OFFER-001-001
+    concept: 'do-you-want'
     term: 'Quer...?'
     translation: 'Do you want...?'
     partOfSpeech: phrase
     example: 'Quer um café?'
     exampleTranslation: 'Do you want a coffee?'
   - id: pt-PT-A1-OFFER-001-002
+    concept: 'would-you-like'
     term: 'Gostaria de...?'
     translation: 'Would you like...?'
     partOfSpeech: phrase
     example: 'Gostaria de mais chá?'
     exampleTranslation: 'Would you like more tea?'
   - id: pt-PT-A1-OFFER-001-003
+    concept: 'shall-we'
     term: 'Vamos...?'
     translation: 'Shall we...?'
     partOfSpeech: phrase

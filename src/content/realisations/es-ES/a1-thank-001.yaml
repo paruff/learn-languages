@@ -2,18 +2,21 @@ nodeId: A1-THANK-001
 lang: es-ES
 vocabulary:
   - id: es-ES-A1-THANK-001-001
+    concept: 'thank-you'
     term: 'Gracias'
     translation: 'Thank you'
     partOfSpeech: interjection
     example: 'Gracias por la ayuda.'
     exampleTranslation: 'Thank you for the help.'
   - id: es-ES-A1-THANK-001-002
+    concept: 'thank-you-very-much'
     term: 'Muchas gracias'
     translation: 'Thank you very much'
     partOfSpeech: interjection
     example: 'Muchas gracias por el regalo.'
     exampleTranslation: 'Thank you very much for the gift.'
   - id: es-ES-A1-THANK-001-003
+    concept: 'you-are-welcome'
     term: 'De nada'
     translation: 'You are welcome'
     partOfSpeech: phrase

@@ -2,36 +2,42 @@ nodeId: A2-PAST-003
 lang: es-ES
 vocabulary:
   - id: es-ES-A2-PAST-003-001
+    concept: 'to-tell'
     term: 'contar'
     translation: 'to tell / to count'
     partOfSpeech: verb
     example: 'Me contó lo que pasó ayer.'
     exampleTranslation: 'She told me what happened yesterday.'
   - id: es-ES-A2-PAST-003-002
+    concept: 'to-happen'
     term: 'suceder'
     translation: 'to happen'
     partOfSpeech: verb
     example: '¿Qué sucedió anoche?'
     exampleTranslation: 'What happened last night?'
   - id: es-ES-A2-PAST-003-003
+    concept: 'first'
     term: 'primero'
     translation: 'first'
     partOfSpeech: adverb
     example: 'Primero fuimos al restaurante, luego al cine.'
     exampleTranslation: 'First we went to the restaurant, then to the cinema.'
   - id: es-ES-A2-PAST-003-004
+    concept: 'afterwards'
     term: 'después'
     translation: 'afterwards'
     partOfSpeech: adverb
     example: 'Después volvimos a casa.'
     exampleTranslation: 'Afterwards we went back home.'
   - id: es-ES-A2-PAST-003-005
+    concept: 'while'
     term: 'mientras'
     translation: 'while'
     partOfSpeech: conjunction
     example: 'Mientras cenábamos, llovió mucho.'
     exampleTranslation: 'While we were having dinner, it rained a lot.'
   - id: es-ES-A2-PAST-003-006
+    concept: 'eventually'
     term: 'eventualmente'
     translation: 'eventually'
     partOfSpeech: adverb

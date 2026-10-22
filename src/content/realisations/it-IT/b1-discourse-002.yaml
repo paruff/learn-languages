@@ -1,0 +1,61 @@
+nodeId: B1-DISCOURSE-002
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-DISCOURSE-002-001
+    concept: following
+    term: in seguito
+    translation: following
+    partOfSpeech: phrase
+    gender: n/a
+    example: Following the meeting, we made a decision.
+    exampleTranslation: Following the meeting, we made a decision.
+  - id: it-IT-B1-DISCOURSE-002-002
+    concept: after-that
+    term: dopo di ciò
+    translation: after that
+    partOfSpeech: phrase
+    gender: n/a
+    example: After that, we went to dinner.
+    exampleTranslation: After that, we went to dinner.
+  - id: it-IT-B1-DISCOURSE-002-003
+    concept: first-of-all
+    term: prima di tutto
+    translation: first of all
+    partOfSpeech: phrase
+    gender: n/a
+    example: First of all, I want to thank everyone for being here.
+    exampleTranslation: First of all, I want to thank everyone for being here.
+  - id: it-IT-B1-DISCOURSE-002-004
+    concept: meanwhile
+    term: nel frattempo
+    translation: meanwhile
+    partOfSpeech: phrase
+    gender: n/a
+    example: Meanwhile, the situation improved.
+    exampleTranslation: Meanwhile, the situation improved.
+  - id: it-IT-B1-DISCOURSE-002-005
+    concept: next
+    term: successivamente
+    translation: next
+    partOfSpeech: phrase
+    gender: n/a
+    example: Next, we presented the results.
+    exampleTranslation: Next, we presented the results.
+  - id: it-IT-B1-DISCOURSE-002-006
+    concept: finally
+    term: infine
+    translation: finally
+    partOfSpeech: phrase
+    gender: n/a
+    example: Finally, we reached a conclusion.
+    exampleTranslation: Finally, we reached a conclusion.
+grammar:
+  - id: B1-GRAMMAR-011
+    point: Temporal markers for narrative sequence
+    explanation: Using time markers to order events in a narrative
+    examples:
+      - First, we arrived at the hotel.
+      - Next, we explored the city.
+    cefrNotes: Temporal markers help B1 learners create coherent narratives
+culturalNotes: British narratives often value concise sequencing. Using 'firstly',
+  'then', 'finally' provides clear chronological structure.

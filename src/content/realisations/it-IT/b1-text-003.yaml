@@ -1,0 +1,61 @@
+nodeId: B1-TEXT-003
+lang: it-IT
+vocabulary:
+  - id: it-IT-B1-TEXT-003-001
+    concept: technical-information
+    term: informazioni tecniche
+    translation: technical information
+    partOfSpeech: phrase
+    gender: feminine
+    example: I can understand simple technical information.
+    exampleTranslation: I can understand simple technical information.
+  - id: it-IT-B1-TEXT-003-002
+    concept: professional-field
+    term: campo professionale
+    translation: professional field
+    partOfSpeech: phrase
+    gender: feminine
+    example: I work in a specific professional field.
+    exampleTranslation: I work in a specific professional field.
+  - id: it-IT-B1-TEXT-003-003
+    concept: instruction-manual
+    term: manuale di istruzioni
+    translation: instruction manual
+    partOfSpeech: phrase
+    gender: masculine
+    example: I read the computer instruction manual.
+    exampleTranslation: I read the computer instruction manual.
+  - id: it-IT-B1-TEXT-003-004
+    concept: technical-report
+    term: rapporto tecnico
+    translation: technical report
+    partOfSpeech: phrase
+    gender: masculine
+    example: I need to write a technical report.
+    exampleTranslation: I need to write a technical report.
+  - id: it-IT-B1-TEXT-003-005
+    concept: specific-terminology
+    term: terminologia specifica
+    translation: specific terminology
+    partOfSpeech: phrase
+    gender: feminine
+    example: The specific terminology is difficult to understand.
+    exampleTranslation: The specific terminology is difficult to understand.
+  - id: it-IT-B1-TEXT-003-006
+    concept: to-consult-references
+    term: consultare le fonti
+    translation: to consult references
+    partOfSpeech: phrase
+    gender: n/a
+    example: It is useful to consult references to understand the text.
+    exampleTranslation: It is useful to consult references to understand the text.
+grammar:
+  - id: B1-GRAMMAR-017
+    point: Technical vocabulary recognition
+    explanation: Recognising cognates and technical terms from other languages
+    examples:
+      - Many technical terms come from Latin or Greek.
+      - I can use cognates to understand technical texts.
+    cefrNotes: B1 learners leverage cognates for technical reading
+culturalNotes: Technical texts often include international terms. Recognising patterns
+  helps comprehension.

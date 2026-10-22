@@ -1,0 +1,11 @@
+nodeId: C1-ACADEMIC-001
+lang: fr-FR
+vocabulary:
+  - id: fr-FR-C1-ACADEMIC-001-001
+    concept: academic-dissertation
+    term: thèse universitaire
+    translation: academic dissertation
+    partOfSpeech: noun
+    gender: feminine
+    example: Sa thèse universitaire présente une conclusion argumentée.
+    exampleTranslation: Her academic dissertation presents a reasoned conclusion.

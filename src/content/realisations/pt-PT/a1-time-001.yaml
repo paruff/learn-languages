@@ -2,24 +2,28 @@ nodeId: A1-TIME-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-A1-TIME-001-001
+    concept: 'what-time-is-it'
     term: 'Que horas são?'
     translation: 'What time is it?'
     partOfSpeech: phrase
     example: 'Desculpe, que horas são?'
     exampleTranslation: 'Excuse me, what time is it?'
   - id: pt-PT-A1-TIME-001-002
+    concept: 'today'
     term: 'hoje'
     translation: 'today'
     partOfSpeech: adverb
     example: 'Hoje é segunda-feira.'
     exampleTranslation: 'Today is Monday.'
   - id: pt-PT-A1-TIME-001-003
+    concept: 'tomorrow'
     term: 'amanhã'
     translation: 'tomorrow'
     partOfSpeech: adverb
     example: 'Amanhã vou ao mercado.'
     exampleTranslation: "Tomorrow I'm going to the market."
   - id: pt-PT-A1-TIME-001-004
+    concept: 'yesterday'
     term: 'ontem'
     translation: 'yesterday'
     partOfSpeech: adverb

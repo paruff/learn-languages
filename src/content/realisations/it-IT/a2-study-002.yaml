@@ -1,0 +1,60 @@
+nodeId: A2-STUDY-002
+lang: it-IT
+vocabulary:
+  - id: it-IT-A2-STUDY-002-001
+    concept: school
+    term: scuola
+    translation: school
+    partOfSpeech: noun
+    gender: feminine
+    example: Andavo a scuola a piedi.
+    exampleTranslation: I used to walk to school.
+  - id: it-IT-A2-STUDY-002-002
+    concept: teacher
+    term: insegnante
+    translation: teacher
+    partOfSpeech: noun
+    gender: n/a
+    example: L’insegnante era molto paziente.
+    exampleTranslation: The teacher was very patient.
+  - id: it-IT-A2-STUDY-002-003
+    concept: subject
+    term: materia
+    translation: subject
+    partOfSpeech: noun
+    gender: feminine
+    example: La mia materia preferita era la matematica.
+    exampleTranslation: My favourite subject was mathematics.
+  - id: it-IT-A2-STUDY-002-004
+    concept: class
+    term: classe
+    translation: class
+    partOfSpeech: noun
+    gender: feminine
+    example: La mia classe era piccola.
+    exampleTranslation: My class was small.
+  - id: it-IT-A2-STUDY-002-005
+    concept: grades
+    term: voti
+    translation: grades
+    partOfSpeech: noun
+    gender: masculine
+    example: I voti erano abbastanza buoni.
+    exampleTranslation: The grades were fairly good.
+  - id: it-IT-A2-STUDY-002-006
+    concept: to-repeat
+    term: ripetere
+    translation: to repeat
+    partOfSpeech: verb
+    example: Mi è piaciuto ripetere la lezione.
+    exampleTranslation: I liked repeating the lesson.
+grammar:
+  - id: it-IT-A2-STUDY-002-G01
+    point: passato per esperienze scolastiche
+    explanation: Usare il passato semplice per descrivere la propria esperienza scolastica.
+    examples:
+      - Ho studiato all’università di Milano.
+      - L’insegnante era molto paziente.
+    cefrNotes: A2 learners narrate school and study history using simple past forms.
+culturalNotes: Le esperienze scolastiche sono spesso opinioni personali legate alla
+  qualità dell’insegnamento e alla routine della classe.

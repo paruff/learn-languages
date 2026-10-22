@@ -1,0 +1,61 @@
+nodeId: B2-ARGUE-004
+lang: it-IT
+vocabulary:
+  - id: it-IT-B2-ARGUE-004-001
+    concept: 'to-sustain-the-thesis'
+    term: 'sostenere la tesi'
+    translation: 'to sustain the thesis'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I need to sustain the thesis with solid arguments.'
+    exampleTranslation: 'Preciso de sustentar a tese com argumentos sólidos.'
+  - id: it-IT-B2-ARGUE-004-002
+    concept: 'to-present-supporting-data'
+    term: 'presentare dati a supporto'
+    translation: 'to present supporting data'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I will present supporting data for my position.'
+    exampleTranslation: 'Vou apresentar dados de suporte para a minha posição.'
+  - id: it-IT-B2-ARGUE-004-003
+    concept: 'to-expose-the-argumentation'
+    term: 'esporre l’argomentazione'
+    translation: 'to expose the argumentation'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'It is important to expose the argumentation clearly.'
+    exampleTranslation: 'É importante expor a argumentação de forma clara.'
+  - id: it-IT-B2-ARGUE-004-004
+    concept: 'to-use-concrete-examples'
+    term: 'usare esempi concreti'
+    translation: 'to use concrete examples'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I will use concrete examples to illustrate.'
+    exampleTranslation: 'Vou usar exemplos concretos para ilustrar.'
+  - id: it-IT-B2-ARGUE-004-005
+    concept: 'to-reinforce-the-position'
+    term: 'rafforzare la propria posizione'
+    translation: 'to reinforce the position'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'It is useful to reinforce the position with more evidence.'
+    exampleTranslation: 'É útil reforçar a posição com mais evidências.'
+  - id: it-IT-B2-ARGUE-004-006
+    concept: 'to-write-an-essay'
+    term: 'scrivere un saggio'
+    translation: 'to write an essay'
+    partOfSpeech: 'phrase'
+    gender: 'n/a'
+    example: 'I will write an essay on the topic.'
+    exampleTranslation: 'Vou escrever um ensaio sobre o tema.'
+grammar:
+  - id: it-IT-B2-ARGUE-004-G01
+    point: 'Future subjunctive in formal writing'
+    explanation: 'Using future subjunctive in written argumentation'
+    examples:
+      - 'If this happens, we will have to react.'
+      - 'When necessary, we will change position.'
+    cefrNotes: 'B2 learners use future subjunctive in formal written contexts'
+
+culturalNotes: "British essay writing values clear thesis statement and systematic development. Using 'my thesis is that' or 'I argue that' introduces your argument."

@@ -2,6 +2,7 @@ nodeId: A2-CULT-001
 lang: de-DE
 vocabulary:
   - id: de-DE-A2-CULT-001-001
+    concept: 'festival'
     term: 'Fest'
     translation: 'festival'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Das Fest war sehr lustig.'
     exampleTranslation: 'The festival was very fun.'
   - id: de-DE-A2-CULT-001-002
+    concept: 'tradition'
     term: 'Tradition'
     translation: 'tradition'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Das ist eine alte Tradition.'
     exampleTranslation: 'That is an old tradition.'
   - id: de-DE-A2-CULT-001-003
+    concept: 'holiday'
     term: 'Feiertag'
     translation: 'holiday'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Am Feiertag bleibt man zu Hause.'
     exampleTranslation: 'On a holiday one stays at home.'
   - id: de-DE-A2-CULT-001-004
+    concept: 'music'
     term: 'Musik'
     translation: 'music'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Die Musik war sehr gut.'
     exampleTranslation: 'The music was very good.'
   - id: de-DE-A2-CULT-001-005
+    concept: 'to-dance'
     term: 'tanzen'
     translation: 'to dance'
     partOfSpeech: verb
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Wir tanzen auf dem Fest.'
     exampleTranslation: 'We dance at the festival.'
   - id: de-DE-A2-CULT-001-006
+    concept: 'culture'
     term: 'Kultur'
     translation: 'culture'
     partOfSpeech: noun

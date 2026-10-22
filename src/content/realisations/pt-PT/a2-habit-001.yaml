@@ -2,36 +2,42 @@ nodeId: A2-HABIT-001
 lang: pt-PT
 vocabulary:
   - id: pt-PT-A2-HABIT-001-001
+    concept: 'recently'
     term: 'recentemente'
     translation: 'recently'
     partOfSpeech: adverb
     example: 'Recentemente comecei a fazer desporto.'
     exampleTranslation: 'Recently I started doing sport.'
   - id: pt-PT-A2-HABIT-001-002
+    concept: 'lately'
     term: 'ultimamente'
     translation: 'lately'
     partOfSpeech: adverb
     example: 'Ultimamente tenho comido mais fruta.'
     exampleTranslation: 'Lately I have been eating more fruit.'
   - id: pt-PT-A2-HABIT-001-003
+    concept: 'to-start-doing'
     term: 'começar a'
     translation: 'to start doing'
     partOfSpeech: verb
     example: 'Comecei a ler mais livros.'
     exampleTranslation: 'I started reading more books.'
   - id: pt-PT-A2-HABIT-001-004
+    concept: 'to-stop-doing'
     term: 'parar de'
     translation: 'to stop doing'
     partOfSpeech: verb
     example: 'Parei de comer fast food.'
     exampleTranslation: 'I stopped eating fast food.'
   - id: pt-PT-A2-HABIT-001-005
+    concept: 'to-change'
     term: 'mudar de'
     translation: 'to change'
     partOfSpeech: verb
     example: 'Mudei de hábitos alimentares.'
     exampleTranslation: 'I changed my eating habits.'
   - id: pt-PT-A2-HABIT-001-006
+    concept: 'to-improve'
     term: 'melhorar'
     translation: 'to improve'
     partOfSpeech: verb

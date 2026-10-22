@@ -2,36 +2,42 @@ nodeId: A1-INTRO-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-A1-INTRO-001-001
+    concept: 'my-name-is'
     term: "Je m'appelle"
     translation: 'My name is'
     partOfSpeech: phrase
     example: "Je m'appelle Marie."
     exampleTranslation: 'My name is Marie.'
   - id: fr-FR-A1-INTRO-001-002
+    concept: 'nice-to-meet-you'
     term: 'Enchanté'
     translation: 'Nice to meet you'
     partOfSpeech: interjection
     example: 'Enchanté de faire votre connaissance.'
     exampleTranslation: 'Nice to meet you (literally: enchanted to make your acquaintance).'
   - id: fr-FR-A1-INTRO-001-003
+    concept: 'i-am-from'
     term: 'Je viens de'
     translation: 'I am from'
     partOfSpeech: phrase
     example: "Je viens d'Écosse."
     exampleTranslation: 'I am from Scotland.'
   - id: fr-FR-A1-INTRO-001-004
+    concept: 'i-live-in'
     term: "J'habite à"
     translation: 'I live in'
     partOfSpeech: phrase
     example: "J'habite à Lyon."
     exampleTranslation: 'I live in Lyon.'
   - id: fr-FR-A1-INTRO-001-005
+    concept: 'i-am-years-old'
     term: 'J’ai … ans'
     translation: 'I am ... years old'
     partOfSpeech: phrase
     example: 'J’ai vingt-cinq ans.'
     exampleTranslation: 'I am 25 years old.'
   - id: fr-FR-A1-INTRO-001-006
+    concept: 'i-speak'
     term: 'Je parle'
     translation: 'I speak'
     partOfSpeech: phrase

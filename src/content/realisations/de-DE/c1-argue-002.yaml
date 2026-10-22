@@ -2,6 +2,7 @@ nodeId: C1-ARGUE-002
 lang: de-DE
 vocabulary:
   - id: de-DE-C1-ARGUE-002-001
+    concept: 'point-of-view'
     term: 'Standpunkt'
     translation: 'point of view'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Ich vertrete den Standpunkt, dass die Wirtschaft wächst.'
     exampleTranslation: 'I hold the point of view that the economy is growing.'
   - id: de-DE-C1-ARGUE-002-002
+    concept: 'position'
     term: 'Position'
     translation: 'position'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Seine Position war klar und differenziert.'
     exampleTranslation: 'His position was clear and nuanced.'
   - id: de-DE-C1-ARGUE-002-003
+    concept: 'nuanced'
     term: 'differenziert'
     translation: 'nuanced / differentiated'
     partOfSpeech: adjective
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Die Analyse war sehr differenziert.'
     exampleTranslation: 'The analysis was very nuanced.'
   - id: de-DE-C1-ARGUE-002-004
+    concept: 'to-convey'
     term: 'vermitteln'
     translation: 'to convey / to mediate'
     partOfSpeech: verb
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Sie kann komplexe Ideen gut vermitteln.'
     exampleTranslation: 'She can convey complex ideas well.'
   - id: de-DE-C1-ARGUE-002-005
+    concept: 'attitude'
     term: 'Haltung'
     translation: 'attitude / stance'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Seine Haltung zum Thema war respektvoll.'
     exampleTranslation: 'His attitude towards the topic was respectful.'
   - id: de-DE-C1-ARGUE-002-006
+    concept: 'to-weigh'
     term: 'abwägen'
     translation: 'to weigh / to consider'
     partOfSpeech: verb

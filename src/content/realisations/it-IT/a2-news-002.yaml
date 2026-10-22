@@ -1,0 +1,58 @@
+nodeId: A2-NEWS-002
+lang: it-IT
+vocabulary:
+  - id: it-IT-A2-NEWS-002-001
+    concept: to-happen
+    term: succedere
+    translation: to happen
+    partOfSpeech: verb
+    example: Che cosa è successo ieri?
+    exampleTranslation: What happened yesterday?
+  - id: it-IT-A2-NEWS-002-002
+    concept: report
+    term: reportage
+    translation: report
+    partOfSpeech: noun
+    gender: masculine
+    example: Il reportage parla di un incidente.
+    exampleTranslation: The report talks about an accident.
+  - id: it-IT-A2-NEWS-002-003
+    concept: radio
+    term: radio
+    translation: radio
+    partOfSpeech: noun
+    gender: feminine
+    example: Ascolto la radio mentre guido.
+    exampleTranslation: I listen to the radio while I drive.
+  - id: it-IT-A2-NEWS-002-004
+    concept: event
+    term: evento
+    translation: event
+    partOfSpeech: noun
+    gender: masculine
+    example: L’evento è stato molto importante.
+    exampleTranslation: The event was very important.
+  - id: it-IT-A2-NEWS-002-005
+    concept: to-describe
+    term: descrivere
+    translation: to describe
+    partOfSpeech: verb
+    example: Mi piace descrivere i fatti importanti.
+    exampleTranslation: I like to describe important facts.
+  - id: it-IT-A2-NEWS-002-006
+    concept: to-explain
+    term: spiegare
+    translation: to explain
+    partOfSpeech: verb
+    example: Il giornalista spiega le cause.
+    exampleTranslation: The journalist explains the causes.
+grammar:
+  - id: it-IT-A2-NEWS-002-G01
+    point: descrivere eventi mediatici
+    explanation: Usare il passato per raccontare eventi riportati dai media.
+    examples:
+      - Il giornalista ha descritto l’incidente.
+      - La notizia ha spiegato i motivi.
+    cefrNotes: A2 learners describe events mentioned in the media using the past tense.
+culturalNotes: Le radio e i telegiornali sono canali comuni per tenersi aggiornati
+  sui fatti principali della giornata.

@@ -2,6 +2,7 @@ nodeId: B2-ARGUE-003
 lang: de-DE
 vocabulary:
   - id: de-DE-B2-ARGUE-003-001
+    concept: 'argumentation'
     term: 'Argumentation'
     translation: 'argumentation'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Die Argumentation war überzeugend.'
     exampleTranslation: 'The argumentation was convincing.'
   - id: de-DE-B2-ARGUE-003-002
+    concept: 'systematic'
     term: 'systematisch'
     translation: 'systematic'
     partOfSpeech: adjective
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Er argumentiert sehr systematisch.'
     exampleTranslation: 'He argues very systematically.'
   - id: de-DE-B2-ARGUE-003-003
+    concept: 'emphasis'
     term: 'Hervorhebung'
     translation: 'emphasis / highlighting'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Die Hervorhebung war wichtig.'
     exampleTranslation: 'The emphasis was important.'
   - id: de-DE-B2-ARGUE-003-004
+    concept: 'focus'
     term: 'Schwerpunkt'
     translation: 'focus / emphasis'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Der Schwerpunkt liegt auf der Wirtschaft.'
     exampleTranslation: 'The focus is on the economy.'
   - id: de-DE-B2-ARGUE-003-005
+    concept: 'to-develop'
     term: 'entwickeln'
     translation: 'to develop'
     partOfSpeech: verb
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Ich entwickle mein Argument weiter.'
     exampleTranslation: 'I develop my argument further.'
   - id: de-DE-B2-ARGUE-003-006
+    concept: 'convincing'
     term: 'überzeugend'
     translation: 'convincing'
     partOfSpeech: adjective

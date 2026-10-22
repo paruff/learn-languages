@@ -2,6 +2,7 @@ nodeId: A1-FAMILY-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-A1-FAMILY-001-001
+    concept: 'mother'
     term: 'mère'
     translation: 'mother'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Ma mère s’appelle Ana.'
     exampleTranslation: 'My mother is called Ana.'
   - id: fr-FR-A1-FAMILY-001-002
+    concept: 'father'
     term: 'père'
     translation: 'father'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Mon père travaille à Paris.'
     exampleTranslation: 'My father works in Paris.'
   - id: fr-FR-A1-FAMILY-001-003
+    concept: 'brother'
     term: 'frère'
     translation: 'brother'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'J’ai un frère plus jeune.'
     exampleTranslation: 'I have a younger brother.'
   - id: fr-FR-A1-FAMILY-001-004
+    concept: 'sister'
     term: 'sœur'
     translation: 'sister'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Ma sœur est professeure.'
     exampleTranslation: 'My sister is a teacher.'
   - id: fr-FR-A1-FAMILY-001-005
+    concept: 'tall'
     term: 'grand'
     translation: 'tall'
     partOfSpeech: adjective
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Mon père est grand.'
     exampleTranslation: 'My father is tall.'
   - id: fr-FR-A1-FAMILY-001-006
+    concept: 'short'
     term: 'petit'
     translation: 'short'
     partOfSpeech: adjective

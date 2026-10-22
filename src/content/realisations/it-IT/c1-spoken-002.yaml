@@ -1,0 +1,11 @@
+nodeId: C1-SPOKEN-002
+lang: it-IT
+vocabulary:
+  - id: it-IT-C1-SPOKEN-002-001
+    concept: to-get-down-to-business
+    term: andare al sodo
+    translation: to get down to business
+    partOfSpeech: phrase
+    gender: n/a
+    example: Dopo i convenevoli, è ora di andare al sodo.
+    exampleTranslation: After the pleasantries, it is time to get down to business.

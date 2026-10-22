@@ -2,6 +2,7 @@ nodeId: C1-SPOKEN-005
 lang: es-ES
 vocabulary:
   - id: es-ES-C1-SPOKEN-005-001
+    concept: 'television-programme'
     term: 'programa de televisión'
     translation: 'television programme'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Puedo seguir programas de televisión sin esfuerzo.'
     exampleTranslation: 'I can follow television programmes without effort.'
   - id: es-ES-C1-SPOKEN-005-002
+    concept: 'film'
     term: 'película'
     translation: 'film'
     partOfSpeech: noun
@@ -16,12 +18,14 @@ vocabulary:
     example: 'Entiendo películas españolas sin subtítulos.'
     exampleTranslation: 'I understand Spanish films without subtitles.'
   - id: es-ES-C1-SPOKEN-005-003
+    concept: 'without-too-much-effort'
     term: 'sin mucho esfuerzo'
     translation: 'without too much effort'
     partOfSpeech: phrase
     example: 'Sigo la tele sin mucho esfuerzo.'
     exampleTranslation: 'I follow TV without too much effort.'
   - id: es-ES-C1-SPOKEN-005-004
+    concept: 'listening-comprehension'
     term: 'comprensión auditiva'
     translation: 'listening comprehension'
     partOfSpeech: phrase
@@ -29,6 +33,7 @@ vocabulary:
     example: 'Mi comprensión auditiva ha alcanzado un nivel alto.'
     exampleTranslation: 'My listening comprehension has reached a high level.'
   - id: es-ES-C1-SPOKEN-005-005
+    concept: 'television-series'
     term: 'series de televisión'
     translation: 'television series'
     partOfSpeech: phrase
@@ -36,6 +41,7 @@ vocabulary:
     example: 'Veo series de televisión en español para practicar.'
     exampleTranslation: 'I watch Spanish television series to practise.'
   - id: es-ES-C1-SPOKEN-005-006
+    concept: 'varied-accent'
     term: 'acento variado'
     translation: 'varied accent'
     partOfSpeech: phrase

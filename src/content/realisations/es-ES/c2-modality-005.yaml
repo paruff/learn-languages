@@ -2,6 +2,7 @@ nodeId: C2-MODALITY-005
 lang: es-ES
 vocabulary:
   - id: es-ES-C2-MODALITY-005-001
+    concept: 'flowing-style'
     term: 'estilo fluido'
     translation: 'flowing style'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Escribo con un estilo fluido y natural.'
     exampleTranslation: 'I write with a flowing and natural style.'
   - id: es-ES-C2-MODALITY-005-002
+    concept: 'appropriate-style'
     term: 'estilo apropiado'
     translation: 'appropriate style'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Adapto mi estilo según el tipo de texto.'
     exampleTranslation: 'I adapt my style according to the type of text.'
   - id: es-ES-C2-MODALITY-005-003
+    concept: 'complex-subject'
     term: 'asunto complejo'
     translation: 'complex subject'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Puedo escribir sobre asuntos complejos con claridad.'
     exampleTranslation: 'I can write about complex subjects clearly.'
   - id: es-ES-C2-MODALITY-005-004
+    concept: 'introduction'
     term: 'introducción'
     translation: 'introduction'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Escribo introducciones que captan la atención del lector.'
     exampleTranslation: "I write introductions that capture the reader's attention."
   - id: es-ES-C2-MODALITY-005-005
+    concept: 'fitting-conclusion'
     term: 'conclusión adecuada'
     translation: 'fitting conclusion'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Cierro con una conclusión adecuada y bien fundamentada.'
     exampleTranslation: 'I close with a fitting and well-founded conclusion.'
   - id: es-ES-C2-MODALITY-005-006
+    concept: 'development-of-ideas'
     term: 'desarrollo de ideas'
     translation: 'development of ideas'
     partOfSpeech: phrase

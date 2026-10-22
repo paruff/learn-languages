@@ -2,36 +2,42 @@ nodeId: B1-RECAP-001
 lang: en-GB
 vocabulary:
   - id: en-GB-B1-RECAP-001-001
+    concept: 'a-brief-account'
     term: 'a brief account'
     translation: 'un bref récit'
     partOfSpeech: phrase
     example: 'Let me give you a brief account of the meeting.'
     exampleTranslation: 'Laisse-moi te donner un bref récit de la réunion.'
   - id: en-GB-B1-RECAP-001-002
+    concept: 'my-impression-is'
     term: 'my impression is'
     translation: 'mon impression est que'
     partOfSpeech: phrase
     example: 'My impression is that it went well.'
     exampleTranslation: 'Mon impression est que cela s’est bien passé.'
   - id: en-GB-B1-RECAP-001-003
+    concept: 'a-follow-up-question'
     term: 'a follow-up question'
     translation: 'une question complémentaire'
     partOfSpeech: phrase
     example: 'The interviewer asked a follow-up question.'
     exampleTranslation: 'L’entretien a posé une question complémentaire.'
   - id: en-GB-B1-RECAP-001-004
+    concept: 'a-documentary'
     term: 'a documentary'
     translation: 'un documentaire'
     partOfSpeech: noun
     example: 'The documentary was about the ocean.'
     exampleTranslation: 'Le documentaire portait sur l’océan.'
   - id: en-GB-B1-RECAP-001-005
+    concept: 'the-gist'
     term: 'the gist'
     translation: 'l’essentiel'
     partOfSpeech: phrase
     example: 'I will tell you the gist of it.'
     exampleTranslation: 'Je vais te dire l’essentiel.'
   - id: en-GB-B1-RECAP-001-006
+    concept: 'a-discussion'
     term: 'a discussion'
     translation: 'une discussion'
     partOfSpeech: noun

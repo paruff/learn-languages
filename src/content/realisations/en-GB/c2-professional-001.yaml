@@ -2,6 +2,7 @@ nodeId: C2-PROFESSIONAL-001
 lang: en-GB
 vocabulary:
   - id: en-GB-C2-PROFESSIONAL-001-001
+    concept: 'structured-summary'
     term: 'structured summary'
     translation: 'resumo estruturado'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'I produce a structured summary of complex material.'
     exampleTranslation: 'Elaboro um resumo estruturado de materiais complexos.'
   - id: en-GB-C2-PROFESSIONAL-001-002
+    concept: 'key-points'
     term: 'key points'
     translation: 'pontos-chave'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'I select key points with effectiveness and clarity.'
     exampleTranslation: 'Seleciono os pontos-chave com eficácia e clareza.'
   - id: en-GB-C2-PROFESSIONAL-001-003
+    concept: 'appropriate-format'
     term: 'appropriate format'
     translation: 'formato adequado'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'I always use the appropriate format for each type of document.'
     exampleTranslation: 'Utilizo sempre o formato adequado para cada tipo de documento.'
   - id: en-GB-C2-PROFESSIONAL-001-004
+    concept: 'professional-style'
     term: 'professional style'
     translation: 'estilo profissional'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'I always maintain a professional and credible style.'
     exampleTranslation: 'Mantenho sempre um estilo profissional e credível.'
   - id: en-GB-C2-PROFESSIONAL-001-005
+    concept: 'complex-factual-material'
     term: 'complex factual material'
     translation: 'materiais factual complexos'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'I can summarise complex factual material with precision.'
     exampleTranslation: 'Consigo resumir materiais factual complexos com precisão.'
   - id: en-GB-C2-PROFESSIONAL-001-006
+    concept: 'clear-presentation'
     term: 'clear presentation'
     translation: 'apresentação clara'
     partOfSpeech: phrase

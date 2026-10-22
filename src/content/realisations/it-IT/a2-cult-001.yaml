@@ -1,0 +1,62 @@
+nodeId: A2-CULT-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A2-CULT-001-001
+    concept: festival
+    term: festival
+    translation: festival
+    partOfSpeech: noun
+    gender: masculine
+    example: Il festival è molto bello quest’anno.
+    exampleTranslation: The festival is very beautiful this year.
+  - id: it-IT-A2-CULT-001-002
+    concept: tradition
+    term: tradizione
+    translation: tradition
+    partOfSpeech: noun
+    gender: feminine
+    example: La tradizione è importante per la nostra famiglia.
+    exampleTranslation: Tradition is important for our family.
+  - id: it-IT-A2-CULT-001-003
+    concept: celebration
+    term: celebrazione
+    translation: celebration
+    partOfSpeech: noun
+    gender: feminine
+    example: La celebrazione dura tutta la sera.
+    exampleTranslation: The celebration lasts all evening.
+  - id: it-IT-A2-CULT-001-004
+    concept: music
+    term: musica
+    translation: music
+    partOfSpeech: noun
+    gender: feminine
+    example: La musica locale è molto piacevole.
+    exampleTranslation: The local music is very pleasant.
+  - id: it-IT-A2-CULT-001-005
+    concept: dance
+    term: danza
+    translation: dance
+    partOfSpeech: noun
+    gender: feminine
+    example: La danza è al centro della festa.
+    exampleTranslation: The dance is at the centre of the party.
+  - id: it-IT-A2-CULT-001-006
+    concept: party
+    term: festa
+    translation: party
+    partOfSpeech: noun
+    gender: feminine
+    example: Andiamo a una festa di paese.
+    exampleTranslation: We are going to a village party.
+grammar:
+  - id: it-IT-A2-CULT-001-G01
+    point: descrivere eventi culturali
+    explanation: Usare aggettivi e avverbi per descrivere festival e celebrazioni.
+    examples:
+      - Il festival è molto popolare.
+      - La celebrazione è stata incredibile.
+    cefrNotes: A2 learners can describe cultural events and traditions in simple connected
+      speech.
+culturalNotes: In Italia i festival e le sagre sono spesso legati a produzioni locali,
+  tradizioni regionali e celebrazioni religiose.

@@ -2,6 +2,7 @@ nodeId: A2-CULT-001
 lang: es-ES
 vocabulary:
   - id: es-ES-A2-CULT-001-001
+    concept: 'party'
     term: 'fiesta'
     translation: 'party / festival'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'La fiesta de San Fermín es muy famosa.'
     exampleTranslation: 'The San Fermín festival is very famous.'
   - id: es-ES-A2-CULT-001-002
+    concept: 'tradition'
     term: 'tradición'
     translation: 'tradition'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Es una tradición muy antigua.'
     exampleTranslation: 'It is a very old tradition.'
   - id: es-ES-A2-CULT-001-003
+    concept: 'celebration'
     term: 'celebración'
     translation: 'celebration'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'La celebración dura toda la semana.'
     exampleTranslation: 'The celebration lasts the whole week.'
   - id: es-ES-A2-CULT-001-004
+    concept: 'custom'
     term: 'costumbre'
     translation: 'custom'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Es una costumbre muy arraigada.'
     exampleTranslation: 'It is a deeply-rooted custom.'
   - id: es-ES-A2-CULT-001-005
+    concept: 'cultural-event'
     term: 'evento cultural'
     translation: 'cultural event'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Los eventos culturales son muy variados.'
     exampleTranslation: 'Cultural events are very varied.'
   - id: es-ES-A2-CULT-001-006
+    concept: 'to-attend'
     term: 'asistir'
     translation: 'to attend'
     partOfSpeech: verb

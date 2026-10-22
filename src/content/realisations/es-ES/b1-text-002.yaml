@@ -2,6 +2,7 @@ nodeId: B1-TEXT-002
 lang: es-ES
 vocabulary:
   - id: es-ES-B1-TEXT-002-001
+    concept: 'headline'
     term: 'titular'
     translation: 'headline'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'El titular del periódico me llamó la atención.'
     exampleTranslation: 'The newspaper headline caught my attention.'
   - id: es-ES-B1-TEXT-002-002
+    concept: 'news-item'
     term: 'noticia'
     translation: 'news item'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Leí varias noticias sobre la economía.'
     exampleTranslation: 'I read several news items about the economy.'
   - id: es-ES-B1-TEXT-002-003
+    concept: 'summary'
     term: 'resumen'
     translation: 'summary'
     partOfSpeech: noun
@@ -23,12 +26,14 @@ vocabulary:
     example: 'El resumen del artículo es muy claro.'
     exampleTranslation: 'The summary of the article is very clear.'
   - id: es-ES-B1-TEXT-002-004
+    concept: 'to-identify'
     term: 'identificar'
     translation: 'to identify'
     partOfSpeech: verb
     example: 'Puedo identificar los puntos clave de una noticia.'
     exampleTranslation: 'I can identify the key points of a news item.'
   - id: es-ES-B1-TEXT-002-005
+    concept: 'content'
     term: 'contenido'
     translation: 'content'
     partOfSpeech: noun
@@ -36,6 +41,7 @@ vocabulary:
     example: 'El contenido del periódico es variado.'
     exampleTranslation: 'The content of the newspaper is varied.'
   - id: es-ES-B1-TEXT-002-006
+    concept: 'section'
     term: 'sección'
     translation: 'section'
     partOfSpeech: noun

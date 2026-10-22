@@ -2,36 +2,42 @@ nodeId: A2-SOCIAL-001
 lang: fr-FR
 vocabulary:
   - id: fr-FR-A2-SOCIAL-001-001
+    concept: 'nice-to-meet-you'
     term: 'Enchanté'
     translation: 'Nice to meet you'
     partOfSpeech: interjection
     example: 'Enchanté, je suis Claire.'
     exampleTranslation: 'Nice to meet you, I’m Claire.'
   - id: fr-FR-A2-SOCIAL-001-002
+    concept: 'how-are-you'
     term: 'Comment allez-vous ?'
     translation: 'How are you?'
     partOfSpeech: phrase
     example: 'Bonjour Marie, comment allez-vous ?'
     exampleTranslation: 'Hello Marie, how are you?'
   - id: fr-FR-A2-SOCIAL-001-003
+    concept: 'please'
     term: 's’il vous plaît'
     translation: 'please'
     partOfSpeech: phrase
     example: 'Un café, s’il vous plaît.'
     exampleTranslation: 'A coffee, please.'
   - id: fr-FR-A2-SOCIAL-001-004
+    concept: 'excuse-me'
     term: 'excusez-moi'
     translation: 'excuse me'
     partOfSpeech: phrase
     example: 'Excusez-moi, où est la gare ?'
     exampleTranslation: 'Excuse me, where is the station?'
   - id: fr-FR-A2-SOCIAL-001-005
+    concept: 'to-introduce'
     term: 'présenter'
     translation: 'to introduce'
     partOfSpeech: verb
     example: 'Permettez-moi de vous présenter mon collègue.'
     exampleTranslation: 'Let me introduce my colleague.'
   - id: fr-FR-A2-SOCIAL-001-006
+    concept: 'to-exchange'
     term: 'échanger'
     translation: 'to exchange'
     partOfSpeech: verb

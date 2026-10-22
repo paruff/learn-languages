@@ -1,0 +1,53 @@
+nodeId: C2-ACADEMIC-001
+lang: fr-FR
+vocabulary:
+  - id: 'fr-FR-C2-ACADEMIC-001-001'
+    concept: 'advanced-academic-writing'
+    term: 'écriture académique avancée'
+    translation: 'advanced academic writing'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Je maîtrise l’écriture académique avancée en français.'
+    exampleTranslation: 'I master advanced academic writing in French.'
+  - id: 'fr-FR-C2-ACADEMIC-001-002'
+    concept: 'coherent-and-convincing-text'
+    term: 'texte cohérent et convaincant'
+    translation: 'coherent and convincing text'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Le texte est cohérent, convaincant et bien structuré.'
+    exampleTranslation: 'The text is coherent, convincing and well organised.'
+  - id: 'fr-FR-C2-ACADEMIC-001-003'
+    concept: 'clear-structure'
+    term: 'structure claire'
+    translation: 'clear structure'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La structure claire rend le raisonnement plus accessible.'
+    exampleTranslation: 'The clear structure makes the reasoning more accessible.'
+  - id: 'fr-FR-C2-ACADEMIC-001-004'
+    concept: 'wide-range-of-language'
+    term: 'large répertoire linguistique'
+    translation: 'wide range of language'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Je dispose d’un large répertoire linguistique pour parler de sujets complexes.'
+    exampleTranslation: 'I have a wide range of language at my disposal for speaking about complex topics.'
+  - id: 'fr-FR-C2-ACADEMIC-001-005'
+    concept: 'solid-argumentation'
+    term: 'argumentation solide'
+    translation: 'solid argumentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Son argumentation est solide et étayée par des exemples précis.'
+    exampleTranslation: 'His argumentation is solid and supported by precise examples.'
+  - id: 'fr-FR-C2-ACADEMIC-001-006'
+    concept: 'academic-style'
+    term: 'style académique'
+    translation: 'academic style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Le style académique reste précis, clair et convaincant.'
+    exampleTranslation: 'The academic style remains precise, clear and convincing.'
+grammar: []
+culturalNotes: 'French C2 communication values precision, register control and stylistic finesse, with clear argumentation and smooth adaptation to the audience.'

@@ -78,7 +78,7 @@ Ordered by how directly each item serves intent §3 ("comes back"). 2.1 and 2.2 
 
 ## Rules for this plan
 
-1. Nothing in **Next** starts before 1.4 is recorded as positive. Nothing in **Later** starts before 2.3 produces data.
+1. Nothing in **Next** starts before N.5 is recorded as positive. Nothing in **Later** starts before retention measurement exists (S6).
 2. Feature work follows intent → spec → plan: (a) add or adjust the requirement ID in `spec.md`, (b) add or reorder its row here, (c) brainstorming → writing-plans → TDD → verification → review (AGENTS.md §2), (d) flip the spec status to ✅ in the same PR, with the evidence linked.
 3. Bug fixes and small polish don't need a plan row. They still need a spec row if they change behaviour.
 4. When an item is done, delete it from here. History lives in git, CHANGELOG, and the issues.

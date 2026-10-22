@@ -2,6 +2,7 @@ nodeId: C2-MODALITY-002
 lang: de-DE
 vocabulary:
   - id: de-DE-C2-MODALITY-002-001
+    concept: 'subjunctive-i'
     term: 'Konjunktiv I'
     translation: 'subjunctive I'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Der Konjunktiv I wird für indirekte Rede verwendet.'
     exampleTranslation: 'The subjunctive I is used for indirect speech.'
   - id: de-DE-C2-MODALITY-002-002
+    concept: 'indirect-speech'
     term: 'indirekte Rede'
     translation: 'indirect speech'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Er sagte, er sei krank. (indirekte Rede)'
     exampleTranslation: 'He said he was sick. (indirect speech)'
   - id: de-DE-C2-MODALITY-002-003
+    concept: 'to-report'
     term: 'berichten'
     translation: 'to report'
     partOfSpeech: verb
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Sie berichtet über die Ereignisse.'
     exampleTranslation: 'She reports on the events.'
   - id: de-DE-C2-MODALITY-002-004
+    concept: 'to-quote'
     term: 'zitieren'
     translation: 'to quote'
     partOfSpeech: verb
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Er zitiert aus dem Buch.'
     exampleTranslation: 'He quotes from the book.'
   - id: de-DE-C2-MODALITY-002-005
+    concept: 'paraphrase'
     term: 'Paraphrase'
     translation: 'paraphrase'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Die Paraphrase war präzise.'
     exampleTranslation: 'The paraphrase was precise.'
   - id: de-DE-C2-MODALITY-002-006
+    concept: 'reproduction'
     term: 'Wiedergabe'
     translation: 'reproduction / report'
     partOfSpeech: noun

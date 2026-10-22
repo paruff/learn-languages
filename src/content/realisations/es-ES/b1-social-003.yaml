@@ -2,24 +2,28 @@ nodeId: B1-SOCIAL-003
 lang: es-ES
 vocabulary:
   - id: es-ES-B1-SOCIAL-003-001
+    concept: 'to-express-feelings'
     term: 'expresar sentimientos'
     translation: 'to express feelings'
     partOfSpeech: phrase
     example: 'Es importante expresar sentimientos en una conversación.'
     exampleTranslation: 'It is important to express feelings in a conversation.'
   - id: es-ES-B1-SOCIAL-003-002
+    concept: 'to-respond-to'
     term: 'responder a'
     translation: 'to respond to'
     partOfSpeech: phrase
     example: 'Sé responder adecuadamente a diferentes emociones.'
     exampleTranslation: 'I know how to respond appropriately to different emotions.'
   - id: es-ES-B1-SOCIAL-003-003
+    concept: 'to-show-interest'
     term: 'mostrar interés'
     translation: 'to show interest'
     partOfSpeech: phrase
     example: 'Muestro interés por lo que dice mi interlocutor.'
     exampleTranslation: 'I show interest in what my interlocutor says.'
   - id: es-ES-B1-SOCIAL-003-004
+    concept: 'empathy'
     term: 'empatía'
     translation: 'empathy'
     partOfSpeech: noun
@@ -27,6 +31,7 @@ vocabulary:
     example: 'La empatía es fundamental en las relaciones personales.'
     exampleTranslation: 'Empathy is fundamental in personal relationships.'
   - id: es-ES-B1-SOCIAL-003-005
+    concept: 'appropriate-reactions'
     term: 'reacciones adecuadas'
     translation: 'appropriate reactions'
     partOfSpeech: phrase
@@ -34,6 +39,7 @@ vocabulary:
     example: 'Tengo reacciones adecuadas en diferentes situaciones.'
     exampleTranslation: 'I have appropriate reactions in different situations.'
   - id: es-ES-B1-SOCIAL-003-006
+    concept: 'to-exchange'
     term: 'intercambiar'
     translation: 'to exchange'
     partOfSpeech: verb

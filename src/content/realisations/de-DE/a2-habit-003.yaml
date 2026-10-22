@@ -2,6 +2,7 @@ nodeId: A2-HABIT-003
 lang: de-DE
 vocabulary:
   - id: de-DE-A2-HABIT-003-001
+    concept: 'news'
     term: 'Nachricht'
     translation: 'news'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Die Nachrichten sind um acht Uhr.'
     exampleTranslation: "The news is at eight o'clock."
   - id: de-DE-A2-HABIT-003-002
+    concept: 'event'
     term: 'Ereignis'
     translation: 'event'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Das war ein wichtiges Ereignis.'
     exampleTranslation: 'That was an important event.'
   - id: de-DE-A2-HABIT-003-003
+    concept: 'happened'
     term: 'passiert'
     translation: 'happened'
     partOfSpeech: verb
@@ -23,6 +26,7 @@ vocabulary:
     example: 'Was ist passiert?'
     exampleTranslation: 'What happened?'
   - id: de-DE-A2-HABIT-003-004
+    concept: 'to-report'
     term: 'berichten'
     translation: 'to report'
     partOfSpeech: verb
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Die Zeitung berichtet darüber.'
     exampleTranslation: 'The newspaper reports on it.'
   - id: de-DE-A2-HABIT-003-005
+    concept: 'newspaper'
     term: 'Zeitung'
     translation: 'newspaper'
     partOfSpeech: noun
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Ich lese jeden Morgen die Zeitung.'
     exampleTranslation: 'I read the newspaper every morning.'
   - id: de-DE-A2-HABIT-003-006
+    concept: 'news-portal'
     term: 'Nachrichtenportal'
     translation: 'news portal'
     partOfSpeech: noun

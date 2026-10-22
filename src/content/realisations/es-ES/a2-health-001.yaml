@@ -2,6 +2,7 @@ nodeId: A2-HEALTH-001
 lang: es-ES
 vocabulary:
   - id: es-ES-A2-HEALTH-001-001
+    concept: 'doctor'
     term: 'médico'
     translation: 'doctor'
     partOfSpeech: noun
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Necesito ir al médico.'
     exampleTranslation: 'I need to go to the doctor.'
   - id: es-ES-A2-HEALTH-001-002
+    concept: 'pain'
     term: 'dolor'
     translation: 'pain'
     partOfSpeech: noun
@@ -16,6 +18,7 @@ vocabulary:
     example: 'Tengo dolor de cabeza.'
     exampleTranslation: 'I have a headache.'
   - id: es-ES-A2-HEALTH-001-003
+    concept: 'medication'
     term: 'medicamento'
     translation: 'medication'
     partOfSpeech: noun
@@ -23,6 +26,7 @@ vocabulary:
     example: 'El médico me recetó un medicamento.'
     exampleTranslation: 'The doctor prescribed me medication.'
   - id: es-ES-A2-HEALTH-001-004
+    concept: 'symptom'
     term: 'síntoma'
     translation: 'symptom'
     partOfSpeech: noun
@@ -30,6 +34,7 @@ vocabulary:
     example: 'Los síntomas son fiebre y tos.'
     exampleTranslation: 'The symptoms are fever and cough.'
   - id: es-ES-A2-HEALTH-001-005
+    concept: 'medical-appointment'
     term: 'cita médica'
     translation: 'medical appointment'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Tengo una cita médica a las tres.'
     exampleTranslation: 'I have a medical appointment at three.'
   - id: es-ES-A2-HEALTH-001-006
+    concept: 'pharmacy'
     term: 'farmacia'
     translation: 'pharmacy'
     partOfSpeech: noun

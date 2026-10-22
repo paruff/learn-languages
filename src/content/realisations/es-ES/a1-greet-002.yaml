@@ -2,12 +2,14 @@ nodeId: A1-GREET-002
 lang: es-ES
 vocabulary:
   - id: es-ES-A1-GREET-002-001
+    concept: 'bye'
     term: 'Adiós'
     translation: 'Bye'
     partOfSpeech: interjection
     example: '¡Adiós, hasta mañana!'
     exampleTranslation: 'Bye, see you tomorrow!'
   - id: es-ES-A1-GREET-002-002
+    concept: 'see-you-later'
     term: 'Hasta luego'
     translation: 'See you later'
     partOfSpeech: phrase

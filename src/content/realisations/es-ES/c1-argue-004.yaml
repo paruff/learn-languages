@@ -2,18 +2,21 @@ nodeId: C1-ARGUE-004
 lang: es-ES
 vocabulary:
   - id: es-ES-C1-ARGUE-004-001
+    concept: 'to-sustain-a-position'
     term: 'sostener una postura'
     translation: 'to sustain a position'
     partOfSpeech: phrase
     example: 'Puedo sostener mi postura por escrito con argumentos sólidos.'
     exampleTranslation: 'I can sustain my position in writing with solid arguments.'
   - id: es-ES-C1-ARGUE-004-002
+    concept: 'to-refute'
     term: 'refutar'
     translation: 'to refute'
     partOfSpeech: verb
     example: 'Refuto los contraejemplos con datos concretos.'
     exampleTranslation: 'I refute the counter-examples with concrete data.'
   - id: es-ES-C1-ARGUE-004-003
+    concept: 'well-founded-criticism'
     term: 'crítica fundamentada'
     translation: 'well-founded criticism'
     partOfSpeech: phrase
@@ -21,6 +24,7 @@ vocabulary:
     example: 'Presento una crítica fundamentada del proyecto.'
     exampleTranslation: 'I present a well-founded criticism of the project.'
   - id: es-ES-C1-ARGUE-004-004
+    concept: 'argumentative-text'
     term: 'texto argumentativo'
     translation: 'argumentative text'
     partOfSpeech: phrase
@@ -28,6 +32,7 @@ vocabulary:
     example: 'El texto argumentativo debe ser coherente y convincente.'
     exampleTranslation: 'The argumentative text must be coherent and convincing.'
   - id: es-ES-C1-ARGUE-004-005
+    concept: 'critical-examination'
     term: 'examen crítico'
     translation: 'critical examination'
     partOfSpeech: phrase
@@ -35,6 +40,7 @@ vocabulary:
     example: 'Realizo un examen crítico de la literatura existente.'
     exampleTranslation: 'I conduct a critical examination of the existing literature.'
   - id: es-ES-C1-ARGUE-004-006
+    concept: 'rhetoric'
     term: 'rétor'
     translation: 'rhetoric'
     partOfSpeech: noun

@@ -2,6 +2,7 @@ nodeId: B1-TEXT-005
 lang: fr-FR
 vocabulary:
   - id: fr-FR-B1-TEXT-005-001
+    concept: 'formal-letter'
     term: 'une lettre formelle'
     translation: 'formal letter'
     partOfSpeech: phrase
@@ -9,6 +10,7 @@ vocabulary:
     example: 'Je dois écrire une lettre formelle à l’employeur.'
     exampleTranslation: 'I need to write a formal letter to the employer.'
   - id: fr-FR-B1-TEXT-005-002
+    concept: 'professional-email'
     term: 'un e-mail professionnel'
     translation: 'professional email'
     partOfSpeech: phrase
@@ -16,6 +18,7 @@ vocabulary:
     example: 'J’ai envoyé un e-mail professionnel à mon collègue.'
     exampleTranslation: 'I sent a professional email to the colleague.'
   - id: fr-FR-B1-TEXT-005-003
+    concept: 'greeting'
     term: 'la formule d’appel'
     translation: 'greeting'
     partOfSpeech: phrase
@@ -23,6 +26,7 @@ vocabulary:
     example: 'La formule d’appel doit être adaptée au contexte.'
     exampleTranslation: 'The greeting should be appropriate to the context.'
   - id: fr-FR-B1-TEXT-005-004
+    concept: 'farewell'
     term: 'la formule de clôture'
     translation: 'farewell'
     partOfSpeech: phrase
@@ -30,6 +34,7 @@ vocabulary:
     example: 'J’ai utilisé une formule de clôture formelle dans la lettre.'
     exampleTranslation: 'I used a formal farewell in the letter.'
   - id: fr-FR-B1-TEXT-005-005
+    concept: 'courtesy-formula'
     term: 'la formule de politesse'
     translation: 'courtesy formula'
     partOfSpeech: phrase
@@ -37,6 +42,7 @@ vocabulary:
     example: 'Les formules de politesse sont importantes dans l’écrit formel.'
     exampleTranslation: 'Courtesy formulas are important in formal writing.'
   - id: fr-FR-B1-TEXT-005-006
+    concept: 'to-sign-the-email'
     term: 'signer l’e-mail'
     translation: 'to sign the email'
     partOfSpeech: phrase
