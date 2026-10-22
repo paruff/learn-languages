@@ -39,7 +39,7 @@ This project is **pre-validation**: zero real learners, biggest named risk is re
 
 ## 2. Superpowers Skill Workflow (MANDATORY for feature/content-model work)
 
-**Read first, every session:** `intent.md` (why; changes rarely) → `spec.md` (what the product must do; requirement IDs + status) → `plan.md` (what's next, in order, with gates). Work that can't trace to a `plan.md` row and a `spec.md` ID needs one added first. Behaviour changes update `spec.md` in the same PR. `plan.md`'s Phase 1 gate (real-learner evidence, #21) blocks new content and features.
+**Read first, every session:** `intent.md` (why; changes rarely) → `spec.md` (what the product must do; requirement IDs + status) → `plans/README.md` (the master plan: goals G1–G5 = GitHub milestones, every open issue, and the owner's open decisions). Work that can't trace to a master-plan row (with an issue and milestone) and a `spec.md` ID needs one added first. Behaviour changes update `spec.md` in the same PR. Goal G1 (real-learner evidence, #21) gates new content and features. **All plans live in `plans/`**: new detail plans and designs go in `plans/YYYY-MM-DD-<topic>.md` (not `docs/superpowers/`), and finished ones move to `plans/archive/`. Questions for the owner go in the master plan's "Decisions waiting on the owner" table.
 
 All agents MUST follow the Superpowers skill sequence for feature and content-model work — see §1.1 for when lighter iteration is appropriate:
 
@@ -566,17 +566,17 @@ git log --oneline -10    # Recent commits
 
 ## 16. Project Documents
 
-| Document                  | Purpose                                                                               |
-| ------------------------- | ------------------------------------------------------------------------------------- |
-| `intent.md`               | Why the product exists, outcome, success signals, principles, non-goals (stable)      |
-| `spec.md`                 | Living requirement contract: IDs, intent trace, verifying check, status               |
-| `plan.md`                 | Current ordered work + gates; supersedes #20's phase list                             |
-| `discovery-brief.md`      | JTBD, personas, acceptance criteria, constraints (historical record)                  |
-| `specification-design.md` | Full technical specification (architecture, data model, SRS, UI, testing, deployment) |
-| `AGENTS.md`               | This file — agent governance, GitOps, conventions                                     |
-| `CLAUDE.md`               | Symlink to AGENTS.md                                                                  |
-| `README.md`               | Project overview for humans                                                           |
-| `CHANGELOG.md`            | Keep a Changelog format                                                               |
+| Document                  | Purpose                                                                                                            |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| `intent.md`               | Why the product exists, outcome, success signals, principles, non-goals (stable)                                   |
+| `spec.md`                 | Living requirement contract: IDs, intent trace, verifying check, status                                            |
+| `plans/README.md`         | Master plan: goals, every open issue, owner decisions. Detail plans in `plans/`, finished ones in `plans/archive/` |
+| `discovery-brief.md`      | JTBD, personas, acceptance criteria, constraints (historical record)                                               |
+| `specification-design.md` | Full technical specification (architecture, data model, SRS, UI, testing, deployment)                              |
+| `AGENTS.md`               | This file — agent governance, GitOps, conventions                                                                  |
+| `CLAUDE.md`               | Symlink to AGENTS.md                                                                                               |
+| `README.md`               | Project overview for humans                                                                                        |
+| `CHANGELOG.md`            | Keep a Changelog format                                                                                            |
 
 ---
 

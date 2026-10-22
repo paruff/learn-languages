@@ -157,7 +157,7 @@ C1 Coverage: 25/25 nodes fully realised (100%).
 
 **C1 category coverage:** The same Category A–G function structure remains the substrate at C1; the 25 C1 nodes map onto it across all seven categories (e.g. **C. Influir sobre o interlocutor** → C1-ARGUE-002/003, C1-PROFESSIONAL-001; **D. Exprimir posicionamentos** → C1-ARGUE-001/004, C1-NUANCED-001; **F. Organizar o discurso** → C1-ARGUE-002, C1-ACADEMIC-002, C1-WRITTEN-002; **G. Regular a comunicação** → C1-SOCIAL-002, C1-MEDIATION-001).
 
-> **Note on C1 skill distribution:** Authoring rebalanced the original spec's planned distribution (2 listening, 6 reading, 3 spoken_interaction, 5 spoken_production, 7 writing — see `docs/superpowers/specs/2026-09-21-c1-content-design.md` §Node Inventory, which slated much of the SPOKEN group as listening). Two listening nodes (C1-SPOKEN-004/005) were added in a follow-up to restore listening coverage at C1.
+> **Note on C1 skill distribution:** Authoring rebalanced the original spec's planned distribution (2 listening, 6 reading, 3 spoken_interaction, 5 spoken_production, 7 writing — see `plans/archive/2026-09-21-c1-content-design.md` §Node Inventory, which slated much of the SPOKEN group as listening). Two listening nodes (C1-SPOKEN-004/005) were added in a follow-up to restore listening coverage at C1.
 
 ## Skill distribution (A1–C2 combined)
 
