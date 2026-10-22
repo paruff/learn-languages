@@ -49,5 +49,45 @@ vocabulary:
     gender: n/a
     example: 'Was bedeutet das für uns?'
     exampleTranslation: 'What does that mean for us?'
+  - id: de-DE-B1-TEXT-002-007
+    concept: 'news-summary'
+    term: 'Nachrichtenzusammenfassung'
+    translation: 'news summary'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Nachrichtenzusammenfassung ist sehr klar.'
+    exampleTranslation: 'The news summary is very clear.'
+  - id: de-DE-B1-TEXT-002-008
+    concept: 'main-headline'
+    term: 'Hauptschlagzeile'
+    translation: 'main headline'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Hauptschlagzeile hat meine Aufmerksamkeit erregt.'
+    exampleTranslation: 'The main headline caught my attention.'
+  - id: de-DE-B1-TEXT-002-009
+    concept: 'to-read-quickly'
+    term: 'schnell lesen'
+    translation: 'to read quickly'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich kann schnell lesen, um die Information zu finden.'
+    exampleTranslation: 'I can read quickly to find the information.'
+  - id: de-DE-B1-TEXT-002-010
+    concept: 'to-underline-key-words'
+    term: 'Schlüsselwörter unterstreichen'
+    translation: 'to underline key words'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Beim Lesen unterstreiche ich gern Schlüsselwörter.'
+    exampleTranslation: 'When reading, I like to underline key words.'
+  - id: de-DE-B1-TEXT-002-011
+    concept: 'to-make-notes'
+    term: 'Notizen machen'
+    translation: 'to make notes'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Es ist nützlich, beim Lesen Notizen zu machen.'
+    exampleTranslation: 'It is useful to make notes while reading.'
 grammar: []
 culturalNotes: 'German news articles prioritize "Aktualität" (currentness) and "Öffentlichkeitsrechts" (public interest); sensationalism is less common than in some other media cultures.'

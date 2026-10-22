@@ -49,6 +49,54 @@ vocabulary:
     gender: n/a
     example: 'Können Sie das kurz zusammenfassen?'
     exampleTranslation: 'Can you briefly summarize that?'
+  - id: de-DE-B1-DISCOURSE-004-007
+    concept: 'to-a-certain-extent'
+    term: 'in gewissem Maße'
+    translation: 'to a certain extent'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'In gewissem Maße habe ich recht.'
+    exampleTranslation: 'To a certain extent, I am right.'
+  - id: de-DE-B1-DISCOURSE-004-008
+    concept: 'depending-on'
+    term: 'je nach'
+    translation: 'depending on'
+    partOfSpeech: preposition
+    gender: n/a
+    example: 'Je nach Wetter gehen wir in den Park.'
+    exampleTranslation: 'Depending on the weather, we will go to the park.'
+  - id: de-DE-B1-DISCOURSE-004-009
+    concept: 'up-to-a-point'
+    term: 'bis zu einem gewissen Punkt'
+    translation: 'up to a point'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Bis zu einem gewissen Punkt stimme ich der Analyse zu.'
+    exampleTranslation: 'Up to a point, I agree with the analysis.'
+  - id: de-DE-B1-DISCOURSE-004-010
+    concept: 'in-practice'
+    term: 'in der Praxis'
+    translation: 'in practice'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'In der Praxis sieht es anders aus.'
+    exampleTranslation: 'In practice, things look different.'
+  - id: de-DE-B1-DISCOURSE-004-011
+    concept: 'in-my-experience'
+    term: 'meiner Erfahrung nach'
+    translation: 'in my experience'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Meiner Erfahrung nach funktioniert das gut.'
+    exampleTranslation: 'In my experience, this works well.'
+  - id: de-DE-B1-DISCOURSE-004-012
+    concept: 'in-general-terms'
+    term: 'allgemein gesagt'
+    translation: 'in general terms'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Allgemein gesagt war das Projekt ein Erfolg.'
+    exampleTranslation: 'In general terms, the project was a success.'
 grammar:
   - id: B1-DISCOURSE-004-GR01
     point: 'Writing narratives with temporal markers'

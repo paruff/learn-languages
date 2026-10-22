@@ -49,6 +49,46 @@ vocabulary:
     gender: feminine
     example: 'Können Sie Ihre Begründung erklären?'
     exampleTranslation: 'Can you explain your reasoning?'
+  - id: de-DE-B1-OPINION-001-007
+    concept: 'i-think-that'
+    term: 'ich denke, dass'
+    translation: 'I think that'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich denke, dass wir mehr in Bildung investieren sollten.'
+    exampleTranslation: 'I think that we should invest more in education.'
+  - id: de-DE-B1-OPINION-001-008
+    concept: 'it-seems-to-me-that'
+    term: 'mir scheint, dass'
+    translation: 'it seems to me that'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Mir scheint, dass diese Lösung die beste ist.'
+    exampleTranslation: 'It seems to me that this solution is the best.'
+  - id: de-DE-B1-OPINION-001-009
+    concept: 'i-defend-the-idea-that'
+    term: 'ich vertrete die Auffassung, dass'
+    translation: 'I defend the idea that'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich vertrete die Auffassung, dass alle Zugang zur Gesundheitsversorgung haben sollten.'
+    exampleTranslation: 'I defend the idea that everyone should have access to healthcare.'
+  - id: de-DE-B1-OPINION-001-010
+    concept: 'i-am-sure-that'
+    term: 'ich bin sicher, dass'
+    translation: 'I am sure that'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich bin sicher, dass es besser wird.'
+    exampleTranslation: 'I am sure that it will get better.'
+  - id: de-DE-B1-OPINION-001-011
+    concept: 'i-am-of-the-opinion-that'
+    term: 'ich bin der Meinung, dass'
+    translation: 'I am of the opinion that'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich bin der Meinung, dass wir Veränderungen brauchen.'
+    exampleTranslation: 'I am of the opinion that we need changes.'
 grammar:
   - id: B1-OPINION-001-GR01
     point: 'Expressing opinions with reasons'

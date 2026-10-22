@@ -3,11 +3,11 @@ lang: pt-PT
 vocabulary:
   - id: pt-PT-B1-SOCIAL-002-001
     concept: 'familiar-topics'
-    term: 'fam topicos'
+    term: 'temas familiares'
     translation: 'familiar topics'
     partOfSpeech: phrase
     gender: n/a
-    example: 'Gosto de conversar sobre tópicos familiares como trabalho e hobbies.'
+    example: 'Gosto de conversar sobre temas familiares, como o trabalho e os passatempos.'
     exampleTranslation: 'I like to talk about familiar topics like work and hobbies.'
   - id: pt-PT-B1-SOCIAL-002-002
     concept: 'to-deepen-the-conversation'

@@ -49,6 +49,54 @@ vocabulary:
     gender: neuter
     example: 'Ich habe großes Interesse daran.'
     exampleTranslation: 'I have a great interest in it.'
+  - id: de-DE-B1-SOCIAL-002-007
+    concept: 'familiar-topics'
+    term: 'vertraute Themen'
+    translation: 'familiar topics'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Ich spreche gern über vertraute Themen wie Arbeit und Hobbys.'
+    exampleTranslation: 'I like to talk about familiar topics like work and hobbies.'
+  - id: de-DE-B1-SOCIAL-002-008
+    concept: 'to-deepen-the-conversation'
+    term: 'das Gespräch vertiefen'
+    translation: 'to deepen the conversation'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Wir können das Gespräch über dieses Thema vertiefen.'
+    exampleTranslation: 'We can deepen the conversation about this topic.'
+  - id: de-DE-B1-SOCIAL-002-009
+    concept: 'to-give-my-opinion'
+    term: 'meine Meinung sagen'
+    translation: 'to give my opinion'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Darf ich meine Meinung zu diesem Thema sagen?'
+    exampleTranslation: 'May I give my opinion on this topic?'
+  - id: de-DE-B1-SOCIAL-002-010
+    concept: 'to-listen-actively'
+    term: 'aktiv zuhören'
+    translation: 'to listen actively'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Es ist wichtig, aktiv zuzuhören, wenn jemand spricht.'
+    exampleTranslation: 'It is important to listen actively when someone is speaking.'
+  - id: de-DE-B1-SOCIAL-002-011
+    concept: 'to-rephrase-what-was-heard'
+    term: 'das Gehörte umformulieren'
+    translation: 'to rephrase what was heard'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Darf ich das Gehörte umformulieren, um zu prüfen, ob ich es verstanden habe?'
+    exampleTranslation: 'May I rephrase what I heard to check that I understood it?'
+  - id: de-DE-B1-SOCIAL-002-012
+    concept: 'to-confirm-understanding'
+    term: 'sich vergewissern, dass man verstanden hat'
+    translation: 'to confirm understanding'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Bevor wir weitermachen, möchte ich mich vergewissern, dass ich alles verstanden habe.'
+    exampleTranslation: 'Before we continue, I want to make sure that I have understood everything.'
 grammar:
   - id: B1-SOCIAL-002-GR01
     point: 'Extended conversation on familiar topics'

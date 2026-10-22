@@ -49,6 +49,54 @@ vocabulary:
     gender: feminine
     example: 'Ich brauche Hilfe.'
     exampleTranslation: 'I need help.'
+  - id: de-DE-B1-SOCIAL-001-007
+    concept: 'excuse-me-can-you-help-me'
+    term: 'Entschuldigung, können Sie mir helfen?'
+    translation: 'Excuse me, can you help me?'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Entschuldigung, können Sie mir helfen, die U-Bahn zu finden?'
+    exampleTranslation: 'Excuse me, can you help me find the underground?'
+  - id: de-DE-B1-SOCIAL-001-008
+    concept: 'pardon-me'
+    term: 'Verzeihung'
+    translation: 'Pardon me'
+    partOfSpeech: interjection
+    gender: n/a
+    example: 'Verzeihung, wo ist der Bahnhof?'
+    exampleTranslation: 'Pardon me, where is the train station?'
+  - id: de-DE-B1-SOCIAL-001-009
+    concept: 'to-talk-about'
+    term: 'sprechen über'
+    translation: 'to talk about'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich möchte gern über die deutsche Kultur sprechen.'
+    exampleTranslation: 'I would like to talk about German culture.'
+  - id: de-DE-B1-SOCIAL-001-010
+    concept: 'the-conversation-was-interesting'
+    term: 'das Gespräch war interessant'
+    translation: 'the conversation was interesting'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Das Gespräch war sehr interessant, danke.'
+    exampleTranslation: 'The conversation was very interesting, thank you.'
+  - id: de-DE-B1-SOCIAL-001-011
+    concept: 'in-my-experience'
+    term: 'meiner Erfahrung nach'
+    translation: 'in my experience'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Meiner Erfahrung nach sind die Leute hier sehr freundlich.'
+    exampleTranslation: 'In my experience, people here are very friendly.'
+  - id: de-DE-B1-SOCIAL-001-012
+    concept: 'it-depends-on-the-circumstances'
+    term: 'das hängt von den Umständen ab'
+    translation: 'it depends on the circumstances'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Das hängt von den Umständen ab, aber normalerweise helfe ich.'
+    exampleTranslation: 'It depends on the circumstances, but I usually help.'
 grammar:
   - id: B1-SOCIAL-001-GR01
     point: 'Handling social situations while travelling'

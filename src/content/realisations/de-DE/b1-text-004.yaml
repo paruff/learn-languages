@@ -49,6 +49,54 @@ vocabulary:
     gender: n/a
     example: 'Ich verfasse einen Brief an meinen Chef.'
     exampleTranslation: 'I am writing a letter to my boss.'
+  - id: de-DE-B1-TEXT-004-007
+    concept: 'connected-text'
+    term: 'zusammenhängender Text'
+    translation: 'connected text'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ich schreibe einen zusammenhängenden Text über meine Erfahrung.'
+    exampleTranslation: 'I am writing a connected text about my experience.'
+  - id: de-DE-B1-TEXT-004-008
+    concept: 'familiar-topic'
+    term: 'vertrautes Thema'
+    translation: 'familiar topic'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Ich schreibe lieber über ein vertrautes Thema.'
+    exampleTranslation: 'I prefer to write about a familiar topic.'
+  - id: de-DE-B1-TEXT-004-009
+    concept: 'to-describe-experiences'
+    term: 'Erfahrungen beschreiben'
+    translation: 'to describe experiences'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich beschreibe gern meine Erfahrungen auf Reisen.'
+    exampleTranslation: 'I like to describe my experiences when travelling.'
+  - id: de-DE-B1-TEXT-004-010
+    concept: 'to-express-impressions'
+    term: 'Eindrücke schildern'
+    translation: 'to express impressions'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Es ist wichtig, meine Eindrücke klar zu schildern.'
+    exampleTranslation: 'It is important to express my impressions clearly.'
+  - id: de-DE-B1-TEXT-004-011
+    concept: 'to-use-connectors'
+    term: 'Konnektoren verwenden'
+    translation: 'to use connectors'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich muss Konnektoren verwenden, um den Text zu gliedern.'
+    exampleTranslation: 'I need to use connectors to organise the text.'
+  - id: de-DE-B1-TEXT-004-012
+    concept: 'to-rewrite-the-text'
+    term: 'den Text umschreiben'
+    translation: 'to rewrite the text'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich schreibe den Text um, damit er klarer wird.'
+    exampleTranslation: 'I am rewriting the text so that it becomes clearer.'
 grammar:
   - id: B1-TEXT-004-GR01
     point: 'Writing connected text on familiar topics'

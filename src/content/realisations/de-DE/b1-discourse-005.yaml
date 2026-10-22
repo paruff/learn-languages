@@ -49,6 +49,54 @@ vocabulary:
     gender: n/a
     example: 'Ich fasse die Hauptpunkte zusammen.'
     exampleTranslation: 'I summarize the main points.'
+  - id: de-DE-B1-DISCOURSE-005-007
+    concept: 'brief-report'
+    term: 'kurzer Bericht'
+    translation: 'brief report'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ich schreibe einen kurzen Bericht über meine Erfahrung.'
+    exampleTranslation: 'I am writing a brief report about my experience.'
+  - id: de-DE-B1-DISCOURSE-005-008
+    concept: 'to-summarise-the-facts'
+    term: 'die Fakten zusammenfassen'
+    translation: 'to summarise the facts'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Es ist wichtig, die wichtigsten Fakten zusammenzufassen.'
+    exampleTranslation: 'It is important to summarise the main facts.'
+  - id: de-DE-B1-DISCOURSE-005-009
+    concept: 'to-describe-the-situation'
+    term: 'die Situation beschreiben'
+    translation: 'to describe the situation'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich beschreibe die Situation im Detail.'
+    exampleTranslation: 'I describe the situation in detail.'
+  - id: de-DE-B1-DISCOURSE-005-010
+    concept: 'to-do-an-analysis'
+    term: 'eine Analyse machen'
+    translation: 'to do an analysis'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Wir müssen eine sorgfältige Analyse machen.'
+    exampleTranslation: 'We need to do a careful analysis.'
+  - id: de-DE-B1-DISCOURSE-005-011
+    concept: 'to-draw-conclusions'
+    term: 'Schlussfolgerungen ziehen'
+    translation: 'to draw conclusions'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ziehen wir Schlussfolgerungen aus den Daten.'
+    exampleTranslation: 'Let us draw conclusions from the data.'
+  - id: de-DE-B1-DISCOURSE-005-012
+    concept: 'to-present-recommendations'
+    term: 'Empfehlungen vorstellen'
+    translation: 'to present recommendations'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich stelle Empfehlungen zur Verbesserung vor.'
+    exampleTranslation: 'I present recommendations for improvement.'
 grammar:
   - id: B1-DISCOURSE-005-GR01
     point: 'Writing short reports'

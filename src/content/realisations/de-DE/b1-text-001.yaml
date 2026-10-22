@@ -49,5 +49,53 @@ vocabulary:
     gender: feminine
     example: 'Die Nachricht war überraschend.'
     exampleTranslation: 'The news was surprising.'
+  - id: de-DE-B1-TEXT-001-007
+    concept: 'factual-article'
+    term: 'sachlicher Artikel'
+    translation: 'factual article'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ich habe einen sachlichen Artikel über die deutsche Wirtschaft gelesen.'
+    exampleTranslation: 'I read a factual article about the German economy.'
+  - id: de-DE-B1-TEXT-001-008
+    concept: 'topic-of-interest'
+    term: 'Thema von Interesse'
+    translation: 'topic of interest'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Ich habe einen Artikel zu einem Thema von Interesse gefunden.'
+    exampleTranslation: 'I found an article on a topic of interest.'
+  - id: de-DE-B1-TEXT-001-009
+    concept: 'to-understand-the-text'
+    term: 'den Text verstehen'
+    translation: 'to understand the text'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich kann den Text ohne Wörterbuch verstehen.'
+    exampleTranslation: 'I can understand the text without a dictionary.'
+  - id: de-DE-B1-TEXT-001-010
+    concept: 'to-identify-main-ideas'
+    term: 'die Hauptgedanken erkennen'
+    translation: 'to identify main ideas'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Es ist wichtig, die Hauptgedanken zu erkennen.'
+    exampleTranslation: 'It is important to identify the main ideas.'
+  - id: de-DE-B1-TEXT-001-011
+    concept: 'to-extract-information'
+    term: 'Informationen entnehmen'
+    translation: 'to extract information'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich muss dem Text die relevanten Informationen entnehmen.'
+    exampleTranslation: 'I need to extract the relevant information from the text.'
+  - id: de-DE-B1-TEXT-001-012
+    concept: 'to-read-carefully'
+    term: 'genau lesen'
+    translation: 'to read carefully'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Man muss genau lesen, um alles zu verstehen.'
+    exampleTranslation: 'You need to read carefully to understand everything.'
 grammar: []
 culturalNotes: 'German factual articles (" Sachtexte") follow a clear structure: lead paragraph (Wer, Was, Wann, Wo, Wie), background, and conclusion — the "5W+H" principle.'
