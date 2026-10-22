@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from './fixtures';
 import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { SESSION_SIZE } from '../../src/lib/reviewSession';

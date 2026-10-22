@@ -28,3 +28,33 @@ export function interleaveByNode<T extends { nodeId: string }>(items: T[]): T[] 
   }
   return result;
 }
+
+/** Max never-seen words introduced per day (spec J2). */
+export const DAILY_NEW_CAP = 10;
+
+export interface SelectOptions<T> {
+  /** nodeIds of lessons the learner has opened. */
+  studied: Set<string>;
+  /** Practise just this lesson's words (ignores `studied` and the new-word cap). */
+  scope?: string;
+  isNew: (item: T) => boolean;
+  isDue: (item: T) => boolean;
+  introducedToday: number;
+  cap: number;
+}
+
+/**
+ * Spec J2: a session draws only from studied lessons (or the one lesson in
+ * `scope`), and introduces at most `cap` never-seen words per day. Interleaves
+ * across the remaining lessons and trims to SESSION_SIZE.
+ */
+export function selectDue<T extends { nodeId: string }>(items: T[], o: SelectOptions<T>): T[] {
+  const pool = items.filter((i) => (o.scope ? i.nodeId === o.scope : o.studied.has(i.nodeId)));
+  let slots = o.scope ? Infinity : Math.max(0, o.cap - o.introducedToday);
+  const due = pool.filter((i) => {
+    if (!o.isDue(i)) return false;
+    if (!o.isNew(i)) return true;
+    return slots-- > 0;
+  });
+  return interleaveByNode(due).slice(0, SESSION_SIZE);
+}

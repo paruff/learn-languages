@@ -61,7 +61,7 @@ const sourceByConcept = new Map(source.vocabulary.map((v) => [v.concept, v]));
   targetLang={targetLang}
   section="lessons"
 >
-  <article class="lesson">
+  <article class="lesson" data-lesson={nodeId} data-source={sourceLang} data-target={targetLang}>
     <Breadcrumb {sourceLang} {targetLang} title={node.canDo} />
     <p class="lesson__meta">
       <span class={`badge badge--${node.cefrLevel.toLowerCase()}`}>{node.cefrLevel}</span>
@@ -162,7 +162,7 @@ const sourceByConcept = new Map(source.vocabulary.map((v) => [v.concept, v]));
     }
 
     <p class="lesson__cta">
-      <a href={withBase(`/${sourceLang}/${targetLang}/review/`)}>
+      <a href={withBase(`/${sourceLang}/${targetLang}/review/?lesson=${nodeId}`)}>
         {getString(sourceLang, 'lessonsPracticeWords')}
       </a>
       {
@@ -278,6 +278,12 @@ const sourceByConcept = new Map(source.vocabulary.map((v) => [v.concept, v]));
 </style>
 
 <script>
+  import { markStudied } from '../../../../lib/storage';
+  // Opening a lesson makes its words eligible for practice (spec J2).
+  const lessonEl = document.querySelector<HTMLElement>('[data-lesson]');
+  if (lessonEl)
+    markStudied(lessonEl.dataset.source!, lessonEl.dataset.target!, lessonEl.dataset.lesson!);
+
   // Inline gloss tooltip (#36) — hover/focus/tap shows a term's translation
   // without navigating away or triggering the review flow. One shared
   // tooltip node (not per-.gloss) keeps this cheap on lessons with many
