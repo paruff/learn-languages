@@ -43,6 +43,7 @@ export type StringKey =
   | 'reviewHintTypeLabel'
   | 'reviewHintTypeText'
   | 'reviewEmpty'
+  | 'reviewNoStudied'
   | 'reviewRevealButton'
   | 'reviewTypeInputLabel'
   | 'reviewCheckButton'
@@ -121,6 +122,8 @@ const EN_GB: Dictionary = {
   reviewHintTypeLabel: 'Type answer',
   reviewHintTypeText:
     'makes you produce it from memory first — slower, but strengthens recall better (the "generation effect").',
+  reviewNoStudied:
+    'Practice starts with a lesson — open your first lesson, then come back to practise its words.',
   reviewEmpty: 'No cards due right now — come back later.',
   reviewRevealButton: 'Reveal',
   reviewTypeInputLabel: 'Type the answer',
@@ -203,6 +206,8 @@ const ES_ES: Dictionary = {
   reviewHintTypeLabel: 'Escribir respuesta',
   reviewHintTypeText:
     'te hace producirla de memoria primero — más lento, pero refuerza mejor el recuerdo (el "efecto de generación").',
+  reviewNoStudied:
+    'La práctica empieza con una lección: abre tu primera lección y vuelve para practicar sus palabras.',
   reviewEmpty: 'No hay tarjetas pendientes ahora — vuelve más tarde.',
   reviewRevealButton: 'Revelar',
   reviewTypeInputLabel: 'Escribe la respuesta',
@@ -284,6 +289,8 @@ const PT_PT: Dictionary = {
   reviewHintTypeLabel: 'Escrever resposta',
   reviewHintTypeText:
     'faz com que a produza de memória primeiro — mais lento, mas reforça melhor a memorização (o "efeito de geração").',
+  reviewNoStudied:
+    'A prática começa numa lição — abra a sua primeira lição e volte para praticar as suas palavras.',
   reviewEmpty: 'Não há cartões pendentes agora — volte mais tarde.',
   reviewRevealButton: 'Revelar',
   reviewTypeInputLabel: 'Escreva a resposta',
@@ -365,6 +372,8 @@ const DE_DE: Dictionary = {
   reviewHintTypeLabel: 'Antwort eintippen',
   reviewHintTypeText:
     'lässt Sie die Antwort zuerst aus dem Gedächtnis erzeugen — langsamer, stärkt aber das Erinnern besser (der "Generierungseffekt").',
+  reviewNoStudied:
+    'Das Üben beginnt mit einer Lektion — öffnen Sie Ihre erste Lektion und kommen Sie zurück, um die Wörter zu üben.',
   reviewEmpty: 'Momentan sind keine Karten fällig — schauen Sie später wieder vorbei.',
   reviewRevealButton: 'Aufdecken',
   reviewTypeInputLabel: 'Antwort eingeben',
@@ -447,6 +456,8 @@ const FR_FR: Dictionary = {
   reviewHintTypeLabel: 'Taper la réponse',
   reviewHintTypeText:
     "vous fait d'abord la produire de mémoire — plus lent, mais renforce mieux la mémorisation (l'« effet de génération »).",
+  reviewNoStudied:
+    'La pratique commence par une leçon — ouvrez votre première leçon, puis revenez pratiquer ses mots.',
   reviewEmpty: "Aucune carte à revoir pour l'instant — revenez plus tard.",
   reviewRevealButton: 'Révéler',
   reviewTypeInputLabel: 'Tapez la réponse',

@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from './fixtures';
 
 // Spec U4: the four grade buttons never leave an orphan on a second row.
 for (const width of [320, 375, 1280]) {

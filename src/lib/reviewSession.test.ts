@@ -62,3 +62,42 @@ describe('interleaveByNode', () => {
     expect(interleaveByNode(items)).toEqual(items);
   });
 });
+
+import { selectDue, DAILY_NEW_CAP } from './reviewSession';
+
+describe('selectDue (J2: practise only what you have studied)', () => {
+  const mk = (n: number, nodeId: string) =>
+    Array.from({ length: n }, (_, i) => ({ id: `${nodeId}-${i}`, nodeId }));
+  const base = { isNew: () => true, isDue: () => true, introducedToday: 0, cap: DAILY_NEW_CAP };
+
+  it('returns nothing when no lesson has been studied', () => {
+    expect(selectDue([...mk(5, 'A'), ...mk(5, 'B')], { ...base, studied: new Set() })).toEqual([]);
+  });
+
+  it('only draws from studied lessons', () => {
+    const out = selectDue([...mk(3, 'A'), ...mk(3, 'B')], { ...base, studied: new Set(['A']) });
+    expect(out).toHaveLength(3);
+    expect(out.every((i) => i.nodeId === 'A')).toBe(true);
+  });
+
+  it('caps never-seen words per day, counting those already introduced today', () => {
+    const items = mk(30, 'A');
+    const studied = new Set(['A']);
+    expect(selectDue(items, { ...base, studied })).toHaveLength(DAILY_NEW_CAP);
+    expect(selectDue(items, { ...base, studied, introducedToday: 7 })).toHaveLength(3);
+    expect(selectDue(items, { ...base, studied, introducedToday: 10 })).toHaveLength(0);
+  });
+
+  it('does not cap words that have been seen before', () => {
+    const items = mk(12, 'A');
+    const out = selectDue(items, { ...base, studied: new Set(['A']), isNew: () => false });
+    expect(out).toHaveLength(12);
+  });
+
+  it('a lesson scope practises just that lesson, uncapped', () => {
+    const items = [...mk(12, 'A'), ...mk(3, 'B')];
+    const out = selectDue(items, { ...base, studied: new Set(['B']), scope: 'A' });
+    expect(out).toHaveLength(12);
+    expect(out.every((i) => i.nodeId === 'A')).toBe(true);
+  });
+});

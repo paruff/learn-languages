@@ -3,6 +3,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { loadPair, getAvailablePairs } from '../../../lib/pairLoader';
 import { languageName } from '../../../lib/languageNames';
 import { getString } from '../../../lib/strings';
+import { withBase } from '../../../lib/urls';
 
 export async function getStaticPaths() {
   const pairs = await getAvailablePairs();
@@ -38,6 +39,14 @@ const targetName = languageName(targetLang);
     {getString(sourceLang, 'reviewHintTypeText')}
   </p>
   <p id="review-empty" class="card" hidden>{getString(sourceLang, 'reviewEmpty')}</p>
+  <p id="review-no-studied" class="card" hidden>
+    {getString(sourceLang, 'reviewNoStudied')}{' '}
+    <a
+      id="review-first-lesson"
+      href={withBase(`/${sourceLang}/${targetLang}/lessons/${items[0]?.nodeId ?? ''}/`)}
+      >{getString(sourceLang, 'lessonsStartHere')}</a
+    >
+  </p>
   <div id="review-card" class="review-card card" hidden>
     <p id="review-progress" class="review-card__progress"></p>
     <img id="review-image" class="review-card__image" hidden />
@@ -200,6 +209,11 @@ const targetName = languageName(targetLang);
   import {
     loadState,
     saveState,
+    hasState,
+    loadNewCap,
+    loadStudied,
+    loadIntroducedToday,
+    recordIntroduced,
     loadDirectionPreference,
     saveDirectionPreference,
     loadRecallModePreference,
@@ -209,7 +223,7 @@ const targetName = languageName(targetLang);
   } from '../../../lib/storage';
   import { calculateNextReview, isDue } from '../../../utils/srs';
   import { pronounce } from '../../../lib/pronounce';
-  import { SESSION_SIZE, interleaveByNode } from '../../../lib/reviewSession';
+  import { DAILY_NEW_CAP, selectDue } from '../../../lib/reviewSession';
   import { withBase } from '../../../lib/urls';
   import { computeOverallMastery } from '../../../lib/progress';
   import { saveReflection, loadReflection, type ReflectionResponse } from '../../../lib/reflection';
@@ -267,6 +281,7 @@ const targetName = languageName(targetLang);
 
   const cardEl = document.getElementById('review-card')!;
   const emptyEl = document.getElementById('review-empty')!;
+  const noStudiedEl = document.getElementById('review-no-studied')!;
   const summaryEl = document.getElementById('review-summary')!;
   const progressEl = document.getElementById('review-progress')!;
   const imageEl = document.getElementById('review-image') as HTMLImageElement;
@@ -363,10 +378,14 @@ const targetName = languageName(targetLang);
   }
 
   function buildQueue(): void {
-    const due = items.filter((item) =>
-      isDue(loadState(sourceLang, targetLang, direction, item.target.id))
-    );
-    queue = interleaveByNode(due).slice(0, SESSION_SIZE);
+    queue = selectDue(items, {
+      studied: loadStudied(sourceLang, targetLang),
+      scope: new URLSearchParams(window.location.search).get('lesson') ?? undefined,
+      isNew: (item) => !hasState(sourceLang, targetLang, direction, item.target.id),
+      isDue: (item) => isDue(loadState(sourceLang, targetLang, direction, item.target.id)),
+      introducedToday: loadIntroducedToday(sourceLang, targetLang, todayKey()),
+      cap: loadNewCap(sourceLang, targetLang, DAILY_NEW_CAP),
+    });
     reviewed = 0;
     requeuedIds = new Set<string>();
     firstTryTotal = 0;
@@ -446,9 +465,14 @@ const targetName = languageName(targetLang);
       cardEl.hidden = true;
       summaryEl.hidden = true;
       hideReflection();
-      emptyEl.hidden = false;
+      const nothingStudied =
+        loadStudied(sourceLang, targetLang).size === 0 &&
+        !window.location.search.includes('lesson=');
+      noStudiedEl.hidden = !nothingStudied;
+      emptyEl.hidden = nothingStudied;
     } else {
       emptyEl.hidden = true;
+      noStudiedEl.hidden = true;
       summaryEl.hidden = true;
       cardEl.hidden = false;
       showCard();
@@ -514,6 +538,9 @@ const targetName = languageName(targetLang);
     if (isFirstAttempt) {
       firstTryTotal += 1;
       if (quality >= 3) firstTryCorrect += 1;
+    }
+    if (!hasState(sourceLang, targetLang, direction, item.target.id)) {
+      recordIntroduced(sourceLang, targetLang, todayKey());
     }
     const state = loadState(sourceLang, targetLang, direction, item.target.id);
     const nextState = calculateNextReview({ state, quality });
