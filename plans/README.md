@@ -52,15 +52,16 @@ Owner decision 2026-10-18, confirmed 2026-10-22: re-authoring es-ES and de-DE B1
 
 Ordered by how directly each serves intent §3 ("comes back").
 
-| #   | Work                                                                                    | Spec    | Issue      | Exit criterion                                                         |
-| --- | --------------------------------------------------------------------------------------- | ------- | ---------- | ---------------------------------------------------------------------- |
-| 2.1 | Corrective support on "Again": example, translation and grammar note before re-queueing | L10     | #196       | E2E: an Again grade shows the example before the next card             |
-| 2.2 | State the session's learning intention (Can-Do statements) at the start of review       | L11     | #197       | E2E: the review page lists the Can-Do statements before the first card |
-| 2.3 | Week-2 return measurement beyond the manual report                                      | S6      | #198       | Week-2 return rate observable without breaking S3                      |
-| 2.4 | Grammar points in the retrieval loop, with contrastive notes by source language         | L8, L15 | #126, #144 | One grammar point graded in a real review session                      |
-| 2.5 | Soft prerequisites for A1, recommended first                                            | L12     | #199       | Progress "next up" picks an unmastered prerequisite                    |
-| 2.6 | Regional TTS voice detection and fallback                                               | Q3      | #200       | Correct voice verified on iOS Safari and Android Chrome                |
-| 2.7 | Level checkpoint on unseen items, designed from round-one feedback                      | L16     | #201       | Spec L16 designed and E2E-tested                                       |
+| #   | Work                                                                                                  | Spec    | Issue      | Exit criterion                                                         |
+| --- | ----------------------------------------------------------------------------------------------------- | ------- | ---------- | ---------------------------------------------------------------------- |
+| 2.1 | Corrective support on "Again": example, translation and grammar note before re-queueing               | L10     | #196       | E2E: an Again grade shows the example before the next card             |
+| 2.2 | State the session's learning intention (Can-Do statements) at the start of review                     | L11     | #197       | E2E: the review page lists the Can-Do statements before the first card |
+| 2.3 | Week-2 return measurement beyond the manual report                                                    | S6      | #198       | Week-2 return rate observable without breaking S3                      |
+| 2.4 | Grammar points in the retrieval loop, with contrastive notes by source language                       | L8, L15 | #126, #144 | One grammar point graded in a real review session                      |
+| 2.5 | Soft prerequisites for A1, recommended first                                                          | L12     | #199       | Progress "next up" picks an unmastered prerequisite                    |
+| 2.6 | Regional TTS voice detection and fallback                                                             | Q3      | #200       | Correct voice verified on iOS Safari and Android Chrome                |
+| 2.7 | Level checkpoint on unseen items, designed from round-one feedback                                    | L20     | #201       | Spec L20 designed and E2E-tested                                       |
+| 2.8 | L1-grammar accelerator: contrastive modules, metalinguistic tasks, L1 diagnostic, rule-of-thumb notes | L16–L19 | #205       | Each requirement shipped with an E2E check, after 2.4 (L8, L15)        |
 
 ## G4 Breadth: more languages and levels (Phase 3) — **after S6 data trends to target**
 
