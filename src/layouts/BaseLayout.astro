@@ -11,6 +11,8 @@ interface Props {
   lang?: string;
   sourceLang?: string;
   targetLang?: string;
+  /** Which main-nav section is current (spec U3). */
+  section?: 'lessons' | 'review' | 'progress';
 }
 
 const {
@@ -19,17 +21,20 @@ const {
   lang = 'en-GB',
   sourceLang = 'en-GB',
   targetLang = 'pt-PT',
+  section,
 } = Astro.props;
 const availablePairs = await getAvailablePairs();
 const fontUrl = withBase('/fonts/fraunces-latin-opsz144-wght600-700.woff2');
 ---
 
 <!doctype html>
-<html lang={lang}>
+<html lang={lang} translate="no">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
+    <!-- Spec U2: Chrome auto-translate rewrote the target language into English. -->
+    <meta name="google" content="notranslate" />
     <!-- Self-hosted (spec S3): loading from Google Fonts sent every visitor's
          IP to Google. One variable latin-subset file covers 600-700 and every
          character pt/es/de/fr need. Inline @font-face (not global.css) so the
@@ -48,17 +53,29 @@ const fontUrl = withBase('/fonts/fraunces-latin-opsz144-wght600-700.woff2');
         <a href={withBase('/')} class="nav__brand" aria-label="Acquira home">Acquira</a>
         <ul class="nav__links">
           <li>
-            <a href={withBase(`/${sourceLang}/${targetLang}/lessons/`)} class="nav__link"
+            <a
+              href={withBase(`/${sourceLang}/${targetLang}/lessons/`)}
+              data-pair-path="lessons/"
+              class="nav__link"
+              aria-current={section === 'lessons' ? 'page' : undefined}
               >{getString(sourceLang, 'navLessons')}</a
             >
           </li>
           <li>
-            <a href={withBase(`/${sourceLang}/${targetLang}/review/`)} class="nav__link"
+            <a
+              href={withBase(`/${sourceLang}/${targetLang}/review/`)}
+              data-pair-path="review/"
+              class="nav__link"
+              aria-current={section === 'review' ? 'page' : undefined}
               >{getString(sourceLang, 'navPractice')}</a
             >
           </li>
           <li>
-            <a href={withBase(`/${sourceLang}/${targetLang}/progress/`)} class="nav__link"
+            <a
+              href={withBase(`/${sourceLang}/${targetLang}/progress/`)}
+              data-pair-path="progress/"
+              class="nav__link"
+              aria-current={section === 'progress' ? 'page' : undefined}
               >{getString(sourceLang, 'navProgress')}</a
             >
           </li>
@@ -83,7 +100,12 @@ const fontUrl = withBase('/fonts/fraunces-latin-opsz144-wght600-700.woff2');
       <slot />
     </main>
     <footer class="site-footer">
-      <p class="footer__text">{getString(sourceLang, 'footer')}</p>
+      <p class="footer__text">
+        {getString(sourceLang, 'footer')} ·
+        <a href="mailto:phil.ruff@gmail.com?subject=Acquira%20feedback"
+          >{getString(sourceLang, 'feedbackLink')}</a
+        >
+      </p>
     </footer>
     <slot name="scripts" />
     <script is:inline define:vars={{ swUrl: withBase('/sw.js'), swScope: withBase('/') }}>

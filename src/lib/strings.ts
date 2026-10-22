@@ -17,6 +17,9 @@ export type StringKey =
   | 'navProgress'
   | 'credits'
   | 'footer'
+  | 'feedbackLink'
+  | 'selectorSpeak'
+  | 'selectorLearn'
   | 'skillListening'
   | 'skillReading'
   | 'skillSpokenInteraction'
@@ -91,6 +94,9 @@ const EN_GB: Dictionary = {
   navProgress: 'Progress',
   credits: 'Credits',
   footer: 'Built with Astro · Deployed via GitOps · CC-BY-4.0',
+  feedbackLink: 'Send feedback',
+  selectorSpeak: 'I speak',
+  selectorLearn: "I'm learning",
   skillListening: 'listening',
   skillReading: 'reading',
   skillSpokenInteraction: 'spoken interaction',
@@ -169,6 +175,9 @@ const ES_ES: Dictionary = {
   navProgress: 'Progreso',
   credits: 'Créditos',
   footer: 'Creado con Astro · Desplegado vía GitOps · CC-BY-4.0',
+  feedbackLink: 'Enviar comentarios',
+  selectorSpeak: 'Hablo',
+  selectorLearn: 'Estoy aprendiendo',
   skillListening: 'comprensión auditiva',
   skillReading: 'comprensión lectora',
   skillSpokenInteraction: 'interacción oral',
@@ -248,6 +257,9 @@ const PT_PT: Dictionary = {
   navProgress: 'Progresso',
   credits: 'Créditos',
   footer: 'Construído com Astro · Implementado via GitOps · CC-BY-4.0',
+  feedbackLink: 'Enviar feedback',
+  selectorSpeak: 'Eu falo',
+  selectorLearn: 'Estou a aprender',
   skillListening: 'compreensão oral',
   skillReading: 'compreensão escrita',
   skillSpokenInteraction: 'interação oral',
@@ -326,6 +338,9 @@ const DE_DE: Dictionary = {
   navProgress: 'Fortschritt',
   credits: 'Quellen',
   footer: 'Erstellt mit Astro · Bereitgestellt via GitOps · CC-BY-4.0',
+  feedbackLink: 'Feedback senden',
+  selectorSpeak: 'Ich spreche',
+  selectorLearn: 'Ich lerne',
   skillListening: 'Hören',
   skillReading: 'Lesen',
   skillSpokenInteraction: 'mündliche Interaktion',
@@ -404,6 +419,9 @@ const FR_FR: Dictionary = {
   navProgress: 'Progrès',
   credits: 'Crédits',
   footer: 'Construit avec Astro · Déployé via GitOps · CC-BY-4.0',
+  feedbackLink: 'Envoyer un avis',
+  selectorSpeak: 'Je parle',
+  selectorLearn: "J'apprends",
   skillListening: 'compréhension orale',
   skillReading: 'compréhension écrite',
   skillSpokenInteraction: 'interaction orale',

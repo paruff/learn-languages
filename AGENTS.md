@@ -310,7 +310,7 @@ Mandatory for all PRs:
 | ARIA labels      | Manual review                     |
 | Reduced motion   | `@media (prefers-reduced-motion)` |
 
-**No merge without passing `npm run test:a11y`**.
+**No merge without a green `E2E + Accessibility Tests` CI job** (axe on every page, desktop and mobile projects: `npm run test:e2e`).
 
 ---
 
@@ -506,7 +506,6 @@ A task is **done** only when:
 - [ ] Pipeline passes (lint, typecheck, content validation, test, build, lighthouse)
 - [ ] Accessibility audit passes
 - [ ] Code review approved (no Critical/Important open)
-- [ ] Deployed to preview environment verified
 - [ ] Documentation updated (README, CHANGELOG, spec if API changed)
 - [ ] Commit message follows Conventional Commits
 - [ ] Version bumped per SemVer (if user-facing change)

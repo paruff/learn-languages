@@ -19,6 +19,7 @@ const targetName = languageName(targetLang);
   description={`Review your due ${targetName} cards with spaced repetition — a few minutes a day for long-term retention.`}
   sourceLang={sourceLang}
   targetLang={targetLang}
+  section="review"
 >
   <h1>{getString(sourceLang, 'reviewTitle')}</h1>
   <p id="review-intro" class="review-intro">
@@ -148,10 +149,14 @@ const targetName = languageName(targetLang);
     color: var(--color-primary);
   }
   .review-card__grades {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: var(--spacing-unit);
-    flex-wrap: wrap;
-    justify-content: center;
+  }
+  @media (max-width: 480px) {
+    .review-card__grades {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
   }
   .review-reflection {
     text-align: center;
@@ -210,6 +215,7 @@ const targetName = languageName(targetLang);
   import { saveReflection, loadReflection, type ReflectionResponse } from '../../../lib/reflection';
   import { checkAnswer } from '../../../lib/exerciseCheck';
   import { recordGradeForCalibration } from '../../../lib/calibration';
+  import { appendGrade } from '../../../lib/gradeLog';
   import { getString, format } from '../../../lib/strings';
 
   interface PairSide {
@@ -497,6 +503,12 @@ const targetName = languageName(targetLang);
       uiQuality,
       todayKey()
     );
+    appendGrade(sourceLang, targetLang, {
+      item: item.target.id,
+      dir: direction,
+      q: uiQuality,
+      d: todayKey(),
+    });
     const quality = qualityToSm2[uiQuality];
     const isFirstAttempt = !requeuedIds.has(item.target.id);
     if (isFirstAttempt) {

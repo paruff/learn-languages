@@ -130,6 +130,7 @@ const OWNED_KEY_PREFIXES = [
   'calibration-last-grade:',
   'calibration-breaks:',
   'reflection:',
+  'grade-log:',
 ];
 const OWNED_EXACT_KEYS = ['pairPreference'];
 

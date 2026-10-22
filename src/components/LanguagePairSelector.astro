@@ -1,4 +1,7 @@
 ---
+import { languageName } from '../lib/languageNames';
+import { getString } from '../lib/strings';
+
 export interface LanguagePairOption {
   sourceLang: string;
   targetLang: string;
@@ -17,12 +20,12 @@ const targetOptions = availablePairs.filter((p) => p.sourceLang === currentSourc
 
 <form id="pair-selector" class="pair-selector" aria-label="Choose language pair">
   <label class="pair-selector__field">
-    <span class="sr-only">Source language</span>
+    <span class="pair-selector__label">{getString(currentSourceLang, 'selectorSpeak')}</span>
     <select id="pair-selector-source">
       {
         sourceLangs.map((lang) => (
           <option value={lang} selected={lang === currentSourceLang}>
-            {lang}
+            {languageName(lang)}
           </option>
         ))
       }
@@ -30,12 +33,12 @@ const targetOptions = availablePairs.filter((p) => p.sourceLang === currentSourc
   </label>
   <span aria-hidden="true">→</span>
   <label class="pair-selector__field">
-    <span class="sr-only">Target language</span>
+    <span class="pair-selector__label">{getString(currentSourceLang, 'selectorLearn')}</span>
     <select id="pair-selector-target">
       {
         targetOptions.map((p) => (
           <option value={p.targetLang} selected={p.targetLang === currentTargetLang}>
-            {p.targetLang}
+            {languageName(p.targetLang)}
           </option>
         ))
       }
@@ -54,6 +57,11 @@ const targetOptions = availablePairs.filter((p) => p.sourceLang === currentSourc
     align-items: center;
     gap: calc(var(--spacing-unit) * 0.5);
   }
+  .pair-selector__label {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    margin-right: calc(var(--spacing-unit) * 0.25);
+  }
   .pair-selector select {
     font: inherit;
     padding: calc(var(--spacing-unit) * 0.5);
@@ -67,6 +75,7 @@ const targetOptions = availablePairs.filter((p) => p.sourceLang === currentSourc
 <script>
   import { withBase } from '../lib/urls';
   import { savePairPreference } from '../lib/pairPreference';
+  import { languageName } from '../lib/languageNames';
 
   const dataEl = document.getElementById('pair-selector-data');
   const pairs = JSON.parse(dataEl?.textContent ?? '[]') as {
@@ -80,15 +89,22 @@ const targetOptions = availablePairs.filter((p) => p.sourceLang === currentSourc
   function refreshTargetOptions(): void {
     const valid = pairs.filter((p) => p.sourceLang === sourceSelect.value);
     targetSelect.innerHTML = valid
-      .map((p) => `<option value="${p.targetLang}">${p.targetLang}</option>`)
+      .map((p) => `<option value="${p.targetLang}">${languageName(p.targetLang)}</option>`)
       .join('');
   }
 
-  sourceSelect.addEventListener('change', refreshTargetOptions);
-
-  targetSelect.addEventListener('change', () => {
+  function go(): void {
     const pref = { sourceLang: sourceSelect.value, targetLang: targetSelect.value };
     savePairPreference(pref);
-    window.location.href = withBase(`/${pref.sourceLang}/${pref.targetLang}/review/`);
+    // Stay on the same kind of page (spec U6); exercises/lesson detail -> lessons list.
+    const m = window.location.pathname.match(/\/(lessons|review|progress|exercises)(\/|$)/);
+    const section = !m || m[1] === 'exercises' ? 'lessons' : m[1];
+    window.location.href = withBase(`/${pref.sourceLang}/${pref.targetLang}/${section}/`);
+  }
+
+  sourceSelect.addEventListener('change', () => {
+    refreshTargetOptions();
+    go();
   });
+  targetSelect.addEventListener('change', go);
 </script>

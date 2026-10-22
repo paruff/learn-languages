@@ -24,6 +24,15 @@ export default defineConfig({
       name: 'webkit',
       use: { ...devices['Desktop Safari'] },
     },
+    // Spec Q9: the people we are inviting are mostly on phones.
+    {
+      name: 'mobile-chrome',
+      use: { ...devices['Pixel 7'] },
+    },
+    {
+      name: 'mobile-safari',
+      use: { ...devices['iPhone 14'] },
+    },
   ],
   webServer: {
     // `astro preview` daemonizes and exits immediately by default in this
