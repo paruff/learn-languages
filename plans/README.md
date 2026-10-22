@@ -12,10 +12,9 @@
 
 The only list of open questions for the owner. Each one says what changes depending on the answer.
 
-| #   | Question                                                                                                                                                                                                     | Why it matters                                                                                          |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------- |
-| Q-1 | **Italian is being authored ahead of the G1 gate** (#160, #166; B2 merged in #182). Rule 1 says new-language content waits for learner evidence. Keep going as an exception, or pause Italian until row 1.4? | If paused, G4 rows stay closed; if continued, record it as an owner exception here like the Phase D one |
-| Q-2 | **Row 1.4, after the learner round:** positive → start G3; negative → rescope around what broke; unclear → a larger round. Not answerable yet: it needs rows 1.1–1.3 first.                                  | Gates G3 and G4                                                                                         |
+| #   | Question                                                                                                                                                                                                                 | Why it matters  |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------- |
+| Q-2 | **Row 1.4, after the learner round:** positive → start G3; negative → rescope around what broke; unclear → a larger round. Not answerable yet: it needs rows 1.1–1.3 first. First learner data expected from 2026-10-23. | Gates G3 and G4 |
 
 ## Where we are
 
@@ -64,11 +63,13 @@ Ordered by how directly each serves intent §3 ("comes back").
 
 ## G4 Breadth: more languages and levels (Phase 3) — **after S6 data trends to target**
 
-| #   | Work                                                        | Spec   | Issue      | Exit criterion                                 |
-| --- | ----------------------------------------------------------- | ------ | ---------- | ---------------------------------------------- |
-| 3.1 | Italian content (A2 to 30 nodes, C2) — see Q-1              | C4, C5 | #160, #166 | `docs/it-cefr-mapping.md` verified per level   |
-| 3.2 | False-friend and cognate notes for non-English source pairs | L14    | #147       | Notes shown on a non-English-source pair (E2E) |
-| 3.3 | Calibration split for image vs non-image cards              | L5     | #146       | Progress shows both rates; needs S6 data       |
+Owner decision 2026-10-22: Italian (row 3.1) continues now as an exception to rule 1. It is written and verified the same way as the other languages: concept-keyed against the shared en-GB set, checked against its authoritative source (`docs/it-cefr-mapping.md`), and held by the coverage gate. The other G4 rows stay gated.
+
+| #   | Work                                                            | Spec   | Issue      | Exit criterion                                 |
+| --- | --------------------------------------------------------------- | ------ | ---------- | ---------------------------------------------- |
+| 3.1 | Italian content (A2 to 30 nodes, C2) — **now, owner exception** | C4, C5 | #160, #166 | `docs/it-cefr-mapping.md` verified per level   |
+| 3.2 | False-friend and cognate notes for non-English source pairs     | L14    | #147       | Notes shown on a non-English-source pair (E2E) |
+| 3.3 | Calibration split for image vs non-image cards                  | L5     | #146       | Progress shows both rates; needs S6 data       |
 
 ## G5 Delivery and quality — **any time, small**
 
