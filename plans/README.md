@@ -41,10 +41,10 @@ Get real learners through the Portuguese loop, see them return, and find where t
 
 Every pair shows the right word with the right gloss. Bug and compliance work, allowed ahead of the G1 gate. Epic #148; detail plan [`2026-10-18-concept-keyed-vocabulary-and-images.md`](2026-10-18-concept-keyed-vocabulary-and-images.md).
 
-| #   | Work                                                                                  | Spec   | Issue | Exit criterion                                                                                                                                           |
-| --- | ------------------------------------------------------------------------------------- | ------ | ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| #   | Work                                                                                               | Spec   | Issue | Exit criterion                                                                                                                                                                           |
+| --- | -------------------------------------------------------------------------------------------------- | ------ | ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | D.2 | Re-align de-DE B1–C2 vocabulary to shared concepts (one PR per level: B1 in #203, then B2, C1, C2) | C3, C9 | #143  | `npm run report:coverage -- de-DE` shows 0 missing for the level; check against the Goethe-Institut B1–C2 Prüfungsziele recorded in `docs/de-cefr-mapping.md`; human review before merge |
-| D.1 | Re-align es-ES B1–C2 with per-item PCIC review (replaces #142)                        | C3, C9 | #185  | Same, for es-ES against PCIC                                                                                                                             |
+| D.1 | Re-align es-ES B1–C2 with per-item PCIC review (replaces #142)                                     | C3, C9 | #185  | Same, for es-ES against PCIC                                                                                                                                                             |
 
 Owner decision 2026-10-18, confirmed 2026-10-22: re-authoring es-ES and de-DE B1–C2 is an explicit exception to rule 1. It re-authors existing content and adds no new levels. de-DE goes first.
 
