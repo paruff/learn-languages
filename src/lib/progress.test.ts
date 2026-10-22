@@ -96,3 +96,41 @@ describe('computeOverallMastery', () => {
     });
   });
 });
+
+describe('computeCanDoChecklist', () => {
+  const item = (itemId: string, nodeId: string, cefrLevel: string, repetitions: number) => ({
+    itemId,
+    nodeId,
+    cefrLevel,
+    canDo: `Can do ${nodeId}`,
+    repetitions,
+  });
+  it('lists Can-Dos per level in id order with studied/practised/remembered flags', async () => {
+    const { computeCanDoChecklist } = await import('./progress');
+    const items = [
+      item('x1', 'A1-B-002', 'A1', 0),
+      item('x2', 'A1-A-001', 'A1', 1),
+      item('x3', 'A2-A-001', 'A2', 0),
+    ];
+    const levels = computeCanDoChecklist(items, new Set(['A1-A-001']), new Set(['x2']));
+    expect(levels.map((l) => l.cefrLevel)).toEqual(['A1', 'A2']);
+    expect(levels[0].canDos).toEqual([
+      {
+        nodeId: 'A1-A-001',
+        canDo: 'Can do A1-A-001',
+        studied: true,
+        practised: true,
+        remembered: true,
+      },
+      {
+        nodeId: 'A1-B-002',
+        canDo: 'Can do A1-B-002',
+        studied: false,
+        practised: false,
+        remembered: false,
+      },
+    ]);
+    expect(levels[0].current).toBe(true);
+    expect(levels[1].current).toBe(false);
+  });
+});

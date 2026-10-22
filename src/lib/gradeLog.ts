@@ -66,6 +66,20 @@ export function computeRetention(log: GradeEntry[]): Retention {
   return { opportunities, recalled, rate: opportunities ? recalled / opportunities : null };
 }
 
+/** Item ids recalled Good/Easy at least once, 7+ days after their previous review (spec J3). */
+export function rememberedItems(log: GradeEntry[]): Set<string> {
+  const last = new Map<string, string>();
+  const remembered = new Set<string>();
+  for (const e of log) {
+    const k = `${e.dir}:${e.item}`;
+    const prev = last.get(k);
+    if (prev !== undefined && dayNumber(e.d) - dayNumber(prev) >= DELAY_DAYS && e.q >= CONFIDENT)
+      remembered.add(e.item);
+    last.set(k, e.d);
+  }
+  return remembered;
+}
+
 export interface LogSummary {
   reviews: number;
   daysActive: number;

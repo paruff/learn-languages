@@ -44,4 +44,13 @@ test.describe('progress page', () => {
     await page.goto(PROGRESS_URL);
     await expect(page.locator('#progress-calibration')).toBeHidden();
   });
+
+  test('leads with the A1 Can-Do checklist, later levels collapsed (J3)', async ({ page }) => {
+    await page.goto(PROGRESS_URL);
+    const levels = page.locator('#progress-cando details');
+    await expect(levels.first()).toHaveJSProperty('open', true);
+    await expect(levels.first().locator('summary')).toContainText('A1');
+    await expect(levels.first().locator('.cando__item').first()).toContainText('Studied');
+    await expect(levels.nth(1)).toHaveJSProperty('open', false);
+  });
 });
