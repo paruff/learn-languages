@@ -43,7 +43,7 @@ Ordered by how soon we can observe them. Earlier signals gate later investment.
 | S5  | Lighthouse Performance ≥95 and Accessibility 100 on every page                                                                                | Enforced in CI                                                                   |
 | S6  | Delayed recall: of reviews made at least 7 days after a card's previous review, the share graded Good/Easy rises over a learner's first month | Built (spec M2); needs real users                                                |
 | S7  | First-run success: a stranger on a phone reaches a graded card in under 2 minutes with no help; zero wrong-pair or lost-orientation reports   | Spec Q9; first outside feedback found two such defects (2026-10-22), being fixed |
-| S8  | Ability: a learner passes an unseen-item checkpoint at least 7 days after study and self-rates "I can do this"                                | Deferred until round-one feedback (spec L16)                                     |
+| S8  | Ability: a learner passes an unseen-item checkpoint at least 7 days after study and self-rates "I can do this"                                | Deferred until round-one feedback (spec L20)                                     |
 
 ## 5. Principles (decide ties with these)
 
