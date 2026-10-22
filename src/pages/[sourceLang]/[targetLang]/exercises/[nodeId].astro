@@ -1,4 +1,5 @@
 ---
+import Breadcrumb from '../../../../components/Breadcrumb.astro';
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { withBase } from '../../../../lib/urls';
@@ -41,8 +42,10 @@ const scorable = exercises.map((e) => ({ type: e.type, questionCount: e.question
   description={`Practice exercises for "${node.canDo}" — fill-blank, multiple-choice, and matching questions to check retention.`}
   sourceLang={sourceLang}
   targetLang={targetLang}
+  section="lessons"
 >
   <article class="exercises">
+    <Breadcrumb {sourceLang} {targetLang} title={node.canDo} />
     <p class="exercises__meta">
       <span class={`badge badge--${node.cefrLevel.toLowerCase()}`}>{node.cefrLevel}</span>
       <span>{nodeId}</span>

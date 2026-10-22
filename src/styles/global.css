@@ -162,6 +162,12 @@ body {
   outline: none;
 }
 
+.nav__link[aria-current='page'] {
+  color: var(--color-link);
+  border-bottom-color: var(--color-link);
+  font-weight: 700;
+}
+
 .nav__link:focus-visible {
   outline: 2px solid var(--color-focus);
   outline-offset: 2px;

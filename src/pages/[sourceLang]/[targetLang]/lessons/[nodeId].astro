@@ -1,4 +1,5 @@
 ---
+import Breadcrumb from '../../../../components/Breadcrumb.astro';
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { withBase } from '../../../../lib/urls';
@@ -57,8 +58,10 @@ const { node, source, target, hasExercises } = Astro.props;
   description={`${node.canDo} — vocabulary, grammar, and cultural notes for this ${node.cefrLevel} lesson.`}
   sourceLang={sourceLang}
   targetLang={targetLang}
+  section="lessons"
 >
   <article class="lesson">
+    <Breadcrumb {sourceLang} {targetLang} title={node.canDo} />
     <p class="lesson__meta">
       <span class={`badge badge--${node.cefrLevel.toLowerCase()}`}>{node.cefrLevel}</span>
       <span class="lesson__skill">
