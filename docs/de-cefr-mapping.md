@@ -119,7 +119,7 @@ B1 Coverage: 18/18 nodes fully realised (100%).
 
 Fixed while re-aligning: "Das stimme ich zu" → "Dem stimme ich zu" (dative); "Arbeitstitel" (working title) → "Berufsbezeichnung" (job title); grammar example "teure" → "teuer". In pt-PT, two concept keys were renamed to match en-GB/fr-FR/it-IT (`i-defend-the-idea-that`, `the-media`) and the garbled term "fam topicos" → "temas familiares".
 
-**Source check:** Goethe-Institut _Zertifikat B1 Prüfungsziele/Testbeschreibung_ (Sprechen: Meinung äußern und begründen, zustimmen/widersprechen, Vor- und Nachteile nennen; Schreiben: persönliche und halbformelle E-Mails mit Anrede und Grußformel; Lesen: Sachtexte und Zeitungsmeldungen). The items are drafted to those B1 functions. **Status: awaiting native-speaker / Goethe B1 review before merge** (intent P6, spec C6). Items most worth a reviewer's eye: `to-confirm-understanding` ("sich vergewissern, dass man verstanden hat"), `topic-of-interest` ("Thema von Interesse"), `to-invite-opinion` ("um eine Meinung bitten").
+**Source to verify against:** Goethe-Institut _Zertifikat B1 Prüfungsziele/Testbeschreibung_ (the free PDF this file already uses as the de-DE source). The items were drafted by AI from the shared concept list and were **not** checked against that PDF item by item. **Status: needs native-speaker review against the Goethe B1 document before merge** (intent P6, spec C6). Items most worth a reviewer's eye: `to-confirm-understanding` ("sich vergewissern, dass man verstanden hat"), `topic-of-interest` ("Thema von Interesse"), `to-invite-opinion` ("um eine Meinung bitten").
 
 ## B2 nodes in the repo (EN→DE)
 
