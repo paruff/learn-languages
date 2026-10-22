@@ -34,16 +34,16 @@ Success is measured at three levels: _behaviour_ (they return), _memory_ (they r
 
 Ordered by how soon we can observe them. Earlier signals gate later investment.
 
-| #   | Signal                                                                                                                                      | Status (2026-10-04)                                                              |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| S1  | 3–5 persona-matched first-time learners finish session 1 without help                                                                       | **Not yet measured**: 1 informal owner run (#21)                                 |
-| S2  | Some of them return on day 2 without a reminder                                                                                             | **Not yet measured**                                                             |
-| S3  | 40% week-2 return rate                                                                                                                      | Needs real users and opt-in measurement                                          |
-| S4  | 60% of A1 vocab reviewed reaches an SRS interval of more than 21 days                                                                       | Needs real users                                                                 |
-| S5  | Lighthouse Performance ≥95 and Accessibility 100 on every page                                                                              | Enforced in CI                                                                   |
-| S6  | Delayed recall: of cards first graded at least 7 days ago, the share recalled on next review rises over a learner's first month             | Built (spec M2); needs real users                                                |
-| S7  | First-run success: a stranger on a phone reaches a graded card in under 2 minutes with no help; zero wrong-pair or lost-orientation reports | Spec Q9; first outside feedback found two such defects (2026-10-22), being fixed |
-| S8  | Ability: a learner passes an unseen-item checkpoint at least 7 days after study and self-rates "I can do this"                              | Deferred until round-one feedback (spec L16)                                     |
+| #   | Signal                                                                                                                                        | Status (2026-10-04)                                                              |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| S1  | 3–5 persona-matched first-time learners finish session 1 without help                                                                         | **Not yet measured**: 1 informal owner run (#21)                                 |
+| S2  | Some of them return on day 2 without a reminder                                                                                               | **Not yet measured**                                                             |
+| S3  | 40% week-2 return rate                                                                                                                        | Needs real users and opt-in measurement                                          |
+| S4  | 60% of A1 vocab reviewed reaches an SRS interval of more than 21 days                                                                         | Needs real users                                                                 |
+| S5  | Lighthouse Performance ≥95 and Accessibility 100 on every page                                                                                | Enforced in CI                                                                   |
+| S6  | Delayed recall: of reviews made at least 7 days after a card's previous review, the share graded Good/Easy rises over a learner's first month | Built (spec M2); needs real users                                                |
+| S7  | First-run success: a stranger on a phone reaches a graded card in under 2 minutes with no help; zero wrong-pair or lost-orientation reports   | Spec Q9; first outside feedback found two such defects (2026-10-22), being fixed |
+| S8  | Ability: a learner passes an unseen-item checkpoint at least 7 days after study and self-rates "I can do this"                                | Deferred until round-one feedback (spec L16)                                     |
 
 ## 5. Principles (decide ties with these)
 

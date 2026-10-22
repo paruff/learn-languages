@@ -215,6 +215,7 @@ const targetName = languageName(targetLang);
   import { saveReflection, loadReflection, type ReflectionResponse } from '../../../lib/reflection';
   import { checkAnswer } from '../../../lib/exerciseCheck';
   import { recordGradeForCalibration } from '../../../lib/calibration';
+  import { appendGrade } from '../../../lib/gradeLog';
   import { getString, format } from '../../../lib/strings';
 
   interface PairSide {
@@ -487,6 +488,12 @@ const targetName = languageName(targetLang);
       uiQuality,
       todayKey()
     );
+    appendGrade(sourceLang, targetLang, {
+      item: item.target.id,
+      dir: direction,
+      q: uiQuality,
+      d: todayKey(),
+    });
     const quality = qualityToSm2[uiQuality];
     const isFirstAttempt = !requeuedIds.has(item.target.id);
     if (isFirstAttempt) {

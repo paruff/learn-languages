@@ -45,6 +45,31 @@ const targetName = languageName(targetLang);
   <p id="progress-next" class="card" hidden></p>
   <p id="progress-calibration" class="card" hidden></p>
 
+  <!-- ponytail: English-only tester-facing copy for M1/M2; localise if this outlives the first test rounds. -->
+  <section class="card" id="retention" aria-labelledby="retention-title" hidden>
+    <h2 id="retention-title">Remembering over time</h2>
+    <p id="retention-text"></p>
+  </section>
+
+  <section class="card report" id="report" aria-labelledby="report-title" hidden>
+    <h2 id="report-title">Share how it went</h2>
+    <p>
+      Helping test Acquira? This builds a short summary of your practice (counts and dates only, no
+      words or personal details). You read it, then you choose whether to send it.
+    </p>
+    <label for="report-comment">Anything you'd like to tell us? (optional)</label>
+    <textarea id="report-comment" rows="3"></textarea>
+    <div class="backup__actions">
+      <a class="btn" id="report-email" href="mailto:">Email my report</a>
+      <button type="button" class="btn" id="report-copy">Copy my report</button>
+    </div>
+    <details>
+      <summary>See exactly what will be sent</summary>
+      <pre id="report-preview" class="report__preview"></pre>
+    </details>
+    <p id="report-status" role="status" aria-live="polite"></p>
+  </section>
+
   <section class="card backup" id="backup" aria-labelledby="backup-title" hidden>
     <h2 id="backup-title">{getString(sourceLang, 'backupTitle')}</h2>
     <p>{getString(sourceLang, 'backupHint')}</p>
@@ -89,6 +114,16 @@ const targetName = languageName(targetLang);
     outline: 2px solid var(--color-focus);
     outline-offset: 2px;
   }
+  .report textarea {
+    width: 100%;
+    font: inherit;
+    margin: calc(var(--spacing-unit) * 0.5) 0 var(--spacing-unit);
+  }
+  .report__preview {
+    white-space: pre-wrap;
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+  }
   .progress-level__label {
     display: flex;
     justify-content: space-between;
@@ -102,6 +137,8 @@ const targetName = languageName(targetLang);
   import { computeCefrProgress, type TrackedItem } from '../../../lib/progress';
   import { loadBreakDates, countRecentBreaks } from '../../../lib/calibration';
   import { getString, format } from '../../../lib/strings';
+  import { loadGradeLog, computeRetention } from '../../../lib/gradeLog';
+  import { buildSessionReport } from '../../../lib/sessionReport';
 
   interface DataItem {
     itemId: string;
@@ -167,6 +204,50 @@ const targetName = languageName(targetLang);
       itemWord: getString(sourceLang, recentBreaks === 1 ? 'itemSingular' : 'itemPlural'),
     });
   }
+
+  // Retention (spec M2) and session report (spec M1), from the local grade log.
+  const gradeLog = loadGradeLog(sourceLang, targetLang);
+  const retention = computeRetention(gradeLog);
+  const retentionEl = document.getElementById('retention')!;
+  document.getElementById('retention-text')!.textContent =
+    retention.rate === null
+      ? 'Come back a week after you first learn some words: this will show how many you still remember.'
+      : `Of ${retention.opportunities} words you met again after a week or more, you remembered ${retention.recalled} (${Math.round(retention.rate * 100)}%).`;
+  retentionEl.hidden = false;
+
+  const commentEl = document.getElementById('report-comment') as HTMLTextAreaElement;
+  const previewEl = document.getElementById('report-preview')!;
+  const emailEl = document.getElementById('report-email') as HTMLAnchorElement;
+  const currentReport = (): string =>
+    buildSessionReport({
+      sourceLang,
+      targetLang,
+      log: gradeLog,
+      levels: levels.map(({ cefrLevel, masteredItems, totalItems }) => ({
+        cefrLevel,
+        masteredItems,
+        totalItems,
+      })),
+      comment: commentEl.value,
+      generatedOn: new Date().toISOString().slice(0, 10),
+    });
+  function refreshReport(): void {
+    const report = currentReport();
+    previewEl.textContent = report;
+    emailEl.href = `mailto:phil.ruff@gmail.com?subject=${encodeURIComponent('Acquira session report')}&body=${encodeURIComponent(report)}`;
+  }
+  commentEl.addEventListener('input', refreshReport);
+  refreshReport();
+  document.getElementById('report-copy')!.addEventListener('click', async () => {
+    const status = document.getElementById('report-status')!;
+    try {
+      await navigator.clipboard.writeText(currentReport());
+      status.textContent = 'Copied. Paste it into a message to send it.';
+    } catch {
+      status.textContent = 'Could not copy. Select the text above and copy it.';
+    }
+  });
+  document.getElementById('report')!.hidden = false;
 
   // Backup/restore (spec S5) — progress lives only in localStorage, so this is
   // the learner's only protection against clearing browser data.
