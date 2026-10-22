@@ -4,7 +4,8 @@ dist/
 .astro/
 
 # dependencies
-node_modules/
+# No trailing slash: also ignores a node_modules symlink (one was committed in #184).
+node_modules
 
 # logs
 npm-debug.log*
