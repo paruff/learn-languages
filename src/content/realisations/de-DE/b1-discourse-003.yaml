@@ -49,6 +49,38 @@ vocabulary:
     gender: n/a
     example: 'Wegen des Regens blieb ich zu Hause.'
     exampleTranslation: 'Because of the rain, I stayed home.'
+  - id: de-DE-B1-DISCOURSE-003-007
+    concept: 'due-to'
+    term: 'aufgrund'
+    translation: 'due to'
+    partOfSpeech: preposition
+    gender: n/a
+    example: 'Aufgrund des Regens wurde die Veranstaltung verschoben.'
+    exampleTranslation: 'Due to the rain, the event was postponed.'
+  - id: de-DE-B1-DISCOURSE-003-008
+    concept: 'as-a-result'
+    term: 'infolgedessen'
+    translation: 'as a result'
+    partOfSpeech: adverb
+    gender: n/a
+    example: 'Infolgedessen ist die Wirtschaft gewachsen.'
+    exampleTranslation: 'As a result, the economy grew.'
+  - id: de-DE-B1-DISCOURSE-003-009
+    concept: 'this-led-to'
+    term: 'das führte dazu, dass'
+    translation: 'this led to'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Das führte dazu, dass wir neue Entdeckungen gemacht haben.'
+    exampleTranslation: 'This led to us making new discoveries.'
+  - id: de-DE-B1-DISCOURSE-003-010
+    concept: 'the-cause-was'
+    term: 'die Ursache war'
+    translation: 'the cause was'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Die Ursache war die fehlende Kommunikation.'
+    exampleTranslation: 'The cause was the lack of communication.'
 grammar:
   - id: B1-DISCOURSE-003-GR01
     point: 'Cause and effect connectors'

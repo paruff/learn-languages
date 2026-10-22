@@ -49,6 +49,54 @@ vocabulary:
     gender: feminine
     example: 'Ich warte auf Ihre Antwort.'
     exampleTranslation: 'I am waiting for your reply.'
+  - id: de-DE-B1-TEXT-005-007
+    concept: 'formal-letter'
+    term: 'förmlicher Brief'
+    translation: 'formal letter'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ich muss einen förmlichen Brief an den Arbeitgeber schreiben.'
+    exampleTranslation: 'I need to write a formal letter to the employer.'
+  - id: de-DE-B1-TEXT-005-008
+    concept: 'professional-email'
+    term: 'berufliche E-Mail'
+    translation: 'professional email'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ich habe dem Kollegen eine berufliche E-Mail geschickt.'
+    exampleTranslation: 'I sent a professional email to the colleague.'
+  - id: de-DE-B1-TEXT-005-009
+    concept: 'greeting'
+    term: 'Anrede'
+    translation: 'greeting'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Anrede sollte zum Kontext passen.'
+    exampleTranslation: 'The greeting should suit the context.'
+  - id: de-DE-B1-TEXT-005-010
+    concept: 'farewell'
+    term: 'Verabschiedung'
+    translation: 'farewell'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Im Brief habe ich eine förmliche Verabschiedung verwendet.'
+    exampleTranslation: 'I used a formal farewell in the letter.'
+  - id: de-DE-B1-TEXT-005-011
+    concept: 'courtesy-formula'
+    term: 'Höflichkeitsformel'
+    translation: 'courtesy formula'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Höflichkeitsformeln sind in förmlichen Texten wichtig.'
+    exampleTranslation: 'Courtesy formulas are important in formal writing.'
+  - id: de-DE-B1-TEXT-005-012
+    concept: 'to-sign-the-email'
+    term: 'die E-Mail unterschreiben'
+    translation: 'to sign the email'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich habe nicht vergessen, die E-Mail zu unterschreiben.'
+    exampleTranslation: 'I did not forget to sign the email.'
 grammar:
   - id: B1-TEXT-005-GR01
     point: 'Writing letters and emails describing experiences'

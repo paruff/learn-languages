@@ -26,9 +26,9 @@ vocabulary:
     example: 'Parece-me que esta solução é a melhor.'
     exampleTranslation: 'It seems to me that this solution is the best.'
   - id: pt-PT-B1-OPINION-001-004
-    concept: 'to-defend-the-idea-that'
-    term: 'defender a ideia de que'
-    translation: 'to defend the idea that'
+    concept: 'i-defend-the-idea-that'
+    term: 'defendo a ideia de que'
+    translation: 'I defend the idea that'
     partOfSpeech: phrase
     gender: n/a
     example: 'Defendo a ideia de que todos devem ter acesso à saúde.'

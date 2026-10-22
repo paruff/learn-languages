@@ -49,6 +49,54 @@ vocabulary:
     gender: feminine
     example: 'Was ist deine Meinung dazu?'
     exampleTranslation: 'What is your opinion on that?'
+  - id: de-DE-B1-SOCIAL-003-007
+    concept: 'to-feel'
+    term: 'sich fühlen'
+    translation: 'to feel'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich fühle mich sehr wohl, wenn ich mit meinen Freunden zusammen bin.'
+    exampleTranslation: 'I feel very good when I am with my friends.'
+  - id: de-DE-B1-SOCIAL-003-008
+    concept: 'to-express-feelings'
+    term: 'Gefühle ausdrücken'
+    translation: 'to express feelings'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Es ist wichtig, unsere Gefühle auszudrücken.'
+    exampleTranslation: 'It is important to express our feelings.'
+  - id: de-DE-B1-SOCIAL-003-009
+    concept: 'to-agree-with'
+    term: 'zustimmen'
+    translation: 'to agree with'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich stimme deiner Meinung völlig zu.'
+    exampleTranslation: 'I completely agree with your opinion.'
+  - id: de-DE-B1-SOCIAL-003-010
+    concept: 'to-disagree-politely'
+    term: 'höflich widersprechen'
+    translation: 'to disagree politely'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich verstehe deinen Punkt, aber ich möchte höflich widersprechen.'
+    exampleTranslation: 'I understand your point, but I would like to disagree politely.'
+  - id: de-DE-B1-SOCIAL-003-011
+    concept: 'to-show-interest'
+    term: 'Interesse zeigen'
+    translation: 'to show interest'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Es ist gut, Interesse zu zeigen, wenn jemand etwas erzählt.'
+    exampleTranslation: 'It is good to show interest when someone tells you something.'
+  - id: de-DE-B1-SOCIAL-003-012
+    concept: 'to-share-my-perspective'
+    term: 'meine Sichtweise teilen'
+    translation: 'to share my perspective'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich möchte meine Sichtweise zu diesem Thema teilen.'
+    exampleTranslation: 'I would like to share my perspective on this topic.'
 grammar:
   - id: B1-SOCIAL-003-GR01
     point: 'Expressing and responding to feelings'

@@ -42,9 +42,9 @@ vocabulary:
     example: 'Sigo a actualidade diariamente.'
     exampleTranslation: 'I follow current events daily.'
   - id: pt-PT-B1-OPINION-004-006
-    concept: 'media'
-    term: 'meios de comunicação'
-    translation: 'media'
+    concept: 'the-media'
+    term: 'os meios de comunicação'
+    translation: 'the media'
     partOfSpeech: phrase
     gender: masculine
     example: 'Os meios de comunicação são importantes para a democracia.'

@@ -49,6 +49,54 @@ vocabulary:
     gender: n/a
     example: 'Ich bewerte die Situation positiv.'
     exampleTranslation: 'I evaluate the situation positively.'
+  - id: de-DE-B1-OPINION-004-007
+    concept: 'opinion-article'
+    term: 'Meinungsbeitrag'
+    translation: 'opinion article'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ich habe einen Meinungsbeitrag über die Zukunft der Arbeit gelesen.'
+    exampleTranslation: 'I read an opinion article about the future of work.'
+  - id: de-DE-B1-OPINION-004-008
+    concept: 'to-write-about'
+    term: 'schreiben über'
+    translation: 'to write about'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich werde über die Bedeutung von Bildung schreiben.'
+    exampleTranslation: 'I am going to write about the importance of education.'
+  - id: de-DE-B1-OPINION-004-009
+    concept: 'to-express-my-position'
+    term: 'meinen Standpunkt darlegen'
+    translation: 'to express my position'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Es ist wichtig, meinen Standpunkt klar darzulegen.'
+    exampleTranslation: 'It is important to express my position clearly.'
+  - id: de-DE-B1-OPINION-004-010
+    concept: 'to-support-my-opinion'
+    term: 'meine Meinung begründen'
+    translation: 'to support my opinion'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich muss meine Meinung mit Fakten begründen.'
+    exampleTranslation: 'I need to support my opinion with facts.'
+  - id: de-DE-B1-OPINION-004-011
+    concept: 'current-events'
+    term: 'Zeitgeschehen'
+    translation: 'current events'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Ich verfolge täglich das Zeitgeschehen.'
+    exampleTranslation: 'I follow current events daily.'
+  - id: de-DE-B1-OPINION-004-012
+    concept: 'the-media'
+    term: 'die Medien'
+    translation: 'the media'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Die Medien sind wichtig für die Demokratie.'
+    exampleTranslation: 'The media are important for democracy.'
 grammar:
   - id: B1-OPINION-004-GR01
     point: 'Writing opinions about current events'
