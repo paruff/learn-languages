@@ -78,6 +78,58 @@ export function saveState(
   writeItem(storageKey(sourceLang, targetLang, direction, itemId), JSON.stringify(state));
 }
 
+/** True once a card has been graded at least once in this pair + direction. */
+export function hasState(
+  sourceLang: string,
+  targetLang: string,
+  direction: ReviewDirection,
+  itemId: string
+): boolean {
+  return readItem(storageKey(sourceLang, targetLang, direction, itemId)) !== null;
+}
+
+function studiedKey(sourceLang: string, targetLang: string): string {
+  return `studied:${sourceLang}:${targetLang}`;
+}
+
+/** Lessons the learner has opened for this pair (spec J2). */
+export function loadStudied(sourceLang: string, targetLang: string): Set<string> {
+  const stored = readJson<unknown>(studiedKey(sourceLang, targetLang));
+  return new Set(Array.isArray(stored) ? stored.filter((v) => typeof v === 'string') : []);
+}
+
+export function markStudied(sourceLang: string, targetLang: string, nodeId: string): void {
+  const studied = loadStudied(sourceLang, targetLang);
+  if (studied.has(nodeId)) return;
+  studied.add(nodeId);
+  writeItem(studiedKey(sourceLang, targetLang), JSON.stringify([...studied]));
+}
+
+function introKey(sourceLang: string, targetLang: string): string {
+  return `intro:${sourceLang}:${targetLang}`;
+}
+
+/** How many never-seen words were first graded on `date` (YYYY-MM-DD). */
+export function loadIntroducedToday(sourceLang: string, targetLang: string, date: string): number {
+  const stored = readJson<{ d?: unknown; n?: unknown }>(introKey(sourceLang, targetLang));
+  return stored?.d === date && typeof stored.n === 'number' ? stored.n : 0;
+}
+
+export function recordIntroduced(sourceLang: string, targetLang: string, date: string): void {
+  const n = loadIntroducedToday(sourceLang, targetLang, date) + 1;
+  writeItem(introKey(sourceLang, targetLang), JSON.stringify({ d: date, n }));
+}
+
+function newCapKey(sourceLang: string, targetLang: string): string {
+  return `new-cap:${sourceLang}:${targetLang}`;
+}
+
+/** Daily new-word cap for this pair; `fallback` (the default 10) unless a valid override is stored. */
+export function loadNewCap(sourceLang: string, targetLang: string, fallback: number): number {
+  const n = Number(readItem(newCapKey(sourceLang, targetLang)));
+  return Number.isInteger(n) && n > 0 ? n : fallback;
+}
+
 function directionKey(sourceLang: string, targetLang: string): string {
   return `srs-direction:${sourceLang}:${targetLang}`;
 }
@@ -131,6 +183,9 @@ const OWNED_KEY_PREFIXES = [
   'calibration-breaks:',
   'reflection:',
   'grade-log:',
+  'studied:',
+  'intro:',
+  'new-cap:',
 ];
 const OWNED_EXACT_KEYS = ['pairPreference'];
 

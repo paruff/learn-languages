@@ -162,7 +162,7 @@ const sourceByConcept = new Map(source.vocabulary.map((v) => [v.concept, v]));
     }
 
     <p class="lesson__cta">
-      <a href={withBase(`/${sourceLang}/${targetLang}/review/`)}>
+      <a href={withBase(`/${sourceLang}/${targetLang}/review/?lesson=${nodeId}`)}>
         {getString(sourceLang, 'lessonsPracticeWords')}
       </a>
       {
