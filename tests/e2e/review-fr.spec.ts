@@ -1,7 +1,7 @@
 import { test, expect } from './fixtures';
 import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { SESSION_SIZE } from '../../src/lib/reviewSession';
+import { NEW_ITEM_COST, SESSION_SIZE } from '../../src/lib/reviewSession';
 
 const REVIEW_URL = '/learn-languages/en-GB/fr-FR/review/';
 const GREET_LESSON_URL = '/learn-languages/en-GB/fr-FR/lessons/A1-GREET-001/';
@@ -199,7 +199,8 @@ test.describe('fr-FR A2 review session', () => {
 
     const progressText = await progress.textContent();
     const totalCount = Number(progressText?.match(/of (\d+)$/)?.[1]);
-    expect(totalCount).toBe(SESSION_SIZE);
+    // New words cost NEW_ITEM_COST slots each (L23).
+    expect(totalCount).toBe(Math.floor(SESSION_SIZE / NEW_ITEM_COST));
 
     const a2Terms = enA2Terms();
     const fronts: string[] = [];
@@ -260,7 +261,8 @@ test.describe('fr-FR B1 review session', () => {
 
     const progressText = await progress.textContent();
     const totalCount = Number(progressText?.match(/of (\d+)$/)?.[1]);
-    expect(totalCount).toBe(SESSION_SIZE);
+    // New words cost NEW_ITEM_COST slots each (L23).
+    expect(totalCount).toBe(Math.floor(SESSION_SIZE / NEW_ITEM_COST));
 
     const b1Terms = enB1Terms();
     const fronts: string[] = [];
@@ -321,7 +323,8 @@ test.describe('fr-FR B2 review session', () => {
 
     const progressText = await progress.textContent();
     const totalCount = Number(progressText?.match(/of (\d+)$/)?.[1]);
-    expect(totalCount).toBe(SESSION_SIZE);
+    // New words cost NEW_ITEM_COST slots each (L23).
+    expect(totalCount).toBe(Math.floor(SESSION_SIZE / NEW_ITEM_COST));
 
     const b2Terms = enB2Terms();
     const fronts: string[] = [];
@@ -386,7 +389,8 @@ test.describe('fr-FR C1 review session', () => {
 
     const progressText = await progress.textContent();
     const totalCount = Number(progressText?.match(/of (\d+)$/)?.[1]);
-    expect(totalCount).toBe(SESSION_SIZE);
+    // New words cost NEW_ITEM_COST slots each (L23).
+    expect(totalCount).toBe(Math.floor(SESSION_SIZE / NEW_ITEM_COST));
 
     const c1Terms = enC1Terms();
     const fronts: string[] = [];
@@ -446,7 +450,8 @@ test.describe('fr-FR C2 review session', () => {
 
     const progressText = await progress.textContent();
     const totalCount = Number(progressText?.match(/of (\d+)$/)?.[1]);
-    expect(totalCount).toBe(SESSION_SIZE);
+    // New words cost NEW_ITEM_COST slots each (L23).
+    expect(totalCount).toBe(Math.floor(SESSION_SIZE / NEW_ITEM_COST));
 
     const c2Terms = enC2Terms();
     const fronts: string[] = [];

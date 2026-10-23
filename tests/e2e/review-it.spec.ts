@@ -1,7 +1,7 @@
 import { test, expect } from './fixtures';
 import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { SESSION_SIZE } from '../../src/lib/reviewSession';
+import { NEW_ITEM_COST, SESSION_SIZE } from '../../src/lib/reviewSession';
 
 const REVIEW_URL = '/learn-languages/en-GB/it-IT/review/';
 const GREET_LESSON_URL = '/learn-languages/en-GB/it-IT/lessons/A1-GREET-001/';
@@ -109,7 +109,8 @@ test.describe('it-IT A2 review session', () => {
 
     const progressText = await progress.textContent();
     const totalCount = Number(progressText?.match(/of (\d+)$/)?.[1]);
-    expect(totalCount).toBe(SESSION_SIZE);
+    // New words cost NEW_ITEM_COST slots each (L23).
+    expect(totalCount).toBe(Math.floor(SESSION_SIZE / NEW_ITEM_COST));
 
     const a2Terms = enTerms('a2-');
     const fronts: string[] = [];
@@ -161,7 +162,8 @@ test.describe('it-IT B1 review session', () => {
 
     const progressText = await progress.textContent();
     const totalCount = Number(progressText?.match(/of (\d+)$/)?.[1]);
-    expect(totalCount).toBe(SESSION_SIZE);
+    // New words cost NEW_ITEM_COST slots each (L23).
+    expect(totalCount).toBe(Math.floor(SESSION_SIZE / NEW_ITEM_COST));
 
     const b1Terms = enTerms('b1-');
     const fronts: string[] = [];
@@ -215,7 +217,8 @@ test.describe('it-IT B2 review session', () => {
 
     await expect(progress).toContainText('of');
     const totalCount = Number((await progress.textContent())?.match(/of (\d+)$/)?.[1]);
-    expect(totalCount).toBe(SESSION_SIZE);
+    // New words cost NEW_ITEM_COST slots each (L23).
+    expect(totalCount).toBe(Math.floor(SESSION_SIZE / NEW_ITEM_COST));
 
     const b2Terms = new Set<string>();
     for (const file of readdirSync(EN_DIR)) {
@@ -272,7 +275,8 @@ test.describe('it-IT C1 review session', () => {
 
     const progressText = await progress.textContent();
     const totalCount = Number(progressText?.match(/of (\d+)$/)?.[1]);
-    expect(totalCount).toBe(SESSION_SIZE);
+    // New words cost NEW_ITEM_COST slots each (L23).
+    expect(totalCount).toBe(Math.floor(SESSION_SIZE / NEW_ITEM_COST));
 
     const c1Terms = enTerms('c1-');
     const fronts: string[] = [];

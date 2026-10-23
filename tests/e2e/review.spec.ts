@@ -257,4 +257,36 @@ test.describe('review session', () => {
     expect(savedState.repetitions).toBe(0);
     expect(savedState.interval).toBe(1);
   });
+
+  test('a new card graded Again returns until graded Good (L23)', async ({ page }) => {
+    const front = page.locator('#review-front');
+    const grade = async (q: number) => {
+      await page.locator('#review-reveal').click();
+      await page.locator(`#review-grades button[data-quality="${q}"]`).click();
+      const cont = page.locator('#review-correction-continue');
+      if (await cont.isVisible()) await cont.click();
+    };
+
+    const target = await front.textContent();
+    await grade(1);
+    // Fail it again on its first return: a one-retry cap would drop it now.
+    let returns = 0;
+    for (let n = 0; n < 30 && returns < 2; n++) {
+      if ((await front.textContent()) === target) {
+        returns += 1;
+        if (returns === 1) await grade(1);
+        else break;
+      } else {
+        await grade(3);
+      }
+    }
+    expect(returns).toBe(2);
+    await grade(3);
+    // Session continues without the card coming back again.
+    for (let n = 0; n < 30 && (await page.locator('#review-card').isVisible()); n++) {
+      expect(await front.textContent()).not.toBe(target);
+      await grade(3);
+    }
+    await expect(page.locator('#review-summary')).toBeVisible();
+  });
 });
