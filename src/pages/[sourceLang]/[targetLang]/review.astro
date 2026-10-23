@@ -343,7 +343,12 @@ for (const n of await getCollection('cefr-nodes')) {
   import { calculateNextReview, isDue } from '../../../utils/srs';
   import { pronounce, recordedAudioPath } from '../../../lib/pronounce';
   import { languageName } from '../../../lib/languageNames';
-  import { DAILY_NEW_CAP, selectDue } from '../../../lib/reviewSession';
+  import {
+    DAILY_NEW_CAP,
+    RELEARN_CRITERION,
+    nextRemaining,
+    selectDue,
+  } from '../../../lib/reviewSession';
   import { withBase } from '../../../lib/urls';
   import { computeOverallMastery } from '../../../lib/progress';
   import {
@@ -397,6 +402,8 @@ for (const n of await getCollection('cefr-nodes')) {
   // Items already re-queued once after an "Again" grade this session — capped
   // to one retry per item so a repeatedly-failed card can't loop forever.
   let requeuedIds = new Set<string>();
+  // L23: new words stay in the session until recalled correctly (criterion).
+  let criterionLeft = new Map<string, number>();
   // Calibration signal (spec §1.1, desirable difficulties): first-attempt
   // accuracy and the mastery delta over the whole vocabulary, shown at
   // session end instead of only on the separate /progress page.
@@ -577,6 +584,11 @@ for (const n of await getCollection('cefr-nodes')) {
     });
     reviewed = 0;
     requeuedIds = new Set<string>();
+    criterionLeft = new Map(
+      queue
+        .filter((i) => !hasState(sourceLang, targetLang, direction, i.target.id))
+        .map((i) => [i.target.id, RELEARN_CRITERION])
+    );
     firstTryTotal = 0;
     firstTryCorrect = 0;
     masteryBefore = snapshotMasteryPercent();
@@ -768,7 +780,14 @@ for (const n of await getCollection('cefr-nodes')) {
     // session for another retrieval attempt, rather than waiting for its
     // SM-2 due date tomorrow. Only once per item, so a repeat "Again" can't
     // loop the session forever.
-    if (quality < 3 && !requeuedIds.has(item.target.id)) {
+    const remaining = criterionLeft.get(item.target.id);
+    // Only a return visit counts: the first showing introduces the word, so the
+    // criterion is a correct recall after at least one intervening card (L23).
+    if (remaining !== undefined && requeuedIds.has(item.target.id)) {
+      criterionLeft.set(item.target.id, nextRemaining(remaining, quality >= 3));
+    }
+    const needsRelearn = (criterionLeft.get(item.target.id) ?? 0) > 0;
+    if (needsRelearn || (quality < 3 && !requeuedIds.has(item.target.id))) {
       requeuedIds.add(item.target.id);
       queue.splice(Math.min(3, queue.length), 0, item);
     } else {
