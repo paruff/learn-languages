@@ -39,11 +39,29 @@ if (process.argv.includes('--live') && live) {
   const urls = [...pages];
   const dead = [];
   let next = 0;
+  // GitHub Pages answers a burst of requests with 429, so keep concurrency
+  // low and retry throttling/5xx with backoff. A real 404 fails immediately.
+  const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+  const head = async (url) => {
+    let res = null;
+    for (let attempt = 0; attempt < 5; attempt++) {
+      res = await fetch(live + url, { method: 'HEAD' }).catch(() => null);
+      if (res && res.status !== 429 && res.status < 500) return res;
+      const retryAfter = Number(res?.headers.get('retry-after'));
+      await sleep(
+        Math.min(
+          Number.isFinite(retryAfter) && retryAfter > 0 ? retryAfter * 1000 : 1000 * 2 ** attempt,
+          30_000
+        )
+      );
+    }
+    return res;
+  };
   await Promise.all(
-    Array.from({ length: 20 }, async () => {
+    Array.from({ length: 5 }, async () => {
       while (next < urls.length) {
         const url = urls[next++];
-        const res = await fetch(live + url, { method: 'HEAD' }).catch(() => null);
+        const res = await head(url);
         if (!res?.ok) dead.push(`${url} -> ${res?.status ?? 'network error'}`);
       }
     })
