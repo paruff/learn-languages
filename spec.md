@@ -45,7 +45,7 @@
 | L17 | Metalinguistic analysis tasks: error correction that asks why, and L1/L2 comparison prompts                                                                                                                | Roehr 2008; Lyster & Saito 2010                                     | #205                                                             | ⬜     |
 | L18 | Optional L1 grammar diagnostic that points the learner to the L2 features likely to be hardest for them                                                                                                    | Roehr 2008; Norris & Ortega 2000                                    | #205                                                             | ⬜     |
 | L19 | Rule-of-thumb notes where L1 and L2 diverge (interference points)                                                                                                                                          | Norris & Ortega 2000; Spada & Tomita 2010; Ringbom 2007; Odlin 1989 | #205                                                             | ⬜     |
-| L20 | Level checkpoint: a short production check on unseen items, taken at least 7 days after study, ending in a self-rated "I can do this" against the CEFR Can-Do. Deferred until round-one feedback (plan T2) | Ability, intent S8                                                  | Not yet designed                                                 | ⬜     |
+| L20 | Level checkpoint: a short production check on unseen items, taken at least 7 days after study, ending in a self-rated "I can do this" against the CEFR Can-Do. First cut (#201): `/checkpoint/` quizzes up to 5 never-reviewed items from a lesson studied ≥7 days ago, then asks "I can do this". Redesign after round-one feedback (plan T2) | Ability, intent S8                                                  | `tests/e2e/checkpoint.spec.ts`, `src/lib/checkpoint.test.ts`                                                 | 🟨     |
 
 ## 3. Learner state & privacy
 
@@ -95,7 +95,7 @@ Unchanged from AGENTS.md §5 and §13: typecheck 0 errors, lint 0 warnings, cont
 - L12: prerequisite data doesn't exist yet (`prerequisiteNodes` is in the schema, but no node fills it in). Is authoring it worth the cost before L10 and L11 show value?
 - L8: does grammar share the vocabulary SRS queue (interleaved) or get its own? To be decided in #126.
 - S6: resolved by M1 plus on-device `returned: {day2, week2}` in the report (#198). Week-2 rate = share of reports with `week2: true`. Revisit a server counter only if the cohort is too large to ask, which needs an owner decision on hosting and an S3 change.
-- L20: what should "I can do this" feel like? Wait for round-one feedback before designing the checkpoint.
+- L20: first cut shipped without learner feedback (#201). What should "I can do this" feel like? Revisit once round-one feedback lands. Not yet linked from navigation; lessons studied before this shipped have no study date and are not offered a checkpoint.
 - L13: does the picture-prompt mode raise the calibration-flag rate (L5) for image cards? Needs S6. The image-vs-non-image calibration split is tracked in #146.
 - L16/L17: should contrastive grammar and metalinguistic tasks run inside the same review queue as L8 items, or be a linked practice surface from lessons?
 - L18: should L1 diagnostics stay self-report + lightweight quizzes only, or include adaptive follow-up checks before recommending modules?

@@ -184,6 +184,8 @@ const OWNED_KEY_PREFIXES = [
   'reflection:',
   'grade-log:',
   'studied:',
+  'studied-at:',
+  'checkpoint:',
   'intro:',
   'new-cap:',
 ];

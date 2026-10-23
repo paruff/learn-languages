@@ -1,0 +1,142 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { loadPair, getAvailablePairs } from '../../../lib/pairLoader';
+import { languageName } from '../../../lib/languageNames';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const pairs = await getAvailablePairs();
+  return pairs.map(({ sourceLang, targetLang }) => ({ params: { sourceLang, targetLang } }));
+}
+
+const { sourceLang, targetLang } = Astro.params;
+const items = (await loadPair(sourceLang, targetLang)).map((i) => ({
+  id: i.target.id,
+  nodeId: i.nodeId,
+  prompt: i.source.term,
+  answer: i.target.term,
+}));
+const nodeIds = new Set(items.map((i) => i.nodeId));
+const canDoByNode: Record<string, string> = {};
+for (const n of await getCollection('cefr-nodes')) {
+  if (nodeIds.has(n.data.nodeId)) canDoByNode[n.data.nodeId] = n.data.canDo;
+}
+const targetName = languageName(targetLang);
+---
+
+<BaseLayout
+  title={`Level checkpoint ${targetName} — Acquira`}
+  description={`A short check on ${targetName} words you have not reviewed yet, a week after studying.`}
+  sourceLang={sourceLang}
+  targetLang={targetLang}
+  section="review"
+>
+  <h1>Level checkpoint</h1>
+  <p id="cp-empty" class="card" hidden>
+    Nothing to check yet. A checkpoint opens 7 days after you study a lesson.
+  </p>
+  <section id="cp-quiz" class="card" hidden>
+    <p id="cp-canDo"></p>
+    <form id="cp-form">
+      <p id="cp-prompt"></p>
+      <label for="cp-input">Type it in {targetName}</label>
+      <input id="cp-input" type="text" autocomplete="off" />
+      <button type="submit" class="btn btn--primary">Check</button>
+    </form>
+    <p id="cp-feedback" role="status"></p>
+  </section>
+  <section id="cp-rate" class="card" hidden>
+    <p id="cp-score"></p>
+    <p id="cp-rate-canDo"></p>
+    <button id="cp-yes" type="button" class="btn btn--primary">I can do this</button>
+    <button id="cp-no" type="button" class="btn btn--secondary">Not yet</button>
+  </section>
+  <p id="cp-done" class="card" role="status" hidden></p>
+  <script
+    type="application/json"
+    id="cp-data"
+    set:html={JSON.stringify({ sourceLang, targetLang, items, canDoByNode })}
+  />
+</BaseLayout>
+
+<script>
+  import { hasState } from '../../../lib/storage';
+  import { checkAnswer } from '../../../lib/exerciseCheck';
+  import {
+    checkpointNodes,
+    loadStudiedAt,
+    loadCheckpoint,
+    saveCheckpoint,
+    pickUnseen,
+  } from '../../../lib/checkpoint';
+
+  const data = JSON.parse(document.getElementById('cp-data')!.textContent!);
+  const { sourceLang, targetLang, items, canDoByNode } = data as {
+    sourceLang: string;
+    targetLang: string;
+    items: { id: string; nodeId: string; prompt: string; answer: string }[];
+    canDoByNode: Record<string, string>;
+  };
+  const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
+  const today = new Date().toISOString().slice(0, 10);
+
+  const studiedAt = loadStudiedAt(sourceLang, targetLang);
+  const done = new Set(
+    Object.keys(studiedAt).filter((n) => loadCheckpoint(sourceLang, targetLang, n))
+  );
+  const seen = (i: { id: string }) =>
+    hasState(sourceLang, targetLang, 'forward', i.id) ||
+    hasState(sourceLang, targetLang, 'reverse', i.id);
+
+  // First eligible node that still has unseen items to test.
+  let nodeId: string | undefined;
+  let queue: typeof items = [];
+  for (const n of checkpointNodes(studiedAt, today, done)) {
+    queue = pickUnseen(items, n, seen);
+    if (queue.length) {
+      nodeId = n;
+      break;
+    }
+  }
+
+  if (!nodeId) {
+    $('cp-empty').hidden = false;
+  } else {
+    const node = nodeId;
+    const total = queue.length;
+    let index = 0;
+    let correct = 0;
+    $('cp-canDo').textContent = canDoByNode[node] ?? '';
+    $('cp-quiz').hidden = false;
+
+    const show = () => {
+      $('cp-prompt').textContent = queue[index].prompt;
+      const input = $<HTMLInputElement>('cp-input');
+      input.value = '';
+      input.focus();
+    };
+    show();
+
+    $<HTMLFormElement>('cp-form').addEventListener('submit', (e) => {
+      e.preventDefault();
+      if (checkAnswer($<HTMLInputElement>('cp-input').value, queue[index].answer)) correct++;
+      index++;
+      if (index < total) return show();
+      $('cp-quiz').hidden = true;
+      $('cp-score').textContent = `${correct} of ${total} correct.`;
+      $('cp-rate-canDo').textContent = `Can you now: ${canDoByNode[node] ?? ''}?`;
+      $('cp-rate').hidden = false;
+    });
+
+    const finish = (canDo: boolean) => {
+      saveCheckpoint(sourceLang, targetLang, node, { date: today, correct, total, canDo });
+      $('cp-rate').hidden = true;
+      $('cp-done').textContent = canDo
+        ? 'Nice — noted. Keep reviewing to keep it.'
+        : 'Noted. Revisit the lesson, then keep reviewing.';
+      $('cp-done').hidden = false;
+    };
+    $('cp-yes').addEventListener('click', () => finish(true));
+    $('cp-no').addEventListener('click', () => finish(false));
+  }
+</script>

@@ -301,8 +301,16 @@ const sourceByConcept = new Map(source.vocabulary.map((v) => [v.concept, v]));
 <script>
   // Spec J1: opening a lesson counts as studying it.
   import { markStudied } from '../../../../lib/path';
+  import { markStudiedAt } from '../../../../lib/checkpoint';
   const el = document.querySelector<HTMLElement>('[data-lesson-id]')!;
   markStudied(el.dataset.source!, el.dataset.target!, el.dataset.lessonId!);
+  // Spec L20: remember when, so a checkpoint can be offered ≥7 days later.
+  markStudiedAt(
+    el.dataset.source!,
+    el.dataset.target!,
+    el.dataset.lessonId!,
+    new Date().toISOString().slice(0, 10)
+  );
 </script>
 
 <script>
