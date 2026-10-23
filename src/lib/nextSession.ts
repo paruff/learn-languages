@@ -22,9 +22,10 @@ export function saveIntention(
 ): void {
   const trimmed = text.trim();
   if (!trimmed) return;
+  const calendar = loadIntention(sourceLang, targetLang)?.calendar === true;
   writeItem(
     key(sourceLang, targetLang),
-    JSON.stringify({ text: trimmed, savedOn, calendar: false } satisfies Intention)
+    JSON.stringify({ text: trimmed, savedOn, calendar } satisfies Intention)
   );
 }
 
@@ -41,7 +42,10 @@ export function markCalendarUsed(sourceLang: string, targetLang: string): void {
 }
 
 const escapeIcs = (s: string): string =>
-  s.replace(/\\/g, '\\\\').replace(/[,;]/g, '\\$&').replace(/\r?\n/g, '\\n');
+  s
+    .replace(/\\/g, '\\\\')
+    .replace(/[,;]/g, '\\$&')
+    .replace(/\r?\n|\r/g, '\\n');
 
 const stamp = (d: Date, hh: number, mm: number): string => {
   const p = (n: number): string => String(n).padStart(2, '0');
@@ -53,7 +57,8 @@ const stamp = (d: Date, hh: number, mm: number): string => {
  * on-device so nothing is sent anywhere.
  */
 export function buildIcs(text: string, time: string, now: Date = new Date()): string {
-  const [hh, mm] = time.split(':').map(Number);
+  const m = /^(\d{2}):(\d{2})/.exec(time);
+  const [hh, mm] = m ? [Number(m[1]), Number(m[2])] : [8, 0];
   const start = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, hh, mm);
   const end = new Date(start.getTime() + 10 * 60_000);
   return [
@@ -61,7 +66,7 @@ export function buildIcs(text: string, time: string, now: Date = new Date()): st
     'VERSION:2.0',
     'PRODID:-//Acquira//Next session//EN',
     'BEGIN:VEVENT',
-    `UID:acquira-${stamp(start, hh, mm)}@acquira`,
+    `UID:acquira-${now.getTime()}@acquira`,
     `DTSTAMP:${now.toISOString().replace(/[-:]|\.\d{3}/g, '')}`,
     `DTSTART:${stamp(start, start.getHours(), start.getMinutes())}`,
     `DTEND:${stamp(end, end.getHours(), end.getMinutes())}`,

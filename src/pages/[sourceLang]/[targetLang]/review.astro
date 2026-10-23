@@ -526,7 +526,7 @@ for (const n of await getCollection('cefr-nodes')) {
     );
     link.download = 'acquira-next-session.ics';
     link.click();
-    URL.revokeObjectURL(link.href);
+    setTimeout(() => URL.revokeObjectURL(link.href), 1000);
     nextFormEl.hidden = showPlan();
   });
   showPlan();

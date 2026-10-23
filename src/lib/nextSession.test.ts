@@ -38,3 +38,16 @@ describe('buildIcs', () => {
     expect(ics.endsWith('END:VCALENDAR\r\n')).toBe(true);
   });
 });
+
+describe('robustness', () => {
+  it('falls back to 08:00 on a malformed time and keeps the calendar flag on re-save', () => {
+    expect(buildIcs('x', 'abc', new Date('2026-10-23T12:00:00Z'))).toContain(
+      'DTSTART:20261024T080000'
+    );
+    window.localStorage.clear();
+    saveIntention('en-GB', 'pt-PT', 'a', '2026-10-23');
+    markCalendarUsed('en-GB', 'pt-PT');
+    saveIntention('en-GB', 'pt-PT', 'b', '2026-10-23');
+    expect(loadIntention('en-GB', 'pt-PT')?.calendar).toBe(true);
+  });
+});
