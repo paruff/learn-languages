@@ -57,6 +57,8 @@ export type StringKey =
   | 'reviewGradeHint'
   | 'reviewCorrectionHeading'
   | 'reviewIntentionHeading'
+  | 'reviewNextHeading'
+  | 'reviewPracticeMore'
   | 'reviewContinueButton'
   | 'lessonsNextLesson'
   | 'reviewReflectionQuestion'
@@ -181,6 +183,8 @@ const EN_GB: Dictionary = {
   reviewCorrectionHeading: 'Have another look — you will see this card again shortly.',
   reviewIntentionHeading: "Today's goal — you are practising how to:",
   reviewContinueButton: 'Continue',
+  reviewNextHeading: 'What would you like to do next?',
+  reviewPracticeMore: 'Practise more',
 };
 
 const ES_ES: Dictionary = {
@@ -271,6 +275,8 @@ const ES_ES: Dictionary = {
   reviewCorrectionHeading: 'Échale otro vistazo: volverás a ver esta tarjeta enseguida.',
   reviewIntentionHeading: 'Objetivo de hoy: practicas cómo:',
   reviewContinueButton: 'Continuar',
+  reviewNextHeading: '¿Qué quieres hacer ahora?',
+  reviewPracticeMore: 'Practicar más',
 };
 
 const PT_PT: Dictionary = {
@@ -360,6 +366,8 @@ const PT_PT: Dictionary = {
   reviewCorrectionHeading: 'Veja outra vez — vai voltar a ver este cartão em breve.',
   reviewIntentionHeading: 'Objetivo de hoje: está a praticar como:',
   reviewContinueButton: 'Continuar',
+  reviewNextHeading: 'O que quer fazer a seguir?',
+  reviewPracticeMore: 'Praticar mais',
 };
 
 const DE_DE: Dictionary = {
@@ -449,6 +457,8 @@ const DE_DE: Dictionary = {
   reviewCorrectionHeading: 'Schau noch einmal hin – du siehst diese Karte gleich wieder.',
   reviewIntentionHeading: 'Ziel für heute – du übst, wie du:',
   reviewContinueButton: 'Weiter',
+  reviewNextHeading: 'Was möchtest du als Nächstes tun?',
+  reviewPracticeMore: 'Weiter üben',
 };
 
 const FR_FR: Dictionary = {
@@ -539,6 +549,8 @@ const FR_FR: Dictionary = {
   reviewCorrectionHeading: 'Regarde encore — tu reverras cette carte bientôt.',
   reviewIntentionHeading: "Objectif du jour : tu t'entraînes à :",
   reviewContinueButton: 'Continuer',
+  reviewNextHeading: 'Que veux-tu faire maintenant ?',
+  reviewPracticeMore: 'S’entraîner encore',
 };
 
 const DICTIONARIES: Record<string, Dictionary> = {
