@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../lib/urls';
 ---
 
 <BaseLayout
@@ -27,4 +28,5 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   </p>
   <h2>Easy on the brain</h2>
   <p>Audio and text together, nothing extra to distract you — cognitive load theory in practice.</p>
+  <p><a class="btn btn--primary" href={withBase('/')}>Start learning</a></p>
 </BaseLayout>

@@ -268,10 +268,12 @@ jobs:
           done
           echo "::error::New deploy not served at ${LIVE_URL} after 5 minutes"; exit 1
       - run: npx playwright install --with-deps chromium
-      - name: Playwright smoke (first-run, layout, report, a11y)
+      - name: Playwright smoke (first-run, layout, report, a11y, journey)
         env:
           SMOKE_BASE_URL: ${{ env.LIVE_ORIGIN }}
-        run: npx playwright test --project=chromium --project=mobile-chrome first-run layout report a11y
+        run: npx playwright test --project=chromium --project=mobile-chrome first-run layout report a11y journey
+      - name: Every internal page URL is live
+        run: node scripts/check-links.mjs --live "$LIVE_ORIGIN"
       - name: Point lighthouserc at the live site
         run: |
           jq --arg o "${LIVE_URL%/learn-languages/}" \

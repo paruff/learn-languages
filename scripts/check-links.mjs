@@ -12,10 +12,12 @@ const walk = (d) =>
   });
 
 const broken = new Set();
+const pages = new Set();
 for (const file of walk(DIST).filter((f) => f.endsWith('.html'))) {
   const html = readFileSync(file, 'utf8');
   for (const [, url] of html.matchAll(/(?:href|src)="([^"#?]+)[^"]*"/g)) {
     if (!url.startsWith(BASE)) continue;
+    if (!/\.\w+$/.test(url)) pages.add(url);
     const path = join(DIST, url.slice(BASE.length));
     if (
       !existsSync(path) ||
@@ -29,3 +31,26 @@ if (broken.size) {
   process.exit(1);
 }
 console.log('check-links: all internal links resolve');
+
+// --live <origin>: also request every distinct internal page URL from the
+// deployed site, so a deploy that lost pages (or a base-path mistake) fails.
+const live = process.argv[process.argv.indexOf('--live') + 1];
+if (process.argv.includes('--live') && live) {
+  const urls = [...pages];
+  const dead = [];
+  let next = 0;
+  await Promise.all(
+    Array.from({ length: 20 }, async () => {
+      while (next < urls.length) {
+        const url = urls[next++];
+        const res = await fetch(live + url, { method: 'HEAD' }).catch(() => null);
+        if (!res?.ok) dead.push(`${url} -> ${res?.status ?? 'network error'}`);
+      }
+    })
+  );
+  if (dead.length) {
+    console.error(`${dead.length} dead URL(s) on ${live}:\n${dead.slice(0, 50).join('\n')}`);
+    process.exit(1);
+  }
+  console.log(`check-links: ${urls.length} live URLs return 200`);
+}
