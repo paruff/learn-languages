@@ -7,6 +7,7 @@ const PAGES = [
   '/learn-languages/en-GB/pt-PT/lessons/A1-GREET-001/',
   '/learn-languages/en-GB/pt-PT/review/',
   '/learn-languages/en-GB/pt-PT/progress/',
+  '/learn-languages/en-GB/pt-PT/checkpoint/',
 ];
 
 test.describe('accessibility', () => {

@@ -30,6 +30,21 @@ test.describe('first run', () => {
     await expect(page).toHaveURL(/\/en-GB\/es-ES\/lessons\/A1-GREET-001\/$/);
   });
 
+  test('Progress "next up" recommends an unstudied prerequisite, never locks (L12)', async ({
+    page,
+  }) => {
+    await page.evaluate(() =>
+      window.localStorage.setItem(
+        'studied:en-GB:pt-PT',
+        JSON.stringify(['A1-GREET-001', 'A1-FORM-001'])
+      )
+    );
+    await page.goto('/learn-languages/en-GB/pt-PT/progress/');
+    // FORM-001 was studied out of order; its prerequisite INTRO-002 (via INTRO-001) is still open.
+    await page.getByRole('link', { name: 'Continue' }).first().click();
+    await expect(page).toHaveURL(/\/lessons\/A1-INTRO-001\/$/);
+  });
+
   test('page opts out of browser auto-translation (U2)', async ({ page }) => {
     await expect(page.locator('html')).toHaveAttribute('translate', 'no');
     await expect(page.locator('meta[name="google"][content="notranslate"]')).toHaveCount(1);
