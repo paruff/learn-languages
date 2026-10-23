@@ -30,6 +30,7 @@ describe('buildSessionReport (spec M1)', () => {
         'levels',
         'pair',
         'retention',
+        'returned',
         'reviews',
       ].sort()
     );

@@ -1,4 +1,4 @@
-import { computeRetention, summariseLog, type GradeEntry } from './gradeLog';
+import { computeRetention, computeReturn, summariseLog, type GradeEntry } from './gradeLog';
 
 interface ReportInput {
   sourceLang: string;
@@ -25,6 +25,7 @@ export function buildSessionReport(input: ReportInput): string {
     lastDay: summary.lastDay,
     gradeMix: summary.gradeMix,
     retention: computeRetention(input.log),
+    returned: computeReturn(input.log),
     levels: input.levels,
     comment: input.comment.trim(),
   };
