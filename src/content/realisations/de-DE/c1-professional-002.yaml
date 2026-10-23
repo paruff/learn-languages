@@ -1,53 +1,53 @@
 nodeId: C1-PROFESSIONAL-002
 lang: de-DE
 vocabulary:
-  - id: de-DE-C1-PROFESSIONAL-002-001
-    concept: 'career'
-    term: 'Karriere'
-    translation: 'career'
+  - id: de-DE-C1-PROFESSIONAL-002-007
+    concept: 'detailed-report'
+    term: 'der ausführliche Bericht'
+    translation: 'detailed report'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der ausführliche Bericht deckt alle Zahlen des Quartals ab.'
+    exampleTranslation: 'The detailed report covers all the figures of the quarter.'
+  - id: de-DE-C1-PROFESSIONAL-002-008
+    concept: 'contingency-plan'
+    term: 'der Notfallplan'
+    translation: 'contingency plan'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Notfallplan sieht Reaktionen auf ungünstige Szenarien vor.'
+    exampleTranslation: 'The contingency plan provides responses for adverse scenarios.'
+  - id: de-DE-C1-PROFESSIONAL-002-009
+    concept: 'culminating-point-of-the-analysis'
+    term: 'der Höhepunkt der Analyse'
+    translation: 'culminating point of the analysis'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Höhepunkt der Analyse ist der Vergleich der beiden Märkte.'
+    exampleTranslation: 'The culminating point of the analysis is the comparison between the two markets.'
+  - id: de-DE-C1-PROFESSIONAL-002-010
+    concept: 'concrete-measures'
+    term: 'die konkreten Maßnahmen'
+    translation: 'concrete measures'
     partOfSpeech: noun
     gender: feminine
-    example: 'Ihre Karriere war erfolgreich.'
-    exampleTranslation: 'Her career was successful.'
-  - id: de-DE-C1-PROFESSIONAL-002-002
-    concept: 'position'
-    term: 'Position'
-    translation: 'position'
+    example: 'Das Dokument schlägt konkrete Maßnahmen zur Kostensenkung vor.'
+    exampleTranslation: 'The document proposes concrete measures to reduce costs.'
+  - id: de-DE-C1-PROFESSIONAL-002-011
+    concept: 'notice-to-partners'
+    term: 'die Mitteilung an die Partner'
+    translation: 'notice to partners'
     partOfSpeech: noun
     gender: feminine
-    example: 'Die Position war sehr verantwortungsvoll.'
-    exampleTranslation: 'The position was very responsible.'
-  - id: de-DE-C1-PROFESSIONAL-002-003
-    concept: 'promotion'
-    term: 'Beförderung'
-    translation: 'promotion'
+    example: 'Die Mitteilung an die Partner erläutert die neue Regelung.'
+    exampleTranslation: 'The notice to partners clarifies the new policy.'
+  - id: de-DE-C1-PROFESSIONAL-002-012
+    concept: 'ranking-of-the-risks'
+    term: 'die Rangfolge der Risiken'
+    translation: 'ranking of the risks'
     partOfSpeech: noun
     gender: feminine
-    example: 'Die Beförderung kam überraschend.'
-    exampleTranslation: 'The promotion came unexpectedly.'
-  - id: de-DE-C1-PROFESSIONAL-002-004
-    concept: 'qualification'
-    term: 'Qualifikation'
-    translation: 'qualification'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Ihre Qualifikation war ausgezeichnet.'
-    exampleTranslation: 'Her qualification was excellent.'
-  - id: de-DE-C1-PROFESSIONAL-002-005
-    concept: 'performance'
-    term: 'Leistung'
-    translation: 'performance / achievement'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Leistung war überdurchschnittlich.'
-    exampleTranslation: 'The performance was above average.'
-  - id: de-DE-C1-PROFESSIONAL-002-006
-    concept: 'requirements'
-    term: 'Anforderungen'
-    translation: 'requirements'
-    partOfSpeech: noun
-    gender: n/a
-    example: 'Die Anforderungen waren hoch.'
-    exampleTranslation: 'The requirements were high.'
+    example: 'Die Rangfolge der Risiken bestimmt die Investitionsprioritäten.'
+    exampleTranslation: 'The ranking of the risks guides the investment priority.'
 grammar: []
 culturalNotes: 'German professional career discussions at C1 level expect precise language about qualifications ("Qualifikationen") and achievements ("Leistungen"); self-promotion should be factual and evidence-based.'

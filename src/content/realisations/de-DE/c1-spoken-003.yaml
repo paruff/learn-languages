@@ -1,53 +1,53 @@
 nodeId: C1-SPOKEN-003
 lang: de-DE
 vocabulary:
-  - id: de-DE-C1-SPOKEN-003-001
-    concept: 'complex'
-    term: 'komplex'
-    translation: 'complex'
-    partOfSpeech: adjective
+  - id: de-DE-C1-SPOKEN-003-007
+    concept: 'to-hit-the-nail-on-the-head'
+    term: 'den Nagel auf den Kopf treffen'
+    translation: 'to hit the nail on the head'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Das war eine komplexe Frage.'
-    exampleTranslation: 'That was a complex question.'
-  - id: de-DE-C1-SPOKEN-003-002
-    concept: 'abstract'
-    term: 'abstrakt'
-    translation: 'abstract'
-    partOfSpeech: adjective
+    example: 'Mit dieser Frage traf er den Nagel auf den Kopf der Debatte.'
+    exampleTranslation: 'With that question, he hit the nail on the head of the debate.'
+  - id: de-DE-C1-SPOKEN-003-008
+    concept: 'to-steer-the-discussion-to-a-good-conclusion'
+    term: 'die Diskussion zu einem guten Abschluss führen'
+    translation: 'to steer the discussion to a good conclusion'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Das Thema war sehr abstrakt.'
-    exampleTranslation: 'The topic was very abstract.'
-  - id: de-DE-C1-SPOKEN-003-003
-    concept: 'concrete'
-    term: 'konkret'
-    translation: 'concrete'
-    partOfSpeech: adjective
+    example: 'Der Moderator führte die Diskussion zu einem guten Abschluss, ohne jemanden zu verletzen.'
+    exampleTranslation: 'The moderator steered the discussion to a good conclusion without hurting anyone.'
+  - id: de-DE-C1-SPOKEN-003-009
+    concept: 'to-follow-the-thread-of-the-conversation'
+    term: 'dem Gesprächsfaden folgen'
+    translation: 'to follow the thread of the conversation'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Können Sie ein konkretes Beispiel nennen?'
-    exampleTranslation: 'Can you name a concrete example?'
-  - id: de-DE-C1-SPOKEN-003-004
-    concept: 'main-idea'
-    term: 'Hauptgedanke'
-    translation: 'main idea'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Was ist der Hauptgedanke?'
-    exampleTranslation: 'What is the main idea?'
-  - id: de-DE-C1-SPOKEN-003-005
-    concept: 'to-understand'
-    term: 'verstehen'
-    translation: 'to understand'
-    partOfSpeech: verb
+    example: 'Es ist schwer, dem Gesprächsfaden zu folgen, wenn alle durcheinanderreden.'
+    exampleTranslation: 'It is hard to follow the thread of the conversation when everyone speaks at once.'
+  - id: de-DE-C1-SPOKEN-003-010
+    concept: 'beside-the-point'
+    term: 'nebensächlich'
+    translation: 'beside the point'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich verstehe die Hauptideen.'
-    exampleTranslation: 'I understand the main ideas.'
-  - id: de-DE-C1-SPOKEN-003-006
-    concept: 'to-summarize'
-    term: 'zusammenfassen'
-    translation: 'to summarize'
-    partOfSpeech: verb
+    example: 'Die Bemerkung war nebensächlich, aber nützlich.'
+    exampleTranslation: 'The remark was beside the point, but useful.'
+  - id: de-DE-C1-SPOKEN-003-011
+    concept: 'to-switch-register'
+    term: 'das Register wechseln'
+    translation: 'to switch register'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Können Sie das zusammenfassen?'
-    exampleTranslation: 'Can you summarize that?'
+    example: 'Er verstand es, das Register zu wechseln, als der Chef den Raum betrat.'
+    exampleTranslation: 'He knew how to switch register when the boss came into the room.'
+  - id: de-DE-C1-SPOKEN-003-012
+    concept: 'to-keep-the-ball-rolling'
+    term: 'das Gespräch am Laufen halten'
+    translation: 'to keep the ball rolling'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Mit guten Fragen hielt er das Gespräch am Laufen.'
+    exampleTranslation: 'With good questions, he kept the ball rolling in the conversation.'
 grammar: []
 culturalNotes: 'Germans distinguish between "konkret" (concrete, practical) and "abstrakt" (abstract, theoretical); C1 listening should handle both registers fluently.'

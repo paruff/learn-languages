@@ -1,53 +1,53 @@
 nodeId: C1-NUANCED-001
 lang: de-DE
 vocabulary:
-  - id: de-DE-C1-NUANCED-001-001
-    concept: 'nuance'
-    term: 'Feinheit'
-    translation: 'nuance / subtlety'
+  - id: de-DE-C1-NUANCED-001-007
+    concept: 'delicate-disagreement'
+    term: 'die heikle Meinungsverschiedenheit'
+    translation: 'delicate disagreement'
     partOfSpeech: noun
     gender: feminine
-    example: 'Die Feinheiten der Sprache sind wichtig.'
-    exampleTranslation: 'The nuances of language are important.'
-  - id: de-DE-C1-NUANCED-001-002
-    concept: 'connotation'
-    term: 'Konnotation'
-    translation: 'connotation'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Konnotation des Wortes ist positiv.'
-    exampleTranslation: 'The connotation of the word is positive.'
-  - id: de-DE-C1-NUANCED-001-003
-    concept: 'to-distinguish'
-    term: 'unterscheiden'
-    translation: 'to distinguish'
-    partOfSpeech: verb
+    example: 'Die heikle Meinungsverschiedenheit schadete der Freundschaft nicht.'
+    exampleTranslation: 'The delicate disagreement did not harm the friendship.'
+  - id: de-DE-C1-NUANCED-001-008
+    concept: 'to-fine-tune-one-s-language'
+    term: 'die Wortwahl feinabstimmen'
+    translation: "to fine-tune one's language"
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Sie kann feine Unterschiede erkennen.'
-    exampleTranslation: 'She can recognize subtle differences.'
-  - id: de-DE-C1-NUANCED-001-004
-    concept: 'graduated'
-    term: 'abgestuft'
-    translation: 'graduated / differentiated'
-    partOfSpeech: adjective
+    example: 'Als das Gespräch hitziger wurde, stimmte er seine Wortwahl fein ab, um nicht zu verletzen.'
+    exampleTranslation: 'As the conversation heated up, he fine-tunes his language so as not to hurt.'
+  - id: de-DE-C1-NUANCED-001-009
+    concept: 'to-tread-carefully'
+    term: 'behutsam vorgehen'
+    translation: 'to tread carefully'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Die Bewertung war abgestuft.'
-    exampleTranslation: 'The evaluation was graduated.'
-  - id: de-DE-C1-NUANCED-001-005
-    concept: 'nuancing'
-    term: 'Nuancierung'
-    translation: 'nuancing'
+    example: 'In Familiendebatten ist es klug, bei diesem Thema behutsam vorzugehen.'
+    exampleTranslation: 'In family debates, it is wise to tread carefully when touching the matter.'
+  - id: de-DE-C1-NUANCED-001-010
+    concept: 'sensitive-matter'
+    term: 'die heikle Angelegenheit'
+    translation: 'sensitive matter'
     partOfSpeech: noun
     gender: feminine
-    example: 'Die Nuancierung war präzise.'
-    exampleTranslation: 'The nuancing was precise.'
-  - id: de-DE-C1-NUANCED-001-006
-    concept: 'sensitivity'
-    term: 'Sensibilität'
-    translation: 'sensitivity'
+    example: 'Die heikle Angelegenheit erfordert abgewogene Worte.'
+    exampleTranslation: 'The sensitive matter calls for measured words.'
+  - id: de-DE-C1-NUANCED-001-011
+    concept: 'pausing-for-thought'
+    term: 'das Innehalten'
+    translation: 'pausing for thought'
     partOfSpeech: noun
-    gender: feminine
-    example: 'Sprachliche Sensibilität ist wichtig.'
-    exampleTranslation: 'Linguistic sensitivity is important.'
+    gender: neuter
+    example: 'Das Innehalten vor der Antwort vermeidet Missverständnisse.'
+    exampleTranslation: 'Pausing for thought before answering avoids misunderstandings.'
+  - id: de-DE-C1-NUANCED-001-012
+    concept: 'to-be-ill-favoured'
+    term: 'unangebracht sein'
+    translation: 'to be ill-favoured'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Bei einem förmlichen Abendessen ist eine unhöfliche Antwort unangebracht.'
+    exampleTranslation: 'At a formal dinner, a rude reply is ill-favoured.'
 grammar: []
 culturalNotes: 'German culture at C1 level values "Sprachliche Feinfühligkeit" (linguistic sensitivity); understanding connotations and register differences is essential for nuanced communication.'

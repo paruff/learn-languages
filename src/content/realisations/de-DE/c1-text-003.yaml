@@ -1,53 +1,53 @@
 nodeId: C1-TEXT-003
 lang: de-DE
 vocabulary:
-  - id: de-DE-C1-TEXT-003-001
-    concept: 'line-of-argument'
-    term: 'Argumentationslinie'
-    translation: 'line of argument'
+  - id: de-DE-C1-TEXT-003-007
+    concept: 'to-grasp-the-beauty-of-the-text'
+    term: 'die Schönheit des Textes erfassen'
+    translation: 'to grasp the beauty of the text'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Der geduldige Leser erfasst die Schönheit des Textes im Rhythmus der Sätze.'
+    exampleTranslation: 'The patient reader grasps the beauty of the text in the cadence of the sentences.'
+  - id: de-DE-C1-TEXT-003-008
+    concept: 'cultural-allusions'
+    term: 'die kulturellen Anspielungen'
+    translation: 'cultural allusions'
     partOfSpeech: noun
     gender: feminine
-    example: 'Die Argumentationslinie war klar.'
-    exampleTranslation: 'The line of argument was clear.'
-  - id: de-DE-C1-TEXT-003-002
-    concept: 'to-recognize'
-    term: 'erkennen'
-    translation: 'to recognize'
-    partOfSpeech: verb
+    example: 'Die lebendige Prosa ist gespickt mit kulturellen Anspielungen, die dem Touristen entgehen.'
+    exampleTranslation: 'The lively prose is peppered with cultural allusions that escape the tourist.'
+  - id: de-DE-C1-TEXT-003-009
+    concept: 'to-go-beyond-the-literal-meaning'
+    term: 'über den Wortsinn hinausgehen'
+    translation: 'to go beyond the literal meaning'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich kann die Argumentationslinie erkennen.'
-    exampleTranslation: 'I can recognize the line of argument.'
-  - id: de-DE-C1-TEXT-003-003
-    concept: 'topic'
-    term: 'Thema'
-    translation: 'topic / issue'
+    example: 'Man sollte über den Wortsinn hinausgehen, um die Metapher auszukosten.'
+    exampleTranslation: 'One should go beyond the literal meaning to savour the metaphor.'
+  - id: de-DE-C1-TEXT-003-010
+    concept: 'figurative-language'
+    term: 'die bildhafte Sprache'
+    translation: 'figurative language'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Bildhafte Sprache bereichert das Gedicht, ohne es hermetisch zu machen.'
+    exampleTranslation: 'Figurative language enriches the poem without making it hermetic.'
+  - id: de-DE-C1-TEXT-003-011
+    concept: 'aesthetic-stance'
+    term: 'die ästhetische Haltung'
+    translation: 'aesthetic stance'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die ästhetische Haltung des Autors spaltet die Kritiker.'
+    exampleTranslation: "The author's aesthetic stance divides the critics."
+  - id: de-DE-C1-TEXT-003-012
+    concept: 'lusophone-flavour'
+    term: 'das lusophone Kolorit'
+    translation: 'Lusophone flavour'
     partOfSpeech: noun
     gender: neuter
-    example: 'Das Thema wurde klar dargestellt.'
-    exampleTranslation: 'The issue was clearly presented.'
-  - id: de-DE-C1-TEXT-003-004
-    concept: 'presentation'
-    term: 'Darstellung'
-    translation: 'presentation / representation'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Darstellung war überzeugend.'
-    exampleTranslation: 'The presentation was convincing.'
-  - id: de-DE-C1-TEXT-003-005
-    concept: 'structure'
-    term: 'Struktur'
-    translation: 'structure'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Struktur des Textes war klar.'
-    exampleTranslation: 'The structure of the text was clear.'
-  - id: de-DE-C1-TEXT-003-006
-    concept: 'main-idea'
-    term: 'Hauptgedanke'
-    translation: 'main idea'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Was ist der Hauptgedanke des Textes?'
-    exampleTranslation: 'What is the main idea of the text?'
+    example: 'Der Roman hat ein unverkennbar lusophones Kolorit.'
+    exampleTranslation: 'The novel has an unmistakable Lusophone flavour.'
 grammar: []
 culturalNotes: 'German argumentative texts follow "Rhetorik" (rhetoric) principles; identifying the "These" (thesis), "Argumente" (arguments), and "Schlussfolgerung" (conclusion) is essential for C1 reading.'

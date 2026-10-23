@@ -1,54 +1,54 @@
 nodeId: B2-ARGUE-004
 lang: de-DE
 vocabulary:
-  - id: de-DE-B2-ARGUE-004-001
-    concept: 'presentation'
-    term: 'Darlegung'
-    translation: 'presentation / explanation'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Darlegung war klar.'
-    exampleTranslation: 'The presentation was clear.'
-  - id: de-DE-B2-ARGUE-004-002
-    concept: 'to-prove'
-    term: 'belegen'
-    translation: 'to prove / to substantiate'
-    partOfSpeech: verb
+  - id: de-DE-B2-ARGUE-004-007
+    concept: 'to-sustain-the-thesis'
+    term: 'die These stützen'
+    translation: 'to sustain the thesis'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Können Sie das belegen?'
-    exampleTranslation: 'Can you substantiate that?'
-  - id: de-DE-B2-ARGUE-004-003
-    concept: 'detail'
-    term: 'Einzelheit'
-    translation: 'detail'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Einzelheiten sind wichtig.'
-    exampleTranslation: 'The details are important.'
-  - id: de-DE-B2-ARGUE-004-004
-    concept: 'to-demonstrate'
-    term: 'nachweisen'
-    translation: 'to demonstrate / to prove'
-    partOfSpeech: verb
+    example: 'Ich muss die These mit stichhaltigen Argumenten stützen.'
+    exampleTranslation: 'I need to sustain the thesis with solid arguments.'
+  - id: de-DE-B2-ARGUE-004-008
+    concept: 'to-present-supporting-data'
+    term: 'belegende Daten vorlegen'
+    translation: 'to present supporting data'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich kann das nachweisen.'
-    exampleTranslation: 'I can prove that.'
-  - id: de-DE-B2-ARGUE-004-005
-    concept: 'perspective'
-    term: 'Sichtweise'
-    translation: 'perspective / viewpoint'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Ich teile Ihre Sichtweise.'
-    exampleTranslation: 'I share your perspective.'
-  - id: de-DE-B2-ARGUE-004-006
-    concept: 'to-support'
-    term: 'untermauern'
-    translation: 'to support / to back up'
-    partOfSpeech: verb
+    example: 'Ich lege belegende Daten für meine Position vor.'
+    exampleTranslation: 'I will present supporting data for my position.'
+  - id: de-DE-B2-ARGUE-004-009
+    concept: 'to-expose-the-argumentation'
+    term: 'die Argumentation darlegen'
+    translation: 'to expose the argumentation'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich untermauere meine Meinung mit Fakten.'
-    exampleTranslation: 'I support my opinion with facts.'
+    example: 'Es ist wichtig, die Argumentation klar darzulegen.'
+    exampleTranslation: 'It is important to expose the argumentation clearly.'
+  - id: de-DE-B2-ARGUE-004-010
+    concept: 'to-use-concrete-examples'
+    term: 'konkrete Beispiele verwenden'
+    translation: 'to use concrete examples'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich verwende konkrete Beispiele zur Veranschaulichung.'
+    exampleTranslation: 'I will use concrete examples to illustrate.'
+  - id: de-DE-B2-ARGUE-004-011
+    concept: 'to-reinforce-the-position'
+    term: 'die Position untermauern'
+    translation: 'to reinforce the position'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Es ist sinnvoll, die Position mit weiteren Belegen zu untermauern.'
+    exampleTranslation: 'It is useful to reinforce the position with more evidence.'
+  - id: de-DE-B2-ARGUE-004-012
+    concept: 'to-write-an-essay'
+    term: 'einen Aufsatz schreiben'
+    translation: 'to write an essay'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich schreibe einen Aufsatz zu dem Thema.'
+    exampleTranslation: 'I will write an essay on the topic.'
 grammar:
   - id: B2-ARGUE-004-GR01
     point: 'Sustaining viewpoints with supporting detail'

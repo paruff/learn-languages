@@ -1,54 +1,54 @@
 nodeId: C1-WRITTEN-002
 lang: de-DE
 vocabulary:
-  - id: de-DE-C1-WRITTEN-002-001
-    concept: 'essay'
-    term: 'Essay'
-    translation: 'essay'
+  - id: de-DE-C1-WRITTEN-002-007
+    concept: 'critical-review'
+    term: 'die Kritik'
+    translation: 'critical review'
     partOfSpeech: noun
-    gender: masculine
-    example: 'Ich schreibe einen Essay über das Thema.'
-    exampleTranslation: 'I am writing an essay on the topic.'
-  - id: de-DE-C1-WRITTEN-002-002
-    concept: 'report'
-    term: 'Bericht'
-    translation: 'report'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Der Bericht war detailliert geschrieben.'
-    exampleTranslation: 'The report was written in detail.'
-  - id: de-DE-C1-WRITTEN-002-003
-    concept: 'to-develop'
-    term: 'entwickeln'
-    translation: 'to develop'
-    partOfSpeech: verb
-    gender: n/a
-    example: 'Ich entwickle mein Argument weiter.'
-    exampleTranslation: 'I develop my argument further.'
-  - id: de-DE-C1-WRITTEN-002-004
-    concept: 'argument'
-    term: 'Argument'
-    translation: 'argument'
+    gender: feminine
+    example: 'Die Kritik des Films erschien in der Sonntagsausgabe.'
+    exampleTranslation: 'The critical review of the film came out in the Sunday edition.'
+  - id: de-DE-C1-WRITTEN-002-008
+    concept: 'reference-works'
+    term: 'die Standardwerke'
+    translation: 'reference works'
     partOfSpeech: noun
     gender: neuter
-    example: 'Das Argument war überzeugend.'
-    exampleTranslation: 'The argument was convincing.'
-  - id: de-DE-C1-WRITTEN-002-005
-    concept: 'thesis'
-    term: 'These'
-    translation: 'thesis'
+    example: 'Der Artikel stützt sich auf unverzichtbare Standardwerke.'
+    exampleTranslation: 'The article draws on indispensable reference works.'
+  - id: de-DE-C1-WRITTEN-002-009
+    concept: 'aesthetic-judgement'
+    term: 'das ästhetische Urteil'
+    translation: 'aesthetic judgement'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Der Kritiker untermauert sein ästhetisches Urteil mit genauen Beispielen.'
+    exampleTranslation: 'The critic backs his aesthetic judgement with precise examples.'
+  - id: de-DE-C1-WRITTEN-002-010
+    concept: 'to-put-into-perspective'
+    term: 'relativieren'
+    translation: 'to put into perspective'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Die Kritikpunkte des ersten Essays sollte man relativieren.'
+    exampleTranslation: 'One should put the criticisms of the first essay into perspective.'
+  - id: de-DE-C1-WRITTEN-002-011
+    concept: 'close-reading'
+    term: 'die genaue Lektüre'
+    translation: 'close reading'
     partOfSpeech: noun
     gender: feminine
-    example: 'Meine These ist klar formuliert.'
-    exampleTranslation: 'My thesis is clearly formulated.'
-  - id: de-DE-C1-WRITTEN-002-006
-    concept: 'conclusion'
-    term: 'Schlussfolgerung'
-    translation: 'conclusion'
+    example: 'Seine genaue Lektüre der Schlussszene ist bewundernswert.'
+    exampleTranslation: 'His close reading of the final scene is admirable.'
+  - id: de-DE-C1-WRITTEN-002-012
+    concept: 'final-assessment'
+    term: 'das abschließende Urteil'
+    translation: 'final assessment'
     partOfSpeech: noun
-    gender: feminine
-    example: 'Die Schlussfolgerung war logisch.'
-    exampleTranslation: 'The conclusion was logical.'
+    gender: neuter
+    example: 'Das abschließende Urteil fällt positiv aus, mit gelegentlichen Vorbehalten.'
+    exampleTranslation: 'The final assessment is positive, with occasional reservations.'
 grammar:
   - id: C1-WRITTEN-002-GR01
     point: 'Writing essays or reports developing arguments'

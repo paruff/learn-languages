@@ -1,53 +1,61 @@
 nodeId: C1-SPOKEN-002
 lang: de-DE
 vocabulary:
-  - id: de-DE-C1-SPOKEN-002-001
-    concept: 'news-broadcast'
-    term: 'Nachrichtensendung'
-    translation: 'news broadcast'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Nachrichtensendung war um acht Uhr.'
-    exampleTranslation: "The news broadcast was at eight o'clock."
-  - id: de-DE-C1-SPOKEN-002-002
-    concept: 'current-affairs'
-    term: 'Aktuelle'
-    translation: 'current affairs'
-    partOfSpeech: noun
+  - id: de-DE-C1-SPOKEN-002-007
+    concept: 'to-get-down-to-business'
+    term: 'zur Sache kommen'
+    translation: 'to get down to business'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Die Sendung beschäftigt sich mit Aktuellen.'
-    exampleTranslation: 'The program deals with current affairs.'
-  - id: de-DE-C1-SPOKEN-002-003
-    concept: 'film'
-    term: 'Film'
-    translation: 'film / movie'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Der Film war sehr spannend.'
-    exampleTranslation: 'The film was very exciting.'
-  - id: de-DE-C1-SPOKEN-002-004
-    concept: 'to-understand'
-    term: 'verstehen'
-    translation: 'to understand'
-    partOfSpeech: verb
+    example: 'Genug um den heißen Brei geredet; kommen wir zur Sache.'
+    exampleTranslation: "Enough beating about the bush; let's get down to business."
+  - id: de-DE-C1-SPOKEN-002-008
+    concept: 'a-wild-and-uncalled-for-addition'
+    term: 'ein wilder, unpassender Zusatz'
+    translation: 'a wild and uncalled-for addition'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich verstehe die meisten Filme.'
-    exampleTranslation: 'I understand most films.'
-  - id: de-DE-C1-SPOKEN-002-005
-    concept: 'content'
-    term: 'Inhalt'
-    translation: 'content'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Der Inhalt war interessant.'
-    exampleTranslation: 'The content was interesting.'
-  - id: de-DE-C1-SPOKEN-002-006
-    concept: 'news-anchor'
-    term: 'Nachrichtensprecher'
-    translation: 'news anchor'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Der Nachrichtensprecher war klar und deutlich.'
-    exampleTranslation: 'The news anchor was clear and articulate.'
+    example: 'Diese Bemerkung war ein wilder, unpassender Zusatz zur Diskussion.'
+    exampleTranslation: 'That comment was a wild and uncalled-for addition to the discussion.'
+  - id: de-DE-C1-SPOKEN-002-009
+    concept: 'to-have-the-patience-of-a-saint'
+    term: 'eine Engelsgeduld haben'
+    translation: 'to have the patience of a saint'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Die Lehrerin hat eine Engelsgeduld mit den langsameren Schülern.'
+    exampleTranslation: 'The teacher has the patience of a saint with the slower students.'
+  - id: de-DE-C1-SPOKEN-002-010
+    concept: 'to-know-what-one-is-talking-about'
+    term: 'wissen, wovon man spricht'
+    translation: 'to know what one is talking about'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Wenn er vom Angeln spricht, weiß er, wovon er spricht.'
+    exampleTranslation: 'When he talks about fishing, he knows what he is talking about.'
+  - id: de-DE-C1-SPOKEN-002-011
+    concept: 'to-dig-into-one-s-memory'
+    term: 'das Gedächtnis durchforsten'
+    translation: "to dig into one's memory"
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Er durchforstete sein Gedächtnis nach den Namen all der alten Lieder.'
+    exampleTranslation: 'He dug into his memory for the names of all the old songs.'
+  - id: de-DE-C1-SPOKEN-002-012
+    concept: 'in-no-time-at-all'
+    term: 'im Handumdrehen'
+    translation: 'in no time at all'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Er löste das Problem im Handumdrehen.'
+    exampleTranslation: 'He solved the problem in no time at all.'
+  - id: de-DE-C1-SPOKEN-002-013
+    concept: 'to-be-a-superfluous-addition'
+    term: 'fehl am Platz sein'
+    translation: 'to be a superfluous addition'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Diese Bemerkung war in der Diskussion völlig fehl am Platz.'
+    exampleTranslation: 'That comment was a superfluous addition to the discussion.'
 grammar: []
 culturalNotes: 'German TV news ("Tagesschau", "heute-show") uses formal Hochdeutsch; regional dialects are rare, making them excellent listening practice at C1 level.'
