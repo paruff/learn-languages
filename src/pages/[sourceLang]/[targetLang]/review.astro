@@ -781,7 +781,9 @@ for (const n of await getCollection('cefr-nodes')) {
     // SM-2 due date tomorrow. Only once per item, so a repeat "Again" can't
     // loop the session forever.
     const remaining = criterionLeft.get(item.target.id);
-    if (remaining !== undefined) {
+    // Only a return visit counts: the first showing introduces the word, so the
+    // criterion is a correct recall after at least one intervening card (L23).
+    if (remaining !== undefined && requeuedIds.has(item.target.id)) {
       criterionLeft.set(item.target.id, nextRemaining(remaining, quality >= 3));
     }
     const needsRelearn = (criterionLeft.get(item.target.id) ?? 0) > 0;

@@ -114,7 +114,7 @@ test.describe('it-IT A2 review session', () => {
 
     const a2Terms = enTerms('a2-');
     const fronts: string[] = [];
-    for (let i = 0; i < totalCount; i++) {
+    for (let i = 0; i < totalCount * 2 && (await page.locator('#review-card').isVisible()); i++) {
       fronts.push((await front.textContent()) ?? '');
       await reveal.click();
       await easy.click();
@@ -167,7 +167,7 @@ test.describe('it-IT B1 review session', () => {
 
     const b1Terms = enTerms('b1-');
     const fronts: string[] = [];
-    for (let i = 0; i < totalCount; i++) {
+    for (let i = 0; i < totalCount * 2 && (await page.locator('#review-card').isVisible()); i++) {
       fronts.push((await front.textContent()) ?? '');
       await reveal.click();
       await easy.click();
@@ -230,7 +230,7 @@ test.describe('it-IT B2 review session', () => {
     }
 
     const fronts: string[] = [];
-    for (let i = 0; i < totalCount; i++) {
+    for (let i = 0; i < totalCount * 2 && (await page.locator('#review-card').isVisible()); i++) {
       fronts.push((await front.textContent()) ?? '');
       await reveal.click();
       await easy.click();
@@ -280,7 +280,7 @@ test.describe('it-IT C1 review session', () => {
 
     const c1Terms = enTerms('c1-');
     const fronts: string[] = [];
-    for (let i = 0; i < totalCount; i++) {
+    for (let i = 0; i < totalCount * 2 && (await page.locator('#review-card').isVisible()); i++) {
       fronts.push((await front.textContent()) ?? '');
       await reveal.click();
       await easy.click();

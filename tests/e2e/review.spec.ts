@@ -39,9 +39,10 @@ test.describe('review session', () => {
 
     await easy.click();
 
-    // Grading advances to the next card in the same session — the total
+    // A new word is counted once it has been recalled on its return visit (L23),
+    // so the counter holds at 1 while the next card is shown; the total
     // (denominator) is the session size, not the remaining due count.
-    await expect(progress).toHaveText(`2 of ${totalCount}`);
+    await expect(progress).toHaveText(`1 of ${totalCount}`);
 
     // The SM-2 state actually landed in localStorage, not just the UI.
     const savedKeys = await page.evaluate(() =>
@@ -112,7 +113,7 @@ test.describe('review session', () => {
     const totalCount = Number(progressText?.match(/of (\d+)$/)?.[1]);
 
     // Grade every card "Easy" (first try, correct) until the session ends.
-    for (let i = 0; i < totalCount; i++) {
+    for (let i = 0; i < totalCount * 2 && (await page.locator('#review-card').isVisible()); i++) {
       await reveal.click();
       await easy.click();
     }
@@ -153,7 +154,7 @@ test.describe('review session', () => {
     // The typed-vs-correct check is a hint, not an auto-grade — self-grading
     // still works normally after a wrong typed answer (issue #45).
     await grades.locator('button[data-quality="4"]').click();
-    await expect(page.locator('#review-progress')).toHaveText(/^2 of /);
+    await expect(page.locator('#review-progress')).toHaveText(/^1 of /);
 
     // Mode persists across reload.
     await page.reload();
@@ -209,7 +210,7 @@ test.describe('review session', () => {
     const progressText = await progress.textContent();
     const totalCount = Number(progressText?.match(/of (\d+)$/)?.[1]);
 
-    for (let i = 0; i < totalCount; i++) {
+    for (let i = 0; i < totalCount * 2 && (await page.locator('#review-card').isVisible()); i++) {
       await reveal.click();
       await easy.click();
     }
