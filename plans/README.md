@@ -28,20 +28,20 @@ The only list of open questions for the owner. Each one says what changes depend
 
 Get real learners through the Portuguese loop, see them return, and find where they get lost. Gates G3 and G4. Intent §3, S1, S2, S7.
 
-| #    | Work                                                                                                                | Spec          | Issue           | Exit criterion                                                   |
-| ---- | ------------------------------------------------------------------------------------------------------------------- | ------------- | --------------- | ---------------------------------------------------------------- |
-| 1.0  | Learner-journey UX/UI audit (done: `plans/2026-10-22-learner-journey-ux-audit.md`)                                  | Q6, Q9        | #194            | Ranked findings in `plans/`, one issue per Critical/High, in G1  |
-| 1.0b | Bugs found by the audit: broken listening exercise, empty credits page                                              | Q6, C7        | #209, #211      | Fixed with a test each                                           |
-| 1.0c | Practise only what you've studied (lesson-scoped practice, daily new-word cap)                                      | J2            | #207            | E2E: a fresh learner is never quizzed on unseen words            |
-| 1.0d | One goal and one next step: ordered A1 path with Continue                                                           | J1            | #208            | E2E: Continue walks a fresh learner through A1 in teaching order |
-| 1.0e | Progress leads with the level goal as a Can-Do checklist                                                            | J3            | #210            | E2E: Progress shows A1 Can-Dos first                             |
-| 1.0f | Plain-language polish pass                                                                                          | Q6            | #212            | The owner can follow the path without getting lost               |
-| T1.2 | Run the device checklist (`docs/tester-readiness.md`) before each invitation wave                                   | Q9            | #195            | A dated run in the checklist's log                               |
-| 1.1  | Run 3–5 persona-matched learner sessions on en-GB→pt-PT (`docs/phase-1-learner-session-protocol.md`)                | Q6, intent S1 | #21             | Filled observation table posted on #21                           |
-| 1.2  | Day-2 and day-7 follow-up with the same learners (they send the Progress → "Share how it went" report)              | intent S2, M1 | #21             | "Returned day 2?" column filled in                               |
-| 1.3  | Fix whatever session-1 friction 1.1 finds, worst first                                                              | Q6            | new per finding | The friction no longer happens when the observer reruns it       |
-| 1.4  | Record the outcome (Q-2 above)                                                                                      | —             | #21             | A decision written in this file                                  |
-| 1.5  | Ask for persistent storage so Safari's 7-day cap can't wipe progress before the day-7 follow-up                     | S8            | #241            | Unit test + dated iOS Safari run in the device checklist         |
+| #    | Work                                                                                                                   | Spec          | Issue           | Exit criterion                                                   |
+| ---- | ---------------------------------------------------------------------------------------------------------------------- | ------------- | --------------- | ---------------------------------------------------------------- |
+| 1.0  | Learner-journey UX/UI audit (done: `plans/2026-10-22-learner-journey-ux-audit.md`)                                     | Q6, Q9        | #194            | Ranked findings in `plans/`, one issue per Critical/High, in G1  |
+| 1.0b | Bugs found by the audit: broken listening exercise, empty credits page                                                 | Q6, C7        | #209, #211      | Fixed with a test each                                           |
+| 1.0c | Practise only what you've studied (lesson-scoped practice, daily new-word cap)                                         | J2            | #207            | E2E: a fresh learner is never quizzed on unseen words            |
+| 1.0d | One goal and one next step: ordered A1 path with Continue                                                              | J1            | #208            | E2E: Continue walks a fresh learner through A1 in teaching order |
+| 1.0e | Progress leads with the level goal as a Can-Do checklist                                                               | J3            | #210            | E2E: Progress shows A1 Can-Dos first                             |
+| 1.0f | Plain-language polish pass                                                                                             | Q6            | #212            | The owner can follow the path without getting lost               |
+| T1.2 | Run the device checklist (`docs/tester-readiness.md`) before each invitation wave                                      | Q9            | #195            | A dated run in the checklist's log                               |
+| 1.1  | Run 3–5 persona-matched learner sessions on en-GB→pt-PT (`docs/phase-1-learner-session-protocol.md`)                   | Q6, intent S1 | #21             | Filled observation table posted on #21                           |
+| 1.2  | Day-2 and day-7 follow-up with the same learners (they send the Progress → "Share how it went" report)                 | intent S2, M1 | #21             | "Returned day 2?" column filled in                               |
+| 1.3  | Fix whatever session-1 friction 1.1 finds, worst first                                                                 | Q6            | new per finding | The friction no longer happens when the observer reruns it       |
+| 1.4  | Record the outcome (Q-2 above)                                                                                         | —             | #21             | A decision written in this file                                  |
+| 1.5  | Ask for persistent storage so Safari's 7-day cap can't wipe progress before the day-7 follow-up                        | S8            | #241            | Unit test + dated iOS Safari run in the device checklist         |
 | 1.6  | ✅ Plan the next session: implementation-intention prompt and optional `.ics` reminder (owner: yes to Q-3, 2026-10-23) | L21           | #243            | E2E: skippable, shown on next visit, no network request          |
 
 ## G2 Correct content (concept-keyed) — **now, owner exception**
