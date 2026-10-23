@@ -79,11 +79,6 @@ const fontUrl = withBase('/fonts/fraunces-latin-opsz144-wght600-700.woff2');
               >{getString(sourceLang, 'navProgress')}</a
             >
           </li>
-          <li>
-            <a href={withBase(`/${sourceLang}/${targetLang}/credits/`)} class="nav__link"
-              >{getString(sourceLang, 'credits')}</a
-            >
-          </li>
         </ul>
         {
           availablePairs.length > 0 && (
@@ -102,6 +97,9 @@ const fontUrl = withBase('/fonts/fraunces-latin-opsz144-wght600-700.woff2');
     <footer class="site-footer">
       <p class="footer__text">
         {getString(sourceLang, 'footer')} ·
+        <a href={withBase(`/${sourceLang}/${targetLang}/credits/`)}
+          >{getString(sourceLang, 'credits')}</a
+        > ·
         <a href="mailto:phil.ruff@gmail.com?subject=Acquira%20feedback"
           >{getString(sourceLang, 'feedbackLink')}</a
         >

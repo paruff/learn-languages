@@ -54,6 +54,8 @@ export type StringKey =
   | 'reviewGradeHard'
   | 'reviewGradeGood'
   | 'reviewGradeEasy'
+  | 'reviewGradeHint'
+  | 'lessonsNextLesson'
   | 'reviewReflectionQuestion'
   | 'reviewReflectionEasy'
   | 'reviewReflectionThink'
@@ -94,7 +96,7 @@ const EN_GB: Dictionary = {
   navPractice: 'Practice',
   navProgress: 'Progress',
   credits: 'Credits',
-  footer: 'Built with Astro · Deployed via GitOps · CC-BY-4.0',
+  footer: 'Free to use and share · CC-BY-4.0',
   feedbackLink: 'Send feedback',
   selectorSpeak: 'I speak',
   selectorLearn: "I'm learning",
@@ -112,16 +114,16 @@ const EN_GB: Dictionary = {
   lessonCountPlural: 'lessons',
   reviewTitle: 'Review',
   reviewIntro:
-    'Cards are due on a schedule based on how well you know them (spaced repetition) — reveal or type the answer, then grade yourself honestly so the schedule stays accurate.',
-  reviewModeReveal: 'Mode: Reveal',
-  reviewModeType: 'Mode: Type answer',
-  reviewModePicture: 'Mode: Picture prompt',
+    'Cards are due on a schedule based on how well you know them — reveal or type the answer, then grade yourself honestly so the schedule stays accurate.',
+  reviewModeReveal: 'Tap to reveal',
+  reviewModeType: 'Type the answer',
+  reviewModePicture: 'Picture prompt',
   reviewProgress: '{current} of {total}',
   reviewHintRevealLabel: 'Reveal',
   reviewHintRevealText: 'shows the answer with a tap — faster, good for early practice.',
   reviewHintTypeLabel: 'Type answer',
   reviewHintTypeText:
-    'makes you produce it from memory first — slower, but strengthens recall better (the "generation effect").',
+    'makes you produce it from memory first — slower, but it strengthens recall better.',
   reviewNoStudied:
     'Practice starts with a lesson — open your first lesson, then come back to practise its words.',
   reviewEmpty: 'No cards due right now — come back later.',
@@ -135,6 +137,9 @@ const EN_GB: Dictionary = {
   reviewGradeHard: 'Hard',
   reviewGradeGood: 'Good',
   reviewGradeEasy: 'Easy',
+  reviewGradeHint:
+    'Again: see it again soon · Hard: sooner than usual · Good: on schedule · Easy: much later.',
+  lessonsNextLesson: 'Next lesson →',
   reviewReflectionQuestion: 'How did that session feel?',
   reviewReflectionEasy: 'It was easy',
   reviewReflectionThink: 'I had to think',
@@ -150,9 +155,9 @@ const EN_GB: Dictionary = {
   reviewMasteryDown: 'down {n}%',
   reviewMasteryUnchanged: 'unchanged',
   progressTitle: 'Progress',
-  progressMastered: 'mastered',
+  progressMastered: 'learned',
   progressNoContent: 'No content available for this pair yet.',
-  progressAllMastered: 'All available content mastered — nice work.',
+  progressAllMastered: 'You have learned everything available — nice work.',
   progressNextUp: 'Next up: {canDo} ({level})',
   backupTitle: 'Back up your progress',
   backupHint:
@@ -177,7 +182,7 @@ const ES_ES: Dictionary = {
   navPractice: 'Practicar',
   navProgress: 'Progreso',
   credits: 'Créditos',
-  footer: 'Creado con Astro · Desplegado vía GitOps · CC-BY-4.0',
+  footer: 'Gratis para usar y compartir · CC-BY-4.0',
   feedbackLink: 'Enviar comentarios',
   selectorSpeak: 'Hablo',
   selectorLearn: 'Estoy aprendiendo',
@@ -219,6 +224,9 @@ const ES_ES: Dictionary = {
   reviewGradeHard: 'Difícil',
   reviewGradeGood: 'Bien',
   reviewGradeEasy: 'Fácil',
+  reviewGradeHint:
+    'Otra vez: volverá pronto · Difícil: antes de lo normal · Bien: según lo previsto · Fácil: mucho más tarde.',
+  lessonsNextLesson: 'Siguiente lección →',
   reviewReflectionQuestion: '¿Cómo te sentiste en esta sesión?',
   reviewReflectionEasy: 'Fue fácil',
   reviewReflectionThink: 'Tuve que pensar',
@@ -261,7 +269,7 @@ const PT_PT: Dictionary = {
   navPractice: 'Praticar',
   navProgress: 'Progresso',
   credits: 'Créditos',
-  footer: 'Construído com Astro · Implementado via GitOps · CC-BY-4.0',
+  footer: 'Gratuito para usar e partilhar · CC-BY-4.0',
   feedbackLink: 'Enviar feedback',
   selectorSpeak: 'Eu falo',
   selectorLearn: 'Estou a aprender',
@@ -302,6 +310,9 @@ const PT_PT: Dictionary = {
   reviewGradeHard: 'Difícil',
   reviewGradeGood: 'Bem',
   reviewGradeEasy: 'Fácil',
+  reviewGradeHint:
+    'Outra vez: volta em breve · Difícil: mais cedo que o normal · Bom: como previsto · Fácil: bastante mais tarde.',
+  lessonsNextLesson: 'Lição seguinte →',
   reviewReflectionQuestion: 'Como correu esta sessão?',
   reviewReflectionEasy: 'Foi fácil',
   reviewReflectionThink: 'Tive de pensar',
@@ -344,7 +355,7 @@ const DE_DE: Dictionary = {
   navPractice: 'Üben',
   navProgress: 'Fortschritt',
   credits: 'Quellen',
-  footer: 'Erstellt mit Astro · Bereitgestellt via GitOps · CC-BY-4.0',
+  footer: 'Frei nutzbar und teilbar · CC-BY-4.0',
   feedbackLink: 'Feedback senden',
   selectorSpeak: 'Ich spreche',
   selectorLearn: 'Ich lerne',
@@ -385,6 +396,9 @@ const DE_DE: Dictionary = {
   reviewGradeHard: 'Schwer',
   reviewGradeGood: 'Gut',
   reviewGradeEasy: 'Leicht',
+  reviewGradeHint:
+    'Nochmal: bald wieder · Schwer: früher als sonst · Gut: wie geplant · Leicht: viel später.',
+  lessonsNextLesson: 'Nächste Lektion →',
   reviewReflectionQuestion: 'Wie fühlte sich diese Sitzung an?',
   reviewReflectionEasy: 'Es war leicht',
   reviewReflectionThink: 'Ich musste nachdenken',
@@ -427,7 +441,7 @@ const FR_FR: Dictionary = {
   navPractice: "S'exercer",
   navProgress: 'Progrès',
   credits: 'Crédits',
-  footer: 'Construit avec Astro · Déployé via GitOps · CC-BY-4.0',
+  footer: "Libre d'utilisation et de partage · CC-BY-4.0",
   feedbackLink: 'Envoyer un avis',
   selectorSpeak: 'Je parle',
   selectorLearn: "J'apprends",
@@ -469,6 +483,9 @@ const FR_FR: Dictionary = {
   reviewGradeHard: 'Difficile',
   reviewGradeGood: 'Bien',
   reviewGradeEasy: 'Facile',
+  reviewGradeHint:
+    "Encore : reviendra bientôt · Difficile : plus tôt que d'habitude · Bien : comme prévu · Facile : bien plus tard.",
+  lessonsNextLesson: 'Leçon suivante →',
   reviewReflectionQuestion: "Comment s'est passée cette session ?",
   reviewReflectionEasy: "C'était facile",
   reviewReflectionThink: "J'ai dû réfléchir",

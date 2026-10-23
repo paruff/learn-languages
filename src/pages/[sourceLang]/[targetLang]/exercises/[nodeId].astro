@@ -48,7 +48,6 @@ const scorable = exercises.map((e) => ({ type: e.type, questionCount: e.question
     <Breadcrumb {sourceLang} {targetLang} title={node.canDo} />
     <p class="exercises__meta">
       <span class={`badge badge--${node.cefrLevel.toLowerCase()}`}>{node.cefrLevel}</span>
-      <span>{nodeId}</span>
     </p>
     <h1 class="exercises__title">{node.canDo}</h1>
     <p id="exercises-progress" class="exercises__progress"></p>

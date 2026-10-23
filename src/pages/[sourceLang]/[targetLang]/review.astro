@@ -27,7 +27,7 @@ const targetName = languageName(targetLang);
     {getString(sourceLang, 'reviewIntro')}
   </p>
   <button id="review-direction-toggle" type="button" class="btn btn--secondary">
-    {sourceLang} → {targetLang}
+    {languageName(sourceLang)} → {languageName(targetLang)}
   </button>
   <button id="review-recall-mode-toggle" type="button" class="btn btn--secondary">
     {getString(sourceLang, 'reviewModeReveal')}
@@ -69,8 +69,15 @@ const targetName = languageName(targetLang);
     <p id="review-type-feedback" class="review-card__type-feedback" hidden></p>
     <p id="review-back" class="review-card__term review-card__term--answer" hidden></p>
     <button id="review-pronounce" type="button" class="btn btn--secondary" hidden
-      ><span aria-hidden="true">🔊</span> {getString(sourceLang, 'reviewPronounceLabel')}</button
+      ><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"
+        ><path d="M3 9v6h4l5 4V5L7 9H3zm13.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4z"
+        ></path></svg
+      >
+      {getString(sourceLang, 'reviewPronounceLabel')}</button
     >
+    <p id="review-grade-hint" class="review-mode-hint" hidden>
+      {getString(sourceLang, 'reviewGradeHint')}
+    </p>
     <div id="review-grades" class="review-card__grades" hidden>
       <button type="button" class="btn btn--grade-again" data-quality="1"
         >{getString(sourceLang, 'reviewGradeAgain')}</button
@@ -219,6 +226,7 @@ const targetName = languageName(targetLang);
   } from '../../../lib/storage';
   import { calculateNextReview, isDue } from '../../../utils/srs';
   import { pronounce, recordedAudioPath } from '../../../lib/pronounce';
+  import { languageName } from '../../../lib/languageNames';
   import { DAILY_NEW_CAP, selectDue } from '../../../lib/reviewSession';
   import { withBase } from '../../../lib/urls';
   import { computeOverallMastery } from '../../../lib/progress';
@@ -286,6 +294,7 @@ const targetName = languageName(targetLang);
   const revealBtn = document.getElementById('review-reveal')!;
   const pronounceBtn = document.getElementById('review-pronounce')!;
   const gradesEl = document.getElementById('review-grades')!;
+  const gradeHintEl = document.getElementById('review-grade-hint')!;
   const directionToggle = document.getElementById('review-direction-toggle')!;
   const recallModeToggle = document.getElementById('review-recall-mode-toggle')!;
   const typeFormEl = document.getElementById('review-type-form') as HTMLFormElement;
@@ -361,7 +370,9 @@ const targetName = languageName(targetLang);
 
   function updateDirectionToggle(): void {
     directionToggle.textContent =
-      direction === 'forward' ? `${sourceLang} → ${targetLang}` : `${targetLang} → ${sourceLang}`;
+      direction === 'forward'
+        ? `${languageName(sourceLang)} → ${languageName(targetLang)}`
+        : `${languageName(targetLang)} → ${languageName(sourceLang)}`;
   }
 
   function updateRecallModeToggle(): void {
@@ -431,6 +442,7 @@ const targetName = languageName(targetLang);
     backEl.hidden = true;
     pronounceBtn.hidden = true;
     gradesEl.hidden = true;
+    gradeHintEl.hidden = true;
     typeInputEl.value = '';
     typeInputEl.disabled = false;
     typeFeedbackEl.hidden = true;
@@ -479,6 +491,7 @@ const targetName = languageName(targetLang);
     backEl.hidden = false;
     pronounceBtn.hidden = false;
     gradesEl.hidden = false;
+    gradeHintEl.hidden = false;
   });
 
   typeFormEl.addEventListener('submit', (event) => {
@@ -500,6 +513,7 @@ const targetName = languageName(targetLang);
     backEl.hidden = false;
     pronounceBtn.hidden = false;
     gradesEl.hidden = false;
+    gradeHintEl.hidden = false;
   });
 
   pronounceBtn.addEventListener('click', () => {

@@ -54,8 +54,8 @@ const a1Path = orderLessons(
     <div class="hero__content">
       <h1 id="hero-title">Learn {targetName} with Science</h1>
       <p class="hero__subtitle">
-        Evidence-based lessons built on second-language acquisition research, spaced repetition, and
-        cognitive load theory. No gamification — just effective acquisition.
+        Short lessons, smart reviews and real practice — built on what research says works. No
+        streaks or ads.
       </p>
       <ContinueCard
         sourceLang={sourceLang}
@@ -84,11 +84,8 @@ const a1Path = orderLessons(
             d="M4 5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-4 4v-4H6a2 2 0 0 1-2-2V5z"
           ></path>
         </svg>
-        <h3>Comprehensible Input</h3>
-        <p>
-          Lessons designed at i+1 level — challenging but understandable. Based on Krashen's Input
-          Hypothesis.
-        </p>
+        <h3>Understandable Lessons</h3>
+        <p>Each lesson is just a little harder than the last — challenging but understandable.</p>
       </article>
       <article class="card feature">
         <svg
@@ -108,8 +105,8 @@ const a1Path = orderLessons(
         </svg>
         <h3>Spaced Repetition</h3>
         <p>
-          SM-2 algorithm schedules reviews for optimal retention. No backend — runs entirely in your
-          browser.
+          Words come back just before you'd forget them. Everything stays in your browser — no
+          account needed.
         </p>
       </article>
       <article class="card feature">
@@ -126,12 +123,12 @@ const a1Path = orderLessons(
           <circle cx="12" cy="12" r="9"></circle>
           <path d="M15.5 8.5l-2 5-5 2 2-5z"></path>
         </svg>
-        <h3>Autonomy & Competence</h3>
+        <h3>Your Pace</h3>
         <p>
           Self-paced with{' '}
           <a href={withBase(`/${sourceLang}/${targetLang}/progress/`)} data-pair-path="progress/"
             >clear progress tracking</a
-          >. Built on Self-Determination Theory for sustained motivation.
+          >, at your own pace.
         </p>
       </article>
       <article class="card feature">
@@ -149,11 +146,8 @@ const a1Path = orderLessons(
           <path d="M2 12l10 5 10-5"></path>
           <path d="M2 17l10 5 10-5"></path>
         </svg>
-        <h3>Cognitive Load Optimized</h3>
-        <p>
-          Multimedia principles applied: integrated audio/text, minimal extraneous load, coherence
-          signaling.
-        </p>
+        <h3>Easy on the Brain</h3>
+        <p>Audio and text together, with nothing extra to distract you.</p>
       </article>
     </div>
   </section>

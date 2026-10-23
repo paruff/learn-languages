@@ -1,8 +1,9 @@
 {
   "id": "pt-PT-greetings-matching-001",
   "lessonId": "A1-GREET-001",
-  "type": "matching",
-  "prompt": "Match each greeting to its appropriate time",
-  "answer": "Bom dia -> Morning (before noon); Boa tarde -> Afternoon (noon to 6 PM); Boa noite -> Evening/night (after 6 PM)",
+  "type": "multiple-choice",
+  "prompt": "When do you say \"Boa tarde\"?",
+  "options": ["Before noon", "From noon until about 6 PM", "After about 6 PM"],
+  "answer": "From noon until about 6 PM",
   "hints": ["Dia = day, tarde = afternoon, noite = night"]
 }

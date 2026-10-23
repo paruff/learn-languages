@@ -104,9 +104,9 @@ test.describe('review session', () => {
     const back = page.locator('#review-back');
     const grades = page.locator('#review-grades');
 
-    await expect(modeToggle).toHaveText('Mode: Reveal');
+    await expect(modeToggle).toHaveText('Tap to reveal');
     await modeToggle.click();
-    await expect(modeToggle).toHaveText('Mode: Type answer');
+    await expect(modeToggle).toHaveText('Type the answer');
     await expect(typeForm).toBeVisible();
 
     await typeInput.fill('definitely-wrong-answer');
@@ -123,7 +123,7 @@ test.describe('review session', () => {
 
     // Mode persists across reload.
     await page.reload();
-    await expect(modeToggle).toHaveText('Mode: Type answer');
+    await expect(modeToggle).toHaveText('Type the answer');
   });
 
   test('picture mode shows only the image when a card has one', async ({ page }) => {
@@ -134,11 +134,11 @@ test.describe('review session', () => {
     const input = page.locator('#review-type-input');
     const grades = page.locator('#review-grades');
 
-    await expect(modeToggle).toHaveText('Mode: Reveal');
+    await expect(modeToggle).toHaveText('Tap to reveal');
     await modeToggle.click();
-    await expect(modeToggle).toHaveText('Mode: Type answer');
+    await expect(modeToggle).toHaveText('Type the answer');
     await modeToggle.click();
-    await expect(modeToggle).toHaveText('Mode: Picture prompt');
+    await expect(modeToggle).toHaveText('Picture prompt');
 
     let imageSeen = false;
     for (let i = 0; i < 12; i++) {
@@ -157,7 +157,7 @@ test.describe('review session', () => {
     await expect(input).toBeVisible();
 
     await page.reload();
-    await expect(modeToggle).toHaveText('Mode: Picture prompt');
+    await expect(modeToggle).toHaveText('Picture prompt');
     await expect(page.locator('#review-card')).toBeVisible();
   });
 
