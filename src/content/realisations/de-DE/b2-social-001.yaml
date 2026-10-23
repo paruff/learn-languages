@@ -48,7 +48,7 @@ vocabulary:
     partOfSpeech: phrase
     gender: n/a
     example: 'Ich möchte auf Deutsch flüssig interagieren.'
-    exampleTranslation: 'I want to interact with fluency in Portuguese.'
+    exampleTranslation: 'I want to interact with fluency in German.'
 grammar:
   - id: B2-SOCIAL-001-GR01
     point: 'Interacting with fluency and spontaneity'

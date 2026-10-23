@@ -24,7 +24,10 @@ for (const r of await getCollection('realisations')) {
   }
 }
 const canDoByNode: Record<string, string> = {};
-for (const n of await getCollection('cefr-nodes')) canDoByNode[n.data.nodeId] = n.data.canDo;
+const pairNodeIds = new Set(items.map((i) => i.nodeId));
+for (const n of await getCollection('cefr-nodes')) {
+  if (pairNodeIds.has(n.data.nodeId)) canDoByNode[n.data.nodeId] = n.data.canDo;
+}
 ---
 
 <BaseLayout
@@ -575,10 +578,13 @@ for (const n of await getCollection('cefr-nodes')) canDoByNode[n.data.nodeId] = 
   function renderIntention(): void {
     const intentionEl = document.getElementById('review-intention')!;
     const canDos = [...new Set(queue.map((i) => canDoByNode[i.nodeId]).filter(Boolean))];
+    // Cap the list so a big queue can't push the first card below the fold.
+    const shown = canDos.slice(0, 3);
+    if (canDos.length > shown.length) shown.push(`+${canDos.length - shown.length}`);
     document
       .getElementById('review-intention-list')!
       .replaceChildren(
-        ...canDos.map((text) => Object.assign(document.createElement('li'), { textContent: text }))
+        ...shown.map((text) => Object.assign(document.createElement('li'), { textContent: text }))
       );
     intentionEl.hidden = canDos.length === 0;
   }
