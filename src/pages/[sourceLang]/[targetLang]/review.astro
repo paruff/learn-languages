@@ -94,6 +94,22 @@ const targetName = languageName(targetLang);
     </div>
   </div>
   <p id="review-summary" class="card" hidden></p>
+  <nav id="review-next" class="card review-next" aria-labelledby="review-next-heading" hidden>
+    <p id="review-next-heading" class="review-next__heading">
+      {getString(sourceLang, 'reviewNextHeading')}
+    </p>
+    <div class="review-next__actions">
+      <button id="review-practice-more" type="button" class="btn btn--primary">
+        {getString(sourceLang, 'reviewPracticeMore')}
+      </button>
+      <a class="btn btn--secondary" href={withBase(`/${sourceLang}/${targetLang}/lessons/`)}
+        >{getString(sourceLang, 'navLessons')}</a
+      >
+      <a class="btn btn--secondary" href={withBase(`/${sourceLang}/${targetLang}/progress/`)}
+        >{getString(sourceLang, 'navProgress')}</a
+      >
+    </div>
+  </nav>
   <div id="review-reflection" class="card review-reflection" hidden>
     <p>{getString(sourceLang, 'reviewReflectionQuestion')}</p>
     <div class="review-reflection__options">
@@ -169,6 +185,15 @@ const targetName = languageName(targetLang);
     .review-card__grades {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
+  }
+  .review-next__heading {
+    font-weight: 600;
+    margin-top: 0;
+  }
+  .review-next__actions {
+    display: flex;
+    gap: var(--spacing-unit);
+    flex-wrap: wrap;
   }
   .review-reflection {
     text-align: center;
@@ -300,6 +325,8 @@ const targetName = languageName(targetLang);
   const typeFormEl = document.getElementById('review-type-form') as HTMLFormElement;
   const typeInputEl = document.getElementById('review-type-input') as HTMLInputElement;
   const typeFeedbackEl = document.getElementById('review-type-feedback')!;
+  const nextEl = document.getElementById('review-next')!;
+  const practiceMoreBtn = document.getElementById('review-practice-more')!;
   const reflectionEl = document.getElementById('review-reflection')!;
   const reflectionThanksEl = document.getElementById('review-reflection-thanks')!;
   const reflectionSkipBtn = document.getElementById('review-reflection-skip')!;
@@ -404,6 +431,7 @@ const targetName = languageName(targetLang);
     const item = queue[0];
     if (!item) {
       cardEl.hidden = true;
+      nextEl.hidden = false;
       summaryEl.hidden = false;
       const masteryAfter = snapshotMasteryPercent();
       const masteryDelta = masteryAfter - masteryBefore;
@@ -425,6 +453,7 @@ const targetName = languageName(targetLang);
       return;
     }
     hideReflection();
+    nextEl.hidden = true;
     progressEl.textContent = format(getString(sourceLang, 'reviewProgress'), {
       current: reviewed + 1,
       total: reviewed + queue.length,
@@ -472,6 +501,7 @@ const targetName = languageName(targetLang);
     if (queue.length === 0) {
       cardEl.hidden = true;
       summaryEl.hidden = true;
+      nextEl.hidden = false;
       hideReflection();
       const nothingStudied =
         loadStudied(sourceLang, targetLang).size === 0 &&
@@ -570,6 +600,11 @@ const targetName = languageName(targetLang);
       reviewed += 1;
     }
     showCard();
+  });
+
+  practiceMoreBtn.addEventListener('click', () => {
+    buildQueue();
+    renderQueueState();
   });
 
   directionToggle.addEventListener('click', () => {
