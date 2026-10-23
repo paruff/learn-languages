@@ -1,53 +1,53 @@
 nodeId: C1-TEXT-004
 lang: de-DE
 vocabulary:
-  - id: de-DE-C1-TEXT-004-001
-    concept: 'conclusion'
-    term: 'Schlussfolgerung'
-    translation: 'conclusion'
+  - id: de-DE-C1-TEXT-004-007
+    concept: 'line-of-argumentation'
+    term: 'die Argumentationslinie'
+    translation: 'line of argumentation'
     partOfSpeech: noun
     gender: feminine
-    example: 'Die Schlussfolgerung war logisch.'
-    exampleTranslation: 'The conclusion was logical.'
-  - id: de-DE-C1-TEXT-004-002
-    concept: 'to-recognize'
-    term: 'erkennen'
-    translation: 'to recognize'
-    partOfSpeech: verb
-    gender: n/a
-    example: 'Ich kann die Schlussfolgerung erkennen.'
-    exampleTranslation: 'I can recognize the conclusion.'
-  - id: de-DE-C1-TEXT-004-003
-    concept: 'argumentative-text'
-    term: 'Argumentationstext'
-    translation: 'argumentative text'
+    example: 'Die Argumentationslinie des Textes stützt sich auf aktuelle Daten.'
+    exampleTranslation: 'The line of argumentation of the text rests on recent data.'
+  - id: de-DE-C1-TEXT-004-008
+    concept: 'theses-and-antitheses'
+    term: 'Thesen und Antithesen'
+    translation: 'theses and antitheses'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Der Autor stellt Thesen und Antithesen gegenüber, bevor er schließt.'
+    exampleTranslation: 'The author confronts theses and antitheses before concluding.'
+  - id: de-DE-C1-TEXT-004-009
+    concept: 'circumstantial-evidence'
+    term: 'der Indizienbeweis'
+    translation: 'circumstantial evidence'
     partOfSpeech: noun
     gender: masculine
-    example: 'Der Argumentationstext war klar strukturiert.'
-    exampleTranslation: 'The argumentative text was clearly structured.'
-  - id: de-DE-C1-TEXT-004-004
-    concept: 'emphasis'
-    term: 'Hervorhebung'
-    translation: 'emphasis'
+    example: 'Der Indizienbeweis legt die These nahe, belegt sie aber nicht.'
+    exampleTranslation: 'The circumstantial evidence suggests, but does not prove, the thesis.'
+  - id: de-DE-C1-TEXT-004-010
+    concept: 'turning-point'
+    term: 'der Wendepunkt'
+    translation: 'turning point'
     partOfSpeech: noun
-    gender: feminine
-    example: 'Die Hervorhebung war wichtig.'
-    exampleTranslation: 'The emphasis was important.'
-  - id: de-DE-C1-TEXT-004-005
-    concept: 'structure'
-    term: 'Struktur'
-    translation: 'structure'
+    gender: masculine
+    example: 'Der Wendepunkt des Textes ist die Widerlegung des zentralen Einwands.'
+    exampleTranslation: 'The turning point of the text is the refutation of the central objection.'
+  - id: de-DE-C1-TEXT-004-011
+    concept: 'convergence-of-factors'
+    term: 'das Zusammenwirken der Faktoren'
+    translation: 'convergence of factors'
     partOfSpeech: noun
-    gender: feminine
-    example: 'Die Struktur war klar.'
-    exampleTranslation: 'The structure was clear.'
-  - id: de-DE-C1-TEXT-004-006
-    concept: 'to-understand'
-    term: 'verstehen'
-    translation: 'to understand'
-    partOfSpeech: verb
+    gender: neuter
+    example: 'Der Autor zeigt das Zusammenwirken der Faktoren, das das Phänomen erklärt.'
+    exampleTranslation: 'The author shows the convergence of factors that explains the phenomenon.'
+  - id: de-DE-C1-TEXT-004-012
+    concept: 'to-follow-the-reasoning'
+    term: 'der Argumentation folgen'
+    translation: 'to follow the reasoning'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich verstehe die Schlussfolgerung.'
-    exampleTranslation: 'I understand the conclusion.'
+    example: 'Der aufmerksame Leser folgt der Argumentation des Autors Absatz für Absatz.'
+    exampleTranslation: "The attentive reader follows the author's reasoning paragraph by paragraph."
 grammar: []
 culturalNotes: 'German argumentative texts use explicit signposting ("Zusammenfassend", "Daraus folgt"); recognizing these markers is key to C1 reading comprehension.'

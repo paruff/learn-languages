@@ -227,3 +227,7 @@ No new vocabulary images were sourced — `A1-NUMB-001`'s `imageUrl`s reuse the 
 - `npm run typecheck` / `npm run lint` / `npm test`: clean, 98/98 tests, 99%+ coverage (unchanged — no code files touched)
 - `npm run build`: 949 pages (up from 769) — `en-GB↔de-DE`, `es-ES↔de-DE`, and `pt-PT↔de-DE` routes and selector entries all generated automatically, zero code changes, confirming `getAvailablePairs()`/`pairRealisations()` generalize to a third language exactly as they did for the second
 - Manual browser verification (chrome-devtools) for `en-GB→de-DE`: Practice page loads with correct "German" branding (via the existing `languageName()` util, unchanged), a full graded review card ("Hello" → revealed "Hallo", graded, advanced to card 2/10 showing "Bye"), and Progress page (0/10 mastered, correctly isolated per-pair state)
+
+### C1 re-alignment to shared concepts (#143)
+
+All 25 de-DE C1 nodes now carry the shared en-GB/pt-PT concept set (151 new items, ids 007+ per node; the old independently authored items were removed). Items were drafted by AI and were **not** checked against the Goethe C1 Prüfungsziele item by item. **Status: needs native-speaker review against the Goethe C1 document before merge** (intent P6, spec C6). Idioms in `C1-SPOKEN-002/003` are German equivalents of the pt-PT idioms, not literal translations.
