@@ -5,6 +5,8 @@ import { withBase } from '../lib/urls';
 import { getAvailablePairs } from '../lib/pairLoader';
 import { languageName } from '../lib/languageNames';
 import { resolvePair } from '../lib/pairResolve';
+import { orderLessons } from '../lib/path';
+import ContinueCard from '../components/ContinueCard.astro';
 
 // The homepage isn't routed per language pair. Statically it links to the
 // product default (en-GB→pt-PT); a learner's saved pair is applied by the
@@ -17,13 +19,14 @@ const [nodes, realisations] = await Promise.all([
   getCollection('cefr-nodes'),
   getCollection('realisations'),
 ]);
-const firstLesson = nodes
-  .filter((node) => node.data.cefrLevel === 'A1')
-  .filter((node) =>
-    realisations.some((r) => r.data.nodeId === node.data.nodeId && r.data.lang === targetLang)
-  )
-  .map((node) => node.data)
-  .sort((a, b) => a.nodeId.localeCompare(b.nodeId))[0];
+const a1Path = orderLessons(
+  nodes
+    .filter((node) => node.data.cefrLevel === 'A1')
+    .filter((node) =>
+      realisations.some((r) => r.data.nodeId === node.data.nodeId && r.data.lang === targetLang)
+    )
+    .map((node) => node.data)
+);
 ---
 
 <BaseLayout
@@ -54,11 +57,12 @@ const firstLesson = nodes
         Evidence-based lessons built on second-language acquisition research, spaced repetition, and
         cognitive load theory. No gamification — just effective acquisition.
       </p>
-      <a
-        href={withBase(`/${sourceLang}/${targetLang}/lessons/`)}
-        data-pair-path="lessons/"
-        class="btn btn--primary">Start your first lesson (2 min)</a
-      >
+      <ContinueCard
+        sourceLang={sourceLang}
+        targetLang={targetLang}
+        lessons={a1Path}
+        usePreference
+      />
     </div>
   </section>
 
@@ -153,22 +157,6 @@ const firstLesson = nodes
       </article>
     </div>
   </section>
-
-  {
-    firstLesson && (
-      <section class="cta" aria-labelledby="cta-title">
-        <h2 id="cta-title">Ready to begin?</h2>
-        <p>Start with: {firstLesson.canDo}</p>
-        <a
-          href={withBase(`/${sourceLang}/${targetLang}/lessons/${firstLesson.nodeId}/`)}
-          data-pair-path={`lessons/${firstLesson.nodeId}/`}
-          class="btn btn--primary"
-        >
-          First Lesson →
-        </a>
-      </section>
-    )
-  }
 </BaseLayout>
 
 <script>

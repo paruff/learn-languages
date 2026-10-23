@@ -1,0 +1,92 @@
+---
+import { withBase } from '../lib/urls';
+
+interface Props {
+  sourceLang: string;
+  targetLang: string;
+  /** A1 lessons in teaching order. */
+  lessons: { nodeId: string; canDo: string }[];
+  /** Home has no pair in its URL: let the learner's saved pair win. */
+  usePreference?: boolean;
+}
+const { sourceLang, targetLang, lessons, usePreference = false } = Astro.props;
+const first = lessons[0];
+---
+
+{
+  first && (
+    <section
+      class="card continue"
+      aria-labelledby="continue-goal"
+      data-continue
+      data-source={sourceLang}
+      data-target={targetLang}
+      data-use-pref={usePreference ? '1' : undefined}
+    >
+      <p class="continue__goal" id="continue-goal">
+        Your goal: A1 · lesson <span data-step>1</span> of {lessons.length}
+      </p>
+      <p class="continue__next" data-next>
+        {first.canDo}
+      </p>
+      <a
+        class="btn btn--primary"
+        data-btn
+        data-pair-path={`lessons/${first.nodeId}/`}
+        href={withBase(`/${sourceLang}/${targetLang}/lessons/${first.nodeId}/`)}
+      >
+        Continue
+      </a>
+      <script type="application/json" data-lessons set:html={JSON.stringify(lessons)} />
+    </section>
+  )
+}
+
+<script>
+  import { withBase } from '../lib/urls';
+  import { loadStudied, nextIndex } from '../lib/path';
+  import { loadPairPreference } from '../lib/pairPreference';
+
+  for (const el of document.querySelectorAll<HTMLElement>('[data-continue]')) {
+    const pref = el.dataset.usePref ? loadPairPreference() : null;
+    const sourceLang = pref?.sourceLang ?? el.dataset.source!;
+    const targetLang = pref?.targetLang ?? el.dataset.target!;
+    const lessons = JSON.parse(el.querySelector('[data-lessons]')!.textContent!) as {
+      nodeId: string;
+      canDo: string;
+    }[];
+    const i = nextIndex(
+      lessons.map((l) => l.nodeId),
+      loadStudied(sourceLang, targetLang)
+    );
+    const btn = el.querySelector<HTMLAnchorElement>('[data-btn]')!;
+    if (i === -1) {
+      el.querySelector('[data-step]')!.textContent = String(lessons.length);
+      el.querySelector('[data-next]')!.textContent = 'You have finished every A1 lesson.';
+      btn.textContent = 'Practise';
+      btn.href = withBase(`/${sourceLang}/${targetLang}/review/`);
+    } else {
+      el.querySelector('[data-step]')!.textContent = String(i + 1);
+      el.querySelector('[data-next]')!.textContent = lessons[i].canDo;
+      btn.href = withBase(`/${sourceLang}/${targetLang}/lessons/${lessons[i].nodeId}/`);
+    }
+  }
+</script>
+
+<style>
+  .continue {
+    margin: calc(var(--spacing-unit) * 2) 0 calc(var(--spacing-unit) * 3);
+    padding: calc(var(--spacing-unit) * 2);
+    border-left: 3px solid var(--color-primary);
+  }
+  .continue__goal {
+    margin: 0 0 calc(var(--spacing-unit) * 0.5);
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+  }
+  .continue__next {
+    margin: 0 0 calc(var(--spacing-unit) * 1.5);
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+</style>
