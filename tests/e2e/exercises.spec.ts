@@ -20,9 +20,11 @@ test.describe('exercises session', () => {
     );
     await page.locator('.exercise:not([hidden]) .exercise__next').click();
 
-    // Exercise 2: matching (reveal-only, per PR scope — not scored).
+    // Exercise 2: multiple-choice (was reveal-only matching) — answer correctly.
     await expect(progress).toHaveText('Exercise 2 of 3');
-    await page.locator('.exercise:not([hidden]) .exercise__reveal').click();
+    await page
+      .locator('.exercise:not([hidden]) .exercise__option[data-value="From noon until about 6 PM"]')
+      .click();
     await page.locator('.exercise:not([hidden]) .exercise__next').click();
 
     // Exercise 3: multiple-choice — answer incorrectly on purpose.
@@ -33,9 +35,9 @@ test.describe('exercises session', () => {
     );
     await page.locator('.exercise:not([hidden]) .exercise__next').click();
 
-    // Only the fill-blank counted toward the tally (reveal-only types aren't scored).
+    // Two correct answers of three.
     await expect(complete).toBeVisible();
-    await expect(complete).toHaveText('Done — 1/3 correct.');
+    await expect(complete).toHaveText('Done — 2/3 correct.');
   });
 
   test('a lesson without exercises does not show the practice-exercises link', async ({ page }) => {
