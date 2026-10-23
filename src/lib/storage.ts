@@ -26,6 +26,38 @@ export function writeItem(key: string, value: string): boolean {
   }
 }
 
+let persistAsked = false;
+
+/**
+ * Asks the browser not to evict our storage (spec S8). Safari deletes
+ * script-writable storage after 7 days without interaction unless granted or
+ * installed to the home screen. Asked once per page load; failure is harmless.
+ */
+export async function requestPersistence(): Promise<boolean> {
+  if (persistAsked) return false;
+  persistAsked = true;
+  try {
+    const storage = navigator.storage;
+    if (!storage?.persist) return false;
+    return (await storage.persisted?.()) || (await storage.persist());
+  } catch {
+    return false;
+  }
+}
+
+/** True only when the browser has definitely refused/never granted persistence. */
+export async function isPersistenceMissing(): Promise<boolean> {
+  try {
+    return !!navigator.storage?.persisted && !(await navigator.storage.persisted());
+  } catch {
+    return false;
+  }
+}
+
+const PERSIST_HINT_KEY = 'persist-hint-dismissed';
+export const persistHintDismissed = (): boolean => readItem(PERSIST_HINT_KEY) !== null;
+export const dismissPersistHint = (): boolean => writeItem(PERSIST_HINT_KEY, '1');
+
 export function readJson<T>(key: string): T | null {
   const raw = readItem(key);
   if (!raw) return null;

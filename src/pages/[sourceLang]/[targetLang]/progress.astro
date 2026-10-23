@@ -82,6 +82,15 @@ const targetName = languageName(targetLang);
     <p id="report-status" role="status" aria-live="polite"></p>
   </section>
 
+  <section class="card" id="persist-hint" aria-labelledby="persist-title" hidden>
+    <h2 id="persist-title">Keep your progress safe</h2>
+    <p>
+      Your browser may delete this progress if you don't visit for about a week. Add Acquira to your
+      home screen, or download a backup below.
+    </p>
+    <button type="button" class="btn" id="persist-dismiss">Got it</button>
+  </section>
+
   <section class="card backup" id="backup" aria-labelledby="backup-title" hidden>
     <h2 id="backup-title">{getString(sourceLang, 'backupTitle')}</h2>
     <p>{getString(sourceLang, 'backupHint')}</p>
@@ -157,7 +166,15 @@ const targetName = languageName(targetLang);
 </style>
 
 <script>
-  import { loadState, loadStudied, exportProgress, importProgress } from '../../../lib/storage';
+  import {
+    loadState,
+    loadStudied,
+    exportProgress,
+    importProgress,
+    isPersistenceMissing,
+    persistHintDismissed,
+    dismissPersistHint,
+  } from '../../../lib/storage';
   import {
     computeCefrProgress,
     computeCanDoChecklist,
@@ -315,6 +332,16 @@ const targetName = languageName(targetLang);
     }
   });
   document.getElementById('report')!.hidden = false;
+
+  // Spec S8: one-time hint when the browser hasn't granted persistent storage.
+  const persistHint = document.getElementById('persist-hint')!;
+  if (items.some((i) => i.repetitions > 0) && !persistHintDismissed()) {
+    void isPersistenceMissing().then((missing) => (persistHint.hidden = !missing));
+  }
+  document.getElementById('persist-dismiss')!.addEventListener('click', () => {
+    dismissPersistHint();
+    persistHint.hidden = true;
+  });
 
   // Backup/restore (spec S5) — progress lives only in localStorage, so this is
   // the learner's only protection against clearing browser data.

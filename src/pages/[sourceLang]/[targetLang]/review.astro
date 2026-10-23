@@ -301,6 +301,7 @@ for (const n of await getCollection('cefr-nodes')) {
   import {
     loadState,
     saveState,
+    requestPersistence,
     hasState,
     loadNewCap,
     loadStudied,
@@ -681,6 +682,7 @@ for (const n of await getCollection('cefr-nodes')) {
     const state = loadState(sourceLang, targetLang, direction, item.target.id);
     const nextState = calculateNextReview({ state, quality });
     saveState(sourceLang, targetLang, direction, item.target.id, nextState);
+    void requestPersistence();
 
     // A failed recall ("Again") reappears a few cards later in this same
     // session for another retrieval attempt, rather than waiting for its
