@@ -1,53 +1,53 @@
 nodeId: C2-MEDIATION-001
 lang: de-DE
 vocabulary:
-  - id: de-DE-C2-MEDIATION-001-001
-    concept: 'foreign-language'
-    term: 'fremdsprachlich'
-    translation: 'foreign-language'
-    partOfSpeech: adjective
+  - id: de-DE-C2-MEDIATION-001-007
+    concept: 'effective-mediation'
+    term: 'wirksam vermitteln'
+    translation: 'effective mediation'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Sie liest fremdsprachige Texte mit Verständnis.'
-    exampleTranslation: 'She reads foreign-language texts with understanding.'
-  - id: de-DE-C2-MEDIATION-001-002
-    concept: 'text-comprehension'
-    term: 'Textverständnis'
-    translation: 'text comprehension'
-    partOfSpeech: noun
-    gender: neuter
-    example: 'Ihr Textverständnis ist ausgezeichnet.'
-    exampleTranslation: 'Her text comprehension is excellent.'
-  - id: de-DE-C2-MEDIATION-001-003
-    concept: 'suitable'
-    term: 'passend'
-    translation: 'suitable / fitting'
-    partOfSpeech: adjective
+    example: 'Ich vermittle wirksam zwischen Muttersprachlern.'
+    exampleTranslation: 'I act as an effective intermediary between native speakers.'
+  - id: de-DE-C2-MEDIATION-001-008
+    concept: 'simplify-the-message'
+    term: 'die Botschaft vereinfachen'
+    translation: 'simplify the message'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Er hat ein passendes Wort gefunden.'
-    exampleTranslation: 'He has found a suitable word.'
-  - id: de-DE-C2-MEDIATION-001-004
-    concept: 'adequate'
-    term: 'adäquat'
-    translation: 'adequate / appropriate'
-    partOfSpeech: adjective
+    example: 'Ich verstehe es, die Botschaft zu vereinfachen, ohne Bedeutung zu verlieren.'
+    exampleTranslation: 'I know how to simplify the message without losing meaning.'
+  - id: de-DE-C2-MEDIATION-001-009
+    concept: 'resolve-misunderstandings'
+    term: 'Missverständnisse auflösen'
+    translation: 'resolve misunderstandings'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Die Übersetzung war adäquat.'
-    exampleTranslation: 'The translation was adequate.'
-  - id: de-DE-C2-MEDIATION-001-005
-    concept: 'vocabulary'
-    term: 'Wortschatz'
-    translation: 'vocabulary'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Ihr Wortschatz ist beeindruckend.'
-    exampleTranslation: 'Her vocabulary is impressive.'
-  - id: de-DE-C2-MEDIATION-001-006
-    concept: 'paraphrase'
-    term: 'Paraphrase'
-    translation: 'paraphrase'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Eine gute Paraphrase ist wichtig.'
-    exampleTranslation: 'A good paraphrase is important.'
+    example: 'Ich kann Missverständnisse geschickt auflösen.'
+    exampleTranslation: 'I can resolve misunderstandings skilfully.'
+  - id: de-DE-C2-MEDIATION-001-010
+    concept: 'skilful-intervention'
+    term: 'ein geschicktes Eingreifen'
+    translation: 'skilful intervention'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Mein geschicktes Eingreifen erleichtert die Kommunikation.'
+    exampleTranslation: 'My skilful intervention facilitates communication.'
+  - id: de-DE-C2-MEDIATION-001-011
+    concept: 'complex-disagreements'
+    term: 'komplexe Meinungsverschiedenheiten'
+    translation: 'complex disagreements'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich schlichte komplexe Meinungsverschiedenheiten zwischen Sprechern.'
+    exampleTranslation: 'I mediate complex disagreements between speakers.'
+  - id: de-DE-C2-MEDIATION-001-012
+    concept: 'effective-communication'
+    term: 'die wirksame Kommunikation'
+    translation: 'effective communication'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich fördere stets die wirksame Kommunikation zwischen den Parteien.'
+    exampleTranslation: 'I always promote effective communication between parties.'
 grammar: []
 culturalNotes: 'German mediation ("Mediation") at C2 level involves bridging between languages and cultures with high precision; "kulturelle Mediationskompetenz" (cultural mediation competence) is expected in professional contexts.'

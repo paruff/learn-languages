@@ -12,7 +12,13 @@ describe('pairPreference', () => {
 
   it('persists and reloads the chosen pair', () => {
     savePairPreference({ sourceLang: 'en-GB', targetLang: 'pt-PT' });
-    expect(loadPairPreference()).toEqual({ sourceLang: 'en-GB', targetLang: 'pt-PT' });
+    const pt = { sourceLang: 'en-GB', targetLang: 'pt-PT' };
+    expect(loadPairPreference([pt])).toEqual(pt);
+  });
+
+  it('ignores a saved pair the site does not have (regression: en-DE → 404)', () => {
+    savePairPreference({ sourceLang: 'en-DE', targetLang: 'pt-PT' });
+    expect(loadPairPreference([{ sourceLang: 'en-GB', targetLang: 'pt-PT' }])).toBeNull();
   });
 });
 

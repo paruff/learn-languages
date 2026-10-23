@@ -1,54 +1,54 @@
 nodeId: C2-ACADEMIC-001
 lang: de-DE
 vocabulary:
-  - id: de-DE-C2-ACADEMIC-001-001
-    concept: 'dissertation'
-    term: 'Dissertation'
-    translation: 'dissertation'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Sie schreibt ihre Dissertation über quantitative Analyse.'
-    exampleTranslation: 'She is writing her dissertation on quantitative analysis.'
-  - id: de-DE-C2-ACADEMIC-001-002
-    concept: 'report'
-    term: 'Bericht'
-    translation: 'report'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Der Bericht präsentiert die Ergebnisse der Studie.'
-    exampleTranslation: 'The report presents the results of the study.'
-  - id: de-DE-C2-ACADEMIC-001-003
-    concept: 'synthesis'
-    term: 'Synthese'
-    translation: 'synthesis'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Synthese der Quellen war überzeugend.'
-    exampleTranslation: 'The synthesis of the sources was convincing.'
-  - id: de-DE-C2-ACADEMIC-001-004
-    concept: 'conclusion'
-    term: 'Schlussfolgerung'
-    translation: 'conclusion'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Schlussfolgerung war logisch und gut begründet.'
-    exampleTranslation: 'The conclusion was logical and well-founded.'
-  - id: de-DE-C2-ACADEMIC-001-005
-    concept: 'sources'
-    term: 'Quellen'
-    translation: 'sources'
-    partOfSpeech: noun
+  - id: de-DE-C2-ACADEMIC-001-007
+    concept: 'advanced-academic-writing'
+    term: 'fortgeschrittenes wissenschaftliches Schreiben'
+    translation: 'advanced academic writing'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Er hat seine Quellen sorgfältig ausgewählt.'
-    exampleTranslation: 'He has carefully selected his sources.'
-  - id: de-DE-C2-ACADEMIC-001-006
-    concept: 'to-justify'
-    term: 'begründen'
-    translation: 'to justify / to substantiate'
-    partOfSpeech: verb
+    example: 'Ich beherrsche das fortgeschrittene wissenschaftliche Schreiben auf Deutsch.'
+    exampleTranslation: 'I master advanced academic writing in English.'
+  - id: de-DE-C2-ACADEMIC-001-008
+    concept: 'coherent-and-convincing-text'
+    term: 'ein stimmiger und überzeugender Text'
+    translation: 'coherent and convincing text'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Sie kann ihre Schlussfolgerungen gut begründen.'
-    exampleTranslation: 'She can well justify her conclusions.'
+    example: 'Ich verfasse stimmige und überzeugende Texte zu komplexen Themen.'
+    exampleTranslation: 'I produce coherent and convincing texts on complex subjects.'
+  - id: de-DE-C2-ACADEMIC-001-009
+    concept: 'clear-structure'
+    term: 'eine klare Gliederung'
+    translation: 'clear structure'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Meine Texte haben stets eine klare und logische Gliederung.'
+    exampleTranslation: 'My texts always have a clear and logical structure.'
+  - id: de-DE-C2-ACADEMIC-001-010
+    concept: 'wide-range-of-language'
+    term: 'ein breites Spektrum sprachlicher Mittel'
+    translation: 'wide range of language'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich nutze ein breites und vielfältiges Spektrum sprachlicher Mittel.'
+    exampleTranslation: 'I use a wide and varied range of language.'
+  - id: de-DE-C2-ACADEMIC-001-011
+    concept: 'solid-argumentation'
+    term: 'eine tragfähige Argumentation'
+    translation: 'solid argumentation'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Meine Argumentation ist stets tragfähig und gut begründet.'
+    exampleTranslation: 'My argumentation is always solid and well-founded.'
+  - id: de-DE-C2-ACADEMIC-001-012
+    concept: 'academic-style'
+    term: 'der wissenschaftliche Stil'
+    translation: 'academic style'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich wahre stets einen strengen und klaren wissenschaftlichen Stil.'
+    exampleTranslation: 'I always maintain a rigorous and clear academic style.'
 grammar:
   - id: C2-ACADEMIC-001-GR01
     point: 'Presenting reasoned conclusions with sophisticated nuance'

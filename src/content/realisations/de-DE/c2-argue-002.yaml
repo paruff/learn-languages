@@ -1,54 +1,54 @@
 nodeId: C2-ARGUE-002
 lang: de-DE
 vocabulary:
-  - id: de-DE-C2-ARGUE-002-001
-    concept: 'point-of-view'
-    term: 'Standpunkt'
-    translation: 'point of view'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Ich vertrete den Standpunkt, dass die Wirtschaft wächst.'
-    exampleTranslation: 'I hold the point of view that the economy is growing.'
-  - id: de-DE-C2-ARGUE-002-002
-    concept: 'position'
-    term: 'Position'
-    translation: 'position'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Seine Position war klar und differenziert.'
-    exampleTranslation: 'His position was clear and nuanced.'
-  - id: de-DE-C2-ARGUE-002-003
-    concept: 'nuanced'
-    term: 'differenziert'
-    translation: 'nuanced / differentiated'
-    partOfSpeech: adjective
+  - id: de-DE-C2-ARGUE-002-007
+    concept: 'active-participation'
+    term: 'die aktive Beteiligung'
+    translation: 'active participation'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Die Analyse war sehr differenziert.'
-    exampleTranslation: 'The analysis was very nuanced.'
-  - id: de-DE-C2-ARGUE-002-004
-    concept: 'to-convey'
-    term: 'vermitteln'
-    translation: 'to convey / to mediate'
-    partOfSpeech: verb
+    example: 'Ich beteilige mich aktiv an jeder Art von Diskussion.'
+    exampleTranslation: 'I actively participate in any type of discussion.'
+  - id: de-DE-C2-ARGUE-002-008
+    concept: 'all-registers'
+    term: 'alle Register'
+    translation: 'all registers'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Sie kann komplexe Ideen gut vermitteln.'
-    exampleTranslation: 'She can convey complex ideas well.'
-  - id: de-DE-C2-ARGUE-002-005
-    concept: 'attitude'
-    term: 'Haltung'
-    translation: 'attitude / stance'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Seine Haltung zum Thema war respektvoll.'
-    exampleTranslation: 'His attitude towards the topic was respectful.'
-  - id: de-DE-C2-ARGUE-002-006
-    concept: 'to-weigh'
-    term: 'abwägen'
-    translation: 'to weigh / to consider'
-    partOfSpeech: verb
+    example: 'Ich beherrsche Diskussionen in allen Registern, vom umgangssprachlichen bis zum wissenschaftlichen.'
+    exampleTranslation: 'I master discussion in all registers, from informal to academic.'
+  - id: de-DE-C2-ARGUE-002-009
+    concept: 'develop-points-of-view'
+    term: 'Standpunkte entwickeln'
+    translation: 'develop points of view'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Man muss verschiedene Faktoren abwägen.'
-    exampleTranslation: 'One must weigh various factors.'
+    example: 'Ich verstehe es, meine eigenen und fremde Standpunkte zu entwickeln.'
+    exampleTranslation: "I know how to develop my own and others' points of view."
+  - id: de-DE-C2-ARGUE-002-010
+    concept: 'chain-of-reasoning'
+    term: 'eine Argumentationskette'
+    translation: 'chain of reasoning'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich baue eine tragfähige und überzeugende Argumentationskette auf.'
+    exampleTranslation: 'I construct a solid and convincing chain of reasoning.'
+  - id: de-DE-C2-ARGUE-002-011
+    concept: 'advanced-discussion'
+    term: 'die fortgeschrittene Diskussion'
+    translation: 'advanced discussion'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'In fortgeschrittenen Diskussionen bleibe ich klar und präzise.'
+    exampleTranslation: 'In advanced discussions, I maintain clarity and precision.'
+  - id: de-DE-C2-ARGUE-002-012
+    concept: 'well-founded-reasoning'
+    term: 'eine fundierte Begründung'
+    translation: 'well-founded reasoning'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Meine Begründung ist stets fundiert und stimmig.'
+    exampleTranslation: 'My reasoning is always well-founded and coherent.'
 grammar:
   - id: C2-ARGUE-002-GR01
     point: 'Articulating highly nuanced positions with precision'
