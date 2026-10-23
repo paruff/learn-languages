@@ -110,3 +110,18 @@ test.describe('learning path (J1)', () => {
     );
   });
 });
+
+test('a stale saved language pair does not produce a 404 link on the home page', async ({
+  page,
+}) => {
+  await page.goto(HOME);
+  await page.evaluate(() =>
+    window.localStorage.setItem(
+      'pairPreference',
+      JSON.stringify({ sourceLang: 'en-DE', targetLang: 'pt-PT' })
+    )
+  );
+  await page.reload();
+  const href = await page.locator('a[data-pair-path]').first().getAttribute('href');
+  expect(href).toContain('/en-GB/pt-PT/');
+});

@@ -92,6 +92,12 @@ test.describe('review session', () => {
     await expect(summary).toBeVisible();
     await expect(summary).toContainText(`${totalCount}/${totalCount} correct first try`);
     await expect(summary).toContainText('Mastery');
+    // Session end must lead somewhere, not dead-end (user feedback).
+    const next = page.locator('#review-next');
+    await expect(next).toBeVisible();
+    await expect(next.getByRole('link', { name: 'Lessons' })).toBeVisible();
+    await expect(next.getByRole('link', { name: 'Progress' })).toBeVisible();
+    await expect(page.locator('#review-practice-more')).toBeVisible();
   });
 
   test('type mode: switching mode shows a text input, and checks the typed answer', async ({

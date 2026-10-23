@@ -55,6 +55,8 @@ export type StringKey =
   | 'reviewGradeGood'
   | 'reviewGradeEasy'
   | 'reviewGradeHint'
+  | 'reviewNextHeading'
+  | 'reviewPracticeMore'
   | 'lessonsNextLesson'
   | 'reviewReflectionQuestion'
   | 'reviewReflectionEasy'
@@ -175,6 +177,8 @@ const EN_GB: Dictionary = {
   itemPlural: 'items',
   cardSingular: 'card',
   cardPlural: 'cards',
+  reviewNextHeading: 'What would you like to do next?',
+  reviewPracticeMore: 'Practise more',
 };
 
 const ES_ES: Dictionary = {
@@ -262,6 +266,8 @@ const ES_ES: Dictionary = {
   itemPlural: 'elementos',
   cardSingular: 'tarjeta',
   cardPlural: 'tarjetas',
+  reviewNextHeading: '¿Qué quieres hacer ahora?',
+  reviewPracticeMore: 'Practicar más',
 };
 
 const PT_PT: Dictionary = {
@@ -348,6 +354,8 @@ const PT_PT: Dictionary = {
   itemPlural: 'itens',
   cardSingular: 'cartão',
   cardPlural: 'cartões',
+  reviewNextHeading: 'O que quer fazer a seguir?',
+  reviewPracticeMore: 'Praticar mais',
 };
 
 const DE_DE: Dictionary = {
@@ -434,6 +442,8 @@ const DE_DE: Dictionary = {
   itemPlural: 'Elemente',
   cardSingular: 'Karte',
   cardPlural: 'Karten',
+  reviewNextHeading: 'Was möchtest du als Nächstes tun?',
+  reviewPracticeMore: 'Weiter üben',
 };
 
 const FR_FR: Dictionary = {
@@ -521,6 +531,8 @@ const FR_FR: Dictionary = {
   itemPlural: 'éléments',
   cardSingular: 'carte',
   cardPlural: 'cartes',
+  reviewNextHeading: 'Que veux-tu faire maintenant ?',
+  reviewPracticeMore: 'S’entraîner encore',
 };
 
 const DICTIONARIES: Record<string, Dictionary> = {
