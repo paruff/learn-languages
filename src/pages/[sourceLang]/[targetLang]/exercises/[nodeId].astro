@@ -4,6 +4,7 @@ import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { withBase } from '../../../../lib/urls';
 import { getAvailablePairs } from '../../../../lib/pairLoader';
+import { exercisesForTarget } from '../../../../lib/exerciseLang';
 
 export async function getStaticPaths() {
   const [pairs, nodes, exercises] = await Promise.all([
@@ -12,21 +13,22 @@ export async function getStaticPaths() {
     getCollection('exercises'),
   ]);
 
-  const exercisesByNode = new Map<string, (typeof exercises)[number]['data'][]>();
-  for (const exercise of exercises) {
-    const list = exercisesByNode.get(exercise.data.lessonId) ?? [];
-    list.push(exercise.data);
-    exercisesByNode.set(exercise.data.lessonId, list);
-  }
-
-  return pairs.flatMap(({ sourceLang, targetLang }) =>
-    nodes
-      .filter((node) => exercisesByNode.has(node.data.nodeId))
+  return pairs.flatMap(({ sourceLang, targetLang }) => {
+    const forTarget = exercisesForTarget(
+      exercises.map((e) => e.data),
+      targetLang
+    );
+    return nodes
       .map((node) => ({
-        params: { sourceLang, targetLang, nodeId: node.data.nodeId },
-        props: { node: node.data, exercises: exercisesByNode.get(node.data.nodeId)! },
+        node: node.data,
+        exercises: forTarget.filter((e) => e.lessonId === node.data.nodeId),
       }))
-  );
+      .filter(({ exercises }) => exercises.length > 0)
+      .map(({ node, exercises }) => ({
+        params: { sourceLang, targetLang, nodeId: node.nodeId },
+        props: { node, exercises },
+      }));
+  });
 }
 
 const { sourceLang, targetLang, nodeId } = Astro.params;

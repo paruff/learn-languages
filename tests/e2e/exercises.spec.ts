@@ -54,3 +54,8 @@ test.describe('exercises session', () => {
     );
   });
 });
+
+test('a de-DE lesson has no Portuguese exercise link (issue #242)', async ({ page }) => {
+  await page.goto('/learn-languages/en-GB/de-DE/lessons/A1-FOOD-001/');
+  await expect(page.locator('a[href*="/exercises/"]')).toHaveCount(0);
+});
