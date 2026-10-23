@@ -2,6 +2,7 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { loadPair, getAvailablePairs } from '../../../lib/pairLoader';
 import { languageName } from '../../../lib/languageNames';
+import { getCollection } from 'astro:content';
 import { getString } from '../../../lib/strings';
 import { withBase } from '../../../lib/urls';
 
@@ -13,6 +14,15 @@ export async function getStaticPaths() {
 const { sourceLang, targetLang } = Astro.params;
 const items = await loadPair(sourceLang, targetLang);
 const targetName = languageName(targetLang);
+// First grammar point per node in the target language — shown as corrective
+// support when a card is graded "Again" (L10).
+const grammarByNode: Record<string, { point: string; explanation: string }> = {};
+for (const r of await getCollection('realisations')) {
+  const g = r.data.grammar[0];
+  if (r.data.lang === targetLang && g) {
+    grammarByNode[r.data.nodeId] = { point: g.point, explanation: g.explanation };
+  }
+}
 ---
 
 <BaseLayout
@@ -93,6 +103,15 @@ const targetName = languageName(targetLang);
       >
     </div>
   </div>
+  <div id="review-correction" class="card review-correction" role="status" hidden>
+    <p class="review-correction__heading">{getString(sourceLang, 'reviewCorrectionHeading')}</p>
+    <p id="review-correction-example" class="review-correction__example"></p>
+    <p id="review-correction-translation" class="review-correction__translation"></p>
+    <p id="review-correction-grammar" class="review-correction__grammar" hidden></p>
+    <button id="review-correction-continue" type="button" class="btn btn--primary">
+      {getString(sourceLang, 'reviewContinueButton')}
+    </button>
+  </div>
   <p id="review-summary" class="card" hidden></p>
   <nav id="review-next" class="card review-next" aria-labelledby="review-next-heading" hidden>
     <p id="review-next-heading" class="review-next__heading">
@@ -132,7 +151,7 @@ const targetName = languageName(targetLang);
   <script
     type="application/json"
     id="review-data"
-    set:html={JSON.stringify({ sourceLang, targetLang, items })}
+    set:html={JSON.stringify({ sourceLang, targetLang, items, grammarByNode })}
   />
 </BaseLayout>
 
@@ -186,14 +205,23 @@ const targetName = languageName(targetLang);
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
-  .review-next__heading {
+  .review-correction {
+    max-width: 420px;
+    text-align: center;
+  }
+  .review-correction__heading {
     font-weight: 600;
     margin-top: 0;
   }
-  .review-next__actions {
-    display: flex;
-    gap: var(--spacing-unit);
-    flex-wrap: wrap;
+  .review-correction__example {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+  }
+  .review-correction__translation,
+  .review-correction__grammar {
+    color: var(--color-text-muted);
+    margin: var(--spacing-unit) 0;
   }
   .review-reflection {
     text-align: center;
@@ -266,6 +294,8 @@ const targetName = languageName(targetLang);
     term: string;
     imageUrl?: string;
     imageAlt?: string;
+    example: string;
+    exampleTranslation: string;
   }
 
   interface PairItem {
@@ -276,10 +306,13 @@ const targetName = languageName(targetLang);
   }
 
   const dataEl = document.getElementById('review-data');
-  const { sourceLang, targetLang, items } = JSON.parse(dataEl?.textContent ?? '{}') as {
+  const { sourceLang, targetLang, items, grammarByNode } = JSON.parse(
+    dataEl?.textContent ?? '{}'
+  ) as {
     sourceLang: string;
     targetLang: string;
     items: PairItem[];
+    grammarByNode: Record<string, { point: string; explanation: string }>;
   };
 
   // Quality maps 1-4 (Again/Hard/Good/Easy) to SM-2's 0-5 scale (spec §6.3).
@@ -325,8 +358,11 @@ const targetName = languageName(targetLang);
   const typeFormEl = document.getElementById('review-type-form') as HTMLFormElement;
   const typeInputEl = document.getElementById('review-type-input') as HTMLInputElement;
   const typeFeedbackEl = document.getElementById('review-type-feedback')!;
-  const nextEl = document.getElementById('review-next')!;
-  const practiceMoreBtn = document.getElementById('review-practice-more')!;
+  const correctionEl = document.getElementById('review-correction')!;
+  const correctionExampleEl = document.getElementById('review-correction-example')!;
+  const correctionTranslationEl = document.getElementById('review-correction-translation')!;
+  const correctionGrammarEl = document.getElementById('review-correction-grammar')!;
+  const correctionContinueBtn = document.getElementById('review-correction-continue')!;
   const reflectionEl = document.getElementById('review-reflection')!;
   const reflectionThanksEl = document.getElementById('review-reflection-thanks')!;
   const reflectionSkipBtn = document.getElementById('review-reflection-skip')!;
@@ -453,7 +489,7 @@ const targetName = languageName(targetLang);
       return;
     }
     hideReflection();
-    nextEl.hidden = true;
+    correctionEl.hidden = true;
     progressEl.textContent = format(getString(sourceLang, 'reviewProgress'), {
       current: reviewed + 1,
       total: reviewed + queue.length,
@@ -599,6 +635,31 @@ const targetName = languageName(targetLang);
     } else {
       reviewed += 1;
     }
+    if (quality < 3) {
+      showCorrection(item);
+    } else {
+      showCard();
+    }
+  });
+
+  // L10: before an "Again" card is re-queued, show its example sentence,
+  // translation and any grammar note — not just the bare answer again.
+  function showCorrection(item: PairItem): void {
+    const back = backOf(item);
+    const front = frontOf(item);
+    correctionExampleEl.textContent = back.example;
+    correctionTranslationEl.textContent = front.example;
+    const grammar = grammarByNode[item.nodeId];
+    correctionGrammarEl.hidden = !grammar;
+    correctionGrammarEl.textContent = grammar ? `${grammar.point}: ${grammar.explanation}` : '';
+    cardEl.hidden = true;
+    correctionEl.hidden = false;
+    correctionContinueBtn.focus();
+  }
+
+  correctionContinueBtn.addEventListener('click', () => {
+    correctionEl.hidden = true;
+    cardEl.hidden = false;
     showCard();
   });
 

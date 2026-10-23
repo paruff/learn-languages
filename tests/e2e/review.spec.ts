@@ -73,6 +73,23 @@ test.describe('review session', () => {
     await expect(progress).toHaveText(`1 of ${newTotal}`);
   });
 
+  test('grading Again shows the example and translation before the next card (L10)', async ({
+    page,
+  }) => {
+    const correction = page.locator('#review-correction');
+    await page.locator('#review-reveal').click();
+    await page.locator('#review-grades button[data-quality="1"]').click();
+
+    await expect(correction).toBeVisible();
+    await expect(page.locator('#review-correction-example')).not.toBeEmpty();
+    await expect(page.locator('#review-correction-translation')).not.toBeEmpty();
+    await expect(page.locator('#review-card')).toBeHidden();
+
+    await page.locator('#review-correction-continue').click();
+    await expect(correction).toBeHidden();
+    await expect(page.locator('#review-card')).toBeVisible();
+  });
+
   test('session-complete summary shows first-try accuracy and mastery delta', async ({ page }) => {
     const progress = page.locator('#review-progress');
     const reveal = page.locator('#review-reveal');

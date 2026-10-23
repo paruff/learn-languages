@@ -55,8 +55,8 @@ export type StringKey =
   | 'reviewGradeGood'
   | 'reviewGradeEasy'
   | 'reviewGradeHint'
-  | 'reviewNextHeading'
-  | 'reviewPracticeMore'
+  | 'reviewCorrectionHeading'
+  | 'reviewContinueButton'
   | 'lessonsNextLesson'
   | 'reviewReflectionQuestion'
   | 'reviewReflectionEasy'
@@ -177,8 +177,8 @@ const EN_GB: Dictionary = {
   itemPlural: 'items',
   cardSingular: 'card',
   cardPlural: 'cards',
-  reviewNextHeading: 'What would you like to do next?',
-  reviewPracticeMore: 'Practise more',
+  reviewCorrectionHeading: 'Have another look — you will see this card again shortly.',
+  reviewContinueButton: 'Continue',
 };
 
 const ES_ES: Dictionary = {
@@ -266,8 +266,8 @@ const ES_ES: Dictionary = {
   itemPlural: 'elementos',
   cardSingular: 'tarjeta',
   cardPlural: 'tarjetas',
-  reviewNextHeading: '¿Qué quieres hacer ahora?',
-  reviewPracticeMore: 'Practicar más',
+  reviewCorrectionHeading: 'Échale otro vistazo: volverás a ver esta tarjeta enseguida.',
+  reviewContinueButton: 'Continuar',
 };
 
 const PT_PT: Dictionary = {
@@ -354,8 +354,8 @@ const PT_PT: Dictionary = {
   itemPlural: 'itens',
   cardSingular: 'cartão',
   cardPlural: 'cartões',
-  reviewNextHeading: 'O que quer fazer a seguir?',
-  reviewPracticeMore: 'Praticar mais',
+  reviewCorrectionHeading: 'Veja outra vez — vai voltar a ver este cartão em breve.',
+  reviewContinueButton: 'Continuar',
 };
 
 const DE_DE: Dictionary = {
@@ -442,8 +442,8 @@ const DE_DE: Dictionary = {
   itemPlural: 'Elemente',
   cardSingular: 'Karte',
   cardPlural: 'Karten',
-  reviewNextHeading: 'Was möchtest du als Nächstes tun?',
-  reviewPracticeMore: 'Weiter üben',
+  reviewCorrectionHeading: 'Schau noch einmal hin – du siehst diese Karte gleich wieder.',
+  reviewContinueButton: 'Weiter',
 };
 
 const FR_FR: Dictionary = {
@@ -531,8 +531,8 @@ const FR_FR: Dictionary = {
   itemPlural: 'éléments',
   cardSingular: 'carte',
   cardPlural: 'cartes',
-  reviewNextHeading: 'Que veux-tu faire maintenant ?',
-  reviewPracticeMore: 'S’entraîner encore',
+  reviewCorrectionHeading: 'Regarde encore — tu reverras cette carte bientôt.',
+  reviewContinueButton: 'Continuer',
 };
 
 const DICTIONARIES: Record<string, Dictionary> = {
