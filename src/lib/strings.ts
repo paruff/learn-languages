@@ -56,6 +56,9 @@ export type StringKey =
   | 'reviewGradeEasy'
   | 'reviewGradeHint'
   | 'reviewCorrectionHeading'
+  | 'reviewIntentionHeading'
+  | 'reviewNextHeading'
+  | 'reviewPracticeMore'
   | 'reviewContinueButton'
   | 'lessonsNextLesson'
   | 'reviewReflectionQuestion'
@@ -178,7 +181,10 @@ const EN_GB: Dictionary = {
   cardSingular: 'card',
   cardPlural: 'cards',
   reviewCorrectionHeading: 'Have another look — you will see this card again shortly.',
+  reviewIntentionHeading: "Today's goal — you are practising how to:",
   reviewContinueButton: 'Continue',
+  reviewNextHeading: 'What would you like to do next?',
+  reviewPracticeMore: 'Practise more',
 };
 
 const ES_ES: Dictionary = {
@@ -221,7 +227,7 @@ const ES_ES: Dictionary = {
   reviewRevealButton: 'Revelar',
   reviewTypeInputLabel: 'Escribe la respuesta',
   reviewCheckButton: 'Comprobar',
-  reviewPronounceLabel: 'Ouvir',
+  reviewPronounceLabel: 'Escuchar',
   reviewCorrect: '¡Correcto!',
   reviewIncorrect: 'No exactamente — mira la respuesta abajo.',
   reviewGradeAgain: 'Otra vez',
@@ -267,7 +273,10 @@ const ES_ES: Dictionary = {
   cardSingular: 'tarjeta',
   cardPlural: 'tarjetas',
   reviewCorrectionHeading: 'Échale otro vistazo: volverás a ver esta tarjeta enseguida.',
+  reviewIntentionHeading: 'Objetivo de hoy: practicas cómo:',
   reviewContinueButton: 'Continuar',
+  reviewNextHeading: '¿Qué quieres hacer ahora?',
+  reviewPracticeMore: 'Practicar más',
 };
 
 const PT_PT: Dictionary = {
@@ -309,7 +318,7 @@ const PT_PT: Dictionary = {
   reviewRevealButton: 'Revelar',
   reviewTypeInputLabel: 'Escreva a resposta',
   reviewCheckButton: 'Verificar',
-  reviewPronounceLabel: 'Escuchar',
+  reviewPronounceLabel: 'Ouvir',
   reviewCorrect: 'Correto!',
   reviewIncorrect: 'Não é bem isso — veja a resposta abaixo.',
   reviewGradeAgain: 'Outra vez',
@@ -317,7 +326,7 @@ const PT_PT: Dictionary = {
   reviewGradeGood: 'Bem',
   reviewGradeEasy: 'Fácil',
   reviewGradeHint:
-    'Outra vez: volta em breve · Difícil: mais cedo que o normal · Bom: como previsto · Fácil: bastante mais tarde.',
+    'Outra vez: volta em breve · Difícil: mais cedo que o normal · Bem: como previsto · Fácil: bastante mais tarde.',
   lessonsNextLesson: 'Lição seguinte →',
   reviewReflectionQuestion: 'Como correu esta sessão?',
   reviewReflectionEasy: 'Foi fácil',
@@ -355,7 +364,10 @@ const PT_PT: Dictionary = {
   cardSingular: 'cartão',
   cardPlural: 'cartões',
   reviewCorrectionHeading: 'Veja outra vez — vai voltar a ver este cartão em breve.',
+  reviewIntentionHeading: 'Objetivo de hoje: está a praticar como:',
   reviewContinueButton: 'Continuar',
+  reviewNextHeading: 'O que quer fazer a seguir?',
+  reviewPracticeMore: 'Praticar mais',
 };
 
 const DE_DE: Dictionary = {
@@ -443,7 +455,10 @@ const DE_DE: Dictionary = {
   cardSingular: 'Karte',
   cardPlural: 'Karten',
   reviewCorrectionHeading: 'Schau noch einmal hin – du siehst diese Karte gleich wieder.',
+  reviewIntentionHeading: 'Ziel für heute – du übst, wie du:',
   reviewContinueButton: 'Weiter',
+  reviewNextHeading: 'Was möchtest du als Nächstes tun?',
+  reviewPracticeMore: 'Weiter üben',
 };
 
 const FR_FR: Dictionary = {
@@ -532,7 +547,10 @@ const FR_FR: Dictionary = {
   cardSingular: 'carte',
   cardPlural: 'cartes',
   reviewCorrectionHeading: 'Regarde encore — tu reverras cette carte bientôt.',
+  reviewIntentionHeading: "Objectif du jour : tu t'entraînes à :",
   reviewContinueButton: 'Continuer',
+  reviewNextHeading: 'Que veux-tu faire maintenant ?',
+  reviewPracticeMore: 'S’entraîner encore',
 };
 
 const DICTIONARIES: Record<string, Dictionary> = {

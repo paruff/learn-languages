@@ -23,6 +23,11 @@ for (const r of await getCollection('realisations')) {
     grammarByNode[r.data.nodeId] = { point: g.point, explanation: g.explanation };
   }
 }
+const canDoByNode: Record<string, string> = {};
+const pairNodeIds = new Set(items.map((i) => i.nodeId));
+for (const n of await getCollection('cefr-nodes')) {
+  if (pairNodeIds.has(n.data.nodeId)) canDoByNode[n.data.nodeId] = n.data.canDo;
+}
 ---
 
 <BaseLayout
@@ -48,6 +53,17 @@ for (const r of await getCollection('realisations')) {
     <strong>{getString(sourceLang, 'reviewHintTypeLabel')}</strong>{' '}
     {getString(sourceLang, 'reviewHintTypeText')}
   </p>
+  <section
+    id="review-intention"
+    class="card review-intention"
+    aria-labelledby="review-intention-heading"
+    hidden
+  >
+    <p id="review-intention-heading" class="review-intention__heading">
+      {getString(sourceLang, 'reviewIntentionHeading')}
+    </p>
+    <ul id="review-intention-list" class="review-intention__list"></ul>
+  </section>
   <p id="review-empty" class="card" hidden>{getString(sourceLang, 'reviewEmpty')}</p>
   <p id="review-no-studied" class="card" hidden>
     {getString(sourceLang, 'reviewNoStudied')}{' '}
@@ -151,7 +167,7 @@ for (const r of await getCollection('realisations')) {
   <script
     type="application/json"
     id="review-data"
-    set:html={JSON.stringify({ sourceLang, targetLang, items, grammarByNode })}
+    set:html={JSON.stringify({ sourceLang, targetLang, items, grammarByNode, canDoByNode })}
   />
 </BaseLayout>
 
@@ -205,6 +221,17 @@ for (const r of await getCollection('realisations')) {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
+  .review-intention {
+    max-width: 420px;
+  }
+  .review-intention__heading {
+    font-weight: 600;
+    margin-top: 0;
+  }
+  .review-intention__list {
+    margin: 0;
+    padding-left: calc(var(--spacing-unit) * 2.5);
+  }
   .review-correction {
     max-width: 420px;
     text-align: center;
@@ -222,6 +249,15 @@ for (const r of await getCollection('realisations')) {
   .review-correction__grammar {
     color: var(--color-text-muted);
     margin: var(--spacing-unit) 0;
+  }
+  .review-next__heading {
+    font-weight: 600;
+    margin-top: 0;
+  }
+  .review-next__actions {
+    display: flex;
+    gap: var(--spacing-unit);
+    flex-wrap: wrap;
   }
   .review-reflection {
     text-align: center;
@@ -306,13 +342,14 @@ for (const r of await getCollection('realisations')) {
   }
 
   const dataEl = document.getElementById('review-data');
-  const { sourceLang, targetLang, items, grammarByNode } = JSON.parse(
+  const { sourceLang, targetLang, items, grammarByNode, canDoByNode } = JSON.parse(
     dataEl?.textContent ?? '{}'
   ) as {
     sourceLang: string;
     targetLang: string;
     items: PairItem[];
     grammarByNode: Record<string, { point: string; explanation: string }>;
+    canDoByNode: Record<string, string>;
   };
 
   // Quality maps 1-4 (Again/Hard/Good/Easy) to SM-2's 0-5 scale (spec §6.3).
@@ -345,6 +382,8 @@ for (const r of await getCollection('realisations')) {
   const emptyEl = document.getElementById('review-empty')!;
   const noStudiedEl = document.getElementById('review-no-studied')!;
   const summaryEl = document.getElementById('review-summary')!;
+  const nextEl = document.getElementById('review-next')!;
+  const practiceMoreBtn = document.getElementById('review-practice-more')!;
   const progressEl = document.getElementById('review-progress')!;
   const imageEl = document.getElementById('review-image') as HTMLImageElement;
   const frontEl = document.getElementById('review-front')!;
@@ -489,6 +528,7 @@ for (const r of await getCollection('realisations')) {
       return;
     }
     hideReflection();
+    nextEl.hidden = true;
     correctionEl.hidden = true;
     progressEl.textContent = format(getString(sourceLang, 'reviewProgress'), {
       current: reviewed + 1,
@@ -533,7 +573,24 @@ for (const r of await getCollection('realisations')) {
     }
   }
 
+  // L11: state the session's learning intention — the Can-Do statements the
+  // due cards serve — before the first card ("Where am I going?").
+  function renderIntention(): void {
+    const intentionEl = document.getElementById('review-intention')!;
+    const canDos = [...new Set(queue.map((i) => canDoByNode[i.nodeId]).filter(Boolean))];
+    // Cap the list so a big queue can't push the first card below the fold.
+    const shown = canDos.slice(0, 3);
+    if (canDos.length > shown.length) shown.push(`+${canDos.length - shown.length}`);
+    document
+      .getElementById('review-intention-list')!
+      .replaceChildren(
+        ...shown.map((text) => Object.assign(document.createElement('li'), { textContent: text }))
+      );
+    intentionEl.hidden = canDos.length === 0;
+  }
+
   function renderQueueState(): void {
+    renderIntention();
     if (queue.length === 0) {
       cardEl.hidden = true;
       summaryEl.hidden = true;
