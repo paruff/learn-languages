@@ -1,7 +1,7 @@
 {
   "languages": {
     "de-DE": {
-      "missingConcepts": 573,
+      "missingConcepts": 465,
       "missingNodes": 31
     },
     "es-ES": {
@@ -14,7 +14,7 @@
     },
     "it-IT": {
       "missingConcepts": 125,
-      "missingNodes": 50
+      "missingNodes": 30
     }
   }
 }

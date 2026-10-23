@@ -1,54 +1,54 @@
 nodeId: B2-SOCIAL-003
 lang: de-DE
 vocabulary:
-  - id: de-DE-B2-SOCIAL-003-001
-    concept: 'to-justify'
-    term: 'begründen'
-    translation: 'to justify'
-    partOfSpeech: verb
-    gender: n/a
-    example: 'Können Sie Ihre Meinung begründen?'
-    exampleTranslation: 'Can you justify your opinion?'
-  - id: de-DE-B2-SOCIAL-003-002
-    concept: 'to-maintain'
-    term: 'aufrechterhalten'
-    translation: 'to maintain / to sustain'
-    partOfSpeech: verb
-    gender: n/a
-    example: 'Ich halte meine Meinung aufrecht.'
-    exampleTranslation: 'I maintain my opinion.'
-  - id: de-DE-B2-SOCIAL-003-003
-    concept: 'explanation'
-    term: 'Erklärung'
-    translation: 'explanation'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Erklärung war überzeugend.'
-    exampleTranslation: 'The explanation was convincing.'
-  - id: de-DE-B2-SOCIAL-003-004
-    concept: 'argument'
-    term: 'Argument'
-    translation: 'argument'
-    partOfSpeech: noun
-    gender: neuter
-    example: 'Das ist ein starkes Argument.'
-    exampleTranslation: 'That is a strong argument.'
-  - id: de-DE-B2-SOCIAL-003-005
-    concept: 'to-convince'
-    term: 'überzeugen'
-    translation: 'to convince'
-    partOfSpeech: verb
-    gender: n/a
-    example: 'Das überzeugt mich nicht.'
-    exampleTranslation: 'That does not convince me.'
-  - id: de-DE-B2-SOCIAL-003-006
-    concept: 'to-communicate'
-    term: 'sich verständigen'
-    translation: 'to communicate / to come to an understanding'
+  - id: de-DE-B2-SOCIAL-003-007
+    concept: 'to-defend-my-position'
+    term: 'meine Position verteidigen'
+    translation: 'to defend my position'
     partOfSpeech: phrase
     gender: n/a
-    example: 'Wir haben uns gut verständigt.'
-    exampleTranslation: 'We communicated well.'
+    example: 'Ich kann meine Position mit stichhaltigen Argumenten verteidigen.'
+    exampleTranslation: 'I can defend my position with solid arguments.'
+  - id: de-DE-B2-SOCIAL-003-008
+    concept: 'to-justify-the-decision'
+    term: 'die Entscheidung begründen'
+    translation: 'to justify the decision'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich muss meine Entscheidung mit Fakten begründen.'
+    exampleTranslation: 'I need to justify my decision with facts.'
+  - id: de-DE-B2-SOCIAL-003-009
+    concept: 'to-sustain-the-opinion'
+    term: 'die Meinung untermauern'
+    translation: 'to sustain the opinion'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Es ist wichtig, die Meinung mit Beispielen zu untermauern.'
+    exampleTranslation: 'It is important to sustain the opinion with examples.'
+  - id: de-DE-B2-SOCIAL-003-010
+    concept: 'to-present-reasons'
+    term: 'Gründe anführen'
+    translation: 'to present reasons'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich führe Gründe an, um mein Argument zu stützen.'
+    exampleTranslation: 'I will present reasons to support my argument.'
+  - id: de-DE-B2-SOCIAL-003-011
+    concept: 'to-explain-the-reasoning'
+    term: 'die Überlegung erklären'
+    translation: 'to explain the reasoning'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Es ist nützlich, die Überlegung zu erklären, damit alle sie verstehen.'
+    exampleTranslation: 'It is useful to explain the reasoning so that everyone understands.'
+  - id: de-DE-B2-SOCIAL-003-012
+    concept: 'to-partially-agree'
+    term: 'teilweise zustimmen'
+    translation: 'to partially agree'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich stimme teilweise zu, habe aber Vorbehalte.'
+    exampleTranslation: 'I partially agree, but I have reservations.'
 grammar:
   - id: B2-SOCIAL-003-GR01
     point: 'Accounting for and sustaining views'

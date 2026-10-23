@@ -1,53 +1,53 @@
 nodeId: B2-TEXT-004
 lang: de-DE
 vocabulary:
-  - id: de-DE-B2-TEXT-004-001
-    concept: 'conclusion'
-    term: 'Schlussfolgerung'
-    translation: 'conclusion'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Schlussfolgerung war logisch.'
-    exampleTranslation: 'The conclusion was logical.'
-  - id: de-DE-B2-TEXT-004-002
-    concept: 'to-recognize'
-    term: 'erkennen'
-    translation: 'to recognize'
-    partOfSpeech: verb
+  - id: de-DE-B2-TEXT-004-007
+    concept: 'to-understand-conclusions-of-argumentative-texts'
+    term: 'Schlussfolgerungen argumentativer Texte verstehen'
+    translation: 'to understand conclusions of argumentative texts'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich kann die Schlussfolgerung erkennen.'
-    exampleTranslation: 'I can recognize the conclusion.'
-  - id: de-DE-B2-TEXT-004-003
-    concept: 'argumentative-text'
-    term: 'Argumentationstext'
-    translation: 'argumentative text'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Der Argumentationstext war klar strukturiert.'
-    exampleTranslation: 'The argumentative text was clearly structured.'
-  - id: de-DE-B2-TEXT-004-004
-    concept: 'emphasis'
-    term: 'Hervorhebung'
-    translation: 'emphasis'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Hervorhebung war wichtig.'
-    exampleTranslation: 'The emphasis was important.'
-  - id: de-DE-B2-TEXT-004-005
-    concept: 'structure'
-    term: 'Struktur'
-    translation: 'structure'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Struktur war klar.'
-    exampleTranslation: 'The structure was clear.'
-  - id: de-DE-B2-TEXT-004-006
-    concept: 'to-understand'
-    term: 'verstehen'
-    translation: 'to understand'
-    partOfSpeech: verb
+    example: 'Ich kann die Schlussfolgerungen argumentativer Texte verstehen.'
+    exampleTranslation: 'I can understand conclusions of argumentative texts.'
+  - id: de-DE-B2-TEXT-004-008
+    concept: 'to-identify-conclusion-markers'
+    term: 'Schlussmarker erkennen'
+    translation: 'to identify conclusion markers'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich verstehe die Schlussfolgerung.'
-    exampleTranslation: 'I understand the conclusion.'
+    example: 'Es ist wichtig, Schlussmarker im Text zu erkennen.'
+    exampleTranslation: 'It is important to identify conclusion markers in the text.'
+  - id: de-DE-B2-TEXT-004-009
+    concept: 'to-synthesise-the-main-ideas'
+    term: 'die Hauptgedanken zusammenfassen'
+    translation: 'to synthesise the main ideas'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich fasse die Hauptgedanken des Artikels zusammen.'
+    exampleTranslation: 'I will synthesise the main ideas of the article.'
+  - id: de-DE-B2-TEXT-004-010
+    concept: 'to-evaluate-the-conclusion'
+    term: 'die Schlussfolgerung bewerten'
+    translation: 'to evaluate the conclusion'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich muss bewerten, ob die Schlussfolgerung begründet ist.'
+    exampleTranslation: 'I need to evaluate whether the conclusion is sustained.'
+  - id: de-DE-B2-TEXT-004-011
+    concept: 'to-relate-conclusion-with-premises'
+    term: 'die Schlussfolgerung mit den Prämissen verknüpfen'
+    translation: 'to relate conclusion with premises'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich verknüpfe die Schlussfolgerung mit den dargelegten Prämissen.'
+    exampleTranslation: 'I will relate the conclusion with the presented premises.'
+  - id: de-DE-B2-TEXT-004-012
+    concept: 'to-extract-implications'
+    term: 'Folgerungen ableiten'
+    translation: 'to extract implications'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich kann aus dem Text relevante Folgerungen ableiten.'
+    exampleTranslation: 'I can extract relevant implications from the text.'
 grammar: []
 culturalNotes: 'German argumentative texts often use explicit signposting ("Zusammenfassend", "Daraus folgt", "Abschließend"); recognizing these markers is key to B2 reading comprehension.'

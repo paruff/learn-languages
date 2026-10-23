@@ -1,54 +1,54 @@
 nodeId: B2-SOCIAL-001
 lang: de-DE
 vocabulary:
-  - id: de-DE-B2-SOCIAL-001-001
-    concept: 'fluency'
-    term: 'Flüssigkeit'
-    translation: 'fluency'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Seine Flüssigkeit in Deutsch ist beeindruckend.'
-    exampleTranslation: 'His fluency in German is impressive.'
-  - id: de-DE-B2-SOCIAL-001-002
-    concept: 'spontaneity'
-    term: 'Spontanität'
-    translation: 'spontaneity'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Spontanität ist in Gesprächen wichtig.'
-    exampleTranslation: 'Spontaneity is important in conversations.'
-  - id: de-DE-B2-SOCIAL-001-003
-    concept: 'topic-related'
-    term: 'themenbezogen'
-    translation: 'topic-related'
-    partOfSpeech: adjective
-    gender: n/a
-    example: 'Wir sprechen über themenbezogene Themen.'
-    exampleTranslation: 'We speak about topic-related topics.'
-  - id: de-DE-B2-SOCIAL-001-004
-    concept: 'fluent'
-    term: 'fließend'
-    translation: 'fluent'
-    partOfSpeech: adjective
-    gender: n/a
-    example: 'Er spricht fließend Deutsch.'
-    exampleTranslation: 'He speaks fluent German.'
-  - id: de-DE-B2-SOCIAL-001-005
-    concept: 'to-converse'
-    term: 'sich unterhalten'
-    translation: 'to converse'
+  - id: de-DE-B2-SOCIAL-001-007
+    concept: 'to-deepen-the-discussion'
+    term: 'die Diskussion vertiefen'
+    translation: 'to deepen the discussion'
     partOfSpeech: phrase
     gender: n/a
-    example: 'Wir haben uns gut unterhalten.'
-    exampleTranslation: 'We had a good conversation.'
-  - id: de-DE-B2-SOCIAL-001-006
-    concept: 'change-of-topic'
-    term: 'Themenwechsel'
-    translation: 'change of topic'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Ein Themenwechsel wäre jetzt gut.'
-    exampleTranslation: 'A change of topic would be good now.'
+    example: 'Können wir die Diskussion zu diesem Thema vertiefen?'
+    exampleTranslation: 'Can we deepen the discussion about this topic?'
+  - id: de-DE-B2-SOCIAL-001-008
+    concept: 'to-keep-the-conversation-going'
+    term: 'das Gespräch in Gang halten'
+    translation: 'to keep the conversation going'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Es ist wichtig, das Gespräch in Gang zu halten.'
+    exampleTranslation: 'It is important to keep the conversation flowing.'
+  - id: de-DE-B2-SOCIAL-001-009
+    concept: 'to-react-spontaneously'
+    term: 'spontan reagieren'
+    translation: 'to react spontaneously'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'In Diskussionen kann ich spontan reagieren.'
+    exampleTranslation: 'I can react spontaneously in discussions.'
+  - id: de-DE-B2-SOCIAL-001-010
+    concept: 'to-participate-actively'
+    term: 'aktiv teilnehmen'
+    translation: 'to participate actively'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich nehme gern aktiv am Unterricht teil.'
+    exampleTranslation: 'I like to participate actively in classes.'
+  - id: de-DE-B2-SOCIAL-001-011
+    concept: 'to-express-ideas-clearly'
+    term: 'Gedanken klar ausdrücken'
+    translation: 'to express ideas clearly'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Es ist grundlegend, Gedanken klar auszudrücken.'
+    exampleTranslation: 'It is fundamental to express ideas clearly.'
+  - id: de-DE-B2-SOCIAL-001-012
+    concept: 'to-interact-with-fluency'
+    term: 'flüssig interagieren'
+    translation: 'to interact with fluency'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich möchte auf Deutsch flüssig interagieren.'
+    exampleTranslation: 'I want to interact with fluency in Portuguese.'
 grammar:
   - id: B2-SOCIAL-001-GR01
     point: 'Interacting with fluency and spontaneity'

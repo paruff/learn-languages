@@ -1,54 +1,54 @@
 nodeId: B2-SOCIAL-002
 lang: de-DE
 vocabulary:
-  - id: de-DE-B2-SOCIAL-002-001
-    concept: 'discussion'
-    term: 'Diskussion'
-    translation: 'discussion'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Diskussion war sehr konstruktiv.'
-    exampleTranslation: 'The discussion was very constructive.'
-  - id: de-DE-B2-SOCIAL-002-002
-    concept: 'context-related'
-    term: 'kontextbezogen'
-    translation: 'context-related'
-    partOfSpeech: adjective
-    gender: n/a
-    example: 'Die Diskussion war kontextbezogen.'
-    exampleTranslation: 'The discussion was context-related.'
-  - id: de-DE-B2-SOCIAL-002-003
-    concept: 'to-participate-actively'
-    term: 'aktiv teilnehmen'
-    translation: 'to participate actively'
+  - id: de-DE-B2-SOCIAL-002-007
+    concept: 'to-debate-topics'
+    term: 'Themen debattieren'
+    translation: 'to debate topics'
     partOfSpeech: phrase
     gender: n/a
-    example: 'Ich nehme aktiv an der Diskussion teil.'
-    exampleTranslation: 'I actively participate in the discussion.'
-  - id: de-DE-B2-SOCIAL-002-004
-    concept: 'to-express-an-opinion'
-    term: 'Meinung äußern'
-    translation: 'to express an opinion'
+    example: 'Ich debattiere gern mit meinen Freunden über aktuelle Themen.'
+    exampleTranslation: 'I like to debate current topics with my friends.'
+  - id: de-DE-B2-SOCIAL-002-008
+    concept: 'to-participate-in-discussions'
+    term: 'an Diskussionen teilnehmen'
+    translation: 'to participate in discussions'
     partOfSpeech: phrase
     gender: n/a
-    example: 'Ich möchte meine Meinung äußern.'
-    exampleTranslation: 'I would like to express my opinion.'
-  - id: de-DE-B2-SOCIAL-002-005
-    concept: 'to-agree'
-    term: 'zustimmen'
-    translation: 'to agree'
-    partOfSpeech: verb
+    example: 'Es ist wichtig, aktiv an Diskussionen teilzunehmen.'
+    exampleTranslation: 'It is important to participate actively in discussions.'
+  - id: de-DE-B2-SOCIAL-002-009
+    concept: 'to-express-points-of-view'
+    term: 'Standpunkte äußern'
+    translation: 'to express points of view'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich stimme Ihnen zu.'
-    exampleTranslation: 'I agree with you.'
-  - id: de-DE-B2-SOCIAL-002-006
-    concept: 'to-reject'
-    term: 'ablehnen'
-    translation: 'to reject / to decline'
-    partOfSpeech: verb
+    example: 'Ich kann meine Standpunkte klar äußern.'
+    exampleTranslation: 'I can express my points of view clearly.'
+  - id: de-DE-B2-SOCIAL-002-010
+    concept: 'to-argue-in-favour'
+    term: 'dafür argumentieren'
+    translation: 'to argue in favour'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich lehne Ihren Vorschlag ab.'
-    exampleTranslation: 'I reject your proposal.'
+    example: 'Ich werde für meine Position argumentieren.'
+    exampleTranslation: 'I will argue in favour of my position.'
+  - id: de-DE-B2-SOCIAL-002-011
+    concept: 'to-counter-arguments'
+    term: 'Argumenten entgegentreten'
+    translation: 'to counter arguments'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Es ist nützlich, Argumenten entgegenzutreten, um die Diskussion zu bereichern.'
+    exampleTranslation: 'It is useful to counter arguments to enrich the discussion.'
+  - id: de-DE-B2-SOCIAL-002-012
+    concept: 'to-reach-consensus'
+    term: 'einen Konsens erzielen'
+    translation: 'to reach consensus'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Das Ziel ist, einen Konsens zu erzielen, keinen Konflikt.'
+    exampleTranslation: 'The goal is to reach consensus, not conflict.'
 grammar:
   - id: B2-SOCIAL-002-GR01
     point: 'Taking active part in discussions'

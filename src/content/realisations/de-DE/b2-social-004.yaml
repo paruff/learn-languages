@@ -1,54 +1,54 @@
 nodeId: B2-SOCIAL-004
 lang: de-DE
 vocabulary:
-  - id: de-DE-B2-SOCIAL-004-001
-    concept: 'point-of-view'
-    term: 'Standpunkt'
-    translation: 'point of view'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Ich möchte meinen Standpunkt klarstellen.'
-    exampleTranslation: 'I would like to clarify my point of view.'
-  - id: de-DE-B2-SOCIAL-004-002
-    concept: 'to-explain'
-    term: 'darlegen'
-    translation: 'to explain / to present'
-    partOfSpeech: verb
+  - id: de-DE-B2-SOCIAL-004-007
+    concept: 'to-clarify-doubts'
+    term: 'Zweifel ausräumen'
+    translation: 'to clarify doubts'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich lege meinen Standpunkt dar.'
-    exampleTranslation: 'I explain my point of view.'
-  - id: de-DE-B2-SOCIAL-004-003
-    concept: 'comprehensible'
-    term: 'nachvollziehbar'
-    translation: 'comprehensible / understandable'
-    partOfSpeech: adjective
+    example: 'Ich kann deine Zweifel zu dem Thema ausräumen.'
+    exampleTranslation: 'I can clarify your doubts about the subject.'
+  - id: de-DE-B2-SOCIAL-004-008
+    concept: 'to-detail-the-explanation'
+    term: 'die Erklärung ausführen'
+    translation: 'to detail the explanation'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ihre Erklärung war nachvollziehbar.'
-    exampleTranslation: 'Your explanation was comprehensible.'
-  - id: de-DE-B2-SOCIAL-004-004
-    concept: 'to-clarify'
-    term: 'klarstellen'
-    translation: 'to clarify'
-    partOfSpeech: verb
+    example: 'Ich führe die Erklärung genauer aus, damit sie klarer wird.'
+    exampleTranslation: 'I will detail the explanation for greater clarity.'
+  - id: de-DE-B2-SOCIAL-004-009
+    concept: 'to-specify-the-concept'
+    term: 'den Begriff präzisieren'
+    translation: 'to specify the concept'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich möchte das klarstellen.'
-    exampleTranslation: 'I would like to clarify that.'
-  - id: de-DE-B2-SOCIAL-004-005
-    concept: 'understandable'
-    term: 'verständlich'
-    translation: 'understandable'
-    partOfSpeech: adjective
+    example: 'Es ist wichtig, den Begriff zu präzisieren, bevor wir diskutieren.'
+    exampleTranslation: 'It is important to specify the concept before discussing.'
+  - id: de-DE-B2-SOCIAL-004-010
+    concept: 'to-exemplify-with-situations'
+    term: 'an Situationen veranschaulichen'
+    translation: 'to exemplify with situations'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Das war sehr verständlich.'
-    exampleTranslation: 'That was very understandable.'
-  - id: de-DE-B2-SOCIAL-004-006
-    concept: 'detail'
-    term: 'Detail'
-    translation: 'detail'
-    partOfSpeech: noun
-    gender: neuter
-    example: 'Können Sie das Detail erklären?'
-    exampleTranslation: 'Can you explain the detail?'
+    example: 'Ich kann es an realen Situationen veranschaulichen.'
+    exampleTranslation: 'I can exemplify with real situations.'
+  - id: de-DE-B2-SOCIAL-004-011
+    concept: 'to-reinterpret-the-idea'
+    term: 'die Idee neu formulieren'
+    translation: 'to reinterpret the idea'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich formuliere die Idee einfacher neu.'
+    exampleTranslation: 'I will reinterpret the idea in a simpler way.'
+  - id: de-DE-B2-SOCIAL-004-012
+    concept: 'to-ensure-understanding'
+    term: 'das Verständnis sicherstellen'
+    translation: 'to ensure understanding'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich möchte das Verständnis sicherstellen, bevor wir weitermachen.'
+    exampleTranslation: 'I want to ensure understanding before continuing.'
 grammar:
   - id: B2-SOCIAL-004-GR01
     point: 'Clarifying detailed points of view'
