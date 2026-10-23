@@ -11,7 +11,7 @@ export async function getStaticPaths() {
 
 const { sourceLang, targetLang } = Astro.params;
 const conceptImages = (await getCollection('concept-images'))
-  .flatMap((entry) => entry.data)
+  .map((entry) => entry.data)
   .map((image) => {
     const resolvedTarget = targetLang ? image.overrides?.[targetLang] : undefined;
     if (resolvedTarget) {
