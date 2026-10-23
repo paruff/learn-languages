@@ -73,6 +73,17 @@ test.describe('review session', () => {
     await expect(progress).toHaveText(`1 of ${newTotal}`);
   });
 
+  test('states the Can-Do learning intention before the first card (L11)', async ({ page }) => {
+    const intention = page.locator('#review-intention');
+    await expect(intention).toBeVisible();
+    await expect(intention.locator('li').first()).not.toBeEmpty();
+    const [intentionBox, cardBox] = await Promise.all([
+      intention.boundingBox(),
+      page.locator('#review-card').boundingBox(),
+    ]);
+    expect(intentionBox!.y).toBeLessThan(cardBox!.y);
+  });
+
   test('grading Again shows the example and translation before the next card (L10)', async ({
     page,
   }) => {
