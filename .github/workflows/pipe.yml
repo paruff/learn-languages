@@ -176,6 +176,8 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: 'npm'
+      # npm ci's lefthook postinstall runs git; the container user doesn't own the checkout.
+      - run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
       - run: npm ci
       # The image's browsers must match the installed Playwright exactly.
       - run: |
