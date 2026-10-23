@@ -59,7 +59,7 @@ Ordered by how directly each serves intent §3 ("comes back").
 | --- | ----------------------------------------------------------------------------------------------------- | ------- | ---------- | ---------------------------------------------------------------------- |
 | 2.1 | Corrective support on "Again": example, translation and grammar note before re-queueing               | L10     | #196       | E2E: an Again grade shows the example before the next card             |
 | 2.2 | State the session's learning intention (Can-Do statements) at the start of review                     | L11     | #197       | E2E: the review page lists the Can-Do statements before the first card |
-| 2.3 | Week-2 return measurement beyond the manual report                                                    | S6      | #198       | Week-2 return rate observable without breaking S3                      |
+| 2.3 | Week-2 return measurement beyond the manual report                                                    | S6      | #198       | Done #234: on-device flags in report (owner: enough)                   |
 | 2.4 | Grammar points in the retrieval loop, with contrastive notes by source language                       | L8, L15 | #126, #144 | One grammar point graded in a real review session                      |
 | 2.5 | Soft prerequisites for A1, recommended first                                                          | L12     | #199       | Progress "next up" picks an unmastered prerequisite                    |
 | 2.6 | Regional TTS voice detection and fallback                                                             | Q3      | #200       | Correct voice verified on iOS Safari and Android Chrome                |
