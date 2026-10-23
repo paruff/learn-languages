@@ -164,6 +164,25 @@ for (const n of await getCollection('cefr-nodes')) {
   </div>
   <p id="review-reflection-thanks" class="review-reflection__thanks" hidden></p>
 
+  <p id="review-plan" class="review-plan" hidden></p>
+  <form id="review-nextform" class="card review-nextform" hidden>
+    <label for="review-nextform-text">{getString(sourceLang, 'nextSessionQuestion')}</label>
+    <input id="review-nextform-text" type="text" maxlength="120" autocomplete="off" />
+    <label for="review-nextform-time">{getString(sourceLang, 'nextSessionTime')}</label>
+    <input id="review-nextform-time" type="time" value="08:00" />
+    <div class="review-reflection__options">
+      <button type="submit" class="btn btn--primary"
+        >{getString(sourceLang, 'nextSessionSave')}</button
+      >
+      <button type="button" id="review-nextform-ics" class="btn btn--secondary">
+        {getString(sourceLang, 'nextSessionCalendar')}
+      </button>
+      <button type="button" id="review-nextform-skip" class="btn btn--secondary">
+        {getString(sourceLang, 'reviewReflectionSkip')}
+      </button>
+    </div>
+  </form>
+
   <script
     type="application/json"
     id="review-data"
@@ -269,6 +288,14 @@ for (const n of await getCollection('cefr-nodes')) {
     justify-content: center;
     margin-block: calc(var(--spacing-unit) * 1.5);
   }
+  .review-nextform {
+    display: grid;
+    gap: var(--spacing-unit);
+  }
+  .review-plan {
+    color: var(--color-text-muted);
+    font-size: 0.875rem;
+  }
   .review-reflection__thanks {
     color: var(--color-text-muted);
     font-size: 0.875rem;
@@ -319,6 +346,12 @@ for (const n of await getCollection('cefr-nodes')) {
   import { DAILY_NEW_CAP, selectDue } from '../../../lib/reviewSession';
   import { withBase } from '../../../lib/urls';
   import { computeOverallMastery } from '../../../lib/progress';
+  import {
+    saveIntention,
+    loadIntention,
+    markCalendarUsed,
+    buildIcs,
+  } from '../../../lib/nextSession';
   import { saveReflection, loadReflection, type ReflectionResponse } from '../../../lib/reflection';
   import { checkAnswer } from '../../../lib/exerciseCheck';
   import { recordGradeForCalibration } from '../../../lib/calibration';
@@ -451,6 +484,53 @@ for (const n of await getCollection('cefr-nodes')) {
     reflectionEl.hidden = true;
   });
 
+  const planEl = document.getElementById('review-plan')!;
+  const nextFormEl = document.getElementById('review-nextform') as HTMLFormElement;
+  const nextFormText = document.getElementById('review-nextform-text') as HTMLInputElement;
+  const nextFormTime = document.getElementById('review-nextform-time') as HTMLInputElement;
+
+  function showPlan(): boolean {
+    const saved = loadIntention(sourceLang, targetLang);
+    planEl.hidden = !saved;
+    if (saved) {
+      planEl.textContent = format(getString(sourceLang, 'nextSessionSaved'), { plan: saved.text });
+    }
+    return saved !== null;
+  }
+
+  function showNextFormPrompt(): void {
+    nextFormEl.hidden = showPlan();
+  }
+
+  nextFormEl.addEventListener('submit', (event) => {
+    event.preventDefault();
+    saveIntention(sourceLang, targetLang, nextFormText.value, todayKey());
+    nextFormEl.hidden = showPlan();
+  });
+  document.getElementById('review-nextform-skip')!.addEventListener('click', () => {
+    nextFormEl.hidden = true;
+  });
+  // Generated on-device from a Blob: no network request (spec L21).
+  document.getElementById('review-nextform-ics')!.addEventListener('click', () => {
+    if (!nextFormText.value.trim()) {
+      nextFormText.focus();
+      return;
+    }
+    saveIntention(sourceLang, targetLang, nextFormText.value, todayKey());
+    markCalendarUsed(sourceLang, targetLang);
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(
+      new Blob([buildIcs(nextFormText.value.trim(), nextFormTime.value || '08:00')], {
+        type: 'text/calendar',
+      })
+    );
+    link.download = 'acquira-next-session.ics';
+    link.click();
+    URL.revokeObjectURL(link.href);
+    nextFormEl.hidden = showPlan();
+  });
+  showPlan();
+
   function frontOf(item: PairItem) {
     return direction === 'forward' ? item.source : item.target;
   }
@@ -525,9 +605,11 @@ for (const n of await getCollection('cefr-nodes')) {
         after: masteryAfter,
       });
       showReflectionPrompt();
+      showNextFormPrompt();
       return;
     }
     hideReflection();
+    nextFormEl.hidden = true;
     nextEl.hidden = true;
     correctionEl.hidden = true;
     progressEl.textContent = format(getString(sourceLang, 'reviewProgress'), {

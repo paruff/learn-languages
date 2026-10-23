@@ -29,6 +29,7 @@ const first = lessons[0];
       <p class="continue__next" data-next>
         {first.canDo}
       </p>
+      <p class="continue__plan" data-plan hidden />
       <a
         class="btn btn--primary"
         data-btn
@@ -45,6 +46,8 @@ const first = lessons[0];
 <script>
   import { withBase } from '../lib/urls';
   import { loadStudied, recommendNext } from '../lib/path';
+  import { loadIntention } from '../lib/nextSession';
+  import { getString, format } from '../lib/strings';
   import { loadPairPreference } from '../lib/pairPreference';
 
   for (const el of document.querySelectorAll<HTMLElement>('[data-continue]')) {
@@ -57,6 +60,12 @@ const first = lessons[0];
       prerequisiteNodes?: string[];
     }[];
     const i = recommendNext(lessons, loadStudied(sourceLang, targetLang));
+    const plan = loadIntention(sourceLang, targetLang);
+    const planEl = el.querySelector<HTMLElement>('[data-plan]')!;
+    if (plan) {
+      planEl.textContent = format(getString(sourceLang, 'nextSessionSaved'), { plan: plan.text });
+      planEl.hidden = false;
+    }
     const btn = el.querySelector<HTMLAnchorElement>('[data-btn]')!;
     if (i === -1) {
       el.querySelector('[data-step]')!.textContent = String(lessons.length);
@@ -80,6 +89,10 @@ const first = lessons[0];
   .continue__goal {
     margin: 0 0 calc(var(--spacing-unit) * 0.5);
     font-size: 0.875rem;
+    color: var(--color-text-muted);
+  }
+  .continue__plan {
+    margin: 0 0 calc(var(--spacing-unit) * 1.5);
     color: var(--color-text-muted);
   }
   .continue__next {

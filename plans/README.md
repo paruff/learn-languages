@@ -42,7 +42,7 @@ Get real learners through the Portuguese loop, see them return, and find where t
 | 1.3  | Fix whatever session-1 friction 1.1 finds, worst first                                                              | Q6            | new per finding | The friction no longer happens when the observer reruns it       |
 | 1.4  | Record the outcome (Q-2 above)                                                                                      | —             | #21             | A decision written in this file                                  |
 | 1.5  | Ask for persistent storage so Safari's 7-day cap can't wipe progress before the day-7 follow-up                     | S8            | #241            | Unit test + dated iOS Safari run in the device checklist         |
-| 1.6  | Plan the next session: implementation-intention prompt and optional `.ics` reminder (owner: yes to Q-3, 2026-10-23) | L21           | #243            | E2E: skippable, shown on next visit, no network request          |
+| 1.6  | ✅ Plan the next session: implementation-intention prompt and optional `.ics` reminder (owner: yes to Q-3, 2026-10-23) | L21           | #243            | E2E: skippable, shown on next visit, no network request          |
 
 ## G2 Correct content (concept-keyed) — **now, owner exception**
 

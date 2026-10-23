@@ -157,6 +157,7 @@ const targetName = languageName(targetLang);
 </style>
 
 <script>
+  import { loadIntention } from '../../../lib/nextSession';
   import { loadState, loadStudied, exportProgress, importProgress } from '../../../lib/storage';
   import {
     computeCefrProgress,
@@ -282,6 +283,7 @@ const targetName = languageName(targetLang);
       : `Of ${retention.opportunities} words you met again after a week or more, you remembered ${retention.recalled} (${Math.round(retention.rate * 100)}%).`;
   retentionEl.hidden = false;
 
+  const plan = loadIntention(sourceLang, targetLang);
   const commentEl = document.getElementById('report-comment') as HTMLTextAreaElement;
   const previewEl = document.getElementById('report-preview')!;
   const emailEl = document.getElementById('report-email') as HTMLAnchorElement;
@@ -295,6 +297,7 @@ const targetName = languageName(targetLang);
         masteredItems,
         totalItems,
       })),
+      nextSession: { planned: !!plan, calendar: plan?.calendar === true },
       comment: commentEl.value,
       generatedOn: new Date().toISOString().slice(0, 10),
     });

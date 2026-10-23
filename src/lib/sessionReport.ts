@@ -5,6 +5,7 @@ interface ReportInput {
   targetLang: string;
   log: GradeEntry[];
   levels: { cefrLevel: string; masteredItems: number; totalItems: number }[];
+  nextSession: { planned: boolean; calendar: boolean };
   comment: string;
   generatedOn: string;
 }
@@ -27,6 +28,7 @@ export function buildSessionReport(input: ReportInput): string {
     retention: computeRetention(input.log),
     returned: computeReturn(input.log),
     levels: input.levels,
+    nextSession: input.nextSession,
     comment: input.comment.trim(),
   };
   return `Acquira session report (${data.generatedOn})\nSent by the learner, nothing else is shared.\n\n${JSON.stringify(data, null, 2)}`;
