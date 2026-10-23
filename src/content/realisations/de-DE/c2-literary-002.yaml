@@ -1,53 +1,53 @@
 nodeId: C2-LITERARY-002
 lang: de-DE
 vocabulary:
-  - id: de-DE-C2-LITERARY-002-001
-    concept: 'literature'
-    term: 'Literatur'
-    translation: 'literature'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Literatur des 19. Jahrhunderts ist faszinierend.'
-    exampleTranslation: 'The literature of the 19th century is fascinating.'
-  - id: de-DE-C2-LITERARY-002-002
-    concept: 'stylistic-device'
-    term: 'Stilmittel'
-    translation: 'stylistic device'
-    partOfSpeech: noun
-    gender: neuter
-    example: 'Das Stilmittel der Metapher wurde perfekt eingesetzt.'
-    exampleTranslation: 'The stylistic device of metaphor was perfectly employed.'
-  - id: de-DE-C2-LITERARY-002-003
-    concept: 'to-interpret'
-    term: 'interpretieren'
-    translation: 'to interpret'
-    partOfSpeech: verb
+  - id: de-DE-C2-LITERARY-002-007
+    concept: 'elegant-style'
+    term: 'ein eleganter Stil'
+    translation: 'elegant style'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Sie kann die Gedichte sehr gut interpretieren.'
-    exampleTranslation: 'She can interpret the poems very well.'
-  - id: de-DE-C2-LITERARY-002-004
-    concept: 'analysis'
-    term: 'Analyse'
-    translation: 'analysis'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Analyse des Textes war tiefgründig.'
-    exampleTranslation: 'The analysis of the text was profound.'
-  - id: de-DE-C2-LITERARY-002-005
-    concept: 'text-analysis'
-    term: 'Textanalyse'
-    translation: 'text analysis'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Textanalyse war sehr detailliert.'
-    exampleTranslation: 'The text analysis was very detailed.'
-  - id: de-DE-C2-LITERARY-002-006
-    concept: 'to-summarize'
-    term: 'zusammenfassen'
-    translation: 'to summarize'
-    partOfSpeech: verb
+    example: 'Ich schreibe in einem eleganten und präzisen Stil.'
+    exampleTranslation: 'I write with an elegant and precise style.'
+  - id: de-DE-C2-LITERARY-002-008
+    concept: 'intended-effect'
+    term: 'die beabsichtigte Wirkung'
+    translation: 'intended effect'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Können Sie die Analyse zusammenfassen?'
-    exampleTranslation: 'Can you summarize the analysis?'
+    example: 'Ich erzielte beim Leser stets die beabsichtigte Wirkung.'
+    exampleTranslation: 'I always achieve the intended effect on the reader.'
+  - id: de-DE-C2-LITERARY-002-009
+    concept: 'appropriate-register'
+    term: 'das passende Register'
+    translation: 'appropriate register'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich wähle stets das passende Register für den Text.'
+    exampleTranslation: 'I always select the appropriate register for the text.'
+  - id: de-DE-C2-LITERARY-002-010
+    concept: 'adapted-style'
+    term: 'der angepasste Stil'
+    translation: 'adapted style'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich passe den Stil an Gattung und Publikum an.'
+    exampleTranslation: 'I adapt the style to the literary genre and audience.'
+  - id: de-DE-C2-LITERARY-002-011
+    concept: 'precision-and-subtlety'
+    term: 'Präzision und Feinheit'
+    translation: 'precision and subtlety'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Mein Schreiben besitzt unvergleichliche Präzision und Feinheit.'
+    exampleTranslation: 'My writing has incomparable precision and subtlety.'
+  - id: de-DE-C2-LITERARY-002-012
+    concept: 'cultured-expression'
+    term: 'ein gebildeter Ausdruck'
+    translation: 'cultured expression'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich verwende einen gebildeten und fundierten Ausdruck.'
+    exampleTranslation: 'I use a cultured and well-founded expression.'
 grammar: []
 culturalNotes: 'German literary analysis at C2 level expects "Textanalyse" (text analysis) with sophisticated interpretation of "Stilmittel" (stylistic devices) and "Motivik" (motifs).'

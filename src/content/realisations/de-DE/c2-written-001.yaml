@@ -1,54 +1,54 @@
 nodeId: C2-WRITTEN-001
 lang: de-DE
 vocabulary:
-  - id: de-DE-C2-WRITTEN-001-001
-    concept: 'text'
-    term: 'Text'
-    translation: 'text'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Ich schreibe einen klaren Text.'
-    exampleTranslation: 'I am writing a clear text.'
-  - id: de-DE-C2-WRITTEN-001-002
-    concept: 'topic'
-    term: 'Thema'
-    translation: 'topic'
-    partOfSpeech: noun
-    gender: neuter
-    example: 'Ich schreibe über ein breites Thema.'
-    exampleTranslation: 'I am writing about a wide range of topics.'
-  - id: de-DE-C2-WRITTEN-001-003
-    concept: 'detailed'
-    term: 'detailliert'
-    translation: 'detailed'
-    partOfSpeech: adjective
+  - id: de-DE-C2-WRITTEN-001-007
+    concept: 'detailed-and-well-structured-text'
+    term: 'ein ausführlicher und gut gegliederter Text'
+    translation: 'detailed and well-structured text'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Der Text war sehr detailliert.'
-    exampleTranslation: 'The text was very detailed.'
-  - id: de-DE-C2-WRITTEN-001-004
-    concept: 'structured'
-    term: 'strukturiert'
-    translation: 'structured'
-    partOfSpeech: adjective
+    example: 'Ich schreibe ausführliche und gut gegliederte Texte.'
+    exampleTranslation: 'I write detailed and well-structured texts.'
+  - id: de-DE-C2-WRITTEN-001-008
+    concept: 'development-of-arguments'
+    term: 'die Entwicklung von Argumenten'
+    translation: 'development of arguments'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Der Text war klar strukturiert.'
-    exampleTranslation: 'The text was clearly structured.'
-  - id: de-DE-C2-WRITTEN-001-005
-    concept: 'to-write'
-    term: 'verfassen'
-    translation: 'to write / to compose'
-    partOfSpeech: verb
+    example: 'Ich entwickle Argumente tragfähig und überzeugend.'
+    exampleTranslation: 'I develop arguments in a solid and convincing way.'
+  - id: de-DE-C2-WRITTEN-001-009
+    concept: 'well-founded-hypotheses'
+    term: 'begründete Hypothesen'
+    translation: 'well-founded hypotheses'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich verfasse einen Essay über das Thema.'
-    exampleTranslation: 'I am writing an essay on the topic.'
-  - id: de-DE-C2-WRITTEN-001-006
-    concept: 'main-idea'
-    term: 'Hauptgedanke'
-    translation: 'main idea'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Was ist der Hauptgedanke?'
-    exampleTranslation: 'What is the main idea?'
+    example: 'Ich stelle auf Belege gestützte, begründete Hypothesen auf.'
+    exampleTranslation: 'I present well-founded hypotheses based on evidence.'
+  - id: de-DE-C2-WRITTEN-001-010
+    concept: 'appropriate-format'
+    term: 'das passende Format'
+    translation: 'appropriate format'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich verwende stets das passende Format für die Textsorte.'
+    exampleTranslation: 'I always use the appropriate format for the text type.'
+  - id: de-DE-C2-WRITTEN-001-011
+    concept: 'chain-of-reasoning'
+    term: 'eine Argumentationskette'
+    translation: 'chain of reasoning'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich baue eine tragfähige und stimmige Argumentationskette auf.'
+    exampleTranslation: 'I construct a solid and coherent chain of reasoning.'
+  - id: de-DE-C2-WRITTEN-001-012
+    concept: 'appropriate-style'
+    term: 'der passende Stil'
+    translation: 'appropriate style'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich wähle stets den passenden Stil für den Kontext.'
+    exampleTranslation: 'I always select the appropriate style for the context.'
 grammar:
   - id: C2-WRITTEN-001-GR01
     point: 'Writing with stylistic sophistication and precision'
