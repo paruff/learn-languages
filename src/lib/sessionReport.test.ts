@@ -29,6 +29,7 @@ describe('buildSessionReport (spec M1)', () => {
         'gradeMix',
         'lastDay',
         'levels',
+        'nextSession',
         'pair',
         'retention',
         'returned',
