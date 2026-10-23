@@ -5,7 +5,7 @@ interface Props {
   sourceLang: string;
   targetLang: string;
   /** A1 lessons in teaching order. */
-  lessons: { nodeId: string; canDo: string }[];
+  lessons: { nodeId: string; canDo: string; prerequisiteNodes?: string[] }[];
   /** Home has no pair in its URL: let the learner's saved pair win. */
   usePreference?: boolean;
 }
@@ -44,7 +44,7 @@ const first = lessons[0];
 
 <script>
   import { withBase } from '../lib/urls';
-  import { loadStudied, nextIndex } from '../lib/path';
+  import { loadStudied, recommendNext } from '../lib/path';
   import { loadPairPreference } from '../lib/pairPreference';
 
   for (const el of document.querySelectorAll<HTMLElement>('[data-continue]')) {
@@ -54,11 +54,9 @@ const first = lessons[0];
     const lessons = JSON.parse(el.querySelector('[data-lessons]')!.textContent!) as {
       nodeId: string;
       canDo: string;
+      prerequisiteNodes?: string[];
     }[];
-    const i = nextIndex(
-      lessons.map((l) => l.nodeId),
-      loadStudied(sourceLang, targetLang)
-    );
+    const i = recommendNext(lessons, loadStudied(sourceLang, targetLang));
     const btn = el.querySelector<HTMLAnchorElement>('[data-btn]')!;
     if (i === -1) {
       el.querySelector('[data-step]')!.textContent = String(lessons.length);

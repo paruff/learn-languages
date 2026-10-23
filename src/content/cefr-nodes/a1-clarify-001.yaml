@@ -7,4 +7,5 @@ notionalFocus: Clarification, repetition, comprehension checks
 relatedNodes:
   - A1-GREET-001
   - A1-INTRO-001
-prerequisiteNodes: []
+prerequisiteNodes:
+  - A1-REQUEST-001

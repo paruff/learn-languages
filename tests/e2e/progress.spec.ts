@@ -26,6 +26,36 @@ test.describe('progress page', () => {
     expect(stored.quality).toBe(3);
   });
 
+  test('"next up" picks an unmastered prerequisite, not its dependent (L12)', async ({ page }) => {
+    await page.goto(PROGRESS_URL);
+    // Master every card except A1-CAPAB-001 (needs A1-WANT-001) and A1-WANT-001 itself.
+    await page.evaluate(() => {
+      const data = JSON.parse(document.getElementById('progress-data')!.textContent!);
+      const state = JSON.stringify({
+        interval: 6,
+        easeFactor: 2.5,
+        repetitions: 3,
+        dueDate: '2999-01-01',
+      });
+      for (const item of data.trackedItems as { itemId: string; nodeId: string }[]) {
+        if (item.nodeId === 'A1-CAPAB-001' || item.nodeId === 'A1-WANT-001') continue;
+        window.localStorage.setItem(`srs:en-GB:pt-PT:forward:${item.itemId}`, state);
+      }
+    });
+    await page.reload();
+    const canDo = (id: string) =>
+      page.evaluate(
+        (nodeId) =>
+          JSON.parse(document.getElementById('progress-data')!.textContent!).trackedItems.find(
+            (i: { nodeId: string }) => i.nodeId === nodeId
+          ).canDo,
+        id
+      );
+    const next = page.locator('#progress-next');
+    await expect(next).toContainText(await canDo('A1-WANT-001'));
+    await expect(next).not.toContainText(await canDo('A1-CAPAB-001'));
+  });
+
   test('shows a calibration note when recent over-confidence breaks exist', async ({ page }) => {
     await page.evaluate(() => {
       window.localStorage.setItem(

@@ -29,7 +29,10 @@ const LEVEL_ORDER = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
  * DOM/storage-free so it's unit-testable; the progress page supplies
  * `repetitions` read from localStorage per item.
  */
-export function computeCefrProgress(items: TrackedItem[]): {
+export function computeCefrProgress(
+  items: TrackedItem[],
+  prerequisites: Record<string, string[]> = {}
+): {
   levels: LevelProgress[];
   nextRecommended: NextRecommended | null;
 } {
@@ -51,9 +54,18 @@ export function computeCefrProgress(items: TrackedItem[]): {
     };
   });
 
-  const nextItem = LEVEL_ORDER.flatMap((level) => byLevel.get(level) ?? []).find(
-    (item) => item.repetitions < MASTERED_REPETITIONS
-  );
+  const all = LEVEL_ORDER.flatMap((level) => byLevel.get(level) ?? []);
+  const unmastered = (nodeId: string) =>
+    all.find((i) => i.nodeId === nodeId && i.repetitions < MASTERED_REPETITIONS);
+  // L12: soft prerequisites. Redirect to the first unmastered prerequisite (transitively); never locks.
+  let nextItem = all.find((item) => item.repetitions < MASTERED_REPETITIONS);
+  const seen = new Set<string>();
+  while (nextItem && !seen.has(nextItem.nodeId)) {
+    seen.add(nextItem.nodeId);
+    const pre = (prerequisites[nextItem.nodeId] ?? []).map(unmastered).find(Boolean);
+    if (!pre) break;
+    nextItem = pre;
+  }
 
   return {
     levels,
