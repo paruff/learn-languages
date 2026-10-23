@@ -101,7 +101,12 @@ const passageSourceSchema = z.object({
 
 const exerciseSchema = z
   .object({
-    id: z.string().regex(/^[a-z]{2}(-[A-Z]{2})?-.+-\d{3}$/),
+    id: z
+      .string()
+      .regex(
+        /^[a-z]{2}-[A-Z]{2}-.+-\d{3}$/,
+        'exercise id must start with its language, e.g. pt-PT-'
+      ),
     lessonId: z.string(),
     type: z.enum(['fill-blank', 'matching', 'multiple-choice', 'audio', 'passage']),
     prompt: z.string().min(1).optional(),

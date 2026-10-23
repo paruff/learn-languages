@@ -3,6 +3,7 @@ import Breadcrumb from '../../../../components/Breadcrumb.astro';
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { withBase } from '../../../../lib/urls';
+import { exercisesForTarget } from '../../../../lib/exerciseLang';
 import { getAvailablePairs } from '../../../../lib/pairLoader';
 import { splitAtTerm } from '../../../../lib/glossText';
 import { getSkillIcon } from '../../../../lib/skillIcon';
@@ -24,9 +25,14 @@ export async function getStaticPaths() {
     getCollection('realisations'),
     getCollection('exercises'),
   ]);
-  const nodeIdsWithExercises = new Set(exercises.map((exercise) => exercise.data.lessonId));
 
   return pairs.flatMap(({ sourceLang, targetLang }) => {
+    const nodeIdsWithExercises = new Set(
+      exercisesForTarget(
+        exercises.map((e) => e.data),
+        targetLang
+      ).map((e) => e.lessonId)
+    );
     const entries = nodes
       .map((node) => {
         const source = realisations.find(
