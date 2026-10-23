@@ -3,6 +3,7 @@ import {
   appendGrade,
   loadGradeLog,
   computeRetention,
+  computeReturn,
   summariseLog,
   MAX_LOG_ENTRIES,
   type GradeEntry,
@@ -110,5 +111,22 @@ describe('rememberedItems', () => {
       e('c', 1, '2026-01-10'),
     ];
     expect([...rememberedItems(log)]).toEqual(['a']);
+  });
+});
+
+describe('computeReturn (spec S6)', () => {
+  const at = (d: string): GradeEntry => ({ item: 'a', dir: 'forward', q: 3, d });
+  it('is null/false for an empty log', () => {
+    expect(computeReturn([])).toEqual({ day2: false, week2: false });
+  });
+  it('flags a review the next day and one in days 7-13', () => {
+    const log = [at('2026-10-01'), at('2026-10-02'), at('2026-10-09')];
+    expect(computeReturn(log)).toEqual({ day2: true, week2: true });
+  });
+  it('does not count same-day or day-14+ reviews', () => {
+    expect(computeReturn([at('2026-10-01'), at('2026-10-15')])).toEqual({
+      day2: false,
+      week2: false,
+    });
   });
 });

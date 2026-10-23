@@ -66,6 +66,18 @@ export function computeRetention(log: GradeEntry[]): Retention {
   return { opportunities, recalled, rate: opportunities ? recalled / opportunities : null };
 }
 
+/**
+ * Return behaviour (spec S6), derived on-device from review dates: did the
+ * learner review the day after their first day (day 2), and in days 7-13 after
+ * it (week 2)? Pooled across learners' self-sent reports this gives the S3 rate.
+ */
+export function computeReturn(log: GradeEntry[]): { day2: boolean; week2: boolean } {
+  if (!log.length) return { day2: false, week2: false };
+  const first = Math.min(...log.map((e) => dayNumber(e.d)));
+  const offsets = log.map((e) => dayNumber(e.d) - first);
+  return { day2: offsets.includes(1), week2: offsets.some((o) => o >= 7 && o <= 13) };
+}
+
 /** Item ids recalled Good/Easy at least once, 7+ days after their previous review (spec J3). */
 export function rememberedItems(log: GradeEntry[]): Set<string> {
   const last = new Map<string, string>();
