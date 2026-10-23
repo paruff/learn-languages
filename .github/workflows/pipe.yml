@@ -182,7 +182,8 @@ jobs:
       # The image's browsers must match the installed Playwright exactly.
       - run: |
           v=$(npx playwright --version | awk '{print $2}')
-          [ "${{ job.container.image }}" = "mcr.microsoft.com/playwright:v$v-noble" ] || { echo "Playwright $v does not match image ${{ job.container.image }}: bump the tag in pipe.yml"; exit 1; }
+          img=$(grep -o 'playwright:v[0-9.]*-noble' .github/workflows/pipe.yml | head -1)
+          [ "$img" = "playwright:v$v-noble" ] || { echo "Playwright $v does not match image $img: bump the tag in pipe.yml"; exit 1; }
       - uses: actions/download-artifact@v8
         with:
           name: dist
