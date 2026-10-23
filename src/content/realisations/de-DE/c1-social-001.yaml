@@ -1,54 +1,54 @@
 nodeId: C1-SOCIAL-001
 lang: de-DE
 vocabulary:
-  - id: de-DE-C1-SOCIAL-001-001
-    concept: 'fluency'
-    term: 'Flüssigkeit'
-    translation: 'fluency'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Seine Flüssigkeit in Deutsch ist beeindruckend.'
-    exampleTranslation: 'His fluency in German is impressive.'
-  - id: de-DE-C1-SOCIAL-001-002
-    concept: 'spontaneity'
-    term: 'Spontanität'
-    translation: 'spontaneity'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Spontanität ist in Gesprächen wichtig.'
-    exampleTranslation: 'Spontaneity is important in conversations.'
-  - id: de-DE-C1-SOCIAL-001-003
-    concept: 'topic-related'
-    term: 'themenbezogen'
-    translation: 'topic-related'
-    partOfSpeech: adjective
-    gender: n/a
-    example: 'Wir sprechen über themenbezogene Themen.'
-    exampleTranslation: 'We speak about topic-related topics.'
-  - id: de-DE-C1-SOCIAL-001-004
-    concept: 'fluent'
-    term: 'fließend'
-    translation: 'fluent'
-    partOfSpeech: adjective
-    gender: n/a
-    example: 'Er spricht fließend Deutsch.'
-    exampleTranslation: 'He speaks fluent German.'
-  - id: de-DE-C1-SOCIAL-001-005
-    concept: 'to-converse'
-    term: 'sich unterhalten'
-    translation: 'to converse'
+  - id: de-DE-C1-SOCIAL-001-007
+    concept: 'to-express-oneself-fluently'
+    term: 'sich flüssig ausdrücken'
+    translation: 'to express oneself fluently'
     partOfSpeech: phrase
     gender: n/a
-    example: 'Wir haben uns gut unterhalten.'
-    exampleTranslation: 'We had a good conversation.'
-  - id: de-DE-C1-SOCIAL-001-006
-    concept: 'change-of-topic'
-    term: 'Themenwechsel'
-    translation: 'change of topic'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Ein Themenwechsel wäre jetzt gut.'
-    exampleTranslation: 'A change of topic would be good now.'
+    example: 'Er kann sich in jeder Situation flüssig ausdrücken.'
+    exampleTranslation: 'He can express himself fluently in any situation.'
+  - id: de-DE-C1-SOCIAL-001-008
+    concept: 'without-hesitation'
+    term: 'ohne Zögern'
+    translation: 'without hesitation'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Er beantwortete die schwierigen Fragen ohne Zögern.'
+    exampleTranslation: 'He answered the difficult questions without hesitation.'
+  - id: de-DE-C1-SOCIAL-001-009
+    concept: 'to-adapt-one-s-discourse'
+    term: 'die Rede anpassen'
+    translation: "to adapt one's discourse"
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Er versteht es, seine Rede dem Publikum anzupassen.'
+    exampleTranslation: 'He knows how to adapt his discourse to the audience in front of him.'
+  - id: de-DE-C1-SOCIAL-001-010
+    concept: 'to-anticipate-the-reaction'
+    term: 'die Reaktion vorwegnehmen'
+    translation: 'to anticipate the reaction'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Er kann die Reaktion seiner Gesprächspartner vorwegnehmen.'
+    exampleTranslation: 'He can anticipate the reaction of his interlocutors.'
+  - id: de-DE-C1-SOCIAL-001-011
+    concept: 'to-maintain-naturalness'
+    term: 'natürlich bleiben'
+    translation: 'to maintain naturalness'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Auch in förmlichen Situationen bleibt er natürlich.'
+    exampleTranslation: 'Even in formal situations, he maintains his naturalness.'
+  - id: de-DE-C1-SOCIAL-001-012
+    concept: 'to-resort-to-strategies'
+    term: 'Strategien anwenden'
+    translation: 'to resort to strategies'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Er wendet Umformulierungsstrategien an, um sich verständlich zu machen.'
+    exampleTranslation: 'He resorts to reformulation strategies to make himself understood.'
 grammar:
   - id: C1-SOCIAL-001-GR01
     point: 'Interacting with fluency and spontaneity on complex topics'

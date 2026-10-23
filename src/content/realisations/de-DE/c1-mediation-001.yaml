@@ -1,53 +1,53 @@
 nodeId: C1-MEDIATION-001
 lang: de-DE
 vocabulary:
-  - id: de-DE-C1-MEDIATION-001-001
-    concept: 'foreign-language'
-    term: 'fremdsprachlich'
-    translation: 'foreign-language'
-    partOfSpeech: adjective
+  - id: de-DE-C1-MEDIATION-001-007
+    concept: 'to-translate-for-laymen'
+    term: 'für Laien übersetzen'
+    translation: 'to translate for laymen'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Sie liest fremdsprachige Texte mit Verständnis.'
-    exampleTranslation: 'She reads foreign-language texts with understanding.'
-  - id: de-DE-C1-MEDIATION-001-002
-    concept: 'text-comprehension'
-    term: 'Textverständnis'
-    translation: 'text comprehension'
-    partOfSpeech: noun
-    gender: neuter
-    example: 'Ihr Textverständnis ist ausgezeichnet.'
-    exampleTranslation: 'Her text comprehension is excellent.'
-  - id: de-DE-C1-MEDIATION-001-003
-    concept: 'suitable'
-    term: 'passend'
-    translation: 'suitable / fitting'
-    partOfSpeech: adjective
+    example: 'Der Lehrer verstand es, die Fachdebatte für Laien zu übersetzen.'
+    exampleTranslation: 'The teacher knew how to translate the technical debate for laymen.'
+  - id: de-DE-C1-MEDIATION-001-008
+    concept: 'to-simplify-without-losing-rigour'
+    term: 'vereinfachen, ohne an Genauigkeit zu verlieren'
+    translation: 'to simplify without losing rigour'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Er hat ein passendes Wort gefunden.'
-    exampleTranslation: 'He has found a suitable word.'
-  - id: de-DE-C1-MEDIATION-001-004
-    concept: 'adequate'
-    term: 'adäquat'
-    translation: 'adequate / appropriate'
-    partOfSpeech: adjective
+    example: 'Der Journalist vereinfacht die komplexen Daten, ohne an Genauigkeit zu verlieren.'
+    exampleTranslation: 'The journalist simplifies the complex data without losing rigour.'
+  - id: de-DE-C1-MEDIATION-001-009
+    concept: 'to-bridge-between-audiences'
+    term: 'zwischen Zielgruppen vermitteln'
+    translation: 'to bridge between audiences'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Die Übersetzung war adäquat.'
-    exampleTranslation: 'The translation was adequate.'
-  - id: de-DE-C1-MEDIATION-001-005
-    concept: 'vocabulary'
-    term: 'Wortschatz'
-    translation: 'vocabulary'
+    example: 'Der Vermittler vermittelt zwischen dem Fachpublikum und der breiten Öffentlichkeit.'
+    exampleTranslation: 'The mediator bridges between the technical and general audiences.'
+  - id: de-DE-C1-MEDIATION-001-010
+    concept: 'to-rewrite-the-explanation'
+    term: 'die Erklärung neu fassen'
+    translation: 'to rewrite the explanation'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Er fasste die Erklärung dreimal neu, bis sie klar war.'
+    exampleTranslation: 'He rewrote the explanation three times until it was clear.'
+  - id: de-DE-C1-MEDIATION-001-011
+    concept: 'the-heart-of-the-matter'
+    term: 'der Kern der Sache'
+    translation: 'the heart of the matter'
     partOfSpeech: noun
     gender: masculine
-    example: 'Ihr Wortschatz ist beeindruckend.'
-    exampleTranslation: 'Her vocabulary is impressive.'
-  - id: de-DE-C1-MEDIATION-001-006
-    concept: 'paraphrase'
-    term: 'Paraphrase'
-    translation: 'paraphrase'
+    example: 'Der Kern der Sache ist die Festlegung der Prioritäten.'
+    exampleTranslation: 'The heart of the matter is the definition of priorities.'
+  - id: de-DE-C1-MEDIATION-001-012
+    concept: 'presentation-in-simple-terms'
+    term: 'die einfache Darstellung'
+    translation: 'presentation in simple terms'
     partOfSpeech: noun
     gender: feminine
-    example: 'Eine gute Paraphrase ist wichtig.'
-    exampleTranslation: 'A good paraphrase is important.'
+    example: 'Die einfache Darstellung überzeugte die Versammlung.'
+    exampleTranslation: 'The presentation in simple terms convinced the assembly.'
 grammar: []
 culturalNotes: 'German mediation ("Mediation") at C1 level involves bridging between languages and cultures; "kulturelle Mediationskompetenz" (cultural mediation competence) is valued in professional contexts.'
