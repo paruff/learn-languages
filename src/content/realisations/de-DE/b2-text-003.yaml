@@ -1,53 +1,53 @@
 nodeId: B2-TEXT-003
 lang: de-DE
 vocabulary:
-  - id: de-DE-B2-TEXT-003-001
-    concept: 'line-of-argument'
-    term: 'Argumentationslinie'
-    translation: 'line of argument'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Argumentationslinie war klar.'
-    exampleTranslation: 'The line of argument was clear.'
-  - id: de-DE-B2-TEXT-003-002
-    concept: 'to-recognize'
-    term: 'erkennen'
-    translation: 'to recognize'
-    partOfSpeech: verb
+  - id: de-DE-B2-TEXT-003-007
+    concept: 'to-recognise-the-line-of-argument'
+    term: 'die Argumentationslinie erkennen'
+    translation: 'to recognise the line of argument'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich kann die Argumentationslinie erkennen.'
-    exampleTranslation: 'I can recognize the line of argument.'
-  - id: de-DE-B2-TEXT-003-003
-    concept: 'topic'
-    term: 'Thema'
-    translation: 'topic / issue'
-    partOfSpeech: noun
-    gender: neuter
-    example: 'Das Thema wurde klar dargestellt.'
-    exampleTranslation: 'The issue was clearly presented.'
-  - id: de-DE-B2-TEXT-003-004
-    concept: 'presentation'
-    term: 'Darstellung'
-    translation: 'presentation / representation'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Darstellung war überzeugend.'
-    exampleTranslation: 'The presentation was convincing.'
-  - id: de-DE-B2-TEXT-003-005
-    concept: 'structure'
-    term: 'Struktur'
-    translation: 'structure'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Struktur des Textes war klar.'
-    exampleTranslation: 'The structure of the text was clear.'
-  - id: de-DE-B2-TEXT-003-006
-    concept: 'main-idea'
-    term: 'Hauptgedanke'
-    translation: 'main idea'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Was ist der Hauptgedanke des Textes?'
-    exampleTranslation: 'What is the main idea of the text?'
+    example: 'Ich kann die Argumentationslinie des Autors erkennen.'
+    exampleTranslation: "I can recognise the author's line of argument."
+  - id: de-DE-B2-TEXT-003-008
+    concept: 'to-analyse-the-text-structure'
+    term: 'den Textaufbau analysieren'
+    translation: 'to analyse the text structure'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich analysiere den Textaufbau, um besser zu verstehen.'
+    exampleTranslation: 'I will analyse the text structure to understand better.'
+  - id: de-DE-B2-TEXT-003-009
+    concept: 'to-identify-premises-and-conclusions'
+    term: 'Prämissen und Schlussfolgerungen erkennen'
+    translation: 'to identify premises and conclusions'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Es ist wichtig, in der Argumentation Prämissen und Schlussfolgerungen zu erkennen.'
+    exampleTranslation: 'It is important to identify premises and conclusions in the argument.'
+  - id: de-DE-B2-TEXT-003-010
+    concept: 'to-evaluate-the-strength-of-the-argument'
+    term: 'die Stärke des Arguments beurteilen'
+    translation: 'to evaluate the strength of the argument'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich muss die Stärke des vorgebrachten Arguments beurteilen.'
+    exampleTranslation: 'I need to evaluate the strength of the presented argument.'
+  - id: de-DE-B2-TEXT-003-011
+    concept: 'to-recognise-assumptions'
+    term: 'Annahmen erkennen'
+    translation: 'to recognise assumptions'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich erkenne die Annahmen des Autors.'
+    exampleTranslation: "I will recognise the author's assumptions."
+  - id: de-DE-B2-TEXT-003-012
+    concept: 'to-draw-conclusions'
+    term: 'Schlüsse ziehen'
+    translation: 'to draw conclusions'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich kann aus dem Text Schlüsse ziehen.'
+    exampleTranslation: 'I can draw conclusions from the text.'
 grammar: []
 culturalNotes: 'German argumentative texts follow "Rhetorik" (rhetoric) principles; identifying the "These" (thesis), "Argumente" (arguments), and "Schlussfolgerung" (conclusion) is essential for B2 reading.'
