@@ -63,7 +63,7 @@ Ordered by how directly each serves intent §3 ("comes back").
 | 2.4 | Grammar points in the retrieval loop, with contrastive notes by source language                       | L8, L15 | #126, #144 | One grammar point graded in a real review session                      |
 | 2.5 | Soft prerequisites for A1, recommended first                                                          | L12     | #199       | Progress "next up" picks an unmastered prerequisite                    |
 | 2.6 | Regional TTS voice detection and fallback                                                             | Q3      | #200       | Correct voice verified on iOS Safari and Android Chrome                |
-| 2.7 | Level checkpoint on unseen items, designed from round-one feedback                                    | L20     | #201       | Spec L20 designed and E2E-tested                                       |
+| 2.7 | Level checkpoint on unseen items, designed from round-one feedback                                    | L20     | #201       | First cut shipped (PR #239) without feedback; redesign after G1        |
 | 2.8 | L1-grammar accelerator: contrastive modules, metalinguistic tasks, L1 diagnostic, rule-of-thumb notes | L16–L19 | #205       | Each requirement shipped with an E2E check, after 2.4 (L8, L15)        |
 
 ## G4 Breadth: more languages and levels (Phase 3) — **after S6 data trends to target**
