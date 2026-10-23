@@ -8,6 +8,7 @@ Run before each wave of invitations (about 15 minutes). Automated checks cover l
 
 ## Devices
 
+- [ ] **iPhone Safari, persistent storage (S8):** grade a card, open Progress; if no "Keep your progress safe" hint shows, storage was granted. If it shows, "Got it" hides it for good.
 - [ ] **iPhone Safari:** open the site fresh (private tab). Home says "Learn Portuguese with Science"; Start goes to Lessons for English → Portuguese.
 - [ ] **Android Chrome with page translation switched ON** (Chrome menu → Translate): no translate prompt appears, and Portuguese stays Portuguese.
 - [ ] **Chrome desktop at 200% zoom:** nothing overlaps; grade buttons stay in a tidy grid.

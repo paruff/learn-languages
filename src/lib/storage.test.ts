@@ -9,6 +9,7 @@ import {
   readJson,
   exportProgress,
   importProgress,
+  requestPersistence,
 } from './storage';
 import { createInitialState } from '../utils/srs';
 
@@ -142,5 +143,18 @@ describe('progress export/import (spec S5)', () => {
     });
     expect(importProgress(file)).toEqual({ ok: true, count: 1 });
     expect(window.localStorage.getItem('evil')).toBeNull();
+  });
+});
+
+describe('requestPersistence (spec S8)', () => {
+  it('asks the browser once and swallows failure', async () => {
+    const persist = vi.fn().mockRejectedValue(new Error('denied'));
+    Object.defineProperty(navigator, 'storage', {
+      value: { persist, persisted: async () => false },
+      configurable: true,
+    });
+    expect(await requestPersistence()).toBe(false);
+    expect(await requestPersistence()).toBe(false);
+    expect(persist).toHaveBeenCalledTimes(1);
   });
 });
