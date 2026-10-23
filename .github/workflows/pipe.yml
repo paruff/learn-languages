@@ -147,8 +147,14 @@ jobs:
   e2e-shard:
     name: E2E (${{ matrix.project }} ${{ matrix.shard }})
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     needs: build
+    # Browsers and OS libraries are baked into the image: no apt/CDN install step to hang.
+    container:
+      image: mcr.microsoft.com/playwright:v1.63.0-noble # keep equal to the locked @playwright/test version
+      options: --ipc=host
+    env:
+      HOME: /root # Firefox needs a writable HOME inside the container
     strategy:
       fail-fast: false
       matrix:
@@ -171,20 +177,10 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           cache: 'npm'
       - run: npm ci
-      - id: pw
-        run: echo "version=$(npx playwright --version | awk '{print $2}')" >> "$GITHUB_OUTPUT"
-      - uses: actions/cache@v4
-        with:
-          path: ~/.cache/ms-playwright
-          key: playwright-${{ runner.os }}-${{ matrix.browser }}-${{ steps.pw.outputs.version }}
-      # Browser download is skipped on a cache hit; --with-deps still installs OS libraries.
-      # A stuck apt/CDN fetch here once hung for 45+ min (no job timeout then); cap and retry.
+      # The image's browsers must match the installed Playwright exactly.
       - run: |
-          for i in 1 2 3; do
-            timeout 4m npx playwright install --with-deps ${{ matrix.browser }} && exit 0
-            echo "install attempt $i failed or timed out"
-          done
-          exit 1
+          v=$(npx playwright --version | awk '{print $2}')
+          [ "${{ job.container.image }}" = "mcr.microsoft.com/playwright:v$v-noble" ] || { echo "Playwright $v does not match image ${{ job.container.image }}: bump the tag in pipe.yml"; exit 1; }
       - uses: actions/download-artifact@v8
         with:
           name: dist
