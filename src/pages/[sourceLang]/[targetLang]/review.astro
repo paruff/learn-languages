@@ -247,6 +247,15 @@ for (const n of await getCollection('cefr-nodes')) canDoByNode[n.data.nodeId] = 
     color: var(--color-text-muted);
     margin: var(--spacing-unit) 0;
   }
+  .review-next__heading {
+    font-weight: 600;
+    margin-top: 0;
+  }
+  .review-next__actions {
+    display: flex;
+    gap: var(--spacing-unit);
+    flex-wrap: wrap;
+  }
   .review-reflection {
     text-align: center;
   }
@@ -370,6 +379,8 @@ for (const n of await getCollection('cefr-nodes')) canDoByNode[n.data.nodeId] = 
   const emptyEl = document.getElementById('review-empty')!;
   const noStudiedEl = document.getElementById('review-no-studied')!;
   const summaryEl = document.getElementById('review-summary')!;
+  const nextEl = document.getElementById('review-next')!;
+  const practiceMoreBtn = document.getElementById('review-practice-more')!;
   const progressEl = document.getElementById('review-progress')!;
   const imageEl = document.getElementById('review-image') as HTMLImageElement;
   const frontEl = document.getElementById('review-front')!;
@@ -514,6 +525,7 @@ for (const n of await getCollection('cefr-nodes')) canDoByNode[n.data.nodeId] = 
       return;
     }
     hideReflection();
+    nextEl.hidden = true;
     correctionEl.hidden = true;
     progressEl.textContent = format(getString(sourceLang, 'reviewProgress'), {
       current: reviewed + 1,
