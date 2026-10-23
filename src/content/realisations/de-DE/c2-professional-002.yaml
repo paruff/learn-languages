@@ -1,53 +1,53 @@
 nodeId: C2-PROFESSIONAL-002
 lang: de-DE
 vocabulary:
-  - id: de-DE-C2-PROFESSIONAL-002-001
-    concept: 'career'
-    term: 'Karriere'
-    translation: 'career'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Ihre Karriere war erfolgreich.'
-    exampleTranslation: 'Her career was successful.'
-  - id: de-DE-C2-PROFESSIONAL-002-002
-    concept: 'position'
-    term: 'Position'
-    translation: 'position'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Position war sehr verantwortungsvoll.'
-    exampleTranslation: 'The position was very responsible.'
-  - id: de-DE-C2-PROFESSIONAL-002-003
-    concept: 'promotion'
-    term: 'Beförderung'
-    translation: 'promotion'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Beförderung kam überraschend.'
-    exampleTranslation: 'The promotion came unexpectedly.'
-  - id: de-DE-C2-PROFESSIONAL-002-004
-    concept: 'qualification'
-    term: 'Qualifikation'
-    translation: 'qualification'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Ihre Qualifikation war ausgezeichnet.'
-    exampleTranslation: 'Her qualification was excellent.'
-  - id: de-DE-C2-PROFESSIONAL-002-005
-    concept: 'performance'
-    term: 'Leistung'
-    translation: 'performance / achievement'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Leistung war überdurchschnittlich.'
-    exampleTranslation: 'The performance was above average.'
-  - id: de-DE-C2-PROFESSIONAL-002-006
-    concept: 'requirements'
-    term: 'Anforderungen'
-    translation: 'requirements'
-    partOfSpeech: noun
+  - id: de-DE-C2-PROFESSIONAL-002-007
+    concept: 'spontaneous-fluency'
+    term: 'spontane Flüssigkeit'
+    translation: 'spontaneous fluency'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Die Anforderungen waren hoch.'
-    exampleTranslation: 'The requirements were high.'
+    example: 'Ich spreche in jedem Kontext spontan und flüssig.'
+    exampleTranslation: 'I speak with spontaneous fluency in any context.'
+  - id: de-DE-C2-PROFESSIONAL-002-008
+    concept: 'native-vocabulary'
+    term: 'muttersprachlicher Wortschatz'
+    translation: 'native vocabulary'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Mein Wortschatz ist so umfangreich und natürlich wie der eines Muttersprachlers.'
+    exampleTranslation: 'My vocabulary is vast and natural like that of a native speaker.'
+  - id: de-DE-C2-PROFESSIONAL-002-009
+    concept: 'total-precision'
+    term: 'völlige Präzision'
+    translation: 'total precision'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich erreiche in meinen Äußerungen stets völlige Präzision.'
+    exampleTranslation: 'I always achieve total precision in my expressions.'
+  - id: de-DE-C2-PROFESSIONAL-002-010
+    concept: 'communicative-flexibility'
+    term: 'die kommunikative Flexibilität'
+    translation: 'communicative flexibility'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich besitze kommunikative Flexibilität in verschiedenen Registern.'
+    exampleTranslation: 'I have communicative flexibility in diverse registers.'
+  - id: de-DE-C2-PROFESSIONAL-002-011
+    concept: 'natural-use-of-language'
+    term: 'der natürliche Sprachgebrauch'
+    translation: 'natural use of language'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Mein Sprachgebrauch ist stets natürlich und angemessen.'
+    exampleTranslation: 'My use of language is always natural and appropriate.'
+  - id: de-DE-C2-PROFESSIONAL-002-012
+    concept: 'communicative-confidence'
+    term: 'kommunikative Sicherheit'
+    translation: 'communicative confidence'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich habe in jeder Situation kommunikative Sicherheit.'
+    exampleTranslation: 'I have communicative confidence in any situation.'
 grammar: []
 culturalNotes: 'German professional career discussions at C2 level expect precise language about qualifications ("Qualifikationen") and achievements ("Leistungen"); self-promotion should be factual, evidence-based, and diplomatically expressed.'
