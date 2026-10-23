@@ -20,6 +20,9 @@ const [items, nodes] = await Promise.all([
 
 const nodeMeta = new Map(nodes.map((n) => [n.data.nodeId, n.data]));
 
+const prerequisites = Object.fromEntries(
+  nodes.map((n) => [n.data.nodeId, n.data.prerequisiteNodes])
+);
 const trackedItems = items
   .filter((item) => nodeMeta.has(item.nodeId))
   .map((item) => {
@@ -97,7 +100,7 @@ const targetName = languageName(targetLang);
   <script
     type="application/json"
     id="progress-data"
-    set:html={JSON.stringify({ sourceLang, targetLang, trackedItems })}
+    set:html={JSON.stringify({ sourceLang, targetLang, trackedItems, prerequisites })}
   />
 </BaseLayout>
 
@@ -173,10 +176,13 @@ const targetName = languageName(targetLang);
   }
 
   const dataEl = document.getElementById('progress-data');
-  const { sourceLang, targetLang, trackedItems } = JSON.parse(dataEl?.textContent ?? '{}') as {
+  const { sourceLang, targetLang, trackedItems, prerequisites } = JSON.parse(
+    dataEl?.textContent ?? '{}'
+  ) as {
     sourceLang: string;
     targetLang: string;
     trackedItems: DataItem[];
+    prerequisites: Record<string, string[]>;
   };
 
   const items: TrackedItem[] = trackedItems.map((item) => ({
@@ -184,7 +190,7 @@ const targetName = languageName(targetLang);
     repetitions: loadState(sourceLang, targetLang, 'forward', item.itemId).repetitions,
   }));
 
-  const { levels, nextRecommended } = computeCefrProgress(items);
+  const { levels, nextRecommended } = computeCefrProgress(items, prerequisites);
 
   const masteredLabel = getString(sourceLang, 'progressMastered');
   const levelsEl = document.getElementById('progress-levels')!;

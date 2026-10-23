@@ -26,6 +26,17 @@ test.describe('progress page', () => {
     expect(stored.quality).toBe(3);
   });
 
+  test('"next up" picks an unmastered prerequisite, not a dependent node (L12)', async ({
+    page,
+  }) => {
+    await page.goto(PROGRESS_URL);
+    // Nothing mastered: A1-CAPAB-001 (needs WANT) must not lead; the card must be a prerequisite-free node.
+    const next = page.locator('#progress-next');
+    await expect(next).toBeVisible();
+    await expect(next).not.toContainText('ability and inability');
+    await expect(next).toContainText('(A1)');
+  });
+
   test('shows a calibration note when recent over-confidence breaks exist', async ({ page }) => {
     await page.evaluate(() => {
       window.localStorage.setItem(

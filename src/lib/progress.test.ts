@@ -22,6 +22,18 @@ describe('computeCefrProgress', () => {
     ]);
   });
 
+  it('recommends an unmastered prerequisite first (L12)', () => {
+    const its: TrackedItem[] = [
+      { itemId: 'x', nodeId: 'A1-B', cefrLevel: 'A1', canDo: 'B', repetitions: 0 },
+      { itemId: 'y', nodeId: 'A1-A', cefrLevel: 'A1', canDo: 'A', repetitions: 0 },
+    ];
+    const pre = { 'A1-B': ['A1-A', 'A1-GONE'] };
+    expect(computeCefrProgress(its, pre).nextRecommended?.nodeId).toBe('A1-A');
+    its[1].repetitions = 2;
+    expect(computeCefrProgress(its, pre).nextRecommended?.nodeId).toBe('A1-B');
+    expect(computeCefrProgress(its, { 'A1-B': ['A1-B'] }).nextRecommended?.nodeId).toBe('A1-B');
+  });
+
   it('recommends the first unmastered node in level order', () => {
     const { nextRecommended } = computeCefrProgress(items);
     expect(nextRecommended).toEqual({
