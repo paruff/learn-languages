@@ -26,6 +26,7 @@ jobs:
     name: Empty Diff Guard
     if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v7
         with:
@@ -43,6 +44,7 @@ jobs:
   sync-content:
     name: Sync Content
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7
@@ -58,6 +60,7 @@ jobs:
   typecheck:
     name: TypeCheck
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     needs: sync-content
     steps:
       - uses: actions/checkout@v7
@@ -72,6 +75,7 @@ jobs:
   lint:
     name: Lint
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     needs: sync-content
     steps:
       - uses: actions/checkout@v7
@@ -85,6 +89,7 @@ jobs:
   unit-test:
     name: Unit Tests
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     needs: sync-content
     steps:
       - uses: actions/checkout@v7
@@ -106,6 +111,7 @@ jobs:
   coverage:
     name: Coverage Gate
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     needs: sync-content
     steps:
       - uses: actions/checkout@v7
@@ -119,6 +125,7 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     needs: [typecheck, lint, unit-test, coverage]
     steps:
       - uses: actions/checkout@v7
@@ -140,7 +147,14 @@ jobs:
   e2e-shard:
     name: E2E (${{ matrix.project }} ${{ matrix.shard }})
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     needs: build
+    # Browsers and OS libraries are baked into the image: no apt/CDN install step to hang.
+    container:
+      image: mcr.microsoft.com/playwright:v1.63.0-noble # keep equal to the locked @playwright/test version
+      options: --ipc=host
+    env:
+      HOME: /root # Firefox needs a writable HOME inside the container
     strategy:
       fail-fast: false
       matrix:
@@ -163,14 +177,10 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           cache: 'npm'
       - run: npm ci
-      - id: pw
-        run: echo "version=$(npx playwright --version | awk '{print $2}')" >> "$GITHUB_OUTPUT"
-      - uses: actions/cache@v4
-        with:
-          path: ~/.cache/ms-playwright
-          key: playwright-${{ runner.os }}-${{ matrix.browser }}-${{ steps.pw.outputs.version }}
-      # Browser download is skipped on a cache hit; --with-deps still installs OS libraries.
-      - run: npx playwright install --with-deps ${{ matrix.browser }}
+      # The image's browsers must match the installed Playwright exactly.
+      - run: |
+          v=$(npx playwright --version | awk '{print $2}')
+          [ "${{ job.container.image }}" = "mcr.microsoft.com/playwright:v$v-noble" ] || { echo "Playwright $v does not match image ${{ job.container.image }}: bump the tag in pipe.yml"; exit 1; }
       - uses: actions/download-artifact@v8
         with:
           name: dist
@@ -187,6 +197,7 @@ jobs:
   e2e:
     name: E2E + Accessibility Tests
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     needs: e2e-shard
     if: always()
     steps:
@@ -196,6 +207,7 @@ jobs:
   lighthouse:
     name: Lighthouse
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     needs: build
     steps:
       - uses: actions/checkout@v7
@@ -215,6 +227,7 @@ jobs:
   deploy-production:
     name: Deploy Production
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     needs: [build, e2e, lighthouse]
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     permissions:
@@ -243,6 +256,7 @@ jobs:
   smoke-production:
     name: Smoke Production
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     needs: deploy-production
     env:
       LIVE_URL: ${{ needs.deploy-production.outputs.page_url }}
