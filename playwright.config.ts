@@ -1,5 +1,8 @@
 import { defineConfig, devices } from '@playwright/test';
 
+// Set SMOKE_BASE_URL (e.g. https://paruff.github.io) to run against the live site.
+const liveUrl = process.env.SMOKE_BASE_URL;
+
 export default defineConfig({
   testDir: './tests/e2e',
   fullyParallel: true,
@@ -8,7 +11,7 @@ export default defineConfig({
   workers: process.env.CI ? 2 : undefined,
   reporter: 'html',
   use: {
-    baseURL: 'http://localhost:4321',
+    baseURL: liveUrl ?? 'http://localhost:4321',
     trace: 'on-first-retry',
   },
   projects: [
@@ -34,15 +37,17 @@ export default defineConfig({
       use: { ...devices['iPhone 14'] },
     },
   ],
-  webServer: {
-    // `astro preview` daemonizes and exits immediately by default in this
-    // Astro version (same background-server model as `astro dev`), which
-    // Playwright's process monitor reads as a crash. --ignore-lock is the
-    // documented way to skip that lock-file/daemon handoff and run in the
-    // foreground instead, which is what webServer's lifecycle needs.
-    command: 'npx astro preview --ignore-lock --port 4321',
-    url: 'http://localhost:4321/learn-languages/',
-    reuseExistingServer: !process.env.CI,
-    timeout: 120000,
-  },
+  webServer: liveUrl
+    ? undefined
+    : {
+        // `astro preview` daemonizes and exits immediately by default in this
+        // Astro version (same background-server model as `astro dev`), which
+        // Playwright's process monitor reads as a crash. --ignore-lock is the
+        // documented way to skip that lock-file/daemon handoff and run in the
+        // foreground instead, which is what webServer's lifecycle needs.
+        command: 'npx astro preview --ignore-lock --port 4321',
+        url: 'http://localhost:4321/learn-languages/',
+        reuseExistingServer: !process.env.CI,
+        timeout: 120000,
+      },
 });

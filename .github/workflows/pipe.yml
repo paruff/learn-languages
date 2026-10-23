@@ -221,6 +221,8 @@ jobs:
     permissions:
       pages: write
       id-token: write
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -236,3 +238,45 @@ jobs:
           path: dist/
       - id: deployment
         uses: actions/deploy-pages@v5
+
+  # Post-deploy: the same specs and Lighthouse assertions, against the live URL.
+  # No auto-rollback; a failure flags the run. Rollback = git revert on main.
+  smoke-production:
+    name: Smoke Production
+    runs-on: ubuntu-latest
+    needs: deploy-production
+    env:
+      LIVE_URL: ${{ needs.deploy-production.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+      - run: npm ci
+      - uses: actions/download-artifact@v8
+        with:
+          name: dist
+          path: dist/
+      - name: Wait until the new deploy is served
+        run: |
+          echo "LIVE_ORIGIN=${LIVE_URL%/learn-languages/}" >> "$GITHUB_ENV"
+          for i in $(seq 1 30); do
+            curl -fsSL "${LIVE_URL}" -o /tmp/live.html && cmp -s /tmp/live.html dist/index.html && exit 0
+            echo "attempt $i: live page not yet the new build"; sleep 10
+          done
+          echo "::error::New deploy not served at ${LIVE_URL} after 5 minutes"; exit 1
+      - run: npx playwright install --with-deps chromium
+      - name: Playwright smoke (first-run, layout, report, a11y)
+        env:
+          SMOKE_BASE_URL: ${{ env.LIVE_ORIGIN }}
+        run: npx playwright test --project=chromium --project=mobile-chrome first-run layout report a11y
+      - name: Point lighthouserc at the live site
+        run: |
+          jq --arg o "${LIVE_URL%/learn-languages/}" \
+            'del(.ci.collect.startServerCommand, .ci.collect.startServerReadyPattern)
+             | .ci.collect.url |= map(sub("http://localhost:4321"; $o))' \
+            lighthouserc.json > lighthouserc.live.json
+      - uses: treosh/lighthouse-ci-action@v12
+        with:
+          configPath: './lighthouserc.live.json'

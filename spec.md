@@ -83,6 +83,7 @@
 | U6  | The pair selector shows language names, is labelled "I speak → I'm learning", and keeps the learner on the same kind of page                                                                                                        | `tests/e2e/first-run.spec.ts`                             | ✅     |
 | M1  | "Share my session report": a learner-initiated, human-readable summary (sessions, dates, cards reviewed, grade mix, retention rate, optional comment) they copy or email themselves. Contains no PII; nothing is sent automatically | `src/lib/sessionReport.test.ts` (allow-listed keys), E2E  | ✅     |
 | M2  | Progress shows a retention panel: of reviews made at least 7 days after that card's previous review, the share graded Good/Easy, alongside S4 mastery                                                                               | `src/lib/retention.test.ts`, `progress.spec.ts`           | ✅     |
+| D1  | Production is smoke-tested after every deploy: the `first-run`, `layout`, `report` and `a11y` specs and Lighthouse CI (same assertions) run against the live GitHub Pages URL; failure flags the run, rollback stays a `git revert` | `.github/workflows/pipe.yml` (`smoke-production`)         | ✅     |
 
 ## 5. Engineering gates
 
