@@ -13,6 +13,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · Versioning: 
 
 ### Added
 
+- Optional end-of-session prompt "When and where will you do your next 10 minutes?", shown again on the next visit, with a locally generated `.ics` calendar entry; the self-sent report records whether it was used (L21, #243).
+
 - Empty Diff Guard and Coverage Gate CI jobs, plus `npm run check:coverage` with a committed baseline.
 - fr-FR C1 review-session and lesson e2e coverage restored; it-IT A1 review/lesson tests restored and coverage documented honestly (A1 24/24, A2 20/30, B1 35/35).
 - Italian (it-IT) C1 realisations for all 25 shared C1 nodes, aligned concept-by-concept to the en-GB inventory, with a full C1 review session and lesson covered by Playwright (#165, #183).

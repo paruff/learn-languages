@@ -70,6 +70,11 @@ export type StringKey =
   | 'reviewReflectionLabelThink'
   | 'reviewReflectionLabelGuessed'
   | 'reviewReflectionThanks'
+  | 'nextSessionQuestion'
+  | 'nextSessionSave'
+  | 'nextSessionCalendar'
+  | 'nextSessionTime'
+  | 'nextSessionSaved'
   | 'reviewSessionComplete'
   | 'reviewMasteryUp'
   | 'reviewMasteryDown'
@@ -185,6 +190,11 @@ const EN_GB: Dictionary = {
   reviewContinueButton: 'Continue',
   reviewNextHeading: 'What would you like to do next?',
   reviewPracticeMore: 'Practise more',
+  nextSessionQuestion: 'When and where will you do your next 10 minutes?',
+  nextSessionSave: 'Save',
+  nextSessionCalendar: 'Add to calendar',
+  nextSessionTime: 'Time',
+  nextSessionSaved: 'Your plan for next time: {plan}',
 };
 
 const ES_ES: Dictionary = {
@@ -277,6 +287,11 @@ const ES_ES: Dictionary = {
   reviewContinueButton: 'Continuar',
   reviewNextHeading: '¿Qué quieres hacer ahora?',
   reviewPracticeMore: 'Practicar más',
+  nextSessionQuestion: '¿Cuándo y dónde harás tus próximos 10 minutos?',
+  nextSessionSave: 'Guardar',
+  nextSessionCalendar: 'Añadir al calendario',
+  nextSessionTime: 'Hora',
+  nextSessionSaved: 'Tu plan para la próxima vez: {plan}',
 };
 
 const PT_PT: Dictionary = {
@@ -368,6 +383,11 @@ const PT_PT: Dictionary = {
   reviewContinueButton: 'Continuar',
   reviewNextHeading: 'O que quer fazer a seguir?',
   reviewPracticeMore: 'Praticar mais',
+  nextSessionQuestion: 'Quando e onde vai fazer os seus próximos 10 minutos?',
+  nextSessionSave: 'Guardar',
+  nextSessionCalendar: 'Adicionar ao calendário',
+  nextSessionTime: 'Hora',
+  nextSessionSaved: 'O seu plano para a próxima vez: {plan}',
 };
 
 const DE_DE: Dictionary = {
@@ -459,6 +479,11 @@ const DE_DE: Dictionary = {
   reviewContinueButton: 'Weiter',
   reviewNextHeading: 'Was möchtest du als Nächstes tun?',
   reviewPracticeMore: 'Weiter üben',
+  nextSessionQuestion: 'Wann und wo machst du deine nächsten 10 Minuten?',
+  nextSessionSave: 'Speichern',
+  nextSessionCalendar: 'Zum Kalender hinzufügen',
+  nextSessionTime: 'Uhrzeit',
+  nextSessionSaved: 'Dein Plan für das nächste Mal: {plan}',
 };
 
 const FR_FR: Dictionary = {
@@ -551,6 +576,11 @@ const FR_FR: Dictionary = {
   reviewContinueButton: 'Continuer',
   reviewNextHeading: 'Que veux-tu faire maintenant ?',
   reviewPracticeMore: 'S’entraîner encore',
+  nextSessionQuestion: 'Quand et où feras-tu tes 10 prochaines minutes ?',
+  nextSessionSave: 'Enregistrer',
+  nextSessionCalendar: 'Ajouter au calendrier',
+  nextSessionTime: 'Heure',
+  nextSessionSaved: 'Ton plan pour la prochaine fois : {plan}',
 };
 
 const DICTIONARIES: Record<string, Dictionary> = {

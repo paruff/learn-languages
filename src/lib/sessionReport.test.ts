@@ -12,6 +12,7 @@ describe('buildSessionReport (spec M1)', () => {
     targetLang: 'pt-PT',
     log,
     levels: [{ cefrLevel: 'A1', masteredItems: 1, totalItems: 20 }],
+    nextSession: { planned: true, calendar: false },
     comment: 'Loved it',
     generatedOn: '2026-10-22',
   });
@@ -28,6 +29,7 @@ describe('buildSessionReport (spec M1)', () => {
         'gradeMix',
         'lastDay',
         'levels',
+        'nextSession',
         'pair',
         'retention',
         'returned',
