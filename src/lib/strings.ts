@@ -55,6 +55,8 @@ export type StringKey =
   | 'reviewGradeGood'
   | 'reviewGradeEasy'
   | 'reviewGradeHint'
+  | 'reviewCorrectionHeading'
+  | 'reviewContinueButton'
   | 'lessonsNextLesson'
   | 'reviewReflectionQuestion'
   | 'reviewReflectionEasy'
@@ -175,6 +177,8 @@ const EN_GB: Dictionary = {
   itemPlural: 'items',
   cardSingular: 'card',
   cardPlural: 'cards',
+  reviewCorrectionHeading: 'Have another look — you will see this card again shortly.',
+  reviewContinueButton: 'Continue',
 };
 
 const ES_ES: Dictionary = {
@@ -262,6 +266,8 @@ const ES_ES: Dictionary = {
   itemPlural: 'elementos',
   cardSingular: 'tarjeta',
   cardPlural: 'tarjetas',
+  reviewCorrectionHeading: 'Échale otro vistazo: volverás a ver esta tarjeta enseguida.',
+  reviewContinueButton: 'Continuar',
 };
 
 const PT_PT: Dictionary = {
@@ -348,6 +354,8 @@ const PT_PT: Dictionary = {
   itemPlural: 'itens',
   cardSingular: 'cartão',
   cardPlural: 'cartões',
+  reviewCorrectionHeading: 'Veja outra vez — vai voltar a ver este cartão em breve.',
+  reviewContinueButton: 'Continuar',
 };
 
 const DE_DE: Dictionary = {
@@ -434,6 +442,8 @@ const DE_DE: Dictionary = {
   itemPlural: 'Elemente',
   cardSingular: 'Karte',
   cardPlural: 'Karten',
+  reviewCorrectionHeading: 'Schau noch einmal hin – du siehst diese Karte gleich wieder.',
+  reviewContinueButton: 'Weiter',
 };
 
 const FR_FR: Dictionary = {
@@ -521,6 +531,8 @@ const FR_FR: Dictionary = {
   itemPlural: 'éléments',
   cardSingular: 'carte',
   cardPlural: 'cartes',
+  reviewCorrectionHeading: 'Regarde encore — tu reverras cette carte bientôt.',
+  reviewContinueButton: 'Continuer',
 };
 
 const DICTIONARIES: Record<string, Dictionary> = {
