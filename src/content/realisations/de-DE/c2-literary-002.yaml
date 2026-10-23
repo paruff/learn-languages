@@ -15,7 +15,7 @@ vocabulary:
     translation: 'intended effect'
     partOfSpeech: phrase
     gender: n/a
-    example: 'Ich erzielte beim Leser stets die beabsichtigte Wirkung.'
+    example: 'Ich erziele beim Leser stets die beabsichtigte Wirkung.'
     exampleTranslation: 'I always achieve the intended effect on the reader.'
   - id: de-DE-C2-LITERARY-002-009
     concept: 'appropriate-register'
