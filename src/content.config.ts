@@ -1,5 +1,6 @@
 import { defineCollection, z } from 'astro:content';
-import { glob } from 'astro/loaders';
+import { file, glob } from 'astro/loaders';
+import { parse as parseYaml } from 'yaml';
 
 const cefrNodeSchema = z
   .object({
@@ -144,8 +145,14 @@ export const collections = {
     schema: vocabularyItemSchema,
   }),
   'concept-images': defineCollection({
-    type: 'data',
-    schema: z.array(conceptImageSchema),
+    loader: file('./src/content/concept-images/index.yaml', {
+      parser: (text) =>
+        (parseYaml(text) as { concept: string }[]).map((image) => ({
+          id: image.concept,
+          ...image,
+        })),
+    }),
+    schema: conceptImageSchema,
   }),
   realisations: defineCollection({
     loader: glob({ pattern: '**/*.yaml', base: './src/content/realisations' }),
