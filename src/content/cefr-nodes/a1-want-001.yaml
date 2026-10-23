@@ -8,4 +8,5 @@ relatedNodes:
   - A1-FEEL-001
   - A1-OFFER-001
   - A1-CAPAB-001
-prerequisiteNodes: []
+prerequisiteNodes:
+  - A1-REQUEST-001

@@ -46,6 +46,29 @@ export function nextIndex(orderedIds: string[], studied: ReadonlySet<string>): n
   return orderedIds.findIndex((id) => !studied.has(id));
 }
 
+/**
+ * L12: soft prerequisites. Next lesson = first unstudied in order, redirected to its
+ * first unstudied prerequisite (transitively). A recommendation only; nothing is locked.
+ */
+export function recommendNext(
+  lessons: { nodeId: string; prerequisiteNodes?: string[] }[],
+  studied: ReadonlySet<string>
+): number {
+  const byId = new Map(lessons.map((l, i) => [l.nodeId, i]));
+  let i = nextIndex(
+    lessons.map((l) => l.nodeId),
+    studied
+  );
+  const seen = new Set<number>();
+  while (i !== -1 && !seen.has(i)) {
+    seen.add(i);
+    const pre = (lessons[i].prerequisiteNodes ?? []).find((p) => byId.has(p) && !studied.has(p));
+    if (pre === undefined) break;
+    i = byId.get(pre)!;
+  }
+  return i;
+}
+
 const studiedKey = (sourceLang: string, targetLang: string) =>
   `studied:${sourceLang}:${targetLang}`;
 

@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import { A1_ORDER, orderLessons, nextIndex, loadStudied, markStudied } from './path';
+import { A1_ORDER, orderLessons, nextIndex, recommendNext, loadStudied, markStudied } from './path';
 
 describe('learning path (J1)', () => {
   beforeEach(() => window.localStorage.clear());
@@ -21,6 +21,19 @@ describe('learning path (J1)', () => {
     expect(nextIndex(['a', 'b', 'c'], new Set())).toBe(0);
     expect(nextIndex(['a', 'b', 'c'], new Set(['a']))).toBe(1);
     expect(nextIndex(['a', 'b'], new Set(['a', 'b']))).toBe(-1);
+  });
+
+  it('recommendNext surfaces the first unstudied prerequisite, never locks', () => {
+    const l = [
+      { nodeId: 'c', prerequisiteNodes: ['a'] },
+      { nodeId: 'a', prerequisiteNodes: [] },
+      { nodeId: 'b', prerequisiteNodes: ['c'] },
+    ];
+    expect(recommendNext(l, new Set())).toBe(1); // c wants a
+    expect(recommendNext(l, new Set(['a']))).toBe(0);
+    expect(recommendNext(l, new Set(['a', 'c']))).toBe(2);
+    expect(recommendNext(l, new Set(['a', 'b', 'c']))).toBe(-1);
+    expect(recommendNext([{ nodeId: 'x', prerequisiteNodes: ['x', 'gone'] }], new Set())).toBe(0);
   });
 
   it('markStudied persists per pair and ignores corrupt data', () => {
