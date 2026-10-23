@@ -22,7 +22,7 @@ The only list of open questions for the owner. Each one says what changes depend
 - Engineering is ahead of evidence: the review loop, SRS, interleaving, typed recall, calibration, exercises, multi-language pairing and tester-readiness fixes are shipped and tested (spec §2 and §4, almost all ✅).
 - Content runs A1–C2 for pt-PT, es-ES, de-DE and fr-FR, and most of it-IT. That happened ahead of the learner gate; it's kept, but no more is added until G1 says the loop works (except owner exceptions below).
 - **The gating risk is unchanged:** no persona-matched learner has been observed yet (intent S1, S2). The owner's own attempt to learn Portuguese got lost quickly, so the learner journey (#194) comes first.
-- **Evidence review (2026-10-23, [`docs/research/2026-10-23-sla-evidence-review-and-product-audit.md`](../docs/research/2026-10-23-sla-evidence-review-and-product-audit.md)):** the loop applies the strongest learning-science findings well, but only to single words. Of Nation's four strands, Acquira covers language-focused learning and almost none of meaning-focused input, output or fluency. The new rows below come from that review; two are bugs worth fixing now (1.5, D.3).
+- **Evidence review (2026-10-23, [`docs/research/2026-10-23-sla-evidence-review-and-product-audit.md`](../docs/research/2026-10-23-sla-evidence-review-and-product-audit.md)):** the loop applies the strongest learning-science findings well, but only to single words. Of Nation's four strands, Acquira covers language-focused learning and almost none of meaning-focused input, output or fluency. The new rows below come from that review; one is a bug worth fixing now (1.5; D.3 fixed in #242).
 
 ## G1 Prove learners succeed (Phase 1) — **now**
 
@@ -52,7 +52,6 @@ Every pair shows the right word with the right gloss. Bug and compliance work, a
 | --- | -------------------------------------------------------------------------------------------------- | ------ | ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | D.2 | Re-align de-DE B1–C2 vocabulary to shared concepts (one PR per level: B1 in #203, then B2, C1, C2) | C3, C9 | #143  | `npm run report:coverage -- de-DE` shows 0 missing for the level; check against the Goethe-Institut B1–C2 Prüfungsziele recorded in `docs/de-cefr-mapping.md`; human review before merge |
 | D.1 | Re-align es-ES B1–C2 with per-item PCIC review (replaces #142)                                     | C3, C9 | #185  | Same, for es-ES against PCIC                                                                                                                                                             |
-| D.3 | Bug: exercises show Portuguese on every pair; key them by target language                          | C11    | #242  | No exercise page is built for a target the exercise isn't written in; E2E on en-GB→de-DE                                                                                                 |
 
 Owner decision 2026-10-18, confirmed 2026-10-22: re-authoring es-ES and de-DE B1–C2 is an explicit exception to rule 1. It re-authors existing content and adds no new levels. de-DE goes first.
 
