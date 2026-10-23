@@ -1,54 +1,54 @@
 nodeId: C1-ARGUE-001
 lang: de-DE
 vocabulary:
-  - id: de-DE-C1-ARGUE-001-001
-    concept: 'argumentation'
-    term: 'Argumentation'
-    translation: 'argumentation'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Argumentation war systematisch und überzeugend.'
-    exampleTranslation: 'The argumentation was systematic and convincing.'
-  - id: de-DE-C1-ARGUE-001-002
-    concept: 'strategic'
-    term: 'strategisch'
-    translation: 'strategic'
-    partOfSpeech: adjective
+  - id: de-DE-C1-ARGUE-001-007
+    concept: 'to-develop-sub-topics'
+    term: 'Unterthemen ausarbeiten'
+    translation: 'to develop sub-topics'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Er setzt strategische Argumente ein.'
-    exampleTranslation: 'He uses strategic arguments.'
-  - id: de-DE-C1-ARGUE-001-003
-    concept: 'sophistication'
-    term: 'Sophistikation'
-    translation: 'sophistication'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Sophistikation seiner Argumente ist beeindruckend.'
-    exampleTranslation: 'The sophistication of his arguments is impressive.'
-  - id: de-DE-C1-ARGUE-001-004
-    concept: 'construction'
-    term: 'Konstruktion'
-    translation: 'construction'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Konstruktion von Argumenten erfordert Übung.'
-    exampleTranslation: 'The construction of arguments requires practice.'
-  - id: de-DE-C1-ARGUE-001-005
-    concept: 'to-assess'
-    term: 'einschätzen'
-    translation: 'to assess / to evaluate'
-    partOfSpeech: verb
+    example: 'Der Redner arbeitete die Unterthemen mit beneidenswerter Stimmigkeit aus.'
+    exampleTranslation: 'The speaker developed the sub-topics with enviable coherence.'
+  - id: de-DE-C1-ARGUE-001-008
+    concept: 'to-structure-the-presentation'
+    term: 'den Vortrag gliedern'
+    translation: 'to structure the presentation'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Sie kann die Situation sehr gut einschätzen.'
-    exampleTranslation: 'She can assess the situation very well.'
-  - id: de-DE-C1-ARGUE-001-006
-    concept: 'convincing'
-    term: 'überzeugend'
-    translation: 'convincing'
-    partOfSpeech: adjective
+    example: 'Einen Vortrag zu gliedern ist entscheidend, um die Aufmerksamkeit zu halten.'
+    exampleTranslation: 'Knowing how to structure the presentation is essential for keeping attention.'
+  - id: de-DE-C1-ARGUE-001-009
+    concept: 'to-elaborate-the-points'
+    term: 'die Punkte ausführen'
+    translation: 'to elaborate the points'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Das war ein sehr überzeugendes Argument.'
-    exampleTranslation: 'That was a very convincing argument.'
+    example: 'Nach der Einleitung führte er die umstrittensten Punkte der Frage aus.'
+    exampleTranslation: 'After the introduction, he elaborated on the most controversial points of the issue.'
+  - id: de-DE-C1-ARGUE-001-010
+    concept: 'to-establish-connections'
+    term: 'Zusammenhänge herstellen'
+    translation: 'to establish connections'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Wie er Zusammenhänge zwischen den verschiedenen Themen herstellte, war bemerkenswert.'
+    exampleTranslation: 'The way he established connections between the various topics was remarkable.'
+  - id: de-DE-C1-ARGUE-001-011
+    concept: 'to-present-an-overview'
+    term: 'einen Überblick geben'
+    translation: 'to present an overview'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Zu Beginn gab er einen Überblick über das Problem.'
+    exampleTranslation: 'At the start, he presented an overview of the problem.'
+  - id: de-DE-C1-ARGUE-001-012
+    concept: 'to-give-depth'
+    term: 'Tiefe verleihen'
+    translation: 'to give depth'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Die historischen Beispiele verliehen dem Vortrag Tiefe.'
+    exampleTranslation: 'The historical examples gave depth to the presentation.'
 grammar:
   - id: C1-ARGUE-001-GR01
     point: 'Constructing sophisticated arguments strategically'

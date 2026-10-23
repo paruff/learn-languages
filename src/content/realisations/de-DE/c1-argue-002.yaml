@@ -1,54 +1,54 @@
 nodeId: C1-ARGUE-002
 lang: de-DE
 vocabulary:
-  - id: de-DE-C1-ARGUE-002-001
-    concept: 'point-of-view'
-    term: 'Standpunkt'
-    translation: 'point of view'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Ich vertrete den Standpunkt, dass die Wirtschaft wächst.'
-    exampleTranslation: 'I hold the point of view that the economy is growing.'
-  - id: de-DE-C1-ARGUE-002-002
-    concept: 'position'
-    term: 'Position'
-    translation: 'position'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Seine Position war klar und differenziert.'
-    exampleTranslation: 'His position was clear and nuanced.'
-  - id: de-DE-C1-ARGUE-002-003
-    concept: 'nuanced'
-    term: 'differenziert'
-    translation: 'nuanced / differentiated'
-    partOfSpeech: adjective
+  - id: de-DE-C1-ARGUE-002-007
+    concept: 'to-refute-an-argument'
+    term: 'ein Argument widerlegen'
+    translation: 'to refute an argument'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Die Analyse war sehr differenziert.'
-    exampleTranslation: 'The analysis was very nuanced.'
-  - id: de-DE-C1-ARGUE-002-004
-    concept: 'to-convey'
-    term: 'vermitteln'
-    translation: 'to convey / to mediate'
-    partOfSpeech: verb
+    example: 'Sie widerlegte das Argument ihres Gegners mit sachlichen Daten.'
+    exampleTranslation: "She refuted her opponent's argument with objective data."
+  - id: de-DE-C1-ARGUE-002-008
+    concept: 'to-weigh-the-pros-and-cons'
+    term: 'das Für und Wider abwägen'
+    translation: 'to weigh the pros and cons'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Sie kann komplexe Ideen gut vermitteln.'
-    exampleTranslation: 'She can convey complex ideas well.'
-  - id: de-DE-C1-ARGUE-002-005
-    concept: 'attitude'
-    term: 'Haltung'
-    translation: 'attitude / stance'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Seine Haltung zum Thema war respektvoll.'
-    exampleTranslation: 'His attitude towards the topic was respectful.'
-  - id: de-DE-C1-ARGUE-002-006
-    concept: 'to-weigh'
-    term: 'abwägen'
-    translation: 'to weigh / to consider'
-    partOfSpeech: verb
+    example: 'Vor der Entscheidung wog sie das Für und Wider jeder Option ab.'
+    exampleTranslation: 'Before deciding, she weighed the pros and cons of each option.'
+  - id: de-DE-C1-ARGUE-002-009
+    concept: 'to-present-counter-arguments'
+    term: 'Gegenargumente vorbringen'
+    translation: 'to present counter-arguments'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Man muss verschiedene Faktoren abwägen.'
-    exampleTranslation: 'One must weigh various factors.'
+    example: 'Sie verteidigte nicht nur ihre Position, sondern brachte auch Gegenargumente vor.'
+    exampleTranslation: 'She did not just defend her position; she also presented counter-arguments.'
+  - id: de-DE-C1-ARGUE-002-010
+    concept: 'to-give-emphasis-to'
+    term: 'Nachdruck verleihen'
+    translation: 'to give emphasis to'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Der Redner verlieh der Notwendigkeit eines offenen Dialogs Nachdruck.'
+    exampleTranslation: 'The speaker gave emphasis to the need for open dialogue.'
+  - id: de-DE-C1-ARGUE-002-011
+    concept: 'to-draw-conclusions'
+    term: 'Schlüsse ziehen'
+    translation: 'to draw conclusions'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Am Ende zog sie Schlüsse, die einen Teil des Publikums überraschten.'
+    exampleTranslation: 'In the end, she drew conclusions that surprised part of the audience.'
+  - id: de-DE-C1-ARGUE-002-012
+    concept: 'to-substantiate-one-s-position'
+    term: 'die eigene Position belegen'
+    translation: "to substantiate one's position"
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Sie belegte ihre Position mit aktuellen Studien.'
+    exampleTranslation: 'She substantiated her position with recent studies.'
 grammar:
   - id: C1-ARGUE-002-GR01
     point: 'Articulating nuanced positions on complex issues'

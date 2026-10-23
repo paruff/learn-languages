@@ -1,53 +1,53 @@
 nodeId: C1-TEXT-001
 lang: de-DE
 vocabulary:
-  - id: de-DE-C1-TEXT-001-001
-    concept: 'independence'
-    term: 'Unabhängigkeit'
-    translation: 'independence'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Er liest mit großer Unabhängigkeit.'
-    exampleTranslation: 'He reads with a great degree of independence.'
-  - id: de-DE-C1-TEXT-001-002
-    concept: 'topic-related'
-    term: 'themenbezogen'
-    translation: 'topic-related'
-    partOfSpeech: adjective
+  - id: de-DE-C1-TEXT-001-007
+    concept: 'to-read-between-the-lines'
+    term: 'zwischen den Zeilen lesen'
+    translation: 'to read between the lines'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Die Texte sind themenbezogen.'
-    exampleTranslation: 'The texts are topic-related.'
-  - id: de-DE-C1-TEXT-001-003
-    concept: 'text-comprehension'
-    term: 'Textverständnis'
-    translation: 'text comprehension'
-    partOfSpeech: noun
-    gender: neuter
-    example: 'Mein Textverständnis ist gut.'
-    exampleTranslation: 'My text comprehension is good.'
-  - id: de-DE-C1-TEXT-001-004
-    concept: 'independent'
-    term: 'unabhängig'
-    translation: 'independent'
-    partOfSpeech: adjective
+    example: 'Ein aufmerksamer Leser versteht es, zwischen den Zeilen von Leitartikeln zu lesen.'
+    exampleTranslation: 'An attentive reader knows how to read between the lines of editorials.'
+  - id: de-DE-C1-TEXT-001-008
+    concept: 'to-grasp-the-implicit-meaning'
+    term: 'den impliziten Sinn erfassen'
+    translation: 'to grasp the implicit meaning'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich lese unabhängig von Hilfsmitteln.'
-    exampleTranslation: 'I read independently of aids.'
-  - id: de-DE-C1-TEXT-001-005
-    concept: 'main-content'
-    term: 'Hauptinhalt'
-    translation: 'main content'
+    example: 'Der Kritiker erfasste den impliziten Sinn des Romans.'
+    exampleTranslation: 'The critic grasped the implicit meaning of the novel.'
+  - id: de-DE-C1-TEXT-001-009
+    concept: 'to-discern-the-irony'
+    term: 'die Ironie erkennen'
+    translation: 'to discern the irony'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Nur ein erfahrener Leser kann die Ironie des Textes erkennen.'
+    exampleTranslation: 'Only an experienced reader can discern the irony of the text.'
+  - id: de-DE-C1-TEXT-001-010
+    concept: 'long-form-text'
+    term: 'der längere Text'
+    translation: 'long-form text'
     partOfSpeech: noun
     gender: masculine
-    example: 'Was ist der Hauptinhalt?'
-    exampleTranslation: 'What is the main content?'
-  - id: de-DE-C1-TEXT-001-006
-    concept: 'to-understand'
-    term: 'verstehen'
-    translation: 'to understand'
-    partOfSpeech: verb
+    example: 'Der Essay ist ein längerer Text über die europäische Identität.'
+    exampleTranslation: 'The essay is a long-form text on European identity.'
+  - id: de-DE-C1-TEXT-001-011
+    concept: 'to-contextualise-the-work'
+    term: 'das Werk einordnen'
+    translation: 'to contextualise the work'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich verstehe den Text gut.'
-    exampleTranslation: 'I understand the text well.'
+    example: 'Man sollte das Werk in die Epoche seiner Entstehung einordnen.'
+    exampleTranslation: 'It is advisable to contextualise the work within the era in which it was written.'
+  - id: de-DE-C1-TEXT-001-012
+    concept: 'to-infer-the-point-of-view'
+    term: 'den Standpunkt erschließen'
+    translation: 'to infer the point of view'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Den Standpunkt des Autors kann man aus der Wahl der Beispiele erschließen.'
+    exampleTranslation: "The author's point of view can be inferred from the choice of examples."
 grammar: []
 culturalNotes: 'German academic reading at C1 requires understanding "Fachliteratur" (specialized literature) and complex sentence structures typical of German prose.'

@@ -1,54 +1,54 @@
 nodeId: C1-ARGUE-004
 lang: de-DE
 vocabulary:
-  - id: de-DE-C1-ARGUE-004-001
-    concept: 'statement'
-    term: 'Stellungnahme'
-    translation: 'statement / position paper'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Er hat eine klare Stellungnahme abgegeben.'
-    exampleTranslation: 'He has made a clear statement.'
-  - id: de-DE-C1-ARGUE-004-002
-    concept: 'discourse'
-    term: 'Diskurs'
-    translation: 'discourse'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Der Diskurs war konstruktiv.'
-    exampleTranslation: 'The discourse was constructive.'
-  - id: de-DE-C1-ARGUE-004-003
-    concept: 'position'
-    term: 'Position'
-    translation: 'position'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Seine Position war klar.'
-    exampleTranslation: 'His position was clear.'
-  - id: de-DE-C1-ARGUE-004-004
-    concept: 'innovation'
-    term: 'Innovation'
-    translation: 'innovation'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Innovation war ein Durchbruch.'
-    exampleTranslation: 'The innovation was a breakthrough.'
-  - id: de-DE-C1-ARGUE-004-005
-    concept: 'proactive'
-    term: 'initiativ'
-    translation: 'proactive / initiative-taking'
-    partOfSpeech: adjective
+  - id: de-DE-C1-ARGUE-004-007
+    concept: 'to-defend-with-arguments'
+    term: 'mit Argumenten verteidigen'
+    translation: 'to defend with arguments'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Sie ist sehr initiativ.'
-    exampleTranslation: 'She is very proactive.'
-  - id: de-DE-C1-ARGUE-004-006
-    concept: 'progressive'
-    term: 'progressiv'
-    translation: 'progressive'
-    partOfSpeech: adjective
+    example: 'Der Text verteidigt die Position des Autors mit stichhaltigen Argumenten.'
+    exampleTranslation: "The text defends the author's position with solid arguments."
+  - id: de-DE-C1-ARGUE-004-008
+    concept: 'to-guide-the-reader'
+    term: 'den Leser führen'
+    translation: 'to guide the reader'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Die Idee war sehr progressiv.'
-    exampleTranslation: 'The idea was very progressive.'
+    example: 'Gute Argumentation führt den Leser ganz natürlich zur Schlussfolgerung.'
+    exampleTranslation: 'Good argumentation guides the reader naturally towards the conclusion.'
+  - id: de-DE-C1-ARGUE-004-009
+    concept: 'to-articulate-the-ideas'
+    term: 'die Gedanken ordnen'
+    translation: 'to articulate the ideas'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Man muss die Gedanken ordnen, bevor man den ersten Absatz schreibt.'
+    exampleTranslation: 'It is essential to articulate the ideas before writing the first paragraph.'
+  - id: de-DE-C1-ARGUE-004-010
+    concept: 'to-rebut-the-objection'
+    term: 'den Einwand entkräften'
+    translation: 'to rebut the objection'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Im vierten Absatz entkräftet der Autor den Haupteinwand.'
+    exampleTranslation: 'In the fourth paragraph, the author rebuts the main objection.'
+  - id: de-DE-C1-ARGUE-004-011
+    concept: 'to-follow-a-guiding-thread'
+    term: 'einem roten Faden folgen'
+    translation: 'to follow a guiding thread'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Alle Beispiele folgen einem klaren und strengen roten Faden.'
+    exampleTranslation: 'All the examples follow a clear and rigorous guiding thread.'
+  - id: de-DE-C1-ARGUE-004-012
+    concept: 'to-rest-on-premises'
+    term: 'auf Prämissen beruhen'
+    translation: 'to rest on premises'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Die Schlussfolgerung beruht auf Prämissen, die man offenlegen sollte.'
+    exampleTranslation: 'The conclusion rests on premises that should be made explicit.'
 grammar:
   - id: C1-ARGUE-004-GR01
     point: 'Making nuanced statements about discourse topics'

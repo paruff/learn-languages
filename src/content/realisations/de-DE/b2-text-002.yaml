@@ -1,53 +1,53 @@
 nodeId: B2-TEXT-002
 lang: de-DE
 vocabulary:
-  - id: de-DE-B2-TEXT-002-001
-    concept: 'article'
-    term: 'Artikel'
-    translation: 'article'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Der Artikel behandelt aktuelle Probleme.'
-    exampleTranslation: 'The article deals with contemporary problems.'
-  - id: de-DE-B2-TEXT-002-002
-    concept: 'report'
-    term: 'Bericht'
-    translation: 'report'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Der Bericht war sehr detailliert.'
-    exampleTranslation: 'The report was very detailed.'
-  - id: de-DE-B2-TEXT-002-003
-    concept: 'contemporary'
-    term: 'zeitgenössisch'
-    translation: 'contemporary'
-    partOfSpeech: adjective
+  - id: de-DE-B2-TEXT-002-007
+    concept: 'to-understand-newspaper-articles'
+    term: 'Zeitungsartikel verstehen'
+    translation: 'to understand newspaper articles'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Das sind zeitgenössische Probleme.'
-    exampleTranslation: 'These are contemporary problems.'
-  - id: de-DE-B2-TEXT-002-004
-    concept: 'to-understand'
-    term: 'verstehen'
-    translation: 'to understand'
-    partOfSpeech: verb
+    example: 'Ich kann Zeitungsartikel zu aktuellen Themen verstehen.'
+    exampleTranslation: 'I can understand newspaper articles on current topics.'
+  - id: de-DE-B2-TEXT-002-008
+    concept: 'to-read-technical-reports'
+    term: 'Fachberichte lesen'
+    translation: 'to read technical reports'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich verstehe die Artikel gut.'
-    exampleTranslation: 'I understand the articles well.'
-  - id: de-DE-B2-TEXT-002-005
-    concept: 'to-summarize'
-    term: 'zusammenfassen'
-    translation: 'to summarize'
-    partOfSpeech: verb
+    example: 'Ich lese Fachberichte zu dem Thema.'
+    exampleTranslation: 'I will read technical reports on the topic.'
+  - id: de-DE-B2-TEXT-002-009
+    concept: 'to-analyse-argumentative-texts'
+    term: 'argumentative Texte analysieren'
+    translation: 'to analyse argumentative texts'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich fasse den Bericht zusammen.'
-    exampleTranslation: 'I summarize the report.'
-  - id: de-DE-B2-TEXT-002-006
-    concept: 'discussion'
-    term: 'Diskussion'
-    translation: 'discussion'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Diskussion war interessant.'
-    exampleTranslation: 'The discussion was interesting.'
+    example: 'Es ist wichtig, argumentative Texte sorgfältig zu analysieren.'
+    exampleTranslation: 'It is important to analyse argumentative texts carefully.'
+  - id: de-DE-B2-TEXT-002-010
+    concept: 'to-distinguish-facts-from-opinions'
+    term: 'Tatsachen von Meinungen unterscheiden'
+    translation: 'to distinguish facts from opinions'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich muss in dem Artikel Tatsachen von Meinungen unterscheiden.'
+    exampleTranslation: 'I need to distinguish facts from opinions in the article.'
+  - id: de-DE-B2-TEXT-002-011
+    concept: 'to-identify-the-purpose-of-the-text'
+    term: 'die Absicht des Textes erkennen'
+    translation: 'to identify the purpose of the text'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich erkenne die Absicht des Textes von Anfang an.'
+    exampleTranslation: 'I will identify the purpose of the text from the beginning.'
+  - id: de-DE-B2-TEXT-002-012
+    concept: 'to-read-between-the-lines'
+    term: 'zwischen den Zeilen lesen'
+    translation: 'to read between the lines'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Es ist nützlich, zwischen den Zeilen zu lesen, um das Unausgesprochene zu verstehen.'
+    exampleTranslation: 'It is useful to read between the lines to understand the implicit.'
 grammar: []
 culturalNotes: 'German quality newspapers ("Qualitätszeitungen") like "Süddeutsche Zeitung" and "Frankfurter Allgemeine" publish in-depth articles on contemporary issues; B2 readers should handle these fluently.'

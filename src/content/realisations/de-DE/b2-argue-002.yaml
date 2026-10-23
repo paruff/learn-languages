@@ -1,54 +1,54 @@
 nodeId: B2-ARGUE-002
 lang: de-DE
 vocabulary:
-  - id: de-DE-B2-ARGUE-002-001
-    concept: 'point-of-view'
-    term: 'Standpunkt'
-    translation: 'point of view'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Ich vertrete den Standpunkt, dass...'
-    exampleTranslation: 'I hold the point of view that...'
-  - id: de-DE-B2-ARGUE-002-002
-    concept: 'to-justify'
-    term: 'begründen'
-    translation: 'to justify / to give reasons'
-    partOfSpeech: verb
+  - id: de-DE-B2-ARGUE-002-007
+    concept: 'to-justify-the-position'
+    term: 'die Position begründen'
+    translation: 'to justify the position'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Können Sie Ihren Standpunkt begründen?'
-    exampleTranslation: 'Can you justify your point of view?'
-  - id: de-DE-B2-ARGUE-002-003
-    concept: 'current'
-    term: 'aktuell'
-    translation: 'current / topical'
-    partOfSpeech: adjective
+    example: 'Ich begründe meine Position mit konkreten Beispielen.'
+    exampleTranslation: 'I will justify my position with concrete examples.'
+  - id: de-DE-B2-ARGUE-002-008
+    concept: 'to-argue-about-current-topics'
+    term: 'über aktuelle Themen diskutieren'
+    translation: 'to argue about current topics'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Das ist eine aktuelle Frage.'
-    exampleTranslation: 'That is a current question.'
-  - id: de-DE-B2-ARGUE-002-004
-    concept: 'debate'
-    term: 'Debatte'
-    translation: 'debate'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Debatte war sehr lebhaft.'
-    exampleTranslation: 'The debate was very lively.'
-  - id: de-DE-B2-ARGUE-002-005
-    concept: 'to-represent'
-    term: 'vertreten'
-    translation: 'to represent / to hold (a view)'
-    partOfSpeech: verb
+    example: 'Ich diskutiere gern mit Freunden über aktuelle Themen.'
+    exampleTranslation: 'I like to argue about current topics with friends.'
+  - id: de-DE-B2-ARGUE-002-009
+    concept: 'to-present-evidence'
+    term: 'Belege vorlegen'
+    translation: 'to present evidence'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich vertrete die Meinung, dass...'
-    exampleTranslation: 'I hold the opinion that...'
-  - id: de-DE-B2-ARGUE-002-006
-    concept: 'hint'
-    term: 'Hinweis'
-    translation: 'hint / indication'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Es gibt viele Hinweise dafür.'
-    exampleTranslation: 'There are many indications for it.'
+    example: 'Es ist wichtig, Belege vorzulegen, die die Meinung stützen.'
+    exampleTranslation: 'It is important to present evidence that supports the opinion.'
+  - id: de-DE-B2-ARGUE-002-010
+    concept: 'to-present-the-pros-and-cons'
+    term: 'das Für und Wider darstellen'
+    translation: 'to present the pros and cons'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich stelle das Für und Wider der Situation dar.'
+    exampleTranslation: 'I will present the pros and cons of the situation.'
+  - id: de-DE-B2-ARGUE-002-011
+    concept: 'to-refute-arguments'
+    term: 'Argumente widerlegen'
+    translation: 'to refute arguments'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich kann schwache Argumente mit Fakten widerlegen.'
+    exampleTranslation: 'I can refute weak arguments with facts.'
+  - id: de-DE-B2-ARGUE-002-012
+    concept: 'to-reach-conclusions'
+    term: 'zu Schlussfolgerungen gelangen'
+    translation: 'to reach conclusions'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Auf der Grundlage der Diskussion können wir zu Schlussfolgerungen gelangen.'
+    exampleTranslation: 'We can reach conclusions based on the discussion.'
 grammar:
   - id: B2-ARGUE-002-GR01
     point: 'Justifying viewpoints on topical issues'

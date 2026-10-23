@@ -11,6 +11,11 @@ permissions:
   id-token: write
   pages: write
 
+# A new push to a PR supersedes the previous run; never cancel runs on main (deploys).
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
 env:
   # Major-only pin: tracks 26.x patches (and the move to LTS). Keep in step with
   # package.json engines and .devcontainer/Dockerfile.
@@ -131,21 +136,27 @@ jobs:
           path: dist/
           retention-days: 7
 
-  # One job per Playwright project so the five browsers run concurrently
-  # (was one serial job, 25+ min).
+  # One job per Playwright project, with the slow ones split into 3 shards, so
+  # everything runs concurrently (was one serial job, 25+ min).
   e2e-shard:
-    name: E2E (${{ matrix.project }})
+    name: E2E (${{ matrix.project }} ${{ matrix.shard }})
     runs-on: ubuntu-latest
     needs: build
     strategy:
       fail-fast: false
       matrix:
         include:
-          - { project: chromium, browser: chromium }
-          - { project: mobile-chrome, browser: chromium }
-          - { project: firefox, browser: firefox }
-          - { project: webkit, browser: webkit }
-          - { project: mobile-safari, browser: webkit }
+          - { project: chromium, browser: chromium, shard: 1/3 }
+          - { project: chromium, browser: chromium, shard: 2/3 }
+          - { project: chromium, browser: chromium, shard: 3/3 }
+          - { project: mobile-chrome, browser: chromium, shard: 1/3 }
+          - { project: mobile-chrome, browser: chromium, shard: 2/3 }
+          - { project: mobile-chrome, browser: chromium, shard: 3/3 }
+          - { project: firefox, browser: firefox, shard: 1/1 }
+          - { project: webkit, browser: webkit, shard: 1/3 }
+          - { project: webkit, browser: webkit, shard: 2/3 }
+          - { project: webkit, browser: webkit, shard: 3/3 }
+          - { project: mobile-safari, browser: webkit, shard: 1/1 }
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7
@@ -153,16 +164,23 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           cache: 'npm'
       - run: npm ci
+      - id: pw
+        run: echo "version=$(npx playwright --version | awk '{print $2}')" >> "$GITHUB_OUTPUT"
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ matrix.browser }}-${{ steps.pw.outputs.version }}
+      # Browser download is skipped on a cache hit; --with-deps still installs OS libraries.
       - run: npx playwright install --with-deps ${{ matrix.browser }}
       - uses: actions/download-artifact@v8
         with:
           name: dist
           path: dist/
-      - run: npx playwright test --project=${{ matrix.project }}
+      - run: npx playwright test --project=${{ matrix.project }} --shard=${{ matrix.shard }}
       - uses: actions/upload-artifact@v7
         if: failure()
         with:
-          name: playwright-report-${{ matrix.project }}
+          name: playwright-report-${{ matrix.project }}-${{ strategy.job-index }}
           path: playwright-report/
           retention-days: 7
 

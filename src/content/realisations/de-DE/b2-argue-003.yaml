@@ -1,54 +1,54 @@
 nodeId: B2-ARGUE-003
 lang: de-DE
 vocabulary:
-  - id: de-DE-B2-ARGUE-003-001
-    concept: 'argumentation'
-    term: 'Argumentation'
-    translation: 'argumentation'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Argumentation war überzeugend.'
-    exampleTranslation: 'The argumentation was convincing.'
-  - id: de-DE-B2-ARGUE-003-002
-    concept: 'systematic'
-    term: 'systematisch'
-    translation: 'systematic'
-    partOfSpeech: adjective
+  - id: de-DE-B2-ARGUE-003-007
+    concept: 'to-develop-systematically'
+    term: 'systematisch entwickeln'
+    translation: 'to develop systematically'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Er argumentiert sehr systematisch.'
-    exampleTranslation: 'He argues very systematically.'
-  - id: de-DE-B2-ARGUE-003-003
-    concept: 'emphasis'
-    term: 'Hervorhebung'
-    translation: 'emphasis / highlighting'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Hervorhebung war wichtig.'
-    exampleTranslation: 'The emphasis was important.'
-  - id: de-DE-B2-ARGUE-003-004
-    concept: 'focus'
-    term: 'Schwerpunkt'
-    translation: 'focus / emphasis'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Der Schwerpunkt liegt auf der Wirtschaft.'
-    exampleTranslation: 'The focus is on the economy.'
-  - id: de-DE-B2-ARGUE-003-005
-    concept: 'to-develop'
-    term: 'entwickeln'
-    translation: 'to develop'
-    partOfSpeech: verb
+    example: 'Ich werde das Argument systematisch entwickeln.'
+    exampleTranslation: 'I will develop the argument systematically.'
+  - id: de-DE-B2-ARGUE-003-008
+    concept: 'to-highlight-important-points'
+    term: 'wichtige Punkte hervorheben'
+    translation: 'to highlight important points'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich entwickle mein Argument weiter.'
-    exampleTranslation: 'I develop my argument further.'
-  - id: de-DE-B2-ARGUE-003-006
-    concept: 'convincing'
-    term: 'überzeugend'
-    translation: 'convincing'
-    partOfSpeech: adjective
+    example: 'Es ist wichtig, die wichtigsten Punkte hervorzuheben.'
+    exampleTranslation: 'It is important to highlight the most important points.'
+  - id: de-DE-B2-ARGUE-003-009
+    concept: 'to-present-relevant-details'
+    term: 'relevante Einzelheiten anführen'
+    translation: 'to present relevant details'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Das war ein überzeugendes Argument.'
-    exampleTranslation: 'That was a convincing argument.'
+    example: 'Ich führe relevante Einzelheiten an, um meine These zu stützen.'
+    exampleTranslation: 'I will present relevant details to support my thesis.'
+  - id: de-DE-B2-ARGUE-003-010
+    concept: 'to-structure-the-argumentation'
+    term: 'die Argumentation gliedern'
+    translation: 'to structure the argumentation'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich muss die Argumentation klar gliedern.'
+    exampleTranslation: 'I need to structure the argumentation clearly.'
+  - id: de-DE-B2-ARGUE-003-011
+    concept: 'to-use-discourse-markers'
+    term: 'Diskursmarker verwenden'
+    translation: 'to use discourse markers'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Es ist nützlich, Diskursmarker zu verwenden, um den Text zu ordnen.'
+    exampleTranslation: 'It is useful to use discourse markers to organise.'
+  - id: de-DE-B2-ARGUE-003-012
+    concept: 'to-conclude-the-reasoning'
+    term: 'die Argumentation abschließen'
+    translation: 'to conclude the reasoning'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich schließe die Argumentation mit einer Zusammenfassung ab.'
+    exampleTranslation: 'I will conclude the reasoning with a summary.'
 grammar:
   - id: B2-ARGUE-003-GR01
     point: 'Developing arguments systematically'

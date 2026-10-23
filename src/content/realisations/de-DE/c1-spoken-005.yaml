@@ -1,53 +1,53 @@
 nodeId: C1-SPOKEN-005
 lang: de-DE
 vocabulary:
-  - id: de-DE-C1-SPOKEN-005-001
-    concept: 'multiple-choice'
-    term: 'Mehrfachauswahl'
-    translation: 'multiple choice'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Aufgabe war eine Mehrfachauswahl.'
-    exampleTranslation: 'The task was a multiple choice.'
-  - id: de-DE-C1-SPOKEN-005-002
-    concept: 'main-idea'
-    term: 'Hauptgedanke'
-    translation: 'main idea'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Der Hauptgedanke war klar.'
-    exampleTranslation: 'The main idea was clear.'
-  - id: de-DE-C1-SPOKEN-005-003
-    concept: 'detail-question'
-    term: 'Detailfrage'
-    translation: 'detail question'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Detailfrage war anspruchsvoll.'
-    exampleTranslation: 'The detail question was demanding.'
-  - id: de-DE-C1-SPOKEN-005-004
-    concept: 'structure'
-    term: 'Struktur'
-    translation: 'structure'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Struktur des Textes war klar.'
-    exampleTranslation: 'The structure of the text was clear.'
-  - id: de-DE-C1-SPOKEN-005-005
-    concept: 'context'
-    term: 'Zusammenhang'
-    translation: 'context / coherence'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Der Zusammenhang war erkennbar.'
-    exampleTranslation: 'The context was recognizable.'
-  - id: de-DE-C1-SPOKEN-005-006
-    concept: 'to-recognize'
-    term: 'erkennen'
-    translation: 'to recognize'
-    partOfSpeech: verb
+  - id: de-DE-C1-SPOKEN-005-007
+    concept: 'to-follow-a-film-without-subtitles'
+    term: 'einen Film ohne Untertitel verfolgen'
+    translation: 'to follow a film without subtitles'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich kann den Hauptgedanken erkennen.'
-    exampleTranslation: 'I can recognize the main idea.'
+    example: 'Sie kann einen Film schon von Anfang bis Ende ohne Untertitel verfolgen.'
+    exampleTranslation: 'She can already follow a film without subtitles from start to finish.'
+  - id: de-DE-C1-SPOKEN-005-008
+    concept: 'fast-paced-dialogue'
+    term: 'der schnelle Dialog'
+    translation: 'fast-paced dialogue'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Der schnelle Dialog moderner Serien verlangt große Wendigkeit.'
+    exampleTranslation: 'The fast-paced dialogue of modern series requires great agility.'
+  - id: de-DE-C1-SPOKEN-005-009
+    concept: 'register-shifts'
+    term: 'die Registerwechsel'
+    translation: 'register shifts'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Die Registerwechsel zwischen den Szenen verraten sogar Ironie.'
+    exampleTranslation: 'The register shifts between scenes even reveal irony.'
+  - id: de-DE-C1-SPOKEN-005-010
+    concept: 'coherence-of-the-plot'
+    term: 'die Stimmigkeit der Handlung'
+    translation: 'coherence of the plot'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Die Stimmigkeit der Handlung zu verfolgen ist Aufgabe des aufmerksamen Zuhörers.'
+    exampleTranslation: 'Following the coherence of the plot is a task for the attentive listener.'
+  - id: de-DE-C1-SPOKEN-005-011
+    concept: 'slang-and-everyday-expressions'
+    term: 'Slang und Alltagsausdrücke'
+    translation: 'slang and everyday expressions'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Slang und Alltagsausdrücke tauchen ohne Vorwarnung auf.'
+    exampleTranslation: 'Slang and everyday expressions appear without warning.'
+  - id: de-DE-C1-SPOKEN-005-012
+    concept: 'to-interpret-the-tone'
+    term: 'den Ton deuten'
+    translation: 'to interpret the tone'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Nur der Ton erlaubt es, zu deuten, was wie eine Drohung klingt.'
+    exampleTranslation: 'Only the tone allows one to interpret what sounds like a threat.'
 grammar: []
 culturalNotes: 'German C1 listening comprehension tests emphasize "Hauptgedanken" (main ideas) and "Detailfragen" (detail questions); both global and specific understanding are assessed.'
