@@ -53,4 +53,14 @@ test.describe('progress page', () => {
     await expect(levels.first().locator('.cando__item').first()).toContainText('Studied');
     await expect(levels.nth(1)).toHaveJSProperty('open', false);
   });
+
+  test('the Listen button plays the recorded pt-PT audio for the answer', async ({ page }) => {
+    await page.goto(REVIEW_URL);
+    await page.locator('#review-reveal').click();
+    const button = page.locator('#review-pronounce');
+    await expect(button).toContainText('Listen');
+    const audio = page.waitForResponse((r) => r.url().includes('/audio/pt-PT/') && r.ok());
+    await button.click();
+    await audio;
+  });
 });

@@ -12,6 +12,7 @@
     "astro": "astro",
     "typecheck": "tsc --noEmit",
     "lint": "eslint src tests --ext .ts,.tsx,.astro --max-warnings 0 && prettier --check src tests",
+    "generate:audio": "node --experimental-strip-types scripts/generate-audio.ts",
     "validate:content": "astro sync && node --experimental-strip-types scripts/validate-content-integrity.ts",
     "report:coverage": "node --experimental-strip-types scripts/report-concept-coverage.ts",
     "check:coverage": "node --experimental-strip-types scripts/check-concept-coverage.ts",
