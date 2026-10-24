@@ -324,6 +324,16 @@ for (const n of await getCollection('cefr-nodes')) {
   .review-card__type-feedback--correct {
     color: var(--color-success, #1a7f37);
   }
+  .review-card__diff {
+    background: var(--color-error, #cf222e);
+    color: white;
+    border-radius: 2px;
+    padding: 0 1px;
+  }
+  .review-card__grades [data-suggested] {
+    outline: 3px solid var(--color-text, #1a1a1a);
+    outline-offset: 2px;
+  }
   .review-card__type-feedback--incorrect {
     color: var(--color-error, #cf222e);
   }
@@ -348,7 +358,12 @@ for (const n of await getCollection('cefr-nodes')) {
   import { calculateNextReview, isDue } from '../../../utils/srs';
   import { pronounce, recordedAudioPath } from '../../../lib/pronounce';
   import { languageName } from '../../../lib/languageNames';
-  import { DAILY_NEW_CAP, selectDue } from '../../../lib/reviewSession';
+  import {
+    DAILY_NEW_CAP,
+    RELEARN_CRITERION,
+    nextRemaining,
+    selectDue,
+  } from '../../../lib/reviewSession';
   import { withBase } from '../../../lib/urls';
   import { computeOverallMastery } from '../../../lib/progress';
   import {
@@ -358,7 +373,7 @@ for (const n of await getCollection('cefr-nodes')) {
     buildIcs,
   } from '../../../lib/nextSession';
   import { saveReflection, loadReflection, type ReflectionResponse } from '../../../lib/reflection';
-  import { checkAnswer } from '../../../lib/exerciseCheck';
+  import { diffAnswer, suggestGrade } from '../../../lib/exerciseCheck';
   import { makeCloze, shouldCloze } from '../../../lib/cloze';
   import { recordGradeForCalibration } from '../../../lib/calibration';
   import { appendGrade } from '../../../lib/gradeLog';
@@ -403,6 +418,8 @@ for (const n of await getCollection('cefr-nodes')) {
   // Items already re-queued once after an "Again" grade this session — capped
   // to one retry per item so a repeatedly-failed card can't loop forever.
   let requeuedIds = new Set<string>();
+  // L23: new words stay in the session until recalled correctly (criterion).
+  let criterionLeft = new Map<string, number>();
   // Calibration signal (spec §1.1, desirable difficulties): first-attempt
   // accuracy and the mastery delta over the whole vocabulary, shown at
   // session end instead of only on the separate /progress page.
@@ -584,6 +601,11 @@ for (const n of await getCollection('cefr-nodes')) {
     });
     reviewed = 0;
     requeuedIds = new Set<string>();
+    criterionLeft = new Map(
+      queue
+        .filter((i) => !hasState(sourceLang, targetLang, direction, i.target.id))
+        .map((i) => [i.target.id, RELEARN_CRITERION])
+    );
     firstTryTotal = 0;
     firstTryCorrect = 0;
     masteryBefore = snapshotMasteryPercent();
@@ -640,6 +662,9 @@ for (const n of await getCollection('cefr-nodes')) {
     typeInputEl.value = '';
     typeInputEl.disabled = false;
     typeFeedbackEl.hidden = true;
+    gradesEl
+      .querySelectorAll('[data-suggested]')
+      .forEach((b) => b.removeAttribute('data-suggested'));
 
     const picturePrompt = recallMode === 'picture' && !!image?.imageUrl;
     if (recallMode === 'type') {
@@ -731,13 +756,38 @@ for (const n of await getCollection('cefr-nodes')) {
     // Typed-vs-correct is a hint for the learner's own self-grade below, not
     // an automatic grade override — SM-2 grading stays learner-driven either
     // way (issue #45's explicit requirement).
-    const correct = checkAnswer(typeInputEl.value, backOf(item).term);
+    const answer = backOf(item).term;
+    const suggestion = suggestGrade(typeInputEl.value, answer);
     typeInputEl.disabled = true;
     typeFeedbackEl.hidden = false;
-    typeFeedbackEl.className = `review-card__type-feedback review-card__type-feedback--${correct ? 'correct' : 'incorrect'}`;
-    typeFeedbackEl.textContent = correct
-      ? getString(sourceLang, 'reviewCorrect')
-      : getString(sourceLang, 'reviewIncorrect');
+    typeFeedbackEl.className = `review-card__type-feedback review-card__type-feedback--${suggestion === 'good' ? 'correct' : 'incorrect'}`;
+    typeFeedbackEl.textContent = getString(
+      sourceLang,
+      suggestion === 'good'
+        ? 'reviewCorrect'
+        : suggestion === 'hard'
+          ? 'reviewAccentMiss'
+          : 'reviewIncorrect'
+    );
+    // L26: highlight the characters the attempt missed in the revealed answer.
+    if (suggestion !== 'good') {
+      backEl.replaceChildren(
+        ...diffAnswer(typeInputEl.value, answer).map(({ char, wrong }) => {
+          if (!wrong) return document.createTextNode(char);
+          return Object.assign(document.createElement('mark'), {
+            className: 'review-card__diff',
+            textContent: char,
+          });
+        })
+      );
+    }
+    // ...and pre-select (not force) a grade; the learner can still change it.
+    const suggestedQuality = { again: '1', hard: '2', good: '3' }[suggestion];
+    gradesEl.querySelectorAll('button[data-quality]').forEach((b) => {
+      const isSuggested = (b as HTMLElement).dataset.quality === suggestedQuality;
+      b.toggleAttribute('data-suggested', isSuggested);
+      if (isSuggested) (b as HTMLElement).focus();
+    });
     backEl.hidden = false;
     pronounceBtn.hidden = false;
     gradesEl.hidden = false;
@@ -791,7 +841,14 @@ for (const n of await getCollection('cefr-nodes')) {
     // session for another retrieval attempt, rather than waiting for its
     // SM-2 due date tomorrow. Only once per item, so a repeat "Again" can't
     // loop the session forever.
-    if (quality < 3 && !requeuedIds.has(item.target.id)) {
+    const remaining = criterionLeft.get(item.target.id);
+    // Only a return visit counts: the first showing introduces the word, so the
+    // criterion is a correct recall after at least one intervening card (L23).
+    if (remaining !== undefined && requeuedIds.has(item.target.id)) {
+      criterionLeft.set(item.target.id, nextRemaining(remaining, quality >= 3));
+    }
+    const needsRelearn = (criterionLeft.get(item.target.id) ?? 0) > 0;
+    if (needsRelearn || (quality < 3 && !requeuedIds.has(item.target.id))) {
       requeuedIds.add(item.target.id);
       queue.splice(Math.min(3, queue.length), 0, item);
     } else {
