@@ -6,10 +6,10 @@
 
 ## 1. Repository Purpose
 
-**learn-languages** (deployed as **Acquira**) — a research-backed, CEFR-aligned language-learning platform built with **Astro 7.x** (static site generation with islands) deployed to **GitHub Pages** via **GitOps**. Originally scoped as EN→PT only (see `discovery-brief.md`'s MVP framing); the abstract CEFR-node + realisation content model proved out past a single hand-authored pair, and the platform now supports **en-GB, pt-PT, es-ES, de-DE, and fr-FR** as both source and target languages (Epic #39), with any-direction pairing and per-pair, per-direction SRS state.
+**learn-languages** (deployed as **Acquira**) — a research-backed, CEFR-aligned language-learning platform built with **Astro 7.x** (static site generation with islands) deployed to **GitHub Pages** via **GitOps**. Originally scoped as EN→PT only (see `discovery-brief.md`'s MVP framing); the abstract CEFR-node + realisation content model proved out past a single hand-authored pair, and the platform now supports every language in `spec.md` C4 as both source and target (Epic #39), with any-direction pairing and per-pair, per-direction SRS state.
 
 - **Framework**: Astro 7.x + TypeScript, vanilla-JS islands (no framework runtime shipped to the client)
-- **Content**: Zod-validated CEFR nodes (language-agnostic Can-Do statements) + per-language realisations (YAML) — full A1–C2 coverage for pt-PT/es-ES/de-DE/fr-FR, and A1–B1 for it-IT (A2 is 20/30 nodes; C1–C2 gated by #21)
+- **Content**: Zod-validated CEFR nodes (language-agnostic Can-Do statements) + per-language realisations (YAML). Coverage per language and level: `spec.md` C5
 - **SRS**: SM-2 algorithm (pure TS, 100% test coverage), scoped per language pair _and_ review direction
 - **Deployment**: GitHub Actions → GitHub Pages (static export)
 
@@ -39,7 +39,7 @@ This project is **pre-validation**: zero real learners, biggest named risk is re
 
 ## 2. Superpowers Skill Workflow (MANDATORY for feature/content-model work)
 
-**Read first, every session:** `intent.md` (why; changes rarely) → `spec.md` (what the product must do; requirement IDs + status) → `plans/README.md` (the master plan: goals G1–G5 = GitHub milestones, every open issue, and the owner's open decisions). Work that can't trace to a master-plan row (with an issue and milestone) and a `spec.md` ID needs one added first. Behaviour changes update `spec.md` in the same PR. Goal G1 (real-learner evidence, #21) gates new content and features. **All plans live in `plans/`**: new detail plans and designs go in `plans/YYYY-MM-DD-<topic>.md` (not `docs/superpowers/`), and finished ones move to `plans/archive/`. Questions for the owner go in the master plan's "Decisions waiting on the owner" table.
+**Read first, every session:** `intent.md` (why; changes rarely) → `spec.md` (what the product must do; requirement IDs + status) → `plans/README.md` (the master plan: goals G1–G5 = GitHub milestones, each with a goal issue, and every open issue in order) → the project board (§12: what's next, what waits on a human). Before UI work read `DESIGN.md`; before reviewing read `REVIEW.md`. Work that can't trace to a master-plan row (with an issue and milestone) and a `spec.md` ID needs one added first. Behaviour changes update `spec.md` in the same PR. Goal G1 (real-learner evidence, #21) gates new content and features. **All plans live in `plans/`**: new detail plans and designs go in `plans/YYYY-MM-DD-<topic>.md` (not `docs/superpowers/`), and finished ones move to `plans/archive/`. Questions for the owner are `question` issues assigned to the owner (§12).
 
 All agents MUST follow the Superpowers skill sequence for feature and content-model work — see §1.1 for when lighter iteration is appropriate:
 
@@ -89,17 +89,17 @@ If you catch yourself thinking:
 
 ## 3. GitOps Principles (MANDATORY)
 
-| Principle                     | Enforcement                                                           |
-| ----------------------------- | --------------------------------------------------------------------- |
-| **Declarative desired state** | All infra/app config in Git (Astro config, workflows, content schema) |
-| **Single source of truth**    | `main` branch = production state; no manual deployments               |
-| **Pull-based reconciliation** | GitHub Actions watches repo; deploys on push to `main`                |
-| **Immutable artifacts**       | Build outputs (dist/) are ephemeral; only Git commits are permanent   |
-| **Environment separation**    | GitHub Pages environments: Preview (PRs) / Production (main)          |
-| **Audit trail**               | Every change = Git commit; CI logs = deployment evidence              |
-| **Rollback = revert**         | `git revert` on main triggers rollback via Actions                    |
+| Principle                     | Enforcement                                                               |
+| ----------------------------- | ------------------------------------------------------------------------- |
+| **Declarative desired state** | All infra/app config in Git (Astro config, workflows, content schema)     |
+| **Single source of truth**    | `main` branch = production state; no manual deployments                   |
+| **Pull-based reconciliation** | GitHub Actions watches repo; deploys on push to `main`                    |
+| **Immutable artifacts**       | Build outputs (dist/) are ephemeral; only Git commits are permanent       |
+| **Environment separation**    | PRs run the full pipeline without deploying; `main` deploys to Production |
+| **Audit trail**               | Every change = Git commit; CI logs = deployment evidence                  |
+| **Rollback = revert**         | `git revert` on main triggers rollback via Actions                        |
 
-**Violations block merge.** See `.github/workflows/ci.yml`, `deploy.yml`.
+**Violations block merge.** See `.github/workflows/pipe.yml`.
 
 ---
 
@@ -109,11 +109,11 @@ If you catch yourself thinking:
 
 ```
 src/
-├── components/          # Reusable UI components (.astro, .vue)
+├── components/          # Reusable UI components (.astro, custom elements)
 ├── content/
 │   ├── cefr-nodes/      # Abstract CEFR Can-Do nodes (YAML, language-agnostic)
 │   └── realisations/    # Language-specific expressions
-│       └── pt-PT/       # Portuguese realisations
+│       └── pt-PT/       # One folder per language
 ├── layouts/             # Page layouts (BaseLayout, LessonLayout)
 ├── lib/                 # Pure functions (SRS, storage, progress, i18n)
 ├── pages/               # File-based routing with i18n
@@ -173,52 +173,20 @@ export const collections = {
 
 ### 4.3 Styling: Vanilla CSS + Design Tokens + BEM
 
-```css
-/* src/styles/global.css */
-:root {
-  --color-bg: #fdfdfd;
-  --color-surface: #ffffff;
-  --color-text: #1a1a1a;
-  --color-text-muted: #5a5a5a;
-  --color-accent: #006b5e; /* Portuguese green */
-  --color-accent-hover: #005247;
-  --font-body: 'Inter', system-ui, sans-serif;
-  --space-1: 0.25rem;
-  --space-2: 0.5rem;
-  --space-3: 0.75rem;
-  --space-4: 1rem;
-  --space-6: 1.5rem;
-  --space-8: 2rem;
-  --radius-sm: 4px;
-  --radius-md: 8px;
-  --radius-lg: 16px;
-}
-
-/* BEM example */
-.lesson-card {
-}
-.lesson-card__title {
-}
-.lesson-card__progress {
-}
-.lesson-card--mastered {
-}
-```
+Tokens are CSS custom properties in `src/styles/global.css`; class names are BEM (`.block__element--modifier`). When to use which token and component: `DESIGN.md`.
 
 **No CSS frameworks.** No Tailwind, no styled-components.
 
-### 4.4 Client Hydration: Islands Only
+### 4.4 Client Interactivity: Islands Only
 
 - Default: **zero-JS** static HTML
-- Interactive islands: `client:load`, `client:visible`, `client:idle`
-- FlashcardReview, ProgressDashboard = Vue islands
-- PronunciationButton, LanguagePairSelector = vanilla JS islands
+- Interactivity is vanilla TypeScript in component `<script>` blocks or custom elements (e.g. `<audio-player>`). No UI framework runtime is shipped
 
 ---
 
 ## 5. CI/CD Pipeline
 
-### 5.1 Required Stages (`.github/workflows/ci.yml`)
+### 5.1 Required Stages (`.github/workflows/pipe.yml`)
 
 ```yaml
 stages:
@@ -245,11 +213,11 @@ stages:
 
 **Failed gate = pipeline stops.** No `continue-on-error`.
 
-### 5.3 Deployment (`.github/workflows/deploy.yml`)
+### 5.3 Deployment (`deploy-production` and `smoke-production` jobs in `pipe.yml`)
 
 - Trigger: Push to `main` (after CI passes)
 - Environment: `github-pages` (Production)
-- Preview: PR-specific (optional, Cloudflare Pages)
+- After deploy: smoke tests and Lighthouse run against the live URL (spec D1)
 - Rollback: `git revert` on main
 
 ---
@@ -469,31 +437,68 @@ pre-push:
 
 ---
 
-## 12. Agent Workflow Rules
+## 12. Workflow: board, goals, decisions, review
 
-### 12.1 Planning Agent
+Anyone (owner, Claude Code, OpenCode, Copilot) answers "what's next?" and "what waits on a human?" from the **Acquira** GitHub Project board, never from memory or a doc. The board's **Status** is the only place status lives: no status labels, no ✅ in plan rows. Goal membership is the issue's **milestone** (G1–G5). Order and traceability are in `plans/README.md`.
 
-- Uses `discovery` → `spec` → `plan` skills
-- Produces `tasks.json` with acceptance criteria tagged `test_type: unit|integration|e2e|live-system`
-- Validates against `governance-alignment`, `spec-policy-validation`
+### 12.1 Status values
 
-### 12.2 Build Agent
+| Status          | Means                                                                                   | Moved here by                        |
+| --------------- | --------------------------------------------------------------------------------------- | ------------------------------------ |
+| Backlog         | Not ready yet, or its goal is gated                                                     | Auto-add (new issues); anyone        |
+| Ready for agent | Its goal is open, it has a spec ID (or "n/a: bug/polish") and an **Exit criterion**     | Owner or agent                       |
+| In progress     | Claimed. Move it here **before** starting so no one else picks it                       | Whoever starts it or assigns Copilot |
+| Needs human     | Waiting on the owner: a decision, a PR to review and merge, or work only a human can do | Agent, when it opens the PR or asks  |
+| Blocked         | Can't move until something named in the issue happens                                   | Anyone                               |
+| Done            | Closed                                                                                  | Built-in workflow                    |
 
-- Implements tasks per `build` → `code-generation`
-- Follows `component-workflow` for UI, `manifest-generation` for K8s (if applicable)
-- **TDD enforced**: No production code without failing test first
+### 12.2 Goals and gates
 
-### 12.3 Review Agent
+Each milestone has one **goal issue** (label `plan`), assigned to whoever drives that goal. Its Status is the gate: **In progress** means the goal is open, **Blocked** means it's gated (the body names what opens it, from `plans/README.md` Rules). Only move an issue to _Ready for agent_ if its goal issue is not Blocked; owner exceptions are written in the plan's goal section. Don't assign goal issues to `@copilot`: it would try to do a whole goal in one PR.
 
-- Runs `review` → `spec-compliance`, `design-compliance`, `code-quality`
-- Validates `gitops-overlay`, `pipeline-policy`, `k8s-policy`
-- Blocks on Critical/Important findings
+### 12.3 Commands
 
-### 12.4 Test Execution Agent
+```bash
+P=$(gh project list --owner paruff --format json --jq '.projects[] | select(.title=="Acquira") | .number')
 
-- Runs `test-execution` with appropriate sub-skills
-- Reports coverage, passes/failures per acceptance criterion
-- `verification-before-completion` required before "done"
+# 1. Next item for an agent: lowest goal, then lowest issue number.
+#    Working inside an assigned goal? Add  milestone:"<goal title>"  to the query.
+gh project item-list "$P" --owner paruff --limit 200 --query 'status:"Ready for agent" is:open -label:plan' --format json \
+  --jq '.items | sort_by(.milestone.title // "~", .content.number) | .[:1][] | "#\(.content.number) \(.title)"'
+
+# 2. Waiting on a human: board items, then every open non-draft PR (each waits on a merge decision)
+gh project item-list "$P" --owner paruff --limit 200 --query 'status:"Needs human" is:open' --format json \
+  --jq '.items[] | "#\(.content.number) \(.title)"'
+gh pr list --state open --draft=false
+
+# Goal gates at a glance
+gh project item-list "$P" --owner paruff --limit 200 --query 'label:plan' --format json \
+  --jq '.items[] | "\(.status)\t#\(.content.number) \(.title)"'
+
+# Move an item
+gh project item-edit "$P" --owner paruff --url https://github.com/paruff/learn-languages/issues/<n> --field Status --value "In progress"
+```
+
+### 12.4 Lifecycle of an issue
+
+1. **Pick:** command 1, or the owner points you at an issue. Move it to _In progress_, then branch.
+2. **Work:** the skill sequence in §2. UI work follows `DESIGN.md`.
+3. **PR:** the body says `Closes #<n>`. Self-review against `REVIEW.md`, then move the issue to _Needs human_. Optional second opinion: `gh pr edit <pr> --add-reviewer @copilot`.
+4. **Changes requested:** back to _In progress_. **Stuck:** _Blocked_, with a comment naming the blocker.
+5. **Merge:** the owner merges, the issue closes, and the board sets _Done_. Delete the row from `plans/README.md` (its Rule 4).
+
+New issues use the templates in `.github/ISSUE_TEMPLATE/` (agents: the same headings in `--body`) and get a milestone. Add `--project Acquira` to `gh issue create` so the issue lands on the board straight away.
+
+### 12.5 Decisions for the owner
+
+A question only the owner can answer is an issue: the `question` label, assigned to `paruff`, using the "Question for the owner" template headings, then moved to _Needs human_. The owner answers in the issue and closes it. Whoever applies the answer records its effect where it belongs (`spec.md`, `plans/README.md`) with a link to the issue. Don't keep question lists in docs.
+
+### 12.6 GitHub Copilot
+
+- **Hand it an issue:** move the issue to _In progress_, then `gh issue edit <n> --add-assignee @copilot`. Copilot reads this file. Its environment comes from `.github/workflows/copilot-setup-steps.yml`.
+- **Failing CI:** open (or reuse) an issue that links the failed run and names the job, then assign it to `@copilot`.
+- **Review:** `gh pr edit <pr> --add-reviewer @copilot`. Copilot code review reads `REVIEW.md` and this file automatically.
+- Copilot can't move board items. Its PRs show up in command 2 through `gh pr list`.
 
 ---
 
@@ -505,7 +510,7 @@ A task is **done** only when:
 - [ ] Coverage gates met (≥90% for lib/)
 - [ ] Pipeline passes (lint, typecheck, content validation, test, build, lighthouse)
 - [ ] Accessibility audit passes
-- [ ] Code review approved (no Critical/Important open)
+- [ ] Reviewed against `REVIEW.md` (no Critical/Important open); issue in _Needs human_ with the PR linked
 - [ ] Documentation updated (README, CHANGELOG, spec if API changed)
 - [ ] Commit message follows Conventional Commits
 - [ ] Version bumped per SemVer (if user-facing change)
@@ -552,7 +557,7 @@ git log --oneline -10    # Recent commits
 ## 15. References
 
 - **Discovery Brief**: `discovery-brief.md`
-- **Specification & Design**: `specification-design.md`
+- **Specification & Design**: `specification-design.md` (frozen reference), `DESIGN.md` (UI/UX)
 - **Astro Docs**: https://docs.astro.build
 - **GitOps Principles**: https://opengitops.dev
 - **WCAG 2.1 AA**: https://www.w3.org/WAI/WCAG21/quickref/
@@ -560,23 +565,25 @@ git log --oneline -10    # Recent commits
 - **CEFR Can-Do**: https://www.coe.int/en/web/common-european-framework-reference-languages
 - **Conventional Commits**: https://www.conventionalcommits.org
 - **SemVer 2.0**: https://semver.org
-- **Superpowers Skills**: `.config/opencode/skills/` (brainstorming, writing-plans, executing-plans, test-driven-development, systematic-debugging, verification-before-completion, requesting-code-review, finishing-a-development-branch)
+- **Superpowers Skills**: installed by `opencode/sync.sh` from the pinned `superpowers` package, see `opencode/README.md` (brainstorming, writing-plans, executing-plans, test-driven-development, systematic-debugging, verification-before-completion, requesting-code-review, finishing-a-development-branch)
 
 ---
 
 ## 16. Project Documents
 
-| Document                  | Purpose                                                                                                            |
-| ------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| `intent.md`               | Why the product exists, outcome, success signals, principles, non-goals (stable)                                   |
-| `spec.md`                 | Living requirement contract: IDs, intent trace, verifying check, status                                            |
-| `plans/README.md`         | Master plan: goals, every open issue, owner decisions. Detail plans in `plans/`, finished ones in `plans/archive/` |
-| `discovery-brief.md`      | JTBD, personas, acceptance criteria, constraints (historical record)                                               |
-| `specification-design.md` | Full technical specification (architecture, data model, SRS, UI, testing, deployment)                              |
-| `AGENTS.md`               | This file — agent governance, GitOps, conventions                                                                  |
-| `CLAUDE.md`               | Symlink to AGENTS.md                                                                                               |
-| `README.md`               | Project overview for humans                                                                                        |
-| `CHANGELOG.md`            | Keep a Changelog format                                                                                            |
+| Document                  | Purpose                                                                                                                                      |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| `intent.md`               | Why the product exists, outcome, success signals, principles, non-goals (stable)                                                             |
+| `spec.md`                 | Living requirement contract: IDs, intent trace, verifying check, status                                                                      |
+| `plans/README.md`         | Master plan: goals and every open issue, in order. Status is on the board (§12). Detail plans in `plans/`, finished ones in `plans/archive/` |
+| `DESIGN.md`               | UI/UX design system: principles, tokens, components, patterns. Cite it for every UI decision                                                 |
+| `REVIEW.md`               | How to review a change: severity, correctness, security, invariants. Copilot code review reads it automatically                              |
+| `discovery-brief.md`      | JTBD, personas, acceptance criteria, constraints (historical record)                                                                         |
+| `specification-design.md` | Original technical specification (architecture, data model, SRS, testing, deployment). Frozen reference; UI moved to `DESIGN.md`             |
+| `AGENTS.md`               | This file — agent governance, GitOps, conventions                                                                                            |
+| `CLAUDE.md`               | Symlink to AGENTS.md                                                                                                                         |
+| `README.md`               | Project overview for humans                                                                                                                  |
+| `CHANGELOG.md`            | Keep a Changelog format                                                                                                                      |
 
 ---
 

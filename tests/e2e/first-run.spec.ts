@@ -75,6 +75,23 @@ test.describe('first run', () => {
     await expect(page.locator('.nav__link[aria-current="page"]')).toHaveText('Lessons');
   });
 
+  test('a skip link comes first and moves focus to the main content (U7)', async ({ page }) => {
+    for (const path of [HOME, '/learn-languages/en-GB/pt-PT/lessons/A1-GREET-001/']) {
+      await page.goto(path);
+      const skip = page.getByRole('link', { name: 'Skip to main content' });
+      // First focusable element in the page, so one Tab reaches it.
+      const firstFocusable = await page.evaluate(
+        () => document.querySelector('a[href], button, input, select, textarea')?.textContent
+      );
+      expect(firstFocusable?.trim()).toBe('Skip to main content');
+      // Off-screen until focused, then on screen.
+      await skip.focus();
+      expect((await skip.boundingBox())!.y).toBeGreaterThanOrEqual(0);
+      await skip.press('Enter');
+      await expect(page.locator('main')).toBeFocused();
+    }
+  });
+
   test('every page offers a feedback link (U5)', async ({ page }) => {
     const link = page.locator('footer a[href^="mailto:"]');
     await expect(link).toHaveCount(1);

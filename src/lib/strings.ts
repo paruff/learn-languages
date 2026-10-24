@@ -18,6 +18,7 @@ export type StringKey =
   | 'credits'
   | 'footer'
   | 'feedbackLink'
+  | 'skipLink'
   | 'selectorSpeak'
   | 'selectorLearn'
   | 'skillListening'
@@ -109,6 +110,7 @@ const EN_GB: Dictionary = {
   credits: 'Credits',
   footer: 'Free to use and share · CC-BY-4.0',
   feedbackLink: 'Send feedback',
+  skipLink: 'Skip to main content',
   selectorSpeak: 'I speak',
   selectorLearn: "I'm learning",
   skillListening: 'listening',
@@ -206,6 +208,7 @@ const ES_ES: Dictionary = {
   credits: 'Créditos',
   footer: 'Gratis para usar y compartir · CC-BY-4.0',
   feedbackLink: 'Enviar comentarios',
+  skipLink: 'Saltar al contenido principal',
   selectorSpeak: 'Hablo',
   selectorLearn: 'Estoy aprendiendo',
   skillListening: 'comprensión auditiva',
@@ -304,6 +307,7 @@ const PT_PT: Dictionary = {
   credits: 'Créditos',
   footer: 'Gratuito para usar e partilhar · CC-BY-4.0',
   feedbackLink: 'Enviar feedback',
+  skipLink: 'Saltar para o conteúdo principal',
   selectorSpeak: 'Eu falo',
   selectorLearn: 'Estou a aprender',
   skillListening: 'compreensão oral',
@@ -401,6 +405,7 @@ const DE_DE: Dictionary = {
   credits: 'Quellen',
   footer: 'Frei nutzbar und teilbar · CC-BY-4.0',
   feedbackLink: 'Feedback senden',
+  skipLink: 'Zum Hauptinhalt springen',
   selectorSpeak: 'Ich spreche',
   selectorLearn: 'Ich lerne',
   skillListening: 'Hören',
@@ -498,6 +503,7 @@ const FR_FR: Dictionary = {
   credits: 'Crédits',
   footer: "Libre d'utilisation et de partage · CC-BY-4.0",
   feedbackLink: 'Envoyer un avis',
+  skipLink: 'Aller au contenu principal',
   selectorSpeak: 'Je parle',
   selectorLearn: "J'apprends",
   skillListening: 'compréhension orale',
