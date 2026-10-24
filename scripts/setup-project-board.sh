@@ -212,7 +212,7 @@ Manual steps (built-in workflows can only be set in the web UI):
   Project → ⋯ → Workflows
   1. "Auto-add to project": repository $REPO, filter  is:issue is:open
   2. "Item added to project": set Status to Backlog
-  3. "Item closed": check it's on and sets Status to Done (on by default)
+  3. "Item closed": turn it on, set Status to Done (it starts off on a new project)
 
 Fill the "new" issue numbers into plans/README.md:
   row 1.4 → $Q2

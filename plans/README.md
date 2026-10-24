@@ -29,7 +29,7 @@ Get real learners through the Portuguese loop, see them return, and find where t
 | 1.1  | Run 3–5 persona-matched learner sessions on en-GB→pt-PT (`docs/phase-1-learner-session-protocol.md`)   | Q6, intent S1 | #21             | Filled observation table posted on #21                     |
 | 1.2  | Day-2 and day-7 follow-up with the same learners (they send the Progress → "Share how it went" report) | intent S2, M1 | #21             | "Returned day 2?" column filled in                         |
 | 1.3  | Fix whatever session-1 friction 1.1 finds, worst first                                                 | Q6            | new per finding | The friction no longer happens when the observer reruns it |
-| 1.4  | Record the outcome: positive → start G3; negative → rescope; unclear → a larger round                  | —             | new (question)  | The owner's answer, with its effect written in this file   |
+| 1.4  | Record the outcome: positive → start G3; negative → rescope; unclear → a larger round                  | —             | #266            | The owner's answer, with its effect written in this file   |
 | 1.5  | Ask for persistent storage so Safari's 7-day cap can't wipe progress before the day-7 follow-up        | S8            | #241            | Unit test + dated iOS Safari run in the device checklist   |
 
 ## G2 Correct content (concept-keyed) — **now, owner exception**
@@ -47,16 +47,16 @@ Owner decision 2026-10-18, confirmed 2026-10-22: re-authoring es-ES and de-DE B1
 
 Ordered by how directly each serves intent §3 ("comes back").
 
-| #    | Work                                                                                                  | Spec    | Issue          | Exit criterion                                                                 |
-| ---- | ----------------------------------------------------------------------------------------------------- | ------- | -------------- | ------------------------------------------------------------------------------ |
-| 2.4  | Grammar points in the retrieval loop, with contrastive notes by source language                       | L8, L15 | #126, #144     | One grammar point graded in a real review session                              |
-| 2.6  | Regional TTS voice detection and fallback                                                             | Q3      | #200           | Correct voice verified on iOS Safari and Android Chrome                        |
-| 2.7  | Redesign the level checkpoint from round-one feedback (first cut shipped in #201)                     | L20     | new (question) | The owner's answer on what "I can do this" should feel like, then the redesign |
-| 2.8  | L1-grammar accelerator: contrastive modules, metalinguistic tasks, L1 diagnostic, rule-of-thumb notes | L16–L19 | #205           | Each requirement shipped with an E2E check, after 2.4 (L8, L15)                |
-| 2.13 | FSRS scheduling instead of SM-2, with state migration                                                 | L22     | #247           | Migration test; 100% coverage kept; M2 still computes                          |
-| 2.14 | Listening cards: audio prompt, recall the meaning                                                     | L25     | #248           | E2E: no text before reveal; off without audio                                  |
-| 2.15 | Optional placement check to start above A1                                                            | L27     | #249           | E2E: skippable; passing A1 items offers A2                                     |
-| 2.16 | Fluency round on mastered items                                                                       | L28     | #250           | E2E: only mastered items; SRS state unchanged                                  |
+| #    | Work                                                                                                  | Spec    | Issue      | Exit criterion                                                                 |
+| ---- | ----------------------------------------------------------------------------------------------------- | ------- | ---------- | ------------------------------------------------------------------------------ |
+| 2.4  | Grammar points in the retrieval loop, with contrastive notes by source language                       | L8, L15 | #126, #144 | One grammar point graded in a real review session                              |
+| 2.6  | Regional TTS voice detection and fallback                                                             | Q3      | #200       | Correct voice verified on iOS Safari and Android Chrome                        |
+| 2.7  | Redesign the level checkpoint from round-one feedback (first cut shipped in #201)                     | L20     | #268       | The owner's answer on what "I can do this" should feel like, then the redesign |
+| 2.8  | L1-grammar accelerator: contrastive modules, metalinguistic tasks, L1 diagnostic, rule-of-thumb notes | L16–L19 | #205       | Each requirement shipped with an E2E check, after 2.4 (L8, L15)                |
+| 2.13 | FSRS scheduling instead of SM-2, with state migration                                                 | L22     | #247       | Migration test; 100% coverage kept; M2 still computes                          |
+| 2.14 | Listening cards: audio prompt, recall the meaning                                                     | L25     | #248       | E2E: no text before reveal; off without audio                                  |
+| 2.15 | Optional placement check to start above A1                                                            | L27     | #249       | E2E: skippable; passing A1 items offers A2                                     |
+| 2.16 | Fluency round on mastered items                                                                       | L28     | #250       | E2E: only mastered items; SRS state unchanged                                  |
 
 Rows 2.13–2.16 come from the 2026-10-23 evidence review (ranked there by evidence × cost).
 
@@ -80,7 +80,7 @@ Owner decision 2026-10-22: Italian (row 3.1) continues now as an exception to ru
 
 | #   | Work                                                                      | Spec | Issue | Exit criterion                                                                               |
 | --- | ------------------------------------------------------------------------- | ---- | ----- | -------------------------------------------------------------------------------------------- |
-| 5.2 | Workflow: project board, goal issues, `DESIGN.md`, `REVIEW.md`, templates | —    | new   | `scripts/setup-project-board.sh` run; both AGENTS.md §12.3 commands return the board's items |
+| 5.2 | Workflow: project board, goal issues, `DESIGN.md`, `REVIEW.md`, templates | —    | #274  | `scripts/setup-project-board.sh` run; both AGENTS.md §12.3 commands return the board's items |
 
 ## Known platform limitations
 
