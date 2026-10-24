@@ -161,6 +161,22 @@ test.describe('review session', () => {
     await expect(modeToggle).toHaveText('Type the answer');
   });
 
+  test('type mode: a typed miss highlights the difference and pre-selects Again (L26)', async ({
+    page,
+  }) => {
+    await page.locator('#review-recall-mode-toggle').click();
+    await page.locator('#review-type-input').fill('12345');
+    await page.locator('#review-type-form button[type="submit"]').click();
+
+    await expect(page.locator('#review-back mark.review-card__diff').first()).toBeVisible();
+    const grades = page.locator('#review-grades');
+    await expect(grades.locator('button[data-suggested]')).toHaveCount(1);
+    await expect(grades.locator('button[data-quality="1"]')).toHaveAttribute('data-suggested', '');
+
+    // Still the learner's call: a different grade button is clickable.
+    await expect(grades.locator('button[data-quality="3"]')).toBeEnabled();
+  });
+
   test('picture mode shows only the image when a card has one', async ({ page }) => {
     const modeToggle = page.locator('#review-recall-mode-toggle');
     const image = page.locator('#review-image');

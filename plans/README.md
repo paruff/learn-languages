@@ -71,7 +71,7 @@ Ordered by how directly each serves intent §3 ("comes back").
 | 2.8  | L1-grammar accelerator: contrastive modules, metalinguistic tasks, L1 diagnostic, rule-of-thumb notes | L16–L19 | #205       | Each requirement shipped with an E2E check, after 2.4 (L8, L15)        |
 | 2.10 | ✅ Learn new words to criterion in their first session (successive relearning)                        | L23     | #244       | E2E: a new card graded Again returns until graded Good                 |
 | 2.11 | Sentence-cloze cards from the existing example sentences                                              | L24     | #245       | E2E: a cloze card appears for a mature item                            |
-| 2.12 | Typed recall: highlight the difference and suggest a grade                                            | L26     | #246       | E2E: a typed miss shows the diff with Again pre-selected               |
+| 2.12 | ✅ Typed recall: highlight the difference and suggest a grade                                         | L26     | #246       | E2E: a typed miss shows the diff with Again pre-selected               |
 | 2.13 | FSRS scheduling instead of SM-2, with state migration                                                 | L22     | #247       | Migration test; 100% coverage kept; M2 still computes                  |
 | 2.14 | Listening cards: audio prompt, recall the meaning                                                     | L25     | #248       | E2E: no text before reveal; off without audio                          |
 | 2.15 | Optional placement check to start above A1                                                            | L27     | #249       | E2E: skippable; passing A1 items offers A2                             |

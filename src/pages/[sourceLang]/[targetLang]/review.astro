@@ -319,6 +319,16 @@ for (const n of await getCollection('cefr-nodes')) {
   .review-card__type-feedback--correct {
     color: var(--color-success, #1a7f37);
   }
+  .review-card__diff {
+    background: var(--color-error, #cf222e);
+    color: white;
+    border-radius: 2px;
+    padding: 0 1px;
+  }
+  .review-card__grades [data-suggested] {
+    outline: 3px solid var(--color-text, #1a1a1a);
+    outline-offset: 2px;
+  }
   .review-card__type-feedback--incorrect {
     color: var(--color-error, #cf222e);
   }
@@ -358,7 +368,7 @@ for (const n of await getCollection('cefr-nodes')) {
     buildIcs,
   } from '../../../lib/nextSession';
   import { saveReflection, loadReflection, type ReflectionResponse } from '../../../lib/reflection';
-  import { checkAnswer } from '../../../lib/exerciseCheck';
+  import { diffAnswer, suggestGrade } from '../../../lib/exerciseCheck';
   import { recordGradeForCalibration } from '../../../lib/calibration';
   import { appendGrade } from '../../../lib/gradeLog';
   import { getString, format } from '../../../lib/strings';
@@ -645,6 +655,9 @@ for (const n of await getCollection('cefr-nodes')) {
     typeInputEl.value = '';
     typeInputEl.disabled = false;
     typeFeedbackEl.hidden = true;
+    gradesEl
+      .querySelectorAll('[data-suggested]')
+      .forEach((b) => b.removeAttribute('data-suggested'));
 
     const picturePrompt = recallMode === 'picture' && !!image?.imageUrl;
     if (recallMode === 'type') {
@@ -720,13 +733,38 @@ for (const n of await getCollection('cefr-nodes')) {
     // Typed-vs-correct is a hint for the learner's own self-grade below, not
     // an automatic grade override — SM-2 grading stays learner-driven either
     // way (issue #45's explicit requirement).
-    const correct = checkAnswer(typeInputEl.value, backOf(item).term);
+    const answer = backOf(item).term;
+    const suggestion = suggestGrade(typeInputEl.value, answer);
     typeInputEl.disabled = true;
     typeFeedbackEl.hidden = false;
-    typeFeedbackEl.className = `review-card__type-feedback review-card__type-feedback--${correct ? 'correct' : 'incorrect'}`;
-    typeFeedbackEl.textContent = correct
-      ? getString(sourceLang, 'reviewCorrect')
-      : getString(sourceLang, 'reviewIncorrect');
+    typeFeedbackEl.className = `review-card__type-feedback review-card__type-feedback--${suggestion === 'good' ? 'correct' : 'incorrect'}`;
+    typeFeedbackEl.textContent = getString(
+      sourceLang,
+      suggestion === 'good'
+        ? 'reviewCorrect'
+        : suggestion === 'hard'
+          ? 'reviewAccentMiss'
+          : 'reviewIncorrect'
+    );
+    // L26: highlight the characters the attempt missed in the revealed answer.
+    if (suggestion !== 'good') {
+      backEl.replaceChildren(
+        ...diffAnswer(typeInputEl.value, answer).map(({ char, wrong }) => {
+          if (!wrong) return document.createTextNode(char);
+          return Object.assign(document.createElement('mark'), {
+            className: 'review-card__diff',
+            textContent: char,
+          });
+        })
+      );
+    }
+    // ...and pre-select (not force) a grade; the learner can still change it.
+    const suggestedQuality = { again: '1', hard: '2', good: '3' }[suggestion];
+    gradesEl.querySelectorAll('button[data-quality]').forEach((b) => {
+      const isSuggested = (b as HTMLElement).dataset.quality === suggestedQuality;
+      b.toggleAttribute('data-suggested', isSuggested);
+      if (isSuggested) (b as HTMLElement).focus();
+    });
     backEl.hidden = false;
     pronounceBtn.hidden = false;
     gradesEl.hidden = false;
