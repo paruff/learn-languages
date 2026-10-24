@@ -29,6 +29,17 @@ export function interleaveByNode<T extends { nodeId: string }>(items: T[]): T[] 
   return result;
 }
 
+/** Correct recalls a new word needs in its first session (spec L23; Rawson & Dunlosky 2011). */
+export const RELEARN_CRITERION = 1;
+
+/** Slots a never-seen word takes in a session: its introduction plus one relearning pass. */
+export const NEW_ITEM_COST = 2;
+
+/** Criterion still outstanding after a grade. */
+export function nextRemaining(remaining: number, correct: boolean): number {
+  return correct ? Math.max(0, remaining - 1) : remaining;
+}
+
 /** Max never-seen words introduced per day (spec J2). */
 export const DAILY_NEW_CAP = 10;
 
@@ -56,5 +67,14 @@ export function selectDue<T extends { nodeId: string }>(items: T[], o: SelectOpt
     if (!o.isNew(i)) return true;
     return slots-- > 0;
   });
-  return interleaveByNode(due).slice(0, SESSION_SIZE);
+  // New words are charged NEW_ITEM_COST so relearning retries still fit in SESSION_SIZE.
+  let budget = SESSION_SIZE;
+  const out: T[] = [];
+  for (const i of interleaveByNode(due)) {
+    const cost = o.isNew(i) ? NEW_ITEM_COST : 1;
+    if (cost > budget) continue;
+    budget -= cost;
+    out.push(i);
+  }
+  return out;
 }

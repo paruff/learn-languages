@@ -24,7 +24,7 @@ plain(
     const total = Number(
       (await page.locator('#review-progress').textContent())?.match(/(\d+)$/)?.[1]
     );
-    for (let i = 0; i < total; i++) {
+    for (let i = 0; i < total * 2 && (await page.locator('#review-card').isVisible()); i++) {
       await page.locator('#review-reveal').click();
       await page.locator('#review-grades button[data-quality="4"]').click();
     }
