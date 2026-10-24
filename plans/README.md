@@ -78,9 +78,9 @@ Owner decision 2026-10-22: Italian (row 3.1) continues now as an exception to ru
 
 ## G5 Delivery and quality — **any time, small**
 
-| #   | Work                                                                      | Spec | Issue | Exit criterion                                                                               |
-| --- | ------------------------------------------------------------------------- | ---- | ----- | -------------------------------------------------------------------------------------------- |
-| 5.2 | Workflow: project board, goal issues, `DESIGN.md`, `REVIEW.md`, templates | —    | #274  | `scripts/setup-project-board.sh` run; both AGENTS.md §12.3 commands return the board's items |
+| #   | Work                                                                | Spec | Issue | Exit criterion                                                                                |
+| --- | ------------------------------------------------------------------- | ---- | ----- | --------------------------------------------------------------------------------------------- |
+| 5.3 | Trim AGENTS.md to what agents act on; enforce the 90% coverage gate | —    | #275  | ~200 lines, no broken `AGENTS.md §` links, every command and path exists; CI gate 90/80/90/90 |
 
 ## Known platform limitations
 

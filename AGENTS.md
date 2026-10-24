@@ -1,441 +1,133 @@
-# AGENTS.md — learn-languages (Astro + GitOps + Superpowers)
+# AGENTS.md — learn-languages (Acquira)
 
-> This document governs how AI agents operate in this repository. It encodes GitOps principles, Astro conventions, Superpowers skill workflows, SemVer 2.0, commit conventions, and platform governance rules.
+> How agents work in this repo. Claude Code reads it through the `CLAUDE.md` symlink; OpenCode and GitHub Copilot read it directly. Keep it short: when another doc owns a fact, link to it instead of copying it.
 
----
+## 1. Repository purpose
 
-## 1. Repository Purpose
+**Acquira** (repo `learn-languages`) is a CEFR-aligned language-learning site: Astro 7 + TypeScript, static output on GitHub Pages, vanilla-JS islands. Content is Zod-validated YAML: language-agnostic CEFR nodes plus per-language realisations, joined by `nodeId`. Spaced-repetition state is kept per language pair and review direction. Languages and coverage: `spec.md` C4, C5.
 
-**learn-languages** (deployed as **Acquira**) — a research-backed, CEFR-aligned language-learning platform built with **Astro 7.x** (static site generation with islands) deployed to **GitHub Pages** via **GitOps**. Originally scoped as EN→PT only (see `discovery-brief.md`'s MVP framing); the abstract CEFR-node + realisation content model proved out past a single hand-authored pair, and the platform now supports every language in `spec.md` C4 as both source and target (Epic #39), with any-direction pairing and per-pair, per-direction SRS state.
+### 1.0 What makes it a good way to learn
 
-- **Framework**: Astro 7.x + TypeScript, vanilla-JS islands (no framework runtime shipped to the client)
-- **Content**: Zod-validated CEFR nodes (language-agnostic Can-Do statements) + per-language realisations (YAML). Coverage per language and level: `spec.md` C5
-- **SRS**: SM-2 algorithm (pure TS, 100% test coverage), scoped per language pair _and_ review direction
-- **Deployment**: GitHub Actions → GitHub Pages (static export)
+The learning loop is the product. A feature must strengthen one of these mechanisms (or remove friction from it); anything else is polish, and polish waits (intent P1). Requirements are in `spec.md` §2; evidence in `docs/learning-science-references.md`.
 
-### 1.0 Learner Experience: what actually makes this a good way to learn
+- **Retrieval:** prompt → attempt → reveal → self-grade; the answer never shows first (L1, `review.astro`)
+- **Spacing:** SM-2 in `src/utils/srs.ts` (L2; FSRS planned, L22)
+- **Interleaving:** the due queue is round-robined across nodes (L3, `src/lib/reviewSession.ts`)
+- **Generation:** opt-in typed recall (L4, L26)
+- **Calibration:** confident grades soon followed by Again/Hard are flagged (L5)
+- **Dual coding:** optional images with alt text (C7)
+- **Zero surveillance:** no accounts, cookies or trackers; `localStorage` only (intent P3)
 
-The product's whole reason to exist is the learning loop, not the CI pipeline — read this before touching `src/pages/[sourceLang]/[targetLang]/`. Every mechanism below is a real, shipped feature backed by retrieval-practice research (Brown, Roediger & McDaniel, _Make It Stick_ — see Epic #43), not aspirational copy:
+### 1.1 Delivery stage
 
-- **Retrieval practice over re-reading**: the review loop always forces active recall (prompt → attempt → reveal → self-grade) before showing the answer — the book's central finding, and the platform's core loop (`review.astro`).
-- **Spaced repetition**: SM-2 (`src/utils/srs.ts`) schedules reviews at increasing intervals as recall improves, so cards resurface right when forgetting makes recall effortful (desirable difficulty), not on a fixed schedule.
-- **Interleaving**: the due-card queue is round-robined across CEFR nodes (`interleaveByNode`, `src/lib/reviewSession.ts`) rather than blocked by topic — mixing topics during practice improves long-term discrimination even though it feels harder in the moment (#44).
-- **Generation effect**: an opt-in typed-recall mode (vs. reveal-only) makes the learner produce the answer before seeing it — producing an answer strengthens memory more than recognizing a revealed one (#45).
-- **Calibration feedback**: the progress dashboard surfaces when a confidently-graded item ("Good"/"Easy") needed a re-grade of "Again"/"Hard" soon after — a check against the "fluency illusion" the book warns about, since learners are poor judges of their own mastery (#46).
-- **Dual coding**: optional vocabulary images (with required alt text) pair the verbal and visual channels for concrete-noun vocabulary (#34, #35).
-- **Zero-friction, zero-surveillance**: no accounts, no cookies, no third-party trackers, `localStorage`-only state — matching the "10 minutes on the bus" and "no forced streaks/ads" JTBD from `discovery-brief.md`.
+Pre-validation: no persona-matched learner has been observed yet, and the biggest risk is that learners don't come back (intent §3). Match process weight to that:
 
-When adding a feature, ask which of these it strengthens (or whether it's UI polish that doesn't touch the learning mechanism at all) — that's the difference between roadmap work and decoration.
+- A thin, working loop in front of real learners beats a complete schema or more content. Goal G1 (#21) gates new content and features (`plans/README.md` Rules).
+- CI holds what a pre-launch static site needs. SAST, SBOM and artifact signing were removed on purpose; bring them back once there are real users.
+- Spikes and throwaway prototypes may skip the skill ceremony in §2. Feature and content-model work may not.
 
-### 1.1 Delivery Stage
+## 2. How work flows
 
-This project is **pre-validation**: zero real learners, biggest named risk is retention (discovery-brief.md R3 — "learners don't return after session 1"), not scale or supply-chain integrity. Process weight should match that:
+**Read first:** `intent.md` → `spec.md` → `plans/README.md` → the board (§12). Read `DESIGN.md` before UI work and `REVIEW.md` before reviewing.
 
-- **Priority order:** a working EN→PT review loop in front of real learners beats a complete CEFR schema or exhaustive content inventory. Don't let schema/content perfectionism (Epic: Abstract Content Model, Epic: Language Pair Content Authoring) block getting a thin, ugly, working vertical slice in front of users.
-- **CI gates** (`.github/workflows/pipe.yml`) are scoped to what a pre-launch static site needs: content validation, typecheck, lint, unit tests, build, deploy. SAST scanning, SBOM generation, and artifact signing were removed — reintroduce them when there's a real user base and a supply chain worth hardening, not before.
-- **Skill workflow below** still applies to real feature/content-model work. It does not mean every spike, throwaway prototype, or "get this in front of a user by Friday" task needs the full ceremony — use judgment; a walking skeleton is allowed to be rough.
+- Work traces to a plan row (issue + milestone) and a `spec.md` ID; add them first if they're missing. Behaviour changes update `spec.md` in the same PR.
+- Detail plans go in `plans/YYYY-MM-DD-<topic>.md`; finished ones move to `plans/archive/`.
+- Questions for the owner are `question` issues (§12.5), never lists in docs.
 
----
+Use the Superpowers skills in this order (installed by `opencode/sync.sh`, see `opencode/README.md`):
 
-## 2. Superpowers Skill Workflow (MANDATORY for feature/content-model work)
+| Task                 | Skills                                                                                                                              |
+| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| New feature / design | brainstorming → writing-plans → executing-plans → test-driven-development → verification-before-completion → requesting-code-review |
+| Bug fix              | systematic-debugging → writing-plans → test-driven-development → verification-before-completion → requesting-code-review            |
+| Refactor             | writing-plans → test-driven-development → verification-before-completion → requesting-code-review                                   |
+| Documentation        | writing-plans → executing-plans → verification-before-completion                                                                    |
 
-**Read first, every session:** `intent.md` (why; changes rarely) → `spec.md` (what the product must do; requirement IDs + status) → `plans/README.md` (the master plan: goals G1–G5 = GitHub milestones, each with a goal issue, and every open issue in order) → the project board (§12: what's next, what waits on a human). Before UI work read `DESIGN.md`; before reviewing read `REVIEW.md`. Work that can't trace to a master-plan row (with an issue and milestone) and a `spec.md` ID needs one added first. Behaviour changes update `spec.md` in the same PR. Goal G1 (real-learner evidence, #21) gates new content and features. **All plans live in `plans/`**: new detail plans and designs go in `plans/YYYY-MM-DD-<topic>.md` (not `docs/superpowers/`), and finished ones move to `plans/archive/`. Questions for the owner are `question` issues assigned to the owner (§12).
+Non-negotiable: root cause before a bug fix, a failing test before production code, evidence before "done", review before merge.
 
-All agents MUST follow the Superpowers skill sequence for feature and content-model work — see §1.1 for when lighter iteration is appropriate:
+**Where things live:**
 
-### 2.1 Skill Sequence
+| Document                  | Owns                                                                          |
+| ------------------------- | ----------------------------------------------------------------------------- |
+| `intent.md`               | Why: problem, personas, outcome, success signals, principles, non-goals       |
+| `spec.md`                 | What: requirement IDs, the check that verifies each, status                   |
+| `plans/README.md`         | Order of work: goals G1–G5 and every open issue. Status is on the board (§12) |
+| `DESIGN.md`               | UI/UX design system: cite it for every UI decision                            |
+| `REVIEW.md`               | How to review a change. Copilot code review reads it automatically            |
+| `specification-design.md` | Original architecture, data model and SRS maths. Frozen reference             |
+| `discovery-brief.md`      | Original JTBD, personas and risks. Historical record                          |
+| `CHANGELOG.md`            | Keep a Changelog, updated in the PR that makes the change                     |
 
-```mermaid
-graph TD
-    A[START: New Task/Issue] --> B{Is this a<br/>creative/feature task?}
-    B -->|Yes| C[brainstorming]
-    B -->|No| D[systematic-debugging]
-    C --> E[writing-plans]
-    D --> E
-    E --> F[executing-plans]
-    F --> G[test-driven-development]
-    G --> H[verification-before-completion]
-    H --> I[requesting-code-review]
-    I --> J[finishing-a-development-branch]
-```
-
-### 2.2 Required Skills by Task Type
-
-| Task Type            | Required Skills (in order)                                                                                                                      |
-| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| New feature / design | `brainstorming` → `writing-plans` → `executing-plans` → `test-driven-development` → `verification-before-completion` → `requesting-code-review` |
-| Bug fix              | `systematic-debugging` → `writing-plans` → `test-driven-development` → `verification-before-completion` → `requesting-code-review`              |
-| Refactor             | `writing-plans` → `test-driven-development` → `verification-before-completion` → `requesting-code-review`                                       |
-| Documentation        | `writing-plans` → `executing-plans` → `verification-before-completion`                                                                          |
-
-### 2.3 Skill Invocation Rules
-
-- **NEVER** skip `brainstorming` for new features — it explores intent before implementation
-- **NEVER** skip `systematic-debugging` for bugs — root cause before fix
-- **NEVER** write production code without a failing test first (`test-driven-development`)
-- **NEVER** claim "done" without `verification-before-completion` (evidence before assertions)
-- **ALWAYS** request code review via `requesting-code-review` before merge
-
-### 2.4 Red Flags — STOP and Follow Process
-
-If you catch yourself thinking:
-
-- "This is simple, I'll just code it" → **Use `brainstorming` first**
-- "I'll test after" → **TDD is mandatory**
-- "Let me explore first" → **Skills define HOW to explore**
-- "Quick fix for now" → **Systematic debugging required**
-
----
-
-## 3. GitOps Principles (MANDATORY)
-
-| Principle                     | Enforcement                                                               |
-| ----------------------------- | ------------------------------------------------------------------------- |
-| **Declarative desired state** | All infra/app config in Git (Astro config, workflows, content schema)     |
-| **Single source of truth**    | `main` branch = production state; no manual deployments                   |
-| **Pull-based reconciliation** | GitHub Actions watches repo; deploys on push to `main`                    |
-| **Immutable artifacts**       | Build outputs (dist/) are ephemeral; only Git commits are permanent       |
-| **Environment separation**    | PRs run the full pipeline without deploying; `main` deploys to Production |
-| **Audit trail**               | Every change = Git commit; CI logs = deployment evidence                  |
-| **Rollback = revert**         | `git revert` on main triggers rollback via Actions                        |
-
-**Violations block merge.** See `.github/workflows/pipe.yml`.
-
----
-
-## 4. Astro Conventions
-
-### 4.1 Project Structure
-
-```
-src/
-├── components/          # Reusable UI components (.astro, custom elements)
-├── content/
-│   ├── cefr-nodes/      # Abstract CEFR Can-Do nodes (YAML, language-agnostic)
-│   └── realisations/    # Language-specific expressions
-│       └── pt-PT/       # One folder per language
-├── layouts/             # Page layouts (BaseLayout, LessonLayout)
-├── lib/                 # Pure functions (SRS, storage, progress, i18n)
-├── pages/               # File-based routing with i18n
-│   ├── [sourceLang]/
-│   │   └── [targetLang]/
-│   │       ├── index.astro
-│   │       ├── lessons/[nodeId].astro
-│   │       ├── review.astro
-│   │       └── progress.astro
-├── styles/              # Global CSS, design tokens (CSS custom properties)
-└── content.config.ts    # Zod schemas for content collections
-```
-
-### 4.2 Content Collections (Astro 7.x)
-
-```typescript
-// src/content.config.ts
-import { defineCollection, z } from 'astro:content';
-
-const cefrNodeSchema = z.object({
-  nodeId: z.string().regex(/^(A1|A2|B1|B2|C1|C2)-[A-Z]+-\d{3}$/),
-  cefrLevel: z.enum(['A1', 'A2', 'B1', 'B2', 'C1', 'C2']),
-  skill: z.enum(['listening', 'reading', 'spoken_interaction', 'spoken_production', 'writing']),
-  canDo: z.string().min(10).max(200),
-  pragmaticFocus: z.string().optional(),
-  notionalFocus: z.string().optional(),
-  relatedNodes: z.array(z.string()).default([]),
-  prerequisiteNodes: z.array(z.string()).default([]),
-});
-
-const vocabularyItemSchema = z.object({
-  id: z.string().regex(/^[a-z]{2}(-[A-Z]{2})?-.+-\d{3}$/),
-  term: z.string().min(1),
-  translation: z.string().min(1),
-  partOfSpeech: z.enum([
-    'noun',
-    'verb',
-    'adjective',
-    'adverb',
-    'pronoun',
-    'preposition',
-    'conjunction',
-    'interjection',
-    'phrase',
-  ]),
-  gender: z.enum(['masculine', 'feminine', 'neuter', 'n/a']).default('n/a'),
-  example: z.string().min(5),
-  exampleTranslation: z.string().min(5),
-  audioUrl: z.string().optional(),
-});
-
-export const collections = {
-  'cefr-nodes': defineCollection({ type: 'data', schema: cefrNodeSchema }),
-  realisations: defineCollection({ type: 'data', schema: realisationSchema }),
-};
-```
-
-### 4.3 Styling: Vanilla CSS + Design Tokens + BEM
-
-Tokens are CSS custom properties in `src/styles/global.css`; class names are BEM (`.block__element--modifier`). When to use which token and component: `DESIGN.md`.
-
-**No CSS frameworks.** No Tailwind, no styled-components.
-
-### 4.4 Client Interactivity: Islands Only
-
-- Default: **zero-JS** static HTML
-- Interactivity is vanilla TypeScript in component `<script>` blocks or custom elements (e.g. `<audio-player>`). No UI framework runtime is shipped
-
----
-
-## 5. CI/CD Pipeline
-
-### 5.1 Required Stages (`.github/workflows/pipe.yml`)
-
-```yaml
-stages:
-  - lint # ESLint + Prettier (staged files via lefthook)
-  - typecheck # tsc --noEmit
-  - validate:content # Zod schema validation for all content
-  - test:unit # Vitest --run --coverage (thresholds: 90%)
-  - build # astro build (static export to dist/)
-  - test:e2e # Playwright critical paths
-  - lighthouse # Lighthouse CI (perf ≥95, a11y 100)
-```
-
-### 5.2 Gates
-
-| Gate               | Threshold                       |
-| ------------------ | ------------------------------- |
-| TypeScript         | 0 errors                        |
-| Lint               | 0 errors, 0 warnings            |
-| Content Validation | 100% files valid                |
-| Unit Coverage      | ≥90% lines, branches, functions |
-| Build              | Must succeed                    |
-| E2E                | All critical paths pass         |
-| Lighthouse         | Perf ≥95, A11y 100              |
-
-**Failed gate = pipeline stops.** No `continue-on-error`.
-
-### 5.3 Deployment (`deploy-production` and `smoke-production` jobs in `pipe.yml`)
-
-- Trigger: Push to `main` (after CI passes)
-- Environment: `github-pages` (Production)
-- After deploy: smoke tests and Lighthouse run against the live URL (spec D1)
-- Rollback: `git revert` on main
-
----
-
-## 6. Testing Strategy
-
-### 6.1 Test Pyramid
+## 3. GitOps
 
-| Layer              | Tool           | Target         | Scope                                       |
-| ------------------ | -------------- | -------------- | ------------------------------------------- |
-| Unit               | Vitest         | ≥90%           | `lib/` (SRS, storage, progress, pairLoader) |
-| Content Validation | Zod + custom   | 100%           | All YAML files                              |
-| Integration        | Vitest + jsdom | Key flows      | Pair loader + SRS + storage                 |
-| E2E                | Playwright     | Critical paths | Review session, language switch, progress   |
-| Accessibility      | axe-core       | All pages      | WCAG 2.1 AA                                 |
-| Performance        | Lighthouse CI  | All pages      | Budgets per §10 of spec                     |
+`main` is production. It deploys only through `.github/workflows/pipe.yml` on push, never by hand. Every change is a reviewed commit; rollback is `git revert` on `main`.
 
-### 6.2 TDD Rules (test-driven-development)
-
-- **RED**: Write failing test first (one behavior, clear name, real code)
-- **Verify RED**: Watch it fail for the RIGHT reason
-- **GREEN**: Minimal code to pass
-- **Verify GREEN**: All tests pass, output pristine
-- **REFACTOR**: Clean up, keep tests green
-
----
-
-## 7. Security & Compliance
+## 4. Code conventions
 
-### 7.1 Privacy by Default
-
-- **No PII collected** — no accounts, emails, names
-- **No third-party trackers** — self-hosted analytics only (opt-in)
-- **localStorage only** — no data leaves browser
-- **No cookies** — GDPR compliant by design
+- **Where things are:** `src/lib/` holds the pure, unit-tested core (SRS, storage, progress, pairing); routes are under `src/pages/[sourceLang]/[targetLang]/`; content YAML is in `src/content/` (`cefr-nodes/`, `realisations/<lang>/`). The schemas are in `src/content.config.ts`; read them there, don't copy them.
+- **Rules:** no code path names a specific language (intent P4). All storage goes through `src/lib/storage.ts`. UI text goes through `src/lib/strings.ts`.
+- **Styling:** vanilla CSS with tokens in `src/styles/global.css` and BEM class names; no CSS frameworks. Which token or component to use: `DESIGN.md`.
 
-### 7.2 Security Posture
+### 4.4 Client interactivity
 
-| Concern           | Mitigation                                                        |
-| ----------------- | ----------------------------------------------------------------- |
-| XSS               | Astro escapes by default; Vue escapes interpolations; no `v-html` |
-| Content injection | Zod strict validation; no `eval`                                  |
-| Dependency vulns  | `npm audit` in CI; Dependabot enabled                             |
-| Supply chain      | Lockfile committed; CI uses `npm ci`                              |
-| GitHub Actions    | Least-privilege `permissions:` blocks                             |
+Static HTML by default. Interactivity is vanilla TypeScript in component `<script>` blocks or custom elements (e.g. `<audio-player>`); no UI framework runtime is shipped.
 
----
+## 5. CI gates (`pipe.yml`)
 
-## 8. Accessibility (WCAG 2.1 AA)
+Every PR runs all of these, and any failure blocks merge (no `continue-on-error`). On `main` the site then deploys to GitHub Pages, and smoke tests plus Lighthouse run against the live URL (spec D1).
 
-Mandatory for all PRs:
+### 5.2 Thresholds
 
-| Check            | Tool                              |
-| ---------------- | --------------------------------- |
-| Semantic HTML    | axe-core (CI)                     |
-| Color contrast   | axe-core + manual                 |
-| Focus management | Tab navigation test               |
-| ARIA labels      | Manual review                     |
-| Reduced motion   | `@media (prefers-reduced-motion)` |
+| Gate                | Passes when                                                                                     |
+| ------------------- | ----------------------------------------------------------------------------------------------- |
+| Typecheck, lint     | 0 errors, 0 warnings (`npm run typecheck`, `npm run lint`: ESLint + Prettier on `src`, `tests`) |
+| Content             | `npm run validate:content` passes; `npm audit --omit=dev --audit-level=high` is clean           |
+| CEFR coverage       | `npm run check:coverage` holds the committed baseline                                           |
+| Unit coverage       | ≥90% lines, functions and statements, ≥80% branches (`vitest.config.ts`)                        |
+| Build               | `astro build` succeeds                                                                          |
+| E2E + accessibility | Playwright on five browser projects, axe on every page                                          |
+| Lighthouse          | The budgets in spec Q5 (`lighthouserc.json`)                                                    |
+| Empty diff guard    | A PR changes at least one file                                                                  |
 
-**No merge without a green `E2E + Accessibility Tests` CI job** (axe on every page, desktop and mobile projects: `npm run test:e2e`).
+## 6. Testing
 
----
+- **Unit:** Vitest, `src/**/*.test.ts`, mostly `src/lib/`. `schedule()` keeps 100% coverage.
+- **Integration:** `npm run test:integration` (`vitest.integration.config.ts`).
+- **E2E:** Playwright in `tests/e2e/`, run against the built `dist/` (`npm run test:e2e` builds first); axe in `a11y.spec.ts`.
 
-## 9. SemVer 2.0 Versioning (MANDATORY)
+### 6.2 TDD
 
-### 9.1 Version Format
+Write one failing test, watch it fail for the right reason, write the least code that passes, then refactor while green (`test-driven-development` skill).
 
-```
-MAJOR.MINOR.PATCH[-PRERELEASE][+BUILD]
-```
+## 7. Privacy and security
 
-### 9.2 Increment Rules
+Privacy rules are intent P3 and spec S3, S7: no PII, accounts, cookies or third-party requests; state lives in `localStorage` through `storage.ts`. The security checklist for every review is `REVIEW.md` §4. In CI: `npm audit`, the committed lockfile with `npm ci`, and least-privilege workflow `permissions:`.
 
-| Change Type                        | Version Bump | Example       |
-| ---------------------------------- | ------------ | ------------- |
-| Breaking API/content schema change | MAJOR        | 1.0.0 → 2.0.0 |
-| New feature (backward compatible)  | MINOR        | 1.0.0 → 1.1.0 |
-| Bug fix (backward compatible)      | PATCH        | 1.0.0 → 1.0.1 |
-| Pre-release (alpha/beta/rc)        | PRERELEASE   | 1.0.0-alpha.1 |
+## 8. Accessibility
 
-### 9.3 Content Schema Versioning
+WCAG 2.1 AA. axe runs on every page in the E2E job, and nothing merges while it's red. Patterns (focus, reduced motion, alt text, skip link): `DESIGN.md` §8.
 
-- CEFR node schema changes = **MAJOR** (breaks content validation)
-- New optional fields in realisations = **MINOR**
-- Vocabulary item additions = **PATCH** (no schema change)
+## 9. Versioning (SemVer 2.0)
 
-### 9.4 Release Process
+Breaking change → MAJOR, `feat` → MINOR, `fix` / `perf` / `content` → PATCH. **Before 1.0, a breaking change bumps MINOR.**
 
-1. Update `package.json` version per SemVer
-2. Update `CHANGELOG.md` (Keep a Changelog format)
-3. Tag: `git tag -a v{version} -m "Release v{version}"`
-4. Push tag: `git push origin v{version}`
-5. GitHub Actions builds and deploys automatically
+### 9.3 Content schema
 
----
+A CEFR node schema change is breaking. A new optional realisation field is MINOR. Adding content without a schema change is PATCH.
 
-## 10. Commit Conventions (Conventional Commits 1.0.0)
+**Release:** bump `package.json`, move CHANGELOG `[Unreleased]` under the new version, `git tag -a vX.Y.Z -m "Release vX.Y.Z"`, push the tag.
 
-### 10.1 Format
+## 10. Commits
 
-```
-<type>[optional scope]: <description>
+Conventional Commits: `<type>(<scope>): <summary>`, imperative, ≤72 characters. Types: `feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `test`, `chore`, `ci`, plus **`content`** for content-only changes. A breaking change uses `!` and a `BREAKING CHANGE:` footer. Examples: `feat(review): …`, `fix(srs): …`, `content(vocab): …`. Edits to `intent.md` go in their own `docs(intent):` PR.
 
-[optional body]
+## 11. Git hooks (lefthook)
 
-[optional footer(s)]
-```
+`npm install` installs the hooks (`prepare` script).
 
-### 10.2 Types
-
-| Type       | Description                          | Version Bump |
-| ---------- | ------------------------------------ | ------------ |
-| `feat`     | New feature                          | MINOR        |
-| `fix`      | Bug fix                              | PATCH        |
-| `docs`     | Documentation only                   | —            |
-| `style`    | Formatting, no code change           | —            |
-| `refactor` | Code restructure, no behavior change | —            |
-| `perf`     | Performance improvement              | PATCH        |
-| `test`     | Adding/fixing tests                  | —            |
-| `chore`    | Maintenance, deps, config            | —            |
-| `ci`       | CI/CD changes                        | —            |
-| `content`  | Content additions/changes            | PATCH*       |
-
-*Content changes that don't alter schema = PATCH
-
-### 10.3 Scope (Optional)
-
-- `feat(cefr): add A1-GREET-001 node`
-- `fix(srs): handle EF floor correctly`
-- `content(vocab): add 50 A1 terms`
-
-### 10.4 Breaking Changes
-
-```
-feat(cefr)!: redesign node schema to support multi-skill
-
-BREAKING CHANGE: nodeId format changed from A1-XXX-001 to A1-SKILL-001
-```
-
-**Footer required for breaking changes.**
-
-### 10.5 Examples
-
-```
-feat(review): add four-grade SRS buttons (Again/Hard/Good/Easy)
-
-fix(i18n): ensure TTS uses pt-PT voice not pt-BR
-
-docs(spec): update CEFR mapping process in specification-design.md
-
-content(vocab): add 30 A1 terms for greetings module
-
-refactor(srs)!: simplify schedule() to pure function
-
-BREAKING CHANGE: schedule() now returns new state object instead of mutating
-```
-
----
-
-## 11. Lefthook Git Hooks (MANDATORY)
-
-> **Lefthook replaces Husky.** It's faster, deterministic, and better suited for staged-file workflows.
-
-### 11.1 Installation
-
-```bash
-# Install globally or via npx
-go install github.com/evilmartians/lefthook@latest
-# OR add to package.json devDependencies and use npx lefthook
-```
-
-### 11.2 Configuration (`.lefthook.yml`)
-
-```yaml
-# .lefthook.yml
-pre-commit:
-  parallel: true
-  commands:
-    lint-staged:
-      glob: '*.{ts,tsx,vue,astro,js,jsx,json,css,md,mdx,yaml,yml}'
-      run: npx lint-staged
-    typecheck:
-      glob: '*.{ts,tsx,vue}'
-      run: npx tsc --noEmit
-
-pre-push:
-  parallel: false
-  commands:
-    validate-content:
-      run: npm run validate:content
-    test-unit:
-      run: npm test
-    test-e2e:
-      run: npm run test:e2e
-```
-
-### 11.3 lint-staged Config (in `package.json`)
-
-```json
-{
-  "lint-staged": {
-    "*.{ts,tsx,vue,astro,js,jsx,json,css,md,mdx,yaml,yml}": ["prettier --check"],
-    "*.{ts,tsx,vue,astro}": ["eslint --max-warnings 0"]
-  }
-}
-```
-
-### 11.4 Hook Behavior
-
-| Hook         | Runs On           | Purpose                                                        |
-| ------------ | ----------------- | -------------------------------------------------------------- |
-| `pre-commit` | Staged files only | Fast feedback: lint + format + typecheck on changed files      |
-| `pre-push`   | All files         | Heavy gates: content validation + unit tests + E2E before push |
-
-**Rationale:** Pre-commit is fast (<10s) for staged files. Pre-push runs full validation before code reaches remote.
-
----
+- **pre-commit:** Prettier and ESLint on staged `src/` and `tests/` files (lint-staged), and `tsc --noEmit`.
+- **pre-push:** `npm run validate:content` and the unit tests. E2E runs in CI.
+- Never use `--no-verify`. The hooks don't check docs outside `src/` and `tests/`: run `npx prettier --write <file>` on them yourself.
 
 ## 12. Workflow: board, goals, decisions, review
 
@@ -500,91 +192,29 @@ A question only the owner can answer is an issue: the `question` label, assigned
 - **Review:** `gh pr edit <pr> --add-reviewer @copilot`. Copilot code review reads `REVIEW.md` and this file automatically.
 - Copilot can't move board items. Its PRs show up in command 2 through `gh pr list`.
 
----
+## 13. Definition of done
 
-## 13. Definition of Done
+- The issue's exit criterion is met, with the check that proves it.
+- CI is green (§5).
+- Self-reviewed against `REVIEW.md` with no Critical or Important findings open; the issue is in _Needs human_ with the PR linked.
+- `spec.md`, `CHANGELOG.md` (for user-visible changes) and any affected docs are updated in the same PR.
+- Commits follow §10. The version is bumped at release (§9).
 
-A task is **done** only when:
-
-- [ ] All acceptance criteria pass (unit/integration/E2E/live-system)
-- [ ] Coverage gates met (≥90% for lib/)
-- [ ] Pipeline passes (lint, typecheck, content validation, test, build, lighthouse)
-- [ ] Accessibility audit passes
-- [ ] Reviewed against `REVIEW.md` (no Critical/Important open); issue in _Needs human_ with the PR linked
-- [ ] Documentation updated (README, CHANGELOG, spec if API changed)
-- [ ] Commit message follows Conventional Commits
-- [ ] Version bumped per SemVer (if user-facing change)
-
----
-
-## 14. Key Commands
+## 14. Key commands
 
 ```bash
-# Local dev
-npm run dev              # Astro dev server
-npm run build            # Static export to dist/
-npm run preview          # Preview dist/ locally
-
-# Quality gates
-npm run typecheck        # tsc --noEmit
-npm run lint             # eslint + prettier --check
-npm run validate:content # Zod schema validation
-npm test                 # vitest --run --coverage (unit)
-npm run test:e2e         # playwright test
-npm run install:browsers # Playwright browsers via offline-resilient local relay
-npm run lighthouse       # lighthouse-ci
-
-# opencode config (single source of truth = repo opencode/, never ~/.config)
-bash opencode/sync.sh    # install config + pinned plugins + validate
-bash opencode/validate.sh # invariants only (no install)
-
-# Git hooks
-npx lefthook install     # Install hooks
-npx lefthook run pre-commit   # Manual pre-commit
-npx lefthook run pre-push     # Manual pre-push
-
-# GitOps validation
-git status               # Check clean state
-git log --oneline -10    # Recent commits
+npm run dev               # Astro dev server (background)
+npm run build             # static build to dist/
+npm run typecheck         # tsc --noEmit
+npm run lint              # ESLint + Prettier check on src/ and tests/
+npm run validate:content  # Zod schemas + content integrity
+npm test                  # unit tests with coverage gate
+npm run test:integration  # integration tests
+npm run test:e2e          # builds, then Playwright (E2E + axe)
+npm run check:coverage    # CEFR concept-coverage gate; report:coverage for details
+npm run install:browsers  # Playwright browsers through a local relay
+bash opencode/sync.sh     # install the opencode config from opencode/
 ```
 
-> **opencode config:** edit `opencode/` in this repo and run `bash opencode/sync.sh` (restart opencode after). `~/.config/opencode` is an install target — hand-edits there are overwritten. Details, removed-services, and re-add conditions: `opencode/README.md`.
-
-> **Playwright browsers:** `npm run install:browsers` (`scripts/install-browsers.sh`) works around the stock CDN downloader hanging on this network by fetching build zips with curl and installing through a local HTTP relay. Build ids are Playwright-version-specific — **re-run it after every Playwright version bump**.
-
----
-
-## 15. References
-
-- **Discovery Brief**: `discovery-brief.md`
-- **Specification & Design**: `specification-design.md` (frozen reference), `DESIGN.md` (UI/UX)
-- **Astro Docs**: https://docs.astro.build
-- **GitOps Principles**: https://opengitops.dev
-- **WCAG 2.1 AA**: https://www.w3.org/WAI/WCAG21/quickref/
-- **SM-2 Algorithm**: https://www.supermemo.com/en/archives1990-2015/english/ol/sm2
-- **CEFR Can-Do**: https://www.coe.int/en/web/common-european-framework-reference-languages
-- **Conventional Commits**: https://www.conventionalcommits.org
-- **SemVer 2.0**: https://semver.org
-- **Superpowers Skills**: installed by `opencode/sync.sh` from the pinned `superpowers` package, see `opencode/README.md` (brainstorming, writing-plans, executing-plans, test-driven-development, systematic-debugging, verification-before-completion, requesting-code-review, finishing-a-development-branch)
-
----
-
-## 16. Project Documents
-
-| Document                  | Purpose                                                                                                                                      |
-| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| `intent.md`               | Why the product exists, outcome, success signals, principles, non-goals (stable)                                                             |
-| `spec.md`                 | Living requirement contract: IDs, intent trace, verifying check, status                                                                      |
-| `plans/README.md`         | Master plan: goals and every open issue, in order. Status is on the board (§12). Detail plans in `plans/`, finished ones in `plans/archive/` |
-| `DESIGN.md`               | UI/UX design system: principles, tokens, components, patterns. Cite it for every UI decision                                                 |
-| `REVIEW.md`               | How to review a change: severity, correctness, security, invariants. Copilot code review reads it automatically                              |
-| `discovery-brief.md`      | JTBD, personas, acceptance criteria, constraints (historical record)                                                                         |
-| `specification-design.md` | Original technical specification (architecture, data model, SRS, testing, deployment). Frozen reference; UI moved to `DESIGN.md`             |
-| `AGENTS.md`               | This file — agent governance, GitOps, conventions                                                                                            |
-| `CLAUDE.md`               | Symlink to AGENTS.md                                                                                                                         |
-| `README.md`               | Project overview for humans                                                                                                                  |
-| `CHANGELOG.md`            | Keep a Changelog format                                                                                                                      |
-
----
-
-_Generated for learn-languages. Update when platform conventions evolve. All agents MUST read this file at session start._
+- **opencode config:** edit `opencode/` in this repo, then run `bash opencode/sync.sh` and restart opencode. `~/.config/opencode` is an install target; hand edits there are overwritten. Details: `opencode/README.md`.
+- **Playwright browsers:** the stock downloader hangs on the owner's network, so `npm run install:browsers` fetches the builds with curl through a local relay. Re-run it after every Playwright version bump.

@@ -103,7 +103,7 @@
 
 ## 5. Engineering gates
 
-Unchanged from AGENTS.md §5 and §13: typecheck 0 errors, lint 0 warnings, content 100% valid, unit coverage ≥90% for `lib/`, build, E2E, a11y, Lighthouse. A requirement is ✅ only when its "Verified by" check runs in CI or has dated evidence linked from its issue.
+As in AGENTS.md §5.2 and §13: typecheck 0 errors, lint 0 warnings, content 100% valid, unit coverage ≥90% lines, functions and statements and ≥80% branches (enforced in `vitest.config.ts`, owner decision #276), build, E2E, a11y, Lighthouse. A requirement is ✅ only when its "Verified by" check runs in CI or has dated evidence linked from its issue.
 
 ## 6. Open questions
 
