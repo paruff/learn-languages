@@ -77,6 +77,7 @@ for (const n of await getCollection('cefr-nodes')) {
     <p id="review-progress" class="review-card__progress"></p>
     <img id="review-image" class="review-card__image" hidden />
     <p id="review-front" class="review-card__term"></p>
+    <p id="review-cloze-translation" class="review-card__cloze-translation" hidden></p>
     <button id="review-reveal" type="button" class="btn btn--primary">
       {getString(sourceLang, 'reviewRevealButton')}
     </button>
@@ -227,6 +228,10 @@ for (const n of await getCollection('cefr-nodes')) {
     font-weight: 700;
     margin: 0;
   }
+  .review-card__cloze-translation {
+    color: var(--color-text-muted);
+    margin: 0;
+  }
   .review-card__term--answer {
     color: var(--color-primary);
   }
@@ -369,6 +374,7 @@ for (const n of await getCollection('cefr-nodes')) {
   } from '../../../lib/nextSession';
   import { saveReflection, loadReflection, type ReflectionResponse } from '../../../lib/reflection';
   import { diffAnswer, suggestGrade } from '../../../lib/exerciseCheck';
+  import { makeCloze, shouldCloze } from '../../../lib/cloze';
   import { recordGradeForCalibration } from '../../../lib/calibration';
   import { appendGrade } from '../../../lib/gradeLog';
   import { getString, format } from '../../../lib/strings';
@@ -438,6 +444,7 @@ for (const n of await getCollection('cefr-nodes')) {
   const imageEl = document.getElementById('review-image') as HTMLImageElement;
   const frontEl = document.getElementById('review-front')!;
   const backEl = document.getElementById('review-back')!;
+  const clozeTranslationEl = document.getElementById('review-cloze-translation')!;
   const revealBtn = document.getElementById('review-reveal')!;
   const pronounceBtn = document.getElementById('review-pronounce')!;
   const gradesEl = document.getElementById('review-grades')!;
@@ -677,6 +684,22 @@ for (const n of await getCollection('cefr-nodes')) {
       frontEl.hidden = false;
       imageEl.hidden = true;
       frontEl.textContent = frontOf(item).term;
+    }
+
+    // L24: a mature item alternates with a cloze of its own example sentence —
+    // the answer term blanked, its translation as the cue. Same SRS state and
+    // grading; items whose term isn't verbatim in the sentence stay plain.
+    clozeTranslationEl.hidden = true;
+    if (!picturePrompt) {
+      const answer = backOf(item);
+      const { repetitions } = loadState(sourceLang, targetLang, direction, item.target.id);
+      const cloze = shouldCloze(repetitions) ? makeCloze(answer.example, answer.term) : null;
+      if (cloze) {
+        frontEl.textContent = cloze;
+        frontEl.hidden = false;
+        clozeTranslationEl.textContent = answer.exampleTranslation;
+        clozeTranslationEl.hidden = false;
+      }
     }
   }
 
