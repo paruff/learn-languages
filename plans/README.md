@@ -1,21 +1,16 @@
 # Master plan — Acquira (learn-languages)
 
-> **The one place to see what's next.** Every open piece of work is a row here, in a goal, with its GitHub issue.
-> Goals G1–G5 are mirrored as GitHub milestones, so `Issues → Milestones` shows the same picture with live status.
+> **The one place to see the order of work.** Every open piece of work is a row here, in a goal, with its GitHub issue.
+> Goals G1–G5 are GitHub milestones, each with a goal issue (label `plan`). **Status lives only on the Acquira project board** (AGENTS.md §12): this file says what and in what order, the board says where each item is.
 >
 > Flow: [`intent.md`](../intent.md) (why) → [`spec.md`](../spec.md) (what the product must do) → **this file** (what's next, in what order) → issues and PRs (how).
 > Detail plans for a single piece of work sit next to this file as `plans/YYYY-MM-DD-<topic>.md`. Finished ones move to [`plans/archive/`](archive/).
 
-**Last updated:** 2026-10-23
+**Last updated:** 2026-10-24
 
 ## Decisions waiting on the owner
 
-The only list of open questions for the owner. Each one says what changes depending on the answer.
-
-| #   | Question                                                                                                                                                                                                                                                                                                                           | Why it matters                                    |
-| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
-| Q-2 | **Row 1.4, after the learner round:** positive → start G3; negative → rescope around what broke; unclear → a larger round. Not answerable yet: it needs rows 1.1–1.3 first. First learner data expected from 2026-10-23.                                                                                                           | Gates G3 and G4                                   |
-| Q-4 | **What should the level labels promise?** Each language has ~800 words for A1–C2, while B2+ comprehension needs several thousand (review finding A4). Options: keep the labels and add an honest note on "Why this works"; label B2–C2 as "topics", not levels; or hide B2–C2 until C10 (#255) shows the vocabulary supports them. | Copy on Home, Lessons, Progress; G4 content scope |
+Each is a GitHub issue labelled `question`, assigned to the owner, in _Needs human_ on the board (AGENTS.md §12.5). List them with AGENTS.md §12.3 command 2.
 
 ## Where we are
 
@@ -28,21 +23,14 @@ The only list of open questions for the owner. Each one says what changes depend
 
 Get real learners through the Portuguese loop, see them return, and find where they get lost. Gates G3 and G4. Intent §3, S1, S2, S7.
 
-| #    | Work                                                                                                                   | Spec          | Issue           | Exit criterion                                                   |
-| ---- | ---------------------------------------------------------------------------------------------------------------------- | ------------- | --------------- | ---------------------------------------------------------------- |
-| 1.0  | Learner-journey UX/UI audit (done: `plans/2026-10-22-learner-journey-ux-audit.md`)                                     | Q6, Q9        | #194            | Ranked findings in `plans/`, one issue per Critical/High, in G1  |
-| 1.0b | Bugs found by the audit: broken listening exercise, empty credits page                                                 | Q6, C7        | #209, #211      | Fixed with a test each                                           |
-| 1.0c | Practise only what you've studied (lesson-scoped practice, daily new-word cap)                                         | J2            | #207            | E2E: a fresh learner is never quizzed on unseen words            |
-| 1.0d | One goal and one next step: ordered A1 path with Continue                                                              | J1            | #208            | E2E: Continue walks a fresh learner through A1 in teaching order |
-| 1.0e | Progress leads with the level goal as a Can-Do checklist                                                               | J3            | #210            | E2E: Progress shows A1 Can-Dos first                             |
-| 1.0f | Plain-language polish pass                                                                                             | Q6            | #212            | The owner can follow the path without getting lost               |
-| T1.2 | Run the device checklist (`docs/tester-readiness.md`) before each invitation wave                                      | Q9            | #195            | A dated run in the checklist's log                               |
-| 1.1  | Run 3–5 persona-matched learner sessions on en-GB→pt-PT (`docs/phase-1-learner-session-protocol.md`)                   | Q6, intent S1 | #21             | Filled observation table posted on #21                           |
-| 1.2  | Day-2 and day-7 follow-up with the same learners (they send the Progress → "Share how it went" report)                 | intent S2, M1 | #21             | "Returned day 2?" column filled in                               |
-| 1.3  | Fix whatever session-1 friction 1.1 finds, worst first                                                                 | Q6            | new per finding | The friction no longer happens when the observer reruns it       |
-| 1.4  | Record the outcome (Q-2 above)                                                                                         | —             | #21             | A decision written in this file                                  |
-| 1.5  | Ask for persistent storage so Safari's 7-day cap can't wipe progress before the day-7 follow-up                        | S8            | #241            | Unit test + dated iOS Safari run in the device checklist         |
-| 1.6  | ✅ Plan the next session: implementation-intention prompt and optional `.ics` reminder (owner: yes to Q-3, 2026-10-23) | L21           | #243            | E2E: skippable, shown on next visit, no network request          |
+| #    | Work                                                                                                   | Spec          | Issue           | Exit criterion                                             |
+| ---- | ------------------------------------------------------------------------------------------------------ | ------------- | --------------- | ---------------------------------------------------------- |
+| T1.2 | Run the device checklist (`docs/tester-readiness.md`) before each invitation wave                      | Q9            | #195            | A dated run in the checklist's log                         |
+| 1.1  | Run 3–5 persona-matched learner sessions on en-GB→pt-PT (`docs/phase-1-learner-session-protocol.md`)   | Q6, intent S1 | #21             | Filled observation table posted on #21                     |
+| 1.2  | Day-2 and day-7 follow-up with the same learners (they send the Progress → "Share how it went" report) | intent S2, M1 | #21             | "Returned day 2?" column filled in                         |
+| 1.3  | Fix whatever session-1 friction 1.1 finds, worst first                                                 | Q6            | new per finding | The friction no longer happens when the observer reruns it |
+| 1.4  | Record the outcome: positive → start G3; negative → rescope; unclear → a larger round                  | —             | new (question)  | The owner's answer, with its effect written in this file   |
+| 1.5  | Ask for persistent storage so Safari's 7-day cap can't wipe progress before the day-7 follow-up        | S8            | #241            | Unit test + dated iOS Safari run in the device checklist   |
 
 ## G2 Correct content (concept-keyed) — **now, owner exception**
 
@@ -59,25 +47,18 @@ Owner decision 2026-10-18, confirmed 2026-10-22: re-authoring es-ES and de-DE B1
 
 Ordered by how directly each serves intent §3 ("comes back").
 
-| #    | Work                                                                                                  | Spec    | Issue      | Exit criterion                                                         |
-| ---- | ----------------------------------------------------------------------------------------------------- | ------- | ---------- | ---------------------------------------------------------------------- |
-| 2.1  | Corrective support on "Again": example, translation and grammar note before re-queueing               | L10     | #196       | E2E: an Again grade shows the example before the next card             |
-| 2.2  | State the session's learning intention (Can-Do statements) at the start of review                     | L11     | #197       | E2E: the review page lists the Can-Do statements before the first card |
-| 2.3  | Week-2 return measurement beyond the manual report                                                    | S6      | #198       | Done #234: on-device flags in report (owner: enough)                   |
-| 2.4  | Grammar points in the retrieval loop, with contrastive notes by source language                       | L8, L15 | #126, #144 | One grammar point graded in a real review session                      |
-| 2.5  | Soft prerequisites for A1, recommended first                                                          | L12     | #199       | Progress "next up" picks an unmastered prerequisite                    |
-| 2.6  | Regional TTS voice detection and fallback                                                             | Q3      | #200       | Correct voice verified on iOS Safari and Android Chrome                |
-| 2.7  | Level checkpoint on unseen items, designed from round-one feedback                                    | L20     | #201       | First cut shipped (PR #239) without feedback; redesign after G1        |
-| 2.8  | L1-grammar accelerator: contrastive modules, metalinguistic tasks, L1 diagnostic, rule-of-thumb notes | L16–L19 | #205       | Each requirement shipped with an E2E check, after 2.4 (L8, L15)        |
-| 2.10 | ✅ Learn new words to criterion in their first session (successive relearning)                        | L23     | #244       | E2E: a new card graded Again returns until graded Good                 |
-| 2.11 | ✅ Sentence-cloze cards from the existing example sentences                                           | L24     | #245       | E2E: a cloze card appears for a mature item                            |
-| 2.12 | ✅ Typed recall: highlight the difference and suggest a grade                                         | L26     | #246       | E2E: a typed miss shows the diff with Again pre-selected               |
-| 2.13 | FSRS scheduling instead of SM-2, with state migration                                                 | L22     | #247       | Migration test; 100% coverage kept; M2 still computes                  |
-| 2.14 | Listening cards: audio prompt, recall the meaning                                                     | L25     | #248       | E2E: no text before reveal; off without audio                          |
-| 2.15 | Optional placement check to start above A1                                                            | L27     | #249       | E2E: skippable; passing A1 items offers A2                             |
-| 2.16 | Fluency round on mastered items                                                                       | L28     | #250       | E2E: only mastered items; SRS state unchanged                          |
+| #    | Work                                                                                                  | Spec    | Issue          | Exit criterion                                                                 |
+| ---- | ----------------------------------------------------------------------------------------------------- | ------- | -------------- | ------------------------------------------------------------------------------ |
+| 2.4  | Grammar points in the retrieval loop, with contrastive notes by source language                       | L8, L15 | #126, #144     | One grammar point graded in a real review session                              |
+| 2.6  | Regional TTS voice detection and fallback                                                             | Q3      | #200           | Correct voice verified on iOS Safari and Android Chrome                        |
+| 2.7  | Redesign the level checkpoint from round-one feedback (first cut shipped in #201)                     | L20     | new (question) | The owner's answer on what "I can do this" should feel like, then the redesign |
+| 2.8  | L1-grammar accelerator: contrastive modules, metalinguistic tasks, L1 diagnostic, rule-of-thumb notes | L16–L19 | #205           | Each requirement shipped with an E2E check, after 2.4 (L8, L15)                |
+| 2.13 | FSRS scheduling instead of SM-2, with state migration                                                 | L22     | #247           | Migration test; 100% coverage kept; M2 still computes                          |
+| 2.14 | Listening cards: audio prompt, recall the meaning                                                     | L25     | #248           | E2E: no text before reveal; off without audio                                  |
+| 2.15 | Optional placement check to start above A1                                                            | L27     | #249           | E2E: skippable; passing A1 items offers A2                                     |
+| 2.16 | Fluency round on mastered items                                                                       | L28     | #250           | E2E: only mastered items; SRS state unchanged                                  |
 
-Rows 2.10–2.16 come from the 2026-10-23 evidence review (ranked there by evidence × cost); its rank-1 item moved to G1 as row 1.6. 2.10–2.12 are small changes to the existing loop and go first.
+Rows 2.13–2.16 come from the 2026-10-23 evidence review (ranked there by evidence × cost).
 
 ## G4 Breadth: more languages and levels (Phase 3) — **after S6 data trends to target**
 
@@ -97,9 +78,9 @@ Owner decision 2026-10-22: Italian (row 3.1) continues now as an exception to ru
 
 ## G5 Delivery and quality — **any time, small**
 
-| #   | Work                                          | Spec | Issue | Exit criterion                                               |
-| --- | --------------------------------------------- | ---- | ----- | ------------------------------------------------------------ |
-| 5.1 | Post-deploy smoke tests against the live site | Q9   | #193  | `smoke-production` job passes on `main` against the live URL |
+| #   | Work                                                                      | Spec | Issue | Exit criterion                                                                               |
+| --- | ------------------------------------------------------------------------- | ---- | ----- | -------------------------------------------------------------------------------------------- |
+| 5.2 | Workflow: project board, goal issues, `DESIGN.md`, `REVIEW.md`, templates | —    | new   | `scripts/setup-project-board.sh` run; both AGENTS.md §12.3 commands return the board's items |
 
 ## Known platform limitations
 
@@ -119,11 +100,12 @@ What a static, serverless, zero-surveillance site (intent P3, P5) can't do, what
 
 ## Rules
 
-1. Nothing in **G3** starts before row 1.4 is recorded as positive. Nothing in **G4** starts before retention measurement (S6) produces data. Exceptions are owner decisions, written in the goal they apply to.
+1. Nothing in **G3** starts before row 1.4 is recorded as positive. Nothing in **G4** starts before retention measurement (S6) produces data. Exceptions are owner decisions, written in the goal they apply to. On the board, a gated goal's issue is _Blocked_ and its items stay in _Backlog_.
 2. Feature work follows intent → spec → plan: (a) add or change the requirement ID in `spec.md`; (b) add its row here with an issue and a milestone; (c) brainstorming → writing-plans → TDD → verification → review (AGENTS.md §2); (d) flip the spec status when its check passes.
 3. Bug fixes and small polish don't need a row. They still need a spec row if they change behaviour.
 4. When a row is done, delete it from here, close its issue, and move its detail plan to `plans/archive/`. History lives in git, CHANGELOG and the issues.
-5. A question for the owner goes in **Decisions waiting on the owner**, nowhere else.
+5. A question for the owner is a `question` issue (AGENTS.md §12.5), nowhere else. Its answer's effect is written here or in `spec.md` with a link to the issue.
+6. Rows never carry status (no ✅, no "done"). Status is on the board.
 
 ## Archive
 
