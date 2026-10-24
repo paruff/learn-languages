@@ -67,11 +67,11 @@ Ordered by how soon we can observe them. Earlier signals gate later investment.
 
 ## 7. Constraints
 
-- Astro 5.x static output on GitHub Pages; vanilla-JS islands; no CSS framework
+- Astro 7.x static output on GitHub Pages; vanilla-JS islands; no CSS framework
 - Zod-validated YAML content; the build fails on invalid content
 - WCAG 2.1 AA; reduced-motion respected
 - Conventional Commits and SemVer; `main` is production (GitOps)
 
 ## 8. Changing this file
 
-Edit it in its own PR with a `docs(intent):` commit, and say which spec or plan sections the change affects. Intent edits are rare by design. If you're editing this file often, the edits probably belong in `spec.md` or `plan.md`.
+Edit it in its own PR with a `docs(intent):` commit, and say which spec or plan sections the change affects. Intent edits are rare by design. If you're editing this file often, the edits probably belong in `spec.md` or `plans/README.md`.
