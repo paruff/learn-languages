@@ -48,7 +48,7 @@ For each finding give `file:line`, the severity, what goes wrong (a concrete inp
 ## 6. Tests
 
 - A test fails without the change and passes with it (TDD, AGENTS.md §6.2). Tests check behaviour the learner or caller sees, not implementation details.
-- `src/lib/` coverage stays at or above 90%. `schedule()` keeps 100%.
+- Coverage stays at or above the CI gate: 90% lines, functions and statements, 80% branches (AGENTS.md §5.2). `schedule()` keeps 100%.
 - Anything a learner can see or do has an E2E check, and new pages are in the axe run.
 
 ## 7. UI changes

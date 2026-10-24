@@ -22,6 +22,7 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · Versioning: 
 
 ### Changed
 
+- CI unit-coverage gate raised to 90% lines, functions and statements and 80% branches (was 80/70/80/80), as the docs already claimed (#276). AGENTS.md trimmed from ~590 to ~220 lines; stale schema, hook and security sections removed (#275).
 - Workflow: status lives on the Acquira project board; goal issues per milestone; owner decisions are `question` issues; new `DESIGN.md` (UI/UX design system) and `REVIEW.md` (code-review guidance); issue and PR templates; Copilot coding-agent setup steps (AGENTS.md §12).
 - Supported-language docs now list it-IT and fr-FR A1–C2; `spec.md` C7 points at the real `concept-images/index.yaml` path.
 

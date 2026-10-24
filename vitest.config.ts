@@ -26,11 +26,12 @@ export default defineConfig({
         'src/content.config.ts',
         'scripts/**',
       ],
+      // AGENTS.md §5.2 (owner decision #276): CI fails below these.
       thresholds: {
-        lines: 80,
-        branches: 70,
-        functions: 80,
-        statements: 80,
+        lines: 90,
+        branches: 80,
+        functions: 90,
+        statements: 90,
       },
     },
   },
