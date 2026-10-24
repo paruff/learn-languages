@@ -50,6 +50,7 @@ export type StringKey =
   | 'reviewPronounceLabel'
   | 'reviewCorrect'
   | 'reviewIncorrect'
+  | 'reviewAccentMiss'
   | 'reviewGradeAgain'
   | 'reviewGradeHard'
   | 'reviewGradeGood'
@@ -143,6 +144,7 @@ const EN_GB: Dictionary = {
   reviewPronounceLabel: 'Listen',
   reviewCorrect: 'Correct!',
   reviewIncorrect: 'Not quite — see the answer below.',
+  reviewAccentMiss: 'Almost — check the accents (highlighted below).',
   reviewGradeAgain: 'Again',
   reviewGradeHard: 'Hard',
   reviewGradeGood: 'Good',
@@ -240,6 +242,7 @@ const ES_ES: Dictionary = {
   reviewPronounceLabel: 'Escuchar',
   reviewCorrect: '¡Correcto!',
   reviewIncorrect: 'No exactamente — mira la respuesta abajo.',
+  reviewAccentMiss: 'Casi — revisa los acentos (resaltados abajo).',
   reviewGradeAgain: 'Otra vez',
   reviewGradeHard: 'Difícil',
   reviewGradeGood: 'Bien',
@@ -336,6 +339,7 @@ const PT_PT: Dictionary = {
   reviewPronounceLabel: 'Ouvir',
   reviewCorrect: 'Correto!',
   reviewIncorrect: 'Não é bem isso — veja a resposta abaixo.',
+  reviewAccentMiss: 'Quase — verifique os acentos (destacados abaixo).',
   reviewGradeAgain: 'Outra vez',
   reviewGradeHard: 'Difícil',
   reviewGradeGood: 'Bem',
@@ -432,6 +436,7 @@ const DE_DE: Dictionary = {
   reviewPronounceLabel: 'Anhören',
   reviewCorrect: 'Richtig!',
   reviewIncorrect: 'Nicht ganz — sehen Sie die Antwort unten.',
+  reviewAccentMiss: 'Fast — prüfen Sie die Akzente (unten hervorgehoben).',
   reviewGradeAgain: 'Nochmal',
   reviewGradeHard: 'Schwer',
   reviewGradeGood: 'Gut',
@@ -529,6 +534,7 @@ const FR_FR: Dictionary = {
   reviewPronounceLabel: 'Écouter',
   reviewCorrect: 'Correct !',
   reviewIncorrect: 'Pas tout à fait — voyez la réponse ci-dessous.',
+  reviewAccentMiss: 'Presque — vérifiez les accents (surlignés ci-dessous).',
   reviewGradeAgain: 'Encore',
   reviewGradeHard: 'Difficile',
   reviewGradeGood: 'Bien',
