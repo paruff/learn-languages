@@ -3,49 +3,49 @@ lang: it-IT
 vocabulary:
   - id: it-IT-C1-PROFESSIONAL-002-001
     concept: detailed-report
-    term: 'rapporto dettagliato'
-    translation: 'detailed report'
+    term: rapporto dettagliato
+    translation: detailed report
     partOfSpeech: noun
     gender: masculine
-    example: 'Il rapporto dettagliato mette in evidenza i passaggi decisivi.'
-    exampleTranslation: 'The detailed report covers all the figures of the quarter.'
+    example: Il rapporto dettagliato mette in evidenza i passaggi decisivi.
+    exampleTranslation: The detailed report highlights the decisive passages.
   - id: it-IT-C1-PROFESSIONAL-002-002
     concept: contingency-plan
-    term: 'piano di emergenza'
-    translation: 'contingency plan'
+    term: piano di emergenza
+    translation: contingency plan
     partOfSpeech: noun
     gender: masculine
-    example: 'Il piano di emergenza prevede risposte per gli scenari avversi.'
-    exampleTranslation: 'The contingency plan provides responses for adverse scenarios.'
+    example: Il piano di emergenza prevede risposte per gli scenari avversi.
+    exampleTranslation: The contingency plan provides responses for adverse scenarios.
   - id: it-IT-C1-PROFESSIONAL-002-003
     concept: culminating-point-of-the-analysis
-    term: "punto culminante dell'analisi"
-    translation: 'culminating point of the analysis'
+    term: punto culminante dell'analisi
+    translation: culminating point of the analysis
     partOfSpeech: noun
     gender: masculine
-    example: "Il punto culminante dell'analisi è il confronto tra i due mercati."
-    exampleTranslation: 'The culminating point of the analysis is the comparison between the two markets.'
+    example: Il punto culminante dell'analisi è il confronto tra i due mercati.
+    exampleTranslation: The culminating point of the analysis is the comparison between the two markets.
   - id: it-IT-C1-PROFESSIONAL-002-004
     concept: concrete-measures
-    term: 'misure concrete'
-    translation: 'concrete measures'
+    term: misure concrete
+    translation: concrete measures
     partOfSpeech: noun
     gender: feminine
-    example: 'Il documento propone misure concrete per ridurre i costi.'
-    exampleTranslation: 'The document proposes concrete measures to reduce costs.'
+    example: Il documento propone misure concrete per ridurre i costi.
+    exampleTranslation: The document proposes concrete measures to reduce costs.
   - id: it-IT-C1-PROFESSIONAL-002-005
     concept: notice-to-partners
-    term: 'comunicazione ai soci'
-    translation: 'notice to partners'
+    term: comunicazione ai soci
+    translation: notice to partners
     partOfSpeech: noun
     gender: feminine
-    example: 'La comunicazione ai soci chiarisce la nuova politica.'
-    exampleTranslation: 'The notice to partners clarifies the new policy.'
+    example: La comunicazione ai soci chiarisce la nuova politica.
+    exampleTranslation: The notice to partners clarifies the new policy.
   - id: it-IT-C1-PROFESSIONAL-002-006
     concept: ranking-of-the-risks
-    term: 'graduatoria dei rischi'
-    translation: 'ranking of the risks'
+    term: graduatoria dei rischi
+    translation: ranking of the risks
     partOfSpeech: noun
     gender: feminine
-    example: 'La graduatoria dei rischi orienta la priorità degli investimenti.'
-    exampleTranslation: 'The ranking of the risks guides the investment priority.'
+    example: La graduatoria dei rischi orienta la priorità degli investimenti.
+    exampleTranslation: The ranking of the risks guides the investment priority.

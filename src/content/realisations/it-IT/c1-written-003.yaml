@@ -3,49 +3,49 @@ lang: it-IT
 vocabulary:
   - id: it-IT-C1-WRITTEN-003-001
     concept: personal-narrative
-    term: 'racconto personale'
-    translation: 'personal narrative'
+    term: racconto personale
+    translation: personal narrative
     partOfSpeech: noun
     gender: masculine
-    example: 'Il racconto personale sostiene il proprio punto di vista con esempi concreti.'
-    exampleTranslation: "The author's personal narrative crossed paths with the collective history."
+    example: Il racconto personale sostiene il proprio punto di vista con esempi concreti.
+    exampleTranslation: The personal narrative supports its point of view with concrete examples.
   - id: it-IT-C1-WRITTEN-003-002
     concept: thread-of-memories
-    term: 'filo dei ricordi'
-    translation: 'thread of memories'
+    term: filo dei ricordi
+    translation: thread of memories
     partOfSpeech: noun
     gender: masculine
-    example: 'Il testo segue il filo dei ricordi senza perdere la strada.'
-    exampleTranslation: 'The text follows the thread of memories without losing its way.'
+    example: Il testo segue il filo dei ricordi senza perdere la strada.
+    exampleTranslation: The text follows the thread of memories without losing its way.
   - id: it-IT-C1-WRITTEN-003-003
     concept: childhood-memories
-    term: "ricordi d'infanzia"
-    translation: 'childhood memories'
+    term: ricordi d'infanzia
+    translation: childhood memories
     partOfSpeech: noun
     gender: masculine
-    example: "I ricordi d'infanzia affiorano con sorprendente nitidezza."
-    exampleTranslation: 'The childhood memories emerge with surprising clarity.'
+    example: I ricordi d'infanzia affiorano con sorprendente nitidezza.
+    exampleTranslation: The childhood memories emerge with surprising clarity.
   - id: it-IT-C1-WRITTEN-003-004
     concept: personal-point-of-view
-    term: 'punto di vista personale'
-    translation: 'personal point of view'
+    term: punto di vista personale
+    translation: personal point of view
     partOfSpeech: noun
     gender: masculine
-    example: 'Il punto di vista personale dà coerenza a tutta la cronaca.'
-    exampleTranslation: 'The personal point of view lends coherence to the whole chronicle.'
+    example: Il punto di vista personale dà coerenza a tutta la cronaca.
+    exampleTranslation: The personal point of view lends coherence to the whole chronicle.
   - id: it-IT-C1-WRITTEN-003-005
     concept: honest-caveats
-    term: 'riserve oneste'
-    translation: 'honest caveats'
+    term: riserve oneste
+    translation: honest caveats
     partOfSpeech: noun
     gender: feminine
-    example: 'Le riserve oneste danno credibilità al racconto.'
-    exampleTranslation: 'The honest caveats lend credibility to the account.'
+    example: Le riserve oneste danno credibilità al racconto.
+    exampleTranslation: The honest caveats lend credibility to the account.
   - id: it-IT-C1-WRITTEN-003-006
     concept: a-one-breath-effect
-    term: 'effetto di un solo respiro'
-    translation: 'a one-breath effect'
+    term: effetto di un solo respiro
+    translation: a one-breath effect
     partOfSpeech: noun
     gender: masculine
-    example: "L'ultimo capitolo ha un effetto di un solo respiro."
-    exampleTranslation: 'The final chapter has a one-breath effect.'
+    example: L'ultimo capitolo ha un effetto di un solo respiro.
+    exampleTranslation: The final chapter has a one-breath effect.

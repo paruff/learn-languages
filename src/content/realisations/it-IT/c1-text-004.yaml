@@ -3,49 +3,49 @@ lang: it-IT
 vocabulary:
   - id: it-IT-C1-TEXT-004-001
     concept: line-of-argumentation
-    term: 'linea argomentativa'
-    translation: 'line of argumentation'
+    term: linea argomentativa
+    translation: line of argumentation
     partOfSpeech: noun
     gender: feminine
-    example: 'La linea argomentativa emerge con chiarezza già nel primo paragrafo.'
-    exampleTranslation: 'The line of argumentation of the text rests on recent data.'
+    example: La linea argomentativa emerge con chiarezza già nel primo paragrafo.
+    exampleTranslation: The line of argumentation emerges clearly in the first paragraph.
   - id: it-IT-C1-TEXT-004-002
     concept: theses-and-antitheses
-    term: 'tesi e antitesi'
-    translation: 'theses and antitheses'
+    term: tesi e antitesi
+    translation: theses and antitheses
     partOfSpeech: noun
     gender: feminine
-    example: "L'autore mette a confronto tesi e antitesi prima di concludere."
-    exampleTranslation: 'The author confronts theses and antitheses before concluding.'
+    example: L'autore mette a confronto tesi e antitesi prima di concludere.
+    exampleTranslation: The author confronts theses and antitheses before concluding.
   - id: it-IT-C1-TEXT-004-003
     concept: circumstantial-evidence
-    term: 'prove indiziarie'
-    translation: 'circumstantial evidence'
+    term: prove indiziarie
+    translation: circumstantial evidence
     partOfSpeech: noun
     gender: feminine
-    example: 'Le prove indiziarie suggeriscono la tesi, ma non la dimostrano.'
-    exampleTranslation: 'The circumstantial evidence suggests, but does not prove, the thesis.'
+    example: Le prove indiziarie suggeriscono la tesi, ma non la dimostrano.
+    exampleTranslation: The circumstantial evidence suggests, but does not prove, the thesis.
   - id: it-IT-C1-TEXT-004-004
     concept: turning-point
-    term: 'svolta'
-    translation: 'turning point'
+    term: svolta
+    translation: turning point
     partOfSpeech: noun
     gender: feminine
-    example: "La svolta del testo è la confutazione dell'obiezione centrale."
-    exampleTranslation: 'The turning point of the text is the refutation of the central objection.'
+    example: La svolta del testo è la confutazione dell'obiezione centrale.
+    exampleTranslation: The turning point of the text is the refutation of the central objection.
   - id: it-IT-C1-TEXT-004-005
     concept: convergence-of-factors
-    term: 'convergenza di fattori'
-    translation: 'convergence of factors'
+    term: convergenza di fattori
+    translation: convergence of factors
     partOfSpeech: noun
     gender: feminine
-    example: "L'autore mostra la convergenza di fattori che spiega il fenomeno."
-    exampleTranslation: 'The author shows the convergence of factors that explains the phenomenon.'
+    example: L'autore mostra la convergenza di fattori che spiega il fenomeno.
+    exampleTranslation: The author shows the convergence of factors that explains the phenomenon.
   - id: it-IT-C1-TEXT-004-006
     concept: to-follow-the-reasoning
-    term: 'seguire il ragionamento'
-    translation: 'to follow the reasoning'
+    term: seguire il ragionamento
+    translation: to follow the reasoning
     partOfSpeech: phrase
     gender: n/a
-    example: "Il lettore attento segue il ragionamento dell'autore paragrafo per paragrafo."
-    exampleTranslation: "The attentive reader follows the author's reasoning paragraph by paragraph."
+    example: Il lettore attento segue il ragionamento dell'autore paragrafo per paragrafo.
+    exampleTranslation: The attentive reader follows the author's reasoning paragraph by paragraph.

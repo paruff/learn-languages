@@ -3,49 +3,49 @@ lang: it-IT
 vocabulary:
   - id: it-IT-C1-TEXT-002-001
     concept: technical-specifications
-    term: 'specifiche tecniche'
-    translation: 'technical specifications'
+    term: specifiche tecniche
+    translation: technical specifications
     partOfSpeech: noun
     gender: feminine
-    example: 'Le specifiche tecniche restano comprensibili anche fuori dal settore.'
-    exampleTranslation: 'The technical specifications of the equipment run to twenty pages.'
+    example: Le specifiche tecniche restano comprensibili anche fuori dal settore.
+    exampleTranslation: The technical specifications remain understandable even outside the field.
   - id: it-IT-C1-TEXT-002-002
     concept: assembly-instructions
-    term: 'istruzioni di montaggio'
-    translation: 'assembly instructions'
+    term: istruzioni di montaggio
+    translation: assembly instructions
     partOfSpeech: noun
     gender: feminine
-    example: 'Le istruzioni di montaggio presuppongono che il lettore conosca le basi.'
-    exampleTranslation: 'The assembly instructions assume the reader knows the basics.'
+    example: Le istruzioni di montaggio presuppongono che il lettore conosca le basi.
+    exampleTranslation: The assembly instructions assume the reader knows the basics.
   - id: it-IT-C1-TEXT-002-003
     concept: specialised-article
-    term: 'articolo specialistico'
-    translation: 'specialised article'
+    term: articolo specialistico
+    translation: specialised article
     partOfSpeech: noun
     gender: masculine
-    example: "L'articolo specialistico presuppone conoscenze di biochimica."
-    exampleTranslation: 'The specialised article presupposes knowledge of biochemistry.'
+    example: L'articolo specialistico presuppone conoscenze di biochimica.
+    exampleTranslation: The specialised article presupposes knowledge of biochemistry.
   - id: it-IT-C1-TEXT-002-004
     concept: technical-jargon
-    term: 'gergo tecnico'
-    translation: 'technical jargon'
+    term: gergo tecnico
+    translation: technical jargon
     partOfSpeech: noun
     gender: masculine
-    example: 'Il testo usa un gergo tecnico che intimidisce i non specialisti.'
-    exampleTranslation: 'The text uses technical jargon that intimidates non-specialists.'
+    example: Il testo usa un gergo tecnico che intimidisce i non specialisti.
+    exampleTranslation: The text uses technical jargon that intimidates non-specialists.
   - id: it-IT-C1-TEXT-002-005
     concept: to-decipher-the-acronyms
-    term: 'decifrare gli acronimi'
-    translation: 'to decipher the acronyms'
+    term: decifrare gli acronimi
+    translation: to decipher the acronyms
     partOfSpeech: phrase
     gender: n/a
-    example: 'Per capire la relazione bisogna decifrare gli acronimi della prima pagina.'
-    exampleTranslation: 'To understand the report, one must decipher the acronyms on the first page.'
+    example: Per capire la relazione bisogna decifrare gli acronimi della prima pagina.
+    exampleTranslation: To understand the report, one must decipher the acronyms on the first page.
   - id: it-IT-C1-TEXT-002-006
     concept: technical-annex
-    term: 'allegato tecnico'
-    translation: 'technical annex'
+    term: allegato tecnico
+    translation: technical annex
     partOfSpeech: noun
     gender: masculine
-    example: "I dettagli completi si trovano nell'allegato tecnico."
-    exampleTranslation: 'The full details are to be found in the technical annex.'
+    example: I dettagli completi si trovano nell'allegato tecnico.
+    exampleTranslation: The full details are to be found in the technical annex.

@@ -3,49 +3,49 @@ lang: it-IT
 vocabulary:
   - id: it-IT-C1-SPOKEN-004-001
     concept: to-read-between-the-lines
-    term: 'leggere tra le righe'
-    translation: 'to read between the lines'
+    term: leggere tra le righe
+    translation: to read between the lines
     partOfSpeech: phrase
     gender: n/a
-    example: 'Per capire la vera richiesta bisogna leggere tra le righe.'
-    exampleTranslation: 'When the speaker digresses, you have to read between the lines.'
+    example: Per capire la vera richiesta bisogna leggere tra le righe.
+    exampleTranslation: To understand the real request, one has to read between the lines.
   - id: it-IT-C1-SPOKEN-004-002
     concept: rambling-speech
-    term: 'discorso sconclusionato'
-    translation: 'rambling speech'
+    term: discorso sconclusionato
+    translation: rambling speech
     partOfSpeech: phrase
     gender: masculine
-    example: "Nonostante il discorso sconclusionato, l'idea centrale era chiara."
-    exampleTranslation: 'Despite the rambling speech, the central idea was clear.'
+    example: Nonostante il discorso sconclusionato, l'idea centrale era chiara.
+    exampleTranslation: Despite the rambling speech, the central idea was clear.
   - id: it-IT-C1-SPOKEN-004-003
     concept: implied-connections
-    term: 'collegamenti impliciti'
-    translation: 'implied connections'
+    term: collegamenti impliciti
+    translation: implied connections
     partOfSpeech: phrase
     gender: masculine
-    example: 'I collegamenti impliciti tra i temi si capiscono solo con attenzione.'
-    exampleTranslation: 'The implied connections between the themes are only understood with attention.'
+    example: I collegamenti impliciti tra i temi si capiscono solo con attenzione.
+    exampleTranslation: The implied connections between the themes are only understood with attention.
   - id: it-IT-C1-SPOKEN-004-004
     concept: to-follow-the-thread-of-the-reasoning
-    term: 'seguire il filo del ragionamento'
-    translation: 'to follow the thread of the reasoning'
+    term: seguire il filo del ragionamento
+    translation: to follow the thread of the reasoning
     partOfSpeech: phrase
     gender: n/a
-    example: 'In un dibattito confuso è difficile seguire il filo del ragionamento.'
-    exampleTranslation: 'In a confusing debate, it is hard to follow the thread of the reasoning.'
+    example: In un dibattito confuso è difficile seguire il filo del ragionamento.
+    exampleTranslation: In a confusing debate, it is hard to follow the thread of the reasoning.
   - id: it-IT-C1-SPOKEN-004-005
     concept: to-grasp-the-intention
-    term: "cogliere l'intenzione"
-    translation: 'to grasp the intention'
+    term: cogliere l'intenzione
+    translation: to grasp the intention
     partOfSpeech: phrase
     gender: n/a
-    example: "Abbiamo colto l'intenzione della domanda solo alla fine dell'intervento."
-    exampleTranslation: 'We only grasped the intention of the question at the end of the speech.'
+    example: Abbiamo colto l'intenzione della domanda solo alla fine dell'intervento.
+    exampleTranslation: We only grasped the intention of the question at the end of the speech.
   - id: it-IT-C1-SPOKEN-004-006
     concept: unmarked-communication
-    term: 'comunicazione non marcata'
-    translation: 'unmarked communication'
+    term: comunicazione non marcata
+    translation: unmarked communication
     partOfSpeech: noun
     gender: feminine
-    example: "La comunicazione non marcata richiede uno sforzo molto maggiore all'ascoltatore."
-    exampleTranslation: 'Unmarked communication demands a much greater effort from the listener.'
+    example: La comunicazione non marcata richiede uno sforzo molto maggiore all'ascoltatore.
+    exampleTranslation: Unmarked communication demands a much greater effort from the listener.

@@ -3,49 +3,49 @@ lang: it-IT
 vocabulary:
   - id: it-IT-C1-ARGUE-001-001
     concept: to-develop-sub-topics
-    term: 'sviluppare sottoargomenti'
-    translation: 'to develop sub-topics'
+    term: sviluppare sottoargomenti
+    translation: to develop sub-topics
     partOfSpeech: phrase
     gender: n/a
-    example: 'Sa sviluppare sottoargomenti senza perdere il filo del discorso.'
-    exampleTranslation: 'The speaker developed the sub-topics with enviable coherence.'
+    example: Sa sviluppare sottoargomenti senza perdere il filo del discorso.
+    exampleTranslation: He can develop sub-topics without losing the thread of the argument.
   - id: it-IT-C1-ARGUE-001-002
     concept: to-structure-the-presentation
-    term: "strutturare l'esposizione"
-    translation: 'to structure the presentation'
+    term: strutturare l'esposizione
+    translation: to structure the presentation
     partOfSpeech: phrase
     gender: n/a
-    example: "Saper strutturare l'esposizione è essenziale per mantenere l'attenzione."
-    exampleTranslation: 'Knowing how to structure the presentation is essential for keeping attention.'
+    example: Saper strutturare l'esposizione è essenziale per mantenere l'attenzione.
+    exampleTranslation: Knowing how to structure the presentation is essential for keeping attention.
   - id: it-IT-C1-ARGUE-001-003
     concept: to-elaborate-the-points
-    term: 'approfondire i punti'
-    translation: 'to elaborate the points'
+    term: approfondire i punti
+    translation: to elaborate the points
     partOfSpeech: phrase
     gender: n/a
-    example: "Dopo l'introduzione, ha approfondito i punti più controversi della questione."
-    exampleTranslation: 'After the introduction, he elaborated on the most controversial points of the issue.'
+    example: Dopo l'introduzione, ha approfondito i punti più controversi della questione.
+    exampleTranslation: After the introduction, he elaborated on the most controversial points of the issue.
   - id: it-IT-C1-ARGUE-001-004
     concept: to-establish-connections
-    term: 'stabilire collegamenti'
-    translation: 'to establish connections'
+    term: stabilire collegamenti
+    translation: to establish connections
     partOfSpeech: phrase
     gender: n/a
-    example: 'Il modo in cui ha stabilito collegamenti tra i vari temi era notevole.'
-    exampleTranslation: 'The way he established connections between the various topics was remarkable.'
+    example: Il modo in cui ha stabilito collegamenti tra i vari temi era notevole.
+    exampleTranslation: The way he established connections between the various topics was remarkable.
   - id: it-IT-C1-ARGUE-001-005
     concept: to-present-an-overview
-    term: 'presentare un quadro generale'
-    translation: 'to present an overview'
+    term: presentare un quadro generale
+    translation: to present an overview
     partOfSpeech: phrase
     gender: n/a
-    example: "All'inizio ha presentato un quadro generale del problema."
-    exampleTranslation: 'At the start, he presented an overview of the problem.'
+    example: All'inizio ha presentato un quadro generale del problema.
+    exampleTranslation: At the start, he presented an overview of the problem.
   - id: it-IT-C1-ARGUE-001-006
     concept: to-give-depth
-    term: 'dare profondità'
-    translation: 'to give depth'
+    term: dare profondità
+    translation: to give depth
     partOfSpeech: phrase
     gender: n/a
-    example: "Gli esempi storici hanno dato profondità all'esposizione."
-    exampleTranslation: 'The historical examples gave depth to the presentation.'
+    example: Gli esempi storici hanno dato profondità all'esposizione.
+    exampleTranslation: The historical examples gave depth to the presentation.

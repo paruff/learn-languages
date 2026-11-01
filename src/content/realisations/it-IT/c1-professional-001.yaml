@@ -3,49 +3,49 @@ lang: it-IT
 vocabulary:
   - id: it-IT-C1-PROFESSIONAL-001-001
     concept: proposal-for-discussion
-    term: 'proposta di discussione'
-    translation: 'proposal for discussion'
+    term: proposta di discussione
+    translation: proposal for discussion
     partOfSpeech: noun
     gender: feminine
-    example: 'La proposta di discussione affronta le obiezioni del comitato.'
-    exampleTranslation: 'The proposal for discussion earned careful analysis.'
+    example: La proposta di discussione affronta le obiezioni del comitato.
+    exampleTranslation: The proposal for discussion addresses the committee's objections.
   - id: it-IT-C1-PROFESSIONAL-001-002
     concept: objection-of-the-partners
-    term: 'obiezione dei soci'
-    translation: 'objection of the partners'
+    term: obiezione dei soci
+    translation: objection of the partners
     partOfSpeech: noun
     gender: feminine
-    example: "L'obiezione dei soci ha costretto a fare un passo indietro sul calendario."
-    exampleTranslation: 'The objection of the partners forced a step back on the timetable.'
+    example: L'obiezione dei soci ha costretto a fare un passo indietro sul calendario.
+    exampleTranslation: The objection of the partners forced a step back on the timetable.
   - id: it-IT-C1-PROFESSIONAL-001-003
     concept: to-set-the-record-straight
-    term: 'chiarire la situazione'
-    translation: 'to set the record straight'
+    term: chiarire la situazione
+    translation: to set the record straight
     partOfSpeech: phrase
     gender: n/a
-    example: 'In riunione ha chiarito la situazione sulle scadenze.'
-    exampleTranslation: 'At the meeting, he set the record straight about the deadlines.'
+    example: In riunione ha chiarito la situazione sulle scadenze.
+    exampleTranslation: At the meeting, he set the record straight about the deadlines.
   - id: it-IT-C1-PROFESSIONAL-001-004
     concept: room-for-manoeuvre
-    term: 'margine di manovra'
-    translation: 'room for manoeuvre'
+    term: margine di manovra
+    translation: room for manoeuvre
     partOfSpeech: noun
     gender: masculine
-    example: 'Il bilancio lascia poco margine di manovra per gli imprevisti.'
-    exampleTranslation: 'The budget leaves little room for manoeuvre for surprises.'
+    example: Il bilancio lascia poco margine di manovra per gli imprevisti.
+    exampleTranslation: The budget leaves little room for manoeuvre for surprises.
   - id: it-IT-C1-PROFESSIONAL-001-005
     concept: workable-consensus
-    term: 'consenso praticabile'
-    translation: 'workable consensus'
+    term: consenso praticabile
+    translation: workable consensus
     partOfSpeech: noun
     gender: masculine
-    example: 'I mediatori hanno cercato il consenso praticabile tra le parti.'
-    exampleTranslation: 'The mediators sought the workable consensus between the parties.'
+    example: I mediatori hanno cercato il consenso praticabile tra le parti.
+    exampleTranslation: The mediators sought the workable consensus between the parties.
   - id: it-IT-C1-PROFESSIONAL-001-006
     concept: tone-of-mutual-understanding
-    term: 'tono di reciproca comprensione'
-    translation: 'tone of mutual understanding'
+    term: tono di reciproca comprensione
+    translation: tone of mutual understanding
     partOfSpeech: noun
     gender: masculine
-    example: 'Il tono di reciproca comprensione in riunione ha evitato i conflitti previsti.'
-    exampleTranslation: 'The tone of mutual understanding at the meeting averted anticipated conflicts.'
+    example: Il tono di reciproca comprensione in riunione ha evitato i conflitti previsti.
+    exampleTranslation: The tone of mutual understanding at the meeting averted anticipated conflicts.

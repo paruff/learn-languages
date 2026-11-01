@@ -3,49 +3,49 @@ lang: it-IT
 vocabulary:
   - id: it-IT-C1-WRITTEN-001-001
     concept: to-adapt-the-register-to-the-reader
-    term: 'adattare il registro al lettore'
-    translation: 'to adapt the register to the reader'
+    term: adattare il registro al lettore
+    translation: to adapt the register to the reader
     partOfSpeech: phrase
     gender: n/a
-    example: 'Bisogna adattare il registro al lettore, non solo al tema.'
-    exampleTranslation: 'The columnist knows how to adapt the register to the newspaper reader.'
+    example: Bisogna adattare il registro al lettore, non solo al tema.
+    exampleTranslation: One must adapt the register to the reader, not only to the topic.
   - id: it-IT-C1-WRITTEN-001-002
     concept: opinion-piece
-    term: 'articolo di opinione'
-    translation: 'opinion piece'
+    term: articolo di opinione
+    translation: opinion piece
     partOfSpeech: noun
     gender: masculine
-    example: "L'articolo di opinione ha provocato una reazione immediata dei lettori."
-    exampleTranslation: 'The opinion piece prompted an immediate response from readers.'
+    example: L'articolo di opinione ha provocato una reazione immediata dei lettori.
+    exampleTranslation: The opinion piece prompted an immediate response from readers.
   - id: it-IT-C1-WRITTEN-001-003
     concept: argumentative-coherence
-    term: 'coerenza argomentativa'
-    translation: 'argumentative coherence'
+    term: coerenza argomentativa
+    translation: argumentative coherence
     partOfSpeech: noun
     gender: feminine
-    example: 'La coerenza argomentativa del saggio è notevole.'
-    exampleTranslation: 'The argumentative coherence of the essay is remarkable.'
+    example: La coerenza argomentativa del saggio è notevole.
+    exampleTranslation: The argumentative coherence of the essay is remarkable.
   - id: it-IT-C1-WRITTEN-001-004
     concept: to-dismantle-an-argument
-    term: 'smontare un argomento'
-    translation: 'to dismantle an argument'
+    term: smontare un argomento
+    translation: to dismantle an argument
     partOfSpeech: phrase
     gender: n/a
-    example: "Nel terzo paragrafo smonta l'argomento dell'efficienza economica."
-    exampleTranslation: 'In the third paragraph, he dismantles the argument of economic efficiency.'
+    example: Nel terzo paragrafo smonta l'argomento dell'efficienza economica.
+    exampleTranslation: In the third paragraph, he dismantles the argument of economic efficiency.
   - id: it-IT-C1-WRITTEN-001-005
     concept: critical-eye
-    term: 'sguardo critico'
-    translation: 'critical eye'
+    term: sguardo critico
+    translation: critical eye
     partOfSpeech: noun
     gender: masculine
-    example: 'Il testo offre uno sguardo critico sulla politica urbana.'
-    exampleTranslation: 'The text offers a critical eye on urban policy.'
+    example: Il testo offre uno sguardo critico sulla politica urbana.
+    exampleTranslation: The text offers a critical eye on urban policy.
   - id: it-IT-C1-WRITTEN-001-006
     concept: personal-signature
-    term: 'firma personale'
-    translation: 'personal signature'
+    term: firma personale
+    translation: personal signature
     partOfSpeech: noun
     gender: feminine
-    example: "La prosa porta la firma personale dell'autore."
-    exampleTranslation: "The prose bears the author's personal signature."
+    example: La prosa porta la firma personale dell'autore.
+    exampleTranslation: The prose bears the author's personal signature.

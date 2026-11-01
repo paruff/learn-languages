@@ -3,49 +3,49 @@ lang: it-IT
 vocabulary:
   - id: it-IT-C1-TEXT-003-001
     concept: to-grasp-the-beauty-of-the-text
-    term: 'cogliere la bellezza del testo'
-    translation: 'to grasp the beauty of the text'
+    term: cogliere la bellezza del testo
+    translation: to grasp the beauty of the text
     partOfSpeech: phrase
     gender: n/a
-    example: 'Cogliere la bellezza del testo richiede tempo e riletture.'
-    exampleTranslation: 'The patient reader grasps the beauty of the text in the cadence of the sentences.'
+    example: Cogliere la bellezza del testo richiede tempo e riletture.
+    exampleTranslation: Grasping the beauty of the text takes time and re-readings.
   - id: it-IT-C1-TEXT-003-002
     concept: cultural-allusions
-    term: 'allusioni culturali'
-    translation: 'cultural allusions'
+    term: allusioni culturali
+    translation: cultural allusions
     partOfSpeech: noun
     gender: feminine
-    example: 'La prosa vivace è cosparsa di allusioni culturali che sfuggono al turista.'
-    exampleTranslation: 'The lively prose is peppered with cultural allusions that escape the tourist.'
+    example: La prosa vivace è cosparsa di allusioni culturali che sfuggono al turista.
+    exampleTranslation: The lively prose is peppered with cultural allusions that escape the tourist.
   - id: it-IT-C1-TEXT-003-003
     concept: to-go-beyond-the-literal-meaning
-    term: 'andare oltre il senso letterale'
-    translation: 'to go beyond the literal meaning'
+    term: andare oltre il senso letterale
+    translation: to go beyond the literal meaning
     partOfSpeech: phrase
     gender: n/a
-    example: 'Bisogna andare oltre il senso letterale per assaporare la metafora.'
-    exampleTranslation: 'One should go beyond the literal meaning to savour the metaphor.'
+    example: Bisogna andare oltre il senso letterale per assaporare la metafora.
+    exampleTranslation: One should go beyond the literal meaning to savour the metaphor.
   - id: it-IT-C1-TEXT-003-004
     concept: figurative-language
-    term: 'linguaggio figurato'
-    translation: 'figurative language'
+    term: linguaggio figurato
+    translation: figurative language
     partOfSpeech: noun
     gender: masculine
-    example: 'Il linguaggio figurato arricchisce la poesia senza renderla ermetica.'
-    exampleTranslation: 'Figurative language enriches the poem without making it hermetic.'
+    example: Il linguaggio figurato arricchisce la poesia senza renderla ermetica.
+    exampleTranslation: Figurative language enriches the poem without making it hermetic.
   - id: it-IT-C1-TEXT-003-005
     concept: aesthetic-stance
-    term: 'posizione estetica'
-    translation: 'aesthetic stance'
+    term: posizione estetica
+    translation: aesthetic stance
     partOfSpeech: noun
     gender: feminine
-    example: "La posizione estetica dell'autore divide la critica."
-    exampleTranslation: "The author's aesthetic stance divides the critics."
+    example: La posizione estetica dell'autore divide la critica.
+    exampleTranslation: The author's aesthetic stance divides the critics.
   - id: it-IT-C1-TEXT-003-006
     concept: lusophone-flavour
-    term: 'sapore lusofono'
-    translation: 'Lusophone flavour'
+    term: sapore lusofono
+    translation: Lusophone flavour
     partOfSpeech: noun
     gender: masculine
-    example: 'Il romanzo ha un inconfondibile sapore lusofono.'
-    exampleTranslation: 'The novel has an unmistakable Lusophone flavour.'
+    example: Il romanzo ha un inconfondibile sapore lusofono.
+    exampleTranslation: The novel has an unmistakable Lusophone flavour.

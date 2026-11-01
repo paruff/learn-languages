@@ -3,49 +3,49 @@ lang: it-IT
 vocabulary:
   - id: it-IT-C1-ACADEMIC-001-001
     concept: academic-dissertation
-    term: 'dissertazione accademica'
-    translation: 'academic dissertation'
+    term: dissertazione accademica
+    translation: academic dissertation
     partOfSpeech: noun
     gender: feminine
-    example: 'La dissertazione accademica intreccia teoria e dati empirici.'
-    exampleTranslation: 'The academic dissertation articulates theory and empirical data.'
+    example: La dissertazione accademica intreccia teoria e dati empirici.
+    exampleTranslation: The academic dissertation interweaves theory and empirical data.
   - id: it-IT-C1-ACADEMIC-001-002
     concept: body-of-sources
-    term: 'corpus di fonti'
-    translation: 'body of sources'
+    term: corpus di fonti
+    translation: body of sources
     partOfSpeech: noun
     gender: masculine
-    example: 'Il corpus di fonti consultate è ampio e attendibile.'
-    exampleTranslation: 'The body of sources consulted is broad and credible.'
+    example: Il corpus di fonti consultate è ampio e attendibile.
+    exampleTranslation: The body of sources consulted is broad and credible.
   - id: it-IT-C1-ACADEMIC-001-003
     concept: theoretical-framework
-    term: 'quadro teorico'
-    translation: 'theoretical framework'
+    term: quadro teorico
+    translation: theoretical framework
     partOfSpeech: noun
     gender: masculine
-    example: "Il quadro teorico sostiene tutta l'analisi successiva."
-    exampleTranslation: 'The theoretical framework underpins all subsequent analysis.'
+    example: Il quadro teorico sostiene tutta l'analisi successiva.
+    exampleTranslation: The theoretical framework underpins all subsequent analysis.
   - id: it-IT-C1-ACADEMIC-001-004
     concept: to-gather-evidence
-    term: 'raccogliere prove'
-    translation: 'to gather evidence'
+    term: raccogliere prove
+    translation: to gather evidence
     partOfSpeech: phrase
     gender: n/a
-    example: "Il secondo capitolo raccoglie prove decisive a favore dell'ipotesi."
-    exampleTranslation: 'Chapter two gathers decisive evidence for the hypothesis.'
+    example: Il secondo capitolo raccoglie prove decisive a favore dell'ipotesi.
+    exampleTranslation: Chapter two gathers decisive evidence for the hypothesis.
   - id: it-IT-C1-ACADEMIC-001-005
     concept: to-synthesise-the-findings
-    term: 'sintetizzare i risultati'
-    translation: 'to synthesise the findings'
+    term: sintetizzare i risultati
+    translation: to synthesise the findings
     partOfSpeech: phrase
     gender: n/a
-    example: 'La conclusione sintetizza i risultati degli autori studiati.'
-    exampleTranslation: 'The conclusion synthesises the findings of the authors studied.'
+    example: La conclusione sintetizza i risultati degli autori studiati.
+    exampleTranslation: The conclusion synthesises the findings of the authors studied.
   - id: it-IT-C1-ACADEMIC-001-006
     concept: original-contribution
-    term: 'contributo originale'
-    translation: 'original contribution'
+    term: contributo originale
+    translation: original contribution
     partOfSpeech: noun
     gender: masculine
-    example: 'Il contributo originale del lavoro sta nel confronto inedito.'
-    exampleTranslation: 'The original contribution of the work lies in the unprecedented comparison.'
+    example: Il contributo originale del lavoro sta nel confronto inedito.
+    exampleTranslation: The original contribution of the work lies in the unprecedented comparison.
