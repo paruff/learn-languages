@@ -66,7 +66,7 @@ Owner decision 2026-10-22: Italian (row 3.1) continues now as an exception to ru
 
 | #   | Work                                                            | Spec   | Issue      | Exit criterion                                 |
 | --- | --------------------------------------------------------------- | ------ | ---------- | ---------------------------------------------- |
-| 3.1 | Italian content A1–C2 — **done, pending merge**                 | C4, C5 | #160, #166 | `docs/it-cefr-mapping.md` verified per level   |
+| 3.1 | Italian content A1–C2 — **owner exception**                     | C4, C5 | #160, #166 | `docs/it-cefr-mapping.md` verified per level   |
 | 3.2 | False-friend and cognate notes for non-English source pairs     | L14    | #147       | Notes shown on a non-English-source pair (E2E) |
 | 3.3 | Calibration split for image vs non-image cards                  | L5     | #146       | Progress shows both rates; needs S6 data       |
 | 3.4 | Graded reading built from studied words (meaning-focused input) | L29    | #251       | One A1 pt-PT text with a coverage check        |

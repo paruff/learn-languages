@@ -1,12 +1,12 @@
 # Italian (it-IT) CEFR Mapping — A1–C2 Inventory
 
-Tracks the CEFR A1–C2 Can-Do inventory for **en-GB↔it-IT** against the shared repository node set and paired `realisations` content. This epic reuses the existing language-agnostic B1, B2 and C1 node inventories rather than creating a duplicate Italian-only schema.
+Tracks the CEFR A1–C2 Can-Do inventory for **en-GB↔it-IT** against the shared repository node set and paired `realisations` content. This epic reuses the existing language-agnostic node inventories (A1–C2) rather than creating a duplicate Italian-only schema.
 
 ## Source verification
 
 This mapping follows the same evidence rule used elsewhere in the repo: the CEFR inventory is not assumed by language; it is checked against a publicly available institutional descriptor source and then mapped onto the shared node set. For the Italian A1–B2 slices, the repository reuses the language-agnostic CEFR nodes already used across the other verified language pairs.
 
-**Source basis:** Council of Europe CEFR descriptors for A1, A2, B1 and B2, validated against the repository's shared `cefr-nodes/` inventory and the same source model already used for the existing verified pair docs (pt-PT, es-ES, de-DE, fr-FR).
+**Source basis:** Council of Europe CEFR descriptors for A1–C2 (the C2 nodes cite the Companion Volume), validated against the repository's shared `cefr-nodes/` inventory and the same source model already used for the existing verified pair docs (pt-PT, es-ES, de-DE, fr-FR).
 
 ## A1 coverage table
 
@@ -43,28 +43,38 @@ A1 coverage: 24/24 nodes fully realised (100%). All A1 node IDs now have paired 
 
 The A2 inventory is the repo's 30 shared A2 `cefr-nodes/`. All 30 have a paired `en-GB` + `it-IT` realisation.
 
-| nodeId        | Skill              | Can-Do                                               | Status      |
-| ------------- | ------------------ | ---------------------------------------------------- | ----------- |
-| A2-CULT-001   | listening          | Can talk about cultural events and traditions        | ✅ Realised |
-| A2-CULT-002   | spoken_interaction | Can describe simple aspects of different cultures    | ✅ Realised |
-| A2-CULT-003   | spoken_production  | Can express opinions about cultural topics           | ✅ Realised |
-| A2-HABIT-001  | spoken_production  | Can describe recent changes in habits                | ✅ Realised |
-| A2-HABIT-002  | listening          | Can talk about recent activities                     | ✅ Realised |
-| A2-HABIT-003  | reading            | Can understand simple news items about recent events | ✅ Realised |
-| A2-HEALTH-001 | spoken_interaction | Can describe symptoms and understand medical advice  | ✅ Realised |
-| A2-JOB-001    | spoken_production  | Can describe my job and working hours                | ✅ Realised |
-| A2-JOB-002    | spoken_production  | Can talk about daily work routines                   | ✅ Realised |
-| A2-JOB-003    | reading            | Can understand simple job advertisements             | ✅ Realised |
-| A2-NEWS-001   | reading            | Can understand simple news articles                  | ✅ Realised |
-| A2-NEWS-002   | spoken_production  | Can describe events reported in the media            | ✅ Realised |
-| A2-NEWS-003   | spoken_production  | Can express basic opinions about news items          | ✅ Realised |
-| A2-PAST-001   | spoken_production  | Can describe past events and experiences             | ✅ Realised |
-| A2-PAST-002   | spoken_production  | Can talk about changes over time                     | ✅ Realised |
-| A2-PAST-003   | listening          | Can understand simple narratives about the past      | ✅ Realised |
-| A2-PAST-004   | writing            | Can compare past and present situations              | ✅ Realised |
-| A2-STUDY-001  | spoken_production  | Can describe my studies and qualifications           | ✅ Realised |
-| A2-STUDY-002  | spoken_interaction | Can talk about my educational background             | ✅ Realised |
-| A2-STUDY-003  | reading            | Can understand simple academic texts                 | ✅ Realised |
+| nodeId          | Skill              | Can-Do                                                                                | Status      |
+| --------------- | ------------------ | ------------------------------------------------------------------------------------- | ----------- |
+| A2-CULT-001     | listening          | Can talk about cultural events and traditions                                         | ✅ Realised |
+| A2-CULT-002     | spoken_interaction | Can describe simple aspects of different cultures                                     | ✅ Realised |
+| A2-CULT-003     | spoken_production  | Can express opinions about cultural topics                                            | ✅ Realised |
+| A2-HABIT-001    | spoken_production  | Can describe recent changes in habits                                                 | ✅ Realised |
+| A2-HABIT-002    | listening          | Can talk about recent activities                                                      | ✅ Realised |
+| A2-HABIT-003    | reading            | Can understand simple news items about recent events                                  | ✅ Realised |
+| A2-HEALTH-001   | spoken_interaction | Can describe symptoms and understand medical advice                                   | ✅ Realised |
+| A2-JOB-001      | spoken_production  | Can describe my job and working hours                                                 | ✅ Realised |
+| A2-JOB-002      | spoken_production  | Can talk about daily work routines                                                    | ✅ Realised |
+| A2-JOB-003      | reading            | Can understand simple job advertisements                                              | ✅ Realised |
+| A2-NEWS-001     | reading            | Can understand simple news articles                                                   | ✅ Realised |
+| A2-NEWS-002     | spoken_production  | Can describe events reported in the media                                             | ✅ Realised |
+| A2-NEWS-003     | spoken_production  | Can express basic opinions about news items                                           | ✅ Realised |
+| A2-PAST-001     | spoken_production  | Can describe past events and experiences                                              | ✅ Realised |
+| A2-PAST-002     | spoken_production  | Can talk about changes over time                                                      | ✅ Realised |
+| A2-PAST-003     | listening          | Can understand simple narratives about the past                                       | ✅ Realised |
+| A2-PAST-004     | writing            | Can compare past and present situations                                               | ✅ Realised |
+| A2-STUDY-001    | spoken_production  | Can describe my studies and qualifications                                            | ✅ Realised |
+| A2-STUDY-002    | spoken_interaction | Can talk about my educational background                                              | ✅ Realised |
+| A2-STUDY-003    | reading            | Can understand simple academic texts                                                  | ✅ Realised |
+| A2-DESCRIBE-001 | spoken_production  | Can describe their family, living conditions and everyday belongings in simple terms  | ✅ Realised |
+| A2-LETTER-001   | reading            | Can understand simple personal letters and standard messages                          | ✅ Realised |
+| A2-LOC-001      | listening          | Can follow simple spoken directions and short public announcements                    | ✅ Realised |
+| A2-MEDIA-001    | listening          | Can understand the main point of short radio and television items on familiar topics  | ✅ Realised |
+| A2-OPIN-001     | spoken_production  | Can explain why they like or dislike something                                        | ✅ Realised |
+| A2-PLANS-001    | spoken_interaction | Can discuss everyday plans and express agreement or disagreement                      | ✅ Realised |
+| A2-SHOP-001     | spoken_interaction | Can buy goods and services and handle simple everyday transactions                    | ✅ Realised |
+| A2-SIGN-001     | reading            | Can find everyday information in signs, timetables and simple written instructions    | ✅ Realised |
+| A2-SOCIAL-001   | spoken_interaction | Can manage everyday social contact and exchange simple information on familiar topics | ✅ Realised |
+| A2-WRITE-001    | writing            | Can write simple connected texts about everyday topics using basic connectors         | ✅ Realised |
 
 A2 coverage: 30/30 nodes realised (100%).
 
@@ -177,28 +187,28 @@ The 20 C2 `cefr-nodes/` are the language-agnostic CEFR C2 Can-Do statements (Cou
 
 > **Review status:** the C2 items were drafted by AI and have not been checked item by item by an Italian speaker.
 
-| nodeId    | Skill              | Can-Do                                                                                                                                                                                           | Status      |
-| --------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
-| undefined | writing            | Can express him/herself clearly and fluently on complex subjects, presenting a well-structured, coherent and convincing text with effective use of a wide range of language                      | ✅ Realised |
-| undefined | spoken_production  | Can present clear, detailed and accurate descriptions of complex subjects, integrating sub-themes and developing particular points, rounding off with an appropriate conclusion                  | ✅ Realised |
-| undefined | writing            | Can select an appropriate formulation from a broad range of language to express him/herself clearly and with precision, differentiating finer shades of meaning                                  | ✅ Realised |
-| undefined | spoken_interaction | Can take an active part in discussion in all its registers, contributing, developing and steering his/her own and others' points of view, and construct a chain of reasoned argument effectively | ✅ Realised |
-| undefined | reading            | Can read and appreciate a wide variety of complex literary texts and non-fiction, including contemporary prose, poetry, song lyrics, and opinion pieces                                          | ✅ Realised |
-| undefined | writing            | Can write with precision and subtlety to convey an intended effect on the reader, using appropriate register, and adapting his/her style to the text and audience                                | ✅ Realised |
-| undefined | spoken_interaction | Can act as an effective intermediary between native speakers, simplifying the message appropriately and intervening skilfully to resolve misunderstandings or disagreements                      | ✅ Realised |
-| undefined | reading            | Can understand all forms of written language including abstract, technically or linguistically complex factual and literary texts, grasping finer points of style and implicit meaning           | ✅ Realised |
-| undefined | spoken_interaction | Can express him/herself spontaneously, very fluently and precisely, differentiating finer shades of meaning even in the most complex situations                                                  | ✅ Realised |
-| undefined | spoken_production  | Can present a clear, smoothly-flowing accurate description or argument in an appropriate style on a complex subject, givingDue prominence to each significant point                              | ✅ Realised |
-| undefined | listening          | Can understand any kind of spoken language, whether live or broadcast, even when delivered at fast native speed, provided they have some time to get familiar with the accent                    | ✅ Realised |
-| undefined | reading            | Can understand with ease virtually everything heard or read, summarising information from different spoken and written sources, reconstructing arguments and accounts in a coherent presentation | ✅ Realised |
-| undefined | writing            | Can write clear, smoothly-flowing text in an appropriate style on a complex subject, writing an introduction, developing and supporting a central point, and producing a fitting conclusion      | ✅ Realised |
-| undefined | spoken_interaction | Can express him/herself clearly and precisely, differentiating finer shades of meaning on a wide range of subjects, employing an appropriate lexical repertoire                                  | ✅ Realised |
-| undefined | writing            | Can write an excellent, well-structured summary of complex factual material and reports, selecting the most important points and presenting them clearly, using appropriate format and style     | ✅ Realised |
-| undefined | spoken_interaction | Can express him/herself fluently, spontaneously and precisely, with near-native command of vocabulary and syntax, using language flexibly for social, academic and professional purposes         | ✅ Realised |
-| undefined | spoken_interaction | Can interact with native speakers with a degree of fluency, spontaneity, confidence and precision that enables effective communication, making clear his/her position in complex discussions     | ✅ Realised |
-| undefined | writing            | Can summarise, concisely, information and different arguments from extended spoken and written sources, reconstructing the arguments and accounts in a coherent presentation                     | ✅ Realised |
-| undefined | writing            | Can write clear, detailed and well-structured texts, developing and supporting arguments and hypotheses, constructing a chain of reasoned argument in appropriate format and style               | ✅ Realised |
-| undefined | writing            | Can write with precision and subtlety, conveying an intended effect on the reader, using appropriate register and style, and adapting his/her style to the text and audience                     | ✅ Realised |
+| nodeId              | Skill              | Can-Do                                                                                                                                                                                           | Status      |
+| ------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| C2-ACADEMIC-001     | writing            | Can express him/herself clearly and fluently on complex subjects, presenting a well-structured, coherent and convincing text with effective use of a wide range of language                      | ✅ Realised |
+| C2-ACADEMIC-002     | spoken_production  | Can present clear, detailed and accurate descriptions of complex subjects, integrating sub-themes and developing particular points, rounding off with an appropriate conclusion                  | ✅ Realised |
+| C2-ARGUE-001        | writing            | Can select an appropriate formulation from a broad range of language to express him/herself clearly and with precision, differentiating finer shades of meaning                                  | ✅ Realised |
+| C2-ARGUE-002        | spoken_interaction | Can take an active part in discussion in all its registers, contributing, developing and steering his/her own and others' points of view, and construct a chain of reasoned argument effectively | ✅ Realised |
+| C2-LITERARY-001     | reading            | Can read and appreciate a wide variety of complex literary texts and non-fiction, including contemporary prose, poetry, song lyrics, and opinion pieces                                          | ✅ Realised |
+| C2-LITERARY-002     | writing            | Can write with precision and subtlety to convey an intended effect on the reader, using appropriate register, and adapting his/her style to the text and audience                                | ✅ Realised |
+| C2-MEDIATION-001    | spoken_interaction | Can act as an effective intermediary between native speakers, simplifying the message appropriately and intervening skilfully to resolve misunderstandings or disagreements                      | ✅ Realised |
+| C2-MEDIATION-002    | reading            | Can understand all forms of written language including abstract, technically or linguistically complex factual and literary texts, grasping finer points of style and implicit meaning           | ✅ Realised |
+| C2-MODALITY-001     | spoken_interaction | Can express him/herself spontaneously, very fluently and precisely, differentiating finer shades of meaning even in the most complex situations                                                  | ✅ Realised |
+| C2-MODALITY-002     | spoken_production  | Can present a clear, smoothly-flowing accurate description or argument in an appropriate style on a complex subject, giving due prominence to each significant point                             | ✅ Realised |
+| C2-MODALITY-003     | listening          | Can understand any kind of spoken language, whether live or broadcast, even when delivered at fast native speed, provided they have some time to get familiar with the accent                    | ✅ Realised |
+| C2-MODALITY-004     | reading            | Can understand with ease virtually everything heard or read, summarising information from different spoken and written sources, reconstructing arguments and accounts in a coherent presentation | ✅ Realised |
+| C2-MODALITY-005     | writing            | Can write clear, smoothly-flowing text in an appropriate style on a complex subject, writing an introduction, developing and supporting a central point, and producing a fitting conclusion      | ✅ Realised |
+| C2-NUANCE-001       | spoken_interaction | Can express him/herself clearly and precisely, differentiating finer shades of meaning on a wide range of subjects, employing an appropriate lexical repertoire                                  | ✅ Realised |
+| C2-PROFESSIONAL-001 | writing            | Can write an excellent, well-structured summary of complex factual material and reports, selecting the most important points and presenting them clearly, using appropriate format and style     | ✅ Realised |
+| C2-PROFESSIONAL-002 | spoken_interaction | Can express him/herself fluently, spontaneously and precisely, with near-native command of vocabulary and syntax, using language flexibly for social, academic and professional purposes         | ✅ Realised |
+| C2-SOCIAL-001       | spoken_interaction | Can interact with native speakers with a degree of fluency, spontaneity, confidence and precision that enables effective communication, making clear his/her position in complex discussions     | ✅ Realised |
+| C2-SUMMARY-001      | writing            | Can summarise, concisely, information and different arguments from extended spoken and written sources, reconstructing the arguments and accounts in a coherent presentation                     | ✅ Realised |
+| C2-WRITTEN-001      | writing            | Can write clear, detailed and well-structured texts, developing and supporting arguments and hypotheses, constructing a chain of reasoned argument in appropriate format and style               | ✅ Realised |
+| C2-WRITTEN-002      | writing            | Can write with precision and subtlety, conveying an intended effect on the reader, using appropriate register and style, and adapting his/her style to the text and audience                     | ✅ Realised |
 
 C2 coverage: 20/20 nodes realised (100%), 6 items per node (#166).
 

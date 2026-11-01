@@ -43,7 +43,7 @@ vocabulary:
     exampleTranslation: 'I watch channel two for the weather.'
   - id: it-IT-A2-MEDIA-001-006
     concept: the-news
-    term: 'il telegiornale'
+    term: telegiornale
     translation: 'the news'
     partOfSpeech: noun
     gender: masculine
