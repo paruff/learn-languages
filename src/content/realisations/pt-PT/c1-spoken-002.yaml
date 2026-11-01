@@ -10,9 +10,9 @@ vocabulary:
     example: 'Basta de rodear o assunto; vamos deitar mãos ao trabalho.'
     exampleTranslation: "Enough beating about the bush; let's get down to business."
   - id: pt-PT-C1-SPOKEN-002-002
-    concept: 'to-be-a-superfluous-addition'
+    concept: 'a-wild-and-uncalled-for-addition'
     term: 'cair que nem ginjas'
-    translation: 'to be a superfluous addition'
+    translation: 'a wild and uncalled-for addition'
     partOfSpeech: phrase
     gender: n/a
     example: 'Aquele comentário caiu que nem ginjas na discussão.'

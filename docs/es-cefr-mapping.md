@@ -192,6 +192,8 @@ B2 Coverage: 18/18 nodes fully realised (100%).
 
 All 25 C1 `cefr-nodes/` are language-agnostic Can-Do statements already modeled for the en-GB/pt-PT pair (see `docs/cefr-mapping.md`). CEFR Can-Do statements describe communicative ability, not any one language, so this epic reused every existing C1 node rather than creating duplicates.
 
+> **Review status (2026-11-01):** 147 C1 items were added to cover the shared concept set. They were drafted by AI and have **not** yet been checked item by item against the PCIC C1 inventory; a Spanish speaker must do that before merge (#185). Idioms in C1-SPOKEN-002 (`ir al grano`, `dar en el clavo`, etc.) and the gloss "a wild and uncalled-for addition" (pt-PT "cair que nem ginjas" actually means "to fit perfectly") need particular attention.
+
 | nodeId              | Skill              | Can-Do                                                                                | Status      |
 | ------------------- | ------------------ | ------------------------------------------------------------------------------------- | ----------- |
 | C1-ACADEMIC-001     | writing            | Can write a dissertation or report of substance with reasoned conclusion              | ✅ Realised |

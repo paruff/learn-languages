@@ -47,6 +47,50 @@ vocabulary:
     partOfSpeech: verb
     example: 'Sopeso cada palabra antes de expresar un desacuerdo.'
     exampleTranslation: 'I weigh up every word before expressing a disagreement.'
+  - id: es-ES-C1-NUANCED-001-007
+    concept: 'delicate-disagreement'
+    term: 'desacuerdo delicado'
+    translation: 'delicate disagreement'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El desacuerdo delicado no dañó la amistad.'
+    exampleTranslation: 'The delicate disagreement did not harm the friendship.'
+  - id: es-ES-C1-NUANCED-001-008
+    concept: 'to-fine-tune-one-s-language'
+    term: 'afinar el lenguaje'
+    translation: "to fine-tune one's language"
+    partOfSpeech: phrase
+    example: 'A medida que la conversación se caldeaba, afinó el lenguaje para no herir.'
+    exampleTranslation: 'As the conversation heated up, he fine-tuned his language so as not to hurt.'
+  - id: es-ES-C1-NUANCED-001-009
+    concept: 'to-tread-carefully'
+    term: 'andarse con cuidado'
+    translation: 'to tread carefully'
+    partOfSpeech: phrase
+    example: 'En los debates familiares conviene andarse con cuidado al tocar el tema.'
+    exampleTranslation: 'In family debates it is wise to tread carefully when touching on the subject.'
+  - id: es-ES-C1-NUANCED-001-010
+    concept: 'sensitive-matter'
+    term: 'asunto delicado'
+    translation: 'sensitive matter'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El asunto delicado exige palabras medidas.'
+    exampleTranslation: 'The sensitive matter calls for measured words.'
+  - id: es-ES-C1-NUANCED-001-011
+    concept: 'pausing-for-thought'
+    term: 'pararse a pensar'
+    translation: 'pausing for thought'
+    partOfSpeech: phrase
+    example: 'Pararse a pensar antes de responder evita malentendidos.'
+    exampleTranslation: 'Pausing for thought before answering avoids misunderstandings.'
+  - id: es-ES-C1-NUANCED-001-012
+    concept: 'to-be-ill-favoured'
+    term: 'quedar mal'
+    translation: 'to be ill-favoured'
+    partOfSpeech: phrase
+    example: 'En una cena formal, una respuesta grosera queda mal.'
+    exampleTranslation: 'At a formal dinner, a rude reply looks bad.'
 grammar:
   - id: es-ES-C1-NUANCED-001-G1
     point: 'Conditional mood for hedged disagreement'

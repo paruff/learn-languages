@@ -48,6 +48,53 @@ vocabulary:
     partOfSpeech: phrase
     example: 'Sé seleccionar el estilo según el contexto.'
     exampleTranslation: 'I know how to select the style according to the context.'
+  - id: es-ES-C1-WRITTEN-002-007
+    concept: 'critical-review'
+    term: 'reseña crítica'
+    translation: 'critical review'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La reseña crítica de la película salió en la edición dominical.'
+    exampleTranslation: 'The critical review of the film appeared in the Sunday edition.'
+  - id: es-ES-C1-WRITTEN-002-008
+    concept: 'reference-works'
+    term: 'obras de referencia'
+    translation: 'reference works'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'El artículo se apoya en obras de referencia imprescindibles.'
+    exampleTranslation: 'The article draws on indispensable reference works.'
+  - id: es-ES-C1-WRITTEN-002-009
+    concept: 'aesthetic-judgement'
+    term: 'juicio estético'
+    translation: 'aesthetic judgement'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El crítico respalda su juicio estético con ejemplos precisos.'
+    exampleTranslation: 'The critic backs his aesthetic judgement with precise examples.'
+  - id: es-ES-C1-WRITTEN-002-010
+    concept: 'to-put-into-perspective'
+    term: 'poner en perspectiva'
+    translation: 'to put into perspective'
+    partOfSpeech: phrase
+    example: 'Conviene poner en perspectiva las críticas del primer ensayo.'
+    exampleTranslation: 'One should put the criticisms of the first essay into perspective.'
+  - id: es-ES-C1-WRITTEN-002-011
+    concept: 'close-reading'
+    term: 'lectura minuciosa'
+    translation: 'close reading'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Su lectura minuciosa de la escena final es admirable.'
+    exampleTranslation: 'His close reading of the final scene is admirable.'
+  - id: es-ES-C1-WRITTEN-002-012
+    concept: 'final-assessment'
+    term: 'balance final'
+    translation: 'final assessment'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El balance final es positivo, con alguna reserva puntual.'
+    exampleTranslation: 'The final assessment is positive, with occasional reservations.'
 grammar:
   - id: es-ES-C1-WRITTEN-002-G1
     point: 'Subjunctive in evaluative relative clauses'

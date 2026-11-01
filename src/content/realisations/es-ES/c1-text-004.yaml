@@ -48,6 +48,53 @@ vocabulary:
     partOfSpeech: verb
     example: 'Sé identificar la línea argumentativa del autor.'
     exampleTranslation: "I know how to identify the author's line of argument."
+  - id: es-ES-C1-TEXT-004-007
+    concept: 'line-of-argumentation'
+    term: 'línea argumental'
+    translation: 'line of argumentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La línea argumental del texto se apoya en datos recientes.'
+    exampleTranslation: 'The line of argumentation of the text rests on recent data.'
+  - id: es-ES-C1-TEXT-004-008
+    concept: 'theses-and-antitheses'
+    term: 'tesis y antítesis'
+    translation: 'theses and antitheses'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'El autor confronta tesis y antítesis antes de concluir.'
+    exampleTranslation: 'The author confronts theses and antitheses before concluding.'
+  - id: es-ES-C1-TEXT-004-009
+    concept: 'circumstantial-evidence'
+    term: 'prueba indiciaria'
+    translation: 'circumstantial evidence'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La prueba indiciaria sugiere la tesis, pero no la demuestra.'
+    exampleTranslation: 'The circumstantial evidence suggests, but does not prove, the thesis.'
+  - id: es-ES-C1-TEXT-004-010
+    concept: 'turning-point'
+    term: 'punto de inflexión'
+    translation: 'turning point'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El punto de inflexión del texto es la refutación de la objeción central.'
+    exampleTranslation: 'The turning point of the text is the refutation of the central objection.'
+  - id: es-ES-C1-TEXT-004-011
+    concept: 'convergence-of-factors'
+    term: 'convergencia de factores'
+    translation: 'convergence of factors'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'El autor muestra la convergencia de factores que explica el fenómeno.'
+    exampleTranslation: 'The author shows the convergence of factors that explains the phenomenon.'
+  - id: es-ES-C1-TEXT-004-012
+    concept: 'to-follow-the-reasoning'
+    term: 'seguir el razonamiento'
+    translation: 'to follow the reasoning'
+    partOfSpeech: phrase
+    example: 'El lector atento sigue el razonamiento del autor párrafo a párrafo.'
+    exampleTranslation: "The attentive reader follows the author's reasoning paragraph by paragraph."
 grammar:
   - id: es-ES-C1-TEXT-004-G1
     point: 'Non-finite clauses for concise argumentative analysis'

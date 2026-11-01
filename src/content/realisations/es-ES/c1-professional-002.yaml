@@ -48,6 +48,54 @@ vocabulary:
     partOfSpeech: verb
     example: 'Destaco los aspectos más relevantes del proyecto.'
     exampleTranslation: 'I highlight the most relevant aspects of the project.'
+  - id: es-ES-C1-PROFESSIONAL-002-007
+    concept: 'detailed-report'
+    term: 'informe pormenorizado'
+    translation: 'detailed report'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El informe pormenorizado recoge todas las cifras del trimestre.'
+    exampleTranslation: 'The detailed report covers all the figures for the quarter.'
+  - id: es-ES-C1-PROFESSIONAL-002-008
+    concept: 'contingency-plan'
+    term: 'plan de contingencia'
+    translation: 'contingency plan'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El plan de contingencia prevé respuestas para escenarios adversos.'
+    exampleTranslation: 'The contingency plan provides responses for adverse scenarios.'
+  - id: es-ES-C1-PROFESSIONAL-002-009
+    concept: 'culminating-point-of-the-analysis'
+    term: 'punto culminante del análisis'
+    translation: 'culminating point of the analysis'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El punto culminante del análisis es la comparación entre los dos mercados.'
+    exampleTranslation: 'The culminating point of the analysis is the comparison between the two markets.'
+  - id: es-ES-C1-PROFESSIONAL-002-010
+    concept: 'concrete-measures'
+    term: 'medidas concretas'
+    translation: 'concrete measures'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'El documento propone medidas concretas para reducir costes.'
+    exampleTranslation: 'The document proposes concrete measures to reduce costs.'
+  - id: es-ES-C1-PROFESSIONAL-002-011
+    concept: 'notice-to-partners'
+    term: 'comunicado a los socios'
+    translation: 'notice to partners'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El comunicado a los socios aclara la nueva política.'
+    exampleTranslation: 'The notice to partners clarifies the new policy.'
+  - id: es-ES-C1-PROFESSIONAL-002-012
+    concept: 'ranking-of-the-risks'
+    term: 'jerarquización de los riesgos'
+    translation: 'ranking of the risks'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La jerarquización de los riesgos orienta la prioridad de inversión.'
+    exampleTranslation: 'The ranking of the risks guides the investment priority.'
 grammar:
   - id: es-ES-C1-PROFESSIONAL-002-G1
     point: 'Passive with "se" in formal professional documents'

@@ -48,6 +48,48 @@ vocabulary:
     gender: masculine
     example: 'El dominio del idioma se refleja en la fluidez.'
     exampleTranslation: 'Language mastery is reflected in fluency.'
+  - id: es-ES-C1-SOCIAL-001-007
+    concept: 'to-express-oneself-fluently'
+    term: 'expresarse con fluidez'
+    translation: 'to express oneself fluently'
+    partOfSpeech: phrase
+    example: 'Se expresa con fluidez en cualquier situación.'
+    exampleTranslation: 'He expresses himself fluently in any situation.'
+  - id: es-ES-C1-SOCIAL-001-008
+    concept: 'without-hesitation'
+    term: 'sin titubear'
+    translation: 'without hesitation'
+    partOfSpeech: phrase
+    example: 'Respondió a las preguntas difíciles sin titubear.'
+    exampleTranslation: 'He answered the difficult questions without hesitation.'
+  - id: es-ES-C1-SOCIAL-001-009
+    concept: 'to-adapt-one-s-discourse'
+    term: 'adaptar el discurso'
+    translation: "to adapt one's discourse"
+    partOfSpeech: phrase
+    example: 'Sabe adaptar el discurso al público que tiene delante.'
+    exampleTranslation: 'He knows how to adapt his discourse to the audience in front of him.'
+  - id: es-ES-C1-SOCIAL-001-010
+    concept: 'to-anticipate-the-reaction'
+    term: 'anticipar la reacción'
+    translation: 'to anticipate the reaction'
+    partOfSpeech: phrase
+    example: 'Sabe anticipar la reacción de sus interlocutores.'
+    exampleTranslation: 'He knows how to anticipate the reaction of his interlocutors.'
+  - id: es-ES-C1-SOCIAL-001-011
+    concept: 'to-maintain-naturalness'
+    term: 'mantener la naturalidad'
+    translation: 'to maintain naturalness'
+    partOfSpeech: phrase
+    example: 'Incluso en situaciones formales, mantiene la naturalidad.'
+    exampleTranslation: 'Even in formal situations, he maintains his naturalness.'
+  - id: es-ES-C1-SOCIAL-001-012
+    concept: 'to-resort-to-strategies'
+    term: 'recurrir a estrategias'
+    translation: 'to resort to strategies'
+    partOfSpeech: phrase
+    example: 'Recurre a estrategias de reformulación para hacerse entender.'
+    exampleTranslation: 'He resorts to reformulation strategies to make himself understood.'
 grammar:
   - id: es-ES-C1-SOCIAL-001-G1
     point: 'Past subjunctive in hypothetical social situations'

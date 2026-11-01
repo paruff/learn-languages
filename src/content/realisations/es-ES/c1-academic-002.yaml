@@ -47,6 +47,43 @@ vocabulary:
     gender: masculine
     example: 'Presento contenido complejo de forma accesible.'
     exampleTranslation: 'I present complex content in an accessible way.'
+  - id: es-ES-C1-ACADEMIC-002-007
+    concept: 'conference-paper'
+    term: 'ponencia'
+    translation: 'conference paper'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La ponencia agotó el tiempo asignado.'
+    exampleTranslation: 'The conference paper used up the time allotted.'
+  - id: es-ES-C1-ACADEMIC-002-008
+    concept: 'to-serve-as-a-foundation-for-the-presentation'
+    term: 'servir de base a la exposición'
+    translation: 'to serve as a foundation for the presentation'
+    partOfSpeech: phrase
+    example: 'Los datos preliminares sirven de base a la exposición final.'
+    exampleTranslation: 'The preliminary data serve as a foundation for the final presentation.'
+  - id: es-ES-C1-ACADEMIC-002-009
+    concept: 'path-of-the-argumentation'
+    term: 'hilo de la argumentación'
+    translation: 'path of the argumentation'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El ponente anunció de antemano el hilo de la argumentación.'
+    exampleTranslation: 'The speaker announced the path of the argumentation in advance.'
+  - id: es-ES-C1-ACADEMIC-002-010
+    concept: 'to-manage-speaking-time'
+    term: 'gestionar el tiempo de palabra'
+    translation: 'to manage speaking time'
+    partOfSpeech: phrase
+    example: 'Es fundamental gestionar el tiempo de palabra para no precipitar la conclusión.'
+    exampleTranslation: 'It is essential to manage speaking time so as not to rush the conclusion.'
+  - id: es-ES-C1-ACADEMIC-002-011
+    concept: 'to-refute-without-aggression'
+    term: 'refutar sin agresividad'
+    translation: 'to refute without aggression'
+    partOfSpeech: phrase
+    example: 'Respondió sabiendo refutar sin agresividad.'
+    exampleTranslation: 'He responded by knowing how to refute without aggression.'
 grammar:
   - id: es-ES-C1-ACADEMIC-002-G1
     point: 'Concessive-subjunctive structures for audience adaptation'

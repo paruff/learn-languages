@@ -49,6 +49,46 @@ vocabulary:
     gender: feminine
     example: 'La coherencia narrativa es esencial en un buen relato.'
     exampleTranslation: 'Narrative coherence is essential in a good story.'
+  - id: es-ES-C1-WRITTEN-003-007
+    concept: 'thread-of-memories'
+    term: 'hilo de recuerdos'
+    translation: 'thread of memories'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El texto sigue el hilo de los recuerdos sin perder el rumbo.'
+    exampleTranslation: 'The text follows the thread of memories without losing its way.'
+  - id: es-ES-C1-WRITTEN-003-008
+    concept: 'childhood-memories'
+    term: 'recuerdos de infancia'
+    translation: 'childhood memories'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Los recuerdos de infancia afloran con una claridad sorprendente.'
+    exampleTranslation: 'The childhood memories emerge with surprising clarity.'
+  - id: es-ES-C1-WRITTEN-003-009
+    concept: 'personal-point-of-view'
+    term: 'punto de vista personal'
+    translation: 'personal point of view'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El punto de vista personal da coherencia a toda la crónica.'
+    exampleTranslation: 'The personal point of view lends coherence to the whole chronicle.'
+  - id: es-ES-C1-WRITTEN-003-010
+    concept: 'honest-caveats'
+    term: 'salvedades honestas'
+    translation: 'honest caveats'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Las salvedades honestas dan credibilidad al relato.'
+    exampleTranslation: 'The honest caveats lend credibility to the account.'
+  - id: es-ES-C1-WRITTEN-003-011
+    concept: 'a-one-breath-effect'
+    term: 'efecto de un solo aliento'
+    translation: 'a one-breath effect'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El último capítulo tiene un efecto de un solo aliento.'
+    exampleTranslation: 'The final chapter has a one-breath effect.'
 grammar:
   - id: es-ES-C1-WRITTEN-003-G1
     point: 'Mixed conditional for personal reflection in narrative'

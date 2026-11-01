@@ -49,6 +49,45 @@ vocabulary:
     gender: masculine
     example: 'Mi vocabulario técnico cubre varios campos.'
     exampleTranslation: 'My technical vocabulary covers several fields.'
+  - id: es-ES-C1-TEXT-002-007
+    concept: 'technical-specifications'
+    term: 'especificaciones técnicas'
+    translation: 'technical specifications'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Las especificaciones técnicas del equipo ocupan veinte páginas.'
+    exampleTranslation: 'The technical specifications of the equipment run to twenty pages.'
+  - id: es-ES-C1-TEXT-002-008
+    concept: 'assembly-instructions'
+    term: 'instrucciones de montaje'
+    translation: 'assembly instructions'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Las instrucciones de montaje suponen que el lector conoce lo básico.'
+    exampleTranslation: 'The assembly instructions assume the reader knows the basics.'
+  - id: es-ES-C1-TEXT-002-009
+    concept: 'technical-jargon'
+    term: 'jerga técnica'
+    translation: 'technical jargon'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'El texto emplea una jerga técnica que intimida a los no especialistas.'
+    exampleTranslation: 'The text uses technical jargon that intimidates non-specialists.'
+  - id: es-ES-C1-TEXT-002-010
+    concept: 'to-decipher-the-acronyms'
+    term: 'descifrar las siglas'
+    translation: 'to decipher the acronyms'
+    partOfSpeech: phrase
+    example: 'Para entender el informe hay que descifrar las siglas de la primera página.'
+    exampleTranslation: 'To understand the report, one must decipher the acronyms on the first page.'
+  - id: es-ES-C1-TEXT-002-011
+    concept: 'technical-annex'
+    term: 'anexo técnico'
+    translation: 'technical annex'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Los detalles completos están en el anexo técnico.'
+    exampleTranslation: 'The full details are to be found in the technical annex.'
 grammar:
   - id: es-ES-C1-TEXT-002-G1
     point: 'Complex conditional with "si" + pluperfect subjunctive'
