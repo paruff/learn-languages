@@ -1,0 +1,51 @@
+nodeId: A2-PLANS-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A2-PLANS-001-001
+    concept: to-agree
+    term: "essere d'accordo"
+    translation: 'to agree'
+    partOfSpeech: phrase
+    gender: n/a
+    example: "Sono d'accordo con il tuo piano."
+    exampleTranslation: 'I agree with your plan.'
+  - id: it-IT-A2-PLANS-001-002
+    concept: to-disagree
+    term: "non essere d'accordo"
+    translation: 'to disagree'
+    partOfSpeech: phrase
+    gender: n/a
+    example: "Non sono d'accordo con quell'idea."
+    exampleTranslation: 'I disagree with that idea.'
+  - id: it-IT-A2-PLANS-001-003
+    concept: suggestion
+    term: 'suggerimento'
+    translation: 'suggestion'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ho un suggerimento per sabato.'
+    exampleTranslation: 'I have a suggestion for Saturday.'
+  - id: it-IT-A2-PLANS-001-004
+    concept: to-propose
+    term: 'proporre'
+    translation: 'to propose'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Propongo di vederci alle sei.'
+    exampleTranslation: 'I propose meeting at six.'
+  - id: it-IT-A2-PLANS-001-005
+    concept: to-plan
+    term: 'programmare'
+    translation: 'to plan'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Programmiamo di visitare il museo.'
+    exampleTranslation: 'We plan to visit the museum.'
+  - id: it-IT-A2-PLANS-001-006
+    concept: appointment
+    term: 'appuntamento'
+    translation: 'appointment'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ho un appuntamento alle tre.'
+    exampleTranslation: 'I have an appointment at three.'

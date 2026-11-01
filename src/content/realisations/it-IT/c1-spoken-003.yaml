@@ -3,9 +3,49 @@ lang: it-IT
 vocabulary:
   - id: it-IT-C1-SPOKEN-003-001
     concept: to-hit-the-nail-on-the-head
-    term: cogliere nel segno
-    translation: to hit the nail on the head
+    term: 'cogliere nel segno'
+    translation: 'to hit the nail on the head'
     partOfSpeech: phrase
     gender: n/a
-    example: Con quella osservazione ha colto nel segno.
-    exampleTranslation: With that observation, she hit the nail on the head.
+    example: 'Con quella osservazione ha colto nel segno.'
+    exampleTranslation: 'With that question, he hit the nail on the head of the debate.'
+  - id: it-IT-C1-SPOKEN-003-002
+    concept: to-steer-the-discussion-to-a-good-conclusion
+    term: 'condurre la discussione a una buona conclusione'
+    translation: 'to steer the discussion to a good conclusion'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Il moderatore ha condotto la discussione a una buona conclusione senza offendere nessuno.'
+    exampleTranslation: 'The moderator steered the discussion to a good conclusion without hurting anyone.'
+  - id: it-IT-C1-SPOKEN-003-003
+    concept: to-follow-the-thread-of-the-conversation
+    term: 'seguire il filo della conversazione'
+    translation: 'to follow the thread of the conversation'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'È difficile seguire il filo della conversazione quando parlano tutti insieme.'
+    exampleTranslation: 'It is hard to follow the thread of the conversation when everyone speaks at once.'
+  - id: it-IT-C1-SPOKEN-003-004
+    concept: beside-the-point
+    term: 'fuori tema'
+    translation: 'beside the point'
+    partOfSpeech: phrase
+    gender: n/a
+    example: "L'osservazione era fuori tema, ma utile."
+    exampleTranslation: 'The remark was beside the point, but useful.'
+  - id: it-IT-C1-SPOKEN-003-005
+    concept: to-switch-register
+    term: 'cambiare registro'
+    translation: 'to switch register'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ha saputo cambiare registro quando il capo è entrato nella stanza.'
+    exampleTranslation: 'He knew how to switch register when the boss came into the room.'
+  - id: it-IT-C1-SPOKEN-003-006
+    concept: to-keep-the-ball-rolling
+    term: 'tenere viva la conversazione'
+    translation: 'to keep the ball rolling'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Con buone domande ha tenuto viva la conversazione.'
+    exampleTranslation: 'With good questions, he kept the ball rolling in the conversation.'

@@ -3,9 +3,49 @@ lang: it-IT
 vocabulary:
   - id: it-IT-C1-TEXT-001-001
     concept: to-read-between-the-lines
-    term: leggere tra le righe
-    translation: to read between the lines
+    term: 'leggere tra le righe'
+    translation: 'to read between the lines'
     partOfSpeech: phrase
     gender: n/a
-    example: L'editoriale va letto tra le righe per coglierne il tono ironico.
-    exampleTranslation: The editorial must be read between the lines to catch its ironic tone.
+    example: "L'editoriale va letto tra le righe per coglierne il tono ironico."
+    exampleTranslation: 'An attentive reader knows how to read between the lines of editorials.'
+  - id: it-IT-C1-TEXT-001-002
+    concept: to-grasp-the-implicit-meaning
+    term: 'cogliere il significato implicito'
+    translation: 'to grasp the implicit meaning'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Il critico ha colto il significato implicito del romanzo.'
+    exampleTranslation: 'The critic grasped the implicit meaning of the novel.'
+  - id: it-IT-C1-TEXT-001-003
+    concept: to-discern-the-irony
+    term: "scorgere l'ironia"
+    translation: 'to discern the irony'
+    partOfSpeech: phrase
+    gender: n/a
+    example: "Solo un lettore esperto può scorgere l'ironia del testo."
+    exampleTranslation: 'Only an experienced reader can discern the irony of the text.'
+  - id: it-IT-C1-TEXT-001-004
+    concept: long-form-text
+    term: 'testo di ampio respiro'
+    translation: 'long-form text'
+    partOfSpeech: noun
+    gender: masculine
+    example: "Il saggio è un testo di ampio respiro sull'identità europea."
+    exampleTranslation: 'The essay is a long-form text on European identity.'
+  - id: it-IT-C1-TEXT-001-005
+    concept: to-contextualise-the-work
+    term: "contestualizzare l'opera"
+    translation: 'to contextualise the work'
+    partOfSpeech: phrase
+    gender: n/a
+    example: "È opportuno contestualizzare l'opera nell'epoca in cui fu scritta."
+    exampleTranslation: 'It is advisable to contextualise the work within the era in which it was written.'
+  - id: it-IT-C1-TEXT-001-006
+    concept: to-infer-the-point-of-view
+    term: 'dedurre il punto di vista'
+    translation: 'to infer the point of view'
+    partOfSpeech: phrase
+    gender: n/a
+    example: "Il punto di vista dell'autore si può dedurre dalla scelta degli esempi."
+    exampleTranslation: "The author's point of view can be inferred from the choice of examples."

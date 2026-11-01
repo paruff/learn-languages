@@ -3,9 +3,49 @@ lang: it-IT
 vocabulary:
   - id: it-IT-C1-SPOKEN-002-001
     concept: to-get-down-to-business
-    term: andare al sodo
-    translation: to get down to business
+    term: 'andare al sodo'
+    translation: 'to get down to business'
     partOfSpeech: phrase
     gender: n/a
-    example: Dopo i convenevoli, è ora di andare al sodo.
-    exampleTranslation: After the pleasantries, it is time to get down to business.
+    example: 'Dopo i convenevoli, è ora di andare al sodo.'
+    exampleTranslation: "Enough beating about the bush; let's get down to business."
+  - id: it-IT-C1-SPOKEN-002-002
+    concept: a-wild-and-uncalled-for-addition
+    term: 'aggiunta fuori luogo'
+    translation: 'a wild and uncalled-for addition'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "Quel commento è stato un'aggiunta fuori luogo alla discussione."
+    exampleTranslation: 'That comment was a wild and uncalled-for addition to the discussion.'
+  - id: it-IT-C1-SPOKEN-002-003
+    concept: to-have-the-patience-of-a-saint
+    term: 'avere la pazienza di un santo'
+    translation: 'to have the patience of a saint'
+    partOfSpeech: phrase
+    gender: n/a
+    example: "L'insegnante ha la pazienza di un santo con gli alunni più lenti."
+    exampleTranslation: 'The teacher has the patience of a saint with the slower students.'
+  - id: it-IT-C1-SPOKEN-002-004
+    concept: to-know-what-one-is-talking-about
+    term: 'sapere di che cosa si parla'
+    translation: 'to know what one is talking about'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Quando parla di pesca, sa di che cosa parla.'
+    exampleTranslation: 'When he talks about fishing, he knows what he is talking about.'
+  - id: it-IT-C1-SPOKEN-002-005
+    concept: to-dig-into-one-s-memory
+    term: 'frugare nella memoria'
+    translation: "to dig into one's memory"
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ha frugato nella memoria per ritrovare i nomi di tutte le vecchie canzoni.'
+    exampleTranslation: 'He dug into his memory for the names of all the old songs.'
+  - id: it-IT-C1-SPOKEN-002-006
+    concept: in-no-time-at-all
+    term: "in un batter d'occhio"
+    translation: 'in no time at all'
+    partOfSpeech: phrase
+    gender: n/a
+    example: "Ha risolto il problema in un batter d'occhio."
+    exampleTranslation: 'He solved the problem in no time at all.'

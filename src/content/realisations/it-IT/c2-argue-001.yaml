@@ -1,0 +1,51 @@
+nodeId: C2-ARGUE-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-C2-ARGUE-001-001
+    concept: precise-formulation
+    term: 'formulazione precisa'
+    translation: 'precise formulation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Scelgo la formulazione più precisa per ogni idea.'
+    exampleTranslation: 'I select the most precise formulation for each idea.'
+  - id: it-IT-C2-ARGUE-001-002
+    concept: range-of-linguistic-means
+    term: 'gamma di mezzi linguistici'
+    translation: 'range of linguistic means'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Uso una vasta gamma di mezzi linguistici con naturale scioltezza.'
+    exampleTranslation: 'I use a vast range of linguistic means with natural fluency.'
+  - id: it-IT-C2-ARGUE-001-003
+    concept: clear-expression
+    term: 'espressione chiara'
+    translation: 'clear expression'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La mia espressione è sempre chiara e inequivocabile.'
+    exampleTranslation: 'My expression is always clear and unambiguous.'
+  - id: it-IT-C2-ARGUE-001-004
+    concept: lexical-precision
+    term: 'precisione lessicale'
+    translation: 'lexical precision'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La precisione lessicale è uno dei miei maggiori punti di forza.'
+    exampleTranslation: 'Lexical precision is one of my greatest strengths.'
+  - id: it-IT-C2-ARGUE-001-005
+    concept: nuances-of-meaning
+    term: 'sfumature di significato'
+    translation: 'nuances of meaning'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'So rendere tutte le sfumature di significato.'
+    exampleTranslation: 'I can convey all nuances of meaning.'
+  - id: it-IT-C2-ARGUE-001-006
+    concept: unequivocal-expression
+    term: 'espressione inequivocabile'
+    translation: 'unequivocal expression'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La mia espressione è sempre inequivocabile e ben fondata.'
+    exampleTranslation: 'My expression is always unequivocal and well-founded.'

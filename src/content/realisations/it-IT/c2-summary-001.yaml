@@ -1,0 +1,51 @@
+nodeId: C2-SUMMARY-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-C2-SUMMARY-001-001
+    concept: concise-summary
+    term: 'riassunto conciso'
+    translation: 'concise summary'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Faccio un riassunto conciso di informazioni molto estese.'
+    exampleTranslation: 'I make a concise summary of extensive information.'
+  - id: it-IT-C2-SUMMARY-001-002
+    concept: extended-sources
+    term: 'fonti estese'
+    translation: 'extended sources'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Consulto fonti estese per produrre un riassunto fedele.'
+    exampleTranslation: 'I consult extended sources to produce a faithful summary.'
+  - id: it-IT-C2-SUMMARY-001-003
+    concept: diversified-argumentation
+    term: 'argomentazione diversificata'
+    translation: 'diversified argumentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "Ricostruisco in modo coerente un'argomentazione diversificata."
+    exampleTranslation: 'I reconstruct diversified argumentation in a coherent way.'
+  - id: it-IT-C2-SUMMARY-001-004
+    concept: organised-presentation
+    term: 'presentazione organizzata'
+    translation: 'organised presentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La mia presentazione è sempre organizzata e chiara.'
+    exampleTranslation: 'My presentation is always organised and clear.'
+  - id: it-IT-C2-SUMMARY-001-005
+    concept: essential-points
+    term: 'punti essenziali'
+    translation: 'essential points'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Scelgo sempre i punti essenziali di ogni fonte.'
+    exampleTranslation: 'I always select the essential points from each source.'
+  - id: it-IT-C2-SUMMARY-001-006
+    concept: faithful-reconstruction
+    term: 'ricostruzione fedele'
+    translation: 'faithful reconstruction'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Faccio una ricostruzione fedele delle argomentazioni originali.'
+    exampleTranslation: 'I make a faithful reconstruction of the original arguments.'

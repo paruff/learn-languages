@@ -3,9 +3,49 @@ lang: it-IT
 vocabulary:
   - id: it-IT-C1-ARGUE-002-001
     concept: to-refute-an-argument
-    term: confutare un argomento
-    translation: to refute an argument
+    term: 'confutare un argomento'
+    translation: 'to refute an argument'
     partOfSpeech: phrase
     gender: n/a
-    example: Confutare un argomento richiede prove, non solo obiezioni.
-    exampleTranslation: Refuting an argument requires evidence, not just objections.
+    example: 'Confutare un argomento richiede prove, non solo obiezioni.'
+    exampleTranslation: "She refuted her opponent's argument with objective data."
+  - id: it-IT-C1-ARGUE-002-002
+    concept: to-weigh-the-pros-and-cons
+    term: 'valutare i pro e i contro'
+    translation: 'to weigh the pros and cons'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Prima di decidere, ha valutato i pro e i contro di ogni opzione.'
+    exampleTranslation: 'Before deciding, she weighed the pros and cons of each option.'
+  - id: it-IT-C1-ARGUE-002-003
+    concept: to-present-counter-arguments
+    term: 'presentare controargomenti'
+    translation: 'to present counter-arguments'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Non si è limitata a difendere la sua posizione: ha presentato anche controargomenti.'
+    exampleTranslation: 'She did not just defend her position; she also presented counter-arguments.'
+  - id: it-IT-C1-ARGUE-002-004
+    concept: to-give-emphasis-to
+    term: 'dare risalto a'
+    translation: 'to give emphasis to'
+    partOfSpeech: phrase
+    gender: n/a
+    example: "L'oratore ha dato risalto alla necessità di un dialogo aperto."
+    exampleTranslation: 'The speaker gave emphasis to the need for open dialogue.'
+  - id: it-IT-C1-ARGUE-002-005
+    concept: to-draw-conclusions
+    term: 'trarre conclusioni'
+    translation: 'to draw conclusions'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Alla fine ha tratto conclusioni che hanno sorpreso parte del pubblico.'
+    exampleTranslation: 'In the end, she drew conclusions that surprised part of the audience.'
+  - id: it-IT-C1-ARGUE-002-006
+    concept: to-substantiate-one-s-position
+    term: 'sostenere la propria posizione'
+    translation: "to substantiate one's position"
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ha sostenuto la propria posizione con studi recenti.'
+    exampleTranslation: 'She substantiated her position with recent studies.'

@@ -1,0 +1,51 @@
+nodeId: A2-SIGN-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A2-SIGN-001-001
+    concept: sign
+    term: 'cartello'
+    translation: 'sign'
+    partOfSpeech: noun
+    gender: masculine
+    example: "Il cartello dice «Vietato l'ingresso»."
+    exampleTranslation: 'The sign says "No entry".'
+  - id: it-IT-A2-SIGN-001-002
+    concept: timetable
+    term: 'orario'
+    translation: 'timetable'
+    partOfSpeech: noun
+    gender: masculine
+    example: "Controlla l'orario del prossimo treno."
+    exampleTranslation: 'Check the timetable for the next train.'
+  - id: it-IT-A2-SIGN-001-003
+    concept: exit
+    term: 'uscita'
+    translation: 'exit'
+    partOfSpeech: noun
+    gender: feminine
+    example: "L'uscita è sul retro dell'edificio."
+    exampleTranslation: 'The exit is at the back of the building.'
+  - id: it-IT-A2-SIGN-001-004
+    concept: to-follow
+    term: 'seguire'
+    translation: 'to follow'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Segui le istruzioni sullo schermo.'
+    exampleTranslation: 'Follow the instructions on the screen.'
+  - id: it-IT-A2-SIGN-001-005
+    concept: instruction
+    term: 'istruzione'
+    translation: 'instruction'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Leggi ogni istruzione con attenzione.'
+    exampleTranslation: 'Read each instruction carefully.'
+  - id: it-IT-A2-SIGN-001-006
+    concept: open
+    term: 'aperto'
+    translation: 'open'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Il panificio è aperto la domenica mattina.'
+    exampleTranslation: 'The bakery is open on Sunday morning.'

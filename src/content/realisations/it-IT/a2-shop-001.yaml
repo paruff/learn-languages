@@ -1,0 +1,51 @@
+nodeId: A2-SHOP-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A2-SHOP-001-001
+    concept: to-buy
+    term: 'comprare'
+    translation: 'to buy'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Voglio comprare due biglietti.'
+    exampleTranslation: 'I want to buy two tickets.'
+  - id: it-IT-A2-SHOP-001-002
+    concept: price
+    term: 'prezzo'
+    translation: 'price'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Qual è il prezzo di questa giacca?'
+    exampleTranslation: 'What is the price of this jacket?'
+  - id: it-IT-A2-SHOP-001-003
+    concept: ticket
+    term: 'biglietto'
+    translation: 'ticket'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Un biglietto di andata e ritorno, per favore.'
+    exampleTranslation: 'A return ticket, please.'
+  - id: it-IT-A2-SHOP-001-004
+    concept: to-order
+    term: 'ordinare'
+    translation: 'to order'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Vorrei ordinare la zuppa.'
+    exampleTranslation: 'I would like to order the soup.'
+  - id: it-IT-A2-SHOP-001-005
+    concept: receipt
+    term: 'scontrino'
+    translation: 'receipt'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Posso avere lo scontrino, per favore?'
+    exampleTranslation: 'Can I have a receipt, please?'
+  - id: it-IT-A2-SHOP-001-006
+    concept: how-much
+    term: 'quanto'
+    translation: 'how much'
+    partOfSpeech: adverb
+    gender: n/a
+    example: 'Quanto costa?'
+    exampleTranslation: 'How much does it cost?'

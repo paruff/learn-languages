@@ -3,11 +3,49 @@ lang: it-IT
 vocabulary:
   - id: it-IT-C1-SPOKEN-001-001
     concept: detailed-narrative
-    term: racconto dettagliato
-    translation: detailed narrative
+    term: 'racconto dettagliato'
+    translation: 'detailed narrative'
     partOfSpeech: noun
     gender: masculine
-    example: Il suo racconto dettagliato integra episodi secondari e una conclusione
-      efficace.
-    exampleTranslation: His detailed narrative integrates secondary episodes and an
-      effective conclusion.
+    example: 'Il suo racconto dettagliato integra episodi secondari e una conclusione efficace.'
+    exampleTranslation: 'The detailed narrative of the journey delighted the guests.'
+  - id: it-IT-C1-SPOKEN-001-002
+    concept: background
+    term: 'sfondo'
+    translation: 'background'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Lo sfondo del racconto è la crisi economica degli anni Novanta.'
+    exampleTranslation: 'The background of the account is the economic crisis of the nineties.'
+  - id: it-IT-C1-SPOKEN-001-003
+    concept: to-develop-a-sub-theme
+    term: 'sviluppare un sottotema'
+    translation: 'to develop a sub-theme'
+    partOfSpeech: phrase
+    gender: n/a
+    example: "Ha sviluppato un sottotema che nessuno si aspettava e ha catturato l'attenzione di tutti."
+    exampleTranslation: "He developed a sub-theme nobody expected and captured everyone's attention."
+  - id: it-IT-C1-SPOKEN-001-004
+    concept: to-round-off-the-story
+    term: 'chiudere il racconto'
+    translation: 'to round off the story'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ha chiuso il racconto con una riflessione sorprendente.'
+    exampleTranslation: 'He rounded off the story with a surprising reflection.'
+  - id: it-IT-C1-SPOKEN-001-005
+    concept: to-offer-reflections
+    term: 'proporre riflessioni'
+    translation: 'to offer reflections'
+    partOfSpeech: phrase
+    gender: n/a
+    example: "Durante la conversazione ha proposto riflessioni pertinenti sull'argomento."
+    exampleTranslation: 'Throughout the conversation, he offered pertinent reflections on the matter.'
+  - id: it-IT-C1-SPOKEN-001-006
+    concept: vivid-description
+    term: 'descrizione vivida'
+    translation: 'vivid description'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La sua descrizione vivida del mercato locale ci ha fatto sentire lì.'
+    exampleTranslation: 'His vivid description of the local market made us feel we were there.'

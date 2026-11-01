@@ -3,9 +3,49 @@ lang: it-IT
 vocabulary:
   - id: it-IT-C1-LITERARY-001-001
     concept: layers-of-meaning
-    term: livelli di significato
-    translation: layers of meaning
+    term: 'livelli di significato'
+    translation: 'layers of meaning'
     partOfSpeech: noun
     gender: masculine
-    example: Il racconto rivela livelli di significato che sfuggono a una prima lettura.
-    exampleTranslation: The story reveals layers of meaning that escape a first reading.
+    example: 'Il racconto rivela livelli di significato che sfuggono a una prima lettura.'
+    exampleTranslation: 'The poem reveals layers of meaning with every re-reading.'
+  - id: it-IT-C1-LITERARY-001-002
+    concept: extended-metaphor
+    term: 'metafora estesa'
+    translation: 'extended metaphor'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La metafora estesa attraversa tutto il romanzo.'
+    exampleTranslation: 'The extended metaphor runs through the whole novel.'
+  - id: it-IT-C1-LITERARY-001-003
+    concept: cultural-resonance
+    term: 'risonanza culturale'
+    translation: 'cultural resonance'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La risonanza culturale del racconto sfugge ai lettori stranieri.'
+    exampleTranslation: 'The cultural resonance of the tale escapes foreign readers.'
+  - id: it-IT-C1-LITERARY-001-004
+    concept: narrative-voice
+    term: 'voce narrante'
+    translation: 'narrative voice'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La voce narrante prende le distanze dal classico narratore onnisciente.'
+    exampleTranslation: 'The narrative voice distances itself from the classic omniscient narrator.'
+  - id: it-IT-C1-LITERARY-001-005
+    concept: to-weave-the-references-together
+    term: 'intrecciare i riferimenti'
+    translation: 'to weave the references together'
+    partOfSpeech: phrase
+    gender: n/a
+    example: "L'autore intreccia con talento i riferimenti biblici e marinari."
+    exampleTranslation: 'The author weaves the biblical and maritime references together with talent.'
+  - id: it-IT-C1-LITERARY-001-006
+    concept: flavour-of-the-era
+    term: "sapore dell'epoca"
+    translation: 'flavour of the era'
+    partOfSpeech: noun
+    gender: masculine
+    example: "Il romanzo ricrea il sapore dell'epoca con rigore e fantasia."
+    exampleTranslation: 'The novel recreates the flavour of the era with rigour and imagination.'

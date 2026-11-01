@@ -3,9 +3,49 @@ lang: it-IT
 vocabulary:
   - id: it-IT-C1-SOCIAL-002-001
     concept: to-switch-register
-    term: cambiare registro
-    translation: to switch register
+    term: 'cambiare registro'
+    translation: 'to switch register'
     partOfSpeech: phrase
     gender: n/a
-    example: Sa cambiare registro passando da una riunione a una cena tra amici.
-    exampleTranslation: He can switch register moving from a meeting to dinner with friends.
+    example: 'Sa cambiare registro passando da una riunione a una cena tra amici.'
+    exampleTranslation: 'In a formal environment, he switches register with surprising naturalness.'
+  - id: it-IT-C1-SOCIAL-002-002
+    concept: to-address-someone-formally
+    term: 'dare del lei'
+    translation: 'to address someone formally'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Con le persone anziane si usa dare del lei.'
+    exampleTranslation: 'With older people, it is customary to address them formally.'
+  - id: it-IT-C1-SOCIAL-002-003
+    concept: to-address-someone-informally
+    term: 'dare del tu'
+    translation: 'to address someone informally'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'I colleghi si danno del tu fin dal primo giorno.'
+    exampleTranslation: 'Co-workers have addressed each other informally since day one.'
+  - id: it-IT-C1-SOCIAL-002-004
+    concept: to-adjust-the-tone
+    term: 'regolare il tono'
+    translation: 'to adjust the tone'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Sa regolare il tono al contesto sociale in cui si trova.'
+    exampleTranslation: 'She knows how to adjust her tone to the social context she is in.'
+  - id: it-IT-C1-SOCIAL-002-005
+    concept: to-keep-respectful-distance
+    term: 'mantenere una distanza rispettosa'
+    translation: 'to keep respectful distance'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Nelle prime conversazioni è prudente mantenere una distanza rispettosa.'
+    exampleTranslation: 'In first conversations, it is prudent to keep a respectful distance.'
+  - id: it-IT-C1-SOCIAL-002-006
+    concept: to-break-the-ice
+    term: 'rompere il ghiaccio'
+    translation: 'to break the ice'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Per rompere il ghiaccio ha fatto un commento sul tempo.'
+    exampleTranslation: 'To break the ice, she resorted to a comment about the weather.'

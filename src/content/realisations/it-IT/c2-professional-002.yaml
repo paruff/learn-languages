@@ -1,0 +1,51 @@
+nodeId: C2-PROFESSIONAL-002
+lang: it-IT
+vocabulary:
+  - id: it-IT-C2-PROFESSIONAL-002-001
+    concept: spontaneous-fluency
+    term: 'fluidità spontanea'
+    translation: 'spontaneous fluency'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Parlo con fluidità spontanea in qualsiasi contesto.'
+    exampleTranslation: 'I speak with spontaneous fluency in any context.'
+  - id: it-IT-C2-PROFESSIONAL-002-002
+    concept: native-vocabulary
+    term: 'vocabolario da madrelingua'
+    translation: 'native vocabulary'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Il mio vocabolario è vasto e naturale come quello di un madrelingua.'
+    exampleTranslation: 'My vocabulary is vast and natural like that of a native speaker.'
+  - id: it-IT-C2-PROFESSIONAL-002-003
+    concept: total-precision
+    term: 'precisione totale'
+    translation: 'total precision'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Raggiungo sempre una precisione totale nelle mie espressioni.'
+    exampleTranslation: 'I always achieve total precision in my expressions.'
+  - id: it-IT-C2-PROFESSIONAL-002-004
+    concept: communicative-flexibility
+    term: 'flessibilità comunicativa'
+    translation: 'communicative flexibility'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Ho flessibilità comunicativa in registri diversi.'
+    exampleTranslation: 'I have communicative flexibility in diverse registers.'
+  - id: it-IT-C2-PROFESSIONAL-002-005
+    concept: natural-use-of-language
+    term: 'uso naturale della lingua'
+    translation: 'natural use of language'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Il mio uso della lingua è sempre naturale e appropriato.'
+    exampleTranslation: 'My use of language is always natural and appropriate.'
+  - id: it-IT-C2-PROFESSIONAL-002-006
+    concept: communicative-confidence
+    term: 'sicurezza comunicativa'
+    translation: 'communicative confidence'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Ho sicurezza comunicativa in qualsiasi situazione.'
+    exampleTranslation: 'I have communicative confidence in any situation.'

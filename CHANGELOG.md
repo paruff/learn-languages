@@ -5,6 +5,10 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · Versioning: 
 
 ## [Unreleased]
 
+### Added
+
+- Italian (it-IT) content now reaches A1–C2 parity with the shared concept set: the 10 missing A2 nodes, all 20 C2 nodes, and 125 missing C1 concepts, plus a full C2 review-session e2e test. The coverage baseline for it-IT drops to 0 gaps (#160, #166, #256).
+
 ### Fixed
 
 - Progress is less likely to vanish on Safari: the app asks the browser for persistent storage after the first graded card, and Progress shows a one-time home-screen/backup hint if it is refused (S8, #241).

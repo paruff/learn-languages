@@ -1,0 +1,51 @@
+nodeId: C2-MODALITY-004
+lang: it-IT
+vocabulary:
+  - id: it-IT-C2-MODALITY-004-001
+    concept: overall-comprehension
+    term: 'comprensione globale'
+    translation: 'overall comprehension'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Ho una comprensione globale dei testi orali e scritti.'
+    exampleTranslation: 'I have overall comprehension of spoken and written texts.'
+  - id: it-IT-C2-MODALITY-004-002
+    concept: synthesis-of-information
+    term: 'sintesi delle informazioni'
+    translation: 'synthesis of information'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'So sintetizzare con precisione informazioni provenienti da fonti diverse.'
+    exampleTranslation: 'I know how to synthesise information from different sources with precision.'
+  - id: it-IT-C2-MODALITY-004-003
+    concept: diverse-sources
+    term: 'fonti diverse'
+    translation: 'diverse sources'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Uso fonti diverse per costruire un quadro completo.'
+    exampleTranslation: 'I use diverse sources to build a complete picture.'
+  - id: it-IT-C2-MODALITY-004-004
+    concept: reconstruct-arguments
+    term: 'ricostruire argomentazioni'
+    translation: 'reconstruct arguments'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'So ricostruire argomentazioni complesse in modo coerente.'
+    exampleTranslation: 'I can reconstruct complex arguments in a coherent way.'
+  - id: it-IT-C2-MODALITY-004-005
+    concept: reading-with-ease
+    term: 'lettura agevole'
+    translation: 'reading with ease'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Leggo con agio praticamente qualsiasi testo.'
+    exampleTranslation: 'I read with ease virtually any text.'
+  - id: it-IT-C2-MODALITY-004-006
+    concept: coherent-presentation
+    term: 'esposizione coerente'
+    translation: 'coherent presentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "Organizzo tutto in un'esposizione coerente e ben strutturata."
+    exampleTranslation: 'I organise everything into a coherent and well-structured presentation.'

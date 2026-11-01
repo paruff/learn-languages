@@ -1,0 +1,51 @@
+nodeId: A2-DESCRIBE-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A2-DESCRIBE-001-001
+    concept: family
+    term: 'famiglia'
+    translation: 'family'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La mia famiglia vive in una piccola città.'
+    exampleTranslation: 'My family lives in a small town.'
+  - id: it-IT-A2-DESCRIBE-001-002
+    concept: home
+    term: 'casa'
+    translation: 'home'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La mia casa è vicino alla stazione.'
+    exampleTranslation: 'My home is near the station.'
+  - id: it-IT-A2-DESCRIBE-001-003
+    concept: to-describe
+    term: 'descrivere'
+    translation: 'to describe'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Posso descrivere facilmente il mio quartiere.'
+    exampleTranslation: 'I can describe my neighbourhood easily.'
+  - id: it-IT-A2-DESCRIBE-001-004
+    concept: belongings
+    term: 'effetti personali'
+    translation: 'belongings'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ho messo i miei effetti personali in due borse.'
+    exampleTranslation: 'I packed my belongings in two bags.'
+  - id: it-IT-A2-DESCRIBE-001-005
+    concept: similar
+    term: 'simile'
+    translation: 'similar'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Il tuo appartamento è simile al mio.'
+    exampleTranslation: 'Your flat is similar to mine.'
+  - id: it-IT-A2-DESCRIBE-001-006
+    concept: different
+    term: 'diverso'
+    translation: 'different'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'La loro vita è molto diversa dalla nostra.'
+    exampleTranslation: 'Their life is very different from ours.'

@@ -3,9 +3,49 @@ lang: it-IT
 vocabulary:
   - id: it-IT-C1-NUANCED-001-001
     concept: delicate-disagreement
-    term: disaccordo delicato
-    translation: delicate disagreement
+    term: 'disaccordo delicato'
+    translation: 'delicate disagreement'
     partOfSpeech: noun
     gender: masculine
-    example: Un disaccordo delicato si gestisce ascoltando prima di replicare.
-    exampleTranslation: A delicate disagreement is handled by listening before replying.
+    example: 'Un disaccordo delicato si gestisce ascoltando prima di replicare.'
+    exampleTranslation: 'The delicate disagreement did not harm the friendship.'
+  - id: it-IT-C1-NUANCED-001-002
+    concept: to-fine-tune-one-s-language
+    term: 'calibrare il linguaggio'
+    translation: "to fine-tune one's language"
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Mentre la conversazione si scaldava, ha calibrato il linguaggio per non ferire.'
+    exampleTranslation: 'As the conversation heated up, he fine-tunes his language so as not to hurt.'
+  - id: it-IT-C1-NUANCED-001-003
+    concept: to-tread-carefully
+    term: 'andare con i piedi di piombo'
+    translation: 'to tread carefully'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Nei dibattiti in famiglia è saggio andare con i piedi di piombo.'
+    exampleTranslation: 'In family debates, it is wise to tread carefully when touching the matter.'
+  - id: it-IT-C1-NUANCED-001-004
+    concept: sensitive-matter
+    term: 'questione delicata'
+    translation: 'sensitive matter'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La questione delicata richiede parole misurate.'
+    exampleTranslation: 'The sensitive matter calls for measured words.'
+  - id: it-IT-C1-NUANCED-001-005
+    concept: pausing-for-thought
+    term: 'fermarsi a riflettere'
+    translation: 'pausing for thought'
+    partOfSpeech: noun
+    gender: n/a
+    example: 'Fermarsi a riflettere prima di rispondere evita i malintesi.'
+    exampleTranslation: 'Pausing for thought before answering avoids misunderstandings.'
+  - id: it-IT-C1-NUANCED-001-006
+    concept: to-be-ill-favoured
+    term: 'essere mal visto'
+    translation: 'to be ill-favoured'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'A una cena formale una risposta sgarbata è mal vista.'
+    exampleTranslation: 'At a formal dinner, a rude reply is ill-favoured.'

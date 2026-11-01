@@ -1,0 +1,51 @@
+nodeId: C2-MEDIATION-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-C2-MEDIATION-001-001
+    concept: effective-mediation
+    term: 'mediazione efficace'
+    translation: 'effective mediation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Faccio da intermediario efficace tra madrelingua.'
+    exampleTranslation: 'I act as an effective intermediary between native speakers.'
+  - id: it-IT-C2-MEDIATION-001-002
+    concept: simplify-the-message
+    term: 'semplificare il messaggio'
+    translation: 'simplify the message'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'So semplificare il messaggio senza perdere il significato.'
+    exampleTranslation: 'I know how to simplify the message without losing meaning.'
+  - id: it-IT-C2-MEDIATION-001-003
+    concept: resolve-misunderstandings
+    term: 'risolvere i malintesi'
+    translation: 'resolve misunderstandings'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'So risolvere i malintesi con abilità.'
+    exampleTranslation: 'I can resolve misunderstandings skilfully.'
+  - id: it-IT-C2-MEDIATION-001-004
+    concept: skilful-intervention
+    term: 'intervento abile'
+    translation: 'skilful intervention'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Il mio intervento abile facilita la comunicazione.'
+    exampleTranslation: 'My skilful intervention facilitates communication.'
+  - id: it-IT-C2-MEDIATION-001-005
+    concept: complex-disagreements
+    term: 'disaccordi complessi'
+    translation: 'complex disagreements'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Medio disaccordi complessi tra interlocutori.'
+    exampleTranslation: 'I mediate complex disagreements between speakers.'
+  - id: it-IT-C2-MEDIATION-001-006
+    concept: effective-communication
+    term: 'comunicazione efficace'
+    translation: 'effective communication'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Promuovo sempre una comunicazione efficace tra le parti.'
+    exampleTranslation: 'I always promote effective communication between parties.'

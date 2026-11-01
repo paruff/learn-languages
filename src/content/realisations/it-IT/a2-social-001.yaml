@@ -1,0 +1,51 @@
+nodeId: A2-SOCIAL-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A2-SOCIAL-001-001
+    concept: nice-to-meet-you
+    term: 'Piacere di conoscerti'
+    translation: 'Nice to meet you'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Piacere di conoscerti, sono Claire.'
+    exampleTranslation: 'Nice to meet you, I’m Claire.'
+  - id: it-IT-A2-SOCIAL-001-002
+    concept: how-are-you
+    term: 'Come stai?'
+    translation: 'How are you?'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ciao Marie, come stai?'
+    exampleTranslation: 'Hello Marie, how are you?'
+  - id: it-IT-A2-SOCIAL-001-003
+    concept: please
+    term: 'per favore'
+    translation: 'please'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Un caffè, per favore.'
+    exampleTranslation: 'A coffee, please.'
+  - id: it-IT-A2-SOCIAL-001-004
+    concept: excuse-me
+    term: 'scusi'
+    translation: 'excuse me'
+    partOfSpeech: phrase
+    gender: n/a
+    example: "Scusi, dov'è la stazione?"
+    exampleTranslation: 'Excuse me, where is the station?'
+  - id: it-IT-A2-SOCIAL-001-005
+    concept: to-introduce
+    term: 'presentare'
+    translation: 'to introduce'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Lascia che ti presenti il mio collega.'
+    exampleTranslation: 'Let me introduce my colleague.'
+  - id: it-IT-A2-SOCIAL-001-006
+    concept: to-exchange
+    term: 'scambiare'
+    translation: 'to exchange'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ci siamo scambiati i numeri di telefono.'
+    exampleTranslation: 'We exchanged phone numbers.'

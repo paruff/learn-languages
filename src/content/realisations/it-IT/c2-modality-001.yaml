@@ -1,0 +1,51 @@
+nodeId: C2-MODALITY-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-C2-MODALITY-001-001
+    concept: spontaneous-expression
+    term: 'espressione spontanea'
+    translation: 'spontaneous expression'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La mia espressione spontanea è ormai precisa e fluida.'
+    exampleTranslation: 'My spontaneous expression is now precise and fluent.'
+  - id: it-IT-C2-MODALITY-001-002
+    concept: native-fluency
+    term: 'scioltezza da madrelingua'
+    translation: 'native fluency'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Parlo con scioltezza da madrelingua anche in situazioni complesse.'
+    exampleTranslation: 'I speak with native fluency even in complex situations.'
+  - id: it-IT-C2-MODALITY-001-003
+    concept: shades-of-meaning
+    term: 'sfumature di senso'
+    translation: 'shades of meaning'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Distinguo le sfumature di senso in qualsiasi contesto.'
+    exampleTranslation: 'I distinguish shades of meaning in any context.'
+  - id: it-IT-C2-MODALITY-001-004
+    concept: broad-lexical-repertoire
+    term: 'ampio repertorio lessicale'
+    translation: 'broad lexical repertoire'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Il mio ampio repertorio lessicale mi permette una precisione totale.'
+    exampleTranslation: 'My broad lexical repertoire allows me total precision.'
+  - id: it-IT-C2-MODALITY-001-005
+    concept: complex-situations
+    term: 'situazioni complesse'
+    translation: 'complex situations'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Mantengo la scioltezza anche nelle situazioni più complesse.'
+    exampleTranslation: 'I maintain fluency even in the most complex situations.'
+  - id: it-IT-C2-MODALITY-001-006
+    concept: linguistic-precision
+    term: 'precisione linguistica'
+    translation: 'linguistic precision'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La mia precisione linguistica è paragonabile a quella di un madrelingua.'
+    exampleTranslation: 'My linguistic precision is comparable to that of a native speaker.'

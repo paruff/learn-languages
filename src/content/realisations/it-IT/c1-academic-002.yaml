@@ -3,9 +3,49 @@ lang: it-IT
 vocabulary:
   - id: it-IT-C1-ACADEMIC-002-001
     concept: conference-paper
-    term: relazione congressuale
-    translation: conference paper
+    term: 'relazione congressuale'
+    translation: 'conference paper'
     partOfSpeech: noun
     gender: feminine
-    example: La relazione congressuale è pensata per un pubblico specialistico.
-    exampleTranslation: The conference paper is designed for a specialist audience.
+    example: 'La relazione congressuale è pensata per un pubblico specialistico.'
+    exampleTranslation: 'The conference paper used up the allotted time.'
+  - id: it-IT-C1-ACADEMIC-002-002
+    concept: specialist-audience
+    term: 'pubblico specialistico'
+    translation: 'specialist audience'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Il pubblico specialistico ha posto domande incisive.'
+    exampleTranslation: 'The specialist audience asked incisive questions.'
+  - id: it-IT-C1-ACADEMIC-002-003
+    concept: to-serve-as-a-foundation-for-the-presentation
+    term: "fare da base all'esposizione"
+    translation: 'to serve as a foundation for the presentation'
+    partOfSpeech: phrase
+    gender: n/a
+    example: "I dati preliminari fanno da base all'esposizione finale."
+    exampleTranslation: 'The preliminary data serve as a foundation for the final presentation.'
+  - id: it-IT-C1-ACADEMIC-002-004
+    concept: path-of-the-argumentation
+    term: 'percorso argomentativo'
+    translation: 'path of the argumentation'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Il relatore ha annunciato in anticipo il percorso argomentativo.'
+    exampleTranslation: 'The speaker announced the path of the argumentation in advance.'
+  - id: it-IT-C1-ACADEMIC-002-005
+    concept: to-manage-speaking-time
+    term: 'gestire il tempo di parola'
+    translation: 'to manage speaking time'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'È essenziale gestire il tempo di parola per non affrettare la conclusione.'
+    exampleTranslation: 'It is essential to manage speaking time so as not to rush the conclusion.'
+  - id: it-IT-C1-ACADEMIC-002-006
+    concept: to-refute-without-aggression
+    term: 'confutare senza aggressività'
+    translation: 'to refute without aggression'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ha risposto sapendo confutare senza aggressività.'
+    exampleTranslation: 'He responded by knowing how to refute without aggression.'

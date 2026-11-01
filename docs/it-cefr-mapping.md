@@ -1,6 +1,6 @@
-# Italian (it-IT) CEFR Mapping — A1–B2 and C1 Inventory
+# Italian (it-IT) CEFR Mapping — A1–C2 Inventory
 
-Tracks the CEFR A1–B2 and C1 Can-Do inventory for **en-GB↔it-IT** against the shared repository node set and paired `realisations` content. This epic reuses the existing language-agnostic B1, B2 and C1 node inventories rather than creating a duplicate Italian-only schema.
+Tracks the CEFR A1–C2 Can-Do inventory for **en-GB↔it-IT** against the shared repository node set and paired `realisations` content. This epic reuses the existing language-agnostic B1, B2 and C1 node inventories rather than creating a duplicate Italian-only schema.
 
 ## Source verification
 
@@ -41,7 +41,7 @@ A1 coverage: 24/24 nodes fully realised (100%). All A1 node IDs now have paired 
 
 ## A2 coverage table
 
-The A2 inventory is the repo's 30 shared A2 `cefr-nodes/`. 20 nodes have an `it-IT` realisation today; the remaining 10 are listed as pending rather than claimed as complete.
+The A2 inventory is the repo's 30 shared A2 `cefr-nodes/`. All 30 have a paired `en-GB` + `it-IT` realisation.
 
 | nodeId        | Skill              | Can-Do                                               | Status      |
 | ------------- | ------------------ | ---------------------------------------------------- | ----------- |
@@ -66,7 +66,7 @@ The A2 inventory is the repo's 30 shared A2 `cefr-nodes/`. 20 nodes have an `it-
 | A2-STUDY-002  | spoken_interaction | Can talk about my educational background             | ✅ Realised |
 | A2-STUDY-003  | reading            | Can understand simple academic texts                 | ✅ Realised |
 
-A2 coverage: 20/30 nodes realised. Pending: `A2-DESCRIBE-001`, `A2-LETTER-001`, `A2-LOC-001`, `A2-MEDIA-001`, `A2-OPIN-001`, `A2-PLANS-001`, `A2-SHOP-001`, `A2-SIGN-001`, `A2-SOCIAL-001`, `A2-WRITE-001`.
+A2 coverage: 30/30 nodes realised (100%).
 
 ## B1 coverage table
 
@@ -169,7 +169,38 @@ B2 Coverage: 20/20 nodes fully realised (100%).
 | C1-WRITTEN-002      | writing            | Can write a critical review of a film, exhibition or work, choosing the style appropriate to the intended publication                                        | ✅ Realised |
 | C1-WRITTEN-003      | writing            | Can write a well-structured personal narrative of a complex experience with a coherent, convincing and personal point of view                                | ✅ Realised |
 
-C1 coverage: 25/25 nodes realised (100% of nodes, 1 concept per node). C1 landed ahead of B2 by explicit product direction; Italian B2 remains in progress under #182, so the C1 slice reuses the shared C1 node set without a complete B2 bridge. Depth matches the accepted fr-FR C1 pattern (1 concept per node) rather than the 6-concept en-GB/pt-PT/es-ES/de-DE sets; `validate:content` reports that depth gap as an informational parity warning. Every C1 concept key is copied from the shared en-GB realisation for the same node, so prompts and answers pair without a divergent Italian taxonomy.
+C1 coverage: 25/25 nodes realised (100%) with every shared en-GB concept present (`npm run report:coverage -- it-IT` reports 0 missing). Every C1 concept key is copied from the shared en-GB realisation for the same node, so prompts and answers pair without a divergent Italian taxonomy (#256).
+
+## C2 coverage table
+
+The 20 C2 `cefr-nodes/` are the language-agnostic CEFR C2 Can-Do statements (Council of Europe Companion Volume), shared with every other pair. Each has a paired `it-IT` realisation keyed to the same en-GB concepts.
+
+> **Review status:** the C2 items were drafted by AI and have not been checked item by item by an Italian speaker.
+
+| nodeId    | Skill              | Can-Do                                                                                                                                                                                           | Status      |
+| --------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| undefined | writing            | Can express him/herself clearly and fluently on complex subjects, presenting a well-structured, coherent and convincing text with effective use of a wide range of language                      | ✅ Realised |
+| undefined | spoken_production  | Can present clear, detailed and accurate descriptions of complex subjects, integrating sub-themes and developing particular points, rounding off with an appropriate conclusion                  | ✅ Realised |
+| undefined | writing            | Can select an appropriate formulation from a broad range of language to express him/herself clearly and with precision, differentiating finer shades of meaning                                  | ✅ Realised |
+| undefined | spoken_interaction | Can take an active part in discussion in all its registers, contributing, developing and steering his/her own and others' points of view, and construct a chain of reasoned argument effectively | ✅ Realised |
+| undefined | reading            | Can read and appreciate a wide variety of complex literary texts and non-fiction, including contemporary prose, poetry, song lyrics, and opinion pieces                                          | ✅ Realised |
+| undefined | writing            | Can write with precision and subtlety to convey an intended effect on the reader, using appropriate register, and adapting his/her style to the text and audience                                | ✅ Realised |
+| undefined | spoken_interaction | Can act as an effective intermediary between native speakers, simplifying the message appropriately and intervening skilfully to resolve misunderstandings or disagreements                      | ✅ Realised |
+| undefined | reading            | Can understand all forms of written language including abstract, technically or linguistically complex factual and literary texts, grasping finer points of style and implicit meaning           | ✅ Realised |
+| undefined | spoken_interaction | Can express him/herself spontaneously, very fluently and precisely, differentiating finer shades of meaning even in the most complex situations                                                  | ✅ Realised |
+| undefined | spoken_production  | Can present a clear, smoothly-flowing accurate description or argument in an appropriate style on a complex subject, givingDue prominence to each significant point                              | ✅ Realised |
+| undefined | listening          | Can understand any kind of spoken language, whether live or broadcast, even when delivered at fast native speed, provided they have some time to get familiar with the accent                    | ✅ Realised |
+| undefined | reading            | Can understand with ease virtually everything heard or read, summarising information from different spoken and written sources, reconstructing arguments and accounts in a coherent presentation | ✅ Realised |
+| undefined | writing            | Can write clear, smoothly-flowing text in an appropriate style on a complex subject, writing an introduction, developing and supporting a central point, and producing a fitting conclusion      | ✅ Realised |
+| undefined | spoken_interaction | Can express him/herself clearly and precisely, differentiating finer shades of meaning on a wide range of subjects, employing an appropriate lexical repertoire                                  | ✅ Realised |
+| undefined | writing            | Can write an excellent, well-structured summary of complex factual material and reports, selecting the most important points and presenting them clearly, using appropriate format and style     | ✅ Realised |
+| undefined | spoken_interaction | Can express him/herself fluently, spontaneously and precisely, with near-native command of vocabulary and syntax, using language flexibly for social, academic and professional purposes         | ✅ Realised |
+| undefined | spoken_interaction | Can interact with native speakers with a degree of fluency, spontaneity, confidence and precision that enables effective communication, making clear his/her position in complex discussions     | ✅ Realised |
+| undefined | writing            | Can summarise, concisely, information and different arguments from extended spoken and written sources, reconstructing the arguments and accounts in a coherent presentation                     | ✅ Realised |
+| undefined | writing            | Can write clear, detailed and well-structured texts, developing and supporting arguments and hypotheses, constructing a chain of reasoned argument in appropriate format and style               | ✅ Realised |
+| undefined | writing            | Can write with precision and subtlety, conveying an intended effect on the reader, using appropriate register and style, and adapting his/her style to the text and audience                     | ✅ Realised |
+
+C2 coverage: 20/20 nodes realised (100%), 6 items per node (#166).
 
 ## Notes
 
