@@ -49,6 +49,45 @@ vocabulary:
     gender: masculine
     example: 'El procedimiento se describe paso a paso.'
     exampleTranslation: 'The procedure is described step by step.'
+  - id: es-ES-B1-TEXT-003-007
+    concept: 'technical-information'
+    term: 'información técnica'
+    translation: 'technical information'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Puedo entender información técnica sencilla.'
+    exampleTranslation: 'I can understand simple technical information.'
+  - id: es-ES-B1-TEXT-003-008
+    concept: 'instruction-manual'
+    term: 'manual de instrucciones'
+    translation: 'instruction manual'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Leí el manual de instrucciones del ordenador.'
+    exampleTranslation: 'I read the computer instruction manual.'
+  - id: es-ES-B1-TEXT-003-009
+    concept: 'technical-report'
+    term: 'informe técnico'
+    translation: 'technical report'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Tengo que escribir un informe técnico.'
+    exampleTranslation: 'I need to write a technical report.'
+  - id: es-ES-B1-TEXT-003-010
+    concept: 'specific-terminology'
+    term: 'terminología específica'
+    translation: 'specific terminology'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La terminología específica es difícil de entender.'
+    exampleTranslation: 'The specific terminology is difficult to understand.'
+  - id: es-ES-B1-TEXT-003-011
+    concept: 'to-consult-references'
+    term: 'consultar fuentes'
+    translation: 'to consult references'
+    partOfSpeech: phrase
+    example: 'Es útil consultar fuentes para entender el texto.'
+    exampleTranslation: 'It is useful to consult references to understand the text.'
 grammar:
   - id: es-ES-B1-TEXT-003-G1
     point: 'Imperative in technical instructions'

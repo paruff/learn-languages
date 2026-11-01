@@ -47,6 +47,42 @@ vocabulary:
     gender: feminine
     example: 'Elegí una temática que conocía bien.'
     exampleTranslation: 'I chose a subject matter I knew well.'
+  - id: es-ES-B1-TEXT-004-007
+    concept: 'familiar-topic'
+    term: 'tema conocido'
+    translation: 'familiar topic'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Prefiero escribir sobre temas conocidos.'
+    exampleTranslation: 'I prefer to write about familiar topics.'
+  - id: es-ES-B1-TEXT-004-008
+    concept: 'to-describe-experiences'
+    term: 'describir experiencias'
+    translation: 'to describe experiences'
+    partOfSpeech: phrase
+    example: 'Me gusta describir mis experiencias de viaje.'
+    exampleTranslation: 'I like to describe my travel experiences.'
+  - id: es-ES-B1-TEXT-004-009
+    concept: 'to-express-impressions'
+    term: 'expresar impresiones'
+    translation: 'to express impressions'
+    partOfSpeech: phrase
+    example: 'Es importante expresar mis impresiones con claridad.'
+    exampleTranslation: 'It is important to express my impressions clearly.'
+  - id: es-ES-B1-TEXT-004-010
+    concept: 'to-use-connectors'
+    term: 'usar conectores'
+    translation: 'to use connectors'
+    partOfSpeech: phrase
+    example: 'Necesito usar conectores para organizar el texto.'
+    exampleTranslation: 'I need to use connectors to organise the text.'
+  - id: es-ES-B1-TEXT-004-011
+    concept: 'to-rewrite-the-text'
+    term: 'reescribir el texto'
+    translation: 'to rewrite the text'
+    partOfSpeech: phrase
+    example: 'Voy a reescribir el texto para que quede más claro.'
+    exampleTranslation: 'I will rewrite the text to improve clarity.'
 grammar:
   - id: es-ES-B1-TEXT-004-G1
     point: 'Connectors for text coherence'

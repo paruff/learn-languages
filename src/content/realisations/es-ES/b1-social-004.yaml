@@ -46,5 +46,47 @@ vocabulary:
     gender: masculine
     example: 'Esperé mi turno de palabra con paciencia.'
     exampleTranslation: 'I waited for my turn to speak with patience.'
+  - id: es-ES-B1-SOCIAL-004-007
+    concept: 'to-invite-opinion'
+    term: 'pedir la opinión'
+    translation: 'to invite opinion'
+    partOfSpeech: phrase
+    example: 'Me gustaría pedirte tu opinión sobre este tema.'
+    exampleTranslation: 'I would like to invite your opinion on this topic.'
+  - id: es-ES-B1-SOCIAL-004-008
+    concept: 'to-react-to-news'
+    term: 'reaccionar ante una noticia'
+    translation: 'to react to news'
+    partOfSpeech: phrase
+    example: '¿Cómo reaccionaste ante la noticia del tiempo?'
+    exampleTranslation: 'How did you react to the news about the weather?'
+  - id: es-ES-B1-SOCIAL-004-009
+    concept: 'to-change-the-subject-politely'
+    term: 'cambiar de tema con educación'
+    translation: 'to change the subject politely'
+    partOfSpeech: phrase
+    example: 'Podemos cambiar de tema con educación si lo prefieres.'
+    exampleTranslation: 'We can change the subject politely if you prefer.'
+  - id: es-ES-B1-SOCIAL-004-010
+    concept: 'to-follow-up'
+    term: 'retomar lo dicho'
+    translation: 'to follow up'
+    partOfSpeech: phrase
+    example: 'Me gustaría retomar lo que se dijo antes.'
+    exampleTranslation: 'I would like to follow up on what was said earlier.'
+  - id: es-ES-B1-SOCIAL-004-011
+    concept: 'to-find-common-ground'
+    term: 'encontrar puntos en común'
+    translation: 'to find common ground'
+    partOfSpeech: phrase
+    example: 'Es importante encontrar puntos en común en una discusión.'
+    exampleTranslation: 'It is important to find common ground in a discussion.'
+  - id: es-ES-B1-SOCIAL-004-012
+    concept: 'to-conclude-the-conversation'
+    term: 'terminar la conversación'
+    translation: 'to conclude the conversation'
+    partOfSpeech: phrase
+    example: '¿Terminamos la conversación por ahora?'
+    exampleTranslation: 'Shall we conclude the conversation for now?'
 grammar: []
 culturalNotes: 'In Spanish conversation, interrupting is more acceptable than in many other cultures. It is often a sign of enthusiasm rather than rudeness, though it varies by region and context.'

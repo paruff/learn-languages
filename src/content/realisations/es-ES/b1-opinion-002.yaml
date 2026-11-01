@@ -44,6 +44,48 @@ vocabulary:
     gender: masculine
     example: 'Entiendo tu punto de vista, pero tengo otra opinión.'
     exampleTranslation: 'I understand your point of view, but I have a different opinion.'
+  - id: es-ES-B1-OPINION-002-007
+    concept: 'i-fully-agree'
+    term: 'estoy totalmente de acuerdo'
+    translation: 'I fully agree'
+    partOfSpeech: phrase
+    example: 'Estoy totalmente de acuerdo con lo que has dicho.'
+    exampleTranslation: 'I fully agree with what you said.'
+  - id: es-ES-B1-OPINION-002-008
+    concept: 'i-agree'
+    term: 'estoy de acuerdo'
+    translation: 'I agree'
+    partOfSpeech: phrase
+    example: 'Estoy de acuerdo con esta propuesta.'
+    exampleTranslation: 'I agree with this proposal.'
+  - id: es-ES-B1-OPINION-002-009
+    concept: 'i-disagree-with-your-point-of-view'
+    term: 'no comparto tu punto de vista'
+    translation: 'I disagree with your point of view'
+    partOfSpeech: phrase
+    example: 'Con respeto, no comparto tu punto de vista.'
+    exampleTranslation: 'Respectfully, I disagree with your point of view.'
+  - id: es-ES-B1-OPINION-002-010
+    concept: 'i-understand-what-you-say-but'
+    term: 'entiendo lo que dices, pero'
+    translation: 'I understand what you say, but'
+    partOfSpeech: phrase
+    example: 'Entiendo lo que dices, pero tengo otra perspectiva.'
+    exampleTranslation: 'I understand what you say, but I have a different perspective.'
+  - id: es-ES-B1-OPINION-002-011
+    concept: 'i-do-not-fully-agree'
+    term: 'no estoy del todo de acuerdo'
+    translation: 'I do not fully agree'
+    partOfSpeech: phrase
+    example: 'No estoy del todo de acuerdo, pero tiene sentido.'
+    exampleTranslation: 'I do not fully agree, but it makes sense.'
+  - id: es-ES-B1-OPINION-002-012
+    concept: 'that-depends'
+    term: 'eso depende'
+    translation: 'that depends'
+    partOfSpeech: phrase
+    example: 'Eso depende de las circunstancias.'
+    exampleTranslation: 'That depends on the circumstances.'
 grammar:
   - id: es-ES-B1-OPINION-002-G1
     point: 'Polite agreement and disagreement formulas'

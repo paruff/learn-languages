@@ -46,6 +46,48 @@ vocabulary:
     partOfSpeech: verb
     example: 'Intenté persuadir a los demás con datos.'
     exampleTranslation: 'I tried to persuade the others with data.'
+  - id: es-ES-B1-OPINION-001-007
+    concept: 'in-my-opinion'
+    term: 'en mi opinión'
+    translation: 'in my opinion'
+    partOfSpeech: phrase
+    example: 'En mi opinión, el cine español es muy interesante.'
+    exampleTranslation: 'In my opinion, Spanish cinema is very interesting.'
+  - id: es-ES-B1-OPINION-001-008
+    concept: 'i-think-that'
+    term: 'creo que'
+    translation: 'I think that'
+    partOfSpeech: phrase
+    example: 'Creo que deberíamos invertir más en educación.'
+    exampleTranslation: 'I think we should invest more in education.'
+  - id: es-ES-B1-OPINION-001-009
+    concept: 'it-seems-to-me-that'
+    term: 'me parece que'
+    translation: 'it seems to me that'
+    partOfSpeech: phrase
+    example: 'Me parece que esta solución es la mejor.'
+    exampleTranslation: 'It seems to me that this solution is the best.'
+  - id: es-ES-B1-OPINION-001-010
+    concept: 'i-defend-the-idea-that'
+    term: 'defiendo la idea de que'
+    translation: 'I defend the idea that'
+    partOfSpeech: phrase
+    example: 'Defiendo la idea de que todo el mundo debe tener acceso a la sanidad.'
+    exampleTranslation: 'I defend the idea that everyone should have access to healthcare.'
+  - id: es-ES-B1-OPINION-001-011
+    concept: 'i-am-sure-that'
+    term: 'estoy seguro de que'
+    translation: 'I am sure that'
+    partOfSpeech: phrase
+    example: 'Estoy seguro de que esto va a mejorar.'
+    exampleTranslation: 'I am sure that this will improve.'
+  - id: es-ES-B1-OPINION-001-012
+    concept: 'i-am-of-the-opinion-that'
+    term: 'soy de la opinión de que'
+    translation: 'I am of the opinion that'
+    partOfSpeech: phrase
+    example: 'Soy de la opinión de que necesitamos cambios.'
+    exampleTranslation: 'I am of the opinion that we need changes.'
 grammar:
   - id: es-ES-B1-OPINION-001-G1
     point: 'Expressing opinions with "creo que" + indicative vs. subjunctive'

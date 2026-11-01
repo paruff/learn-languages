@@ -46,6 +46,48 @@ vocabulary:
     partOfSpeech: phrase
     example: 'Respondo de forma natural en la mayoría de situaciones.'
     exampleTranslation: 'I respond naturally in most situations.'
+  - id: es-ES-B1-SOCIAL-001-007
+    concept: 'excuse-me-can-you-help-me'
+    term: 'Perdone, ¿puede ayudarme?'
+    translation: 'Excuse me, can you help me?'
+    partOfSpeech: phrase
+    example: 'Perdone, ¿puede ayudarme a encontrar el metro?'
+    exampleTranslation: 'Excuse me, can you help me find the metro?'
+  - id: es-ES-B1-SOCIAL-001-008
+    concept: 'pardon-me'
+    term: 'Disculpe'
+    translation: 'Pardon me'
+    partOfSpeech: phrase
+    example: 'Disculpe, ¿dónde está la estación de tren?'
+    exampleTranslation: 'Pardon me, where is the train station?'
+  - id: es-ES-B1-SOCIAL-001-009
+    concept: 'to-talk-about'
+    term: 'hablar de'
+    translation: 'to talk about'
+    partOfSpeech: verb
+    example: 'Me gustaría hablar de la cultura española.'
+    exampleTranslation: 'I would like to talk about Spanish culture.'
+  - id: es-ES-B1-SOCIAL-001-010
+    concept: 'the-conversation-was-interesting'
+    term: 'la conversación fue interesante'
+    translation: 'the conversation was interesting'
+    partOfSpeech: phrase
+    example: 'La conversación fue muy interesante, gracias.'
+    exampleTranslation: 'The conversation was very interesting, thank you.'
+  - id: es-ES-B1-SOCIAL-001-011
+    concept: 'in-my-experience'
+    term: 'en mi experiencia'
+    translation: 'in my experience'
+    partOfSpeech: phrase
+    example: 'En mi experiencia, los españoles son muy amables.'
+    exampleTranslation: 'In my experience, Spanish people are very friendly.'
+  - id: es-ES-B1-SOCIAL-001-012
+    concept: 'it-depends-on-the-circumstances'
+    term: 'depende de las circunstancias'
+    translation: 'it depends on the circumstances'
+    partOfSpeech: phrase
+    example: 'Depende de las circunstancias, pero normalmente ayudo.'
+    exampleTranslation: 'It depends on the circumstances, but I usually help.'
 grammar:
   - id: es-ES-B1-SOCIAL-001-G1
     point: 'Conditional tense for polite social situations'
