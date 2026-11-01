@@ -9,6 +9,7 @@ Run before each wave of invitations (about 15 minutes). Automated checks cover l
 ## Devices
 
 - [ ] **iPhone Safari:** open the site fresh (private tab). Home says "Learn Portuguese with Science"; Start goes to Lessons for English → Portuguese.
+- [ ] **iPhone Safari, storage (S8):** grade one card, then open Progress. Either nothing shows (persistence granted) or a "Got it" hint about the home screen and backup appears once and stays dismissed after "Got it". Add to Home Screen, reopen, progress is still there.
 - [ ] **Android Chrome with page translation switched ON** (Chrome menu → Translate): no translate prompt appears, and Portuguese stays Portuguese.
 - [ ] **Chrome desktop at 200% zoom:** nothing overlaps; grade buttons stay in a tidy grid.
 

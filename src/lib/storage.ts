@@ -241,3 +241,31 @@ export function importProgress(json: string): ImportResult {
   }
   return { ok: true, count };
 }
+
+/*
+ * Safari deletes localStorage after 7 days without interaction unless the
+ * browser grants persistent storage (spec S8, R3). One key records the outcome
+ * so the request is made once: 'granted' | 'denied' | 'dismissed' (hint closed).
+ */
+const PERSIST_KEY = 'persist';
+
+/** Asks the browser to keep our storage; call after the first graded card. Never throws. */
+export async function requestPersistence(): Promise<boolean> {
+  if (readItem(PERSIST_KEY) !== null) return readItem(PERSIST_KEY) === 'granted';
+  let granted = false;
+  try {
+    granted = (await navigator.storage?.persist?.()) === true;
+  } catch {
+    // Treated as refused: the learner gets the backup hint instead.
+  }
+  writeItem(PERSIST_KEY, granted ? 'granted' : 'denied');
+  return granted;
+}
+
+export function shouldShowPersistHint(): boolean {
+  return readItem(PERSIST_KEY) === 'denied';
+}
+
+export function dismissPersistHint(): void {
+  writeItem(PERSIST_KEY, 'dismissed');
+}

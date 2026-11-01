@@ -95,6 +95,12 @@ const targetName = languageName(targetLang);
       </label>
     </div>
     <p id="backup-status" role="status" aria-live="polite"></p>
+    <div id="persist-hint" hidden>
+      <p>{getString(sourceLang, 'persistHint')}</p>
+      <button type="button" class="btn" id="persist-dismiss"
+        >{getString(sourceLang, 'persistDismiss')}</button
+      >
+    </div>
   </section>
 
   <script
@@ -158,7 +164,14 @@ const targetName = languageName(targetLang);
 
 <script>
   import { loadIntention } from '../../../lib/nextSession';
-  import { loadState, loadStudied, exportProgress, importProgress } from '../../../lib/storage';
+  import {
+    loadState,
+    loadStudied,
+    exportProgress,
+    importProgress,
+    shouldShowPersistHint,
+    dismissPersistHint,
+  } from '../../../lib/storage';
   import {
     computeCefrProgress,
     computeCanDoChecklist,
@@ -222,6 +235,14 @@ const targetName = languageName(targetLang);
   // never shift after first paint (CLS) and stay hidden when JS is unavailable.
   nextEl.hidden = false;
   document.getElementById('backup')!.hidden = false;
+
+  // Safari may delete progress after 7 days away (spec S8): one-time hint when persistence was refused.
+  const persistHint = document.getElementById('persist-hint')!;
+  persistHint.hidden = !shouldShowPersistHint();
+  document.getElementById('persist-dismiss')?.addEventListener('click', () => {
+    dismissPersistHint();
+    persistHint.hidden = true;
+  });
 
   // Calibration signal (issue #46) — the book's "fluency illusion" warning:
   // learners are poor judges of their own mastery. Surfaces how often a
