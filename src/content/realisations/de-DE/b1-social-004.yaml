@@ -49,6 +49,54 @@ vocabulary:
     gender: feminine
     example: 'Deine Reaktion war gut.'
     exampleTranslation: 'Your reaction was good.'
+  - id: de-DE-B1-SOCIAL-004-007
+    concept: 'to-invite-opinion'
+    term: 'um eine Meinung bitten'
+    translation: 'to invite opinion'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich möchte Sie um Ihre Meinung zu diesem Thema bitten.'
+    exampleTranslation: 'I would like to ask for your opinion on this topic.'
+  - id: de-DE-B1-SOCIAL-004-008
+    concept: 'to-react-to-news'
+    term: 'auf eine Nachricht reagieren'
+    translation: 'to react to news'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Wie hast du auf die Nachricht reagiert?'
+    exampleTranslation: 'How did you react to the news?'
+  - id: de-DE-B1-SOCIAL-004-009
+    concept: 'to-change-the-subject-politely'
+    term: 'höflich das Thema wechseln'
+    translation: 'to change the subject politely'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Man kann höflich das Thema wechseln, indem man eine Frage stellt.'
+    exampleTranslation: 'You can change the subject politely by asking a question.'
+  - id: de-DE-B1-SOCIAL-004-010
+    concept: 'to-follow-up'
+    term: 'nachhaken'
+    translation: 'to follow up'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich möchte bei dem, was vorhin gesagt wurde, nachhaken.'
+    exampleTranslation: 'I would like to follow up on what was said earlier.'
+  - id: de-DE-B1-SOCIAL-004-011
+    concept: 'to-find-common-ground'
+    term: 'eine gemeinsame Basis finden'
+    translation: 'to find common ground'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'In einer Diskussion ist es wichtig, eine gemeinsame Basis zu finden.'
+    exampleTranslation: 'In a discussion, it is important to find common ground.'
+  - id: de-DE-B1-SOCIAL-004-012
+    concept: 'to-conclude-the-conversation'
+    term: 'das Gespräch beenden'
+    translation: 'to conclude the conversation'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Sollen wir das Gespräch für heute beenden?'
+    exampleTranslation: 'Shall we conclude the conversation for today?'
 grammar:
   - id: B1-SOCIAL-004-GR01
     point: 'Keeping conversations going'

@@ -3,11 +3,11 @@ lang: de-DE
 vocabulary:
   - id: de-DE-B1-OPINION-002-001
     concept: 'i-agree'
-    term: 'Das stimme ich zu'
+    term: 'Dem stimme ich zu'
     translation: 'I agree'
     partOfSpeech: phrase
     gender: n/a
-    example: 'Das stimme ich völlig zu.'
+    example: 'Dem stimme ich völlig zu.'
     exampleTranslation: 'I completely agree.'
   - id: de-DE-B1-OPINION-002-002
     concept: 'i-share-the-same-opinion'
@@ -49,6 +49,46 @@ vocabulary:
     gender: n/a
     example: 'Allerdings gibt es auch andere Möglichkeiten.'
     exampleTranslation: 'However, there are also other possibilities.'
+  - id: de-DE-B1-OPINION-002-007
+    concept: 'i-fully-agree'
+    term: 'ich stimme voll und ganz zu'
+    translation: 'I fully agree'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Dem, was du gesagt hast, stimme ich voll und ganz zu.'
+    exampleTranslation: 'I fully agree with what you said.'
+  - id: de-DE-B1-OPINION-002-008
+    concept: 'i-disagree-with-your-point-of-view'
+    term: 'ich teile Ihren Standpunkt nicht'
+    translation: 'I disagree with your point of view'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Bei allem Respekt, ich teile Ihren Standpunkt nicht.'
+    exampleTranslation: 'With all due respect, I do not share your point of view.'
+  - id: de-DE-B1-OPINION-002-009
+    concept: 'i-understand-what-you-say-but'
+    term: 'ich verstehe, was Sie sagen, aber'
+    translation: 'I understand what you say, but'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich verstehe, was Sie sagen, aber ich habe eine andere Perspektive.'
+    exampleTranslation: 'I understand what you are saying, but I have a different perspective.'
+  - id: de-DE-B1-OPINION-002-010
+    concept: 'i-do-not-fully-agree'
+    term: 'ich bin nicht ganz einverstanden'
+    translation: 'I do not fully agree'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich bin nicht ganz einverstanden, aber es ergibt Sinn.'
+    exampleTranslation: 'I do not fully agree, but it makes sense.'
+  - id: de-DE-B1-OPINION-002-011
+    concept: 'that-depends'
+    term: 'das kommt darauf an'
+    translation: 'that depends'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Das kommt auf die Umstände an.'
+    exampleTranslation: 'That depends on the circumstances.'
 grammar:
   - id: B1-OPINION-002-GR01
     point: 'Polite agreement and disagreement'
