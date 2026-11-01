@@ -50,12 +50,12 @@ vocabulary:
     exampleTranslation: 'The international section is my favourite.'
   - id: es-ES-B1-TEXT-002-007
     concept: 'news'
-    term: 'noticia'
+    term: 'las noticias'
     translation: 'news'
     partOfSpeech: noun
     gender: feminine
-    example: 'Leí una noticia interesante en el periódico.'
-    exampleTranslation: 'I read an interesting news article in the newspaper.'
+    example: 'Las noticias de hoy son muy interesantes.'
+    exampleTranslation: "Today's news is very interesting."
   - id: es-ES-B1-TEXT-002-008
     concept: 'news-summary'
     term: 'resumen de noticias'
