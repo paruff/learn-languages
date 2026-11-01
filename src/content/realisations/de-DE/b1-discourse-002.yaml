@@ -49,6 +49,38 @@ vocabulary:
     gender: n/a
     example: 'Vorher hatte ich nichts davon gewusst.'
     exampleTranslation: 'Beforehand, I had known nothing about it.'
+  - id: de-DE-B1-DISCOURSE-002-007
+    concept: 'following'
+    term: 'im Anschluss an'
+    translation: 'following'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Im Anschluss an die Besprechung haben wir eine Entscheidung getroffen.'
+    exampleTranslation: 'Following the meeting, we made a decision.'
+  - id: de-DE-B1-DISCOURSE-002-008
+    concept: 'after-that'
+    term: 'danach'
+    translation: 'after that'
+    partOfSpeech: adverb
+    gender: n/a
+    example: 'Danach sind wir zum Abendessen gegangen.'
+    exampleTranslation: 'After that, we went to dinner.'
+  - id: de-DE-B1-DISCOURSE-002-009
+    concept: 'first-of-all'
+    term: 'zunächst einmal'
+    translation: 'first of all'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Zunächst einmal möchte ich allen danken, dass sie hier sind.'
+    exampleTranslation: 'First of all, I would like to thank everyone for being here.'
+  - id: de-DE-B1-DISCOURSE-002-010
+    concept: 'next'
+    term: 'als Nächstes'
+    translation: 'next'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Als Nächstes haben wir die Ergebnisse vorgestellt.'
+    exampleTranslation: 'Next, we presented the results.'
 grammar:
   - id: B1-DISCOURSE-002-GR01
     point: 'Past tense narrative sequencing'
