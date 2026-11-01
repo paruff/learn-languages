@@ -1,53 +1,53 @@
 nodeId: C2-MODALITY-005
 lang: de-DE
 vocabulary:
-  - id: de-DE-C2-MODALITY-005-001
-    concept: 'mood'
-    term: 'Modus'
-    translation: 'mood / mode'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Der Modus des Verbs ist wichtig.'
-    exampleTranslation: 'The mood of the verb is important.'
-  - id: de-DE-C2-MODALITY-005-002
-    concept: 'tense'
-    term: 'Tempus'
-    translation: 'tense'
-    partOfSpeech: noun
-    gender: neuter
-    example: 'Das Tempus bestimmt die Zeitform.'
-    exampleTranslation: 'The tense determines the time form.'
-  - id: de-DE-C2-MODALITY-005-003
-    concept: 'aspect'
-    term: 'Aspekt'
-    translation: 'aspect'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Der Aspekt des Verbs ist komplex.'
-    exampleTranslation: 'The aspect of the verb is complex.'
-  - id: de-DE-C2-MODALITY-005-004
-    concept: 'inflection'
-    term: 'Flexion'
-    translation: 'inflection'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Flexion der Verben ist wichtig.'
-    exampleTranslation: 'The inflection of verbs is important.'
-  - id: de-DE-C2-MODALITY-005-005
-    concept: 'to-conjugate'
-    term: 'konjugieren'
-    translation: 'to conjugate'
-    partOfSpeech: verb
+  - id: de-DE-C2-MODALITY-005-007
+    concept: 'smooth-flowing-text'
+    term: 'ein flüssiger Text'
+    translation: 'smooth-flowing text'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Sie kann die Verben perfekt konjugieren.'
-    exampleTranslation: 'She can conjugate the verbs perfectly.'
-  - id: de-DE-C2-MODALITY-005-006
-    concept: 'to-decline'
-    term: 'deklarieren'
-    translation: 'to decline'
-    partOfSpeech: verb
+    example: 'Ich schreibe flüssige, gut gegliederte Texte zu komplexen Themen.'
+    exampleTranslation: 'I write smooth-flowing, well-structured texts on complex subjects.'
+  - id: de-DE-C2-MODALITY-005-008
+    concept: 'engaging-introduction'
+    term: 'eine fesselnde Einleitung'
+    translation: 'engaging introduction'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Er kann die Nomen perfekt deklarieren.'
-    exampleTranslation: 'He can decline the nouns perfectly.'
+    example: 'Ich beginne stets mit einer fesselnden und passenden Einleitung.'
+    exampleTranslation: 'I always start with an engaging and relevant introduction.'
+  - id: de-DE-C2-MODALITY-005-009
+    concept: 'development-of-the-subject'
+    term: 'die Entfaltung des Themas'
+    translation: 'development of the subject'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Die Entfaltung des Themas ist logisch und fundiert.'
+    exampleTranslation: 'The development of the subject is logical and well-founded.'
+  - id: de-DE-C2-MODALITY-005-010
+    concept: 'central-point'
+    term: 'der zentrale Punkt'
+    translation: 'central point'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich verteidige den zentralen Punkt mit stichhaltigen Argumenten.'
+    exampleTranslation: 'I defend the central point with solid arguments.'
+  - id: de-DE-C2-MODALITY-005-011
+    concept: 'fitting-conclusion'
+    term: 'ein passender Schluss'
+    translation: 'fitting conclusion'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich schließe mit einem passenden und überzeugenden Schluss.'
+    exampleTranslation: 'I finish with a fitting and convincing conclusion.'
+  - id: de-DE-C2-MODALITY-005-012
+    concept: 'appropriate-style'
+    term: 'der passende Stil'
+    translation: 'appropriate style'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich verwende stets einen Stil, der zu Thema und Leser passt.'
+    exampleTranslation: 'I always use a style appropriate to the subject and reader.'
 grammar: []
 culturalNotes: 'German grammar at C2 level requires mastery of all conjugation and declension patterns, including irregular and archaic forms.'

@@ -1,53 +1,53 @@
 nodeId: C1-TEXT-002
 lang: de-DE
 vocabulary:
-  - id: de-DE-C1-TEXT-002-001
-    concept: 'article'
-    term: 'Artikel'
-    translation: 'article'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Der Artikel behandelt aktuelle Probleme.'
-    exampleTranslation: 'The article deals with contemporary problems.'
-  - id: de-DE-C1-TEXT-002-002
-    concept: 'report'
-    term: 'Bericht'
-    translation: 'report'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Der Bericht war sehr detailliert.'
-    exampleTranslation: 'The report was very detailed.'
-  - id: de-DE-C1-TEXT-002-003
-    concept: 'contemporary'
-    term: 'zeitgenössisch'
-    translation: 'contemporary'
-    partOfSpeech: adjective
-    gender: n/a
-    example: 'Das sind zeitgenössische Probleme.'
-    exampleTranslation: 'These are contemporary problems.'
-  - id: de-DE-C1-TEXT-002-004
-    concept: 'to-understand'
-    term: 'verstehen'
-    translation: 'to understand'
-    partOfSpeech: verb
-    gender: n/a
-    example: 'Ich verstehe die Artikel gut.'
-    exampleTranslation: 'I understand the articles well.'
-  - id: de-DE-C1-TEXT-002-005
-    concept: 'to-summarize'
-    term: 'zusammenfassen'
-    translation: 'to summarize'
-    partOfSpeech: verb
-    gender: n/a
-    example: 'Ich fasse den Bericht zusammen.'
-    exampleTranslation: 'I summarize the report.'
-  - id: de-DE-C1-TEXT-002-006
-    concept: 'discussion'
-    term: 'Diskussion'
-    translation: 'discussion'
+  - id: de-DE-C1-TEXT-002-007
+    concept: 'technical-specifications'
+    term: 'die technischen Spezifikationen'
+    translation: 'technical specifications'
     partOfSpeech: noun
     gender: feminine
-    example: 'Die Diskussion war interessant.'
-    exampleTranslation: 'The discussion was interesting.'
+    example: 'Die technischen Spezifikationen des Geräts umfassen zwanzig Seiten.'
+    exampleTranslation: 'The technical specifications of the equipment run to twenty pages.'
+  - id: de-DE-C1-TEXT-002-008
+    concept: 'assembly-instructions'
+    term: 'die Montageanleitung'
+    translation: 'assembly instructions'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Montageanleitung setzt voraus, dass der Leser die Grundlagen kennt.'
+    exampleTranslation: 'The assembly instructions assume the reader knows the basics.'
+  - id: de-DE-C1-TEXT-002-009
+    concept: 'specialised-article'
+    term: 'der Fachartikel'
+    translation: 'specialised article'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Fachartikel setzt Kenntnisse in Biochemie voraus.'
+    exampleTranslation: 'The specialised article presupposes knowledge of biochemistry.'
+  - id: de-DE-C1-TEXT-002-010
+    concept: 'technical-jargon'
+    term: 'der Fachjargon'
+    translation: 'technical jargon'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Text verwendet Fachjargon, der Laien einschüchtert.'
+    exampleTranslation: 'The text uses technical jargon that intimidates non-specialists.'
+  - id: de-DE-C1-TEXT-002-011
+    concept: 'to-decipher-the-acronyms'
+    term: 'die Abkürzungen entschlüsseln'
+    translation: 'to decipher the acronyms'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Um den Bericht zu verstehen, muss man die Abkürzungen auf der ersten Seite entschlüsseln.'
+    exampleTranslation: 'To understand the report, one must decipher the acronyms on the first page.'
+  - id: de-DE-C1-TEXT-002-012
+    concept: 'technical-annex'
+    term: 'der technische Anhang'
+    translation: 'technical annex'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Die vollständigen Einzelheiten stehen im technischen Anhang.'
+    exampleTranslation: 'The full details are to be found in the technical annex.'
 grammar: []
 culturalNotes: 'German quality newspapers ("Qualitätszeitungen") like "Süddeutsche Zeitung" publish in-depth articles; C1 readers should handle these fluently.'

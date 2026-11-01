@@ -176,6 +176,14 @@ describe('checkConceptImages', () => {
     ]);
   });
 
+  it('has unique concept ids (the credits collection is keyed by concept)', () => {
+    const images = parse(
+      readFileSync('./src/content/concept-images/index.yaml', 'utf-8')
+    ) as ConceptImage[];
+    const concepts = images.map((image) => image.concept);
+    expect(new Set(concepts).size).toBe(concepts.length);
+  });
+
   it('covers every A2/B1 concrete-noun concept with a concept-image entry', () => {
     const source = readFileSync('./src/content/concept-images/index.yaml', 'utf-8');
     const images = parse(source) as ConceptImage[];

@@ -1,54 +1,54 @@
 nodeId: B2-ARGUE-001
 lang: de-DE
 vocabulary:
-  - id: de-DE-B2-ARGUE-001-001
-    concept: 'chain'
-    term: 'Kette'
-    translation: 'chain'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Er baute eine Kette von Argumenten auf.'
-    exampleTranslation: 'He built a chain of arguments.'
-  - id: de-DE-B2-ARGUE-001-002
-    concept: 'conclusion'
-    term: 'Schlussfolgerung'
-    translation: 'conclusion'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Schlussfolgerung war logisch.'
-    exampleTranslation: 'The conclusion was logical.'
-  - id: de-DE-B2-ARGUE-001-003
-    concept: 'premise'
-    term: 'Prämisse'
-    translation: 'premise'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Prämisse war falsch.'
-    exampleTranslation: 'The premise was wrong.'
-  - id: de-DE-B2-ARGUE-001-004
-    concept: 'argument'
-    term: 'Argument'
-    translation: 'argument'
-    partOfSpeech: noun
-    gender: neuter
-    example: 'Das ist ein starkes Argument.'
-    exampleTranslation: 'That is a strong argument.'
-  - id: de-DE-B2-ARGUE-001-005
-    concept: 'to-conclude'
-    term: 'folgern'
-    translation: 'to conclude'
-    partOfSpeech: verb
+  - id: de-DE-B2-ARGUE-001-007
+    concept: 'to-construct-a-chain-of-reasoning'
+    term: 'eine Argumentationskette aufbauen'
+    translation: 'to construct a chain of reasoning'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Daraus kann man folgern, dass...'
-    exampleTranslation: 'From this one can conclude that...'
-  - id: de-DE-B2-ARGUE-001-006
-    concept: 'to-contradict'
-    term: 'widersprechen'
-    translation: 'to contradict'
-    partOfSpeech: verb
+    example: 'Ich baue eine Argumentationskette auf, um das zu erklären.'
+    exampleTranslation: 'I will construct a chain of reasoning to explain.'
+  - id: de-DE-B2-ARGUE-001-008
+    concept: 'to-develop-the-argument'
+    term: 'das Argument entfalten'
+    translation: 'to develop the argument'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Das widerspricht meiner Meinung.'
-    exampleTranslation: 'That contradicts my opinion.'
+    example: 'Es ist wichtig, das Argument Schritt für Schritt zu entfalten.'
+    exampleTranslation: 'It is important to develop the argument step by step.'
+  - id: de-DE-B2-ARGUE-001-009
+    concept: 'to-present-deductions'
+    term: 'Schlussfolgerungen darlegen'
+    translation: 'to present deductions'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich kann Schlussfolgerungen auf der Grundlage von Fakten darlegen.'
+    exampleTranslation: 'I can present deductions based on facts.'
+  - id: de-DE-B2-ARGUE-001-010
+    concept: 'to-connect-ideas-logically'
+    term: 'Gedanken logisch verknüpfen'
+    translation: 'to connect ideas logically'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich muss die Gedanken logisch miteinander verknüpfen.'
+    exampleTranslation: 'I need to connect the ideas logically.'
+  - id: de-DE-B2-ARGUE-001-011
+    concept: 'to-use-consequence-connectors'
+    term: 'Konsekutivkonnektoren verwenden'
+    translation: 'to use consequence connectors'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Es ist nützlich, Konnektoren wie „deshalb“, „folglich“ und „somit“ zu verwenden.'
+    exampleTranslation: 'It is useful to use connectors like therefore, thus, consequently.'
+  - id: de-DE-B2-ARGUE-001-012
+    concept: 'to-structure-the-discourse'
+    term: 'die Rede gliedern'
+    translation: 'to structure the discourse'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich gliedere die Rede in drei Teile.'
+    exampleTranslation: 'I will structure the discourse in three parts.'
 grammar:
   - id: B2-ARGUE-001-GR01
     point: 'Constructing chains of reasoning'

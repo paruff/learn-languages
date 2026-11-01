@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from './fixtures';
 
 const REVIEW_URL = '/learn-languages/en-GB/pt-PT/review/';
 
@@ -39,9 +39,10 @@ test.describe('review session', () => {
 
     await easy.click();
 
-    // Grading advances to the next card in the same session — the total
+    // A new word is counted once it has been recalled on its return visit (L23),
+    // so the counter holds at 1 while the next card is shown; the total
     // (denominator) is the session size, not the remaining due count.
-    await expect(progress).toHaveText(`2 of ${totalCount}`);
+    await expect(progress).toHaveText(`1 of ${totalCount}`);
 
     // The SM-2 state actually landed in localStorage, not just the UI.
     const savedKeys = await page.evaluate(() =>
@@ -73,6 +74,34 @@ test.describe('review session', () => {
     await expect(progress).toHaveText(`1 of ${newTotal}`);
   });
 
+  test('states the Can-Do learning intention before the first card (L11)', async ({ page }) => {
+    const intention = page.locator('#review-intention');
+    await expect(intention).toBeVisible();
+    await expect(intention.locator('li').first()).not.toBeEmpty();
+    const [intentionBox, cardBox] = await Promise.all([
+      intention.boundingBox(),
+      page.locator('#review-card').boundingBox(),
+    ]);
+    expect(intentionBox!.y).toBeLessThan(cardBox!.y);
+  });
+
+  test('grading Again shows the example and translation before the next card (L10)', async ({
+    page,
+  }) => {
+    const correction = page.locator('#review-correction');
+    await page.locator('#review-reveal').click();
+    await page.locator('#review-grades button[data-quality="1"]').click();
+
+    await expect(correction).toBeVisible();
+    await expect(page.locator('#review-correction-example')).not.toBeEmpty();
+    await expect(page.locator('#review-correction-translation')).not.toBeEmpty();
+    await expect(page.locator('#review-card')).toBeHidden();
+
+    await page.locator('#review-correction-continue').click();
+    await expect(correction).toBeHidden();
+    await expect(page.locator('#review-card')).toBeVisible();
+  });
+
   test('session-complete summary shows first-try accuracy and mastery delta', async ({ page }) => {
     const progress = page.locator('#review-progress');
     const reveal = page.locator('#review-reveal');
@@ -84,7 +113,7 @@ test.describe('review session', () => {
     const totalCount = Number(progressText?.match(/of (\d+)$/)?.[1]);
 
     // Grade every card "Easy" (first try, correct) until the session ends.
-    for (let i = 0; i < totalCount; i++) {
+    for (let i = 0; i < totalCount * 2 && (await page.locator('#review-card').isVisible()); i++) {
       await reveal.click();
       await easy.click();
     }
@@ -92,6 +121,12 @@ test.describe('review session', () => {
     await expect(summary).toBeVisible();
     await expect(summary).toContainText(`${totalCount}/${totalCount} correct first try`);
     await expect(summary).toContainText('Mastery');
+    // Session end must lead somewhere, not dead-end (user feedback).
+    const next = page.locator('#review-next');
+    await expect(next).toBeVisible();
+    await expect(next.getByRole('link', { name: 'Lessons' })).toBeVisible();
+    await expect(next.getByRole('link', { name: 'Progress' })).toBeVisible();
+    await expect(page.locator('#review-practice-more')).toBeVisible();
   });
 
   test('type mode: switching mode shows a text input, and checks the typed answer', async ({
@@ -104,9 +139,9 @@ test.describe('review session', () => {
     const back = page.locator('#review-back');
     const grades = page.locator('#review-grades');
 
-    await expect(modeToggle).toHaveText('Mode: Reveal');
+    await expect(modeToggle).toHaveText('Tap to reveal');
     await modeToggle.click();
-    await expect(modeToggle).toHaveText('Mode: Type answer');
+    await expect(modeToggle).toHaveText('Type the answer');
     await expect(typeForm).toBeVisible();
 
     await typeInput.fill('definitely-wrong-answer');
@@ -119,11 +154,27 @@ test.describe('review session', () => {
     // The typed-vs-correct check is a hint, not an auto-grade — self-grading
     // still works normally after a wrong typed answer (issue #45).
     await grades.locator('button[data-quality="4"]').click();
-    await expect(page.locator('#review-progress')).toHaveText(/^2 of /);
+    await expect(page.locator('#review-progress')).toHaveText(/^1 of /);
 
     // Mode persists across reload.
     await page.reload();
-    await expect(modeToggle).toHaveText('Mode: Type answer');
+    await expect(modeToggle).toHaveText('Type the answer');
+  });
+
+  test('type mode: a typed miss highlights the difference and pre-selects Again (L26)', async ({
+    page,
+  }) => {
+    await page.locator('#review-recall-mode-toggle').click();
+    await page.locator('#review-type-input').fill('12345');
+    await page.locator('#review-type-form button[type="submit"]').click();
+
+    await expect(page.locator('#review-back mark.review-card__diff').first()).toBeVisible();
+    const grades = page.locator('#review-grades');
+    await expect(grades.locator('button[data-suggested]')).toHaveCount(1);
+    await expect(grades.locator('button[data-quality="1"]')).toHaveAttribute('data-suggested', '');
+
+    // Still the learner's call: a different grade button is clickable.
+    await expect(grades.locator('button[data-quality="3"]')).toBeEnabled();
   });
 
   test('picture mode shows only the image when a card has one', async ({ page }) => {
@@ -134,11 +185,11 @@ test.describe('review session', () => {
     const input = page.locator('#review-type-input');
     const grades = page.locator('#review-grades');
 
-    await expect(modeToggle).toHaveText('Mode: Reveal');
+    await expect(modeToggle).toHaveText('Tap to reveal');
     await modeToggle.click();
-    await expect(modeToggle).toHaveText('Mode: Type answer');
+    await expect(modeToggle).toHaveText('Type the answer');
     await modeToggle.click();
-    await expect(modeToggle).toHaveText('Mode: Picture prompt');
+    await expect(modeToggle).toHaveText('Picture prompt');
 
     let imageSeen = false;
     for (let i = 0; i < 12; i++) {
@@ -157,7 +208,7 @@ test.describe('review session', () => {
     await expect(input).toBeVisible();
 
     await page.reload();
-    await expect(modeToggle).toHaveText('Mode: Picture prompt');
+    await expect(modeToggle).toHaveText('Picture prompt');
     await expect(page.locator('#review-card')).toBeVisible();
   });
 
@@ -175,7 +226,7 @@ test.describe('review session', () => {
     const progressText = await progress.textContent();
     const totalCount = Number(progressText?.match(/of (\d+)$/)?.[1]);
 
-    for (let i = 0; i < totalCount; i++) {
+    for (let i = 0; i < totalCount * 2 && (await page.locator('#review-card').isVisible()); i++) {
       await reveal.click();
       await easy.click();
     }
@@ -222,5 +273,37 @@ test.describe('review session', () => {
     );
     expect(savedState.repetitions).toBe(0);
     expect(savedState.interval).toBe(1);
+  });
+
+  test('a new card graded Again returns until graded Good (L23)', async ({ page }) => {
+    const front = page.locator('#review-front');
+    const grade = async (q: number) => {
+      await page.locator('#review-reveal').click();
+      await page.locator(`#review-grades button[data-quality="${q}"]`).click();
+      const cont = page.locator('#review-correction-continue');
+      if (await cont.isVisible()) await cont.click();
+    };
+
+    const target = await front.textContent();
+    await grade(1);
+    // Fail it again on its first return: a one-retry cap would drop it now.
+    let returns = 0;
+    for (let n = 0; n < 30 && returns < 2; n++) {
+      if ((await front.textContent()) === target) {
+        returns += 1;
+        if (returns === 1) await grade(1);
+        else break;
+      } else {
+        await grade(3);
+      }
+    }
+    expect(returns).toBe(2);
+    await grade(3);
+    // Session continues without the card coming back again.
+    for (let n = 0; n < 30 && (await page.locator('#review-card').isVisible()); n++) {
+      expect(await front.textContent()).not.toBe(target);
+      await grade(3);
+    }
+    await expect(page.locator('#review-summary')).toBeVisible();
   });
 });

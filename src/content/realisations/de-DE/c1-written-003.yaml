@@ -1,54 +1,54 @@
 nodeId: C1-WRITTEN-003
 lang: de-DE
 vocabulary:
-  - id: de-DE-C1-WRITTEN-003-001
-    concept: 'spelling'
-    term: 'Rechtschreibung'
-    translation: 'spelling'
+  - id: de-DE-C1-WRITTEN-003-007
+    concept: 'personal-narrative'
+    term: 'die persönliche Erzählung'
+    translation: 'personal narrative'
     partOfSpeech: noun
     gender: feminine
-    example: 'Meine Rechtschreibung ist gut.'
-    exampleTranslation: 'My spelling is good.'
-  - id: de-DE-C1-WRITTEN-003-002
-    concept: 'punctuation'
-    term: 'Zeichensetzung'
-    translation: 'punctuation'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Zeichensetzung war korrekt.'
-    exampleTranslation: 'The punctuation was correct.'
-  - id: de-DE-C1-WRITTEN-003-003
-    concept: 'correct'
-    term: 'korrekt'
-    translation: 'correct'
-    partOfSpeech: adjective
-    gender: n/a
-    example: 'Das war ein korrekter Satz.'
-    exampleTranslation: 'That was a correct sentence.'
-  - id: de-DE-C1-WRITTEN-003-004
-    concept: 'error'
-    term: 'Fehler'
-    translation: 'error / mistake'
+    example: 'Die persönliche Erzählung der Autorin kreuzte sich mit der kollektiven Geschichte.'
+    exampleTranslation: "The author's personal narrative crossed paths with the collective history."
+  - id: de-DE-C1-WRITTEN-003-008
+    concept: 'thread-of-memories'
+    term: 'der Erinnerungsfaden'
+    translation: 'thread of memories'
     partOfSpeech: noun
     gender: masculine
-    example: 'Es gibt wenige Fehler.'
-    exampleTranslation: 'There are few errors.'
-  - id: de-DE-C1-WRITTEN-003-005
-    concept: 'to-check'
-    term: 'überprüfen'
-    translation: 'to check / to verify'
-    partOfSpeech: verb
-    gender: n/a
-    example: 'Ich überprüfe meinen Text auf Fehler.'
-    exampleTranslation: 'I check my text for errors.'
-  - id: de-DE-C1-WRITTEN-003-006
-    concept: 'sentence-structure'
-    term: 'Satzstruktur'
-    translation: 'sentence structure'
+    example: 'Der Text folgt dem Erinnerungsfaden, ohne sich zu verirren.'
+    exampleTranslation: 'The text follows the thread of memories without losing its way.'
+  - id: de-DE-C1-WRITTEN-003-009
+    concept: 'childhood-memories'
+    term: 'die Kindheitserinnerungen'
+    translation: 'childhood memories'
     partOfSpeech: noun
     gender: feminine
-    example: 'Die Satzstruktur war komplex.'
-    exampleTranslation: 'The sentence structure was complex.'
+    example: 'Die Kindheitserinnerungen tauchen mit überraschender Klarheit auf.'
+    exampleTranslation: 'The childhood memories emerge with surprising clarity.'
+  - id: de-DE-C1-WRITTEN-003-010
+    concept: 'personal-point-of-view'
+    term: 'der persönliche Standpunkt'
+    translation: 'personal point of view'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der persönliche Standpunkt verleiht der gesamten Chronik Zusammenhalt.'
+    exampleTranslation: 'The personal point of view lends coherence to the whole chronicle.'
+  - id: de-DE-C1-WRITTEN-003-011
+    concept: 'honest-caveats'
+    term: 'die ehrlichen Vorbehalte'
+    translation: 'honest caveats'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Die ehrlichen Vorbehalte verleihen dem Bericht Glaubwürdigkeit.'
+    exampleTranslation: 'The honest caveats lend credibility to the account.'
+  - id: de-DE-C1-WRITTEN-003-012
+    concept: 'a-one-breath-effect'
+    term: 'der Effekt in einem Zug'
+    translation: 'a one-breath effect'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Das letzte Kapitel hat einen Effekt in einem Zug.'
+    exampleTranslation: 'The final chapter has a one-breath effect.'
 grammar:
   - id: C1-WRITTEN-003-GR01
     point: 'Writing with correct spelling and punctuation'

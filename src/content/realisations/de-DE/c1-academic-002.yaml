@@ -1,53 +1,53 @@
 nodeId: C1-ACADEMIC-002
 lang: de-DE
 vocabulary:
-  - id: de-DE-C1-ACADEMIC-002-001
-    concept: 'discourse'
-    term: 'Diskurs'
-    translation: 'discourse'
+  - id: de-DE-C1-ACADEMIC-002-007
+    concept: 'conference-paper'
+    term: 'der Konferenzbeitrag'
+    translation: 'conference paper'
     partOfSpeech: noun
     gender: masculine
-    example: 'Der wissenschaftliche Diskurs ist komplex.'
-    exampleTranslation: 'The academic discourse is complex.'
-  - id: de-DE-C1-ACADEMIC-002-002
-    concept: 'thesis'
-    term: 'These'
-    translation: 'thesis'
+    example: 'Der Konferenzbeitrag hat die zugeteilte Zeit ausgeschöpft.'
+    exampleTranslation: 'The conference paper used up the allotted time.'
+  - id: de-DE-C1-ACADEMIC-002-008
+    concept: 'specialist-audience'
+    term: 'das Fachpublikum'
+    translation: 'specialist audience'
     partOfSpeech: noun
-    gender: feminine
-    example: 'Die These ist gut begründet.'
-    exampleTranslation: 'The thesis is well-founded.'
-  - id: de-DE-C1-ACADEMIC-002-003
-    concept: 'argumentation'
-    term: 'Argumentation'
-    translation: 'argumentation'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Argumentation war systematisch und überzeugend.'
-    exampleTranslation: 'The argumentation was systematic and convincing.'
-  - id: de-DE-C1-ACADEMIC-002-004
-    concept: 'context'
-    term: 'Zusammenhang'
-    translation: 'context / coherence'
+    gender: neuter
+    example: 'Das Fachpublikum stellte treffende Fragen.'
+    exampleTranslation: 'The specialist audience asked incisive questions.'
+  - id: de-DE-C1-ACADEMIC-002-009
+    concept: 'to-serve-as-a-foundation-for-the-presentation'
+    term: 'dem Vortrag als Grundlage dienen'
+    translation: 'to serve as a foundation for the presentation'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Die vorläufigen Daten dienen dem Abschlussvortrag als Grundlage.'
+    exampleTranslation: 'The preliminary data serve as a foundation for the final presentation.'
+  - id: de-DE-C1-ACADEMIC-002-010
+    concept: 'path-of-the-argumentation'
+    term: 'der Gang der Argumentation'
+    translation: 'path of the argumentation'
     partOfSpeech: noun
     gender: masculine
-    example: 'Der Zusammenhang zwischen den Fakten war klar.'
-    exampleTranslation: 'The context between the facts was clear.'
-  - id: de-DE-C1-ACADEMIC-002-005
-    concept: 'primary-source'
-    term: 'Primärquelle'
-    translation: 'primary source'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Primärquelle war eine alte Handschrift.'
-    exampleTranslation: 'The primary source was an old manuscript.'
-  - id: de-DE-C1-ACADEMIC-002-006
-    concept: 'research-gap'
-    term: 'Forschungslücke'
-    translation: 'research gap'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Forschungslücke wurde identifiziert.'
-    exampleTranslation: 'The research gap was identified.'
+    example: 'Der Redner kündigte den Gang der Argumentation vorab an.'
+    exampleTranslation: 'The speaker announced the path of the argumentation in advance.'
+  - id: de-DE-C1-ACADEMIC-002-011
+    concept: 'to-manage-speaking-time'
+    term: 'die Redezeit einteilen'
+    translation: 'to manage speaking time'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Man muss die Redezeit einteilen, um das Schlusswort nicht zu hetzen.'
+    exampleTranslation: 'It is essential to manage speaking time so as not to rush the conclusion.'
+  - id: de-DE-C1-ACADEMIC-002-012
+    concept: 'to-refute-without-aggression'
+    term: 'ohne Aggression widerlegen'
+    translation: 'to refute without aggression'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Er antwortete, indem er ohne Aggression zu widerlegen wusste.'
+    exampleTranslation: 'He responded by knowing how to refute without aggression.'
 grammar: []
 culturalNotes: 'German academic discourse distinguishes between "These" (thesis), "Antithese" (antithesis), and "Synthese" (synthesis) — a triadic structure deeply rooted in Hegelian philosophy.'

@@ -1,10 +1,11 @@
-import { computeRetention, summariseLog, type GradeEntry } from './gradeLog';
+import { computeRetention, computeReturn, summariseLog, type GradeEntry } from './gradeLog';
 
 interface ReportInput {
   sourceLang: string;
   targetLang: string;
   log: GradeEntry[];
   levels: { cefrLevel: string; masteredItems: number; totalItems: number }[];
+  nextSession: { planned: boolean; calendar: boolean };
   comment: string;
   generatedOn: string;
 }
@@ -25,7 +26,9 @@ export function buildSessionReport(input: ReportInput): string {
     lastDay: summary.lastDay,
     gradeMix: summary.gradeMix,
     retention: computeRetention(input.log),
+    returned: computeReturn(input.log),
     levels: input.levels,
+    nextSession: input.nextSession,
     comment: input.comment.trim(),
   };
   return `Acquira session report (${data.generatedOn})\nSent by the learner, nothing else is shared.\n\n${JSON.stringify(data, null, 2)}`;

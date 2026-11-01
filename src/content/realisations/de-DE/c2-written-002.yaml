@@ -1,54 +1,54 @@
 nodeId: C2-WRITTEN-002
 lang: de-DE
 vocabulary:
-  - id: de-DE-C2-WRITTEN-002-001
-    concept: 'essay'
-    term: 'Essay'
-    translation: 'essay'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Ich schreibe einen Essay über das Thema.'
-    exampleTranslation: 'I am writing an essay on the topic.'
-  - id: de-DE-C2-WRITTEN-002-002
-    concept: 'report'
-    term: 'Bericht'
-    translation: 'report'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Der Bericht war detailliert geschrieben.'
-    exampleTranslation: 'The report was written in detail.'
-  - id: de-DE-C2-WRITTEN-002-003
-    concept: 'to-develop'
-    term: 'entwickeln'
-    translation: 'to develop'
-    partOfSpeech: verb
+  - id: de-DE-C2-WRITTEN-002-007
+    concept: 'precision-and-subtlety'
+    term: 'Präzision und Feinheit'
+    translation: 'precision and subtlety'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich entwickle mein Argument weiter.'
-    exampleTranslation: 'I develop my argument further.'
-  - id: de-DE-C2-WRITTEN-002-004
-    concept: 'argument'
-    term: 'Argument'
-    translation: 'argument'
-    partOfSpeech: noun
-    gender: neuter
-    example: 'Das Argument war überzeugend.'
-    exampleTranslation: 'The argument was convincing.'
-  - id: de-DE-C2-WRITTEN-002-005
-    concept: 'thesis'
-    term: 'These'
-    translation: 'thesis'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Meine These ist klar formuliert.'
-    exampleTranslation: 'My thesis is clearly formulated.'
-  - id: de-DE-C2-WRITTEN-002-006
-    concept: 'conclusion'
-    term: 'Schlussfolgerung'
-    translation: 'conclusion'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Schlussfolgerung war logisch.'
-    exampleTranslation: 'The conclusion was logical.'
+    example: 'Ich schreibe mit unvergleichlicher Präzision und Feinheit.'
+    exampleTranslation: 'I write with incomparable precision and subtlety.'
+  - id: de-DE-C2-WRITTEN-002-008
+    concept: 'intended-effect'
+    term: 'die beabsichtigte Wirkung'
+    translation: 'intended effect'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich erziele beim Leser stets die beabsichtigte Wirkung.'
+    exampleTranslation: 'I always achieve the intended effect on the reader.'
+  - id: de-DE-C2-WRITTEN-002-009
+    concept: 'appropriate-register'
+    term: 'das passende Register'
+    translation: 'appropriate register'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich wähle für den Kontext stets das passende Register.'
+    exampleTranslation: 'I always select the appropriate register for the context.'
+  - id: de-DE-C2-WRITTEN-002-010
+    concept: 'adapted-style'
+    term: 'der angepasste Stil'
+    translation: 'adapted style'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich passe den Stil an Text und Adressaten an.'
+    exampleTranslation: 'I adapt the style to the text and recipient.'
+  - id: de-DE-C2-WRITTEN-002-011
+    concept: 'cultured-expression'
+    term: 'ein gebildeter Ausdruck'
+    translation: 'cultured expression'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich verwende einen gebildeten und fundierten Ausdruck.'
+    exampleTranslation: 'I use a cultured and well-founded expression.'
+  - id: de-DE-C2-WRITTEN-002-012
+    concept: 'elegant-writing'
+    term: 'elegantes Schreiben'
+    translation: 'elegant writing'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Mein Schreiben ist stets elegant und präzise.'
+    exampleTranslation: 'My writing is always elegant and precise.'
 grammar:
   - id: C2-WRITTEN-002-GR01
     point: 'Writing essays with original thought and sophisticated argumentation'

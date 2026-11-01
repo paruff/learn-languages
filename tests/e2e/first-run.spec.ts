@@ -14,8 +14,8 @@ test.describe('first run', () => {
     await expect(page.getByRole('heading', { level: 1 })).toHaveText(
       'Learn Portuguese with Science'
     );
-    await page.getByRole('link', { name: /Start your first lesson/ }).click();
-    await expect(page).toHaveURL(/\/en-GB\/pt-PT\/lessons\/$/);
+    await page.getByRole('link', { name: 'Continue' }).first().click();
+    await expect(page).toHaveURL(/\/en-GB\/pt-PT\/lessons\/A1-GREET-001\/$/);
   });
 
   test('a saved pair is honoured by Start and the nav (U1)', async ({ page }) => {
@@ -26,8 +26,23 @@ test.describe('first run', () => {
       )
     );
     await page.reload();
-    await page.getByRole('link', { name: /Start your first lesson/ }).click();
-    await expect(page).toHaveURL(/\/en-GB\/es-ES\/lessons\/$/);
+    await page.getByRole('link', { name: 'Continue' }).first().click();
+    await expect(page).toHaveURL(/\/en-GB\/es-ES\/lessons\/A1-GREET-001\/$/);
+  });
+
+  test('Progress "next up" recommends an unstudied prerequisite, never locks (L12)', async ({
+    page,
+  }) => {
+    await page.evaluate(() =>
+      window.localStorage.setItem(
+        'studied:en-GB:pt-PT',
+        JSON.stringify(['A1-GREET-001', 'A1-FORM-001'])
+      )
+    );
+    await page.goto('/learn-languages/en-GB/pt-PT/progress/');
+    // FORM-001 was studied out of order; its prerequisite INTRO-002 (via INTRO-001) is still open.
+    await page.getByRole('link', { name: 'Continue' }).first().click();
+    await expect(page).toHaveURL(/\/lessons\/A1-INTRO-001\/$/);
   });
 
   test('page opts out of browser auto-translation (U2)', async ({ page }) => {
@@ -60,6 +75,23 @@ test.describe('first run', () => {
     await expect(page.locator('.nav__link[aria-current="page"]')).toHaveText('Lessons');
   });
 
+  test('a skip link comes first and moves focus to the main content (U7)', async ({ page }) => {
+    for (const path of [HOME, '/learn-languages/en-GB/pt-PT/lessons/A1-GREET-001/']) {
+      await page.goto(path);
+      const skip = page.getByRole('link', { name: 'Skip to main content' });
+      // First focusable element in the page, so one Tab reaches it.
+      const firstFocusable = await page.evaluate(
+        () => document.querySelector('a[href], button, input, select, textarea')?.textContent
+      );
+      expect(firstFocusable?.trim()).toBe('Skip to main content');
+      // Off-screen until focused, then on screen.
+      await skip.focus();
+      expect((await skip.boundingBox())!.y).toBeGreaterThanOrEqual(0);
+      await skip.press('Enter');
+      await expect(page.locator('main')).toBeFocused();
+    }
+  });
+
   test('every page offers a feedback link (U5)', async ({ page }) => {
     const link = page.locator('footer a[href^="mailto:"]');
     await expect(link).toHaveCount(1);
@@ -74,4 +106,54 @@ test.describe('first run', () => {
     await target.selectOption('es-ES');
     await expect(page).toHaveURL(/\/en-GB\/es-ES\/progress\/$/);
   });
+});
+
+// Spec J1: one goal, one next step.
+test.describe('learning path (J1)', () => {
+  test('Continue walks A1 in teaching order; Lessons shows A1 open, others collapsed', async ({
+    page,
+  }) => {
+    await page.goto(HOME);
+    await page.evaluate(() => window.localStorage.clear());
+    await page.reload();
+    await page.getByRole('link', { name: 'Continue' }).click();
+    await expect(page).toHaveURL(/\/lessons\/A1-GREET-001\/$/);
+    await page.waitForFunction(() => window.localStorage.getItem('studied:en-GB:pt-PT'));
+
+    await page.goto('/learn-languages/en-GB/pt-PT/lessons/');
+    await expect(page.getByRole('link', { name: 'Continue' })).toHaveAttribute(
+      'href',
+      /A1-INTRO-001\/$/
+    );
+    await expect(page.locator('details.lesson-index__level').first()).toHaveJSProperty(
+      'open',
+      true
+    );
+    await expect(page.locator('details.lesson-index__level').nth(1)).toHaveJSProperty(
+      'open',
+      false
+    );
+    await expect(page.locator('.lesson-index__can-do').first()).toContainText('greet');
+
+    await page.goto('/learn-languages/en-GB/pt-PT/progress/');
+    await expect(page.getByRole('link', { name: 'Continue' })).toHaveAttribute(
+      'href',
+      /A1-INTRO-001\/$/
+    );
+  });
+});
+
+test('a stale saved language pair does not produce a 404 link on the home page', async ({
+  page,
+}) => {
+  await page.goto(HOME);
+  await page.evaluate(() =>
+    window.localStorage.setItem(
+      'pairPreference',
+      JSON.stringify({ sourceLang: 'en-DE', targetLang: 'pt-PT' })
+    )
+  );
+  await page.reload();
+  const href = await page.locator('a[data-pair-path]').first().getAttribute('href');
+  expect(href).toContain('/en-GB/pt-PT/');
 });

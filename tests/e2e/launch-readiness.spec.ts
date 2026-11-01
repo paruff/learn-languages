@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from './fixtures';
 
 const REVIEW_URL = '/learn-languages/en-GB/pt-PT/review/';
 const PROGRESS_URL = '/learn-languages/en-GB/pt-PT/progress/';

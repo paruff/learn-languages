@@ -1,54 +1,54 @@
 nodeId: C2-MODALITY-002
 lang: de-DE
 vocabulary:
-  - id: de-DE-C2-MODALITY-002-001
-    concept: 'subjunctive-i'
-    term: 'Konjunktiv I'
-    translation: 'subjunctive I'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Der Konjunktiv I wird für indirekte Rede verwendet.'
-    exampleTranslation: 'The subjunctive I is used for indirect speech.'
-  - id: de-DE-C2-MODALITY-002-002
-    concept: 'indirect-speech'
-    term: 'indirekte Rede'
-    translation: 'indirect speech'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Er sagte, er sei krank. (indirekte Rede)'
-    exampleTranslation: 'He said he was sick. (indirect speech)'
-  - id: de-DE-C2-MODALITY-002-003
-    concept: 'to-report'
-    term: 'berichten'
-    translation: 'to report'
-    partOfSpeech: verb
+  - id: de-DE-C2-MODALITY-002-007
+    concept: 'smooth-flowing-description'
+    term: 'eine flüssige Beschreibung'
+    translation: 'smooth-flowing description'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Sie berichtet über die Ereignisse.'
-    exampleTranslation: 'She reports on the events.'
-  - id: de-DE-C2-MODALITY-002-004
-    concept: 'to-quote'
-    term: 'zitieren'
-    translation: 'to quote'
-    partOfSpeech: verb
+    example: 'Ich liefere eine flüssige und gegliederte Beschreibung jedes Themas.'
+    exampleTranslation: 'I present a smooth-flowing and structured description of any subject.'
+  - id: de-DE-C2-MODALITY-002-008
+    concept: 'appropriate-style'
+    term: 'der passende Stil'
+    translation: 'appropriate style'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Er zitiert aus dem Buch.'
-    exampleTranslation: 'He quotes from the book.'
-  - id: de-DE-C2-MODALITY-002-005
-    concept: 'paraphrase'
-    term: 'Paraphrase'
-    translation: 'paraphrase'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Paraphrase war präzise.'
-    exampleTranslation: 'The paraphrase was precise.'
-  - id: de-DE-C2-MODALITY-002-006
-    concept: 'reproduction'
-    term: 'Wiedergabe'
-    translation: 'reproduction / report'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Wiedergabe war korrekt.'
-    exampleTranslation: 'The reproduction was correct.'
+    example: 'Ich wähle den passenden Stil für Kontext und Publikum.'
+    exampleTranslation: 'I adapt the appropriate style to the context and audience.'
+  - id: de-DE-C2-MODALITY-002-009
+    concept: 'complex-subject'
+    term: 'ein komplexes Thema'
+    translation: 'complex subject'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich entwickle komplexe Themen mit Klarheit und Stimmigkeit.'
+    exampleTranslation: 'I develop complex subjects with clarity and coherence.'
+  - id: de-DE-C2-MODALITY-002-010
+    concept: 'key-points'
+    term: 'die Kernpunkte'
+    translation: 'key points'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich gebe allen Kernpunkten das gebührende Gewicht.'
+    exampleTranslation: 'I give due importance to all key points.'
+  - id: de-DE-C2-MODALITY-002-011
+    concept: 'structured-argument'
+    term: 'eine gegliederte Argumentation'
+    translation: 'structured argument'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Meine Argumentation ist klar, flüssig und gut gegliedert.'
+    exampleTranslation: 'My argument is clear, smooth-flowing and well-structured.'
+  - id: de-DE-C2-MODALITY-002-012
+    concept: 'appropriate-conclusion'
+    term: 'ein angemessener Schluss'
+    translation: 'appropriate conclusion'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich komme stets zu einem angemessenen und befriedigenden Schluss.'
+    exampleTranslation: 'I always finish with an appropriate and satisfying conclusion.'
 grammar:
   - id: C2-MODALITY-002-GR01
     point: 'Mastering indirect speech with Konjunktiv I'

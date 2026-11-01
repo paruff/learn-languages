@@ -1,53 +1,53 @@
 nodeId: C2-MODALITY-004
 lang: de-DE
 vocabulary:
-  - id: de-DE-C2-MODALITY-004-001
-    concept: 'mood'
-    term: 'Modus'
-    translation: 'mood / mode'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Der Modus des Verbs ist wichtig.'
-    exampleTranslation: 'The mood of the verb is important.'
-  - id: de-DE-C2-MODALITY-004-002
-    concept: 'tense'
-    term: 'Tempus'
-    translation: 'tense'
-    partOfSpeech: noun
-    gender: neuter
-    example: 'Das Tempus bestimmt die Zeitform.'
-    exampleTranslation: 'The tense determines the time form.'
-  - id: de-DE-C2-MODALITY-004-003
-    concept: 'aspect'
-    term: 'Aspekt'
-    translation: 'aspect'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Der Aspekt des Verbs ist komplex.'
-    exampleTranslation: 'The aspect of the verb is complex.'
-  - id: de-DE-C2-MODALITY-004-004
-    concept: 'inflection'
-    term: 'Flexion'
-    translation: 'inflection'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Flexion der Verben ist wichtig.'
-    exampleTranslation: 'The inflection of verbs is important.'
-  - id: de-DE-C2-MODALITY-004-005
-    concept: 'to-conjugate'
-    term: 'konjugieren'
-    translation: 'to conjugate'
-    partOfSpeech: verb
+  - id: de-DE-C2-MODALITY-004-007
+    concept: 'overall-comprehension'
+    term: 'das Gesamtverständnis'
+    translation: 'overall comprehension'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Sie kann die Verben perfekt konjugieren.'
-    exampleTranslation: 'She can conjugate the verbs perfectly.'
-  - id: de-DE-C2-MODALITY-004-006
-    concept: 'to-decline'
-    term: 'deklarieren'
-    translation: 'to decline'
-    partOfSpeech: verb
+    example: 'Ich habe ein Gesamtverständnis gesprochener und geschriebener Texte.'
+    exampleTranslation: 'I have overall comprehension of spoken and written texts.'
+  - id: de-DE-C2-MODALITY-004-008
+    concept: 'synthesis-of-information'
+    term: 'die Zusammenführung von Informationen'
+    translation: 'synthesis of information'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Er kann die Nomen perfekt deklarieren.'
-    exampleTranslation: 'He can decline the nouns perfectly.'
+    example: 'Ich verstehe es, Informationen aus verschiedenen Quellen präzise zusammenzuführen.'
+    exampleTranslation: 'I know how to synthesise information from different sources with precision.'
+  - id: de-DE-C2-MODALITY-004-009
+    concept: 'diverse-sources'
+    term: 'vielfältige Quellen'
+    translation: 'diverse sources'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich nutze vielfältige Quellen, um ein vollständiges Bild zu gewinnen.'
+    exampleTranslation: 'I use diverse sources to build a complete picture.'
+  - id: de-DE-C2-MODALITY-004-010
+    concept: 'reconstruct-arguments'
+    term: 'Argumente rekonstruieren'
+    translation: 'reconstruct arguments'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich kann komplexe Argumente stimmig rekonstruieren.'
+    exampleTranslation: 'I can reconstruct complex arguments in a coherent way.'
+  - id: de-DE-C2-MODALITY-004-011
+    concept: 'reading-with-ease'
+    term: 'mühelos lesen'
+    translation: 'reading with ease'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich lese praktisch jeden Text mühelos.'
+    exampleTranslation: 'I read with ease virtually any text.'
+  - id: de-DE-C2-MODALITY-004-012
+    concept: 'coherent-presentation'
+    term: 'eine stimmige Darstellung'
+    translation: 'coherent presentation'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich ordne alles zu einer stimmigen und gut gegliederten Darstellung.'
+    exampleTranslation: 'I organise everything into a coherent and well-structured presentation.'
 grammar: []
 culturalNotes: 'German grammar at C2 level requires mastery of all conjugation and declension patterns, including irregular and archaic forms.'

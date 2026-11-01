@@ -1,54 +1,54 @@
 nodeId: C1-SOCIAL-002
 lang: de-DE
 vocabulary:
-  - id: de-DE-C1-SOCIAL-002-001
-    concept: 'discussion'
-    term: 'Diskussion'
-    translation: 'discussion'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Diskussion war sehr konstruktiv.'
-    exampleTranslation: 'The discussion was very constructive.'
-  - id: de-DE-C1-SOCIAL-002-002
-    concept: 'context-related'
-    term: 'kontextbezogen'
-    translation: 'context-related'
-    partOfSpeech: adjective
-    gender: n/a
-    example: 'Die Diskussion war kontextbezogen.'
-    exampleTranslation: 'The discussion was context-related.'
-  - id: de-DE-C1-SOCIAL-002-003
-    concept: 'to-participate-actively'
-    term: 'aktiv teilnehmen'
-    translation: 'to participate actively'
+  - id: de-DE-C1-SOCIAL-002-007
+    concept: 'to-switch-register'
+    term: 'das Register wechseln'
+    translation: 'to switch register'
     partOfSpeech: phrase
     gender: n/a
-    example: 'Ich nehme aktiv an der Diskussion teil.'
-    exampleTranslation: 'I actively participate in the discussion.'
-  - id: de-DE-C1-SOCIAL-002-004
-    concept: 'to-express-an-opinion'
-    term: 'Meinung äußern'
-    translation: 'to express an opinion'
+    example: 'In förmlicher Umgebung wechselt er mit erstaunlicher Natürlichkeit das Register.'
+    exampleTranslation: 'In a formal environment, he switches register with surprising naturalness.'
+  - id: de-DE-C1-SOCIAL-002-008
+    concept: 'to-address-someone-formally'
+    term: 'jemanden siezen'
+    translation: 'to address someone formally'
     partOfSpeech: phrase
     gender: n/a
-    example: 'Ich möchte meine Meinung äußern.'
-    exampleTranslation: 'I would like to express my opinion.'
-  - id: de-DE-C1-SOCIAL-002-005
-    concept: 'to-agree'
-    term: 'zustimmen'
-    translation: 'to agree'
-    partOfSpeech: verb
+    example: 'Ältere Menschen siezt man üblicherweise.'
+    exampleTranslation: 'With older people, it is customary to address them formally.'
+  - id: de-DE-C1-SOCIAL-002-009
+    concept: 'to-address-someone-informally'
+    term: 'jemanden duzen'
+    translation: 'to address someone informally'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich stimme Ihnen zu.'
-    exampleTranslation: 'I agree with you.'
-  - id: de-DE-C1-SOCIAL-002-006
-    concept: 'to-reject'
-    term: 'ablehnen'
-    translation: 'to reject / to decline'
-    partOfSpeech: verb
+    example: 'Die Kollegen duzen sich seit dem ersten Tag.'
+    exampleTranslation: 'Co-workers have addressed each other informally since day one.'
+  - id: de-DE-C1-SOCIAL-002-010
+    concept: 'to-adjust-the-tone'
+    term: 'den Ton anpassen'
+    translation: 'to adjust the tone'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich lehne Ihren Vorschlag ab.'
-    exampleTranslation: 'I reject your proposal.'
+    example: 'Sie versteht es, ihren Ton dem sozialen Kontext anzupassen.'
+    exampleTranslation: 'She knows how to adjust her tone to the social context she is in.'
+  - id: de-DE-C1-SOCIAL-002-011
+    concept: 'to-keep-respectful-distance'
+    term: 'respektvoll Abstand halten'
+    translation: 'to keep respectful distance'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'In ersten Gesprächen ist es klug, respektvoll Abstand zu halten.'
+    exampleTranslation: 'In first conversations, it is prudent to keep a respectful distance.'
+  - id: de-DE-C1-SOCIAL-002-012
+    concept: 'to-break-the-ice'
+    term: 'das Eis brechen'
+    translation: 'to break the ice'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Um das Eis zu brechen, machte sie eine Bemerkung über das Wetter.'
+    exampleTranslation: 'To break the ice, she resorted to a comment about the weather.'
 grammar:
   - id: C1-SOCIAL-002-GR01
     point: 'Taking active part in discussions with nuanced expression'

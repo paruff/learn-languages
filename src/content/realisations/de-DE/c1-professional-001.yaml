@@ -1,54 +1,54 @@
 nodeId: C1-PROFESSIONAL-001
 lang: de-DE
 vocabulary:
-  - id: de-DE-C1-PROFESSIONAL-001-001
-    concept: 'company'
-    term: 'Betrieb'
-    translation: 'company / operation'
+  - id: de-DE-C1-PROFESSIONAL-001-007
+    concept: 'proposal-for-discussion'
+    term: 'der Diskussionsvorschlag'
+    translation: 'proposal for discussion'
     partOfSpeech: noun
     gender: masculine
-    example: 'Der Betrieb ist sehr groß.'
-    exampleTranslation: 'The company is very large.'
-  - id: de-DE-C1-PROFESSIONAL-001-002
-    concept: 'company-enterprise'
-    term: 'Unternehmen'
-    translation: 'company / enterprise'
+    example: 'Der Diskussionsvorschlag wurde sorgfältig geprüft.'
+    exampleTranslation: 'The proposal for discussion earned careful analysis.'
+  - id: de-DE-C1-PROFESSIONAL-001-008
+    concept: 'objection-of-the-partners'
+    term: 'der Einwand der Partner'
+    translation: 'objection of the partners'
     partOfSpeech: noun
-    gender: neuter
-    example: 'Das Unternehmen investiert in Innovation.'
-    exampleTranslation: 'The company invests in innovation.'
-  - id: de-DE-C1-PROFESSIONAL-001-003
-    concept: 'presentation'
-    term: 'Präsentation'
-    translation: 'presentation'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Präsentation war professionell.'
-    exampleTranslation: 'The presentation was professional.'
-  - id: de-DE-C1-PROFESSIONAL-001-004
-    concept: 'specialist-audience'
-    term: 'Fachpublikum'
-    translation: 'specialist audience'
-    partOfSpeech: noun
-    gender: neuter
-    example: 'Die Präsentation war für ein Fachpublikum.'
-    exampleTranslation: 'The presentation was for a specialist audience.'
-  - id: de-DE-C1-PROFESSIONAL-001-005
-    concept: 'professional'
-    term: 'beruflich'
-    translation: 'professional'
-    partOfSpeech: adjective
+    gender: masculine
+    example: 'Der Einwand der Partner zwang zu einem Schritt zurück im Zeitplan.'
+    exampleTranslation: 'The objection of the partners forced a step back on the timetable.'
+  - id: de-DE-C1-PROFESSIONAL-001-009
+    concept: 'to-set-the-record-straight'
+    term: 'etwas richtigstellen'
+    translation: 'to set the record straight'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Die berufliche Entwicklung ist wichtig.'
-    exampleTranslation: 'Professional development is important.'
-  - id: de-DE-C1-PROFESSIONAL-001-006
-    concept: 'summary'
-    term: 'Zusammenfassung'
-    translation: 'summary'
+    example: 'In der Sitzung stellte er die Fristen richtig.'
+    exampleTranslation: 'At the meeting, he set the record straight about the deadlines.'
+  - id: de-DE-C1-PROFESSIONAL-001-010
+    concept: 'room-for-manoeuvre'
+    term: 'der Spielraum'
+    translation: 'room for manoeuvre'
     partOfSpeech: noun
-    gender: feminine
-    example: 'Die Zusammenfassung war klar und prägnant.'
-    exampleTranslation: 'The summary was clear and concise.'
+    gender: masculine
+    example: 'Das Budget lässt für Überraschungen wenig Spielraum.'
+    exampleTranslation: 'The budget leaves little room for manoeuvre for surprises.'
+  - id: de-DE-C1-PROFESSIONAL-001-011
+    concept: 'workable-consensus'
+    term: 'der tragfähige Konsens'
+    translation: 'workable consensus'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Die Vermittler suchten den tragfähigen Konsens zwischen den Parteien.'
+    exampleTranslation: 'The mediators sought the workable consensus between the parties.'
+  - id: de-DE-C1-PROFESSIONAL-001-012
+    concept: 'tone-of-mutual-understanding'
+    term: 'der verständigungsorientierte Ton'
+    translation: 'tone of mutual understanding'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der verständigungsorientierte Ton der Sitzung wendete erwartete Konflikte ab.'
+    exampleTranslation: 'The tone of mutual understanding at the meeting averted anticipated conflicts.'
 grammar:
   - id: C1-PROFESSIONAL-001-GR01
     point: 'Making formal presentations to specialist audiences'

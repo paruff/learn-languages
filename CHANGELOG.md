@@ -7,11 +7,15 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · Versioning: 
 
 ### Fixed
 
+- Progress is less likely to vanish on Safari: the app asks the browser for persistent storage after the first graded card, and Progress shows a one-time home-screen/backup hint if it is refused (S8, #241).
+- Accessibility: every page now starts with a "Skip to main content" link (in the learner's source language) that moves focus past the header and nav to the main content (U7).
 - es-ES B1–C2 content reverted to the last PCIC-reviewed state. The #155 positional concept re-key had paired concepts with unrelated terms (e.g. `to-justify-the-position` with `cuestión de actualidad`) while dual `old / new` glosses passed the pairing gate; re-alignment now requires per-item human review (#185).
 - fr-FR C1: 23 `exampleTranslation` values replaced so lesson pages show a translation of the actual French example instead of an unrelated en-GB sentence.
 - CI: removed the unused import that kept `main` red since #179, and formatted the it-IT A2 YAML that Prettier had never checked.
 
 ### Added
+
+- Optional end-of-session prompt "When and where will you do your next 10 minutes?", shown again on the next visit, with a locally generated `.ics` calendar entry; the self-sent report records whether it was used (L21, #243).
 
 - Empty Diff Guard and Coverage Gate CI jobs, plus `npm run check:coverage` with a committed baseline.
 - fr-FR C1 review-session and lesson e2e coverage restored; it-IT A1 review/lesson tests restored and coverage documented honestly (A1 24/24, A2 20/30, B1 35/35).
@@ -19,6 +23,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · Versioning: 
 
 ### Changed
 
+- CI unit-coverage gate raised to 90% lines, functions and statements and 80% branches (was 80/70/80/80), as the docs already claimed (#276). AGENTS.md trimmed from ~590 to ~220 lines; stale schema, hook and security sections removed (#275).
+- Workflow: status lives on the Acquira project board; goal issues per milestone; owner decisions are `question` issues; new `DESIGN.md` (UI/UX design system) and `REVIEW.md` (code-review guidance); issue and PR templates; Copilot coding-agent setup steps (AGENTS.md §12).
 - Supported-language docs now list it-IT and fr-FR A1–C2; `spec.md` C7 points at the real `concept-images/index.yaml` path.
 
 ## [0.1.0] - 2026-10-04

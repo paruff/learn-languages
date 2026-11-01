@@ -1,54 +1,54 @@
 nodeId: C2-ACADEMIC-002
 lang: de-DE
 vocabulary:
-  - id: de-DE-C2-ACADEMIC-002-001
-    concept: 'discourse'
-    term: 'Diskurs'
-    translation: 'discourse'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Der wissenschaftliche Diskurs ist komplex.'
-    exampleTranslation: 'The academic discourse is complex.'
-  - id: de-DE-C2-ACADEMIC-002-002
-    concept: 'thesis'
-    term: 'These'
-    translation: 'thesis'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die These ist gut begründet.'
-    exampleTranslation: 'The thesis is well-founded.'
-  - id: de-DE-C2-ACADEMIC-002-003
-    concept: 'argumentation'
-    term: 'Argumentation'
-    translation: 'argumentation'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Argumentation war systematisch und überzeugend.'
-    exampleTranslation: 'The argumentation was systematic and convincing.'
-  - id: de-DE-C2-ACADEMIC-002-004
-    concept: 'context'
-    term: 'Zusammenhang'
-    translation: 'context / coherence'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Der Zusammenhang zwischen den Fakten war klar.'
-    exampleTranslation: 'The context between the facts was clear.'
-  - id: de-DE-C2-ACADEMIC-002-005
-    concept: 'primary-source'
-    term: 'Primärquelle'
-    translation: 'primary source'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Primärquelle war eine alte Handschrift.'
-    exampleTranslation: 'The primary source was an old manuscript.'
-  - id: de-DE-C2-ACADEMIC-002-006
-    concept: 'research-gap'
-    term: 'Forschungslücke'
-    translation: 'research gap'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Forschungslücke wurde identifiziert.'
-    exampleTranslation: 'The research gap was identified.'
+  - id: de-DE-C2-ACADEMIC-002-007
+    concept: 'detailed-description'
+    term: 'eine detaillierte Beschreibung'
+    translation: 'detailed description'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich liefere detaillierte Beschreibungen komplexer Themen.'
+    exampleTranslation: 'I present detailed descriptions of complex subjects.'
+  - id: de-DE-C2-ACADEMIC-002-008
+    concept: 'related-sub-themes'
+    term: 'verwandte Teilthemen'
+    translation: 'related sub-themes'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich binde verwandte Teilthemen stimmig ein.'
+    exampleTranslation: 'I integrate related sub-themes in a coherent way.'
+  - id: de-DE-C2-ACADEMIC-002-009
+    concept: 'particular-points'
+    term: 'einzelne Punkte'
+    translation: 'particular points'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich entwickle einzelne Punkte mit Tiefe und Klarheit.'
+    exampleTranslation: 'I develop particular points with depth and clarity.'
+  - id: de-DE-C2-ACADEMIC-002-010
+    concept: 'appropriate-conclusion'
+    term: 'ein angemessener Schluss'
+    translation: 'appropriate conclusion'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich komme stets zu einem angemessenen und befriedigenden Schluss.'
+    exampleTranslation: 'I always finish with an appropriate and satisfying conclusion.'
+  - id: de-DE-C2-ACADEMIC-002-011
+    concept: 'complex-subject'
+    term: 'ein komplexes Thema'
+    translation: 'complex subject'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich behandle komplexe Themen mit Sicherheit und Kompetenz.'
+    exampleTranslation: 'I address complex subjects with confidence and competence.'
+  - id: de-DE-C2-ACADEMIC-002-012
+    concept: 'accurate-presentation'
+    term: 'eine genaue Darstellung'
+    translation: 'accurate presentation'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Meine Darstellung ist stets genau und gut belegt.'
+    exampleTranslation: 'My presentation is always accurate and well-documented.'
 grammar:
   - id: C2-ACADEMIC-002-GR01
     point: 'Writing academic texts with nuanced critique and synthesis'

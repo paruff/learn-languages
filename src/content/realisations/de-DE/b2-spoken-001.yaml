@@ -1,53 +1,53 @@
 nodeId: B2-SPOKEN-001
 lang: de-DE
 vocabulary:
-  - id: de-DE-B2-SPOKEN-001-001
-    concept: 'lecture'
-    term: 'Vortrag'
-    translation: 'lecture / presentation'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Der Vortrag war sehr informativ.'
-    exampleTranslation: 'The lecture was very informative.'
-  - id: de-DE-B2-SPOKEN-001-002
-    concept: 'line-of-argument'
-    term: 'Argumentationslinie'
-    translation: 'line of argument'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Argumentationslinie war klar.'
-    exampleTranslation: 'The line of argument was clear.'
-  - id: de-DE-B2-SPOKEN-001-003
-    concept: 'complex'
-    term: 'komplex'
-    translation: 'complex'
-    partOfSpeech: adjective
+  - id: de-DE-B2-SPOKEN-001-007
+    concept: 'to-understand-extended-speech'
+    term: 'längere Redebeiträge verstehen'
+    translation: 'to understand extended speech'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Das war ein komplexes Thema.'
-    exampleTranslation: 'That was a complex topic.'
-  - id: de-DE-B2-SPOKEN-001-004
-    concept: 'to-follow'
-    term: 'verfolgen'
-    translation: 'to follow'
-    partOfSpeech: verb
+    example: 'Ich kann längere Redebeiträge in Vorlesungen verstehen.'
+    exampleTranslation: 'I can understand extended speech in lectures.'
+  - id: de-DE-B2-SPOKEN-001-008
+    concept: 'to-follow-lines-of-argumentation'
+    term: 'Argumentationslinien folgen'
+    translation: 'to follow lines of argumentation'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich konnte die Argumentation gut verfolgen.'
-    exampleTranslation: 'I was able to follow the argumentation well.'
-  - id: de-DE-B2-SPOKEN-001-005
-    concept: 'main-argument'
-    term: 'Hauptargument'
-    translation: 'main argument'
-    partOfSpeech: noun
-    gender: neuter
-    example: 'Was ist Ihr Hauptargument?'
-    exampleTranslation: 'What is your main argument?'
-  - id: de-DE-B2-SPOKEN-001-006
-    concept: 'context'
-    term: 'Zusammenhang'
-    translation: 'context / coherence'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Der Zusammenhang war klar.'
-    exampleTranslation: 'The context was clear.'
+    example: 'Es ist wichtig, komplexen Argumentationslinien zu folgen.'
+    exampleTranslation: 'It is important to follow complex lines of argumentation.'
+  - id: de-DE-B2-SPOKEN-001-009
+    concept: 'to-identify-discussion-topics'
+    term: 'Diskussionsthemen erkennen'
+    translation: 'to identify discussion topics'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich erkenne die Diskussionsthemen in der Vorlesung.'
+    exampleTranslation: 'I will identify the discussion topics in the lecture.'
+  - id: de-DE-B2-SPOKEN-001-010
+    concept: 'to-understand-the-speech-structure'
+    term: 'den Aufbau der Rede verstehen'
+    translation: 'to understand the speech structure'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich muss den Aufbau der Rede verstehen.'
+    exampleTranslation: 'I need to understand the speech structure.'
+  - id: de-DE-B2-SPOKEN-001-011
+    concept: 'to-note-the-intonation'
+    term: 'auf die Intonation achten'
+    translation: 'to note the intonation'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Es ist nützlich, auf die Intonation zu achten, um die Haltung zu verstehen.'
+    exampleTranslation: 'It is useful to note the intonation to understand the attitude.'
+  - id: de-DE-B2-SPOKEN-001-012
+    concept: 'to-extract-relevant-information'
+    term: 'relevante Informationen herausfiltern'
+    translation: 'to extract relevant information'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich filtere die relevanten Informationen aus der Rede heraus.'
+    exampleTranslation: 'I will extract relevant information from the speech.'
 grammar: []
 culturalNotes: 'German lectures ("Vorlesungen") often follow a strict structure: introduction, main arguments, and conclusion; students are expected to follow complex chains of reasoning.'

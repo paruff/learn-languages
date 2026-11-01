@@ -14,7 +14,9 @@ interface Props {
 }
 
 const { availablePairs, currentSourceLang, currentTargetLang } = Astro.props;
-const sourceLangs = [...new Set(availablePairs.map((p) => p.sourceLang))];
+const sourceLangs = [...new Set(availablePairs.map((p) => p.sourceLang))].sort(
+  (a, b) => Number(b === 'en-GB') - Number(a === 'en-GB') || a.localeCompare(b)
+);
 const targetOptions = availablePairs.filter((p) => p.sourceLang === currentSourceLang);
 ---
 

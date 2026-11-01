@@ -1,0 +1,29 @@
+# Environment for the GitHub Copilot coding agent (AGENTS.md §12.6), so it can
+# run lint, typecheck, unit and E2E tests when fixing an issue or a failed run.
+# Copilot only picks this up from the default branch, and only a job named
+# `copilot-setup-steps`.
+name: Copilot Setup Steps
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - .github/workflows/copilot-setup-steps.yml
+
+permissions:
+  contents: read
+
+jobs:
+  copilot-setup-steps:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          # Keep in step with NODE_VERSION in pipe.yml.
+          node-version: '26'
+          cache: 'npm'
+      - run: npm ci
+      # Last on purpose: if it fails, Copilot still starts with dependencies installed.
+      - run: npx playwright install --with-deps chromium

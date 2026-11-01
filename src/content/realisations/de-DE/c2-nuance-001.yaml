@@ -1,53 +1,53 @@
 nodeId: C2-NUANCE-001
 lang: de-DE
 vocabulary:
-  - id: de-DE-C2-NUANCE-001-001
-    concept: 'nuance'
-    term: 'Feinheit'
-    translation: 'nuance / subtlety'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Feinheiten der Sprache sind wichtig.'
-    exampleTranslation: 'The nuances of language are important.'
-  - id: de-DE-C2-NUANCE-001-002
-    concept: 'connotation'
-    term: 'Konnotation'
-    translation: 'connotation'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Konnotation des Wortes ist positiv.'
-    exampleTranslation: 'The connotation of the word is positive.'
-  - id: de-DE-C2-NUANCE-001-003
-    concept: 'to-distinguish'
-    term: 'unterscheiden'
-    translation: 'to distinguish'
-    partOfSpeech: verb
+  - id: de-DE-C2-NUANCE-001-007
+    concept: 'subtle-nuances'
+    term: 'feine Nuancen'
+    translation: 'subtle nuances'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Sie kann feine Unterschiede erkennen.'
-    exampleTranslation: 'She can recognize subtle differences.'
-  - id: de-DE-C2-NUANCE-001-004
-    concept: 'graduated'
-    term: 'abgestuft'
-    translation: 'graduated / differentiated'
-    partOfSpeech: adjective
+    example: 'Ich unterscheide feine Nuancen zu jedem Thema.'
+    exampleTranslation: 'I distinguish subtle nuances on any subject.'
+  - id: de-DE-C2-NUANCE-001-008
+    concept: 'enriched-lexical-repertoire'
+    term: 'ein reichhaltiges Wortschatzrepertoire'
+    translation: 'enriched lexical repertoire'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Die Bewertung war abgestuft.'
-    exampleTranslation: 'The evaluation was graduated.'
-  - id: de-DE-C2-NUANCE-001-005
-    concept: 'nuancing'
-    term: 'Nuancierung'
-    translation: 'nuancing'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Nuancierung war präzise.'
-    exampleTranslation: 'The nuancing was precise.'
-  - id: de-DE-C2-NUANCE-001-006
-    concept: 'sensitivity'
-    term: 'Sensibilität'
-    translation: 'sensitivity'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Sprachliche Sensibilität ist wichtig.'
-    exampleTranslation: 'Linguistic sensitivity is important.'
+    example: 'Mein reichhaltiges Wortschatzrepertoire erlaubt mir völlige Präzision.'
+    exampleTranslation: 'My enriched lexical repertoire allows me total precision.'
+  - id: de-DE-C2-NUANCE-001-009
+    concept: 'precise-expression'
+    term: 'ein präziser Ausdruck'
+    translation: 'precise expression'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Mein Ausdruck ist stets präzise und gut gewählt.'
+    exampleTranslation: 'My expression is always precise and well-chosen.'
+  - id: de-DE-C2-NUANCE-001-010
+    concept: 'diverse-subjects'
+    term: 'verschiedene Themen'
+    translation: 'diverse subjects'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich behandle verschiedene Themen mit Beherrschung und Sicherheit.'
+    exampleTranslation: 'I address diverse subjects with mastery and confidence.'
+  - id: de-DE-C2-NUANCE-001-011
+    concept: 'appropriate-register'
+    term: 'das passende Register'
+    translation: 'appropriate register'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich wähle für jede Situation stets das passende Register.'
+    exampleTranslation: 'I always select the appropriate register for each situation.'
+  - id: de-DE-C2-NUANCE-001-012
+    concept: 'total-precision'
+    term: 'völlige Präzision'
+    translation: 'total precision'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich erreiche im Ausdruck stets völlige Präzision.'
+    exampleTranslation: 'I always achieve total precision in expression.'
 grammar: []
 culturalNotes: 'German culture at C2 level values "Sprachliche Feinfühligkeit" (linguistic sensitivity); understanding connotations and register differences is essential for sophisticated communication.'

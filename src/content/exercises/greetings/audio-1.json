@@ -1,9 +1,0 @@
-{
-  "id": "pt-PT-greetings-audio-001",
-  "lessonId": "A1-GREET-001",
-  "type": "audio",
-  "prompt": "Listen and select the greeting you hear",
-  "answer": "Boa tarde",
-  "audio": "/audio/greetings_boatarte.mp3",
-  "hints": ["Listen for the open 'a' in tarde"]
-}

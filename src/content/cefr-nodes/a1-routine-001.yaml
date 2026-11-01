@@ -7,4 +7,5 @@ notionalFocus: Home, daily routine, household objects
 relatedNodes:
   - A1-TIME-001
   - A1-FOOD-001
-prerequisiteNodes: []
+prerequisiteNodes:
+  - A1-TIME-001

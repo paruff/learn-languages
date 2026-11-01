@@ -5,6 +5,8 @@ import { withBase } from '../../../../lib/urls';
 import { getAvailablePairs, loadPair } from '../../../../lib/pairLoader';
 import { languageName } from '../../../../lib/languageNames';
 import { getSkillIcon } from '../../../../lib/skillIcon';
+import { orderLessons } from '../../../../lib/path';
+import ContinueCard from '../../../../components/ContinueCard.astro';
 import { getString, type StringKey } from '../../../../lib/strings';
 
 const SKILL_KEYS: Record<string, StringKey> = {
@@ -42,18 +44,17 @@ const lessons = nodes
   .filter((node) =>
     realisations.some((r) => r.data.nodeId === node.data.nodeId && r.data.lang === targetLang)
   )
-  .map((node) => node.data)
-  .sort((a, b) => a.nodeId.localeCompare(b.nodeId));
+  .map((node) => node.data);
 
 // Grouped by CEFR level (audit #1) — a flat 100+ item list gave a first-time
 // visitor no entry point and no sense of level progression.
 const LEVEL_ORDER = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 const levels = LEVEL_ORDER.map((level) => ({
   level,
-  lessons: lessons.filter((node) => node.cefrLevel === level),
+  lessons: orderLessons(lessons.filter((node) => node.cefrLevel === level)),
 })).filter((group) => group.lessons.length > 0);
 
-const firstLesson = levels[0]?.lessons[0];
+const a1Path = levels.find((g) => g.level === 'A1')?.lessons ?? [];
 const targetName = languageName(targetLang);
 ---
 
@@ -66,29 +67,21 @@ const targetName = languageName(targetLang);
 >
   <h1>{getString(sourceLang, 'lessonsTitle')}</h1>
 
-  {
-    firstLesson && (
-      <a
-        class="card lesson-index__start"
-        href={withBase(`/${sourceLang}/${targetLang}/lessons/${firstLesson.nodeId}/`)}
-      >
-        <p class="lesson-index__start-label">{getString(sourceLang, 'lessonsStartHere')}</p>
-        <p class="lesson-index__start-title">{firstLesson.canDo}</p>
-      </a>
-    )
-  }
+  <ContinueCard sourceLang={sourceLang} targetLang={targetLang} lessons={a1Path} />
 
   {
     levels.map(({ level, lessons: levelLessons }) => (
-      <section class="lesson-index__level">
-        <h2>
-          <span class={`badge badge--${level.toLowerCase()}`}>{level}</span>
-          {levelLessons.length}{' '}
-          {getString(
-            sourceLang,
-            levelLessons.length === 1 ? 'lessonCountSingular' : 'lessonCountPlural'
-          )}
-        </h2>
+      <details class="lesson-index__level" open={level === 'A1'}>
+        <summary>
+          <h2>
+            <span class={`badge badge--${level.toLowerCase()}`}>{level}</span>
+            {levelLessons.length}{' '}
+            {getString(
+              sourceLang,
+              levelLessons.length === 1 ? 'lessonCountSingular' : 'lessonCountPlural'
+            )}
+          </h2>
+        </summary>
         <ul class="lesson-index">
           {levelLessons.map((node) => (
             <li>
@@ -115,7 +108,7 @@ const targetName = languageName(targetLang);
             </li>
           ))}
         </ul>
-      </section>
+      </details>
     ))
   }
 
@@ -154,8 +147,11 @@ const targetName = languageName(targetLang);
   .lesson-index__level {
     margin-bottom: calc(var(--spacing-unit) * 3);
   }
+  .lesson-index__level summary {
+    cursor: pointer;
+  }
   .lesson-index__level h2 {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: var(--spacing-unit);
     font-size: 1.125rem;

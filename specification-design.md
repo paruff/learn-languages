@@ -1,6 +1,6 @@
 # Expert Specification & Design Document
 
-> **Status note:** written for the original EN→PT MVP build. Its architecture was designed "language-pair-agnostic" from the start (see Goal G4) — that bet paid off: the platform now supports en-GB/pt-PT/es-ES/de-DE/fr-FR with zero changes to the code this spec describes, only new content. Kept as-written for historical record; see `AGENTS.md` §1 for current state.
+> **Status note:** written for the original EN→PT MVP build. Its architecture was designed "language-pair-agnostic" from the start (see Goal G4) — that bet paid off: the platform now supports en-GB/pt-PT/es-ES/de-DE/fr-FR with zero changes to the code this spec describes, only new content. Kept as-written for historical record; see `AGENTS.md` §1 for current state. **Frozen reference:** where it disagrees with `spec.md`, `DESIGN.md` or the code, those win. §8 (UI/UX) is replaced by `DESIGN.md`.
 
 ## Portuguese Learning Platform — CEFR-Aligned, Language-Pair-Agnostic, Static-First
 
@@ -546,104 +546,7 @@ export function on(event: string, handler: (e: CustomEvent) => void) {
 
 ## 8. UI/UX Design Specification
 
-### 8.1 Design Principles
-
-1. **Content first.** Lesson text is legible, readable, and instant.
-2. **Minimal chrome.** Navigation is unobtrusive; the learner's focus is on the content.
-3. **Immediate feedback.** Every interaction (grade, pronunciation, navigation) responds within 100ms.
-4. **No dark patterns.** No streak guilt, no artificial scarcity, no forced notifications.
-5. **Accessible by default.** WCAG 2.1 AA compliance.
-
-### 8.2 Key Screens
-
-#### 8.2.1 Language Pair Home
-
-- **Purpose:** Orient the learner and provide entry points.
-- **Elements:** Language pair selector, current CEFR level indicator, "Continue where you left off" CTA, due-card count, links to Lessons / Review / Progress.
-- **Astro/Vue:** Mostly static; language selector is a small island.
-
-#### 8.2.2 Lesson View
-
-- **Purpose:** Present a CEFR node's content.
-- **Elements:** Can-Do statement as the title, vocabulary list with pronunciation buttons, grammar points with examples, cultural notes, "Add to review" CTA.
-- **Astro/Vue:** Static content; pronunciation buttons are vanilla JS islands.
-
-#### 8.2.3 Flashcard Review
-
-- **Purpose:** SRS review session.
-- **Elements:** Card front (term or translation, per direction), reveal button, four grading buttons (Again/Hard/Good/Easy), progress indicator ("7 of 20"), session summary on completion.
-- **Astro/Vue:** Full Vue island, hydrating on `client:load` when the review page is opened.
-
-#### 8.2.4 Progress Dashboard
-
-- **Purpose:** Show CEFR-aligned progress.
-- **Elements:** Per-level progress bars (A1–C2), Can-Do checklist with mastery indicators, "next recommended node" card, stats (total cards, mastered, due today).
-- **Astro/Vue:** Vue island, hydrating on `client:visible`.
-
-### 8.3 Component Contracts
-
-| Component              | Type               | Hydration        | Props                                                 |
-| ---------------------- | ------------------ | ---------------- | ----------------------------------------------------- |
-| `LanguagePairSelector` | Astro + vanilla JS | `client:load`    | `pairs: LanguagePair[]`, `current: LanguagePair`      |
-| `PronunciationButton`  | Astro + vanilla JS | `client:idle`    | `term: string`, `lang: string`                        |
-| `FlashcardReview`      | Vue                | `client:load`    | `sourceLang`, `targetLang`, `items: VocabularyItem[]` |
-| `ProgressDashboard`    | Vue                | `client:visible` | `sourceLang`, `targetLang`, `nodes: CEFRNode[]`       |
-| `CanDoChecklist`       | Vue                | `client:visible` | `nodes: CEFRNode[]`, `progress: ProgressMap`          |
-
-### 8.4 Visual Design Tokens
-
-```css
-:root {
-  /* Colour */
-  --color-bg: #fdfdfd;
-  --color-surface: #ffffff;
-  --color-text: #1a1a1a;
-  --color-text-muted: #5a5a5a;
-  --color-accent: #006b5e; /* Portuguese green */
-  --color-accent-hover: #005247;
-  --color-success: #2e7d32;
-  --color-warning: #ed6c02;
-  --color-error: #c62828;
-
-  /* Typography */
-  --font-body: 'Inter', system-ui, sans-serif;
-  --font-mono: 'JetBrains Mono', monospace;
-  --font-size-base: 1rem; /* 16px */
-  --line-height-base: 1.6;
-
-  /* Spacing (8px scale) */
-  --space-1: 0.25rem;
-  --space-2: 0.5rem;
-  --space-3: 0.75rem;
-  --space-4: 1rem;
-  --space-6: 1.5rem;
-  --space-8: 2rem;
-  --space-12: 3rem;
-
-  /* Radii */
-  --radius-sm: 4px;
-  --radius-md: 8px;
-  --radius-lg: 16px;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-bg: #121212;
-    --color-surface: #1e1e1e;
-    --color-text: #e8e8e8;
-    --color-text-muted: #a0a0a0;
-    --color-accent: #4dd0b8;
-  }
-}
-```
-
-### 8.5 Responsive Breakpoints
-
-| Breakpoint | Width      | Layout                                       |
-| ---------- | ---------- | -------------------------------------------- |
-| Mobile     | <640px     | Single column, stacked nav                   |
-| Tablet     | 640–1024px | Single column, wider margins                 |
-| Desktop    | >1024px    | Two-column lesson layout (content + sidebar) |
+Replaced by [`DESIGN.md`](DESIGN.md) (principles, tokens, components, interaction patterns). The original section described Vue islands and tokens that no longer match the code; see git history for it.
 
 ---
 

@@ -1,53 +1,53 @@
 nodeId: B2-TEXT-001
 lang: de-DE
 vocabulary:
-  - id: de-DE-B2-TEXT-001-001
-    concept: 'independence'
-    term: 'Unabhängigkeit'
-    translation: 'independence'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Er liest mit großer Unabhängigkeit.'
-    exampleTranslation: 'He reads with a great degree of independence.'
-  - id: de-DE-B2-TEXT-001-002
-    concept: 'topic-related'
-    term: 'themenbezogen'
-    translation: 'topic-related'
-    partOfSpeech: adjective
+  - id: de-DE-B2-TEXT-001-007
+    concept: 'to-read-with-independence'
+    term: 'selbstständig lesen'
+    translation: 'to read with independence'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Die Texte sind themenbezogen.'
-    exampleTranslation: 'The texts are topic-related.'
-  - id: de-DE-B2-TEXT-001-003
-    concept: 'text-comprehension'
-    term: 'Textverständnis'
-    translation: 'text comprehension'
-    partOfSpeech: noun
-    gender: neuter
-    example: 'Mein Textverständnis ist gut.'
-    exampleTranslation: 'My text comprehension is good.'
-  - id: de-DE-B2-TEXT-001-004
-    concept: 'independent'
-    term: 'unabhängig'
-    translation: 'independent'
-    partOfSpeech: adjective
+    example: 'Ich kann zu vertrauten Themen selbstständig lesen.'
+    exampleTranslation: 'I can read with independence on familiar topics.'
+  - id: de-DE-B2-TEXT-001-008
+    concept: 'to-understand-texts-of-medium-difficulty'
+    term: 'Texte mittleren Schwierigkeitsgrads verstehen'
+    translation: 'to understand texts of medium difficulty'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich lese unabhängig von Hilfsmitteln.'
-    exampleTranslation: 'I read independently of aids.'
-  - id: de-DE-B2-TEXT-001-005
-    concept: 'main-content'
-    term: 'Hauptinhalt'
-    translation: 'main content'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Was ist der Hauptinhalt?'
-    exampleTranslation: 'What is the main content?'
-  - id: de-DE-B2-TEXT-001-006
-    concept: 'to-understand'
-    term: 'verstehen'
-    translation: 'to understand'
-    partOfSpeech: verb
+    example: 'Ich werde Texte mittleren Schwierigkeitsgrads verstehen.'
+    exampleTranslation: 'I will understand texts of medium difficulty.'
+  - id: de-DE-B2-TEXT-001-009
+    concept: 'to-identify-main-ideas'
+    term: 'Hauptgedanken erkennen'
+    translation: 'to identify main ideas'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich verstehe den Text gut.'
-    exampleTranslation: 'I understand the text well.'
+    example: 'Es ist wichtig, die Hauptgedanken des Textes zu erkennen.'
+    exampleTranslation: 'It is important to identify the main ideas of the text.'
+  - id: de-DE-B2-TEXT-001-010
+    concept: 'to-use-reading-strategies'
+    term: 'Lesestrategien anwenden'
+    translation: 'to use reading strategies'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich wende Lesestrategien an, um besser zu verstehen.'
+    exampleTranslation: 'I will use reading strategies to understand better.'
+  - id: de-DE-B2-TEXT-001-011
+    concept: 'to-read-critically'
+    term: 'kritisch lesen'
+    translation: 'to read critically'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich muss kritisch lesen, um zu beurteilen.'
+    exampleTranslation: 'I need to read critically to evaluate.'
+  - id: de-DE-B2-TEXT-001-012
+    concept: 'to-adapt-the-reading-pace'
+    term: 'das Lesetempo anpassen'
+    translation: 'to adapt the reading pace'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich passe das Lesetempo an die Textsorte an.'
+    exampleTranslation: 'I will adapt the reading pace to the type of text.'
 grammar: []
 culturalNotes: 'German academic reading at B2 requires understanding "Fachliteratur" (specialized literature) and the ability to work with complex sentence structures typical of German prose.'

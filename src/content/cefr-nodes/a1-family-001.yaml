@@ -7,4 +7,5 @@ notionalFocus: Family, relationships, physical appearance
 relatedNodes:
   - A1-INTRO-002
   - A1-FOOD-001
-prerequisiteNodes: []
+prerequisiteNodes:
+  - A1-INTRO-001

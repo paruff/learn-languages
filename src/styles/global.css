@@ -424,3 +424,8 @@ button {
 .skip-link:focus {
   top: var(--spacing-unit);
 }
+
+/* <main> takes focus only as the skip link's target; it isn't a control, so no ring. */
+#main:focus {
+  outline: none;
+}

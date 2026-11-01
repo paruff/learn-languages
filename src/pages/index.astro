@@ -5,6 +5,8 @@ import { withBase } from '../lib/urls';
 import { getAvailablePairs } from '../lib/pairLoader';
 import { languageName } from '../lib/languageNames';
 import { resolvePair } from '../lib/pairResolve';
+import { orderLessons } from '../lib/path';
+import ContinueCard from '../components/ContinueCard.astro';
 
 // The homepage isn't routed per language pair. Statically it links to the
 // product default (en-GB→pt-PT); a learner's saved pair is applied by the
@@ -17,13 +19,14 @@ const [nodes, realisations] = await Promise.all([
   getCollection('cefr-nodes'),
   getCollection('realisations'),
 ]);
-const firstLesson = nodes
-  .filter((node) => node.data.cefrLevel === 'A1')
-  .filter((node) =>
-    realisations.some((r) => r.data.nodeId === node.data.nodeId && r.data.lang === targetLang)
-  )
-  .map((node) => node.data)
-  .sort((a, b) => a.nodeId.localeCompare(b.nodeId))[0];
+const a1Path = orderLessons(
+  nodes
+    .filter((node) => node.data.cefrLevel === 'A1')
+    .filter((node) =>
+      realisations.some((r) => r.data.nodeId === node.data.nodeId && r.data.lang === targetLang)
+    )
+    .map((node) => node.data)
+);
 ---
 
 <BaseLayout
@@ -51,19 +54,21 @@ const firstLesson = nodes
     <div class="hero__content">
       <h1 id="hero-title">Learn {targetName} with Science</h1>
       <p class="hero__subtitle">
-        Evidence-based lessons built on second-language acquisition research, spaced repetition, and
-        cognitive load theory. No gamification — just effective acquisition.
+        Short lessons, smart reviews and real practice — built on what research says works. No
+        streaks or ads.
       </p>
-      <a
-        href={withBase(`/${sourceLang}/${targetLang}/lessons/`)}
-        data-pair-path="lessons/"
-        class="btn btn--primary">Start your first lesson (2 min)</a
-      >
+      <ContinueCard
+        sourceLang={sourceLang}
+        targetLang={targetLang}
+        lessons={a1Path}
+        usePreference
+      />
     </div>
   </section>
 
   <section class="features" aria-labelledby="features-title">
     <h2 id="features-title" class="sr-only">Why this works</h2>
+    <p><a href={withBase('/why-this-works/')}>Why this works</a></p>
     <div class="features__grid">
       <article class="card feature">
         <svg
@@ -80,11 +85,8 @@ const firstLesson = nodes
             d="M4 5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-4 4v-4H6a2 2 0 0 1-2-2V5z"
           ></path>
         </svg>
-        <h3>Comprehensible Input</h3>
-        <p>
-          Lessons designed at i+1 level — challenging but understandable. Based on Krashen's Input
-          Hypothesis.
-        </p>
+        <h3>Understandable Lessons</h3>
+        <p>Each lesson is just a little harder than the last — challenging but understandable.</p>
       </article>
       <article class="card feature">
         <svg
@@ -104,8 +106,8 @@ const firstLesson = nodes
         </svg>
         <h3>Spaced Repetition</h3>
         <p>
-          SM-2 algorithm schedules reviews for optimal retention. No backend — runs entirely in your
-          browser.
+          Words come back just before you'd forget them. Everything stays in your browser — no
+          account needed.
         </p>
       </article>
       <article class="card feature">
@@ -122,12 +124,12 @@ const firstLesson = nodes
           <circle cx="12" cy="12" r="9"></circle>
           <path d="M15.5 8.5l-2 5-5 2 2-5z"></path>
         </svg>
-        <h3>Autonomy & Competence</h3>
+        <h3>Your Pace</h3>
         <p>
           Self-paced with{' '}
           <a href={withBase(`/${sourceLang}/${targetLang}/progress/`)} data-pair-path="progress/"
             >clear progress tracking</a
-          >. Built on Self-Determination Theory for sustained motivation.
+          >, at your own pace.
         </p>
       </article>
       <article class="card feature">
@@ -145,30 +147,12 @@ const firstLesson = nodes
           <path d="M2 12l10 5 10-5"></path>
           <path d="M2 17l10 5 10-5"></path>
         </svg>
-        <h3>Cognitive Load Optimized</h3>
-        <p>
-          Multimedia principles applied: integrated audio/text, minimal extraneous load, coherence
-          signaling.
-        </p>
+        <h3>Easy on the Brain</h3>
+        <p>Audio and text together, with nothing extra to distract you.</p>
       </article>
     </div>
   </section>
-
-  {
-    firstLesson && (
-      <section class="cta" aria-labelledby="cta-title">
-        <h2 id="cta-title">Ready to begin?</h2>
-        <p>Start with: {firstLesson.canDo}</p>
-        <a
-          href={withBase(`/${sourceLang}/${targetLang}/lessons/${firstLesson.nodeId}/`)}
-          data-pair-path={`lessons/${firstLesson.nodeId}/`}
-          class="btn btn--primary"
-        >
-          First Lesson →
-        </a>
-      </section>
-    )
-  }
+  <script type="application/json" id="valid-pairs" set:html={JSON.stringify(pairs)} />
 </BaseLayout>
 
 <script>

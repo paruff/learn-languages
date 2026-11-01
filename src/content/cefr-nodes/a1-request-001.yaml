@@ -7,4 +7,5 @@ notionalFocus: Requests, commands, politeness formulas
 relatedNodes:
   - A1-OFFER-001
   - A1-SORRY-001
-prerequisiteNodes: []
+prerequisiteNodes:
+  - A1-GREET-001

@@ -1,53 +1,53 @@
 nodeId: C1-SPOKEN-001
 lang: de-DE
 vocabulary:
-  - id: de-DE-C1-SPOKEN-001-001
-    concept: 'lecture'
-    term: 'Vortrag'
-    translation: 'lecture / presentation'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Der Vortrag war sehr informativ.'
-    exampleTranslation: 'The lecture was very informative.'
-  - id: de-DE-C1-SPOKEN-001-002
-    concept: 'line-of-argument'
-    term: 'Argumentationslinie'
-    translation: 'line of argument'
+  - id: de-DE-C1-SPOKEN-001-007
+    concept: 'detailed-narrative'
+    term: 'die ausführliche Erzählung'
+    translation: 'detailed narrative'
     partOfSpeech: noun
     gender: feminine
-    example: 'Die Argumentationslinie war klar.'
-    exampleTranslation: 'The line of argument was clear.'
-  - id: de-DE-C1-SPOKEN-001-003
-    concept: 'complex'
-    term: 'komplex'
-    translation: 'complex'
-    partOfSpeech: adjective
-    gender: n/a
-    example: 'Das war ein komplexes Thema.'
-    exampleTranslation: 'That was a complex topic.'
-  - id: de-DE-C1-SPOKEN-001-004
-    concept: 'to-follow'
-    term: 'verfolgen'
-    translation: 'to follow'
-    partOfSpeech: verb
-    gender: n/a
-    example: 'Ich konnte die Argumentation gut verfolgen.'
-    exampleTranslation: 'I was able to follow the argumentation well.'
-  - id: de-DE-C1-SPOKEN-001-005
-    concept: 'main-argument'
-    term: 'Hauptargument'
-    translation: 'main argument'
-    partOfSpeech: noun
-    gender: neuter
-    example: 'Was ist Ihr Hauptargument?'
-    exampleTranslation: 'What is your main argument?'
-  - id: de-DE-C1-SPOKEN-001-006
-    concept: 'context'
-    term: 'Zusammenhang'
-    translation: 'context / coherence'
+    example: 'Die ausführliche Erzählung von der Reise begeisterte die Gäste.'
+    exampleTranslation: 'The detailed narrative of the journey delighted the guests.'
+  - id: de-DE-C1-SPOKEN-001-008
+    concept: 'background'
+    term: 'der Hintergrund'
+    translation: 'background'
     partOfSpeech: noun
     gender: masculine
-    example: 'Der Zusammenhang war klar.'
-    exampleTranslation: 'The context was clear.'
+    example: 'Der Hintergrund der Erzählung ist die Wirtschaftskrise der Neunzigerjahre.'
+    exampleTranslation: 'The background of the account is the economic crisis of the nineties.'
+  - id: de-DE-C1-SPOKEN-001-009
+    concept: 'to-develop-a-sub-theme'
+    term: 'ein Nebenthema ausführen'
+    translation: 'to develop a sub-theme'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Er führte ein Nebenthema aus, mit dem niemand gerechnet hatte, und fesselte alle.'
+    exampleTranslation: "He developed a sub-theme nobody expected and captured everyone's attention."
+  - id: de-DE-C1-SPOKEN-001-010
+    concept: 'to-round-off-the-story'
+    term: 'die Geschichte abrunden'
+    translation: 'to round off the story'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Er rundete die Geschichte mit einer überraschenden Überlegung ab.'
+    exampleTranslation: 'He rounded off the story with a surprising reflection.'
+  - id: de-DE-C1-SPOKEN-001-011
+    concept: 'to-offer-reflections'
+    term: 'Überlegungen beisteuern'
+    translation: 'to offer reflections'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Im Verlauf des Gesprächs steuerte er treffende Überlegungen zum Thema bei.'
+    exampleTranslation: 'Throughout the conversation, he offered pertinent reflections on the matter.'
+  - id: de-DE-C1-SPOKEN-001-012
+    concept: 'vivid-description'
+    term: 'die lebhafte Beschreibung'
+    translation: 'vivid description'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Seine lebhafte Beschreibung des Wochenmarkts ließ uns glauben, wir seien dort.'
+    exampleTranslation: 'His vivid description of the local market made us feel we were there.'
 grammar: []
 culturalNotes: 'German lectures ("Vorlesungen") at C1 level follow strict structures; students are expected to follow complex chains of reasoning and engage critically with the material.'

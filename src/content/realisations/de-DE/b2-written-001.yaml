@@ -1,54 +1,54 @@
 nodeId: B2-WRITTEN-001
 lang: de-DE
 vocabulary:
-  - id: de-DE-B2-WRITTEN-001-001
-    concept: 'text'
-    term: 'Text'
-    translation: 'text'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Ich schreibe einen klaren Text.'
-    exampleTranslation: 'I am writing a clear text.'
-  - id: de-DE-B2-WRITTEN-001-002
-    concept: 'topic'
-    term: 'Thema'
-    translation: 'topic'
-    partOfSpeech: noun
-    gender: neuter
-    example: 'Ich schreibe über ein breites Thema.'
-    exampleTranslation: 'I am writing about a wide range of topics.'
-  - id: de-DE-B2-WRITTEN-001-003
-    concept: 'detailed'
-    term: 'detailliert'
-    translation: 'detailed'
-    partOfSpeech: adjective
+  - id: de-DE-B2-WRITTEN-001-007
+    concept: 'to-write-clear-and-detailed-texts'
+    term: 'klare und detaillierte Texte schreiben'
+    translation: 'to write clear and detailed texts'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Der Text war sehr detailliert.'
-    exampleTranslation: 'The text was very detailed.'
-  - id: de-DE-B2-WRITTEN-001-004
-    concept: 'structured'
-    term: 'strukturiert'
-    translation: 'structured'
-    partOfSpeech: adjective
+    example: 'Ich kann klare und detaillierte Texte zu verschiedenen Themen schreiben.'
+    exampleTranslation: 'I can write clear and detailed texts on various topics.'
+  - id: de-DE-B2-WRITTEN-001-008
+    concept: 'to-develop-the-writing'
+    term: 'den Text ausbauen'
+    translation: 'to develop the writing'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Der Text war klar strukturiert.'
-    exampleTranslation: 'The text was clearly structured.'
-  - id: de-DE-B2-WRITTEN-001-005
-    concept: 'to-write'
-    term: 'verfassen'
-    translation: 'to write / to compose'
-    partOfSpeech: verb
+    example: 'Ich baue den Text mit mehr Einzelheiten aus.'
+    exampleTranslation: 'I will develop the writing with more details.'
+  - id: de-DE-B2-WRITTEN-001-009
+    concept: 'to-use-varied-vocabulary'
+    term: 'abwechslungsreichen Wortschatz verwenden'
+    translation: 'to use varied vocabulary'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich verfasse einen Essay über das Thema.'
-    exampleTranslation: 'I am writing an essay on the topic.'
-  - id: de-DE-B2-WRITTEN-001-006
-    concept: 'main-idea'
-    term: 'Hauptgedanke'
-    translation: 'main idea'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Was ist der Hauptgedanke?'
-    exampleTranslation: 'What is the main idea?'
+    example: 'Es ist wichtig, beim Schreiben einen abwechslungsreichen Wortschatz zu verwenden.'
+    exampleTranslation: 'It is important to use varied vocabulary in writing.'
+  - id: de-DE-B2-WRITTEN-001-010
+    concept: 'to-structure-paragraphs'
+    term: 'Absätze gliedern'
+    translation: 'to structure paragraphs'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich muss Absätze logisch gliedern.'
+    exampleTranslation: 'I need to structure paragraphs logically.'
+  - id: de-DE-B2-WRITTEN-001-011
+    concept: 'to-use-appropriate-connectors'
+    term: 'passende Konnektoren verwenden'
+    translation: 'to use appropriate connectors'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich verwende passende Konnektoren, um Gedanken zu verbinden.'
+    exampleTranslation: 'I will use appropriate connectors to connect ideas.'
+  - id: de-DE-B2-WRITTEN-001-012
+    concept: 'to-rewrite-to-improve'
+    term: 'zur Verbesserung umschreiben'
+    translation: 'to rewrite to improve'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Es ist nützlich, einen Text zur Verbesserung umzuschreiben.'
+    exampleTranslation: 'It is useful to rewrite to improve the text.'
 grammar:
   - id: B2-WRITTEN-001-GR01
     point: 'Writing clear, detailed text on a wide range of subjects'

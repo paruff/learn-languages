@@ -9,6 +9,9 @@ import {
   readJson,
   exportProgress,
   importProgress,
+  requestPersistence,
+  shouldShowPersistHint,
+  dismissPersistHint,
 } from './storage';
 import { createInitialState } from '../utils/srs';
 
@@ -142,5 +145,47 @@ describe('progress export/import (spec S5)', () => {
     });
     expect(importProgress(file)).toEqual({ ok: true, count: 1 });
     expect(window.localStorage.getItem('evil')).toBeNull();
+  });
+});
+
+describe('persistent storage (spec S8)', () => {
+  beforeEach(() => {
+    window.localStorage.clear();
+    vi.unstubAllGlobals();
+  });
+
+  function stubStorage(persist: () => Promise<boolean>) {
+    const spy = vi.fn(persist);
+    vi.stubGlobal('navigator', { storage: { persist: spy } });
+    return spy;
+  }
+
+  it('requests persistence once, however many cards are graded', async () => {
+    const persist = stubStorage(async () => true);
+    await requestPersistence();
+    await requestPersistence();
+    expect(persist).toHaveBeenCalledTimes(1);
+    expect(shouldShowPersistHint()).toBe(false);
+  });
+
+  it('shows the hint when the browser refuses, until dismissed', async () => {
+    stubStorage(async () => false);
+    expect(shouldShowPersistHint()).toBe(false); // not asked yet
+    await requestPersistence();
+    expect(shouldShowPersistHint()).toBe(true);
+    dismissPersistHint();
+    expect(shouldShowPersistHint()).toBe(false);
+  });
+
+  it('treats a missing or throwing API as refused, without throwing', async () => {
+    vi.stubGlobal('navigator', {});
+    await expect(requestPersistence()).resolves.toBe(false);
+    expect(shouldShowPersistHint()).toBe(true);
+
+    window.localStorage.clear();
+    stubStorage(async () => {
+      throw new Error('nope');
+    });
+    await expect(requestPersistence()).resolves.toBe(false);
   });
 });

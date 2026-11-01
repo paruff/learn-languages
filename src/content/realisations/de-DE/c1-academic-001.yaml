@@ -1,54 +1,54 @@
 nodeId: C1-ACADEMIC-001
 lang: de-DE
 vocabulary:
-  - id: de-DE-C1-ACADEMIC-001-001
-    concept: 'dissertation'
-    term: 'Dissertation'
-    translation: 'dissertation'
+  - id: de-DE-C1-ACADEMIC-001-007
+    concept: 'academic-dissertation'
+    term: 'die wissenschaftliche Abhandlung'
+    translation: 'academic dissertation'
     partOfSpeech: noun
     gender: feminine
-    example: 'Sie schreibt ihre Dissertation über quantitative Analyse.'
-    exampleTranslation: 'She is writing her dissertation on quantitative analysis.'
-  - id: de-DE-C1-ACADEMIC-001-002
-    concept: 'report'
-    term: 'Bericht'
-    translation: 'report'
+    example: 'Die wissenschaftliche Abhandlung verbindet Theorie und empirische Daten.'
+    exampleTranslation: 'The academic dissertation articulates theory and empirical data.'
+  - id: de-DE-C1-ACADEMIC-001-008
+    concept: 'body-of-sources'
+    term: 'der Quellenbestand'
+    translation: 'body of sources'
     partOfSpeech: noun
     gender: masculine
-    example: 'Der Bericht präsentiert die Ergebnisse der Studie.'
-    exampleTranslation: 'The report presents the results of the study.'
-  - id: de-DE-C1-ACADEMIC-001-003
-    concept: 'synthesis'
-    term: 'Synthese'
-    translation: 'synthesis'
+    example: 'Der Bestand an herangezogenen Quellen ist breit und glaubwürdig.'
+    exampleTranslation: 'The body of sources consulted is broad and credible.'
+  - id: de-DE-C1-ACADEMIC-001-009
+    concept: 'theoretical-framework'
+    term: 'der theoretische Rahmen'
+    translation: 'theoretical framework'
     partOfSpeech: noun
-    gender: feminine
-    example: 'Die Synthese der Quellen war überzeugend.'
-    exampleTranslation: 'The synthesis of the sources was convincing.'
-  - id: de-DE-C1-ACADEMIC-001-004
-    concept: 'conclusion'
-    term: 'Schlussfolgerung'
-    translation: 'conclusion'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Schlussfolgerung war logisch und gut begründet.'
-    exampleTranslation: 'The conclusion was logical and well-founded.'
-  - id: de-DE-C1-ACADEMIC-001-005
-    concept: 'sources'
-    term: 'Quellen'
-    translation: 'sources'
-    partOfSpeech: noun
+    gender: masculine
+    example: 'Der theoretische Rahmen trägt die gesamte weitere Analyse.'
+    exampleTranslation: 'The theoretical framework underpins all subsequent analysis.'
+  - id: de-DE-C1-ACADEMIC-001-010
+    concept: 'to-gather-evidence'
+    term: 'Belege sammeln'
+    translation: 'to gather evidence'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Er hat seine Quellen sorgfältig ausgewählt.'
-    exampleTranslation: 'He has carefully selected his sources.'
-  - id: de-DE-C1-ACADEMIC-001-006
-    concept: 'to-justify'
-    term: 'begründen'
-    translation: 'to justify / to substantiate'
-    partOfSpeech: verb
+    example: 'Das zweite Kapitel sammelt entscheidende Belege für die Hypothese.'
+    exampleTranslation: 'Chapter two gathers decisive evidence for the hypothesis.'
+  - id: de-DE-C1-ACADEMIC-001-011
+    concept: 'to-synthesise-the-findings'
+    term: 'die Ergebnisse zusammenführen'
+    translation: 'to synthesise the findings'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Sie kann ihre Schlussfolgerungen gut begründen.'
-    exampleTranslation: 'She can well justify her conclusions.'
+    example: 'Das Fazit führt die Ergebnisse der untersuchten Autoren zusammen.'
+    exampleTranslation: 'The conclusion synthesises the findings of the authors studied.'
+  - id: de-DE-C1-ACADEMIC-001-012
+    concept: 'original-contribution'
+    term: 'der eigenständige Beitrag'
+    translation: 'original contribution'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der eigenständige Beitrag der Arbeit liegt im beispiellosen Vergleich.'
+    exampleTranslation: 'The original contribution of the work lies in the unprecedented comparison.'
 grammar:
   - id: C1-ACADEMIC-001-GR01
     point: 'Presenting reasoned conclusions in academic writing'

@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from './fixtures';
 
 const REVIEW_URL = '/learn-languages/en-GB/pt-PT/review/';
 const PROGRESS_URL = '/learn-languages/en-GB/pt-PT/progress/';
@@ -26,6 +26,36 @@ test.describe('progress page', () => {
     expect(stored.quality).toBe(3);
   });
 
+  test('"next up" picks an unmastered prerequisite, not its dependent (L12)', async ({ page }) => {
+    await page.goto(PROGRESS_URL);
+    // Master every card except A1-CAPAB-001 (needs A1-WANT-001) and A1-WANT-001 itself.
+    await page.evaluate(() => {
+      const data = JSON.parse(document.getElementById('progress-data')!.textContent!);
+      const state = JSON.stringify({
+        interval: 6,
+        easeFactor: 2.5,
+        repetitions: 3,
+        dueDate: '2999-01-01',
+      });
+      for (const item of data.trackedItems as { itemId: string; nodeId: string }[]) {
+        if (item.nodeId === 'A1-CAPAB-001' || item.nodeId === 'A1-WANT-001') continue;
+        window.localStorage.setItem(`srs:en-GB:pt-PT:forward:${item.itemId}`, state);
+      }
+    });
+    await page.reload();
+    const canDo = (id: string) =>
+      page.evaluate(
+        (nodeId) =>
+          JSON.parse(document.getElementById('progress-data')!.textContent!).trackedItems.find(
+            (i: { nodeId: string }) => i.nodeId === nodeId
+          ).canDo,
+        id
+      );
+    const next = page.locator('#progress-next');
+    await expect(next).toContainText(await canDo('A1-WANT-001'));
+    await expect(next).not.toContainText(await canDo('A1-CAPAB-001'));
+  });
+
   test('shows a calibration note when recent over-confidence breaks exist', async ({ page }) => {
     await page.evaluate(() => {
       window.localStorage.setItem(
@@ -43,5 +73,24 @@ test.describe('progress page', () => {
   test('hides the calibration note when there are no recent breaks', async ({ page }) => {
     await page.goto(PROGRESS_URL);
     await expect(page.locator('#progress-calibration')).toBeHidden();
+  });
+
+  test('leads with the A1 Can-Do checklist, later levels collapsed (J3)', async ({ page }) => {
+    await page.goto(PROGRESS_URL);
+    const levels = page.locator('#progress-cando details');
+    await expect(levels.first()).toHaveJSProperty('open', true);
+    await expect(levels.first().locator('summary')).toContainText('A1');
+    await expect(levels.first().locator('.cando__item').first()).toContainText('Studied');
+    await expect(levels.nth(1)).toHaveJSProperty('open', false);
+  });
+
+  test('the Listen button plays the recorded pt-PT audio for the answer', async ({ page }) => {
+    await page.goto(REVIEW_URL);
+    await page.locator('#review-reveal').click();
+    const button = page.locator('#review-pronounce');
+    await expect(button).toContainText('Listen');
+    const audio = page.waitForResponse((r) => r.url().includes('/audio/pt-PT/') && r.ok());
+    await button.click();
+    await audio;
   });
 });

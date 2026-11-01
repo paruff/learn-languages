@@ -1,53 +1,53 @@
 nodeId: B2-SPOKEN-002
 lang: de-DE
 vocabulary:
-  - id: de-DE-B2-SPOKEN-002-001
-    concept: 'news-broadcast'
-    term: 'Nachrichtensendung'
-    translation: 'news broadcast'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Nachrichtensendung war um acht Uhr.'
-    exampleTranslation: "The news broadcast was at eight o'clock."
-  - id: de-DE-B2-SPOKEN-002-002
-    concept: 'current-affairs'
-    term: 'Aktuelle'
-    translation: 'current affairs'
-    partOfSpeech: noun
+  - id: de-DE-B2-SPOKEN-002-007
+    concept: 'to-understand-tv-news'
+    term: 'die Nachrichten im Fernsehen verstehen'
+    translation: 'to understand TV news'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Die Sendung beschäftigt sich mit Aktuellen.'
-    exampleTranslation: 'The program deals with current affairs.'
-  - id: de-DE-B2-SPOKEN-002-003
-    concept: 'film'
-    term: 'Film'
-    translation: 'film / movie'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Der Film war sehr spannend.'
-    exampleTranslation: 'The film was very exciting.'
-  - id: de-DE-B2-SPOKEN-002-004
-    concept: 'to-understand'
-    term: 'verstehen'
-    translation: 'to understand'
-    partOfSpeech: verb
+    example: 'Ich kann die Fernsehnachrichten zu aktuellen Themen verstehen.'
+    exampleTranslation: 'I can understand TV news on current topics.'
+  - id: de-DE-B2-SPOKEN-002-008
+    concept: 'to-follow-current-affairs-programmes'
+    term: 'aktuelle Sendungen verfolgen'
+    translation: 'to follow current affairs programmes'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich verstehe die meisten Filme.'
-    exampleTranslation: 'I understand most films.'
-  - id: de-DE-B2-SPOKEN-002-005
-    concept: 'content'
-    term: 'Inhalt'
-    translation: 'content'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Der Inhalt war interessant.'
-    exampleTranslation: 'The content was interesting.'
-  - id: de-DE-B2-SPOKEN-002-006
-    concept: 'news-anchor'
-    term: 'Nachrichtensprecher'
-    translation: 'news anchor'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Der Nachrichtensprecher war klar und deutlich.'
-    exampleTranslation: 'The news anchor was clear and articulate.'
+    example: 'Ich verfolge diese Woche aktuelle Magazinsendungen.'
+    exampleTranslation: 'I will follow current affairs programmes this week.'
+  - id: de-DE-B2-SPOKEN-002-009
+    concept: 'to-understand-films-without-subtitles'
+    term: 'Filme ohne Untertitel verstehen'
+    translation: 'to understand films without subtitles'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich muss Filme ohne Untertitel verstehen können.'
+    exampleTranslation: 'I need to understand films without subtitles.'
+  - id: de-DE-B2-SPOKEN-002-010
+    concept: 'to-identify-the-main-theme'
+    term: 'das Hauptthema erkennen'
+    translation: 'to identify the main theme'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Es ist wichtig, das Hauptthema des Berichts zu erkennen.'
+    exampleTranslation: 'It is important to identify the main theme of the report.'
+  - id: de-DE-B2-SPOKEN-002-011
+    concept: 'to-understand-cultural-references'
+    term: 'kulturelle Anspielungen verstehen'
+    translation: 'to understand cultural references'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Es ist nützlich, kulturelle Anspielungen in den Nachrichten zu verstehen.'
+    exampleTranslation: 'It is useful to understand cultural references in the news.'
+  - id: de-DE-B2-SPOKEN-002-012
+    concept: 'to-synthesise-oral-information'
+    term: 'Gehörtes zusammenfassen'
+    translation: 'to synthesise oral information'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich fasse die gehörten Informationen zusammen.'
+    exampleTranslation: 'I will synthesise the oral information I heard.'
 grammar: []
 culturalNotes: 'German TV news ("Tagesschau", " heute-show") uses formal Hochdeutsch; regional dialects are rare in news broadcasts, making them excellent listening practice.'

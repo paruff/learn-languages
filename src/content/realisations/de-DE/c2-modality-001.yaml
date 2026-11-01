@@ -1,54 +1,54 @@
 nodeId: C2-MODALITY-001
 lang: de-DE
 vocabulary:
-  - id: de-DE-C2-MODALITY-001-001
-    concept: 'subjunctive-ii'
-    term: 'Konjunktiv II'
-    translation: 'subjunctive II'
+  - id: de-DE-C2-MODALITY-001-007
+    concept: 'spontaneous-expression'
+    term: 'der spontane Ausdruck'
+    translation: 'spontaneous expression'
     partOfSpeech: noun
     gender: masculine
-    example: 'Der Konjunktiv II wird für hypothetische Aussagen verwendet.'
-    exampleTranslation: 'The subjunctive II is used for hypothetical statements.'
-  - id: de-DE-C2-MODALITY-001-002
-    concept: 'hypothetical'
-    term: 'hypothisch'
-    translation: 'hypothetical'
-    partOfSpeech: adjective
+    example: 'Mein spontaner Ausdruck ist jetzt präzise und flüssig.'
+    exampleTranslation: 'My spontaneous expression is now precise and fluent.'
+  - id: de-DE-C2-MODALITY-001-008
+    concept: 'native-fluency'
+    term: 'muttersprachliche Flüssigkeit'
+    translation: 'native fluency'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Das ist eine hypothetische Aussage.'
-    exampleTranslation: 'That is a hypothetical statement.'
-  - id: de-DE-C2-MODALITY-001-003
-    concept: 'wish-form'
-    term: 'Wunschform'
-    translation: 'wish form'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Wunschform wird oft verwendet.'
-    exampleTranslation: 'The wish form is often used.'
-  - id: de-DE-C2-MODALITY-001-004
-    concept: 'unreal'
-    term: 'irreal'
-    translation: 'unreal / counterfactual'
-    partOfSpeech: adjective
+    example: 'Ich spreche mit muttersprachlicher Flüssigkeit, auch in komplexen Situationen.'
+    exampleTranslation: 'I speak with native fluency even in complex situations.'
+  - id: de-DE-C2-MODALITY-001-009
+    concept: 'shades-of-meaning'
+    term: 'Bedeutungsschattierungen'
+    translation: 'shades of meaning'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Das ist eine irrealistische Vorstellung.'
-    exampleTranslation: 'That is an unrealistic idea.'
-  - id: de-DE-C2-MODALITY-001-005
-    concept: 'past'
-    term: 'Vergangenheit'
-    translation: 'past'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Vergangenheit ist unveränderlich.'
-    exampleTranslation: 'The past is unchangeable.'
-  - id: de-DE-C2-MODALITY-001-006
-    concept: 'to-condition'
-    term: 'bedingen'
-    translation: 'to condition / to require'
-    partOfSpeech: verb
+    example: 'Ich unterscheide Bedeutungsschattierungen in jedem Kontext.'
+    exampleTranslation: 'I distinguish shades of meaning in any context.'
+  - id: de-DE-C2-MODALITY-001-010
+    concept: 'broad-lexical-repertoire'
+    term: 'ein breites Repertoire an Wortschatz'
+    translation: 'broad lexical repertoire'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Die Situation bedingt eine Änderung.'
-    exampleTranslation: 'The situation requires a change.'
+    example: 'Mein breites Wortschatzrepertoire erlaubt mir völlige Präzision.'
+    exampleTranslation: 'My broad lexical repertoire allows me total precision.'
+  - id: de-DE-C2-MODALITY-001-011
+    concept: 'complex-situations'
+    term: 'komplexe Situationen'
+    translation: 'complex situations'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich bleibe auch in den komplexesten Situationen flüssig.'
+    exampleTranslation: 'I maintain fluency even in the most complex situations.'
+  - id: de-DE-C2-MODALITY-001-012
+    concept: 'linguistic-precision'
+    term: 'die sprachliche Präzision'
+    translation: 'linguistic precision'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Meine sprachliche Präzision ist mit der eines Muttersprachlers vergleichbar.'
+    exampleTranslation: 'My linguistic precision is comparable to that of a native speaker.'
 grammar:
   - id: C2-MODALITY-001-GR01
     point: 'Using advanced subjunctive and hypothetical structures'

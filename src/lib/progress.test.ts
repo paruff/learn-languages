@@ -22,6 +22,18 @@ describe('computeCefrProgress', () => {
     ]);
   });
 
+  it('recommends an unmastered prerequisite first (L12)', () => {
+    const its: TrackedItem[] = [
+      { itemId: 'x', nodeId: 'A1-B', cefrLevel: 'A1', canDo: 'B', repetitions: 0 },
+      { itemId: 'y', nodeId: 'A1-A', cefrLevel: 'A1', canDo: 'A', repetitions: 0 },
+    ];
+    const pre = { 'A1-B': ['A1-A', 'A1-GONE'] };
+    expect(computeCefrProgress(its, pre).nextRecommended?.nodeId).toBe('A1-A');
+    its[1].repetitions = 2;
+    expect(computeCefrProgress(its, pre).nextRecommended?.nodeId).toBe('A1-B');
+    expect(computeCefrProgress(its, { 'A1-B': ['A1-B'] }).nextRecommended?.nodeId).toBe('A1-B');
+  });
+
   it('recommends the first unmastered node in level order', () => {
     const { nextRecommended } = computeCefrProgress(items);
     expect(nextRecommended).toEqual({
@@ -94,5 +106,43 @@ describe('computeOverallMastery', () => {
       totalItems: 2,
       percent: 100,
     });
+  });
+});
+
+describe('computeCanDoChecklist', () => {
+  const item = (itemId: string, nodeId: string, cefrLevel: string, repetitions: number) => ({
+    itemId,
+    nodeId,
+    cefrLevel,
+    canDo: `Can do ${nodeId}`,
+    repetitions,
+  });
+  it('lists Can-Dos per level in id order with studied/practised/remembered flags', async () => {
+    const { computeCanDoChecklist } = await import('./progress');
+    const items = [
+      item('x1', 'A1-B-002', 'A1', 0),
+      item('x2', 'A1-A-001', 'A1', 1),
+      item('x3', 'A2-A-001', 'A2', 0),
+    ];
+    const levels = computeCanDoChecklist(items, new Set(['A1-A-001']), new Set(['x2']));
+    expect(levels.map((l) => l.cefrLevel)).toEqual(['A1', 'A2']);
+    expect(levels[0].canDos).toEqual([
+      {
+        nodeId: 'A1-A-001',
+        canDo: 'Can do A1-A-001',
+        studied: true,
+        practised: true,
+        remembered: true,
+      },
+      {
+        nodeId: 'A1-B-002',
+        canDo: 'Can do A1-B-002',
+        studied: false,
+        practised: false,
+        remembered: false,
+      },
+    ]);
+    expect(levels[0].current).toBe(true);
+    expect(levels[1].current).toBe(false);
   });
 });

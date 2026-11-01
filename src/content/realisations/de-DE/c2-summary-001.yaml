@@ -1,53 +1,53 @@
 nodeId: C2-SUMMARY-001
 lang: de-DE
 vocabulary:
-  - id: de-DE-C2-SUMMARY-001-001
-    concept: 'summary'
-    term: 'Zusammenfassung'
-    translation: 'summary'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Zusammenfassung war klar und prägnant.'
-    exampleTranslation: 'The summary was clear and concise.'
-  - id: de-DE-C2-SUMMARY-001-002
-    concept: 'key-points'
-    term: 'Kernpunkte'
-    translation: 'key points'
-    partOfSpeech: noun
+  - id: de-DE-C2-SUMMARY-001-007
+    concept: 'concise-summary'
+    term: 'eine knappe Zusammenfassung'
+    translation: 'concise summary'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Die Kernpunkte wurden hervorgehoben.'
-    exampleTranslation: 'The key points were highlighted.'
-  - id: de-DE-C2-SUMMARY-001-003
-    concept: 'to-summarize'
-    term: 'zusammenfassen'
-    translation: 'to summarize'
-    partOfSpeech: verb
+    example: 'Ich erstelle eine knappe Zusammenfassung umfangreicher Informationen.'
+    exampleTranslation: 'I make a concise summary of extensive information.'
+  - id: de-DE-C2-SUMMARY-001-008
+    concept: 'extended-sources'
+    term: 'erweiterte Quellen'
+    translation: 'extended sources'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Können Sie das zusammenfassen?'
-    exampleTranslation: 'Can you summarize that?'
-  - id: de-DE-C2-SUMMARY-001-004
-    concept: 'essence'
-    term: 'Essenz'
-    translation: 'essence'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Essenz der Diskussion war klar.'
-    exampleTranslation: 'The essence of the discussion was clear.'
-  - id: de-DE-C2-SUMMARY-001-005
-    concept: 'to-compress'
-    term: 'komprimieren'
-    translation: 'to compress'
-    partOfSpeech: verb
+    example: 'Ich ziehe erweiterte Quellen heran, um eine getreue Zusammenfassung zu erstellen.'
+    exampleTranslation: 'I consult extended sources to produce a faithful summary.'
+  - id: de-DE-C2-SUMMARY-001-009
+    concept: 'diversified-argumentation'
+    term: 'eine vielfältige Argumentation'
+    translation: 'diversified argumentation'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Er hat die Information komprimiert.'
-    exampleTranslation: 'He has compressed the information.'
-  - id: de-DE-C2-SUMMARY-001-006
-    concept: 'conciseness'
-    term: 'Prägnanz'
-    translation: 'conciseness'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Prägnanz der Zusammenfassung war beeindruckend.'
-    exampleTranslation: 'The conciseness of the summary was impressive.'
+    example: 'Ich rekonstruiere eine vielfältige Argumentation stimmig.'
+    exampleTranslation: 'I reconstruct diversified argumentation in a coherent way.'
+  - id: de-DE-C2-SUMMARY-001-010
+    concept: 'organised-presentation'
+    term: 'eine geordnete Darstellung'
+    translation: 'organised presentation'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Meine Darstellung ist stets geordnet und klar.'
+    exampleTranslation: 'My presentation is always organised and clear.'
+  - id: de-DE-C2-SUMMARY-001-011
+    concept: 'essential-points'
+    term: 'die wesentlichen Punkte'
+    translation: 'essential points'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich wähle aus jeder Quelle stets die wesentlichen Punkte aus.'
+    exampleTranslation: 'I always select the essential points from each source.'
+  - id: de-DE-C2-SUMMARY-001-012
+    concept: 'faithful-reconstruction'
+    term: 'die getreue Rekonstruktion'
+    translation: 'faithful reconstruction'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich rekonstruiere die ursprünglichen Argumente getreu.'
+    exampleTranslation: 'I make a faithful reconstruction of the original arguments.'
 grammar: []
 culturalNotes: 'German summary writing at C2 level values "Prägnanz" (conciseness) and "Klarheit" (clarity); ability to distill complex information into clear, concise form is expected.'

@@ -1,54 +1,54 @@
 nodeId: B2-WRITTEN-003
 lang: de-DE
 vocabulary:
-  - id: de-DE-B2-WRITTEN-003-001
-    concept: 'spelling'
-    term: 'Rechtschreibung'
-    translation: 'spelling'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Meine Rechtschreibung ist gut.'
-    exampleTranslation: 'My spelling is good.'
-  - id: de-DE-B2-WRITTEN-003-002
-    concept: 'punctuation'
-    term: 'Zeichensetzung'
-    translation: 'punctuation'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Zeichensetzung war korrekt.'
-    exampleTranslation: 'The punctuation was correct.'
-  - id: de-DE-B2-WRITTEN-003-003
-    concept: 'correct'
-    term: 'korrekt'
-    translation: 'correct'
-    partOfSpeech: adjective
+  - id: de-DE-B2-WRITTEN-003-007
+    concept: 'to-write-with-correct-spelling'
+    term: 'korrekt schreiben'
+    translation: 'to write with correct spelling'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Das war ein korrekter Satz.'
-    exampleTranslation: 'That was a correct sentence.'
-  - id: de-DE-B2-WRITTEN-003-004
-    concept: 'error'
-    term: 'Fehler'
-    translation: 'error / mistake'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Es gibt wenige Fehler.'
-    exampleTranslation: 'There are few errors.'
-  - id: de-DE-B2-WRITTEN-003-005
-    concept: 'to-check'
-    term: 'überprüfen'
-    translation: 'to check / to verify'
-    partOfSpeech: verb
+    example: 'Ich muss orthografisch korrekt schreiben.'
+    exampleTranslation: 'I need to write with correct spelling.'
+  - id: de-DE-B2-WRITTEN-003-008
+    concept: 'to-use-appropriate-punctuation'
+    term: 'passende Satzzeichen setzen'
+    translation: 'to use appropriate punctuation'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich überprüfe meinen Text auf Fehler.'
-    exampleTranslation: 'I check my text for errors.'
-  - id: de-DE-B2-WRITTEN-003-006
-    concept: 'sentence-structure'
-    term: 'Satzstruktur'
-    translation: 'sentence structure'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Satzstruktur war komplex.'
-    exampleTranslation: 'The sentence structure was complex.'
+    example: 'Es ist wichtig, im Text passende Satzzeichen zu setzen.'
+    exampleTranslation: 'It is important to use appropriate punctuation in the text.'
+  - id: de-DE-B2-WRITTEN-003-009
+    concept: 'to-review-the-text'
+    term: 'den Text überarbeiten'
+    translation: 'to review the text'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich überarbeite den Text, um seine Korrektheit sicherzustellen.'
+    exampleTranslation: 'I will review the text to ensure correctness.'
+  - id: de-DE-B2-WRITTEN-003-010
+    concept: 'to-correct-errors'
+    term: 'Fehler korrigieren'
+    translation: 'to correct errors'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich muss Rechtschreib- und Grammatikfehler korrigieren.'
+    exampleTranslation: 'I need to correct spelling and grammatical errors.'
+  - id: de-DE-B2-WRITTEN-003-011
+    concept: 'to-use-writing-models'
+    term: 'Schreibmuster nutzen'
+    translation: 'to use writing models'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Es ist nützlich, Schreibmuster zu nutzen, um besser zu werden.'
+    exampleTranslation: 'It is useful to use writing models to improve.'
+  - id: de-DE-B2-WRITTEN-003-012
+    concept: 'to-write-with-precision'
+    term: 'präzise schreiben'
+    translation: 'to write with precision'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich schreibe präzise, um besser zu kommunizieren.'
+    exampleTranslation: 'I will write with precision to communicate better.'
 grammar:
   - id: B2-WRITTEN-003-GR01
     point: 'Writing with correct spelling and punctuation'

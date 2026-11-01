@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from './fixtures';
 
 // Spec M1, M2: after practising, the learner can see retention and build a shareable report.
 test('progress shows a retention note and a PII-free session report after a review (M1, M2)', async ({

@@ -18,6 +18,7 @@ export type StringKey =
   | 'credits'
   | 'footer'
   | 'feedbackLink'
+  | 'skipLink'
   | 'selectorSpeak'
   | 'selectorLearn'
   | 'skillListening'
@@ -43,16 +44,25 @@ export type StringKey =
   | 'reviewHintTypeLabel'
   | 'reviewHintTypeText'
   | 'reviewEmpty'
+  | 'reviewNoStudied'
   | 'reviewRevealButton'
   | 'reviewTypeInputLabel'
   | 'reviewCheckButton'
   | 'reviewPronounceLabel'
   | 'reviewCorrect'
   | 'reviewIncorrect'
+  | 'reviewAccentMiss'
   | 'reviewGradeAgain'
   | 'reviewGradeHard'
   | 'reviewGradeGood'
   | 'reviewGradeEasy'
+  | 'reviewGradeHint'
+  | 'reviewCorrectionHeading'
+  | 'reviewIntentionHeading'
+  | 'reviewNextHeading'
+  | 'reviewPracticeMore'
+  | 'reviewContinueButton'
+  | 'lessonsNextLesson'
   | 'reviewReflectionQuestion'
   | 'reviewReflectionEasy'
   | 'reviewReflectionThink'
@@ -62,6 +72,11 @@ export type StringKey =
   | 'reviewReflectionLabelThink'
   | 'reviewReflectionLabelGuessed'
   | 'reviewReflectionThanks'
+  | 'nextSessionQuestion'
+  | 'nextSessionSave'
+  | 'nextSessionCalendar'
+  | 'nextSessionTime'
+  | 'nextSessionSaved'
   | 'reviewSessionComplete'
   | 'reviewMasteryUp'
   | 'reviewMasteryDown'
@@ -78,6 +93,8 @@ export type StringKey =
   | 'backupImport'
   | 'backupImported'
   | 'backupImportFailed'
+  | 'persistHint'
+  | 'persistDismiss'
   | 'notFoundTitle'
   | 'notFoundBody'
   | 'notFoundHome'
@@ -93,8 +110,9 @@ const EN_GB: Dictionary = {
   navPractice: 'Practice',
   navProgress: 'Progress',
   credits: 'Credits',
-  footer: 'Built with Astro · Deployed via GitOps · CC-BY-4.0',
+  footer: 'Free to use and share · CC-BY-4.0',
   feedbackLink: 'Send feedback',
+  skipLink: 'Skip to main content',
   selectorSpeak: 'I speak',
   selectorLearn: "I'm learning",
   skillListening: 'listening',
@@ -111,27 +129,33 @@ const EN_GB: Dictionary = {
   lessonCountPlural: 'lessons',
   reviewTitle: 'Review',
   reviewIntro:
-    'Cards are due on a schedule based on how well you know them (spaced repetition) — reveal or type the answer, then grade yourself honestly so the schedule stays accurate.',
-  reviewModeReveal: 'Mode: Reveal',
-  reviewModeType: 'Mode: Type answer',
-  reviewModePicture: 'Mode: Picture prompt',
+    'Cards are due on a schedule based on how well you know them — reveal or type the answer, then grade yourself honestly so the schedule stays accurate.',
+  reviewModeReveal: 'Tap to reveal',
+  reviewModeType: 'Type the answer',
+  reviewModePicture: 'Picture prompt',
   reviewProgress: '{current} of {total}',
   reviewHintRevealLabel: 'Reveal',
   reviewHintRevealText: 'shows the answer with a tap — faster, good for early practice.',
   reviewHintTypeLabel: 'Type answer',
   reviewHintTypeText:
-    'makes you produce it from memory first — slower, but strengthens recall better (the "generation effect").',
+    'makes you produce it from memory first — slower, but it strengthens recall better.',
+  reviewNoStudied:
+    'Practice starts with a lesson — open your first lesson, then come back to practise its words.',
   reviewEmpty: 'No cards due right now — come back later.',
   reviewRevealButton: 'Reveal',
   reviewTypeInputLabel: 'Type the answer',
   reviewCheckButton: 'Check',
-  reviewPronounceLabel: 'Pronounce',
+  reviewPronounceLabel: 'Listen',
   reviewCorrect: 'Correct!',
   reviewIncorrect: 'Not quite — see the answer below.',
+  reviewAccentMiss: 'Almost — check the accents (highlighted below).',
   reviewGradeAgain: 'Again',
   reviewGradeHard: 'Hard',
   reviewGradeGood: 'Good',
   reviewGradeEasy: 'Easy',
+  reviewGradeHint:
+    'Again: see it again soon · Hard: sooner than usual · Good: on schedule · Easy: much later.',
+  lessonsNextLesson: 'Next lesson →',
   reviewReflectionQuestion: 'How did that session feel?',
   reviewReflectionEasy: 'It was easy',
   reviewReflectionThink: 'I had to think',
@@ -147,9 +171,9 @@ const EN_GB: Dictionary = {
   reviewMasteryDown: 'down {n}%',
   reviewMasteryUnchanged: 'unchanged',
   progressTitle: 'Progress',
-  progressMastered: 'mastered',
+  progressMastered: 'learned',
   progressNoContent: 'No content available for this pair yet.',
-  progressAllMastered: 'All available content mastered — nice work.',
+  progressAllMastered: 'You have learned everything available — nice work.',
   progressNextUp: 'Next up: {canDo} ({level})',
   backupTitle: 'Back up your progress',
   backupHint:
@@ -158,6 +182,9 @@ const EN_GB: Dictionary = {
   backupImport: 'Restore from backup',
   backupImported: 'Restored {n} saved items.',
   backupImportFailed: "That file isn't an Acquira backup — nothing was changed.",
+  persistHint:
+    'Your browser may delete this progress if you stay away for a week. Add Acquira to your home screen, or download a backup now.',
+  persistDismiss: 'Got it',
   notFoundTitle: 'Page not found',
   notFoundBody: "That page doesn't exist — the link may be out of date.",
   notFoundHome: 'Back to Acquira',
@@ -167,6 +194,16 @@ const EN_GB: Dictionary = {
   itemPlural: 'items',
   cardSingular: 'card',
   cardPlural: 'cards',
+  reviewCorrectionHeading: 'Have another look — you will see this card again shortly.',
+  reviewIntentionHeading: "Today's goal — you are practising how to:",
+  reviewContinueButton: 'Continue',
+  reviewNextHeading: 'What would you like to do next?',
+  reviewPracticeMore: 'Practise more',
+  nextSessionQuestion: 'When and where will you do your next 10 minutes?',
+  nextSessionSave: 'Save',
+  nextSessionCalendar: 'Add to calendar',
+  nextSessionTime: 'Time',
+  nextSessionSaved: 'Your plan for next time: {plan}',
 };
 
 const ES_ES: Dictionary = {
@@ -174,8 +211,9 @@ const ES_ES: Dictionary = {
   navPractice: 'Practicar',
   navProgress: 'Progreso',
   credits: 'Créditos',
-  footer: 'Creado con Astro · Desplegado vía GitOps · CC-BY-4.0',
+  footer: 'Gratis para usar y compartir · CC-BY-4.0',
   feedbackLink: 'Enviar comentarios',
+  skipLink: 'Saltar al contenido principal',
   selectorSpeak: 'Hablo',
   selectorLearn: 'Estoy aprendiendo',
   skillListening: 'comprensión auditiva',
@@ -203,17 +241,23 @@ const ES_ES: Dictionary = {
   reviewHintTypeLabel: 'Escribir respuesta',
   reviewHintTypeText:
     'te hace producirla de memoria primero — más lento, pero refuerza mejor el recuerdo (el "efecto de generación").',
+  reviewNoStudied:
+    'La práctica empieza con una lección: abre tu primera lección y vuelve para practicar sus palabras.',
   reviewEmpty: 'No hay tarjetas pendientes ahora — vuelve más tarde.',
   reviewRevealButton: 'Revelar',
   reviewTypeInputLabel: 'Escribe la respuesta',
   reviewCheckButton: 'Comprobar',
-  reviewPronounceLabel: 'Pronunciar',
+  reviewPronounceLabel: 'Escuchar',
   reviewCorrect: '¡Correcto!',
   reviewIncorrect: 'No exactamente — mira la respuesta abajo.',
+  reviewAccentMiss: 'Casi — revisa los acentos (resaltados abajo).',
   reviewGradeAgain: 'Otra vez',
   reviewGradeHard: 'Difícil',
   reviewGradeGood: 'Bien',
   reviewGradeEasy: 'Fácil',
+  reviewGradeHint:
+    'Otra vez: volverá pronto · Difícil: antes de lo normal · Bien: según lo previsto · Fácil: mucho más tarde.',
+  lessonsNextLesson: 'Siguiente lección →',
   reviewReflectionQuestion: '¿Cómo te sentiste en esta sesión?',
   reviewReflectionEasy: 'Fue fácil',
   reviewReflectionThink: 'Tuve que pensar',
@@ -229,9 +273,9 @@ const ES_ES: Dictionary = {
   reviewMasteryDown: 'bajó {n}%',
   reviewMasteryUnchanged: 'sin cambios',
   progressTitle: 'Progreso',
-  progressMastered: 'dominadas',
+  progressMastered: 'aprendidas',
   progressNoContent: 'Todavía no hay contenido disponible para este par.',
-  progressAllMastered: 'Todo el contenido disponible está dominado — ¡buen trabajo!',
+  progressAllMastered: 'Has aprendido todo lo disponible — ¡buen trabajo!',
   progressNextUp: 'Siguiente: {canDo} ({level})',
   backupTitle: 'Guarda una copia de tu progreso',
   backupHint:
@@ -240,6 +284,9 @@ const ES_ES: Dictionary = {
   backupImport: 'Restaurar copia',
   backupImported: 'Se restauraron {n} elementos guardados.',
   backupImportFailed: 'Ese archivo no es una copia de Acquira; no se ha cambiado nada.',
+  persistHint:
+    'Tu navegador podría borrar este progreso si pasas una semana sin entrar. Añade Acquira a la pantalla de inicio o descarga una copia ahora.',
+  persistDismiss: 'Entendido',
   notFoundTitle: 'Página no encontrada',
   notFoundBody: 'Esa página no existe; es posible que el enlace esté desactualizado.',
   notFoundHome: 'Volver a Acquira',
@@ -249,6 +296,16 @@ const ES_ES: Dictionary = {
   itemPlural: 'elementos',
   cardSingular: 'tarjeta',
   cardPlural: 'tarjetas',
+  reviewCorrectionHeading: 'Échale otro vistazo: volverás a ver esta tarjeta enseguida.',
+  reviewIntentionHeading: 'Objetivo de hoy: practicas cómo:',
+  reviewContinueButton: 'Continuar',
+  reviewNextHeading: '¿Qué quieres hacer ahora?',
+  reviewPracticeMore: 'Practicar más',
+  nextSessionQuestion: '¿Cuándo y dónde harás tus próximos 10 minutos?',
+  nextSessionSave: 'Guardar',
+  nextSessionCalendar: 'Añadir al calendario',
+  nextSessionTime: 'Hora',
+  nextSessionSaved: 'Tu plan para la próxima vez: {plan}',
 };
 
 const PT_PT: Dictionary = {
@@ -256,8 +313,9 @@ const PT_PT: Dictionary = {
   navPractice: 'Praticar',
   navProgress: 'Progresso',
   credits: 'Créditos',
-  footer: 'Construído com Astro · Implementado via GitOps · CC-BY-4.0',
+  footer: 'Gratuito para usar e partilhar · CC-BY-4.0',
   feedbackLink: 'Enviar feedback',
+  skipLink: 'Saltar para o conteúdo principal',
   selectorSpeak: 'Eu falo',
   selectorLearn: 'Estou a aprender',
   skillListening: 'compreensão oral',
@@ -284,17 +342,23 @@ const PT_PT: Dictionary = {
   reviewHintTypeLabel: 'Escrever resposta',
   reviewHintTypeText:
     'faz com que a produza de memória primeiro — mais lento, mas reforça melhor a memorização (o "efeito de geração").',
+  reviewNoStudied:
+    'A prática começa numa lição — abra a sua primeira lição e volte para praticar as suas palavras.',
   reviewEmpty: 'Não há cartões pendentes agora — volte mais tarde.',
   reviewRevealButton: 'Revelar',
   reviewTypeInputLabel: 'Escreva a resposta',
   reviewCheckButton: 'Verificar',
-  reviewPronounceLabel: 'Pronunciar',
+  reviewPronounceLabel: 'Ouvir',
   reviewCorrect: 'Correto!',
   reviewIncorrect: 'Não é bem isso — veja a resposta abaixo.',
+  reviewAccentMiss: 'Quase — verifique os acentos (destacados abaixo).',
   reviewGradeAgain: 'Outra vez',
   reviewGradeHard: 'Difícil',
   reviewGradeGood: 'Bem',
   reviewGradeEasy: 'Fácil',
+  reviewGradeHint:
+    'Outra vez: volta em breve · Difícil: mais cedo que o normal · Bem: como previsto · Fácil: bastante mais tarde.',
+  lessonsNextLesson: 'Lição seguinte →',
   reviewReflectionQuestion: 'Como correu esta sessão?',
   reviewReflectionEasy: 'Foi fácil',
   reviewReflectionThink: 'Tive de pensar',
@@ -310,9 +374,9 @@ const PT_PT: Dictionary = {
   reviewMasteryDown: 'desceu {n}%',
   reviewMasteryUnchanged: 'sem alterações',
   progressTitle: 'Progresso',
-  progressMastered: 'dominados',
+  progressMastered: 'aprendidas',
   progressNoContent: 'Ainda não há conteúdo disponível para este par.',
-  progressAllMastered: 'Todo o conteúdo disponível está dominado — bom trabalho.',
+  progressAllMastered: 'Aprendeu tudo o que está disponível — bom trabalho.',
   progressNextUp: 'A seguir: {canDo} ({level})',
   backupTitle: 'Faça uma cópia do seu progresso',
   backupHint:
@@ -321,6 +385,9 @@ const PT_PT: Dictionary = {
   backupImport: 'Restaurar cópia',
   backupImported: 'Foram restaurados {n} itens guardados.',
   backupImportFailed: 'Esse ficheiro não é uma cópia do Acquira — nada foi alterado.',
+  persistHint:
+    'O teu navegador pode apagar este progresso se estiveres uma semana sem entrar. Adiciona o Acquira ao ecrã principal ou descarrega uma cópia agora.',
+  persistDismiss: 'Percebi',
   notFoundTitle: 'Página não encontrada',
   notFoundBody: 'Essa página não existe — a ligação pode estar desatualizada.',
   notFoundHome: 'Voltar ao Acquira',
@@ -330,6 +397,16 @@ const PT_PT: Dictionary = {
   itemPlural: 'itens',
   cardSingular: 'cartão',
   cardPlural: 'cartões',
+  reviewCorrectionHeading: 'Veja outra vez — vai voltar a ver este cartão em breve.',
+  reviewIntentionHeading: 'Objetivo de hoje: está a praticar como:',
+  reviewContinueButton: 'Continuar',
+  reviewNextHeading: 'O que quer fazer a seguir?',
+  reviewPracticeMore: 'Praticar mais',
+  nextSessionQuestion: 'Quando e onde vai fazer os seus próximos 10 minutos?',
+  nextSessionSave: 'Guardar',
+  nextSessionCalendar: 'Adicionar ao calendário',
+  nextSessionTime: 'Hora',
+  nextSessionSaved: 'O seu plano para a próxima vez: {plan}',
 };
 
 const DE_DE: Dictionary = {
@@ -337,8 +414,9 @@ const DE_DE: Dictionary = {
   navPractice: 'Üben',
   navProgress: 'Fortschritt',
   credits: 'Quellen',
-  footer: 'Erstellt mit Astro · Bereitgestellt via GitOps · CC-BY-4.0',
+  footer: 'Frei nutzbar und teilbar · CC-BY-4.0',
   feedbackLink: 'Feedback senden',
+  skipLink: 'Zum Hauptinhalt springen',
   selectorSpeak: 'Ich spreche',
   selectorLearn: 'Ich lerne',
   skillListening: 'Hören',
@@ -365,17 +443,23 @@ const DE_DE: Dictionary = {
   reviewHintTypeLabel: 'Antwort eintippen',
   reviewHintTypeText:
     'lässt Sie die Antwort zuerst aus dem Gedächtnis erzeugen — langsamer, stärkt aber das Erinnern besser (der "Generierungseffekt").',
+  reviewNoStudied:
+    'Das Üben beginnt mit einer Lektion — öffnen Sie Ihre erste Lektion und kommen Sie zurück, um die Wörter zu üben.',
   reviewEmpty: 'Momentan sind keine Karten fällig — schauen Sie später wieder vorbei.',
   reviewRevealButton: 'Aufdecken',
   reviewTypeInputLabel: 'Antwort eingeben',
   reviewCheckButton: 'Prüfen',
-  reviewPronounceLabel: 'Aussprechen',
+  reviewPronounceLabel: 'Anhören',
   reviewCorrect: 'Richtig!',
   reviewIncorrect: 'Nicht ganz — sehen Sie die Antwort unten.',
+  reviewAccentMiss: 'Fast — prüfen Sie die Akzente (unten hervorgehoben).',
   reviewGradeAgain: 'Nochmal',
   reviewGradeHard: 'Schwer',
   reviewGradeGood: 'Gut',
   reviewGradeEasy: 'Leicht',
+  reviewGradeHint:
+    'Nochmal: bald wieder · Schwer: früher als sonst · Gut: wie geplant · Leicht: viel später.',
+  lessonsNextLesson: 'Nächste Lektion →',
   reviewReflectionQuestion: 'Wie fühlte sich diese Sitzung an?',
   reviewReflectionEasy: 'Es war leicht',
   reviewReflectionThink: 'Ich musste nachdenken',
@@ -391,9 +475,9 @@ const DE_DE: Dictionary = {
   reviewMasteryDown: 'um {n}% gesunken',
   reviewMasteryUnchanged: 'unverändert',
   progressTitle: 'Fortschritt',
-  progressMastered: 'beherrscht',
+  progressMastered: 'gelernt',
   progressNoContent: 'Für dieses Sprachenpaar sind noch keine Inhalte verfügbar.',
-  progressAllMastered: 'Aller verfügbarer Inhalt beherrscht — gute Arbeit.',
+  progressAllMastered: 'Du hast alles Verfügbare gelernt — gute Arbeit.',
   progressNextUp: 'Als Nächstes: {canDo} ({level})',
   backupTitle: 'Fortschritt sichern',
   backupHint:
@@ -402,6 +486,9 @@ const DE_DE: Dictionary = {
   backupImport: 'Sicherung wiederherstellen',
   backupImported: '{n} gespeicherte Einträge wiederhergestellt.',
   backupImportFailed: 'Diese Datei ist keine Acquira-Sicherung – es wurde nichts geändert.',
+  persistHint:
+    'Dein Browser kann diesen Fortschritt löschen, wenn du eine Woche pausierst. Füge Acquira zum Home-Bildschirm hinzu oder lade jetzt eine Sicherung herunter.',
+  persistDismiss: 'Verstanden',
   notFoundTitle: 'Seite nicht gefunden',
   notFoundBody: 'Diese Seite existiert nicht – der Link ist möglicherweise veraltet.',
   notFoundHome: 'Zurück zu Acquira',
@@ -411,6 +498,16 @@ const DE_DE: Dictionary = {
   itemPlural: 'Elemente',
   cardSingular: 'Karte',
   cardPlural: 'Karten',
+  reviewCorrectionHeading: 'Schau noch einmal hin – du siehst diese Karte gleich wieder.',
+  reviewIntentionHeading: 'Ziel für heute – du übst, wie du:',
+  reviewContinueButton: 'Weiter',
+  reviewNextHeading: 'Was möchtest du als Nächstes tun?',
+  reviewPracticeMore: 'Weiter üben',
+  nextSessionQuestion: 'Wann und wo machst du deine nächsten 10 Minuten?',
+  nextSessionSave: 'Speichern',
+  nextSessionCalendar: 'Zum Kalender hinzufügen',
+  nextSessionTime: 'Uhrzeit',
+  nextSessionSaved: 'Dein Plan für das nächste Mal: {plan}',
 };
 
 const FR_FR: Dictionary = {
@@ -418,8 +515,9 @@ const FR_FR: Dictionary = {
   navPractice: "S'exercer",
   navProgress: 'Progrès',
   credits: 'Crédits',
-  footer: 'Construit avec Astro · Déployé via GitOps · CC-BY-4.0',
+  footer: "Libre d'utilisation et de partage · CC-BY-4.0",
   feedbackLink: 'Envoyer un avis',
+  skipLink: 'Aller au contenu principal',
   selectorSpeak: 'Je parle',
   selectorLearn: "J'apprends",
   skillListening: 'compréhension orale',
@@ -447,17 +545,23 @@ const FR_FR: Dictionary = {
   reviewHintTypeLabel: 'Taper la réponse',
   reviewHintTypeText:
     "vous fait d'abord la produire de mémoire — plus lent, mais renforce mieux la mémorisation (l'« effet de génération »).",
+  reviewNoStudied:
+    'La pratique commence par une leçon — ouvrez votre première leçon, puis revenez pratiquer ses mots.',
   reviewEmpty: "Aucune carte à revoir pour l'instant — revenez plus tard.",
   reviewRevealButton: 'Révéler',
   reviewTypeInputLabel: 'Tapez la réponse',
   reviewCheckButton: 'Vérifier',
-  reviewPronounceLabel: 'Prononcer',
+  reviewPronounceLabel: 'Écouter',
   reviewCorrect: 'Correct !',
   reviewIncorrect: 'Pas tout à fait — voyez la réponse ci-dessous.',
+  reviewAccentMiss: 'Presque — vérifiez les accents (surlignés ci-dessous).',
   reviewGradeAgain: 'Encore',
   reviewGradeHard: 'Difficile',
   reviewGradeGood: 'Bien',
   reviewGradeEasy: 'Facile',
+  reviewGradeHint:
+    "Encore : reviendra bientôt · Difficile : plus tôt que d'habitude · Bien : comme prévu · Facile : bien plus tard.",
+  lessonsNextLesson: 'Leçon suivante →',
   reviewReflectionQuestion: "Comment s'est passée cette session ?",
   reviewReflectionEasy: "C'était facile",
   reviewReflectionThink: "J'ai dû réfléchir",
@@ -473,9 +577,9 @@ const FR_FR: Dictionary = {
   reviewMasteryDown: 'en baisse de {n} %',
   reviewMasteryUnchanged: 'inchangée',
   progressTitle: 'Progrès',
-  progressMastered: 'maîtrisées',
+  progressMastered: 'apprises',
   progressNoContent: "Aucun contenu disponible pour cette paire pour l'instant.",
-  progressAllMastered: 'Tout le contenu disponible est maîtrisé — bon travail.',
+  progressAllMastered: 'Vous avez tout appris — bon travail.',
   progressNextUp: 'À suivre : {canDo} ({level})',
   backupTitle: 'Sauvegardez votre progression',
   backupHint:
@@ -484,6 +588,9 @@ const FR_FR: Dictionary = {
   backupImport: 'Restaurer une sauvegarde',
   backupImported: '{n} éléments enregistrés restaurés.',
   backupImportFailed: 'Ce fichier n’est pas une sauvegarde Acquira : rien n’a été modifié.',
+  persistHint:
+    'Ton navigateur peut effacer cette progression si tu t’absentes une semaine. Ajoute Acquira à l’écran d’accueil ou télécharge une sauvegarde maintenant.',
+  persistDismiss: 'Compris',
   notFoundTitle: 'Page introuvable',
   notFoundBody: 'Cette page n’existe pas : le lien est peut-être obsolète.',
   notFoundHome: 'Retour à Acquira',
@@ -493,6 +600,16 @@ const FR_FR: Dictionary = {
   itemPlural: 'éléments',
   cardSingular: 'carte',
   cardPlural: 'cartes',
+  reviewCorrectionHeading: 'Regarde encore — tu reverras cette carte bientôt.',
+  reviewIntentionHeading: "Objectif du jour : tu t'entraînes à :",
+  reviewContinueButton: 'Continuer',
+  reviewNextHeading: 'Que veux-tu faire maintenant ?',
+  reviewPracticeMore: 'S’entraîner encore',
+  nextSessionQuestion: 'Quand et où feras-tu tes 10 prochaines minutes ?',
+  nextSessionSave: 'Enregistrer',
+  nextSessionCalendar: 'Ajouter au calendrier',
+  nextSessionTime: 'Heure',
+  nextSessionSaved: 'Ton plan pour la prochaine fois : {plan}',
 };
 
 const DICTIONARIES: Record<string, Dictionary> = {

@@ -1,54 +1,54 @@
 nodeId: B2-WRITTEN-002
 lang: de-DE
 vocabulary:
-  - id: de-DE-B2-WRITTEN-002-001
-    concept: 'essay'
-    term: 'Essay'
-    translation: 'essay'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Ich schreibe einen Essay über das Thema.'
-    exampleTranslation: 'I am writing an essay on the topic.'
-  - id: de-DE-B2-WRITTEN-002-002
-    concept: 'report'
-    term: 'Bericht'
-    translation: 'report'
-    partOfSpeech: noun
-    gender: masculine
-    example: 'Der Bericht war detailliert geschrieben.'
-    exampleTranslation: 'The report was written in detail.'
-  - id: de-DE-B2-WRITTEN-002-003
-    concept: 'to-develop'
-    term: 'entwickeln'
-    translation: 'to develop'
-    partOfSpeech: verb
+  - id: de-DE-B2-WRITTEN-002-007
+    concept: 'to-write-an-essay'
+    term: 'einen Aufsatz schreiben'
+    translation: 'to write an essay'
+    partOfSpeech: phrase
     gender: n/a
-    example: 'Ich entwickle mein Argument weiter.'
-    exampleTranslation: 'I develop my argument further.'
-  - id: de-DE-B2-WRITTEN-002-004
-    concept: 'argument'
-    term: 'Argument'
-    translation: 'argument'
-    partOfSpeech: noun
-    gender: neuter
-    example: 'Das Argument war überzeugend.'
-    exampleTranslation: 'The argument was convincing.'
-  - id: de-DE-B2-WRITTEN-002-005
-    concept: 'thesis'
-    term: 'These'
-    translation: 'thesis'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Meine These ist klar formuliert.'
-    exampleTranslation: 'My thesis is clearly formulated.'
-  - id: de-DE-B2-WRITTEN-002-006
-    concept: 'conclusion'
-    term: 'Schlussfolgerung'
-    translation: 'conclusion'
-    partOfSpeech: noun
-    gender: feminine
-    example: 'Die Schlussfolgerung war logisch.'
-    exampleTranslation: 'The conclusion was logical.'
+    example: 'Ich schreibe einen Aufsatz, der ein Argument entwickelt.'
+    exampleTranslation: 'I will write an essay that develops an argument.'
+  - id: de-DE-B2-WRITTEN-002-008
+    concept: 'to-elaborate-a-report'
+    term: 'einen Bericht verfassen'
+    translation: 'to elaborate a report'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich muss einen ausführlichen Bericht verfassen.'
+    exampleTranslation: 'I need to elaborate a detailed report.'
+  - id: de-DE-B2-WRITTEN-002-009
+    concept: 'to-develop-the-thesis'
+    term: 'die These entwickeln'
+    translation: 'to develop the thesis'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Es ist wichtig, die These mit Argumenten zu entwickeln.'
+    exampleTranslation: 'It is important to develop the thesis with arguments.'
+  - id: de-DE-B2-WRITTEN-002-010
+    concept: 'to-present-supporting-data'
+    term: 'belegende Daten anführen'
+    translation: 'to present supporting data'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich führe im Aufsatz belegende Daten an.'
+    exampleTranslation: 'I will present supporting data in the essay.'
+  - id: de-DE-B2-WRITTEN-002-011
+    concept: 'to-use-academic-vocabulary'
+    term: 'Fachsprache verwenden'
+    translation: 'to use academic vocabulary'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Es ist nützlich, im Bericht Fachsprache zu verwenden.'
+    exampleTranslation: 'It is useful to use academic vocabulary in the report.'
+  - id: de-DE-B2-WRITTEN-002-012
+    concept: 'to-structure-the-written-argumentation'
+    term: 'die schriftliche Argumentation gliedern'
+    translation: 'to structure the written argumentation'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich muss die schriftliche Argumentation klar gliedern.'
+    exampleTranslation: 'I need to structure the written argumentation clearly.'
 grammar:
   - id: B2-WRITTEN-002-GR01
     point: 'Writing essays or reports developing arguments'

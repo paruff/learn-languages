@@ -7,4 +7,5 @@ notionalFocus: Opinions, preferences, likes/dislikes
 relatedNodes:
   - A1-CAPAB-001
   - A1-FEEL-001
-prerequisiteNodes: []
+prerequisiteNodes:
+  - A1-WANT-001

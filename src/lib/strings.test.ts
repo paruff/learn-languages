@@ -49,3 +49,10 @@ describe('format', () => {
     expect(format('Hello {name}', {})).toBe('Hello {name}');
   });
 });
+
+describe('Listen label', () => {
+  it('is in the right language for each source language', () => {
+    expect(getString('pt-PT', 'reviewPronounceLabel')).toBe('Ouvir');
+    expect(getString('es-ES', 'reviewPronounceLabel')).toBe('Escuchar');
+  });
+});

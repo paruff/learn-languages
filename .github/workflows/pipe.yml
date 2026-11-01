@@ -8,8 +8,11 @@ on:
 
 permissions:
   contents: read
-  id-token: write
-  pages: write
+
+# A new push to a PR supersedes the previous run; never cancel runs on main (deploys).
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 env:
   # Major-only pin: tracks 26.x patches (and the move to LTS). Keep in step with
@@ -23,6 +26,7 @@ jobs:
     name: Empty Diff Guard
     if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v7
         with:
@@ -40,6 +44,7 @@ jobs:
   sync-content:
     name: Sync Content
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7
@@ -55,6 +60,7 @@ jobs:
   typecheck:
     name: TypeCheck
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     needs: sync-content
     steps:
       - uses: actions/checkout@v7
@@ -69,6 +75,7 @@ jobs:
   lint:
     name: Lint
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     needs: sync-content
     steps:
       - uses: actions/checkout@v7
@@ -82,6 +89,7 @@ jobs:
   unit-test:
     name: Unit Tests
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     needs: sync-content
     steps:
       - uses: actions/checkout@v7
@@ -103,6 +111,7 @@ jobs:
   coverage:
     name: Coverage Gate
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     needs: sync-content
     steps:
       - uses: actions/checkout@v7
@@ -116,6 +125,7 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     needs: [typecheck, lint, unit-test, coverage]
     steps:
       - uses: actions/checkout@v7
@@ -125,39 +135,82 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - run: npm run build
+      - run: npm run check:links
       - uses: actions/upload-artifact@v7
         with:
           name: dist
           path: dist/
           retention-days: 7
 
-  e2e:
-    name: E2E + Accessibility Tests
+  # One job per Playwright project, with the slow ones split into 3 shards, so
+  # everything runs concurrently (was one serial job, 25+ min).
+  e2e-shard:
+    name: E2E (${{ matrix.project }} ${{ matrix.shard }})
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     needs: build
+    # Browsers and OS libraries are baked into the image: no apt/CDN install step to hang.
+    container:
+      image: mcr.microsoft.com/playwright:v1.63.0-noble # keep equal to the locked @playwright/test version
+      options: --ipc=host
+    env:
+      HOME: /root # Firefox needs a writable HOME inside the container
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { project: chromium, browser: chromium, shard: 1/3 }
+          - { project: chromium, browser: chromium, shard: 2/3 }
+          - { project: chromium, browser: chromium, shard: 3/3 }
+          - { project: mobile-chrome, browser: chromium, shard: 1/3 }
+          - { project: mobile-chrome, browser: chromium, shard: 2/3 }
+          - { project: mobile-chrome, browser: chromium, shard: 3/3 }
+          - { project: firefox, browser: firefox, shard: 1/1 }
+          - { project: webkit, browser: webkit, shard: 1/3 }
+          - { project: webkit, browser: webkit, shard: 2/3 }
+          - { project: webkit, browser: webkit, shard: 3/3 }
+          - { project: mobile-safari, browser: webkit, shard: 1/1 }
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: 'npm'
+      # npm ci's lefthook postinstall runs git; the container user doesn't own the checkout.
+      - run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
       - run: npm ci
-      - run: npx playwright install --with-deps
+      # The image's browsers must match the installed Playwright exactly.
+      - run: |
+          v=$(npx playwright --version | awk '{print $2}')
+          img=$(grep -o 'playwright:v[0-9.]*-noble' .github/workflows/pipe.yml | head -1)
+          [ "$img" = "playwright:v$v-noble" ] || { echo "Playwright $v does not match image $img: bump the tag in pipe.yml"; exit 1; }
       - uses: actions/download-artifact@v8
         with:
           name: dist
           path: dist/
-      - run: npm run test:e2e
+      - run: npx playwright test --project=${{ matrix.project }} --shard=${{ matrix.shard }}
       - uses: actions/upload-artifact@v7
         if: failure()
         with:
-          name: playwright-report
+          name: playwright-report-${{ matrix.project }}-${{ strategy.job-index }}
           path: playwright-report/
           retention-days: 7
+
+  # Stable required-check name (branch protection) that gates on every shard.
+  e2e:
+    name: E2E + Accessibility Tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    needs: e2e-shard
+    if: always()
+    steps:
+      - run: |
+          [ "${{ needs.e2e-shard.result }}" = "success" ] || { echo "::error::E2E shard result: ${{ needs.e2e-shard.result }}"; exit 1; }
 
   lighthouse:
     name: Lighthouse
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     needs: build
     steps:
       - uses: actions/checkout@v7
@@ -177,11 +230,14 @@ jobs:
   deploy-production:
     name: Deploy Production
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     needs: [build, e2e, lighthouse]
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     permissions:
       pages: write
       id-token: write
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -197,3 +253,48 @@ jobs:
           path: dist/
       - id: deployment
         uses: actions/deploy-pages@v5
+
+  # Post-deploy: the same specs and Lighthouse assertions, against the live URL.
+  # No auto-rollback; a failure flags the run. Rollback = git revert on main.
+  smoke-production:
+    name: Smoke Production
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    needs: deploy-production
+    env:
+      LIVE_URL: ${{ needs.deploy-production.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+      - run: npm ci
+      - uses: actions/download-artifact@v8
+        with:
+          name: dist
+          path: dist/
+      - name: Wait until the new deploy is served
+        run: |
+          echo "LIVE_ORIGIN=${LIVE_URL%/learn-languages/}" >> "$GITHUB_ENV"
+          for i in $(seq 1 30); do
+            curl -fsSL "${LIVE_URL}" -o /tmp/live.html && cmp -s /tmp/live.html dist/index.html && exit 0
+            echo "attempt $i: live page not yet the new build"; sleep 10
+          done
+          echo "::error::New deploy not served at ${LIVE_URL} after 5 minutes"; exit 1
+      - run: npx playwright install --with-deps chromium
+      - name: Playwright smoke (first-run, layout, report, a11y, journey)
+        env:
+          SMOKE_BASE_URL: ${{ env.LIVE_ORIGIN }}
+        run: npx playwright test --project=chromium --project=mobile-chrome first-run layout report a11y journey
+      - name: Every internal page URL is live
+        run: node scripts/check-links.mjs --live "$LIVE_ORIGIN"
+      - name: Point lighthouserc at the live site
+        run: |
+          jq --arg o "${LIVE_URL%/learn-languages/}" \
+            'del(.ci.collect.startServerCommand, .ci.collect.startServerReadyPattern)
+             | .ci.collect.url |= map(sub("http://localhost:4321"; $o))' \
+            lighthouserc.json > lighthouserc.live.json
+      - uses: treosh/lighthouse-ci-action@v12
+        with:
+          configPath: './lighthouserc.live.json'

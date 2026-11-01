@@ -29,7 +29,10 @@ const LEVEL_ORDER = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
  * DOM/storage-free so it's unit-testable; the progress page supplies
  * `repetitions` read from localStorage per item.
  */
-export function computeCefrProgress(items: TrackedItem[]): {
+export function computeCefrProgress(
+  items: TrackedItem[],
+  prerequisites: Record<string, string[]> = {}
+): {
   levels: LevelProgress[];
   nextRecommended: NextRecommended | null;
 } {
@@ -51,9 +54,18 @@ export function computeCefrProgress(items: TrackedItem[]): {
     };
   });
 
-  const nextItem = LEVEL_ORDER.flatMap((level) => byLevel.get(level) ?? []).find(
-    (item) => item.repetitions < MASTERED_REPETITIONS
-  );
+  const all = LEVEL_ORDER.flatMap((level) => byLevel.get(level) ?? []);
+  const unmastered = (nodeId: string) =>
+    all.find((i) => i.nodeId === nodeId && i.repetitions < MASTERED_REPETITIONS);
+  // L12: soft prerequisites. Redirect to the first unmastered prerequisite (transitively); never locks.
+  let nextItem = all.find((item) => item.repetitions < MASTERED_REPETITIONS);
+  const seen = new Set<string>();
+  while (nextItem && !seen.has(nextItem.nodeId)) {
+    seen.add(nextItem.nodeId);
+    const pre = (prerequisites[nextItem.nodeId] ?? []).map(unmastered).find(Boolean);
+    if (!pre) break;
+    nextItem = pre;
+  }
 
   return {
     levels,
@@ -114,4 +126,50 @@ export function computeOverallMastery(items: { repetitions: number }[]): {
     totalItems,
     percent: totalItems === 0 ? 0 : Math.round((masteredItems / totalItems) * 100),
   };
+}
+
+export interface CanDoRow {
+  nodeId: string;
+  canDo: string;
+  studied: boolean;
+  practised: boolean;
+  remembered: boolean;
+}
+
+export interface CanDoLevel {
+  cefrLevel: string;
+  /** The first level with a Can-Do not yet remembered: the learner's current goal (spec J3). */
+  current: boolean;
+  canDos: CanDoRow[];
+}
+
+/**
+ * Spec J3: per level, each Can-Do with studied (lesson opened), practised (any
+ * word graded) and remembered (any word recalled 7+ days later) flags.
+ * ponytail: "any word" per Can-Do, not all; tighten if testers find it too generous.
+ */
+export function computeCanDoChecklist(
+  items: TrackedItem[],
+  studied: Set<string>,
+  rememberedItemIds: Set<string>
+): CanDoLevel[] {
+  const levels = LEVEL_ORDER.map((cefrLevel) => {
+    const byNode = new Map<string, TrackedItem[]>();
+    for (const i of items.filter((x) => x.cefrLevel === cefrLevel)) {
+      byNode.set(i.nodeId, [...(byNode.get(i.nodeId) ?? []), i]);
+    }
+    const canDos = [...byNode.entries()]
+      .sort(([a], [b]) => a.localeCompare(b))
+      .map(([nodeId, group]) => ({
+        nodeId,
+        canDo: group[0].canDo,
+        studied: studied.has(nodeId),
+        practised: group.some((i) => i.repetitions >= 1),
+        remembered: group.some((i) => rememberedItemIds.has(i.itemId)),
+      }));
+    return { cefrLevel, current: false, canDos };
+  }).filter((l) => l.canDos.length > 0);
+  const current =
+    levels.find((l) => l.canDos.some((c) => !c.remembered)) ?? levels[levels.length - 1];
+  return levels.map((l) => ({ ...l, current: l === current }));
 }

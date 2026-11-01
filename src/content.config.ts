@@ -1,5 +1,6 @@
 import { defineCollection, z } from 'astro:content';
-import { glob } from 'astro/loaders';
+import { file, glob } from 'astro/loaders';
+import { parse as parseYaml } from 'yaml';
 
 const cefrNodeSchema = z
   .object({
@@ -100,7 +101,12 @@ const passageSourceSchema = z.object({
 
 const exerciseSchema = z
   .object({
-    id: z.string().regex(/^[a-z]{2}(-[A-Z]{2})?-.+-\d{3}$/),
+    id: z
+      .string()
+      .regex(
+        /^[a-z]{2}-[A-Z]{2}-.+-\d{3}$/,
+        'exercise id must start with its language, e.g. pt-PT-'
+      ),
     lessonId: z.string(),
     type: z.enum(['fill-blank', 'matching', 'multiple-choice', 'audio', 'passage']),
     prompt: z.string().min(1).optional(),
@@ -144,8 +150,14 @@ export const collections = {
     schema: vocabularyItemSchema,
   }),
   'concept-images': defineCollection({
-    type: 'data',
-    schema: z.array(conceptImageSchema),
+    loader: file('./src/content/concept-images/index.yaml', {
+      parser: (text) =>
+        (parseYaml(text) as { concept: string }[]).map((image) => ({
+          id: image.concept,
+          ...image,
+        })),
+    }),
+    schema: conceptImageSchema,
   }),
   realisations: defineCollection({
     loader: glob({ pattern: '**/*.yaml', base: './src/content/realisations' }),

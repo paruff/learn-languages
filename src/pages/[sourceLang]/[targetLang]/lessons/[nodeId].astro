@@ -3,10 +3,12 @@ import Breadcrumb from '../../../../components/Breadcrumb.astro';
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { withBase } from '../../../../lib/urls';
+import { exercisesForTarget } from '../../../../lib/exerciseLang';
 import { getAvailablePairs } from '../../../../lib/pairLoader';
 import { splitAtTerm } from '../../../../lib/glossText';
 import { getSkillIcon } from '../../../../lib/skillIcon';
 import { getString, type StringKey } from '../../../../lib/strings';
+import { orderLessons } from '../../../../lib/path';
 
 const SKILL_KEYS: Record<string, StringKey> = {
   listening: 'skillListening',
@@ -23,10 +25,15 @@ export async function getStaticPaths() {
     getCollection('realisations'),
     getCollection('exercises'),
   ]);
-  const nodeIdsWithExercises = new Set(exercises.map((exercise) => exercise.data.lessonId));
 
-  return pairs.flatMap(({ sourceLang, targetLang }) =>
-    nodes
+  return pairs.flatMap(({ sourceLang, targetLang }) => {
+    const nodeIdsWithExercises = new Set(
+      exercisesForTarget(
+        exercises.map((e) => e.data),
+        targetLang
+      ).map((e) => e.lessonId)
+    );
+    const entries = nodes
       .map((node) => {
         const source = realisations.find(
           (r) => r.data.nodeId === node.data.nodeId && r.data.lang === sourceLang
@@ -36,21 +43,23 @@ export async function getStaticPaths() {
         );
         return { node, source, target };
       })
-      .filter(({ source, target }) => source && target)
-      .map(({ node, source, target }) => ({
-        params: { sourceLang, targetLang, nodeId: node.data.nodeId },
-        props: {
-          node: node.data,
-          source: source!.data,
-          target: target!.data,
-          hasExercises: nodeIdsWithExercises.has(node.data.nodeId),
-        },
-      }))
-  );
+      .filter(({ source, target }) => source && target);
+    const ordered = orderLessons(entries.map(({ node }) => node.data));
+    return entries.map(({ node, source, target }) => ({
+      params: { sourceLang, targetLang, nodeId: node.data.nodeId },
+      props: {
+        node: node.data,
+        source: source!.data,
+        target: target!.data,
+        hasExercises: nodeIdsWithExercises.has(node.data.nodeId),
+        nextNodeId: ordered[ordered.findIndex((n) => n.nodeId === node.data.nodeId) + 1]?.nodeId,
+      },
+    }));
+  });
 }
 
 const { sourceLang, targetLang, nodeId } = Astro.params;
-const { node, source, target, hasExercises } = Astro.props;
+const { node, source, target, hasExercises, nextNodeId } = Astro.props;
 const sourceByConcept = new Map(source.vocabulary.map((v) => [v.concept, v]));
 ---
 
@@ -61,7 +70,7 @@ const sourceByConcept = new Map(source.vocabulary.map((v) => [v.concept, v]));
   targetLang={targetLang}
   section="lessons"
 >
-  <article class="lesson">
+  <article class="lesson" data-lesson-id={nodeId} data-source={sourceLang} data-target={targetLang}>
     <Breadcrumb {sourceLang} {targetLang} title={node.canDo} />
     <p class="lesson__meta">
       <span class={`badge badge--${node.cefrLevel.toLowerCase()}`}>{node.cefrLevel}</span>
@@ -75,7 +84,7 @@ const sourceByConcept = new Map(source.vocabulary.map((v) => [v.concept, v]));
         >
           <path d={getSkillIcon(node.skill).path}></path>
         </svg>
-        {getString(sourceLang, SKILL_KEYS[node.skill])} · {nodeId}
+        {getString(sourceLang, SKILL_KEYS[node.skill])}
       </span>
     </p>
     <h1 class="lesson__title">{node.canDo}</h1>
@@ -161,22 +170,40 @@ const sourceByConcept = new Map(source.vocabulary.map((v) => [v.concept, v]));
       )
     }
 
-    <p class="lesson__cta">
-      <a href={withBase(`/${sourceLang}/${targetLang}/review/`)}>
+    <div class="lesson__cta">
+      <a
+        class="btn btn--primary"
+        href={withBase(`/${sourceLang}/${targetLang}/review/?lesson=${nodeId}`)}
+      >
         {getString(sourceLang, 'lessonsPracticeWords')}
       </a>
-      {
-        hasExercises && (
-          <a href={withBase(`/${sourceLang}/${targetLang}/exercises/${nodeId}/`)}>
-            {getString(sourceLang, 'lessonsPracticeExercises')}
-          </a>
-        )
-      }
-    </p>
+      <p class="lesson__more">
+        {
+          hasExercises && (
+            <a href={withBase(`/${sourceLang}/${targetLang}/exercises/${nodeId}/`)}>
+              {getString(sourceLang, 'lessonsPracticeExercises')}
+            </a>
+          )
+        }
+        {
+          nextNodeId && (
+            <a href={withBase(`/${sourceLang}/${targetLang}/lessons/${nextNodeId}/`)}>
+              {getString(sourceLang, 'lessonsNextLesson')}
+            </a>
+          )
+        }
+      </p>
+    </div>
   </article>
 </BaseLayout>
 
 <style>
+  .lesson__more {
+    display: flex;
+    flex-wrap: wrap;
+    gap: calc(var(--spacing-unit) * 2);
+    margin-top: var(--spacing-unit);
+  }
   .lesson {
     max-width: 640px;
   }
@@ -276,6 +303,21 @@ const sourceByConcept = new Map(source.vocabulary.map((v) => [v.concept, v]));
     pointer-events: none;
   }
 </style>
+
+<script>
+  // Spec J1: opening a lesson counts as studying it.
+  import { markStudied } from '../../../../lib/path';
+  import { markStudiedAt } from '../../../../lib/checkpoint';
+  const el = document.querySelector<HTMLElement>('[data-lesson-id]')!;
+  markStudied(el.dataset.source!, el.dataset.target!, el.dataset.lessonId!);
+  // Spec L20: remember when, so a checkpoint can be offered ≥7 days later.
+  markStudiedAt(
+    el.dataset.source!,
+    el.dataset.target!,
+    el.dataset.lessonId!,
+    new Date().toISOString().slice(0, 10)
+  );
+</script>
 
 <script>
   // Inline gloss tooltip (#36) — hover/focus/tap shows a term's translation

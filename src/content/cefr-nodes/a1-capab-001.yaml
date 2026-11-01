@@ -7,4 +7,5 @@ notionalFocus: Ability, inability, capacity
 relatedNodes:
   - A1-OPIN-001
   - A1-WANT-001
-prerequisiteNodes: []
+prerequisiteNodes:
+  - A1-WANT-001
