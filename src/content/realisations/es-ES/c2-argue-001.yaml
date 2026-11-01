@@ -49,6 +49,54 @@ vocabulary:
     gender: feminine
     example: 'La selectividad léxica es clave para la precisión.'
     exampleTranslation: 'Lexical selectivity is key for precision.'
+  - id: es-ES-C2-ARGUE-001-007
+    concept: 'precise-formulation'
+    term: 'formulación precisa'
+    translation: 'precise formulation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Elijo la formulación más precisa para cada idea.'
+    exampleTranslation: 'I select the most precise formulation for each idea.'
+  - id: es-ES-C2-ARGUE-001-008
+    concept: 'range-of-linguistic-means'
+    term: 'abanico de recursos lingüísticos'
+    translation: 'range of linguistic means'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Utilizo un amplio abanico de recursos lingüísticos con fluidez natural.'
+    exampleTranslation: 'I use a wide range of linguistic resources with natural fluency.'
+  - id: es-ES-C2-ARGUE-001-009
+    concept: 'clear-expression'
+    term: 'expresión clara'
+    translation: 'clear expression'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Mi expresión es siempre clara e inequívoca.'
+    exampleTranslation: 'My expression is always clear and unambiguous.'
+  - id: es-ES-C2-ARGUE-001-010
+    concept: 'lexical-precision'
+    term: 'precisión léxica'
+    translation: 'lexical precision'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La precisión léxica es uno de mis mayores puntos fuertes.'
+    exampleTranslation: 'Lexical precision is one of my greatest strengths.'
+  - id: es-ES-C2-ARGUE-001-011
+    concept: 'nuances-of-meaning'
+    term: 'matices de significado'
+    translation: 'nuances of meaning'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Puedo transmitir todos los matices de significado.'
+    exampleTranslation: 'I can convey all nuances of meaning.'
+  - id: es-ES-C2-ARGUE-001-012
+    concept: 'unequivocal-expression'
+    term: 'expresión inequívoca'
+    translation: 'unequivocal expression'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Mi expresión es siempre inequívoca y fundamentada.'
+    exampleTranslation: 'My expression is always unequivocal and well-founded.'
 grammar:
   - id: es-ES-C2-ARGUE-001-G1
     point: 'Subjunctive in evaluative clauses for precise expression'

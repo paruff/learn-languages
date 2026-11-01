@@ -15,6 +15,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · Versioning: 
 
 ### Added
 
+- es-ES C2: vocabulary so every C2 node covers its shared en-GB concept set (0 missing at C2). Awaiting PCIC review (#185).
+
 - es-ES C1: 147 vocabulary items so every C1 node covers its shared en-GB concept set (0 missing at C1). Awaiting PCIC review (#185).
 
 - es-ES B2: 108 vocabulary items so every B2 node covers its shared en-GB concept set (0 missing at B2). Existing items and ids kept. Awaiting PCIC review (#185).

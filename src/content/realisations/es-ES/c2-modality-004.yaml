@@ -10,9 +10,9 @@ vocabulary:
     example: 'Puedo sintetizar información de fuentes diversas.'
     exampleTranslation: 'I can synthesise information from diverse sources.'
   - id: es-ES-C2-MODALITY-004-002
-    concept: 'to-reconstruct-arguments'
+    concept: 'reconstruct-arguments'
     term: 'reconstruir argumentos'
-    translation: 'to reconstruct arguments'
+    translation: 'reconstruct arguments'
     partOfSpeech: phrase
     example: 'Sé reconstruir argumentos complejos de forma coherente.'
     exampleTranslation: 'I know how to reconstruct complex arguments coherently.'
@@ -47,6 +47,30 @@ vocabulary:
     gender: feminine
     example: 'La reconstrucción de los argumentos es rigurosa.'
     exampleTranslation: 'The reconstruction of the arguments is rigorous.'
+  - id: es-ES-C2-MODALITY-004-007
+    concept: 'overall-comprehension'
+    term: 'comprensión global'
+    translation: 'overall comprehension'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Tengo una comprensión global de textos orales y escritos.'
+    exampleTranslation: 'I have overall comprehension of spoken and written texts.'
+  - id: es-ES-C2-MODALITY-004-008
+    concept: 'synthesis-of-information'
+    term: 'síntesis de información'
+    translation: 'synthesis of information'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Sé sintetizar con precisión información de diversas fuentes.'
+    exampleTranslation: 'I know how to synthesise information from different sources with precision.'
+  - id: es-ES-C2-MODALITY-004-010
+    concept: 'reading-with-ease'
+    term: 'lectura con soltura'
+    translation: 'reading with ease'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Leo con soltura prácticamente cualquier texto.'
+    exampleTranslation: 'I read virtually any text with ease.'
 grammar:
   - id: es-ES-C2-MODALITY-004-G1
     point: 'Participial clauses for synthesis in reading'

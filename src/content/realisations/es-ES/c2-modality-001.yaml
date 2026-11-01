@@ -49,6 +49,38 @@ vocabulary:
     gender: masculine
     example: 'El dominio del idioma se manifiesta en la fluidez.'
     exampleTranslation: 'Language mastery is manifested in fluency.'
+  - id: es-ES-C2-MODALITY-001-007
+    concept: 'spontaneous-expression'
+    term: 'expresión espontánea'
+    translation: 'spontaneous expression'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Mi expresión espontánea es ya precisa y fluida.'
+    exampleTranslation: 'My spontaneous expression is now precise and fluent.'
+  - id: es-ES-C2-MODALITY-001-008
+    concept: 'native-fluency'
+    term: 'fluidez nativa'
+    translation: 'native fluency'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Hablo con fluidez nativa incluso en situaciones complejas.'
+    exampleTranslation: 'I speak with native fluency even in complex situations.'
+  - id: es-ES-C2-MODALITY-001-009
+    concept: 'shades-of-meaning'
+    term: 'matices de significado'
+    translation: 'shades of meaning'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Distingo matices de significado en cualquier contexto.'
+    exampleTranslation: 'I distinguish shades of meaning in any context.'
+  - id: es-ES-C2-MODALITY-001-010
+    concept: 'broad-lexical-repertoire'
+    term: 'amplio repertorio léxico'
+    translation: 'broad lexical repertoire'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Mi amplio repertorio léxico me permite una precisión total.'
+    exampleTranslation: 'My broad lexical repertoire allows me total precision.'
 grammar:
   - id: es-ES-C2-MODALITY-001-G1
     point: 'Complex conditional with mixed tenses for hypothetical precision'

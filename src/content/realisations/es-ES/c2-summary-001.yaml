@@ -48,6 +48,46 @@ vocabulary:
     gender: feminine
     example: 'Integro información de múltiples fuentes en un resumen.'
     exampleTranslation: 'I integrate information from multiple sources into a summary.'
+  - id: es-ES-C2-SUMMARY-001-007
+    concept: 'extended-sources'
+    term: 'fuentes extensas'
+    translation: 'extended sources'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Consulto fuentes extensas para elaborar un resumen fiel.'
+    exampleTranslation: 'I consult extensive sources to produce a faithful summary.'
+  - id: es-ES-C2-SUMMARY-001-008
+    concept: 'diversified-argumentation'
+    term: 'argumentación diversificada'
+    translation: 'diversified argumentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Reconstruyo la argumentación diversificada de forma coherente.'
+    exampleTranslation: 'I reconstruct diversified argumentation coherently.'
+  - id: es-ES-C2-SUMMARY-001-009
+    concept: 'organised-presentation'
+    term: 'presentación ordenada'
+    translation: 'organised presentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Mi presentación es siempre ordenada y clara.'
+    exampleTranslation: 'My presentation is always organised and clear.'
+  - id: es-ES-C2-SUMMARY-001-010
+    concept: 'essential-points'
+    term: 'puntos esenciales'
+    translation: 'essential points'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Siempre selecciono los puntos esenciales de cada fuente.'
+    exampleTranslation: 'I always select the essential points from each source.'
+  - id: es-ES-C2-SUMMARY-001-011
+    concept: 'faithful-reconstruction'
+    term: 'reconstrucción fiel'
+    translation: 'faithful reconstruction'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Hago una reconstrucción fiel de los argumentos originales.'
+    exampleTranslation: 'I make a faithful reconstruction of the original arguments.'
 grammar:
   - id: es-ES-C2-SUMMARY-001-G1
     point: 'Participial clauses for concision in summaries'

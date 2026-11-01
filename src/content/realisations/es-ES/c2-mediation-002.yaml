@@ -49,6 +49,22 @@ vocabulary:
     gender: masculine
     example: 'Reconozco matices lingüísticos en textos complejos.'
     exampleTranslation: 'I recognise linguistic nuances in complex texts.'
+  - id: es-ES-C2-MEDIATION-002-007
+    concept: 'linguistically-demanding-texts'
+    term: 'textos de gran exigencia lingüística'
+    translation: 'linguistically demanding texts'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Puedo comprender textos de gran exigencia lingüística.'
+    exampleTranslation: 'I can comprehend linguistically demanding texts.'
+  - id: es-ES-C2-MEDIATION-002-008
+    concept: 'contemporary-literature'
+    term: 'literatura contemporánea'
+    translation: 'contemporary literature'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Conozco a fondo la literatura contemporánea en todas sus formas.'
+    exampleTranslation: 'I know contemporary literature thoroughly in all its forms.'
 grammar:
   - id: es-ES-C2-MEDIATION-002-G1
     point: 'Participial clauses for advanced reading comprehension'

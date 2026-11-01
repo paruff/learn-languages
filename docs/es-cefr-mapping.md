@@ -238,6 +238,8 @@ C1 Coverage: 25/25 nodes fully realised (100%).
 
 All 20 C2 `cefr-nodes/` are language-agnostic Can-Do statements sourced from the CEFR C2 descriptors (Council of Europe Companion Volume). CEFR Can-Do statements describe communicative ability, not any one language, so this epic created new C2 nodes and paired es-ES realisations.
 
+> **Review status (2026-11-01):** 90 C2 items were added (two existing items re-keyed to the shared concept instead) to cover the shared concept set. They were drafted by AI and have **not** yet been checked item by item against the PCIC C2 inventory; a Spanish speaker must do that before merge (#185).
+
 | nodeId              | Skill              | Can-Do                                                                                | Status      |
 | ------------------- | ------------------ | ------------------------------------------------------------------------------------- | ----------- |
 | C2-MODALITY-001     | spoken_interaction | Can express spontaneously, fluently and precisely, differentiating finer shades       | ✅ Realised |
