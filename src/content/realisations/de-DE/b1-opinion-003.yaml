@@ -49,6 +49,54 @@ vocabulary:
     gender: n/a
     example: 'Die Meinungen sind unterschiedlich.'
     exampleTranslation: 'The opinions are different.'
+  - id: de-DE-B1-OPINION-003-007
+    concept: 'the-advantages-are'
+    term: 'die Vorteile sind'
+    translation: 'the advantages are'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Die Vorteile sind wirtschaftlicher und ökologischer Art.'
+    exampleTranslation: 'The advantages are economic and environmental.'
+  - id: de-DE-B1-OPINION-003-008
+    concept: 'the-disadvantages-are'
+    term: 'die Nachteile sind'
+    translation: 'the disadvantages are'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Die Nachteile sind die Kosten und der Zeitaufwand.'
+    exampleTranslation: 'The disadvantages are the cost and the time required.'
+  - id: de-DE-B1-OPINION-003-009
+    concept: 'on-the-one-hand-on-the-other-hand'
+    term: 'einerseits … andererseits'
+    translation: 'on the one hand... on the other hand'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Einerseits ist es gut, andererseits gibt es Risiken.'
+    exampleTranslation: 'On the one hand it is good, on the other hand there are risks.'
+  - id: de-DE-B1-OPINION-003-010
+    concept: 'a-positive-aspect'
+    term: 'ein positiver Aspekt'
+    translation: 'a positive aspect'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ein positiver Aspekt ist die Nachhaltigkeit.'
+    exampleTranslation: 'A positive aspect is sustainability.'
+  - id: de-DE-B1-OPINION-003-011
+    concept: 'a-negative-aspect'
+    term: 'ein negativer Aspekt'
+    translation: 'a negative aspect'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ein negativer Aspekt sind die hohen Kosten.'
+    exampleTranslation: 'A negative aspect is the high cost.'
+  - id: de-DE-B1-OPINION-003-012
+    concept: 'overall'
+    term: 'insgesamt'
+    translation: 'overall'
+    partOfSpeech: adverb
+    gender: n/a
+    example: 'Insgesamt finde ich, dass es eine gute Idee ist.'
+    exampleTranslation: 'Overall, I think it is a good idea.'
 grammar:
   - id: B1-OPINION-003-GR01
     point: 'Expressing advantages and disadvantages'

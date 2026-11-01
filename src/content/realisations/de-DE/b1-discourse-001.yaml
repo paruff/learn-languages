@@ -49,11 +49,27 @@ vocabulary:
     gender: n/a
     example: 'Hier ist es warm. Dagegen ist es dort kalt.'
     exampleTranslation: 'Here it is warm. On the other hand, it is cold there.'
+  - id: de-DE-B1-DISCOURSE-001-007
+    concept: 'although'
+    term: 'obwohl'
+    translation: 'although'
+    partOfSpeech: conjunction
+    gender: n/a
+    example: 'Obwohl es schwierig ist, lohnt es sich, es zu versuchen.'
+    exampleTranslation: 'Although it is difficult, it is worth trying.'
+  - id: de-DE-B1-DISCOURSE-001-008
+    concept: 'despite'
+    term: 'trotz'
+    translation: 'despite'
+    partOfSpeech: preposition
+    gender: n/a
+    example: 'Trotz des Regens sind wir spazieren gegangen.'
+    exampleTranslation: 'Despite the rain, we went for a walk.'
 grammar:
   - id: B1-DISCOURSE-001-GR01
     point: 'Connectors: coordinated clauses'
     explanation: 'German uses a wide range of connectors (außerdem, deshalb, trotzdem, allerdings, dagegen) to link ideas in extended speech. Placement: after the verb in main clauses, or at the beginning for emphasis.'
     examples:
-      - 'Es war teure. Außerdem war es nicht gut.'
+      - 'Es war teuer. Außerdem war es nicht gut.'
       - 'Deshalb bin ich gegangen.'
 culturalNotes: 'German discourse relies heavily on connectors ("Gliederungswörter") for logical structure; mastering these is essential for natural-sounding speech at B1 and above.'
