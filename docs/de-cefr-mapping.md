@@ -113,6 +113,14 @@ A2 Coverage: 20/20 nodes fully realised (100%).
 
 B1 Coverage: 18/18 nodes fully realised (100%).
 
+### B1 concept re-alignment (#143, 2026-10-22)
+
+97 de-DE items added so every B1 node covers the shared en-GB/pt-PT concept set (`npm run report:coverage -- de-DE` reports 0 missing at B1). Existing items and ids are kept, so SRS progress carries over. Each new item's `translation` is the single en-GB term for its concept, and `exampleTranslation` translates the German example itself.
+
+Fixed while re-aligning: "Das stimme ich zu" → "Dem stimme ich zu" (dative); "Arbeitstitel" (working title) → "Berufsbezeichnung" (job title); grammar example "teure" → "teuer". In pt-PT, two concept keys were renamed to match en-GB/fr-FR/it-IT (`i-defend-the-idea-that`, `the-media`) and the garbled term "fam topicos" → "temas familiares".
+
+**Source to verify against:** Goethe-Institut _Zertifikat B1 Prüfungsziele/Testbeschreibung_ (the free PDF this file already uses as the de-DE source). The items were drafted by AI from the shared concept list and were **not** checked against that PDF item by item. **Status: needs native-speaker review against the Goethe B1 document before merge** (intent P6, spec C6). Items most worth a reviewer's eye: `to-confirm-understanding` ("sich vergewissern, dass man verstanden hat"), `topic-of-interest` ("Thema von Interesse"), `to-invite-opinion` ("um eine Meinung bitten").
+
 ## B2 nodes in the repo (EN→DE)
 
 18 B2 `cefr-nodes/` — all language-agnostic Can-Do statements. Paired en-DE/de-DE realisations authored for all 18 nodes.

@@ -27,11 +27,11 @@ vocabulary:
     exampleTranslation: 'The instruction was written clearly.'
   - id: de-DE-B1-TEXT-003-004
     concept: 'job-title'
-    term: 'Arbeitstitel'
+    term: 'Berufsbezeichnung'
     translation: 'job title'
     partOfSpeech: noun
-    gender: masculine
-    example: 'Was ist Ihr Arbeitstitel?'
+    gender: feminine
+    example: 'Wie lautet Ihre Berufsbezeichnung?'
     exampleTranslation: 'What is your job title?'
   - id: de-DE-B1-TEXT-003-005
     concept: 'field-of-work'
@@ -49,5 +49,53 @@ vocabulary:
     gender: n/a
     example: 'Ich muss die Details prüfen.'
     exampleTranslation: 'I need to check the details.'
+  - id: de-DE-B1-TEXT-003-007
+    concept: 'technical-information'
+    term: 'technische Informationen'
+    translation: 'technical information'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ich kann einfache technische Informationen verstehen.'
+    exampleTranslation: 'I can understand simple technical information.'
+  - id: de-DE-B1-TEXT-003-008
+    concept: 'professional-field'
+    term: 'Berufsfeld'
+    translation: 'professional field'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Ich arbeite in einem bestimmten Berufsfeld.'
+    exampleTranslation: 'I work in a specific professional field.'
+  - id: de-DE-B1-TEXT-003-009
+    concept: 'instruction-manual'
+    term: 'Bedienungsanleitung'
+    translation: 'instruction manual'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ich habe die Bedienungsanleitung des Computers gelesen.'
+    exampleTranslation: 'I read the computer instruction manual.'
+  - id: de-DE-B1-TEXT-003-010
+    concept: 'technical-report'
+    term: 'technischer Bericht'
+    translation: 'technical report'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ich muss einen technischen Bericht schreiben.'
+    exampleTranslation: 'I need to write a technical report.'
+  - id: de-DE-B1-TEXT-003-011
+    concept: 'specific-terminology'
+    term: 'Fachterminologie'
+    translation: 'specific terminology'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Fachterminologie ist schwer zu verstehen.'
+    exampleTranslation: 'The specific terminology is difficult to understand.'
+  - id: de-DE-B1-TEXT-003-012
+    concept: 'to-consult-references'
+    term: 'Nachschlagewerke konsultieren'
+    translation: 'to consult references'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Es ist nützlich, Nachschlagewerke zu konsultieren, um den Text zu verstehen.'
+    exampleTranslation: 'It is useful to consult references to understand the text.'
 grammar: []
 culturalNotes: 'German technical writing ("Fachtext") is known for its precision and use of compound words; understanding "Fachbegriffe" (technical terms) is essential for professional reading.'
