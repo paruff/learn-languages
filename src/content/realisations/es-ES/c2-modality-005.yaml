@@ -49,6 +49,38 @@ vocabulary:
     gender: masculine
     example: 'El desarrollo de ideas es claro y convincente.'
     exampleTranslation: 'The development of ideas is clear and convincing.'
+  - id: es-ES-C2-MODALITY-005-007
+    concept: 'smooth-flowing-text'
+    term: 'texto fluido'
+    translation: 'smooth-flowing text'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Escribo textos fluidos y bien estructurados sobre temas complejos.'
+    exampleTranslation: 'I write fluent, well-structured texts on complex subjects.'
+  - id: es-ES-C2-MODALITY-005-008
+    concept: 'engaging-introduction'
+    term: 'introducción atractiva'
+    translation: 'engaging introduction'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Siempre empiezo con una introducción atractiva y pertinente.'
+    exampleTranslation: 'I always begin with an engaging and relevant introduction.'
+  - id: es-ES-C2-MODALITY-005-009
+    concept: 'development-of-the-subject'
+    term: 'desarrollo del tema'
+    translation: 'development of the subject'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El desarrollo del tema es lógico y fundamentado.'
+    exampleTranslation: 'The development of the subject is logical and well-founded.'
+  - id: es-ES-C2-MODALITY-005-010
+    concept: 'central-point'
+    term: 'punto central'
+    translation: 'central point'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Defiendo el punto central con argumentos sólidos.'
+    exampleTranslation: 'I defend the central point with solid arguments.'
 grammar:
   - id: es-ES-C2-MODALITY-005-G1
     point: 'Advanced passive constructions for formal writing'

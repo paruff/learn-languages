@@ -49,6 +49,54 @@ vocabulary:
     gender: feminine
     example: 'Mi escritura persuasiva es efectiva y bien fundamentada.'
     exampleTranslation: 'My persuasive writing is effective and well-founded.'
+  - id: es-ES-C2-ACADEMIC-001-007
+    concept: 'advanced-academic-writing'
+    term: 'escritura académica avanzada'
+    translation: 'advanced academic writing'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Domino la escritura académica avanzada en español.'
+    exampleTranslation: 'I master advanced academic writing in Spanish.'
+  - id: es-ES-C2-ACADEMIC-001-008
+    concept: 'coherent-and-convincing-text'
+    term: 'texto coherente y convincente'
+    translation: 'coherent and convincing text'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Redacto textos coherentes y convincentes sobre temas complejos.'
+    exampleTranslation: 'I write coherent and convincing texts on complex subjects.'
+  - id: es-ES-C2-ACADEMIC-001-009
+    concept: 'clear-structure'
+    term: 'estructura clara'
+    translation: 'clear structure'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Mis textos siempre tienen una estructura clara y lógica.'
+    exampleTranslation: 'My texts always have a clear and logical structure.'
+  - id: es-ES-C2-ACADEMIC-001-010
+    concept: 'wide-range-of-language'
+    term: 'amplio repertorio lingüístico'
+    translation: 'wide range of language'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Utilizo un amplio y variado repertorio lingüístico.'
+    exampleTranslation: 'I use a wide and varied linguistic repertoire.'
+  - id: es-ES-C2-ACADEMIC-001-011
+    concept: 'solid-argumentation'
+    term: 'argumentación sólida'
+    translation: 'solid argumentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Mi argumentación es siempre sólida y fundamentada.'
+    exampleTranslation: 'My argumentation is always solid and well-founded.'
+  - id: es-ES-C2-ACADEMIC-001-012
+    concept: 'academic-style'
+    term: 'estilo académico'
+    translation: 'academic style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Mantengo siempre un estilo académico riguroso y claro.'
+    exampleTranslation: 'I always maintain a rigorous and clear academic style.'
 grammar:
   - id: es-ES-C2-ACADEMIC-001-G1
     point: 'Advanced conditional structures for academic hedging'

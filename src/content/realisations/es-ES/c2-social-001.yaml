@@ -49,6 +49,14 @@ vocabulary:
     gender: feminine
     example: 'Tengo confianza comunicativa en cualquier contexto.'
     exampleTranslation: 'I have communicative confidence in any context.'
+  - id: es-ES-C2-SOCIAL-001-007
+    concept: 'total-spontaneity'
+    term: 'espontaneidad total'
+    translation: 'total spontaneity'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Tengo una espontaneidad total en mis interacciones.'
+    exampleTranslation: 'I have total spontaneity in my interactions.'
 grammar:
   - id: es-ES-C2-SOCIAL-001-G1
     point: 'Subjunctive in hypothetical clauses for native-level interaction'

@@ -49,6 +49,54 @@ vocabulary:
     gender: feminine
     example: 'Puedo expresar ideas con precisión nativa.'
     exampleTranslation: 'I can express ideas with native precision.'
+  - id: es-ES-C2-PROFESSIONAL-002-007
+    concept: 'spontaneous-fluency'
+    term: 'fluidez espontánea'
+    translation: 'spontaneous fluency'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Hablo con fluidez espontánea en cualquier contexto.'
+    exampleTranslation: 'I speak with spontaneous fluency in any context.'
+  - id: es-ES-C2-PROFESSIONAL-002-008
+    concept: 'native-vocabulary'
+    term: 'vocabulario nativo'
+    translation: 'native vocabulary'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Mi vocabulario es amplio y natural, como el de un hablante nativo.'
+    exampleTranslation: 'My vocabulary is vast and natural like that of a native speaker.'
+  - id: es-ES-C2-PROFESSIONAL-002-009
+    concept: 'total-precision'
+    term: 'precisión total'
+    translation: 'total precision'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Siempre logro una precisión total en mis expresiones.'
+    exampleTranslation: 'I always achieve total precision in my expressions.'
+  - id: es-ES-C2-PROFESSIONAL-002-010
+    concept: 'communicative-flexibility'
+    term: 'flexibilidad comunicativa'
+    translation: 'communicative flexibility'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Tengo flexibilidad comunicativa en diversos registros.'
+    exampleTranslation: 'I have communicative flexibility in diverse registers.'
+  - id: es-ES-C2-PROFESSIONAL-002-011
+    concept: 'natural-use-of-language'
+    term: 'uso natural de la lengua'
+    translation: 'natural use of language'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Mi uso de la lengua es siempre natural y adecuado.'
+    exampleTranslation: 'My use of language is always natural and appropriate.'
+  - id: es-ES-C2-PROFESSIONAL-002-012
+    concept: 'communicative-confidence'
+    term: 'seguridad comunicativa'
+    translation: 'communicative confidence'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Tengo seguridad comunicativa en cualquier situación.'
+    exampleTranslation: 'I have communicative confidence in any situation.'
 grammar:
   - id: es-ES-C2-PROFESSIONAL-002-G1
     point: 'Subjunctive in purpose clauses for flexible language use'

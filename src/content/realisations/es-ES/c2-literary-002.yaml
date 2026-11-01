@@ -49,6 +49,38 @@ vocabulary:
     gender: masculine
     example: 'Utilizo un estilo adaptado al tipo de texto.'
     exampleTranslation: 'I use an adapted style according to the type of text.'
+  - id: es-ES-C2-LITERARY-002-007
+    concept: 'elegant-style'
+    term: 'estilo elegante'
+    translation: 'elegant style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Escribo con un estilo elegante y preciso.'
+    exampleTranslation: 'I write with an elegant and precise style.'
+  - id: es-ES-C2-LITERARY-002-008
+    concept: 'intended-effect'
+    term: 'efecto buscado'
+    translation: 'intended effect'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Siempre consigo el efecto buscado en el lector.'
+    exampleTranslation: 'I always achieve the intended effect on the reader.'
+  - id: es-ES-C2-LITERARY-002-009
+    concept: 'precision-and-subtlety'
+    term: 'precisión y sutileza'
+    translation: 'precision and subtlety'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Mi escritura tiene una precisión y una sutileza incomparables.'
+    exampleTranslation: 'My writing has incomparable precision and subtlety.'
+  - id: es-ES-C2-LITERARY-002-010
+    concept: 'cultured-expression'
+    term: 'expresión culta'
+    translation: 'cultured expression'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Utilizo una expresión culta y fundamentada.'
+    exampleTranslation: 'I use a cultured and well-founded expression.'
 grammar:
   - id: es-ES-C2-LITERARY-002-G1
     point: 'Subjunctive in relative clauses for style evaluation'

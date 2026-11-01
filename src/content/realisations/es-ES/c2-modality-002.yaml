@@ -47,6 +47,46 @@ vocabulary:
     partOfSpeech: phrase
     example: 'Expongo con soltura ante cualquier audiencia.'
     exampleTranslation: 'I present with ease before any audience.'
+  - id: es-ES-C2-MODALITY-002-007
+    concept: 'smooth-flowing-description'
+    term: 'descripción fluida'
+    translation: 'smooth-flowing description'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Hago una descripción fluida y estructurada de cualquier tema.'
+    exampleTranslation: 'I give a fluent and structured description of any subject.'
+  - id: es-ES-C2-MODALITY-002-008
+    concept: 'complex-subject'
+    term: 'tema complejo'
+    translation: 'complex subject'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Desarrollo temas complejos con claridad y coherencia.'
+    exampleTranslation: 'I develop complex subjects with clarity and coherence.'
+  - id: es-ES-C2-MODALITY-002-009
+    concept: 'key-points'
+    term: 'puntos clave'
+    translation: 'key points'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Doy la debida importancia a todos los puntos clave.'
+    exampleTranslation: 'I give due importance to all key points.'
+  - id: es-ES-C2-MODALITY-002-010
+    concept: 'structured-argument'
+    term: 'argumento estructurado'
+    translation: 'structured argument'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Mi argumento es claro, fluido y está bien estructurado.'
+    exampleTranslation: 'My argument is clear, fluent and well structured.'
+  - id: es-ES-C2-MODALITY-002-011
+    concept: 'appropriate-conclusion'
+    term: 'conclusión adecuada'
+    translation: 'appropriate conclusion'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Siempre termino con una conclusión adecuada y satisfactoria.'
+    exampleTranslation: 'I always finish with an appropriate and satisfying conclusion.'
 grammar:
   - id: es-ES-C2-MODALITY-002-G1
     point: 'Advanced discourse connectors for structured argumentation'

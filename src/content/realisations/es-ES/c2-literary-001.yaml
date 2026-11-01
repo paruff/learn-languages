@@ -48,6 +48,54 @@ vocabulary:
     partOfSpeech: phrase
     example: 'Puedo apreciar la literatura en toda su complejidad.'
     exampleTranslation: 'I can appreciate literature in all its complexity.'
+  - id: es-ES-C2-LITERARY-001-007
+    concept: 'complex-literary-texts'
+    term: 'textos literarios complejos'
+    translation: 'complex literary texts'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Leo textos literarios complejos con plena comprensión.'
+    exampleTranslation: 'I read complex literary texts with full comprehension.'
+  - id: es-ES-C2-LITERARY-001-008
+    concept: 'contemporary-literature'
+    term: 'literatura contemporánea'
+    translation: 'contemporary literature'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Conozco a fondo la literatura contemporánea en todas sus formas.'
+    exampleTranslation: 'I know contemporary literature thoroughly in all its forms.'
+  - id: es-ES-C2-LITERARY-001-009
+    concept: 'poetry-and-song-lyrics'
+    term: 'poesía y letras de canciones'
+    translation: 'poetry and song lyrics'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Aprecio la poesía y las letras de canciones con discernimiento estético.'
+    exampleTranslation: 'I appreciate poetry and song lyrics with aesthetic discernment.'
+  - id: es-ES-C2-LITERARY-001-010
+    concept: 'opinion-pieces'
+    term: 'artículos de opinión'
+    translation: 'opinion pieces'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Comprendo los artículos de opinión con total lucidez.'
+    exampleTranslation: 'I understand opinion pieces with full lucidity.'
+  - id: es-ES-C2-LITERARY-001-011
+    concept: 'aesthetic-discernment'
+    term: 'criterio estético'
+    translation: 'aesthetic discernment'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Tengo criterio estético en múltiples géneros literarios.'
+    exampleTranslation: 'I have aesthetic judgement in multiple literary genres.'
+  - id: es-ES-C2-LITERARY-001-012
+    concept: 'literary-appreciation'
+    term: 'apreciación literaria'
+    translation: 'literary appreciation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Mi apreciación literaria abarca varios estilos y épocas.'
+    exampleTranslation: 'My literary appreciation spans various styles and periods.'
 grammar:
   - id: es-ES-C2-LITERARY-001-G1
     point: 'Subjunctive in aesthetic-evaluative clauses for literary appreciation'

@@ -48,6 +48,46 @@ vocabulary:
     partOfSpeech: verb
     example: 'Sé redondear mis exposiciones de forma elegante.'
     exampleTranslation: 'I know how to round off my presentations elegantly.'
+  - id: es-ES-C2-ACADEMIC-002-007
+    concept: 'detailed-description'
+    term: 'descripción detallada'
+    translation: 'detailed description'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Presento descripciones detalladas de temas complejos.'
+    exampleTranslation: 'I present detailed descriptions of complex subjects.'
+  - id: es-ES-C2-ACADEMIC-002-008
+    concept: 'related-sub-themes'
+    term: 'subtemas relacionados'
+    translation: 'related sub-themes'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Integro subtemas relacionados de manera coherente.'
+    exampleTranslation: 'I integrate related sub-themes in a coherent way.'
+  - id: es-ES-C2-ACADEMIC-002-009
+    concept: 'particular-points'
+    term: 'puntos concretos'
+    translation: 'particular points'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Desarrollo puntos concretos con profundidad y claridad.'
+    exampleTranslation: 'I develop specific points with depth and clarity.'
+  - id: es-ES-C2-ACADEMIC-002-010
+    concept: 'complex-subject'
+    term: 'tema complejo'
+    translation: 'complex subject'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Abordo temas complejos con seguridad y competencia.'
+    exampleTranslation: 'I address complex subjects with confidence and competence.'
+  - id: es-ES-C2-ACADEMIC-002-011
+    concept: 'accurate-presentation'
+    term: 'exposición rigurosa'
+    translation: 'accurate presentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Mi exposición es siempre rigurosa y bien documentada.'
+    exampleTranslation: 'My presentation is always rigorous and well-documented.'
 grammar:
   - id: es-ES-C2-ACADEMIC-002-G1
     point: 'Advanced temporal connectors for academic spoken production'

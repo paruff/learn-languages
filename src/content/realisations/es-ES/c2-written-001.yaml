@@ -49,6 +49,38 @@ vocabulary:
     gender: feminine
     example: 'Mi argumentación convincente respalda mis conclusiones.'
     exampleTranslation: 'My convincing argumentation supports my conclusions.'
+  - id: es-ES-C2-WRITTEN-001-007
+    concept: 'detailed-and-well-structured-text'
+    term: 'texto detallado y bien estructurado'
+    translation: 'detailed and well-structured text'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Escribo textos detallados y bien estructurados.'
+    exampleTranslation: 'I write detailed and well-structured texts.'
+  - id: es-ES-C2-WRITTEN-001-008
+    concept: 'development-of-arguments'
+    term: 'desarrollo de argumentos'
+    translation: 'development of arguments'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Desarrollo los argumentos de forma sólida y convincente.'
+    exampleTranslation: 'I develop arguments in a solid and convincing way.'
+  - id: es-ES-C2-WRITTEN-001-009
+    concept: 'well-founded-hypotheses'
+    term: 'hipótesis fundadas'
+    translation: 'well-founded hypotheses'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Presento hipótesis fundadas en pruebas.'
+    exampleTranslation: 'I present hypotheses grounded in evidence.'
+  - id: es-ES-C2-WRITTEN-001-010
+    concept: 'chain-of-reasoning'
+    term: 'cadena de razonamiento'
+    translation: 'chain of reasoning'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Construyo una cadena de razonamiento sólida y coherente.'
+    exampleTranslation: 'I construct a solid and coherent chain of reasoning.'
 grammar:
   - id: es-ES-C2-WRITTEN-001-G1
     point: 'Advanced passive constructions for formal argumentation'
