@@ -7,6 +7,7 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · Versioning: 
 
 ### Fixed
 
+- Progress is less likely to vanish on Safari: the app asks the browser for persistent storage after the first graded card, and Progress shows a one-time home-screen/backup hint if it is refused (S8, #241).
 - Accessibility: every page now starts with a "Skip to main content" link (in the learner's source language) that moves focus past the header and nav to the main content (U7).
 - es-ES B1–C2 content reverted to the last PCIC-reviewed state. The #155 positional concept re-key had paired concepts with unrelated terms (e.g. `to-justify-the-position` with `cuestión de actualidad`) while dual `old / new` glosses passed the pairing gate; re-alignment now requires per-item human review (#185).
 - fr-FR C1: 23 `exampleTranslation` values replaced so lesson pages show a translation of the actual French example instead of an unrelated en-GB sentence.

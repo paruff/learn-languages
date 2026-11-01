@@ -93,6 +93,8 @@ export type StringKey =
   | 'backupImport'
   | 'backupImported'
   | 'backupImportFailed'
+  | 'persistHint'
+  | 'persistDismiss'
   | 'notFoundTitle'
   | 'notFoundBody'
   | 'notFoundHome'
@@ -180,6 +182,9 @@ const EN_GB: Dictionary = {
   backupImport: 'Restore from backup',
   backupImported: 'Restored {n} saved items.',
   backupImportFailed: "That file isn't an Acquira backup — nothing was changed.",
+  persistHint:
+    'Your browser may delete this progress if you stay away for a week. Add Acquira to your home screen, or download a backup now.',
+  persistDismiss: 'Got it',
   notFoundTitle: 'Page not found',
   notFoundBody: "That page doesn't exist — the link may be out of date.",
   notFoundHome: 'Back to Acquira',
@@ -279,6 +284,9 @@ const ES_ES: Dictionary = {
   backupImport: 'Restaurar copia',
   backupImported: 'Se restauraron {n} elementos guardados.',
   backupImportFailed: 'Ese archivo no es una copia de Acquira; no se ha cambiado nada.',
+  persistHint:
+    'Tu navegador podría borrar este progreso si pasas una semana sin entrar. Añade Acquira a la pantalla de inicio o descarga una copia ahora.',
+  persistDismiss: 'Entendido',
   notFoundTitle: 'Página no encontrada',
   notFoundBody: 'Esa página no existe; es posible que el enlace esté desactualizado.',
   notFoundHome: 'Volver a Acquira',
@@ -377,6 +385,9 @@ const PT_PT: Dictionary = {
   backupImport: 'Restaurar cópia',
   backupImported: 'Foram restaurados {n} itens guardados.',
   backupImportFailed: 'Esse ficheiro não é uma cópia do Acquira — nada foi alterado.',
+  persistHint:
+    'O teu navegador pode apagar este progresso se estiveres uma semana sem entrar. Adiciona o Acquira ao ecrã principal ou descarrega uma cópia agora.',
+  persistDismiss: 'Percebi',
   notFoundTitle: 'Página não encontrada',
   notFoundBody: 'Essa página não existe — a ligação pode estar desatualizada.',
   notFoundHome: 'Voltar ao Acquira',
@@ -475,6 +486,9 @@ const DE_DE: Dictionary = {
   backupImport: 'Sicherung wiederherstellen',
   backupImported: '{n} gespeicherte Einträge wiederhergestellt.',
   backupImportFailed: 'Diese Datei ist keine Acquira-Sicherung – es wurde nichts geändert.',
+  persistHint:
+    'Dein Browser kann diesen Fortschritt löschen, wenn du eine Woche pausierst. Füge Acquira zum Home-Bildschirm hinzu oder lade jetzt eine Sicherung herunter.',
+  persistDismiss: 'Verstanden',
   notFoundTitle: 'Seite nicht gefunden',
   notFoundBody: 'Diese Seite existiert nicht – der Link ist möglicherweise veraltet.',
   notFoundHome: 'Zurück zu Acquira',
@@ -574,6 +588,9 @@ const FR_FR: Dictionary = {
   backupImport: 'Restaurer une sauvegarde',
   backupImported: '{n} éléments enregistrés restaurés.',
   backupImportFailed: 'Ce fichier n’est pas une sauvegarde Acquira : rien n’a été modifié.',
+  persistHint:
+    'Ton navigateur peut effacer cette progression si tu t’absentes une semaine. Ajoute Acquira à l’écran d’accueil ou télécharge une sauvegarde maintenant.',
+  persistDismiss: 'Compris',
   notFoundTitle: 'Page introuvable',
   notFoundBody: 'Cette page n’existe pas : le lien est peut-être obsolète.',
   notFoundHome: 'Retour à Acquira',
