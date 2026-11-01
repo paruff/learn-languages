@@ -48,6 +48,35 @@ vocabulary:
     gender: masculine
     example: 'Los artículos sobre temas de interés son más fáciles de leer.'
     exampleTranslation: 'Articles on topics of interest are easier to read.'
+  - id: es-ES-B1-TEXT-001-007
+    concept: 'factual-article'
+    term: 'artículo informativo'
+    translation: 'factual article'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Leí un artículo informativo sobre la economía española.'
+    exampleTranslation: 'I read a factual article about the Spanish economy.'
+  - id: es-ES-B1-TEXT-001-008
+    concept: 'to-understand-the-text'
+    term: 'comprender el texto'
+    translation: 'to understand the text'
+    partOfSpeech: phrase
+    example: 'Puedo comprender el texto sin diccionario.'
+    exampleTranslation: 'I can understand the text without a dictionary.'
+  - id: es-ES-B1-TEXT-001-009
+    concept: 'to-identify-main-ideas'
+    term: 'identificar las ideas principales'
+    translation: 'to identify main ideas'
+    partOfSpeech: phrase
+    example: 'Es importante identificar las ideas principales.'
+    exampleTranslation: 'It is important to identify the main ideas.'
+  - id: es-ES-B1-TEXT-001-010
+    concept: 'to-read-carefully'
+    term: 'leer con atención'
+    translation: 'to read carefully'
+    partOfSpeech: phrase
+    example: 'Hay que leer con atención para entender.'
+    exampleTranslation: 'You need to read carefully to understand.'
 grammar:
   - id: es-ES-B1-TEXT-001-G1
     point: 'Reading strategies with "suele" + infinitive'

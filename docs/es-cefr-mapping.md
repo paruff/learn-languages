@@ -114,115 +114,117 @@ A2 Coverage: 20/20 nodes fully realised (100%).
 
 All 18 B1 `cefr-nodes/` are language-agnostic Can-Do statements already modeled for the en-GB/pt-PT pair (see `docs/cefr-mapping.md`). CEFR Can-Do statements describe communicative ability, not any one language, so this epic reused every existing B1 node rather than creating duplicates — exactly as the A1 and A2 epics did.
 
-| nodeId          | Skill              | Can-Do                                                   | Status      |
-| --------------- | ------------------ | -------------------------------------------------------- | ----------- |
-| B1-SOCIAL-001   | spoken_interaction | Can handle most social situations while travelling       | ✅ Realised |
-| B1-SOCIAL-002   | spoken_interaction | Can engage in extended conversation on familiar topics   | ✅ Realised |
-| B1-SOCIAL-003   | spoken_interaction | Can express and respond to feelings and opinions         | ✅ Realised |
-| B1-SOCIAL-004   | spoken_production  | Can keep a conversation going by inviting opinions       | ✅ Realised |
-| B1-DISCOURSE-001| spoken_interaction | Can use connectors to link ideas in extended speech      | ✅ Realised |
-| B1-DISCOURSE-002| spoken_production  | Can narrate events in correct temporal sequence          | ✅ Realised |
-| B1-DISCOURSE-003| spoken_production  | Can describe cause and effect relationships              | ✅ Realised |
-| B1-DISCOURSE-004| writing            | Can write a simple narrative with temporal markers       | ✅ Realised |
-| B1-DISCOURSE-005| writing            | Can write short reports describing experiences           | ✅ Realised |
-| B1-OPINION-001  | spoken_production  | Can express opinions with supporting reasons             | ✅ Realised |
-| B1-OPINION-002  | spoken_interaction | Can agree and disagree politely                          | ✅ Realised |
-| B1-OPINION-003  | spoken_production  | Can describe advantages and disadvantages                | ✅ Realised |
-| B1-OPINION-004  | writing            | Can write simple opinions about current events           | ✅ Realised |
-| B1-TEXT-001     | reading            | Can understand factual articles on topics of interest    | ✅ Realised |
-| B1-TEXT-002     | reading            | Can identify the main points in news articles            | ✅ Realised |
-| B1-TEXT-003     | reading            | Can read simple technical information in their field     | ✅ Realised |
-| B1-TEXT-004     | writing            | Can write straightforward connected text on familiar topics | ✅ Realised |
-| B1-TEXT-005     | writing            | Can write a letter or email describing experiences       | ✅ Realised |
+> **Review status (2026-11-01):** 93 B1 items (DISCOURSE, OPINION, SOCIAL, TEXT nodes) were added to cover the shared concept set. They were drafted by AI and have **not** yet been checked item by item against the PCIC B1 inventory; a Spanish speaker must do that before merge (#185).
+
+| nodeId           | Skill              | Can-Do                                                      | Status      |
+| ---------------- | ------------------ | ----------------------------------------------------------- | ----------- |
+| B1-SOCIAL-001    | spoken_interaction | Can handle most social situations while travelling          | ✅ Realised |
+| B1-SOCIAL-002    | spoken_interaction | Can engage in extended conversation on familiar topics      | ✅ Realised |
+| B1-SOCIAL-003    | spoken_interaction | Can express and respond to feelings and opinions            | ✅ Realised |
+| B1-SOCIAL-004    | spoken_production  | Can keep a conversation going by inviting opinions          | ✅ Realised |
+| B1-DISCOURSE-001 | spoken_interaction | Can use connectors to link ideas in extended speech         | ✅ Realised |
+| B1-DISCOURSE-002 | spoken_production  | Can narrate events in correct temporal sequence             | ✅ Realised |
+| B1-DISCOURSE-003 | spoken_production  | Can describe cause and effect relationships                 | ✅ Realised |
+| B1-DISCOURSE-004 | writing            | Can write a simple narrative with temporal markers          | ✅ Realised |
+| B1-DISCOURSE-005 | writing            | Can write short reports describing experiences              | ✅ Realised |
+| B1-OPINION-001   | spoken_production  | Can express opinions with supporting reasons                | ✅ Realised |
+| B1-OPINION-002   | spoken_interaction | Can agree and disagree politely                             | ✅ Realised |
+| B1-OPINION-003   | spoken_production  | Can describe advantages and disadvantages                   | ✅ Realised |
+| B1-OPINION-004   | writing            | Can write simple opinions about current events              | ✅ Realised |
+| B1-TEXT-001      | reading            | Can understand factual articles on topics of interest       | ✅ Realised |
+| B1-TEXT-002      | reading            | Can identify the main points in news articles               | ✅ Realised |
+| B1-TEXT-003      | reading            | Can read simple technical information in their field        | ✅ Realised |
+| B1-TEXT-004      | writing            | Can write straightforward connected text on familiar topics | ✅ Realised |
+| B1-TEXT-005      | writing            | Can write a letter or email describing experiences          | ✅ Realised |
 
 B1 Coverage: 18/18 nodes fully realised (100%).
 
 ### B1 skill distribution
 
-| Skill              | Count | Nodes                              |
-| ------------------ | ----- | ---------------------------------- |
-| spoken_interaction | 4     | SOCIAL-001/002/003, DISCOURSE-001  |
+| Skill              | Count | Nodes                                          |
+| ------------------ | ----- | ---------------------------------------------- |
+| spoken_interaction | 4     | SOCIAL-001/002/003, DISCOURSE-001              |
 | spoken_production  | 5     | SOCIAL-004, DISCOURSE-002/003, OPINION-001/003 |
-| writing            | 5     | DISCOURSE-004/005, OPINION-004, TEXT-004/005 |
-| reading            | 4     | TEXT-001/002/003                    |
-| listening          | 0     | —                                  |
+| writing            | 5     | DISCOURSE-004/005, OPINION-004, TEXT-004/005   |
+| reading            | 4     | TEXT-001/002/003                               |
+| listening          | 0     | —                                              |
 
 ## B2 nodes in the repo
 
 All 18 B2 `cefr-nodes/` are language-agnostic Can-Do statements already modeled for the en-GB/pt-PT pair (see `docs/cefr-mapping.md`). CEFR Can-Do statements describe communicative ability, not any one language, so this epic reused every existing B2 node rather than creating duplicates.
 
-| nodeId          | Skill              | Can-Do                                                         | Status      |
-| --------------- | ------------------ | -------------------------------------------------------------- | ----------- |
-| B2-ARGUE-001    | spoken_production  | Can construct a chain of reasoning                              | ✅ Realised |
-| B2-ARGUE-002    | spoken_production  | Can justify viewpoint on topical issues                         | ✅ Realised |
-| B2-ARGUE-003    | spoken_production  | Can develop an argument systematically                          | ✅ Realised |
-| B2-ARGUE-004    | writing            | Can sustain viewpoint by providing relevant supporting detail   | ✅ Realised |
-| B2-SOCIAL-001   | spoken_interaction | Can interact with a degree of fluency and spontaneity           | ✅ Realised |
-| B2-SOCIAL-002   | spoken_interaction | Can take an active part in discussion                           | ✅ Realised |
-| B2-SOCIAL-003   | spoken_interaction | Can account for and sustain views by giving explanations        | ✅ Realised |
-| B2-SOCIAL-004   | spoken_interaction | Can clarify a detailed point of view clearly                    | ✅ Realised |
-| B2-SPOKEN-001   | listening          | Can understand extended speech and lectures                     | ✅ Realised |
-| B2-SPOKEN-002   | listening          | Can understand most TV news, current affairs and films          | ✅ Realised |
-| B2-SPOKEN-003   | listening          | Can understand the main ideas of complex speech                 | ✅ Realised |
-| B2-TEXT-001     | reading            | Can read with a large degree of independence                    | ✅ Realised |
-| B2-TEXT-002     | reading            | Can understand articles and reports on contemporary problems    | ✅ Realised |
-| B2-TEXT-003     | reading            | Can recognise the line of argument in treatment of issues       | ✅ Realised |
-| B2-TEXT-004     | reading            | Can understand the main conclusions of argumentative texts      | ✅ Realised |
-| B2-WRITTEN-001  | writing            | Can write clear, detailed text on a wide range of subjects     | ✅ Realised |
-| B2-WRITTEN-002  | writing            | Can write an essay or report that develops an argument          | ✅ Realised |
-| B2-WRITTEN-003  | writing            | Can write with correct spelling and punctuation                 | ✅ Realised |
+| nodeId         | Skill              | Can-Do                                                        | Status      |
+| -------------- | ------------------ | ------------------------------------------------------------- | ----------- |
+| B2-ARGUE-001   | spoken_production  | Can construct a chain of reasoning                            | ✅ Realised |
+| B2-ARGUE-002   | spoken_production  | Can justify viewpoint on topical issues                       | ✅ Realised |
+| B2-ARGUE-003   | spoken_production  | Can develop an argument systematically                        | ✅ Realised |
+| B2-ARGUE-004   | writing            | Can sustain viewpoint by providing relevant supporting detail | ✅ Realised |
+| B2-SOCIAL-001  | spoken_interaction | Can interact with a degree of fluency and spontaneity         | ✅ Realised |
+| B2-SOCIAL-002  | spoken_interaction | Can take an active part in discussion                         | ✅ Realised |
+| B2-SOCIAL-003  | spoken_interaction | Can account for and sustain views by giving explanations      | ✅ Realised |
+| B2-SOCIAL-004  | spoken_interaction | Can clarify a detailed point of view clearly                  | ✅ Realised |
+| B2-SPOKEN-001  | listening          | Can understand extended speech and lectures                   | ✅ Realised |
+| B2-SPOKEN-002  | listening          | Can understand most TV news, current affairs and films        | ✅ Realised |
+| B2-SPOKEN-003  | listening          | Can understand the main ideas of complex speech               | ✅ Realised |
+| B2-TEXT-001    | reading            | Can read with a large degree of independence                  | ✅ Realised |
+| B2-TEXT-002    | reading            | Can understand articles and reports on contemporary problems  | ✅ Realised |
+| B2-TEXT-003    | reading            | Can recognise the line of argument in treatment of issues     | ✅ Realised |
+| B2-TEXT-004    | reading            | Can understand the main conclusions of argumentative texts    | ✅ Realised |
+| B2-WRITTEN-001 | writing            | Can write clear, detailed text on a wide range of subjects    | ✅ Realised |
+| B2-WRITTEN-002 | writing            | Can write an essay or report that develops an argument        | ✅ Realised |
+| B2-WRITTEN-003 | writing            | Can write with correct spelling and punctuation               | ✅ Realised |
 
 B2 Coverage: 18/18 nodes fully realised (100%).
 
 ### B2 skill distribution
 
-| Skill              | Count | Nodes                                       |
-| ------------------ | ----- | ------------------------------------------- |
-| spoken_interaction | 4     | SOCIAL-001/002/003/004                       |
-| spoken_production  | 3     | ARGUE-001/002/003                            |
-| writing            | 4     | ARGUE-004, WRITTEN-001/002/003               |
-| reading            | 4     | TEXT-001/002/003/004                         |
-| listening          | 3     | SPOKEN-001/002/003                            |
+| Skill              | Count | Nodes                          |
+| ------------------ | ----- | ------------------------------ |
+| spoken_interaction | 4     | SOCIAL-001/002/003/004         |
+| spoken_production  | 3     | ARGUE-001/002/003              |
+| writing            | 4     | ARGUE-004, WRITTEN-001/002/003 |
+| reading            | 4     | TEXT-001/002/003/004           |
+| listening          | 3     | SPOKEN-001/002/003             |
 
 ## C1 nodes in the repo
 
 All 25 C1 `cefr-nodes/` are language-agnostic Can-Do statements already modeled for the en-GB/pt-PT pair (see `docs/cefr-mapping.md`). CEFR Can-Do statements describe communicative ability, not any one language, so this epic reused every existing C1 node rather than creating duplicates.
 
-| nodeId            | Skill              | Can-Do                                                                               | Status      |
-| ----------------- | ------------------ | ------------------------------------------------------------------------------------ | ----------- |
-| C1-ACADEMIC-001   | writing            | Can write a dissertation or report of substance with reasoned conclusion             | ✅ Realised |
-| C1-ACADEMIC-002   | spoken_production  | Can present complex content to specialist or general audience                         | ✅ Realised |
-| C1-ARGUE-001      | spoken_production  | Can present clear, detailed descriptions of complex subjects                         | ✅ Realised |
-| C1-ARGUE-002      | spoken_production  | Can develop an argument systematically while evaluating counter-arguments             | ✅ Realised |
-| C1-ARGUE-003      | spoken_production  | Can express subtle shades of meaning using qualifying devices                         | ✅ Realised |
-| C1-ARGUE-004      | writing            | Can sustain a viewpoint in writing by evaluating counter-arguments                    | ✅ Realised |
-| C1-LITERARY-001   | reading            | Can appreciate implicit layers of meaning in literary texts                           | ✅ Realised |
-| C1-MEDIATION-001  | spoken_production  | Can explain complicated issues to non-experts without losing accuracy                 | ✅ Realised |
-| C1-NUANCED-001    | spoken_interaction | Can handle disagreement with nuance, adjusting expression to context                  | ✅ Realised |
-| C1-PROFESSIONAL-001| spoken_interaction | Can make well-structured proposals in professional contexts                            | ✅ Realised |
-| C1-PROFESSIONAL-002| writing            | Can write clear, well-structured documents on complex subjects                        | ✅ Realised |
-| C1-SOCIAL-001     | spoken_interaction | Can express self fluently and spontaneously without searching for expressions          | ✅ Realised |
-| C1-SOCIAL-002     | spoken_interaction | Can use language flexibly and effectively for social purposes                          | ✅ Realised |
-| C1-SPOKEN-001     | spoken_production  | Can give elaborate descriptions embedding sub-themes with appropriate conclusion       | ✅ Realised |
-| C1-SPOKEN-002     | spoken_production  | Can express ideas without searching for expressions, using idiomatic expressions       | ✅ Realised |
-| C1-SPOKEN-003     | spoken_interaction | Can keep up fluent conversation on abstract and complex topics                         | ✅ Realised |
-| C1-SPOKEN-004     | listening          | Can understand extended speech even when not clearly structured                        | ✅ Realised |
-| C1-SPOKEN-005     | listening          | Can understand television programmes and films without too much effort                 | ✅ Realised |
-| C1-TEXT-001       | reading            | Can understand a wide range of demanding, longer texts and recognise implicit meaning  | ✅ Realised |
-| C1-TEXT-002       | reading            | Can understand specialised articles and longer technical instructions                  | ✅ Realised |
-| C1-TEXT-003       | reading            | Can appreciate contemporary literary texts including idiomatic and cultural allusions   | ✅ Realised |
-| C1-TEXT-004       | reading            | Can understand complex argumentative texts and identify line of argumentation          | ✅ Realised |
-| C1-WRITTEN-001    | writing            | Can write a convincing text on abstract and topical subjects                           | ✅ Realised |
-| C1-WRITTEN-002    | writing            | Can write a critical review of a film, exhibition or work                             | ✅ Realised |
-| C1-WRITTEN-003    | writing            | Can write a well-structured personal narrative of a complex experience                 | ✅ Realised |
+| nodeId              | Skill              | Can-Do                                                                                | Status      |
+| ------------------- | ------------------ | ------------------------------------------------------------------------------------- | ----------- |
+| C1-ACADEMIC-001     | writing            | Can write a dissertation or report of substance with reasoned conclusion              | ✅ Realised |
+| C1-ACADEMIC-002     | spoken_production  | Can present complex content to specialist or general audience                         | ✅ Realised |
+| C1-ARGUE-001        | spoken_production  | Can present clear, detailed descriptions of complex subjects                          | ✅ Realised |
+| C1-ARGUE-002        | spoken_production  | Can develop an argument systematically while evaluating counter-arguments             | ✅ Realised |
+| C1-ARGUE-003        | spoken_production  | Can express subtle shades of meaning using qualifying devices                         | ✅ Realised |
+| C1-ARGUE-004        | writing            | Can sustain a viewpoint in writing by evaluating counter-arguments                    | ✅ Realised |
+| C1-LITERARY-001     | reading            | Can appreciate implicit layers of meaning in literary texts                           | ✅ Realised |
+| C1-MEDIATION-001    | spoken_production  | Can explain complicated issues to non-experts without losing accuracy                 | ✅ Realised |
+| C1-NUANCED-001      | spoken_interaction | Can handle disagreement with nuance, adjusting expression to context                  | ✅ Realised |
+| C1-PROFESSIONAL-001 | spoken_interaction | Can make well-structured proposals in professional contexts                           | ✅ Realised |
+| C1-PROFESSIONAL-002 | writing            | Can write clear, well-structured documents on complex subjects                        | ✅ Realised |
+| C1-SOCIAL-001       | spoken_interaction | Can express self fluently and spontaneously without searching for expressions         | ✅ Realised |
+| C1-SOCIAL-002       | spoken_interaction | Can use language flexibly and effectively for social purposes                         | ✅ Realised |
+| C1-SPOKEN-001       | spoken_production  | Can give elaborate descriptions embedding sub-themes with appropriate conclusion      | ✅ Realised |
+| C1-SPOKEN-002       | spoken_production  | Can express ideas without searching for expressions, using idiomatic expressions      | ✅ Realised |
+| C1-SPOKEN-003       | spoken_interaction | Can keep up fluent conversation on abstract and complex topics                        | ✅ Realised |
+| C1-SPOKEN-004       | listening          | Can understand extended speech even when not clearly structured                       | ✅ Realised |
+| C1-SPOKEN-005       | listening          | Can understand television programmes and films without too much effort                | ✅ Realised |
+| C1-TEXT-001         | reading            | Can understand a wide range of demanding, longer texts and recognise implicit meaning | ✅ Realised |
+| C1-TEXT-002         | reading            | Can understand specialised articles and longer technical instructions                 | ✅ Realised |
+| C1-TEXT-003         | reading            | Can appreciate contemporary literary texts including idiomatic and cultural allusions | ✅ Realised |
+| C1-TEXT-004         | reading            | Can understand complex argumentative texts and identify line of argumentation         | ✅ Realised |
+| C1-WRITTEN-001      | writing            | Can write a convincing text on abstract and topical subjects                          | ✅ Realised |
+| C1-WRITTEN-002      | writing            | Can write a critical review of a film, exhibition or work                             | ✅ Realised |
+| C1-WRITTEN-003      | writing            | Can write a well-structured personal narrative of a complex experience                | ✅ Realised |
 
 C1 Coverage: 25/25 nodes fully realised (100%).
 
 ### C1 skill distribution
 
-| Skill              | Count | Nodes                                                        |
-| ------------------ | ----- | ------------------------------------------------------------ |
-| spoken_interaction | 5     | SOCIAL-001/002, NUANCED-001, PROFESSIONAL-001, SPOKEN-003    |
+| Skill              | Count | Nodes                                                          |
+| ------------------ | ----- | -------------------------------------------------------------- |
+| spoken_interaction | 5     | SOCIAL-001/002, NUANCED-001, PROFESSIONAL-001, SPOKEN-003      |
 | spoken_production  | 6     | ACADEMIC-002, ARGUE-001/002/003, MEDIATION-001, SPOKEN-001/002 |
 | writing            | 7     | ACADEMIC-001, ARGUE-004, PROFESSIONAL-002, WRITTEN-001/002/003 |
 | reading            | 5     | LITERARY-001, TEXT-001/002/003/004                             |
@@ -232,49 +234,49 @@ C1 Coverage: 25/25 nodes fully realised (100%).
 
 All 20 C2 `cefr-nodes/` are language-agnostic Can-Do statements sourced from the CEFR C2 descriptors (Council of Europe Companion Volume). CEFR Can-Do statements describe communicative ability, not any one language, so this epic created new C2 nodes and paired es-ES realisations.
 
-| nodeId            | Skill              | Can-Do                                                                               | Status      |
-| ----------------- | ------------------ | ------------------------------------------------------------------------------------ | ----------- |
-| C2-MODALITY-001   | spoken_interaction | Can express spontaneously, fluently and precisely, differentiating finer shades       | ✅ Realised |
-| C2-MODALITY-002   | spoken_production  | Can present a clear, smoothly-flowing accurate description or argument               | ✅ Realised |
-| C2-MODALITY-003   | listening          | Can understand any kind of spoken language at fast native speed                       | ✅ Realised |
-| C2-MODALITY-004   | reading            | Can understand virtually everything heard or read, summarising from different sources  | ✅ Realised |
-| C2-MODALITY-005   | writing            | Can write clear, smoothly-flowing text on a complex subject with appropriate style    | ✅ Realised |
-| C2-SUMMARY-001    | writing            | Can summarise concisely information from extended spoken and written sources          | ✅ Realised |
-| C2-ARGUE-001      | writing            | Can select appropriate formulation from a broad range of language                     | ✅ Realised |
-| C2-ARGUE-002      | spoken_interaction | Can take active part in discussion in all registers, constructing chains of reasoning | ✅ Realised |
-| C2-NUANCE-001     | spoken_interaction | Can express clearly and precisely, differentiating finer shades of meaning            | ✅ Realised |
-| C2-PROFESSIONAL-001| writing           | Can write excellent, well-structured summaries of complex factual material            | ✅ Realised |
-| C2-PROFESSIONAL-002| spoken_interaction| Can express fluently with near-native command of vocabulary and syntax                 | ✅ Realised |
-| C2-LITERARY-001   | reading            | Can read and appreciate complex literary texts, poetry, song lyrics, opinion pieces   | ✅ Realised |
-| C2-LITERARY-002   | writing            | Can write with precision and subtlety, adapting style to text and audience            | ✅ Realised |
-| C2-ACADEMIC-001   | writing            | Can write clearly and fluently on complex subjects with coherent, convincing text     | ✅ Realised |
-| C2-ACADEMIC-002   | spoken_production  | Can present clear, detailed and accurate descriptions of complex subjects             | ✅ Realised |
-| C2-MEDIATION-001  | spoken_interaction | Can act as effective intermediary, simplifying messages and resolving disagreements   | ✅ Realised |
-| C2-MEDIATION-002  | reading            | Can understand all forms of written language including abstract and complex texts     | ✅ Realised |
-| C2-SOCIAL-001     | spoken_interaction | Can interact with native speakers with fluency, spontaneity and precision             | ✅ Realised |
-| C2-WRITTEN-001    | writing            | Can write clear, detailed texts developing arguments and hypotheses                   | ✅ Realised |
-| C2-WRITTEN-002    | writing            | Can write with precision and subtlety, conveying intended effect on the reader        | ✅ Realised |
+| nodeId              | Skill              | Can-Do                                                                                | Status      |
+| ------------------- | ------------------ | ------------------------------------------------------------------------------------- | ----------- |
+| C2-MODALITY-001     | spoken_interaction | Can express spontaneously, fluently and precisely, differentiating finer shades       | ✅ Realised |
+| C2-MODALITY-002     | spoken_production  | Can present a clear, smoothly-flowing accurate description or argument                | ✅ Realised |
+| C2-MODALITY-003     | listening          | Can understand any kind of spoken language at fast native speed                       | ✅ Realised |
+| C2-MODALITY-004     | reading            | Can understand virtually everything heard or read, summarising from different sources | ✅ Realised |
+| C2-MODALITY-005     | writing            | Can write clear, smoothly-flowing text on a complex subject with appropriate style    | ✅ Realised |
+| C2-SUMMARY-001      | writing            | Can summarise concisely information from extended spoken and written sources          | ✅ Realised |
+| C2-ARGUE-001        | writing            | Can select appropriate formulation from a broad range of language                     | ✅ Realised |
+| C2-ARGUE-002        | spoken_interaction | Can take active part in discussion in all registers, constructing chains of reasoning | ✅ Realised |
+| C2-NUANCE-001       | spoken_interaction | Can express clearly and precisely, differentiating finer shades of meaning            | ✅ Realised |
+| C2-PROFESSIONAL-001 | writing            | Can write excellent, well-structured summaries of complex factual material            | ✅ Realised |
+| C2-PROFESSIONAL-002 | spoken_interaction | Can express fluently with near-native command of vocabulary and syntax                | ✅ Realised |
+| C2-LITERARY-001     | reading            | Can read and appreciate complex literary texts, poetry, song lyrics, opinion pieces   | ✅ Realised |
+| C2-LITERARY-002     | writing            | Can write with precision and subtlety, adapting style to text and audience            | ✅ Realised |
+| C2-ACADEMIC-001     | writing            | Can write clearly and fluently on complex subjects with coherent, convincing text     | ✅ Realised |
+| C2-ACADEMIC-002     | spoken_production  | Can present clear, detailed and accurate descriptions of complex subjects             | ✅ Realised |
+| C2-MEDIATION-001    | spoken_interaction | Can act as effective intermediary, simplifying messages and resolving disagreements   | ✅ Realised |
+| C2-MEDIATION-002    | reading            | Can understand all forms of written language including abstract and complex texts     | ✅ Realised |
+| C2-SOCIAL-001       | spoken_interaction | Can interact with native speakers with fluency, spontaneity and precision             | ✅ Realised |
+| C2-WRITTEN-001      | writing            | Can write clear, detailed texts developing arguments and hypotheses                   | ✅ Realised |
+| C2-WRITTEN-002      | writing            | Can write with precision and subtlety, conveying intended effect on the reader        | ✅ Realised |
 
 C2 Coverage: 20/20 nodes fully realised (100%).
 
 ### C2 skill distribution
 
-| Skill              | Count | Nodes                                                        |
-| ------------------ | ----- | ------------------------------------------------------------ |
-| spoken_interaction | 6     | MODALITY-001/003, ARGUE-002, NUANCE-001, PROFESSIONAL-002, MEDIATION-001, SOCIAL-001 |
-| spoken_production  | 2     | MODALITY-002, ACADEMIC-002                                    |
+| Skill              | Count | Nodes                                                                                               |
+| ------------------ | ----- | --------------------------------------------------------------------------------------------------- |
+| spoken_interaction | 6     | MODALITY-001/003, ARGUE-002, NUANCE-001, PROFESSIONAL-002, MEDIATION-001, SOCIAL-001                |
+| spoken_production  | 2     | MODALITY-002, ACADEMIC-002                                                                          |
 | writing            | 8     | MODALITY-005, SUMMARY-001, ARGUE-001, PROFESSIONAL-001, LITERARY-002, ACADEMIC-001, WRITTEN-001/002 |
-| reading            | 3     | MODALITY-004, LITERARY-001, MEDIATION-002                     |
-| listening          | 1     | MODALITY-003                                                  |
+| reading            | 3     | MODALITY-004, LITERARY-001, MEDIATION-002                                                           |
+| listening          | 1     | MODALITY-003                                                                                        |
 
 ### es-ES realisation totals
 
-| Level | Vocabulary items | Grammar points | Files |
-| ----- | ---------------- | -------------- | ----- |
-| A1    | 132              | 0              | 22    |
-| A2    | 120              | 8              | 20    |
-| B1    | 108              | 9              | 18    |
-| B2    | 108              | 9              | 18    |
-| C1    | 150              | 12             | 25    |
-| C2    | 120              | 10             | 20    |
-| **Total** | **738**      | **48**         | **123** |
+| Level     | Vocabulary items | Grammar points | Files   |
+| --------- | ---------------- | -------------- | ------- |
+| A1        | 132              | 0              | 22      |
+| A2        | 120              | 8              | 20      |
+| B1        | 108              | 9              | 18      |
+| B2        | 108              | 9              | 18      |
+| C1        | 150              | 12             | 25      |
+| C2        | 120              | 10             | 20      |
+| **Total** | **738**          | **48**         | **123** |

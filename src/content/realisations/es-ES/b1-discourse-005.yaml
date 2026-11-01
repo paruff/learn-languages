@@ -46,6 +46,49 @@ vocabulary:
     partOfSpeech: verb
     example: 'Concluyo que la experiencia fue muy positiva.'
     exampleTranslation: 'I conclude that the experience was very positive.'
+  - id: es-ES-B1-DISCOURSE-005-007
+    concept: 'brief-report'
+    term: 'informe breve'
+    translation: 'brief report'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Voy a hacer un informe breve de mi experiencia.'
+    exampleTranslation: 'I will make a brief report of my experience.'
+  - id: es-ES-B1-DISCOURSE-005-008
+    concept: 'to-summarise-the-facts'
+    term: 'resumir los hechos'
+    translation: 'to summarise the facts'
+    partOfSpeech: phrase
+    example: 'Es importante resumir los hechos principales.'
+    exampleTranslation: 'It is important to summarise the main facts.'
+  - id: es-ES-B1-DISCOURSE-005-009
+    concept: 'to-describe-the-situation'
+    term: 'describir la situación'
+    translation: 'to describe the situation'
+    partOfSpeech: phrase
+    example: 'Voy a describir la situación con detalle.'
+    exampleTranslation: 'I will describe the situation in detail.'
+  - id: es-ES-B1-DISCOURSE-005-010
+    concept: 'to-do-an-analysis'
+    term: 'hacer un análisis'
+    translation: 'to do an analysis'
+    partOfSpeech: phrase
+    example: 'Tenemos que hacer un análisis cuidadoso.'
+    exampleTranslation: 'We need to do a careful analysis.'
+  - id: es-ES-B1-DISCOURSE-005-011
+    concept: 'to-draw-conclusions'
+    term: 'sacar conclusiones'
+    translation: 'to draw conclusions'
+    partOfSpeech: phrase
+    example: 'Saquemos conclusiones a partir de los datos.'
+    exampleTranslation: 'Let us draw conclusions based on the data.'
+  - id: es-ES-B1-DISCOURSE-005-012
+    concept: 'to-present-recommendations'
+    term: 'presentar recomendaciones'
+    translation: 'to present recommendations'
+    partOfSpeech: phrase
+    example: 'Voy a presentar recomendaciones para mejorar.'
+    exampleTranslation: 'I will present recommendations for improvement.'
 grammar:
   - id: es-ES-B1-DISCOURSE-005-G1
     point: 'Report structures with "poner en" + noun'

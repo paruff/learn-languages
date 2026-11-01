@@ -44,6 +44,34 @@ vocabulary:
     partOfSpeech: adverb
     example: 'Finalmente, llegamos a nuestro destino.'
     exampleTranslation: 'Finally, we arrived at our destination.'
+  - id: es-ES-B1-DISCOURSE-002-007
+    concept: 'after-that'
+    term: 'a continuación'
+    translation: 'after that'
+    partOfSpeech: phrase
+    example: 'A continuación, fuimos a cenar.'
+    exampleTranslation: 'After that, we went to dinner.'
+  - id: es-ES-B1-DISCOURSE-002-008
+    concept: 'first-of-all'
+    term: 'en primer lugar'
+    translation: 'first of all'
+    partOfSpeech: phrase
+    example: 'En primer lugar, quiero dar las gracias a todos por estar aquí.'
+    exampleTranslation: 'First of all, I want to thank everyone for being here.'
+  - id: es-ES-B1-DISCOURSE-002-009
+    concept: 'following'
+    term: 'tras'
+    translation: 'following'
+    partOfSpeech: phrase
+    example: 'Tras la reunión, tomamos una decisión.'
+    exampleTranslation: 'Following the meeting, we made a decision.'
+  - id: es-ES-B1-DISCOURSE-002-010
+    concept: 'next'
+    term: 'luego'
+    translation: 'next'
+    partOfSpeech: adverb
+    example: 'Luego, presentamos los resultados.'
+    exampleTranslation: 'Next, we presented the results.'
 grammar:
   - id: es-ES-B1-DISCOURSE-002-G1
     point: 'Narrative connectors for temporal sequence'

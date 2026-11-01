@@ -48,6 +48,45 @@ vocabulary:
     gender: masculine
     example: 'El destinatario debe recibir la carta antes del viernes.'
     exampleTranslation: 'The recipient must receive the letter before Friday.'
+  - id: es-ES-B1-TEXT-005-007
+    concept: 'professional-email'
+    term: 'correo profesional'
+    translation: 'professional email'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Envié un correo profesional al compañero.'
+    exampleTranslation: 'I sent a professional email to the colleague.'
+  - id: es-ES-B1-TEXT-005-008
+    concept: 'greeting'
+    term: 'saludo'
+    translation: 'greeting'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'El saludo debe ser adecuado al contexto.'
+    exampleTranslation: 'The greeting should be appropriate to the context.'
+  - id: es-ES-B1-TEXT-005-009
+    concept: 'farewell'
+    term: 'despedida'
+    translation: 'farewell'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Usé una despedida formal en la carta.'
+    exampleTranslation: 'I used a formal farewell in the letter.'
+  - id: es-ES-B1-TEXT-005-010
+    concept: 'courtesy-formula'
+    term: 'fórmula de cortesía'
+    translation: 'courtesy formula'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Las fórmulas de cortesía son importantes en la escritura formal.'
+    exampleTranslation: 'Courtesy formulas are important in formal writing.'
+  - id: es-ES-B1-TEXT-005-011
+    concept: 'to-sign-the-email'
+    term: 'firmar el correo'
+    translation: 'to sign the email'
+    partOfSpeech: phrase
+    example: 'No me olvidé de firmar el correo.'
+    exampleTranslation: 'I did not forget to sign the email.'
 grammar:
   - id: es-ES-B1-TEXT-005-G1
     point: 'Formal letter structure with "le recuerdo que" + subjunctive'

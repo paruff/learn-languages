@@ -48,6 +48,51 @@ vocabulary:
     gender: feminine
     example: 'La sección de internacional es mi favorita.'
     exampleTranslation: 'The international section is my favourite.'
+  - id: es-ES-B1-TEXT-002-007
+    concept: 'news'
+    term: 'noticia'
+    translation: 'news'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Leí una noticia interesante en el periódico.'
+    exampleTranslation: 'I read an interesting news article in the newspaper.'
+  - id: es-ES-B1-TEXT-002-008
+    concept: 'news-summary'
+    term: 'resumen de noticias'
+    translation: 'news summary'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El resumen de noticias es muy claro.'
+    exampleTranslation: 'The news summary is very clear.'
+  - id: es-ES-B1-TEXT-002-009
+    concept: 'main-headline'
+    term: 'titular principal'
+    translation: 'main headline'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El titular principal me llamó la atención.'
+    exampleTranslation: 'The main headline caught my attention.'
+  - id: es-ES-B1-TEXT-002-010
+    concept: 'to-read-quickly'
+    term: 'leer rápido'
+    translation: 'to read quickly'
+    partOfSpeech: phrase
+    example: 'Puedo leer rápido para encontrar la información.'
+    exampleTranslation: 'I can read quickly to find the information.'
+  - id: es-ES-B1-TEXT-002-011
+    concept: 'to-underline-key-words'
+    term: 'subrayar las palabras clave'
+    translation: 'to underline key words'
+    partOfSpeech: phrase
+    example: 'Me gusta subrayar las palabras clave cuando leo.'
+    exampleTranslation: 'I like to underline key words when I read.'
+  - id: es-ES-B1-TEXT-002-012
+    concept: 'to-make-notes'
+    term: 'tomar apuntes'
+    translation: 'to make notes'
+    partOfSpeech: phrase
+    example: 'Es útil tomar apuntes mientras leo.'
+    exampleTranslation: 'It is useful to make notes while I read.'
 grammar:
   - id: es-ES-B1-TEXT-002-G1
     point: 'Reading comprehension with present perfect for recent news'

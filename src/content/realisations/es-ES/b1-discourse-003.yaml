@@ -45,6 +45,34 @@ vocabulary:
     partOfSpeech: verb
     example: 'El problema devino en una crisis.'
     exampleTranslation: 'The problem turned into a crisis.'
+  - id: es-ES-B1-DISCOURSE-003-007
+    concept: 'due-to'
+    term: 'debido a'
+    translation: 'due to'
+    partOfSpeech: phrase
+    example: 'Debido a la lluvia, se aplazó el evento.'
+    exampleTranslation: 'Due to the rain, the event was postponed.'
+  - id: es-ES-B1-DISCOURSE-003-008
+    concept: 'consequently'
+    term: 'en consecuencia'
+    translation: 'consequently'
+    partOfSpeech: phrase
+    example: 'En consecuencia, tuvimos que cambiar de planes.'
+    exampleTranslation: 'Consequently, we needed to change plans.'
+  - id: es-ES-B1-DISCOURSE-003-009
+    concept: 'this-led-to'
+    term: 'esto nos llevó a'
+    translation: 'this led to'
+    partOfSpeech: phrase
+    example: 'Esto nos llevó a hacer nuevos descubrimientos.'
+    exampleTranslation: 'This led to us making new discoveries.'
+  - id: es-ES-B1-DISCOURSE-003-010
+    concept: 'the-cause-was'
+    term: 'la causa fue'
+    translation: 'the cause was'
+    partOfSpeech: phrase
+    example: 'La causa fue la falta de comunicación.'
+    exampleTranslation: 'The cause was the lack of communication.'
 grammar:
   - id: es-ES-B1-DISCOURSE-003-G1
     point: 'Cause-effect connectors'

@@ -46,6 +46,51 @@ vocabulary:
     gender: masculine
     example: 'Desde mi punto de vista, la situación es preocupante.'
     exampleTranslation: 'From my point of view, the situation is worrying.'
+  - id: es-ES-B1-OPINION-004-007
+    concept: 'opinion-article'
+    term: 'artículo de opinión'
+    translation: 'opinion article'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Leí un artículo de opinión sobre el futuro del trabajo.'
+    exampleTranslation: 'I read an opinion article about the future of work.'
+  - id: es-ES-B1-OPINION-004-008
+    concept: 'to-write-about'
+    term: 'escribir sobre'
+    translation: 'to write about'
+    partOfSpeech: phrase
+    example: 'Voy a escribir sobre la importancia de la educación.'
+    exampleTranslation: 'I am going to write about the importance of education.'
+  - id: es-ES-B1-OPINION-004-009
+    concept: 'to-express-my-position'
+    term: 'expresar mi postura'
+    translation: 'to express my position'
+    partOfSpeech: phrase
+    example: 'Es importante expresar mi postura con claridad.'
+    exampleTranslation: 'It is important to express my position clearly.'
+  - id: es-ES-B1-OPINION-004-010
+    concept: 'to-support-my-opinion'
+    term: 'respaldar mi opinión'
+    translation: 'to support my opinion'
+    partOfSpeech: phrase
+    example: 'Necesito respaldar mi opinión con datos.'
+    exampleTranslation: 'I need to support my opinion with facts.'
+  - id: es-ES-B1-OPINION-004-011
+    concept: 'current-events'
+    term: 'actualidad'
+    translation: 'current events'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Sigo la actualidad a diario.'
+    exampleTranslation: 'I follow current events daily.'
+  - id: es-ES-B1-OPINION-004-012
+    concept: 'the-media'
+    term: 'los medios de comunicación'
+    translation: 'the media'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Los medios de comunicación son importantes para la democracia.'
+    exampleTranslation: 'The media are important for democracy.'
 grammar:
   - id: es-ES-B1-OPINION-004-G1
     point: 'Written opinion structures with "desde mi punto de vista"'
