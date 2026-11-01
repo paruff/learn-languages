@@ -47,6 +47,49 @@ vocabulary:
     partOfSpeech: verb
     example: 'El autor sugiere ideas sin declararlas explícitamente.'
     exampleTranslation: 'The author suggests ideas without declaring them explicitly.'
+  - id: es-ES-C1-ARGUE-003-007
+    concept: 'to-soften-a-statement'
+    term: 'suavizar una afirmación'
+    translation: 'to soften a statement'
+    partOfSpeech: phrase
+    example: 'Para no parecer arrogante, suavizó la afirmación con un comentario cauteloso.'
+    exampleTranslation: 'In order not to seem arrogant, he softened the statement with a cautious comment.'
+  - id: es-ES-C1-ARGUE-003-008
+    concept: 'to-qualify-one-s-opinion'
+    term: 'matizar la opinión'
+    translation: "to qualify one's opinion"
+    partOfSpeech: phrase
+    example: 'Matizar la opinión con ejemplos concretos es señal de madurez.'
+    exampleTranslation: "Qualifying one's opinion with concrete examples is a sign of maturity."
+  - id: es-ES-C1-ARGUE-003-009
+    concept: 'rhetorical-modesty'
+    term: 'modestia retórica'
+    translation: 'rhetorical modesty'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La modestia retórica permite presentar ideas fuertes sin hostilidad.'
+    exampleTranslation: 'Rhetorical modesty makes it possible to present strong ideas without hostility.'
+  - id: es-ES-C1-ARGUE-003-010
+    concept: 'to-show-reserve'
+    term: 'mostrar reservas'
+    translation: 'to show reserve'
+    partOfSpeech: phrase
+    example: 'Mostró reservas ante los pronósticos más optimistas.'
+    exampleTranslation: 'He showed reservations about the most optimistic forecasts.'
+  - id: es-ES-C1-ARGUE-003-011
+    concept: 'to-guard-one-s-opinion'
+    term: 'resguardar la opinión'
+    translation: "to guard one's opinion"
+    partOfSpeech: phrase
+    example: 'Resguardó su opinión con una última salvedad.'
+    exampleTranslation: 'He safeguarded his opinion with a final caveat.'
+  - id: es-ES-C1-ARGUE-003-012
+    concept: 'to-express-prudent-doubt'
+    term: 'expresar una duda prudente'
+    translation: 'to express prudent doubt'
+    partOfSpeech: phrase
+    example: 'Expresar una duda prudente antes de dar la razón es habitual en las conversaciones informales.'
+    exampleTranslation: 'Expressing a prudent doubt before conceding is common in informal conversations.'
 grammar:
   - id: es-ES-C1-ARGUE-003-G1
     point: 'Subjunctive in relative clauses for qualification'

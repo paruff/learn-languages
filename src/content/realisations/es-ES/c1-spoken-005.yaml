@@ -48,6 +48,52 @@ vocabulary:
     gender: masculine
     example: 'Puedo entender diferentes acentos en los medios.'
     exampleTranslation: 'I can understand different accents in the media.'
+  - id: es-ES-C1-SPOKEN-005-007
+    concept: 'to-follow-a-film-without-subtitles'
+    term: 'seguir una película sin subtítulos'
+    translation: 'to follow a film without subtitles'
+    partOfSpeech: phrase
+    example: 'Ya puede seguir una película sin subtítulos de principio a fin.'
+    exampleTranslation: 'She can already follow a film without subtitles from start to finish.'
+  - id: es-ES-C1-SPOKEN-005-008
+    concept: 'fast-paced-dialogue'
+    term: 'diálogo vertiginoso'
+    translation: 'fast-paced dialogue'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El diálogo vertiginoso de las series modernas exige mucha agilidad.'
+    exampleTranslation: 'The fast-paced dialogue of modern series requires great agility.'
+  - id: es-ES-C1-SPOKEN-005-009
+    concept: 'register-shifts'
+    term: 'cambios de registro'
+    translation: 'register shifts'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Los cambios de registro entre escenas incluso revelan ironía.'
+    exampleTranslation: 'The register shifts between scenes even reveal irony.'
+  - id: es-ES-C1-SPOKEN-005-010
+    concept: 'coherence-of-the-plot'
+    term: 'coherencia de la trama'
+    translation: 'coherence of the plot'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Seguir la coherencia de la trama es tarea del oyente atento.'
+    exampleTranslation: 'Following the coherence of the plot is a task for the attentive listener.'
+  - id: es-ES-C1-SPOKEN-005-011
+    concept: 'slang-and-everyday-expressions'
+    term: 'jerga y expresiones coloquiales'
+    translation: 'slang and everyday expressions'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La jerga y las expresiones coloquiales aparecen sin avisar.'
+    exampleTranslation: 'Slang and colloquial expressions appear without warning.'
+  - id: es-ES-C1-SPOKEN-005-012
+    concept: 'to-interpret-the-tone'
+    term: 'interpretar el tono'
+    translation: 'to interpret the tone'
+    partOfSpeech: phrase
+    example: 'Solo el tono permite interpretar lo que suena a amenaza.'
+    exampleTranslation: 'Only the tone allows one to interpret what sounds like a threat.'
 grammar:
   - id: es-ES-C1-SPOKEN-005-G1
     point: 'Periphrastic future in media comprehension'

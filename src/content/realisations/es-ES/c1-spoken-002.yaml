@@ -48,6 +48,49 @@ vocabulary:
     gender: feminine
     example: 'Hablo con naturalidad y seguridad.'
     exampleTranslation: 'I speak with naturalness and confidence.'
+  - id: es-ES-C1-SPOKEN-002-007
+    concept: 'to-get-down-to-business'
+    term: 'ir al grano'
+    translation: 'to get down to business'
+    partOfSpeech: phrase
+    example: 'Basta de rodeos; vayamos al grano.'
+    exampleTranslation: "Enough beating about the bush; let's get down to business."
+  - id: es-ES-C1-SPOKEN-002-008
+    concept: 'a-wild-and-uncalled-for-addition'
+    term: 'un añadido descabellado'
+    translation: 'a wild and uncalled-for addition'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Ese comentario fue un añadido descabellado y fuera de lugar en la discusión.'
+    exampleTranslation: 'That comment was a wild and uncalled-for addition to the discussion.'
+  - id: es-ES-C1-SPOKEN-002-009
+    concept: 'to-have-the-patience-of-a-saint'
+    term: 'tener paciencia de santo'
+    translation: 'to have the patience of a saint'
+    partOfSpeech: phrase
+    example: 'El profesor tiene paciencia de santo con los alumnos más lentos.'
+    exampleTranslation: 'The teacher has the patience of a saint with the slower students.'
+  - id: es-ES-C1-SPOKEN-002-010
+    concept: 'to-know-what-one-is-talking-about'
+    term: 'saber de lo que se habla'
+    translation: 'to know what one is talking about'
+    partOfSpeech: phrase
+    example: 'Cuando habla de pesca, sabe de lo que habla.'
+    exampleTranslation: 'When he talks about fishing, he knows what he is talking about.'
+  - id: es-ES-C1-SPOKEN-002-011
+    concept: 'to-dig-into-one-s-memory'
+    term: 'rebuscar en la memoria'
+    translation: "to dig into one's memory"
+    partOfSpeech: phrase
+    example: 'Rebuscó en la memoria los nombres de todas las canciones antiguas.'
+    exampleTranslation: 'He dug into his memory for the names of all the old songs.'
+  - id: es-ES-C1-SPOKEN-002-012
+    concept: 'in-no-time-at-all'
+    term: 'en un abrir y cerrar de ojos'
+    translation: 'in no time at all'
+    partOfSpeech: phrase
+    example: 'Resolvió el problema en un abrir y cerrar de ojos.'
+    exampleTranslation: 'He solved the problem in no time at all.'
 grammar:
   - id: es-ES-C1-SPOKEN-002-G1
     point: 'Idiomatic expressions with "estar como" for vivid description'

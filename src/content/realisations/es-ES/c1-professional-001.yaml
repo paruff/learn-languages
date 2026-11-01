@@ -47,6 +47,53 @@ vocabulary:
     partOfSpeech: phrase
     example: 'Expongo con seguridad ante cualquier audiencia.'
     exampleTranslation: 'I present with confidence before any audience.'
+  - id: es-ES-C1-PROFESSIONAL-001-007
+    concept: 'proposal-for-discussion'
+    term: 'propuesta para debatir'
+    translation: 'proposal for discussion'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La propuesta para debatir recibió un análisis minucioso.'
+    exampleTranslation: 'The proposal for discussion received careful analysis.'
+  - id: es-ES-C1-PROFESSIONAL-001-008
+    concept: 'objection-of-the-partners'
+    term: 'objeción de los socios'
+    translation: 'objection of the partners'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La objeción de los socios obligó a dar un paso atrás en el calendario.'
+    exampleTranslation: 'The objection of the partners forced a step back on the timetable.'
+  - id: es-ES-C1-PROFESSIONAL-001-009
+    concept: 'to-set-the-record-straight'
+    term: 'dejar las cosas claras'
+    translation: 'to set the record straight'
+    partOfSpeech: phrase
+    example: 'En la reunión dejó las cosas claras sobre los plazos.'
+    exampleTranslation: 'At the meeting he set the record straight about the deadlines.'
+  - id: es-ES-C1-PROFESSIONAL-001-010
+    concept: 'room-for-manoeuvre'
+    term: 'margen de maniobra'
+    translation: 'room for manoeuvre'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El presupuesto deja poco margen de maniobra para imprevistos.'
+    exampleTranslation: 'The budget leaves little room for manoeuvre for the unforeseen.'
+  - id: es-ES-C1-PROFESSIONAL-001-011
+    concept: 'workable-consensus'
+    term: 'consenso viable'
+    translation: 'workable consensus'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Los mediadores buscaron el consenso viable entre las partes.'
+    exampleTranslation: 'The mediators sought the workable consensus between the parties.'
+  - id: es-ES-C1-PROFESSIONAL-001-012
+    concept: 'tone-of-mutual-understanding'
+    term: 'tono de entendimiento mutuo'
+    translation: 'tone of mutual understanding'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El tono de entendimiento mutuo en la reunión evitó los conflictos previstos.'
+    exampleTranslation: 'The tone of mutual understanding at the meeting averted the expected conflicts.'
 grammar:
   - id: es-ES-C1-PROFESSIONAL-001-G1
     point: 'Reported speech with subjunctive for professional contexts'

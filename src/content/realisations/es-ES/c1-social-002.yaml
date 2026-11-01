@@ -49,6 +49,48 @@ vocabulary:
     gender: masculine
     example: 'Domino diferentes registros según la situación.'
     exampleTranslation: 'I master different registers depending on the situation.'
+  - id: es-ES-C1-SOCIAL-002-007
+    concept: 'to-switch-register'
+    term: 'cambiar de registro'
+    translation: 'to switch register'
+    partOfSpeech: phrase
+    example: 'En un entorno formal, cambia de registro con una naturalidad sorprendente.'
+    exampleTranslation: 'In a formal environment, he switches register with surprising naturalness.'
+  - id: es-ES-C1-SOCIAL-002-008
+    concept: 'to-address-someone-formally'
+    term: 'tratar de usted'
+    translation: 'to address someone formally'
+    partOfSpeech: phrase
+    example: 'A las personas mayores es costumbre tratarlas de usted.'
+    exampleTranslation: 'It is customary to address older people formally, with usted.'
+  - id: es-ES-C1-SOCIAL-002-009
+    concept: 'to-address-someone-informally'
+    term: 'tratar de tú'
+    translation: 'to address someone informally'
+    partOfSpeech: phrase
+    example: 'Los compañeros de trabajo se tratan de tú desde el primer día.'
+    exampleTranslation: 'Co-workers have addressed each other informally, with tú, since day one.'
+  - id: es-ES-C1-SOCIAL-002-010
+    concept: 'to-adjust-the-tone'
+    term: 'ajustar el tono'
+    translation: 'to adjust the tone'
+    partOfSpeech: phrase
+    example: 'Sabe ajustar el tono al contexto social en el que se encuentra.'
+    exampleTranslation: 'She knows how to adjust her tone to the social context she is in.'
+  - id: es-ES-C1-SOCIAL-002-011
+    concept: 'to-keep-respectful-distance'
+    term: 'guardar una distancia respetuosa'
+    translation: 'to keep respectful distance'
+    partOfSpeech: phrase
+    example: 'En las primeras conversaciones es prudente guardar una distancia respetuosa.'
+    exampleTranslation: 'In first conversations, it is prudent to keep a respectful distance.'
+  - id: es-ES-C1-SOCIAL-002-012
+    concept: 'to-break-the-ice'
+    term: 'romper el hielo'
+    translation: 'to break the ice'
+    partOfSpeech: phrase
+    example: 'Para romper el hielo, recurrió a un comentario sobre el tiempo.'
+    exampleTranslation: 'To break the ice, she resorted to a comment about the weather.'
 grammar:
   - id: es-ES-C1-SOCIAL-002-G1
     point: 'Subjunctive in purpose clauses for social flexibility'

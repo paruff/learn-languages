@@ -48,6 +48,51 @@ vocabulary:
     partOfSpeech: verb
     example: 'Sé redondear mis exposiciones de forma elegante.'
     exampleTranslation: 'I know how to round off my presentations elegantly.'
+  - id: es-ES-C1-SPOKEN-001-007
+    concept: 'detailed-narrative'
+    term: 'relato detallado'
+    translation: 'detailed narrative'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El relato detallado del viaje encantó a los invitados.'
+    exampleTranslation: 'The detailed narrative of the journey delighted the guests.'
+  - id: es-ES-C1-SPOKEN-001-008
+    concept: 'background'
+    term: 'trasfondo'
+    translation: 'background'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'El trasfondo del relato es la crisis económica de los años noventa.'
+    exampleTranslation: 'The background of the account is the economic crisis of the nineties.'
+  - id: es-ES-C1-SPOKEN-001-009
+    concept: 'to-develop-a-sub-theme'
+    term: 'desarrollar un subtema'
+    translation: 'to develop a sub-theme'
+    partOfSpeech: phrase
+    example: 'Desarrolló un subtema que nadie esperaba y captó la atención de todos.'
+    exampleTranslation: "He developed a sub-theme nobody expected and captured everyone's attention."
+  - id: es-ES-C1-SPOKEN-001-010
+    concept: 'to-round-off-the-story'
+    term: 'redondear el relato'
+    translation: 'to round off the story'
+    partOfSpeech: phrase
+    example: 'Redondeó el relato con una reflexión sorprendente.'
+    exampleTranslation: 'He rounded off the story with a surprising reflection.'
+  - id: es-ES-C1-SPOKEN-001-011
+    concept: 'to-offer-reflections'
+    term: 'aportar reflexiones'
+    translation: 'to offer reflections'
+    partOfSpeech: phrase
+    example: 'A lo largo de la conversación aportó reflexiones pertinentes sobre el asunto.'
+    exampleTranslation: 'Throughout the conversation, he offered pertinent reflections on the matter.'
+  - id: es-ES-C1-SPOKEN-001-012
+    concept: 'vivid-description'
+    term: 'descripción vívida'
+    translation: 'vivid description'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Su descripción vívida del mercado local nos hizo sentir allí.'
+    exampleTranslation: 'His vivid description of the local market made us feel we were there.'
 grammar:
   - id: es-ES-C1-SPOKEN-001-G1
     point: 'Temporal connectors for elaborate narration'

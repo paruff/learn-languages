@@ -47,6 +47,48 @@ vocabulary:
     gender: feminine
     example: 'La rétora es una herramienta poderosa en la argumentación.'
     exampleTranslation: 'Rhetoric is a powerful tool in argumentation.'
+  - id: es-ES-C1-ARGUE-004-007
+    concept: 'to-defend-with-arguments'
+    term: 'defender con argumentos'
+    translation: 'to defend with arguments'
+    partOfSpeech: phrase
+    example: 'El texto defiende la postura del autor con argumentos sólidos.'
+    exampleTranslation: "The text defends the author's position with solid arguments."
+  - id: es-ES-C1-ARGUE-004-008
+    concept: 'to-guide-the-reader'
+    term: 'guiar al lector'
+    translation: 'to guide the reader'
+    partOfSpeech: phrase
+    example: 'Una buena argumentación guía al lector de forma natural hacia la conclusión.'
+    exampleTranslation: 'Good argumentation guides the reader naturally towards the conclusion.'
+  - id: es-ES-C1-ARGUE-004-009
+    concept: 'to-articulate-the-ideas'
+    term: 'articular las ideas'
+    translation: 'to articulate the ideas'
+    partOfSpeech: phrase
+    example: 'Es fundamental articular las ideas antes de escribir el primer párrafo.'
+    exampleTranslation: 'It is essential to articulate the ideas before writing the first paragraph.'
+  - id: es-ES-C1-ARGUE-004-010
+    concept: 'to-rebut-the-objection'
+    term: 'rebatir la objeción'
+    translation: 'to rebut the objection'
+    partOfSpeech: phrase
+    example: 'En el cuarto párrafo, el autor rebate la principal objeción.'
+    exampleTranslation: 'In the fourth paragraph, the author rebuts the main objection.'
+  - id: es-ES-C1-ARGUE-004-011
+    concept: 'to-follow-a-guiding-thread'
+    term: 'seguir un hilo conductor'
+    translation: 'to follow a guiding thread'
+    partOfSpeech: phrase
+    example: 'Todos los ejemplos siguen un hilo conductor claro y riguroso.'
+    exampleTranslation: 'All the examples follow a clear and rigorous guiding thread.'
+  - id: es-ES-C1-ARGUE-004-012
+    concept: 'to-rest-on-premises'
+    term: 'descansar sobre premisas'
+    translation: 'to rest on premises'
+    partOfSpeech: phrase
+    example: 'La conclusión descansa sobre premisas que convendría explicitar.'
+    exampleTranslation: 'The conclusion rests on premises that ought to be made explicit.'
 grammar:
   - id: es-ES-C1-ARGUE-004-G1
     point: 'Cleft sentences with "lo que" for emphasis in writing'

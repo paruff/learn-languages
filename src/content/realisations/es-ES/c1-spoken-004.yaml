@@ -48,6 +48,51 @@ vocabulary:
     partOfSpeech: verb
     example: 'Sé inferir el sentido de un discurso no estructurado.'
     exampleTranslation: 'I know how to infer the meaning of unstructured speech.'
+  - id: es-ES-C1-SPOKEN-004-007
+    concept: 'to-read-between-the-lines'
+    term: 'leer entre líneas'
+    translation: 'to read between the lines'
+    partOfSpeech: phrase
+    example: 'Cuando el ponente divaga, hay que leer entre líneas.'
+    exampleTranslation: 'When the speaker digresses, you have to read between the lines.'
+  - id: es-ES-C1-SPOKEN-004-008
+    concept: 'rambling-speech'
+    term: 'discurso divagante'
+    translation: 'rambling speech'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'A pesar del discurso divagante, la idea central era clara.'
+    exampleTranslation: 'Despite the rambling speech, the central idea was clear.'
+  - id: es-ES-C1-SPOKEN-004-009
+    concept: 'implied-connections'
+    term: 'conexiones implícitas'
+    translation: 'implied connections'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Las conexiones implícitas entre los temas solo se entienden con atención.'
+    exampleTranslation: 'The implied connections between the themes are only understood with attention.'
+  - id: es-ES-C1-SPOKEN-004-010
+    concept: 'to-follow-the-thread-of-the-reasoning'
+    term: 'seguir el hilo del razonamiento'
+    translation: 'to follow the thread of the reasoning'
+    partOfSpeech: phrase
+    example: 'En un debate confuso cuesta seguir el hilo del razonamiento.'
+    exampleTranslation: 'In a confusing debate, it is hard to follow the thread of the reasoning.'
+  - id: es-ES-C1-SPOKEN-004-011
+    concept: 'to-grasp-the-intention'
+    term: 'captar la intención'
+    translation: 'to grasp the intention'
+    partOfSpeech: phrase
+    example: 'Solo captamos la intención de la pregunta al final de la intervención.'
+    exampleTranslation: 'We only grasped the intention of the question at the end of the intervention.'
+  - id: es-ES-C1-SPOKEN-004-012
+    concept: 'unmarked-communication'
+    term: 'comunicación sin marcas'
+    translation: 'unmarked communication'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La comunicación sin marcas exige un esfuerzo mucho mayor al oyente.'
+    exampleTranslation: 'Unmarked communication demands a much greater effort from the listener.'
 grammar:
   - id: es-ES-C1-SPOKEN-004-G1
     point: 'Concessive structures for understanding unstructured speech'

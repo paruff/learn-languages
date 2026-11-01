@@ -49,6 +49,52 @@ vocabulary:
     gender: masculine
     example: 'El rigor académico es esencial en una disertación.'
     exampleTranslation: 'Academic rigour is essential in a dissertation.'
+  - id: es-ES-C1-ACADEMIC-001-007
+    concept: 'academic-dissertation'
+    term: 'tesis académica'
+    translation: 'academic dissertation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La tesis académica articula teoría y datos empíricos.'
+    exampleTranslation: 'The academic dissertation articulates theory and empirical data.'
+  - id: es-ES-C1-ACADEMIC-001-008
+    concept: 'body-of-sources'
+    term: 'corpus de fuentes'
+    translation: 'body of sources'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El corpus de fuentes consultadas es amplio y fiable.'
+    exampleTranslation: 'The body of sources consulted is broad and reliable.'
+  - id: es-ES-C1-ACADEMIC-001-009
+    concept: 'theoretical-framework'
+    term: 'marco teórico'
+    translation: 'theoretical framework'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El marco teórico sustenta todo el análisis posterior.'
+    exampleTranslation: 'The theoretical framework underpins all subsequent analysis.'
+  - id: es-ES-C1-ACADEMIC-001-010
+    concept: 'to-gather-evidence'
+    term: 'recabar pruebas'
+    translation: 'to gather evidence'
+    partOfSpeech: phrase
+    example: 'El segundo capítulo recaba pruebas decisivas para la hipótesis.'
+    exampleTranslation: 'Chapter two gathers decisive evidence for the hypothesis.'
+  - id: es-ES-C1-ACADEMIC-001-011
+    concept: 'to-synthesise-the-findings'
+    term: 'sintetizar los hallazgos'
+    translation: 'to synthesise the findings'
+    partOfSpeech: phrase
+    example: 'La conclusión sintetiza los hallazgos de los autores estudiados.'
+    exampleTranslation: 'The conclusion synthesises the findings of the authors studied.'
+  - id: es-ES-C1-ACADEMIC-001-012
+    concept: 'original-contribution'
+    term: 'aportación original'
+    translation: 'original contribution'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La aportación original del trabajo reside en la comparación inédita.'
+    exampleTranslation: 'The original contribution of the work lies in the unprecedented comparison.'
 grammar:
   - id: es-ES-C1-ACADEMIC-001-G1
     point: 'Complex conditional structures with "de haber + past participle"'

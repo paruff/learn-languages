@@ -47,6 +47,52 @@ vocabulary:
     partOfSpeech: verb
     example: 'Puedo convencer al lector con argumentos sólidos.'
     exampleTranslation: 'I can persuade the reader with solid arguments.'
+  - id: es-ES-C1-WRITTEN-001-007
+    concept: 'to-adapt-the-register-to-the-reader'
+    term: 'adaptar el registro al lector'
+    translation: 'to adapt the register to the reader'
+    partOfSpeech: phrase
+    example: 'El columnista sabe adaptar el registro al lector del periódico.'
+    exampleTranslation: 'The columnist knows how to adapt the register to the newspaper reader.'
+  - id: es-ES-C1-WRITTEN-001-008
+    concept: 'opinion-piece'
+    term: 'artículo de opinión'
+    translation: 'opinion piece'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'El artículo de opinión suscitó una respuesta inmediata de los lectores.'
+    exampleTranslation: 'The opinion piece prompted an immediate response from readers.'
+  - id: es-ES-C1-WRITTEN-001-009
+    concept: 'argumentative-coherence'
+    term: 'coherencia argumentativa'
+    translation: 'argumentative coherence'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La coherencia argumentativa del ensayo es notable.'
+    exampleTranslation: 'The argumentative coherence of the essay is remarkable.'
+  - id: es-ES-C1-WRITTEN-001-010
+    concept: 'to-dismantle-an-argument'
+    term: 'desmontar un argumento'
+    translation: 'to dismantle an argument'
+    partOfSpeech: phrase
+    example: 'En el tercer párrafo desmonta el argumento de la eficiencia económica.'
+    exampleTranslation: 'In the third paragraph, he dismantles the argument of economic efficiency.'
+  - id: es-ES-C1-WRITTEN-001-011
+    concept: 'critical-eye'
+    term: 'mirada crítica'
+    translation: 'critical eye'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'El texto ofrece una mirada crítica sobre la política urbana.'
+    exampleTranslation: 'The text offers a critical eye on urban policy.'
+  - id: es-ES-C1-WRITTEN-001-012
+    concept: 'personal-signature'
+    term: 'sello personal'
+    translation: 'personal signature'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'La prosa lleva el sello personal del autor.'
+    exampleTranslation: "The prose bears the author's personal stamp."
 grammar:
   - id: es-ES-C1-WRITTEN-001-G1
     point: 'Passive voice for formal register in persuasive writing'

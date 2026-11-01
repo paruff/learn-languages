@@ -48,6 +48,53 @@ vocabulary:
     partOfSpeech: verb
     example: 'Sé interpretar las capas implícitas de un texto.'
     exampleTranslation: 'I know how to interpret the implicit layers of a text.'
+  - id: es-ES-C1-LITERARY-001-007
+    concept: 'layers-of-meaning'
+    term: 'capas de significado'
+    translation: 'layers of meaning'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'El poema revela capas de significado con cada relectura.'
+    exampleTranslation: 'The poem reveals layers of meaning with every re-reading.'
+  - id: es-ES-C1-LITERARY-001-008
+    concept: 'extended-metaphor'
+    term: 'metáfora continuada'
+    translation: 'extended metaphor'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La metáfora continuada recorre toda la novela.'
+    exampleTranslation: 'The extended metaphor runs through the whole novel.'
+  - id: es-ES-C1-LITERARY-001-009
+    concept: 'cultural-resonance'
+    term: 'resonancia cultural'
+    translation: 'cultural resonance'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La resonancia cultural del cuento se les escapa a los lectores extranjeros.'
+    exampleTranslation: 'The cultural resonance of the tale escapes foreign readers.'
+  - id: es-ES-C1-LITERARY-001-010
+    concept: 'narrative-voice'
+    term: 'voz narrativa'
+    translation: 'narrative voice'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La voz narrativa se aparta del clásico narrador omnisciente.'
+    exampleTranslation: 'The narrative voice distances itself from the classic omniscient narrator.'
+  - id: es-ES-C1-LITERARY-001-011
+    concept: 'to-weave-the-references-together'
+    term: 'entretejer las referencias'
+    translation: 'to weave the references together'
+    partOfSpeech: phrase
+    example: 'La autora entreteje con talento las referencias bíblicas y marineras.'
+    exampleTranslation: 'The author weaves the biblical and nautical references together with talent.'
+  - id: es-ES-C1-LITERARY-001-012
+    concept: 'flavour-of-the-era'
+    term: 'sabor de la época'
+    translation: 'flavour of the era'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'La novela recrea el sabor de la época con rigor e imaginación.'
+    exampleTranslation: 'The novel recreates the flavour of the era with rigour and imagination.'
 grammar:
   - id: es-ES-C1-LITERARY-001-G1
     point: 'Literary subjunctive in aesthetic evaluation'
