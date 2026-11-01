@@ -1,0 +1,51 @@
+nodeId: A2-LOC-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A2-LOC-001-001
+    concept: to-turn-left
+    term: 'girare a sinistra'
+    translation: 'to turn left'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Gira a sinistra alla banca.'
+    exampleTranslation: 'Turn left at the bank.'
+  - id: it-IT-A2-LOC-001-002
+    concept: to-turn-right
+    term: 'girare a destra'
+    translation: 'to turn right'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Gira a destra dopo il ponte.'
+    exampleTranslation: 'Turn right after the bridge.'
+  - id: it-IT-A2-LOC-001-003
+    concept: straight-on
+    term: 'sempre dritto'
+    translation: 'straight on'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Vai sempre dritto per due minuti.'
+    exampleTranslation: 'Go straight on for two minutes.'
+  - id: it-IT-A2-LOC-001-004
+    concept: bus-stop
+    term: "fermata dell'autobus"
+    translation: 'bus stop'
+    partOfSpeech: noun
+    gender: feminine
+    example: "La fermata dell'autobus è di fronte alla scuola."
+    exampleTranslation: 'The bus stop is opposite the school.'
+  - id: it-IT-A2-LOC-001-005
+    concept: to-get-off
+    term: 'scendere'
+    translation: 'to get off'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Scendi alla terza fermata.'
+    exampleTranslation: 'Get off at the third stop.'
+  - id: it-IT-A2-LOC-001-006
+    concept: delay
+    term: 'ritardo'
+    translation: 'delay'
+    partOfSpeech: noun
+    gender: masculine
+    example: "C'è un ritardo di dieci minuti sulla linea 4."
+    exampleTranslation: 'There is a ten-minute delay on line 4.'

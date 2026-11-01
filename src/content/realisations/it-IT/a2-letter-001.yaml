@@ -1,0 +1,51 @@
+nodeId: A2-LETTER-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A2-LETTER-001-001
+    concept: letter
+    term: 'lettera'
+    translation: 'letter'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Ho ricevuto una lettera da mia zia.'
+    exampleTranslation: 'I received a letter from my aunt.'
+  - id: it-IT-A2-LETTER-001-002
+    concept: to-receive
+    term: 'ricevere'
+    translation: 'to receive'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Hai ricevuto il mio messaggio?'
+    exampleTranslation: 'Did you receive my message?'
+  - id: it-IT-A2-LETTER-001-003
+    concept: to-reply
+    term: 'rispondere'
+    translation: 'to reply'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Risponderò domani mattina.'
+    exampleTranslation: 'I will reply tomorrow morning.'
+  - id: it-IT-A2-LETTER-001-004
+    concept: dear
+    term: 'Caro…'
+    translation: 'Dear …'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Caro Sam, grazie per le tue notizie.'
+    exampleTranslation: 'Dear Sam, thank you for your news.'
+  - id: it-IT-A2-LETTER-001-005
+    concept: signature
+    term: 'firma'
+    translation: 'signature'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Metti la tua firma in fondo.'
+    exampleTranslation: 'Put your signature at the bottom.'
+  - id: it-IT-A2-LETTER-001-006
+    concept: best-regards
+    term: 'Cordiali saluti'
+    translation: 'Best regards'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Cordiali saluti, Anna.'
+    exampleTranslation: 'Best regards, Anna.'

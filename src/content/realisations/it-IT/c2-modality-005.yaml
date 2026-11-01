@@ -1,0 +1,51 @@
+nodeId: C2-MODALITY-005
+lang: it-IT
+vocabulary:
+  - id: it-IT-C2-MODALITY-005-001
+    concept: smooth-flowing-text
+    term: 'testo scorrevole'
+    translation: 'smooth-flowing text'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Scrivo testi scorrevoli e ben strutturati su argomenti complessi.'
+    exampleTranslation: 'I write smooth-flowing, well-structured texts on complex subjects.'
+  - id: it-IT-C2-MODALITY-005-002
+    concept: engaging-introduction
+    term: 'introduzione coinvolgente'
+    translation: 'engaging introduction'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "Comincio sempre con un'introduzione coinvolgente e pertinente."
+    exampleTranslation: 'I always start with an engaging and relevant introduction.'
+  - id: it-IT-C2-MODALITY-005-003
+    concept: development-of-the-subject
+    term: 'sviluppo del tema'
+    translation: 'development of the subject'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Lo sviluppo del tema è logico e ben fondato.'
+    exampleTranslation: 'The development of the subject is logical and well-founded.'
+  - id: it-IT-C2-MODALITY-005-004
+    concept: central-point
+    term: 'punto centrale'
+    translation: 'central point'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Difendo il punto centrale con argomenti solidi.'
+    exampleTranslation: 'I defend the central point with solid arguments.'
+  - id: it-IT-C2-MODALITY-005-005
+    concept: fitting-conclusion
+    term: 'conclusione efficace'
+    translation: 'fitting conclusion'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Concludo con una conclusione efficace e convincente.'
+    exampleTranslation: 'I finish with a fitting and convincing conclusion.'
+  - id: it-IT-C2-MODALITY-005-006
+    concept: appropriate-style
+    term: 'stile adeguato'
+    translation: 'appropriate style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Uso sempre uno stile adeguato al tema e al lettore.'
+    exampleTranslation: 'I always use a style appropriate to the subject and reader.'

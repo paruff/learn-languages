@@ -1,0 +1,51 @@
+nodeId: C2-MODALITY-003
+lang: it-IT
+vocabulary:
+  - id: it-IT-C2-MODALITY-003-001
+    concept: rapid-auditory-comprehension
+    term: 'comprensione uditiva rapida'
+    translation: 'rapid auditory comprehension'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Ho una comprensione uditiva rapida in qualsiasi registro.'
+    exampleTranslation: 'I have rapid auditory comprehension in any register.'
+  - id: it-IT-C2-MODALITY-003-002
+    concept: fast-native-speech
+    term: 'parlato veloce dei madrelingua'
+    translation: 'fast native speech'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Riesco a seguire il parlato veloce dei madrelingua senza difficoltà.'
+    exampleTranslation: 'I can follow fast native speech without difficulty.'
+  - id: it-IT-C2-MODALITY-003-003
+    concept: varied-accents
+    term: 'accenti vari'
+    translation: 'varied accents'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Comprendo accenti vari senza problemi.'
+    exampleTranslation: 'I understand varied accents without issue.'
+  - id: it-IT-C2-MODALITY-003-004
+    concept: any-kind-of-spoken-language
+    term: 'qualsiasi tipo di lingua parlata'
+    translation: 'any kind of spoken language'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Comprendo qualsiasi tipo di lingua parlata, dal vivo o registrata.'
+    exampleTranslation: 'I understand any kind of spoken language, live or recorded.'
+  - id: it-IT-C2-MODALITY-003-005
+    concept: quick-adaptation
+    term: 'adattamento rapido'
+    translation: 'quick adaptation'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Mi adatto rapidamente a qualsiasi accento o stile.'
+    exampleTranslation: 'I quickly adapt to any accent or style.'
+  - id: it-IT-C2-MODALITY-003-006
+    concept: complete-understanding
+    term: 'comprensione completa'
+    translation: 'complete understanding'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Ho una comprensione completa del discorso parlato, anche se veloce.'
+    exampleTranslation: 'I have complete understanding of spoken discourse, even fast.'

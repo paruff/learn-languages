@@ -1,0 +1,51 @@
+nodeId: C2-WRITTEN-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-C2-WRITTEN-001-001
+    concept: detailed-and-well-structured-text
+    term: 'testo dettagliato e ben strutturato'
+    translation: 'detailed and well-structured text'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Scrivo testi dettagliati e ben strutturati.'
+    exampleTranslation: 'I write detailed and well-structured texts.'
+  - id: it-IT-C2-WRITTEN-001-002
+    concept: development-of-arguments
+    term: 'sviluppo delle argomentazioni'
+    translation: 'development of arguments'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Sviluppo le argomentazioni in modo solido e convincente.'
+    exampleTranslation: 'I develop arguments in a solid and convincing way.'
+  - id: it-IT-C2-WRITTEN-001-003
+    concept: well-founded-hypotheses
+    term: 'ipotesi fondate'
+    translation: 'well-founded hypotheses'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Presento ipotesi fondate basate su prove.'
+    exampleTranslation: 'I present well-founded hypotheses based on evidence.'
+  - id: it-IT-C2-WRITTEN-001-004
+    concept: appropriate-format
+    term: 'formato appropriato'
+    translation: 'appropriate format'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Uso sempre il formato appropriato al tipo di testo.'
+    exampleTranslation: 'I always use the appropriate format for the text type.'
+  - id: it-IT-C2-WRITTEN-001-005
+    concept: chain-of-reasoning
+    term: 'catena di ragionamenti'
+    translation: 'chain of reasoning'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Costruisco una catena di ragionamenti solida e coerente.'
+    exampleTranslation: 'I construct a solid and coherent chain of reasoning.'
+  - id: it-IT-C2-WRITTEN-001-006
+    concept: appropriate-style
+    term: 'stile adeguato'
+    translation: 'appropriate style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Scelgo sempre lo stile adeguato al contesto.'
+    exampleTranslation: 'I always select the appropriate style for the context.'

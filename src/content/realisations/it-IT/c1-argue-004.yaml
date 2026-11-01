@@ -9,3 +9,43 @@ vocabulary:
     gender: n/a
     example: Sa difendere la propria posizione con argomenti solidi.
     exampleTranslation: She can defend her position with solid arguments.
+  - id: it-IT-C1-ARGUE-004-002
+    concept: to-guide-the-reader
+    term: guidare il lettore
+    translation: to guide the reader
+    partOfSpeech: phrase
+    gender: n/a
+    example: Una buona argomentazione guida il lettore con naturalezza verso la conclusione.
+    exampleTranslation: Good argumentation guides the reader naturally towards the conclusion.
+  - id: it-IT-C1-ARGUE-004-003
+    concept: to-articulate-the-ideas
+    term: articolare le idee
+    translation: to articulate the ideas
+    partOfSpeech: phrase
+    gender: n/a
+    example: È essenziale articolare le idee prima di scrivere il primo paragrafo.
+    exampleTranslation: It is essential to articulate the ideas before writing the first paragraph.
+  - id: it-IT-C1-ARGUE-004-004
+    concept: to-rebut-the-objection
+    term: ribattere all'obiezione
+    translation: to rebut the objection
+    partOfSpeech: phrase
+    gender: n/a
+    example: Nel quarto paragrafo l'autore ribatte all'obiezione principale.
+    exampleTranslation: In the fourth paragraph, the author rebuts the main objection.
+  - id: it-IT-C1-ARGUE-004-005
+    concept: to-follow-a-guiding-thread
+    term: seguire un filo conduttore
+    translation: to follow a guiding thread
+    partOfSpeech: phrase
+    gender: n/a
+    example: Tutti gli esempi seguono un filo conduttore chiaro e rigoroso.
+    exampleTranslation: All the examples follow a clear and rigorous guiding thread.
+  - id: it-IT-C1-ARGUE-004-006
+    concept: to-rest-on-premises
+    term: poggiare su premesse
+    translation: to rest on premises
+    partOfSpeech: phrase
+    gender: n/a
+    example: La conclusione poggia su premesse che andrebbero rese esplicite.
+    exampleTranslation: The conclusion rests on premises that should be made explicit.

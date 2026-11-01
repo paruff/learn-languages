@@ -9,3 +9,43 @@ vocabulary:
     gender: n/a
     example: Riesce a seguire un film senza sottotitoli senza sforzo.
     exampleTranslation: She can follow a film without subtitles effortlessly.
+  - id: it-IT-C1-SPOKEN-005-002
+    concept: fast-paced-dialogue
+    term: dialogo serrato
+    translation: fast-paced dialogue
+    partOfSpeech: phrase
+    gender: masculine
+    example: Il dialogo serrato delle serie moderne richiede grande agilità.
+    exampleTranslation: The fast-paced dialogue of modern series requires great agility.
+  - id: it-IT-C1-SPOKEN-005-003
+    concept: register-shifts
+    term: cambi di registro
+    translation: register shifts
+    partOfSpeech: phrase
+    gender: masculine
+    example: I cambi di registro tra le scene rivelano perfino l'ironia.
+    exampleTranslation: The register shifts between scenes even reveal irony.
+  - id: it-IT-C1-SPOKEN-005-004
+    concept: coherence-of-the-plot
+    term: coerenza della trama
+    translation: coherence of the plot
+    partOfSpeech: phrase
+    gender: feminine
+    example: Seguire la coerenza della trama è un compito per l'ascoltatore attento.
+    exampleTranslation: Following the coherence of the plot is a task for the attentive listener.
+  - id: it-IT-C1-SPOKEN-005-005
+    concept: slang-and-everyday-expressions
+    term: gergo ed espressioni quotidiane
+    translation: slang and everyday expressions
+    partOfSpeech: phrase
+    gender: masculine
+    example: Il gergo e le espressioni quotidiane compaiono senza preavviso.
+    exampleTranslation: Slang and everyday expressions appear without warning.
+  - id: it-IT-C1-SPOKEN-005-006
+    concept: to-interpret-the-tone
+    term: interpretare il tono
+    translation: to interpret the tone
+    partOfSpeech: phrase
+    gender: n/a
+    example: Solo il tono permette di interpretare ciò che suona come una minaccia.
+    exampleTranslation: Only the tone allows one to interpret what sounds like a threat.

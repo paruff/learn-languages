@@ -1,0 +1,51 @@
+nodeId: C2-LITERARY-002
+lang: it-IT
+vocabulary:
+  - id: it-IT-C2-LITERARY-002-001
+    concept: elegant-style
+    term: 'stile elegante'
+    translation: 'elegant style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Scrivo con uno stile elegante e preciso.'
+    exampleTranslation: 'I write with an elegant and precise style.'
+  - id: it-IT-C2-LITERARY-002-002
+    concept: intended-effect
+    term: 'effetto voluto'
+    translation: 'intended effect'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "Ottengo sempre l'effetto voluto sul lettore."
+    exampleTranslation: 'I always achieve the intended effect on the reader.'
+  - id: it-IT-C2-LITERARY-002-003
+    concept: appropriate-register
+    term: 'registro appropriato'
+    translation: 'appropriate register'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Scelgo sempre il registro appropriato al testo.'
+    exampleTranslation: 'I always select the appropriate register for the text.'
+  - id: it-IT-C2-LITERARY-002-004
+    concept: adapted-style
+    term: 'stile adattato'
+    translation: 'adapted style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Adatto lo stile al genere letterario e al pubblico.'
+    exampleTranslation: 'I adapt the style to the literary genre and audience.'
+  - id: it-IT-C2-LITERARY-002-005
+    concept: precision-and-subtlety
+    term: 'precisione e finezza'
+    translation: 'precision and subtlety'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La mia scrittura ha una precisione e una finezza impareggiabili.'
+    exampleTranslation: 'My writing has incomparable precision and subtlety.'
+  - id: it-IT-C2-LITERARY-002-006
+    concept: cultured-expression
+    term: 'espressione colta'
+    translation: 'cultured expression'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "Uso un'espressione colta e ben fondata."
+    exampleTranslation: 'I use a cultured and well-founded expression.'

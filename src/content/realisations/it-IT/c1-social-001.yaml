@@ -9,3 +9,43 @@ vocabulary:
     gender: n/a
     example: Si esprime con scioltezza anche quando il tema è astratto.
     exampleTranslation: She expresses herself fluently even when the topic is abstract.
+  - id: it-IT-C1-SOCIAL-001-002
+    concept: without-hesitation
+    term: senza esitazione
+    translation: without hesitation
+    partOfSpeech: phrase
+    gender: n/a
+    example: Ha risposto alle domande difficili senza esitazione.
+    exampleTranslation: He answered the difficult questions without hesitation.
+  - id: it-IT-C1-SOCIAL-001-003
+    concept: to-adapt-one-s-discourse
+    term: adattare il proprio discorso
+    translation: to adapt one's discourse
+    partOfSpeech: phrase
+    gender: n/a
+    example: Sa adattare il proprio discorso al pubblico che ha davanti.
+    exampleTranslation: He knows how to adapt his discourse to the audience in front of him.
+  - id: it-IT-C1-SOCIAL-001-004
+    concept: to-anticipate-the-reaction
+    term: prevedere la reazione
+    translation: to anticipate the reaction
+    partOfSpeech: phrase
+    gender: n/a
+    example: Sa prevedere la reazione dei suoi interlocutori.
+    exampleTranslation: He can anticipate the reaction of his interlocutors.
+  - id: it-IT-C1-SOCIAL-001-005
+    concept: to-maintain-naturalness
+    term: mantenere la naturalezza
+    translation: to maintain naturalness
+    partOfSpeech: phrase
+    gender: n/a
+    example: Anche in situazioni formali mantiene la naturalezza.
+    exampleTranslation: Even in formal situations, he maintains his naturalness.
+  - id: it-IT-C1-SOCIAL-001-006
+    concept: to-resort-to-strategies
+    term: ricorrere a strategie
+    translation: to resort to strategies
+    partOfSpeech: phrase
+    gender: n/a
+    example: Ricorre a strategie di riformulazione per farsi capire.
+    exampleTranslation: He resorts to reformulation strategies to make himself understood.

@@ -1,0 +1,51 @@
+nodeId: C2-ACADEMIC-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-C2-ACADEMIC-001-001
+    concept: advanced-academic-writing
+    term: 'scrittura accademica avanzata'
+    translation: 'advanced academic writing'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Padroneggio la scrittura accademica avanzata in italiano.'
+    exampleTranslation: 'I master advanced academic writing in English.'
+  - id: it-IT-C2-ACADEMIC-001-002
+    concept: coherent-and-convincing-text
+    term: 'testo coerente e convincente'
+    translation: 'coherent and convincing text'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Produco testi coerenti e convincenti su argomenti complessi.'
+    exampleTranslation: 'I produce coherent and convincing texts on complex subjects.'
+  - id: it-IT-C2-ACADEMIC-001-003
+    concept: clear-structure
+    term: 'struttura chiara'
+    translation: 'clear structure'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'I miei testi hanno sempre una struttura chiara e logica.'
+    exampleTranslation: 'My texts always have a clear and logical structure.'
+  - id: it-IT-C2-ACADEMIC-001-004
+    concept: wide-range-of-language
+    term: 'ampia gamma di linguaggio'
+    translation: 'wide range of language'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "Uso un'ampia e varia gamma di linguaggio."
+    exampleTranslation: 'I use a wide and varied range of language.'
+  - id: it-IT-C2-ACADEMIC-001-005
+    concept: solid-argumentation
+    term: 'argomentazione solida'
+    translation: 'solid argumentation'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La mia argomentazione è sempre solida e ben fondata.'
+    exampleTranslation: 'My argumentation is always solid and well-founded.'
+  - id: it-IT-C2-ACADEMIC-001-006
+    concept: academic-style
+    term: 'stile accademico'
+    translation: 'academic style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Mantengo sempre uno stile accademico rigoroso e chiaro.'
+    exampleTranslation: 'I always maintain a rigorous and clear academic style.'

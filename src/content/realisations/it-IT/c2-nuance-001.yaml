@@ -1,0 +1,51 @@
+nodeId: C2-NUANCE-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-C2-NUANCE-001-001
+    concept: subtle-nuances
+    term: 'sfumature sottili'
+    translation: 'subtle nuances'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Distinguo sfumature sottili su qualsiasi argomento.'
+    exampleTranslation: 'I distinguish subtle nuances on any subject.'
+  - id: it-IT-C2-NUANCE-001-002
+    concept: enriched-lexical-repertoire
+    term: 'repertorio lessicale arricchito'
+    translation: 'enriched lexical repertoire'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Il mio repertorio lessicale arricchito mi permette una precisione totale.'
+    exampleTranslation: 'My enriched lexical repertoire allows me total precision.'
+  - id: it-IT-C2-NUANCE-001-003
+    concept: precise-expression
+    term: 'espressione precisa'
+    translation: 'precise expression'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La mia espressione è sempre precisa e ben scelta.'
+    exampleTranslation: 'My expression is always precise and well-chosen.'
+  - id: it-IT-C2-NUANCE-001-004
+    concept: diverse-subjects
+    term: 'argomenti diversi'
+    translation: 'diverse subjects'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Affronto argomenti diversi con padronanza e sicurezza.'
+    exampleTranslation: 'I address diverse subjects with mastery and confidence.'
+  - id: it-IT-C2-NUANCE-001-005
+    concept: appropriate-register
+    term: 'registro appropriato'
+    translation: 'appropriate register'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Scelgo sempre il registro appropriato a ogni situazione.'
+    exampleTranslation: 'I always select the appropriate register for each situation.'
+  - id: it-IT-C2-NUANCE-001-006
+    concept: total-precision
+    term: 'precisione totale'
+    translation: 'total precision'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "Raggiungo sempre una precisione totale nell'espressione."
+    exampleTranslation: 'I always achieve total precision in expression.'

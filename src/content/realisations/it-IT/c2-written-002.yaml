@@ -1,0 +1,51 @@
+nodeId: C2-WRITTEN-002
+lang: it-IT
+vocabulary:
+  - id: it-IT-C2-WRITTEN-002-001
+    concept: precision-and-subtlety
+    term: 'precisione e finezza'
+    translation: 'precision and subtlety'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Scrivo con una precisione e una finezza impareggiabili.'
+    exampleTranslation: 'I write with incomparable precision and subtlety.'
+  - id: it-IT-C2-WRITTEN-002-002
+    concept: intended-effect
+    term: 'effetto voluto'
+    translation: 'intended effect'
+    partOfSpeech: phrase
+    gender: masculine
+    example: "Ottengo sempre l'effetto voluto sul lettore."
+    exampleTranslation: 'I always achieve the intended effect on the reader.'
+  - id: it-IT-C2-WRITTEN-002-003
+    concept: appropriate-register
+    term: 'registro appropriato'
+    translation: 'appropriate register'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Scelgo sempre il registro appropriato al contesto.'
+    exampleTranslation: 'I always select the appropriate register for the context.'
+  - id: it-IT-C2-WRITTEN-002-004
+    concept: adapted-style
+    term: 'stile adattato'
+    translation: 'adapted style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Adatto lo stile al testo e al destinatario.'
+    exampleTranslation: 'I adapt the style to the text and recipient.'
+  - id: it-IT-C2-WRITTEN-002-005
+    concept: cultured-expression
+    term: 'espressione colta'
+    translation: 'cultured expression'
+    partOfSpeech: phrase
+    gender: feminine
+    example: "Uso un'espressione colta e ben fondata."
+    exampleTranslation: 'I use a cultured and well-founded expression.'
+  - id: it-IT-C2-WRITTEN-002-006
+    concept: elegant-writing
+    term: 'scrittura elegante'
+    translation: 'elegant writing'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La mia scrittura è sempre elegante e precisa.'
+    exampleTranslation: 'My writing is always elegant and precise.'

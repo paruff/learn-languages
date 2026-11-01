@@ -1,0 +1,51 @@
+nodeId: C2-MEDIATION-002
+lang: it-IT
+vocabulary:
+  - id: it-IT-C2-MEDIATION-002-001
+    concept: abstract-texts
+    term: 'testi astratti'
+    translation: 'abstract texts'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Comprendo testi astratti con estrema facilità.'
+    exampleTranslation: 'I understand abstract texts with complete ease.'
+  - id: it-IT-C2-MEDIATION-002-002
+    concept: technically-complex-texts
+    term: 'testi tecnicamente complessi'
+    translation: 'technically complex texts'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Comprendo testi tecnicamente complessi senza difficoltà.'
+    exampleTranslation: 'I understand technically complex texts without difficulty.'
+  - id: it-IT-C2-MEDIATION-002-003
+    concept: linguistically-demanding-texts
+    term: 'testi linguisticamente impegnativi'
+    translation: 'linguistically demanding texts'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Riesco a comprendere testi linguisticamente impegnativi.'
+    exampleTranslation: 'I can comprehend linguistically demanding texts.'
+  - id: it-IT-C2-MEDIATION-002-004
+    concept: style-and-implicit-meaning
+    term: 'stile e significato implicito'
+    translation: 'style and implicit meaning'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Apprezzo lo stile e il significato implicito dei testi.'
+    exampleTranslation: 'I appreciate the style and implicit meaning of texts.'
+  - id: it-IT-C2-MEDIATION-002-005
+    concept: contemporary-literature
+    term: 'letteratura contemporanea'
+    translation: 'contemporary literature'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Padroneggio la letteratura contemporanea in tutte le sue forme.'
+    exampleTranslation: 'I master contemporary literature in all its forms.'
+  - id: it-IT-C2-MEDIATION-002-006
+    concept: linguistic-nuance
+    term: 'sfumatura linguistica'
+    translation: 'linguistic nuance'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Riconosco le sfumature linguistiche nei testi complessi.'
+    exampleTranslation: 'I recognise linguistic nuances in complex texts.'

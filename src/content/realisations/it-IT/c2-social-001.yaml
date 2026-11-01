@@ -1,0 +1,51 @@
+nodeId: C2-SOCIAL-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-C2-SOCIAL-001-001
+    concept: native-fluency
+    term: 'scioltezza da madrelingua'
+    translation: 'native fluency'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Interagisco con scioltezza da madrelingua in qualsiasi contesto.'
+    exampleTranslation: 'I interact with native fluency in any context.'
+  - id: it-IT-C2-SOCIAL-001-002
+    concept: total-spontaneity
+    term: 'spontaneità totale'
+    translation: 'total spontaneity'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Ho una spontaneità totale nelle mie interazioni.'
+    exampleTranslation: 'I have total spontaneity in my interactions.'
+  - id: it-IT-C2-SOCIAL-001-003
+    concept: native-precision
+    term: 'precisione da madrelingua'
+    translation: 'native precision'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Comunico con precisione da madrelingua in qualsiasi situazione.'
+    exampleTranslation: 'I communicate with native precision in any situation.'
+  - id: it-IT-C2-SOCIAL-001-004
+    concept: effective-communication
+    term: 'comunicazione efficace'
+    translation: 'effective communication'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La mia comunicazione con i madrelingua è sempre efficace.'
+    exampleTranslation: 'My communication with native speakers is always effective.'
+  - id: it-IT-C2-SOCIAL-001-005
+    concept: language-mastery
+    term: 'padronanza della lingua'
+    translation: 'language mastery'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La mia padronanza della lingua mi permette di comunicare con sicurezza.'
+    exampleTranslation: 'My language mastery allows me to communicate with confidence.'
+  - id: it-IT-C2-SOCIAL-001-006
+    concept: communicative-confidence
+    term: 'sicurezza comunicativa'
+    translation: 'communicative confidence'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Ho sicurezza comunicativa in qualsiasi contesto sociale.'
+    exampleTranslation: 'I have communicative confidence in any social context.'

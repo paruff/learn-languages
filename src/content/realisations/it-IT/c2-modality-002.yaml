@@ -1,0 +1,51 @@
+nodeId: C2-MODALITY-002
+lang: it-IT
+vocabulary:
+  - id: it-IT-C2-MODALITY-002-001
+    concept: smooth-flowing-description
+    term: 'descrizione scorrevole'
+    translation: 'smooth-flowing description'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Presento una descrizione scorrevole e strutturata di qualsiasi argomento.'
+    exampleTranslation: 'I present a smooth-flowing and structured description of any subject.'
+  - id: it-IT-C2-MODALITY-002-002
+    concept: appropriate-style
+    term: 'stile appropriato'
+    translation: 'appropriate style'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Adatto lo stile appropriato al contesto e al pubblico.'
+    exampleTranslation: 'I adapt the appropriate style to the context and audience.'
+  - id: it-IT-C2-MODALITY-002-003
+    concept: complex-subject
+    term: 'argomento complesso'
+    translation: 'complex subject'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Sviluppo argomenti complessi con chiarezza e coerenza.'
+    exampleTranslation: 'I develop complex subjects with clarity and coherence.'
+  - id: it-IT-C2-MODALITY-002-004
+    concept: key-points
+    term: 'punti chiave'
+    translation: 'key points'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Do la giusta importanza a tutti i punti chiave.'
+    exampleTranslation: 'I give due importance to all key points.'
+  - id: it-IT-C2-MODALITY-002-005
+    concept: structured-argument
+    term: 'argomentazione strutturata'
+    translation: 'structured argument'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'La mia argomentazione è chiara, scorrevole e ben strutturata.'
+    exampleTranslation: 'My argument is clear, smooth-flowing and well-structured.'
+  - id: it-IT-C2-MODALITY-002-006
+    concept: appropriate-conclusion
+    term: 'conclusione appropriata'
+    translation: 'appropriate conclusion'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Concludo sempre con una conclusione appropriata e soddisfacente.'
+    exampleTranslation: 'I always finish with an appropriate and satisfying conclusion.'

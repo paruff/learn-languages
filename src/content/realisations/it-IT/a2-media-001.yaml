@@ -1,0 +1,51 @@
+nodeId: A2-MEDIA-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A2-MEDIA-001-001
+    concept: documentary
+    term: 'documentario'
+    translation: 'documentary'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Abbiamo guardato un documentario sullo spazio.'
+    exampleTranslation: 'We watched a documentary about space.'
+  - id: it-IT-A2-MEDIA-001-002
+    concept: weather-forecast
+    term: 'previsioni del tempo'
+    translation: 'weather forecast'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Le previsioni del tempo dicono che pioverà.'
+    exampleTranslation: 'The weather forecast says it will rain.'
+  - id: it-IT-A2-MEDIA-001-003
+    concept: traffic
+    term: 'traffico'
+    translation: 'traffic'
+    partOfSpeech: noun
+    gender: masculine
+    example: "Stasera c'è molto traffico."
+    exampleTranslation: 'There is bad traffic this evening.'
+  - id: it-IT-A2-MEDIA-001-004
+    concept: live
+    term: 'in diretta'
+    translation: 'live'
+    partOfSpeech: adverb
+    gender: n/a
+    example: 'La partita è trasmessa in diretta.'
+    exampleTranslation: 'The match is shown live.'
+  - id: it-IT-A2-MEDIA-001-005
+    concept: channel
+    term: 'canale'
+    translation: 'channel'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Guardo il canale due per il meteo.'
+    exampleTranslation: 'I watch channel two for the weather.'
+  - id: it-IT-A2-MEDIA-001-006
+    concept: the-news
+    term: telegiornale
+    translation: 'the news'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Il telegiornale comincia alle otto.'
+    exampleTranslation: 'The news starts at eight o’clock.'

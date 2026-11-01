@@ -66,7 +66,7 @@ Owner decision 2026-10-22: Italian (row 3.1) continues now as an exception to ru
 
 | #   | Work                                                            | Spec   | Issue      | Exit criterion                                 |
 | --- | --------------------------------------------------------------- | ------ | ---------- | ---------------------------------------------- |
-| 3.1 | Italian content (A2 to 30 nodes, C2) — **now, owner exception** | C4, C5 | #160, #166 | `docs/it-cefr-mapping.md` verified per level   |
+| 3.1 | Italian content A1–C2 — **owner exception**                     | C4, C5 | #160, #166 | `docs/it-cefr-mapping.md` verified per level   |
 | 3.2 | False-friend and cognate notes for non-English source pairs     | L14    | #147       | Notes shown on a non-English-source pair (E2E) |
 | 3.3 | Calibration split for image vs non-image cards                  | L5     | #146       | Progress shows both rates; needs S6 data       |
 | 3.4 | Graded reading built from studied words (meaning-focused input) | L29    | #251       | One A1 pt-PT text with a coverage check        |
@@ -74,7 +74,7 @@ Owner decision 2026-10-22: Italian (row 3.1) continues now as an exception to ru
 | 3.6 | Speak and compare: local self-recording, nothing stored or sent | L31    | #253       | E2E: playback works, no network request        |
 | 3.7 | Task cards for practising spoken Can-Dos with a person          | L32    | #254       | A1 spoken nodes in one language                |
 | 3.8 | Vocabulary frequency report per language and level (tooling)    | C10    | #255       | Report runs for pt-PT and es-ES                |
-| 3.9 | fr-FR and it-IT C1: one word per node, fill to parity           | C5     | #256       | `report:coverage` parity for C1                |
+| 3.9 | fr-FR C1: one word per node, fill to parity                     | C5     | #256       | `report:coverage` parity for C1                |
 
 ## G5 Delivery and quality — **any time, small**
 

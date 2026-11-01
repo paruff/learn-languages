@@ -1,0 +1,51 @@
+nodeId: C2-LITERARY-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-C2-LITERARY-001-001
+    concept: complex-literary-texts
+    term: 'testi letterari complessi'
+    translation: 'complex literary texts'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Leggo testi letterari complessi con piena comprensione.'
+    exampleTranslation: 'I read complex literary texts with full comprehension.'
+  - id: it-IT-C2-LITERARY-001-002
+    concept: contemporary-literature
+    term: 'letteratura contemporanea'
+    translation: 'contemporary literature'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Padroneggio la letteratura contemporanea in tutte le sue forme.'
+    exampleTranslation: 'I master contemporary literature in all its forms.'
+  - id: it-IT-C2-LITERARY-001-003
+    concept: poetry-and-song-lyrics
+    term: 'poesia e testi di canzoni'
+    translation: 'poetry and song lyrics'
+    partOfSpeech: phrase
+    gender: feminine
+    example: 'Apprezzo la poesia e i testi di canzoni con discernimento estetico.'
+    exampleTranslation: 'I appreciate poetry and song lyrics with aesthetic discernment.'
+  - id: it-IT-C2-LITERARY-001-004
+    concept: opinion-pieces
+    term: 'articoli di opinione'
+    translation: 'opinion pieces'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Comprendo gli articoli di opinione con piena lucidità.'
+    exampleTranslation: 'I understand opinion pieces with full lucidity.'
+  - id: it-IT-C2-LITERARY-001-005
+    concept: aesthetic-discernment
+    term: 'discernimento estetico'
+    translation: 'aesthetic discernment'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Ho discernimento estetico in più generi letterari.'
+    exampleTranslation: 'I have aesthetic discernment in multiple literary genres.'
+  - id: it-IT-C2-LITERARY-001-006
+    concept: literary-appreciation
+    term: 'apprezzamento letterario'
+    translation: 'literary appreciation'
+    partOfSpeech: phrase
+    gender: masculine
+    example: 'Il mio apprezzamento letterario spazia tra stili ed epoche diverse.'
+    exampleTranslation: 'My literary appreciation spans various styles and periods.'

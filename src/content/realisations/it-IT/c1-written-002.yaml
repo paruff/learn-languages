@@ -9,3 +9,43 @@ vocabulary:
     gender: feminine
     example: La recensione critica è destinata a una rivista culturale.
     exampleTranslation: The critical review is intended for a cultural magazine.
+  - id: it-IT-C1-WRITTEN-002-002
+    concept: reference-works
+    term: opere di riferimento
+    translation: reference works
+    partOfSpeech: noun
+    gender: feminine
+    example: L'articolo attinge a opere di riferimento indispensabili.
+    exampleTranslation: The article draws on indispensable reference works.
+  - id: it-IT-C1-WRITTEN-002-003
+    concept: aesthetic-judgement
+    term: giudizio estetico
+    translation: aesthetic judgement
+    partOfSpeech: noun
+    gender: masculine
+    example: Il critico sostiene il suo giudizio estetico con esempi precisi.
+    exampleTranslation: The critic backs his aesthetic judgement with precise examples.
+  - id: it-IT-C1-WRITTEN-002-004
+    concept: to-put-into-perspective
+    term: relativizzare
+    translation: to put into perspective
+    partOfSpeech: phrase
+    gender: n/a
+    example: Le critiche del primo saggio vanno relativizzate.
+    exampleTranslation: One should put the criticisms of the first essay into perspective.
+  - id: it-IT-C1-WRITTEN-002-005
+    concept: close-reading
+    term: lettura ravvicinata
+    translation: close reading
+    partOfSpeech: noun
+    gender: feminine
+    example: La sua lettura ravvicinata della scena finale è ammirevole.
+    exampleTranslation: His close reading of the final scene is admirable.
+  - id: it-IT-C1-WRITTEN-002-006
+    concept: final-assessment
+    term: valutazione finale
+    translation: final assessment
+    partOfSpeech: noun
+    gender: feminine
+    example: La valutazione finale è positiva, con qualche riserva.
+    exampleTranslation: The final assessment is positive, with occasional reservations.

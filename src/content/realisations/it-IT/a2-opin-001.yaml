@@ -1,0 +1,51 @@
+nodeId: A2-OPIN-001
+lang: it-IT
+vocabulary:
+  - id: it-IT-A2-OPIN-001-001
+    concept: to-like
+    term: 'piacere'
+    translation: 'to like'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Mi piace leggere la sera.'
+    exampleTranslation: 'I like reading in the evening.'
+  - id: it-IT-A2-OPIN-001-002
+    concept: to-dislike
+    term: 'non piacere'
+    translation: 'to dislike'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Non mi piace alzarmi presto.'
+    exampleTranslation: 'I dislike getting up early.'
+  - id: it-IT-A2-OPIN-001-003
+    concept: because
+    term: 'perché'
+    translation: 'because'
+    partOfSpeech: conjunction
+    gender: n/a
+    example: 'Mi piace perché è facile.'
+    exampleTranslation: 'I like it because it is easy.'
+  - id: it-IT-A2-OPIN-001-004
+    concept: favourite
+    term: 'preferito'
+    translation: 'favourite'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Il blu è il mio colore preferito.'
+    exampleTranslation: 'Blue is my favourite colour.'
+  - id: it-IT-A2-OPIN-001-005
+    concept: to-prefer
+    term: 'preferire'
+    translation: 'to prefer'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Preferisco il tè al caffè.'
+    exampleTranslation: 'I prefer tea to coffee.'
+  - id: it-IT-A2-OPIN-001-006
+    concept: boring
+    term: 'noioso'
+    translation: 'boring'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'La lezione era noiosa.'
+    exampleTranslation: 'The lecture was boring.'
