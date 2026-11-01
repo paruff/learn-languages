@@ -49,6 +49,48 @@ vocabulary:
     gender: feminine
     example: 'La expresión escrita es clave para el éxito profesional.'
     exampleTranslation: 'Written expression is key for professional success.'
+  - id: es-ES-B2-WRITTEN-001-007
+    concept: 'to-write-clear-and-detailed-texts'
+    term: 'escribir textos claros y detallados'
+    translation: 'to write clear and detailed texts'
+    partOfSpeech: phrase
+    example: 'Puedo escribir textos claros y detallados sobre diversos temas.'
+    exampleTranslation: 'I can write clear and detailed texts on various topics.'
+  - id: es-ES-B2-WRITTEN-001-008
+    concept: 'to-develop-the-writing'
+    term: 'desarrollar el escrito'
+    translation: 'to develop the writing'
+    partOfSpeech: phrase
+    example: 'Voy a desarrollar el escrito con más detalles.'
+    exampleTranslation: 'I will develop the writing with more details.'
+  - id: es-ES-B2-WRITTEN-001-009
+    concept: 'to-use-varied-vocabulary'
+    term: 'usar vocabulario variado'
+    translation: 'to use varied vocabulary'
+    partOfSpeech: phrase
+    example: 'Es importante usar vocabulario variado al escribir.'
+    exampleTranslation: 'It is important to use varied vocabulary when writing.'
+  - id: es-ES-B2-WRITTEN-001-010
+    concept: 'to-structure-paragraphs'
+    term: 'estructurar los párrafos'
+    translation: 'to structure paragraphs'
+    partOfSpeech: phrase
+    example: 'Necesito estructurar los párrafos de forma lógica.'
+    exampleTranslation: 'I need to structure paragraphs logically.'
+  - id: es-ES-B2-WRITTEN-001-011
+    concept: 'to-use-appropriate-connectors'
+    term: 'usar conectores adecuados'
+    translation: 'to use appropriate connectors'
+    partOfSpeech: phrase
+    example: 'Voy a usar conectores adecuados para enlazar las ideas.'
+    exampleTranslation: 'I will use appropriate connectors to connect ideas.'
+  - id: es-ES-B2-WRITTEN-001-012
+    concept: 'to-rewrite-to-improve'
+    term: 'reescribir para mejorar'
+    translation: 'to rewrite to improve'
+    partOfSpeech: phrase
+    example: 'Es útil reescribir para mejorar el texto.'
+    exampleTranslation: 'It is useful to rewrite to improve the text.'
 grammar:
   - id: es-ES-B2-WRITTEN-001-G1
     point: 'Passive voice with "se" for formal written register'

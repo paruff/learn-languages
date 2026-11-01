@@ -49,6 +49,48 @@ vocabulary:
     gender: feminine
     example: 'Hablo con naturalidad en la mayoría de situaciones.'
     exampleTranslation: 'I speak naturally in most situations.'
+  - id: es-ES-B2-SOCIAL-001-007
+    concept: 'to-deepen-the-discussion'
+    term: 'profundizar en el debate'
+    translation: 'to deepen the discussion'
+    partOfSpeech: phrase
+    example: '¿Podemos profundizar en el debate sobre este tema?'
+    exampleTranslation: 'Can we go deeper into the discussion on this topic?'
+  - id: es-ES-B2-SOCIAL-001-008
+    concept: 'to-keep-the-conversation-going'
+    term: 'mantener viva la conversación'
+    translation: 'to keep the conversation going'
+    partOfSpeech: phrase
+    example: 'Es importante mantener viva la conversación.'
+    exampleTranslation: 'It is important to keep the conversation alive.'
+  - id: es-ES-B2-SOCIAL-001-009
+    concept: 'to-react-spontaneously'
+    term: 'reaccionar con espontaneidad'
+    translation: 'to react spontaneously'
+    partOfSpeech: phrase
+    example: 'Puedo reaccionar con espontaneidad en los debates.'
+    exampleTranslation: 'I can react spontaneously in debates.'
+  - id: es-ES-B2-SOCIAL-001-010
+    concept: 'to-participate-actively'
+    term: 'participar activamente'
+    translation: 'to participate actively'
+    partOfSpeech: phrase
+    example: 'Me gusta participar activamente en clase.'
+    exampleTranslation: 'I like to participate actively in classes.'
+  - id: es-ES-B2-SOCIAL-001-011
+    concept: 'to-express-ideas-clearly'
+    term: 'expresar las ideas con claridad'
+    translation: 'to express ideas clearly'
+    partOfSpeech: phrase
+    example: 'Es fundamental expresar las ideas con claridad.'
+    exampleTranslation: 'It is fundamental to express ideas clearly.'
+  - id: es-ES-B2-SOCIAL-001-012
+    concept: 'to-interact-with-fluency'
+    term: 'interactuar con fluidez'
+    translation: 'to interact with fluency'
+    partOfSpeech: phrase
+    example: 'Quiero interactuar con fluidez en español.'
+    exampleTranslation: 'I want to interact fluently in Spanish.'
 grammar:
   - id: es-ES-B2-SOCIAL-001-G1
     point: 'Present subjunctive for spontaneous suggestions'

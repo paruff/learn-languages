@@ -48,6 +48,48 @@ vocabulary:
     gender: masculine
     example: 'La inteligencia artificial es un tema polémico.'
     exampleTranslation: 'Artificial intelligence is a controversial topic.'
+  - id: es-ES-B2-ARGUE-002-007
+    concept: 'to-justify-the-position'
+    term: 'justificar la postura'
+    translation: 'to justify the position'
+    partOfSpeech: phrase
+    example: 'Voy a justificar mi postura con ejemplos concretos.'
+    exampleTranslation: 'I will justify my position with concrete examples.'
+  - id: es-ES-B2-ARGUE-002-008
+    concept: 'to-argue-about-current-topics'
+    term: 'debatir sobre temas de actualidad'
+    translation: 'to argue about current topics'
+    partOfSpeech: phrase
+    example: 'Me gusta debatir sobre temas de actualidad con mis amigos.'
+    exampleTranslation: 'I like to debate current topics with friends.'
+  - id: es-ES-B2-ARGUE-002-009
+    concept: 'to-present-evidence'
+    term: 'presentar pruebas'
+    translation: 'to present evidence'
+    partOfSpeech: phrase
+    example: 'Es importante presentar pruebas que respalden la opinión.'
+    exampleTranslation: 'It is important to present evidence that supports the opinion.'
+  - id: es-ES-B2-ARGUE-002-010
+    concept: 'to-present-the-pros-and-cons'
+    term: 'presentar los pros y los contras'
+    translation: 'to present the pros and cons'
+    partOfSpeech: phrase
+    example: 'Voy a presentar los pros y los contras de la situación.'
+    exampleTranslation: 'I will present the pros and cons of the situation.'
+  - id: es-ES-B2-ARGUE-002-011
+    concept: 'to-refute-arguments'
+    term: 'refutar argumentos'
+    translation: 'to refute arguments'
+    partOfSpeech: phrase
+    example: 'Puedo refutar argumentos débiles con datos.'
+    exampleTranslation: 'I can refute weak arguments with data.'
+  - id: es-ES-B2-ARGUE-002-012
+    concept: 'to-reach-conclusions'
+    term: 'llegar a conclusiones'
+    translation: 'to reach conclusions'
+    partOfSpeech: phrase
+    example: 'Podemos llegar a conclusiones a partir del debate.'
+    exampleTranslation: 'We can reach conclusions based on the debate.'
 grammar:
   - id: es-ES-B2-ARGUE-002-G1
     point: 'Conditional mood for hypothetical justification'

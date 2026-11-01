@@ -48,6 +48,48 @@ vocabulary:
     gender: feminine
     example: 'La precisión escrita es un signo de competencia.'
     exampleTranslation: 'Written precision is a sign of competence.'
+  - id: es-ES-B2-WRITTEN-003-007
+    concept: 'to-write-with-correct-spelling'
+    term: 'escribir con ortografía correcta'
+    translation: 'to write with correct spelling'
+    partOfSpeech: phrase
+    example: 'Necesito escribir con ortografía correcta.'
+    exampleTranslation: 'I need to write with correct spelling.'
+  - id: es-ES-B2-WRITTEN-003-008
+    concept: 'to-use-appropriate-punctuation'
+    term: 'usar la puntuación adecuada'
+    translation: 'to use appropriate punctuation'
+    partOfSpeech: phrase
+    example: 'Es importante usar la puntuación adecuada en el texto.'
+    exampleTranslation: 'It is important to use appropriate punctuation in the text.'
+  - id: es-ES-B2-WRITTEN-003-009
+    concept: 'to-review-the-text'
+    term: 'revisar el texto'
+    translation: 'to review the text'
+    partOfSpeech: phrase
+    example: 'Voy a revisar el texto para asegurarme de que es correcto.'
+    exampleTranslation: 'I will review the text to make sure it is correct.'
+  - id: es-ES-B2-WRITTEN-003-010
+    concept: 'to-correct-errors'
+    term: 'corregir errores'
+    translation: 'to correct errors'
+    partOfSpeech: phrase
+    example: 'Necesito corregir los errores ortográficos y gramaticales.'
+    exampleTranslation: 'I need to correct spelling and grammatical errors.'
+  - id: es-ES-B2-WRITTEN-003-011
+    concept: 'to-use-writing-models'
+    term: 'usar modelos de escritura'
+    translation: 'to use writing models'
+    partOfSpeech: phrase
+    example: 'Es útil usar modelos de escritura para mejorar.'
+    exampleTranslation: 'It is useful to use writing models to improve.'
+  - id: es-ES-B2-WRITTEN-003-012
+    concept: 'to-write-with-precision'
+    term: 'escribir con precisión'
+    translation: 'to write with precision'
+    partOfSpeech: phrase
+    example: 'Voy a escribir con precisión para comunicarme mejor.'
+    exampleTranslation: 'I will write with precision to communicate better.'
 grammar:
   - id: es-ES-B2-WRITTEN-003-G1
     point: 'Adverbial clauses with "antes de que" + subjunctive'

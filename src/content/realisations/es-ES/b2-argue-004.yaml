@@ -47,6 +47,48 @@ vocabulary:
     gender: feminine
     example: 'La exposición de ideas fue muy organizada.'
     exampleTranslation: 'The exposition of ideas was very organized.'
+  - id: es-ES-B2-ARGUE-004-007
+    concept: 'to-sustain-the-thesis'
+    term: 'sostener la tesis'
+    translation: 'to sustain the thesis'
+    partOfSpeech: phrase
+    example: 'Necesito sostener la tesis con argumentos sólidos.'
+    exampleTranslation: 'I need to sustain the thesis with solid arguments.'
+  - id: es-ES-B2-ARGUE-004-008
+    concept: 'to-present-supporting-data'
+    term: 'presentar datos que respalden'
+    translation: 'to present supporting data'
+    partOfSpeech: phrase
+    example: 'Voy a presentar datos que respalden mi postura.'
+    exampleTranslation: 'I will present data that support my position.'
+  - id: es-ES-B2-ARGUE-004-009
+    concept: 'to-expose-the-argumentation'
+    term: 'exponer la argumentación'
+    translation: 'to expose the argumentation'
+    partOfSpeech: phrase
+    example: 'Es importante exponer la argumentación con claridad.'
+    exampleTranslation: 'It is important to expose the argumentation clearly.'
+  - id: es-ES-B2-ARGUE-004-010
+    concept: 'to-use-concrete-examples'
+    term: 'usar ejemplos concretos'
+    translation: 'to use concrete examples'
+    partOfSpeech: phrase
+    example: 'Voy a usar ejemplos concretos para ilustrarlo.'
+    exampleTranslation: 'I will use concrete examples to illustrate.'
+  - id: es-ES-B2-ARGUE-004-011
+    concept: 'to-reinforce-the-position'
+    term: 'reforzar la postura'
+    translation: 'to reinforce the position'
+    partOfSpeech: phrase
+    example: 'Es útil reforzar la postura con más pruebas.'
+    exampleTranslation: 'It is useful to reinforce the position with more evidence.'
+  - id: es-ES-B2-ARGUE-004-012
+    concept: 'to-write-an-essay'
+    term: 'escribir un ensayo'
+    translation: 'to write an essay'
+    partOfSpeech: phrase
+    example: 'Voy a escribir un ensayo sobre el tema.'
+    exampleTranslation: 'I will write an essay on the topic.'
 grammar:
   - id: es-ES-B2-ARGUE-004-G1
     point: 'Written argument structures with "no solo... sino también"'
