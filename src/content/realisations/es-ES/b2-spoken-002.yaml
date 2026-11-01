@@ -48,6 +48,48 @@ vocabulary:
     gender: masculine
     example: 'Los diálogos rápidos de las películas son un buen ejercicio.'
     exampleTranslation: 'Fast film dialogues are good practice.'
+  - id: es-ES-B2-SPOKEN-002-007
+    concept: 'to-understand-tv-news'
+    term: 'entender el telediario'
+    translation: 'to understand TV news'
+    partOfSpeech: phrase
+    example: 'Puedo entender el telediario sobre temas de actualidad.'
+    exampleTranslation: 'I can understand the TV news on current topics.'
+  - id: es-ES-B2-SPOKEN-002-008
+    concept: 'to-follow-current-affairs-programmes'
+    term: 'seguir programas de actualidad'
+    translation: 'to follow current affairs programmes'
+    partOfSpeech: phrase
+    example: 'Esta semana voy a seguir programas de actualidad.'
+    exampleTranslation: 'I will follow current affairs programmes this week.'
+  - id: es-ES-B2-SPOKEN-002-009
+    concept: 'to-understand-films-without-subtitles'
+    term: 'entender películas sin subtítulos'
+    translation: 'to understand films without subtitles'
+    partOfSpeech: phrase
+    example: 'Necesito entender películas sin subtítulos.'
+    exampleTranslation: 'I need to understand films without subtitles.'
+  - id: es-ES-B2-SPOKEN-002-010
+    concept: 'to-identify-the-main-theme'
+    term: 'identificar el tema principal'
+    translation: 'to identify the main theme'
+    partOfSpeech: phrase
+    example: 'Es importante identificar el tema principal del reportaje.'
+    exampleTranslation: 'It is important to identify the main theme of the report.'
+  - id: es-ES-B2-SPOKEN-002-011
+    concept: 'to-understand-cultural-references'
+    term: 'entender las referencias culturales'
+    translation: 'to understand cultural references'
+    partOfSpeech: phrase
+    example: 'Es útil entender las referencias culturales en las noticias.'
+    exampleTranslation: 'It is useful to understand cultural references in the news.'
+  - id: es-ES-B2-SPOKEN-002-012
+    concept: 'to-synthesise-oral-information'
+    term: 'sintetizar información oral'
+    translation: 'to synthesise oral information'
+    partOfSpeech: phrase
+    example: 'Voy a sintetizar la información oral que he escuchado.'
+    exampleTranslation: 'I will synthesise the oral information I heard.'
 grammar:
   - id: es-ES-B2-SPOKEN-002-G1
     point: 'Temporal expressions with "desde que" + indicative for media comprehension'

@@ -15,6 +15,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · Versioning: 
 
 ### Added
 
+- es-ES B2: 108 vocabulary items so every B2 node covers its shared en-GB concept set (0 missing at B2). Existing items and ids kept. Awaiting PCIC review (#185).
+
 - es-ES B1: 93 vocabulary items so every B1 node covers its shared en-GB concept set (`report:coverage -- es-ES` shows 0 missing at B1). Existing items and ids kept. Awaiting PCIC review (#185).
 
 - Optional end-of-session prompt "When and where will you do your next 10 minutes?", shown again on the next visit, with a locally generated `.ics` calendar entry; the self-sent report records whether it was used (L21, #243).

@@ -49,6 +49,48 @@ vocabulary:
     gender: feminine
     example: 'La argumentación del autor es convincente.'
     exampleTranslation: "The author's argumentation is convincing."
+  - id: es-ES-B2-TEXT-002-007
+    concept: 'to-understand-newspaper-articles'
+    term: 'entender artículos de periódico'
+    translation: 'to understand newspaper articles'
+    partOfSpeech: phrase
+    example: 'Puedo entender artículos de periódico sobre temas de actualidad.'
+    exampleTranslation: 'I can understand newspaper articles on current topics.'
+  - id: es-ES-B2-TEXT-002-008
+    concept: 'to-read-technical-reports'
+    term: 'leer informes técnicos'
+    translation: 'to read technical reports'
+    partOfSpeech: phrase
+    example: 'Voy a leer informes técnicos sobre el tema.'
+    exampleTranslation: 'I will read technical reports on the topic.'
+  - id: es-ES-B2-TEXT-002-009
+    concept: 'to-analyse-argumentative-texts'
+    term: 'analizar textos argumentativos'
+    translation: 'to analyse argumentative texts'
+    partOfSpeech: phrase
+    example: 'Es importante analizar los textos argumentativos con cuidado.'
+    exampleTranslation: 'It is important to analyse argumentative texts carefully.'
+  - id: es-ES-B2-TEXT-002-010
+    concept: 'to-distinguish-facts-from-opinions'
+    term: 'distinguir los hechos de las opiniones'
+    translation: 'to distinguish facts from opinions'
+    partOfSpeech: phrase
+    example: 'Necesito distinguir los hechos de las opiniones en el artículo.'
+    exampleTranslation: 'I need to distinguish facts from opinions in the article.'
+  - id: es-ES-B2-TEXT-002-011
+    concept: 'to-identify-the-purpose-of-the-text'
+    term: 'identificar la finalidad del texto'
+    translation: 'to identify the purpose of the text'
+    partOfSpeech: phrase
+    example: 'Voy a identificar la finalidad del texto desde el principio.'
+    exampleTranslation: 'I will identify the purpose of the text from the beginning.'
+  - id: es-ES-B2-TEXT-002-012
+    concept: 'to-read-between-the-lines'
+    term: 'leer entre líneas'
+    translation: 'to read between the lines'
+    partOfSpeech: phrase
+    example: 'Es útil leer entre líneas para entender lo implícito.'
+    exampleTranslation: 'It is useful to read between the lines to understand the implicit.'
 grammar:
   - id: es-ES-B2-TEXT-002-G1
     point: 'Subjunctive in concessive clauses for reading comprehension'

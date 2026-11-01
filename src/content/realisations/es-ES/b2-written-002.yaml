@@ -48,6 +48,48 @@ vocabulary:
     gender: feminine
     example: 'Las conclusiones del ensayo están bien fundamentadas.'
     exampleTranslation: "The essay's conclusions are well founded."
+  - id: es-ES-B2-WRITTEN-002-007
+    concept: 'to-write-an-essay'
+    term: 'redactar un ensayo'
+    translation: 'to write an essay'
+    partOfSpeech: phrase
+    example: 'Voy a redactar un ensayo que desarrolle un argumento.'
+    exampleTranslation: 'I will write an essay that develops an argument.'
+  - id: es-ES-B2-WRITTEN-002-008
+    concept: 'to-elaborate-a-report'
+    term: 'elaborar un informe'
+    translation: 'to elaborate a report'
+    partOfSpeech: phrase
+    example: 'Necesito elaborar un informe detallado.'
+    exampleTranslation: 'I need to elaborate a detailed report.'
+  - id: es-ES-B2-WRITTEN-002-009
+    concept: 'to-develop-the-thesis'
+    term: 'desarrollar la tesis'
+    translation: 'to develop the thesis'
+    partOfSpeech: phrase
+    example: 'Es importante desarrollar la tesis con argumentos.'
+    exampleTranslation: 'It is important to develop the thesis with arguments.'
+  - id: es-ES-B2-WRITTEN-002-010
+    concept: 'to-present-supporting-data'
+    term: 'aportar datos que respalden'
+    translation: 'to present supporting data'
+    partOfSpeech: phrase
+    example: 'Voy a aportar datos que respalden el ensayo.'
+    exampleTranslation: 'I will provide data that support the essay.'
+  - id: es-ES-B2-WRITTEN-002-011
+    concept: 'to-use-academic-vocabulary'
+    term: 'usar vocabulario académico'
+    translation: 'to use academic vocabulary'
+    partOfSpeech: phrase
+    example: 'Es útil usar vocabulario académico en el informe.'
+    exampleTranslation: 'It is useful to use academic vocabulary in the report.'
+  - id: es-ES-B2-WRITTEN-002-012
+    concept: 'to-structure-the-written-argumentation'
+    term: 'estructurar la argumentación escrita'
+    translation: 'to structure the written argumentation'
+    partOfSpeech: phrase
+    example: 'Necesito estructurar la argumentación escrita con claridad.'
+    exampleTranslation: 'I need to structure the written argumentation clearly.'
 grammar:
   - id: es-ES-B2-WRITTEN-002-G1
     point: 'Hypothetical structures with "si" + imperfect subjunctive + conditional'

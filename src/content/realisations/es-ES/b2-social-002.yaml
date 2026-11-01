@@ -46,6 +46,48 @@ vocabulary:
     gender: masculine
     example: 'Promovemos un debate constructivo y respetuoso.'
     exampleTranslation: 'We promote a constructive and respectful debate.'
+  - id: es-ES-B2-SOCIAL-002-007
+    concept: 'to-debate-topics'
+    term: 'debatir temas'
+    translation: 'to debate topics'
+    partOfSpeech: phrase
+    example: 'Me gusta debatir temas de actualidad con mis amigos.'
+    exampleTranslation: 'I like to debate current topics with my friends.'
+  - id: es-ES-B2-SOCIAL-002-008
+    concept: 'to-participate-in-discussions'
+    term: 'participar en debates'
+    translation: 'to participate in discussions'
+    partOfSpeech: phrase
+    example: 'Es importante participar activamente en los debates.'
+    exampleTranslation: 'It is important to participate actively in debates.'
+  - id: es-ES-B2-SOCIAL-002-009
+    concept: 'to-express-points-of-view'
+    term: 'expresar puntos de vista'
+    translation: 'to express points of view'
+    partOfSpeech: phrase
+    example: 'Puedo expresar mis puntos de vista con claridad.'
+    exampleTranslation: 'I can express my points of view clearly.'
+  - id: es-ES-B2-SOCIAL-002-010
+    concept: 'to-argue-in-favour'
+    term: 'argumentar a favor'
+    translation: 'to argue in favour'
+    partOfSpeech: phrase
+    example: 'Voy a argumentar a favor de mi postura.'
+    exampleTranslation: 'I will argue in favour of my position.'
+  - id: es-ES-B2-SOCIAL-002-011
+    concept: 'to-counter-arguments'
+    term: 'rebatir argumentos'
+    translation: 'to counter arguments'
+    partOfSpeech: phrase
+    example: 'Es útil rebatir argumentos para enriquecer el debate.'
+    exampleTranslation: 'It is useful to counter arguments to enrich the debate.'
+  - id: es-ES-B2-SOCIAL-002-012
+    concept: 'to-reach-consensus'
+    term: 'llegar a un consenso'
+    translation: 'to reach consensus'
+    partOfSpeech: phrase
+    example: 'El objetivo es llegar a un consenso, no al conflicto.'
+    exampleTranslation: 'The goal is to reach consensus, not conflict.'
 grammar:
   - id: es-ES-B2-SOCIAL-002-G1
     point: 'Relative clauses with "quien" for discussion'

@@ -46,6 +46,48 @@ vocabulary:
     gender: masculine
     example: 'Puso énfasis en los aspectos positivos.'
     exampleTranslation: 'He placed emphasis on the positive aspects.'
+  - id: es-ES-B2-ARGUE-003-007
+    concept: 'to-develop-systematically'
+    term: 'desarrollar de forma sistemática'
+    translation: 'to develop systematically'
+    partOfSpeech: phrase
+    example: 'Voy a desarrollar el argumento de forma sistemática.'
+    exampleTranslation: 'I will develop the argument systematically.'
+  - id: es-ES-B2-ARGUE-003-008
+    concept: 'to-highlight-important-points'
+    term: 'destacar los puntos importantes'
+    translation: 'to highlight important points'
+    partOfSpeech: phrase
+    example: 'Es importante destacar los puntos más importantes.'
+    exampleTranslation: 'It is important to highlight the most important points.'
+  - id: es-ES-B2-ARGUE-003-009
+    concept: 'to-present-relevant-details'
+    term: 'presentar detalles relevantes'
+    translation: 'to present relevant details'
+    partOfSpeech: phrase
+    example: 'Voy a presentar detalles relevantes para respaldar mi tesis.'
+    exampleTranslation: 'I will present relevant details to support my thesis.'
+  - id: es-ES-B2-ARGUE-003-010
+    concept: 'to-structure-the-argumentation'
+    term: 'estructurar la argumentación'
+    translation: 'to structure the argumentation'
+    partOfSpeech: phrase
+    example: 'Necesito estructurar la argumentación con claridad.'
+    exampleTranslation: 'I need to structure the argumentation clearly.'
+  - id: es-ES-B2-ARGUE-003-011
+    concept: 'to-use-discourse-markers'
+    term: 'usar marcadores del discurso'
+    translation: 'to use discourse markers'
+    partOfSpeech: phrase
+    example: 'Es útil usar marcadores del discurso para organizar las ideas.'
+    exampleTranslation: 'It is useful to use discourse markers to organise ideas.'
+  - id: es-ES-B2-ARGUE-003-012
+    concept: 'to-conclude-the-reasoning'
+    term: 'cerrar el razonamiento'
+    translation: 'to conclude the reasoning'
+    partOfSpeech: phrase
+    example: 'Voy a cerrar el razonamiento con un resumen.'
+    exampleTranslation: 'I will close the reasoning with a summary.'
 grammar:
   - id: es-ES-B2-ARGUE-003-G1
     point: 'Subjunctive in argumentative clauses with "es importante que"'

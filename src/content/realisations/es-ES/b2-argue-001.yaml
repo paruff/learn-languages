@@ -47,6 +47,48 @@ vocabulary:
     gender: masculine
     example: 'Su razonamiento es difícil de rebatir.'
     exampleTranslation: 'His reasoning is difficult to refute.'
+  - id: es-ES-B2-ARGUE-001-007
+    concept: 'to-construct-a-chain-of-reasoning'
+    term: 'construir una cadena de razonamiento'
+    translation: 'to construct a chain of reasoning'
+    partOfSpeech: phrase
+    example: 'Voy a construir una cadena de razonamiento para explicarlo.'
+    exampleTranslation: 'I will construct a chain of reasoning to explain.'
+  - id: es-ES-B2-ARGUE-001-008
+    concept: 'to-develop-the-argument'
+    term: 'desarrollar el argumento'
+    translation: 'to develop the argument'
+    partOfSpeech: phrase
+    example: 'Es importante desarrollar el argumento paso a paso.'
+    exampleTranslation: 'It is important to develop the argument step by step.'
+  - id: es-ES-B2-ARGUE-001-009
+    concept: 'to-present-deductions'
+    term: 'presentar deducciones'
+    translation: 'to present deductions'
+    partOfSpeech: phrase
+    example: 'Puedo presentar deducciones basadas en hechos.'
+    exampleTranslation: 'I can present deductions based on facts.'
+  - id: es-ES-B2-ARGUE-001-010
+    concept: 'to-connect-ideas-logically'
+    term: 'conectar las ideas de forma lógica'
+    translation: 'to connect ideas logically'
+    partOfSpeech: phrase
+    example: 'Necesito conectar las ideas de forma lógica.'
+    exampleTranslation: 'I need to connect the ideas logically.'
+  - id: es-ES-B2-ARGUE-001-011
+    concept: 'to-use-consequence-connectors'
+    term: 'usar conectores consecutivos'
+    translation: 'to use consequence connectors'
+    partOfSpeech: phrase
+    example: 'Es útil usar conectores como por tanto, así que o en consecuencia.'
+    exampleTranslation: 'It is useful to use connectors like therefore, so, consequently.'
+  - id: es-ES-B2-ARGUE-001-012
+    concept: 'to-structure-the-discourse'
+    term: 'estructurar el discurso'
+    translation: 'to structure the discourse'
+    partOfSpeech: phrase
+    example: 'Voy a estructurar el discurso en tres partes.'
+    exampleTranslation: 'I will structure the discourse in three parts.'
 grammar:
   - id: es-ES-B2-ARGUE-001-G1
     point: 'Concessive clauses with "aunque" + subjunctive vs. indicative'

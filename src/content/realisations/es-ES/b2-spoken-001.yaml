@@ -48,6 +48,48 @@ vocabulary:
     gender: feminine
     example: 'La exposición oral del candidato fue clara.'
     exampleTranslation: "The candidate's oral presentation was clear."
+  - id: es-ES-B2-SPOKEN-001-007
+    concept: 'to-understand-extended-speech'
+    term: 'comprender discursos extensos'
+    translation: 'to understand extended speech'
+    partOfSpeech: phrase
+    example: 'Puedo comprender discursos extensos en conferencias.'
+    exampleTranslation: 'I can understand extended speeches at lectures.'
+  - id: es-ES-B2-SPOKEN-001-008
+    concept: 'to-follow-lines-of-argumentation'
+    term: 'seguir líneas argumentales'
+    translation: 'to follow lines of argumentation'
+    partOfSpeech: phrase
+    example: 'Es importante seguir líneas argumentales complejas.'
+    exampleTranslation: 'It is important to follow complex lines of argument.'
+  - id: es-ES-B2-SPOKEN-001-009
+    concept: 'to-identify-discussion-topics'
+    term: 'identificar los temas del debate'
+    translation: 'to identify discussion topics'
+    partOfSpeech: phrase
+    example: 'Voy a identificar los temas del debate en la conferencia.'
+    exampleTranslation: 'I will identify the topics of the debate in the lecture.'
+  - id: es-ES-B2-SPOKEN-001-010
+    concept: 'to-understand-the-speech-structure'
+    term: 'comprender la estructura del discurso'
+    translation: 'to understand the speech structure'
+    partOfSpeech: phrase
+    example: 'Necesito comprender la estructura del discurso.'
+    exampleTranslation: 'I need to understand the speech structure.'
+  - id: es-ES-B2-SPOKEN-001-011
+    concept: 'to-note-the-intonation'
+    term: 'fijarse en la entonación'
+    translation: 'to note the intonation'
+    partOfSpeech: phrase
+    example: 'Es útil fijarse en la entonación para entender la actitud.'
+    exampleTranslation: 'It is useful to pay attention to the intonation to understand the attitude.'
+  - id: es-ES-B2-SPOKEN-001-012
+    concept: 'to-extract-relevant-information'
+    term: 'extraer información relevante'
+    translation: 'to extract relevant information'
+    partOfSpeech: phrase
+    example: 'Voy a extraer información relevante del discurso.'
+    exampleTranslation: 'I will extract relevant information from the speech.'
 grammar:
   - id: es-ES-B2-SPOKEN-001-G1
     point: 'Past subjunctive for reported speech in lectures'

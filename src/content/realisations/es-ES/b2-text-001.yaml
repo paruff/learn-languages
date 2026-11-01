@@ -48,6 +48,48 @@ vocabulary:
     gender: feminine
     example: 'Aplico diferentes estrategias lectoras según el texto.'
     exampleTranslation: 'I apply different reading strategies depending on the text.'
+  - id: es-ES-B2-TEXT-001-007
+    concept: 'to-read-with-independence'
+    term: 'leer con autonomía'
+    translation: 'to read with independence'
+    partOfSpeech: phrase
+    example: 'Puedo leer con autonomía sobre temas conocidos.'
+    exampleTranslation: 'I can read independently about familiar topics.'
+  - id: es-ES-B2-TEXT-001-008
+    concept: 'to-understand-texts-of-medium-difficulty'
+    term: 'comprender textos de dificultad media'
+    translation: 'to understand texts of medium difficulty'
+    partOfSpeech: phrase
+    example: 'Voy a comprender textos de dificultad media.'
+    exampleTranslation: 'I will understand texts of medium difficulty.'
+  - id: es-ES-B2-TEXT-001-009
+    concept: 'to-identify-main-ideas'
+    term: 'identificar las ideas principales'
+    translation: 'to identify main ideas'
+    partOfSpeech: phrase
+    example: 'Es importante identificar las ideas principales del texto.'
+    exampleTranslation: 'It is important to identify the main ideas of the text.'
+  - id: es-ES-B2-TEXT-001-010
+    concept: 'to-use-reading-strategies'
+    term: 'usar estrategias de lectura'
+    translation: 'to use reading strategies'
+    partOfSpeech: phrase
+    example: 'Voy a usar estrategias de lectura para entender mejor.'
+    exampleTranslation: 'I will use reading strategies to understand better.'
+  - id: es-ES-B2-TEXT-001-011
+    concept: 'to-read-critically'
+    term: 'leer con espíritu crítico'
+    translation: 'to read critically'
+    partOfSpeech: phrase
+    example: 'Necesito leer con espíritu crítico para evaluar.'
+    exampleTranslation: 'I need to read critically in order to evaluate.'
+  - id: es-ES-B2-TEXT-001-012
+    concept: 'to-adapt-the-reading-pace'
+    term: 'adaptar el ritmo de lectura'
+    translation: 'to adapt the reading pace'
+    partOfSpeech: phrase
+    example: 'Voy a adaptar el ritmo de lectura al tipo de texto.'
+    exampleTranslation: 'I will adapt the reading pace to the type of text.'
 grammar:
   - id: es-ES-B2-TEXT-001-G1
     point: 'Relative clauses with "cuyo" for text reference'

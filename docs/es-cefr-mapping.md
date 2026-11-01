@@ -153,6 +153,8 @@ B1 Coverage: 18/18 nodes fully realised (100%).
 
 All 18 B2 `cefr-nodes/` are language-agnostic Can-Do statements already modeled for the en-GB/pt-PT pair (see `docs/cefr-mapping.md`). CEFR Can-Do statements describe communicative ability, not any one language, so this epic reused every existing B2 node rather than creating duplicates.
 
+> **Review status (2026-11-01):** 108 B2 items were added to cover the shared concept set. They were drafted by AI and have **not** yet been checked item by item against the PCIC B2 inventory; a Spanish speaker must do that before merge (#185).
+
 | nodeId         | Skill              | Can-Do                                                        | Status      |
 | -------------- | ------------------ | ------------------------------------------------------------- | ----------- |
 | B2-ARGUE-001   | spoken_production  | Can construct a chain of reasoning                            | ✅ Realised |

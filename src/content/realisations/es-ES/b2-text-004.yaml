@@ -48,6 +48,48 @@ vocabulary:
     gender: masculine
     example: 'Un texto bien estructurado es más fácil de comprender.'
     exampleTranslation: 'A well-structured text is easier to comprehend.'
+  - id: es-ES-B2-TEXT-004-007
+    concept: 'to-understand-conclusions-of-argumentative-texts'
+    term: 'entender las conclusiones de textos argumentativos'
+    translation: 'to understand conclusions of argumentative texts'
+    partOfSpeech: phrase
+    example: 'Puedo entender las conclusiones de textos argumentativos.'
+    exampleTranslation: 'I can understand conclusions of argumentative texts.'
+  - id: es-ES-B2-TEXT-004-008
+    concept: 'to-identify-conclusion-markers'
+    term: 'identificar marcadores de conclusión'
+    translation: 'to identify conclusion markers'
+    partOfSpeech: phrase
+    example: 'Es importante identificar los marcadores de conclusión del texto.'
+    exampleTranslation: 'It is important to identify conclusion markers in the text.'
+  - id: es-ES-B2-TEXT-004-009
+    concept: 'to-synthesise-the-main-ideas'
+    term: 'sintetizar las ideas principales'
+    translation: 'to synthesise the main ideas'
+    partOfSpeech: phrase
+    example: 'Voy a sintetizar las ideas principales del artículo.'
+    exampleTranslation: 'I will synthesise the main ideas of the article.'
+  - id: es-ES-B2-TEXT-004-010
+    concept: 'to-evaluate-the-conclusion'
+    term: 'evaluar la conclusión'
+    translation: 'to evaluate the conclusion'
+    partOfSpeech: phrase
+    example: 'Necesito evaluar si la conclusión está bien fundamentada.'
+    exampleTranslation: 'I need to evaluate whether the conclusion is well founded.'
+  - id: es-ES-B2-TEXT-004-011
+    concept: 'to-relate-conclusion-with-premises'
+    term: 'relacionar la conclusión con las premisas'
+    translation: 'to relate conclusion with premises'
+    partOfSpeech: phrase
+    example: 'Voy a relacionar la conclusión con las premisas presentadas.'
+    exampleTranslation: 'I will relate the conclusion with the presented premises.'
+  - id: es-ES-B2-TEXT-004-012
+    concept: 'to-extract-implications'
+    term: 'extraer implicaciones'
+    translation: 'to extract implications'
+    partOfSpeech: phrase
+    example: 'Puedo extraer implicaciones relevantes del texto.'
+    exampleTranslation: 'I can extract relevant implications from the text.'
 grammar:
   - id: es-ES-B2-TEXT-004-G1
     point: 'Conclusive connectors in argumentative texts'

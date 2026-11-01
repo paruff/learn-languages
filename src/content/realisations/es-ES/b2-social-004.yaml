@@ -46,6 +46,48 @@ vocabulary:
     partOfSpeech: verb
     example: 'Es importante matizar las opiniones para ser justo.'
     exampleTranslation: 'It is important to nuance opinions to be fair.'
+  - id: es-ES-B2-SOCIAL-004-007
+    concept: 'to-clarify-doubts'
+    term: 'aclarar dudas'
+    translation: 'to clarify doubts'
+    partOfSpeech: phrase
+    example: 'Puedo aclarar tus dudas sobre el tema.'
+    exampleTranslation: 'I can clear up your doubts about the subject.'
+  - id: es-ES-B2-SOCIAL-004-008
+    concept: 'to-detail-the-explanation'
+    term: 'detallar la explicación'
+    translation: 'to detail the explanation'
+    partOfSpeech: phrase
+    example: 'Voy a detallar la explicación para mayor claridad.'
+    exampleTranslation: 'I will detail the explanation for greater clarity.'
+  - id: es-ES-B2-SOCIAL-004-009
+    concept: 'to-specify-the-concept'
+    term: 'precisar el concepto'
+    translation: 'to specify the concept'
+    partOfSpeech: phrase
+    example: 'Es importante precisar el concepto antes de debatir.'
+    exampleTranslation: 'It is important to define the concept precisely before debating.'
+  - id: es-ES-B2-SOCIAL-004-010
+    concept: 'to-exemplify-with-situations'
+    term: 'ejemplificar con situaciones'
+    translation: 'to exemplify with situations'
+    partOfSpeech: phrase
+    example: 'Puedo ejemplificar con situaciones reales.'
+    exampleTranslation: 'I can exemplify with real situations.'
+  - id: es-ES-B2-SOCIAL-004-011
+    concept: 'to-reinterpret-the-idea'
+    term: 'reformular la idea'
+    translation: 'to reinterpret the idea'
+    partOfSpeech: phrase
+    example: 'Voy a reformular la idea de una manera más sencilla.'
+    exampleTranslation: 'I will reformulate the idea in a simpler way.'
+  - id: es-ES-B2-SOCIAL-004-012
+    concept: 'to-ensure-understanding'
+    term: 'asegurarse de que se entiende'
+    translation: 'to ensure understanding'
+    partOfSpeech: phrase
+    example: 'Quiero asegurarme de que se entiende antes de continuar.'
+    exampleTranslation: 'I want to make sure it is understood before continuing.'
 grammar:
   - id: es-ES-B2-SOCIAL-004-G1
     point: 'Concessive contrast with "sin que" + subjunctive'

@@ -45,6 +45,48 @@ vocabulary:
     partOfSpeech: verb
     example: 'Reafirmo mi opinión con nuevos datos.'
     exampleTranslation: 'I reaffirm my opinion with new data.'
+  - id: es-ES-B2-SOCIAL-003-007
+    concept: 'to-justify-the-decision'
+    term: 'justificar la decisión'
+    translation: 'to justify the decision'
+    partOfSpeech: phrase
+    example: 'Necesito justificar mi decisión con datos.'
+    exampleTranslation: 'I need to justify my decision with facts.'
+  - id: es-ES-B2-SOCIAL-003-008
+    concept: 'to-sustain-the-opinion'
+    term: 'defender la opinión'
+    translation: 'to sustain the opinion'
+    partOfSpeech: phrase
+    example: 'Es importante defender la opinión con ejemplos.'
+    exampleTranslation: 'It is important to defend the opinion with examples.'
+  - id: es-ES-B2-SOCIAL-003-009
+    concept: 'to-present-reasons'
+    term: 'exponer razones'
+    translation: 'to present reasons'
+    partOfSpeech: phrase
+    example: 'Voy a exponer razones para respaldar mi argumento.'
+    exampleTranslation: 'I will set out reasons to support my argument.'
+  - id: es-ES-B2-SOCIAL-003-010
+    concept: 'to-explain-the-reasoning'
+    term: 'explicar el razonamiento'
+    translation: 'to explain the reasoning'
+    partOfSpeech: phrase
+    example: 'Es útil explicar el razonamiento para que todos lo entiendan.'
+    exampleTranslation: 'It is useful to explain the reasoning so that everyone understands.'
+  - id: es-ES-B2-SOCIAL-003-011
+    concept: 'to-partially-agree'
+    term: 'estar parcialmente de acuerdo'
+    translation: 'to partially agree'
+    partOfSpeech: phrase
+    example: 'Estoy parcialmente de acuerdo, pero tengo reservas.'
+    exampleTranslation: 'I partially agree, but I have reservations.'
+  - id: es-ES-B2-SOCIAL-003-012
+    concept: 'to-defend-my-position'
+    term: 'defender mi postura'
+    translation: 'to defend my position'
+    partOfSpeech: phrase
+    example: 'Voy a defender mi postura con calma y respeto.'
+    exampleTranslation: 'I will defend my position calmly and respectfully.'
 grammar:
   - id: es-ES-B2-SOCIAL-003-G1
     point: 'Purpose clauses with "para que" + subjunctive'
