@@ -34,3 +34,6 @@ test-results/
 playwright-report/
 # project-local worktrees
 .worktrees/
+
+# scratch content scripts
+.tmp-x/

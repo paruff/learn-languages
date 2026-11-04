@@ -1,5 +1,3 @@
-import { readJson, writeItem } from './storage';
-
 /*
  * Spec J1: the A1 teaching order. Explicit (not ID-sorted: that put "Body parts"
  * first) and respects every A1 `prerequisiteNodes`. Nodes not listed sort after, by ID.
@@ -67,18 +65,4 @@ export function recommendNext(
     i = byId.get(pre)!;
   }
   return i;
-}
-
-const studiedKey = (sourceLang: string, targetLang: string) =>
-  `studied:${sourceLang}:${targetLang}`;
-
-export function loadStudied(sourceLang: string, targetLang: string): Set<string> {
-  const raw = readJson<unknown>(studiedKey(sourceLang, targetLang));
-  return new Set(Array.isArray(raw) ? raw.filter((x): x is string => typeof x === 'string') : []);
-}
-
-export function markStudied(sourceLang: string, targetLang: string, nodeId: string): void {
-  const set = loadStudied(sourceLang, targetLang);
-  if (set.has(nodeId)) return;
-  writeItem(studiedKey(sourceLang, targetLang), JSON.stringify([...set, nodeId]));
 }

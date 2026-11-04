@@ -181,6 +181,7 @@ const targetName = languageName(targetLang);
   import { getString, format } from '../../../lib/strings';
   import { loadGradeLog, computeRetention, rememberedItems } from '../../../lib/gradeLog';
   import { buildSessionReport } from '../../../lib/sessionReport';
+  import { localDay } from '../../../lib/localDay';
 
   interface DataItem {
     itemId: string;
@@ -320,7 +321,7 @@ const targetName = languageName(targetLang);
       })),
       nextSession: { planned: !!plan, calendar: plan?.calendar === true },
       comment: commentEl.value,
-      generatedOn: new Date().toISOString().slice(0, 10),
+      generatedOn: localDay(),
     });
   function refreshReport(): void {
     const report = currentReport();
@@ -348,7 +349,7 @@ const targetName = languageName(targetLang);
     });
     const link = document.createElement('a');
     link.href = URL.createObjectURL(blob);
-    link.download = `acquira-backup-${new Date().toISOString().slice(0, 10)}.json`;
+    link.download = `acquira-backup-${localDay()}.json`;
     link.click();
     URL.revokeObjectURL(link.href);
   });

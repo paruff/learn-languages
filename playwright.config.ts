@@ -17,7 +17,8 @@ export default defineConfig({
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      // PW_CHANNEL=chrome runs the installed Google Chrome instead of a downloaded build.
+      use: { ...devices['Desktop Chrome'], channel: process.env.PW_CHANNEL },
     },
     {
       name: 'firefox',

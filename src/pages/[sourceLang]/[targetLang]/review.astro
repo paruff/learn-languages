@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
-import { loadPair, getAvailablePairs } from '../../../lib/pairLoader';
+import { loadPair, getAvailablePairs, type VocabularyPairItem } from '../../../lib/pairLoader';
 import { languageName } from '../../../lib/languageNames';
 import { getCollection } from 'astro:content';
 import { getString } from '../../../lib/strings';
@@ -12,7 +12,27 @@ export async function getStaticPaths() {
 }
 
 const { sourceLang, targetLang } = Astro.params;
-const items = await loadPair(sourceLang, targetLang);
+// The review script reads only these fields; the rest of the pair would bloat every page.
+const side = ({
+  id,
+  term,
+  imageUrl,
+  imageAlt,
+  example,
+  exampleTranslation,
+}: VocabularyPairItem) => ({
+  id,
+  term,
+  imageUrl,
+  imageAlt,
+  example,
+  exampleTranslation,
+});
+const items = (await loadPair(sourceLang, targetLang)).map((i) => ({
+  nodeId: i.nodeId,
+  source: side(i.source),
+  target: side(i.target),
+}));
 const targetName = languageName(targetLang);
 // First grammar point per node in the target language — shown as corrective
 // support when a card is graded "Again" (L10).
@@ -187,7 +207,10 @@ for (const n of await getCollection('cefr-nodes')) {
   <script
     type="application/json"
     id="review-data"
-    set:html={JSON.stringify({ sourceLang, targetLang, items, grammarByNode, canDoByNode })}
+    set:html={JSON.stringify({ sourceLang, targetLang, items, grammarByNode, canDoByNode }).replace(
+      /</g,
+      '\\u003c'
+    )}
   />
 </BaseLayout>
 
@@ -364,7 +387,9 @@ for (const n of await getCollection('cefr-nodes')) {
     RELEARN_CRITERION,
     nextRemaining,
     selectDue,
+    countsTowardSchedule,
   } from '../../../lib/reviewSession';
+  import { localDay } from '../../../lib/localDay';
   import { withBase } from '../../../lib/urls';
   import { computeOverallMastery } from '../../../lib/progress';
   import {
@@ -391,7 +416,6 @@ for (const n of await getCollection('cefr-nodes')) {
 
   interface PairItem {
     nodeId: string;
-    concept: string;
     source: PairSide;
     target: PairSide;
   }
@@ -465,7 +489,7 @@ for (const n of await getCollection('cefr-nodes')) {
   const reflectionSkipBtn = document.getElementById('review-reflection-skip')!;
 
   function todayKey(): string {
-    return new Date().toISOString().slice(0, 10);
+    return localDay();
   }
 
   function reflectionLabel(response: ReflectionResponse): string {
@@ -834,15 +858,23 @@ for (const n of await getCollection('cefr-nodes')) {
     if (!hasState(sourceLang, targetLang, direction, item.target.id)) {
       recordIntroduced(sourceLang, targetLang, todayKey());
     }
-    const state = loadState(sourceLang, targetLang, direction, item.target.id);
-    const nextState = calculateNextReview({ state, quality });
-    saveState(sourceLang, targetLang, direction, item.target.id, nextState);
+    // A pass on a repeat showing in the same session doesn't count as another SM-2 review.
+    if (countsTowardSchedule(!isFirstAttempt, quality)) {
+      const state = loadState(sourceLang, targetLang, direction, item.target.id);
+      saveState(
+        sourceLang,
+        targetLang,
+        direction,
+        item.target.id,
+        calculateNextReview({ state, quality })
+      );
+    }
     void requestPersistence();
 
     // A failed recall ("Again") reappears a few cards later in this same
     // session for another retrieval attempt, rather than waiting for its
-    // SM-2 due date tomorrow. Only once per item, so a repeat "Again" can't
-    // loop the session forever.
+    // SM-2 due date tomorrow. Known words get one retry; a new word keeps
+    // coming back until it is recalled after an intervening card (L23).
     const remaining = criterionLeft.get(item.target.id);
     // Only a return visit counts: the first showing introduces the word, so the
     // criterion is a correct recall after at least one intervening card (L23).

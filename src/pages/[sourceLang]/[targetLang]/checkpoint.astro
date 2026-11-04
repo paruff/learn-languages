@@ -61,6 +61,7 @@ const targetName = languageName(targetLang);
 
 <script>
   import { hasState } from '../../../lib/storage';
+  import { localDay } from '../../../lib/localDay';
   import { checkAnswer } from '../../../lib/exerciseCheck';
   import {
     checkpointNodes,
@@ -78,7 +79,7 @@ const targetName = languageName(targetLang);
     canDoByNode: Record<string, string>;
   };
   const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
-  const today = new Date().toISOString().slice(0, 10);
+  const today = localDay();
 
   const studiedAt = loadStudiedAt(sourceLang, targetLang);
   const done = new Set(

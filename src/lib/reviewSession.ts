@@ -35,6 +35,16 @@ export const RELEARN_CRITERION = 1;
 /** Slots a never-seen word takes in a session: its introduction plus one relearning pass. */
 export const NEW_ITEM_COST = 2;
 
+/**
+ * Whether a grade updates the card's SM-2 state. A card shown again in the same
+ * session (relearning) must not earn a second repetition for a pass, or one
+ * sitting would graduate a new word to a 6-day interval and "mastered". A fail
+ * still counts, so it resets the card.
+ */
+export function countsTowardSchedule(seenThisSession: boolean, quality: number): boolean {
+  return !seenThisSession || quality < 3;
+}
+
 /** Criterion still outstanding after a grade. */
 export function nextRemaining(remaining: number, correct: boolean): number {
   return correct ? Math.max(0, remaining - 1) : remaining;

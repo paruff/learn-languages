@@ -39,17 +39,21 @@ export function calculateNextReview({ state, quality }: SRSInput): SRSState {
     repetitions += 1;
   }
 
-  // Update ease factor based on quality
+  // Update ease factor based on quality; a failed recall leaves it alone (SM-2).
   // EF' = EF + (0.1 - (5-q)*(0.08 + (5-q)*0.02))
-  easeFactor = easeFactor + (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02));
+  if (quality >= 3) {
+    easeFactor = easeFactor + (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02));
+  }
 
   // Clamp ease factor to minimum 1.3
   if (easeFactor < 1.3) {
     easeFactor = 1.3;
   }
 
+  // Due from the start of the local day, so a card graded at 9pm is there at 8am.
   const dueDate = new Date();
   dueDate.setDate(dueDate.getDate() + interval);
+  dueDate.setHours(0, 0, 0, 0);
 
   return {
     interval,
@@ -77,26 +81,4 @@ export function createInitialState(): SRSState {
  */
 export function isDue(state: SRSState): boolean {
   return new Date(state.dueDate) <= new Date();
-}
-
-/**
- * Get days until due (negative = overdue)
- */
-export function daysUntilDue(state: SRSState): number {
-  const due = new Date(state.dueDate);
-  const now = new Date();
-  const diff = due.getTime() - now.getTime();
-  return Math.ceil(diff / (1000 * 60 * 60 * 24));
-}
-
-/**
- * Get human-readable interval description
- */
-export function formatInterval(interval: number): string {
-  if (interval === 0) return 'New';
-  if (interval === 1) return '1 day';
-  if (interval < 7) return `${interval} days`;
-  if (interval < 30) return `${Math.round(interval / 7)} weeks`;
-  if (interval < 365) return `${Math.round(interval / 30)} months`;
-  return `${Math.round(interval / 365)} years`;
 }
