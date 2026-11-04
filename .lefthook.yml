@@ -3,6 +3,7 @@
 # Pre-push: full validation before code reaches remote
 
 pre-commit:
+  skip: [merge, rebase]
   parallel: true
   commands:
     lint-staged:
@@ -13,6 +14,7 @@ pre-commit:
       run: npx tsc --noEmit
 
 pre-push:
+  skip: [merge, rebase]
   parallel: false
   commands:
     validate-content:

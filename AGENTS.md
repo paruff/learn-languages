@@ -127,6 +127,8 @@ Conventional Commits: `<type>(<scope>): <summary>`, imperative, ≤72 characters
 
 - **pre-commit:** Prettier and ESLint on staged `src/` and `tests/` files (lint-staged), and `tsc --noEmit`.
 - **pre-push:** `npm run validate:content` and the unit tests. E2E runs in CI.
+- lefthook is the only hook manager: no `.husky/` and no `core.hooksPath`. If hooks stop running, `git config --unset core.hooksPath && npx lefthook install`.
+- The hooks only see staged files. For a whole-repo check run `npm run lint && npm run typecheck` (`lefthook run pre-commit --all-files` still checks nothing unstaged).
 - Never use `--no-verify`. The hooks don't check docs outside `src/` and `tests/`: run `npx prettier --write <file>` on them yourself.
 
 ## 12. Workflow: board, goals, decisions, review
