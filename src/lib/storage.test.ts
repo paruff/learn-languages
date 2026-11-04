@@ -12,7 +12,11 @@ import {
   requestPersistence,
   shouldShowPersistHint,
   dismissPersistHint,
+  loadStudied,
+  markStudied,
 } from './storage';
+import { readFileSync, readdirSync, statSync } from 'node:fs';
+import { join } from 'node:path';
 import { createInitialState } from '../utils/srs';
 
 describe('storage', () => {
@@ -187,5 +191,73 @@ describe('persistent storage (spec S8)', () => {
       throw new Error('nope');
     });
     await expect(requestPersistence()).resolves.toBe(false);
+  });
+
+  it('markStudied persists per pair and ignores corrupt data', () => {
+    markStudied('en-GB', 'pt-PT', 'A1-GREET-001');
+    markStudied('en-GB', 'pt-PT', 'A1-GREET-001');
+    expect([...loadStudied('en-GB', 'pt-PT')]).toEqual(['A1-GREET-001']);
+    expect(loadStudied('en-GB', 'es-ES').size).toBe(0);
+    window.localStorage.setItem('studied:en-GB:pt-PT', '{oops');
+    expect(loadStudied('en-GB', 'pt-PT').size).toBe(0);
+  });
+
+  it('keeps the newer card state when a backup is older than what is on the device', () => {
+    const key = 'srs:en-GB:pt-PT:forward:x';
+    const state = (lastReviewed: string, interval: number): string =>
+      JSON.stringify({ interval, easeFactor: 2.5, repetitions: 2, dueDate: 'd', lastReviewed });
+    window.localStorage.setItem(key, state('2026-11-01T10:00:00.000Z', 6));
+    const old = JSON.stringify({
+      app: 'acquira',
+      version: 1,
+      data: { [key]: state('2026-10-01T10:00:00.000Z', 1) },
+    });
+    expect(importProgress(old)).toEqual({ ok: true, count: 1 });
+    expect(JSON.parse(window.localStorage.getItem(key)!).interval).toBe(6);
+
+    const newer = JSON.stringify({
+      app: 'acquira',
+      version: 1,
+      data: { [key]: state('2026-11-05T10:00:00.000Z', 15) },
+    });
+    importProgress(newer);
+    expect(JSON.parse(window.localStorage.getItem(key)!).interval).toBe(15);
+  });
+
+  it('merges the grade log instead of replacing it', () => {
+    const key = 'grade-log:en-GB:pt-PT';
+    const a = { item: 'a', dir: 'forward', q: 3, d: '2026-11-01' };
+    const b = { item: 'b', dir: 'forward', q: 1, d: '2026-11-02' };
+    window.localStorage.setItem(key, JSON.stringify([a]));
+    importProgress(
+      JSON.stringify({ app: 'acquira', version: 1, data: { [key]: JSON.stringify([b]) } })
+    );
+    expect(JSON.parse(window.localStorage.getItem(key)!)).toEqual([a, b]);
+  });
+
+  it('backs up every storage key the app writes', () => {
+    // A key family written in src/ but missing from the export allowlist is silently
+    // dropped from backups (it happened to next-session:).
+    const files: string[] = [];
+    const walk = (dir: string): void => {
+      for (const name of readdirSync(dir)) {
+        const path = join(dir, name);
+        if (statSync(path).isDirectory()) walk(path);
+        else if (/\.(ts|astro)$/.test(name) && !name.endsWith('.test.ts')) files.push(path);
+      }
+    };
+    walk(join(import.meta.dirname, '..'));
+    const families = new Set<string>();
+    for (const f of files) {
+      for (const m of readFileSync(f, 'utf8').matchAll(/`([a-z][a-z-]*):\$\{/g)) {
+        families.add(m[1]);
+      }
+    }
+    expect(families.size).toBeGreaterThan(8);
+    for (const family of families) {
+      window.localStorage.setItem(`${family}:x`, '1');
+      expect(Object.keys(exportProgress().data), family).toContain(`${family}:x`);
+      window.localStorage.clear();
+    }
   });
 });

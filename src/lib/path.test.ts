@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import { A1_ORDER, orderLessons, nextIndex, recommendNext, loadStudied, markStudied } from './path';
+import { A1_ORDER, orderLessons, nextIndex, recommendNext } from './path';
 
 describe('learning path (J1)', () => {
   beforeEach(() => window.localStorage.clear());
@@ -34,14 +34,5 @@ describe('learning path (J1)', () => {
     expect(recommendNext(l, new Set(['a', 'c']))).toBe(2);
     expect(recommendNext(l, new Set(['a', 'b', 'c']))).toBe(-1);
     expect(recommendNext([{ nodeId: 'x', prerequisiteNodes: ['x', 'gone'] }], new Set())).toBe(0);
-  });
-
-  it('markStudied persists per pair and ignores corrupt data', () => {
-    markStudied('en-GB', 'pt-PT', 'A1-GREET-001');
-    markStudied('en-GB', 'pt-PT', 'A1-GREET-001');
-    expect([...loadStudied('en-GB', 'pt-PT')]).toEqual(['A1-GREET-001']);
-    expect(loadStudied('en-GB', 'es-ES').size).toBe(0);
-    window.localStorage.setItem('studied:en-GB:pt-PT', '{oops');
-    expect(loadStudied('en-GB', 'pt-PT').size).toBe(0);
   });
 });

@@ -70,6 +70,7 @@ import {
   NEW_ITEM_COST,
   RELEARN_CRITERION,
   nextRemaining,
+  countsTowardSchedule,
 } from './reviewSession';
 
 describe('selectDue (J2: practise only what you have studied)', () => {
@@ -147,5 +148,17 @@ describe('successive relearning (L23)', () => {
     });
     expect(out.filter((i) => i.fresh)).toHaveLength(4);
     expect(out).toHaveLength(SESSION_SIZE - 4 * (NEW_ITEM_COST - 1));
+  });
+});
+
+describe('countsTowardSchedule (a same-session repeat is not a new SM-2 review)', () => {
+  it('always counts the first grade of a card in a session', () => {
+    for (const q of [0, 1, 3, 4, 5]) expect(countsTowardSchedule(false, q)).toBe(true);
+  });
+
+  it('ignores a passing repeat but still lets a failed repeat reset the card', () => {
+    expect(countsTowardSchedule(true, 4)).toBe(false);
+    expect(countsTowardSchedule(true, 3)).toBe(false);
+    expect(countsTowardSchedule(true, 1)).toBe(true);
   });
 });

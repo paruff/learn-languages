@@ -183,6 +183,7 @@ const OWNED_KEY_PREFIXES = [
   'calibration-breaks:',
   'reflection:',
   'grade-log:',
+  'next-session:',
   'studied:',
   'studied-at:',
   'checkpoint:',
@@ -218,6 +219,36 @@ export function exportProgress(): ProgressExport {
 
 export type ImportResult = { ok: true; count: number } | { ok: false; error: string };
 
+/**
+ * A backup must not roll back newer progress on this device: per card the later
+ * review wins, and grade logs are unioned. Everything else is replaced.
+ */
+function mergeImported(key: string, incoming: string): string {
+  const existing = readItem(key);
+  if (existing === null) return incoming;
+  try {
+    if (key.startsWith('srs:')) {
+      const keep = JSON.parse(existing) as Partial<SRSState>;
+      const next = JSON.parse(incoming) as Partial<SRSState>;
+      return isSRSState(keep) && (keep.lastReviewed ?? '') > (next.lastReviewed ?? '')
+        ? existing
+        : incoming;
+    }
+    if (key.startsWith('grade-log:')) {
+      const seen = new Map<string, { d?: string }>();
+      for (const e of [...JSON.parse(existing), ...JSON.parse(incoming)]) {
+        seen.set(JSON.stringify(e), e);
+      }
+      return JSON.stringify(
+        [...seen.values()].sort((a, b) => (a.d ?? '').localeCompare(b.d ?? ''))
+      );
+    }
+  } catch {
+    // Unreadable stored or imported value: fall back to the backup's copy.
+  }
+  return incoming;
+}
+
 /** Restores a backup file. Untrusted input: validated, and only owned keys are written. */
 export function importProgress(json: string): ImportResult {
   let parsed: unknown;
@@ -237,7 +268,7 @@ export function importProgress(json: string): ImportResult {
 
   let count = 0;
   for (const [key, value] of entries) {
-    if (isOwnedKey(key) && writeItem(key, value as string)) count++;
+    if (isOwnedKey(key) && writeItem(key, mergeImported(key, value as string))) count++;
   }
   return { ok: true, count };
 }

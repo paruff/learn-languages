@@ -1,11 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import {
-  calculateNextReview,
-  createInitialState,
-  isDue,
-  daysUntilDue,
-  formatInterval,
-} from './srs';
+import { calculateNextReview, createInitialState, isDue } from './srs';
 
 describe('SM-2 Spaced Repetition', () => {
   describe('createInitialState', () => {
@@ -81,6 +75,25 @@ describe('SM-2 Spaced Repetition', () => {
       expect(result.easeFactor).toBe(2.6);
     });
 
+    it('makes the card due from the start of the local day, not at the hour it was graded', () => {
+      const result = calculateNextReview({ state: createInitialState(), quality: 4 });
+      const due = new Date(result.dueDate);
+      expect([due.getHours(), due.getMinutes(), due.getSeconds()]).toEqual([0, 0, 0]);
+      const today = new Date();
+      today.setHours(0, 0, 0, 0);
+      expect(Math.round((due.getTime() - today.getTime()) / 86_400_000)).toBe(1);
+    });
+
+    it('leaves the ease factor unchanged on failed recall (SM-2)', () => {
+      const state = {
+        interval: 10,
+        easeFactor: 2.5,
+        repetitions: 3,
+        dueDate: new Date().toISOString(),
+      };
+      expect(calculateNextReview({ state, quality: 1 }).easeFactor).toBe(2.5);
+    });
+
     it('clamps ease factor to minimum 1.3', () => {
       const state = {
         interval: 10,
@@ -88,8 +101,8 @@ describe('SM-2 Spaced Repetition', () => {
         repetitions: 3,
         dueDate: new Date().toISOString(),
       };
-      // Quality 0 should try to reduce EF below 1.3
-      const result = calculateNextReview({ state, quality: 0 });
+      // A passing grade of 3 reduces EF; it must stop at the 1.3 floor
+      const result = calculateNextReview({ state, quality: 3 });
       expect(result.easeFactor).toBe(1.3);
     });
   });
@@ -113,49 +126,6 @@ describe('SM-2 Spaced Repetition', () => {
         dueDate: new Date(Date.now() + 86400000).toISOString(), // tomorrow
       };
       expect(isDue(state)).toBe(false);
-    });
-  });
-
-  describe('daysUntilDue', () => {
-    it('returns negative for overdue cards', () => {
-      const state = {
-        interval: 1,
-        easeFactor: 2.5,
-        repetitions: 1,
-        dueDate: new Date(Date.now() - 86400000).toISOString(),
-      };
-      expect(daysUntilDue(state)).toBeLessThan(0);
-    });
-
-    it('returns positive for future due cards', () => {
-      const state = {
-        interval: 1,
-        easeFactor: 2.5,
-        repetitions: 1,
-        dueDate: new Date(Date.now() + 86400000).toISOString(),
-      };
-      expect(daysUntilDue(state)).toBeGreaterThan(0);
-    });
-  });
-
-  describe('formatInterval', () => {
-    it('returns "New" for interval 0', () => {
-      expect(formatInterval(0)).toBe('New');
-    });
-    it('returns "1 day" for interval 1', () => {
-      expect(formatInterval(1)).toBe('1 day');
-    });
-    it('returns "X days" for intervals 2-6', () => {
-      expect(formatInterval(3)).toBe('3 days');
-    });
-    it('returns "X weeks" for intervals 7-29', () => {
-      expect(formatInterval(14)).toBe('2 weeks');
-    });
-    it('returns "X months" for intervals 30-364', () => {
-      expect(formatInterval(60)).toBe('2 months');
-    });
-    it('returns "X years" for intervals 365+', () => {
-      expect(formatInterval(730)).toBe('2 years');
     });
   });
 });

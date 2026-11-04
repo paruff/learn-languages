@@ -11,6 +11,12 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · Versioning: 
 
 ### Fixed
 
+- A "day" now follows the learner's local midnight, not UTC: the daily new-word cap, grade log, reflection, checkpoint dates and the return-visit metric no longer split one evening of study across two days.
+- Cards are due from the start of the local day, so a word graded at 9pm is due at 8am the next morning, not 9pm.
+- A new word no longer reaches "mastered" and a 6-day interval in its first session: a pass on a same-session repeat is not a second SM-2 review. A failed recall no longer lowers the ease factor (SM-2).
+- Backups now include the next-session plan, and restoring one no longer rolls back newer card state or drops grade-log entries on the device.
+- The review page ships about a third less data (unused vocabulary fields dropped), and the embedded JSON escapes `<`.
+- Removed dead code: unused SRS helpers, a duplicate studied-lessons store, and stray files.
 - Progress is less likely to vanish on Safari: the app asks the browser for persistent storage after the first graded card, and Progress shows a one-time home-screen/backup hint if it is refused (S8, #241).
 - Accessibility: every page now starts with a "Skip to main content" link (in the learner's source language) that moves focus past the header and nav to the main content (U7).
 - es-ES B1–C2 content reverted to the last PCIC-reviewed state. The #155 positional concept re-key had paired concepts with unrelated terms (e.g. `to-justify-the-position` with `cuestión de actualidad`) while dual `old / new` glosses passed the pairing gate; re-alignment now requires per-item human review (#185).
