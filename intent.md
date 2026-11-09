@@ -28,7 +28,7 @@ Existing options make trade-offs: Duolingo is gamified, Babbel needs a backend a
 
 ## 3. Desired outcome
 
-> **A learner who opens Acquira for 10 minutes measurably remembers more of a CEFR-mapped language than they would have from re-reading, and comes back the next day without being nagged, and over weeks can _demonstrate_ the CEFR Can-Do statements they studied.**
+> **A learner who opens Acquira for 10 minutes measurably remembers what they studied of a CEFR-mapped language, comes back the next day without being nagged, and over weeks can _demonstrate_ the CEFR Can-Do statements they studied.**
 
 Success is measured at three levels: _behaviour_ (they return), _memory_ (they retain what they studied) and _ability_ (they can do the Can-Do on items they have not seen). Memory is the learning mechanism (spec §2). Behaviour (_comes back_) is the **biggest unvalidated risk** (discovery-brief §6, R3) and the main thing this repo has to prove next. Ability is measured last (SIG8).
 
@@ -38,8 +38,8 @@ Ordered by how soon we can observe them. Earlier signals gate later investment. 
 
 | ID   | Signal                                                                                                                                        |
 | ---- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| SIG1 | 3–5 persona-matched first-time learners finish session 1 without help                                                                         |
-| SIG2 | Some of them return on day 2 without a reminder                                                                                               |
+| SIG1 | At least 3 of 5 persona-matched first-time learners finish session 1 without help                                                             |
+| SIG2 | At least 1 of those learners returns on day 2 without a reminder                                                                              |
 | SIG3 | 40% week-2 return rate                                                                                                                        |
 | SIG4 | 60% of A1 vocab reviewed reaches an SRS interval of at least 21 days                                                                          |
 | SIG5 | Lighthouse Performance ≥95 and Accessibility 100 on every page                                                                                |
@@ -51,21 +51,22 @@ Ordered by how soon we can observe them. Earlier signals gate later investment. 
 
 - **P1. Learning mechanism over decoration.** A feature must strengthen retrieval, spacing, interleaving, generation, calibration, or dual coding, or remove friction from them. Otherwise it is polish, and polish waits. (AGENTS.md §1.0; evidence base and source tiers: `docs/learning-science-references.md`)
 - **P2. Evidence before investment.** Don't build more content or UI on a loop no learner has validated. Content volume is the cheapest thing to add later.
-- **P3. Zero surveillance.** No accounts, cookies, PII, or third-party scripts. State lives in `localStorage` only. Any measurement is opt-in, anonymous, and self-hosted.
+- **P3. Zero surveillance.** No accounts, cookies, PII, or third-party scripts. State lives in `localStorage` only. Measurement is opt-in, anonymous and learner-sent (the report in spec M1); the app makes no measurement request itself. A self-hosted counter would need an owner decision and an edit here first (#236). Known limit: a learner who never returns never sends a report, so return data covers only the observed cohort.
 - **P4. Language-agnostic core.** CEFR nodes are abstract. Languages are realisations joined by `nodeId`. No code path names a specific language.
 - **P5. Static and free to run.** GitHub Pages, no backend, no running costs.
 - **P6. Human-reviewed content.** AI may draft content, but nothing ships without verification against an authoritative CEFR source (Referencial Camões, PCIC, Profile Deutsch, Référentiel FLE).
 
 ## 6. Non-goals
 
-| Non-goal                                     | Why                                                                 |
-| -------------------------------------------- | ------------------------------------------------------------------- |
-| Accounts, cloud sync, multi-device state     | Breaks P3. Revisit only if retention is proven and users ask for it |
-| Formal CEFR certification or assessment      | We map to CEFR; we don't certify against it                         |
-| Native mobile apps                           | The web plus offline support covers the persona needs               |
-| Live tutoring or social features             | Out of scope for a static product                                   |
-| Gamification: streaks, XP, leaderboards, ads | Directly contradicts the problem statement                          |
-| Unreviewed AI-generated content              | P6                                                                  |
+| Non-goal                                 | Why                                                                 |
+| ---------------------------------------- | ------------------------------------------------------------------- |
+| Accounts, cloud sync, multi-device state | Breaks P3. Revisit only if retention is proven and users ask for it |
+| Formal CEFR certification or assessment  | We map to CEFR; we don't certify against it                         |
+| Native mobile apps                       | The web plus offline support covers the persona needs               |
+| Live tutoring or social features         | Out of scope for a static product                                   |
+| Gamification: streaks, XP, leaderboards  | Directly contradicts the problem statement                          |
+| Advertising                              | Contradicts "respectful" (§1) and P3                                |
+| Unreviewed AI-generated content          | P6                                                                  |
 
 ## 7. Constraints
 
