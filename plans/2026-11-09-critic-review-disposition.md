@@ -1,34 +1,34 @@
 # Critic review: what happened to each finding
 
-Source: `egm-review/critic_report.md` (Stage 7) and the Stage 9 report. Spec 1.6 and PRs #295, #296 and the follow-up. "Done" means the document or code now says it; "Tracked" means a requirement exists and an issue owns the work; "Declined" gives the reason. Move this file to `plans/archive/` once the tracked items close.
+Source: `egm-review/critic_report.md` (Stage 7) and the Stage 9 report. Spec 1.6 and PRs #295, #296 and the follow-up. "Done" means the document or code now says it; "Declined" gives the reason. Move this file to `plans/archive/` once the tracked items close.
 
 ## Blockers
 
-| ID    | Outcome                                                                                              |
-| ----- | ---------------------------------------------------------------------------------------------------- |
-| CR-B1 | Done: `docs/alternatives-considered.md`                                                              |
-| CR-B2 | Done: spec RK2 (size estimate; log capped at 2000), S9, DESIGN §6 "Save failure". Tracked: S9 → #288 |
-| CR-B3 | Done: spec C12, REVIEW §3 (Critical). Tracked: the validate:content check → #290                     |
-| CR-B4 | Done: SIG IDs (earlier commit), REVIEW "S6a", legend in spec                                         |
+| ID    | Outcome                                                                                                   |
+| ----- | --------------------------------------------------------------------------------------------------------- |
+| CR-B1 | Done: `docs/alternatives-considered.md`                                                                   |
+| CR-B2 | Done: RK2 size estimate (log capped at 2000), S9 notice with unit and E2E tests, DESIGN §6 "Save failure" |
+| CR-B3 | Done: C12 and REVIEW §3 (Critical); `npm run check:item-ids` runs in CI                                   |
+| CR-B4 | Done: SIG IDs (earlier commit), REVIEW "S6a", legend in spec                                              |
 
 ## Major
 
 | ID     | Outcome                                                                                                                                                                                      |
 | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | CR-M1  | Done: S6 🟡, S6b states the cohort limit, intent P3 and S3 agree (#295)                                                                                                                      |
-| CR-M2  | Tracked: L33 (#247); RK4                                                                                                                                                                     |
+| CR-M2  | Done: L33 logs scheduler, suggested grade, override and typed result; retention is per scheduler (`grade.test.ts`)                                                                           |
 | CR-M3  | Done: spec §2.1 transition table                                                                                                                                                             |
 | CR-M4  | Done: §2.1 due rule (one representation, queue built once per session, example fixed). A minimum elapsed time is declined: the queue-built-once rule already prevents same-session re-offers |
 | CR-M5  | Done: L10–L12, M2, C4 name real checks; C6 🟡; Q3 states its fallback. J1–J3 now name their spec files (`first-run`, `practice-scope`, `progress`)                                           |
-| CR-M6  | Done: Q7 🟡, RK10, Q12 → #294                                                                                                                                                                |
-| CR-M7  | Tracked: C13 → #291                                                                                                                                                                          |
+| CR-M6  | Done: Q7 states the limit, RK10; Q12 precaches the open level (E2E)                                                                                                                          |
+| CR-M7  | Done: C13 ser/estar fixture (valid and pairs by slug)                                                                                                                                        |
 | CR-M8  | Done as a stated limit: C1, RK7, P-10                                                                                                                                                        |
 | CR-M9  | Done: C6 🟡, REVIEW §8, Reviewers table in `docs/cefr-mapping.md`. Needs the owner to name reviewers → #298                                                                                  |
-| CR-M10 | Tracked: Q10 → #292                                                                                                                                                                          |
-| CR-M11 | Tracked: S11 (with FSRS, #247); RK7a                                                                                                                                                         |
-| CR-M12 | Tracked: S10 → #289                                                                                                                                                                          |
+| CR-M10 | Done: Q10 on-device voices by default, opt-in checkbox, unit tests                                                                                                                           |
+| CR-M11 | Done: S11 schema version; newer data is never overwritten and newer backups are rejected. The FSRS migration itself stays plans row 2.13                                                     |
+| CR-M12 | Done: S10 `applyGrade` re-reads state before each grade, unit test                                                                                                                           |
 | CR-M13 | Done: S5b says merge is idempotent (entries deduped by content), later `lastReviewed` wins, ties keep local; clock skew stays a stated limit (RK5)                                           |
-| CR-M14 | Tracked: Q11 → #293                                                                                                                                                                          |
+| CR-M14 | Done: Q11 saved pair applied while parsing; no-JS default and plain links (E2E)                                                                                                              |
 | CR-M15 | Done: spec §6 RK1–RK12                                                                                                                                                                       |
 | CR-M16 | Done: Intent column on §2 and §4; every row cites P#, SIG# or §n                                                                                                                             |
 | CR-M17 | Done: §4 split into 4.1–4.5                                                                                                                                                                  |
