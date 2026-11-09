@@ -1,0 +1,52 @@
+nodeId: B1-EXPERIENCE-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-B1-EXPERIENCE-001-001
+    concept: 'to-relate-an-experience'
+    term: 'ein Erlebnis erzählen'
+    translation: 'to relate an experience'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Sie erzählte ausführlich von ihrem Erlebnis in Japan.'
+    exampleTranslation: 'She related her experience in Japan in detail.'
+  - id: de-DE-B1-EXPERIENCE-001-002
+    concept: 'in-detail'
+    term: 'ausführlich'
+    translation: 'in detail'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Er erklärte den Unfall ausführlich.'
+    exampleTranslation: 'He explained the accident in detail.'
+  - id: de-DE-B1-EXPERIENCE-001-003
+    concept: 'my-reaction-was'
+    term: 'meine Reaktion war'
+    translation: 'my reaction was'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Meine Reaktion war zunächst Überraschung.'
+    exampleTranslation: 'My reaction was surprise at first.'
+  - id: de-DE-B1-EXPERIENCE-001-004
+    concept: 'how-i-felt'
+    term: 'wie ich mich fühlte'
+    translation: 'how I felt'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich erzähle dir, wie ich mich während der Reise fühlte.'
+    exampleTranslation: 'I will tell you how I felt during the trip.'
+  - id: de-DE-B1-EXPERIENCE-001-005
+    concept: 'an-unexpected-event'
+    term: 'ein unerwartetes Ereignis'
+    translation: 'an unexpected event'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ein unerwartetes Ereignis änderte unsere Pläne.'
+    exampleTranslation: 'An unexpected event changed our plans.'
+  - id: de-DE-B1-EXPERIENCE-001-006
+    concept: 'to-describe-a-dream'
+    term: 'einen Traum beschreiben'
+    translation: 'to describe a dream'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Sie beschrieb einen Traum, den sie als Kind oft hatte.'
+    exampleTranslation: 'She described a dream she often had as a child.'
+grammar: []

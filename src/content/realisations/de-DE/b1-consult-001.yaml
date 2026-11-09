@@ -1,0 +1,52 @@
+nodeId: B1-CONSULT-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-B1-CONSULT-001-001
+    concept: 'to-describe-symptoms'
+    term: 'Symptome beschreiben'
+    translation: 'to describe symptoms'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Beschreiben Sie dem Arzt Ihre Symptome.'
+    exampleTranslation: 'Describe your symptoms to the doctor.'
+  - id: de-DE-B1-CONSULT-001-002
+    concept: 'a-consultation'
+    term: 'Beratungsgespräch'
+    translation: 'a consultation'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Das Beratungsgespräch dauerte zwanzig Minuten.'
+    exampleTranslation: 'The consultation lasted twenty minutes.'
+  - id: de-DE-B1-CONSULT-001-003
+    concept: 'concrete-information'
+    term: 'konkrete Informationen'
+    translation: 'concrete information'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Geben Sie konkrete Informationen zu Ihrer Situation.'
+    exampleTranslation: 'Provide concrete information about your situation.'
+  - id: de-DE-B1-CONSULT-001-004
+    concept: 'an-interview'
+    term: 'Interview'
+    translation: 'an interview'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Das Interview konzentrierte sich auf meine Erfahrung.'
+    exampleTranslation: 'The interview focused on my experience.'
+  - id: de-DE-B1-CONSULT-001-005
+    concept: 'to-introduce-a-new-subject'
+    term: 'ein neues Thema ansprechen'
+    translation: 'to introduce a new subject'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Sie ergriff die Initiative und sprach ein neues Thema an.'
+    exampleTranslation: 'She took the initiative to introduce a new subject.'
+  - id: de-DE-B1-CONSULT-001-006
+    concept: 'with-limited-precision'
+    term: 'mit begrenzter Genauigkeit'
+    translation: 'with limited precision'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Er antwortete mit begrenzter Genauigkeit.'
+    exampleTranslation: 'He answered with limited precision.'
+grammar: []

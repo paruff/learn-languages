@@ -1,0 +1,52 @@
+nodeId: B1-PROCEDURE-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-B1-PROCEDURE-001-001
+    concept: 'how-to-do-something'
+    term: 'wie man etwas macht'
+    translation: 'how to do something'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Er erklärte in zwei Minuten, wie man es macht.'
+    exampleTranslation: 'He explained how to do it in two minutes.'
+  - id: de-DE-B1-PROCEDURE-001-002
+    concept: 'detailed-instructions'
+    term: 'ausführliche Anweisungen'
+    translation: 'detailed instructions'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Befolge meine ausführlichen Anweisungen sorgfältig.'
+    exampleTranslation: 'Follow my detailed instructions carefully.'
+  - id: de-DE-B1-PROCEDURE-001-003
+    concept: 'to-set-up'
+    term: 'einrichten'
+    translation: 'to set up'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Ich zeige dir, wie man den Drucker einrichtet.'
+    exampleTranslation: 'I will show you how to set up the printer.'
+  - id: de-DE-B1-PROCEDURE-001-004
+    concept: 'the-next-step'
+    term: 'der nächste Schritt'
+    translation: 'the next step'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Der nächste Schritt ist, das Kabel anzuschließen.'
+    exampleTranslation: 'The next step is to connect the cable.'
+  - id: de-DE-B1-PROCEDURE-001-005
+    concept: 'in-order'
+    term: 'der Reihe nach'
+    translation: 'in order'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Erledige die Aufgaben der Reihe nach.'
+    exampleTranslation: 'Carry out the tasks in order.'
+  - id: de-DE-B1-PROCEDURE-001-006
+    concept: 'a-recipe'
+    term: 'Rezept'
+    translation: 'a recipe'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Sie erklärte das Rezept Schritt für Schritt.'
+    exampleTranslation: 'She explained the recipe step by step.'
+grammar: []

@@ -1,0 +1,52 @@
+nodeId: B1-PROCEDURE-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-B1-PROCEDURE-001-001
+    concept: 'how-to-do-something'
+    term: 'cómo hacer algo'
+    translation: 'how to do something'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Explicó cómo hacerlo en dos minutos.'
+    exampleTranslation: 'He explained how to do it in two minutes.'
+  - id: es-ES-B1-PROCEDURE-001-002
+    concept: 'detailed-instructions'
+    term: 'instrucciones detalladas'
+    translation: 'detailed instructions'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Sigue mis instrucciones detalladas con atención.'
+    exampleTranslation: 'Follow my detailed instructions carefully.'
+  - id: es-ES-B1-PROCEDURE-001-003
+    concept: 'to-set-up'
+    term: 'configurar'
+    translation: 'to set up'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Te enseñaré a configurar la impresora.'
+    exampleTranslation: 'I will show you how to set up the printer.'
+  - id: es-ES-B1-PROCEDURE-001-004
+    concept: 'the-next-step'
+    term: 'el siguiente paso'
+    translation: 'the next step'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'El siguiente paso es conectar el cable.'
+    exampleTranslation: 'The next step is to connect the cable.'
+  - id: es-ES-B1-PROCEDURE-001-005
+    concept: 'in-order'
+    term: 'por orden'
+    translation: 'in order'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Realiza las tareas por orden.'
+    exampleTranslation: 'Carry out the tasks in order.'
+  - id: es-ES-B1-PROCEDURE-001-006
+    concept: 'a-recipe'
+    term: 'receta'
+    translation: 'a recipe'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Explicó la receta paso a paso.'
+    exampleTranslation: 'She explained the recipe step by step.'
+grammar: []

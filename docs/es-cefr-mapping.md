@@ -149,6 +149,12 @@ B1 Coverage: 18/18 nodes fully realised (100%).
 | reading            | 4     | TEXT-001/002/003                               |
 | listening          | 0     | —                                              |
 
+### B1 missing nodes (#185, 2026-11-09)
+
+17 B1 nodes had no es-ES realisation (B1-ARGUMENT-001, B1-CLARIFY-001, B1-CONSULT-001, B1-CORRESPOND-001, B1-DESCRIBE-001, B1-EXCHANGE-001, B1-EXPERIENCE-001, B1-INSTRUCT-001, B1-LISTEN-001, B1-LOCATE-001, B1-MEDIA-001, B1-MESSAGE-001, B1-NOTES-001, B1-PROCEDURE-001, B1-RECAP-001, B1-SERVICE-001, B1-SUMMARY-001). Each now has six items keyed to the shared en-GB concepts; `translation` is the single en-GB term and `exampleTranslation` translates the actual Spanish example (no positional re-keying). `npm run report:coverage -- es-ES B1` exits 0.
+
+**Status: needs per-item PCIC review (Instituto Cervantes) before merge.** Items were drafted by AI and **not** checked against PCIC. Reviewer and date: _pending_. Wording most worth a check: `to-sort-it-out` ("solucionarlo"), `a-factual-source` ("una fuente de datos"), `to-scan-a-text` ("hojear un texto").
+
 ## B2 nodes in the repo
 
 All 18 B2 `cefr-nodes/` are language-agnostic Can-Do statements already modeled for the en-GB/pt-PT pair (see `docs/cefr-mapping.md`). CEFR Can-Do statements describe communicative ability, not any one language, so this epic reused every existing B2 node rather than creating duplicates.
@@ -187,6 +193,10 @@ B2 Coverage: 18/18 nodes fully realised (100%).
 | writing            | 4     | ARGUE-004, WRITTEN-001/002/003 |
 | reading            | 4     | TEXT-001/002/003/004           |
 | listening          | 3     | SPOKEN-001/002/003             |
+
+### B2 missing nodes (#185, 2026-11-09)
+
+B2-SPOKEN-004 and B2-SPOKEN-005 had no es-ES realisation; each now has six concept-keyed items (`npm run report:coverage -- es-ES B2` exits 0). **Status: needs PCIC review before merge.** Reviewer and date: _pending_. Wording most worth a check: `to-think-on-one-s-feet` ("saber reaccionar sobre la marcha").
 
 ## C1 nodes in the repo
 

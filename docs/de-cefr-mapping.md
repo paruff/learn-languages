@@ -121,6 +121,12 @@ Fixed while re-aligning: "Das stimme ich zu" → "Dem stimme ich zu" (dative); "
 
 **Source to verify against:** Goethe-Institut _Zertifikat B1 Prüfungsziele/Testbeschreibung_ (the free PDF this file already uses as the de-DE source). The items were drafted by AI from the shared concept list and were **not** checked against that PDF item by item. **Status: needs native-speaker review against the Goethe B1 document before merge** (intent P6, spec C6). Items most worth a reviewer's eye: `to-confirm-understanding` ("sich vergewissern, dass man verstanden hat"), `topic-of-interest` ("Thema von Interesse"), `to-invite-opinion` ("um eine Meinung bitten").
 
+### B1 missing nodes (#143, 2026-11-09)
+
+17 B1 nodes had no de-DE realisation (B1-ARGUMENT-001, B1-CLARIFY-001, B1-CONSULT-001, B1-CORRESPOND-001, B1-DESCRIBE-001, B1-EXCHANGE-001, B1-EXPERIENCE-001, B1-INSTRUCT-001, B1-LISTEN-001, B1-LOCATE-001, B1-MEDIA-001, B1-MESSAGE-001, B1-NOTES-001, B1-PROCEDURE-001, B1-RECAP-001, B1-SERVICE-001, B1-SUMMARY-001). Each now has six items keyed to the shared en-GB concepts, with `translation` the en-GB term and `exampleTranslation` translating the German example. `npm run report:coverage -- de-DE B1` exits 0.
+
+**Status: needs native-speaker review against the Goethe B1 Prüfungsziele before merge** (intent P6, spec C6). The items were drafted by AI and **not** checked item by item. Reviewer and date: _pending_. Wording most worth a check: `to-relay-a-message` ("eine Nachricht weitergeben"), `to-sort-it-out` ("es klären"), `a-factual-source` ("eine sachliche Quelle").
+
 ## B2 nodes in the repo (EN→DE)
 
 18 B2 `cefr-nodes/` — all language-agnostic Can-Do statements. Paired en-DE/de-DE realisations authored for all 18 nodes.
@@ -147,6 +153,10 @@ Fixed while re-aligning: "Das stimme ich zu" → "Dem stimme ich zu" (dative); "
 | B2-WRITTEN-003 | writing            | Can write with correct spelling and punctuation               | ✅ Realised |
 
 B2 Coverage: 18/18 nodes fully realised (100%).
+
+### B2 missing nodes (#143, 2026-11-09)
+
+B2-SPOKEN-004 and B2-SPOKEN-005 had no de-DE realisation; each now has six concept-keyed items (`npm run report:coverage -- de-DE B2` exits 0). **Status: needs native-speaker review against the Goethe B2 Prüfungsziele before merge.** Reviewer and date: _pending_. Wording most worth a check: `to-think-on-one-s-feet` ("schlagfertig sein").
 
 ## C1 nodes in the repo (EN→DE)
 

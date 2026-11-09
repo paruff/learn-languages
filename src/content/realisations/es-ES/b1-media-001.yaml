@@ -1,0 +1,52 @@
+nodeId: B1-MEDIA-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-B1-MEDIA-001-001
+    concept: 'a-news-bulletin'
+    term: 'un boletín de noticias'
+    translation: 'a news bulletin'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Escucho el boletín de noticias cada mañana.'
+    exampleTranslation: 'I listen to the news bulletin every morning.'
+  - id: es-ES-B1-MEDIA-001-002
+    concept: 'a-radio-broadcast'
+    term: 'una emisión de radio'
+    translation: 'a radio broadcast'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'La emisión de radio cubrió las elecciones.'
+    exampleTranslation: 'The radio broadcast covered the election.'
+  - id: es-ES-B1-MEDIA-001-003
+    concept: 'a-recorded-document'
+    term: 'un documento grabado'
+    translation: 'a recorded document'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'El documento grabado está disponible en línea.'
+    exampleTranslation: 'The recorded document is available online.'
+  - id: es-ES-B1-MEDIA-001-004
+    concept: 'the-plot'
+    term: 'la trama'
+    translation: 'the plot'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Seguí la trama de la película con facilidad.'
+    exampleTranslation: 'I followed the plot of the film easily.'
+  - id: es-ES-B1-MEDIA-001-005
+    concept: 'subtitles'
+    term: 'subtítulos'
+    translation: 'subtitles'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Veo películas españolas con subtítulos.'
+    exampleTranslation: 'I watch Spanish films with subtitles.'
+  - id: es-ES-B1-MEDIA-001-006
+    concept: 'a-slow-pace'
+    term: 'un ritmo lento'
+    translation: 'a slow pace'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Entiendo mejor cuando el hablante usa un ritmo lento.'
+    exampleTranslation: 'I understand better when the speaker uses a slow pace.'
+grammar: []

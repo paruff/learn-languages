@@ -1,0 +1,52 @@
+nodeId: B2-SPOKEN-004
+lang: es-ES
+vocabulary:
+  - id: es-ES-B2-SPOKEN-004-001
+    concept: 'to-make-an-announcement'
+    term: 'hacer un anuncio'
+    translation: 'to make an announcement'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Tengo que hacer un anuncio sobre el cambio de horario.'
+    exampleTranslation: 'I need to make an announcement about the schedule change.'
+  - id: es-ES-B2-SPOKEN-004-002
+    concept: 'to-address-the-audience'
+    term: 'dirigirse al público'
+    translation: 'to address the audience'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'El orador se dirigió al público con claridad.'
+    exampleTranslation: 'The speaker addressed the audience clearly.'
+  - id: es-ES-B2-SPOKEN-004-003
+    concept: 'to-communicate-clearly'
+    term: 'comunicar con claridad'
+    translation: 'to communicate clearly'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Es importante comunicar con claridad durante los anuncios.'
+    exampleTranslation: 'It is important to communicate clearly during announcements.'
+  - id: es-ES-B2-SPOKEN-004-004
+    concept: 'to-speak-with-fluency'
+    term: 'hablar con fluidez'
+    translation: 'to speak with fluency'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Habló con fluidez y seguridad.'
+    exampleTranslation: 'She spoke with fluency and confidence.'
+  - id: es-ES-B2-SPOKEN-004-005
+    concept: 'to-deliver-a-message'
+    term: 'hacer llegar un mensaje'
+    translation: 'to deliver a message'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Hizo llegar el mensaje con eficacia.'
+    exampleTranslation: 'He delivered the message effectively.'
+  - id: es-ES-B2-SPOKEN-004-006
+    concept: 'to-capture-attention'
+    term: 'captar la atención'
+    translation: 'to capture attention'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'El anuncio captó la atención de todos.'
+    exampleTranslation: "The announcement captured everyone's attention."
+grammar: []

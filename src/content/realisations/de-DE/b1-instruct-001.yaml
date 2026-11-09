@@ -1,0 +1,52 @@
+nodeId: B1-INSTRUCT-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-B1-INSTRUCT-001-001
+    concept: 'an-instruction'
+    term: 'Anweisung'
+    translation: 'an instruction'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Befolge jede Anweisung sorgfältig.'
+    exampleTranslation: 'Follow each instruction carefully.'
+  - id: de-DE-B1-INSTRUCT-001-002
+    concept: 'detailed-directions'
+    term: 'genaue Wegbeschreibungen'
+    translation: 'detailed directions'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Der Führer gab genaue Wegbeschreibungen.'
+    exampleTranslation: 'The guide gave detailed directions.'
+  - id: de-DE-B1-INSTRUCT-001-003
+    concept: 'a-user-manual'
+    term: 'eine Bedienungsanleitung'
+    translation: 'a user manual'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Die Bedienungsanleitung erklärt die Einrichtung.'
+    exampleTranslation: 'The user manual explains the setup.'
+  - id: de-DE-B1-INSTRUCT-001-004
+    concept: 'to-follow-a-procedure'
+    term: 'einem Verfahren folgen'
+    translation: 'to follow a procedure'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Folge dem am Telefon beschriebenen Verfahren.'
+    exampleTranslation: 'Follow the procedure described on the phone.'
+  - id: de-DE-B1-INSTRUCT-001-005
+    concept: 'step-by-step'
+    term: 'Schritt für Schritt'
+    translation: 'step by step'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Er erklärte den Ablauf Schritt für Schritt.'
+    exampleTranslation: 'He explained the process step by step.'
+  - id: de-DE-B1-INSTRUCT-001-006
+    concept: 'common-equipment'
+    term: 'gängige Geräte'
+    translation: 'common equipment'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Die Anleitungen decken gängige Geräte ab.'
+    exampleTranslation: 'The instructions cover common equipment.'
+grammar: []

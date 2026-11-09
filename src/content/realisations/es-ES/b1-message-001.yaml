@@ -1,0 +1,52 @@
+nodeId: B1-MESSAGE-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-B1-MESSAGE-001-001
+    concept: 'to-leave-a-note'
+    term: 'dejar una nota'
+    translation: 'to leave a note'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Dejé una nota para el conserje.'
+    exampleTranslation: 'I left a note for the caretaker.'
+  - id: es-ES-B1-MESSAGE-001-002
+    concept: 'a-message'
+    term: 'recado'
+    translation: 'a message'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Tomó un recado sobre la entrega.'
+    exampleTranslation: 'She took a message about the delivery.'
+  - id: es-ES-B1-MESSAGE-001-003
+    concept: 'a-request-for-information'
+    term: 'una solicitud de información'
+    translation: 'a request for information'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'La carta contiene una solicitud de información.'
+    exampleTranslation: 'The letter contains a request for information.'
+  - id: es-ES-B1-MESSAGE-001-004
+    concept: 'to-explain-a-problem'
+    term: 'explicar un problema'
+    translation: 'to explain a problem'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Escribe para explicar el problema con claridad.'
+    exampleTranslation: 'Write to explain the problem clearly.'
+  - id: es-ES-B1-MESSAGE-001-005
+    concept: 'urgent-information'
+    term: 'información urgente'
+    translation: 'urgent information'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Este mensaje contiene información urgente.'
+    exampleTranslation: 'This message carries urgent information.'
+  - id: es-ES-B1-MESSAGE-001-006
+    concept: 'the-key-points'
+    term: 'los puntos clave'
+    translation: 'the key points'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Haz que los puntos clave destaquen.'
+    exampleTranslation: 'Make the key points stand out.'
+grammar: []

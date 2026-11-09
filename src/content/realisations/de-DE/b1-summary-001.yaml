@@ -1,0 +1,52 @@
+nodeId: B1-SUMMARY-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-B1-SUMMARY-001-001
+    concept: 'to-summarise'
+    term: 'zusammenfassen'
+    translation: 'to summarise'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Bitte fasse die wichtigsten Ergebnisse zusammen.'
+    exampleTranslation: 'Please summarise the main findings.'
+  - id: de-DE-B1-SUMMARY-001-002
+    concept: 'a-factual-source'
+    term: 'eine sachliche Quelle'
+    translation: 'a factual source'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Prüfe jede sachliche Quelle, bevor du schreibst.'
+    exampleTranslation: 'Check every factual source before writing.'
+  - id: de-DE-B1-SUMMARY-001-003
+    concept: 'to-collate-information'
+    term: 'Informationen zusammentragen'
+    translation: 'to collate information'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Trage Informationen aus mehreren Dokumenten zusammen.'
+    exampleTranslation: 'Collate information from several documents.'
+  - id: de-DE-B1-SUMMARY-001-004
+    concept: 'to-paraphrase'
+    term: 'paraphrasieren'
+    translation: 'to paraphrase'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Paraphrasiere den Abschnitt mit deinen eigenen Worten.'
+    exampleTranslation: 'Paraphrase the passage in your own words.'
+  - id: de-DE-B1-SUMMARY-001-005
+    concept: 'in-my-view'
+    term: 'meiner Ansicht nach'
+    translation: 'in my view'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Meiner Ansicht nach ist der Bericht überzeugend.'
+    exampleTranslation: 'In my view, the report is convincing.'
+  - id: de-DE-B1-SUMMARY-001-006
+    concept: 'to-draw-a-conclusion'
+    term: 'eine Schlussfolgerung ziehen'
+    translation: 'to draw a conclusion'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Der Aufsatz zieht eine klare Schlussfolgerung.'
+    exampleTranslation: 'The essay draws a clear conclusion.'
+grammar: []

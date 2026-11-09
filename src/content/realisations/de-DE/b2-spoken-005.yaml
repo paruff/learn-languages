@@ -1,0 +1,52 @@
+nodeId: B2-SPOKEN-005
+lang: de-DE
+vocabulary:
+  - id: de-DE-B2-SPOKEN-005-001
+    concept: 'to-depart-from-the-script'
+    term: 'vom Skript abweichen'
+    translation: 'to depart from the script'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Der Redner wich vom Skript ab, um eine Frage zu beantworten.'
+    exampleTranslation: 'The speaker departed from the script to address a question.'
+  - id: de-DE-B2-SPOKEN-005-002
+    concept: 'to-improvise'
+    term: 'improvisieren'
+    translation: 'to improvise'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Sie musste improvisieren, als das Publikum unerwartete Fragen stellte.'
+    exampleTranslation: 'She had to improvise when the audience asked unexpected questions.'
+  - id: de-DE-B2-SPOKEN-005-003
+    concept: 'to-follow-up-on-a-point'
+    term: 'einen Punkt aufgreifen'
+    translation: 'to follow up on a point'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Er griff den Punkt auf, den ein Zuhörer angesprochen hatte.'
+    exampleTranslation: 'He followed up on the point raised by a listener.'
+  - id: de-DE-B2-SPOKEN-005-004
+    concept: 'to-adapt-spontaneously'
+    term: 'sich spontan anpassen'
+    translation: 'to adapt spontaneously'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Der Vortragende passte sich spontan an die Reaktion des Publikums an.'
+    exampleTranslation: 'The presenter adapted spontaneously to the audience reaction.'
+  - id: de-DE-B2-SPOKEN-005-005
+    concept: 'to-engage-with-the-audience'
+    term: 'mit dem Publikum interagieren'
+    translation: 'to engage with the audience'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Gute Redner treten ganz natürlich mit ihrem Publikum in Kontakt.'
+    exampleTranslation: 'Good speakers engage with their audience naturally.'
+  - id: de-DE-B2-SPOKEN-005-006
+    concept: 'to-think-on-one-s-feet'
+    term: 'schlagfertig sein'
+    translation: "to think on one's feet"
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Man muss in Frage-und-Antwort-Runden schlagfertig sein.'
+    exampleTranslation: 'You need to think on your feet during Q&A sessions.'
+grammar: []

@@ -1,0 +1,52 @@
+nodeId: B1-MEDIA-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-B1-MEDIA-001-001
+    concept: 'a-news-bulletin'
+    term: 'eine Nachrichtensendung'
+    translation: 'a news bulletin'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich höre jeden Morgen die Nachrichtensendung.'
+    exampleTranslation: 'I listen to the news bulletin every morning.'
+  - id: de-DE-B1-MEDIA-001-002
+    concept: 'a-radio-broadcast'
+    term: 'eine Radiosendung'
+    translation: 'a radio broadcast'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Die Radiosendung berichtete über die Wahl.'
+    exampleTranslation: 'The radio broadcast covered the election.'
+  - id: de-DE-B1-MEDIA-001-003
+    concept: 'a-recorded-document'
+    term: 'ein aufgezeichnetes Dokument'
+    translation: 'a recorded document'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Das aufgezeichnete Dokument ist online verfügbar.'
+    exampleTranslation: 'The recorded document is available online.'
+  - id: de-DE-B1-MEDIA-001-004
+    concept: 'the-plot'
+    term: 'die Handlung'
+    translation: 'the plot'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich konnte der Handlung des Films leicht folgen.'
+    exampleTranslation: 'I followed the plot of the film easily.'
+  - id: de-DE-B1-MEDIA-001-005
+    concept: 'subtitles'
+    term: 'Untertitel'
+    translation: 'subtitles'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Ich schaue deutsche Filme mit Untertiteln.'
+    exampleTranslation: 'I watch German films with subtitles.'
+  - id: de-DE-B1-MEDIA-001-006
+    concept: 'a-slow-pace'
+    term: 'ein langsames Tempo'
+    translation: 'a slow pace'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich verstehe besser, wenn der Sprecher ein langsames Tempo wählt.'
+    exampleTranslation: 'I understand better when the speaker uses a slow pace.'
+grammar: []

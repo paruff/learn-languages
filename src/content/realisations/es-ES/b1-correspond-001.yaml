@@ -1,0 +1,52 @@
+nodeId: B1-CORRESPOND-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-B1-CORRESPOND-001-001
+    concept: 'a-personal-letter'
+    term: 'una carta personal'
+    translation: 'a personal letter'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ella escribe una carta personal cada mes.'
+    exampleTranslation: 'She writes a personal letter every month.'
+  - id: es-ES-B1-CORRESPOND-001-002
+    concept: 'a-pen-friend'
+    term: 'un amigo por correspondencia'
+    translation: 'a pen friend'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Tengo un amigo por correspondencia en Lyon.'
+    exampleTranslation: 'I have a pen friend in Lyon.'
+  - id: es-ES-B1-CORRESPOND-001-003
+    concept: 'to-keep-up-a-correspondence'
+    term: 'mantener correspondencia'
+    translation: 'to keep up a correspondence'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Mantuvieron correspondencia durante años.'
+    exampleTranslation: 'They kept up a correspondence for years.'
+  - id: es-ES-B1-CORRESPOND-001-004
+    concept: 'wishes'
+    term: 'deseos'
+    translation: 'wishes'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'La carta expresaba sus deseos para el futuro.'
+    exampleTranslation: 'The letter expressed her wishes for the future.'
+  - id: es-ES-B1-CORRESPOND-001-005
+    concept: 'to-give-news'
+    term: 'dar noticias'
+    translation: 'to give news'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Escribió para dar noticias después de la mudanza.'
+    exampleTranslation: 'He wrote to give news after the move.'
+  - id: es-ES-B1-CORRESPOND-001-006
+    concept: 'feelings'
+    term: 'sentimientos'
+    translation: 'feelings'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'El correo compartía sus sentimientos sobre el cambio.'
+    exampleTranslation: 'The e-mail shared her feelings about the change.'
+grammar: []

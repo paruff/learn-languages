@@ -15,6 +15,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · Versioning: 
 - Spec 1.6: scheduling transition table, a Risks and limits section (RK1–RK12), new requirements C12, C13, L33, S9–S11, Q10–Q12, and `docs/alternatives-considered.md`. Phase-1 protocol now has screening, consent, a day-7 follow-up and a decision rule.
 - Italian (it-IT) content now reaches A1–C2 parity with the shared concept set: the 10 missing A2 nodes, all 20 C2 nodes, and 125 missing C1 concepts, plus a full C2 review-session e2e test. The coverage baseline for it-IT drops to 0 gaps (#160, #166, #256).
 
+- de-DE and es-ES B1–B2 now cover every shared node: 19 missing nodes (17 at B1, 2 at B2) per language, six concept-keyed items each. The coverage baseline drops from 31 to 12 missing nodes for both languages. Native / PCIC review is still pending (#143, #185).
+
 ### Fixed
 
 - "Mastered" now means a card scheduled at least 21 days out (spec L9, intent SIG4), not two passes in a row (about 6 days). Mastery percentages on Progress, Lessons and the session summary will read lower than before.

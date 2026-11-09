@@ -1,0 +1,52 @@
+nodeId: B1-LISTEN-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-B1-LISTEN-001-001
+    concept: 'the-main-points'
+    term: 'die wichtigsten Punkte'
+    translation: 'the main points'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich habe nur die wichtigsten Punkte des Vortrags mitbekommen.'
+    exampleTranslation: 'I only caught the main points of the talk.'
+  - id: de-DE-B1-LISTEN-001-002
+    concept: 'a-general-message'
+    term: 'eine allgemeine Botschaft'
+    translation: 'a general message'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Die Durchsage enthielt eine allgemeine Botschaft zur Schließung.'
+    exampleTranslation: 'The announcement carried a general message about the closure.'
+  - id: de-DE-B1-LISTEN-001-003
+    concept: 'a-short-narrative'
+    term: 'eine kurze Erzählung'
+    translation: 'a short narrative'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Das Interview enthielt eine kurze Erzählung über den Krieg.'
+    exampleTranslation: 'The interview included a short narrative about the war.'
+  - id: de-DE-B1-LISTEN-001-004
+    concept: 'to-follow-a-discussion'
+    term: 'einer Diskussion folgen'
+    translation: 'to follow a discussion'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich kann einer Diskussion in Standarddeutsch folgen.'
+    exampleTranslation: 'I can follow a discussion in standard German.'
+  - id: de-DE-B1-LISTEN-001-005
+    concept: 'clearly-articulated'
+    term: 'deutlich artikuliert'
+    translation: 'clearly articulated'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Ich verstehe besser, wenn deutlich artikuliert gesprochen wird.'
+    exampleTranslation: 'I understand better when the speech is clearly articulated.'
+  - id: de-DE-B1-LISTEN-001-006
+    concept: 'at-work'
+    term: 'bei der Arbeit'
+    translation: 'at work'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich habe die wichtigsten Punkte der Besprechung bei der Arbeit verstanden.'
+    exampleTranslation: 'I understood the main points of the meeting at work.'
+grammar: []

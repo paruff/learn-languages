@@ -1,0 +1,52 @@
+nodeId: B1-EXCHANGE-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-B1-EXCHANGE-001-001
+    concept: 'to-check-the-information'
+    term: 'comprobar la información'
+    translation: 'to check the information'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Déjame comprobar la información antes de irme.'
+    exampleTranslation: 'Let me check the information before I leave.'
+  - id: es-ES-B1-EXCHANGE-001-002
+    concept: 'to-confirm'
+    term: 'confirmar'
+    translation: 'to confirm'
+    partOfSpeech: verb
+    gender: n/a
+    example: '¿Podría confirmar la dirección?'
+    exampleTranslation: 'Could you confirm the address?'
+  - id: es-ES-B1-EXCHANGE-001-003
+    concept: 'factual-information'
+    term: 'información objetiva'
+    translation: 'factual information'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Intercambiamos información objetiva sobre el retraso.'
+    exampleTranslation: 'We exchanged factual information about the delay.'
+  - id: es-ES-B1-EXCHANGE-001-004
+    concept: 'to-relay-a-message'
+    term: 'transmitir un mensaje'
+    translation: 'to relay a message'
+    partOfSpeech: phrase
+    gender: n/a
+    example: '¿Puedes transmitir un mensaje a tu jefe?'
+    exampleTranslation: 'Can you relay a message to your manager?'
+  - id: es-ES-B1-EXCHANGE-001-005
+    concept: 'to-make-sure'
+    term: 'asegurarse'
+    translation: 'to make sure'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Llamé para asegurarme de que la reserva se había hecho.'
+    exampleTranslation: 'I called to make sure the booking went through.'
+  - id: es-ES-B1-EXCHANGE-001-006
+    concept: 'to-obtain-details'
+    term: 'obtener detalles'
+    translation: 'to obtain details'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Llamó a la oficina para obtener detalles.'
+    exampleTranslation: 'She called the office to obtain details.'
+grammar: []

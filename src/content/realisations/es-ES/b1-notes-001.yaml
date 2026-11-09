@@ -1,0 +1,52 @@
+nodeId: B1-NOTES-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-B1-NOTES-001-001
+    concept: 'to-take-notes'
+    term: 'tomar apuntes'
+    translation: 'to take notes'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Tomé apuntes durante la conferencia.'
+    exampleTranslation: 'I took notes during the lecture.'
+  - id: es-ES-B1-NOTES-001-002
+    concept: 'a-list-of-key-points'
+    term: 'una lista de puntos clave'
+    translation: 'a list of key points'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Escribe una lista de puntos clave.'
+    exampleTranslation: 'Write a list of key points.'
+  - id: es-ES-B1-NOTES-001-003
+    concept: 'a-lecture'
+    term: 'conferencia'
+    translation: 'a lecture'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La conferencia fue clara y estaba bien estructurada.'
+    exampleTranslation: 'The lecture was clear and well structured.'
+  - id: es-ES-B1-NOTES-001-004
+    concept: 'to-reuse-later'
+    term: 'reutilizar más tarde'
+    translation: 'to reuse later'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Reutilizaré estos apuntes en mi ensayo.'
+    exampleTranslation: 'I will reuse these notes in my essay.'
+  - id: es-ES-B1-NOTES-001-005
+    concept: 'a-seminar'
+    term: 'seminario'
+    translation: 'a seminar'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'El seminario se centró en la política climática.'
+    exampleTranslation: 'The seminar focused on climate policy.'
+  - id: es-ES-B1-NOTES-001-006
+    concept: 'a-familiar-topic'
+    term: 'un tema conocido'
+    translation: 'a familiar topic'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Tomo mejores apuntes sobre un tema conocido.'
+    exampleTranslation: 'I take better notes on a familiar topic.'
+grammar: []
