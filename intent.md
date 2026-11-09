@@ -24,46 +24,48 @@ Existing options make trade-offs: Duolingo is gamified, Babbel needs a backend a
 | **Credential-Seeker Chloe** | Progress mapped to CEFR Can-Do statements that she can show someone  |
 | **Pronunciation Pedro**     | The right regional voice (pt-PT, not pt-BR; es-ES, not es-MX)        |
 
+**Known limit (Chloe):** "show someone" today means the learner-made session report (spec M1) or JSON backup (spec S5). Both are self-reported and a third party cannot verify them. Acquira does not meet a need for verifiable proof (see the certification non-goal below).
+
 ## 3. Desired outcome
 
 > **A learner who opens Acquira for 10 minutes measurably remembers more of a CEFR-mapped language than they would have from re-reading, and comes back the next day without being nagged, and over weeks can _demonstrate_ the CEFR Can-Do statements they studied.**
 
-Success is measured at three levels: _behaviour_ (they return), _memory_ (they retain what they studied) and _ability_ (they can do the Can-Do on items they have not seen). The first half is the learning mechanism (spec §2). The second half (_comes back_) is the **biggest unvalidated risk** (discovery-brief R3) and the main thing this repo has to prove next.
+Success is measured at three levels: _behaviour_ (they return), _memory_ (they retain what they studied) and _ability_ (they can do the Can-Do on items they have not seen). Memory is the learning mechanism (spec §2). Behaviour (_comes back_) is the **biggest unvalidated risk** (discovery-brief §6, R3) and the main thing this repo has to prove next. Ability is measured last (SIG8).
 
 ## 4. Success signals
 
-Ordered by how soon we can observe them. Earlier signals gate later investment.
+Ordered by how soon we can observe them. Earlier signals gate later investment. Cite them as `intent SIG<n>`; `spec.md` has its own S1–S8. Current status is on the board and in `spec.md`, not here.
 
-| #   | Signal                                                                                                                                        | Status (2026-10-04)                                                              |
-| --- | --------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| S1  | 3–5 persona-matched first-time learners finish session 1 without help                                                                         | **Not yet measured**: 1 informal owner run (#21)                                 |
-| S2  | Some of them return on day 2 without a reminder                                                                                               | **Not yet measured**                                                             |
-| S3  | 40% week-2 return rate                                                                                                                        | Needs real users and opt-in measurement                                          |
-| S4  | 60% of A1 vocab reviewed reaches an SRS interval of more than 21 days                                                                         | Needs real users                                                                 |
-| S5  | Lighthouse Performance ≥95 and Accessibility 100 on every page                                                                                | Enforced in CI                                                                   |
-| S6  | Delayed recall: of reviews made at least 7 days after a card's previous review, the share graded Good/Easy rises over a learner's first month | Built (spec M2); needs real users                                                |
-| S7  | First-run success: a stranger on a phone reaches a graded card in under 2 minutes with no help; zero wrong-pair or lost-orientation reports   | Spec Q9; first outside feedback found two such defects (2026-10-22), being fixed |
-| S8  | Ability: a learner passes an unseen-item checkpoint at least 7 days after study and self-rates "I can do this"                                | Deferred until round-one feedback (spec L20)                                     |
+| ID   | Signal                                                                                                                                        |
+| ---- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| SIG1 | 3–5 persona-matched first-time learners finish session 1 without help                                                                         |
+| SIG2 | Some of them return on day 2 without a reminder                                                                                               |
+| SIG3 | 40% week-2 return rate                                                                                                                        |
+| SIG4 | 60% of A1 vocab reviewed reaches an SRS interval of at least 21 days                                                                          |
+| SIG5 | Lighthouse Performance ≥95 and Accessibility 100 on every page                                                                                |
+| SIG6 | Delayed recall: of reviews made at least 7 days after a card's previous review, the share graded Good/Easy rises over a learner's first month |
+| SIG7 | First-run success: a stranger on a phone reaches a graded card in under 2 minutes with no help; zero wrong-pair or lost-orientation reports   |
+| SIG8 | Ability: a learner passes an unseen-item checkpoint at least 7 days after study and self-rates "I can do this"                                |
 
 ## 5. Principles (decide ties with these)
 
-1. **Learning mechanism over decoration.** A feature must strengthen retrieval, spacing, interleaving, generation, calibration, or dual coding, or remove friction from them. Otherwise it is polish, and polish waits. (AGENTS.md §1.0; evidence base and source tiers: `docs/learning-science-references.md`)
-2. **Evidence before investment.** Don't build more content or UI on a loop no learner has validated. Content volume is the cheapest thing to add later.
-3. **Zero surveillance.** No accounts, cookies, PII, or third-party scripts. State lives in `localStorage` only. Any measurement is opt-in, anonymous, and self-hosted.
-4. **Language-agnostic core.** CEFR nodes are abstract. Languages are realisations joined by `nodeId`. No code path names a specific language.
-5. **Static and free to run.** GitHub Pages, no backend, no running costs.
-6. **Human-reviewed content.** AI may draft content, but nothing ships without verification against an authoritative CEFR source (Referencial Camões, PCIC, Profile Deutsch, Référentiel FLE).
+- **P1. Learning mechanism over decoration.** A feature must strengthen retrieval, spacing, interleaving, generation, calibration, or dual coding, or remove friction from them. Otherwise it is polish, and polish waits. (AGENTS.md §1.0; evidence base and source tiers: `docs/learning-science-references.md`)
+- **P2. Evidence before investment.** Don't build more content or UI on a loop no learner has validated. Content volume is the cheapest thing to add later.
+- **P3. Zero surveillance.** No accounts, cookies, PII, or third-party scripts. State lives in `localStorage` only. Any measurement is opt-in, anonymous, and self-hosted.
+- **P4. Language-agnostic core.** CEFR nodes are abstract. Languages are realisations joined by `nodeId`. No code path names a specific language.
+- **P5. Static and free to run.** GitHub Pages, no backend, no running costs.
+- **P6. Human-reviewed content.** AI may draft content, but nothing ships without verification against an authoritative CEFR source (Referencial Camões, PCIC, Profile Deutsch, Référentiel FLE).
 
 ## 6. Non-goals
 
-| Non-goal                                     | Why                                                                          |
-| -------------------------------------------- | ---------------------------------------------------------------------------- |
-| Accounts, cloud sync, multi-device state     | Breaks principle 3. Revisit only if retention is proven and users ask for it |
-| Formal CEFR certification or assessment      | We map to CEFR; we don't certify against it                                  |
-| Native mobile apps                           | The web plus offline support covers the persona needs                        |
-| Live tutoring or social features             | Out of scope for a static product                                            |
-| Gamification: streaks, XP, leaderboards, ads | Directly contradicts the problem statement                                   |
-| Unreviewed AI-generated content              | Principle 6                                                                  |
+| Non-goal                                     | Why                                                                 |
+| -------------------------------------------- | ------------------------------------------------------------------- |
+| Accounts, cloud sync, multi-device state     | Breaks P3. Revisit only if retention is proven and users ask for it |
+| Formal CEFR certification or assessment      | We map to CEFR; we don't certify against it                         |
+| Native mobile apps                           | The web plus offline support covers the persona needs               |
+| Live tutoring or social features             | Out of scope for a static product                                   |
+| Gamification: streaks, XP, leaderboards, ads | Directly contradicts the problem statement                          |
+| Unreviewed AI-generated content              | P6                                                                  |
 
 ## 7. Constraints
 
