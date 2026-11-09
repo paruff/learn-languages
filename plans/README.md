@@ -16,7 +16,7 @@ Each is a GitHub issue labelled `question`, assigned to the owner, in _Needs hum
 
 - Engineering is ahead of evidence: the review loop, SRS, interleaving, typed recall, calibration, exercises, multi-language pairing and tester-readiness fixes are shipped and tested (spec §2 and §4, almost all ✅).
 - Content runs A1–C2 across all six languages, but not evenly: of 154 nodes, en-GB, fr-FR and it-IT have all 154 realisations, pt-PT has 124 (the gap is mostly B1), and es-ES and de-DE have 123. That happened ahead of the learner gate; it's kept, but no more is added until G1 says the loop works (except owner exceptions below).
-- **The gating risk is unchanged:** no persona-matched learner has been observed yet (intent SIG1, SIG2). The owner's own attempt to learn Portuguese got lost quickly, so the learner journey (#194) comes first.
+- **The gating risk is unchanged:** no persona-matched learner has been observed yet (intent SIG1, SIG2). The owner's own attempt to learn Portuguese got lost quickly; the learner-journey audit (#194) is closed and its plan archived, and row 1.1 tests the result.
 - **Evidence review (2026-10-23, [`docs/research/2026-10-23-sla-evidence-review-and-product-audit.md`](../docs/research/2026-10-23-sla-evidence-review-and-product-audit.md)):** the loop applies the strongest learning-science findings well, but only to single words. Of Nation's four strands, Acquira covers language-focused learning and almost none of meaning-focused input, output or fluency. The new rows below come from that review; D.3 was fixed in #242.
 
 ## G1 Prove learners succeed (Phase 1) — **now**
@@ -78,8 +78,7 @@ Owner decision 2026-10-22: Italian (row 3.1) continues now as an exception to ru
 
 ## G5 Delivery and quality — **any time, small**
 
-| #   | Work | Spec | Issue | Exit criterion |
-| --- | ---- | ---- | ----- | -------------- |
+No open rows. Add one here, with an issue and the G5 milestone, when small delivery or quality work appears.
 
 ## Known platform limitations
 
@@ -109,6 +108,6 @@ What a static, serverless, zero-surveillance site (intent P3, P5) can't do, what
 
 ## Archive
 
-[`plans/archive/`](archive/) holds finished detail plans and designs (A1–C1 Portuguese, French A1–B1, the 2026-10-22 UX audit). Also `2026-10-24-lean-agents-md.md`. Their checkboxes were never ticked; the work is done and merged, so read them as history, not as to-do lists.
+[`plans/archive/`](archive/) holds finished detail plans and designs (A1–C1 Portuguese, French A1–B1, the 2026-10-22 UX audit and learner-journey audit, and `2026-10-24-lean-agents-md.md`). Their checkboxes were never ticked; the work is done and merged, so read them as history, not as to-do lists.
 
 Research records (evidence reviews, with how they were verified and how objective they are) live permanently in [`docs/research/`](../docs/research/), not in the archive. Sources and their verification log: [`docs/learning-science-references.md`](../docs/learning-science-references.md).

@@ -71,5 +71,5 @@ Source: `egm-review/critic_report.md` (Stage 7) and the Stage 9 report. Spec 1.6
 | IR-M1–M3, M5, M6 | Done in the plans rewrite (order, severity scale, reviewer artifacts, exit criteria). Rows 3.5, 3.6 and 3.9 now have testable exit criteria                |
 | IR-M7            | Done: per-language coverage claim corrected                                                                                                                |
 | IR-M8, M10       | Done: rows 2.6 and 2.13 reworded. The per-file 100% threshold is part of row 2.13's exit                                                                   |
-| IR-M9            | Open: no row for the learner-journey plan #194; check whether it is done and archive it                                                                    |
+| IR-M9            | Done: #194 is closed and its plan is already in `plans/archive/`; README now says so                                                                       |
 | IR-M11           | Done                                                                                                                                                       |
