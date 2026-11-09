@@ -28,6 +28,33 @@ test.describe('review session', () => {
     await expect(notice.getByRole('link')).toHaveAttribute('href', /progress\/#backup$/);
   });
 
+  test('two tabs grading the same card both count (S10)', async ({ page, context }) => {
+    const other = await context.newPage();
+    await other.goto(REVIEW_URL);
+    const grade = async (p: typeof page) => {
+      await p.locator('#review-reveal').click();
+      await p.locator('#review-grades button[data-quality="3"]').click();
+    };
+    // Both tabs loaded the same first card before either graded it.
+    await grade(page);
+    await grade(other);
+    const reps = await page.evaluate(() => {
+      const key = Object.keys(window.localStorage).find((k) => k.startsWith('srs:en-GB:pt-PT:'))!;
+      return JSON.parse(window.localStorage.getItem(key)!).repetitions;
+    });
+    expect(reps).toBe(2);
+  });
+
+  test('network voices are opt-in and the choice persists (Q10)', async ({ page }) => {
+    const box = page.locator('#review-tts-network');
+    await page.locator('#review-reveal').click();
+    await expect(box).not.toBeChecked();
+    await box.check();
+    await page.reload();
+    await page.locator('#review-reveal').click();
+    await expect(box).toBeChecked();
+  });
+
   test('reveal shows the answer and grading persists SRS state', async ({ page }) => {
     const progress = page.locator('#review-progress');
     const front = page.locator('#review-front');
