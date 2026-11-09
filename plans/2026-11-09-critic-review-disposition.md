@@ -68,7 +68,7 @@ Source: `egm-review/critic_report.md` (Stage 7) and the Stage 9 report. Spec 1.6
 | IR-B1, B2, B3    | Done: G1 rows 1.1–1.4 and the protocol (day-7 window, report channel, consent, home-page start, decision rule). Protocol now points to #21 and #266        |
 | IR-B4            | Done: row 1.5 is the S8 device run; P-1 updated                                                                                                            |
 | IR-B5            | Done: `report:coverage` now lists missing nodes and exits 1 on any gap. Today de-DE and es-ES each miss 2 B2 nodes and 17 B1 nodes; D.1 and D.2 state that |
-| IR-M1–M3, M5, M6 | Done in the plans rewrite (order, severity scale, reviewer artifacts, exit criteria). Still vague by choice: row 3.5 and 3.6                               |
+| IR-M1–M3, M5, M6 | Done in the plans rewrite (order, severity scale, reviewer artifacts, exit criteria). Rows 3.5, 3.6 and 3.9 now have testable exit criteria                |
 | IR-M7            | Done: per-language coverage claim corrected                                                                                                                |
 | IR-M8, M10       | Done: rows 2.6 and 2.13 reworded. The per-file 100% threshold is part of row 2.13's exit                                                                   |
 | IR-M9            | Open: no row for the learner-journey plan #194; check whether it is done and archive it                                                                    |
