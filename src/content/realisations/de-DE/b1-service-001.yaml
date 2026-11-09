@@ -1,0 +1,52 @@
+nodeId: B1-SERVICE-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-B1-SERVICE-001-001
+    concept: 'a-defective-item'
+    term: 'ein defekter Artikel'
+    translation: 'a defective item'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich möchte einen defekten Artikel zurückgeben.'
+    exampleTranslation: 'I would like to return a defective item.'
+  - id: de-DE-B1-SERVICE-001-002
+    concept: 'to-make-a-complaint'
+    term: 'eine Beschwerde einreichen'
+    translation: 'to make a complaint'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Sie reichte eine Beschwerde über den Service ein.'
+    exampleTranslation: 'She made a complaint about the service.'
+  - id: de-DE-B1-SERVICE-001-003
+    concept: 'a-refund'
+    term: 'Rückerstattung'
+    translation: 'a refund'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Sie boten mir eine Rückerstattung an.'
+    exampleTranslation: 'They offered me a refund.'
+  - id: de-DE-B1-SERVICE-001-004
+    concept: 'the-post-office'
+    term: 'die Postfiliale'
+    translation: 'the post office'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Das Paket liegt in der Postfiliale.'
+    exampleTranslation: 'The parcel is at the post office.'
+  - id: de-DE-B1-SERVICE-001-005
+    concept: 'a-bank-branch'
+    term: 'eine Bankfiliale'
+    translation: 'a bank branch'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Die nächste Bankfiliale schließt um sechs.'
+    exampleTranslation: 'The nearest bank branch closes at six.'
+  - id: de-DE-B1-SERVICE-001-006
+    concept: 'to-sort-it-out'
+    term: 'es klären'
+    translation: 'to sort it out'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich konnte es am Schalter klären.'
+    exampleTranslation: 'I managed to sort it out at the counter.'
+grammar: []

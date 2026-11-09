@@ -1,0 +1,52 @@
+nodeId: B1-CORRESPOND-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-B1-CORRESPOND-001-001
+    concept: 'a-personal-letter'
+    term: 'ein persönlicher Brief'
+    translation: 'a personal letter'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Sie schreibt jeden Monat einen persönlichen Brief.'
+    exampleTranslation: 'She writes a personal letter every month.'
+  - id: de-DE-B1-CORRESPOND-001-002
+    concept: 'a-pen-friend'
+    term: 'ein Brieffreund'
+    translation: 'a pen friend'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich habe einen Brieffreund in Lyon.'
+    exampleTranslation: 'I have a pen friend in Lyon.'
+  - id: de-DE-B1-CORRESPOND-001-003
+    concept: 'to-keep-up-a-correspondence'
+    term: 'Briefkontakt halten'
+    translation: 'to keep up a correspondence'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Sie hielten jahrelang Briefkontakt.'
+    exampleTranslation: 'They kept up a correspondence for years.'
+  - id: de-DE-B1-CORRESPOND-001-004
+    concept: 'wishes'
+    term: 'Wünsche'
+    translation: 'wishes'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Der Brief drückte ihre Wünsche für die Zukunft aus.'
+    exampleTranslation: 'The letter expressed her wishes for the future.'
+  - id: de-DE-B1-CORRESPOND-001-005
+    concept: 'to-give-news'
+    term: 'Neuigkeiten mitteilen'
+    translation: 'to give news'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Er schrieb, um nach dem Umzug Neuigkeiten mitzuteilen.'
+    exampleTranslation: 'He wrote to give news after the move.'
+  - id: de-DE-B1-CORRESPOND-001-006
+    concept: 'feelings'
+    term: 'Gefühle'
+    translation: 'feelings'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Die E-Mail teilte ihre Gefühle zu der Veränderung mit.'
+    exampleTranslation: 'The e-mail shared her feelings about the change.'
+grammar: []

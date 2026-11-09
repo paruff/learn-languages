@@ -1,0 +1,52 @@
+nodeId: B1-CLARIFY-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-B1-CLARIFY-001-001
+    concept: 'to-ask-for-clarification'
+    term: 'um eine Klarstellung bitten'
+    translation: 'to ask for clarification'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Könnte ich um eine Klarstellung zu diesem Punkt bitten?'
+    exampleTranslation: 'Could I ask for clarification on that point?'
+  - id: de-DE-B1-CLARIFY-001-002
+    concept: 'to-repeat'
+    term: 'wiederholen'
+    translation: 'to repeat'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Könnten Sie das langsamer wiederholen?'
+    exampleTranslation: 'Could you repeat that more slowly?'
+  - id: de-DE-B1-CLARIFY-001-003
+    concept: 'to-rephrase'
+    term: 'umformulieren'
+    translation: 'to rephrase'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Lassen Sie mich umformulieren, was Sie gesagt haben.'
+    exampleTranslation: 'Let me rephrase what you said.'
+  - id: de-DE-B1-CLARIFY-001-004
+    concept: 'to-check-understanding'
+    term: 'das Verständnis prüfen'
+    translation: 'to check understanding'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich habe die Frage umformuliert, um das Verständnis zu prüfen.'
+    exampleTranslation: 'I rephrased the question to check understanding.'
+  - id: de-DE-B1-CLARIFY-001-005
+    concept: 'to-develop-an-idea'
+    term: 'einen Gedanken ausführen'
+    translation: 'to develop an idea'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Könnten Sie diesen Gedanken etwas ausführen?'
+    exampleTranslation: 'Could you develop that idea a little?'
+  - id: de-DE-B1-CLARIFY-001-006
+    concept: 'i-do-not-follow'
+    term: 'Ich kann nicht folgen'
+    translation: 'I do not follow'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Entschuldigung, ich kann Ihrem letzten Punkt nicht folgen.'
+    exampleTranslation: 'Sorry, I do not follow your last point.'
+grammar: []

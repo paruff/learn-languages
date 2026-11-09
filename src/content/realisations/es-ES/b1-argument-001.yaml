@@ -1,0 +1,52 @@
+nodeId: B1-ARGUMENT-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-B1-ARGUMENT-001-001
+    concept: 'an-argumentative-text'
+    term: 'un texto argumentativo'
+    translation: 'an argumentative text'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'El artículo es un texto argumentativo breve.'
+    exampleTranslation: 'The article is a short argumentative text.'
+  - id: es-ES-B1-ARGUMENT-001-002
+    concept: 'the-main-conclusion'
+    term: 'la conclusión principal'
+    translation: 'the main conclusion'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Identifica la conclusión principal del editorial.'
+    exampleTranslation: 'Identify the main conclusion of the editorial.'
+  - id: es-ES-B1-ARGUMENT-001-003
+    concept: 'the-line-of-argument'
+    term: 'la línea argumental'
+    translation: 'the line of argument'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Reconoce la línea argumental antes de leer en detalle.'
+    exampleTranslation: 'Recognise the line of argument before reading in detail.'
+  - id: es-ES-B1-ARGUMENT-001-004
+    concept: 'to-put-forward-a-point'
+    term: 'plantear un argumento'
+    translation: 'to put forward a point'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'El autor plantea un argumento sólido.'
+    exampleTranslation: 'The author puts forward a strong point.'
+  - id: es-ES-B1-ARGUMENT-001-005
+    concept: 'a-counterargument'
+    term: 'contraargumento'
+    translation: 'a counterargument'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'El texto presenta un contraargumento al final.'
+    exampleTranslation: 'The text presents a counterargument at the end.'
+  - id: es-ES-B1-ARGUMENT-001-006
+    concept: 'to-be-convinced'
+    term: 'estar convencido'
+    translation: 'to be convinced'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Quedé convencido por el último párrafo.'
+    exampleTranslation: 'I was convinced by the final paragraph.'
+grammar: []

@@ -1,0 +1,52 @@
+nodeId: B1-DESCRIBE-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-B1-DESCRIBE-001-001
+    concept: 'to-describe'
+    term: 'describir'
+    translation: 'to describe'
+    partOfSpeech: verb
+    gender: n/a
+    example: '¿Puedes describir tus últimas vacaciones?'
+    exampleTranslation: 'Can you describe your last holiday?'
+  - id: es-ES-B1-DESCRIBE-001-002
+    concept: 'point-by-point'
+    term: 'punto por punto'
+    translation: 'point by point'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Presentó su argumento punto por punto.'
+    exampleTranslation: 'She presented her argument point by point.'
+  - id: es-ES-B1-DESCRIBE-001-003
+    concept: 'straightforward'
+    term: 'sencillo'
+    translation: 'straightforward'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'La descripción es sencilla y fácil de seguir.'
+    exampleTranslation: 'The description is straightforward and easy to follow.'
+  - id: es-ES-B1-DESCRIBE-001-004
+    concept: 'a-range-of-subjects'
+    term: 'una variedad de temas'
+    translation: 'a range of subjects'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Puede hablar de una variedad de temas.'
+    exampleTranslation: 'He can talk about a range of subjects.'
+  - id: es-ES-B1-DESCRIBE-001-005
+    concept: 'to-present'
+    term: 'presentar'
+    translation: 'to present'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Primero presentaré los hechos principales.'
+    exampleTranslation: 'First I will present the main facts.'
+  - id: es-ES-B1-DESCRIBE-001-006
+    concept: 'in-simple-terms'
+    term: 'en términos sencillos'
+    translation: 'in simple terms'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Explica el proceso en términos sencillos.'
+    exampleTranslation: 'Explain the process in simple terms.'
+grammar: []

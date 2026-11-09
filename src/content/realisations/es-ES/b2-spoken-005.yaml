@@ -1,0 +1,52 @@
+nodeId: B2-SPOKEN-005
+lang: es-ES
+vocabulary:
+  - id: es-ES-B2-SPOKEN-005-001
+    concept: 'to-depart-from-the-script'
+    term: 'salirse del guion'
+    translation: 'to depart from the script'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'El orador se salió del guion para atender una pregunta.'
+    exampleTranslation: 'The speaker departed from the script to address a question.'
+  - id: es-ES-B2-SPOKEN-005-002
+    concept: 'to-improvise'
+    term: 'improvisar'
+    translation: 'to improvise'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Tuvo que improvisar cuando el público hizo preguntas inesperadas.'
+    exampleTranslation: 'She had to improvise when the audience asked unexpected questions.'
+  - id: es-ES-B2-SPOKEN-005-003
+    concept: 'to-follow-up-on-a-point'
+    term: 'retomar un punto'
+    translation: 'to follow up on a point'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Retomó el punto planteado por un oyente.'
+    exampleTranslation: 'He followed up on the point raised by a listener.'
+  - id: es-ES-B2-SPOKEN-005-004
+    concept: 'to-adapt-spontaneously'
+    term: 'adaptarse de forma espontánea'
+    translation: 'to adapt spontaneously'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'El presentador se adaptó de forma espontánea a la reacción del público.'
+    exampleTranslation: 'The presenter adapted spontaneously to the audience reaction.'
+  - id: es-ES-B2-SPOKEN-005-005
+    concept: 'to-engage-with-the-audience'
+    term: 'interactuar con el público'
+    translation: 'to engage with the audience'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Los buenos oradores interactúan con su público de forma natural.'
+    exampleTranslation: 'Good speakers engage with their audience naturally.'
+  - id: es-ES-B2-SPOKEN-005-006
+    concept: 'to-think-on-one-s-feet'
+    term: 'saber reaccionar sobre la marcha'
+    translation: "to think on one's feet"
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Hay que saber reaccionar sobre la marcha en los turnos de preguntas.'
+    exampleTranslation: 'You need to think on your feet during Q&A sessions.'
+grammar: []

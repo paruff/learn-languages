@@ -1,0 +1,52 @@
+nodeId: B1-NOTES-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-B1-NOTES-001-001
+    concept: 'to-take-notes'
+    term: 'Notizen machen'
+    translation: 'to take notes'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich habe während der Vorlesung Notizen gemacht.'
+    exampleTranslation: 'I took notes during the lecture.'
+  - id: de-DE-B1-NOTES-001-002
+    concept: 'a-list-of-key-points'
+    term: 'eine Liste der Kernpunkte'
+    translation: 'a list of key points'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Schreibe eine Liste der Kernpunkte.'
+    exampleTranslation: 'Write a list of key points.'
+  - id: de-DE-B1-NOTES-001-003
+    concept: 'a-lecture'
+    term: 'Vorlesung'
+    translation: 'a lecture'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Die Vorlesung war klar und gut strukturiert.'
+    exampleTranslation: 'The lecture was clear and well structured.'
+  - id: de-DE-B1-NOTES-001-004
+    concept: 'to-reuse-later'
+    term: 'später wiederverwenden'
+    translation: 'to reuse later'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich werde diese Notizen später in meinem Aufsatz wiederverwenden.'
+    exampleTranslation: 'I will reuse these notes in my essay.'
+  - id: de-DE-B1-NOTES-001-005
+    concept: 'a-seminar'
+    term: 'Seminar'
+    translation: 'a seminar'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Das Seminar konzentrierte sich auf die Klimapolitik.'
+    exampleTranslation: 'The seminar focused on climate policy.'
+  - id: de-DE-B1-NOTES-001-006
+    concept: 'a-familiar-topic'
+    term: 'ein vertrautes Thema'
+    translation: 'a familiar topic'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Zu einem vertrauten Thema mache ich bessere Notizen.'
+    exampleTranslation: 'I take better notes on a familiar topic.'
+grammar: []

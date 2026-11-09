@@ -1,0 +1,52 @@
+nodeId: B1-SERVICE-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-B1-SERVICE-001-001
+    concept: 'a-defective-item'
+    term: 'un artículo defectuoso'
+    translation: 'a defective item'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Quisiera devolver un artículo defectuoso.'
+    exampleTranslation: 'I would like to return a defective item.'
+  - id: es-ES-B1-SERVICE-001-002
+    concept: 'to-make-a-complaint'
+    term: 'presentar una queja'
+    translation: 'to make a complaint'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Presentó una queja sobre el servicio.'
+    exampleTranslation: 'She made a complaint about the service.'
+  - id: es-ES-B1-SERVICE-001-003
+    concept: 'a-refund'
+    term: 'reembolso'
+    translation: 'a refund'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'Me ofrecieron un reembolso.'
+    exampleTranslation: 'They offered me a refund.'
+  - id: es-ES-B1-SERVICE-001-004
+    concept: 'the-post-office'
+    term: 'la oficina de correos'
+    translation: 'the post office'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'El paquete está en la oficina de correos.'
+    exampleTranslation: 'The parcel is at the post office.'
+  - id: es-ES-B1-SERVICE-001-005
+    concept: 'a-bank-branch'
+    term: 'una sucursal bancaria'
+    translation: 'a bank branch'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'La sucursal bancaria más cercana cierra a las seis.'
+    exampleTranslation: 'The nearest bank branch closes at six.'
+  - id: es-ES-B1-SERVICE-001-006
+    concept: 'to-sort-it-out'
+    term: 'solucionarlo'
+    translation: 'to sort it out'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Conseguí solucionarlo en la ventanilla.'
+    exampleTranslation: 'I managed to sort it out at the counter.'
+grammar: []

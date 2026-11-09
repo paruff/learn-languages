@@ -2,11 +2,11 @@
   "languages": {
     "de-DE": {
       "missingConcepts": 98,
-      "missingNodes": 31
+      "missingNodes": 12
     },
     "es-ES": {
       "missingConcepts": 144,
-      "missingNodes": 31
+      "missingNodes": 12
     },
     "fr-FR": {
       "missingConcepts": 125,

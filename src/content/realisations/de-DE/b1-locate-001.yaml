@@ -1,0 +1,52 @@
+nodeId: B1-LOCATE-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-B1-LOCATE-001-001
+    concept: 'to-scan-a-text'
+    term: 'einen Text überfliegen'
+    translation: 'to scan a text'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Überfliege den Text, um die Öffnungszeiten zu finden.'
+    exampleTranslation: 'Scan the text to find the opening hours.'
+  - id: de-DE-B1-LOCATE-001-002
+    concept: 'to-locate-information'
+    term: 'Informationen finden'
+    translation: 'to locate information'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Finde die benötigten Informationen in der Broschüre.'
+    exampleTranslation: 'Locate the information you need in the brochure.'
+  - id: de-DE-B1-LOCATE-001-003
+    concept: 'a-specific-task'
+    term: 'eine bestimmte Aufgabe'
+    translation: 'a specific task'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Sammle die Zahlen für eine bestimmte Aufgabe.'
+    exampleTranslation: 'Gather the figures for a specific task.'
+  - id: de-DE-B1-LOCATE-001-004
+    concept: 'an-official-document'
+    term: 'ein amtliches Dokument'
+    translation: 'an official document'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Das Formular ist ein amtliches Dokument.'
+    exampleTranslation: 'The form is an official document.'
+  - id: de-DE-B1-LOCATE-001-005
+    concept: 'a-leaflet'
+    term: 'Faltblatt'
+    translation: 'a leaflet'
+    partOfSpeech: noun
+    gender: neuter
+    example: 'Das Faltblatt führt die Öffnungszeiten auf.'
+    exampleTranslation: 'The leaflet lists the opening times.'
+  - id: de-DE-B1-LOCATE-001-006
+    concept: 'relevant-information'
+    term: 'relevante Informationen'
+    translation: 'relevant information'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Finde die relevanten Informationen auf Seite zwei.'
+    exampleTranslation: 'Find the relevant information on page two.'
+grammar: []

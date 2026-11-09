@@ -1,0 +1,52 @@
+nodeId: B1-SUMMARY-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-B1-SUMMARY-001-001
+    concept: 'to-summarise'
+    term: 'resumir'
+    translation: 'to summarise'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Resume los principales resultados, por favor.'
+    exampleTranslation: 'Please summarise the main findings.'
+  - id: es-ES-B1-SUMMARY-001-002
+    concept: 'a-factual-source'
+    term: 'una fuente de datos'
+    translation: 'a factual source'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Comprueba cada fuente de datos antes de escribir.'
+    exampleTranslation: 'Check every factual source before writing.'
+  - id: es-ES-B1-SUMMARY-001-003
+    concept: 'to-collate-information'
+    term: 'recopilar información'
+    translation: 'to collate information'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Recopila información de varios documentos.'
+    exampleTranslation: 'Collate information from several documents.'
+  - id: es-ES-B1-SUMMARY-001-004
+    concept: 'to-paraphrase'
+    term: 'parafrasear'
+    translation: 'to paraphrase'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Parafrasea el pasaje con tus propias palabras.'
+    exampleTranslation: 'Paraphrase the passage in your own words.'
+  - id: es-ES-B1-SUMMARY-001-005
+    concept: 'in-my-view'
+    term: 'en mi opinión'
+    translation: 'in my view'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'En mi opinión, el informe es convincente.'
+    exampleTranslation: 'In my view, the report is convincing.'
+  - id: es-ES-B1-SUMMARY-001-006
+    concept: 'to-draw-a-conclusion'
+    term: 'sacar una conclusión'
+    translation: 'to draw a conclusion'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'El ensayo saca una conclusión clara.'
+    exampleTranslation: 'The essay draws a clear conclusion.'
+grammar: []

@@ -1,0 +1,52 @@
+nodeId: B1-EXCHANGE-001
+lang: de-DE
+vocabulary:
+  - id: de-DE-B1-EXCHANGE-001-001
+    concept: 'to-check-the-information'
+    term: 'die Informationen überprüfen'
+    translation: 'to check the information'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Lass mich die Informationen überprüfen, bevor ich gehe.'
+    exampleTranslation: 'Let me check the information before I leave.'
+  - id: de-DE-B1-EXCHANGE-001-002
+    concept: 'to-confirm'
+    term: 'bestätigen'
+    translation: 'to confirm'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Könnten Sie die Adresse bestätigen?'
+    exampleTranslation: 'Could you confirm the address?'
+  - id: de-DE-B1-EXCHANGE-001-003
+    concept: 'factual-information'
+    term: 'sachliche Informationen'
+    translation: 'factual information'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Wir tauschten sachliche Informationen über die Verspätung aus.'
+    exampleTranslation: 'We exchanged factual information about the delay.'
+  - id: de-DE-B1-EXCHANGE-001-004
+    concept: 'to-relay-a-message'
+    term: 'eine Nachricht weitergeben'
+    translation: 'to relay a message'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Kannst du deinem Chef eine Nachricht weitergeben?'
+    exampleTranslation: 'Can you relay a message to your manager?'
+  - id: de-DE-B1-EXCHANGE-001-005
+    concept: 'to-make-sure'
+    term: 'sich vergewissern'
+    translation: 'to make sure'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich rief an, um mich zu vergewissern, dass die Buchung geklappt hat.'
+    exampleTranslation: 'I called to make sure the booking went through.'
+  - id: de-DE-B1-EXCHANGE-001-006
+    concept: 'to-obtain-details'
+    term: 'Einzelheiten erfragen'
+    translation: 'to obtain details'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Sie rief im Büro an, um Einzelheiten zu erfragen.'
+    exampleTranslation: 'She called the office to obtain details.'
+grammar: []

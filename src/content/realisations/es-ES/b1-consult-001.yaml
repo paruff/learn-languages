@@ -1,0 +1,52 @@
+nodeId: B1-CONSULT-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-B1-CONSULT-001-001
+    concept: 'to-describe-symptoms'
+    term: 'describir los síntomas'
+    translation: 'to describe symptoms'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Describa sus síntomas al médico.'
+    exampleTranslation: 'Describe your symptoms to the doctor.'
+  - id: es-ES-B1-CONSULT-001-002
+    concept: 'a-consultation'
+    term: 'consulta'
+    translation: 'a consultation'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La consulta duró veinte minutos.'
+    exampleTranslation: 'The consultation lasted twenty minutes.'
+  - id: es-ES-B1-CONSULT-001-003
+    concept: 'concrete-information'
+    term: 'información concreta'
+    translation: 'concrete information'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Proporcione información concreta sobre su situación.'
+    exampleTranslation: 'Provide concrete information about your situation.'
+  - id: es-ES-B1-CONSULT-001-004
+    concept: 'an-interview'
+    term: 'entrevista'
+    translation: 'an interview'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'La entrevista se centró en mi experiencia.'
+    exampleTranslation: 'The interview focused on my experience.'
+  - id: es-ES-B1-CONSULT-001-005
+    concept: 'to-introduce-a-new-subject'
+    term: 'introducir un tema nuevo'
+    translation: 'to introduce a new subject'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ella tomó la iniciativa de introducir un tema nuevo.'
+    exampleTranslation: 'She took the initiative to introduce a new subject.'
+  - id: es-ES-B1-CONSULT-001-006
+    concept: 'with-limited-precision'
+    term: 'con poca precisión'
+    translation: 'with limited precision'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Respondió con poca precisión.'
+    exampleTranslation: 'He answered with limited precision.'
+grammar: []

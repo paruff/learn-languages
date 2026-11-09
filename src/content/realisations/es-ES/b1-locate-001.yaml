@@ -1,0 +1,52 @@
+nodeId: B1-LOCATE-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-B1-LOCATE-001-001
+    concept: 'to-scan-a-text'
+    term: 'hojear un texto'
+    translation: 'to scan a text'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Hojea el texto para encontrar el horario de apertura.'
+    exampleTranslation: 'Scan the text to find the opening hours.'
+  - id: es-ES-B1-LOCATE-001-002
+    concept: 'to-locate-information'
+    term: 'localizar información'
+    translation: 'to locate information'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Localiza la información que necesitas en el folleto.'
+    exampleTranslation: 'Locate the information you need in the brochure.'
+  - id: es-ES-B1-LOCATE-001-003
+    concept: 'a-specific-task'
+    term: 'una tarea concreta'
+    translation: 'a specific task'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Reúne las cifras para una tarea concreta.'
+    exampleTranslation: 'Gather the figures for a specific task.'
+  - id: es-ES-B1-LOCATE-001-004
+    concept: 'an-official-document'
+    term: 'un documento oficial'
+    translation: 'an official document'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'El formulario es un documento oficial.'
+    exampleTranslation: 'The form is an official document.'
+  - id: es-ES-B1-LOCATE-001-005
+    concept: 'a-leaflet'
+    term: 'folleto'
+    translation: 'a leaflet'
+    partOfSpeech: noun
+    gender: masculine
+    example: 'El folleto indica los horarios de apertura.'
+    exampleTranslation: 'The leaflet lists the opening times.'
+  - id: es-ES-B1-LOCATE-001-006
+    concept: 'relevant-information'
+    term: 'información relevante'
+    translation: 'relevant information'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Busca la información relevante en la página dos.'
+    exampleTranslation: 'Find the relevant information on page two.'
+grammar: []

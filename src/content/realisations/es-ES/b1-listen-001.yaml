@@ -1,0 +1,52 @@
+nodeId: B1-LISTEN-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-B1-LISTEN-001-001
+    concept: 'the-main-points'
+    term: 'los puntos principales'
+    translation: 'the main points'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Solo capté los puntos principales de la charla.'
+    exampleTranslation: 'I only caught the main points of the talk.'
+  - id: es-ES-B1-LISTEN-001-002
+    concept: 'a-general-message'
+    term: 'un mensaje general'
+    translation: 'a general message'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'El anuncio traía un mensaje general sobre el cierre.'
+    exampleTranslation: 'The announcement carried a general message about the closure.'
+  - id: es-ES-B1-LISTEN-001-003
+    concept: 'a-short-narrative'
+    term: 'una narración breve'
+    translation: 'a short narrative'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'La entrevista incluía una narración breve sobre la guerra.'
+    exampleTranslation: 'The interview included a short narrative about the war.'
+  - id: es-ES-B1-LISTEN-001-004
+    concept: 'to-follow-a-discussion'
+    term: 'seguir un debate'
+    translation: 'to follow a discussion'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Puedo seguir un debate en español estándar.'
+    exampleTranslation: 'I can follow a discussion in standard Spanish.'
+  - id: es-ES-B1-LISTEN-001-005
+    concept: 'clearly-articulated'
+    term: 'bien articulado'
+    translation: 'clearly articulated'
+    partOfSpeech: adjective
+    gender: n/a
+    example: 'Entiendo mejor cuando el discurso está bien articulado.'
+    exampleTranslation: 'I understand better when the speech is clearly articulated.'
+  - id: es-ES-B1-LISTEN-001-006
+    concept: 'at-work'
+    term: 'en el trabajo'
+    translation: 'at work'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Entendí los puntos principales de la reunión en el trabajo.'
+    exampleTranslation: 'I understood the main points of the meeting at work.'
+grammar: []

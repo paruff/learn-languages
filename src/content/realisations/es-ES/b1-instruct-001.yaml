@@ -1,0 +1,52 @@
+nodeId: B1-INSTRUCT-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-B1-INSTRUCT-001-001
+    concept: 'an-instruction'
+    term: 'instrucción'
+    translation: 'an instruction'
+    partOfSpeech: noun
+    gender: feminine
+    example: 'Sigue cada instrucción con atención.'
+    exampleTranslation: 'Follow each instruction carefully.'
+  - id: es-ES-B1-INSTRUCT-001-002
+    concept: 'detailed-directions'
+    term: 'indicaciones detalladas'
+    translation: 'detailed directions'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'El guía dio indicaciones detalladas.'
+    exampleTranslation: 'The guide gave detailed directions.'
+  - id: es-ES-B1-INSTRUCT-001-003
+    concept: 'a-user-manual'
+    term: 'un manual de usuario'
+    translation: 'a user manual'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'El manual de usuario explica la instalación.'
+    exampleTranslation: 'The user manual explains the setup.'
+  - id: es-ES-B1-INSTRUCT-001-004
+    concept: 'to-follow-a-procedure'
+    term: 'seguir un procedimiento'
+    translation: 'to follow a procedure'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Sigue el procedimiento descrito por teléfono.'
+    exampleTranslation: 'Follow the procedure described on the phone.'
+  - id: es-ES-B1-INSTRUCT-001-005
+    concept: 'step-by-step'
+    term: 'paso a paso'
+    translation: 'step by step'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Explicó el proceso paso a paso.'
+    exampleTranslation: 'He explained the process step by step.'
+  - id: es-ES-B1-INSTRUCT-001-006
+    concept: 'common-equipment'
+    term: 'equipos comunes'
+    translation: 'common equipment'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Las instrucciones cubren los equipos comunes.'
+    exampleTranslation: 'The instructions cover common equipment.'
+grammar: []

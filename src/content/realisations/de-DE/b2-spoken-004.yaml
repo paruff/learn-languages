@@ -1,0 +1,52 @@
+nodeId: B2-SPOKEN-004
+lang: de-DE
+vocabulary:
+  - id: de-DE-B2-SPOKEN-004-001
+    concept: 'to-make-an-announcement'
+    term: 'eine Ankündigung machen'
+    translation: 'to make an announcement'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Ich muss eine Ankündigung zur Terminänderung machen.'
+    exampleTranslation: 'I need to make an announcement about the schedule change.'
+  - id: de-DE-B2-SPOKEN-004-002
+    concept: 'to-address-the-audience'
+    term: 'das Publikum ansprechen'
+    translation: 'to address the audience'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Der Redner sprach das Publikum klar an.'
+    exampleTranslation: 'The speaker addressed the audience clearly.'
+  - id: de-DE-B2-SPOKEN-004-003
+    concept: 'to-communicate-clearly'
+    term: 'klar kommunizieren'
+    translation: 'to communicate clearly'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Es ist wichtig, bei Ankündigungen klar zu kommunizieren.'
+    exampleTranslation: 'It is important to communicate clearly during announcements.'
+  - id: de-DE-B2-SPOKEN-004-004
+    concept: 'to-speak-with-fluency'
+    term: 'flüssig sprechen'
+    translation: 'to speak with fluency'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Sie sprach flüssig und selbstbewusst.'
+    exampleTranslation: 'She spoke with fluency and confidence.'
+  - id: de-DE-B2-SPOKEN-004-005
+    concept: 'to-deliver-a-message'
+    term: 'eine Botschaft überbringen'
+    translation: 'to deliver a message'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Er überbrachte die Botschaft wirkungsvoll.'
+    exampleTranslation: 'He delivered the message effectively.'
+  - id: de-DE-B2-SPOKEN-004-006
+    concept: 'to-capture-attention'
+    term: 'Aufmerksamkeit erregen'
+    translation: 'to capture attention'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Die Ankündigung erregte die Aufmerksamkeit aller.'
+    exampleTranslation: "The announcement captured everyone's attention."
+grammar: []

@@ -1,0 +1,52 @@
+nodeId: B1-CLARIFY-001
+lang: es-ES
+vocabulary:
+  - id: es-ES-B1-CLARIFY-001-001
+    concept: 'to-ask-for-clarification'
+    term: 'pedir una aclaración'
+    translation: 'to ask for clarification'
+    partOfSpeech: phrase
+    gender: n/a
+    example: '¿Podría pedir una aclaración sobre ese punto?'
+    exampleTranslation: 'Could I ask for clarification on that point?'
+  - id: es-ES-B1-CLARIFY-001-002
+    concept: 'to-repeat'
+    term: 'repetir'
+    translation: 'to repeat'
+    partOfSpeech: verb
+    gender: n/a
+    example: '¿Podrías repetir eso más despacio?'
+    exampleTranslation: 'Could you repeat that more slowly?'
+  - id: es-ES-B1-CLARIFY-001-003
+    concept: 'to-rephrase'
+    term: 'reformular'
+    translation: 'to rephrase'
+    partOfSpeech: verb
+    gender: n/a
+    example: 'Déjame reformular lo que has dicho.'
+    exampleTranslation: 'Let me rephrase what you said.'
+  - id: es-ES-B1-CLARIFY-001-004
+    concept: 'to-check-understanding'
+    term: 'comprobar la comprensión'
+    translation: 'to check understanding'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Reformulé la pregunta para comprobar la comprensión.'
+    exampleTranslation: 'I rephrased the question to check understanding.'
+  - id: es-ES-B1-CLARIFY-001-005
+    concept: 'to-develop-an-idea'
+    term: 'desarrollar una idea'
+    translation: 'to develop an idea'
+    partOfSpeech: phrase
+    gender: n/a
+    example: '¿Podrías desarrollar un poco esa idea?'
+    exampleTranslation: 'Could you develop that idea a little?'
+  - id: es-ES-B1-CLARIFY-001-006
+    concept: 'i-do-not-follow'
+    term: 'no te sigo'
+    translation: 'I do not follow'
+    partOfSpeech: phrase
+    gender: n/a
+    example: 'Perdona, no te sigo en tu último punto.'
+    exampleTranslation: 'Sorry, I do not follow your last point.'
+grammar: []
