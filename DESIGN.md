@@ -9,7 +9,7 @@
 
 - **Before UI work:** read §2 and the sections your change touches. If nothing here covers it, propose the addition in the issue first.
 - **In review:** [`REVIEW.md`](REVIEW.md) §7 checks UI changes against this file.
-- **Learner journey findings** (what confuses real learners) are in [`plans/2026-10-22-learner-journey-ux-audit.md`](plans/2026-10-22-learner-journey-ux-audit.md). Fixes that become rules land here.
+- **Learner journey findings** (what confuses real learners) are in [`plans/archive/2026-10-22-learner-journey-ux-audit.md`](plans/archive/2026-10-22-learner-journey-ux-audit.md). Fixes that become rules land here.
 
 ## 2. Principles
 

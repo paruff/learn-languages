@@ -4,6 +4,14 @@ Tracks the CEFR A1–C2 Can-Do statement inventory against `cefr-nodes` and `rea
 
 **Source:** [Referencial Camões PLE](https://www.instituto-camoes.pt/images/REFERENCIAL_ebook.pdf) (Direção de Serviços de Língua e Cultura, Camões — Instituto da Cooperação e da Língua, I.P., 1st ed., September 2017, ISBN 978-989-8751-10-2). Freely downloadable — no access blocker, corrected from an earlier version of this doc that assumed otherwise. One real limitation remains: the printed/PDF edition explicitly states it presents only an _illustrative excerpt_ of each inventory ("optou-se por apresentar apenas uma parte de cada um dos inventários, a título ilustrativo", p.10) — the complete inventories live behind a searchable web interface at the [Centro Virtual Camões](https://www.instituto-camoes.pt/activity/centro-virtual/referencial-camoes-ple) that isn't fetchable from here. So this doc now reflects the real category _structure_ (authoritative) plus everything the PDF excerpt actually shows, not a claim of 100% vocabulary completeness.
 
+## Content reviewers (spec C6, RK8)
+
+A level counts as reviewed only when its mapping doc records a named human reviewer and a date. The reviewer for each language is an open owner question (#298).
+
+| Language                          | Reviewer             | Levels with a recorded review                                              |
+| --------------------------------- | -------------------- | -------------------------------------------------------------------------- |
+| pt-PT, es-ES, de-DE, fr-FR, it-IT | not yet named (#298) | none recorded centrally; per-language docs say which levels are unverified |
+
 ## Status legend
 
 | Status         | Meaning                                                                                |

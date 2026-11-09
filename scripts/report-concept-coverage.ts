@@ -74,10 +74,14 @@ const ptConcepts = loadLangConcepts(realisationsDir, 'pt-PT');
 const targetConcepts = loadLangConcepts(realisationsDir, targetLang);
 const enGlosses = loadEnglishGlosses(realisationsDir);
 
-const nodeIds = [...new Set([...enConcepts.keys(), ...ptConcepts.keys()])]
-  .filter((nodeId) => targetConcepts.has(nodeId))
-  .filter((nodeId) => (levelsFilter.size === 0 ? true : levelsFilter.has(nodeId.slice(0, 2))))
+const inLevel = (nodeId: string): boolean =>
+  levelsFilter.size === 0 ? true : levelsFilter.has(nodeId.slice(0, 2));
+const expectedNodeIds = [...new Set([...enConcepts.keys(), ...ptConcepts.keys()])]
+  .filter(inLevel)
   .sort();
+// A node the target has no realisation for is a gap too; without this a missing node never shows up.
+const missingNodeIds = expectedNodeIds.filter((nodeId) => !targetConcepts.has(nodeId));
+const nodeIds = expectedNodeIds.filter((nodeId) => targetConcepts.has(nodeId));
 
 let totalMissing = 0;
 for (const nodeId of nodeIds) {
@@ -95,8 +99,13 @@ for (const nodeId of nodeIds) {
   }
 }
 
-if (totalMissing === 0) {
+for (const nodeId of missingNodeIds) console.log(`\n${nodeId}: NO ${targetLang} realisation`);
+
+if (totalMissing === 0 && missingNodeIds.length === 0) {
   console.log(`All clear: ${targetLang} has 0 missing concepts across ${nodeIds.length} node(s).`);
 } else {
-  console.log(`\n${targetLang}: ${totalMissing} missing concept(s) across ${nodeIds.length} node(s).`);
+  console.log(
+    `\n${targetLang}: ${totalMissing} missing concept(s), ${missingNodeIds.length} missing node(s) (of ${expectedNodeIds.length} expected).`
+  );
+  globalThis.process.exitCode = 1; // a gap fails the check, so it can be an exit criterion
 }
