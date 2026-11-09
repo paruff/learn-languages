@@ -1,0 +1,109 @@
+# Deterministic whole-repo gate: `pre-commit run --all-files`.
+#
+# Relation to lefthook (AGENTS.md §11): lefthook stays the ONLY git-hook manager
+# (fast checks on staged files at commit/push). This file is the full check
+# suite, run on demand and before a PR (CLAUDE.md "Finishing a /goal"). Every
+# local hook calls the same npm script CI runs, so a green run here predicts CI.
+# Do NOT run `pre-commit install`: it would overwrite lefthook's .git/hooks.
+# First time on a machine: `npm run setup:checks` (installs pre-commit, gitleaks,
+# trivy as brew bottles, runs npm ci, starts colima). `npm run check:prereqs` only checks.
+#
+#   pre-commit run --all-files                 # everything
+#   pre-commit run --all-files --hook-stage manual   # + slow scans (trivy, semgrep)
+#   SKIP=unit-tests pre-commit run --all-files # skip one hook
+minimum_pre_commit_version: '3.0.0'
+exclude: ^(dist/|coverage/|\.astro/|node_modules/|test-results/|playwright-report/|egm-review/|\.serena/|\.worktrees/|\.tmp-x/|package-lock\.json$)
+
+repos:
+  - repo: local
+    hooks:
+      - id: prereqs
+        name: prerequisites (tools installed, lefthook intact)
+        entry: bash scripts/check-prereqs.sh
+        language: system
+        pass_filenames: false
+        always_run: true
+
+  # --- file hygiene -------------------------------------------------------
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: check-merge-conflict
+      - id: check-yaml
+      - id: check-json
+        exclude: ^(\.vscode/|\.devcontainer/|tsconfig\.json$)
+      - id: check-added-large-files
+        args: ['--maxkb=1024']
+        exclude: ^public/(audio|vocab-images|fonts)/
+      - id: detect-private-key
+
+  # --- lint, format, types, content, tests (same scripts as CI, AGENTS.md §5) ---
+  - repo: local
+    hooks:
+      - id: lint
+        name: lint (ESLint + Prettier on src, tests)
+        entry: npm run lint
+        language: system
+        pass_filenames: false
+        files: ^(src|tests)/|eslint\.config\.mjs$|prettier\.config\.mjs$
+      - id: docs-prettier
+        name: prettier check (root docs)
+        entry: npx prettier --check
+        language: system
+        files: ^((spec|intent|DESIGN|REVIEW|AGENTS|CHANGELOG|discovery-brief)\.md|plans/README\.md|docs/alternatives-considered\.md)$
+      - id: typecheck
+        name: typecheck (tsc --noEmit)
+        entry: npm run typecheck
+        language: system
+        pass_filenames: false
+        files: \.(ts|astro)$|tsconfig\.json$
+      - id: validate-content
+        name: content schema and integrity
+        entry: npm run validate:content
+        language: system
+        pass_filenames: false
+        files: ^(src/content/|src/content\.config\.ts$|scripts/validate-content)
+      - id: check-cefr-coverage
+        name: CEFR coverage baseline
+        entry: npm run check:coverage
+        language: system
+        pass_filenames: false
+        files: ^(src/content/|docs/coverage-baseline\.json$|scripts/)
+      - id: unit-tests
+        name: unit tests + coverage gate
+        entry: npm test
+        language: system
+        pass_filenames: false
+        files: ^(src/|vitest\.config\.ts$|package\.json$)
+
+  # --- security -----------------------------------------------------------
+  - repo: local
+    hooks:
+      - id: npm-audit
+        name: npm audit (prod, high+)
+        entry: npm audit --omit=dev --audit-level=high
+        language: system
+        pass_filenames: false
+        files: ^package(-lock)?\.json$
+      - id: gitleaks
+        name: gitleaks (secrets in git history)
+        entry: gitleaks git . --no-banner --redact --exit-code 1
+        language: system
+        pass_filenames: false
+        always_run: true
+      # opencode/ is dev tooling, not the product; its lockfile has toml 4.3.0 HIGH CVEs (fix: toml 5.0.1) tracked separately.
+      # Slow or network-heavy: run with --hook-stage manual (and in a Docker-capable shell).
+      - id: trivy
+        name: trivy (vulnerabilities, secrets, misconfig; HIGH+)
+        entry: trivy fs --scanners vuln,secret,misconfig --severity HIGH,CRITICAL --exit-code 1 --skip-version-check --skip-dirs node_modules,dist,coverage,.astro,.worktrees,egm-review,opencode .
+        language: system
+        pass_filenames: false
+        always_run: true
+        stages: [manual]
+      - id: semgrep
+        name: semgrep (static analysis, in Docker)
+        entry: bash -c 'docker run --rm -v "$PWD:/src" -w /src semgrep/semgrep semgrep scan --metrics=off --error --quiet --config p/typescript --config p/javascript --config p/owasp-top-ten --exclude node_modules --exclude dist --exclude coverage --exclude .worktrees src scripts public/sw.js'
+        language: system
+        pass_filenames: false
+        always_run: true
+        stages: [manual]

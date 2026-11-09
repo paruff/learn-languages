@@ -129,6 +129,7 @@ Conventional Commits: `<type>(<scope>): <summary>`, imperative, ≤72 characters
 - **pre-push:** `npm run validate:content` and the unit tests. E2E runs in CI.
 - lefthook is the only hook manager: no `.husky/` and no `core.hooksPath`. If hooks stop running, `git config --unset core.hooksPath && npx lefthook install`.
 - The hooks only see staged files. For a whole-repo check run `npm run lint && npm run typecheck` (`lefthook run pre-commit --all-files` still checks nothing unstaged).
+- **`.pre-commit-config.yaml`** is the full, deterministic whole-repo gate (`pre-commit run --all-files`: lint, types, content, unit tests, `npm audit`, gitleaks; `--hook-stage manual` adds trivy and semgrep). It calls the same npm scripts as CI and is run before a PR. Set up a machine once with `npm run setup:checks` (brew bottles only, `npm ci`, `colima start`; `npm run check:prereqs` only checks). It is not a git hook: never run `pre-commit install`, because lefthook owns `.git/hooks`.
 - Never use `--no-verify`. The hooks don't check docs outside `src/` and `tests/`: run `npx prettier --write <file>` on them yourself.
 
 ## 12. Workflow: board, goals, decisions, review
