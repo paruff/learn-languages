@@ -1,6 +1,6 @@
-# Discovery Brief — Portuguese Learning Platform (PLP)
+# Discovery Brief — Portuguese Learning Platform (PLP, now Acquira)
 
-> **Status note:** this brief captures the _original_ MVP scoping (EN→PT, A1 only) and is kept as-written for historical record — it is not a living document. The product has since expanded past this scope (es-ES/de-DE/pt-PT now have full A1–C2 content, fr-FR has a walking skeleton — Epic #39) while the JTBD/personas/risks below remain the founding rationale. See `AGENTS.md` §1 for current state.
+> **Status note: superseded, kept as the historical record.** This is the original MVP scoping (EN→PT, A1 only). The product is now Acquira (`intent.md`). Where this brief disagrees with `intent.md` or `spec.md`, they win. In particular, the stack in §5 (Astro 5 + Vue 3) is out of date (now vanilla-JS islands), the "analytics" and "session tracking" measures in §7 are ruled out by `intent.md` P3 and `spec.md` S6, and current content coverage is in `spec.md` C5. The JTBD, personas and risks remain the founding rationale; risks carry IDs (R1–R4) that `intent.md` and `spec.md` cite.
 
 ## 1. Problem Statement
 
@@ -60,23 +60,23 @@
 
 ## 6. Risks & Mitigations
 
-| Risk                                                                 | Likelihood | Impact | Mitigation                                    |
-| -------------------------------------------------------------------- | ---------- | ------ | --------------------------------------------- |
-| Abstract schema can't model PT-specific grammar (ser/estar, tu/você) | Medium     | High   | Schema spike with ser/estar before full build |
-| Camões extraction slower than estimated                              | High       | Medium | Time-box; ship A1 subset first                |
-| Learners don't return after session 1                                | Medium     | High   | User test review flow; minimise friction      |
-| Content authoring doesn't scale beyond founder                       | Medium     | Medium | Simple schema + CONTRIBUTING.md               |
+| ID  | Risk                                                                 | Likelihood | Impact | Mitigation                                    |
+| --- | -------------------------------------------------------------------- | ---------- | ------ | --------------------------------------------- |
+| R1  | Abstract schema can't model PT-specific grammar (ser/estar, tu/você) | Medium     | High   | Schema spike with ser/estar before full build |
+| R2  | Camões extraction slower than estimated                              | High       | Medium | Time-box; ship A1 subset first                |
+| R3  | Learners don't return after session 1                                | Medium     | High   | User test review flow; minimise friction      |
+| R4  | Content authoring doesn't scale beyond founder                       | Medium     | Medium | Simple schema + CONTRIBUTING.md               |
 
 ## 7. Success Metrics (3 months post-launch)
 
 | Metric                              | Target           | Measurement                       |
 | ----------------------------------- | ---------------- | --------------------------------- |
 | Weekly Active Learners              | 50               | Privacy-respecting analytics      |
-| A1 vocab with SRS interval >21 days | 60%              | localStorage aggregation (opt-in) |
+| A1 vocab with SRS interval ≥21 days | 60%              | localStorage aggregation (opt-in) |
 | Can-Do statements with >50% mastery | 10 A1 statements | Dashboard analytics               |
 | Week-2 return rate                  | 40%              | Session tracking                  |
 
 ---
 
-**Document Status:** Approved for implementation  
-**Next Step:** Specification & Design document (specification-design.md) → Implementation
+**Document Status:** Superseded by `intent.md` and `spec.md` (historical record)  
+**Next Step:** none; see `plans/README.md` for current work

@@ -1,6 +1,7 @@
 # Review — how to review a change in this repo
 
 > **Who reads this:** every reviewer, human or agent. Copilot code review loads this file automatically. Claude Code and OpenCode are pointed here by [`AGENTS.md`](AGENTS.md) §12.
+> IDs without a prefix are `spec.md` IDs; intent signals are `intent SIG<n>` and principles `intent P<n>`.
 > Review the PR's diff against its linked issue. Product rules are in [`spec.md`](spec.md) and UI rules in [`DESIGN.md`](DESIGN.md); this file says what to check, not what the product does.
 
 ## 1. Severity and output
@@ -18,7 +19,7 @@ For each finding give `file:line`, the severity, what goes wrong (a concrete inp
 - The PR closes an issue (`Closes #n`), and the change does what that issue's **Exit criterion** says, no more.
 - Behaviour changes update `spec.md` in the same PR, and the spec ID's status is flipped only when its check passes.
 - Edge cases: empty decks, the first and last card, a new pair with no state, missing optional content (audio, images, grammar notes, prerequisites).
-- Dates and intervals: day boundaries, time zones, "due today" vs "overdue", the day-2 and week-2 return calculations (S6).
+- Dates and intervals: day boundaries, time zones, "due today" vs "overdue", the day-2 and week-2 return calculations (spec S6, M1; intent SIG2, SIG3).
 - `schedule()` and other `src/lib/` functions stay pure: they return new objects and never mutate their inputs.
 - No code path names a specific language (intent P4). Language differences live in content, not `if (lang === …)`.
 
