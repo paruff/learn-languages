@@ -74,7 +74,7 @@
 | Metric                              | Target           | Measurement                       |
 | ----------------------------------- | ---------------- | --------------------------------- |
 | Weekly Active Learners              | 50               | Privacy-respecting analytics      |
-| A1 vocab with SRS interval >21 days | 60%              | localStorage aggregation (opt-in) |
+| A1 vocab with SRS interval ≥21 days | 60%              | localStorage aggregation (opt-in) |
 | Can-Do statements with >50% mastery | 10 A1 statements | Dashboard analytics               |
 | Week-2 return rate                  | 40%              | Session tracking                  |
 

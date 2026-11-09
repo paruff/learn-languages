@@ -125,12 +125,12 @@ UI grade → SM-2 quality is `gradeToQuality` in `src/utils/srs.ts`. Intervals u
 
 ### 4.2 Learner journey (J)
 
-| ID  | Requirement                                                                                                                                                                                                 | Intent | Verified by       | Status |
-| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | ----------------- | ------ |
-| J1  | A learner always sees one goal and one next step: the current level (default A1), its lessons in teaching order, and a Continue button to the next unstudied lesson, the same on Home, Lessons and Progress | P1     | E2E (#208)        | ✅     |
-| J2a | Practice draws only from lessons the learner has opened; interleaving (L3) applies across studied lessons; a lesson's "Practise these words" practises that lesson's words                                  | P1     | Unit + E2E (#207) | ✅     |
-| J2b | A daily cap on new words (default 10). The day is the learner's local day, not UTC                                                                                                                          | P1     | Unit + E2E (#207) | ✅     |
-| J3  | Progress leads with the current level's Can-Do statements as a checklist (studied, practised, remembered after a week), later levels collapsed                                                              | P1     | E2E (#210)        | ✅     |
+| ID  | Requirement                                                                                                                                                                                                 | Intent | Verified by                                           | Status |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | ----------------------------------------------------- | ------ |
+| J1  | A learner always sees one goal and one next step: the current level (default A1), its lessons in teaching order, and a Continue button to the next unstudied lesson, the same on Home, Lessons and Progress | P1     | `tests/e2e/first-run.spec.ts` (learning path, #208)   | ✅     |
+| J2a | Practice draws only from lessons the learner has opened; interleaving (L3) applies across studied lessons; a lesson's "Practise these words" practises that lesson's words                                  | P1     | `tests/e2e/practice-scope.spec.ts` (#207)             | ✅     |
+| J2b | A daily cap on new words (default 10). The day is the learner's local day, not UTC                                                                                                                          | P1     | `tests/e2e/practice-scope.spec.ts` (#207)             | ✅     |
+| J3  | Progress leads with the current level's Can-Do statements as a checklist (studied, practised, remembered after a week), later levels collapsed                                                              | P1     | `tests/e2e/progress.spec.ts` (Can-Do checklist, #210) | ✅     |
 
 ### 4.3 UI conventions (U)
 
@@ -183,4 +183,4 @@ Living list. Each risk has an ID, so other documents can cite it. Platform limit
 
 ## 7. Open questions
 
-Open questions are GitHub issues, not a list here: owner decisions are labelled `question` (AGENTS.md §12.5); design questions sit on the issue for their requirement (L8 → #126, L13 → #146, L16–L19 → #205). When one is answered, update the requirement row above and link the issue.
+Open questions are GitHub issues, not a list here: owner decisions are labelled `question` (AGENTS.md §12.5); design questions sit on the issue for their requirement (L8 → #126, L13 → #145, L16–L19 → #205). When one is answered, update the requirement row above and link the issue.
