@@ -120,7 +120,7 @@ Q2=$(new_issue "Decision: outcome of the first learner round (plan row 1.4)" "$G
 
 **Default if unanswered.** G3 and G4 stay gated. Blocked until rows 1.1–1.3 are done; first learner data expected from 2026-10-23.
 
-Spec: intent S1, S2 · Plan: row 1.4")
+Spec: intent SIG1, SIG2 · Plan: row 1.4")
 
 new_issue "Decision: what should the CEFR level labels promise?" "$G1" question "Needs human" "**Question.** Each language has about 800 words for A1–C2, while B2+ comprehension needs several thousand (review finding A4, \`docs/research/2026-10-23-sla-evidence-review-and-product-audit.md\`). What should the level labels promise?
 
@@ -143,7 +143,7 @@ L20=$(new_issue "Decision: what should the checkpoint's \"I can do this\" feel l
 
 **Default if unanswered.** The first cut stays, not linked from navigation. Lessons studied before it shipped have no study date and aren't offered a checkpoint. Blocked until round-one feedback lands.
 
-Spec: L20, intent S8 · Plan: row 2.7")
+Spec: L20, intent SIG8 · Plan: row 2.7")
 
 # --- 6. Design questions move onto their requirement's issue (spec.md §6) ----
 comment_once 126 "moved from spec.md §6" "Open question moved from spec.md §6 (L8): does grammar share the vocabulary SRS queue (interleaved) or get its own? Decide during brainstorming for this issue."
@@ -155,7 +155,7 @@ comment_once 205 "moved from spec.md §6" "Open questions moved from spec.md §6
 
 # --- 7. Goal issues (label plan; Status = gate) ------------------------------
 log "Creating goal issues"
-new_issue "Goal G1: Prove learners succeed (Phase 1)" "$G1" plan "In progress" "**Outcome.** Real learners get through the en-GB→pt-PT loop, return on day 2, and we find where they get lost (intent §3, S1, S2, S7).
+new_issue "Goal G1: Prove learners succeed (Phase 1)" "$G1" plan "In progress" "**Outcome.** Real learners get through the en-GB→pt-PT loop, return on day 2, and we find where they get lost (intent §3, SIG1, SIG2, SIG7).
 
 **Gate.** Open now.
 

@@ -1,6 +1,6 @@
 # Learning-Science References
 
-The evidence behind intent.md principle 1 ("learning mechanism over decoration"). When a feature claims to strengthen learning, it should cite a **Tier 1** source here, and add one if it isn't listed yet.
+The evidence behind intent.md P1 ("learning mechanism over decoration"). When a feature claims to strengthen learning, it should cite a **Tier 1** source here, and add one if it isn't listed yet.
 
 Sources are tiered by how much weight a design decision can put on them. Prefer primary research over syntheses, and syntheses over secondary summaries.
 
