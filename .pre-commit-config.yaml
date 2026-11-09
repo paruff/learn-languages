@@ -5,6 +5,8 @@
 # suite, run on demand and before a PR (CLAUDE.md "Finishing a /goal"). Every
 # local hook calls the same npm script CI runs, so a green run here predicts CI.
 # Do NOT run `pre-commit install`: it would overwrite lefthook's .git/hooks.
+# First time on a machine: `npm run setup:checks` (installs pre-commit, gitleaks,
+# trivy as brew bottles, runs npm ci, starts colima). `npm run check:prereqs` only checks.
 #
 #   pre-commit run --all-files                 # everything
 #   pre-commit run --all-files --hook-stage manual   # + slow scans (trivy, semgrep)
@@ -13,6 +15,15 @@ minimum_pre_commit_version: '3.0.0'
 exclude: ^(dist/|coverage/|\.astro/|node_modules/|test-results/|playwright-report/|egm-review/|\.serena/|\.worktrees/|\.tmp-x/|package-lock\.json$)
 
 repos:
+  - repo: local
+    hooks:
+      - id: prereqs
+        name: prerequisites (tools installed, lefthook intact)
+        entry: bash scripts/check-prereqs.sh
+        language: system
+        pass_filenames: false
+        always_run: true
+
   # --- file hygiene -------------------------------------------------------
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v5.0.0

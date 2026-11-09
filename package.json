@@ -23,6 +23,8 @@
     "test:e2e": "playwright test",
     "install:browsers": "bash scripts/install-browsers.sh",
     "format": "prettier --write src tests",
+    "setup:checks": "bash scripts/check-prereqs.sh --install",
+    "check:prereqs": "bash scripts/check-prereqs.sh",
     "prepare": "npx lefthook install"
   },
   "dependencies": {
