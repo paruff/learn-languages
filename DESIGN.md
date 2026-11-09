@@ -19,7 +19,7 @@ Decide ties in this order:
 2. **One goal and one next step.** Every page shows where the learner is and the single thing to do next (spec J1). Don't add a second call to action that competes with Continue.
 3. **No dark patterns.** No streaks, guilt copy, fake urgency, nagging or ads (intent §6).
 4. **Content first, little chrome.** Lesson text and the card in front of the learner matter more than navigation.
-5. **Works without JavaScript and offline.** Lesson content is static HTML (Q2). Scripts add interaction on top (Q7).
+5. **Works without JavaScript and offline.** Lesson content is static HTML (Q2). Scripts add interaction on top. Offline use is covered by Q7.
 6. **Plain language.** Short sentences, no jargon. CEFR terms appear only where the learner needs them (#212).
 
 ## 3. Tokens
@@ -42,7 +42,7 @@ Use a token, never a raw value. If you need a value that has no token, add the t
 
 **Dark mode** follows `prefers-color-scheme` and only redefines tokens. Never write a component rule that checks the theme itself; the CEFR level badges are the one existing exception.
 
-**Known raw values:** grade-button hover colours and CEFR badge colours are hard-coded in `global.css`. Move them to tokens when you next touch them.
+**Known raw values:** the Again, Hard and Easy hover colours and the CEFR badge colours are hard-coded in `global.css` (`--color-grade-good-hover` exists for Good). Move them to tokens when you next touch them.
 
 ## 4. Layout and responsive
 
@@ -71,18 +71,23 @@ Building blocks are BEM classes in `global.css` plus a few Astro components. Reu
 
 ## 6. Interaction patterns
 
-| Pattern         | Rule                                                                                              | Spec     |
-| --------------- | ------------------------------------------------------------------------------------------------- | -------- |
-| Review loop     | Prompt → attempt → reveal → grade. Nothing on screen gives the answer away before the attempt     | L1       |
-| Grade buttons   | Again / Hard / Good / Easy, equal width, one row or 2×2 on narrow screens, never an orphan button | U4       |
-| Typed recall    | Highlight the characters that differ and pre-select a suggested grade the learner can change      | L4, L26  |
-| After "Again"   | Show the example sentence, its translation and any grammar note before the card comes back        | L10      |
-| Session start   | State the Can-Do statements the due cards serve                                                   | L11      |
-| Navigation      | Mark the current section with `aria-current="page"`; lesson and exercise pages have a breadcrumb  | U3       |
-| Pair choice     | Home, header and Start agree on one pair; it never changes on the way to the first card           | U1, Q9   |
-| Translation     | Pages opt out of browser auto-translation so the target language is never rewritten               | U2       |
-| Recommendations | Recommend; never lock content                                                                     | L12, L27 |
-| Optional extras | Reflection, planning the next session, typed mode: skippable, off the main path, never nagging    | L6, L21  |
+| Pattern                      | Rule                                                                                                                                                                                              | Spec        |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| Review loop                  | Prompt → attempt → reveal → grade. Nothing on screen gives the answer away before the attempt                                                                                                     | L1          |
+| Grade buttons                | Again / Hard / Good / Easy, equal width, one row or 2×2 on narrow screens, never an orphan button                                                                                                 | U4          |
+| Typed recall                 | Highlight the characters that differ and pre-select a suggested grade the learner can change                                                                                                      | L4, L26     |
+| After "Again"                | Show the example sentence, its translation and any grammar note before the card comes back                                                                                                        | L10         |
+| Session start                | State the Can-Do statements the due cards serve                                                                                                                                                   | L11         |
+| Navigation                   | Mark the current section with `aria-current="page"`; lesson and exercise pages have a breadcrumb                                                                                                  | U3          |
+| Pair choice                  | Home, header and Start agree on one pair; it never changes on the way to the first card                                                                                                           | U1, Q9      |
+| Translation                  | Pages opt out of browser auto-translation so the target language is never rewritten                                                                                                               | U2          |
+| Recommendations              | Recommend; never lock content                                                                                                                                                                     | L12, L27    |
+| Optional extras              | Reflection, planning the next session, typed mode: skippable, off the main path, never nagging                                                                                                    | L4, L6, L21 |
+| Save failure                 | When a card or log write fails, show a visible `role="alert"` notice: "Progress not saved. Download a backup" with a link to the backup. Never fail silently for learner progress                 | S9          |
+| Empty and error              | A page with nothing to show (no due cards, no studied lessons) says why and gives the one next step; an unreadable-storage state reads as a new learner, plus the S9 notice if a write then fails | J1, S7      |
+| Offline, not cached          | A page that was never opened online and is offline shows the in-app 404 text plus "Open this page once while online"                                                                              | Q7, Q12     |
+| Focus after reveal and grade | Reveal moves focus to the first grade button; grading moves focus to the next card's prompt (or the session summary). Never drop focus to `<body>`                                                | Q4          |
+| Pair before paint            | Without JS the default pair is shown with plain links to other pairs; with JS the saved pair is applied before first paint                                                                        | Q11         |
 
 ## 7. Copy and voice
 

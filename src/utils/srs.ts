@@ -14,6 +14,11 @@ export interface SRSInput {
   quality: number; // 0-5: 0=complete blackout, 5=perfect recall
 }
 
+/** UI grades 1-4 (Again/Hard/Good/Easy) to SM-2 quality 0-5. Hard is a pass (q3), so ease can rise on Good/Easy. */
+export function gradeToQuality(uiGrade: number): number {
+  return { 1: 1, 2: 3, 3: 4, 4: 5 }[uiGrade] ?? 1;
+}
+
 /**
  * Calculate next review interval using SM-2 algorithm
  * @param state Current SRS state
@@ -50,7 +55,7 @@ export function calculateNextReview({ state, quality }: SRSInput): SRSState {
     easeFactor = 1.3;
   }
 
-  // Due from the start of the local day, so a card graded at 9pm is there at 8am.
+  // Due from the start of the local day, so a card graded at 9pm is due from midnight.
   const dueDate = new Date();
   dueDate.setDate(dueDate.getDate() + interval);
   dueDate.setHours(0, 0, 0, 0);

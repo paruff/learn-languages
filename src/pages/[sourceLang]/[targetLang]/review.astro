@@ -379,7 +379,7 @@ for (const n of await getCollection('cefr-nodes')) {
     type ReviewDirection,
     type RecallMode,
   } from '../../../lib/storage';
-  import { calculateNextReview, isDue } from '../../../utils/srs';
+  import { calculateNextReview, gradeToQuality, isDue } from '../../../utils/srs';
   import { pronounce, recordedAudioPath } from '../../../lib/pronounce';
   import { languageName } from '../../../lib/languageNames';
   import {
@@ -431,9 +431,6 @@ for (const n of await getCollection('cefr-nodes')) {
     canDoByNode: Record<string, string>;
   };
 
-  // Quality maps 1-4 (Again/Hard/Good/Easy) to SM-2's 0-5 scale (spec §6.3).
-  const qualityToSm2: Record<number, number> = { 1: 1, 2: 3, 3: 4, 4: 5 };
-
   let direction: ReviewDirection = loadDirectionPreference(sourceLang, targetLang);
   // Reveal (recognition) vs type-the-answer-first (issue #45, the generation
   // effect) — opt-in per language pair, defaulting to today's reveal flow.
@@ -454,7 +451,7 @@ for (const n of await getCollection('cefr-nodes')) {
 
   function snapshotMasteryPercent(): number {
     const repetitionsList = items.map((item) => ({
-      repetitions: loadState(sourceLang, targetLang, direction, item.target.id).repetitions,
+      interval: loadState(sourceLang, targetLang, direction, item.target.id).interval,
     }));
     return computeOverallMastery(repetitionsList).percent;
   }
@@ -849,7 +846,7 @@ for (const n of await getCollection('cefr-nodes')) {
       q: uiQuality,
       d: todayKey(),
     });
-    const quality = qualityToSm2[uiQuality];
+    const quality = gradeToQuality(uiQuality);
     const isFirstAttempt = !requeuedIds.has(item.target.id);
     if (isFirstAttempt) {
       firstTryTotal += 1;

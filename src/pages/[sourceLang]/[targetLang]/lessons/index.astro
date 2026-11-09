@@ -224,7 +224,7 @@ const targetName = languageName(targetLang);
       nodeId,
       cefrLevel: '',
       canDo: '',
-      repetitions: loadState(sourceLang, targetLang, 'forward', itemId).repetitions,
+      ...loadState(sourceLang, targetLang, 'forward', itemId),
     }))
   );
 

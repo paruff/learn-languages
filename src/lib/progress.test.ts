@@ -7,9 +7,30 @@ import {
 } from './progress';
 
 const items: TrackedItem[] = [
-  { itemId: 'a1', nodeId: 'A1-GREET-001', cefrLevel: 'A1', canDo: 'Can greet', repetitions: 2 },
-  { itemId: 'a2', nodeId: 'A1-GREET-001', cefrLevel: 'A1', canDo: 'Can greet', repetitions: 0 },
-  { itemId: 'b1', nodeId: 'A2-FOOD-001', cefrLevel: 'A2', canDo: 'Can order food', repetitions: 3 },
+  {
+    itemId: 'a1',
+    nodeId: 'A1-GREET-001',
+    cefrLevel: 'A1',
+    canDo: 'Can greet',
+    repetitions: 2,
+    interval: 21,
+  },
+  {
+    itemId: 'a2',
+    nodeId: 'A1-GREET-001',
+    cefrLevel: 'A1',
+    canDo: 'Can greet',
+    repetitions: 0,
+    interval: 0,
+  },
+  {
+    itemId: 'b1',
+    nodeId: 'A2-FOOD-001',
+    cefrLevel: 'A2',
+    canDo: 'Can order food',
+    repetitions: 3,
+    interval: 21,
+  },
 ];
 
 describe('computeCefrProgress', () => {
@@ -24,12 +45,13 @@ describe('computeCefrProgress', () => {
 
   it('recommends an unmastered prerequisite first (L12)', () => {
     const its: TrackedItem[] = [
-      { itemId: 'x', nodeId: 'A1-B', cefrLevel: 'A1', canDo: 'B', repetitions: 0 },
-      { itemId: 'y', nodeId: 'A1-A', cefrLevel: 'A1', canDo: 'A', repetitions: 0 },
+      { itemId: 'x', nodeId: 'A1-B', cefrLevel: 'A1', canDo: 'B', repetitions: 0, interval: 0 },
+      { itemId: 'y', nodeId: 'A1-A', cefrLevel: 'A1', canDo: 'A', repetitions: 0, interval: 0 },
     ];
     const pre = { 'A1-B': ['A1-A', 'A1-GONE'] };
     expect(computeCefrProgress(its, pre).nextRecommended?.nodeId).toBe('A1-A');
     its[1].repetitions = 2;
+    its[1].interval = 21;
     expect(computeCefrProgress(its, pre).nextRecommended?.nodeId).toBe('A1-B');
     expect(computeCefrProgress(its, { 'A1-B': ['A1-B'] }).nextRecommended?.nodeId).toBe('A1-B');
   });
@@ -44,7 +66,7 @@ describe('computeCefrProgress', () => {
   });
 
   it('returns no recommendation once everything is mastered', () => {
-    const mastered = items.map((i) => ({ ...i, repetitions: 2 }));
+    const mastered = items.map((i) => ({ ...i, repetitions: 2, interval: 21 }));
     const { nextRecommended } = computeCefrProgress(mastered);
     expect(nextRecommended).toBeNull();
   });
@@ -86,10 +108,12 @@ describe('computeNodeProgress', () => {
 });
 
 describe('computeOverallMastery', () => {
+  it('does not count two quick repetitions (6-day interval) as mastered (L9)', () => {
+    expect(computeOverallMastery([{ interval: 6 }, { interval: 20 }]).masteredItems).toBe(0);
+  });
+
   it('counts items at or above the mastery threshold across all levels', () => {
-    expect(
-      computeOverallMastery([{ repetitions: 2 }, { repetitions: 0 }, { repetitions: 3 }])
-    ).toEqual({
+    expect(computeOverallMastery([{ interval: 21 }, { interval: 0 }, { interval: 21 }])).toEqual({
       masteredItems: 2,
       totalItems: 3,
       percent: 67,
@@ -101,7 +125,7 @@ describe('computeOverallMastery', () => {
   });
 
   it('returns 100 percent when every item is mastered', () => {
-    expect(computeOverallMastery([{ repetitions: 2 }, { repetitions: 5 }])).toEqual({
+    expect(computeOverallMastery([{ interval: 21 }, { interval: 21 }])).toEqual({
       masteredItems: 2,
       totalItems: 2,
       percent: 100,
@@ -116,6 +140,7 @@ describe('computeCanDoChecklist', () => {
     cefrLevel,
     canDo: `Can do ${nodeId}`,
     repetitions,
+    interval: repetitions >= 2 ? 21 : 0,
   });
   it('lists Can-Dos per level in id order with studied/practised/remembered flags', async () => {
     const { computeCanDoChecklist } = await import('./progress');

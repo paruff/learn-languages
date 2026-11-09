@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { calculateNextReview, createInitialState, isDue } from './srs';
+import { calculateNextReview, createInitialState, gradeToQuality, isDue } from './srs';
 
 describe('SM-2 Spaced Repetition', () => {
   describe('createInitialState', () => {
@@ -127,5 +127,20 @@ describe('SM-2 Spaced Repetition', () => {
       };
       expect(isDue(state)).toBe(false);
     });
+  });
+});
+
+describe('gradeToQuality', () => {
+  it('maps UI grades so Hard lowers ease, Good keeps it and Easy raises it', () => {
+    const state = createInitialState();
+    expect(gradeToQuality(1)).toBe(1);
+    expect(calculateNextReview({ state, quality: gradeToQuality(2) }).easeFactor).toBeLessThan(2.5);
+    expect(calculateNextReview({ state, quality: gradeToQuality(3) }).easeFactor).toBe(2.5);
+    expect(calculateNextReview({ state, quality: gradeToQuality(4) }).easeFactor).toBeGreaterThan(
+      2.5
+    );
+  });
+  it('treats unknown grades as a failed recall', () => {
+    expect(gradeToQuality(9)).toBe(1);
   });
 });

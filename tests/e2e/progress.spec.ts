@@ -32,7 +32,7 @@ test.describe('progress page', () => {
     await page.evaluate(() => {
       const data = JSON.parse(document.getElementById('progress-data')!.textContent!);
       const state = JSON.stringify({
-        interval: 6,
+        interval: 30,
         easeFactor: 2.5,
         repetitions: 3,
         dueDate: '2999-01-01',
