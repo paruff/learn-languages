@@ -4,6 +4,8 @@ export interface TrackedItem {
   cefrLevel: string;
   canDo: string;
   repetitions: number;
+  /** Days until next review; drives mastery (spec L9). */
+  interval: number;
 }
 
 export interface LevelProgress {
@@ -19,8 +21,9 @@ export interface NextRecommended {
   canDo: string;
 }
 
-// A card graduates past SM-2's learning phase after 2 successful reviews in a row.
-const MASTERED_REPETITIONS = 2;
+// Spec L9 / intent SIG4: mastered = scheduled at least 21 days out.
+export const MASTERED_INTERVAL_DAYS = 21;
+const isMastered = (i: { interval: number }) => i.interval >= MASTERED_INTERVAL_DAYS;
 
 const LEVEL_ORDER = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 
@@ -45,7 +48,7 @@ export function computeCefrProgress(
 
   const levels = LEVEL_ORDER.filter((level) => byLevel.has(level)).map((cefrLevel) => {
     const bucket = byLevel.get(cefrLevel)!;
-    const masteredItems = bucket.filter((i) => i.repetitions >= MASTERED_REPETITIONS).length;
+    const masteredItems = bucket.filter((i) => isMastered(i)).length;
     return {
       cefrLevel,
       totalItems: bucket.length,
@@ -55,10 +58,9 @@ export function computeCefrProgress(
   });
 
   const all = LEVEL_ORDER.flatMap((level) => byLevel.get(level) ?? []);
-  const unmastered = (nodeId: string) =>
-    all.find((i) => i.nodeId === nodeId && i.repetitions < MASTERED_REPETITIONS);
+  const unmastered = (nodeId: string) => all.find((i) => i.nodeId === nodeId && !isMastered(i));
   // L12: soft prerequisites. Redirect to the first unmastered prerequisite (transitively); never locks.
-  let nextItem = all.find((item) => item.repetitions < MASTERED_REPETITIONS);
+  let nextItem = all.find((item) => !isMastered(item));
   const seen = new Set<string>();
   while (nextItem && !seen.has(nextItem.nodeId)) {
     seen.add(nextItem.nodeId);
@@ -84,7 +86,7 @@ export interface NodeProgress {
 
 /**
  * Aggregates per-item SRS state into per-lesson (nodeId) mastery (#37) — the
- * same MASTERED_REPETITIONS threshold as computeCefrProgress, so a lesson
+ * same 21-day mastery threshold as computeCefrProgress, so a lesson
  * card's "x/y mastered" agrees with the CEFR-level dashboard for the same
  * items, just grouped by nodeId instead of cefrLevel.
  */
@@ -98,7 +100,7 @@ export function computeNodeProgress(items: TrackedItem[]): Map<string, NodeProgr
 
   const result = new Map<string, NodeProgress>();
   for (const [nodeId, bucket] of byNode) {
-    const masteredItems = bucket.filter((i) => i.repetitions >= MASTERED_REPETITIONS).length;
+    const masteredItems = bucket.filter((i) => isMastered(i)).length;
     result.set(nodeId, {
       nodeId,
       totalItems: bucket.length,
@@ -114,12 +116,12 @@ export function computeNodeProgress(items: TrackedItem[]): Map<string, NodeProgr
  * (spec §1.1 desirable-difficulties calibration) — lets the review session
  * surface an overall mastery signal without loading the cefr-nodes collection.
  */
-export function computeOverallMastery(items: { repetitions: number }[]): {
+export function computeOverallMastery(items: { interval: number }[]): {
   masteredItems: number;
   totalItems: number;
   percent: number;
 } {
-  const masteredItems = items.filter((item) => item.repetitions >= MASTERED_REPETITIONS).length;
+  const masteredItems = items.filter((item) => isMastered(item)).length;
   const totalItems = items.length;
   return {
     masteredItems,

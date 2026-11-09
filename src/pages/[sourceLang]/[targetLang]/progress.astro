@@ -202,7 +202,7 @@ const targetName = languageName(targetLang);
 
   const items: TrackedItem[] = trackedItems.map((item) => ({
     ...item,
-    repetitions: loadState(sourceLang, targetLang, 'forward', item.itemId).repetitions,
+    ...loadState(sourceLang, targetLang, 'forward', item.itemId),
   }));
 
   const { levels, nextRecommended } = computeCefrProgress(items, prerequisites);

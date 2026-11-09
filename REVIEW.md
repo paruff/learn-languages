@@ -18,16 +18,17 @@ For each finding give `file:line`, the severity, what goes wrong (a concrete inp
 - The PR closes an issue (`Closes #n`), and the change does what that issue's **Exit criterion** says, no more.
 - Behaviour changes update `spec.md` in the same PR, and the spec ID's status is flipped only when its check passes.
 - Edge cases: empty decks, the first and last card, a new pair with no state, missing optional content (audio, images, grammar notes, prerequisites).
-- Dates and intervals: day boundaries, time zones, "due today" vs "overdue", the day-2 and week-2 return calculations (S6).
-- `schedule()` and other `src/lib/` functions stay pure: they return new objects and never mutate their inputs.
+- Dates and intervals: day boundaries, time zones, "due today" vs "overdue", the day-2 and week-2 return calculations (S6a).
+- `schedule()` (in `src/utils/srs.ts`) and the `src/lib/` functions stay pure: they return new objects and never mutate their inputs.
 - No code path names a specific language (intent P4). Language differences live in content, not `if (lang === …)`.
 
-## 3. Learning-loop invariants (Critical if broken)
+## 3. Loop and learner-state invariants (Critical if broken)
 
-- L1: nothing reveals the answer before the learner has attempted it, including DOM text, `aria-label`, `title` or the page source of a pre-rendered card.
+- L1: nothing reveals the answer before the learner has attempted it, including DOM text, `aria-label` or `title` in the rendered page before the attempt. (A static site's page source can contain the data; the rule is about what the learner and assistive tech see.)
 - L3: the due queue stays interleaved across nodes.
 - S1: SRS keys keep the `srs:{source}:{target}:{direction}:{itemId}` format. A key change needs a migration and a test.
-- S7: all storage access goes through `src/lib/storage.ts`, and a storage failure never breaks a page.
+- S7, S9: all storage access goes through `src/lib/storage.ts`, a storage failure never breaks a page, and a failed progress write is shown to the learner, never swallowed.
+- C12: a PR that changes or reuses an item ID that has shipped, or edits that item's term without a new ID, is Critical (learner history would attach to the wrong word or be orphaned).
 
 ## 4. Security and privacy
 
@@ -41,7 +42,7 @@ For each finding give `file:line`, the severity, what goes wrong (a concrete inp
 ## 5. Bugs to look for
 
 - Async UI: double submit on the grade buttons, a stale card after a fast click, listeners added twice when navigating.
-- Storage: full quota, blocked storage, corrupted JSON in a key, two tabs open at once.
+- Storage: full quota, blocked storage, corrupted JSON in a key, two tabs open at once (S10: card state is re-read before each grade).
 - Content: an item missing an optional field, a node with no realisation in the current target language.
 - Accessibility regressions: focus lost after reveal or grade, controls without names, colour as the only signal.
 
@@ -60,6 +61,7 @@ For each finding give `file:line`, the severity, what goes wrong (a concrete inp
 ## 8. Content changes
 
 - Schema-valid (`npm run validate:content`) and checked against the language's authoritative CEFR source, recorded in its `docs/*-cefr-mapping.md` (C6).
+- The mapping doc records the human reviewer and date per level; a level without that record isn't reviewed (C6).
 - **An agent can't approve content.** A human verifies it before merge (intent P6).
 
 ## 9. Docs
@@ -68,5 +70,7 @@ For each finding give `file:line`, the severity, what goes wrong (a concrete inp
 - `intent.md` edits go in their own `docs(intent):` PR.
 
 ## 10. The merge decision
+
+The severity scale in §1 applies to every PR, docs included. Document-review reports may use a finer scale (Blocker, Major, Nit); map Blocker to Critical, Major to Important and Nit to Minor.
 
 Only the owner merges. Before merging: CI is green, every Critical and Important finding is fixed or answered in the PR, and the spec status matches what shipped.

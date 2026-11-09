@@ -1,10 +1,12 @@
-# Discovery Brief — Portuguese Learning Platform (PLP)
+# Discovery Brief — Acquira (originally "Portuguese Learning Platform, PLP")
 
-> **Status note:** this brief captures the _original_ MVP scoping (EN→PT, A1 only) and is kept as-written for historical record — it is not a living document. The product has since expanded past this scope (es-ES/de-DE/pt-PT now have full A1–C2 content, fr-FR has a walking skeleton — Epic #39) while the JTBD/personas/risks below remain the founding rationale. See `AGENTS.md` §1 for current state.
+> **Superseded in these places** (the rest is kept as written): the stack is Astro with vanilla islands, not Vue 3 (§5); retention is measured by a learner-sent report, not analytics (§7; spec S6a, M1); the language-pair switch loads a page per pair, not "without page reload" (AC-4; spec Q1); mastery is an SRS interval of at least 21 days (AC-1; spec L9); "GDPR compliant" was an aim, not a verified legal claim (§5). Risks now live in `spec.md` §6. Current truth: `intent.md`, `spec.md`.
+>
+> **Status note:** this brief captures the _original_ MVP scoping (EN→PT, A1 only) and is kept as-written for historical record — it is not a living document. The product has since expanded past this scope (all six languages now have A1–C2 content, unevenly — see `plans/README.md`) while the JTBD/personas/risks below remain the founding rationale. See `AGENTS.md` §1 for current state.
 
 ## 1. Problem Statement
 
-**Who:** Independent adult learners of European Portuguese (PT-PT) at CEFR A1 level.
+**Who:** Independent adult learners of European Portuguese (pt-PT) at CEFR A1 level.
 
 **What:** They lack a structured, offline-capable, CEFR-aligned learning tool that respects their time constraints and cognitive load limits. Existing apps are either gamified (Duolingo), backend-dependent (Babbel), or lack CEFR traceability.
 
@@ -27,7 +29,7 @@
 | **Commuter Carlos**         | Uses dead time (commute)      | Offline, <15 min sessions, no audio-out in public |
 | **Credential-Seeker Chloe** | Needs CEFR proof for visa/job | Must export verifiable progress, values structure |
 | **Fragmented-Time Fiona**   | Studies in 5-10 min bursts    | Low friction entry, instant resume, no onboarding |
-| **Pronunciation-Pedro**     | Wants authentic PT-PT accent  | TTS must use pt-PT voice, not pt-BR               |
+| **Pronunciation Pedro**     | Wants authentic pt-PT accent  | TTS must use pt-PT voice, not pt-BR               |
 
 ## 4. Acceptance Criteria (MVP)
 
@@ -46,17 +48,17 @@
 
 ## 5. Constraints
 
-| Type            | Constraint                                          |
-| --------------- | --------------------------------------------------- |
-| **Technical**   | Static site only (GitHub Pages); no backend         |
-| **Technical**   | Astro 5.x + Vue 3 islands; Zod for validation       |
-| **Technical**   | `localStorage` only for state; no cookies           |
-| **Technical**   | Web Speech API for TTS (pt-PT)                      |
-| **Content**     | Referencial Camões PLE as authoritative CEFR source |
-| **Content**     | A1 only for MVP; A2+ deferred                       |
-| **Content**     | EN→PT only for MVP; other pairs deferred            |
-| **Legal**       | No PII collected; GDPR compliant by design          |
-| **Operational** | Zero-cost deployment; CI/CD via GitHub Actions      |
+| Type            | Constraint                                                                |
+| --------------- | ------------------------------------------------------------------------- |
+| **Technical**   | Static site only (GitHub Pages); no backend                               |
+| **Technical**   | Astro + vanilla islands (originally planned as Vue 3); Zod for validation |
+| **Technical**   | `localStorage` only for state; no cookies                                 |
+| **Technical**   | Web Speech API for TTS (pt-PT)                                            |
+| **Content**     | Referencial Camões PLE as authoritative CEFR source                       |
+| **Content**     | A1 only for MVP; A2+ deferred                                             |
+| **Content**     | EN→PT only for MVP; other pairs deferred                                  |
+| **Legal**       | No PII collected (GDPR compliance not assessed)                           |
+| **Operational** | Zero-cost deployment; CI/CD via GitHub Actions                            |
 
 ## 6. Risks & Mitigations
 
@@ -78,5 +80,4 @@
 
 ---
 
-**Document Status:** Approved for implementation  
-**Next Step:** Specification & Design document (specification-design.md) → Implementation
+**Document Status:** Historical record. Implemented; superseded by `intent.md` and `spec.md`.
