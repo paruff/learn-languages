@@ -29,7 +29,7 @@ The pieces work, but **there is no path through them**. Lessons, Practice and Pr
 | J2  | Practice draws only from lessons the learner has opened, with a daily cap on new words (default 10). A lesson's "Practise these words" practises that lesson's words. Interleaving (L3) applies across studied lessons.       |
 | J3  | Progress leads with the current level's Can-Do statements as a checklist (studied, practised, remembered after a week), with later levels collapsed.                                                                          |
 
-Why these fit the intent: retrieval practice works on material that was encoded first (intent §3, spec L1). Quizzing on never-seen words is guessing, which feels like failing and drives the "don't come back" risk (R3). The Can-Do checklist is the persona Chloe's need (intent §2) and the ability signal S8.
+Why these fit the intent: retrieval practice works on material that was encoded first (intent §3, spec L1). Quizzing on never-seen words is guessing, which feels like failing and drives the "don't come back" risk (R3). The Can-Do checklist is the persona Chloe's need (intent §2) and the ability signal (intent SIG8).
 
 ## Sequence
 
