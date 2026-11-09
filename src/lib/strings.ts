@@ -49,6 +49,9 @@ export type StringKey =
   | 'reviewTypeInputLabel'
   | 'reviewCheckButton'
   | 'reviewPronounceLabel'
+  | 'saveFailed'
+  | 'saveFailedLink'
+  | 'ttsNetworkLabel'
   | 'reviewCorrect'
   | 'reviewIncorrect'
   | 'reviewAccentMiss'
@@ -146,6 +149,9 @@ const EN_GB: Dictionary = {
   reviewTypeInputLabel: 'Type the answer',
   reviewCheckButton: 'Check',
   reviewPronounceLabel: 'Listen',
+  saveFailed: 'Progress not saved: this browser is blocking or has run out of storage.',
+  saveFailedLink: 'Download a backup',
+  ttsNetworkLabel: "Allow online voices (the word is sent to your browser's speech service)",
   reviewCorrect: 'Correct!',
   reviewIncorrect: 'Not quite — see the answer below.',
   reviewAccentMiss: 'Almost — check the accents (highlighted below).',
@@ -248,6 +254,11 @@ const ES_ES: Dictionary = {
   reviewTypeInputLabel: 'Escribe la respuesta',
   reviewCheckButton: 'Comprobar',
   reviewPronounceLabel: 'Escuchar',
+  saveFailed:
+    'Progreso no guardado: este navegador bloquea el almacenamiento o se ha quedado sin espacio.',
+  saveFailedLink: 'Descargar una copia de seguridad',
+  ttsNetworkLabel:
+    'Permitir voces en línea (la palabra se envía al servicio de voz de tu navegador)',
   reviewCorrect: '¡Correcto!',
   reviewIncorrect: 'No exactamente — mira la respuesta abajo.',
   reviewAccentMiss: 'Casi — revisa los acentos (resaltados abajo).',
@@ -349,6 +360,10 @@ const PT_PT: Dictionary = {
   reviewTypeInputLabel: 'Escreva a resposta',
   reviewCheckButton: 'Verificar',
   reviewPronounceLabel: 'Ouvir',
+  saveFailed:
+    'Progresso não guardado: este navegador bloqueia o armazenamento ou ficou sem espaço.',
+  saveFailedLink: 'Descarregar uma cópia de segurança',
+  ttsNetworkLabel: 'Permitir vozes online (a palavra é enviada ao serviço de voz do teu navegador)',
   reviewCorrect: 'Correto!',
   reviewIncorrect: 'Não é bem isso — veja a resposta abaixo.',
   reviewAccentMiss: 'Quase — verifique os acentos (destacados abaixo).',
@@ -450,6 +465,11 @@ const DE_DE: Dictionary = {
   reviewTypeInputLabel: 'Antwort eingeben',
   reviewCheckButton: 'Prüfen',
   reviewPronounceLabel: 'Anhören',
+  saveFailed:
+    'Fortschritt nicht gespeichert: Dieser Browser blockiert den Speicher oder er ist voll.',
+  saveFailedLink: 'Sicherung herunterladen',
+  ttsNetworkLabel:
+    'Online-Stimmen erlauben (das Wort wird an den Sprachdienst deines Browsers gesendet)',
   reviewCorrect: 'Richtig!',
   reviewIncorrect: 'Nicht ganz — sehen Sie die Antwort unten.',
   reviewAccentMiss: 'Fast — prüfen Sie die Akzente (unten hervorgehoben).',
@@ -552,6 +572,11 @@ const FR_FR: Dictionary = {
   reviewTypeInputLabel: 'Tapez la réponse',
   reviewCheckButton: 'Vérifier',
   reviewPronounceLabel: 'Écouter',
+  saveFailed:
+    "Progression non enregistrée : ce navigateur bloque le stockage ou n'a plus de place.",
+  saveFailedLink: 'Télécharger une sauvegarde',
+  ttsNetworkLabel:
+    'Autoriser les voix en ligne (le mot est envoyé au service vocal de ton navigateur)',
   reviewCorrect: 'Correct !',
   reviewIncorrect: 'Pas tout à fait — voyez la réponse ci-dessous.',
   reviewAccentMiss: 'Presque — vérifiez les accents (surlignés ci-dessous).',

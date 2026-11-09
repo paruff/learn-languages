@@ -1,4 +1,4 @@
-import { readJson, writeItem } from './storage';
+import { readJson, writeProgress } from './storage';
 
 /** One graded review. `q` is the UI grade (1=Again, 2=Hard, 3=Good, 4=Easy); `d` is YYYY-MM-DD. */
 export interface GradeEntry {
@@ -6,6 +6,14 @@ export interface GradeEntry {
   dir: 'forward' | 'reverse';
   q: number;
   d: string;
+  /** Scheduler id (absent = 'sm2'), so metrics stay comparable across schedulers (spec L33). */
+  s?: string;
+  /** Grade the app suggested in typed mode (UI scale), if any. */
+  sg?: number;
+  /** True when the learner chose a different grade from the suggestion. */
+  ov?: boolean;
+  /** Typed answer matched (true) or not (false); absent when not in typed mode. */
+  tr?: boolean;
 }
 
 // ponytail: rolling window, oldest entries drop. Fine for weeks of testing; a long-term learner would need per-item summaries instead.
@@ -33,9 +41,10 @@ export function loadGradeLog(sourceLang: string, targetLang: string): GradeEntry
   return Array.isArray(raw) ? raw.filter(isEntry) : [];
 }
 
-export function appendGrade(sourceLang: string, targetLang: string, entry: GradeEntry): void {
+/** Returns false when the entry could not be stored (spec S9). */
+export function appendGrade(sourceLang: string, targetLang: string, entry: GradeEntry): boolean {
   const log = [...loadGradeLog(sourceLang, targetLang), entry].slice(-MAX_LOG_ENTRIES);
-  writeItem(key(sourceLang, targetLang), JSON.stringify(log));
+  return writeProgress(key(sourceLang, targetLang), JSON.stringify(log));
 }
 
 const dayNumber = (d: string): number => Math.floor(Date.parse(d) / 86_400_000);
@@ -50,11 +59,12 @@ export interface Retention {
  * Delayed recall (spec M2): of reviews made at least 7 days after that card's
  * previous review, the share graded Good/Easy. Directions are separate cards.
  */
-export function computeRetention(log: GradeEntry[]): Retention {
+export function computeRetention(log: GradeEntry[], scheduler = 'sm2'): Retention {
   const last = new Map<string, string>();
   let opportunities = 0;
   let recalled = 0;
   for (const e of log) {
+    if ((e.s ?? 'sm2') !== scheduler) continue;
     const k = `${e.dir}:${e.item}`;
     const prev = last.get(k);
     if (prev !== undefined && dayNumber(e.d) - dayNumber(prev) >= DELAY_DAYS) {

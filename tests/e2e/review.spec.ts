@@ -11,6 +11,23 @@ test.describe('review session', () => {
     await page.reload();
   });
 
+  test('a failed progress write shows the save-failed notice with a backup link (S9)', async ({
+    page,
+  }) => {
+    await expect(page.locator('#save-failed')).toBeHidden();
+    await page.evaluate(() => {
+      Storage.prototype.setItem = () => {
+        throw new DOMException('full', 'QuotaExceededError');
+      };
+    });
+    await page.locator('#review-reveal').click();
+    await page.locator('#review-grades button[data-quality="3"]').click();
+    const notice = page.locator('#save-failed');
+    await expect(notice).toBeVisible();
+    await expect(notice).toHaveAttribute('role', 'alert');
+    await expect(notice.getByRole('link')).toHaveAttribute('href', /progress\/#backup$/);
+  });
+
   test('reveal shows the answer and grading persists SRS state', async ({ page }) => {
     const progress = page.locator('#review-progress');
     const front = page.locator('#review-front');

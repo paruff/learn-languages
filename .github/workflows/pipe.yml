@@ -47,12 +47,18 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0 # check:item-ids compares with the base branch
       - uses: actions/setup-node@v7
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: 'npm'
       - run: npm ci
       - run: npm run validate:content
+      - name: Released item IDs are immutable (spec C12)
+        run: npm run check:item-ids
+        env:
+          BASE_REF: ${{ github.event_name == 'pull_request' && format('origin/{0}', github.base_ref) || 'origin/main' }}
       # Runtime/build deps only: dev-only advisories (e.g. braces via
       # eslint-plugin-astro, no fixed version yet) don't reach the shipped site.
       - run: npm audit --omit=dev --audit-level=high

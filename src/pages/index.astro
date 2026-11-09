@@ -153,20 +153,45 @@ const a1Path = orderLessons(
     </div>
   </section>
   <script type="application/json" id="valid-pairs" set:html={JSON.stringify(pairs)} />
-</BaseLayout>
-
-<script>
-  // Spec U1: point every pair-scoped link at the learner's saved pair, if any.
-  import { withBase } from '../lib/urls';
-  import { loadPairPreference } from '../lib/pairPreference';
-
-  const pref = loadPairPreference();
-  if (pref) {
-    document.querySelectorAll<HTMLAnchorElement>('a[data-pair-path]').forEach((a) => {
-      a.href = withBase(`/${pref.sourceLang}/${pref.targetLang}/${a.dataset.pairPath}`);
-    });
+  {
+    /* Q11: a plain, parser-blocking script (not a deferred module) so the saved pair is applied
+      while the page is still being parsed, before first paint. Without JS the default pair stays. */
   }
-</script>
+  <script is:inline define:vars={{ base: withBase('/') }}>
+    try {
+      var pref = JSON.parse(window.localStorage.getItem('pairPreference') || 'null');
+      var valid = JSON.parse(document.getElementById('valid-pairs').textContent || '[]');
+      if (
+        pref &&
+        valid.some(function (p) {
+          return p.sourceLang === pref.sourceLang && p.targetLang === pref.targetLang;
+        })
+      ) {
+        document.querySelectorAll('a[data-pair-path]').forEach(function (a) {
+          a.href = base + pref.sourceLang + '/' + pref.targetLang + '/' + a.dataset.pairPath;
+        });
+      }
+    } catch (e) {
+      // Storage blocked or corrupt: keep the default pair (spec S7).
+    }
+  </script>
+  <noscript>
+    <nav class="pair-links" aria-label="All language pairs">
+      <p>Choose a language pair:</p>
+      <ul>
+        {
+          pairs.map((p) => (
+            <li>
+              <a href={withBase(`/${p.sourceLang}/${p.targetLang}/lessons/`)}>
+                {languageName(p.sourceLang)} → {languageName(p.targetLang)}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+  </noscript>
+</BaseLayout>
 
 <style>
   .hero {

@@ -95,6 +95,12 @@ for (const n of await getCollection('cefr-nodes')) {
   </p>
   <div id="review-card" class="review-card card" hidden>
     <p id="review-progress" class="review-card__progress"></p>
+    <p id="save-failed" class="review-save-failed" role="alert" hidden>
+      {getString(sourceLang, 'saveFailed')}
+      <a href={withBase(`/${sourceLang}/${targetLang}/progress/#backup`)}
+        >{getString(sourceLang, 'saveFailedLink')}</a
+      >
+    </p>
     <img id="review-image" class="review-card__image" hidden />
     <p id="review-front" class="review-card__term"></p>
     <p id="review-cloze-translation" class="review-card__cloze-translation" hidden></p>
@@ -122,6 +128,10 @@ for (const n of await getCollection('cefr-nodes')) {
       >
       {getString(sourceLang, 'reviewPronounceLabel')}</button
     >
+    <label id="review-tts-network-label" class="review-card__tts-network" hidden>
+      <input type="checkbox" id="review-tts-network" />
+      {getString(sourceLang, 'ttsNetworkLabel')}
+    </label>
     <p id="review-grade-hint" class="review-mode-hint" hidden>
       {getString(sourceLang, 'reviewGradeHint')}
     </p>
@@ -340,6 +350,21 @@ for (const n of await getCollection('cefr-nodes')) {
     border-radius: var(--radius);
     font-size: 1.25rem;
   }
+  .review-card__tts-network {
+    display: block;
+    margin: calc(var(--spacing-unit) * 1) 0;
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+  }
+
+  .review-save-failed {
+    margin: calc(var(--spacing-unit) * 2) 0;
+    padding: calc(var(--spacing-unit) * 1.5);
+    border: 2px solid var(--color-error);
+    border-radius: var(--radius);
+    font-weight: 600;
+  }
+
   .review-card__type-feedback {
     font-weight: 600;
     margin: 0;
@@ -365,7 +390,6 @@ for (const n of await getCollection('cefr-nodes')) {
 <script>
   import {
     loadState,
-    saveState,
     requestPersistence,
     hasState,
     loadNewCap,
@@ -376,10 +400,12 @@ for (const n of await getCollection('cefr-nodes')) {
     saveDirectionPreference,
     loadRecallModePreference,
     saveRecallModePreference,
+    loadNetworkVoicePreference,
+    saveNetworkVoicePreference,
     type ReviewDirection,
     type RecallMode,
   } from '../../../lib/storage';
-  import { calculateNextReview, gradeToQuality, isDue } from '../../../utils/srs';
+  import { gradeToQuality, isDue } from '../../../utils/srs';
   import { pronounce, recordedAudioPath } from '../../../lib/pronounce';
   import { languageName } from '../../../lib/languageNames';
   import {
@@ -402,7 +428,7 @@ for (const n of await getCollection('cefr-nodes')) {
   import { diffAnswer, suggestGrade } from '../../../lib/exerciseCheck';
   import { makeCloze, shouldCloze } from '../../../lib/cloze';
   import { recordGradeForCalibration } from '../../../lib/calibration';
-  import { appendGrade } from '../../../lib/gradeLog';
+  import { applyGrade } from '../../../lib/grade';
   import { getString, format } from '../../../lib/strings';
 
   interface PairSide {
@@ -469,6 +495,11 @@ for (const n of await getCollection('cefr-nodes')) {
   const clozeTranslationEl = document.getElementById('review-cloze-translation')!;
   const revealBtn = document.getElementById('review-reveal')!;
   const pronounceBtn = document.getElementById('review-pronounce')!;
+  // Q10: online voices are opt-in; the choice sits with the Listen button.
+  const networkLabel = document.getElementById('review-tts-network-label')!;
+  const networkBox = document.getElementById('review-tts-network') as HTMLInputElement;
+  networkBox.checked = loadNetworkVoicePreference();
+  networkBox.addEventListener('change', () => saveNetworkVoicePreference(networkBox.checked));
   const gradesEl = document.getElementById('review-grades')!;
   const gradeHintEl = document.getElementById('review-grade-hint')!;
   const directionToggle = document.getElementById('review-direction-toggle')!;
@@ -765,6 +796,7 @@ for (const n of await getCollection('cefr-nodes')) {
   revealBtn.addEventListener('click', () => {
     backEl.hidden = false;
     pronounceBtn.hidden = false;
+    networkLabel.hidden = false;
     gradesEl.hidden = false;
     gradeHintEl.hidden = false;
   });
@@ -812,6 +844,7 @@ for (const n of await getCollection('cefr-nodes')) {
     });
     backEl.hidden = false;
     pronounceBtn.hidden = false;
+    networkLabel.hidden = false;
     gradesEl.hidden = false;
     gradeHintEl.hidden = false;
   });
@@ -840,12 +873,6 @@ for (const n of await getCollection('cefr-nodes')) {
       uiQuality,
       todayKey()
     );
-    appendGrade(sourceLang, targetLang, {
-      item: item.target.id,
-      dir: direction,
-      q: uiQuality,
-      d: todayKey(),
-    });
     const quality = gradeToQuality(uiQuality);
     const isFirstAttempt = !requeuedIds.has(item.target.id);
     if (isFirstAttempt) {
@@ -855,17 +882,23 @@ for (const n of await getCollection('cefr-nodes')) {
     if (!hasState(sourceLang, targetLang, direction, item.target.id)) {
       recordIntroduced(sourceLang, targetLang, todayKey());
     }
+    // L26/L33: the grade the typed check suggested (if any), to log whether the learner overrode it.
+    const suggestedBtn = gradesEl.querySelector<HTMLElement>('[data-suggested]');
+    const suggestedGrade = suggestedBtn ? Number(suggestedBtn.dataset.quality) : undefined;
     // A pass on a repeat showing in the same session doesn't count as another SM-2 review.
-    if (countsTowardSchedule(!isFirstAttempt, quality)) {
-      const state = loadState(sourceLang, targetLang, direction, item.target.id);
-      saveState(
-        sourceLang,
-        targetLang,
-        direction,
-        item.target.id,
-        calculateNextReview({ state, quality })
-      );
-    }
+    const { saved } = applyGrade({
+      sourceLang,
+      targetLang,
+      direction,
+      itemId: item.target.id,
+      uiGrade: uiQuality,
+      day: todayKey(),
+      countsTowardSchedule: countsTowardSchedule(!isFirstAttempt, quality),
+      suggestedGrade,
+      typedCorrect: suggestedGrade === undefined ? undefined : suggestedGrade === 3,
+    });
+    // S9: never lose progress silently.
+    if (!saved) document.getElementById('save-failed')!.hidden = false;
     void requestPersistence();
 
     // A failed recall ("Again") reappears a few cards later in this same

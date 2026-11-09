@@ -7,6 +7,11 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · Versioning: 
 
 ### Added
 
+- Progress that can't be saved is no longer silent: the review page shows a "Progress not saved" notice with a link to the backup (S9, #288). Card state is re-read before every grade so two open tabs don't overwrite each other (S10, #289). State and backups carry a schema version, and older code never overwrites newer data (S11).
+- Grade-log entries record the scheduler, the suggested grade, whether the learner overrode it, and the typed result; retention can be computed per scheduler (L33).
+- `npm run check:item-ids` (in CI) fails when a released item ID is removed or changes its word (C12, #290). Sense-tagged concept slugs now have a ser/estar fixture (C13, #291).
+- Online speech voices are opt-in: Acquira uses on-device voices unless the learner ticks a box saying the word is sent to their browser's speech service (Q10, #292).
+- The home page applies the saved language pair while parsing, and without JavaScript shows the default pair and plain links to every pair (Q11, #293). The open level's lessons are cached for offline use (Q12, #294).
 - Spec 1.6: scheduling transition table, a Risks and limits section (RK1–RK12), new requirements C12, C13, L33, S9–S11, Q10–Q12, and `docs/alternatives-considered.md`. Phase-1 protocol now has screening, consent, a day-7 follow-up and a decision rule.
 - Italian (it-IT) content now reaches A1–C2 parity with the shared concept set: the 10 missing A2 nodes, all 20 C2 nodes, and 125 missing C1 concepts, plus a full C2 review-session e2e test. The coverage baseline for it-IT drops to 0 gaps (#160, #166, #256).
 

@@ -3,6 +3,8 @@
  * picks the correct regional voice — spec §9.3 / discovery-brief AC-5:
  * pt-PT terms must use a pt-PT voice, never pt-BR.
  */
+import { loadNetworkVoicePreference } from './storage';
+
 // Languages with pre-rendered audio under public/audio/<lang>/<id>.m4a (npm run generate:audio).
 const RECORDED_LANGS = new Set(['pt-PT']);
 
@@ -35,10 +37,19 @@ const normTag = (t: string): string => t.replace('_', '-').toLowerCase();
  * Exact regional match only. Android Chrome reports tags as `pt_PT`; a
  * same-language voice of another region (pt-BR) is never substituted.
  */
-type Voice = { lang: string };
+type Voice = { lang: string; localService?: boolean };
 
-export function pickVoice<T extends Voice>(voices: T[], lang: string): T | null {
-  return voices.find((v) => normTag(v.lang) === normTag(lang)) ?? null;
+/**
+ * Prefers an on-device voice. A network voice (`localService === false`) sends the
+ * word to the browser vendor, so it is used only when the learner opted in (spec Q10).
+ */
+export function pickVoice<T extends Voice>(
+  voices: T[],
+  lang: string,
+  allowNetwork = false
+): T | null {
+  const exact = voices.filter((v) => normTag(v.lang) === normTag(lang));
+  return exact.find((v) => v.localService !== false) ?? (allowNetwork ? (exact[0] ?? null) : null);
 }
 
 function speak(term: string, lang: string): void {
@@ -46,10 +57,13 @@ function speak(term: string, lang: string): void {
   const synth = window.speechSynthesis;
 
   const say = (): void => {
+    const allowNetwork = loadNetworkVoicePreference();
+    const voice = pickVoice(synth.getVoices(), lang, allowNetwork);
+    // No on-device voice and no opt-in: the browser's own pick could be a network voice, so stay silent (Q10).
+    if (!voice && !allowNetwork) return;
     const utterance = new SpeechSynthesisUtterance(term);
-    utterance.lang = lang; // no exact voice: the browser's own pick for this tag (degraded, not silent)
+    utterance.lang = lang; // opted in but no exact voice: the browser's own pick for this tag
     utterance.rate = 0.9;
-    const voice = pickVoice(synth.getVoices(), lang);
     if (voice) utterance.voice = voice;
     synth.speak(utterance);
   };
