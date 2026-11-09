@@ -16,6 +16,7 @@
     "check:links": "node scripts/check-links.mjs",
     "validate:content": "astro sync && node --experimental-strip-types scripts/validate-content-integrity.ts",
     "report:coverage": "node --experimental-strip-types scripts/report-concept-coverage.ts",
+    "check:item-ids": "node --experimental-strip-types scripts/check-item-ids.ts",
     "check:coverage": "node --experimental-strip-types scripts/check-concept-coverage.ts",
     "test": "vitest --run --coverage",
     "test:integration": "vitest --run --config vitest.integration.config.ts",

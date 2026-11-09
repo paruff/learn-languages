@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import { pairRealisations } from './pairing';
 import {
   checkRealisationReferences,
   checkVocabularyParity,
@@ -245,5 +246,43 @@ describe('checkImageCredits', () => {
 
   it('ignores credit rows that are not referenced', () => {
     expect(checkImageCredits([], ['agua.webp'])).toEqual([]);
+  });
+});
+
+describe('sense tagging fixture: ser/estar (spec C13)', () => {
+  const ref = (lang: string, a: [string, string, string], b: [string, string, string]) => ({
+    file: `realisations/${lang}/a1-be-001.yaml`,
+    nodeId: 'A1-BE-001',
+    lang,
+    items: [a, b].map(([id, term, translation], i) => ({
+      id,
+      concept: i === 0 ? 'be-permanent' : 'be-state',
+      term,
+      translation,
+    })),
+  });
+  const refs = [
+    ref('en-GB', ['en-1', 'to be (permanent)', 'ser'], ['en-2', 'to be (state)', 'estar']),
+    ref('es-ES', ['es-1', 'ser', 'to be (permanent)'], ['es-2', 'estar', 'to be (state)']),
+  ];
+
+  it('two senses sharing one English gloss are valid when their slugs carry a sense tag', () => {
+    expect(checkConcepts(refs)).toEqual([]);
+    expect(checkPairAlignment(refs)).toEqual([]);
+  });
+
+  it('pairing matches ser to the permanent sense and estar to the state sense', () => {
+    const toLike = (r: (typeof refs)[number]) => ({
+      nodeId: r.nodeId,
+      lang: r.lang,
+      vocabulary: r.items.map((i) => ({
+        ...i,
+        example: '',
+        exampleTranslation: '',
+      })),
+    });
+    const paired = pairRealisations(refs.map(toLike), 'en-GB', 'es-ES');
+    const byConcept = Object.fromEntries(paired.map((p) => [p.target.term, p.source.term]));
+    expect(byConcept).toEqual({ ser: 'to be (permanent)', estar: 'to be (state)' });
   });
 });

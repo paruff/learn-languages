@@ -14,6 +14,21 @@ describe('recordedAudioPath', () => {
 
 const v = (lang: string) => ({ lang });
 
+describe('pickVoice network voices (Q10)', () => {
+  const local = { lang: 'pt-PT', localService: true };
+  const net = { lang: 'pt-PT', localService: false };
+  it('prefers an on-device voice over a network one', () => {
+    expect(pickVoice([net, local], 'pt-PT')).toBe(local);
+  });
+  it('ignores a network-only voice unless the learner opted in', () => {
+    expect(pickVoice([net], 'pt-PT')).toBeNull();
+    expect(pickVoice([net], 'pt-PT', true)).toBe(net);
+  });
+  it('treats a voice that does not say localService as on-device', () => {
+    expect(pickVoice([{ lang: 'pt-PT' }], 'pt-PT')).toEqual({ lang: 'pt-PT' });
+  });
+});
+
 describe('pickVoice', () => {
   it('matches Android Chrome underscore tags (pt_PT)', () => {
     const pt = v('pt_PT');
@@ -69,6 +84,7 @@ describe('pronounce (Q3)', () => {
   afterEach(() => {
     vi.useRealTimers();
     vi.unstubAllGlobals();
+    window.localStorage.clear();
     delete (window as { speechSynthesis?: unknown }).speechSynthesis;
   });
 
@@ -82,7 +98,8 @@ describe('pronounce (Q3)', () => {
     expect(u.voice).toEqual({ lang: 'pt_PT' });
   });
 
-  it('without an exact voice, still speaks with the lang tag and no substituted voice', () => {
+  it('opted in, without an exact voice, still speaks with the lang tag and no substituted voice', () => {
+    window.localStorage.setItem('tts-network', '1');
     synth.voices = [{ lang: 'pt-BR' }];
     pronounce('obrigado', 'pt-PT');
     expect(synth.spoken[0].lang).toBe('pt-PT');
@@ -100,7 +117,8 @@ describe('pronounce (Q3)', () => {
     expect(synth.removeEventListener).toHaveBeenCalledWith('voiceschanged', expect.any(Function));
   });
 
-  it('speaks after 500 ms if the voices never announce themselves', () => {
+  it('speaks after 500 ms if the voices never announce themselves (opted in)', () => {
+    window.localStorage.setItem('tts-network', '1');
     synth.voices = [];
     pronounce('olá', 'pt-PT');
     vi.advanceTimersByTime(500);
@@ -143,5 +161,19 @@ describe('pronounce (Q3)', () => {
     await Promise.resolve();
     expect(synth.spoken).toHaveLength(1);
     expect(synth.spoken[0].lang).toBe('pt-PT');
+  });
+
+  it('Q10: stays silent when only a network voice exists and the learner has not opted in', () => {
+    synth.voices = [{ lang: 'pt-PT', localService: false } as { lang: string }];
+    pronounce('obrigado', 'pt-PT');
+    expect(synth.spoken).toHaveLength(0);
+  });
+
+  it('Q10: uses the network voice after the learner opts in', () => {
+    synth.voices = [{ lang: 'pt-PT', localService: false } as { lang: string }];
+    window.localStorage.setItem('tts-network', '1');
+    pronounce('obrigado', 'pt-PT');
+    expect(synth.spoken).toHaveLength(1);
+    window.localStorage.clear();
   });
 });

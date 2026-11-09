@@ -1,0 +1,2 @@
+# Item IDs a human has acknowledged as retired, or whose term change is a typo fix (spec C12).
+# One ID per line. Anything else that changes or removes a released ID fails `npm run check:item-ids`.

@@ -157,3 +157,31 @@ test('a stale saved language pair does not produce a 404 link on the home page',
   const href = await page.locator('a[data-pair-path]').first().getAttribute('href');
   expect(href).toContain('/en-GB/pt-PT/');
 });
+
+// Spec Q11: the pair is resolved while the page parses; without JS the default pair and plain links remain.
+test.describe('pair before paint (Q11)', () => {
+  test('a saved pair is applied by DOMContentLoaded, with no later swap', async ({ page }) => {
+    await page.addInitScript(() =>
+      window.localStorage.setItem(
+        'pairPreference',
+        JSON.stringify({ sourceLang: 'en-GB', targetLang: 'es-ES' })
+      )
+    );
+    await page.goto(HOME, { waitUntil: 'domcontentloaded' });
+    const href = await page.locator('a[data-pair-path]').first().getAttribute('href');
+    expect(href).toContain('/en-GB/es-ES/');
+  });
+
+  test.describe('without JavaScript', () => {
+    test.use({ javaScriptEnabled: false });
+    test('the default pair is linked and every other pair is a plain link', async ({ page }) => {
+      await page.goto(HOME);
+      const href = await page.locator('a[data-pair-path]').first().getAttribute('href');
+      expect(href).toContain('/en-GB/pt-PT/');
+      await expect(page.getByRole('navigation', { name: 'All language pairs' })).toBeVisible();
+      await expect(
+        page.getByRole('navigation', { name: 'All language pairs' }).getByRole('link').nth(1)
+      ).toBeVisible();
+    });
+  });
+});

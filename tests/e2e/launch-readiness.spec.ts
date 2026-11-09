@@ -30,6 +30,28 @@ test.describe('launch readiness', () => {
     await context.setOffline(false);
   });
 
+  test('an unvisited lesson of the open level opens offline (spec Q12)', async ({
+    page,
+    context,
+    browserName,
+  }) => {
+    test.skip(browserName !== 'chromium', 'Service-worker offline emulation is Chromium-only');
+    await page.goto('/learn-languages/en-GB/pt-PT/lessons/');
+    await page.evaluate(() => navigator.serviceWorker.ready);
+    await page.reload(); // controlled load: the page now posts the precache request
+    const lessonUrl = await page
+      .locator('details[open] a.lesson-index__item')
+      .nth(2)
+      .evaluate((a) => (a as HTMLAnchorElement).href);
+    await expect
+      .poll(() => page.evaluate(async (u) => !!(await caches.match(u)), lessonUrl))
+      .toBe(true);
+    await context.setOffline(true);
+    await page.goto(lessonUrl);
+    await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
+    await context.setOffline(false);
+  });
+
   test('unknown paths show an in-app 404 with a way back', async ({ page }) => {
     const response = await page.goto('/learn-languages/no-such-page/');
     expect(response?.status()).toBe(404);

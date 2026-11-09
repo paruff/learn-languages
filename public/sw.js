@@ -1,7 +1,6 @@
-// Offline support (spec Q7, JTBD-1 "10 minutes on the bus, no signal").
-// Runtime caching only — no precache manifest: a page works offline once it
-// has been visited online. ponytail: no precache; add a build-time manifest
-// if learners need pages offline they've never opened.
+// Offline support (spec Q7, Q12). Pages and assets are cached as they are visited; in
+// addition the lessons page asks us to precache the open level's lessons (message
+// below), so they work offline without having been opened first. Same-origin only.
 const CACHE = 'acquira-v1';
 
 self.addEventListener('install', () => self.skipWaiting());
@@ -12,6 +11,28 @@ self.addEventListener('activate', (event) => {
       .keys()
       .then((keys) => Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k))))
       .then(() => self.clients.claim())
+  );
+});
+
+self.addEventListener('message', (event) => {
+  const data = event.data;
+  if (!data || data.type !== 'precache' || !Array.isArray(data.urls)) return;
+  event.waitUntil(
+    caches.open(CACHE).then((cache) =>
+      Promise.all(
+        data.urls
+          .filter(
+            (u) =>
+              typeof u === 'string' &&
+              new URL(u, self.location.href).origin === self.location.origin
+          )
+          .map(async (u) => {
+            if (await cache.match(u)) return;
+            const response = await fetch(u).catch(() => null);
+            if (response && response.ok) await cache.put(u, response);
+          })
+      )
+    )
   );
 });
 

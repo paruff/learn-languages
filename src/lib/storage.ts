@@ -26,6 +26,17 @@ export function writeItem(key: string, value: string): boolean {
   }
 }
 
+const NETWORK_VOICE_KEY = 'tts-network';
+
+/** Spec Q10: online voices send the word to the browser vendor, so they are opt-in. */
+export function loadNetworkVoicePreference(): boolean {
+  return readItem(NETWORK_VOICE_KEY) === '1';
+}
+
+export function saveNetworkVoicePreference(allow: boolean): void {
+  writeItem(NETWORK_VOICE_KEY, allow ? '1' : '0');
+}
+
 export function readJson<T>(key: string): T | null {
   const raw = readItem(key);
   if (!raw) return null;
@@ -68,14 +79,34 @@ export function loadState(
   return isSRSState(stored) ? stored : createInitialState();
 }
 
+/** Version of the stored-state format, also written to backups (spec S11). */
+export const SCHEMA_VERSION = 1;
+const SCHEMA_KEY = 'schema-version';
+
+/** True when storage was written by a newer app version: older code must not overwrite it. */
+export function isNewerSchema(): boolean {
+  return Number(readItem(SCHEMA_KEY) ?? 0) > SCHEMA_VERSION;
+}
+
+/** Writes a learner-progress value (spec S9: the caller must tell the learner if this returns false). */
+export function writeProgress(key: string, value: string): boolean {
+  if (isNewerSchema()) return false;
+  if (readItem(SCHEMA_KEY) === null) writeItem(SCHEMA_KEY, String(SCHEMA_VERSION));
+  return writeItem(key, value);
+}
+
+/** Returns false when the state could not be saved (full, blocked, or newer schema). */
 export function saveState(
   sourceLang: string,
   targetLang: string,
   direction: ReviewDirection,
   itemId: string,
   state: SRSState
-): void {
-  writeItem(storageKey(sourceLang, targetLang, direction, itemId), JSON.stringify(state));
+): boolean {
+  return writeProgress(
+    storageKey(sourceLang, targetLang, direction, itemId),
+    JSON.stringify(state)
+  );
 }
 
 /** True once a card has been graded at least once in this pair + direction. */
@@ -190,7 +221,7 @@ const OWNED_KEY_PREFIXES = [
   'intro:',
   'new-cap:',
 ];
-const OWNED_EXACT_KEYS = ['pairPreference'];
+const OWNED_EXACT_KEYS = ['pairPreference', 'schema-version', 'tts-network'];
 
 function isOwnedKey(key: string): boolean {
   return OWNED_EXACT_KEYS.includes(key) || OWNED_KEY_PREFIXES.some((p) => key.startsWith(p));
@@ -198,7 +229,7 @@ function isOwnedKey(key: string): boolean {
 
 export interface ProgressExport {
   app: 'acquira';
-  version: 1;
+  version: number;
   exportedAt: string;
   data: Record<string, string>;
 }
@@ -214,7 +245,7 @@ export function exportProgress(): ProgressExport {
   } catch {
     // Storage unavailable — export whatever was read so far (likely nothing).
   }
-  return { app: 'acquira', version: 1, exportedAt: new Date().toISOString(), data };
+  return { app: 'acquira', version: SCHEMA_VERSION, exportedAt: new Date().toISOString(), data };
 }
 
 export type ImportResult = { ok: true; count: number } | { ok: false; error: string };
@@ -260,6 +291,9 @@ export function importProgress(json: string): ImportResult {
   const file = parsed as Partial<ProgressExport> | null;
   if (typeof file !== 'object' || file === null || file.app !== 'acquira') {
     return { ok: false, error: 'not-acquira' };
+  }
+  if (typeof file.version === 'number' && file.version > SCHEMA_VERSION) {
+    return { ok: false, error: 'newer-version' };
   }
   const data = file.data;
   if (typeof data !== 'object' || data === null) return { ok: false, error: 'no-data' };

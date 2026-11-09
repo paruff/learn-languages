@@ -241,4 +241,14 @@ const targetName = languageName(targetLang);
       <span class="lesson-index__progress-label">${p.masteredItems}/${p.totalItems}</span>
     `;
   }
+
+  // Q12: ask the service worker to cache the open level's lessons for offline use.
+  if ('serviceWorker' in navigator) {
+    const urls = [
+      ...document.querySelectorAll<HTMLAnchorElement>('details[open] a.lesson-index__item'),
+    ].map((a) => a.href);
+    navigator.serviceWorker.ready
+      .then((reg) => reg.active?.postMessage({ type: 'precache', urls }))
+      .catch(() => {}); // offline support is an enhancement
+  }
 </script>
