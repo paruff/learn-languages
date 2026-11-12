@@ -50,7 +50,7 @@ repos:
         name: prettier check (root docs)
         entry: npx prettier --check
         language: system
-        files: ^((spec|intent|DESIGN|REVIEW|AGENTS|CHANGELOG|discovery-brief)\.md|plans/README\.md|docs/alternatives-considered\.md)$
+        files: ^((spec|intent|DESIGN|REVIEW|AGENTS|CHANGELOG)\.md|plans/README\.md|docs/alternatives-considered\.md)$
       - id: typecheck
         name: typecheck (tsc --noEmit)
         entry: npm run typecheck

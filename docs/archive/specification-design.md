@@ -546,7 +546,7 @@ export function on(event: string, handler: (e: CustomEvent) => void) {
 
 ## 8. UI/UX Design Specification
 
-Replaced by [`DESIGN.md`](DESIGN.md) (principles, tokens, components, interaction patterns). The original section described Vue islands and tokens that no longer match the code; see git history for it.
+Replaced by [`DESIGN.md`](../../DESIGN.md) (principles, tokens, components, interaction patterns). The original section described Vue islands and tokens that no longer match the code; see git history for it.
 
 ---
 

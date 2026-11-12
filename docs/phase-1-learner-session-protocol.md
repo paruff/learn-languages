@@ -16,7 +16,7 @@ Don't recruit people who already know Portuguese — the point is testing whethe
 - **Screen:** an adult, not already a Portuguese speaker, with 5–15 minutes free on a phone or laptop they own, who is willing to be observed once and emailed on day 2 and day 7. Recruit through your own contacts; the observer is the owner or someone they name.
 - **Consent line (read aloud, once):** "I'm watching how the site works, not testing you. I'll note what you do and say, and I'll email you in two days and a week. Nothing is recorded; you can stop any time."
 - **Anonymity:** label learners L1, L2, L3… in everything written down and posted on #21. No names, emails, ages or employers in the issue.
-- **Device checklist** (`docs/tester-readiness.md`) is run and the S8 iOS Safari check (plans row 1.5) is logged first.
+- **Device checklist** (`docs/tester-readiness.md`) is run and logged first (plans row T1.2). It includes the S8 iOS Safari storage check and the regional-voice check.
 
 ## What to give them
 

@@ -287,6 +287,27 @@ G3 would then hold 5 rows and G4 would hold 7.
 6. **Scope.** Accept the cut, merge and defer list in finding 14, or name the rows to keep?
 7. **The board.** I cannot read or change it from this session. Do you want Phase 3 to list board moves for you to make by hand?
 
+## Owner decisions (2026-11-12) and what Phase 2 changed
+
+| Question   | Answer                                       | Applied in Phase 2                                                                                                                           |
+| ---------- | -------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. #266    | Learner data and the verdict are coming soon | Row 1.4 still cites #266; reopening it is a Phase 3 item                                                                                     |
+| 2. Rule 1  | Keep it as a hard gate                       | FSRS exception written in the G3 section of `plans/README.md`                                                                                |
+| 3. G4 gate | Use the measurable wording                   | Rule 1 and the G4 heading: row 1.4 positive and at least 2 observed learners with a week-2 return (S6a)                                      |
+| 4. #267    | It belongs to G1                             | No document change; it is already in the G1 milestone. Its body's "Plan: row 3.8" is a Phase 3 item                                          |
+| 5. Archive | Archive both; separate PR for `intent.md`    | Both files moved to `docs/archive/`; links fixed in `spec.md`, `AGENTS.md`, `README.md` and six other files                                  |
+| 6. Scope   | Finding 14 accepted                          | Row 2.13 deleted; rows 1.5 and 2.6 merged into T1.2; rows 2.8, 3.5, 3.6, 3.7 moved to a new "Deferred" section; rows D.3, 3.10 and 5.1 added |
+| 7. Board   | List the moves                               | Phase 3                                                                                                                                      |
+
+Also applied: findings 5 and 6 (stale plan and spec rows; spec is now version 1.8), the cross-document fixes in finding 6 except `intent.md`, and the exit-criterion wording for rows 2.4 and 3.2 from finding 13. `plans/2026-11-12-fsrs-scheduler.md` moved to `plans/archive/`.
+
+Not applied, and why:
+
+- Rows D.3, 3.10 and 5.1 say "new (audit 2026-11-12)" in the Issue column. Their issues are created in Phase 3, and the numbers are filled in then.
+- No links were added for the unsourced platform claims in finding 11, because I could not check any link from this environment.
+- Rows 2.7 and 3.3 keep their exit criteria (finding 13); each waits on an owner answer or on data.
+- `intent.md` is untouched on this branch. Its two links to `discovery-brief.md` and the "S1–S8" wording are fixed in a separate `docs(intent):` PR, which should merge after this branch.
+
 ## Phase 3 draft
 
 Not written yet. Issue and milestone changes will be listed here after Phase 2 is approved. Nothing on GitHub has been changed.

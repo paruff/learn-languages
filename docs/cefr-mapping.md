@@ -1,6 +1,6 @@
 # CEFR Mapping — A1–C2 Inventory
 
-Tracks the CEFR A1–C2 Can-Do statement inventory against `cefr-nodes` and `realisations` content, per `specification-design.md` §5.3 (CEFR Mapping Process) and issues #5, #50, #51, #52, #53, #54, #55.
+Tracks the CEFR A1–C2 Can-Do statement inventory against `cefr-nodes` and `realisations` content, per the original mapping process (`docs/archive/specification-design.md` §5.3, archived) and issues #5, #50, #51, #52, #53, #54, #55.
 
 **Source:** [Referencial Camões PLE](https://www.instituto-camoes.pt/images/REFERENCIAL_ebook.pdf) (Direção de Serviços de Língua e Cultura, Camões — Instituto da Cooperação e da Língua, I.P., 1st ed., September 2017, ISBN 978-989-8751-10-2). Freely downloadable — no access blocker, corrected from an earlier version of this doc that assumed otherwise. One real limitation remains: the printed/PDF edition explicitly states it presents only an _illustrative excerpt_ of each inventory ("optou-se por apresentar apenas uma parte de cada um dos inventários, a título ilustrativo", p.10) — the complete inventories live behind a searchable web interface at the [Centro Virtual Camões](https://www.instituto-camoes.pt/activity/centro-virtual/referencial-camoes-ple) that isn't fetchable from here. So this doc now reflects the real category _structure_ (authoritative) plus everything the PDF excerpt actually shows, not a claim of 100% vocabulary completeness.
 
