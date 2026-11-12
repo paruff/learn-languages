@@ -1,6 +1,7 @@
 nodeId: C1-ACADEMIC-001
 lang: es-ES
 vocabulary:
+  # REVIEW #185 (B): Pre-existing item. "disertación" glossed "dissertation": false friend (see B2-SPOKEN-001-004). Consider: tesina / trabajo de fin de máster.
   - id: es-ES-C1-ACADEMIC-001-001
     concept: 'dissertation'
     term: 'disertación'
@@ -49,6 +50,7 @@ vocabulary:
     gender: masculine
     example: 'El rigor académico es esencial en una disertación.'
     exampleTranslation: 'Academic rigour is essential in a dissertation.'
+  # REVIEW #185 (B): "tesis académica" for "academic dissertation": Spain distinguishes tesina, trabajo de fin de grado or máster, and tesis doctoral. Consider: tesina.
   - id: es-ES-C1-ACADEMIC-001-007
     concept: 'academic-dissertation'
     term: 'tesis académica'
@@ -73,6 +75,7 @@ vocabulary:
     gender: masculine
     example: 'El marco teórico sustenta todo el análisis posterior.'
     exampleTranslation: 'The theoretical framework underpins all subsequent analysis.'
+  # REVIEW #185 (C): "recabar pruebas" with a chapter as subject. Consider: reunir pruebas.
   - id: es-ES-C1-ACADEMIC-001-010
     concept: 'to-gather-evidence'
     term: 'recabar pruebas'

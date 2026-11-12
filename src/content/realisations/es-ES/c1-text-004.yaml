@@ -25,6 +25,7 @@ vocabulary:
     gender: feminine
     example: 'Puedo identificar las afirmaciones principales del autor.'
     exampleTranslation: "I can identify the author's main claims."
+  # REVIEW #185 (C): Pre-existing item. "evidencia" for "evidence" is an anglicism in careful usage. Consider: pruebas.
   - id: es-ES-C1-TEXT-004-004
     concept: 'evidence'
     term: 'evidencia'

@@ -27,6 +27,7 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · Versioning: 
 
 ### Fixed
 
+- es-ES B1–C2: spelling and agreement errors corrected in eleven items found by an item-by-item audit (for example "punkt de vista" → "punto de vista", "matisar" → "matizar", "rétor" → "retórica"). 83 further items are marked for human review in `docs/es-cefr-review-queue.md`; PCIC review is still pending (#185).
 - "Mastered" now means a card scheduled at least 21 days out (spec L9, intent SIG4), not two passes in a row (about 6 days). Mastery percentages on Progress, Lessons and the session summary will read lower than before.
 - The UI-grade to SM-2 mapping moved to `gradeToQuality` in `src/utils/srs.ts` with a test (Good keeps ease, Easy raises it).
 - A "day" now follows the learner's local midnight, not UTC: the daily new-word cap, grade log, reflection, checkpoint dates and the return-visit metric no longer split one evening of study across two days.

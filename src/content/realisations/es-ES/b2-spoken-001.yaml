@@ -7,8 +7,9 @@ vocabulary:
     translation: 'extended speech'
     partOfSpeech: phrase
     gender: masculine
-    example: 'Puedo seguir discurso extensos sobre temas académicos.'
+    example: 'Puedo seguir discursos extensos sobre temas académicos.'
     exampleTranslation: 'I can follow extended speech on academic topics.'
+  # REVIEW #185 (C): Pre-existing item. Gloss "lecture / conference": "conferencia" is a lecture; a conference is "congreso".
   - id: es-ES-B2-SPOKEN-001-002
     concept: 'lecture'
     term: 'conferencia'
@@ -25,6 +26,7 @@ vocabulary:
     gender: feminine
     example: 'Puedo seguir una línea de argumentación compleja.'
     exampleTranslation: 'I can follow a complex line of argument.'
+  # REVIEW #185 (B): Pre-existing item. Concept "dissertation", gloss "dissertation / lecture": "disertación" is a formal talk, not a university dissertation.
   - id: es-ES-B2-SPOKEN-001-004
     concept: 'dissertation'
     term: 'disertación'

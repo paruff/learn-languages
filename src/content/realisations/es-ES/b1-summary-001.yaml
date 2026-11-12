@@ -9,6 +9,7 @@ vocabulary:
     gender: n/a
     example: 'Resume los principales resultados, por favor.'
     exampleTranslation: 'Please summarise the main findings.'
+  # REVIEW #185 (A): "una fuente de datos" means "a data source", not "a factual source" (fr-FR "une source factuelle"). Already listed in es-cefr-mapping.md. Consider: una fuente objetiva / una fuente fiable.
   - id: es-ES-B1-SUMMARY-001-002
     concept: 'a-factual-source'
     term: 'una fuente de datos'

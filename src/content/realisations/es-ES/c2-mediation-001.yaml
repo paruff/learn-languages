@@ -1,6 +1,7 @@
 nodeId: C2-MEDIATION-001
 lang: es-ES
 vocabulary:
+  # REVIEW #185 (C): Pre-existing item. The example uses "intermediario", not the term "intermediación".
   - id: es-ES-C2-MEDIATION-001-001
     concept: 'mediation'
     term: 'intermediación'

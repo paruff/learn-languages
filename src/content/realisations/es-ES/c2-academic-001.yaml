@@ -25,6 +25,7 @@ vocabulary:
     gender: feminine
     example: 'Mi escritura tiene una estructura coherente y convincente.'
     exampleTranslation: 'My writing has a coherent and convincing structure.'
+  # REVIEW #185 (C): Pre-existing item. "repertorio de lenguaje" is unidiomatic. Consider: repertorio lingüístico.
   - id: es-ES-C2-ACADEMIC-001-004
     concept: 'language-repertoire'
     term: 'repertorio de lenguaje'

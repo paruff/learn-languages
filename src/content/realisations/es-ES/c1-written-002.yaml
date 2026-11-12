@@ -25,6 +25,7 @@ vocabulary:
     gender: masculine
     example: 'Selecciono el estilo adecuado según la publicación.'
     exampleTranslation: 'I select the appropriate style according to the publication.'
+  # REVIEW #185 (C): Pre-existing item. "publicación objetivo" for "target publication". Consider: publicación de destino.
   - id: es-ES-C1-WRITTEN-002-004
     concept: 'target-publication'
     term: 'publicación objetivo'

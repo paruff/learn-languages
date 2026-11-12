@@ -80,6 +80,7 @@ vocabulary:
     gender: masculine
     example: 'Abordo temas complejos con seguridad y competencia.'
     exampleTranslation: 'I address complex subjects with confidence and competence.'
+  # REVIEW #185 (C): "rigurosa" (rigorous) for "accurate". Consider: exposición precisa.
   - id: es-ES-C2-ACADEMIC-002-011
     concept: 'accurate-presentation'
     term: 'exposición rigurosa'

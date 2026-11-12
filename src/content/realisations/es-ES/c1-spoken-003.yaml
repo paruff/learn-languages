@@ -24,6 +24,7 @@ vocabulary:
     partOfSpeech: phrase
     example: 'Sé estructurar el discurso de forma coherente.'
     exampleTranslation: 'I know how to structure discourse coherently.'
+  # REVIEW #185 (C): Pre-existing item. Example uses "dispositivos" for linguistic devices (calque); see 006.
   - id: es-ES-C1-SPOKEN-003-004
     concept: 'emphasis'
     term: 'énfasis'
@@ -40,6 +41,7 @@ vocabulary:
     gender: feminine
     example: 'Mantengo una fluidez constante incluso en temas difíciles.'
     exampleTranslation: 'I maintain constant fluency even on difficult topics.'
+  # REVIEW #185 (C): Pre-existing item. "dispositivos de estructuración" is a calque of "structuring devices". Consider: mecanismos de organización del discurso.
   - id: es-ES-C1-SPOKEN-003-006
     concept: 'structuring-devices'
     term: 'dispositivos de estructuración'
@@ -48,6 +50,7 @@ vocabulary:
     gender: masculine
     example: 'Domino diversos dispositivos de estructuración del discurso.'
     exampleTranslation: 'I master various discourse structuring devices.'
+  # REVIEW #185 (C): Example "dio en el clavo del debate" is unnatural; the idiom takes no complement. Consider: Con esa pregunta dio en el clavo..
   - id: es-ES-C1-SPOKEN-003-007
     concept: 'to-hit-the-nail-on-the-head'
     term: 'dar en el clavo'
@@ -83,6 +86,7 @@ vocabulary:
     partOfSpeech: phrase
     example: 'Supo cambiar de registro cuando el jefe entró en la sala.'
     exampleTranslation: 'He knew how to switch register when the boss came into the room.'
+  # REVIEW #185 (B): "mantener el ritmo" (to keep up the pace) for "to keep the ball rolling"; the exampleTranslation also says "pace". Consider: mantener viva la conversación.
   - id: es-ES-C1-SPOKEN-003-012
     concept: 'to-keep-the-ball-rolling'
     term: 'mantener el ritmo'

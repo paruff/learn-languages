@@ -26,11 +26,11 @@ vocabulary:
     exampleTranslation: 'I must evaluate the arguments for and against.'
   - id: es-ES-C1-ARGUE-002-004
     concept: 'nuances'
-    term: 'matises'
+    term: 'matices'
     translation: 'nuances'
     partOfSpeech: noun
     gender: masculine
-    example: 'Expreso matises sutiles en mi argumentación.'
+    example: 'Expreso matices sutiles en mi argumentación.'
     exampleTranslation: 'I express subtle nuances in my argumentation.'
   - id: es-ES-C1-ARGUE-002-005
     concept: 'to-highlight-key-points'

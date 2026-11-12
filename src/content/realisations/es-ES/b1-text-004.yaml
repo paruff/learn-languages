@@ -1,6 +1,7 @@
 nodeId: B1-TEXT-004
 lang: es-ES
 vocabulary:
+  # REVIEW #185 (B): "texto conectado" is a calque; the example also uses "temas familiares" (see B1-SOCIAL-002-005). Consider: texto cohesionado / texto bien enlazado.
   - id: es-ES-B1-TEXT-004-001
     concept: 'connected-text'
     term: 'texto conectado'

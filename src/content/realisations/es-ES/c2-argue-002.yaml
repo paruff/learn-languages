@@ -1,6 +1,7 @@
 nodeId: C2-ARGUE-002
 lang: es-ES
 vocabulary:
+  # REVIEW #185 (C): Pre-existing item. The example ("en todos los registros") does not contain or illustrate "registro formal".
   - id: es-ES-C2-ARGUE-002-001
     concept: 'formal-register'
     term: 'registro formal'
@@ -25,6 +26,7 @@ vocabulary:
     gender: feminine
     example: 'Puedo desarrollar y dirigir tanto mis opiniones como las ajenas.'
     exampleTranslation: "I can develop and steer both my own and others' views."
+  # REVIEW #185 (C): "discusión" often means a quarrel in Spain. Consider: debate avanzado.
   - id: es-ES-C2-ARGUE-002-004
     concept: 'advanced-discussion'
     term: 'discusión avanzada'

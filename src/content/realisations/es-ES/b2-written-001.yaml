@@ -56,6 +56,7 @@ vocabulary:
     partOfSpeech: phrase
     example: 'Puedo escribir textos claros y detallados sobre diversos temas.'
     exampleTranslation: 'I can write clear and detailed texts on various topics.'
+  # REVIEW #185 (B): "desarrollar el escrito" is awkward, as is the shared gloss "to develop the writing". Consider: desarrollar el texto.
   - id: es-ES-B2-WRITTEN-001-008
     concept: 'to-develop-the-writing'
     term: 'desarrollar el escrito'

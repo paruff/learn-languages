@@ -33,6 +33,7 @@ vocabulary:
     gender: n/a
     example: 'Habló con fluidez y seguridad.'
     exampleTranslation: 'She spoke with fluency and confidence.'
+  # REVIEW #185 (C): "hacer llegar un mensaje" for "to deliver a message". Consider: transmitir un mensaje.
   - id: es-ES-B2-SPOKEN-004-005
     concept: 'to-deliver-a-message'
     term: 'hacer llegar un mensaje'

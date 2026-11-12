@@ -38,7 +38,7 @@ vocabulary:
     exampleTranslation: 'I respectfully disagree with your point of view.'
   - id: es-ES-B1-OPINION-002-006
     concept: 'point-of-view'
-    term: 'punkt de vista'
+    term: 'punto de vista'
     translation: 'point of view'
     partOfSpeech: phrase
     gender: masculine

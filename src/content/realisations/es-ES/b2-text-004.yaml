@@ -17,6 +17,7 @@ vocabulary:
     gender: feminine
     example: 'Las conclusiones del texto están bien fundamentadas.'
     exampleTranslation: 'The conclusions of the text are well founded.'
+  # REVIEW #185 (B): Pre-existing item. I am not sure "señalización" is used for signposting in a text. Consider: marcadores discursivos.
   - id: es-ES-B2-TEXT-004-003
     concept: 'signposting'
     term: 'señalización'

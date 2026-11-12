@@ -17,6 +17,7 @@ vocabulary:
     gender: n/a
     example: '¿Podría confirmar la dirección?'
     exampleTranslation: 'Could you confirm the address?'
+  # REVIEW #185 (C): "información objetiva" (objective) for "factual information". Consider: datos concretos / información factual.
   - id: es-ES-B1-EXCHANGE-001-003
     concept: 'factual-information'
     term: 'información objetiva'

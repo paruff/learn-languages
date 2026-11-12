@@ -69,6 +69,7 @@ vocabulary:
     gender: feminine
     example: 'La modestia retórica permite presentar ideas fuertes sin hostilidad.'
     exampleTranslation: 'Rhetorical modesty makes it possible to present strong ideas without hostility.'
+  # REVIEW #185 (B): Concept is "reserve" (restraint; de-DE "Zurückhaltung"); the plural "reservas" and the example mean "reservations" (doubts). Consider: mostrar reserva / mostrarse reservado.
   - id: es-ES-C1-ARGUE-003-010
     concept: 'to-show-reserve'
     term: 'mostrar reservas'
@@ -76,6 +77,7 @@ vocabulary:
     partOfSpeech: phrase
     example: 'Mostró reservas ante los pronósticos más optimistas.'
     exampleTranslation: 'He showed reservations about the most optimistic forecasts.'
+  # REVIEW #185 (A): "resguardar la opinión" is not an expression I can confirm, and the concept itself ("to guard one's opinion", pt-PT "salvaguardar a opinião") is unclear: hedging? Consider: curarse en salud / matizar con salvedades.
   - id: es-ES-C1-ARGUE-003-011
     concept: 'to-guard-one-s-opinion'
     term: 'resguardar la opinión'

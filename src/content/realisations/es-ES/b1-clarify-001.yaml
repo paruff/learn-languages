@@ -25,6 +25,7 @@ vocabulary:
     gender: n/a
     example: 'Déjame reformular lo que has dicho.'
     exampleTranslation: 'Let me rephrase what you said.'
+  # REVIEW #185 (C): "comprobar la comprensión" is a literal rendering of "to check understanding". Consider: comprobar que se ha entendido.
   - id: es-ES-B1-CLARIFY-001-004
     concept: 'to-check-understanding'
     term: 'comprobar la comprensión'

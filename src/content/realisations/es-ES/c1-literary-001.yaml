@@ -39,7 +39,7 @@ vocabulary:
     translation: 'subtext'
     partOfSpeech: noun
     gender: masculine
-    example: 'El subtext de la novela es más rico que la trama.'
+    example: 'El subtexto de la novela es más rico que la trama.'
     exampleTranslation: 'The subtext of the novel is richer than the plot.'
   - id: es-ES-C1-LITERARY-001-006
     concept: 'to-interpret'
@@ -56,6 +56,7 @@ vocabulary:
     gender: feminine
     example: 'El poema revela capas de significado con cada relectura.'
     exampleTranslation: 'The poem reveals layers of meaning with every re-reading.'
+  # REVIEW #185 (C): "metáfora continuada" exists as a term; "metáfora extendida" is also used.
   - id: es-ES-C1-LITERARY-001-008
     concept: 'extended-metaphor'
     term: 'metáfora continuada'
