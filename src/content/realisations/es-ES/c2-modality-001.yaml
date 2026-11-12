@@ -57,6 +57,7 @@ vocabulary:
     gender: feminine
     example: 'Mi expresión espontánea es ya precisa y fluida.'
     exampleTranslation: 'My spontaneous expression is now precise and fluent.'
+  # REVIEW #185 (B): "fluidez nativa": "nativo" used as "native-like" is a calque here. Same pattern in C2-MODALITY-003-002 (velocidad nativa), C2-MODALITY-003-008 (habla nativa rápida), C2-PROFESSIONAL-002-005 (comunicación nativa), C2-PROFESSIONAL-002-006 and C2-SOCIAL-001-003 (precisión nativa), C2-PROFESSIONAL-002-008 (vocabulario nativo), C2-SOCIAL-001-001 (fluidez nativa). Consider: fluidez propia de un hablante nativo.
   - id: es-ES-C2-MODALITY-001-008
     concept: 'native-fluency'
     term: 'fluidez nativa'

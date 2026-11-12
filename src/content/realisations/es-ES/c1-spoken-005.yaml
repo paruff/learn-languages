@@ -87,6 +87,7 @@ vocabulary:
     gender: feminine
     example: 'La jerga y las expresiones coloquiales aparecen sin avisar.'
     exampleTranslation: 'Slang and colloquial expressions appear without warning.'
+  # REVIEW #185 (C): Example does not contain or clearly illustrate "interpretar el tono".
   - id: es-ES-C1-SPOKEN-005-012
     concept: 'to-interpret-the-tone'
     term: 'interpretar el tono'

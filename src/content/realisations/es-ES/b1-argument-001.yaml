@@ -41,6 +41,7 @@ vocabulary:
     gender: masculine
     example: 'El texto presenta un contraargumento al final.'
     exampleTranslation: 'The text presents a counterargument at the end.'
+  # REVIEW #185 (C): Example uses "Quedé convencido", not the term "estar convencido"; correct Spanish, but the cloze card cannot blank the term.
   - id: es-ES-B1-ARGUMENT-001-006
     concept: 'to-be-convinced'
     term: 'estar convencido'

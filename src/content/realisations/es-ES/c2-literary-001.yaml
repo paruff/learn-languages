@@ -33,6 +33,7 @@ vocabulary:
     gender: feminine
     example: 'Puedo apreciar las letras de canciones en su complejidad.'
     exampleTranslation: 'I can appreciate song lyrics in their complexity.'
+  # REVIEW #185 (B): Pre-existing item. Term "opiniones en periódicos" means "opinions in newspapers", not "opinion pieces"; its own example says "artículos de opinión", which is item 010.
   - id: es-ES-C2-LITERARY-001-005
     concept: 'opinion-pieces-in-newspapers'
     term: 'opiniones en periódicos'
@@ -80,6 +81,7 @@ vocabulary:
     gender: masculine
     example: 'Comprendo los artículos de opinión con total lucidez.'
     exampleTranslation: 'I understand opinion pieces with full lucidity.'
+  # REVIEW #185 (C): "criterio estético" for "aesthetic discernment"; item 009 uses "discernimiento estético" in its example. Consider: discernimiento estético.
   - id: es-ES-C2-LITERARY-001-011
     concept: 'aesthetic-discernment'
     term: 'criterio estético'

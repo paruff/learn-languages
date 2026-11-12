@@ -1,2 +1,8 @@
 # Item IDs a human has acknowledged as retired, or whose term change is a typo fix (spec C12).
 # One ID per line. Anything else that changes or removes a released ID fails `npm run check:item-ids`.
+# es-ES spelling fixes from the #185 audit (same word, corrected spelling); owner to confirm in review.
+es-ES-B1-OPINION-002-006
+es-ES-B2-SOCIAL-004-006
+es-ES-C1-ARGUE-002-004
+es-ES-C1-ARGUE-004-006
+es-ES-C1-SPOKEN-004-004

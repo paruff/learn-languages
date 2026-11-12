@@ -25,6 +25,7 @@ vocabulary:
     gender: n/a
     example: 'La entrevista incluía una narración breve sobre la guerra.'
     exampleTranslation: 'The interview included a short narrative about the war.'
+  # REVIEW #185 (C): "debate" is more formal than "discussion"; note "discusión" often means an argument in Spain, so this may be the right call. Consider: seguir una conversación.
   - id: es-ES-B1-LISTEN-001-004
     concept: 'to-follow-a-discussion'
     term: 'seguir un debate'
@@ -33,6 +34,7 @@ vocabulary:
     gender: n/a
     example: 'Puedo seguir un debate en español estándar.'
     exampleTranslation: 'I can follow a discussion in standard Spanish.'
+  # REVIEW #185 (B): "bien articulado" can be read as "well structured" rather than "clearly pronounced". Consider: articulado con claridad.
   - id: es-ES-B1-LISTEN-001-005
     concept: 'clearly-articulated'
     term: 'bien articulado'

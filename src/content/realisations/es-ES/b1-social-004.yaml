@@ -53,6 +53,7 @@ vocabulary:
     partOfSpeech: phrase
     example: 'Me gustaría pedirte tu opinión sobre este tema.'
     exampleTranslation: 'I would like to invite your opinion on this topic.'
+  # REVIEW #185 (C): Example "la noticia del tiempo" (the news about the weather) is odd.
   - id: es-ES-B1-SOCIAL-004-008
     concept: 'to-react-to-news'
     term: 'reaccionar ante una noticia'
@@ -67,6 +68,7 @@ vocabulary:
     partOfSpeech: phrase
     example: 'Podemos cambiar de tema con educación si lo prefieres.'
     exampleTranslation: 'We can change the subject politely if you prefer.'
+  # REVIEW #185 (B): "retomar lo dicho" is "to pick up again what was said"; "to follow up" is closer to asking a further question (de-DE "nachhaken", fr-FR "revenir sur le sujet"). Consider: volver sobre lo dicho / hacer una pregunta de seguimiento.
   - id: es-ES-B1-SOCIAL-004-010
     concept: 'to-follow-up'
     term: 'retomar lo dicho'

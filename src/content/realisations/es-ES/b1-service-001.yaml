@@ -41,6 +41,7 @@ vocabulary:
     gender: n/a
     example: 'La sucursal bancaria más cercana cierra a las seis.'
     exampleTranslation: 'The nearest bank branch closes at six.'
+  # REVIEW #185 (C): Listed in es-cefr-mapping.md as worth a check. It reads correct to me ("solucionarlo" = to sort it out); confirm.
   - id: es-ES-B1-SERVICE-001-006
     concept: 'to-sort-it-out'
     term: 'solucionarlo'

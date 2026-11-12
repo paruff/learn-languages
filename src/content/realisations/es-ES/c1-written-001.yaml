@@ -32,6 +32,7 @@ vocabulary:
     gender: masculine
     example: 'El registro adecuado es clave para un buen texto.'
     exampleTranslation: 'The appropriate register is key for a good text.'
+  # REVIEW #185 (C): Pre-existing item. "lector objetivo" for "target reader". Consider: lector destinatario.
   - id: es-ES-C1-WRITTEN-001-005
     concept: 'target-reader'
     term: 'lector objetivo'
@@ -40,6 +41,7 @@ vocabulary:
     gender: masculine
     example: 'Adapto el texto según el lector objetivo.'
     exampleTranslation: 'I adapt the text according to the target reader.'
+  # REVIEW #185 (C): Pre-existing item. Concept "to persuade" realised as "convencer". Consider: persuadir.
   - id: es-ES-C1-WRITTEN-001-006
     concept: 'to-persuade'
     term: 'convencer'

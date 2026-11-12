@@ -56,6 +56,7 @@ vocabulary:
     gender: feminine
     example: 'Consulto fuentes extensas para elaborar un resumen fiel.'
     exampleTranslation: 'I consult extensive sources to produce a faithful summary.'
+  # REVIEW #185 (C): "argumentación diversificada" mirrors an odd shared gloss ("diversified argumentation").
   - id: es-ES-C2-SUMMARY-001-008
     concept: 'diversified-argumentation'
     term: 'argumentación diversificada'

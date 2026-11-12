@@ -9,6 +9,7 @@ vocabulary:
     gender: masculine
     example: 'Veo programas de actualidad para informarme.'
     exampleTranslation: 'I watch current affairs programmes to stay informed.'
+  # REVIEW #185 (B): Pre-existing item. "noticiero" is mainly Latin American; Spain says "telediario" or "informativo". Consider: informativo.
   - id: es-ES-B2-SPOKEN-002-002
     concept: 'news-broadcast'
     term: 'noticiero'

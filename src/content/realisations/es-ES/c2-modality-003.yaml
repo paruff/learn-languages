@@ -9,6 +9,7 @@ vocabulary:
     gender: feminine
     example: 'Entiendo toda forma de lengua hablada, incluyendo acentos variados.'
     exampleTranslation: 'I understand all forms of spoken language, including varied accents.'
+  # REVIEW #185 (B): See C2-MODALITY-001-008 ("velocidad nativa").
   - id: es-ES-C2-MODALITY-003-002
     concept: 'native-speed'
     term: 'velocidad nativa'
@@ -33,6 +34,7 @@ vocabulary:
     gender: feminine
     example: 'Sigo emisiones en directo sin perder detalles.'
     exampleTranslation: 'I follow live broadcasts without missing details.'
+  # REVIEW #185 (C): Pre-existing item. Example "en vivo" is Latin American; Spain says "en directo". "retransmisión" is the usual Spanish noun. Consider: retransmisión.
   - id: es-ES-C2-MODALITY-003-005
     concept: 'broadcast'
     term: 'transmisión'
@@ -57,12 +59,13 @@ vocabulary:
     gender: feminine
     example: 'Tengo una comprensión auditiva rápida en cualquier registro.'
     exampleTranslation: 'I have rapid listening comprehension in any register.'
+  # REVIEW #185 (B): See C2-MODALITY-001-008 ("habla nativa rápida").
   - id: es-ES-C2-MODALITY-003-008
     concept: 'fast-native-speech'
     term: 'habla nativa rápida'
     translation: 'fast native speech'
     partOfSpeech: phrase
-    gender: masculine
+    gender: feminine
     example: 'Puedo seguir el habla nativa rápida sin dificultad.'
     exampleTranslation: 'I can follow fast native speech without difficulty.'
   - id: es-ES-C2-MODALITY-003-009

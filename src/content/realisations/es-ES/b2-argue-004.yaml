@@ -61,6 +61,7 @@ vocabulary:
     partOfSpeech: phrase
     example: 'Voy a presentar datos que respalden mi postura.'
     exampleTranslation: 'I will present data that support my position.'
+  # REVIEW #185 (A): Shared gloss problem, not an es-ES one: "to expose the argumentation" is a false friend in en-GB ("exponer" = to set out). The Spanish term is fine; the gloss and exampleTranslation mislead. Needs an en-GB decision for every language.
   - id: es-ES-B2-ARGUE-004-009
     concept: 'to-expose-the-argumentation'
     term: 'exponer la argumentación'

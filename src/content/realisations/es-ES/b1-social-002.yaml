@@ -31,6 +31,7 @@ vocabulary:
     gender: feminine
     example: 'Es importante dar tu opinión personal en la conversación.'
     exampleTranslation: 'It is important to give your personal opinion in the conversation.'
+  # REVIEW #185 (B): Pre-existing item. "tema familiar" can be read as "family topic"; it also duplicates the sense of 007 "temas conocidos". The same ambiguity is in the examples of B1-SOCIAL-002-001, B1-TEXT-004-001 and B2-SOCIAL-001-001 ("temas familiares"). Consider: tema conocido / tema cotidiano.
   - id: es-ES-B1-SOCIAL-002-005
     concept: 'familiar-topic'
     term: 'tema familiar'
@@ -68,6 +69,7 @@ vocabulary:
     partOfSpeech: phrase
     example: '¿Puedo dar mi opinión sobre este tema?'
     exampleTranslation: 'Can I give my opinion on this topic?'
+  # REVIEW #185 (B): "escuchar con atención" is "to listen attentively"; the other languages realise this concept as "actively". Consider: escuchar activamente.
   - id: es-ES-B1-SOCIAL-002-010
     concept: 'to-listen-actively'
     term: 'escuchar con atención'

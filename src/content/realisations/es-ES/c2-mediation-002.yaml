@@ -57,6 +57,7 @@ vocabulary:
     gender: masculine
     example: 'Puedo comprender textos de gran exigencia lingüística.'
     exampleTranslation: 'I can comprehend linguistically demanding texts.'
+  # REVIEW #185 (C): Same term and same example sentence as C2-LITERARY-001-008.
   - id: es-ES-C2-MEDIATION-002-008
     concept: 'contemporary-literature'
     term: 'literatura contemporánea'

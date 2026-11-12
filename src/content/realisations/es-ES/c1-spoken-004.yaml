@@ -27,7 +27,7 @@ vocabulary:
     exampleTranslation: 'Even without explicit signals, I understand the context.'
   - id: es-ES-C1-SPOKEN-004-004
     concept: 'implicit-signals'
-    term: 'signales implícitas'
+    term: 'señales implícitas'
     translation: 'implicit signals'
     partOfSpeech: phrase
     gender: feminine
@@ -55,6 +55,7 @@ vocabulary:
     partOfSpeech: phrase
     example: 'Cuando el ponente divaga, hay que leer entre líneas.'
     exampleTranslation: 'When the speaker digresses, you have to read between the lines.'
+  # REVIEW #185 (B): "discurso divagante": "divagante" is rare. pt-PT has "discurso arrastado" (slow, drawn out), so the concept is not stable across languages either. Consider: discurso deshilvanado / discurso inconexo.
   - id: es-ES-C1-SPOKEN-004-008
     concept: 'rambling-speech'
     term: 'discurso divagante'
@@ -85,6 +86,7 @@ vocabulary:
     partOfSpeech: phrase
     example: 'Solo captamos la intención de la pregunta al final de la intervención.'
     exampleTranslation: 'We only grasped the intention of the question at the end of the intervention.'
+  # REVIEW #185 (A): "comunicación sin marcas": I cannot tell what the concept "unmarked communication" means (no discourse markers?). Consider: discurso sin marcadores explícitos.
   - id: es-ES-C1-SPOKEN-004-012
     concept: 'unmarked-communication'
     term: 'comunicación sin marcas'

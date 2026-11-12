@@ -13,6 +13,10 @@ Tracks the CEFR A1–C1 Can-Do statement inventory for **en-GB↔es-ES** against
 - **Verification source:** PCIC (Instituto Cervantes), including the B1/B2/C1/C2 "Niveles de referencia para el español" inventories under the same CVC corpus above.
 - **Review note:** final lexical/usage verification against PCIC remains a required human review step before merge (per intent P6 / spec C6).
 
+## Item audit before PCIC review (#185, 2026-11-12)
+
+Every es-ES B1–C2 item (1,038) was read against its concept, gloss and example by an AI model. Eleven certain errors were corrected and 83 items are marked for human review, each with a `# REVIEW #185` comment in its YAML file and a row in [`es-cefr-review-queue.md`](es-cefr-review-queue.md). This is not the PCIC review: reviewer and date for each level are still _pending_.
+
 **Important — this document does not assume PCIC mirrors Referencial Camões's structure**, per the explicit warning in issue #56. It doesn't: PCIC's Funciones inventory has **6** top-level categories at A1-A2 (vs. Camões's 7), with far more granular numbered subcategories (see below) — confirming the two source documents have genuinely different shapes, and this mapping reflects PCIC's real structure rather than an inherited assumption.
 
 ## TTS voice verification (#40)

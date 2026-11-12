@@ -1,6 +1,7 @@
 nodeId: B1-MEDIA-001
 lang: es-ES
 vocabulary:
+  # REVIEW #185 (C): "boletín de noticias" is understandable; "boletín informativo" is the form I would expect on Spanish radio. Consider: un boletín informativo.
   - id: es-ES-B1-MEDIA-001-001
     concept: 'a-news-bulletin'
     term: 'un boletín de noticias'
@@ -17,6 +18,7 @@ vocabulary:
     gender: n/a
     example: 'La emisión de radio cubrió las elecciones.'
     exampleTranslation: 'The radio broadcast covered the election.'
+  # REVIEW #185 (C): "un documento grabado" is a literal rendering of "a recorded document". Consider: una grabación / material grabado.
   - id: es-ES-B1-MEDIA-001-003
     concept: 'a-recorded-document'
     term: 'un documento grabado'

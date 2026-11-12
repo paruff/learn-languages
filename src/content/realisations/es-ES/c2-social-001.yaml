@@ -1,6 +1,7 @@
 nodeId: C2-SOCIAL-001
 lang: es-ES
 vocabulary:
+  # REVIEW #185 (B): See C2-MODALITY-001-008 ("fluidez nativa").
   - id: es-ES-C2-SOCIAL-001-001
     concept: 'native-fluency'
     term: 'fluidez nativa'
@@ -17,6 +18,7 @@ vocabulary:
     gender: feminine
     example: 'Mi espontaneidad en la conversación es total.'
     exampleTranslation: 'My spontaneity in conversation is complete.'
+  # REVIEW #185 (B): See C2-MODALITY-001-008 ("precisión nativa").
   - id: es-ES-C2-SOCIAL-001-003
     concept: 'native-precision'
     term: 'precisión nativa'

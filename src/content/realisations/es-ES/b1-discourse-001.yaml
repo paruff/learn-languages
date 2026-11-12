@@ -19,7 +19,7 @@ vocabulary:
   - id: es-ES-B1-DISCOURSE-001-003
     concept: 'furthermore'
     term: 'además'
-    translation: 'furthermore / besides'
+    translation: 'furthermore'
     partOfSpeech: conjunction
     example: 'Además, hay que considerar el coste.'
     exampleTranslation: 'Furthermore, we must consider the cost.'

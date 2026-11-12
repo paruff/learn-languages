@@ -17,6 +17,7 @@ vocabulary:
     gender: masculine
     example: 'Adapté mi charla para un público general.'
     exampleTranslation: 'I adapted my talk for a general audience.'
+  # REVIEW #185 (B): Example: "conferencia" is translated "conference"; it more likely means a lecture. "fue dirigida" would more naturally be "estaba dirigida".
   - id: es-ES-C1-ACADEMIC-002-003
     concept: 'specialist-audience'
     term: 'público especializado'
@@ -70,6 +71,7 @@ vocabulary:
     gender: masculine
     example: 'El ponente anunció de antemano el hilo de la argumentación.'
     exampleTranslation: 'The speaker announced the path of the argumentation in advance.'
+  # REVIEW #185 (B): "tiempo de palabra" looks like a calque (pt-PT "tempo de fala"). Consider: gestionar el tiempo de intervención.
   - id: es-ES-C1-ACADEMIC-002-010
     concept: 'to-manage-speaking-time'
     term: 'gestionar el tiempo de palabra'
@@ -77,6 +79,7 @@ vocabulary:
     partOfSpeech: phrase
     example: 'Es fundamental gestionar el tiempo de palabra para no precipitar la conclusión.'
     exampleTranslation: 'It is essential to manage speaking time so as not to rush the conclusion.'
+  # REVIEW #185 (C): Example "Respondió sabiendo refutar sin agresividad" is awkward.
   - id: es-ES-C1-ACADEMIC-002-011
     concept: 'to-refute-without-aggression'
     term: 'refutar sin agresividad'
