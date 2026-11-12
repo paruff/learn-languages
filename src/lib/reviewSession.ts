@@ -36,10 +36,10 @@ export const RELEARN_CRITERION = 1;
 export const NEW_ITEM_COST = 2;
 
 /**
- * Whether a grade updates the card's SM-2 state. A card shown again in the same
- * session (relearning) must not earn a second repetition for a pass, or one
- * sitting would graduate a new word to a 6-day interval and "mastered". A fail
- * still counts, so it resets the card.
+ * Whether a grade updates the card's scheduling state. A card shown again in the
+ * same session (relearning) must not earn a second repetition for a pass, or
+ * one sitting would push a new word days further out than one recall earned.
+ * A fail still counts, so the card comes back sooner.
  */
 export function countsTowardSchedule(seenThisSession: boolean, quality: number): boolean {
   return !seenThisSession || quality < 3;

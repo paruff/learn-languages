@@ -1,4 +1,4 @@
-import { calculateNextReview, gradeToQuality } from '../utils/srs';
+import { SCHEDULER_ID, schedule } from '../utils/srs';
 import { loadState, saveState, type ReviewDirection } from './storage';
 import { appendGrade } from './gradeLog';
 
@@ -14,6 +14,8 @@ export interface ApplyGradeInput {
   countsTowardSchedule: boolean;
   suggestedGrade?: number;
   typedCorrect?: boolean;
+  /** When the grade was given; defaults to the current time. */
+  now?: Date;
 }
 
 /**
@@ -28,7 +30,7 @@ export function applyGrade(input: ApplyGradeInput): { saved: boolean } {
     dir: direction,
     q: uiGrade,
     d: input.day,
-    s: 'sm2',
+    s: SCHEDULER_ID,
     ...(input.suggestedGrade !== undefined
       ? { sg: input.suggestedGrade, ov: input.suggestedGrade !== uiGrade }
       : {}),
@@ -37,7 +39,7 @@ export function applyGrade(input: ApplyGradeInput): { saved: boolean } {
   let saved = appendGrade(sourceLang, targetLang, entry);
   if (input.countsTowardSchedule) {
     const state = loadState(sourceLang, targetLang, direction, itemId);
-    const next = calculateNextReview({ state, quality: gradeToQuality(uiGrade) });
+    const next = schedule(state, uiGrade, input.now ?? new Date());
     saved = saveState(sourceLang, targetLang, direction, itemId, next) && saved;
   }
   return { saved };

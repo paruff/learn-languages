@@ -32,6 +32,8 @@ export default defineConfig({
         branches: 80,
         functions: 90,
         statements: 90,
+        // spec L22 (#247): the scheduler stays fully covered.
+        'src/utils/srs.ts': { lines: 100, branches: 100, functions: 100, statements: 100 },
       },
     },
   },

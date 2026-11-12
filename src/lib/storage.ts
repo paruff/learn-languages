@@ -1,4 +1,4 @@
-import { createInitialState, type SRSState } from '../utils/srs';
+import { createInitialState, parseStoredState, type SRSState } from '../utils/srs';
 
 export type ReviewDirection = 'forward' | 'reverse';
 
@@ -47,18 +47,6 @@ export function readJson<T>(key: string): T | null {
   }
 }
 
-function isSRSState(value: unknown): value is SRSState {
-  const v = value as Partial<SRSState> | null;
-  return (
-    typeof v === 'object' &&
-    v !== null &&
-    Number.isFinite(v.interval) &&
-    Number.isFinite(v.easeFactor) &&
-    Number.isFinite(v.repetitions) &&
-    typeof v.dueDate === 'string'
-  );
-}
-
 function storageKey(
   sourceLang: string,
   targetLang: string,
@@ -68,7 +56,11 @@ function storageKey(
   return `srs:${sourceLang}:${targetLang}:${direction}:${itemId}`;
 }
 
-/** Loads SRS state for one card, scoped by language pair + direction (spec §4.3 I4). */
+/**
+ * Loads SRS state for one card, scoped by language pair + direction (spec §4.3 I4).
+ * A card SM-2 wrote is converted to FSRS here, on read (spec L22), so it is
+ * correct even before `migrateStorage` has rewritten it.
+ */
 export function loadState(
   sourceLang: string,
   targetLang: string,
@@ -76,11 +68,14 @@ export function loadState(
   itemId: string
 ): SRSState {
   const stored = readJson<unknown>(storageKey(sourceLang, targetLang, direction, itemId));
-  return isSRSState(stored) ? stored : createInitialState();
+  return parseStoredState(stored) ?? createInitialState();
 }
 
-/** Version of the stored-state format, also written to backups (spec S11). */
-export const SCHEMA_VERSION = 1;
+/**
+ * Version of the stored-state format, also written to backups (spec S11).
+ * 1: SM-2 cards. 2: FSRS cards (SM-2 fields kept, FSRS fields added; L22).
+ */
+export const SCHEMA_VERSION = 2;
 const SCHEMA_KEY = 'schema-version';
 
 /** True when storage was written by a newer app version: older code must not overwrite it. */
@@ -88,10 +83,46 @@ export function isNewerSchema(): boolean {
   return Number(readItem(SCHEMA_KEY) ?? 0) > SCHEMA_VERSION;
 }
 
+/**
+ * Rewrites every card SM-2 stored as an FSRS card and stamps the schema version
+ * (spec L22, S11). Runs before the first progress write of this version and
+ * after a backup is restored; safe to run any number of times.
+ *
+ * It only ever adds fields to a card: interval, ease, repetitions, due date and
+ * review time stay as they were. The grade log, every other key, and any card
+ * that cannot be read are left untouched. A card whose rewrite fails (storage
+ * full) keeps its SM-2 value and is still converted when read.
+ */
+export function migrateStorage(): { migrated: number; failed: number } {
+  const result = { migrated: 0, failed: 0 };
+  if (isNewerSchema()) return result;
+  const cardKeys: string[] = [];
+  try {
+    for (let i = 0; i < window.localStorage.length; i++) {
+      const key = window.localStorage.key(i);
+      if (key?.startsWith('srs:')) cardKeys.push(key);
+    }
+  } catch {
+    return result;
+  }
+  for (const key of cardKeys) {
+    const stored = readJson<{ stability?: unknown }>(key);
+    const state = parseStoredState(stored);
+    if (state === null || typeof stored?.stability === 'number') continue;
+    if (writeItem(key, JSON.stringify(state))) result.migrated += 1;
+    else result.failed += 1;
+  }
+  // The stamp stops an older build (a tab left open) from writing SM-2 over FSRS cards.
+  if (readItem(SCHEMA_KEY) !== String(SCHEMA_VERSION)) {
+    writeItem(SCHEMA_KEY, String(SCHEMA_VERSION));
+  }
+  return result;
+}
+
 /** Writes a learner-progress value (spec S9: the caller must tell the learner if this returns false). */
 export function writeProgress(key: string, value: string): boolean {
   if (isNewerSchema()) return false;
-  if (readItem(SCHEMA_KEY) === null) writeItem(SCHEMA_KEY, String(SCHEMA_VERSION));
+  if (readItem(SCHEMA_KEY) !== String(SCHEMA_VERSION)) migrateStorage();
   return writeItem(key, value);
 }
 
@@ -259,9 +290,9 @@ function mergeImported(key: string, incoming: string): string {
   if (existing === null) return incoming;
   try {
     if (key.startsWith('srs:')) {
-      const keep = JSON.parse(existing) as Partial<SRSState>;
-      const next = JSON.parse(incoming) as Partial<SRSState>;
-      return isSRSState(keep) && (keep.lastReviewed ?? '') > (next.lastReviewed ?? '')
+      const keep = parseStoredState(JSON.parse(existing));
+      const next = JSON.parse(incoming) as Partial<SRSState> | null;
+      return keep !== null && (keep.lastReviewed ?? '') > (next?.lastReviewed ?? '')
         ? existing
         : incoming;
     }
@@ -292,7 +323,8 @@ export function importProgress(json: string): ImportResult {
   if (typeof file !== 'object' || file === null || file.app !== 'acquira') {
     return { ok: false, error: 'not-acquira' };
   }
-  if (typeof file.version === 'number' && file.version > SCHEMA_VERSION) {
+  // Neither a backup from a newer app nor storage written by one is touched (spec S11).
+  if ((typeof file.version === 'number' && file.version > SCHEMA_VERSION) || isNewerSchema()) {
     return { ok: false, error: 'newer-version' };
   }
   const data = file.data;
@@ -302,8 +334,12 @@ export function importProgress(json: string): ImportResult {
 
   let count = 0;
   for (const [key, value] of entries) {
+    // The backup's schema stamp describes the backup, not this device: never restore it.
+    if (key === SCHEMA_KEY) continue;
     if (isOwnedKey(key) && writeItem(key, mergeImported(key, value as string))) count++;
   }
+  // An older backup holds SM-2 cards: convert them now (spec S11, RK7a).
+  migrateStorage();
   return { ok: true, count };
 }
 

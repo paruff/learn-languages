@@ -16,7 +16,7 @@
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **CEFR-Aligned Content**  | Abstract, language-agnostic Can-Do nodes mapped to per-language realisations (vocabulary, grammar, cultural notes)                                      |
 | **Any Language Pair**     | en-GB, pt-PT, es-ES, de-DE, fr-FR, it-IT all work as source _or_ target — routes and the language-pair selector are derived from content, not hardcoded |
-| **Spaced Repetition**     | SM-2 algorithm with 4-grade recall (Again/Hard/Good/Easy), offline in `localStorage`, scoped per pair _and_ direction                                   |
+| **Spaced Repetition**     | FSRS-6 scheduling with 4-grade recall (Again/Hard/Good/Easy), offline in `localStorage`, scoped per pair _and_ direction                                |
 | **Evidence-Based Review** | Interleaved due-card queue, opt-in typed-recall (generation effect), calibration feedback on over-confident grading                                     |
 | **Transparent Progress**  | Per-skill Can-Do mastery dashboard; exportable, verifiable                                                                                              |
 | **Native Pronunciation**  | Web Speech API, exact-locale voice selection (e.g. `pt-PT` not `pt-BR`, `es-ES` not `es-MX`)                                                            |
@@ -63,7 +63,7 @@ npm run typecheck && npm run lint && npm run test:unit && npm run build
 | SSG                 | Astro 7.x                     |
 | Interactive Islands | Vue 3.5                       |
 | Schema Validation   | Zod 3.x                       |
-| SRS Algorithm       | SM-2 (custom, pure TS)        |
+| SRS Algorithm       | FSRS-6 (custom, pure TS)      |
 | Testing             | Vitest + Playwright           |
 | Deployment          | GitHub Actions → GitHub Pages |
 
@@ -86,13 +86,13 @@ This enables future language pairs (EN→ES, FR→PT, etc.) without duplicating 
 
 ---
 
-## Spaced Repetition (SM-2)
+## Spaced Repetition (FSRS)
 
-- **Algorithm**: SuperMemo SM-2 (pure TypeScript, zero dependencies)
+- **Algorithm**: FSRS-6 with default weights and a 90% target retention (pure TypeScript, no runtime dependency; `spec.md` §2.1). Progress saved under the earlier SM-2 scheduler is migrated on the device
 - **Grades**: Again (1) / Hard (2) / Good (3) / Easy (4)
 - **Storage**: `localStorage` scoped by `languagePair:direction:itemId`
 - **Mastery**: Interval ≥ 21 days
-- **Test Coverage**: 100% (unit tests in `src/lib/srs.test.ts`)
+- **Test Coverage**: 100% (property and unit tests in `src/utils/srs.property.test.ts`, `src/utils/srs.test.ts`)
 
 ---
 
@@ -219,6 +219,6 @@ Content authored for this project is CC-BY-4.0.
 ## Acknowledgments
 
 - **Referencial Camões PLE** — Authoritative CEFR reference for Portuguese
-- **SuperMemo SM-2** — Proven spaced repetition algorithm
+- **FSRS** (open-spaced-repetition; Ye, Su & Cao 2022) — the scheduling model. **SuperMemo SM-2** was the scheduler before it
 - **Astro** — Islands architecture for optimal static sites
 - **GitHub Pages** — Free, reliable static hosting
