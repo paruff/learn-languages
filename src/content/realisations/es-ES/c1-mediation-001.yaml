@@ -67,6 +67,7 @@ vocabulary:
     partOfSpeech: phrase
     example: 'El mediador tiende puentes entre el público técnico y el general.'
     exampleTranslation: 'The mediator bridges between the technical and general audiences.'
+  # REVIEW #185 (C): Concept "to rewrite the explanation"; term "reformular" (the exampleTranslation says "reformulated"). Consider: reescribir la explicación.
   - id: es-ES-C1-MEDIATION-001-010
     concept: 'to-rewrite-the-explanation'
     term: 'reformular la explicación'

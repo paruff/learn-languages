@@ -55,6 +55,7 @@ vocabulary:
     partOfSpeech: phrase
     example: 'Puedo leer con autonomía sobre temas conocidos.'
     exampleTranslation: 'I can read independently about familiar topics.'
+  # REVIEW #185 (C): Example "Voy a comprender textos de dificultad media" is unnatural.
   - id: es-ES-B2-TEXT-001-008
     concept: 'to-understand-texts-of-medium-difficulty'
     term: 'comprender textos de dificultad media'

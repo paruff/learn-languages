@@ -41,6 +41,7 @@ vocabulary:
     gender: n/a
     example: 'Te diré la idea general.'
     exampleTranslation: 'I will tell you the gist of it.'
+  # REVIEW #185 (C): "debate" for "a discussion": same register question as B1-LISTEN-001-004. Consider: una conversación.
   - id: es-ES-B1-RECAP-001-006
     concept: 'a-discussion'
     term: 'debate'

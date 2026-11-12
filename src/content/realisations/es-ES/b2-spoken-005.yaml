@@ -17,6 +17,7 @@ vocabulary:
     gender: n/a
     example: 'Tuvo que improvisar cuando el público hizo preguntas inesperadas.'
     exampleTranslation: 'She had to improvise when the audience asked unexpected questions.'
+  # REVIEW #185 (C): "retomar un punto" for "to follow up on a point": same question as B1-SOCIAL-004-010.
   - id: es-ES-B2-SPOKEN-005-003
     concept: 'to-follow-up-on-a-point'
     term: 'retomar un punto'
@@ -41,6 +42,7 @@ vocabulary:
     gender: n/a
     example: 'Los buenos oradores interactúan con su público de forma natural.'
     exampleTranslation: 'Good speakers engage with their audience naturally.'
+  # REVIEW #185 (B): Term includes "saber", which the concept does not. Already listed in es-cefr-mapping.md. Consider: reaccionar sobre la marcha / improvisar sobre la marcha.
   - id: es-ES-B2-SPOKEN-005-006
     concept: 'to-think-on-one-s-feet'
     term: 'saber reaccionar sobre la marcha'

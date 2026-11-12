@@ -81,6 +81,7 @@ vocabulary:
     partOfSpeech: phrase
     example: 'Es útil usar marcadores del discurso para organizar las ideas.'
     exampleTranslation: 'It is useful to use discourse markers to organise ideas.'
+  # REVIEW #185 (C): "cerrar el razonamiento" for "to conclude the reasoning". Consider: concluir el razonamiento.
   - id: es-ES-B2-ARGUE-003-012
     concept: 'to-conclude-the-reasoning'
     term: 'cerrar el razonamiento'

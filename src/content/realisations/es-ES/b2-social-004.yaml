@@ -29,7 +29,7 @@ vocabulary:
     translation: 'precision'
     partOfSpeech: noun
     gender: feminine
-    example: 'Hablo con precisidad sobre temas complejos.'
+    example: 'Hablo con precisión sobre temas complejos.'
     exampleTranslation: 'I speak with precision about complex topics.'
   - id: es-ES-B2-SOCIAL-004-005
     concept: 'meaning'
@@ -41,7 +41,7 @@ vocabulary:
     exampleTranslation: 'I want the meaning of my argument to be clear.'
   - id: es-ES-B2-SOCIAL-004-006
     concept: 'to-nuance'
-    term: 'matisar'
+    term: 'matizar'
     translation: 'to nuance'
     partOfSpeech: verb
     example: 'Es importante matizar las opiniones para ser justo.'
@@ -74,6 +74,7 @@ vocabulary:
     partOfSpeech: phrase
     example: 'Puedo ejemplificar con situaciones reales.'
     exampleTranslation: 'I can exemplify with real situations.'
+  # REVIEW #185 (A): Concept is "to reinterpret the idea" (pt-PT "reinterpretar", fr-FR "réinterpréter"); the term "reformular" means to rephrase, and the exampleTranslation says "reformulate". de-DE also chose "neu formulieren", so the concept itself may be the problem. Consider: reinterpretar la idea.
   - id: es-ES-B2-SOCIAL-004-011
     concept: 'to-reinterpret-the-idea'
     term: 'reformular la idea'

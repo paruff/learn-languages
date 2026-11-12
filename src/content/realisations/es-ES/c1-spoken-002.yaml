@@ -48,6 +48,7 @@ vocabulary:
     gender: feminine
     example: 'Hablo con naturalidad y seguridad.'
     exampleTranslation: 'I speak with naturalness and confidence.'
+  # REVIEW #185 (C): "ir al grano" is "to get to the point"; the concept is "to get down to business" (pt-PT "deitar mãos ao assunto"). Consider: ponerse manos a la obra.
   - id: es-ES-C1-SPOKEN-002-007
     concept: 'to-get-down-to-business'
     term: 'ir al grano'
@@ -55,6 +56,7 @@ vocabulary:
     partOfSpeech: phrase
     example: 'Basta de rodeos; vayamos al grano.'
     exampleTranslation: "Enough beating about the bush; let's get down to business."
+  # REVIEW #185 (A): Shared gloss problem already recorded in es-cefr-mapping.md: the en-GB gloss mistranslates pt-PT "cair que nem ginjas" (to fit perfectly). The Spanish item translates the wrong gloss. Needs a concept decision first. Consider: venir como anillo al dedo (if the concept becomes "to fit perfectly").
   - id: es-ES-C1-SPOKEN-002-008
     concept: 'a-wild-and-uncalled-for-addition'
     term: 'un añadido descabellado'
@@ -63,6 +65,7 @@ vocabulary:
     gender: masculine
     example: 'Ese comentario fue un añadido descabellado y fuera de lugar en la discusión.'
     exampleTranslation: 'That comment was a wild and uncalled-for addition to the discussion.'
+  # REVIEW #185 (C): "tener paciencia de santo": check the usual form. Consider: tener más paciencia que un santo.
   - id: es-ES-C1-SPOKEN-002-009
     concept: 'to-have-the-patience-of-a-saint'
     term: 'tener paciencia de santo'

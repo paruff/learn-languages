@@ -41,6 +41,7 @@ vocabulary:
     gender: n/a
     example: 'Explicó el proceso paso a paso.'
     exampleTranslation: 'He explained the process step by step.'
+  # REVIEW #185 (B): "equipos comunes" is a literal rendering of "common equipment" (everyday appliances). Consider: aparatos de uso corriente.
   - id: es-ES-B1-INSTRUCT-001-006
     concept: 'common-equipment'
     term: 'equipos comunes'

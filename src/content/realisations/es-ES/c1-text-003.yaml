@@ -86,6 +86,7 @@ vocabulary:
     gender: feminine
     example: 'La postura estética del autor divide a la crítica.'
     exampleTranslation: "The author's aesthetic stance divides the critics."
+  # REVIEW #185 (A): Concept "Lusophone flavour" is specific to Portuguese. The card would show the gloss "Lusophone flavour" for "sabor hispánico". The concept needs a language-neutral name, or es-ES should not carry it.
   - id: es-ES-C1-TEXT-003-012
     concept: 'lusophone-flavour'
     term: 'sabor hispánico'

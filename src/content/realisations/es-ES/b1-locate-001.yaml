@@ -1,6 +1,7 @@
 nodeId: B1-LOCATE-001
 lang: es-ES
 vocabulary:
+  # REVIEW #185 (B): "hojear" is to leaf through; the concept is scanning for specific information (fr-FR "parcourir", de-DE "überfliegen"). Already listed in es-cefr-mapping.md. Consider: leer por encima / echar un vistazo a un texto.
   - id: es-ES-B1-LOCATE-001-001
     concept: 'to-scan-a-text'
     term: 'hojear un texto'

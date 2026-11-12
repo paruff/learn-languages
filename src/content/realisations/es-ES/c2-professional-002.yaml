@@ -1,6 +1,7 @@
 nodeId: C2-PROFESSIONAL-002
 lang: es-ES
 vocabulary:
+  # REVIEW #185 (A): Pre-existing item. "comando del idioma" is wrong: "comando" does not mean mastery. I did not change it because replacing a released word needs a human decision (spec C12). Consider: dominio del idioma.
   - id: es-ES-C2-PROFESSIONAL-002-001
     concept: 'command-of-the-language'
     term: 'comando del idioma'
@@ -33,6 +34,7 @@ vocabulary:
     gender: masculine
     example: 'Mi uso flexible del idioma es adecuado para cualquier contexto.'
     exampleTranslation: 'My flexible use of language is appropriate for any context.'
+  # REVIEW #185 (B): Pre-existing item. See C2-MODALITY-001-008 ("comunicación nativa").
   - id: es-ES-C2-PROFESSIONAL-002-005
     concept: 'native-communication'
     term: 'comunicación nativa'
@@ -41,6 +43,7 @@ vocabulary:
     gender: feminine
     example: 'Mi comunicación se aproxima al nivel nativo.'
     exampleTranslation: 'My communication approaches native level.'
+  # REVIEW #185 (B): Pre-existing item. See C2-MODALITY-001-008 ("precisión nativa").
   - id: es-ES-C2-PROFESSIONAL-002-006
     concept: 'native-precision'
     term: 'precisión nativa'
@@ -57,6 +60,7 @@ vocabulary:
     gender: feminine
     example: 'Hablo con fluidez espontánea en cualquier contexto.'
     exampleTranslation: 'I speak with spontaneous fluency in any context.'
+  # REVIEW #185 (B): See C2-MODALITY-001-008 ("vocabulario nativo").
   - id: es-ES-C2-PROFESSIONAL-002-008
     concept: 'native-vocabulary'
     term: 'vocabulario nativo'

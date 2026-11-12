@@ -73,6 +73,7 @@ vocabulary:
     gender: masculine
     example: 'El punto de vista personal da coherencia a toda la crónica.'
     exampleTranslation: 'The personal point of view lends coherence to the whole chronicle.'
+  # REVIEW #185 (C): "salvedades honestas" is a literal rendering of "honest caveats".
   - id: es-ES-C1-WRITTEN-003-010
     concept: 'honest-caveats'
     term: 'salvedades honestas'
@@ -81,6 +82,7 @@ vocabulary:
     gender: feminine
     example: 'Las salvedades honestas dan credibilidad al relato.'
     exampleTranslation: 'The honest caveats lend credibility to the account.'
+  # REVIEW #185 (A): "efecto de un solo aliento" looks like a calque of pt-PT "de um só fôlego". Consider: (leerse) de un tirón.
   - id: es-ES-C1-WRITTEN-003-011
     concept: 'a-one-breath-effect'
     term: 'efecto de un solo aliento'

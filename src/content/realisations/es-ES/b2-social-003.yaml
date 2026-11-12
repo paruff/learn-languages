@@ -52,6 +52,7 @@ vocabulary:
     partOfSpeech: phrase
     example: 'Necesito justificar mi decisión con datos.'
     exampleTranslation: 'I need to justify my decision with facts.'
+  # REVIEW #185 (B): Term says "defender" (defend) for concept "to sustain the opinion"; overlaps 012 "defender mi postura". Consider: sostener la opinión.
   - id: es-ES-B2-SOCIAL-003-008
     concept: 'to-sustain-the-opinion'
     term: 'defender la opinión'

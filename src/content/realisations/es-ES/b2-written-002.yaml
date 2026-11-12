@@ -55,6 +55,7 @@ vocabulary:
     partOfSpeech: phrase
     example: 'Voy a redactar un ensayo que desarrolle un argumento.'
     exampleTranslation: 'I will write an essay that develops an argument.'
+  # REVIEW #185 (A): Shared gloss problem: "to elaborate a report" is a false friend in en-GB ("elaborar" = to draw up, to prepare). The Spanish term is fine; the gloss and exampleTranslation mislead. Needs an en-GB decision.
   - id: es-ES-B2-WRITTEN-002-008
     concept: 'to-elaborate-a-report'
     term: 'elaborar un informe'

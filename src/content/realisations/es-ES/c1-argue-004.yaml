@@ -41,11 +41,11 @@ vocabulary:
     exampleTranslation: 'I conduct a critical examination of the existing literature.'
   - id: es-ES-C1-ARGUE-004-006
     concept: 'rhetoric'
-    term: 'rétor'
+    term: 'retórica'
     translation: 'rhetoric'
     partOfSpeech: noun
     gender: feminine
-    example: 'La rétora es una herramienta poderosa en la argumentación.'
+    example: 'La retórica es una herramienta poderosa en la argumentación.'
     exampleTranslation: 'Rhetoric is a powerful tool in argumentation.'
   - id: es-ES-C1-ARGUE-004-007
     concept: 'to-defend-with-arguments'

@@ -62,7 +62,7 @@ vocabulary:
     concept: 'following'
     term: 'tras'
     translation: 'following'
-    partOfSpeech: phrase
+    partOfSpeech: preposition
     example: 'Tras la reunión, tomamos una decisión.'
     exampleTranslation: 'Following the meeting, we made a decision.'
   - id: es-ES-B1-DISCOURSE-002-010
