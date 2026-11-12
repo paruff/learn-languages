@@ -808,7 +808,7 @@ for (const n of await getCollection('cefr-nodes')) {
     if (!item) return;
 
     // Typed-vs-correct is a hint for the learner's own self-grade below, not
-    // an automatic grade override — SM-2 grading stays learner-driven either
+    // an automatic grade override — grading stays learner-driven either
     // way (issue #45's explicit requirement).
     const answer = backOf(item).term;
     const suggestion = suggestGrade(typeInputEl.value, answer);
@@ -885,7 +885,7 @@ for (const n of await getCollection('cefr-nodes')) {
     // L26/L33: the grade the typed check suggested (if any), to log whether the learner overrode it.
     const suggestedBtn = gradesEl.querySelector<HTMLElement>('[data-suggested]');
     const suggestedGrade = suggestedBtn ? Number(suggestedBtn.dataset.quality) : undefined;
-    // A pass on a repeat showing in the same session doesn't count as another SM-2 review.
+    // A pass on a repeat showing in the same session doesn't count as another scheduled review.
     const { saved } = applyGrade({
       sourceLang,
       targetLang,
@@ -903,7 +903,7 @@ for (const n of await getCollection('cefr-nodes')) {
 
     // A failed recall ("Again") reappears a few cards later in this same
     // session for another retrieval attempt, rather than waiting for its
-    // SM-2 due date tomorrow. Known words get one retry; a new word keeps
+    // due date. Known words get one retry; a new word keeps
     // coming back until it is recalled after an intervening card (L23).
     const remaining = criterionLeft.get(item.target.id);
     // Only a return visit counts: the first showing introduces the word, so the

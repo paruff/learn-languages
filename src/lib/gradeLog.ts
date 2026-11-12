@@ -1,4 +1,5 @@
 import { readJson, writeProgress } from './storage';
+import { LEGACY_SCHEDULER_ID } from '../utils/srs';
 
 /** One graded review. `q` is the UI grade (1=Again, 2=Hard, 3=Good, 4=Easy); `d` is YYYY-MM-DD. */
 export interface GradeEntry {
@@ -6,7 +7,7 @@ export interface GradeEntry {
   dir: 'forward' | 'reverse';
   q: number;
   d: string;
-  /** Scheduler id (absent = 'sm2'), so metrics stay comparable across schedulers (spec L33). */
+  /** Scheduler id (absent = 'sm2', the scheduler before FSRS), so metrics are kept per scheduler (spec L33). */
   s?: string;
   /** Grade the app suggested in typed mode (UI scale), if any. */
   sg?: number;
@@ -56,22 +57,40 @@ export interface Retention {
 }
 
 /**
- * Delayed recall (spec M2): of reviews made at least 7 days after that card's
- * previous review, the share graded Good/Easy. Directions are separate cards.
+ * Delayed recall (spec M2) per scheduler id (spec L33): of reviews made at
+ * least 7 days after that card's previous review, the share graded Good/Easy.
+ * Directions are separate cards.
+ *
+ * A delayed review tests the gap chosen at the previous review, so it is
+ * counted under the scheduler that logged that previous review. The first
+ * FSRS review of a card SM-2 scheduled is therefore an SM-2 result, and no
+ * review drops out of the metric when the scheduler changes (L22).
  */
-export function computeRetention(log: GradeEntry[], scheduler = 'sm2'): Retention {
-  const last = new Map<string, string>();
-  let opportunities = 0;
-  let recalled = 0;
+export function computeRetentionByScheduler(log: GradeEntry[]): Record<string, Retention> {
+  const last = new Map<string, GradeEntry>();
+  const out: Record<string, Retention> = {};
   for (const e of log) {
-    if ((e.s ?? 'sm2') !== scheduler) continue;
     const k = `${e.dir}:${e.item}`;
     const prev = last.get(k);
-    if (prev !== undefined && dayNumber(e.d) - dayNumber(prev) >= DELAY_DAYS) {
-      opportunities += 1;
-      if (e.q >= CONFIDENT) recalled += 1;
+    if (prev !== undefined && dayNumber(e.d) - dayNumber(prev.d) >= DELAY_DAYS) {
+      const r = (out[prev.s ?? LEGACY_SCHEDULER_ID] ??= { opportunities: 0, recalled: 0, rate: 0 });
+      r.opportunities += 1;
+      if (e.q >= CONFIDENT) r.recalled += 1;
+      r.rate = r.recalled / r.opportunities;
     }
-    last.set(k, e.d);
+    last.set(k, e);
+  }
+  return out;
+}
+
+/** Delayed recall (spec M2) for one scheduler id, or across all of them when none is given. */
+export function computeRetention(log: GradeEntry[], scheduler?: string): Retention {
+  let opportunities = 0;
+  let recalled = 0;
+  for (const [id, r] of Object.entries(computeRetentionByScheduler(log))) {
+    if (scheduler !== undefined && id !== scheduler) continue;
+    opportunities += r.opportunities;
+    recalled += r.recalled;
   }
   return { opportunities, recalled, rate: opportunities ? recalled / opportunities : null };
 }

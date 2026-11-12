@@ -32,6 +32,7 @@ describe('buildSessionReport (spec M1)', () => {
         'nextSession',
         'pair',
         'retention',
+        'retentionByScheduler',
         'returned',
         'reviews',
       ].sort()

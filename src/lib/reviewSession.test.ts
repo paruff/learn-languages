@@ -151,7 +151,7 @@ describe('successive relearning (L23)', () => {
   });
 });
 
-describe('countsTowardSchedule (a same-session repeat is not a new SM-2 review)', () => {
+describe('countsTowardSchedule (a same-session repeat is not a new scheduled review)', () => {
   it('always counts the first grade of a card in a session', () => {
     for (const q of [0, 1, 3, 4, 5]) expect(countsTowardSchedule(false, q)).toBe(true);
   });

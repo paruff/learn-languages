@@ -1,4 +1,10 @@
-import { computeRetention, computeReturn, summariseLog, type GradeEntry } from './gradeLog';
+import {
+  computeRetention,
+  computeRetentionByScheduler,
+  computeReturn,
+  summariseLog,
+  type GradeEntry,
+} from './gradeLog';
 
 interface ReportInput {
   sourceLang: string;
@@ -26,6 +32,8 @@ export function buildSessionReport(input: ReportInput): string {
     lastDay: summary.lastDay,
     gradeMix: summary.gradeMix,
     retention: computeRetention(input.log),
+    // L33: one series per scheduler, so SM-2 and FSRS (L22) results are never pooled unseen.
+    retentionByScheduler: computeRetentionByScheduler(input.log),
     returned: computeReturn(input.log),
     levels: input.levels,
     nextSession: input.nextSession,

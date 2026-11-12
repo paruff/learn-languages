@@ -45,6 +45,48 @@ test.describe('review session', () => {
     expect(reps).toBe(2);
   });
 
+  test('SM-2 progress from before FSRS is migrated in place, with nothing lost (L22, S11)', async ({
+    page,
+  }) => {
+    const sm2 = {
+      interval: 38,
+      easeFactor: 2.36,
+      repetitions: 4,
+      dueDate: '2099-01-01T00:00:00.000Z',
+      lastReviewed: '2026-10-01T09:00:00.000Z',
+    };
+    const log = [
+      { item: 'old-item', dir: 'forward', q: 3, d: '2026-09-01' },
+      { item: 'old-item', dir: 'forward', q: 3, d: '2026-10-01' },
+    ];
+    await page.evaluate(
+      ([card, entries]) => {
+        window.localStorage.setItem('schema-version', '1');
+        window.localStorage.setItem('srs:en-GB:pt-PT:forward:old-item', JSON.stringify(card));
+        window.localStorage.setItem('grade-log:en-GB:pt-PT', JSON.stringify(entries));
+      },
+      [sm2, log] as const
+    );
+    await page.reload();
+    await page.locator('#review-reveal').click();
+    await page.locator('#review-grades button[data-quality="3"]').click();
+
+    const stored = await page.evaluate(() => ({
+      version: window.localStorage.getItem('schema-version'),
+      card: JSON.parse(window.localStorage.getItem('srs:en-GB:pt-PT:forward:old-item')!),
+      log: JSON.parse(window.localStorage.getItem('grade-log:en-GB:pt-PT')!),
+    }));
+    expect(stored.version).toBe('2');
+    // Every SM-2 field is still there; FSRS fields were added beside them.
+    expect(stored.card).toMatchObject(sm2);
+    expect(stored.card.stability).toBe(38);
+    expect(stored.card.difficulty).toBeGreaterThanOrEqual(1);
+    // Both old reviews are kept, followed by the new one, logged under FSRS.
+    expect(stored.log.slice(0, 2)).toEqual(log);
+    expect(stored.log).toHaveLength(3);
+    expect(stored.log[2].s).toBe('fsrs6');
+  });
+
   test('network voices are opt-in and the choice persists (Q10)', async ({ page }) => {
     const box = page.locator('#review-tts-network');
     await page.locator('#review-reveal').click();
@@ -88,7 +130,7 @@ test.describe('review session', () => {
     // (denominator) is the session size, not the remaining due count.
     await expect(progress).toHaveText(`1 of ${totalCount}`);
 
-    // The SM-2 state actually landed in localStorage, not just the UI.
+    // The scheduler state actually landed in localStorage, not just the UI.
     const savedKeys = await page.evaluate(() =>
       Object.keys(window.localStorage).filter((key) => key.startsWith('srs:en-GB:pt-PT:forward:'))
     );
@@ -99,9 +141,11 @@ test.describe('review session', () => {
       savedKeys[0]
     );
     expect(savedState.repetitions).toBe(1);
-    expect(savedState.interval).toBe(1);
+    // FSRS (L22): a new word graded Easy starts 8 days out.
+    expect(savedState.interval).toBe(8);
+    expect(savedState.stability).toBeGreaterThan(0);
 
-    // Reloading re-filters by due date — the graded card (due tomorrow)
+    // Reloading re-filters by due date — the graded card (due in 8 days)
     // should no longer appear in today's queue. This is the real proof
     // that SRS state persists across page loads, not just within one.
     //
@@ -306,7 +350,7 @@ test.describe('review session', () => {
     // the session's total (denominator) doesn't shrink...
     await expect(progress).toHaveText(`1 of ${totalCount}`);
 
-    // ...and the SM-2 state is still persisted as a real failure (reset).
+    // ...and the state is still persisted as a real failure (due tomorrow).
     const savedKeys = await page.evaluate(() =>
       Object.keys(window.localStorage).filter((key) => key.startsWith('srs:en-GB:pt-PT:forward:'))
     );

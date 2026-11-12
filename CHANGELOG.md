@@ -17,6 +17,14 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · Versioning: 
 
 - de-DE and es-ES B1–B2 now cover every shared node: 19 missing nodes (17 at B1, 2 at B2) per language, six concept-keyed items each. The coverage baseline drops from 31 to 12 missing nodes for both languages. Native / PCIC review is still pending (#143, #185).
 
+### Changed
+
+- Reviews are scheduled with FSRS-6 instead of SM-2 (L22, #247): each word comes back when you would still remember it about nine times in ten. A forgotten word no longer restarts from one day with nothing kept, and a word remembered after a longer gap than planned is credited for it. First intervals are now 1, 1, 2 and 8 days for Again, Hard, Good and Easy; a word can reach "mastered" (21 days) on its third pass instead of its fourth.
+- Existing progress is migrated on the device, with nothing lost: every SM-2 card keeps its due date, interval, ease and repetition count and gains the FSRS fields; the review history is untouched. Stored state and backups are now schema version 2; version-1 backups still restore and are migrated (S11).
+- The session report gives delayed recall per scheduler (`retentionByScheduler`), so SM-2 and FSRS results are not pooled (L33). A delayed review counts under the scheduler that chose its gap.
+- Restoring a backup no longer overwrites storage written by a newer version of the app, and never lowers the stored schema version (S11).
+- Measured, not assumed: in a simulated year FSRS at a 90% target needs about as many reviews as the old SM-2 (7.35 against 7.08 per card), not fewer. See spec §2.1.
+
 ### Fixed
 
 - "Mastered" now means a card scheduled at least 21 days out (spec L9, intent SIG4), not two passes in a row (about 6 days). Mastery percentages on Progress, Lessons and the session summary will read lower than before.

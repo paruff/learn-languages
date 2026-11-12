@@ -11,7 +11,7 @@
 The learning loop is the product. A feature must strengthen one of these mechanisms (or remove friction from it); anything else is polish, and polish waits (intent P1). Requirements are in `spec.md` §2; evidence in `docs/learning-science-references.md`.
 
 - **Retrieval:** prompt → attempt → reveal → self-grade; the answer never shows first (L1, `review.astro`)
-- **Spacing:** SM-2 in `src/utils/srs.ts` (L2; FSRS planned, L22)
+- **Spacing:** FSRS-6 in `src/utils/srs.ts` (L22; it replaced SM-2, L2)
 - **Interleaving:** the due queue is round-robined across nodes (L3, `src/lib/reviewSession.ts`)
 - **Generation:** opt-in typed recall (L4, L26)
 - **Calibration:** confident grades soon followed by Again/Hard are flagged (L5)
