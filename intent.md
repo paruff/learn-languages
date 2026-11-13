@@ -13,7 +13,7 @@ Independent adult language learners with fragmented time (commutes, 5–10 minut
 - **Built on how memory actually works** (retrieval practice, spacing, interleaving), not on engagement mechanics
 - **Respectful**: no account, no ads, no streak-guilt, no tracking, works offline
 
-Existing options make trade-offs: Duolingo is gamified, Babbel needs a backend account, and most apps don't trace progress back to CEFR. (Source: `discovery-brief.md` §1, which stays as the historical record.)
+Existing options make trade-offs: Duolingo is gamified, Babbel needs a backend account, and most apps don't trace progress back to CEFR. (Source: `docs/archive/discovery-brief.md` §1, which stays as the historical record.)
 
 ## 2. Who it's for
 
@@ -30,11 +30,11 @@ Existing options make trade-offs: Duolingo is gamified, Babbel needs a backend a
 
 > **A learner who opens Acquira for 10 minutes measurably remembers what they studied of a CEFR-mapped language, comes back the next day without being nagged, and over weeks can _demonstrate_ the CEFR Can-Do statements they studied.**
 
-Success is measured at three levels: _behaviour_ (they return), _memory_ (they retain what they studied) and _ability_ (they can do the Can-Do on items they have not seen). Memory is the learning mechanism (spec §2). Behaviour (_comes back_) is the **biggest unvalidated risk** (discovery-brief §6, R3) and the main thing this repo has to prove next. Ability is measured last (SIG8).
+Success is measured at three levels: _behaviour_ (they return), _memory_ (they retain what they studied) and _ability_ (they can do the Can-Do on items they have not seen). Memory is the learning mechanism (spec §2). Behaviour (_comes back_) is the **biggest unvalidated risk** (`docs/archive/discovery-brief.md` §6; spec RK1) and the main thing this repo has to prove next. Ability is measured last (SIG8).
 
 ## 4. Success signals
 
-Ordered by how soon we can observe them. Earlier signals gate later investment. Cite them as `intent SIG<n>`; `spec.md` has its own S1–S8. Current status is on the board and in `spec.md`, not here.
+Ordered by how soon we can observe them. Earlier signals gate later investment. Cite them as `intent SIG<n>`; `spec.md` has its own S1–S11. Current status is on the board and in `spec.md`, not here.
 
 | ID   | Signal                                                                                                                                        |
 | ---- | --------------------------------------------------------------------------------------------------------------------------------------------- |
