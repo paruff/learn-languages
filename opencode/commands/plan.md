@@ -12,7 +12,7 @@ substitute for invocation.
 Load the `brainstorming` skill and follow its workflow strictly:
 
 1. Explore project context (files, commits, docs — start with `AGENTS.md`,
-   `discovery-brief.md`, `specification-design.md`)
+   `intent.md`, `spec.md`, `plans/README.md`)
 2. Ask clarifying questions one at a time
 3. Propose 2-3 approaches with recommendations
 4. Present design sections for confirmation

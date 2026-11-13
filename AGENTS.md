@@ -22,7 +22,7 @@ The learning loop is the product. A feature must strengthen one of these mechani
 
 Pre-validation: no persona-matched learner has been observed yet, and the biggest risk is that learners don't come back (intent §3). Match process weight to that:
 
-- A thin, working loop in front of real learners beats a complete schema or more content. Goal G1 (#21) gates new content and features (`plans/README.md` Rules).
+- A thin, working loop in front of real learners beats a complete schema or more content. Goal G1 (#269) gates new content and features (`plans/README.md` Rules).
 - CI holds what a pre-launch static site needs. SAST, SBOM and artifact signing were removed on purpose; bring them back once there are real users.
 - Spikes and throwaway prototypes may skip the skill ceremony in §2. Feature and content-model work may not.
 
@@ -47,16 +47,15 @@ Non-negotiable: root cause before a bug fix, a failing test before production co
 
 **Where things live:**
 
-| Document                  | Owns                                                                          |
-| ------------------------- | ----------------------------------------------------------------------------- |
-| `intent.md`               | Why: problem, personas, outcome, success signals, principles, non-goals       |
-| `spec.md`                 | What: requirement IDs, the check that verifies each, status                   |
-| `plans/README.md`         | Order of work: goals G1–G5 and every open issue. Status is on the board (§12) |
-| `DESIGN.md`               | UI/UX design system: cite it for every UI decision                            |
-| `REVIEW.md`               | How to review a change. Copilot code review reads it automatically            |
-| `specification-design.md` | Original architecture, data model and SRS maths. Frozen reference             |
-| `discovery-brief.md`      | Original JTBD, personas and risks. Historical record                          |
-| `CHANGELOG.md`            | Keep a Changelog, updated in the PR that makes the change                     |
+| Document          | Owns                                                                          |
+| ----------------- | ----------------------------------------------------------------------------- |
+| `intent.md`       | Why: problem, personas, outcome, success signals, principles, non-goals       |
+| `spec.md`         | What: requirement IDs, the check that verifies each, status                   |
+| `plans/README.md` | Order of work: goals G1–G5 and every open issue. Status is on the board (§12) |
+| `DESIGN.md`       | UI/UX design system: cite it for every UI decision                            |
+| `REVIEW.md`       | How to review a change. Copilot code review reads it automatically            |
+| `docs/archive/`   | The original discovery brief and design spec. History only: never a source    |
+| `CHANGELOG.md`    | Keep a Changelog, updated in the PR that makes the change                     |
 
 ## 3. GitOps
 

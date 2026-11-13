@@ -8,7 +8,7 @@
 
 ## Overview
 
-**Acquira** delivers structured, CEFR-aligned language learning through a static site deployed to GitHub Pages. It started as European Portuguese only (see `discovery-brief.md` for the original MVP scope) — the abstract CEFR-node + realisation content model proved out past that single pair, and pt-PT/es-ES/de-DE now have full A1–C2 content, with it-IT at A1–B1 plus a C1 slice (B2 in progress) and fr-FR currently complete through B2 (C1/C2 remain lower-priority pending work). No backend, no accounts, no tracking — just evidence-based retrieval-practice principles (spacing, interleaving, generation effect, calibration feedback — see `AGENTS.md` §1.0), SM-2 spaced repetition, and transparent CEFR progress tracking.
+**Acquira** delivers structured, CEFR-aligned language learning through a static site deployed to GitHub Pages. It started as European Portuguese only (see `docs/archive/discovery-brief.md` for the original MVP scope) — the abstract CEFR-node + realisation content model proved out past that single pair, and pt-PT/es-ES/de-DE now have full A1–C2 content, with it-IT at A1–B1 plus a C1 slice (B2 in progress) and fr-FR currently complete through B2 (C1/C2 remain lower-priority pending work). No backend, no accounts, no tracking — just evidence-based retrieval-practice principles (spacing, interleaving, generation effect, calibration feedback — see `AGENTS.md` §1.0), SM-2 spaced repetition, and transparent CEFR progress tracking.
 
 ### Key Features
 
@@ -102,8 +102,6 @@ This enables future language pairs (EN→ES, FR→PT, etc.) without duplicating 
 learn-languages/
 ├── .github/workflows/     # CI/CD pipelines
 ├── .lefthook.yml          # Git hooks (pre-commit, pre-push)
-├── discovery-brief.md     # JTBD, personas, acceptance criteria
-├── specification-design.md # Full technical specification
 ├── src/
 │   ├── components/        # Vue islands + Astro components
 │   ├── content/           # Zod-validated content collections
@@ -199,12 +197,10 @@ npx lefthook install
 
 ## Documentation
 
-| Document                  | Purpose                                                |
-| ------------------------- | ------------------------------------------------------ |
-| `discovery-brief.md`      | Problem, JTBD, personas, acceptance criteria           |
-| `specification-design.md` | Architecture, data model, SRS, UI, testing, deployment |
-| `AGENTS.md`               | Agent governance, GitOps, conventions                  |
-| `CHANGELOG.md`            | Keep a Changelog format                                |
+| Document       | Purpose                               |
+| -------------- | ------------------------------------- |
+| `AGENTS.md`    | Agent governance, GitOps, conventions |
+| `CHANGELOG.md` | Keep a Changelog format               |
 
 ---
 

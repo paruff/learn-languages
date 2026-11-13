@@ -17,6 +17,20 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · Versioning: 
 
 - de-DE and es-ES B1–B2 now cover every shared node: 19 missing nodes (17 at B1, 2 at B2) per language, six concept-keyed items each. The coverage baseline drops from 31 to 12 missing nodes for both languages. Native / PCIC review is still pending (#143, #185).
 
+- es-ES C2: vocabulary so every C2 node covers its shared en-GB concept set (0 missing at C2). Awaiting PCIC review (#185).
+
+- es-ES C1: 147 vocabulary items so every C1 node covers its shared en-GB concept set (0 missing at C1). Awaiting PCIC review (#185).
+
+- es-ES B2: 108 vocabulary items so every B2 node covers its shared en-GB concept set (0 missing at B2). Existing items and ids kept. Awaiting PCIC review (#185).
+
+- es-ES B1: 93 vocabulary items so every B1 node covers its shared en-GB concept set (`report:coverage -- es-ES` shows 0 missing at B1). Existing items and ids kept. Awaiting PCIC review (#185).
+
+- Optional end-of-session prompt "When and where will you do your next 10 minutes?", shown again on the next visit, with a locally generated `.ics` calendar entry; the self-sent report records whether it was used (L21, #243).
+
+- Empty Diff Guard and Coverage Gate CI jobs, plus `npm run check:coverage` with a committed baseline.
+- fr-FR C1 review-session and lesson e2e coverage restored; it-IT A1 review/lesson tests restored and coverage documented honestly (A1 24/24, A2 20/30, B1 35/35).
+- Italian (it-IT) C1 realisations for all 25 shared C1 nodes, aligned concept-by-concept to the en-GB inventory, with a full C1 review session and lesson covered by Playwright (#165, #183).
+
 ### Changed
 
 - Reviews are scheduled with FSRS-6 instead of SM-2 (L22, #247): each word comes back when you would still remember it about nine times in ten. A forgotten word no longer restarts from one day with nothing kept, and a word remembered after a longer gap than planned is credited for it. First intervals are now 1, 1, 2 and 8 days for Again, Hard, Good and Easy; a word can reach "mastered" (21 days) on its third pass instead of its fourth.
@@ -24,6 +38,9 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · Versioning: 
 - The session report gives delayed recall per scheduler (`retentionByScheduler`), so SM-2 and FSRS results are not pooled (L33). A delayed review counts under the scheduler that chose its gap.
 - Restoring a backup no longer overwrites storage written by a newer version of the app, and never lowers the stored schema version (S11).
 - Measured, not assumed: in a simulated year FSRS at a 90% target needs about as many reviews as the old SM-2 (7.35 against 7.08 per card), not fewer. See spec §2.1.
+- CI unit-coverage gate raised to 90% lines, functions and statements and 80% branches (was 80/70/80/80), as the docs already claimed (#276). AGENTS.md trimmed from ~590 to ~220 lines; stale schema, hook and security sections removed (#275).
+- Workflow: status lives on the Acquira project board; goal issues per milestone; owner decisions are `question` issues; new `DESIGN.md` (UI/UX design system) and `REVIEW.md` (code-review guidance); issue and PR templates; Copilot coding-agent setup steps (AGENTS.md §12).
+- Supported-language docs now list it-IT and fr-FR A1–C2; `spec.md` C7 points at the real `concept-images/index.yaml` path.
 
 ### Fixed
 
@@ -41,28 +58,6 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · Versioning: 
 - es-ES B1–C2 content reverted to the last PCIC-reviewed state. The #155 positional concept re-key had paired concepts with unrelated terms (e.g. `to-justify-the-position` with `cuestión de actualidad`) while dual `old / new` glosses passed the pairing gate; re-alignment now requires per-item human review (#185).
 - fr-FR C1: 23 `exampleTranslation` values replaced so lesson pages show a translation of the actual French example instead of an unrelated en-GB sentence.
 - CI: removed the unused import that kept `main` red since #179, and formatted the it-IT A2 YAML that Prettier had never checked.
-
-### Added
-
-- es-ES C2: vocabulary so every C2 node covers its shared en-GB concept set (0 missing at C2). Awaiting PCIC review (#185).
-
-- es-ES C1: 147 vocabulary items so every C1 node covers its shared en-GB concept set (0 missing at C1). Awaiting PCIC review (#185).
-
-- es-ES B2: 108 vocabulary items so every B2 node covers its shared en-GB concept set (0 missing at B2). Existing items and ids kept. Awaiting PCIC review (#185).
-
-- es-ES B1: 93 vocabulary items so every B1 node covers its shared en-GB concept set (`report:coverage -- es-ES` shows 0 missing at B1). Existing items and ids kept. Awaiting PCIC review (#185).
-
-- Optional end-of-session prompt "When and where will you do your next 10 minutes?", shown again on the next visit, with a locally generated `.ics` calendar entry; the self-sent report records whether it was used (L21, #243).
-
-- Empty Diff Guard and Coverage Gate CI jobs, plus `npm run check:coverage` with a committed baseline.
-- fr-FR C1 review-session and lesson e2e coverage restored; it-IT A1 review/lesson tests restored and coverage documented honestly (A1 24/24, A2 20/30, B1 35/35).
-- Italian (it-IT) C1 realisations for all 25 shared C1 nodes, aligned concept-by-concept to the en-GB inventory, with a full C1 review session and lesson covered by Playwright (#165, #183).
-
-### Changed
-
-- CI unit-coverage gate raised to 90% lines, functions and statements and 80% branches (was 80/70/80/80), as the docs already claimed (#276). AGENTS.md trimmed from ~590 to ~220 lines; stale schema, hook and security sections removed (#275).
-- Workflow: status lives on the Acquira project board; goal issues per milestone; owner decisions are `question` issues; new `DESIGN.md` (UI/UX design system) and `REVIEW.md` (code-review guidance); issue and PR templates; Copilot coding-agent setup steps (AGENTS.md §12).
-- Supported-language docs now list it-IT and fr-FR A1–C2; `spec.md` C7 points at the real `concept-images/index.yaml` path.
 
 ## [0.1.0] - 2026-10-04
 

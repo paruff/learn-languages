@@ -4,7 +4,7 @@ Repeatable patterns for creating CEFR nodes and language-pair realisations. This
 
 **Audience:** Contributors authoring new CEFR nodes or realisations (vocabulary, grammar, cultural notes).
 
-**Companion docs:** `specification-design.md` §5 (Content Model), `cefr-mapping.md` (coverage tracker).
+**Companion docs:** `src/content.config.ts` (the schemas; `docs/archive/specification-design.md` §5 is history), `cefr-mapping.md` (coverage tracker).
 
 ---
 
