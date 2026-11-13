@@ -303,11 +303,81 @@ Also applied: findings 5 and 6 (stale plan and spec rows; spec is now version 1.
 
 Not applied, and why:
 
-- Rows D.3, 3.10 and 5.1 say "new (audit 2026-11-12)" in the Issue column. Their issues are created in Phase 3, and the numbers are filled in then.
+- Rows D.3, 3.10 and 5.1 had no issue yet; Phase 3 created #309, #310 and #311 and the rows now cite them.
 - No links were added for the unsourced platform claims in finding 11, because I could not check any link from this environment.
 - Rows 2.7 and 3.3 keep their exit criteria (finding 13); each waits on an owner answer or on data.
 - `intent.md` is untouched on this branch. Its two links to `discovery-brief.md` and the "S1–S8" wording are fixed in a separate `docs(intent):` PR, which should merge after this branch.
 
-## Phase 3 draft
+## Phase 3: GitHub changes (applied 2026-11-13)
 
-Not written yet. Issue and milestone changes will be listed here after Phase 2 is approved. Nothing on GitHub has been changed.
+The owner said "apply" on 2026-11-13. Every change below was made that day and read back from the API afterwards.
+
+### New issues (sized for a cheap model where an agent can do them)
+
+| Issue | Title                                                               | Milestone | Plan row | Who can do it                                                                                         |
+| ----- | ------------------------------------------------------------------- | --------- | -------- | ----------------------------------------------------------------------------------------------------- |
+| #309  | [TEST] Spot-check test for concept, term and gloss triples (C3, C9) | G2        | D.3      | Agent: one test file and one fixture                                                                  |
+| #310  | [CONTENT] Missing nodes below B2: pt-PT 28, de-DE 12, es-ES 12 (C5) | G4        | 3.10     | Step 1 (add pt-PT to the coverage gate) is agent-sized; authoring is gated and needs a human reviewer |
+| #311  | [RELEASE] Tag v0.2.0 before the first invitation wave (C12)         | G5        | 5.1      | Agent for the version and changelog PR; the owner pushes the tag                                      |
+
+### Closed, reopened, retitled, relabelled
+
+| Issue                  | Change                                                                                                               | Finding          |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------- | ---------------- |
+| #266                   | Reopened, with a comment. Body: `SIG1, SIG2`; the passed 2026-10-23 date removed                                     | 1, 10            |
+| #292                   | Closed as completed, with a comment (Q10 shipped)                                                                    | 9                |
+| #200                   | Closed as a duplicate of #195, with a comment (row 2.6 merged into T1.2)                                             | 14               |
+| #195                   | Retitled to add "(Q9, S8, Q3)"; body rewritten with the merged scope and exit criterion; assigned to the owner       | 5, 14            |
+| #307                   | Retitled "Decision: es-ES audit findings — …"; label `question`; assigned to the owner; milestone G2. Body untouched | 9                |
+| #256                   | Retitled "[CONTENT] fr-FR C1 has one word per node (C5)"; body no longer lists it-IT; exit criterion matches row 3.9 | 10               |
+| #268                   | Title "(L20b)"; body `L20b, intent SIG8`                                                                             | 10               |
+| #269                   | Body: `SIG1, SIG2, SIG7`                                                                                             | 10               |
+| #272                   | Body: the G4 gate wording from Rule 1; cites #160 only                                                               | 3, 10            |
+| #267                   | Body footer: "Plan: none (a G1 decision…)"                                                                           | owner decision 4 |
+| #236                   | Body footer: `S6a, S6b, S3`; the dead "row 2.3" reference removed                                                    | 9                |
+| #126, #144, #146, #147 | Copilot unassigned (gated work)                                                                                      | 2                |
+| #21                    | Assigned to the owner                                                                                                | 10               |
+| #185                   | Label `enhancement`                                                                                                  | 10               |
+| #160                   | Label `epic`                                                                                                         | 10               |
+
+### Milestones
+
+| Milestone | Change                                    |
+| --------- | ----------------------------------------- |
+| G1        | Description: `SIG1, SIG2, SIG7`           |
+| G4        | Description: the gate wording from Rule 1 |
+
+Side effect: the environment appended a "Generated by Claude Code" footer to both descriptions. I did not write it and could not suppress it. Remove it in the milestone settings if you do not want it there.
+
+### Not applied, and why
+
+- **Stale references inside #143, #146, #147, #148 and #160** (old paths, "plan.md Later", SM-2, #160's superseded gate checkbox). Fixing them means rewriting long bodies the owner wrote, for no change in what the issues ask for. Left as they are.
+- **#205, #252, #253, #254** (deferred). Issues, labels and milestones are unchanged; the deferral is recorded only in `plans/README.md`. They stay in _Backlog_.
+- **Copilot is still assigned to #143, #148 and #160.** Those goals are open (G2) or have an owner exception (Italian), so the assignment does not break Rule 1. What is left on all three is human review, so you may want to unassign it.
+- **Milestone due dates.** None set; no dates were decided.
+
+### Board moves for the owner to make by hand
+
+This session cannot read or change the Acquira board, so the current Status of each item is unknown to me. This is the Status each should have under AGENTS.md §12 after the changes above; skip any that are already right.
+
+| Item                         | Should be              | Why                                                          |
+| ---------------------------- | ---------------------- | ------------------------------------------------------------ |
+| #269 Goal G1                 | In progress            | Goal is open                                                 |
+| #270 Goal G2                 | In progress            | Open by owner exception                                      |
+| #271 Goal G3                 | Blocked                | Gated on #266                                                |
+| #272 Goal G4                 | Blocked                | Gated on #266 and week-2 returns                             |
+| #273 Goal G5                 | In progress            | Standing goal                                                |
+| #266, #267, #298, #307, #268 | Needs human            | Owner decisions (#268 waits on round-one feedback)           |
+| #236                         | Needs human or Blocked | An owner decision that nothing forces yet                    |
+| #195, #21                    | Needs human            | Device run and learner sessions                              |
+| #143, #185, #160             | Needs human            | Authoring done; waiting on a named reviewer (#298)           |
+| #309                         | Ready for agent        | G2 is open; has spec IDs and an exit criterion               |
+| #311                         | Ready for agent        | G5 is open; has a spec ID and an exit criterion              |
+| #310                         | Backlog                | G4 is gated                                                  |
+| #126, #144, #248, #249, #250 | Backlog                | G3 is gated                                                  |
+| #146, #147, #251, #255, #256 | Backlog                | G4 is gated                                                  |
+| #205, #252, #253, #254       | Backlog                | Deferred                                                     |
+| #148                         | In progress            | Epic for the open G2 work                                    |
+| #200, #292                   | Done                   | Closed; the built-in workflow should already have moved them |
+
+Also check that #309, #310 and #311 are on the board at all. They were created through the API without `--project Acquira`; AGENTS.md §12.1 says new issues are auto-added, but I could not confirm it.
